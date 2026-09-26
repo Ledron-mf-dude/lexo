@@ -4,6 +4,17 @@ import { pickGaps, scrambleLetters } from './text'
 
 export type Source = 'today' | 'new' | 'hard' | 'all' | 'subset'
 export type ModeChoice = 'auto' | 'flashcard' | 'translation' | 'choice' | 'typing' | 'scramble' | 'gaps'
+export type Exercise = Exclude<ModeChoice, 'auto'>
+
+/** In teaching order: recognise first, recall last. A complex always runs its exercises in this order. */
+export const EXERCISES: { value: Exercise; label: string }[] = [
+  { value: 'choice', label: 'Вибір відповіді' },
+  { value: 'flashcard', label: 'Слово → переклад' },
+  { value: 'translation', label: 'Переклад → слово' },
+  { value: 'gaps', label: 'Пропущені літери' },
+  { value: 'scramble', label: 'Складання з літер' },
+  { value: 'typing', label: 'Введення слова' },
+]
 
 export interface SessionConfig {
   source: Source
@@ -11,7 +22,8 @@ export interface SessionConfig {
   subset?: { ids: string[]; title: string }
   tagIds: string[]
   limit: number
-  mode: ModeChoice
+  /** Chosen exercises. Empty = automatic (one adaptive exercise per word); one = that exercise; two or more = a complex. */
+  modes: Exercise[]
 }
 
 export interface Card {
@@ -25,9 +37,17 @@ export interface Card {
   gaps?: number[]
   /** Scramble mode: the term's letters in shuffled order. */
   letters?: string[]
+  /** Whether answering this card updates the word's schedule (in a complex only the last stage does). */
+  commit: boolean
+  /** Complex: this is the word's last stage. */
+  final: boolean
+  /** Complex: which stage (1-based) of how many. */
+  stage?: number
+  stages?: number
+  /** A repeat of a missed card; it never counts as a stage. */
+  retry?: boolean
 }
 
-export const NEW_PER_DAY = 10
 export const HARD_ERRORS = 2
 
 function shuffle<T>(items: T[]): T[] {
@@ -74,7 +94,7 @@ export function pickWords(words: WordWithTags[], progress: Map<string, Progress>
 
   if (config.source === 'today') {
     const due = pool.filter((w) => isDue(p(w), now)).sort((a, b) => +new Date(p(a).due_at) - +new Date(p(b).due_at))
-    const fresh = shuffle(pool.filter((w) => isNew(p(w)))).slice(0, NEW_PER_DAY)
+    const fresh = shuffle(pool.filter((w) => isNew(p(w))))
     picked = [...due, ...fresh]
   } else if (config.source === 'subset') {
     picked = shuffle(pool)
@@ -134,6 +154,7 @@ function pickAuto(term: string, repetitions: number, canChoose: boolean): Resolv
 }
 
 export function makeCard(word: WordWithTags, prog: Progress, all: WordWithTags[], mode: ModeChoice): Card {
+  const base = { commit: true, final: true }
   const canChoose = all.length >= 4
   let resolved: Resolved
   if (mode === 'auto') resolved = pickAuto(word.term, prog.repetitions, canChoose)
@@ -141,9 +162,41 @@ export function makeCard(word: WordWithTags, prog: Progress, all: WordWithTags[]
   else resolved = mode === 'choice' ? 'flashcard' : eligible('typing', word.term, canChoose) ? 'typing' : 'flashcard'
 
   if (resolved === 'choice') {
-    return { word, mode: 'choice', reverse: false, options: shuffle([word.translation, ...distractors(word, all)]) }
+    return { ...base, word, mode: 'choice', reverse: false, options: shuffle([word.translation, ...distractors(word, all)]) }
   }
-  if (resolved === 'gaps') return { word, mode: 'gaps', reverse: true, gaps: pickGaps(word.term) ?? [] }
-  if (resolved === 'scramble') return { word, mode: 'scramble', reverse: true, letters: scrambleLetters(word.term) }
-  return { word, mode: resolved, reverse: resolved === 'translation' || resolved === 'typing' }
+  if (resolved === 'gaps') return { ...base, word, mode: 'gaps', reverse: true, gaps: pickGaps(word.term) ?? [] }
+  if (resolved === 'scramble') return { ...base, word, mode: 'scramble', reverse: true, letters: scrambleLetters(word.term) }
+  return { ...base, word, mode: resolved, reverse: resolved === 'translation' || resolved === 'typing' }
+}
+
+export function eligibleFor(mode: Exercise, word: WordWithTags, all: WordWithTags[]): boolean {
+  return eligible(mode, word.term, all.length >= 4)
+}
+
+/**
+ * The card queue of a session.
+ * - no exercises chosen: one adaptive card per word;
+ * - one exercise: that exercise for every word;
+ * - several (a complex): rounds — everyone does the first exercise, then the second, and so on. An exercise a word cannot do
+ *   (e.g. letter scrambling for a phrase) is skipped for that word only.
+ */
+export function buildQueue(words: WordWithTags[], progress: Map<string, Progress>, all: WordWithTags[], modes: Exercise[]): Card[] {
+  const prog = (w: WordWithTags) => progress.get(w.id)!
+  if (modes.length < 2) return words.map((w) => makeCard(w, prog(w), all, modes[0] ?? 'auto'))
+
+  const ordered = EXERCISES.map((e) => e.value).filter((m) => modes.includes(m))
+  const plan = new Map(words.map((w) => [w.id, ordered.filter((m) => eligibleFor(m, w, all))]))
+  const queue: Card[] = []
+  for (const mode of ordered) {
+    for (const w of shuffle(words)) {
+      const mine = plan.get(w.id)!
+      const stage = mine.indexOf(mode)
+      if (stage < 0) continue
+      const card = makeCard(w, prog(w), all, mode)
+      queue.push({ ...card, stage: stage + 1, stages: mine.length, final: stage === mine.length - 1, commit: stage === mine.length - 1 })
+    }
+  }
+  // A word that cannot do any chosen exercise still gets one card.
+  for (const w of words) if (plan.get(w.id)!.length === 0) queue.push(makeCard(w, prog(w), all, 'auto'))
+  return queue
 }

@@ -4,18 +4,34 @@ import { useLocation } from 'react-router-dom'
 import Session from '../components/practice/Session'
 import { useAuth } from '../lib/auth'
 import { useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
-import { NEW_PER_DAY, countSources, pickWords, type ModeChoice, type SessionConfig, type Source } from '../lib/session'
+import { EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
 import type { Progress } from '../types'
 
-const modes: { value: ModeChoice; label: string }[] = [
-  { value: 'auto', label: 'Авто' },
-  { value: 'flashcard', label: 'Слово → переклад' },
-  { value: 'translation', label: 'Переклад → слово' },
-  { value: 'choice', label: 'Вибір відповіді' },
-  { value: 'typing', label: 'Введення слова' },
-  { value: 'scramble', label: 'Складання з літер' },
-  { value: 'gaps', label: 'Пропущені літери' },
+// Ready-made complexes: every word goes through all of the listed exercises in one session.
+const PRESETS: { label: string; modes: Exercise[] }[] = [
+  { label: 'Швидкий: вибір + введення', modes: ['choice', 'typing'] },
+  { label: 'Повний: вибір, переклад, складання, введення', modes: ['choice', 'translation', 'scramble', 'typing'] },
 ]
+
+const MODES_KEY = 'lexo.practice.modes'
+
+/** The exercises picked last time (per browser); empty means automatic. */
+function loadModes(): Exercise[] {
+  try {
+    const saved = JSON.parse(localStorage.getItem(MODES_KEY) ?? '[]') as string[]
+    return EXERCISES.map((e) => e.value).filter((m) => saved.includes(m))
+  } catch {
+    return []
+  }
+}
+
+function saveModes(modes: Exercise[]) {
+  try {
+    localStorage.setItem(MODES_KEY, JSON.stringify(modes))
+  } catch {
+    // private mode etc.: the choice just is not remembered
+  }
+}
 
 const limits = [10, 20, 50, 100]
 
@@ -37,8 +53,8 @@ export default function Practice() {
 
   const [config, setConfig] = useState<SessionConfig>(() =>
     fromArticle
-      ? { source: 'subset', subset: { ids: fromArticle.wordIds, title: fromArticle.title }, tagIds: [], limit: limits.find((n) => n >= fromArticle.wordIds.length) ?? 100, mode: 'auto' }
-      : { source: nav?.source ?? 'today', tagIds: [], limit: 20, mode: 'auto' },
+      ? { source: 'subset', subset: { ids: fromArticle.wordIds, title: fromArticle.title }, tagIds: [], limit: limits.find((n) => n >= fromArticle.wordIds.length) ?? 100, modes: loadModes() }
+      : { source: nav?.source ?? 'today', tagIds: [], limit: 20, modes: loadModes() },
   )
   const [running, setRunning] = useState<WordWithTags[] | null>(null)
 
@@ -50,9 +66,9 @@ export default function Practice() {
 
   const sources: { value: Source; title: string; hint: string; count: number }[] = [
     ...(config.subset
-      ? [{ value: 'subset' as Source, title: `Зі статті: ${config.subset.title}`, hint: 'слова зі статті, що є у вашому словнику', count: config.subset.ids.length }]
+      ? [{ value: 'subset' as Source, title: `Слова: ${config.subset.title}`, hint: 'вибрані слова з вашого словника', count: config.subset.ids.length }]
       : []),
-    { value: 'today', title: 'Сьогодні', hint: `до повторення ${counts.due} + нових до ${NEW_PER_DAY}`, count: counts.due + Math.min(counts.fresh, NEW_PER_DAY) },
+    { value: 'today', title: 'Сьогодні', hint: `${counts.due} до повторення + ${counts.fresh} нових`, count: counts.due + counts.fresh },
     { value: 'new', title: 'Нові слова', hint: 'ще жодного разу не вчені', count: counts.fresh },
     { value: 'hard', title: 'Складні', hint: 'часті помилки', count: counts.hard },
     { value: 'all', title: 'Весь словник', hint: 'без огляду на розклад', count: counts.all },
@@ -70,13 +86,23 @@ export default function Practice() {
         words={running}
         allWords={words.data ?? []}
         progress={progressById}
-        mode={config.mode}
+        modes={config.modes}
         onFinish={() => {
           setRunning(null)
           qc.invalidateQueries({ queryKey: ['progress'] })
         }}
       />
     )
+  }
+
+  function setModes(modes: Exercise[]) {
+    const ordered = EXERCISES.map((e) => e.value).filter((m) => modes.includes(m))
+    saveModes(ordered)
+    setConfig((c) => ({ ...c, modes: ordered }))
+  }
+
+  function toggleExercise(value: Exercise) {
+    setModes(config.modes.includes(value) ? config.modes.filter((m) => m !== value) : [...config.modes, value])
   }
 
   function toggleTag(id: string) {
@@ -87,6 +113,15 @@ export default function Practice() {
     const picked = pickWords(words.data ?? [], progressById, config)
     if (picked.length > 0) setRunning(picked)
   }
+
+  const wordCount = Math.min(available, config.limit)
+  const complex = config.modes.length >= 2
+  const modeHint =
+    config.modes.length === 0
+      ? 'Авто: вправа залежить від того, наскільки слово вже вивчене.'
+      : complex
+        ? `Комплекс: кожне слово пройде ${config.modes.length} вправи поспіль (близько ${wordCount * config.modes.length} карток). Розклад повторень оновиться один раз, за підсумком усіх вправ.`
+        : 'Усі слова — в одній вправі.'
 
   const chip = (active: boolean) =>
     `rounded-full border px-3 py-1 text-sm transition-colors ${active ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60 hover:text-white'}`
@@ -124,15 +159,30 @@ export default function Practice() {
         </div>
       )}
 
-      <div className="space-y-2">
-        <p className="text-sm text-white/50">Режим</p>
+      <div className="space-y-3">
+        <p className="text-sm text-white/50">Вправи</p>
         <div className="flex flex-wrap gap-2">
-          {modes.map((m) => (
-            <button key={m.value} onClick={() => setConfig((c) => ({ ...c, mode: m.value }))} className={chip(config.mode === m.value)}>
-              {m.label}
+          <button onClick={() => setModes([])} className={chip(config.modes.length === 0)}>
+            Авто
+          </button>
+          {EXERCISES.map((e) => (
+            <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={config.modes.includes(e.value)} className={chip(config.modes.includes(e.value))}>
+              {e.label}
             </button>
           ))}
         </div>
+        <div className="flex flex-wrap gap-2">
+          {PRESETS.map((preset) => (
+            <button
+              key={preset.label}
+              onClick={() => setModes(preset.modes)}
+              className="rounded-full border border-dashed border-white/15 px-3 py-1 text-xs text-white/50 transition-colors hover:text-white"
+            >
+              {preset.label}
+            </button>
+          ))}
+        </div>
+        <p className="text-sm text-white/40">{modeHint}</p>
       </div>
 
       <div className="space-y-2">
@@ -147,7 +197,7 @@ export default function Practice() {
       </div>
 
       <button onClick={start} disabled={available === 0} className="btn-primary w-full py-3 text-lg">
-        {available === 0 ? 'Немає слів для цього вибору' : `Почати · ${Math.min(available, config.limit)}`}
+        {available === 0 ? 'Немає слів для цього вибору' : `Почати · ${wordCount} слів${complex ? ` × ${config.modes.length} вправи` : ''}`}
       </button>
     </section>
   )

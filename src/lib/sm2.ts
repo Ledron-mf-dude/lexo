@@ -57,3 +57,18 @@ export function intervalLabel(state: SrsState, grade: Grade): string {
   if (days < 365) return `${Math.round(days / 30)} міс`
   return `${(days / 365).toFixed(1)} р`
 }
+
+const RANK: Record<Grade, number> = { again: 0, hard: 1, good: 2, easy: 3 }
+
+/** The lower of two grades (`undefined` counts as "nothing yet"). */
+export const worseGrade = (a: Grade | undefined, b: Grade): Grade => (a === undefined || RANK[b] < RANK[a] ? b : a)
+
+/**
+ * The single grade a word gets for a whole complex: the worst of its earlier exercises and the last one,
+ * except that a word missed earlier but answered in the last exercise is "hard" rather than a fresh success.
+ */
+export function complexGrade(earlier: Grade | undefined, last: Grade): Grade {
+  if (earlier === undefined) return last
+  if (earlier === 'again' && last !== 'again') return 'hard'
+  return worseGrade(earlier, last)
+}
