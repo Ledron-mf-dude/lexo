@@ -115,7 +115,9 @@ export const MODE_LABELS: Record<string, string> = {
   typing: 'Введення слова',
   scramble: 'Складання з літер',
   gaps: 'Пропущені літери',
-  cloze: 'Речення з пропуском',
+  cloze: 'Слово в реченні',
+  match: 'Підбір пар',
+  listen: 'Аудіювання',
   definition: 'За визначенням',
   speed: 'Швидкий раунд',
 }

@@ -4,13 +4,18 @@ import { useLocation } from 'react-router-dom'
 import Session from '../components/practice/Session'
 import { useAuth } from '../lib/auth'
 import { useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
-import { EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
+import { canSpeak } from '../lib/speech'
+import { EXERCISES as ALL_EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
 import type { Progress } from '../types'
+
+// Listening needs speech synthesis, which a few browsers lack.
+const EXERCISES = ALL_EXERCISES.filter((e) => e.value !== 'listen' || canSpeak)
 
 // Ready-made complexes: every word goes through all of the listed exercises in one session.
 const PRESETS: { label: string; modes: Exercise[] }[] = [
   { label: 'Швидкий: вибір + введення', modes: ['choice', 'typing'] },
   { label: 'Повний: вибір, переклад, складання, введення', modes: ['choice', 'translation', 'scramble', 'typing'] },
+  { label: 'Змішаний: пари, речення, слухання, введення', modes: ['match', 'cloze', 'listen', 'typing'] },
 ]
 
 const MODES_KEY = 'lexo.practice.modes'
@@ -184,6 +189,9 @@ export default function Practice() {
           ))}
         </div>
         <p className="text-sm text-white/40">{modeHint}</p>
+        {(config.modes.includes('cloze') || config.modes.includes('matchdef')) && (
+          <p className="text-xs text-white/30">«Слово в реченні» працює для слів із прикладом, де це слово є, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.</p>
+        )}
       </div>
 
       <div className="space-y-2">

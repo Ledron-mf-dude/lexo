@@ -60,3 +60,36 @@ export function scrambleLetters(term: string): string[] {
   }
   return out
 }
+
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+/** A word with its usual English endings: stop -> stopped/stopping, study -> studies, make -> making. */
+function inflected(token: string): string {
+  const stem = token.length > 3 ? token.replace(/[ey]$/, '') : token
+  const last = stem.slice(-1)
+  const doubled = /[bdfglmnprstz]/.test(last) ? `${last}?` : ''
+  return `${escapeRe(stem)}(?:${doubled}(?:ing|ed|er)|e|es|ed|d|y|ies|ied|s|ly)?`
+}
+
+export interface Blank {
+  before: string
+  found: string
+  after: string
+}
+
+/**
+ * Finds `term` inside `example` (the first word may be inflected: "looking forward to" for "look forward to")
+ * and splits the sentence around it. Null when the term is not in the sentence, or is a pattern like "get sth done".
+ */
+export function findInExample(term: string, example: string): Blank | null {
+  const tokens = term
+    .replace(/\([^)]*\)/g, ' ')
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((t) => /^[\p{L}'-]+$/u.test(t))
+  if (tokens.length === 0 || tokens.length > 4 || tokens.some((t) => /^(sth|sb|smth|smb|someone|something)$/.test(t))) return null
+  const pattern = tokens.map((t, i) => (i === 0 ? inflected(t) : escapeRe(t))).join('\\s+')
+  const m = new RegExp(`(?<![\\p{L}])(${pattern})(?![\\p{L}])`, 'iu').exec(example)
+  if (!m) return null
+  return { before: example.slice(0, m.index), found: m[1], after: example.slice(m.index + m[1].length) }
+}

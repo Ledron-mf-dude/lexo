@@ -43,6 +43,8 @@ export type PracticeMode =
   | 'gaps'
   | 'cloze'
   | 'speed'
+  | 'match'
+  | 'listen'
 
 export interface ReviewLog {
   id: string
