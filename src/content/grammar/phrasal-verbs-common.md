@@ -1,0 +1,67 @@
+---
+title: Поширені фразові дієслова (B1)
+category: Фразові дієслова та сталі вирази
+levels: [B1]
+tags: [phrasal verbs, break down, give up, look after, turn down, put off, find out, come up with, фразові дієслова, список]
+---
+
+**T** — роздільне (можна: *pick it up*), **I** — нероздільне.
+
+## Відношення і життя
+
+| Дієслово | Значення | Приклад |
+| --- | --- | --- |
+| **get along** (with) I | ладнати | I **get along** with my boss. |
+| **break up** | розійтися | They **broke up** last year. |
+| **grow up** | вирости | She **grew up** in Lviv. |
+| **look after** I | доглядати | He **looks after** his dog. |
+| **bring up** T | виховувати; порушувати тему | She was **brought up** by her aunt. |
+| **fall out** (with) | посваритися | They **fell out** over money. |
+| **let down** T | підвести | I don't want to **let** you **down**. |
+| **hang out** | проводити час | We **hang out** on weekends. |
+
+## Дії та зміни
+
+| Дієслово | Значення | Приклад |
+| --- | --- | --- |
+| **give up** T | кинути, здатися | He **gave up** smoking. |
+| **carry on** | продовжувати | **Carry on** working. |
+| **go on** | продовжувати; відбуватися | What's **going on**? |
+| **put off** T | відкласти | Don't **put off** the meeting. |
+| **call off** T | скасувати | The match was **called off**. |
+| **turn down** T | відхилити; зменшити (гучність) | She **turned down** the offer. |
+| **turn up** | з'явитися; збільшити | He **turned up** late. |
+| **set up** T | заснувати, налаштувати | They **set up** a company. |
+| **take up** T | почати (хобі) | I **took up** yoga. |
+| **take off** | злетіти; зняти (одяг) | The plane **took off**. |
+| **put on** T | одягнути; увімкнути | **Put on** your coat. |
+| **turn on / off** T | увімкнути / вимкнути | **Turn off** the light. |
+| **try on** T | приміряти | Can I **try** it **on**? |
+| **throw away** T | викинути | Don't **throw** it **away**. |
+| **pick up** T | підняти; забрати | I'll **pick** you **up** at six. |
+
+## Знання й інформація
+
+| Дієслово | Значення | Приклад |
+| --- | --- | --- |
+| **find out** T | дізнатися | I **found out** the truth. |
+| **look up** T | знайти в довіднику | **Look up** the word. |
+| **work out** T | вирішити; тренуватися | I **worked** it **out**. |
+| **come up with** I | придумати | She **came up with** a plan. |
+| **come across** I | натрапити | I **came across** an old photo. |
+| **sort out** T | розібратися | We need to **sort** this **out**. |
+| **fill in** T | заповнити (форму) | **Fill in** the form. |
+| **check in / out** | зареєструватися / виїхати | We **checked in** at 3. |
+
+## Із трьох слів
+
+| Дієслово | Значення | Приклад |
+| --- | --- | --- |
+| **look forward to** | з нетерпінням чекати | I **look forward to** the weekend. |
+| **put up with** | терпіти | I can't **put up with** noise. |
+| **run out of** | вичерпатися | We **ran out of** milk. |
+| **cut down on** | скорочувати | He **cut down on** sugar. |
+| **get on with** | ладнати; продовжувати | Let's **get on with** work. |
+| **deal with** I | мати справу | I'll **deal with** it. |
+
+Правила розташування додатка — у статті «Фразові дієслова: що це і як користуватися».

@@ -1,0 +1,118 @@
+{
+ "questions": [
+  {
+   "id": "plural-nouns-1",
+   "type": "fill",
+   "q": "The plural of 'city' is ___.",
+   "answer": [
+    "cities"
+   ],
+   "why": "Приголосна + y → -ies."
+  },
+  {
+   "id": "plural-nouns-2",
+   "type": "fill",
+   "q": "The plural of 'knife' is ___.",
+   "answer": [
+    "knives"
+   ],
+   "why": "-fe → -ves."
+  },
+  {
+   "id": "plural-nouns-3",
+   "type": "fill",
+   "q": "The plural of 'child' is ___.",
+   "answer": [
+    "children"
+   ],
+   "why": "Неправильна множина."
+  },
+  {
+   "id": "plural-nouns-4",
+   "type": "choice",
+   "q": "The plural of 'box' is:",
+   "options": [
+    "boxs",
+    "boxes",
+    "boxies",
+    "boxen"
+   ],
+   "answer": 1,
+   "why": "Після -x додаємо -es."
+  },
+  {
+   "id": "plural-nouns-5",
+   "type": "choice",
+   "q": "The plural of 'man' is:",
+   "options": [
+    "mans",
+    "men",
+    "mens",
+    "manes"
+   ],
+   "answer": 1,
+   "why": "man → men."
+  },
+  {
+   "id": "plural-nouns-6",
+   "type": "choice",
+   "q": "Which noun does not change in the plural?",
+   "options": [
+    "sheep",
+    "cat",
+    "book",
+    "tooth"
+   ],
+   "answer": 0,
+   "why": "sheep — однакова форма."
+  },
+  {
+   "id": "plural-nouns-7",
+   "type": "choice",
+   "q": "My trousers ___ new.",
+   "options": [
+    "is",
+    "are",
+    "was",
+    "be"
+   ],
+   "answer": 1,
+   "why": "trousers — лише множина."
+  },
+  {
+   "id": "plural-nouns-8",
+   "type": "choice",
+   "q": "The news ___ good.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "be"
+   ],
+   "answer": 1,
+   "why": "news — значення однини."
+  },
+  {
+   "id": "plural-nouns-9",
+   "type": "fill",
+   "q": "The plural of 'tooth' is ___.",
+   "answer": [
+    "teeth"
+   ],
+   "why": "tooth → teeth."
+  },
+  {
+   "id": "plural-nouns-10",
+   "type": "choice",
+   "q": "The plural of 'baby' is:",
+   "options": [
+    "babys",
+    "babies",
+    "babyes",
+    "babyies"
+   ],
+   "answer": 1,
+   "why": "Приголосна + y → -ies."
+  }
+ ]
+}

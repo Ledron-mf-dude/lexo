@@ -1,0 +1,106 @@
+{
+ "questions": [
+  {
+   "id": "irregular-verbs-1",
+   "type": "fill",
+   "q": "go – went – ___",
+   "answer": [
+    "gone"
+   ],
+   "why": "Третя форма go — gone."
+  },
+  {
+   "id": "irregular-verbs-2",
+   "type": "fill",
+   "q": "see – saw – ___",
+   "answer": [
+    "seen"
+   ],
+   "why": "Третя форма see — seen."
+  },
+  {
+   "id": "irregular-verbs-3",
+   "type": "fill",
+   "q": "Yesterday I ___ (buy) a new phone.",
+   "answer": [
+    "bought"
+   ],
+   "why": "Past Simple від buy — bought."
+  },
+  {
+   "id": "irregular-verbs-4",
+   "type": "fill",
+   "q": "She has ___ (write) three letters.",
+   "answer": [
+    "written"
+   ],
+   "why": "Третя форма write — written."
+  },
+  {
+   "id": "irregular-verbs-5",
+   "type": "choice",
+   "q": "The past simple of 'teach' is:",
+   "options": [
+    "teached",
+    "taught",
+    "tought",
+    "teachen"
+   ],
+   "answer": 1,
+   "why": "teach – taught – taught."
+  },
+  {
+   "id": "irregular-verbs-6",
+   "type": "choice",
+   "q": "The past participle of 'break' is:",
+   "options": [
+    "broke",
+    "broken",
+    "breaked",
+    "brokened"
+   ],
+   "answer": 1,
+   "why": "break – broke – broken."
+  },
+  {
+   "id": "irregular-verbs-7",
+   "type": "fill",
+   "q": "I ___ (meet) her last year.",
+   "answer": [
+    "met"
+   ],
+   "why": "meet – met – met."
+  },
+  {
+   "id": "irregular-verbs-8",
+   "type": "fill",
+   "q": "He has already ___ (eat) lunch.",
+   "answer": [
+    "eaten"
+   ],
+   "why": "eat – ate – eaten."
+  },
+  {
+   "id": "irregular-verbs-9",
+   "type": "choice",
+   "q": "Which verb has the same form in V1, V2 and V3?",
+   "options": [
+    "put",
+    "take",
+    "give",
+    "sing"
+   ],
+   "answer": 0,
+   "why": "put – put – put."
+  },
+  {
+   "id": "irregular-verbs-10",
+   "type": "fill",
+   "q": "They ___ (fly) to Rome last week.",
+   "answer": [
+    "flew"
+   ],
+   "why": "fly – flew – flown."
+  }
+ ]
+}

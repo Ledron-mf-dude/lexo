@@ -1,0 +1,111 @@
+{
+ "questions": [
+  {
+   "id": "as-as-1",
+   "type": "choice",
+   "q": "She is as ___ as me.",
+   "options": [
+    "taller",
+    "tall",
+    "tallest",
+    "more tall"
+   ],
+   "answer": 1,
+   "why": "Між as … as — звичайна форма."
+  },
+  {
+   "id": "as-as-2",
+   "type": "choice",
+   "q": "He isn't ___ strong as me.",
+   "options": [
+    "as",
+    "than",
+    "more",
+    "too"
+   ],
+   "answer": 0,
+   "why": "not as … as."
+  },
+  {
+   "id": "as-as-3",
+   "type": "choice",
+   "q": "They are as ___ as me.",
+   "options": [
+    "faster",
+    "fast",
+    "fastest",
+    "more fast"
+   ],
+   "answer": 1,
+   "why": "Base form."
+  },
+  {
+   "id": "as-as-4",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She is as tall than me.",
+    "She is as tall as me.",
+    "She is as taller as me.",
+    "She is same tall as me."
+   ],
+   "answer": 1,
+   "why": "as … as."
+  },
+  {
+   "id": "as-as-5",
+   "type": "choice",
+   "q": "The negative of 'as tall as' is:",
+   "options": [
+    "not as tall as",
+    "no as tall as",
+    "not tall as",
+    "don't as tall as"
+   ],
+   "answer": 0,
+   "why": "not as … as."
+  },
+  {
+   "id": "as-as-6",
+   "type": "choice",
+   "q": "Between the two \"as\" we use:",
+   "options": [
+    "the base adjective",
+    "the comparative",
+    "the superlative",
+    "an adverb only"
+   ],
+   "answer": 0,
+   "why": "Звичайна форма."
+  },
+  {
+   "id": "as-as-7",
+   "type": "choice",
+   "q": "This bag is as ___ as that one. (heavy)",
+   "options": [
+    "heavy",
+    "heavier",
+    "heaviest",
+    "more heavy"
+   ],
+   "answer": 0,
+   "why": "Base form: heavy."
+  },
+  {
+   "id": "as-as-8",
+   "type": "order",
+   "words": [
+    "He",
+    "is",
+    "as",
+    "strong",
+    "as",
+    "me"
+   ],
+   "answer": [
+    "He is as strong as me"
+   ],
+   "why": "as + adj + as."
+  }
+ ]
+}

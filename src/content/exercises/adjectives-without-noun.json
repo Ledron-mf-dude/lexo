@@ -1,0 +1,95 @@
+{
+ "questions": [
+  {
+   "id": "adjectives-without-noun-1",
+   "type": "choice",
+   "q": "___ are not always happy.",
+   "options": [
+    "The rich",
+    "A rich",
+    "Rich man",
+    "The rich man"
+   ],
+   "answer": 0,
+   "why": "the + прикметник = група людей."
+  },
+  {
+   "id": "adjectives-without-noun-2",
+   "type": "choice",
+   "q": "The young ___ support.",
+   "options": [
+    "needs",
+    "need",
+    "is needing",
+    "needing"
+   ],
+   "answer": 1,
+   "why": "Група — дієслово у множині."
+  },
+  {
+   "id": "adjectives-without-noun-3",
+   "type": "choice",
+   "q": "___ are known for their politeness. (nationality)",
+   "options": [
+    "The British",
+    "British",
+    "A British",
+    "Britishes"
+   ],
+   "answer": 0,
+   "why": "the British — національність як група."
+  },
+  {
+   "id": "adjectives-without-noun-4",
+   "type": "choice",
+   "q": "Which refers to ONE person?",
+   "options": [
+    "the poor",
+    "a poor man",
+    "the elderly",
+    "the sick"
+   ],
+   "answer": 1,
+   "why": "Для однієї особи потрібен іменник."
+  },
+  {
+   "id": "adjectives-without-noun-5",
+   "type": "choice",
+   "q": "'The unknown' (singular) refers to:",
+   "options": [
+    "an idea or phenomenon",
+    "a group of people",
+    "a person",
+    "a place"
+   ],
+   "answer": 0,
+   "why": "the + adj також може означати явище."
+  },
+  {
+   "id": "adjectives-without-noun-6",
+   "type": "choice",
+   "q": "He wants to do the ___. (things that can't be done)",
+   "options": [
+    "impossible",
+    "impossibly",
+    "impossibility",
+    "impossibles"
+   ],
+   "answer": 0,
+   "why": "the impossible."
+  },
+  {
+   "id": "adjectives-without-noun-7",
+   "type": "choice",
+   "q": "The unemployed ___ looking for jobs.",
+   "options": [
+    "is",
+    "are",
+    "be",
+    "has"
+   ],
+   "answer": 1,
+   "why": "the unemployed — множина."
+  }
+ ]
+}

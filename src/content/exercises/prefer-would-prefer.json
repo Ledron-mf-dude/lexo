@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "prefer-would-prefer-1",
+   "type": "choice",
+   "q": "I prefer tea ___ coffee.",
+   "options": [
+    "than",
+    "to",
+    "from",
+    "of"
+   ],
+   "answer": 1,
+   "why": "prefer X to Y."
+  },
+  {
+   "id": "prefer-would-prefer-2",
+   "type": "choice",
+   "q": "She prefers walking ___ driving.",
+   "options": [
+    "to",
+    "than",
+    "from",
+    "at"
+   ],
+   "answer": 0,
+   "why": "prefer -ing to -ing."
+  },
+  {
+   "id": "prefer-would-prefer-3",
+   "type": "choice",
+   "q": "I'd prefer ___ home tonight.",
+   "options": [
+    "stay",
+    "to stay",
+    "staying",
+    "stayed"
+   ],
+   "answer": 1,
+   "why": "would prefer + to + V."
+  },
+  {
+   "id": "prefer-would-prefer-4",
+   "type": "choice",
+   "q": "I'd rather ___ home tonight.",
+   "options": [
+    "stay",
+    "to stay",
+    "staying",
+    "stayed"
+   ],
+   "answer": 0,
+   "why": "would rather + V без to."
+  },
+  {
+   "id": "prefer-would-prefer-5",
+   "type": "choice",
+   "q": "I'd rather you ___ here. (I want you to)",
+   "options": [
+    "stay",
+    "stayed",
+    "staying",
+    "to stay"
+   ],
+   "answer": 1,
+   "why": "would rather + підмет + Past Simple."
+  },
+  {
+   "id": "prefer-would-prefer-6",
+   "type": "choice",
+   "q": "I'd prefer ___ to talk about it.",
+   "options": [
+    "not",
+    "no",
+    "don't",
+    "to not"
+   ],
+   "answer": 0,
+   "why": "would prefer not to + V."
+  },
+  {
+   "id": "prefer-would-prefer-7",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "I would rather to go home.",
+    "I would rather go home.",
+    "I would rather going home.",
+    "I would rather goes home."
+   ],
+   "answer": 1,
+   "why": "Після would rather — інфінітив без to."
+  },
+  {
+   "id": "prefer-would-prefer-8",
+   "type": "choice",
+   "q": "I'd rather not ___.",
+   "options": [
+    "go",
+    "to go",
+    "going",
+    "went"
+   ],
+   "answer": 0,
+   "why": "would rather not + V."
+  },
+  {
+   "id": "prefer-would-prefer-9",
+   "type": "choice",
+   "q": "I'd prefer you ___ outside.",
+   "options": [
+    "wait",
+    "to wait",
+    "waiting",
+    "waited"
+   ],
+   "answer": 1,
+   "why": "would prefer + особа + to + V."
+  }
+ ]
+}

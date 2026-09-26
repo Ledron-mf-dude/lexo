@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "time-markers-1",
+   "type": "choice",
+   "q": "I go to the gym ___.",
+   "options": [
+    "every day",
+    "right now",
+    "at the moment",
+    "currently"
+   ],
+   "answer": 0,
+   "why": "every day — маркер Present Simple."
+  },
+  {
+   "id": "time-markers-2",
+   "type": "choice",
+   "q": "Which marker goes with Present Continuous?",
+   "options": [
+    "always",
+    "at the moment",
+    "never",
+    "every week"
+   ],
+   "answer": 1,
+   "why": "at the moment — Present Continuous."
+  },
+  {
+   "id": "time-markers-3",
+   "type": "choice",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "She always is late.",
+    "She is always late.",
+    "Always she is late.",
+    "She is late always."
+   ],
+   "answer": 1,
+   "why": "Прислівник частоти стоїть після to be."
+  },
+  {
+   "id": "time-markers-4",
+   "type": "choice",
+   "q": "Choose: 'I ___ eat meat.' (0% — I am a vegetarian)",
+   "options": [
+    "always",
+    "usually",
+    "sometimes",
+    "never"
+   ],
+   "answer": 3,
+   "why": "never — жодного разу."
+  },
+  {
+   "id": "time-markers-5",
+   "type": "choice",
+   "q": "'Look! It ___.'",
+   "options": [
+    "snows",
+    "is snowing",
+    "snowed",
+    "has snow"
+   ],
+   "answer": 1,
+   "why": "Look! — дія відбувається зараз."
+  },
+  {
+   "id": "time-markers-6",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He goes usually to school by bus.",
+    "He usually goes to school by bus.",
+    "He goes to usually school by bus.",
+    "Usually goes he to school by bus."
+   ],
+   "answer": 1,
+   "why": "Прислівник частоти — перед основним дієсловом."
+  },
+  {
+   "id": "time-markers-7",
+   "type": "choice",
+   "q": "'Twice a week' is a marker of:",
+   "options": [
+    "Present Simple",
+    "Present Continuous",
+    "Future Continuous",
+    "Past Perfect"
+   ],
+   "answer": 0,
+   "why": "Регулярність — Present Simple."
+  },
+  {
+   "id": "time-markers-8",
+   "type": "choice",
+   "q": "'He is always complaining!' — Present Continuous with always expresses:",
+   "options": [
+    "a regular timetable",
+    "annoyance",
+    "a fact",
+    "a plan"
+   ],
+   "answer": 1,
+   "why": "always + Continuous — роздратування."
+  },
+  {
+   "id": "time-markers-9",
+   "type": "choice",
+   "q": "Choose: 'I'm working ___.' (temporary)",
+   "options": [
+    "these days",
+    "every day",
+    "usually",
+    "never"
+   ],
+   "answer": 0,
+   "why": "these days — тимчасова ситуація."
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "questions": [
+  {
+   "id": "passive-reporting-have-something-done-1",
+   "type": "choice",
+   "q": "It ___ that he is very rich.",
+   "options": [
+    "says",
+    "is said",
+    "said",
+    "is saying"
+   ],
+   "answer": 1,
+   "why": "It is said that…"
+  },
+  {
+   "id": "passive-reporting-have-something-done-2",
+   "type": "choice",
+   "q": "He is said ___ the country last year.",
+   "options": [
+    "to leave",
+    "to have left",
+    "leaving",
+    "left"
+   ],
+   "answer": 1,
+   "why": "Про минуле — to have + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-3",
+   "type": "choice",
+   "q": "She is believed ___ abroad now.",
+   "options": [
+    "to work",
+    "to be working",
+    "to have worked",
+    "working"
+   ],
+   "answer": 1,
+   "why": "Зараз — Continuous Infinitive."
+  },
+  {
+   "id": "passive-reporting-have-something-done-4",
+   "type": "choice",
+   "q": "I ___ my hair cut yesterday.",
+   "options": [
+    "had",
+    "have",
+    "was",
+    "did"
+   ],
+   "answer": 0,
+   "why": "have something done: had my hair cut."
+  },
+  {
+   "id": "passive-reporting-have-something-done-5",
+   "type": "choice",
+   "q": "We're ___ the kitchen painted.",
+   "options": [
+    "having",
+    "being",
+    "doing",
+    "making"
+   ],
+   "answer": 0,
+   "why": "have + предмет + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-6",
+   "type": "choice",
+   "q": "Which sentence means someone did it FOR you?",
+   "options": [
+    "I cut my hair.",
+    "I had my hair cut.",
+    "I have cut hair.",
+    "I was cutting my hair."
+   ],
+   "answer": 1,
+   "why": "have something done — послуга."
+  },
+  {
+   "id": "passive-reporting-have-something-done-7",
+   "type": "choice",
+   "q": "He ___ his bag stolen on the train.",
+   "options": [
+    "had",
+    "was",
+    "did",
+    "has"
+   ],
+   "answer": 0,
+   "why": "have something done може описувати неприємну подію."
+  },
+  {
+   "id": "passive-reporting-have-something-done-8",
+   "type": "fill",
+   "q": "I need to get my car ___ (repair).",
+   "answer": [
+    "repaired"
+   ],
+   "why": "get + предмет + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-9",
+   "type": "order",
+   "words": [
+    "They",
+    "are",
+    "thought",
+    "to",
+    "have",
+    "stolen",
+    "the",
+    "painting"
+   ],
+   "answer": [
+    "They are thought to have stolen the painting"
+   ],
+   "why": "Passive reporting: are thought to have + V3."
+  }
+ ]
+}

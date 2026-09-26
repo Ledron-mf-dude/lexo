@@ -1,0 +1,128 @@
+{
+ "questions": [
+  {
+   "id": "to-be-1",
+   "type": "choice",
+   "q": "I ___ a student.",
+   "options": [
+    "is",
+    "are",
+    "am",
+    "be"
+   ],
+   "answer": 2,
+   "why": "I am."
+  },
+  {
+   "id": "to-be-2",
+   "type": "choice",
+   "q": "They ___ at home.",
+   "options": [
+    "is",
+    "am",
+    "are",
+    "be"
+   ],
+   "answer": 2,
+   "why": "they are."
+  },
+  {
+   "id": "to-be-3",
+   "type": "fill",
+   "q": "She ___ tall. (negative)",
+   "answer": [
+    "isn't",
+    "is not"
+   ],
+   "why": "Заперечення: is not / isn’t."
+  },
+  {
+   "id": "to-be-4",
+   "type": "choice",
+   "q": "___ he a doctor?",
+   "options": [
+    "Do",
+    "Is",
+    "Are",
+    "Does"
+   ],
+   "answer": 1,
+   "why": "To be виносимо перед підмет: Is he…?"
+  },
+  {
+   "id": "to-be-5",
+   "type": "choice",
+   "q": "\"Are they ready?\" — \"Yes, they ___.\"",
+   "options": [
+    "are",
+    "do",
+    "is",
+    "aren't"
+   ],
+   "answer": 0,
+   "why": "Коротка відповідь: Yes, they are."
+  },
+  {
+   "id": "to-be-6",
+   "type": "choice",
+   "q": "This is ___ bag.",
+   "options": [
+    "I",
+    "me",
+    "my",
+    "mine"
+   ],
+   "answer": 2,
+   "why": "Перед іменником — присвійний прикметник my."
+  },
+  {
+   "id": "to-be-7",
+   "type": "choice",
+   "q": "___ book is this?",
+   "options": [
+    "Who",
+    "Whose",
+    "Who's",
+    "What"
+   ],
+   "answer": 1,
+   "why": "Whose — «чий»."
+  },
+  {
+   "id": "to-be-8",
+   "type": "fill",
+   "q": "It's Anna's bag. It is ___ (her / hers).",
+   "answer": [
+    "hers"
+   ],
+   "why": "Без іменника — присвійний займенник hers."
+  },
+  {
+   "id": "to-be-9",
+   "type": "choice",
+   "q": "The dog wants ___ ball.",
+   "options": [
+    "it's",
+    "its",
+    "its'",
+    "it is"
+   ],
+   "answer": 1,
+   "why": "its — присвійне (його); it’s = it is."
+  },
+  {
+   "id": "to-be-10",
+   "type": "order",
+   "words": [
+    "How",
+    "old",
+    "are",
+    "you?"
+   ],
+   "answer": [
+    "How old are you?"
+   ],
+   "why": "How old + to be + підмет."
+  }
+ ]
+}

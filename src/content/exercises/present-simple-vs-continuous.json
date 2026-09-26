@@ -1,0 +1,126 @@
+{
+ "questions": [
+  {
+   "id": "present-simple-vs-continuous-1",
+   "type": "choice",
+   "q": "She usually ___ in a bank.",
+   "options": [
+    "work",
+    "works",
+    "is working",
+    "working"
+   ],
+   "answer": 1,
+   "why": "usually — звичка, Present Simple."
+  },
+  {
+   "id": "present-simple-vs-continuous-2",
+   "type": "choice",
+   "q": "Look! The baby ___.",
+   "options": [
+    "sleeps",
+    "is sleeping",
+    "sleep",
+    "slept"
+   ],
+   "answer": 1,
+   "why": "Look! — дія відбувається зараз."
+  },
+  {
+   "id": "present-simple-vs-continuous-3",
+   "type": "fill",
+   "q": "He ___ (not / like) coffee.",
+   "answer": [
+    "doesn't like",
+    "does not like"
+   ],
+   "why": "Заперечення в Present Simple: doesn’t + V."
+  },
+  {
+   "id": "present-simple-vs-continuous-4",
+   "type": "fill",
+   "q": "\"Is she working now?\" — \"Yes, she ___.\"",
+   "answer": [
+    "is"
+   ],
+   "why": "Коротка відповідь повторює допоміжне: Yes, she is."
+  },
+  {
+   "id": "present-simple-vs-continuous-5",
+   "type": "choice",
+   "q": "Water ___ at 100 degrees.",
+   "options": [
+    "boil",
+    "boils",
+    "is boiling",
+    "boiled"
+   ],
+   "answer": 1,
+   "why": "Наукові факти — Present Simple."
+  },
+  {
+   "id": "present-simple-vs-continuous-6",
+   "type": "choice",
+   "q": "I ___ for a new flat this month.",
+   "options": [
+    "look",
+    "looks",
+    "am looking",
+    "looked"
+   ],
+   "answer": 2,
+   "why": "Тимчасова ситуація — Present Continuous."
+  },
+  {
+   "id": "present-simple-vs-continuous-7",
+   "type": "choice",
+   "q": "___ you ___ tea every morning?",
+   "options": [
+    "Are / drinking",
+    "Do / drink",
+    "Does / drink",
+    "Do / drinking"
+   ],
+   "answer": 1,
+   "why": "Звичка: Do + підмет + V."
+  },
+  {
+   "id": "present-simple-vs-continuous-8",
+   "type": "choice",
+   "q": "Which verb is NOT normally used in the continuous?",
+   "options": [
+    "run",
+    "know",
+    "eat",
+    "write"
+   ],
+   "answer": 1,
+   "why": "know — дієслово стану (stative)."
+  },
+  {
+   "id": "present-simple-vs-continuous-9",
+   "type": "fill",
+   "q": "My brother ___ (study) at university now.",
+   "answer": [
+    "is studying"
+   ],
+   "why": "now — Present Continuous."
+  },
+  {
+   "id": "present-simple-vs-continuous-10",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "working",
+    "from",
+    "home",
+    "today"
+   ],
+   "answer": [
+    "She is working from home today"
+   ],
+   "why": "today — тимчасова ситуація."
+  }
+ ]
+}

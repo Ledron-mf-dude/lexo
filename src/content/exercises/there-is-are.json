@@ -1,0 +1,124 @@
+{
+ "questions": [
+  {
+   "id": "there-is-are-1",
+   "type": "choice",
+   "q": "There ___ a book on the table.",
+   "options": [
+    "are",
+    "is",
+    "have",
+    "has"
+   ],
+   "answer": 1,
+   "why": "Однина → there is."
+  },
+  {
+   "id": "there-is-are-2",
+   "type": "choice",
+   "q": "There ___ two people outside.",
+   "options": [
+    "is",
+    "are",
+    "be",
+    "has"
+   ],
+   "answer": 1,
+   "why": "Множина → there are."
+  },
+  {
+   "id": "there-is-are-3",
+   "type": "choice",
+   "q": "___ any questions?",
+   "options": [
+    "Is there",
+    "Are there",
+    "Have there",
+    "Do there"
+   ],
+   "answer": 1,
+   "why": "Питання: Are there…?"
+  },
+  {
+   "id": "there-is-are-4",
+   "type": "choice",
+   "q": "There ___ a storm yesterday.",
+   "options": [
+    "is",
+    "are",
+    "was",
+    "were"
+   ],
+   "answer": 2,
+   "why": "Минуле, однина → was."
+  },
+  {
+   "id": "there-is-are-5",
+   "type": "choice",
+   "q": "There ___ a meeting tomorrow.",
+   "options": [
+    "will be",
+    "was",
+    "has been",
+    "is being"
+   ],
+   "answer": 0,
+   "why": "Майбутнє → will be."
+  },
+  {
+   "id": "there-is-are-6",
+   "type": "choice",
+   "q": "There isn't ___ milk.",
+   "options": [
+    "some",
+    "any",
+    "a",
+    "many"
+   ],
+   "answer": 1,
+   "why": "У запереченні — any."
+  },
+  {
+   "id": "there-is-are-7",
+   "type": "choice",
+   "q": "There ___ a book and two pens on the desk. (verb agrees with the first noun)",
+   "options": [
+    "are",
+    "is",
+    "be",
+    "have"
+   ],
+   "answer": 1,
+   "why": "Узгодження з першим іменником."
+  },
+  {
+   "id": "there-is-are-8",
+   "type": "choice",
+   "q": "There used ___ a cinema here.",
+   "options": [
+    "to be",
+    "to been",
+    "being",
+    "be"
+   ],
+   "answer": 0,
+   "why": "there used to be."
+  },
+  {
+   "id": "there-is-are-9",
+   "type": "order",
+   "words": [
+    "There",
+    "is",
+    "no",
+    "need",
+    "to",
+    "worry"
+   ],
+   "answer": [
+    "There is no need to worry"
+   ],
+   "why": "there is no need to + V."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "questions": [
+  {
+   "id": "countable-uncountable-1",
+   "type": "choice",
+   "q": "I need ___ advice.",
+   "options": [
+    "an",
+    "some",
+    "many",
+    "a few"
+   ],
+   "answer": 1,
+   "why": "advice — нелічильне: some advice."
+  },
+  {
+   "id": "countable-uncountable-2",
+   "type": "choice",
+   "q": "How ___ money do you have?",
+   "options": [
+    "many",
+    "much",
+    "a few",
+    "few"
+   ],
+   "answer": 1,
+   "why": "money — нелічильне: How much."
+  },
+  {
+   "id": "countable-uncountable-3",
+   "type": "choice",
+   "q": "Which word is uncountable?",
+   "options": [
+    "book",
+    "information",
+    "car",
+    "idea"
+   ],
+   "answer": 1,
+   "why": "information — нелічильне."
+  },
+  {
+   "id": "countable-uncountable-4",
+   "type": "fill",
+   "q": "Can you give me a ___ of advice? (one word)",
+   "answer": [
+    "piece"
+   ],
+   "why": "a piece of advice."
+  },
+  {
+   "id": "countable-uncountable-5",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The news are bad.",
+    "The news is bad.",
+    "The newses is bad.",
+    "A news is bad."
+   ],
+   "answer": 1,
+   "why": "news — форма множини, але значення однини."
+  },
+  {
+   "id": "countable-uncountable-6",
+   "type": "choice",
+   "q": "There isn't ___ milk in the fridge.",
+   "options": [
+    "some",
+    "any",
+    "a",
+    "many"
+   ],
+   "answer": 1,
+   "why": "У запереченні — any."
+  },
+  {
+   "id": "countable-uncountable-7",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She gave me a good advice.",
+    "She gave me good advice.",
+    "She gave me good advices.",
+    "She gave me many advices."
+   ],
+   "answer": 1,
+   "why": "advice — нелічильне: без a і без -s."
+  },
+  {
+   "id": "countable-uncountable-8",
+   "type": "choice",
+   "q": "How ___ books do you have?",
+   "options": [
+    "much",
+    "many",
+    "a little",
+    "little"
+   ],
+   "answer": 1,
+   "why": "books — лічильне: How many."
+  },
+  {
+   "id": "countable-uncountable-9",
+   "type": "choice",
+   "q": "Please buy two ___ of bread.",
+   "options": [
+    "breads",
+    "loaves",
+    "loaf",
+    "bread"
+   ],
+   "answer": 1,
+   "why": "Нелічильне рахуємо через одиницю: two loaves of bread."
+  },
+  {
+   "id": "countable-uncountable-10",
+   "type": "choice",
+   "q": "___ furniture in this room is old.",
+   "options": [
+    "The",
+    "A",
+    "Many",
+    "These"
+   ],
+   "answer": 0,
+   "why": "furniture — нелічильне: the furniture."
+  }
+ ]
+}

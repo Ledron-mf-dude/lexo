@@ -1,0 +1,129 @@
+{
+ "questions": [
+  {
+   "id": "used-to-1",
+   "type": "choice",
+   "q": "I ___ smoke, but I quit five years ago.",
+   "options": [
+    "use to",
+    "used to",
+    "was used to",
+    "am used to"
+   ],
+   "answer": 1,
+   "why": "used to + V — колись було, тепер ні."
+  },
+  {
+   "id": "used-to-2",
+   "type": "choice",
+   "q": "She's ___ getting up early.",
+   "options": [
+    "used to",
+    "use to",
+    "used",
+    "being used"
+   ],
+   "answer": 0,
+   "why": "be used to + -ing — звикла."
+  },
+  {
+   "id": "used-to-3",
+   "type": "fill",
+   "q": "Did you ___ (use) to play chess?",
+   "answer": [
+    "use"
+   ],
+   "why": "У питаннях і запереченнях — use to (без -d)."
+  },
+  {
+   "id": "used-to-4",
+   "type": "choice",
+   "q": "It takes time to get ___ a new job.",
+   "options": [
+    "use to",
+    "used",
+    "used to",
+    "using to"
+   ],
+   "answer": 2,
+   "why": "get used to + іменник/-ing."
+  },
+  {
+   "id": "used-to-5",
+   "type": "choice",
+   "q": "When I was a child, we ___ play outside all day.",
+   "options": [
+    "would",
+    "are used to",
+    "get used to",
+    "have used to"
+   ],
+   "answer": 0,
+   "why": "would — повторювані дії в минулому."
+  },
+  {
+   "id": "used-to-6",
+   "type": "choice",
+   "q": "Choose the correct sentence (a past state).",
+   "options": [
+    "I would have a dog when I was young.",
+    "I used to have a dog when I was young.",
+    "I am used to have a dog.",
+    "I use to have a dog."
+   ],
+   "answer": 1,
+   "why": "Про стан у минулому — лише used to, не would."
+  },
+  {
+   "id": "used-to-7",
+   "type": "fill",
+   "q": "He is used to ___ (live) alone.",
+   "answer": [
+    "living"
+   ],
+   "why": "be used to + -ing."
+  },
+  {
+   "id": "used-to-8",
+   "type": "choice",
+   "q": "I didn't ___ like coffee.",
+   "options": [
+    "used to",
+    "use to",
+    "be used to",
+    "get used to"
+   ],
+   "answer": 1,
+   "why": "У запереченні — didn’t use to."
+  },
+  {
+   "id": "used-to-9",
+   "type": "choice",
+   "q": "You'll ___ the noise soon.",
+   "options": [
+    "get used to",
+    "be used to",
+    "used to",
+    "use to"
+   ],
+   "answer": 0,
+   "why": "get used to — процес звикання."
+  },
+  {
+   "id": "used-to-10",
+   "type": "order",
+   "words": [
+    "She",
+    "used",
+    "to",
+    "live",
+    "in",
+    "Paris"
+   ],
+   "answer": [
+    "She used to live in Paris"
+   ],
+   "why": "used to + інфінітив."
+  }
+ ]
+}

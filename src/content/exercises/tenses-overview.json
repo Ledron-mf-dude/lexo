@@ -1,0 +1,126 @@
+{
+ "questions": [
+  {
+   "id": "tenses-overview-1",
+   "type": "choice",
+   "q": "Which tense: 'She has been working here for years.'",
+   "options": [
+    "Present Perfect",
+    "Present Perfect Continuous",
+    "Past Perfect Continuous",
+    "Present Continuous"
+   ],
+   "answer": 1,
+   "why": "have/has been + V-ing — Present Perfect Continuous."
+  },
+  {
+   "id": "tenses-overview-2",
+   "type": "choice",
+   "q": "Which tense: 'I was sleeping when he called.'",
+   "options": [
+    "Past Simple",
+    "Past Continuous",
+    "Past Perfect",
+    "Present Continuous"
+   ],
+   "answer": 1,
+   "why": "was/were + V-ing — Past Continuous."
+  },
+  {
+   "id": "tenses-overview-3",
+   "type": "choice",
+   "q": "Which tense: 'By June we will have moved.'",
+   "options": [
+    "Future Simple",
+    "Future Continuous",
+    "Future Perfect",
+    "Present Perfect"
+   ],
+   "answer": 2,
+   "why": "will have + V3 — Future Perfect."
+  },
+  {
+   "id": "tenses-overview-4",
+   "type": "fill",
+   "q": "Present Perfect: 'I ___ (live) here since 2015.'",
+   "answer": [
+    "have lived"
+   ],
+   "why": "have + V3."
+  },
+  {
+   "id": "tenses-overview-5",
+   "type": "fill",
+   "q": "Future Continuous: 'At 9 tomorrow she ___ (work).'",
+   "answer": [
+    "will be working"
+   ],
+   "why": "will be + V-ing."
+  },
+  {
+   "id": "tenses-overview-6",
+   "type": "choice",
+   "q": "The formula \"had + V3\" is:",
+   "options": [
+    "Past Perfect",
+    "Present Perfect",
+    "Past Simple",
+    "Future Perfect"
+   ],
+   "answer": 0,
+   "why": "had + V3 — Past Perfect."
+  },
+  {
+   "id": "tenses-overview-7",
+   "type": "choice",
+   "q": "Which tense describes a habit?",
+   "options": [
+    "Present Simple",
+    "Present Continuous",
+    "Past Perfect",
+    "Future Perfect"
+   ],
+   "answer": 0,
+   "why": "Звички — Present Simple."
+  },
+  {
+   "id": "tenses-overview-8",
+   "type": "choice",
+   "q": "Which tense: 'They had been waiting for two hours.'",
+   "options": [
+    "Past Perfect",
+    "Past Continuous",
+    "Past Perfect Continuous",
+    "Present Perfect Continuous"
+   ],
+   "answer": 2,
+   "why": "had been + V-ing — Past Perfect Continuous."
+  },
+  {
+   "id": "tenses-overview-9",
+   "type": "fill",
+   "q": "Future Perfect: 'She ___ (finish) the report by 5 pm.'",
+   "answer": [
+    "will have finished"
+   ],
+   "why": "will have + V3."
+  },
+  {
+   "id": "tenses-overview-10",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "been",
+    "waiting",
+    "for",
+    "an",
+    "hour"
+   ],
+   "answer": [
+    "I have been waiting for an hour"
+   ],
+   "why": "Present Perfect Continuous: have been + V-ing."
+  }
+ ]
+}

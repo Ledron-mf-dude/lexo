@@ -1,0 +1,104 @@
+{
+ "questions": [
+  {
+   "id": "another-other-1",
+   "type": "choice",
+   "q": "Can I have ___ cup of tea, please?",
+   "options": [
+    "other",
+    "another",
+    "others",
+    "the others"
+   ],
+   "answer": 1,
+   "why": "another (an + other) — ще одна, однина."
+  },
+  {
+   "id": "another-other-2",
+   "type": "choice",
+   "q": "One is red, ___ is blue. (two things)",
+   "options": [
+    "another",
+    "other",
+    "the other",
+    "others"
+   ],
+   "answer": 2,
+   "why": "the other — другий із двох."
+  },
+  {
+   "id": "another-other-3",
+   "type": "choice",
+   "q": "Some people like tea; ___ prefer coffee.",
+   "options": [
+    "other",
+    "others",
+    "another",
+    "the other"
+   ],
+   "answer": 1,
+   "why": "others — займенник у множині без іменника."
+  },
+  {
+   "id": "another-other-4",
+   "type": "choice",
+   "q": "___ people came later.",
+   "options": [
+    "Another",
+    "Other",
+    "Others",
+    "The other"
+   ],
+   "answer": 1,
+   "why": "other + іменник у множині."
+  },
+  {
+   "id": "another-other-5",
+   "type": "choice",
+   "q": "Two students came; ___ stayed at home. (the rest of the class)",
+   "options": [
+    "the others",
+    "others",
+    "another",
+    "other"
+   ],
+   "answer": 0,
+   "why": "the others — решта певної групи."
+  },
+  {
+   "id": "another-other-6",
+   "type": "choice",
+   "q": "That is ___ matter.",
+   "options": [
+    "other",
+    "another",
+    "others",
+    "the others"
+   ],
+   "answer": 1,
+   "why": "another + іменник в однині."
+  },
+  {
+   "id": "another-other-7",
+   "type": "fill",
+   "q": "She has two sisters. One lives in Paris and ___ lives in Rome. (two words)",
+   "answer": [
+    "the other"
+   ],
+   "why": "the other — друга з двох."
+  },
+  {
+   "id": "another-other-8",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "Others people came.",
+    "Other people came.",
+    "Another people came.",
+    "The others people came."
+   ],
+   "answer": 1,
+   "why": "Others не вживається перед іменником; other people."
+  }
+ ]
+}

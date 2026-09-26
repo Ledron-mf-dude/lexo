@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "prepositions-time-1",
+   "type": "choice",
+   "q": "I get up ___ 7 o’clock.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "by"
+   ],
+   "answer": 2,
+   "why": "at + точний час."
+  },
+  {
+   "id": "prepositions-time-2",
+   "type": "choice",
+   "q": "My birthday is ___ 5 May.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "of"
+   ],
+   "answer": 1,
+   "why": "on + дата."
+  },
+  {
+   "id": "prepositions-time-3",
+   "type": "choice",
+   "q": "We go skiing ___ winter.",
+   "options": [
+    "at",
+    "on",
+    "in",
+    "by"
+   ],
+   "answer": 2,
+   "why": "in + пора року."
+  },
+  {
+   "id": "prepositions-time-4",
+   "type": "choice",
+   "q": "I'll be back ___ ten minutes.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "by"
+   ],
+   "answer": 1,
+   "why": "in + проміжок — через."
+  },
+  {
+   "id": "prepositions-time-5",
+   "type": "choice",
+   "q": "Finish the report ___ Friday. (deadline)",
+   "options": [
+    "until",
+    "by",
+    "at",
+    "in"
+   ],
+   "answer": 1,
+   "why": "by — не пізніше."
+  },
+  {
+   "id": "prepositions-time-6",
+   "type": "choice",
+   "q": "I'll wait ___ Friday. (up to Friday)",
+   "options": [
+    "by",
+    "until",
+    "at",
+    "in"
+   ],
+   "answer": 1,
+   "why": "until — до."
+  },
+  {
+   "id": "prepositions-time-7",
+   "type": "choice",
+   "q": "She wakes up ___ the morning.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "by"
+   ],
+   "answer": 0,
+   "why": "in the morning."
+  },
+  {
+   "id": "prepositions-time-8",
+   "type": "choice",
+   "q": "I sleep ___ night.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "by"
+   ],
+   "answer": 1,
+   "why": "at night."
+  },
+  {
+   "id": "prepositions-time-9",
+   "type": "choice",
+   "q": "The class starts ___ Monday morning.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "by"
+   ],
+   "answer": 2,
+   "why": "on + день + morning."
+  },
+  {
+   "id": "prepositions-time-10",
+   "type": "choice",
+   "q": "We work ___ Monday ___ Friday.",
+   "options": [
+    "from / to",
+    "at / at",
+    "on / by",
+    "in / to"
+   ],
+   "answer": 0,
+   "why": "from … to."
+  }
+ ]
+}

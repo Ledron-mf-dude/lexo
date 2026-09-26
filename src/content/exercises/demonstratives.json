@@ -1,0 +1,110 @@
+{
+ "questions": [
+  {
+   "id": "demonstratives-1",
+   "type": "choice",
+   "q": "___ book here is mine. (near)",
+   "options": [
+    "That",
+    "This",
+    "Those",
+    "These"
+   ],
+   "answer": 1,
+   "why": "this — однина, близько."
+  },
+  {
+   "id": "demonstratives-2",
+   "type": "choice",
+   "q": "___ shoes over there are yours.",
+   "options": [
+    "This",
+    "That",
+    "These",
+    "Those"
+   ],
+   "answer": 3,
+   "why": "those — множина, далеко."
+  },
+  {
+   "id": "demonstratives-3",
+   "type": "choice",
+   "q": "___ are my keys. (near)",
+   "options": [
+    "This",
+    "That",
+    "These",
+    "Those"
+   ],
+   "answer": 2,
+   "why": "these — множина, близько."
+  },
+  {
+   "id": "demonstratives-4",
+   "type": "choice",
+   "q": "On the phone: '___ is Tom speaking.'",
+   "options": [
+    "That",
+    "This",
+    "It",
+    "He"
+   ],
+   "answer": 1,
+   "why": "Про себе в телефонній розмові — This is…"
+  },
+  {
+   "id": "demonstratives-5",
+   "type": "choice",
+   "q": "On the phone you ask: 'Who is ___?'",
+   "options": [
+    "this",
+    "that",
+    "these",
+    "it"
+   ],
+   "answer": 1,
+   "why": "Про співрозмовника — Who is that?"
+  },
+  {
+   "id": "demonstratives-6",
+   "type": "choice",
+   "q": "Weather: '___ is raining.'",
+   "options": [
+    "This",
+    "It",
+    "That",
+    "There"
+   ],
+   "answer": 1,
+   "why": "Погода — it."
+  },
+  {
+   "id": "demonstratives-7",
+   "type": "choice",
+   "q": "The plural of 'that' is:",
+   "options": [
+    "these",
+    "those",
+    "thats",
+    "thoses"
+   ],
+   "answer": 1,
+   "why": "that → those."
+  },
+  {
+   "id": "demonstratives-8",
+   "type": "order",
+   "words": [
+    "This",
+    "is",
+    "my",
+    "sister",
+    "Anna"
+   ],
+   "answer": [
+    "This is my sister Anna"
+   ],
+   "why": "Знайомство: This is…"
+  }
+ ]
+}

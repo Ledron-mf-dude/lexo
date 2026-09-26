@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "verb-go-1",
+   "type": "choice",
+   "q": "She went ___ yesterday. (to her house)",
+   "options": [
+    "to home",
+    "home",
+    "at home",
+    "in home"
+   ],
+   "answer": 1,
+   "why": "go home — без to."
+  },
+  {
+   "id": "verb-go-2",
+   "type": "choice",
+   "q": "We ___ swimming every week.",
+   "options": [
+    "go",
+    "do",
+    "make",
+    "play"
+   ],
+   "answer": 0,
+   "why": "go + -ing (активності)."
+  },
+  {
+   "id": "verb-go-3",
+   "type": "choice",
+   "q": "Let's go ___ a walk.",
+   "options": [
+    "for",
+    "to",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "why": "go for a walk."
+  },
+  {
+   "id": "verb-go-4",
+   "type": "choice",
+   "q": "The milk went ___.",
+   "options": [
+    "bad",
+    "badly",
+    "badness",
+    "to bad"
+   ],
+   "answer": 0,
+   "why": "go + прикметник."
+  },
+  {
+   "id": "verb-go-5",
+   "type": "choice",
+   "q": "'She has gone to London.' means:",
+   "options": [
+    "she is there now",
+    "she was there and returned",
+    "she will go",
+    "she hates London"
+   ],
+   "answer": 0,
+   "why": "has gone — досі там."
+  },
+  {
+   "id": "verb-go-6",
+   "type": "choice",
+   "q": "'She has been to London.' means:",
+   "options": [
+    "she visited and came back",
+    "she is there now",
+    "she will go",
+    "she hates London"
+   ],
+   "answer": 0,
+   "why": "has been — була й повернулася."
+  },
+  {
+   "id": "verb-go-7",
+   "type": "choice",
+   "q": "We go ___ train.",
+   "options": [
+    "by",
+    "on",
+    "with",
+    "at"
+   ],
+   "answer": 0,
+   "why": "go by train."
+  },
+  {
+   "id": "verb-go-8",
+   "type": "choice",
+   "q": "'go on' means:",
+   "options": [
+    "continue",
+    "exit",
+    "stop",
+    "refuse"
+   ],
+   "answer": 0,
+   "why": "go on — продовжувати."
+  }
+ ]
+}

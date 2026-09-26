@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "adjective-order-1",
+   "type": "choice",
+   "q": "Choose the correct order.",
+   "options": [
+    "a lovely old red car",
+    "a red old lovely car",
+    "an old lovely red car",
+    "a lovely red old car"
+   ],
+   "answer": 0,
+   "why": "Думка → вік → колір."
+  },
+  {
+   "id": "adjective-order-2",
+   "type": "choice",
+   "q": "Choose the correct order.",
+   "options": [
+    "a big round wooden table",
+    "a wooden round big table",
+    "a round big wooden table",
+    "a wooden big round table"
+   ],
+   "answer": 0,
+   "why": "Розмір → форма → матеріал."
+  },
+  {
+   "id": "adjective-order-3",
+   "type": "choice",
+   "q": "Choose the correct order.",
+   "options": [
+    "a beautiful small Italian bag",
+    "an Italian small beautiful bag",
+    "a small beautiful Italian bag",
+    "a beautiful Italian small bag"
+   ],
+   "answer": 0,
+   "why": "Думка → розмір → походження."
+  },
+  {
+   "id": "adjective-order-4",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "my new black running shoes",
+    "my black new running shoes",
+    "my running new black shoes",
+    "my new running black shoes"
+   ],
+   "answer": 0,
+   "why": "Вік → колір → призначення."
+  },
+  {
+   "id": "adjective-order-5",
+   "type": "choice",
+   "q": "How do you write two adjectives of DIFFERENT categories before a noun?",
+   "options": [
+    "a big red ball",
+    "a big, red ball",
+    "a big and red ball",
+    "a big; red ball"
+   ],
+   "answer": 0,
+   "why": "Різні категорії — без ком."
+  },
+  {
+   "id": "adjective-order-6",
+   "type": "choice",
+   "q": "After the verb: 'The night was ___.'",
+   "options": [
+    "long and dark",
+    "long dark",
+    "dark long",
+    "long, and dark"
+   ],
+   "answer": 0,
+   "why": "Після дієслова два прикметники з and."
+  },
+  {
+   "id": "adjective-order-7",
+   "type": "choice",
+   "q": "Which adjective comes FIRST in a series?",
+   "options": [
+    "opinion",
+    "colour",
+    "material",
+    "age"
+   ],
+   "answer": 0,
+   "why": "Спершу — думка."
+  },
+  {
+   "id": "adjective-order-8",
+   "type": "choice",
+   "q": "Which adjective stands last (just before the noun)?",
+   "options": [
+    "size",
+    "purpose",
+    "colour",
+    "age"
+   ],
+   "answer": 1,
+   "why": "Призначення — найближче до іменника."
+  }
+ ]
+}

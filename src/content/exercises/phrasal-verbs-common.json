@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "phrasal-verbs-common-1",
+   "type": "choice",
+   "q": "give up means:",
+   "options": [
+    "start",
+    "stop / quit",
+    "wait",
+    "continue"
+   ],
+   "answer": 1,
+   "why": "give up — кинути."
+  },
+  {
+   "id": "phrasal-verbs-common-2",
+   "type": "choice",
+   "q": "find out means:",
+   "options": [
+    "discover",
+    "lose",
+    "hide",
+    "forget"
+   ],
+   "answer": 0,
+   "why": "find out — дізнатися."
+  },
+  {
+   "id": "phrasal-verbs-common-3",
+   "type": "choice",
+   "q": "look after means:",
+   "options": [
+    "search",
+    "take care of",
+    "watch TV",
+    "admire"
+   ],
+   "answer": 1,
+   "why": "look after — доглядати."
+  },
+  {
+   "id": "phrasal-verbs-common-4",
+   "type": "choice",
+   "q": "put off means:",
+   "options": [
+    "postpone",
+    "dress",
+    "repair",
+    "throw"
+   ],
+   "answer": 0,
+   "why": "put off — відкласти."
+  },
+  {
+   "id": "phrasal-verbs-common-5",
+   "type": "choice",
+   "q": "turn down (an offer) means:",
+   "options": [
+    "reject",
+    "accept",
+    "raise",
+    "repeat"
+   ],
+   "answer": 0,
+   "why": "turn down — відхилити."
+  },
+  {
+   "id": "phrasal-verbs-common-6",
+   "type": "choice",
+   "q": "get along with means:",
+   "options": [
+    "have a good relationship",
+    "get in the car",
+    "leave",
+    "argue"
+   ],
+   "answer": 0,
+   "why": "get along — ладнати."
+  },
+  {
+   "id": "phrasal-verbs-common-7",
+   "type": "choice",
+   "q": "come up with (an idea) means:",
+   "options": [
+    "think of",
+    "arrive with",
+    "hide",
+    "refuse"
+   ],
+   "answer": 0,
+   "why": "come up with — придумати."
+  },
+  {
+   "id": "phrasal-verbs-common-8",
+   "type": "choice",
+   "q": "run out of means:",
+   "options": [
+    "have none left",
+    "run away",
+    "run fast",
+    "exit"
+   ],
+   "answer": 0,
+   "why": "run out of — вичерпатися."
+  },
+  {
+   "id": "phrasal-verbs-common-9",
+   "type": "choice",
+   "q": "break up (a relationship) means:",
+   "options": [
+    "end a relationship",
+    "damage",
+    "start",
+    "repair"
+   ],
+   "answer": 0,
+   "why": "break up — розійтися."
+  },
+  {
+   "id": "phrasal-verbs-common-10",
+   "type": "choice",
+   "q": "carry on means:",
+   "options": [
+    "continue",
+    "carry a bag",
+    "stop",
+    "cancel"
+   ],
+   "answer": 0,
+   "why": "carry on — продовжувати."
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "questions": [
+  {
+   "id": "compound-nouns-1",
+   "type": "choice",
+   "q": "The plural of 'bus stop' is:",
+   "options": [
+    "buses stop",
+    "bus stops",
+    "bus stopes",
+    "buss stops"
+   ],
+   "answer": 1,
+   "why": "У складному іменнику змінюється головний (останній) елемент."
+  },
+  {
+   "id": "compound-nouns-2",
+   "type": "choice",
+   "q": "The plural of 'mother-in-law' is:",
+   "options": [
+    "mother-in-laws",
+    "mothers-in-law",
+    "mothers-in-laws",
+    "mother-in-law's"
+   ],
+   "answer": 1,
+   "why": "Множина утворюється від головного слова: mothers-in-law."
+  },
+  {
+   "id": "compound-nouns-3",
+   "type": "choice",
+   "q": "Which compound noun means a place to swim?",
+   "options": [
+    "swimming pool",
+    "swim pool",
+    "swimmer pool",
+    "swum pool"
+   ],
+   "answer": 0,
+   "why": "swimming pool — -ing + іменник."
+  },
+  {
+   "id": "compound-nouns-4",
+   "type": "choice",
+   "q": "Where does the stress usually fall in a compound noun (e.g. BLACKboard)?",
+   "options": [
+    "on the first word",
+    "on the second word",
+    "on both equally",
+    "nowhere"
+   ],
+   "answer": 0,
+   "why": "Зазвичай наголос на першому слові."
+  },
+  {
+   "id": "compound-nouns-5",
+   "type": "choice",
+   "q": "Which is normally written with hyphens?",
+   "options": [
+    "toothpaste",
+    "mother-in-law",
+    "bus stop",
+    "football"
+   ],
+   "answer": 1,
+   "why": "mother-in-law пишеться через дефіс."
+  },
+  {
+   "id": "compound-nouns-6",
+   "type": "fill",
+   "q": "The plural of 'passer-by' is ___.",
+   "answer": [
+    "passers-by"
+   ],
+   "why": "Змінюється перший, головний елемент: passers-by."
+  },
+  {
+   "id": "compound-nouns-7",
+   "type": "choice",
+   "q": "Which is a compound noun of the type -ing + noun?",
+   "options": [
+    "living room",
+    "live room",
+    "lives room",
+    "lived room"
+   ],
+   "answer": 0,
+   "why": "living room — -ing + іменник."
+  },
+  {
+   "id": "compound-nouns-8",
+   "type": "choice",
+   "q": "The possessive of 'my mother-in-law' is:",
+   "options": [
+    "my mother-in-law's car",
+    "my mother's-in-law car",
+    "my mothers-in-law car",
+    "my mother-in-laws car"
+   ],
+   "answer": 0,
+   "why": "'s додаємо в кінці складного іменника."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "questions": [
+  {
+   "id": "cleft-sentences-1",
+   "type": "choice",
+   "q": "___ was Tom who broke the window.",
+   "options": [
+    "It",
+    "There",
+    "What",
+    "He"
+   ],
+   "answer": 0,
+   "why": "It was … who — виділення."
+  },
+  {
+   "id": "cleft-sentences-2",
+   "type": "choice",
+   "q": "___ I need is a rest.",
+   "options": [
+    "It",
+    "That",
+    "What",
+    "Which"
+   ],
+   "answer": 2,
+   "why": "Wh-cleft: What I need is…"
+  },
+  {
+   "id": "cleft-sentences-3",
+   "type": "choice",
+   "q": "It was in Paris ___ I met her.",
+   "options": [
+    "who",
+    "that",
+    "what",
+    "which"
+   ],
+   "answer": 1,
+   "why": "It was + обставина + that."
+  },
+  {
+   "id": "cleft-sentences-4",
+   "type": "choice",
+   "q": "___ I want is peace.",
+   "options": [
+    "All",
+    "Everything",
+    "It",
+    "There"
+   ],
+   "answer": 0,
+   "why": "All I want is…"
+  },
+  {
+   "id": "cleft-sentences-5",
+   "type": "choice",
+   "q": "'A rest is what I need.' is a:",
+   "options": [
+    "reverse wh-cleft",
+    "question",
+    "passive",
+    "conditional"
+   ],
+   "answer": 0,
+   "why": "Зворотний порядок wh-cleft."
+  },
+  {
+   "id": "cleft-sentences-6",
+   "type": "choice",
+   "q": "Emphasise 'yesterday': 'She called yesterday.'",
+   "options": [
+    "It was yesterday that she called.",
+    "Yesterday was she called.",
+    "It yesterday was that she called.",
+    "Was yesterday when she called."
+   ],
+   "answer": 0,
+   "why": "It was … that."
+  },
+  {
+   "id": "cleft-sentences-7",
+   "type": "choice",
+   "q": "What happened ___ that he lost his keys.",
+   "options": [
+    "is",
+    "was",
+    "were",
+    "be"
+   ],
+   "answer": 1,
+   "why": "Про минуле — was."
+  },
+  {
+   "id": "cleft-sentences-8",
+   "type": "order",
+   "words": [
+    "What",
+    "I",
+    "need",
+    "is",
+    "a",
+    "rest"
+   ],
+   "answer": [
+    "What I need is a rest"
+   ],
+   "why": "What + підмет + дієслово + is."
+  }
+ ]
+}

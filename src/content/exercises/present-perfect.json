@@ -1,0 +1,127 @@
+{
+ "questions": [
+  {
+   "id": "present-perfect-1",
+   "type": "choice",
+   "q": "I ___ this film three times.",
+   "options": [
+    "saw",
+    "have seen",
+    "was seeing",
+    "see"
+   ],
+   "answer": 1,
+   "why": "Досвід без вказаного часу — Present Perfect."
+  },
+  {
+   "id": "present-perfect-2",
+   "type": "choice",
+   "q": "She ___ in London since 2019.",
+   "options": [
+    "lived",
+    "is living",
+    "has lived",
+    "lives"
+   ],
+   "answer": 2,
+   "why": "since + Present Perfect: дія триває до тепер."
+  },
+  {
+   "id": "present-perfect-3",
+   "type": "choice",
+   "q": "I ___ him yesterday.",
+   "options": [
+    "have met",
+    "met",
+    "have been meeting",
+    "meet"
+   ],
+   "answer": 1,
+   "why": "Із yesterday — Past Simple."
+  },
+  {
+   "id": "present-perfect-4",
+   "type": "fill",
+   "q": "Have you ever ___ (eat) sushi?",
+   "answer": [
+    "eaten"
+   ],
+   "why": "Третя форма eat — eaten."
+  },
+  {
+   "id": "present-perfect-5",
+   "type": "fill",
+   "q": "They ___ (not / arrive) yet.",
+   "answer": [
+    "haven't arrived",
+    "have not arrived"
+   ],
+   "why": "yet у запереченні — Present Perfect: haven't arrived."
+  },
+  {
+   "id": "present-perfect-6",
+   "type": "choice",
+   "q": "I'm tired. I ___ all day.",
+   "options": [
+    "work",
+    "have been working",
+    "worked",
+    "was working"
+   ],
+   "answer": 1,
+   "why": "Тривалість до тепер — Present Perfect Continuous."
+  },
+  {
+   "id": "present-perfect-7",
+   "type": "choice",
+   "q": "How long ___ you ___ English?",
+   "options": [
+    "did / learn",
+    "have / been learning",
+    "are / learning",
+    "do / learn"
+   ],
+   "answer": 1,
+   "why": "How long + Present Perfect (Continuous)."
+  },
+  {
+   "id": "present-perfect-8",
+   "type": "fill",
+   "q": "She has already ___ (finish) her homework.",
+   "answer": [
+    "finished"
+   ],
+   "why": "have/has + V3: finished."
+  },
+  {
+   "id": "present-perfect-9",
+   "type": "choice",
+   "q": "He ___ his keys, so he can't get in.",
+   "options": [
+    "lost",
+    "has lost",
+    "was losing",
+    "loses"
+   ],
+   "answer": 1,
+   "why": "Результат, важливий зараз, — Present Perfect."
+  },
+  {
+   "id": "present-perfect-10",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "lived",
+    "here",
+    "for",
+    "ten",
+    "years"
+   ],
+   "answer": [
+    "I have lived here for ten years"
+   ],
+   "why": "for + період: Present Perfect."
+  }
+ ]
+}

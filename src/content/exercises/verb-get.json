@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "verb-get-1",
+   "type": "choice",
+   "q": "It's getting ___.",
+   "options": [
+    "dark",
+    "darkly",
+    "darkness",
+    "to dark"
+   ],
+   "answer": 0,
+   "why": "get + прикметник = ставати."
+  },
+  {
+   "id": "verb-get-2",
+   "type": "choice",
+   "q": "I got a letter. 'got' means:",
+   "options": [
+    "received",
+    "became",
+    "arrived",
+    "understood"
+   ],
+   "answer": 0,
+   "why": "get = отримати."
+  },
+  {
+   "id": "verb-get-3",
+   "type": "choice",
+   "q": "When did you ___ home?",
+   "options": [
+    "get",
+    "arrive",
+    "reach to",
+    "go to"
+   ],
+   "answer": 0,
+   "why": "get home — дістатися додому."
+  },
+  {
+   "id": "verb-get-4",
+   "type": "choice",
+   "q": "I don't ___ it. (I don't understand)",
+   "options": [
+    "get",
+    "make",
+    "have",
+    "do"
+   ],
+   "answer": 0,
+   "why": "get it — розуміти."
+  },
+  {
+   "id": "verb-get-5",
+   "type": "choice",
+   "q": "She ___ her hair cut. (someone did it for her)",
+   "options": [
+    "got",
+    "took",
+    "made",
+    "went"
+   ],
+   "answer": 0,
+   "why": "get + предмет + V3."
+  },
+  {
+   "id": "verb-get-6",
+   "type": "choice",
+   "q": "He ___ fired last week. (informal passive)",
+   "options": [
+    "got",
+    "has got",
+    "is got",
+    "gets"
+   ],
+   "answer": 0,
+   "why": "get + V3 — пасив."
+  },
+  {
+   "id": "verb-get-7",
+   "type": "choice",
+   "q": "get up means:",
+   "options": [
+    "leave bed",
+    "arrive",
+    "understand",
+    "recover"
+   ],
+   "answer": 0,
+   "why": "get up — вставати."
+  },
+  {
+   "id": "verb-get-8",
+   "type": "choice",
+   "q": "get over means:",
+   "options": [
+    "recover from",
+    "cross",
+    "understand",
+    "wake"
+   ],
+   "answer": 0,
+   "why": "get over — оговтатися."
+  },
+  {
+   "id": "verb-get-9",
+   "type": "choice",
+   "q": "get on with someone means:",
+   "options": [
+    "have a good relationship",
+    "board with them",
+    "argue",
+    "continue"
+   ],
+   "answer": 0,
+   "why": "get on with — ладнати."
+  }
+ ]
+}

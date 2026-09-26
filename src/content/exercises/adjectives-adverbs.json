@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "adjectives-adverbs-1",
+   "type": "choice",
+   "q": "She speaks ___.",
+   "options": [
+    "quiet",
+    "quietly",
+    "quietness",
+    "quieter"
+   ],
+   "answer": 1,
+   "why": "Прислівник способу: quietly."
+  },
+  {
+   "id": "adjectives-adverbs-2",
+   "type": "choice",
+   "q": "He is a ___ driver.",
+   "options": [
+    "careful",
+    "carefully",
+    "care",
+    "carefulness"
+   ],
+   "answer": 0,
+   "why": "Перед іменником — прикметник."
+  },
+  {
+   "id": "adjectives-adverbs-3",
+   "type": "choice",
+   "q": "The adverb of 'good' is:",
+   "options": [
+    "good",
+    "well",
+    "goodly",
+    "gooder"
+   ],
+   "answer": 1,
+   "why": "good → well."
+  },
+  {
+   "id": "adjectives-adverbs-4",
+   "type": "choice",
+   "q": "He works ___. (with effort)",
+   "options": [
+    "hardly",
+    "hard",
+    "hardy",
+    "hardness"
+   ],
+   "answer": 1,
+   "why": "hard — і прикметник, і прислівник."
+  },
+  {
+   "id": "adjectives-adverbs-5",
+   "type": "choice",
+   "q": "I ___ know him. (almost not)",
+   "options": [
+    "hard",
+    "hardly",
+    "hardy",
+    "hardness"
+   ],
+   "answer": 1,
+   "why": "hardly — ледве, майже не."
+  },
+  {
+   "id": "adjectives-adverbs-6",
+   "type": "choice",
+   "q": "She looks ___.",
+   "options": [
+    "happy",
+    "happily",
+    "happiness",
+    "happying"
+   ],
+   "answer": 0,
+   "why": "Після look — прикметник."
+  },
+  {
+   "id": "adjectives-adverbs-7",
+   "type": "choice",
+   "q": "The train arrived ___. (not on time)",
+   "options": [
+    "late",
+    "lately",
+    "latest",
+    "lateness"
+   ],
+   "answer": 0,
+   "why": "late — пізно."
+  },
+  {
+   "id": "adjectives-adverbs-8",
+   "type": "choice",
+   "q": "I've been busy ___. (recently)",
+   "options": [
+    "late",
+    "lately",
+    "latest",
+    "lated"
+   ],
+   "answer": 1,
+   "why": "lately — останнім часом."
+  },
+  {
+   "id": "adjectives-adverbs-9",
+   "type": "choice",
+   "q": "The adverb of 'easy' is:",
+   "options": [
+    "easy",
+    "easily",
+    "easyly",
+    "easier"
+   ],
+   "answer": 1,
+   "why": "-y → -ily."
+  }
+ ]
+}

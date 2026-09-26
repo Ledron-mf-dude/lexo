@@ -1,0 +1,119 @@
+{
+ "questions": [
+  {
+   "id": "infinitive-forms-1",
+   "type": "choice",
+   "q": "She seems ___ at home today. (now)",
+   "options": [
+    "to work",
+    "to be working",
+    "to have worked",
+    "working"
+   ],
+   "answer": 1,
+   "why": "Тривала дія зараз — Continuous Infinitive."
+  },
+  {
+   "id": "infinitive-forms-2",
+   "type": "choice",
+   "q": "He seems ___ a book last year. (past)",
+   "options": [
+    "to write",
+    "to be writing",
+    "to have written",
+    "writing"
+   ],
+   "answer": 2,
+   "why": "Минуле — Perfect Infinitive."
+  },
+  {
+   "id": "infinitive-forms-3",
+   "type": "choice",
+   "q": "She should ___ at home every day. (habit)",
+   "options": [
+    "work",
+    "be working",
+    "have worked",
+    "to work"
+   ],
+   "answer": 0,
+   "why": "Present Infinitive без to після should."
+  },
+  {
+   "id": "infinitive-forms-4",
+   "type": "choice",
+   "q": "She should ___ now. (in progress)",
+   "options": [
+    "work",
+    "be working",
+    "have worked",
+    "to work"
+   ],
+   "answer": 1,
+   "why": "Continuous Infinitive: be + V-ing."
+  },
+  {
+   "id": "infinitive-forms-5",
+   "type": "choice",
+   "q": "She seems ___ a book at two pm yesterday. (in progress in the past)",
+   "options": [
+    "to have been writing",
+    "to be writing",
+    "to have written",
+    "to write"
+   ],
+   "answer": 0,
+   "why": "Perfect Continuous Infinitive."
+  },
+  {
+   "id": "infinitive-forms-6",
+   "type": "choice",
+   "q": "Which infinitive corresponds to Past Simple?",
+   "options": [
+    "Present",
+    "Continuous",
+    "Perfect",
+    "Perfect Continuous"
+   ],
+   "answer": 2,
+   "why": "Past Simple → Perfect Infinitive."
+  },
+  {
+   "id": "infinitive-forms-7",
+   "type": "choice",
+   "q": "The formula 'to have been + V-ing' is:",
+   "options": [
+    "Continuous Infinitive",
+    "Perfect Infinitive",
+    "Perfect Continuous Infinitive",
+    "Present Infinitive"
+   ],
+   "answer": 2,
+   "why": "have been + V-ing."
+  },
+  {
+   "id": "infinitive-forms-8",
+   "type": "fill",
+   "q": "He may ___ (arrive) already. (perfect infinitive, without to)",
+   "answer": [
+    "have arrived"
+   ],
+   "why": "may + have + V3."
+  },
+  {
+   "id": "infinitive-forms-9",
+   "type": "order",
+   "words": [
+    "She",
+    "seems",
+    "to",
+    "have",
+    "left"
+   ],
+   "answer": [
+    "She seems to have left"
+   ],
+   "why": "seem + Perfect Infinitive."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "questions": [
+  {
+   "id": "could-be-comparative-1",
+   "type": "choice",
+   "q": "It ___ warmer today. (it is cold now)",
+   "options": [
+    "could be",
+    "can",
+    "could been",
+    "is could"
+   ],
+   "answer": 0,
+   "why": "could be + порівняльний ступінь."
+  },
+  {
+   "id": "could-be-comparative-2",
+   "type": "choice",
+   "q": "This car could be ___.",
+   "options": [
+    "cheap",
+    "cheaper",
+    "more cheap",
+    "cheapest"
+   ],
+   "answer": 1,
+   "why": "Короткий прикметник: -er."
+  },
+  {
+   "id": "could-be-comparative-3",
+   "type": "choice",
+   "q": "The book could be ___ interesting.",
+   "options": [
+    "more",
+    "most",
+    "much",
+    "very"
+   ],
+   "answer": 0,
+   "why": "Довгий прикметник: more + adj."
+  },
+  {
+   "id": "could-be-comparative-4",
+   "type": "choice",
+   "q": "Could be + comparative refers to:",
+   "options": [
+    "present or future",
+    "past only",
+    "a habit in the past",
+    "certainty"
+   ],
+   "answer": 0,
+   "why": "Теперішнє або майбутнє."
+  },
+  {
+   "id": "could-be-comparative-5",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "It could be more warm.",
+    "It could be warmer.",
+    "It could warmer be.",
+    "It could be warmest."
+   ],
+   "answer": 1,
+   "why": "warm → warmer."
+  },
+  {
+   "id": "could-be-comparative-6",
+   "type": "choice",
+   "q": "The room could be ___. (larger)",
+   "options": [
+    "big",
+    "bigger",
+    "biggest",
+    "more big"
+   ],
+   "answer": 1,
+   "why": "big → bigger."
+  },
+  {
+   "id": "could-be-comparative-7",
+   "type": "order",
+   "words": [
+    "The",
+    "food",
+    "could",
+    "be",
+    "better"
+   ],
+   "answer": [
+    "The food could be better"
+   ],
+   "why": "could be + better."
+  }
+ ]
+}

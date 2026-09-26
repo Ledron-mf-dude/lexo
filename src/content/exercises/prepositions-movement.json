@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "prepositions-movement-1",
+   "type": "choice",
+   "q": "He walked ___ the room.",
+   "options": [
+    "in",
+    "into",
+    "at",
+    "on"
+   ],
+   "answer": 1,
+   "why": "into — всередину."
+  },
+  {
+   "id": "prepositions-movement-2",
+   "type": "choice",
+   "q": "She took the book ___ the bag.",
+   "options": [
+    "out of",
+    "from of",
+    "off",
+    "outside"
+   ],
+   "answer": 0,
+   "why": "out of."
+  },
+  {
+   "id": "prepositions-movement-3",
+   "type": "choice",
+   "q": "The book fell ___ the shelf.",
+   "options": [
+    "off",
+    "into",
+    "across",
+    "along"
+   ],
+   "answer": 0,
+   "why": "off — з поверхні."
+  },
+  {
+   "id": "prepositions-movement-4",
+   "type": "choice",
+   "q": "We walked ___ the beach.",
+   "options": [
+    "along",
+    "at",
+    "into",
+    "off"
+   ],
+   "answer": 0,
+   "why": "along — уздовж."
+  },
+  {
+   "id": "prepositions-movement-5",
+   "type": "choice",
+   "q": "She swam ___ the river. (from one bank to the other)",
+   "options": [
+    "across",
+    "along",
+    "through",
+    "past"
+   ],
+   "answer": 0,
+   "why": "across — поперек."
+  },
+  {
+   "id": "prepositions-movement-6",
+   "type": "choice",
+   "q": "The train goes ___ a tunnel.",
+   "options": [
+    "through",
+    "across",
+    "along",
+    "past"
+   ],
+   "answer": 0,
+   "why": "through — крізь."
+  },
+  {
+   "id": "prepositions-movement-7",
+   "type": "choice",
+   "q": "He walked ___ the bank without stopping.",
+   "options": [
+    "to",
+    "past",
+    "into",
+    "at"
+   ],
+   "answer": 1,
+   "why": "past — повз."
+  },
+  {
+   "id": "prepositions-movement-8",
+   "type": "choice",
+   "q": "She arrived ___ Paris yesterday.",
+   "options": [
+    "at",
+    "in",
+    "to",
+    "on"
+   ],
+   "answer": 1,
+   "why": "arrive in + місто."
+  }
+ ]
+}

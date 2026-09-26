@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "gerund-after-verbs-1",
+   "type": "choice",
+   "q": "She enjoys ___ TV in the evening.",
+   "options": [
+    "watch",
+    "to watch",
+    "watching",
+    "watched"
+   ],
+   "answer": 2,
+   "why": "Після enjoy — gerund (-ing)."
+  },
+  {
+   "id": "gerund-after-verbs-2",
+   "type": "choice",
+   "q": "I'm looking forward ___ you next week.",
+   "options": [
+    "to see",
+    "to seeing",
+    "seeing",
+    "see"
+   ],
+   "answer": 1,
+   "why": "У look forward to слово to — прийменник, тож далі -ing."
+  },
+  {
+   "id": "gerund-after-verbs-3",
+   "type": "fill",
+   "q": "He admitted ___ (take) the money.",
+   "answer": [
+    "taking"
+   ],
+   "why": "Після admit — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-4",
+   "type": "fill",
+   "q": "It's no use ___ (cry).",
+   "answer": [
+    "crying"
+   ],
+   "why": "Після it's no use — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-5",
+   "type": "choice",
+   "q": "Would you mind ___ the window?",
+   "options": [
+    "to open",
+    "open",
+    "opening",
+    "opened"
+   ],
+   "answer": 2,
+   "why": "Після mind — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-6",
+   "type": "fill",
+   "q": "I can't help ___ (laugh) when I see him.",
+   "answer": [
+    "laughing"
+   ],
+   "why": "Після can't help — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-7",
+   "type": "choice",
+   "q": "The book is worth ___.",
+   "options": [
+    "to read",
+    "reading",
+    "read",
+    "for reading"
+   ],
+   "answer": 1,
+   "why": "Після worth — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-8",
+   "type": "order",
+   "words": [
+    "She",
+    "suggested",
+    "going",
+    "to",
+    "the",
+    "cinema"
+   ],
+   "answer": [
+    "She suggested going to the cinema"
+   ],
+   "why": "Після suggest — gerund: suggested going."
+  },
+  {
+   "id": "gerund-after-verbs-9",
+   "type": "choice",
+   "q": "___ books is my hobby.",
+   "options": [
+    "Read",
+    "Reading",
+    "To reading",
+    "Reads"
+   ],
+   "answer": 1,
+   "why": "Gerund може бути підметом."
+  },
+  {
+   "id": "gerund-after-verbs-10",
+   "type": "fill",
+   "q": "She is interested in ___ (learn) Spanish.",
+   "answer": [
+    "learning"
+   ],
+   "why": "Після прийменника in — gerund."
+  }
+ ]
+}

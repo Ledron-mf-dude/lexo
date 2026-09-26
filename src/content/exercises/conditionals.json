@@ -1,0 +1,128 @@
+{
+ "questions": [
+  {
+   "id": "conditionals-1",
+   "type": "choice",
+   "q": "If it rains tomorrow, we ___ at home.",
+   "options": [
+    "stay",
+    "will stay",
+    "would stay",
+    "stayed"
+   ],
+   "answer": 1,
+   "why": "First conditional: if + Present Simple, will + V."
+  },
+  {
+   "id": "conditionals-2",
+   "type": "choice",
+   "q": "If I ___ more time, I would learn French.",
+   "options": [
+    "have",
+    "had",
+    "will have",
+    "would have"
+   ],
+   "answer": 1,
+   "why": "Second conditional: if + Past Simple, would + V."
+  },
+  {
+   "id": "conditionals-3",
+   "type": "choice",
+   "q": "If she ___ harder, she would have passed.",
+   "options": [
+    "studied",
+    "had studied",
+    "would study",
+    "studies"
+   ],
+   "answer": 1,
+   "why": "Third conditional: if + Past Perfect, would have + V3."
+  },
+  {
+   "id": "conditionals-4",
+   "type": "fill",
+   "q": "If you heat ice, it ___ (melt).",
+   "answer": [
+    "melts"
+   ],
+   "why": "Zero conditional: Present Simple в обох частинах."
+  },
+  {
+   "id": "conditionals-5",
+   "type": "choice",
+   "q": "I'll call you when I ___ home.",
+   "options": [
+    "will get",
+    "get",
+    "would get",
+    "got"
+   ],
+   "answer": 1,
+   "why": "Після when про майбутнє — Present Simple, не will."
+  },
+  {
+   "id": "conditionals-6",
+   "type": "fill",
+   "q": "If I ___ (be) you, I would accept the offer.",
+   "answer": [
+    "were",
+    "was"
+   ],
+   "why": "У другому умовному зазвичай were для всіх осіб."
+  },
+  {
+   "id": "conditionals-7",
+   "type": "choice",
+   "q": "___ you hurry, you'll miss the train.",
+   "options": [
+    "If",
+    "Unless",
+    "When",
+    "Although"
+   ],
+   "answer": 1,
+   "why": "unless = if … not: якщо не поспішиш."
+  },
+  {
+   "id": "conditionals-8",
+   "type": "choice",
+   "q": "If I ___ that, I wouldn't have said it.",
+   "options": [
+    "know",
+    "knew",
+    "had known",
+    "would know"
+   ],
+   "answer": 2,
+   "why": "Third conditional про минуле: had known."
+  },
+  {
+   "id": "conditionals-9",
+   "type": "fill",
+   "q": "We ___ (go) to the beach if the weather is nice tomorrow.",
+   "answer": [
+    "will go",
+    "'ll go"
+   ],
+   "why": "First conditional: will + V."
+  },
+  {
+   "id": "conditionals-10",
+   "type": "order",
+   "words": [
+    "If",
+    "I",
+    "were",
+    "rich,",
+    "I",
+    "would",
+    "travel"
+   ],
+   "answer": [
+    "If I were rich, I would travel"
+   ],
+   "why": "Second conditional: if I were …, I would …"
+  }
+ ]
+}

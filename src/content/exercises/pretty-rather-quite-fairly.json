@@ -1,0 +1,109 @@
+{
+ "questions": [
+  {
+   "id": "pretty-rather-quite-fairly-1",
+   "type": "choice",
+   "q": "It's ___ cold today. (more than expected, unpleasant)",
+   "options": [
+    "rather",
+    "extremely",
+    "absolutely",
+    "fairly"
+   ],
+   "answer": 0,
+   "why": "rather — доволі, часто негативно."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-2",
+   "type": "choice",
+   "q": "The film was ___ good. (not amazing, just OK)",
+   "options": [
+    "fairly",
+    "very",
+    "extremely",
+    "absolutely"
+   ],
+   "answer": 0,
+   "why": "fairly — помірно."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-3",
+   "type": "choice",
+   "q": "It was ___ good film.",
+   "options": [
+    "quite a",
+    "a quite",
+    "quite",
+    "fairly a"
+   ],
+   "answer": 0,
+   "why": "quite / rather — перед a."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-4",
+   "type": "choice",
+   "q": "It was ___ good film.",
+   "options": [
+    "a fairly",
+    "fairly a",
+    "a quite",
+    "fairly the"
+   ],
+   "answer": 0,
+   "why": "fairly / pretty / very — після a."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-5",
+   "type": "choice",
+   "q": "That's ___ impossible. (completely)",
+   "options": [
+    "quite",
+    "fairly",
+    "rather",
+    "pretty"
+   ],
+   "answer": 0,
+   "why": "quite з абсолютним словом — цілком."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-6",
+   "type": "choice",
+   "q": "Which is the most informal?",
+   "options": [
+    "fairly",
+    "quite",
+    "pretty",
+    "rather"
+   ],
+   "answer": 2,
+   "why": "pretty — розмовне."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-7",
+   "type": "choice",
+   "q": "'quite a few friends' means:",
+   "options": [
+    "a fairly large number",
+    "very few",
+    "none",
+    "exactly three"
+   ],
+   "answer": 0,
+   "why": "quite a few — чимало."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-8",
+   "type": "order",
+   "words": [
+    "It",
+    "was",
+    "pretty",
+    "good"
+   ],
+   "answer": [
+    "It was pretty good"
+   ],
+   "why": "pretty + adj."
+  }
+ ]
+}

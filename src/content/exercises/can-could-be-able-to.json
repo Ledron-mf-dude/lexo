@@ -1,0 +1,122 @@
+{
+ "questions": [
+  {
+   "id": "can-could-be-able-to-1",
+   "type": "choice",
+   "q": "I ___ swim when I was five.",
+   "options": [
+    "can",
+    "could",
+    "am able",
+    "must"
+   ],
+   "answer": 1,
+   "why": "could — загальне вміння в минулому."
+  },
+  {
+   "id": "can-could-be-able-to-2",
+   "type": "choice",
+   "q": "Yesterday I ___ finish the report. (one specific success)",
+   "options": [
+    "could",
+    "was able to",
+    "can",
+    "am able to"
+   ],
+   "answer": 1,
+   "why": "Одна конкретна вдала дія в минулому — was able to."
+  },
+  {
+   "id": "can-could-be-able-to-3",
+   "type": "choice",
+   "q": "I'd love ___ sing well.",
+   "options": [
+    "can",
+    "to be able to",
+    "to can",
+    "being can"
+   ],
+   "answer": 1,
+   "why": "can не має інфінітива: to be able to."
+  },
+  {
+   "id": "can-could-be-able-to-4",
+   "type": "choice",
+   "q": "Which is the most polite request?",
+   "options": [
+    "Open the window.",
+    "Can you open the window?",
+    "Could you open the window?",
+    "You open the window."
+   ],
+   "answer": 2,
+   "why": "Could you…? — ввічливіше."
+  },
+  {
+   "id": "can-could-be-able-to-5",
+   "type": "choice",
+   "q": "He hasn't ___ to relax lately.",
+   "options": [
+    "can",
+    "could",
+    "been able",
+    "be able"
+   ],
+   "answer": 2,
+   "why": "Present Perfect від be able to: has been able to."
+  },
+  {
+   "id": "can-could-be-able-to-6",
+   "type": "choice",
+   "q": "Which sentence gives permission?",
+   "options": [
+    "You can park here.",
+    "You can't swim.",
+    "I can swim.",
+    "Can I help?"
+   ],
+   "answer": 0,
+   "why": "You can park here — дозвіл."
+  },
+  {
+   "id": "can-could-be-able-to-7",
+   "type": "fill",
+   "q": "When she was young, she ___ (not / can) speak French. (use could)",
+   "answer": [
+    "couldn't speak",
+    "could not speak"
+   ],
+   "why": "Заперечення в минулому: couldn’t + V."
+  },
+  {
+   "id": "can-could-be-able-to-8",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She cans swim.",
+    "She can swim.",
+    "She can to swim.",
+    "She is can swim."
+   ],
+   "answer": 1,
+   "why": "can не змінюється й вимагає інфінітива без to."
+  },
+  {
+   "id": "can-could-be-able-to-9",
+   "type": "order",
+   "words": [
+    "I",
+    "was",
+    "able",
+    "to",
+    "finish",
+    "on",
+    "time"
+   ],
+   "answer": [
+    "I was able to finish on time"
+   ],
+   "why": "Одна конкретна вдала дія — was able to."
+  }
+ ]
+}

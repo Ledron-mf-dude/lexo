@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "inversion-1",
+   "type": "choice",
+   "q": "___ have I seen such a thing.",
+   "options": [
+    "Never",
+    "No",
+    "Not",
+    "None"
+   ],
+   "answer": 0,
+   "why": "Never have I… — інверсія."
+  },
+  {
+   "id": "inversion-2",
+   "type": "choice",
+   "q": "Rarely ___ she go out.",
+   "options": [
+    "does",
+    "do",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "why": "Rarely does she…"
+  },
+  {
+   "id": "inversion-3",
+   "type": "choice",
+   "q": "Hardly ___ I arrived when it started to rain.",
+   "options": [
+    "have",
+    "had",
+    "did",
+    "was"
+   ],
+   "answer": 1,
+   "why": "Hardly had … when."
+  },
+  {
+   "id": "inversion-4",
+   "type": "choice",
+   "q": "No sooner had she left ___ he called.",
+   "options": [
+    "when",
+    "than",
+    "that",
+    "as"
+   ],
+   "answer": 1,
+   "why": "No sooner … than."
+  },
+  {
+   "id": "inversion-5",
+   "type": "choice",
+   "q": "Not only ___ he win, but he also broke the record.",
+   "options": [
+    "did",
+    "does",
+    "has",
+    "was"
+   ],
+   "answer": 0,
+   "why": "Not only did he…"
+  },
+  {
+   "id": "inversion-6",
+   "type": "choice",
+   "q": "Only then ___ I understand.",
+   "options": [
+    "do",
+    "did",
+    "have",
+    "was"
+   ],
+   "answer": 1,
+   "why": "Only then did I…"
+  },
+  {
+   "id": "inversion-7",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Never I have seen it.",
+    "Never have I seen it.",
+    "Never I saw it have.",
+    "Have never I seen it."
+   ],
+   "answer": 1,
+   "why": "Допоміжне дієслово перед підметом."
+  },
+  {
+   "id": "inversion-8",
+   "type": "choice",
+   "q": "So beautiful ___ the view that we stayed.",
+   "options": [
+    "is",
+    "was",
+    "were",
+    "did"
+   ],
+   "answer": 1,
+   "why": "So beautiful was the view…"
+  },
+  {
+   "id": "inversion-9",
+   "type": "choice",
+   "q": "Under no circumstances ___ you open it.",
+   "options": [
+    "should",
+    "are",
+    "have",
+    "did"
+   ],
+   "answer": 0,
+   "why": "Under no circumstances should you…"
+  }
+ ]
+}

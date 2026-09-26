@@ -1,0 +1,110 @@
+{
+ "questions": [
+  {
+   "id": "would-like-1",
+   "type": "choice",
+   "q": "___ you like a coffee?",
+   "options": [
+    "Would",
+    "Do",
+    "Are",
+    "Will"
+   ],
+   "answer": 0,
+   "why": "Would you like…? — пропозиція."
+  },
+  {
+   "id": "would-like-2",
+   "type": "choice",
+   "q": "I ___ like to book a table.",
+   "options": [
+    "would",
+    "am",
+    "do",
+    "will"
+   ],
+   "answer": 0,
+   "why": "I would like to + V."
+  },
+  {
+   "id": "would-like-3",
+   "type": "choice",
+   "q": "\"Would you like some tea?\" — \"___.\"",
+   "options": [
+    "Yes, please.",
+    "Yes, I like.",
+    "Yes, I am.",
+    "Yes, I would to."
+   ],
+   "answer": 0,
+   "why": "Yes, please. — природна відповідь."
+  },
+  {
+   "id": "would-like-4",
+   "type": "choice",
+   "q": "Which shows a general preference?",
+   "options": [
+    "I like swimming.",
+    "I'd like a swim now.",
+    "I'd like to swim later.",
+    "Would you like to swim?"
+   ],
+   "answer": 0,
+   "why": "like — загальне вподобання."
+  },
+  {
+   "id": "would-like-5",
+   "type": "choice",
+   "q": "I'd like ___ a taxi.",
+   "options": [
+    "call",
+    "to call",
+    "calling",
+    "called"
+   ],
+   "answer": 1,
+   "why": "would like + to + V."
+  },
+  {
+   "id": "would-like-6",
+   "type": "choice",
+   "q": "Which is a polite request in a restaurant?",
+   "options": [
+    "I want the fish.",
+    "I'd like the fish, please.",
+    "Give me fish.",
+    "Fish!"
+   ],
+   "answer": 1,
+   "why": "I’d like… — ввічливо."
+  },
+  {
+   "id": "would-like-7",
+   "type": "choice",
+   "q": "Would you like ___ come with us?",
+   "options": [
+    "to",
+    "for",
+    "that",
+    "—"
+   ],
+   "answer": 0,
+   "why": "would you like to + V."
+  },
+  {
+   "id": "would-like-8",
+   "type": "order",
+   "words": [
+    "Would",
+    "you",
+    "like",
+    "some",
+    "tea?"
+   ],
+   "answer": [
+    "Would you like some tea?"
+   ],
+   "why": "Would you like + іменник."
+  }
+ ]
+}

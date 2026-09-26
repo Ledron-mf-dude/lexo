@@ -1,0 +1,95 @@
+{
+ "questions": [
+  {
+   "id": "wh-ever-words-1",
+   "type": "choice",
+   "q": "You can eat ___ you like. (anything)",
+   "options": [
+    "whatever",
+    "whenever",
+    "wherever",
+    "whoever"
+   ],
+   "answer": 0,
+   "why": "whatever — що завгодно."
+  },
+  {
+   "id": "wh-ever-words-2",
+   "type": "choice",
+   "q": "Call me ___ you need help. (any time)",
+   "options": [
+    "whatever",
+    "whenever",
+    "wherever",
+    "whoever"
+   ],
+   "answer": 1,
+   "why": "whenever — коли завгодно."
+  },
+  {
+   "id": "wh-ever-words-3",
+   "type": "choice",
+   "q": "___ I go, she follows me.",
+   "options": [
+    "Whatever",
+    "Whenever",
+    "Wherever",
+    "Whoever"
+   ],
+   "answer": 2,
+   "why": "wherever — куди б не."
+  },
+  {
+   "id": "wh-ever-words-4",
+   "type": "choice",
+   "q": "___ did this must apologise.",
+   "options": [
+    "Whatever",
+    "Whenever",
+    "Wherever",
+    "Whoever"
+   ],
+   "answer": 3,
+   "why": "whoever — хто б не."
+  },
+  {
+   "id": "wh-ever-words-5",
+   "type": "choice",
+   "q": "___ hard I try, I fail. (no matter how)",
+   "options": [
+    "However",
+    "Whatever",
+    "Whichever",
+    "Whenever"
+   ],
+   "answer": 0,
+   "why": "however + прикметник."
+  },
+  {
+   "id": "wh-ever-words-6",
+   "type": "choice",
+   "q": "\"When shall we meet?\" — \"___.\" (I do not mind)",
+   "options": [
+    "Whenever",
+    "Wherever",
+    "However",
+    "Whichever"
+   ],
+   "answer": 0,
+   "why": "Whenever — коли завгодно."
+  },
+  {
+   "id": "wh-ever-words-7",
+   "type": "choice",
+   "q": "Take ___ seat you want. (from these seats)",
+   "options": [
+    "whichever",
+    "whenever",
+    "whoever",
+    "whyever"
+   ],
+   "answer": 0,
+   "why": "whichever — з обмеженого набору."
+  }
+ ]
+}

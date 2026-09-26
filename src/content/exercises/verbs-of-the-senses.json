@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "verbs-of-the-senses-1",
+   "type": "choice",
+   "q": "She looks ___.",
+   "options": [
+    "tired",
+    "tiredly",
+    "tire",
+    "tirely"
+   ],
+   "answer": 0,
+   "why": "Після look — прикметник."
+  },
+  {
+   "id": "verbs-of-the-senses-2",
+   "type": "choice",
+   "q": "The soup tastes ___.",
+   "options": [
+    "good",
+    "well",
+    "goodly",
+    "goodness"
+   ],
+   "answer": 0,
+   "why": "Після taste — прикметник good."
+  },
+  {
+   "id": "verbs-of-the-senses-3",
+   "type": "choice",
+   "q": "It looks ___ a dog.",
+   "options": [
+    "as",
+    "like",
+    "alike",
+    "similar"
+   ],
+   "answer": 1,
+   "why": "look like + іменник."
+  },
+  {
+   "id": "verbs-of-the-senses-4",
+   "type": "choice",
+   "q": "He sounds ___ his father.",
+   "options": [
+    "like",
+    "as",
+    "alike",
+    "similar"
+   ],
+   "answer": 0,
+   "why": "sound like + іменник."
+  },
+  {
+   "id": "verbs-of-the-senses-5",
+   "type": "choice",
+   "q": "This cake smells ___.",
+   "options": [
+    "delicious",
+    "deliciously",
+    "deliciousity",
+    "delight"
+   ],
+   "answer": 0,
+   "why": "Після smell — прикметник."
+  },
+  {
+   "id": "verbs-of-the-senses-6",
+   "type": "choice",
+   "q": "Which is a deliberate action?",
+   "options": [
+    "look at",
+    "see",
+    "hear",
+    "seem"
+   ],
+   "answer": 0,
+   "why": "look at — навмисно."
+  },
+  {
+   "id": "verbs-of-the-senses-7",
+   "type": "choice",
+   "q": "___ to this song! It is great.",
+   "options": [
+    "Hear",
+    "Listen",
+    "Sound",
+    "Look"
+   ],
+   "answer": 1,
+   "why": "listen to — навмисно слухати."
+  },
+  {
+   "id": "verbs-of-the-senses-8",
+   "type": "choice",
+   "q": "I can ___ a strange noise.",
+   "options": [
+    "listen",
+    "hear",
+    "look",
+    "watch"
+   ],
+   "answer": 1,
+   "why": "hear — сприймати без наміру."
+  }
+ ]
+}

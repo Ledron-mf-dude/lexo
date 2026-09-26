@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "subject-questions-1",
+   "type": "choice",
+   "q": "Tom called me. → ___ called you?",
+   "options": [
+    "Who did",
+    "Who",
+    "What did",
+    "Whom"
+   ],
+   "answer": 1,
+   "why": "Питання до підмета — без did."
+  },
+  {
+   "id": "subject-questions-2",
+   "type": "choice",
+   "q": "Something happened. → ___ happened?",
+   "options": [
+    "What did",
+    "What",
+    "Who",
+    "What does"
+   ],
+   "answer": 1,
+   "why": "What happened? — без did."
+  },
+  {
+   "id": "subject-questions-3",
+   "type": "choice",
+   "q": "You called Tom. → ___ did you call?",
+   "options": [
+    "Who",
+    "Whom did",
+    "Who does",
+    "What do"
+   ],
+   "answer": 0,
+   "why": "Питання до додатка: Who did you call?"
+  },
+  {
+   "id": "subject-questions-4",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Who did call you?",
+    "Who called you?",
+    "Who does called you?",
+    "Who call you?"
+   ],
+   "answer": 1,
+   "why": "Питання до підмета: Who + V2."
+  },
+  {
+   "id": "subject-questions-5",
+   "type": "choice",
+   "q": "'Who ___ the answer?'",
+   "options": [
+    "know",
+    "knows",
+    "does know",
+    "do know"
+   ],
+   "answer": 1,
+   "why": "Who — однина: knows."
+  },
+  {
+   "id": "subject-questions-6",
+   "type": "choice",
+   "q": "Which question ends with a preposition?",
+   "options": [
+    "Who did you go with?",
+    "With whom go you?",
+    "Who with did you go?",
+    "Go you with who?"
+   ],
+   "answer": 0,
+   "why": "Прийменник зазвичай в кінці."
+  },
+  {
+   "id": "subject-questions-7",
+   "type": "choice",
+   "q": "Anna lives here. → ___ lives here?",
+   "options": [
+    "Who",
+    "Who does",
+    "Whom",
+    "Who did"
+   ],
+   "answer": 0,
+   "why": "Питання до підмета."
+  },
+  {
+   "id": "subject-questions-8",
+   "type": "choice",
+   "q": "'How many people ___ to the party?'",
+   "options": [
+    "came",
+    "did come",
+    "does come",
+    "coming"
+   ],
+   "answer": 0,
+   "why": "How many people — підмет, без did."
+  }
+ ]
+}

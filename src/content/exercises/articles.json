@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "articles-1",
+   "type": "choice",
+   "q": "I have ___ sister. ___ sister lives in Kyiv.",
+   "options": [
+    "a / The",
+    "the / A",
+    "a / A",
+    "an / The"
+   ],
+   "answer": 0,
+   "why": "Уперше — a, повторно (вже відома) — the."
+  },
+  {
+   "id": "articles-2",
+   "type": "choice",
+   "q": "She is ___ engineer.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "(без артикля)"
+   ],
+   "answer": 1,
+   "why": "Професія + голосний звук — an."
+  },
+  {
+   "id": "articles-3",
+   "type": "choice",
+   "q": "___ sun is very hot today.",
+   "options": [
+    "A",
+    "The",
+    "(без артикля)",
+    "An"
+   ],
+   "answer": 1,
+   "why": "Єдиний у своєму роді предмет — the."
+  },
+  {
+   "id": "articles-4",
+   "type": "choice",
+   "q": "I like ___ music.",
+   "options": [
+    "the",
+    "a",
+    "(без артикля)",
+    "an"
+   ],
+   "answer": 2,
+   "why": "Нелічильне в загальному сенсі — без артикля."
+  },
+  {
+   "id": "articles-5",
+   "type": "choice",
+   "q": "She works at ___ university in Lviv.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "(без артикля)"
+   ],
+   "answer": 0,
+   "why": "university починається зі звуку /ju/ — a."
+  },
+  {
+   "id": "articles-6",
+   "type": "choice",
+   "q": "It's ___ best film I've ever seen.",
+   "options": [
+    "a",
+    "the",
+    "(без артикля)",
+    "an"
+   ],
+   "answer": 1,
+   "why": "Найвищий ступінь — the."
+  },
+  {
+   "id": "articles-7",
+   "type": "choice",
+   "q": "We have ___ lunch at one.",
+   "options": [
+    "a",
+    "the",
+    "(без артикля)",
+    "an"
+   ],
+   "answer": 2,
+   "why": "Прийоми їжі — без артикля."
+  },
+  {
+   "id": "articles-8",
+   "type": "choice",
+   "q": "She speaks ___ English very well.",
+   "options": [
+    "a",
+    "the",
+    "(без артикля)",
+    "an"
+   ],
+   "answer": 2,
+   "why": "Мови — без артикля."
+  },
+  {
+   "id": "articles-9",
+   "type": "choice",
+   "q": "___ British are known for their politeness.",
+   "options": [
+    "A",
+    "The",
+    "(без артикля)",
+    "An"
+   ],
+   "answer": 1,
+   "why": "The + національність (група людей)."
+  },
+  {
+   "id": "articles-10",
+   "type": "choice",
+   "q": "Tom is ___ honest man.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "(без артикля)"
+   ],
+   "answer": 1,
+   "why": "h не вимовляється, слово починається з голосного звуку — an."
+  }
+ ]
+}

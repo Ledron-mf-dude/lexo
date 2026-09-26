@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "most-most-of-1",
+   "type": "choice",
+   "q": "___ people like music. (in general)",
+   "options": [
+    "Most",
+    "Most of",
+    "The most",
+    "Mostly"
+   ],
+   "answer": 0,
+   "why": "Most + іменник — загалом."
+  },
+  {
+   "id": "most-most-of-2",
+   "type": "choice",
+   "q": "___ the students passed the test. (a specific class)",
+   "options": [
+    "Most",
+    "Most of",
+    "Mostly",
+    "The most"
+   ],
+   "answer": 1,
+   "why": "Most of + the + іменник — конкретна група."
+  },
+  {
+   "id": "most-most-of-3",
+   "type": "choice",
+   "q": "She is ___ talented in the class.",
+   "options": [
+    "most",
+    "the most",
+    "mostly",
+    "most of"
+   ],
+   "answer": 1,
+   "why": "Найвищий ступінь — the most."
+  },
+  {
+   "id": "most-most-of-4",
+   "type": "choice",
+   "q": "The audience was ___ young people.",
+   "options": [
+    "most",
+    "mostly",
+    "most of",
+    "almost"
+   ],
+   "answer": 1,
+   "why": "mostly — переважно."
+  },
+  {
+   "id": "most-most-of-5",
+   "type": "choice",
+   "q": "I like ___ all films.",
+   "options": [
+    "most",
+    "mostly",
+    "almost",
+    "most of"
+   ],
+   "answer": 2,
+   "why": "almost all — майже всі."
+  },
+  {
+   "id": "most-most-of-6",
+   "type": "choice",
+   "q": "___ of them were late.",
+   "options": [
+    "Most",
+    "Mostly",
+    "Almost",
+    "The most"
+   ],
+   "answer": 0,
+   "why": "Most of them — більшість із них."
+  },
+  {
+   "id": "most-most-of-7",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "Most of people like it.",
+    "Most people like it.",
+    "The most people like it.",
+    "Mostly people like it."
+   ],
+   "answer": 1,
+   "why": "Загальне твердження: Most + іменник."
+  },
+  {
+   "id": "most-most-of-8",
+   "type": "choice",
+   "q": "Most ___ my friends live here.",
+   "options": [
+    "of",
+    "from",
+    "in",
+    "—"
+   ],
+   "answer": 0,
+   "why": "Most of + займенник / the / my."
+  }
+ ]
+}

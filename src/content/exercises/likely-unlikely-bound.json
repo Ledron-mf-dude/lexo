@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "likely-unlikely-bound-1",
+   "type": "choice",
+   "q": "She is ___ be late. She always is.",
+   "options": [
+    "bound to",
+    "unlikely to",
+    "about to",
+    "due to"
+   ],
+   "answer": 0,
+   "why": "be bound to — напевно."
+  },
+  {
+   "id": "likely-unlikely-bound-2",
+   "type": "choice",
+   "q": "He is ___ to win. He's too slow.",
+   "options": [
+    "likely",
+    "unlikely",
+    "bound",
+    "certain"
+   ],
+   "answer": 1,
+   "why": "unlikely to — малоймовірно."
+  },
+  {
+   "id": "likely-unlikely-bound-3",
+   "type": "choice",
+   "q": "It's ___ that she will agree.",
+   "options": [
+    "likely",
+    "bound",
+    "unlikely to",
+    "sure to"
+   ],
+   "answer": 0,
+   "why": "It is likely that + речення."
+  },
+  {
+   "id": "likely-unlikely-bound-4",
+   "type": "choice",
+   "q": "Position: 'I will ___ come.'",
+   "options": [
+    "definitely",
+    "definite",
+    "definitely to",
+    "defined"
+   ],
+   "answer": 0,
+   "why": "definitely стоїть між will і дієсловом."
+  },
+  {
+   "id": "likely-unlikely-bound-5",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "He probably won't come.",
+    "He won't probably come.",
+    "He probably don't come.",
+    "He won't come probably not."
+   ],
+   "answer": 0,
+   "why": "У запереченні probably — перед won’t."
+  },
+  {
+   "id": "likely-unlikely-bound-6",
+   "type": "choice",
+   "q": "___ we will win. (perhaps)",
+   "options": [
+    "Maybe",
+    "May",
+    "Might be",
+    "Perhaps to"
+   ],
+   "answer": 0,
+   "why": "Maybe — на початку речення."
+  },
+  {
+   "id": "likely-unlikely-bound-7",
+   "type": "choice",
+   "q": "Which expresses the lowest probability?",
+   "options": [
+    "definitely",
+    "probably",
+    "unlikely",
+    "bound to"
+   ],
+   "answer": 2,
+   "why": "unlikely — малоймовірно."
+  },
+  {
+   "id": "likely-unlikely-bound-8",
+   "type": "choice",
+   "q": "I could ___ help you.",
+   "options": [
+    "possibly",
+    "possible",
+    "possibility",
+    "possibly to"
+   ],
+   "answer": 0,
+   "why": "Прислівник possibly — у середині."
+  },
+  {
+   "id": "likely-unlikely-bound-9",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Perhaps she is right.",
+    "She perhaps right is.",
+    "Perhaps is she right.",
+    "She is right perhaps to."
+   ],
+   "answer": 0,
+   "why": "Perhaps — на початку."
+  }
+ ]
+}

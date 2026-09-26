@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "reflexive-pronouns-1",
+   "type": "choice",
+   "q": "I cut ___ while cooking.",
+   "options": [
+    "me",
+    "myself",
+    "mine",
+    "I"
+   ],
+   "answer": 1,
+   "why": "Підмет = додаток — myself."
+  },
+  {
+   "id": "reflexive-pronouns-2",
+   "type": "choice",
+   "q": "She looked at ___ in the mirror.",
+   "options": [
+    "she",
+    "her",
+    "herself",
+    "hers"
+   ],
+   "answer": 2,
+   "why": "herself."
+  },
+  {
+   "id": "reflexive-pronouns-3",
+   "type": "choice",
+   "q": "They love ___. (he loves her, she loves him)",
+   "options": [
+    "themselves",
+    "each other",
+    "theirselves",
+    "them"
+   ],
+   "answer": 1,
+   "why": "each other — один одного."
+  },
+  {
+   "id": "reflexive-pronouns-4",
+   "type": "choice",
+   "q": "He lives ___. (alone)",
+   "options": [
+    "by himself",
+    "himself",
+    "by him",
+    "on his own self"
+   ],
+   "answer": 0,
+   "why": "by himself — сам, самотньо."
+  },
+  {
+   "id": "reflexive-pronouns-5",
+   "type": "choice",
+   "q": "Help ___ to some cake!",
+   "options": [
+    "you",
+    "yourself",
+    "your",
+    "yours"
+   ],
+   "answer": 1,
+   "why": "Help yourself! — Пригощайтеся."
+  },
+  {
+   "id": "reflexive-pronouns-6",
+   "type": "choice",
+   "q": "We enjoyed ___ at the party.",
+   "options": [
+    "us",
+    "ourself",
+    "ourselves",
+    "we"
+   ],
+   "answer": 2,
+   "why": "ourselves."
+  },
+  {
+   "id": "reflexive-pronouns-7",
+   "type": "choice",
+   "q": "The plural of 'yourself' is:",
+   "options": [
+    "yourselfs",
+    "yourselves",
+    "yourself's",
+    "yous"
+   ],
+   "answer": 1,
+   "why": "yourself → yourselves."
+  },
+  {
+   "id": "reflexive-pronouns-8",
+   "type": "choice",
+   "q": "I did it ___. (without help)",
+   "options": [
+    "me",
+    "by myself",
+    "myself by",
+    "in myself"
+   ],
+   "answer": 1,
+   "why": "by myself — сам, без допомоги."
+  },
+  {
+   "id": "reflexive-pronouns-9",
+   "type": "choice",
+   "q": "'The manager ___ called me.' (emphasis)",
+   "options": [
+    "him",
+    "himself",
+    "his",
+    "he"
+   ],
+   "answer": 1,
+   "why": "Для підкреслення — himself."
+  }
+ ]
+}

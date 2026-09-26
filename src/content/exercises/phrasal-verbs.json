@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "phrasal-verbs-1",
+   "type": "choice",
+   "q": "I picked ___ the phone.",
+   "options": [
+    "up",
+    "at",
+    "to",
+    "of"
+   ],
+   "answer": 0,
+   "why": "pick up."
+  },
+  {
+   "id": "phrasal-verbs-2",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "I picked up it.",
+    "I picked it up.",
+    "I picked up to it.",
+    "I it picked up."
+   ],
+   "answer": 1,
+   "why": "Займенник — всередині."
+  },
+  {
+   "id": "phrasal-verbs-3",
+   "type": "choice",
+   "q": "Which phrasal verb is inseparable?",
+   "options": [
+    "pick up",
+    "turn down",
+    "look after",
+    "put on"
+   ],
+   "answer": 2,
+   "why": "look after — нероздільне."
+  },
+  {
+   "id": "phrasal-verbs-4",
+   "type": "choice",
+   "q": "She looks ___ her grandmother. (takes care)",
+   "options": [
+    "after",
+    "at",
+    "up",
+    "to"
+   ],
+   "answer": 0,
+   "why": "look after — доглядати."
+  },
+  {
+   "id": "phrasal-verbs-5",
+   "type": "choice",
+   "q": "'The plane took off' — 'took off' is:",
+   "options": [
+    "intransitive",
+    "transitive",
+    "separable",
+    "prepositional"
+   ],
+   "answer": 0,
+   "why": "Без додатка."
+  },
+  {
+   "id": "phrasal-verbs-6",
+   "type": "choice",
+   "q": "I'm looking forward ___ the trip.",
+   "options": [
+    "to",
+    "at",
+    "for",
+    "on"
+   ],
+   "answer": 0,
+   "why": "look forward to."
+  },
+  {
+   "id": "phrasal-verbs-7",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She turned the offer down.",
+    "She turned down it.",
+    "She turned it the down.",
+    "She down turned the offer."
+   ],
+   "answer": 0,
+   "why": "turn down — роздільне."
+  },
+  {
+   "id": "phrasal-verbs-8",
+   "type": "choice",
+   "q": "A phrasal verb's meaning is often:",
+   "options": [
+    "different from the parts",
+    "the same as the parts",
+    "the opposite",
+    "none of these"
+   ],
+   "answer": 0,
+   "why": "Значення часто ідіоматичне."
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "there-vs-it-1",
+   "type": "choice",
+   "q": "___ is a dog in the garden.",
+   "options": [
+    "It",
+    "There",
+    "This",
+    "That"
+   ],
+   "answer": 1,
+   "why": "Нова інформація про наявність — there."
+  },
+  {
+   "id": "there-vs-it-2",
+   "type": "choice",
+   "q": "___ is raining.",
+   "options": [
+    "There",
+    "It",
+    "This",
+    "He"
+   ],
+   "answer": 1,
+   "why": "Погода — it."
+  },
+  {
+   "id": "there-vs-it-3",
+   "type": "choice",
+   "q": "___ is difficult to learn English.",
+   "options": [
+    "There",
+    "It",
+    "This",
+    "He"
+   ],
+   "answer": 1,
+   "why": "Підготовчий підмет — it."
+  },
+  {
+   "id": "there-vs-it-4",
+   "type": "choice",
+   "q": "___ takes two hours to get there.",
+   "options": [
+    "There",
+    "It",
+    "This",
+    "That"
+   ],
+   "answer": 1,
+   "why": "Тривалість — it takes."
+  },
+  {
+   "id": "there-vs-it-5",
+   "type": "choice",
+   "q": "I bought a car. ___ is red.",
+   "options": [
+    "There",
+    "It",
+    "This",
+    "He"
+   ],
+   "answer": 1,
+   "why": "Про вже названу річ — it."
+  },
+  {
+   "id": "there-vs-it-6",
+   "type": "choice",
+   "q": "___ is nothing to do here.",
+   "options": [
+    "It",
+    "There",
+    "This",
+    "That"
+   ],
+   "answer": 1,
+   "why": "There is nothing…"
+  },
+  {
+   "id": "there-vs-it-7",
+   "type": "choice",
+   "q": "___ is important to sleep well.",
+   "options": [
+    "There",
+    "It",
+    "That",
+    "What"
+   ],
+   "answer": 1,
+   "why": "It is + прикметник + to-інфінітив."
+  },
+  {
+   "id": "there-vs-it-8",
+   "type": "choice",
+   "q": "___ are three problems.",
+   "options": [
+    "It",
+    "There",
+    "Them",
+    "This"
+   ],
+   "answer": 1,
+   "why": "there are + множина."
+  },
+  {
+   "id": "there-vs-it-9",
+   "type": "choice",
+   "q": "___ is five miles to town.",
+   "options": [
+    "There",
+    "It",
+    "That",
+    "This"
+   ],
+   "answer": 1,
+   "why": "Відстань — it."
+  }
+ ]
+}

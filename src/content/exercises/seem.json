@@ -1,0 +1,125 @@
+{
+ "questions": [
+  {
+   "id": "seem-1",
+   "type": "choice",
+   "q": "She seems ___.",
+   "options": [
+    "happily",
+    "happy",
+    "happiness",
+    "to happy"
+   ],
+   "answer": 1,
+   "why": "seem + прикметник."
+  },
+  {
+   "id": "seem-2",
+   "type": "choice",
+   "q": "It seems that she lives in Bonn. = She seems ___ in Bonn.",
+   "options": [
+    "to live",
+    "living",
+    "to living",
+    "live"
+   ],
+   "answer": 0,
+   "why": "Present → full infinitive."
+  },
+  {
+   "id": "seem-3",
+   "type": "choice",
+   "q": "It seems that she has lived in Bonn. = She seems ___ in Bonn.",
+   "options": [
+    "to live",
+    "to have lived",
+    "to be living",
+    "living"
+   ],
+   "answer": 1,
+   "why": "Present Perfect → perfect infinitive."
+  },
+  {
+   "id": "seem-4",
+   "type": "choice",
+   "q": "It seems that she is living in Bonn. = She seems ___ in Bonn.",
+   "options": [
+    "to live",
+    "to have lived",
+    "to be living",
+    "living"
+   ],
+   "answer": 2,
+   "why": "Present Continuous → continuous infinitive."
+  },
+  {
+   "id": "seem-5",
+   "type": "choice",
+   "q": "It seems that she was living in Bonn. = She seems ___ in Bonn.",
+   "options": [
+    "to have been living",
+    "to be living",
+    "to have lived",
+    "to live"
+   ],
+   "answer": 0,
+   "why": "Past Continuous → perfect continuous infinitive."
+  },
+  {
+   "id": "seem-6",
+   "type": "choice",
+   "q": "He seems ___ well. (in general)",
+   "options": [
+    "to sing",
+    "to be singing",
+    "to have sung",
+    "singing"
+   ],
+   "answer": 0,
+   "why": "Загалом — full infinitive."
+  },
+  {
+   "id": "seem-7",
+   "type": "choice",
+   "q": "He seems ___ well now. (right now)",
+   "options": [
+    "to sing",
+    "to be singing",
+    "to have sung",
+    "sung"
+   ],
+   "answer": 1,
+   "why": "Зараз — continuous infinitive."
+  },
+  {
+   "id": "seem-8",
+   "type": "choice",
+   "q": "He seems ___ well yesterday.",
+   "options": [
+    "to sing",
+    "to be singing",
+    "to have sung",
+    "singing"
+   ],
+   "answer": 2,
+   "why": "Минуле — perfect infinitive."
+  },
+  {
+   "id": "seem-9",
+   "type": "order",
+   "words": [
+    "It",
+    "seems",
+    "that",
+    "she",
+    "lives",
+    "in",
+    "Bonn"
+   ],
+   "answer": [
+    "It seems that she lives in Bonn"
+   ],
+   "why": "It seems that + повне речення."
+  }
+ ]
+}

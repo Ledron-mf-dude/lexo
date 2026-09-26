@@ -1,0 +1,100 @@
+{
+ "questions": [
+  {
+   "id": "the-more-the-more-1",
+   "type": "choice",
+   "q": "The more you practise, ___ you become.",
+   "options": [
+    "the better",
+    "better",
+    "the best",
+    "more better"
+   ],
+   "answer": 0,
+   "why": "the + comparative."
+  },
+  {
+   "id": "the-more-the-more-2",
+   "type": "choice",
+   "q": "___ older he gets, the wiser he becomes.",
+   "options": [
+    "The",
+    "More",
+    "Most",
+    "A"
+   ],
+   "answer": 0,
+   "why": "The … the …"
+  },
+  {
+   "id": "the-more-the-more-3",
+   "type": "choice",
+   "q": "The sooner, ___.",
+   "options": [
+    "the better",
+    "best",
+    "better than",
+    "more better"
+   ],
+   "answer": 0,
+   "why": "The sooner, the better."
+  },
+  {
+   "id": "the-more-the-more-4",
+   "type": "choice",
+   "q": "It's getting ___. (increasingly difficult)",
+   "options": [
+    "more and more difficult",
+    "difficulter",
+    "most difficult",
+    "difficult and difficult"
+   ],
+   "answer": 0,
+   "why": "more and more + adj."
+  },
+  {
+   "id": "the-more-the-more-5",
+   "type": "choice",
+   "q": "The less I eat, ___ I am.",
+   "options": [
+    "the hungrier",
+    "hungrier",
+    "the hungriest",
+    "most hungry"
+   ],
+   "answer": 0,
+   "why": "the + comparative."
+  },
+  {
+   "id": "the-more-the-more-6",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "The more you read, the more you know.",
+    "More you read, more you know.",
+    "The more you read, more you know.",
+    "The most you read, the most you know."
+   ],
+   "answer": 0,
+   "why": "The more …, the more …"
+  },
+  {
+   "id": "the-more-the-more-7",
+   "type": "order",
+   "words": [
+    "The",
+    "more",
+    "you",
+    "practise,",
+    "the",
+    "better",
+    "you",
+    "become"
+   ],
+   "answer": [
+    "The more you practise, the better you become"
+   ],
+   "why": "The + comparative, the + comparative."
+  }
+ ]
+}

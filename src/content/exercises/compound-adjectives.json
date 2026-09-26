@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "compound-adjectives-1",
+   "type": "choice",
+   "q": "It is a ___ trip. (compound adjective)",
+   "options": [
+    "two-day",
+    "two-days",
+    "two day",
+    "two days"
+   ],
+   "answer": 0,
+   "why": "Іменник в однині: two-day."
+  },
+  {
+   "id": "compound-adjectives-2",
+   "type": "choice",
+   "q": "The boy is ten ___ old.",
+   "options": [
+    "year",
+    "years",
+    "year's",
+    "years'"
+   ],
+   "answer": 1,
+   "why": "Після числа без дефіса — years."
+  },
+  {
+   "id": "compound-adjectives-3",
+   "type": "choice",
+   "q": "He is a ___ boy. (ten)",
+   "options": [
+    "ten years old",
+    "ten-year-old",
+    "ten-years-old",
+    "ten year old"
+   ],
+   "answer": 1,
+   "why": "Складний прикметник: ten-year-old."
+  },
+  {
+   "id": "compound-adjectives-4",
+   "type": "choice",
+   "q": "Which is a compound adjective?",
+   "options": [
+    "well-known",
+    "know well",
+    "known-well",
+    "well knowing"
+   ],
+   "answer": 0,
+   "why": "well-known."
+  },
+  {
+   "id": "compound-adjectives-5",
+   "type": "choice",
+   "q": "She has a ___ job. (works all day)",
+   "options": [
+    "full-time",
+    "fulltimes",
+    "time-full",
+    "full-timed"
+   ],
+   "answer": 0,
+   "why": "full-time."
+  },
+  {
+   "id": "compound-adjectives-6",
+   "type": "choice",
+   "q": "A ___ meal. (three courses)",
+   "options": [
+    "three-course",
+    "three-courses",
+    "three courses",
+    "third-course"
+   ],
+   "answer": 0,
+   "why": "three-course."
+  },
+  {
+   "id": "compound-adjectives-7",
+   "type": "choice",
+   "q": "I bought a ___ car. (five years old)",
+   "options": [
+    "five-year-old",
+    "five-years-old",
+    "five year olds",
+    "five-old-year"
+   ],
+   "answer": 0,
+   "why": "five-year-old."
+  },
+  {
+   "id": "compound-adjectives-8",
+   "type": "choice",
+   "q": "Which word is NOT a compound adjective?",
+   "options": [
+    "old-fashioned",
+    "hard-working",
+    "easy-going",
+    "tomorrow"
+   ],
+   "answer": 3,
+   "why": "tomorrow — не складний прикметник."
+  }
+ ]
+}

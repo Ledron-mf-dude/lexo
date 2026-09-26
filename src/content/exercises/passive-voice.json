@@ -1,0 +1,125 @@
+{
+ "questions": [
+  {
+   "id": "passive-voice-1",
+   "type": "choice",
+   "q": "English ___ all over the world.",
+   "options": [
+    "speaks",
+    "is spoken",
+    "speaking",
+    "is speaking"
+   ],
+   "answer": 1,
+   "why": "Present Simple Passive: is/are + V3."
+  },
+  {
+   "id": "passive-voice-2",
+   "type": "choice",
+   "q": "The bridge ___ in 1990.",
+   "options": [
+    "built",
+    "was built",
+    "is built",
+    "has built"
+   ],
+   "answer": 1,
+   "why": "Past Simple Passive: was/were + V3."
+  },
+  {
+   "id": "passive-voice-3",
+   "type": "fill",
+   "q": "The room ___ (clean) at the moment.",
+   "answer": [
+    "is being cleaned"
+   ],
+   "why": "Present Continuous Passive: is being + V3."
+  },
+  {
+   "id": "passive-voice-4",
+   "type": "choice",
+   "q": "The report ___ by Friday.",
+   "options": [
+    "will finish",
+    "will be finished",
+    "is finishing",
+    "finishes"
+   ],
+   "answer": 1,
+   "why": "Future Simple Passive: will be + V3."
+  },
+  {
+   "id": "passive-voice-5",
+   "type": "fill",
+   "q": "Many houses ___ (build) this year.",
+   "answer": [
+    "have been built"
+   ],
+   "why": "Present Perfect Passive: have been + V3."
+  },
+  {
+   "id": "passive-voice-6",
+   "type": "choice",
+   "q": "The road ___ when I arrived.",
+   "options": [
+    "was repairing",
+    "was being repaired",
+    "repaired",
+    "is being repaired"
+   ],
+   "answer": 1,
+   "why": "Past Continuous Passive: was being + V3."
+  },
+  {
+   "id": "passive-voice-7",
+   "type": "fill",
+   "q": "This phone ___ (make) in China.",
+   "answer": [
+    "is made"
+   ],
+   "why": "Present Simple Passive: is made."
+  },
+  {
+   "id": "passive-voice-8",
+   "type": "choice",
+   "q": "By 2030 many houses ___.",
+   "options": [
+    "will have been built",
+    "will be building",
+    "have built",
+    "are built"
+   ],
+   "answer": 0,
+   "why": "Future Perfect Passive: will have been + V3."
+  },
+  {
+   "id": "passive-voice-9",
+   "type": "order",
+   "words": [
+    "The",
+    "letter",
+    "was",
+    "written",
+    "by",
+    "Tom"
+   ],
+   "answer": [
+    "The letter was written by Tom"
+   ],
+   "why": "was + V3 + by + виконавець."
+  },
+  {
+   "id": "passive-voice-10",
+   "type": "choice",
+   "q": "The window ___ by someone last night.",
+   "options": [
+    "broke",
+    "was broken",
+    "is broken",
+    "has broken"
+   ],
+   "answer": 1,
+   "why": "Минулий час, пасив: was broken."
+  }
+ ]
+}

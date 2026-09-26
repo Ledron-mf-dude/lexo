@@ -1,0 +1,122 @@
+{
+ "questions": [
+  {
+   "id": "adverb-position-1",
+   "type": "choice",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "I like very much football.",
+    "I like football very much.",
+    "I football like very much.",
+    "I like football much very."
+   ],
+   "answer": 1,
+   "why": "Прислівник не стоїть між дієсловом і прямим додатком."
+  },
+  {
+   "id": "adverb-position-2",
+   "type": "choice",
+   "q": "She ___ arrives on time.",
+   "options": [
+    "always",
+    "is always",
+    "always is",
+    "arrives"
+   ],
+   "answer": 0,
+   "why": "Прислівник частоти — перед основним дієсловом."
+  },
+  {
+   "id": "adverb-position-3",
+   "type": "choice",
+   "q": "She ___ late.",
+   "options": [
+    "always is",
+    "is always",
+    "is late always",
+    "always late is"
+   ],
+   "answer": 1,
+   "why": "Після to be."
+  },
+  {
+   "id": "adverb-position-4",
+   "type": "choice",
+   "q": "I have ___ seen it.",
+   "options": [
+    "never",
+    "never been",
+    "never to",
+    "ever never"
+   ],
+   "answer": 0,
+   "why": "Після першого допоміжного дієслова."
+  },
+  {
+   "id": "adverb-position-5",
+   "type": "choice",
+   "q": "'Unfortunately, he left.' — this adverb expresses:",
+   "options": [
+    "an attitude / comment",
+    "manner",
+    "place",
+    "degree"
+   ],
+   "answer": 0,
+   "why": "Ставлення говорячого — на початку."
+  },
+  {
+   "id": "adverb-position-6",
+   "type": "choice",
+   "q": "Manner – place – time:",
+   "options": [
+    "She sang beautifully at the party last night.",
+    "She sang last night beautifully at the party.",
+    "Last night at the party she beautifully sang.",
+    "She beautifully last night sang at the party."
+   ],
+   "answer": 0,
+   "why": "Порядок: спосіб → місце → час."
+  },
+  {
+   "id": "adverb-position-7",
+   "type": "choice",
+   "q": "'Only Tom kissed Anna' means:",
+   "options": [
+    "nobody else kissed Anna",
+    "Tom did nothing else to Anna",
+    "Tom kissed nobody else",
+    "Tom kissed Anna once"
+   ],
+   "answer": 0,
+   "why": "only перед Tom — ніхто інший."
+  },
+  {
+   "id": "adverb-position-8",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "He goes often there.",
+    "He often goes there.",
+    "He there often goes.",
+    "He goes there often to."
+   ],
+   "answer": 1,
+   "why": "often — перед основним дієсловом."
+  },
+  {
+   "id": "adverb-position-9",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "just",
+    "left"
+   ],
+   "answer": [
+    "She has just left"
+   ],
+   "why": "just — після has."
+  }
+ ]
+}

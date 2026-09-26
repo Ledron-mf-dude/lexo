@@ -1,0 +1,110 @@
+{
+ "questions": [
+  {
+   "id": "would-rather-1",
+   "type": "choice",
+   "q": "I would rather ___ at home.",
+   "options": [
+    "stay",
+    "to stay",
+    "staying",
+    "stayed"
+   ],
+   "answer": 0,
+   "why": "would rather + V без to."
+  },
+  {
+   "id": "would-rather-2",
+   "type": "choice",
+   "q": "He ___ write a program than a poem.",
+   "options": [
+    "would rather",
+    "would to",
+    "rather would",
+    "is rather"
+   ],
+   "answer": 0,
+   "why": "would rather + V + than + V."
+  },
+  {
+   "id": "would-rather-3",
+   "type": "choice",
+   "q": "I would rather ___ go to work. (negative)",
+   "options": [
+    "not",
+    "don't",
+    "no",
+    "to not"
+   ],
+   "answer": 0,
+   "why": "would rather not + V."
+  },
+  {
+   "id": "would-rather-4",
+   "type": "choice",
+   "q": "___ he rather write a new program?",
+   "options": [
+    "Would",
+    "Does",
+    "Is",
+    "Do"
+   ],
+   "answer": 0,
+   "why": "Питання: Would + підмет + rather + V."
+  },
+  {
+   "id": "would-rather-5",
+   "type": "choice",
+   "q": "Short form of \"I would rather\":",
+   "options": [
+    "I'd rather",
+    "I'll rather",
+    "I'm rather",
+    "I've rather"
+   ],
+   "answer": 0,
+   "why": "I’d rather."
+  },
+  {
+   "id": "would-rather-6",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "I would rather to sleep.",
+    "I would rather sleep.",
+    "I would rather sleeping.",
+    "I would rather slept."
+   ],
+   "answer": 1,
+   "why": "Без to, без -ing."
+  },
+  {
+   "id": "would-rather-7",
+   "type": "choice",
+   "q": "'I'd rather not ___.'",
+   "options": [
+    "go",
+    "to go",
+    "going",
+    "went"
+   ],
+   "answer": 0,
+   "why": "would rather not + V."
+  },
+  {
+   "id": "would-rather-8",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "rather",
+    "stay",
+    "home"
+   ],
+   "answer": [
+    "I would rather stay home"
+   ],
+   "why": "would rather + V."
+  }
+ ]
+}

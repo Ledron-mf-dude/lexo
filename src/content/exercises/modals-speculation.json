@@ -1,0 +1,136 @@
+{
+ "questions": [
+  {
+   "id": "modals-speculation-1",
+   "type": "choice",
+   "q": "She ___ know about that. (I am very sure it is true)",
+   "options": [
+    "might",
+    "may",
+    "must",
+    "can't"
+   ],
+   "answer": 2,
+   "why": "must — логічний висновок."
+  },
+  {
+   "id": "modals-speculation-2",
+   "type": "choice",
+   "q": "He ___ be at home. (I am sure it is NOT true)",
+   "options": [
+    "must",
+    "can't",
+    "may",
+    "should"
+   ],
+   "answer": 1,
+   "why": "can’t — «не може бути»."
+  },
+  {
+   "id": "modals-speculation-3",
+   "type": "choice",
+   "q": "She ___ be sleeping now. (I'm about 40% sure)",
+   "options": [
+    "might",
+    "must",
+    "can't",
+    "should"
+   ],
+   "answer": 0,
+   "why": "might — мала впевненість."
+  },
+  {
+   "id": "modals-speculation-4",
+   "type": "choice",
+   "q": "She ___ have bought a flat. (I am sure it happened)",
+   "options": [
+    "must",
+    "can't",
+    "mustn't",
+    "needn't"
+   ],
+   "answer": 0,
+   "why": "must + have + V3."
+  },
+  {
+   "id": "modals-speculation-5",
+   "type": "choice",
+   "q": "She ___ have bought a flat. (I am sure it did NOT happen)",
+   "options": [
+    "must",
+    "can't",
+    "might",
+    "should"
+   ],
+   "answer": 1,
+   "why": "can’t + have + V3."
+  },
+  {
+   "id": "modals-speculation-6",
+   "type": "choice",
+   "q": "Now: She must ___ sleeping.",
+   "options": [
+    "be",
+    "have",
+    "been",
+    "to be"
+   ],
+   "answer": 0,
+   "why": "must be + V-ing — зараз."
+  },
+  {
+   "id": "modals-speculation-7",
+   "type": "choice",
+   "q": "Past: She might ___ forgotten.",
+   "options": [
+    "have",
+    "has",
+    "had",
+    "be"
+   ],
+   "answer": 0,
+   "why": "might + have + V3."
+  },
+  {
+   "id": "modals-speculation-8",
+   "type": "choice",
+   "q": "Which is the strongest logical conclusion?",
+   "options": [
+    "might",
+    "may",
+    "should",
+    "must"
+   ],
+   "answer": 3,
+   "why": "must — найвища впевненість."
+  },
+  {
+   "id": "modals-speculation-9",
+   "type": "choice",
+   "q": "The negative deduction uses:",
+   "options": [
+    "mustn't",
+    "can't",
+    "needn't",
+    "shouldn't"
+   ],
+   "answer": 1,
+   "why": "can’t — заперечний висновок."
+  },
+  {
+   "id": "modals-speculation-10",
+   "type": "order",
+   "words": [
+    "She",
+    "must",
+    "have",
+    "forgotten",
+    "it"
+   ],
+   "answer": [
+    "She must have forgotten it"
+   ],
+   "why": "must + have + V3."
+  }
+ ]
+}

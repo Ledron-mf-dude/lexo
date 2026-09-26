@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "possessive-forms-1",
+   "type": "choice",
+   "q": "That is my ___ car. (one sister)",
+   "options": [
+    "sister's",
+    "sisters'",
+    "sisters's",
+    "sister"
+   ],
+   "answer": 0,
+   "why": "Однина: + 's."
+  },
+  {
+   "id": "possessive-forms-2",
+   "type": "choice",
+   "q": "These are the ___ toys. (several children)",
+   "options": [
+    "childrens",
+    "children's",
+    "childrens'",
+    "childs'"
+   ],
+   "answer": 1,
+   "why": "Неправильна множина: children's."
+  },
+  {
+   "id": "possessive-forms-3",
+   "type": "choice",
+   "q": "My ___ house is big. (both parents)",
+   "options": [
+    "parent's",
+    "parents'",
+    "parents's",
+    "parents"
+   ],
+   "answer": 1,
+   "why": "Множина на -s: тільки апостроф."
+  },
+  {
+   "id": "possessive-forms-4",
+   "type": "choice",
+   "q": "___ bag is this?",
+   "options": [
+    "Who's",
+    "Whose",
+    "Who",
+    "Whom"
+   ],
+   "answer": 1,
+   "why": "Whose — чий."
+  },
+  {
+   "id": "possessive-forms-5",
+   "type": "choice",
+   "q": "The walk takes two hours: it is a ___ walk. (compound adjective)",
+   "options": [
+    "two-hours",
+    "two-hour",
+    "two hour's",
+    "two hours"
+   ],
+   "answer": 1,
+   "why": "У складному прикметнику іменник в однині."
+  },
+  {
+   "id": "possessive-forms-6",
+   "type": "choice",
+   "q": "a friend ___ mine",
+   "options": [
+    "of",
+    "to",
+    "from",
+    "with"
+   ],
+   "answer": 0,
+   "why": "Подвійна присвійність: a friend of mine."
+  },
+  {
+   "id": "possessive-forms-7",
+   "type": "choice",
+   "q": "'I'm going to the ___.' (doctor's surgery)",
+   "options": [
+    "doctor",
+    "doctor's",
+    "doctors",
+    "doctors'"
+   ],
+   "answer": 1,
+   "why": "the doctor's — без іменника після 's."
+  },
+  {
+   "id": "possessive-forms-8",
+   "type": "choice",
+   "q": "'Tom and Anna's flat' means:",
+   "options": [
+    "one flat they share",
+    "two flats",
+    "Tom's flat only",
+    "Anna's flat only"
+   ],
+   "answer": 0,
+   "why": "Спільне володіння — 's лише після останнього."
+  },
+  {
+   "id": "possessive-forms-9",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "the dog tail's",
+    "the dog's tail",
+    "the dogs's tail",
+    "the tail dog's"
+   ],
+   "answer": 1,
+   "why": "Порядок: власник + 's + річ."
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "questions": [
+  {
+   "id": "modals-obligation-1",
+   "type": "choice",
+   "q": "You ___ smoke here. It is forbidden.",
+   "options": [
+    "don't have to",
+    "mustn't",
+    "needn't",
+    "shouldn't have"
+   ],
+   "answer": 1,
+   "why": "mustn’t = заборонено."
+  },
+  {
+   "id": "modals-obligation-2",
+   "type": "choice",
+   "q": "You ___ come tomorrow. It is optional.",
+   "options": [
+    "mustn't",
+    "don't have to",
+    "can't",
+    "must"
+   ],
+   "answer": 1,
+   "why": "don’t have to = не обов’язково."
+  },
+  {
+   "id": "modals-obligation-3",
+   "type": "fill",
+   "q": "Yesterday I ___ (have to) work late.",
+   "answer": [
+    "had to"
+   ],
+   "why": "Минуле від have to — had to."
+  },
+  {
+   "id": "modals-obligation-4",
+   "type": "choice",
+   "q": "You ___ see a doctor. You look ill.",
+   "options": [
+    "should",
+    "mustn't",
+    "needn't",
+    "have"
+   ],
+   "answer": 0,
+   "why": "should — порада."
+  },
+  {
+   "id": "modals-obligation-5",
+   "type": "choice",
+   "q": "You ___ brought food. We already have plenty.",
+   "options": [
+    "needn't have",
+    "mustn't have",
+    "don't have to have",
+    "shouldn't"
+   ],
+   "answer": 0,
+   "why": "needn’t have + V3 — зробив, хоча не треба було."
+  },
+  {
+   "id": "modals-obligation-6",
+   "type": "choice",
+   "q": "You'd better ___ now, or you'll miss the train.",
+   "options": [
+    "to leave",
+    "leave",
+    "leaving",
+    "left"
+   ],
+   "answer": 1,
+   "why": "had better + інфінітив без to."
+  },
+  {
+   "id": "modals-obligation-7",
+   "type": "fill",
+   "q": "You ___ (call) her yesterday; she was worried. (should)",
+   "answer": [
+    "should have called"
+   ],
+   "why": "should have + V3 — слід було (докір)."
+  },
+  {
+   "id": "modals-obligation-8",
+   "type": "choice",
+   "q": "We ___ wear a uniform at school. It is the rule.",
+   "options": [
+    "have to",
+    "mustn't",
+    "needn't",
+    "should"
+   ],
+   "answer": 0,
+   "why": "have to — зовнішнє правило."
+  },
+  {
+   "id": "modals-obligation-9",
+   "type": "choice",
+   "q": "She ___ speak three languages when she was five.",
+   "options": [
+    "can",
+    "could",
+    "is able",
+    "must"
+   ],
+   "answer": 1,
+   "why": "could — вміння в минулому."
+  },
+  {
+   "id": "modals-obligation-10",
+   "type": "order",
+   "words": [
+    "You",
+    "don't",
+    "have",
+    "to",
+    "wait"
+   ],
+   "answer": [
+    "You don't have to wait"
+   ],
+   "why": "don’t have to — не потрібно."
+  }
+ ]
+}

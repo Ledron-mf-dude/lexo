@@ -1,0 +1,110 @@
+{
+ "questions": [
+  {
+   "id": "imperative-1",
+   "type": "choice",
+   "q": "___ the door, please.",
+   "options": [
+    "Closes",
+    "Close",
+    "To close",
+    "Closing"
+   ],
+   "answer": 1,
+   "why": "Наказовий спосіб — початкова форма дієслова."
+  },
+  {
+   "id": "imperative-2",
+   "type": "choice",
+   "q": "___ late! (negative)",
+   "options": [
+    "Not be",
+    "Don't be",
+    "Be not",
+    "No be"
+   ],
+   "answer": 1,
+   "why": "Заперечення: Don’t + V."
+  },
+  {
+   "id": "imperative-3",
+   "type": "choice",
+   "q": "Suggest doing something together:",
+   "options": [
+    "Let's go!",
+    "Go we!",
+    "Let go we!",
+    "Lets to go!"
+   ],
+   "answer": 0,
+   "why": "Let’s + V."
+  },
+  {
+   "id": "imperative-4",
+   "type": "choice",
+   "q": "Which is a polite request?",
+   "options": [
+    "Sit down!",
+    "Please sit down.",
+    "You sit!",
+    "Sit!"
+   ],
+   "answer": 1,
+   "why": "Please пом’якшує."
+  },
+  {
+   "id": "imperative-5",
+   "type": "choice",
+   "q": "Emphatic: '___ be careful!'",
+   "options": [
+    "Do",
+    "Does",
+    "Are",
+    "Be"
+   ],
+   "answer": 0,
+   "why": "Do + V — наполегливо."
+  },
+  {
+   "id": "imperative-6",
+   "type": "choice",
+   "q": "Negative suggestion with let’s:",
+   "options": [
+    "Let's don't go.",
+    "Let's not go.",
+    "Don't let's go.",
+    "Let's no go."
+   ],
+   "answer": 1,
+   "why": "Let’s not + V."
+  },
+  {
+   "id": "imperative-7",
+   "type": "order",
+   "words": [
+    "Don't",
+    "forget",
+    "to",
+    "call",
+    "me"
+   ],
+   "answer": [
+    "Don't forget to call me"
+   ],
+   "why": "Don’t + V — заперечний наказ."
+  },
+  {
+   "id": "imperative-8",
+   "type": "choice",
+   "q": "What does 'You go first' show?",
+   "options": [
+    "emphasis on who acts",
+    "past tense",
+    "a question",
+    "a condition"
+   ],
+   "answer": 0,
+   "why": "Підмет you виділяє виконавця."
+  }
+ ]
+}

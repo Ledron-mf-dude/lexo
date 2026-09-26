@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "pronouns-1",
+   "type": "choice",
+   "q": "___ and I went home.",
+   "options": [
+    "Her",
+    "She",
+    "Hers",
+    "Herself"
+   ],
+   "answer": 1,
+   "why": "Підмет — she."
+  },
+  {
+   "id": "pronouns-2",
+   "type": "choice",
+   "q": "This is between you and ___.",
+   "options": [
+    "I",
+    "me",
+    "my",
+    "mine"
+   ],
+   "answer": 1,
+   "why": "Після прийменника — me."
+  },
+  {
+   "id": "pronouns-3",
+   "type": "choice",
+   "q": "Give it to ___. (Anna)",
+   "options": [
+    "she",
+    "her",
+    "hers",
+    "herself"
+   ],
+   "answer": 1,
+   "why": "Додаток — her."
+  },
+  {
+   "id": "pronouns-4",
+   "type": "choice",
+   "q": "That book is ___. (it belongs to me)",
+   "options": [
+    "my",
+    "me",
+    "mine",
+    "I"
+   ],
+   "answer": 2,
+   "why": "Без іменника — mine."
+  },
+  {
+   "id": "pronouns-5",
+   "type": "choice",
+   "q": "Its or it's: '___ raining.'",
+   "options": [
+    "Its",
+    "It's",
+    "Its'",
+    "It"
+   ],
+   "answer": 1,
+   "why": "It's = it is."
+  },
+  {
+   "id": "pronouns-6",
+   "type": "choice",
+   "q": "'Who is it?' — '___.'",
+   "options": [
+    "I",
+    "Me",
+    "Mine",
+    "My"
+   ],
+   "answer": 1,
+   "why": "У розмові — It’s me."
+  },
+  {
+   "id": "pronouns-7",
+   "type": "choice",
+   "q": "'a friend of ___'",
+   "options": [
+    "me",
+    "my",
+    "mine",
+    "I"
+   ],
+   "answer": 2,
+   "why": "a friend of mine."
+  },
+  {
+   "id": "pronouns-8",
+   "type": "choice",
+   "q": "'They forgot ___ tickets.'",
+   "options": [
+    "there",
+    "their",
+    "they're",
+    "theirs"
+   ],
+   "answer": 1,
+   "why": "their — присвійний прикметник."
+  },
+  {
+   "id": "pronouns-9",
+   "type": "choice",
+   "q": "'Our house is bigger than ___.' (their house)",
+   "options": [
+    "them",
+    "their",
+    "theirs",
+    "they"
+   ],
+   "answer": 2,
+   "why": "Без іменника — theirs."
+  },
+  {
+   "id": "pronouns-10",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Him and me went out.",
+    "He and I went out.",
+    "Him and I went out.",
+    "He and me went out."
+   ],
+   "answer": 1,
+   "why": "Підмет — he and I."
+  }
+ ]
+}

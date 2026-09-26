@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "so-such-1",
+   "type": "choice",
+   "q": "She is ___ tall.",
+   "options": [
+    "such",
+    "so",
+    "such a",
+    "so much"
+   ],
+   "answer": 1,
+   "why": "so + прикметник."
+  },
+  {
+   "id": "so-such-2",
+   "type": "choice",
+   "q": "It was ___ nice day.",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "so a"
+   ],
+   "answer": 2,
+   "why": "such a + прикметник + іменник."
+  },
+  {
+   "id": "so-such-3",
+   "type": "choice",
+   "q": "They are ___ kind people.",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "so much"
+   ],
+   "answer": 1,
+   "why": "such + множина."
+  },
+  {
+   "id": "so-such-4",
+   "type": "choice",
+   "q": "I have ___ much work!",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "very"
+   ],
+   "answer": 0,
+   "why": "so much + нелічильне."
+  },
+  {
+   "id": "so-such-5",
+   "type": "choice",
+   "q": "There are ___ many people here.",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "much"
+   ],
+   "answer": 0,
+   "why": "so many + лічильне."
+  },
+  {
+   "id": "so-such-6",
+   "type": "choice",
+   "q": "It was ___ cold that we stayed home.",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "very"
+   ],
+   "answer": 0,
+   "why": "so + adj + that."
+  },
+  {
+   "id": "so-such-7",
+   "type": "choice",
+   "q": "It was ___ a cold day that we stayed home.",
+   "options": [
+    "so",
+    "such",
+    "so a",
+    "very"
+   ],
+   "answer": 1,
+   "why": "such a + adj + noun + that."
+  },
+  {
+   "id": "so-such-8",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She is such tall.",
+    "She is so tall.",
+    "She is so a tall girl.",
+    "She is such a tall."
+   ],
+   "answer": 1,
+   "why": "so + adj."
+  },
+  {
+   "id": "so-such-9",
+   "type": "choice",
+   "q": "He speaks ___ fast that I can't understand.",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "very much"
+   ],
+   "answer": 0,
+   "why": "so + adv + that."
+  },
+  {
+   "id": "so-such-10",
+   "type": "choice",
+   "q": "It's ___ good news!",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "so much"
+   ],
+   "answer": 1,
+   "why": "news — нелічильне: such good news."
+  }
+ ]
+}

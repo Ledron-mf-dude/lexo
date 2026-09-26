@@ -1,0 +1,115 @@
+{
+ "questions": [
+  {
+   "id": "future-continuous-perfect-1",
+   "type": "choice",
+   "q": "This time tomorrow I ___ on a beach.",
+   "options": [
+    "will lie",
+    "will be lying",
+    "will have lain",
+    "lie"
+   ],
+   "answer": 1,
+   "why": "Процес у певний момент майбутнього — Future Continuous."
+  },
+  {
+   "id": "future-continuous-perfect-2",
+   "type": "choice",
+   "q": "By 8 pm I ___ my homework.",
+   "options": [
+    "am doing",
+    "will be doing",
+    "will have done",
+    "would do"
+   ],
+   "answer": 2,
+   "why": "by + момент: завершиться до нього — Future Perfect."
+  },
+  {
+   "id": "future-continuous-perfect-3",
+   "type": "fill",
+   "q": "Don't call at noon — we ___ (have) lunch.",
+   "answer": [
+    "will be having"
+   ],
+   "why": "Процес у певний момент — will be + V-ing."
+  },
+  {
+   "id": "future-continuous-perfect-4",
+   "type": "fill",
+   "q": "By the time you arrive, they ___ (leave).",
+   "answer": [
+    "will have left"
+   ],
+   "why": "Завершиться до моменту — will have + V3."
+  },
+  {
+   "id": "future-continuous-perfect-5",
+   "type": "choice",
+   "q": "In July she ___ here for ten years.",
+   "options": [
+    "will work",
+    "will have been working",
+    "works",
+    "is working"
+   ],
+   "answer": 1,
+   "why": "Тривалість до майбутнього моменту — Future Perfect Continuous."
+  },
+  {
+   "id": "future-continuous-perfect-6",
+   "type": "choice",
+   "q": "___ you ___ the car tonight? I need it.",
+   "options": [
+    "Will / be using",
+    "Will / have used",
+    "Do / use",
+    "Are / using"
+   ],
+   "answer": 0,
+   "why": "Ввічливе питання про плани — Future Continuous."
+  },
+  {
+   "id": "future-continuous-perfect-7",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "By the time she arrives, I will finish.",
+    "By the time she arrives, I will have finished.",
+    "By the time she will arrive, I will have finished.",
+    "By the time she arrives, I will be finish."
+   ],
+   "answer": 1,
+   "why": "Після by the time — Present Simple, у головній частині — Future Perfect."
+  },
+  {
+   "id": "future-continuous-perfect-8",
+   "type": "fill",
+   "q": "This time next week we ___ (travel) through Italy.",
+   "answer": [
+    "will be travelling",
+    "will be traveling"
+   ],
+   "why": "Future Continuous: will be + V-ing."
+  },
+  {
+   "id": "future-continuous-perfect-9",
+   "type": "order",
+   "words": [
+    "By",
+    "Friday",
+    "I",
+    "will",
+    "have",
+    "finished",
+    "the",
+    "project"
+   ],
+   "answer": [
+    "By Friday I will have finished the project"
+   ],
+   "why": "Future Perfect: will have + V3."
+  }
+ ]
+}

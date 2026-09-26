@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "verb-preposition-1",
+   "type": "choice",
+   "q": "It depends ___ the weather.",
+   "options": [
+    "of",
+    "on",
+    "from",
+    "at"
+   ],
+   "answer": 1,
+   "why": "depend on."
+  },
+  {
+   "id": "verb-preposition-2",
+   "type": "choice",
+   "q": "Please listen ___ me.",
+   "options": [
+    "at",
+    "to",
+    "for",
+    "on"
+   ],
+   "answer": 1,
+   "why": "listen to."
+  },
+  {
+   "id": "verb-preposition-3",
+   "type": "choice",
+   "q": "I'm waiting ___ the bus.",
+   "options": [
+    "to",
+    "at",
+    "for",
+    "on"
+   ],
+   "answer": 2,
+   "why": "wait for."
+  },
+  {
+   "id": "verb-preposition-4",
+   "type": "choice",
+   "q": "She apologised ___ being late.",
+   "options": [
+    "for",
+    "of",
+    "at",
+    "about"
+   ],
+   "answer": 0,
+   "why": "apologise for."
+  },
+  {
+   "id": "verb-preposition-5",
+   "type": "choice",
+   "q": "I believe ___ you.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "to"
+   ],
+   "answer": 1,
+   "why": "believe in."
+  },
+  {
+   "id": "verb-preposition-6",
+   "type": "choice",
+   "q": "He is looking ___ his keys. (searching)",
+   "options": [
+    "for",
+    "at",
+    "after",
+    "to"
+   ],
+   "answer": 0,
+   "why": "look for — шукати."
+  },
+  {
+   "id": "verb-preposition-7",
+   "type": "choice",
+   "q": "She is looking ___ her grandmother. (taking care)",
+   "options": [
+    "for",
+    "after",
+    "at",
+    "up"
+   ],
+   "answer": 1,
+   "why": "look after — доглядати."
+  },
+  {
+   "id": "verb-preposition-8",
+   "type": "choice",
+   "q": "We discussed ___ the problem.",
+   "options": [
+    "about",
+    "—",
+    "of",
+    "on"
+   ],
+   "answer": 1,
+   "why": "discuss — без прийменника."
+  },
+  {
+   "id": "verb-preposition-9",
+   "type": "choice",
+   "q": "They agreed ___ me.",
+   "options": [
+    "with",
+    "to",
+    "of",
+    "on"
+   ],
+   "answer": 0,
+   "why": "agree with + людина."
+  },
+  {
+   "id": "verb-preposition-10",
+   "type": "choice",
+   "q": "She suffers ___ headaches.",
+   "options": [
+    "with",
+    "from",
+    "of",
+    "at"
+   ],
+   "answer": 1,
+   "why": "suffer from."
+  }
+ ]
+}

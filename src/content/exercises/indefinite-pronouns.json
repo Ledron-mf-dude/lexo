@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "indefinite-pronouns-1",
+   "type": "choice",
+   "q": "I didn't see ___.",
+   "options": [
+    "somebody",
+    "anybody",
+    "nobody",
+    "everybody"
+   ],
+   "answer": 1,
+   "why": "У запереченні — any-."
+  },
+  {
+   "id": "indefinite-pronouns-2",
+   "type": "choice",
+   "q": "Would you like ___ to eat?",
+   "options": [
+    "anything",
+    "something",
+    "nothing",
+    "everything"
+   ],
+   "answer": 1,
+   "why": "У пропозиції — some-."
+  },
+  {
+   "id": "indefinite-pronouns-3",
+   "type": "choice",
+   "q": "There is ___ in the box. It's empty.",
+   "options": [
+    "nothing",
+    "anything",
+    "something",
+    "everything"
+   ],
+   "answer": 0,
+   "why": "nothing — нічого."
+  },
+  {
+   "id": "indefinite-pronouns-4",
+   "type": "choice",
+   "q": "___ is here. Everyone came.",
+   "options": [
+    "Nobody",
+    "Somebody",
+    "Everybody",
+    "Anybody"
+   ],
+   "answer": 2,
+   "why": "everybody — усі."
+  },
+  {
+   "id": "indefinite-pronouns-5",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "I didn't see nobody.",
+    "I didn't see anybody.",
+    "I saw not nobody.",
+    "I didn't saw anybody."
+   ],
+   "answer": 1,
+   "why": "Одне заперечення: didn’t see anybody."
+  },
+  {
+   "id": "indefinite-pronouns-6",
+   "type": "choice",
+   "q": "I'd like ___ to read.",
+   "options": [
+    "interesting something",
+    "something interesting",
+    "interesting anything",
+    "anything to interesting"
+   ],
+   "answer": 1,
+   "why": "Прикметник стоїть після слова: something interesting."
+  },
+  {
+   "id": "indefinite-pronouns-7",
+   "type": "choice",
+   "q": "I can't find my keys ___.",
+   "options": [
+    "anywhere",
+    "somewhere",
+    "nowhere",
+    "everywhere"
+   ],
+   "answer": 0,
+   "why": "У запереченні — anywhere."
+  },
+  {
+   "id": "indefinite-pronouns-8",
+   "type": "choice",
+   "q": "'Somebody left ___ umbrella.' (natural, gender unknown)",
+   "options": [
+    "his or her",
+    "their",
+    "its",
+    "our"
+   ],
+   "answer": 1,
+   "why": "У розмові somebody → their."
+  },
+  {
+   "id": "indefinite-pronouns-9",
+   "type": "choice",
+   "q": "Everybody ___ here.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "be"
+   ],
+   "answer": 1,
+   "why": "every- — дієслово в однині."
+  },
+  {
+   "id": "indefinite-pronouns-10",
+   "type": "choice",
+   "q": "You can put it ___. I don't mind where.",
+   "options": [
+    "anywhere",
+    "nowhere",
+    "somewhere",
+    "nothing"
+   ],
+   "answer": 0,
+   "why": "anywhere — де завгодно."
+  }
+ ]
+}

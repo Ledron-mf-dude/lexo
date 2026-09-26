@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "on-time-in-time-1",
+   "type": "choice",
+   "q": "The train arrived ___ — exactly at 6.",
+   "options": [
+    "on time",
+    "in time",
+    "at time",
+    "by time"
+   ],
+   "answer": 0,
+   "why": "on time — точно за розкладом."
+  },
+  {
+   "id": "on-time-in-time-2",
+   "type": "choice",
+   "q": "We got to the station ___ to catch the train.",
+   "options": [
+    "on time",
+    "in time",
+    "in the time",
+    "at time"
+   ],
+   "answer": 1,
+   "why": "in time to — встигли зробити."
+  },
+  {
+   "id": "on-time-in-time-3",
+   "type": "choice",
+   "q": "Be ___ tomorrow. The meeting starts at 9.",
+   "options": [
+    "on time",
+    "in time",
+    "at the end",
+    "in the end"
+   ],
+   "answer": 0,
+   "why": "Бути пунктуальним — on time."
+  },
+  {
+   "id": "on-time-in-time-4",
+   "type": "choice",
+   "q": "___ of the film, he dies.",
+   "options": [
+    "In the end",
+    "At the end",
+    "On the end",
+    "By end"
+   ],
+   "answer": 1,
+   "why": "at the end of + що."
+  },
+  {
+   "id": "on-time-in-time-5",
+   "type": "choice",
+   "q": "We tried a lot of things. ___, we succeeded.",
+   "options": [
+    "At the end",
+    "In the end",
+    "On the end",
+    "End"
+   ],
+   "answer": 1,
+   "why": "in the end — зрештою."
+  },
+  {
+   "id": "on-time-in-time-6",
+   "type": "choice",
+   "q": "at the end ___ the month",
+   "options": [
+    "of",
+    "in",
+    "at",
+    "to"
+   ],
+   "answer": 0,
+   "why": "at the end of."
+  },
+  {
+   "id": "on-time-in-time-7",
+   "type": "choice",
+   "q": "He waited for hours and ___ she came.",
+   "options": [
+    "at last",
+    "in time",
+    "on time",
+    "at the end of"
+   ],
+   "answer": 0,
+   "why": "at last — нарешті."
+  },
+  {
+   "id": "on-time-in-time-8",
+   "type": "choice",
+   "q": "I arrived ___ for the film — just before it started.",
+   "options": [
+    "in time",
+    "on time",
+    "at time",
+    "at last"
+   ],
+   "answer": 0,
+   "why": "in time — встиг."
+  }
+ ]
+}

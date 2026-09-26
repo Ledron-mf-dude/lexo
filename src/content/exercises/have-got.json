@@ -1,0 +1,104 @@
+{
+ "questions": [
+  {
+   "id": "have-got-1",
+   "type": "choice",
+   "q": "She ___ two brothers.",
+   "options": [
+    "have got",
+    "has got",
+    "is got",
+    "have"
+   ],
+   "answer": 1,
+   "why": "she + has got."
+  },
+  {
+   "id": "have-got-2",
+   "type": "choice",
+   "q": "___ you ___ a pen?",
+   "options": [
+    "Do / got",
+    "Have / got",
+    "Are / got",
+    "Has / got"
+   ],
+   "answer": 1,
+   "why": "Питання: Have + підмет + got."
+  },
+  {
+   "id": "have-got-3",
+   "type": "fill",
+   "q": "He ___ (not / have got) any money.",
+   "answer": [
+    "hasn't got",
+    "has not got"
+   ],
+   "why": "Заперечення: hasn’t got."
+  },
+  {
+   "id": "have-got-4",
+   "type": "choice",
+   "q": "Which sentence correctly talks about the past?",
+   "options": [
+    "I had a car.",
+    "I had got a car.",
+    "I have got a car yesterday.",
+    "I was got a car."
+   ],
+   "answer": 0,
+   "why": "have got — лише теперішній час; у минулому — had."
+  },
+  {
+   "id": "have-got-5",
+   "type": "choice",
+   "q": "\"Have you got a sister?\" — \"Yes, I ___.\"",
+   "options": [
+    "have got",
+    "have",
+    "do",
+    "am"
+   ],
+   "answer": 1,
+   "why": "У короткій відповіді got не повторюємо: Yes, I have."
+  },
+  {
+   "id": "have-got-6",
+   "type": "fill",
+   "q": "We ___ (have got) a big garden.",
+   "answer": [
+    "have got",
+    "'ve got"
+   ],
+   "why": "we + have got."
+  },
+  {
+   "id": "have-got-7",
+   "type": "choice",
+   "q": "Which is a natural question with \"have\"?",
+   "options": [
+    "Do you have a car?",
+    "Have you a car do?",
+    "Are you have a car?",
+    "Does you have a car?"
+   ],
+   "answer": 0,
+   "why": "З have (без got) питання утворюємо через do."
+  },
+  {
+   "id": "have-got-8",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "got",
+    "blue",
+    "eyes"
+   ],
+   "answer": [
+    "She has got blue eyes"
+   ],
+   "why": "have got — для зовнішності, володіння."
+  }
+ ]
+}

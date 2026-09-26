@@ -1,0 +1,122 @@
+{
+ "questions": [
+  {
+   "id": "reported-speech-1",
+   "type": "choice",
+   "q": "\"I am tired.\" (said yesterday) → She said she ___ tired.",
+   "options": [
+    "is",
+    "was",
+    "were",
+    "has been"
+   ],
+   "answer": 1,
+   "why": "Present Simple → Past Simple (backshift)."
+  },
+  {
+   "id": "reported-speech-2",
+   "type": "choice",
+   "q": "\"I will call you.\" (said last week) → He said he ___ me.",
+   "options": [
+    "will call",
+    "would call",
+    "calls",
+    "called"
+   ],
+   "answer": 1,
+   "why": "will → would."
+  },
+  {
+   "id": "reported-speech-3",
+   "type": "fill",
+   "q": "\"I have finished.\" → She said she ___ (finish).",
+   "answer": [
+    "had finished"
+   ],
+   "why": "Present Perfect → Past Perfect."
+  },
+  {
+   "id": "reported-speech-4",
+   "type": "choice",
+   "q": "\"Where do you live?\" → He asked me where ___.",
+   "options": [
+    "I am living",
+    "I lived",
+    "do I live",
+    "did I live"
+   ],
+   "answer": 1,
+   "why": "Прямий порядок слів + зсув часу."
+  },
+  {
+   "id": "reported-speech-5",
+   "type": "choice",
+   "q": "\"Are you ready?\" → She asked ___ I was ready.",
+   "options": [
+    "that",
+    "if",
+    "what",
+    "which"
+   ],
+   "answer": 1,
+   "why": "Питання «так/ні» → if / whether."
+  },
+  {
+   "id": "reported-speech-6",
+   "type": "fill",
+   "q": "\"Close the door.\" → He told me ___ the door.",
+   "answer": [
+    "to close"
+   ],
+   "why": "Наказ → tell + особа + to-інфінітив."
+  },
+  {
+   "id": "reported-speech-7",
+   "type": "choice",
+   "q": "\"I'll see you tomorrow.\" (said last week) → She said she'd see me ___.",
+   "options": [
+    "tomorrow",
+    "the next day",
+    "yesterday",
+    "next before"
+   ],
+   "answer": 1,
+   "why": "tomorrow → the next day."
+  },
+  {
+   "id": "reported-speech-8",
+   "type": "choice",
+   "q": "\"Don't be late.\" → She told us ___.",
+   "options": [
+    "not be late",
+    "to not be late",
+    "not to be late",
+    "don't be late"
+   ],
+   "answer": 2,
+   "why": "Заперечний наказ: not to + V."
+  },
+  {
+   "id": "reported-speech-9",
+   "type": "fill",
+   "q": "\"I can swim.\" → He said he ___ swim.",
+   "answer": [
+    "could"
+   ],
+   "why": "can → could."
+  },
+  {
+   "id": "reported-speech-10",
+   "type": "choice",
+   "q": "She ___ me that she was tired.",
+   "options": [
+    "said",
+    "told",
+    "spoke",
+    "asked"
+   ],
+   "answer": 1,
+   "why": "tell вживається з особою (told me)."
+  }
+ ]
+}

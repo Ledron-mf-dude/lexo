@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "conditionals-advanced-1",
+   "type": "choice",
+   "q": "___ you hurry, you'll be late.",
+   "options": [
+    "Unless",
+    "If",
+    "Provided",
+    "Although"
+   ],
+   "answer": 0,
+   "why": "unless = if … not."
+  },
+  {
+   "id": "conditionals-advanced-2",
+   "type": "choice",
+   "q": "I'll go ___ it's free. (on condition)",
+   "options": [
+    "provided that",
+    "unless",
+    "although",
+    "because"
+   ],
+   "answer": 0,
+   "why": "provided that — за умови."
+  },
+  {
+   "id": "conditionals-advanced-3",
+   "type": "choice",
+   "q": "You can stay ___ you're quiet.",
+   "options": [
+    "as long as",
+    "unless",
+    "despite",
+    "so that"
+   ],
+   "answer": 0,
+   "why": "as long as — за умови."
+  },
+  {
+   "id": "conditionals-advanced-4",
+   "type": "choice",
+   "q": "___ your help, I would fail. (if it weren’t for)",
+   "options": [
+    "But for",
+    "Because for",
+    "Despite",
+    "Unless"
+   ],
+   "answer": 0,
+   "why": "But for = if it weren’t for."
+  },
+  {
+   "id": "conditionals-advanced-5",
+   "type": "choice",
+   "q": "___ I known, I'd have told you.",
+   "options": [
+    "If",
+    "Had",
+    "Would",
+    "Did"
+   ],
+   "answer": 1,
+   "why": "Інверсія: Had I known…"
+  },
+  {
+   "id": "conditionals-advanced-6",
+   "type": "choice",
+   "q": "___ you need help, call me. (formal)",
+   "options": [
+    "Should",
+    "Would",
+    "Did",
+    "Are"
+   ],
+   "answer": 0,
+   "why": "Should you need…"
+  },
+  {
+   "id": "conditionals-advanced-7",
+   "type": "choice",
+   "q": "Take a coat ___ it's cold.",
+   "options": [
+    "in case",
+    "unless",
+    "if not",
+    "as long"
+   ],
+   "answer": 0,
+   "why": "in case — на випадок."
+  },
+  {
+   "id": "conditionals-advanced-8",
+   "type": "choice",
+   "q": "Leave now, ___ you'll miss the train.",
+   "options": [
+    "otherwise",
+    "because",
+    "although",
+    "provided"
+   ],
+   "answer": 0,
+   "why": "otherwise — інакше."
+  },
+  {
+   "id": "conditionals-advanced-9",
+   "type": "choice",
+   "q": "___ I you, I'd go. (inversion)",
+   "options": [
+    "Were",
+    "Was",
+    "Am",
+    "If were"
+   ],
+   "answer": 0,
+   "why": "Were I you…"
+  }
+ ]
+}

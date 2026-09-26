@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "wish-if-only-1",
+   "type": "choice",
+   "q": "I wish I ___ more time. (present)",
+   "options": [
+    "have",
+    "had",
+    "would have",
+    "will have"
+   ],
+   "answer": 1,
+   "why": "wish + Past Simple — про теперішнє."
+  },
+  {
+   "id": "wish-if-only-2",
+   "type": "choice",
+   "q": "I wish I ___ harder. (past regret)",
+   "options": [
+    "studied",
+    "had studied",
+    "would study",
+    "study"
+   ],
+   "answer": 1,
+   "why": "wish + Past Perfect — про минуле."
+  },
+  {
+   "id": "wish-if-only-3",
+   "type": "choice",
+   "q": "I wish you ___ stop interrupting me.",
+   "options": [
+    "would",
+    "will",
+    "did",
+    "can"
+   ],
+   "answer": 0,
+   "why": "wish + would — роздратування."
+  },
+  {
+   "id": "wish-if-only-4",
+   "type": "choice",
+   "q": "It's time we ___ home.",
+   "options": [
+    "go",
+    "went",
+    "will go",
+    "are going"
+   ],
+   "answer": 1,
+   "why": "It’s time + Past Simple."
+  },
+  {
+   "id": "wish-if-only-5",
+   "type": "choice",
+   "q": "If only I ___ the answer! (present)",
+   "options": [
+    "know",
+    "knew",
+    "would know",
+    "had known"
+   ],
+   "answer": 1,
+   "why": "If only + Past Simple."
+  },
+  {
+   "id": "wish-if-only-6",
+   "type": "choice",
+   "q": "I wish I ___ taller.",
+   "options": [
+    "am",
+    "were",
+    "would be",
+    "will be"
+   ],
+   "answer": 1,
+   "why": "wish I were."
+  },
+  {
+   "id": "wish-if-only-7",
+   "type": "choice",
+   "q": "Which is incorrect?",
+   "options": [
+    "I wish I would win.",
+    "I wish I could win.",
+    "I wish it would stop.",
+    "I wish I had won."
+   ],
+   "answer": 0,
+   "why": "would не вживається про себе: I wish I could."
+  },
+  {
+   "id": "wish-if-only-8",
+   "type": "choice",
+   "q": "I'd rather you ___ here.",
+   "options": [
+    "stay",
+    "stayed",
+    "staying",
+    "to stay"
+   ],
+   "answer": 1,
+   "why": "would rather + підмет + Past Simple."
+  },
+  {
+   "id": "wish-if-only-9",
+   "type": "choice",
+   "q": "If only she ___ left! (past)",
+   "options": [
+    "hadn't",
+    "didn't",
+    "wouldn't",
+    "doesn't"
+   ],
+   "answer": 0,
+   "why": "If only + Past Perfect."
+  }
+ ]
+}

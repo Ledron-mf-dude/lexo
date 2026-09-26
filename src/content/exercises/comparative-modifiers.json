@@ -1,0 +1,111 @@
+{
+ "questions": [
+  {
+   "id": "comparative-modifiers-1",
+   "type": "choice",
+   "q": "It's ___ hotter today. (only slightly)",
+   "options": [
+    "a bit",
+    "very",
+    "most",
+    "more"
+   ],
+   "answer": 0,
+   "why": "a bit — трохи."
+  },
+  {
+   "id": "comparative-modifiers-2",
+   "type": "choice",
+   "q": "It's ___ hotter today. (far hotter)",
+   "options": [
+    "a lot",
+    "a little",
+    "very",
+    "most"
+   ],
+   "answer": 0,
+   "why": "a lot — набагато."
+  },
+  {
+   "id": "comparative-modifiers-3",
+   "type": "choice",
+   "q": "Which is wrong?",
+   "options": [
+    "much more convenient",
+    "very more convenient",
+    "a lot more convenient",
+    "a bit more convenient"
+   ],
+   "answer": 1,
+   "why": "very не вживається з порівняльним."
+  },
+  {
+   "id": "comparative-modifiers-4",
+   "type": "choice",
+   "q": "The comparative of 'hot' is:",
+   "options": [
+    "hoter",
+    "hotter",
+    "more hot",
+    "hottest"
+   ],
+   "answer": 1,
+   "why": "Подвоюємо приголосну."
+  },
+  {
+   "id": "comparative-modifiers-5",
+   "type": "choice",
+   "q": "The comparative of 'convenient' is:",
+   "options": [
+    "convenienter",
+    "more convenient",
+    "most convenient",
+    "convenientest"
+   ],
+   "answer": 1,
+   "why": "Довгий прикметник — more."
+  },
+  {
+   "id": "comparative-modifiers-6",
+   "type": "choice",
+   "q": "Which means 'slightly'?",
+   "options": [
+    "a little bit",
+    "a lot",
+    "much",
+    "far"
+   ],
+   "answer": 0,
+   "why": "a little bit — трохи."
+  },
+  {
+   "id": "comparative-modifiers-7",
+   "type": "choice",
+   "q": "Which word does NOT combine with a comparative?",
+   "options": [
+    "very",
+    "a lot",
+    "much",
+    "a bit"
+   ],
+   "answer": 0,
+   "why": "very — ні."
+  },
+  {
+   "id": "comparative-modifiers-8",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "a",
+    "lot",
+    "more",
+    "expensive"
+   ],
+   "answer": [
+    "It is a lot more expensive"
+   ],
+   "why": "a lot + more + adj."
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "adjective-preposition-1",
+   "type": "choice",
+   "q": "She is afraid ___ spiders.",
+   "options": [
+    "of",
+    "from",
+    "at",
+    "with"
+   ],
+   "answer": 0,
+   "why": "afraid of."
+  },
+  {
+   "id": "adjective-preposition-2",
+   "type": "choice",
+   "q": "He's good ___ maths.",
+   "options": [
+    "in",
+    "at",
+    "of",
+    "on"
+   ],
+   "answer": 1,
+   "why": "good at."
+  },
+  {
+   "id": "adjective-preposition-3",
+   "type": "choice",
+   "q": "We're interested ___ history.",
+   "options": [
+    "on",
+    "at",
+    "in",
+    "for"
+   ],
+   "answer": 2,
+   "why": "interested in."
+  },
+  {
+   "id": "adjective-preposition-4",
+   "type": "choice",
+   "q": "I'm worried ___ the exam.",
+   "options": [
+    "for",
+    "about",
+    "of",
+    "on"
+   ],
+   "answer": 1,
+   "why": "worried about."
+  },
+  {
+   "id": "adjective-preposition-5",
+   "type": "choice",
+   "q": "Are you angry ___ me? (a person)",
+   "options": [
+    "with",
+    "about",
+    "of",
+    "from"
+   ],
+   "answer": 0,
+   "why": "angry with + людина."
+  },
+  {
+   "id": "adjective-preposition-6",
+   "type": "choice",
+   "q": "He is married ___ Anna.",
+   "options": [
+    "with",
+    "to",
+    "at",
+    "for"
+   ],
+   "answer": 1,
+   "why": "married to."
+  },
+  {
+   "id": "adjective-preposition-7",
+   "type": "choice",
+   "q": "She's famous ___ her novels.",
+   "options": [
+    "for",
+    "of",
+    "at",
+    "about"
+   ],
+   "answer": 0,
+   "why": "famous for."
+  },
+  {
+   "id": "adjective-preposition-8",
+   "type": "choice",
+   "q": "I'm proud ___ you.",
+   "options": [
+    "for",
+    "of",
+    "about",
+    "at"
+   ],
+   "answer": 1,
+   "why": "proud of."
+  },
+  {
+   "id": "adjective-preposition-9",
+   "type": "choice",
+   "q": "It was kind ___ you to help.",
+   "options": [
+    "of",
+    "for",
+    "to",
+    "with"
+   ],
+   "answer": 0,
+   "why": "kind of + людина + to-інфінітив."
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "question-tags-1",
+   "type": "choice",
+   "q": "She is late, ___?",
+   "options": [
+    "is she",
+    "isn't she",
+    "doesn't she",
+    "does she"
+   ],
+   "answer": 1,
+   "why": "Ствердження → заперечний тег."
+  },
+  {
+   "id": "question-tags-2",
+   "type": "choice",
+   "q": "You don't like it, ___?",
+   "options": [
+    "don't you",
+    "do you",
+    "aren't you",
+    "did you"
+   ],
+   "answer": 1,
+   "why": "Заперечення → ствердний тег."
+  },
+  {
+   "id": "question-tags-3",
+   "type": "choice",
+   "q": "They have left, ___?",
+   "options": [
+    "don't they",
+    "haven't they",
+    "aren't they",
+    "didn't they"
+   ],
+   "answer": 1,
+   "why": "Той самий допоміжний: have → haven’t."
+  },
+  {
+   "id": "question-tags-4",
+   "type": "choice",
+   "q": "He can swim, ___?",
+   "options": [
+    "can he",
+    "can't he",
+    "isn't he",
+    "doesn't he"
+   ],
+   "answer": 1,
+   "why": "can → can’t."
+  },
+  {
+   "id": "question-tags-5",
+   "type": "choice",
+   "q": "You live here, ___?",
+   "options": [
+    "don't you",
+    "aren't you",
+    "do you",
+    "live you"
+   ],
+   "answer": 0,
+   "why": "Present Simple → don’t you."
+  },
+  {
+   "id": "question-tags-6",
+   "type": "choice",
+   "q": "I am right, ___?",
+   "options": [
+    "amn't I",
+    "aren't I",
+    "isn't I",
+    "don't I"
+   ],
+   "answer": 1,
+   "why": "Виняток: I am → aren’t I?"
+  },
+  {
+   "id": "question-tags-7",
+   "type": "choice",
+   "q": "Let's go, ___?",
+   "options": [
+    "will we",
+    "shall we",
+    "do we",
+    "let we"
+   ],
+   "answer": 1,
+   "why": "Let’s → shall we?"
+  },
+  {
+   "id": "question-tags-8",
+   "type": "choice",
+   "q": "Open the window, ___?",
+   "options": [
+    "will you",
+    "do you",
+    "are you",
+    "shall we"
+   ],
+   "answer": 0,
+   "why": "Наказ → will you?"
+  },
+  {
+   "id": "question-tags-9",
+   "type": "choice",
+   "q": "\"I like pizza.\" — \"___.\"",
+   "options": [
+    "So do I",
+    "So am I",
+    "Neither do I",
+    "Me neither"
+   ],
+   "answer": 0,
+   "why": "Згода зі ствердженням: So do I."
+  },
+  {
+   "id": "question-tags-10",
+   "type": "choice",
+   "q": "\"I don't like fish.\" — \"___.\"",
+   "options": [
+    "So do I",
+    "Neither do I",
+    "Neither don't I",
+    "Me too"
+   ],
+   "answer": 1,
+   "why": "Згода із запереченням: Neither do I."
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "reporting-verbs-1",
+   "type": "choice",
+   "q": "\"I'll pay.\" → He ___ to pay.",
+   "options": [
+    "said",
+    "offered",
+    "denied",
+    "admitted"
+   ],
+   "answer": 1,
+   "why": "offer + to-інфінітив."
+  },
+  {
+   "id": "reporting-verbs-2",
+   "type": "choice",
+   "q": "\"I didn't take it.\" → He ___ taking it.",
+   "options": [
+    "refused",
+    "denied",
+    "promised",
+    "offered"
+   ],
+   "answer": 1,
+   "why": "deny + -ing."
+  },
+  {
+   "id": "reporting-verbs-3",
+   "type": "choice",
+   "q": "\"Don't go alone.\" → She ___ me not to go alone.",
+   "options": [
+    "warned",
+    "suggested",
+    "admitted",
+    "apologised"
+   ],
+   "answer": 0,
+   "why": "warn + особа + not to."
+  },
+  {
+   "id": "reporting-verbs-4",
+   "type": "choice",
+   "q": "\"Sorry I'm late.\" → She apologised ___ late.",
+   "options": [
+    "for being",
+    "to be",
+    "that being",
+    "of being"
+   ],
+   "answer": 0,
+   "why": "apologise for + -ing."
+  },
+  {
+   "id": "reporting-verbs-5",
+   "type": "choice",
+   "q": "\"Why don't we go out?\" → He suggested ___ out.",
+   "options": [
+    "to go",
+    "going",
+    "go",
+    "went"
+   ],
+   "answer": 1,
+   "why": "suggest + -ing."
+  },
+  {
+   "id": "reporting-verbs-6",
+   "type": "choice",
+   "q": "\"You stole the money!\" → He accused her ___ stealing it.",
+   "options": [
+    "for",
+    "of",
+    "from",
+    "about"
+   ],
+   "answer": 1,
+   "why": "accuse sb of + -ing."
+  },
+  {
+   "id": "reporting-verbs-7",
+   "type": "choice",
+   "q": "\"Well done!\" → They congratulated me ___ winning.",
+   "options": [
+    "for",
+    "on",
+    "with",
+    "of"
+   ],
+   "answer": 1,
+   "why": "congratulate sb on + -ing."
+  },
+  {
+   "id": "reporting-verbs-8",
+   "type": "choice",
+   "q": "Which is incorrect?",
+   "options": [
+    "She suggested going.",
+    "She suggested that we go.",
+    "She suggested me to go.",
+    "She suggested we should go."
+   ],
+   "answer": 2,
+   "why": "suggest не вживається зі схемою sb + to-infinitive."
+  },
+  {
+   "id": "reporting-verbs-9",
+   "type": "choice",
+   "q": "\"I promise to call.\" → He ___ to call.",
+   "options": [
+    "promised",
+    "denied",
+    "insisted",
+    "accused"
+   ],
+   "answer": 0,
+   "why": "promise + to-інфінітив."
+  }
+ ]
+}

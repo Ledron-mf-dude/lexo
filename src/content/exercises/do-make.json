@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "do-make-1",
+   "type": "choice",
+   "q": "I have to ___ my homework.",
+   "options": [
+    "do",
+    "make",
+    "take",
+    "have"
+   ],
+   "answer": 0,
+   "why": "do homework."
+  },
+  {
+   "id": "do-make-2",
+   "type": "choice",
+   "q": "She ___ a mistake.",
+   "options": [
+    "did",
+    "made",
+    "took",
+    "had"
+   ],
+   "answer": 1,
+   "why": "make a mistake."
+  },
+  {
+   "id": "do-make-3",
+   "type": "choice",
+   "q": "Could you ___ me a favour?",
+   "options": [
+    "make",
+    "do",
+    "take",
+    "have"
+   ],
+   "answer": 1,
+   "why": "do a favour."
+  },
+  {
+   "id": "do-make-4",
+   "type": "choice",
+   "q": "We need to ___ a plan.",
+   "options": [
+    "do",
+    "make",
+    "take",
+    "be"
+   ],
+   "answer": 1,
+   "why": "make a plan."
+  },
+  {
+   "id": "do-make-5",
+   "type": "choice",
+   "q": "He ___ money in sales.",
+   "options": [
+    "does",
+    "makes",
+    "takes",
+    "gets"
+   ],
+   "answer": 1,
+   "why": "make money."
+  },
+  {
+   "id": "do-make-6",
+   "type": "choice",
+   "q": "___ the dishes, please.",
+   "options": [
+    "Make",
+    "Do",
+    "Take",
+    "Put"
+   ],
+   "answer": 1,
+   "why": "do the dishes."
+  },
+  {
+   "id": "do-make-7",
+   "type": "choice",
+   "q": "She ___ a phone call.",
+   "options": [
+    "did",
+    "made",
+    "took",
+    "put"
+   ],
+   "answer": 1,
+   "why": "make a call."
+  },
+  {
+   "id": "do-make-8",
+   "type": "choice",
+   "q": "It doesn't ___ sense.",
+   "options": [
+    "do",
+    "make",
+    "have",
+    "be"
+   ],
+   "answer": 1,
+   "why": "make sense."
+  },
+  {
+   "id": "do-make-9",
+   "type": "choice",
+   "q": "'What do you do?' — the second 'do' means:",
+   "options": [
+    "work / occupation",
+    "make",
+    "be",
+    "have"
+   ],
+   "answer": 0,
+   "why": "Друге do — професія."
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "already-still-yet-1",
+   "type": "choice",
+   "q": "I've ___ eaten. (earlier than expected)",
+   "options": [
+    "yet",
+    "already",
+    "still",
+    "ever"
+   ],
+   "answer": 1,
+   "why": "already — вже."
+  },
+  {
+   "id": "already-still-yet-2",
+   "type": "choice",
+   "q": "I haven't eaten ___.",
+   "options": [
+    "already",
+    "yet",
+    "ever",
+    "just"
+   ],
+   "answer": 1,
+   "why": "yet у запереченні — ще не."
+  },
+  {
+   "id": "already-still-yet-3",
+   "type": "choice",
+   "q": "She ___ lives in Kyiv. (it continues)",
+   "options": [
+    "still",
+    "yet",
+    "already",
+    "ago"
+   ],
+   "answer": 0,
+   "why": "still — все ще."
+  },
+  {
+   "id": "already-still-yet-4",
+   "type": "choice",
+   "q": "He ___ hasn’t called. (annoyed)",
+   "options": [
+    "still",
+    "yet",
+    "already",
+    "just"
+   ],
+   "answer": 0,
+   "why": "still + заперечення — досі не."
+  },
+  {
+   "id": "already-still-yet-5",
+   "type": "choice",
+   "q": "Position of 'yet':",
+   "options": [
+    "at the end",
+    "before the verb",
+    "at the start",
+    "after 'the'"
+   ],
+   "answer": 0,
+   "why": "yet — зазвичай у кінці."
+  },
+  {
+   "id": "already-still-yet-6",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She still is asleep.",
+    "She is still asleep.",
+    "She asleep is still.",
+    "Still she asleep is."
+   ],
+   "answer": 1,
+   "why": "still — після be."
+  },
+  {
+   "id": "already-still-yet-7",
+   "type": "choice",
+   "q": "'We have yet to decide' means:",
+   "options": [
+    "we haven't decided yet",
+    "we have decided",
+    "we will never decide",
+    "we decided yesterday"
+   ],
+   "answer": 0,
+   "why": "have yet to — ще належить."
+  },
+  {
+   "id": "already-still-yet-8",
+   "type": "choice",
+   "q": "Surprise at how soon: 'Have you finished ___?'",
+   "options": [
+    "already",
+    "yet",
+    "still",
+    "ago"
+   ],
+   "answer": 0,
+   "why": "already у питанні — здивування."
+  }
+ ]
+}

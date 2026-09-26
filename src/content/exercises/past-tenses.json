@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "past-tenses-1",
+   "type": "choice",
+   "q": "When I arrived, the film ___.",
+   "options": [
+    "started",
+    "had started",
+    "was starting",
+    "has started"
+   ],
+   "answer": 1,
+   "why": "Дія, що сталася раніше за іншу минулу, — Past Perfect."
+  },
+  {
+   "id": "past-tenses-2",
+   "type": "choice",
+   "q": "I ___ TV when the phone rang.",
+   "options": [
+    "watched",
+    "was watching",
+    "had watched",
+    "watch"
+   ],
+   "answer": 1,
+   "why": "Дія в процесі, яку перервали, — Past Continuous."
+  },
+  {
+   "id": "past-tenses-3",
+   "type": "fill",
+   "q": "After he had eaten, he ___ (go) to bed.",
+   "answer": [
+    "went"
+   ],
+   "why": "Друга дія в минулому — Past Simple: went."
+  },
+  {
+   "id": "past-tenses-4",
+   "type": "fill",
+   "q": "I ___ (walk) home when I saw an accident.",
+   "answer": [
+    "was walking"
+   ],
+   "why": "Тривала дія, у яку вклинилася подія, — was walking."
+  },
+  {
+   "id": "past-tenses-5",
+   "type": "choice",
+   "q": "___ you ___ the meeting yesterday?",
+   "options": [
+    "Did / attend",
+    "Have / attended",
+    "Were / attend",
+    "Do / attend"
+   ],
+   "answer": 0,
+   "why": "Yesterday + питання: Did + інфінітив."
+  },
+  {
+   "id": "past-tenses-6",
+   "type": "fill",
+   "q": "She didn't ___ (see) him.",
+   "answer": [
+    "see"
+   ],
+   "why": "Після didn’t — початкова форма."
+  },
+  {
+   "id": "past-tenses-7",
+   "type": "choice",
+   "q": "By the time we got there, they ___ home.",
+   "options": [
+    "went",
+    "had gone",
+    "were going",
+    "have gone"
+   ],
+   "answer": 1,
+   "why": "by the time + раніша дія — Past Perfect."
+  },
+  {
+   "id": "past-tenses-8",
+   "type": "fill",
+   "q": "We ___ (be) at the cinema last night.",
+   "answer": [
+    "were"
+   ],
+   "why": "Past Simple від to be для we — were."
+  },
+  {
+   "id": "past-tenses-9",
+   "type": "choice",
+   "q": "When I got home, my sister ___ already ___ dinner.",
+   "options": [
+    "had / cooked",
+    "has / cooked",
+    "was / cooking",
+    "did / cook"
+   ],
+   "answer": 0,
+   "why": "already + раніше за минулий момент — had cooked."
+  },
+  {
+   "id": "past-tenses-10",
+   "type": "order",
+   "words": [
+    "I",
+    "was",
+    "reading",
+    "when",
+    "she",
+    "called"
+   ],
+   "answer": [
+    "I was reading when she called"
+   ],
+   "why": "Процес (Continuous) + подія (Simple)."
+  }
+ ]
+}

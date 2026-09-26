@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "comparatives-superlatives-1",
+   "type": "choice",
+   "q": "She is ___ than me.",
+   "options": [
+    "tall",
+    "taller",
+    "tallest",
+    "more tall"
+   ],
+   "answer": 1,
+   "why": "Порівняльний ступінь: taller."
+  },
+  {
+   "id": "comparatives-superlatives-2",
+   "type": "choice",
+   "q": "He is the ___ in the class.",
+   "options": [
+    "tall",
+    "taller",
+    "tallest",
+    "most tall"
+   ],
+   "answer": 2,
+   "why": "Найвищий ступінь: tallest."
+  },
+  {
+   "id": "comparatives-superlatives-3",
+   "type": "choice",
+   "q": "This book is ___ than that one. (interesting)",
+   "options": [
+    "more interesting",
+    "interestinger",
+    "most interesting",
+    "the interesting"
+   ],
+   "answer": 0,
+   "why": "Довгий прикметник: more + adj."
+  },
+  {
+   "id": "comparatives-superlatives-4",
+   "type": "choice",
+   "q": "The comparative of 'good' is:",
+   "options": [
+    "gooder",
+    "better",
+    "best",
+    "more good"
+   ],
+   "answer": 1,
+   "why": "good – better – best."
+  },
+  {
+   "id": "comparatives-superlatives-5",
+   "type": "choice",
+   "q": "The superlative of 'bad' is:",
+   "options": [
+    "baddest",
+    "worst",
+    "worse",
+    "most bad"
+   ],
+   "answer": 1,
+   "why": "bad – worse – worst."
+  },
+  {
+   "id": "comparatives-superlatives-6",
+   "type": "choice",
+   "q": "The comparative of 'big' is:",
+   "options": [
+    "biger",
+    "bigger",
+    "more big",
+    "bigest"
+   ],
+   "answer": 1,
+   "why": "Подвоюємо приголосну."
+  },
+  {
+   "id": "comparatives-superlatives-7",
+   "type": "choice",
+   "q": "The comparative of 'happy' is:",
+   "options": [
+    "happyer",
+    "happier",
+    "happiest",
+    "hapiier"
+   ],
+   "answer": 1,
+   "why": "-y → -ier."
+  },
+  {
+   "id": "comparatives-superlatives-8",
+   "type": "choice",
+   "q": "It's getting ___. (colder each day)",
+   "options": [
+    "colder and colder",
+    "more cold and more cold",
+    "coldest",
+    "cold and cold"
+   ],
+   "answer": 0,
+   "why": "comparative and comparative."
+  },
+  {
+   "id": "comparatives-superlatives-9",
+   "type": "choice",
+   "q": "She is ___ best student.",
+   "options": [
+    "a",
+    "the",
+    "—",
+    "an"
+   ],
+   "answer": 1,
+   "why": "Найвищий ступінь — the."
+  },
+  {
+   "id": "comparatives-superlatives-10",
+   "type": "choice",
+   "q": "The comparative of 'far' (distance) is:",
+   "options": [
+    "farrer",
+    "further",
+    "more far",
+    "farest"
+   ],
+   "answer": 1,
+   "why": "far – further/farther."
+  }
+ ]
+}

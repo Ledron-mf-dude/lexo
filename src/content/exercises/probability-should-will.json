@@ -1,0 +1,110 @@
+{
+ "questions": [
+  {
+   "id": "probability-should-will-1",
+   "type": "choice",
+   "q": "Tom ___ know the address. (probably true)",
+   "options": [
+    "should",
+    "will definitely",
+    "might not",
+    "can't"
+   ],
+   "answer": 0,
+   "why": "should — ≈ 90%."
+  },
+  {
+   "id": "probability-should-will-2",
+   "type": "choice",
+   "q": "Tom ___ arrive tomorrow. (about 90%)",
+   "options": [
+    "will definitely",
+    "should",
+    "might",
+    "mustn't"
+   ],
+   "answer": 1,
+   "why": "should + інфінітив."
+  },
+  {
+   "id": "probability-should-will-3",
+   "type": "choice",
+   "q": "Tom will ___ arrive tomorrow. (90%)",
+   "options": [
+    "definitely",
+    "probably",
+    "certainly",
+    "surely"
+   ],
+   "answer": 1,
+   "why": "will probably — приблизно 90%."
+  },
+  {
+   "id": "probability-should-will-4",
+   "type": "choice",
+   "q": "Tom will ___ arrive tomorrow. (101%)",
+   "options": [
+    "probably",
+    "definitely",
+    "perhaps",
+    "maybe"
+   ],
+   "answer": 1,
+   "why": "will definitely — найвища впевненість."
+  },
+  {
+   "id": "probability-should-will-5",
+   "type": "choice",
+   "q": "Tom ___ arrive in Spain by now. (past probability)",
+   "options": [
+    "should have",
+    "should",
+    "will have",
+    "would"
+   ],
+   "answer": 0,
+   "why": "should + have + V3."
+  },
+  {
+   "id": "probability-should-will-6",
+   "type": "choice",
+   "q": "Tom should ___ on the phone now. (in progress)",
+   "options": [
+    "speak",
+    "be speaking",
+    "have spoken",
+    "spoke"
+   ],
+   "answer": 1,
+   "why": "should + be + V-ing."
+  },
+  {
+   "id": "probability-should-will-7",
+   "type": "choice",
+   "q": "'You should have called me.' In this sentence 'should have' means:",
+   "options": [
+    "probability only",
+    "criticism (you did not call)",
+    "future",
+    "ability"
+   ],
+   "answer": 1,
+   "why": "Залежно від контексту — докір."
+  },
+  {
+   "id": "probability-should-will-8",
+   "type": "order",
+   "words": [
+    "Tom",
+    "should",
+    "know",
+    "the",
+    "address"
+   ],
+   "answer": [
+    "Tom should know the address"
+   ],
+   "why": "should + інфінітив."
+  }
+ ]
+}

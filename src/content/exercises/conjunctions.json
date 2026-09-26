@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "conjunctions-1",
+   "type": "choice",
+   "q": "I like tea ___ coffee. (both)",
+   "options": [
+    "and",
+    "but",
+    "or",
+    "so"
+   ],
+   "answer": 0,
+   "why": "and — додавання."
+  },
+  {
+   "id": "conjunctions-2",
+   "type": "choice",
+   "q": "I was tired, ___ I went to bed early.",
+   "options": [
+    "because",
+    "so",
+    "but",
+    "or"
+   ],
+   "answer": 1,
+   "why": "so — наслідок."
+  },
+  {
+   "id": "conjunctions-3",
+   "type": "choice",
+   "q": "I stayed home ___ it was raining.",
+   "options": [
+    "so",
+    "because",
+    "but",
+    "or"
+   ],
+   "answer": 1,
+   "why": "because — причина."
+  },
+  {
+   "id": "conjunctions-4",
+   "type": "choice",
+   "q": "Do you want tea ___ coffee?",
+   "options": [
+    "and",
+    "or",
+    "but",
+    "so"
+   ],
+   "answer": 1,
+   "why": "or — вибір."
+  },
+  {
+   "id": "conjunctions-5",
+   "type": "choice",
+   "q": "She is poor, ___ she is happy.",
+   "options": [
+    "and",
+    "so",
+    "but",
+    "because"
+   ],
+   "answer": 2,
+   "why": "but — контраст."
+  },
+  {
+   "id": "conjunctions-6",
+   "type": "choice",
+   "q": "___ Tom nor Anna came.",
+   "options": [
+    "Neither",
+    "Either",
+    "Both",
+    "Not"
+   ],
+   "answer": 0,
+   "why": "neither … nor."
+  },
+  {
+   "id": "conjunctions-7",
+   "type": "choice",
+   "q": "You can have ___ tea or coffee.",
+   "options": [
+    "both",
+    "either",
+    "neither",
+    "and"
+   ],
+   "answer": 1,
+   "why": "either … or."
+  },
+  {
+   "id": "conjunctions-8",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Because I was tired, so I left.",
+    "Because I was tired, I left.",
+    "I was tired because so I left.",
+    "So because I was tired I left."
+   ],
+   "answer": 1,
+   "why": "Не вживаємо because і so разом."
+  }
+ ]
+}

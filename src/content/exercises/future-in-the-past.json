@@ -1,0 +1,107 @@
+{
+ "questions": [
+  {
+   "id": "future-in-the-past-1",
+   "type": "choice",
+   "q": "I ___ call you, but I forgot.",
+   "options": [
+    "was going to",
+    "will",
+    "am going to",
+    "would to"
+   ],
+   "answer": 0,
+   "why": "Намір у минулому — was going to."
+  },
+  {
+   "id": "future-in-the-past-2",
+   "type": "choice",
+   "q": "He said he ___ come later.",
+   "options": [
+    "will",
+    "would",
+    "is going to",
+    "shall"
+   ],
+   "answer": 1,
+   "why": "У непрямій мові will → would."
+  },
+  {
+   "id": "future-in-the-past-3",
+   "type": "choice",
+   "q": "I ___ leave when she arrived.",
+   "options": [
+    "was about to",
+    "am about to",
+    "will be about to",
+    "had about to"
+   ],
+   "answer": 0,
+   "why": "Ось-ось мало статися в минулому — was about to."
+  },
+  {
+   "id": "future-in-the-past-4",
+   "type": "fill",
+   "q": "We ___ going to travel, but it rained.",
+   "answer": [
+    "were"
+   ],
+   "why": "was / were going to: для we — were."
+  },
+  {
+   "id": "future-in-the-past-5",
+   "type": "choice",
+   "q": "In 2010 she moved to Kyiv, where she ___ meet her husband.",
+   "options": [
+    "will",
+    "would",
+    "is going to",
+    "was go"
+   ],
+   "answer": 1,
+   "why": "would — про те, що сталося пізніше, з погляду минулого."
+  },
+  {
+   "id": "future-in-the-past-6",
+   "type": "choice",
+   "q": "\"Are you going to the party?\" → She asked if I ___ to the party.",
+   "options": [
+    "am going",
+    "was going",
+    "will go",
+    "go"
+   ],
+   "answer": 1,
+   "why": "am going to → was going to (зсув часу)."
+  },
+  {
+   "id": "future-in-the-past-7",
+   "type": "choice",
+   "q": "Choose the natural ending: 'We were going to visit them, but ___.'",
+   "options": [
+    "we did",
+    "we changed our minds",
+    "we visited them",
+    "we will visit"
+   ],
+   "answer": 1,
+   "why": "was going to часто означає план, що не здійснився."
+  },
+  {
+   "id": "future-in-the-past-8",
+   "type": "order",
+   "words": [
+    "He",
+    "said",
+    "he",
+    "would",
+    "call",
+    "later"
+   ],
+   "answer": [
+    "He said he would call later"
+   ],
+   "why": "would — майбутнє з погляду минулого."
+  }
+ ]
+}

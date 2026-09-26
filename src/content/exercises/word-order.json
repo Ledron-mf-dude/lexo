@@ -1,0 +1,110 @@
+{
+ "questions": [
+  {
+   "id": "word-order-1",
+   "type": "choice",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "Likes Tom music.",
+    "Tom likes music.",
+    "Music Tom likes.",
+    "Tom music likes."
+   ],
+   "answer": 1,
+   "why": "S + V + O."
+  },
+  {
+   "id": "word-order-2",
+   "type": "choice",
+   "q": "Manner – place – time:",
+   "options": [
+    "We arrived safely at the hotel yesterday.",
+    "We arrived yesterday at the hotel safely.",
+    "We yesterday safely arrived at the hotel.",
+    "Safely we at the hotel arrived yesterday."
+   ],
+   "answer": 0,
+   "why": "Спосіб → місце → час."
+  },
+  {
+   "id": "word-order-3",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "I very like it.",
+    "I like it very much.",
+    "I like very much it.",
+    "I it like very much."
+   ],
+   "answer": 1,
+   "why": "very much — після додатка."
+  },
+  {
+   "id": "word-order-4",
+   "type": "choice",
+   "q": "Question order:",
+   "options": [
+    "Where you are going?",
+    "Where are you going?",
+    "Where going are you?",
+    "You where are going?"
+   ],
+   "answer": 1,
+   "why": "Wh + допоміжне + підмет + V."
+  },
+  {
+   "id": "word-order-5",
+   "type": "choice",
+   "q": "Negative: 'She ___ tennis.'",
+   "options": [
+    "doesn't play",
+    "no plays",
+    "not plays",
+    "plays not"
+   ],
+   "answer": 0,
+   "why": "doesn’t + V."
+  },
+  {
+   "id": "word-order-6",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She gave a book to me.",
+    "She a book gave me.",
+    "She gave book a me.",
+    "Gave she me a book."
+   ],
+   "answer": 0,
+   "why": "gave + що + to + кому."
+  },
+  {
+   "id": "word-order-7",
+   "type": "choice",
+   "q": "Adjective position:",
+   "options": [
+    "a car red",
+    "a red car",
+    "red a car",
+    "a car is red"
+   ],
+   "answer": 1,
+   "why": "Прикметник перед іменником."
+  },
+  {
+   "id": "word-order-8",
+   "type": "order",
+   "words": [
+    "I",
+    "always",
+    "wake",
+    "up",
+    "early"
+   ],
+   "answer": [
+    "I always wake up early"
+   ],
+   "why": "always — перед основним дієсловом."
+  }
+ ]
+}

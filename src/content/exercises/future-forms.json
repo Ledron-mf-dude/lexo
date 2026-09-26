@@ -1,0 +1,133 @@
+{
+ "questions": [
+  {
+   "id": "future-forms-1",
+   "type": "choice",
+   "q": "Look at those clouds! It ___ rain.",
+   "options": [
+    "will",
+    "is going to",
+    "rains",
+    "is raining"
+   ],
+   "answer": 1,
+   "why": "Прогноз за ознаками — be going to."
+  },
+  {
+   "id": "future-forms-2",
+   "type": "choice",
+   "q": "We ___ her tomorrow at 5; we've arranged it.",
+   "options": [
+    "will visit",
+    "are visiting",
+    "visit",
+    "shall visit"
+   ],
+   "answer": 1,
+   "why": "Домовленість — Present Continuous."
+  },
+  {
+   "id": "future-forms-3",
+   "type": "choice",
+   "q": "The train ___ at 9:15 tomorrow.",
+   "options": [
+    "will leave",
+    "leaves",
+    "is going to leave",
+    "leave"
+   ],
+   "answer": 1,
+   "why": "Розклад — Present Simple."
+  },
+  {
+   "id": "future-forms-4",
+   "type": "choice",
+   "q": "\"The phone is ringing.\" — \"I ___ it.\"",
+   "options": [
+    "answer",
+    "will answer",
+    "am answering",
+    "am going to answer"
+   ],
+   "answer": 1,
+   "why": "Рішення «на ходу» — will."
+  },
+  {
+   "id": "future-forms-5",
+   "type": "fill",
+   "q": "I promise I ___ (not / tell) anyone.",
+   "answer": [
+    "won't tell",
+    "will not tell"
+   ],
+   "why": "Обіцянка — will."
+  },
+  {
+   "id": "future-forms-6",
+   "type": "choice",
+   "q": "In June I ___ here for five years.",
+   "options": [
+    "will work",
+    "will have worked",
+    "am working",
+    "work"
+   ],
+   "answer": 1,
+   "why": "Тривалість до майбутнього моменту — Future Perfect."
+  },
+  {
+   "id": "future-forms-7",
+   "type": "fill",
+   "q": "This time tomorrow I ___ (fly) to Rome.",
+   "answer": [
+    "will be flying"
+   ],
+   "why": "Процес у майбутньому — Future Continuous."
+  },
+  {
+   "id": "future-forms-8",
+   "type": "choice",
+   "q": "I ___ visit my grandmother this weekend. I've already decided.",
+   "options": [
+    "will",
+    "am going to",
+    "shall",
+    "would"
+   ],
+   "answer": 1,
+   "why": "Заздалегідь прийняте рішення — be going to."
+  },
+  {
+   "id": "future-forms-9",
+   "type": "choice",
+   "q": "___ we go to the cinema?",
+   "options": [
+    "Will",
+    "Shall",
+    "Do",
+    "Are"
+   ],
+   "answer": 1,
+   "why": "Shall we…? — пропозиція."
+  },
+  {
+   "id": "future-forms-10",
+   "type": "order",
+   "words": [
+    "He",
+    "is",
+    "going",
+    "to",
+    "have",
+    "a",
+    "day",
+    "off",
+    "tomorrow"
+   ],
+   "answer": [
+    "He is going to have a day off tomorrow"
+   ],
+   "why": "Особистий план — be going to."
+  }
+ ]
+}

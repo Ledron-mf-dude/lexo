@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "future-simple-shall-will-1",
+   "type": "choice",
+   "q": "___ I open the window?",
+   "options": [
+    "Will",
+    "Shall",
+    "Do",
+    "Am"
+   ],
+   "answer": 1,
+   "why": "Shall I…? — пропозиція допомогти."
+  },
+  {
+   "id": "future-simple-shall-will-2",
+   "type": "choice",
+   "q": "___ you help me with this bag?",
+   "options": [
+    "Shall",
+    "Will",
+    "Are",
+    "Do"
+   ],
+   "answer": 1,
+   "why": "Will you…? — прохання."
+  },
+  {
+   "id": "future-simple-shall-will-3",
+   "type": "choice",
+   "q": "A suggestion: '___ we dance?'",
+   "options": [
+    "Shall",
+    "Will",
+    "Do",
+    "Are"
+   ],
+   "answer": 0,
+   "why": "Shall we…? — пропозиція зробити щось разом."
+  },
+  {
+   "id": "future-simple-shall-will-4",
+   "type": "choice",
+   "q": "Nowadays, which word is used with all pronouns for the ordinary future?",
+   "options": [
+    "shall",
+    "will",
+    "would",
+    "should"
+   ],
+   "answer": 1,
+   "why": "Сьогодні для звичайного майбутнього вживаємо will з усіма займенниками."
+  },
+  {
+   "id": "future-simple-shall-will-5",
+   "type": "fill",
+   "q": "I ___ (see) him tomorrow.",
+   "answer": [
+    "will see",
+    "'ll see"
+   ],
+   "why": "Просте майбутнє: will + V."
+  },
+  {
+   "id": "future-simple-shall-will-6",
+   "type": "choice",
+   "q": "___ I bring you a cup of tea?",
+   "options": [
+    "Will",
+    "Shall",
+    "Do",
+    "Am"
+   ],
+   "answer": 1,
+   "why": "Shall I…? — пропозиція."
+  },
+  {
+   "id": "future-simple-shall-will-7",
+   "type": "choice",
+   "q": "Which sentence is an offer?",
+   "options": [
+    "Shall I carry your bag?",
+    "Will you carry my bag?",
+    "You will carry my bag.",
+    "I carry your bag."
+   ],
+   "answer": 0,
+   "why": "Shall I + V — пропозиція допомоги."
+  },
+  {
+   "id": "future-simple-shall-will-8",
+   "type": "order",
+   "words": [
+    "Shall",
+    "we",
+    "go",
+    "to",
+    "the",
+    "cinema?"
+   ],
+   "answer": [
+    "Shall we go to the cinema?"
+   ],
+   "why": "Shall we + V — пропозиція."
+  }
+ ]
+}

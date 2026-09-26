@@ -1,0 +1,26 @@
+name: Keep Supabase awake
+
+# A free Supabase project is paused after a week without activity.
+# This job sends one read query to the database every 5 days (longest gap: 5 days, at most 6 across a month boundary).
+on:
+  schedule:
+    - cron: '17 6 */5 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query the database
+        run: |
+          set -euo pipefail
+          # URL and publishable key are public values (they are inside the published site too).
+          url=$(grep '^VITE_SUPABASE_URL=' .env.production | cut -d= -f2-)
+          key=$(grep '^VITE_SUPABASE_PUBLISHABLE_KEY=' .env.production | cut -d= -f2-)
+          code=$(curl -s -o /dev/null -w '%{http_code}' -H "apikey: $key" "$url/rest/v1/words?select=id&limit=1")
+          echo "Supabase responded with HTTP $code"
+          test "$code" = 200

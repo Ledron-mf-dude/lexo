@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "contrast-purpose-reason-result-1",
+   "type": "choice",
+   "q": "___ it was raining, we went out.",
+   "options": [
+    "Because",
+    "Although",
+    "So",
+    "Despite"
+   ],
+   "answer": 1,
+   "why": "although + речення — контраст."
+  },
+  {
+   "id": "contrast-purpose-reason-result-2",
+   "type": "choice",
+   "q": "___ the rain, we went out.",
+   "options": [
+    "Although",
+    "Despite",
+    "Because",
+    "But"
+   ],
+   "answer": 1,
+   "why": "despite + іменник."
+  },
+  {
+   "id": "contrast-purpose-reason-result-3",
+   "type": "choice",
+   "q": "I went to the shop ___ buy milk.",
+   "options": [
+    "to",
+    "for",
+    "that",
+    "so"
+   ],
+   "answer": 0,
+   "why": "Мета: to + V."
+  },
+  {
+   "id": "contrast-purpose-reason-result-4",
+   "type": "choice",
+   "q": "I spoke slowly so ___ he could understand.",
+   "options": [
+    "that",
+    "to",
+    "for",
+    "as"
+   ],
+   "answer": 0,
+   "why": "so that + речення."
+  },
+  {
+   "id": "contrast-purpose-reason-result-5",
+   "type": "choice",
+   "q": "We stayed home ___ the weather.",
+   "options": [
+    "because",
+    "because of",
+    "so",
+    "although"
+   ],
+   "answer": 1,
+   "why": "because of + іменник."
+  },
+  {
+   "id": "contrast-purpose-reason-result-6",
+   "type": "choice",
+   "q": "It was late, ___ we left.",
+   "options": [
+    "because",
+    "so",
+    "although",
+    "despite"
+   ],
+   "answer": 1,
+   "why": "so — наслідок."
+  },
+  {
+   "id": "contrast-purpose-reason-result-7",
+   "type": "choice",
+   "q": "He was ill. ___, he went to work.",
+   "options": [
+    "However",
+    "Therefore",
+    "Because",
+    "So"
+   ],
+   "answer": 0,
+   "why": "However — контраст."
+  },
+  {
+   "id": "contrast-purpose-reason-result-8",
+   "type": "choice",
+   "q": "Tom is tall, ___ his brother is short.",
+   "options": [
+    "whereas",
+    "because",
+    "so that",
+    "despite"
+   ],
+   "answer": 0,
+   "why": "whereas — протиставлення."
+  },
+  {
+   "id": "contrast-purpose-reason-result-9",
+   "type": "choice",
+   "q": "Despite ___ tired, she finished.",
+   "options": [
+    "being",
+    "be",
+    "to be",
+    "she was"
+   ],
+   "answer": 0,
+   "why": "despite + -ing."
+  },
+  {
+   "id": "contrast-purpose-reason-result-10",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Although it rained, but we went.",
+    "Although it rained, we went.",
+    "Despite it rained, we went.",
+    "Although of the rain, we went."
+   ],
+   "answer": 1,
+   "why": "Після although не ставимо but."
+  }
+ ]
+}

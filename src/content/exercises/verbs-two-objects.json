@@ -1,0 +1,102 @@
+{
+ "questions": [
+  {
+   "id": "verbs-two-objects-1",
+   "type": "choice",
+   "q": "She gave ___ a book.",
+   "options": [
+    "I",
+    "me",
+    "my",
+    "mine"
+   ],
+   "answer": 1,
+   "why": "Після дієслова — додаток me."
+  },
+  {
+   "id": "verbs-two-objects-2",
+   "type": "choice",
+   "q": "He sent the letter ___ her.",
+   "options": [
+    "for",
+    "to",
+    "at",
+    "—"
+   ],
+   "answer": 1,
+   "why": "send … to."
+  },
+  {
+   "id": "verbs-two-objects-3",
+   "type": "choice",
+   "q": "She made a cake ___ me.",
+   "options": [
+    "to",
+    "for",
+    "at",
+    "—"
+   ],
+   "answer": 1,
+   "why": "make … for."
+  },
+  {
+   "id": "verbs-two-objects-4",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She explained me the rule.",
+    "She explained the rule to me.",
+    "She explained to the rule me.",
+    "She explained the me rule."
+   ],
+   "answer": 1,
+   "why": "explain — лише зі схемою to."
+  },
+  {
+   "id": "verbs-two-objects-5",
+   "type": "fill",
+   "q": "She bought a gift ___ him. (to / for)",
+   "answer": [
+    "for"
+   ],
+   "why": "buy … for."
+  },
+  {
+   "id": "verbs-two-objects-6",
+   "type": "fill",
+   "q": "He showed his passport ___ the officer. (to / for)",
+   "answer": [
+    "to"
+   ],
+   "why": "show … to."
+  },
+  {
+   "id": "verbs-two-objects-7",
+   "type": "choice",
+   "q": "Someone gave me a book. → I ___ a book.",
+   "options": [
+    "gave",
+    "was given",
+    "am giving",
+    "have give"
+   ],
+   "answer": 1,
+   "why": "Пасив: I was given a book."
+  },
+  {
+   "id": "verbs-two-objects-8",
+   "type": "order",
+   "words": [
+    "She",
+    "told",
+    "me",
+    "a",
+    "story"
+   ],
+   "answer": [
+    "She told me a story"
+   ],
+   "why": "tell + кому + що."
+  }
+ ]
+}

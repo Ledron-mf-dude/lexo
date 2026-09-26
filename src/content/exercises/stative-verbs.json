@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "stative-verbs-1",
+   "type": "choice",
+   "q": "I ___ the answer.",
+   "options": [
+    "am knowing",
+    "know",
+    "knowing",
+    "knowed"
+   ],
+   "answer": 1,
+   "why": "know — стан, не Continuous."
+  },
+  {
+   "id": "stative-verbs-2",
+   "type": "choice",
+   "q": "She ___ a car. (owns)",
+   "options": [
+    "is having",
+    "has",
+    "is have",
+    "having"
+   ],
+   "answer": 1,
+   "why": "have = мати — стан."
+  },
+  {
+   "id": "stative-verbs-3",
+   "type": "choice",
+   "q": "She ___ lunch now. (eating)",
+   "options": [
+    "has",
+    "is having",
+    "have",
+    "having"
+   ],
+   "answer": 1,
+   "why": "have lunch — дія, Continuous можливий."
+  },
+  {
+   "id": "stative-verbs-4",
+   "type": "choice",
+   "q": "I ___ it is a good idea. (opinion)",
+   "options": [
+    "am thinking",
+    "think",
+    "thinking",
+    "thought"
+   ],
+   "answer": 1,
+   "why": "think = вважати — стан."
+  },
+  {
+   "id": "stative-verbs-5",
+   "type": "choice",
+   "q": "I ___ about my holiday. (process)",
+   "options": [
+    "think",
+    "am thinking",
+    "thinks",
+    "thought"
+   ],
+   "answer": 1,
+   "why": "think = міркувати — дія."
+  },
+  {
+   "id": "stative-verbs-6",
+   "type": "choice",
+   "q": "The soup ___ great.",
+   "options": [
+    "is tasting",
+    "tastes",
+    "tasting",
+    "taste"
+   ],
+   "answer": 1,
+   "why": "taste (на смак) — стан."
+  },
+  {
+   "id": "stative-verbs-7",
+   "type": "choice",
+   "q": "He ___ silly today. (behaving)",
+   "options": [
+    "is",
+    "is being",
+    "being",
+    "be"
+   ],
+   "answer": 1,
+   "why": "be being — поводиться."
+  },
+  {
+   "id": "stative-verbs-8",
+   "type": "choice",
+   "q": "Which verb is stative?",
+   "options": [
+    "run",
+    "love",
+    "write",
+    "swim"
+   ],
+   "answer": 1,
+   "why": "love — почуття, стан."
+  },
+  {
+   "id": "stative-verbs-9",
+   "type": "choice",
+   "q": "I ___ what you mean. (understand)",
+   "options": [
+    "am seeing",
+    "see",
+    "seeing",
+    "sees"
+   ],
+   "answer": 1,
+   "why": "see = розуміти — стан."
+  }
+ ]
+}

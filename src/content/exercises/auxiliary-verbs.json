@@ -1,0 +1,118 @@
+{
+ "questions": [
+  {
+   "id": "auxiliary-verbs-1",
+   "type": "choice",
+   "q": "___ she like tea?",
+   "options": [
+    "Is",
+    "Does",
+    "Do",
+    "Has"
+   ],
+   "answer": 1,
+   "why": "Present Simple, she → Does."
+  },
+  {
+   "id": "auxiliary-verbs-2",
+   "type": "choice",
+   "q": "I ___ like this film! (emphasis)",
+   "options": [
+    "do",
+    "does",
+    "am",
+    "have"
+   ],
+   "answer": 0,
+   "why": "Емфаза: do + інфінітив."
+  },
+  {
+   "id": "auxiliary-verbs-3",
+   "type": "choice",
+   "q": "He works harder than I ___.",
+   "options": [
+    "am",
+    "do",
+    "does",
+    "have"
+   ],
+   "answer": 1,
+   "why": "do замінює повтор дієслова works."
+  },
+  {
+   "id": "auxiliary-verbs-4",
+   "type": "choice",
+   "q": "___ you seen my keys?",
+   "options": [
+    "Do",
+    "Are",
+    "Have",
+    "Did"
+   ],
+   "answer": 2,
+   "why": "have — допоміжне Present Perfect."
+  },
+  {
+   "id": "auxiliary-verbs-5",
+   "type": "choice",
+   "q": "The house ___ built in 1990.",
+   "options": [
+    "did",
+    "was",
+    "had",
+    "does"
+   ],
+   "answer": 1,
+   "why": "be — допоміжне пасиву."
+  },
+  {
+   "id": "auxiliary-verbs-6",
+   "type": "choice",
+   "q": "I ___ have a car. (main verb, negative)",
+   "options": [
+    "haven't",
+    "don't",
+    "am not",
+    "doesn't"
+   ],
+   "answer": 1,
+   "why": "З have як основним дієсловом заперечення — don’t have."
+  },
+  {
+   "id": "auxiliary-verbs-7",
+   "type": "choice",
+   "q": "\"Do you have lunch at 12?\" — \"Yes, I ___.\"",
+   "options": [
+    "have",
+    "do",
+    "am",
+    "did"
+   ],
+   "answer": 1,
+   "why": "Коротка відповідь повторює допоміжне: Yes, I do."
+  },
+  {
+   "id": "auxiliary-verbs-8",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Did you went?",
+    "Did you go?",
+    "Do you went?",
+    "Did you goes?"
+   ],
+   "answer": 1,
+   "why": "Після did — початкова форма."
+  },
+  {
+   "id": "auxiliary-verbs-9",
+   "type": "fill",
+   "q": "She ___ (not / work) yesterday.",
+   "answer": [
+    "didn't work",
+    "did not work"
+   ],
+   "why": "Past Simple: didn’t + V."
+  }
+ ]
+}

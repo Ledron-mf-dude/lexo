@@ -1,0 +1,136 @@
+{
+ "questions": [
+  {
+   "id": "questions-1",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Where you live?",
+    "Where do you live?",
+    "Where you do live?",
+    "Where does you live?"
+   ],
+   "answer": 1,
+   "why": "Питальне слово + do + підмет + V."
+  },
+  {
+   "id": "questions-2",
+   "type": "choice",
+   "q": "___ she work here?",
+   "options": [
+    "Do",
+    "Does",
+    "Is",
+    "Has"
+   ],
+   "answer": 1,
+   "why": "she → Does."
+  },
+  {
+   "id": "questions-3",
+   "type": "choice",
+   "q": "What time ___ the film start?",
+   "options": [
+    "do",
+    "does",
+    "is",
+    "are"
+   ],
+   "answer": 1,
+   "why": "the film → does."
+  },
+  {
+   "id": "questions-4",
+   "type": "choice",
+   "q": "\"Do you like tea?\" — \"No, I ___.\"",
+   "options": [
+    "don't",
+    "doesn't",
+    "am not",
+    "not"
+   ],
+   "answer": 0,
+   "why": "Коротка відповідь: No, I don’t."
+  },
+  {
+   "id": "questions-5",
+   "type": "choice",
+   "q": "___ people came to the party?",
+   "options": [
+    "How much",
+    "How many",
+    "How long",
+    "How often"
+   ],
+   "answer": 1,
+   "why": "people — лічильне."
+  },
+  {
+   "id": "questions-6",
+   "type": "choice",
+   "q": "___ is your birthday? — On 5 May.",
+   "options": [
+    "What",
+    "When",
+    "Where",
+    "Who"
+   ],
+   "answer": 1,
+   "why": "When — коли."
+  },
+  {
+   "id": "questions-7",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Did you went?",
+    "Did you go?",
+    "Do you went?",
+    "Did you goed?"
+   ],
+   "answer": 1,
+   "why": "Після did — початкова форма."
+  },
+  {
+   "id": "questions-8",
+   "type": "choice",
+   "q": "___ do you go to the gym? — Twice a week.",
+   "options": [
+    "How long",
+    "How often",
+    "How much",
+    "How far"
+   ],
+   "answer": 1,
+   "why": "How often — як часто."
+  },
+  {
+   "id": "questions-9",
+   "type": "choice",
+   "q": "___ bag is this?",
+   "options": [
+    "Who",
+    "Whose",
+    "Which",
+    "What"
+   ],
+   "answer": 1,
+   "why": "Whose — чий."
+  },
+  {
+   "id": "questions-10",
+   "type": "order",
+   "words": [
+    "What",
+    "are",
+    "you",
+    "doing",
+    "now?"
+   ],
+   "answer": [
+    "What are you doing now?"
+   ],
+   "why": "Wh-слово + допоміжне + підмет + V-ing."
+  }
+ ]
+}

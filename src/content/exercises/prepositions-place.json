@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "prepositions-place-1",
+   "type": "choice",
+   "q": "The book is ___ the table.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "to"
+   ],
+   "answer": 1,
+   "why": "on — на поверхні."
+  },
+  {
+   "id": "prepositions-place-2",
+   "type": "choice",
+   "q": "She lives ___ Paris.",
+   "options": [
+    "at",
+    "on",
+    "in",
+    "to"
+   ],
+   "answer": 2,
+   "why": "in + місто."
+  },
+  {
+   "id": "prepositions-place-3",
+   "type": "choice",
+   "q": "I'll meet you ___ the bus stop.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "to"
+   ],
+   "answer": 1,
+   "why": "at — точка."
+  },
+  {
+   "id": "prepositions-place-4",
+   "type": "choice",
+   "q": "The bank is ___ the café and the shop. (both sides)",
+   "options": [
+    "between",
+    "among",
+    "behind",
+    "over"
+   ],
+   "answer": 0,
+   "why": "between — між двома."
+  },
+  {
+   "id": "prepositions-place-5",
+   "type": "choice",
+   "q": "The picture is ___ the sofa. (higher, not touching)",
+   "options": [
+    "above",
+    "at",
+    "in",
+    "into"
+   ],
+   "answer": 0,
+   "why": "above — вище."
+  },
+  {
+   "id": "prepositions-place-6",
+   "type": "choice",
+   "q": "The cat is ___ the chair.",
+   "options": [
+    "under",
+    "between",
+    "into",
+    "at"
+   ],
+   "answer": 0,
+   "why": "under — під."
+  },
+  {
+   "id": "prepositions-place-7",
+   "type": "choice",
+   "q": "We were ___ the bus.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "to"
+   ],
+   "answer": 0,
+   "why": "on the bus / train / plane."
+  },
+  {
+   "id": "prepositions-place-8",
+   "type": "choice",
+   "q": "She sat ___ me. (on the other side, facing)",
+   "options": [
+    "opposite",
+    "next",
+    "between",
+    "at"
+   ],
+   "answer": 0,
+   "why": "opposite — навпроти."
+  },
+  {
+   "id": "prepositions-place-9",
+   "type": "choice",
+   "q": "He works ___ home today.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "to"
+   ],
+   "answer": 1,
+   "why": "at home."
+  }
+ ]
+}

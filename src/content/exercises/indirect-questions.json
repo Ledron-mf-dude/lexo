@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "indirect-questions-1",
+   "type": "choice",
+   "q": "Could you tell me where ___?",
+   "options": [
+    "is the station",
+    "the station is",
+    "does the station is",
+    "the station does"
+   ],
+   "answer": 1,
+   "why": "У непрямому питанні прямий порядок слів."
+  },
+  {
+   "id": "indirect-questions-2",
+   "type": "choice",
+   "q": "Do you know what time ___?",
+   "options": [
+    "does it start",
+    "it starts",
+    "it start",
+    "starts it"
+   ],
+   "answer": 1,
+   "why": "Без do/does у вбудованій частині."
+  },
+  {
+   "id": "indirect-questions-3",
+   "type": "choice",
+   "q": "I wonder ___ she is at home.",
+   "options": [
+    "that",
+    "if",
+    "what",
+    "which"
+   ],
+   "answer": 1,
+   "why": "Питання «так/ні» → if."
+  },
+  {
+   "id": "indirect-questions-4",
+   "type": "choice",
+   "q": "I don't know why ___.",
+   "options": [
+    "he left",
+    "did he leave",
+    "he did leave",
+    "left he"
+   ],
+   "answer": 0,
+   "why": "Прямий порядок слів."
+  },
+  {
+   "id": "indirect-questions-5",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Can you tell me how much does it cost?",
+    "Can you tell me how much it costs?",
+    "Can you tell me how much it cost?",
+    "Can you tell me how it costs much?"
+   ],
+   "answer": 1,
+   "why": "Без допоміжного do."
+  },
+  {
+   "id": "indirect-questions-6",
+   "type": "choice",
+   "q": "Do you know whether ___?",
+   "options": [
+    "she called",
+    "did she call",
+    "she does call",
+    "called she"
+   ],
+   "answer": 0,
+   "why": "whether + прямий порядок слів."
+  },
+  {
+   "id": "indirect-questions-7",
+   "type": "choice",
+   "q": "Punctuation: 'I wonder where he is__'",
+   "options": [
+    "?",
+    ".",
+    "!",
+    ","
+   ],
+   "answer": 1,
+   "why": "Головне речення — розповідне: крапка."
+  },
+  {
+   "id": "indirect-questions-8",
+   "type": "choice",
+   "q": "Punctuation: 'Could you tell me where he is__'",
+   "options": [
+    ".",
+    "?",
+    "!",
+    ";"
+   ],
+   "answer": 1,
+   "why": "Головне речення — питання."
+  }
+ ]
+}

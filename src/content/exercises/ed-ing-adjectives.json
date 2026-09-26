@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "ed-ing-adjectives-1",
+   "type": "choice",
+   "q": "The film was ___.",
+   "options": [
+    "bored",
+    "boring",
+    "bore",
+    "bores"
+   ],
+   "answer": 1,
+   "why": "-ing — те, що викликає почуття."
+  },
+  {
+   "id": "ed-ing-adjectives-2",
+   "type": "choice",
+   "q": "I am ___ in this lesson.",
+   "options": [
+    "bored",
+    "boring",
+    "bore",
+    "bores"
+   ],
+   "answer": 0,
+   "why": "-ed — те, що я відчуваю."
+  },
+  {
+   "id": "ed-ing-adjectives-3",
+   "type": "choice",
+   "q": "The news was ___. (it surprised me)",
+   "options": [
+    "surprised",
+    "surprising",
+    "surprise",
+    "surprises"
+   ],
+   "answer": 1,
+   "why": "Новина викликає — surprising."
+  },
+  {
+   "id": "ed-ing-adjectives-4",
+   "type": "choice",
+   "q": "She was ___ by the news.",
+   "options": [
+    "surprised",
+    "surprising",
+    "surprise",
+    "surprises"
+   ],
+   "answer": 0,
+   "why": "Вона відчуває — surprised."
+  },
+  {
+   "id": "ed-ing-adjectives-5",
+   "type": "choice",
+   "q": "The instructions are ___. (hard to understand)",
+   "options": [
+    "confused",
+    "confusing",
+    "confuse",
+    "confusion"
+   ],
+   "answer": 1,
+   "why": "confusing."
+  },
+  {
+   "id": "ed-ing-adjectives-6",
+   "type": "choice",
+   "q": "He's ___ because of the instructions.",
+   "options": [
+    "confused",
+    "confusing",
+    "confuse",
+    "confusion"
+   ],
+   "answer": 0,
+   "why": "confused."
+  },
+  {
+   "id": "ed-ing-adjectives-7",
+   "type": "choice",
+   "q": "The journey was ___. (it made us tired)",
+   "options": [
+    "tired",
+    "tiring",
+    "tire",
+    "tires"
+   ],
+   "answer": 1,
+   "why": "tiring."
+  },
+  {
+   "id": "ed-ing-adjectives-8",
+   "type": "choice",
+   "q": "I'm ___ in art.",
+   "options": [
+    "interested",
+    "interesting",
+    "interest",
+    "interests"
+   ],
+   "answer": 0,
+   "why": "interested in."
+  },
+  {
+   "id": "ed-ing-adjectives-9",
+   "type": "choice",
+   "q": "He is ___. (he makes others bored)",
+   "options": [
+    "bored",
+    "boring",
+    "bore",
+    "bores"
+   ],
+   "answer": 1,
+   "why": "boring — викликає нудьгу."
+  },
+  {
+   "id": "ed-ing-adjectives-10",
+   "type": "choice",
+   "q": "She felt ___ about the delay.",
+   "options": [
+    "annoying",
+    "annoyed",
+    "annoy",
+    "annoyance"
+   ],
+   "answer": 1,
+   "why": "annoyed — роздратована."
+  }
+ ]
+}

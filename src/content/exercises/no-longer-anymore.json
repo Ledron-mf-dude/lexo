@@ -1,0 +1,95 @@
+{
+ "questions": [
+  {
+   "id": "no-longer-anymore-1",
+   "type": "choice",
+   "q": "She ___ works here. (not any more)",
+   "options": [
+    "no longer",
+    "not longer",
+    "no more",
+    "any longer"
+   ],
+   "answer": 0,
+   "why": "no longer — більше не."
+  },
+  {
+   "id": "no-longer-anymore-2",
+   "type": "choice",
+   "q": "I don't need it ___.",
+   "options": [
+    "any more",
+    "no longer",
+    "no more",
+    "not longer"
+   ],
+   "answer": 0,
+   "why": "not … any more."
+  },
+  {
+   "id": "no-longer-anymore-3",
+   "type": "choice",
+   "q": "He ___ my friend.",
+   "options": [
+    "is no longer",
+    "no longer is",
+    "is not longer",
+    "no longer be"
+   ],
+   "answer": 0,
+   "why": "no longer — після be."
+  },
+  {
+   "id": "no-longer-anymore-4",
+   "type": "choice",
+   "q": "I can't wait ___.",
+   "options": [
+    "any longer",
+    "no longer",
+    "no more",
+    "not longer"
+   ],
+   "answer": 0,
+   "why": "not … any longer."
+  },
+  {
+   "id": "no-longer-anymore-5",
+   "type": "choice",
+   "q": "There's ___ milk. (nothing left)",
+   "options": [
+    "no longer",
+    "no more",
+    "any longer",
+    "anymore"
+   ],
+   "answer": 1,
+   "why": "no more + іменник."
+  },
+  {
+   "id": "no-longer-anymore-6",
+   "type": "choice",
+   "q": "The opposite of 'still' is:",
+   "options": [
+    "no longer",
+    "yet",
+    "already",
+    "ago"
+   ],
+   "answer": 0,
+   "why": "no longer."
+  },
+  {
+   "id": "no-longer-anymore-7",
+   "type": "choice",
+   "q": "Position of 'no longer':",
+   "options": [
+    "before the main verb / after be",
+    "at the end",
+    "at the start of any sentence",
+    "after the object"
+   ],
+   "answer": 0,
+   "why": "Середня позиція."
+  }
+ ]
+}

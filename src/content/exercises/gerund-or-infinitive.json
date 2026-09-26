@@ -1,0 +1,128 @@
+{
+ "questions": [
+  {
+   "id": "gerund-or-infinitive-1",
+   "type": "choice",
+   "q": "She decided ___ a new job.",
+   "options": [
+    "looking for",
+    "to look for",
+    "look for",
+    "looked for"
+   ],
+   "answer": 1,
+   "why": "Після decide — інфінітив із to."
+  },
+  {
+   "id": "gerund-or-infinitive-2",
+   "type": "choice",
+   "q": "He refused ___ me.",
+   "options": [
+    "helping",
+    "to help",
+    "help",
+    "helped"
+   ],
+   "answer": 1,
+   "why": "Після refuse — інфінітив із to."
+  },
+  {
+   "id": "gerund-or-infinitive-3",
+   "type": "choice",
+   "q": "I remember ___ the door — I'm sure it was locked.",
+   "options": [
+    "locking",
+    "to lock",
+    "lock",
+    "to locking"
+   ],
+   "answer": 0,
+   "why": "remember + -ing = пам’ятаю, що зробив (минуле)."
+  },
+  {
+   "id": "gerund-or-infinitive-4",
+   "type": "choice",
+   "q": "Remember ___ the door when you leave.",
+   "options": [
+    "locking",
+    "to lock",
+    "lock",
+    "locked"
+   ],
+   "answer": 1,
+   "why": "remember + to = не забудь зробити."
+  },
+  {
+   "id": "gerund-or-infinitive-5",
+   "type": "fill",
+   "q": "He stopped ___ (smoke) last year.",
+   "answer": [
+    "smoking"
+   ],
+   "why": "stop + -ing = припинив робити (кинув)."
+  },
+  {
+   "id": "gerund-or-infinitive-6",
+   "type": "choice",
+   "q": "We stopped ___ a coffee.",
+   "options": [
+    "to have",
+    "having",
+    "have",
+    "had"
+   ],
+   "answer": 0,
+   "why": "stop + to = зупинилися, щоб зробити."
+  },
+  {
+   "id": "gerund-or-infinitive-7",
+   "type": "fill",
+   "q": "She told me ___ (wait) outside.",
+   "answer": [
+    "to wait"
+   ],
+   "why": "tell + особа + to-інфінітив."
+  },
+  {
+   "id": "gerund-or-infinitive-8",
+   "type": "choice",
+   "q": "They made us ___ for an hour.",
+   "options": [
+    "to wait",
+    "waiting",
+    "wait",
+    "waited"
+   ],
+   "answer": 2,
+   "why": "Після make + особа — інфінітив без to."
+  },
+  {
+   "id": "gerund-or-infinitive-9",
+   "type": "choice",
+   "q": "I regret ___ you that the flight is cancelled.",
+   "options": [
+    "telling",
+    "to tell",
+    "tell",
+    "told"
+   ],
+   "answer": 1,
+   "why": "regret + to = з жалем повідомляю (щойно)."
+  },
+  {
+   "id": "gerund-or-infinitive-10",
+   "type": "order",
+   "words": [
+    "He",
+    "forgot",
+    "to",
+    "call",
+    "her"
+   ],
+   "answer": [
+    "He forgot to call her"
+   ],
+   "why": "forget + to = забув зробити."
+  }
+ ]
+}

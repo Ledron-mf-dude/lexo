@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "quantifiers-1",
+   "type": "choice",
+   "q": "How ___ people were there?",
+   "options": [
+    "much",
+    "many",
+    "a lot",
+    "few"
+   ],
+   "answer": 1,
+   "why": "people — лічильне: How many."
+  },
+  {
+   "id": "quantifiers-2",
+   "type": "choice",
+   "q": "I have ___ time. (almost none)",
+   "options": [
+    "few",
+    "little",
+    "a few",
+    "many"
+   ],
+   "answer": 1,
+   "why": "little — майже немає (нелічильне)."
+  },
+  {
+   "id": "quantifiers-3",
+   "type": "choice",
+   "q": "I have ___ friends here. (some, enough)",
+   "options": [
+    "few",
+    "a few",
+    "little",
+    "much"
+   ],
+   "answer": 1,
+   "why": "a few — кілька, достатньо."
+  },
+  {
+   "id": "quantifiers-4",
+   "type": "choice",
+   "q": "There isn't ___ sugar.",
+   "options": [
+    "some",
+    "any",
+    "many",
+    "a few"
+   ],
+   "answer": 1,
+   "why": "У запереченні — any."
+  },
+  {
+   "id": "quantifiers-5",
+   "type": "choice",
+   "q": "It's ___ hot to go out.",
+   "options": [
+    "enough",
+    "too",
+    "many",
+    "very much"
+   ],
+   "answer": 1,
+   "why": "too + прикметник — надто."
+  },
+  {
+   "id": "quantifiers-6",
+   "type": "choice",
+   "q": "She isn't old ___ to drive.",
+   "options": [
+    "too",
+    "enough",
+    "much",
+    "many"
+   ],
+   "answer": 1,
+   "why": "Прикметник + enough."
+  },
+  {
+   "id": "quantifiers-7",
+   "type": "choice",
+   "q": "___ answers are correct. (there are two answers)",
+   "options": [
+    "All",
+    "Both",
+    "Either",
+    "Neither"
+   ],
+   "answer": 1,
+   "why": "both — обидва."
+  },
+  {
+   "id": "quantifiers-8",
+   "type": "choice",
+   "q": "___ of them is here. (not one of the two)",
+   "options": [
+    "Neither",
+    "Both",
+    "All",
+    "None"
+   ],
+   "answer": 0,
+   "why": "neither — жоден із двох."
+  },
+  {
+   "id": "quantifiers-9",
+   "type": "choice",
+   "q": "You can take ___ road. (any one of the two)",
+   "options": [
+    "either",
+    "neither",
+    "both",
+    "none"
+   ],
+   "answer": 0,
+   "why": "either — будь-яка з двох."
+  },
+  {
+   "id": "quantifiers-10",
+   "type": "choice",
+   "q": "I have ___ work to do.",
+   "options": [
+    "a lot of",
+    "many",
+    "few",
+    "a few"
+   ],
+   "answer": 0,
+   "why": "work — нелічильне: a lot of."
+  }
+ ]
+}

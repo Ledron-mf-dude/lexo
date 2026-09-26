@@ -1,0 +1,50 @@
+---
+title: So, such, such a, so much, so many
+category: Прикметники та прислівники
+levels: [B1, B1+]
+tags: [so, such, such a, so much, so many, so that, so … that, такий, настільки]
+---
+
+`So` і `such` підсилюють, «такий, настільки». Вибір залежить від того, що йде далі.
+
+## Таблиця
+
+| Слово | Що далі | Приклад |
+| --- | --- | --- |
+| **so** | прикметник / прислівник | She is **so** tall. / He runs **so** fast. |
+| **such a / an** | (прикметник) + **однина лічильна** | It was **such a** nice day. |
+| **such** | (прикметник) + **множина / нелічильне** | She has **such** nice friends. / It's **such** good news. |
+| **so much** | нелічильне | I have **so much** work. |
+| **so many** | лічильне (множина) | There are **so many** people. |
+
+## So
+
+- *The film was **so** boring.* / *Don't walk **so** fast.*
+- Не *so a nice day* — а **such a nice day**.
+
+## Such
+
+- *He is **such** a good teacher.* (`a` після such)
+- *They are **such** kind people.*
+
+## Результат: so … that, such … that
+
+- *It was **so** cold **that** we stayed home.*
+- *It was **such** a cold day **that** we stayed home.*
+- *He was **so** tired **that** he fell asleep.*
+
+## So much / so many
+
+- *I have **so much** homework!* (нелічильне)
+- *There are **so many** cars here.* (лічильне)
+- *I like it **so much**.* (прислівник)
+
+## So та such: швидка перевірка
+
+1. Після слова — **прикметник / прислівник без іменника** → **so**.
+2. Після слова — **іменник (з прикметником чи без)** → **such**.
+3. Однина лічильна → **such a**.
+
+Порівняйте: *so + adj*: *so nice* → *such a nice day*.
+
+Див. також «Contrast, purpose, reason, result».

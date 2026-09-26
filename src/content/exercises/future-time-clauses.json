@@ -1,0 +1,117 @@
+{
+ "questions": [
+  {
+   "id": "future-time-clauses-1",
+   "type": "choice",
+   "q": "I'll call you when I ___ home.",
+   "options": [
+    "will get",
+    "get",
+    "would get",
+    "am getting"
+   ],
+   "answer": 1,
+   "why": "Після when — Present Simple."
+  },
+  {
+   "id": "future-time-clauses-2",
+   "type": "choice",
+   "q": "As soon as she ___, we'll start.",
+   "options": [
+    "will come",
+    "comes",
+    "would come",
+    "come"
+   ],
+   "answer": 1,
+   "why": "as soon as + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-3",
+   "type": "choice",
+   "q": "I'll wait until you ___.",
+   "options": [
+    "will finish",
+    "finish",
+    "finished",
+    "would finish"
+   ],
+   "answer": 1,
+   "why": "until + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-4",
+   "type": "choice",
+   "q": "I'll go out after I ___ my homework. (completion emphasised)",
+   "options": [
+    "will do",
+    "have done",
+    "would do",
+    "did"
+   ],
+   "answer": 1,
+   "why": "Present Perfect підкреслює завершення."
+  },
+  {
+   "id": "future-time-clauses-5",
+   "type": "choice",
+   "q": "While you ___, I'll cook dinner.",
+   "options": [
+    "will sleep",
+    "are sleeping",
+    "would sleep",
+    "slept"
+   ],
+   "answer": 1,
+   "why": "while + Present Continuous."
+  },
+  {
+   "id": "future-time-clauses-6",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "When I will arrive, I’ll call.",
+    "When I arrive, I’ll call.",
+    "When I arrived, I’ll call.",
+    "When I would arrive, I’ll call."
+   ],
+   "answer": 1,
+   "why": "Без will після when."
+  },
+  {
+   "id": "future-time-clauses-7",
+   "type": "choice",
+   "q": "'If' is used when the event is:",
+   "options": [
+    "uncertain",
+    "certain",
+    "past",
+    "finished"
+   ],
+   "answer": 0,
+   "why": "if — невпевненість."
+  },
+  {
+   "id": "future-time-clauses-8",
+   "type": "choice",
+   "q": "'When' is used when the event is:",
+   "options": [
+    "expected to happen",
+    "impossible",
+    "uncertain",
+    "past only"
+   ],
+   "answer": 0,
+   "why": "when — ми очікуємо, що станеться."
+  },
+  {
+   "id": "future-time-clauses-9",
+   "type": "fill",
+   "q": "I'll tell you the moment she ___ (arrive).",
+   "answer": [
+    "arrives"
+   ],
+   "why": "Після the moment — Present Simple."
+  }
+ ]
+}

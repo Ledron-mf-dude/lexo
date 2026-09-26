@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "participle-clauses-1",
+   "type": "choice",
+   "q": "___ home, I met Tom. (while I was walking)",
+   "options": [
+    "Walking",
+    "Walked",
+    "To walk",
+    "Walks"
+   ],
+   "answer": 0,
+   "why": "Present participle."
+  },
+  {
+   "id": "participle-clauses-2",
+   "type": "choice",
+   "q": "___ work, she left. (after she had finished)",
+   "options": [
+    "Having finished",
+    "Finishing",
+    "Finished",
+    "To finish"
+   ],
+   "answer": 0,
+   "why": "Perfect participle: having + V3."
+  },
+  {
+   "id": "participle-clauses-3",
+   "type": "choice",
+   "q": "___ in 1900, the house is old. (which was built)",
+   "options": [
+    "Building",
+    "Built",
+    "Having build",
+    "To build"
+   ],
+   "answer": 1,
+   "why": "Past participle — пасив."
+  },
+  {
+   "id": "participle-clauses-4",
+   "type": "choice",
+   "q": "Which is a dangling participle (wrong)?",
+   "options": [
+    "Walking home, it started to rain.",
+    "Walking home, I met Tom.",
+    "Tired, he slept.",
+    "Having eaten, we left."
+   ],
+   "answer": 0,
+   "why": "Дощ не «йшов додому» — різні підмети."
+  },
+  {
+   "id": "participle-clauses-5",
+   "type": "choice",
+   "q": "The man ___ there is my uncle. (who is standing)",
+   "options": [
+    "standing",
+    "stood",
+    "stand",
+    "to stand"
+   ],
+   "answer": 0,
+   "why": "Скорочене означальне: standing."
+  },
+  {
+   "id": "participle-clauses-6",
+   "type": "choice",
+   "q": "The letter ___ by Tom is on the desk. (which was written)",
+   "options": [
+    "writing",
+    "written",
+    "wrote",
+    "write"
+   ],
+   "answer": 1,
+   "why": "written by Tom."
+  },
+  {
+   "id": "participle-clauses-7",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "After finishing work, she left.",
+    "After finish work, she left.",
+    "After to finish work, she left.",
+    "After finished work, she left."
+   ],
+   "answer": 0,
+   "why": "Після сполучника — -ing."
+  },
+  {
+   "id": "participle-clauses-8",
+   "type": "choice",
+   "q": "'Having been warned, he left' means:",
+   "options": [
+    "he was warned before he left",
+    "he warned someone",
+    "he will be warned",
+    "he left before being warned"
+   ],
+   "answer": 0,
+   "why": "having been + V3 — раніше."
+  },
+  {
+   "id": "participle-clauses-9",
+   "type": "choice",
+   "q": "Participle clauses are most common in:",
+   "options": [
+    "writing",
+    "everyday chat only",
+    "songs only",
+    "questions only"
+   ],
+   "answer": 0,
+   "why": "Переважно письмова мова."
+  }
+ ]
+}

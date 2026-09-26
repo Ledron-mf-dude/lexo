@@ -1,0 +1,134 @@
+{
+ "questions": [
+  {
+   "id": "during-for-while-since-1",
+   "type": "choice",
+   "q": "I've lived here ___ ten years.",
+   "options": [
+    "since",
+    "for",
+    "during",
+    "while"
+   ],
+   "answer": 1,
+   "why": "for + тривалість."
+  },
+  {
+   "id": "during-for-while-since-2",
+   "type": "choice",
+   "q": "I've lived here ___ 2015.",
+   "options": [
+    "for",
+    "since",
+    "during",
+    "while"
+   ],
+   "answer": 1,
+   "why": "since + момент початку."
+  },
+  {
+   "id": "during-for-while-since-3",
+   "type": "choice",
+   "q": "I fell asleep ___ the film.",
+   "options": [
+    "while",
+    "during",
+    "for",
+    "since"
+   ],
+   "answer": 1,
+   "why": "during + іменник."
+  },
+  {
+   "id": "during-for-while-since-4",
+   "type": "choice",
+   "q": "I fell asleep ___ I was watching a film.",
+   "options": [
+    "during",
+    "while",
+    "for",
+    "since"
+   ],
+   "answer": 1,
+   "why": "while + речення."
+  },
+  {
+   "id": "during-for-while-since-5",
+   "type": "choice",
+   "q": "We stayed ___ two weeks.",
+   "options": [
+    "for",
+    "since",
+    "during",
+    "while"
+   ],
+   "answer": 0,
+   "why": "for + період."
+  },
+  {
+   "id": "during-for-while-since-6",
+   "type": "choice",
+   "q": "She called ___ the meeting.",
+   "options": [
+    "for",
+    "during",
+    "since",
+    "ago"
+   ],
+   "answer": 1,
+   "why": "during the meeting."
+  },
+  {
+   "id": "during-for-while-since-7",
+   "type": "choice",
+   "q": "I moved here two years ___.",
+   "options": [
+    "before",
+    "ago",
+    "since",
+    "for"
+   ],
+   "answer": 1,
+   "why": "ago — назад від тепер."
+  },
+  {
+   "id": "during-for-while-since-8",
+   "type": "choice",
+   "q": "He's been ill ___ Monday.",
+   "options": [
+    "for",
+    "since",
+    "during",
+    "ago"
+   ],
+   "answer": 1,
+   "why": "since Monday."
+  },
+  {
+   "id": "during-for-while-since-9",
+   "type": "choice",
+   "q": "I work ___ 9 ___ 5.",
+   "options": [
+    "from / to",
+    "since / to",
+    "for / to",
+    "at / at"
+   ],
+   "answer": 0,
+   "why": "from … to — з … до."
+  },
+  {
+   "id": "during-for-while-since-10",
+   "type": "choice",
+   "q": "How long ___ you lived here?",
+   "options": [
+    "did",
+    "have",
+    "are",
+    "do"
+   ],
+   "answer": 1,
+   "why": "How long + Present Perfect."
+  }
+ ]
+}

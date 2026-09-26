@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "discourse-markers-1",
+   "type": "choice",
+   "q": "The plan is cheap. ___, it's fast. (adding)",
+   "options": [
+    "However",
+    "Moreover",
+    "Therefore",
+    "In conclusion"
+   ],
+   "answer": 1,
+   "why": "Moreover — додавання."
+  },
+  {
+   "id": "discourse-markers-2",
+   "type": "choice",
+   "q": "I like the flat. ___, it's too expensive. (contrast)",
+   "options": [
+    "Moreover",
+    "However",
+    "Therefore",
+    "For example"
+   ],
+   "answer": 1,
+   "why": "However — контраст."
+  },
+  {
+   "id": "discourse-markers-3",
+   "type": "choice",
+   "q": "He didn't study. ___, he failed. (result)",
+   "options": [
+    "As a result",
+    "Moreover",
+    "However",
+    "For instance"
+   ],
+   "answer": 0,
+   "why": "As a result — наслідок."
+  },
+  {
+   "id": "discourse-markers-4",
+   "type": "choice",
+   "q": "___ of all, let me introduce myself.",
+   "options": [
+    "First",
+    "Finally",
+    "Moreover",
+    "Besides"
+   ],
+   "answer": 0,
+   "why": "First of all."
+  },
+  {
+   "id": "discourse-markers-5",
+   "type": "choice",
+   "q": "Many countries, ___ France and Spain, are popular.",
+   "options": [
+    "such as",
+    "however",
+    "moreover",
+    "therefore"
+   ],
+   "answer": 0,
+   "why": "such as — приклад."
+  },
+  {
+   "id": "discourse-markers-6",
+   "type": "choice",
+   "q": "___, this is a good idea. (opinion)",
+   "options": [
+    "In my opinion",
+    "As a result",
+    "However",
+    "Furthermore"
+   ],
+   "answer": 0,
+   "why": "In my opinion — думка."
+  },
+  {
+   "id": "discourse-markers-7",
+   "type": "choice",
+   "q": "___, we need more time. (summarising)",
+   "options": [
+    "In conclusion",
+    "Firstly",
+    "For example",
+    "Moreover"
+   ],
+   "answer": 0,
+   "why": "In conclusion — підсумок."
+  },
+  {
+   "id": "discourse-markers-8",
+   "type": "choice",
+   "q": "Which is more formal?",
+   "options": [
+    "furthermore",
+    "plus",
+    "also",
+    "and"
+   ],
+   "answer": 0,
+   "why": "furthermore — формальніше."
+  },
+  {
+   "id": "discourse-markers-9",
+   "type": "choice",
+   "q": "'In other words' introduces:",
+   "options": [
+    "an explanation / rephrasing",
+    "a contrast",
+    "an example",
+    "a result"
+   ],
+   "answer": 0,
+   "why": "Пояснення іншими словами."
+  }
+ ]
+}

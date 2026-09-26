@@ -1,0 +1,137 @@
+{
+ "questions": [
+  {
+   "id": "relative-clauses-1",
+   "type": "choice",
+   "q": "The man ___ called you is my boss.",
+   "options": [
+    "which",
+    "who",
+    "whose",
+    "where"
+   ],
+   "answer": 1,
+   "why": "who — про людей."
+  },
+  {
+   "id": "relative-clauses-2",
+   "type": "choice",
+   "q": "The book ___ I read was great.",
+   "options": [
+    "who",
+    "where",
+    "that",
+    "whose"
+   ],
+   "answer": 2,
+   "why": "that — про речі (defining clause)."
+  },
+  {
+   "id": "relative-clauses-3",
+   "type": "choice",
+   "q": "That's the café ___ we met.",
+   "options": [
+    "which",
+    "who",
+    "where",
+    "whose"
+   ],
+   "answer": 2,
+   "why": "where — про місце."
+  },
+  {
+   "id": "relative-clauses-4",
+   "type": "choice",
+   "q": "The girl ___ bag was stolen is here.",
+   "options": [
+    "who",
+    "which",
+    "whose",
+    "that"
+   ],
+   "answer": 2,
+   "why": "whose — належність."
+  },
+  {
+   "id": "relative-clauses-5",
+   "type": "choice",
+   "q": "My sister, ___ lives in Paris, is a doctor.",
+   "options": [
+    "that",
+    "who",
+    "which",
+    "whose"
+   ],
+   "answer": 1,
+   "why": "У non-defining (з комами) that не вживається; для людей — who."
+  },
+  {
+   "id": "relative-clauses-6",
+   "type": "choice",
+   "q": "In \"The man who I met yesterday is a doctor\", can 'who' be omitted?",
+   "options": [
+    "Yes — it is the object",
+    "No — it is the subject",
+    "Yes — always",
+    "No — never"
+   ],
+   "answer": 0,
+   "why": "Відносне слово-додаток у defining clause можна опустити."
+  },
+  {
+   "id": "relative-clauses-7",
+   "type": "choice",
+   "q": "He passed the exam, ___ surprised everyone.",
+   "options": [
+    "that",
+    "which",
+    "who",
+    "what"
+   ],
+   "answer": 1,
+   "why": "which може відносити всю попередню ситуацію."
+  },
+  {
+   "id": "relative-clauses-8",
+   "type": "fill",
+   "q": "I remember the day ___ we met. (when / that)",
+   "answer": [
+    "when",
+    "that"
+   ],
+   "why": "Про час — when (або that)."
+  },
+  {
+   "id": "relative-clauses-9",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The teacher, that helped me, is kind.",
+    "The teacher who helped me is kind.",
+    "The teacher which helped me is kind.",
+    "The teacher whose helped me is kind."
+   ],
+   "answer": 1,
+   "why": "Для людей — who; that не вживається в non-defining."
+  },
+  {
+   "id": "relative-clauses-10",
+   "type": "order",
+   "words": [
+    "The",
+    "woman",
+    "who",
+    "lives",
+    "next",
+    "door",
+    "is",
+    "a",
+    "nurse"
+   ],
+   "answer": [
+    "The woman who lives next door is a nurse"
+   ],
+   "why": "who — про людей (defining clause, без ком)."
+  }
+ ]
+}

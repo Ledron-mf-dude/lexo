@@ -1,0 +1,121 @@
+{
+ "questions": [
+  {
+   "id": "gerund-infinitive-complex-1",
+   "type": "choice",
+   "q": "She wants me ___ early.",
+   "options": [
+    "come",
+    "to come",
+    "coming",
+    "came"
+   ],
+   "answer": 1,
+   "why": "want + особа + to-інфінітив."
+  },
+  {
+   "id": "gerund-infinitive-complex-2",
+   "type": "choice",
+   "q": "They made him ___.",
+   "options": [
+    "wait",
+    "to wait",
+    "waiting",
+    "waited"
+   ],
+   "answer": 0,
+   "why": "make + особа + інфінітив без to."
+  },
+  {
+   "id": "gerund-infinitive-complex-3",
+   "type": "choice",
+   "q": "I saw him ___ the road. (the whole action)",
+   "options": [
+    "cross",
+    "to cross",
+    "crossed",
+    "crosses"
+   ],
+   "answer": 0,
+   "why": "see + інфінітив — бачив усю дію."
+  },
+  {
+   "id": "gerund-infinitive-complex-4",
+   "type": "choice",
+   "q": "I saw him ___ the road when the car hit him. (in progress)",
+   "options": [
+    "cross",
+    "crossing",
+    "to cross",
+    "crossed"
+   ],
+   "answer": 1,
+   "why": "see + -ing — бачив процес."
+  },
+  {
+   "id": "gerund-infinitive-complex-5",
+   "type": "choice",
+   "q": "He seems ___ the country. (it already happened)",
+   "options": [
+    "to leave",
+    "to have left",
+    "leaving",
+    "having left"
+   ],
+   "answer": 1,
+   "why": "Про минуле — Perfect Infinitive."
+  },
+  {
+   "id": "gerund-infinitive-complex-6",
+   "type": "choice",
+   "q": "I regret ___ that. (I said something bad earlier)",
+   "options": [
+    "having said",
+    "to say",
+    "say",
+    "to saying"
+   ],
+   "answer": 0,
+   "why": "Про більш раннє — perfect gerund."
+  },
+  {
+   "id": "gerund-infinitive-complex-7",
+   "type": "choice",
+   "q": "He hates ___ what to do.",
+   "options": [
+    "being told",
+    "to tell",
+    "telling",
+    "having tell"
+   ],
+   "answer": 0,
+   "why": "Passive gerund: being + V3."
+  },
+  {
+   "id": "gerund-infinitive-complex-8",
+   "type": "choice",
+   "q": "She wants ___ by the manager.",
+   "options": [
+    "to invite",
+    "to be invited",
+    "inviting",
+    "being invited"
+   ],
+   "answer": 1,
+   "why": "Passive infinitive: to be + V3."
+  },
+  {
+   "id": "gerund-infinitive-complex-9",
+   "type": "choice",
+   "q": "Let me ___.",
+   "options": [
+    "to go",
+    "go",
+    "going",
+    "gone"
+   ],
+   "answer": 1,
+   "why": "let + інфінітив без to."
+  }
+ ]
+}

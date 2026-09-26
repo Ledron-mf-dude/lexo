@@ -1,0 +1,109 @@
+{
+ "questions": [
+  {
+   "id": "may-might-1",
+   "type": "choice",
+   "q": "It ___ rain later, but I am not sure.",
+   "options": [
+    "may",
+    "will",
+    "must",
+    "shall"
+   ],
+   "answer": 0,
+   "why": "may — можливість."
+  },
+  {
+   "id": "may-might-2",
+   "type": "choice",
+   "q": "___ I come in? (formal permission)",
+   "options": [
+    "May",
+    "Might",
+    "Will",
+    "Shall"
+   ],
+   "answer": 0,
+   "why": "May I…? — формальний дозвіл."
+  },
+  {
+   "id": "may-might-3",
+   "type": "choice",
+   "q": "She ___ not come. (possibility)",
+   "options": [
+    "may",
+    "mays",
+    "is",
+    "does"
+   ],
+   "answer": 0,
+   "why": "may not — можливо, ні."
+  },
+  {
+   "id": "may-might-4",
+   "type": "choice",
+   "q": "He said he ___ come. (\"I may come\")",
+   "options": [
+    "may",
+    "might",
+    "will",
+    "must"
+   ],
+   "answer": 1,
+   "why": "may → might у непрямій мові."
+  },
+  {
+   "id": "may-might-5",
+   "type": "choice",
+   "q": "'You ___ enter.' (a formal ban)",
+   "options": [
+    "may not",
+    "may",
+    "do not",
+    "might"
+   ],
+   "answer": 0,
+   "why": "may not — формальна заборона."
+  },
+  {
+   "id": "may-might-6",
+   "type": "choice",
+   "q": "Which shows a smaller chance?",
+   "options": [
+    "may",
+    "might",
+    "will",
+    "must"
+   ],
+   "answer": 1,
+   "why": "might — трохи менше впевненості."
+  },
+  {
+   "id": "may-might-7",
+   "type": "choice",
+   "q": "Which is correct for the past?",
+   "options": [
+    "She may forgot.",
+    "She may have forgotten.",
+    "She may forgotten.",
+    "She may has forgotten."
+   ],
+   "answer": 1,
+   "why": "may + have + V3."
+  },
+  {
+   "id": "may-might-8",
+   "type": "order",
+   "words": [
+    "It",
+    "might",
+    "rain",
+    "tomorrow"
+   ],
+   "answer": [
+    "It might rain tomorrow"
+   ],
+   "why": "might + інфінітив без to."
+  }
+ ]
+}

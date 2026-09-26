@@ -1,0 +1,108 @@
+{
+ "questions": [
+  {
+   "id": "ellipsis-substitution-1",
+   "type": "choice",
+   "q": "Which shirt? — The red ___.",
+   "options": [
+    "one",
+    "ones",
+    "it",
+    "that"
+   ],
+   "answer": 0,
+   "why": "one замінює іменник в однині."
+  },
+  {
+   "id": "ellipsis-substitution-2",
+   "type": "choice",
+   "q": "I like the blue ___. (plural)",
+   "options": [
+    "one",
+    "ones",
+    "it",
+    "that"
+   ],
+   "answer": 1,
+   "why": "ones — у множині."
+  },
+  {
+   "id": "ellipsis-substitution-3",
+   "type": "choice",
+   "q": "\"Will it rain?\" — \"I think ___.\"",
+   "options": [
+    "so",
+    "it",
+    "not",
+    "yes"
+   ],
+   "answer": 0,
+   "why": "I think so."
+  },
+  {
+   "id": "ellipsis-substitution-4",
+   "type": "choice",
+   "q": "\"Will it rain?\" — \"I hope ___.\" (I do not want rain)",
+   "options": [
+    "so",
+    "not",
+    "no",
+    "it"
+   ],
+   "answer": 1,
+   "why": "I hope not."
+  },
+  {
+   "id": "ellipsis-substitution-5",
+   "type": "choice",
+   "q": "She speaks French better than I ___.",
+   "options": [
+    "do",
+    "am",
+    "does",
+    "have"
+   ],
+   "answer": 0,
+   "why": "do замінює speak French."
+  },
+  {
+   "id": "ellipsis-substitution-6",
+   "type": "choice",
+   "q": "He didn't call, but I ___.",
+   "options": [
+    "did",
+    "do",
+    "was",
+    "have"
+   ],
+   "answer": 0,
+   "why": "did замінює called."
+  },
+  {
+   "id": "ellipsis-substitution-7",
+   "type": "choice",
+   "q": "\"I'll have coffee.\" — \"I'll have ___.\"",
+   "options": [
+    "the same",
+    "same",
+    "one same",
+    "same one"
+   ],
+   "answer": 0,
+   "why": "the same."
+  },
+  {
+   "id": "ellipsis-substitution-8",
+   "type": "choice",
+   "q": "Which is ellipsis (omission)?",
+   "options": [
+    "Tom is tall and (he is) thin.",
+    "The red one",
+    "I think so",
+    "The same"
+   ],
+   "answer": 0,
+   "why": "Ellipsis — пропуск слів."
+  }
+ ]
+}
