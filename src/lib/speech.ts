@@ -23,14 +23,14 @@ function spoken(text: string): string {
   return text.replace(/\([^)]*\)/g, ' ').replace(/\s*\/\s*/g, ', ').replace(/\s+/g, ' ').trim()
 }
 
-export function speak(text: string) {
+export function speak(text: string, rate = 0.9) {
   const clean = spoken(text)
   if (!canSpeak || clean === '') return
   window.speechSynthesis.cancel()
   const u = new SpeechSynthesisUtterance(clean)
   u.lang = voice?.lang ?? 'en-US'
   if (voice) u.voice = voice
-  u.rate = 0.9
+  u.rate = rate
   window.speechSynthesis.speak(u)
 }
 

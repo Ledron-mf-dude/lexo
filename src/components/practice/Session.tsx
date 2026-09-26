@@ -7,8 +7,11 @@ import { canSpeak, setAutoSpeak, useAutoSpeak } from '../../lib/speech'
 import { complexGrade, schedule, worseGrade, type Grade, type SrsState } from '../../lib/sm2'
 import type { Progress } from '../../types'
 import Choice from './Choice'
+import Cloze from './Cloze'
 import Flashcard from './Flashcard'
 import Gaps from './Gaps'
+import Listen from './Listen'
+import Match from './Match'
 import Scramble from './Scramble'
 import Typing from './Typing'
 
@@ -42,7 +45,9 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
 
   const [initial] = useState(() => buildQueue(words, progress, allWords, modes))
   const [queue, setQueue] = useState<Card[]>(initial)
-  const total = initial.length
+  const total = initial.reduce((n, c) => n + (c.group?.length ?? 1), 0)
+  // The exercises that actually have cards (an exercise nobody can do is left out of the complex).
+  const rounds = modes.filter((m) => initial.some((c) => c.round === m))
   const [done, setDone] = useState(0)
   const [stats, setStats] = useState({ right: 0, wrong: 0 })
   const [step, setStep] = useState(0)
@@ -54,16 +59,16 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
   // Complex: the round whose intro screen has been dismissed; a new round starts with an announcement.
   const [announced, setAnnounced] = useState<Exercise | null>(null)
 
-  const onGrade = useCallback(
-    (grade: Grade) => {
-      const current = queue[0]
-      if (!current) return
-      const id = current.word.id
+  // Grades one word for the card being answered: schedule (or just the log, in a complex), counters and the failed set.
+  const gradeWord = useCallback(
+    (current: Card, word: WordWithTags, grade: Grade) => {
+      const id = word.id
       const prev = stateOf(id)
       const errorCount = grade === 'again' ? prev.error_count + 1 : prev.error_count
       const correct = grade !== 'again'
+      const commit = current.commitFor ? current.commitFor.includes(id) : current.commit
 
-      if (current.commit) {
+      if (commit) {
         // Complex: one grade for the whole word (a retry is graded on its own, as in a single exercise).
         const final = current.retry ? grade : complexGrade(earlier.get(id), grade)
         const next = schedule(prev, final)
@@ -76,19 +81,46 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
       }
 
       setStats((s) => (correct ? { ...s, right: s.right + 1 } : { ...s, wrong: s.wrong + 1 }))
+      if (!correct) setFailed((f) => new Set(f).add(id))
+      return commit
+    },
+    [stateOf, saveReview, earlier],
+  )
+
+  // Answers the card on top of the queue. A matching card grades several words at once.
+  const onGrades = useCallback(
+    (results: { word: WordWithTags; grade: Grade }[]) => {
+      const current = queue[0]
+      if (!current) return
+      const retries: Card[] = []
+      let solved = 0
+      for (const { word, grade } of results) {
+        const commit = gradeWord(current, word, grade)
+        if (grade === 'again') {
+          // Missed: see it again a few cards later, as a plain flashcard (it keeps the original card's commit rule).
+          retries.push({ word, mode: 'flashcard', reverse: false, commit, final: commit, retry: true })
+        } else solved++
+      }
       setQueue((q) => {
         const rest = q.slice(1)
-        if (correct) return rest
-        // Missed: see it again a few cards later, as a plain flashcard (it keeps the original card's commit rule).
-        const again: Card = { word: current.word, mode: 'flashcard', reverse: false, commit: current.commit, final: current.final, retry: true }
-        rest.splice(Math.min(REQUEUE_AFTER, rest.length), 0, again)
+        rest.splice(Math.min(REQUEUE_AFTER, rest.length), 0, ...retries)
         return rest
       })
-      if (!correct) setFailed((f) => new Set(f).add(id))
-      else setDone((d) => d + 1)
+      setDone((d) => d + solved)
       setStep((s) => s + 1)
     },
-    [queue, stateOf, saveReview, earlier],
+    [queue, gradeWord],
+  )
+
+  const onGrade = useCallback((grade: Grade) => onGrades(queue[0] ? [{ word: queue[0].word, grade }] : []), [queue, onGrades])
+
+  const onMatched = useCallback(
+    (mistakes: Record<string, number>) => {
+      const group = queue[0]?.group ?? []
+      // No mistakes: good; one: hard; more: again (the word comes back as a flashcard).
+      onGrades(group.map((word) => ({ word, grade: (mistakes[word.id] ?? 0) === 0 ? 'good' : mistakes[word.id] === 1 ? 'hard' : 'again' })))
+    },
+    [queue, onGrades],
   )
 
   if (!card) {
@@ -108,8 +140,8 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
     )
   }
 
-  if (modes.length >= 2 && card.round && card.round !== announced) {
-    return <RoundIntro round={card.round} modes={modes} words={queue.filter((c) => c.round === card.round).length} onStart={() => setAnnounced(card.round!)} onExit={onFinish} />
+  if (card.round && card.round !== announced) {
+    return <RoundIntro round={card.round} modes={rounds} words={queue.filter((c) => c.round === card.round).reduce((n, c) => n + (c.group?.length ?? 1), 0)} onStart={() => setAnnounced(card.round!)} onExit={onFinish} />
   }
 
   return (
@@ -137,7 +169,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         </span>
       </div>
 
-      {card.retry && modes.length >= 2 && <p className="text-center text-xs tracking-widest text-white/35 uppercase">Повтор помилки</p>}
+      {card.retry && rounds.length >= 2 && <p className="text-center text-xs tracking-widest text-white/35 uppercase">Повтор помилки</p>}
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -149,6 +181,12 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         >
           {card.mode === 'choice' ? (
             <Choice card={card} onGrade={onGrade} />
+          ) : card.mode === 'match' ? (
+            <Match card={card} onDone={onMatched} />
+          ) : card.mode === 'cloze' ? (
+            <Cloze card={card} onGrade={onGrade} />
+          ) : card.mode === 'listen' ? (
+            <Listen card={card} onGrade={onGrade} />
           ) : card.mode === 'typing' ? (
             <Typing card={card} onGrade={onGrade} />
           ) : card.mode === 'scramble' ? (
