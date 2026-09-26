@@ -12,7 +12,7 @@ const navItems = [
 export default function Layout() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-5xl flex-col md:flex-row md:gap-6 md:p-6">
-      <nav className="app-nav glass fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-10 flex justify-around rounded-3xl p-1.5 md:static md:w-48 md:flex-col md:justify-start md:gap-1 md:self-start">
+      <nav className="app-nav glass max-md:bg-[#161922]! fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-10 flex justify-around rounded-3xl p-1.5 md:static md:w-48 md:flex-col md:justify-start md:gap-1 md:self-start">
         {navItems.map((item) => (
           <NavLink
             key={item.to}
