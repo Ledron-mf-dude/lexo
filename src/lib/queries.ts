@@ -204,26 +204,29 @@ export interface ReviewInput {
   mode: PracticeMode
   correct: boolean
   errorCount: number
-  next: { ease_factor: number; interval_days: number; repetitions: number; due_at: Date }
+  /** Omitted for the early exercises of a complex: those are only logged, the schedule changes once, at the end. */
+  next?: { ease_factor: number; interval_days: number; repetitions: number; due_at: Date }
 }
 
-/** Persists one answer: updates the word's schedule and appends a review_log row. */
+/** Persists one answer: appends a review_log row and, unless `next` is omitted, updates the word's schedule. */
 export function useReviewWord(userId: string) {
   return useMutation({
     mutationFn: async (r: ReviewInput) => {
       const now = new Date().toISOString()
-      const { error } = await supabase
-        .from('progress')
-        .update({
-          ease_factor: r.next.ease_factor,
-          interval_days: r.next.interval_days,
-          repetitions: r.next.repetitions,
-          due_at: r.next.due_at.toISOString(),
-          last_reviewed: now,
-          error_count: r.errorCount,
-        })
-        .eq('word_id', r.wordId)
-      if (error) throw error
+      if (r.next) {
+        const { error } = await supabase
+          .from('progress')
+          .update({
+            ease_factor: r.next.ease_factor,
+            interval_days: r.next.interval_days,
+            repetitions: r.next.repetitions,
+            due_at: r.next.due_at.toISOString(),
+            last_reviewed: now,
+            error_count: r.errorCount,
+          })
+          .eq('word_id', r.wordId)
+        if (error) throw error
+      }
       const { error: logError } = await supabase
         .from('review_log')
         .insert({ word_id: r.wordId, user_id: userId, mode: r.mode, correct: r.correct, reviewed_at: now })
