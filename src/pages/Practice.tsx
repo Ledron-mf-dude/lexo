@@ -19,15 +19,17 @@ const modes: { value: ModeChoice; label: string }[] = [
 
 const limits = [10, 20, 50, 100]
 
-/** Passed by the grammar section: practise exactly these words. */
-interface FromArticle {
-  wordIds: string[]
-  title: string
+/** Router state: from the grammar section (exactly these words) or from the statistics page (a preset source). */
+interface NavState {
+  wordIds?: string[]
+  title?: string
+  source?: Source
 }
 
 export default function Practice() {
   const { session } = useAuth()
-  const fromArticle = (useLocation().state as FromArticle | null) ?? null
+  const nav = (useLocation().state as NavState | null) ?? null
+  const fromArticle = nav?.wordIds && nav.title ? { wordIds: nav.wordIds, title: nav.title } : null
   const qc = useQueryClient()
   const words = useWords()
   const tags = useTags()
@@ -36,7 +38,7 @@ export default function Practice() {
   const [config, setConfig] = useState<SessionConfig>(() =>
     fromArticle
       ? { source: 'subset', subset: { ids: fromArticle.wordIds, title: fromArticle.title }, tagIds: [], limit: limits.find((n) => n >= fromArticle.wordIds.length) ?? 100, mode: 'auto' }
-      : { source: 'today', tagIds: [], limit: 20, mode: 'auto' },
+      : { source: nav?.source ?? 'today', tagIds: [], limit: 20, mode: 'auto' },
   )
   const [running, setRunning] = useState<WordWithTags[] | null>(null)
 
