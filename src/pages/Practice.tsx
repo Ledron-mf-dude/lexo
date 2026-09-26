@@ -10,6 +10,7 @@ import { canSpeak } from '../lib/speech'
 import { EXERCISES as ALL_EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
 import type { Progress } from '../types'
 import { useTitle } from '../lib/useTitle'
+import { count, EXERCISE, WORD } from '../lib/plural'
 
 // Listening needs speech synthesis, which a few browsers lack.
 const EXERCISES = ALL_EXERCISES.filter((e) => e.value !== 'listen' || canSpeak)
@@ -77,7 +78,12 @@ export default function Practice() {
     ...(config.subset
       ? [{ value: 'subset' as Source, title: `Слова: ${config.subset.title}`, hint: 'вибрані слова з вашого словника', count: config.subset.ids.length }]
       : []),
-    { value: 'today', title: 'Сьогодні', hint: `${counts.due} до повторення + ${counts.fresh} нових`, count: counts.due + counts.fresh },
+    {
+      value: 'today',
+      title: 'Сьогодні',
+      hint: `${counts.due} до повторення + ${counts.fresh} нових${counts.later > 0 ? ` · ще ${counts.later} пізніше` : ''}`,
+      count: counts.due + counts.fresh,
+    },
     { value: 'new', title: 'Нові слова', hint: 'ще жодного разу не вчені', count: counts.fresh },
     { value: 'hard', title: 'Складні', hint: 'часті помилки', count: counts.hard },
     { value: 'all', title: 'Весь словник', hint: 'без огляду на розклад', count: counts.all },
@@ -133,8 +139,7 @@ export default function Practice() {
         ? `Комплекс по порядку: ${config.modes.map((m) => `«${EXERCISES.find((e) => e.value === m)!.label}»`).join(' → ')}. Спершу всі слова в першій вправі, потім усі в наступній (близько ${wordCount * config.modes.length} карток). Розклад повторень оновиться один раз, після останньої вправи.`
         : 'Усі слова — в одній вправі.'
 
-  const chip = (active: boolean) =>
-    `rounded-full border px-3 py-1 text-sm transition-colors ${active ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60 hover:text-white'}`
+  const label = 'text-xs tracking-widest text-white/40 uppercase'
 
   return (
     <section className="space-y-6">
@@ -142,28 +147,32 @@ export default function Practice() {
 
       <DailyGoal />
 
-      <div className="grid gap-2 sm:grid-cols-2">
+      <div className="grid grid-cols-2 gap-2">
         {sources.map((s) => (
           <button
             key={s.value}
             onClick={() => setConfig((c) => ({ ...c, source: s.value }))}
-            className={`glass rounded-2xl p-4 text-left transition-colors ${config.source === s.value ? 'border-accent! bg-accent/10' : 'hover:bg-white/10'}`}
+            aria-pressed={config.source === s.value}
+            className={`glass min-w-0 rounded-2xl p-3 text-left transition-colors sm:p-4 ${s.value === 'subset' ? 'col-span-2' : ''} ${config.source === s.value ? 'border-accent! bg-accent/10' : 'hover:bg-white/10'}`}
           >
-            <div className="flex items-baseline justify-between">
-              <span className="font-medium">{s.title}</span>
-              <span className="text-xl font-light text-accent">{s.count}</span>
+            <div className="flex items-baseline justify-between gap-2">
+              <span className="min-w-0 text-sm leading-tight font-medium break-words sm:text-base">{s.title}</span>
+              <span className="text-lg font-light text-accent tabular-nums sm:text-xl">{s.count}</span>
             </div>
-            <p className="text-sm text-white/40">{s.hint}</p>
+            <p className="text-xs text-white/40 sm:text-sm">{s.hint}</p>
           </button>
         ))}
       </div>
 
       {(tags.data?.length ?? 0) > 0 && (
         <div className="space-y-2">
-          <p className="text-sm text-white/50">Теги {config.tagIds.length === 0 && '(усі)'}</p>
-          <div className="flex flex-wrap gap-2">
+          <p className={label}>
+            Теги <span className="tracking-normal normal-case">{config.tagIds.length === 0 ? '· усі' : `· ${config.tagIds.length}`}</span>
+          </p>
+          <div className="chip-row">
             {tags.data!.map((t) => (
-              <button key={t.id} onClick={() => toggleTag(t.id)} className={chip(config.tagIds.includes(t.id))}>
+              <button key={t.id} onClick={() => toggleTag(t.id)} data-on={config.tagIds.includes(t.id)} className="chip">
+                {t.color && <span className="mr-1.5 inline-block size-2 rounded-full align-middle" style={{ background: t.color }} aria-hidden />}
                 {t.name}
               </button>
             ))}
@@ -172,28 +181,32 @@ export default function Practice() {
       )}
 
       <div className="space-y-3">
-        <p className="text-sm text-white/50">Вправи</p>
+        <p className={label}>Вправи</p>
         <div className="flex flex-wrap gap-2">
-          <button onClick={() => setModes([])} className={chip(config.modes.length === 0)}>
+          <button onClick={() => setModes([])} data-on={config.modes.length === 0} className="chip">
             Авто
           </button>
           {EXERCISES.map((e) => (
-            <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={config.modes.includes(e.value)} className={chip(config.modes.includes(e.value))}>
+            <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={config.modes.includes(e.value)} data-on={config.modes.includes(e.value)} className="chip">
               {complex && config.modes.includes(e.value) && <span className="mr-1.5 text-xs opacity-70">{config.modes.indexOf(e.value) + 1}.</span>}
               {e.label}
             </button>
           ))}
         </div>
-        <div className="flex flex-wrap gap-2">
-          {PRESETS.map((preset) => (
-            <button
-              key={preset.label}
-              onClick={() => setModes(preset.modes)}
-              className="rounded-full border border-dashed border-white/15 px-3 py-1 text-xs text-white/50 transition-colors hover:text-white"
-            >
-              {preset.label}
-            </button>
-          ))}
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs text-white/35">Готові комплекси:</span>
+          {PRESETS.map((preset) => {
+            const on = preset.modes.join() === config.modes.join()
+            return (
+              <button
+                key={preset.label}
+                onClick={() => setModes(preset.modes)}
+                className={`rounded-full border border-dashed px-3 py-1 text-xs transition-colors ${on ? 'border-accent/60 text-accent' : 'border-white/15 text-white/50 hover:text-white'}`}
+              >
+                {preset.label}
+              </button>
+            )
+          })}
         </div>
         <p className="text-sm text-white/40">{modeHint}</p>
         {(config.modes.includes('cloze') || config.modes.includes('matchdef')) && (
@@ -202,10 +215,10 @@ export default function Practice() {
       </div>
 
       <div className="space-y-2">
-        <p className="text-sm text-white/50">Кількість слів</p>
+        <p className={label}>Кількість слів</p>
         <div className="flex flex-wrap gap-2">
           {limits.map((n) => (
-            <button key={n} onClick={() => setConfig((c) => ({ ...c, limit: n }))} className={chip(config.limit === n)}>
+            <button key={n} onClick={() => setConfig((c) => ({ ...c, limit: n }))} data-on={config.limit === n} className="chip min-w-12">
               {n}
             </button>
           ))}
@@ -213,13 +226,13 @@ export default function Practice() {
       </div>
 
       {/* On a phone the button stays above the bottom bar, so it is reachable without scrolling to the end of the settings. */}
-      <WordOfDay words={words.data ?? []} />
-
       <div className="sticky bottom-24 z-[5] md:static">
         <button onClick={start} disabled={available === 0} className="btn-primary w-full py-3 text-lg shadow-[0_8px_30px_rgb(0_0_0/0.45)] md:shadow-none">
-          {available === 0 ? 'Немає слів для цього вибору' : `Почати · ${wordCount} слів${complex ? ` × ${config.modes.length} вправи` : ''}`}
+          {available === 0 ? 'Немає слів для цього вибору' : `Почати · ${count(wordCount, WORD)}${complex ? ` × ${count(config.modes.length, EXERCISE)}` : ''}`}
         </button>
       </div>
+
+      <WordOfDay words={words.data ?? []} />
     </section>
   )
 }

@@ -1,10 +1,11 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { lazy, Suspense } from 'react'
+import { Suspense } from 'react'
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import ErrorBoundary from './components/ErrorBoundary'
 import Layout from './components/Layout'
 import { AuthProvider } from './lib/auth'
 import { useAuth } from './lib/authContext'
+import { lazyPage } from './lib/lazyPage'
 import { isSupabaseConfigured } from './lib/supabase'
 import Account from './pages/Account'
 import Login from './pages/Login'
@@ -14,16 +15,16 @@ import SetPassword from './pages/SetPassword'
 import Words from './pages/Words'
 
 // Grammar articles are bundled as text; load that chunk only when the section is opened.
-const Grammar = lazy(() => import('./pages/Grammar'))
-const GrammarArticle = lazy(() => import('./pages/GrammarArticle'))
-const ExerciseQuiz = lazy(() => import('./pages/ExerciseQuiz'))
-const MixedQuiz = lazy(() => import('./pages/ExerciseQuiz').then((m) => ({ default: m.MixedQuiz })))
-const Stats = lazy(() => import('./pages/Stats'))
+const Grammar = lazyPage(() => import('./pages/Grammar'))
+const GrammarArticle = lazyPage(() => import('./pages/GrammarArticle'))
+const ExerciseQuiz = lazyPage(() => import('./pages/ExerciseQuiz'))
+const MixedQuiz = lazyPage(() => import('./pages/ExerciseQuiz').then((m) => ({ default: m.MixedQuiz })))
+const Stats = lazyPage(() => import('./pages/Stats'))
 
 const queryClient = new QueryClient()
 
 // Shown while a lazily loaded section (grammar, statistics) downloads.
-const loading = <p className="text-white/40">Завантаження…</p>
+const loading = <p className="animate-pulse text-white/40">Завантаження…</p>
 
 function Gate() {
   const { session, loading, mustSetPassword } = useAuth()

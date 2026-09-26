@@ -1,10 +1,16 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import LevelBadge from '../components/LevelBadge'
 import { exercises, questionCount } from '../lib/exercises'
-import { allMistakes, useExerciseLog } from '../lib/exerciseLog'
+import { allMistakes, topicStats, useExerciseLog } from '../lib/exerciseLog'
 import { LEVELS, articles, categories, levelCounts, searchArticles, startLevel, type Article, type Hit, type Level } from '../lib/grammar'
+import { ARTICLE, count } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
+
+/** Per-topic exercise progress shown on each row: questions whose latest answer was right, out of all. */
+type Progress = Map<string, { mastered: number; total: number; attempted: number }>
+
+const coarse = window.matchMedia('(pointer: coarse)').matches
 
 type View = 'category' | 'level'
 
@@ -20,6 +26,14 @@ export default function Grammar() {
   const navigate = useNavigate()
   const log = useExerciseLog()
   const mistakes = allMistakes(log.data, exercises).length
+  const progress: Progress = useMemo(() => {
+    const map: Progress = new Map()
+    for (const [slug, qs] of exercises) {
+      const st = topicStats(log.data, slug, new Set(qs.map((q) => q.id)))
+      map.set(slug, { mastered: st.mastered, total: qs.length, attempted: st.attempted })
+    }
+    return map
+  }, [log.data])
 
   // Filters live in the URL, so Back from an article returns to the same list.
   function update(next: Record<string, string | null>) {
@@ -35,6 +49,11 @@ export default function Grammar() {
       { replace: true },
     )
   }
+
+  // Ready to type on a computer; preventScroll keeps the list where Back left it (autoFocus would jump to the top).
+  useEffect(() => {
+    if (!coarse) input.current?.focus({ preventScroll: true })
+  }, [])
 
   // "/" jumps to the search box from anywhere on the page, Esc clears it.
   useEffect(() => {
@@ -79,18 +98,17 @@ export default function Grammar() {
 
       <input
         ref={input}
-        autoFocus={!window.matchMedia('(pointer: coarse)').matches}
         type="search"
         enterKeyHint="search"
         value={q}
         onChange={(e) => update({ q: e.target.value || null })}
-        placeholder="Пошук за назвою чи темою…  ( / )"
+        placeholder={coarse ? 'Пошук за назвою чи темою' : 'Пошук за назвою чи темою  ·  натисніть /'}
         className="field"
       />
 
       <div className="space-y-2">
-        <div className="flex items-center gap-2">
-          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16">Рівень</span>
+        <div className="flex items-center gap-2 sm:items-start">
+          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16 sm:pt-1.5">Рівень</span>
           <div className="chip-row m-0! min-w-0 flex-1 p-0! sm:items-center">
             <button onClick={() => update({ level: null })} className={chip(level === null)}>
               Усі
@@ -102,8 +120,8 @@ export default function Grammar() {
             ))}
           </div>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16">Тема</span>
+        <div className="flex items-center gap-2 sm:items-start">
+          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16 sm:pt-1.5">Тема</span>
           <div className="chip-row m-0! min-w-0 flex-1 p-0! sm:items-center">
             <button onClick={() => update({ cat: null })} className={chip(category === null)}>
               Усі
@@ -144,7 +162,7 @@ export default function Grammar() {
       {!searching && (
         <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-white/45">
           <span>
-            {filtered ? `Показано ${shown} з ${articles.length}` : `${articles.length} статей`}
+            {filtered ? `Показано ${shown} з ${articles.length}` : count(articles.length, ARTICLE)}
             {filtered && (
               <button onClick={() => update({ level: null, cat: null })} className="ml-3 text-accent hover:underline">
                 скинути фільтри
@@ -172,14 +190,14 @@ export default function Grammar() {
           {primary.length > 0 && (
             <Section title="За назвою та темою" count={primary.length}>
               {primary.map((h) => (
-                <ArticleRow key={h.article.slug} hit={h} showCategory />
+                <ArticleRow key={h.article.slug} hit={h} progress={progress.get(h.article.slug)} showCategory />
               ))}
             </Section>
           )}
           {textHits.length > 0 && (
             <Section title="Згадується в тексті статей" count={textHits.length} muted>
               {textHits.map((h) => (
-                <ArticleRow key={h.article.slug} hit={h} showCategory />
+                <ArticleRow key={h.article.slug} hit={h} progress={progress.get(h.article.slug)} showCategory />
               ))}
             </Section>
           )}
@@ -188,7 +206,7 @@ export default function Grammar() {
         groups.map(([name, items]) => (
           <Section key={name} title={view === 'level' ? `Рівень ${name}` : name} count={items.length}>
             {items.map((h) => (
-              <ArticleRow key={h.article.slug} hit={h} showCategory={view === 'level'} />
+              <ArticleRow key={h.article.slug} hit={h} progress={progress.get(h.article.slug)} showCategory={view === 'level'} />
             ))}
           </Section>
         ))
@@ -208,8 +226,9 @@ function Section({ title, count, muted, children }: { title: string; count: numb
   )
 }
 
-function ArticleRow({ hit, showCategory }: { hit: Hit; showCategory?: boolean }) {
+function ArticleRow({ hit, progress, showCategory }: { hit: Hit; progress?: { mastered: number; total: number; attempted: number }; showCategory?: boolean }) {
   const { article, snippet } = hit
+  const done = progress !== undefined && progress.total > 0 && progress.mastered === progress.total
   return (
     <li>
       <Link to={`/grammar/${article.slug}`} className="glass block rounded-2xl p-4 transition-colors hover:bg-white/10">
@@ -223,6 +242,14 @@ function ArticleRow({ hit, showCategory }: { hit: Hit; showCategory?: boolean })
         </div>
         {showCategory && <p className="text-xs text-white/35">{article.category}</p>}
         {snippet && <p className="mt-1 text-sm text-white/45">{snippet}</p>}
+        {progress && progress.attempted > 0 && (
+          <div className="mt-2.5 flex items-center gap-2 text-xs text-white/40" title="Запитання, на які остання відповідь була правильною">
+            <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/8">
+              <div className={`h-full rounded-full ${done ? 'bg-good' : 'bg-accent-alt'}`} style={{ width: `${(progress.mastered / progress.total) * 100}%` }} />
+            </div>
+            <span className={`tabular-nums ${done ? 'text-good' : ''}`}>{done ? '✓ опановано' : `${progress.mastered} / ${progress.total}`}</span>
+          </div>
+        )}
       </Link>
     </li>
   )
