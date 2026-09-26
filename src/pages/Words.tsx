@@ -56,11 +56,11 @@ export default function Words() {
   return (
     <section className="space-y-4">
       <div className="flex items-center justify-between gap-3">
-        <h1 className="text-3xl font-light tracking-tight">
+        <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
           Слова <span className="text-lg text-white/40">{words.data?.length ?? ''}</span>
         </h1>
-        <div className="flex gap-2">
-          <button onClick={() => setImporting(true)} className="btn-ghost">
+        <div className="flex gap-2 text-sm sm:text-base">
+          <button onClick={() => setImporting(true)} className="btn-ghost px-3 sm:px-[1.1rem]">
             Імпорт
           </button>
           <button
@@ -68,7 +68,7 @@ export default function Words() {
               save.reset()
               setEditing('new')
             }}
-            className="btn-primary"
+            className="btn-primary px-3 whitespace-nowrap sm:px-[1.1rem]"
           >
             + Додати
           </button>
@@ -83,7 +83,7 @@ export default function Words() {
       />
 
       {(tags.data?.length ?? 0) > 0 && (
-        <div className="flex flex-wrap gap-2">
+        <div className="chip-row">
           {tags.data!.map((t) => (
             <button
               key={t.id}
@@ -110,8 +110,8 @@ export default function Words() {
 
       <ul className="space-y-2">
         {visible.map((w) => (
-          <li key={w.id} className="glass flex items-start justify-between gap-3 rounded-2xl p-4">
-            <div className="min-w-0">
+          <li key={w.id} className="glass relative flex items-start justify-between gap-3 rounded-2xl p-4">
+            <div className="min-w-0 pr-16 sm:pr-0">
               <p className="font-medium">
                 {w.term} <span className="font-light text-white/60">— {w.translation}</span>
               </p>
@@ -126,12 +126,14 @@ export default function Words() {
                 </div>
               )}
             </div>
-            <div className="flex shrink-0 gap-1 text-sm">
-              <button onClick={() => startEdit(w)} className="rounded-lg px-2 py-1 text-white/50 hover:text-white">
-                Змінити
+            <div className="absolute top-1.5 right-1.5 flex shrink-0 gap-0.5 text-sm sm:static">
+              <button onClick={() => startEdit(w)} aria-label="Змінити" className="grid size-9 place-items-center rounded-lg text-white/50 hover:text-white sm:size-auto sm:px-2 sm:py-1">
+                <span aria-hidden className="sm:hidden">✎</span>
+                <span className="hidden sm:inline">Змінити</span>
               </button>
-              <button onClick={() => onDelete(w)} className="rounded-lg px-2 py-1 text-white/50 hover:text-bad">
-                Видалити
+              <button onClick={() => onDelete(w)} aria-label="Видалити" className="grid size-9 place-items-center rounded-lg text-white/50 hover:text-bad sm:size-auto sm:px-2 sm:py-1">
+                <span aria-hidden className="sm:hidden">✕</span>
+                <span className="hidden sm:inline">Видалити</span>
               </button>
             </div>
           </li>

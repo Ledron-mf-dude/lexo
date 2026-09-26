@@ -1,3 +1,4 @@
+import './dev/mock'
 import './lib/authHash' // must run first: reads the password-link type before supabase-js clears the URL hash
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'

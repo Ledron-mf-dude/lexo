@@ -72,7 +72,7 @@ export default function Tags() {
   return (
     <section className="space-y-5">
       <div className="flex items-baseline justify-between gap-3">
-        <h1 className="text-3xl font-light tracking-tight">
+        <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
           Теги <span className="text-lg text-white/40">{rows.length}</span>
         </h1>
         <div className="flex gap-1 text-sm">
@@ -135,19 +135,19 @@ export default function Tags() {
               </div>
 
               <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-                <span className="flex gap-1.5" role="group" aria-label="Колір тегу">
+                <span className="flex gap-2 sm:gap-1.5" role="group" aria-label="Колір тегу">
                   {TAG_COLORS.map((c) => (
                     <button
                       key={c}
                       aria-label={`Колір ${c}`}
                       aria-pressed={tag.color === c}
                       onClick={() => run(actions.recolor.mutateAsync({ id: tag.id, color: c }))}
-                      className={`size-5 rounded-full border-2 transition-transform hover:scale-110 ${tag.color === c ? 'border-white' : 'border-transparent'}`}
+                      className={`size-7 rounded-full border-2 transition-transform hover:scale-110 sm:size-5 ${tag.color === c ? 'border-white' : 'border-transparent'}`}
                       style={{ background: c }}
                     />
                   ))}
                 </span>
-                <span className="ml-auto flex flex-wrap gap-x-3 gap-y-1 text-white/55">
+                <span className="ml-auto flex flex-wrap gap-x-1 gap-y-0.5 text-white/55 *:rounded-lg *:px-2 *:py-1.5">
                   {n > 0 && (
                     <button onClick={() => practice(tag)} className="text-accent hover:underline">
                       Практикувати

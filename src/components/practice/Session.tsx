@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useCallback, useState } from 'react'
+import { useFocusMode } from '../../lib/focusMode'
 import { useReviewWord, type WordWithTags } from '../../lib/queries'
 import { buildQueue, type Card, type Exercise } from '../../lib/session'
 import { complexGrade, schedule, worseGrade, type Grade, type SrsState } from '../../lib/sm2'
@@ -31,6 +32,7 @@ function fromProgress(p: Progress): Live {
 
 export default function Session({ userId, words, allWords, progress, modes, onFinish }: Props) {
   const { mutate: saveReview } = useReviewWord(userId)
+  useFocusMode()
 
   // Live schedule per word, so a card repeated within the session builds on its latest state.
   const [live, setLive] = useState<Map<string, Live>>(() => new Map())

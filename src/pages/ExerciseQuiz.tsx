@@ -4,6 +4,7 @@ import { useAuth } from '../lib/auth'
 import { correctAnswer, exercises, isCorrectText, type Question } from '../lib/exercises'
 import { topicStats, useExerciseLog, useLogAnswer } from '../lib/exerciseLog'
 import { bySlug } from '../lib/grammar'
+import { useFocusMode } from '../lib/focusMode'
 
 const DECK_SIZE = 10
 
@@ -68,6 +69,7 @@ function Quiz({ slug, title, pool, onRestart }: { slug: string; title: string; p
   const [round, setRound] = useState(0)
 
   const q = deck[index]
+  useFocusMode(q !== undefined)
 
   function answer(o: Outcome) {
     if (outcome) return
