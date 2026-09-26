@@ -80,3 +80,55 @@ body {
     background: rgb(255 255 255 / 0.08);
   }
 }
+
+/* Touch devices: no grey tap flash, no double-tap zoom on buttons, no sideways scroll, no font inflation. */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: clip;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a,
+summary {
+  touch-action: manipulation;
+}
+
+/* A row of chips that scrolls sideways on a phone instead of wrapping into a wall of filters. */
+@utility chip-row {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-inline: -1rem;
+  padding-inline: 1rem;
+  & > * {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  @media (min-width: 40rem) {
+    flex-wrap: wrap;
+    overflow: visible;
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+}
+
+/* Exercises and practice sessions take the whole phone screen: the bottom bar and header get out of the way. */
+@media (max-width: 47.99rem) {
+  body[data-focus] .app-nav,
+  body[data-focus] .app-header {
+    display: none;
+  }
+  body[data-focus] .app-main {
+    padding-top: max(1rem, env(safe-area-inset-top));
+    padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+  }
+}

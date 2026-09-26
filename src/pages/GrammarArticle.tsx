@@ -23,6 +23,15 @@ function ArticleLink({ href = '', children }: ComponentProps<'a'>) {
   )
 }
 
+// Wide tables scroll inside the card on a phone instead of stretching the whole page.
+function ScrollTable({ children }: ComponentProps<'table'>) {
+  return (
+    <div className="-mx-1 overflow-x-auto px-1">
+      <table>{children}</table>
+    </div>
+  )
+}
+
 export default function GrammarArticle() {
   const { slug = '' } = useParams()
   const article = bySlug.get(slug)
@@ -66,23 +75,23 @@ export default function GrammarArticle() {
             </Link>
           ))}
         </div>
-        <h1 className="text-3xl font-light tracking-tight">{article.title}</h1>
+        <h1 className="text-2xl font-light tracking-tight break-words sm:text-3xl">{article.title}</h1>
       </div>
-      <div className="glass prose prose-invert max-w-none rounded-3xl p-6 prose-headings:font-normal prose-strong:text-white prose-code:text-accent-alt prose-code:before:content-none prose-code:after:content-none prose-th:text-left">
-        <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={{ a: ArticleLink }}>
+      <div className="glass prose prose-invert max-w-none rounded-3xl p-4 break-words sm:p-6 prose-headings:font-normal prose-strong:text-white prose-code:text-accent-alt prose-code:before:content-none prose-code:after:content-none prose-th:text-left">
+        <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={{ a: ArticleLink, table: ScrollTable }}>
           {article.body}
         </Markdown>
       </div>
 
       {bank && stats && (
-        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-5">
+        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-4 sm:p-5">
           <div>
             <p className="font-medium">Вправи до теми: {bank.length} запитань</p>
             <p className="text-sm text-white/45">
               {stats.attempted === 0 ? 'Ще не проходили' : `Опановано ${stats.mastered} з ${bank.length}${stats.mistakes.length > 0 ? ` · помилок ${stats.mistakes.length}` : ''}`}
             </p>
           </div>
-          <div className="flex gap-2">
+          <div className="flex w-full gap-2 *:flex-1 sm:w-auto sm:*:flex-none">
             {stats.mistakes.length > 0 && (
               <button onClick={() => navigate(`/grammar/${slug}/exercises`, { state: { mistakes: true } })} className="btn-ghost">
                 Повторити помилки
@@ -96,7 +105,7 @@ export default function GrammarArticle() {
       )}
 
       {topicWords.length >= MIN_WORDS && (
-        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-5">
+        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-4 sm:p-5">
           <div>
             <p className="font-medium">Слова за темою у вашому словнику: {topicWords.length}</p>
             <p className="text-sm text-white/45">
@@ -109,7 +118,7 @@ export default function GrammarArticle() {
           </div>
           <button
             onClick={() => navigate('/practice', { state: { wordIds: topicWords.map((w) => w.id), title: article.title.split(/[:(—]/)[0].trim() } })}
-            className="btn-primary"
+            className="btn-primary w-full sm:w-auto"
           >
             Практикувати
           </button>

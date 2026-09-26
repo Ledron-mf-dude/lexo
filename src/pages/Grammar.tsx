@@ -62,17 +62,19 @@ export default function Grammar() {
   })()
 
   const chip = (active: boolean) =>
-    `rounded-full border px-3 py-1 text-sm transition-colors ${active ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60 hover:text-white'}`
+    `rounded-full border px-3 py-1.5 text-sm transition-colors sm:py-1 ${active ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60 hover:text-white'}`
 
   return (
     <section className="space-y-5">
-      <h1 className="text-3xl font-light tracking-tight">
+      <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
         Граматика <span className="text-lg text-white/40">{articles.length}</span>
       </h1>
 
       <input
         ref={input}
-        autoFocus
+        autoFocus={!window.matchMedia('(pointer: coarse)').matches}
+        type="search"
+        enterKeyHint="search"
         value={q}
         onChange={(e) => update({ q: e.target.value || null })}
         placeholder="Пошук за назвою чи темою…  ( / )"
@@ -80,32 +82,36 @@ export default function Grammar() {
       />
 
       <div className="space-y-2">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="w-16 text-xs tracking-widest text-white/35 uppercase">Рівень</span>
-          <button onClick={() => update({ level: null })} className={chip(level === null)}>
-            Усі
-          </button>
-          {LEVELS.map((l) => (
-            <button key={l} onClick={() => update({ level: level === l ? null : l })} className={chip(level === l)}>
-              {l} <span className="text-xs text-white/35">{levelCounts[l]}</span>
+        <div className="flex items-center gap-2">
+          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16">Рівень</span>
+          <div className="chip-row m-0! min-w-0 flex-1 p-0! sm:items-center">
+            <button onClick={() => update({ level: null })} className={chip(level === null)}>
+              Усі
             </button>
-          ))}
+            {LEVELS.map((l) => (
+              <button key={l} onClick={() => update({ level: level === l ? null : l })} className={chip(level === l)}>
+                {l} <span className="text-xs text-white/35">{levelCounts[l]}</span>
+              </button>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="w-16 text-xs tracking-widest text-white/35 uppercase">Тема</span>
-          <button onClick={() => update({ cat: null })} className={chip(category === null)}>
-            Усі
-          </button>
-          {categories.map((c) => (
-            <button key={c.name} onClick={() => update({ cat: category === c.name ? null : c.name })} className={chip(category === c.name)}>
-              {c.name} <span className="text-xs text-white/35">{c.count}</span>
+        <div className="flex items-center gap-2">
+          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16">Тема</span>
+          <div className="chip-row m-0! min-w-0 flex-1 p-0! sm:items-center">
+            <button onClick={() => update({ cat: null })} className={chip(category === null)}>
+              Усі
             </button>
-          ))}
+            {categories.map((c) => (
+              <button key={c.name} onClick={() => update({ cat: category === c.name ? null : c.name })} className={chip(category === c.name)}>
+                {c.name} <span className="text-xs text-white/35">{c.count}</span>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
       {!searching && (
-        <div className="flex items-center justify-between text-sm text-white/45">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-white/45">
           <span>
             {filtered ? `Показано ${shown} з ${articles.length}` : `${articles.length} статей`}
             {filtered && (
