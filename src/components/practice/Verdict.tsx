@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
+import { useSpeakOnShow } from '../../lib/speech'
 import type { Grade } from '../../lib/sm2'
+import SpeakButton from '../SpeakButton'
 import type { TypedResult } from '../../lib/text'
 
 interface Props {
@@ -15,6 +17,7 @@ const GRADE: Record<TypedResult, Grade> = { exact: 'good', typo: 'hard', wrong: 
  * a typo or a miss waits for the user so the correct spelling can be read.
  */
 export default function Verdict({ result, expected, onGrade }: Props) {
+  useSpeakOnShow(expected)
   useEffect(() => {
     if (result === 'exact') {
       const t = setTimeout(() => onGrade('good'), 800)
@@ -38,7 +41,10 @@ export default function Verdict({ result, expected, onGrade }: Props) {
         <p className={`text-sm ${result === 'typo' ? 'text-accent' : 'text-bad'}`}>
           {result === 'typo' ? 'Майже — є одруківка' : 'Неправильно'}
         </p>
-        <p className="mt-1 text-2xl break-words">{expected}</p>
+        <p className="mt-1 flex items-center justify-center gap-2 text-2xl break-words">
+          {expected}
+          <SpeakButton text={expected} />
+        </p>
       </div>
       <button onClick={() => onGrade(GRADE[result])} className="btn-primary w-full">
         Далі

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import ImportDialog from '../components/ImportDialog'
 import WordForm from '../components/WordForm'
+import SpeakButton from '../components/SpeakButton'
 import { useAuth } from '../lib/auth'
 import { useDeleteWord, useSaveWord, useTags, useWords, type WordInput, type WordWithTags } from '../lib/queries'
 
@@ -113,7 +114,9 @@ export default function Words() {
           <li key={w.id} className="glass relative flex items-start justify-between gap-3 rounded-2xl p-4">
             <div className="min-w-0 pr-16 sm:pr-0">
               <p className="font-medium">
-                {w.term} <span className="font-light text-white/60">— {w.translation}</span>
+                {w.term}
+                <SpeakButton text={w.term} className="-my-2 ml-0.5 size-8 align-middle" />
+                <span className="font-light text-white/60"> — {w.translation}</span>
               </p>
               {w.definition && <p className="mt-0.5 text-sm text-white/40">{w.definition}</p>}
               {w.tagIds.length > 0 && (

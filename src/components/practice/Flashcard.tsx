@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
+import { useSpeakOnShow } from '../../lib/speech'
 import { intervalLabel, type Grade, type SrsState } from '../../lib/sm2'
+import SpeakButton from '../SpeakButton'
 import type { Card } from '../../lib/session'
 
 interface Props {
@@ -21,6 +23,9 @@ export default function Flashcard({ card, state, onGrade }: Props) {
   const { word, reverse } = card
   const front = reverse ? word.translation : word.term
   const back = reverse ? word.term : word.translation
+  // The English side is the front, or the back once revealed (reverse cards).
+  const englishShown = !reverse || revealed
+  useSpeakOnShow(word.term, englishShown)
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -39,7 +44,8 @@ export default function Flashcard({ card, state, onGrade }: Props) {
   }, [revealed, onGrade])
 
   return (
-    <div className="space-y-4">
+    <div className="relative space-y-4">
+      {englishShown && <SpeakButton text={word.term} className="absolute top-3 right-3 z-[1]" />}
       <button
         onClick={() => setRevealed(true)}
         disabled={revealed}
