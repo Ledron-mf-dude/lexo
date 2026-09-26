@@ -116,6 +116,170 @@
    ],
    "answer": 1,
    "why": "-y → -ily."
+  },
+  {
+   "id": "adjectives-adverbs-10",
+   "type": "fill",
+   "q": "She sings very ___.",
+   "answer": [
+    "well"
+   ],
+   "why": "Прислівник від good — well.",
+   "hint": "(good)"
+  },
+  {
+   "id": "adjectives-adverbs-11",
+   "type": "fill",
+   "q": "He answered the question ___.",
+   "answer": [
+    "correctly"
+   ],
+   "why": "Дія (answered) — прислівник: correct + ly.",
+   "hint": "(correct)"
+  },
+  {
+   "id": "adjectives-adverbs-12",
+   "type": "fill",
+   "q": "Please drive ___.",
+   "answer": [
+    "carefully"
+   ],
+   "why": "Спосіб дії — careful + ly.",
+   "hint": "(careful)"
+  },
+  {
+   "id": "adjectives-adverbs-13",
+   "type": "fill",
+   "q": "She was ___ happy to see us.",
+   "answer": [
+    "extremely"
+   ],
+   "why": "Прислівник ступеня перед прикметником: extremely happy.",
+   "hint": "(extreme)"
+  },
+  {
+   "id": "adjectives-adverbs-14",
+   "type": "fill",
+   "q": "The children played ___ in the garden.",
+   "answer": [
+    "happily"
+   ],
+   "why": "-y → -ily: happily.",
+   "hint": "(happy)"
+  },
+  {
+   "id": "adjectives-adverbs-15",
+   "type": "choice",
+   "q": "This soup tastes ___.",
+   "options": [
+    "delicious",
+    "deliciously",
+    "more deliciously",
+    "delicious-ly"
+   ],
+   "answer": 0,
+   "why": "Після taste — прикметник."
+  },
+  {
+   "id": "adjectives-adverbs-16",
+   "type": "choice",
+   "q": "He speaks English ___.",
+   "options": [
+    "fluently",
+    "fluent",
+    "fluentness",
+    "more fluent"
+   ],
+   "answer": 0,
+   "why": "Спосіб дії — прислівник fluently."
+  },
+  {
+   "id": "adjectives-adverbs-17",
+   "type": "choice",
+   "q": "I ___ slept last night. (майже не спав)",
+   "options": [
+    "hardly",
+    "hard",
+    "hardily",
+    "harder"
+   ],
+   "answer": 0,
+   "why": "hardly — майже не."
+  },
+  {
+   "id": "adjectives-adverbs-18",
+   "type": "choice",
+   "q": "The exam was ___ easy.",
+   "options": [
+    "surprisingly",
+    "surprising",
+    "surprised",
+    "surprise"
+   ],
+   "answer": 0,
+   "why": "Перед прикметником — прислівник: surprisingly easy."
+  },
+  {
+   "id": "adjectives-adverbs-19",
+   "type": "choice",
+   "q": "She smiled at me in a ___ way.",
+   "options": [
+    "friendly",
+    "friendlily",
+    "friend",
+    "friendily"
+   ],
+   "answer": 0,
+   "why": "friendly — прикметник, прислівника немає: in a friendly way."
+  },
+  {
+   "id": "adjectives-adverbs-20",
+   "type": "order",
+   "words": [
+    "She",
+    "speaks",
+    "English",
+    "very",
+    "well"
+   ],
+   "answer": [
+    "She speaks English very well"
+   ],
+   "why": "well — прислівник від good.",
+   "hint": "Вона дуже добре розмовляє англійською."
+  },
+  {
+   "id": "adjectives-adverbs-21",
+   "type": "order",
+   "words": [
+    "He",
+    "drove",
+    "slowly",
+    "through",
+    "the",
+    "town"
+   ],
+   "answer": [
+    "He drove slowly through the town"
+   ],
+   "why": "Прислівник способу — після дієслова.",
+   "hint": "Він повільно їхав через місто."
+  },
+  {
+   "id": "adjectives-adverbs-22",
+   "type": "order",
+   "words": [
+    "The",
+    "music",
+    "sounds",
+    "really",
+    "good"
+   ],
+   "answer": [
+    "The music sounds really good"
+   ],
+   "why": "Після sound — прикметник good.",
+   "hint": "Музика звучить справді добре."
   }
  ]
 }

@@ -35,4 +35,11 @@ tags: [tenses, all tenses, present, past, future, simple, continuous, perfect, p
 1. **Коли?** Зараз → Present, раніше → Past, потім → Future.
 2. **Який аспект?** Просто факт → Simple; процес → Continuous; результат/зв'язок → Perfect; тривалість і результат → Perfect Continuous.
 
-Докладні статті: «Present Simple і Present Continuous», «Present Perfect», «Минулі часи», «Майбутнє», «Future Continuous, Future Perfect…».
+## Типові помилки
+
+- ✗ *I am working here since 2020.* → ✓ *I **have been working** here since 2020.*
+- ✗ *Yesterday I have met Tom.* → ✓ *Yesterday I **met** Tom.*
+- ✗ *I will call you when I will arrive.* → ✓ *…when I **arrive**.*
+- ✗ *She is knowing him.* → ✓ *She **knows** him.*
+
+Докладні статті: «Present Simple і Present Continuous», «Present Perfect», «Минулі часи», «Майбутнє», «Future Continuous, Future Perfect і Future Perfect Continuous».

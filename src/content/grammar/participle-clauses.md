@@ -57,3 +57,10 @@ Participle clause — скорочена підрядна частина: зам
 ## Стиль
 
 Participle clauses — переважно **письмова** мова: *Having reviewed the report, we decided…*
+
+## Типові помилки
+
+- ✗ *Walking home, the rain started.* → ✓ *Walking home, **I got caught** in the rain.* (дія — підмета головного речення)
+- ✗ *Having finish work, she left.* → ✓ ***Having finished** work…*
+- ✗ *The man stood there is my uncle.* → ✓ *The man **standing** there…*
+- ✗ *Writing in 1900, the book is old.* → ✓ ***Written** in 1900…* (книгу написали — пасив)

@@ -2,35 +2,48 @@
 title: Порівняльний ступінь: a bit, a lot, much
 category: Прикметники та прислівники
 levels: [B1, B2]
-tags: [comparative, a little, a bit, a lot, much, hotter, more convenient, порівняльний ступінь, набагато, трохи]
+tags: [comparative, a little, a bit, a lot, much, far, slightly, even, no better, hotter, more convenient, порівняльний ступінь, набагато, трохи]
 ---
 
-Щоб сказати, **наскільки** одне більше за інше, перед порівняльним ступенем ставимо слово міри.
+Щоб сказати, **наскільки** одне більше чи менше за інше, перед порівняльним ступенем ставимо слово міри.
 
 ## Слова міри
 
-| Наскільки | Слова |
-| --- | --- |
-| **Трохи** | a little / a bit / a little bit |
-| **Набагато** | a lot / much |
-
-Слова міри вживають з **порівняльним** ступенем (не з найвищим).
-
-## Порівняльний ступінь
-
-| Прикметник | Порівняльний ступінь | Правило |
+| Наскільки | Слова | Приклад |
 | --- | --- | --- |
-| hot | **hotter** | короткий: `-er` |
-| convenient | **more convenient** | довгий: `more` |
+| **Трохи** | a bit, a little, slightly | This one is **a bit cheaper**. |
+| **Набагато** | much, a lot, far, way (розм.) | The new flat is **much bigger**. |
+| **Ще (більше)** | even, still | It was cold yesterday, but today it's **even colder**. |
+| **Анітрохи не** | no, not any | I'm **no better** today. / It isn't **any cheaper**. |
+
+Нагадування про утворення: короткі прикметники `-er` (*hot → hotter*), довгі — `more` (*convenient → more convenient*). Див. «Ступені порівняння прикметників і прислівників».
 
 ## Разом
 
 | Трохи | Набагато |
 | --- | --- |
-| **A little** hotter / **a little** more convenient | **A lot** hotter / **a lot** more convenient |
-| **A bit** hotter / **a bit** more convenient | **Much** hotter / **much** more convenient |
-| **A little bit** hotter / **a little bit** more convenient | |
+| **a bit** hotter / **a bit** more convenient | **much** hotter / **much** more convenient |
+| **a little** faster | **a lot** faster |
+| **slightly** more expensive | **far** more expensive |
 
-> Не кажемо *very hotter* — слово `very` з порівняльним ступенем не вживається. Потрібне `much` або `a lot`.
+## Even: «ще більше»
 
-Див. також: «As … as» та «Could be + прикметник у порівняльному ступені».
+`Even` підкреслює, що обидва вже мають цю ознаку: *Tom is tall, but his brother is **even taller**.* (обидва високі)
+
+## З more / less + іменник
+
+- ***much more** money*, ***a lot more** people*, ***far fewer** mistakes*
+- *There's **a bit less** traffic today.*
+
+З лічильними у множині — **many more**: *We need **many more** chairs.*
+
+## З найвищим ступенем
+
+Для найвищого ступеня — інші підсилювачі: *by far the best*, *easily the biggest*, *one of the most*.
+
+## Типові помилки
+
+- ✗ *It's very hotter today.* → ✓ *It's **much** hotter today.* (`very` — лише зі звичайною формою: *very hot*)
+- ✗ *This is more better.* → ✓ *This is **much better**.*
+- ✗ *a bit more cheap* → ✓ ***a bit cheaper***
+- ✗ *much more people* → ✓ ***many more** people* (people — лічильне)

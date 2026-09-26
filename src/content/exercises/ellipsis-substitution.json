@@ -103,6 +103,151 @@
    ],
    "answer": 0,
    "why": "Ellipsis — пропуск слів."
+  },
+  {
+   "id": "ellipsis-substitution-9",
+   "type": "fill",
+   "q": "\"Is he coming?\" — \"I'm afraid ___.\" (так, на жаль)",
+   "answer": [
+    "so"
+   ],
+   "why": "I'm afraid so — боюся, що так."
+  },
+  {
+   "id": "ellipsis-substitution-10",
+   "type": "fill",
+   "q": "\"Will it be expensive?\" — \"I hope ___.\"",
+   "answer": [
+    "not"
+   ],
+   "why": "I hope not — сподіваюся, що ні."
+  },
+  {
+   "id": "ellipsis-substitution-11",
+   "type": "fill",
+   "q": "I don't like these shoes. Can I see the black ___?",
+   "answer": [
+    "ones"
+   ],
+   "why": "ones — замість іменника в множині."
+  },
+  {
+   "id": "ellipsis-substitution-12",
+   "type": "fill",
+   "q": "She can swim, but I ___.",
+   "answer": [
+    "can't",
+    "cannot"
+   ],
+   "why": "Замість can't swim — лише допоміжне."
+  },
+  {
+   "id": "ellipsis-substitution-13",
+   "type": "fill",
+   "q": "\"I love this song.\" — \"So ___ I.\"",
+   "answer": [
+    "do"
+   ],
+   "why": "So do I — і я теж."
+  },
+  {
+   "id": "ellipsis-substitution-14",
+   "type": "choice",
+   "q": "\"Are you coming?\" — \"___ I don't feel well.\"",
+   "options": [
+    "I don't think so.",
+    "I think not so.",
+    "I don't think it.",
+    "I think no."
+   ],
+   "answer": 0,
+   "why": "I don't think so — природна заперечна відповідь."
+  },
+  {
+   "id": "ellipsis-substitution-15",
+   "type": "choice",
+   "q": "I wanted to call you, but I forgot ___.",
+   "options": [
+    "to",
+    "it to",
+    "to do",
+    "calling"
+   ],
+   "answer": 0,
+   "why": "Ellipsis: forgot to (call)."
+  },
+  {
+   "id": "ellipsis-substitution-16",
+   "type": "choice",
+   "q": "He said he would help, and he ___.",
+   "options": [
+    "did",
+    "made",
+    "helped it",
+    "does so it"
+   ],
+   "answer": 0,
+   "why": "did замінює helped."
+  },
+  {
+   "id": "ellipsis-substitution-17",
+   "type": "choice",
+   "q": "Which is substitution?",
+   "options": [
+    "I think so.",
+    "Coming?",
+    "Want some tea?",
+    "Tom is tall and thin."
+   ],
+   "answer": 0,
+   "why": "so замінює ціле речення."
+  },
+  {
+   "id": "ellipsis-substitution-18",
+   "type": "order",
+   "words": [
+    "I",
+    "hope",
+    "so"
+   ],
+   "answer": [
+    "I hope so"
+   ],
+   "why": "so замінює речення.",
+   "hint": "Сподіваюся, що так."
+  },
+  {
+   "id": "ellipsis-substitution-19",
+   "type": "order",
+   "words": [
+    "The",
+    "red",
+    "one",
+    "is",
+    "mine"
+   ],
+   "answer": [
+    "The red one is mine"
+   ],
+   "why": "one замінює іменник.",
+   "hint": "Червоний — мій."
+  },
+  {
+   "id": "ellipsis-substitution-20",
+   "type": "order",
+   "words": [
+    "She",
+    "works",
+    "harder",
+    "than",
+    "I",
+    "do"
+   ],
+   "answer": [
+    "She works harder than I do"
+   ],
+   "why": "do замінює works.",
+   "hint": "Вона працює старанніше, ніж я."
   }
  ]
 }

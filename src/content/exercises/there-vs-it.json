@@ -116,6 +116,156 @@
    ],
    "answer": 1,
    "why": "Відстань — it."
+  },
+  {
+   "id": "there-vs-it-10",
+   "type": "fill",
+   "q": "___ is too hot in here. Open the window.",
+   "answer": [
+    "It"
+   ],
+   "why": "Температура, погода — it."
+  },
+  {
+   "id": "there-vs-it-11",
+   "type": "fill",
+   "q": "___ are lots of things to see in Lviv.",
+   "answer": [
+    "There"
+   ],
+   "why": "Наявність — there are."
+  },
+  {
+   "id": "there-vs-it-12",
+   "type": "fill",
+   "q": "___ was nice to meet you.",
+   "answer": [
+    "It"
+   ],
+   "why": "It was nice to… — підготовчий підмет."
+  },
+  {
+   "id": "there-vs-it-13",
+   "type": "fill",
+   "q": "___ costs a lot to live in London.",
+   "answer": [
+    "It"
+   ],
+   "why": "It costs… — підготовчий підмет."
+  },
+  {
+   "id": "there-vs-it-14",
+   "type": "fill",
+   "q": "___ is no need to hurry.",
+   "answer": [
+    "There"
+   ],
+   "why": "There is no need to…"
+  },
+  {
+   "id": "there-vs-it-15",
+   "type": "choice",
+   "q": "___ seems that we're lost.",
+   "options": [
+    "It",
+    "There",
+    "This",
+    "That"
+   ],
+   "answer": 0,
+   "why": "It seems that…"
+  },
+  {
+   "id": "there-vs-it-16",
+   "type": "choice",
+   "q": "___ is a man at the door. He wants to see you.",
+   "options": [
+    "There",
+    "It",
+    "He",
+    "This"
+   ],
+   "answer": 0,
+   "why": "Нова інформація — there."
+  },
+  {
+   "id": "there-vs-it-17",
+   "type": "choice",
+   "q": "I love this song. ___ is so beautiful.",
+   "options": [
+    "It",
+    "There",
+    "This one it",
+    "That it"
+   ],
+   "answer": 0,
+   "why": "Про вже згадане — it."
+  },
+  {
+   "id": "there-vs-it-18",
+   "type": "choice",
+   "q": "___ is Monday today.",
+   "options": [
+    "It",
+    "There",
+    "This",
+    "That"
+   ],
+   "answer": 0,
+   "why": "Дні, дати — it."
+  },
+  {
+   "id": "there-vs-it-19",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "important",
+    "to",
+    "drink",
+    "water"
+   ],
+   "answer": [
+    "It is important to drink water"
+   ],
+   "why": "It is + adj + to-інфінітив.",
+   "hint": "Важливо пити воду."
+  },
+  {
+   "id": "there-vs-it-20",
+   "type": "order",
+   "words": [
+    "There",
+    "is",
+    "a",
+    "problem",
+    "with",
+    "my",
+    "phone"
+   ],
+   "answer": [
+    "There is a problem with my phone"
+   ],
+   "why": "there is — нова інформація.",
+   "hint": "З моїм телефоном проблема."
+  },
+  {
+   "id": "there-vs-it-21",
+   "type": "order",
+   "words": [
+    "It",
+    "takes",
+    "an",
+    "hour",
+    "to",
+    "get",
+    "there"
+   ],
+   "answer": [
+    "It takes an hour to get there"
+   ],
+   "why": "It takes + час.",
+   "hint": "Туди їхати годину."
   }
  ]
 }

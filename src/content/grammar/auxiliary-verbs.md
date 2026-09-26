@@ -59,4 +59,11 @@ tags: [auxiliary verbs, do, does, did, be, have, main verb, short answers, до�
 | Passive | be |
 | Модальні | can, will, should… |
 
+## Типові помилки
+
+- ✗ *Does she can swim?* → ✓ ***Can** she swim?* (модальне — без do)
+- ✗ *He don't like it.* → ✓ *He **doesn't** like it.*
+- ✗ *Did you saw him?* → ✓ *Did you **see** him?*
+- ✗ *Have you a car?* (застаріло) → ✓ ***Do** you have a car?* / ***Have** you **got** a car?*
+
 Див. «Question tags, so am I, neither do I» та «Ellipsis and substitution».

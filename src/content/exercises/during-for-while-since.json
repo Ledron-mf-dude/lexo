@@ -129,6 +129,168 @@
    ],
    "answer": 1,
    "why": "How long + Present Perfect."
+  },
+  {
+   "id": "during-for-while-since-11",
+   "type": "fill",
+   "q": "I've known her ___ we were children.",
+   "answer": [
+    "since"
+   ],
+   "why": "since + момент (речення): since we were children."
+  },
+  {
+   "id": "during-for-while-since-12",
+   "type": "fill",
+   "q": "We waited ___ over an hour.",
+   "answer": [
+    "for"
+   ],
+   "why": "for + тривалість."
+  },
+  {
+   "id": "during-for-while-since-13",
+   "type": "fill",
+   "q": "Somebody called ___ you were out.",
+   "answer": [
+    "while"
+   ],
+   "why": "while + речення."
+  },
+  {
+   "id": "during-for-while-since-14",
+   "type": "fill",
+   "q": "Please don't talk ___ the exam.",
+   "answer": [
+    "during"
+   ],
+   "why": "during + іменник."
+  },
+  {
+   "id": "during-for-while-since-15",
+   "type": "fill",
+   "q": "I finished school ten years ___.",
+   "answer": [
+    "ago"
+   ],
+   "why": "ago — назад від тепер, з Past Simple."
+  },
+  {
+   "id": "during-for-while-since-16",
+   "type": "choice",
+   "q": "I worked there ___ five years, then I left.",
+   "options": [
+    "for",
+    "since",
+    "during",
+    "ago"
+   ],
+   "answer": 0,
+   "why": "for + тривалість (Past Simple — уже не працює)."
+  },
+  {
+   "id": "during-for-while-since-17",
+   "type": "choice",
+   "q": "She's been a teacher ___ 2018.",
+   "options": [
+    "since",
+    "for",
+    "from",
+    "during"
+   ],
+   "answer": 0,
+   "why": "since + рік."
+  },
+  {
+   "id": "during-for-while-since-18",
+   "type": "choice",
+   "q": "It rained ___ the night.",
+   "options": [
+    "during",
+    "while",
+    "for",
+    "since"
+   ],
+   "answer": 0,
+   "why": "during + іменник (коли)."
+  },
+  {
+   "id": "during-for-while-since-19",
+   "type": "choice",
+   "q": "I read a book ___ I was waiting.",
+   "options": [
+    "while",
+    "during",
+    "for",
+    "since"
+   ],
+   "answer": 0,
+   "why": "while + речення."
+  },
+  {
+   "id": "during-for-while-since-20",
+   "type": "choice",
+   "q": "The shop is open ___ 8 am ___ 9 pm.",
+   "options": [
+    "from / to",
+    "since / to",
+    "for / until",
+    "during / to"
+   ],
+   "answer": 0,
+   "why": "from … to — з … до."
+  },
+  {
+   "id": "during-for-while-since-21",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "lived",
+    "here",
+    "for",
+    "five",
+    "years"
+   ],
+   "answer": [
+    "I have lived here for five years"
+   ],
+   "why": "for + тривалість, Present Perfect.",
+   "hint": "Я живу тут п'ять років."
+  },
+  {
+   "id": "during-for-while-since-22",
+   "type": "order",
+   "words": [
+    "She",
+    "fell",
+    "asleep",
+    "during",
+    "the",
+    "lesson"
+   ],
+   "answer": [
+    "She fell asleep during the lesson"
+   ],
+   "why": "during + іменник.",
+   "hint": "Вона заснула під час уроку."
+  },
+  {
+   "id": "during-for-while-since-23",
+   "type": "order",
+   "words": [
+    "He",
+    "called",
+    "while",
+    "I",
+    "was",
+    "cooking"
+   ],
+   "answer": [
+    "He called while I was cooking"
+   ],
+   "why": "while + речення.",
+   "hint": "Він зателефонував, поки я готував."
   }
  ]
 }

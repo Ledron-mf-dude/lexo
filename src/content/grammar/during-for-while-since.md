@@ -54,4 +54,11 @@ tags: [for, since, from, during, while, ago, how long, prepositions of time, п�
 3. I met her (during / while) I was travelling. → **while**
 4. She called (during / for) the meeting. → **during**
 
+## Типові помилки
+
+- ✗ *I've lived here since ten years.* → ✓ *…**for** ten years.*
+- ✗ *I fell asleep during I was watching TV.* → ✓ *…**while** I was watching TV.* / *…**during** the film.*
+- ✗ *I have moved here two years ago.* → ✓ *I **moved** here two years ago.*
+- ✗ *I slept during eight hours.* → ✓ *I slept **for** eight hours.*
+
 Див. «Present Perfect», «Прийменники часу».

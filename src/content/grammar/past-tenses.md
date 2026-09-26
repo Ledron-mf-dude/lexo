@@ -43,3 +43,10 @@ tags: [past simple, past continuous, past perfect, narrative tenses, was were, h
 ## Звички в минулому
 
 `used to` і `would` — для регулярних дій, яких уже немає. Див. «Used to, would, be used to, get used to».
+
+## Типові помилки
+
+- ✗ *When I arrived, the film started.* (почався раніше) → ✓ *…the film **had started**.*
+- ✗ *I was cooking when the phone was ringing.* → ✓ *…when the phone **rang**.*
+- ✗ *Did you saw it?* → ✓ *Did you **see** it?*
+- ✗ *While I watched TV, she was cooking.* (обидва процеси) → ✓ *While I **was watching** TV…*

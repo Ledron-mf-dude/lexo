@@ -116,6 +116,162 @@
    ],
    "answer": 0,
    "why": "these days — тимчасова ситуація."
+  },
+  {
+   "id": "time-markers-10",
+   "type": "fill",
+   "q": "I met her two years ___.",
+   "answer": [
+    "ago"
+   ],
+   "why": "ago — маркер Past Simple."
+  },
+  {
+   "id": "time-markers-11",
+   "type": "fill",
+   "q": "Have you ___ been to Canada?",
+   "answer": [
+    "ever"
+   ],
+   "why": "ever — маркер Present Perfect."
+  },
+  {
+   "id": "time-markers-12",
+   "type": "fill",
+   "q": "I haven't finished ___.",
+   "answer": [
+    "yet"
+   ],
+   "why": "yet — Present Perfect, заперечення."
+  },
+  {
+   "id": "time-markers-13",
+   "type": "fill",
+   "q": "I'm very busy ___ the moment.",
+   "answer": [
+    "at"
+   ],
+   "why": "at the moment — Present Continuous."
+  },
+  {
+   "id": "time-markers-14",
+   "type": "fill",
+   "q": "We'll see each other ___ week.",
+   "answer": [
+    "next"
+   ],
+   "why": "next week — майбутнє."
+  },
+  {
+   "id": "time-markers-15",
+   "type": "choice",
+   "q": "She ___ to Paris last year.",
+   "options": [
+    "went",
+    "has gone",
+    "goes",
+    "has been going"
+   ],
+   "answer": 0,
+   "why": "last year — Past Simple."
+  },
+  {
+   "id": "time-markers-16",
+   "type": "choice",
+   "q": "I ___ this film already.",
+   "options": [
+    "have seen",
+    "saw",
+    "see",
+    "am seeing"
+   ],
+   "answer": 0,
+   "why": "already — Present Perfect."
+  },
+  {
+   "id": "time-markers-17",
+   "type": "choice",
+   "q": "He ___ a shower right now.",
+   "options": [
+    "is having",
+    "has",
+    "had",
+    "has had"
+   ],
+   "answer": 0,
+   "why": "right now — Present Continuous."
+  },
+  {
+   "id": "time-markers-18",
+   "type": "choice",
+   "q": "At 7 pm yesterday we ___ dinner.",
+   "options": [
+    "were having",
+    "had had",
+    "have",
+    "are having"
+   ],
+   "answer": 0,
+   "why": "Момент у минулому — Past Continuous."
+  },
+  {
+   "id": "time-markers-19",
+   "type": "choice",
+   "q": "I ___ him since Monday.",
+   "options": [
+    "haven't seen",
+    "didn't see",
+    "don't see",
+    "wasn't seeing"
+   ],
+   "answer": 0,
+   "why": "since — Present Perfect."
+  },
+  {
+   "id": "time-markers-20",
+   "type": "order",
+   "words": [
+    "I",
+    "saw",
+    "him",
+    "yesterday"
+   ],
+   "answer": [
+    "I saw him yesterday"
+   ],
+   "why": "yesterday — Past Simple.",
+   "hint": "Я бачив його вчора."
+  },
+  {
+   "id": "time-markers-21",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "already",
+    "left"
+   ],
+   "answer": [
+    "She has already left"
+   ],
+   "why": "already — Present Perfect.",
+   "hint": "Вона вже пішла."
+  },
+  {
+   "id": "time-markers-22",
+   "type": "order",
+   "words": [
+    "We",
+    "are",
+    "having",
+    "lunch",
+    "now"
+   ],
+   "answer": [
+    "We are having lunch now"
+   ],
+   "why": "now — Present Continuous.",
+   "hint": "Ми зараз обідаємо."
   }
  ]
 }

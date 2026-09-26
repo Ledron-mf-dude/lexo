@@ -47,4 +47,11 @@ tags: [conjunctions, and, but, or, so, because, both and, either or, neither nor
 
 У переліку `and` — перед останнім елементом: *apples, oranges, **and** bananas.*
 
+## Типові помилки
+
+- ✗ *Because I was tired, so I went home.* → ✓ *Because I was tired, I went home.* / *I was tired, **so** I went home.*
+- ✗ *Although it rained, but we went out.* → ✓ *Although it rained, we went out.*
+- ✗ *because of it was late* → ✓ *because **it was** late* / *because of **the time***
+- ✗ *Neither Tom nor Anna didn't come.* → ✓ *Neither Tom nor Anna **came**.*
+
 Докладніше про контраст, мету, причину — «Contrast, purpose, reason, result».

@@ -1,0 +1,240 @@
+{
+ "questions": [
+  {
+   "id": "past-modals-1",
+   "type": "choice",
+   "q": "You ___ told me earlier! Now it's too late.",
+   "options": [
+    "should have",
+    "should",
+    "must have",
+    "could"
+   ],
+   "answer": 0,
+   "why": "should have + V3 — докір."
+  },
+  {
+   "id": "past-modals-2",
+   "type": "choice",
+   "q": "The ground is wet. It ___ rained last night.",
+   "options": [
+    "must have",
+    "should have",
+    "can't have",
+    "would"
+   ],
+   "answer": 0,
+   "why": "must have + V3 — упевнений висновок."
+  },
+  {
+   "id": "past-modals-3",
+   "type": "choice",
+   "q": "She ___ seen me — she was asleep.",
+   "options": [
+    "can't have",
+    "mustn't have",
+    "shouldn't have",
+    "wouldn't"
+   ],
+   "answer": 0,
+   "why": "can't have + V3 — не може бути."
+  },
+  {
+   "id": "past-modals-4",
+   "type": "choice",
+   "q": "I'm not sure where he is. He ___ missed the bus.",
+   "options": [
+    "might have",
+    "must",
+    "should have",
+    "can't have"
+   ],
+   "answer": 0,
+   "why": "might have + V3 — можливо."
+  },
+  {
+   "id": "past-modals-5",
+   "type": "choice",
+   "q": "We ___ won, but we didn't try hard enough.",
+   "options": [
+    "could have",
+    "must have",
+    "should",
+    "can have"
+   ],
+   "answer": 0,
+   "why": "could have + V3 — була можливість."
+  },
+  {
+   "id": "past-modals-6",
+   "type": "choice",
+   "q": "You ___ brought a present. That's very kind, but it wasn't necessary.",
+   "options": [
+    "needn't have",
+    "mustn't have",
+    "couldn't have",
+    "shouldn't"
+   ],
+   "answer": 0,
+   "why": "needn't have + V3 — не треба було (а зробили)."
+  },
+  {
+   "id": "past-modals-7",
+   "type": "choice",
+   "q": "I ___ eaten so much. I feel sick.",
+   "options": [
+    "shouldn't have",
+    "couldn't have",
+    "needn't",
+    "mustn't have"
+   ],
+   "answer": 0,
+   "why": "shouldn't have + V3 — жаль."
+  },
+  {
+   "id": "past-modals-8",
+   "type": "choice",
+   "q": "If you had asked me, I ___ helped you.",
+   "options": [
+    "would have",
+    "will have",
+    "would",
+    "should"
+   ],
+   "answer": 0,
+   "why": "would have + V3 — третє умовне."
+  },
+  {
+   "id": "past-modals-9",
+   "type": "choice",
+   "q": "How is it pronounced? \"I should've\" =",
+   "options": [
+    "I should have",
+    "I should of",
+    "I should off",
+    "I shouldn't"
+   ],
+   "answer": 0,
+   "why": "should've = should have."
+  },
+  {
+   "id": "past-modals-10",
+   "type": "fill",
+   "q": "You should ___ (ask) me for help.",
+   "answer": [
+    "have asked"
+   ],
+   "why": "should have + V3."
+  },
+  {
+   "id": "past-modals-11",
+   "type": "fill",
+   "q": "He must ___ (forget) about the meeting.",
+   "answer": [
+    "have forgotten"
+   ],
+   "why": "must have + V3."
+  },
+  {
+   "id": "past-modals-12",
+   "type": "fill",
+   "q": "They can't ___ (finish) already. It's too early.",
+   "answer": [
+    "have finished"
+   ],
+   "why": "can't have + V3."
+  },
+  {
+   "id": "past-modals-13",
+   "type": "fill",
+   "q": "She might ___ (take) the wrong train.",
+   "answer": [
+    "have taken"
+   ],
+   "why": "might have + V3."
+  },
+  {
+   "id": "past-modals-14",
+   "type": "fill",
+   "q": "I couldn't ___ (do) it without you.",
+   "answer": [
+    "have done"
+   ],
+   "why": "couldn't have + V3."
+  },
+  {
+   "id": "past-modals-15",
+   "type": "fill",
+   "q": "You ___ have hurried. The train was late anyway.",
+   "answer": [
+    "needn't",
+    "need not"
+   ],
+   "why": "needn't have + V3."
+  },
+  {
+   "id": "past-modals-16",
+   "type": "order",
+   "words": [
+    "You",
+    "should",
+    "have",
+    "called",
+    "me"
+   ],
+   "answer": [
+    "You should have called me"
+   ],
+   "why": "should have + V3.",
+   "hint": "Тобі слід було мені зателефонувати."
+  },
+  {
+   "id": "past-modals-17",
+   "type": "order",
+   "words": [
+    "She",
+    "must",
+    "have",
+    "left",
+    "early"
+   ],
+   "answer": [
+    "She must have left early"
+   ],
+   "why": "must have + V3.",
+   "hint": "Вона, мабуть, пішла рано."
+  },
+  {
+   "id": "past-modals-18",
+   "type": "order",
+   "words": [
+    "I",
+    "could",
+    "have",
+    "helped",
+    "you"
+   ],
+   "answer": [
+    "I could have helped you"
+   ],
+   "why": "could have + V3.",
+   "hint": "Я міг би тобі допомогти."
+  },
+  {
+   "id": "past-modals-19",
+   "type": "order",
+   "words": [
+    "He",
+    "can't",
+    "have",
+    "seen",
+    "us"
+   ],
+   "answer": [
+    "He can't have seen us"
+   ],
+   "why": "can't have + V3.",
+   "hint": "Він не міг нас бачити."
+  }
+ ]
+}

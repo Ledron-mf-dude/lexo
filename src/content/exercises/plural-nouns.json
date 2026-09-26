@@ -113,6 +113,153 @@
    ],
    "answer": 1,
    "why": "Приголосна + y → -ies."
+  },
+  {
+   "id": "plural-nouns-11",
+   "type": "fill",
+   "q": "The plural of 'woman' is ___.",
+   "answer": [
+    "women"
+   ],
+   "why": "Неправильна множина: woman → women."
+  },
+  {
+   "id": "plural-nouns-12",
+   "type": "fill",
+   "q": "The plural of 'potato' is ___.",
+   "answer": [
+    "potatoes"
+   ],
+   "why": "Приголосна + o → -es: potatoes."
+  },
+  {
+   "id": "plural-nouns-13",
+   "type": "fill",
+   "q": "The plural of 'mouse' is ___.",
+   "answer": [
+    "mice"
+   ],
+   "why": "Неправильна множина: mice."
+  },
+  {
+   "id": "plural-nouns-14",
+   "type": "fill",
+   "q": "The plural of 'day' is ___.",
+   "answer": [
+    "days"
+   ],
+   "why": "Голосна + y → -s."
+  },
+  {
+   "id": "plural-nouns-15",
+   "type": "fill",
+   "q": "The plural of 'foot' is ___.",
+   "answer": [
+    "feet"
+   ],
+   "why": "Неправильна множина: feet."
+  },
+  {
+   "id": "plural-nouns-16",
+   "type": "choice",
+   "q": "The plural of 'photo' is:",
+   "options": [
+    "photos",
+    "photoes",
+    "photies",
+    "photo"
+   ],
+   "answer": 0,
+   "why": "Виняток: photo → photos."
+  },
+  {
+   "id": "plural-nouns-17",
+   "type": "choice",
+   "q": "The police ___ looking for him.",
+   "options": [
+    "are",
+    "is",
+    "was",
+    "has"
+   ],
+   "answer": 0,
+   "why": "police — завжди множина."
+  },
+  {
+   "id": "plural-nouns-18",
+   "type": "choice",
+   "q": "Physics ___ my favourite subject.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have"
+   ],
+   "answer": 0,
+   "why": "physics — однина."
+  },
+  {
+   "id": "plural-nouns-19",
+   "type": "choice",
+   "q": "I need a new ___ of glasses.",
+   "options": [
+    "pair",
+    "piece",
+    "set of two",
+    "couple's"
+   ],
+   "answer": 0,
+   "why": "glasses — лише множина: a pair of glasses."
+  },
+  {
+   "id": "plural-nouns-20",
+   "type": "order",
+   "words": [
+    "There",
+    "are",
+    "three",
+    "men",
+    "in",
+    "the",
+    "room"
+   ],
+   "answer": [
+    "There are three men in the room"
+   ],
+   "why": "man → men.",
+   "hint": "У кімнаті троє чоловіків."
+  },
+  {
+   "id": "plural-nouns-21",
+   "type": "order",
+   "words": [
+    "The",
+    "children",
+    "are",
+    "playing",
+    "outside"
+   ],
+   "answer": [
+    "The children are playing outside"
+   ],
+   "why": "children + are.",
+   "hint": "Діти граються надворі."
+  },
+  {
+   "id": "plural-nouns-22",
+   "type": "order",
+   "words": [
+    "My",
+    "jeans",
+    "are",
+    "too",
+    "tight"
+   ],
+   "answer": [
+    "My jeans are too tight"
+   ],
+   "why": "jeans — множина.",
+   "hint": "Мої джинси затісні."
   }
  ]
 }

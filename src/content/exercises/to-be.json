@@ -123,6 +123,151 @@
     "How old are you?"
    ],
    "why": "How old + to be + підмет."
+  },
+  {
+   "id": "to-be-11",
+   "type": "fill",
+   "q": "We ___ from Ukraine.",
+   "answer": [
+    "are",
+    "'re"
+   ],
+   "why": "we are."
+  },
+  {
+   "id": "to-be-12",
+   "type": "fill",
+   "q": "___ you tired?",
+   "answer": [
+    "Are"
+   ],
+   "why": "Питання: Are + you."
+  },
+  {
+   "id": "to-be-13",
+   "type": "fill",
+   "q": "I ___ not hungry.",
+   "answer": [
+    "am",
+    "'m"
+   ],
+   "why": "I am not."
+  },
+  {
+   "id": "to-be-14",
+   "type": "fill",
+   "q": "My parents ___ doctors.",
+   "answer": [
+    "are"
+   ],
+   "why": "Множина — are."
+  },
+  {
+   "id": "to-be-15",
+   "type": "fill",
+   "q": "Where ___ your keys?",
+   "answer": [
+    "are"
+   ],
+   "why": "keys — множина: Where are…?"
+  },
+  {
+   "id": "to-be-16",
+   "type": "choice",
+   "q": "I ___ 25 years old.",
+   "options": [
+    "am",
+    "have",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "why": "Вік — be: I am 25."
+  },
+  {
+   "id": "to-be-17",
+   "type": "choice",
+   "q": "___ your sister a teacher?",
+   "options": [
+    "Is",
+    "Does",
+    "Are",
+    "Has"
+   ],
+   "answer": 0,
+   "why": "Is + підмет?"
+  },
+  {
+   "id": "to-be-18",
+   "type": "choice",
+   "q": "\"Is he at work?\" — \"No, he ___.\"",
+   "options": [
+    "isn't",
+    "doesn't",
+    "not",
+    "aren't"
+   ],
+   "answer": 0,
+   "why": "Коротка відповідь: No, he isn't."
+  },
+  {
+   "id": "to-be-19",
+   "type": "choice",
+   "q": "This is Tom and ___ is his wife, Anna.",
+   "options": [
+    "this",
+    "these",
+    "here",
+    "that are"
+   ],
+   "answer": 0,
+   "why": "Знайомимо: this is…"
+  },
+  {
+   "id": "to-be-20",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "my",
+    "sister"
+   ],
+   "answer": [
+    "She is my sister"
+   ],
+   "why": "she is.",
+   "hint": "Вона моя сестра."
+  },
+  {
+   "id": "to-be-21",
+   "type": "order",
+   "words": [
+    "Where",
+    "are",
+    "you",
+    "from"
+   ],
+   "answer": [
+    "Where are you from"
+   ],
+   "why": "Where + are + підмет.",
+   "hint": "Звідки ти?"
+  },
+  {
+   "id": "to-be-22",
+   "type": "order",
+   "words": [
+    "They",
+    "are",
+    "not",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "They are not at home"
+   ],
+   "why": "are not.",
+   "hint": "Їх немає вдома."
   }
  ]
 }

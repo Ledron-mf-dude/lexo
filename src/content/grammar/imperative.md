@@ -33,4 +33,11 @@ tags: [imperative, sit down, don't, let's, please, наказовий спосі
 - **Заперечення з be:** *Don't be silly!* (не *Be not silly*).
 - Ввічливий тон залежить від інтонації та слова `please`.
 
+## Типові помилки
+
+- ✗ *Not talk!* → ✓ ***Don't** talk!*
+- ✗ *Be not late!* → ✓ ***Don't be** late!*
+- ✗ *Let's to go!* → ✓ *Let's **go**!*
+- ✗ *Let's don't argue.* (BrE) → ✓ *Let's **not** argue.*
+
 Порівняйте з проханнями через модальні: *Could you close the door?* — м'якше. Див. «Can, could, be able to».

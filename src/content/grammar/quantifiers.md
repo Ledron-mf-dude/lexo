@@ -33,6 +33,8 @@ tags: [quantifiers, much, many, a lot of, few, a few, little, a little, some, an
 - **too much / too many** — надто багато: *There's **too much** sugar.*
 - **enough** — достатньо. Перед іменником: *enough time*; **після** прикметника: *tall **enough**.*
 
+Докладніше: «Too і enough (занадто, достатньо)».
+
 ## All, both, either, neither
 
 | Слово | Значення | Приклад |
@@ -44,3 +46,11 @@ tags: [quantifiers, much, many, a lot of, few, a few, little, a little, some, an
 | **none** | жоден із багатьох | **None** of them came. |
 
 Після `neither` і `either` дієслово зазвичай в **однині**: *Neither of them **is** here.*
+
+## Типові помилки
+
+- ✗ *I have much friends.* → ✓ *I have **a lot of / many** friends.*
+- ✗ *There is few water.* → ✓ *There is **little** water.*
+- ✗ *I have a few money.* → ✓ *I have **a little** money.*
+- ✗ *Neither of them are here.* (формально) → ✓ *Neither of them **is** here.*
+- ✗ *It's enough big.* → ✓ *It's big **enough**.*

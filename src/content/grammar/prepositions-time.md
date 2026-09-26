@@ -50,4 +50,12 @@ tags: [prepositions of time, at, in, on, by, until, before, after, at night, in 
 | **for** | протягом | **for** two hours |
 | **during** | під час | **during** the meeting |
 
+## Типові помилки
+
+- ✗ *in Monday* → ✓ ***on** Monday*
+- ✗ *at the morning* → ✓ ***in** the morning* (але *at night*)
+- ✗ *on next week* → ✓ ***next week*** (без прийменника)
+- ✗ *Finish it until Friday.* (дедлайн) → ✓ *Finish it **by** Friday.*
+- ✗ *in 5 o'clock* → ✓ ***at** 5 o'clock*
+
 Про `for / since / during / while`: «For, since, from, during, while». Про `on time / in time`: «On time чи in time».

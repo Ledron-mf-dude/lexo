@@ -121,6 +121,157 @@
     "She is working from home today"
    ],
    "why": "today — тимчасова ситуація."
+  },
+  {
+   "id": "present-simple-vs-continuous-11",
+   "type": "fill",
+   "q": "Listen! Someone ___ (knock) at the door.",
+   "answer": [
+    "is knocking",
+    "'s knocking"
+   ],
+   "why": "Listen! — зараз."
+  },
+  {
+   "id": "present-simple-vs-continuous-12",
+   "type": "fill",
+   "q": "My sister ___ (live) in Canada.",
+   "answer": [
+    "lives"
+   ],
+   "why": "Постійна ситуація — Present Simple."
+  },
+  {
+   "id": "present-simple-vs-continuous-13",
+   "type": "fill",
+   "q": "I ___ (not / understand) this question.",
+   "answer": [
+    "don't understand",
+    "do not understand"
+   ],
+   "why": "understand — стан."
+  },
+  {
+   "id": "present-simple-vs-continuous-14",
+   "type": "fill",
+   "q": "___ it often rain here?",
+   "answer": [
+    "Does"
+   ],
+   "why": "it → Does."
+  },
+  {
+   "id": "present-simple-vs-continuous-15",
+   "type": "fill",
+   "q": "He ___ (always / lose) his keys! It's so annoying.",
+   "answer": [
+    "is always losing",
+    "'s always losing"
+   ],
+   "why": "always + Continuous — роздратування."
+  },
+  {
+   "id": "present-simple-vs-continuous-16",
+   "type": "choice",
+   "q": "The shop ___ at 9 on Sundays.",
+   "options": [
+    "opens",
+    "is opening",
+    "open",
+    "opening"
+   ],
+   "answer": 0,
+   "why": "Розклад — Present Simple."
+  },
+  {
+   "id": "present-simple-vs-continuous-17",
+   "type": "choice",
+   "q": "I ___ at a hotel until I find a flat.",
+   "options": [
+    "am staying",
+    "stay",
+    "staying",
+    "am stay"
+   ],
+   "answer": 0,
+   "why": "Тимчасово — Present Continuous."
+  },
+  {
+   "id": "present-simple-vs-continuous-18",
+   "type": "choice",
+   "q": "This soup ___ delicious.",
+   "options": [
+    "tastes",
+    "is tasting",
+    "taste",
+    "tasting"
+   ],
+   "answer": 0,
+   "why": "taste (на смак) — стан."
+  },
+  {
+   "id": "present-simple-vs-continuous-19",
+   "type": "choice",
+   "q": "What ___ you usually ___ at weekends?",
+   "options": [
+    "do / do",
+    "are / doing",
+    "do / doing",
+    "are / do"
+   ],
+   "answer": 0,
+   "why": "usually — Present Simple."
+  },
+  {
+   "id": "present-simple-vs-continuous-20",
+   "type": "order",
+   "words": [
+    "She",
+    "works",
+    "in",
+    "a",
+    "hospital"
+   ],
+   "answer": [
+    "She works in a hospital"
+   ],
+   "why": "Постійна ситуація.",
+   "hint": "Вона працює в лікарні."
+  },
+  {
+   "id": "present-simple-vs-continuous-21",
+   "type": "order",
+   "words": [
+    "I",
+    "am",
+    "reading",
+    "a",
+    "great",
+    "book",
+    "at",
+    "the",
+    "moment"
+   ],
+   "answer": [
+    "I am reading a great book at the moment"
+   ],
+   "why": "at the moment — Continuous.",
+   "hint": "Зараз я читаю чудову книжку."
+  },
+  {
+   "id": "present-simple-vs-continuous-22",
+   "type": "order",
+   "words": [
+    "What",
+    "do",
+    "you",
+    "do"
+   ],
+   "answer": [
+    "What do you do"
+   ],
+   "why": "What do you do? — питання про професію.",
+   "hint": "Ким ти працюєш?"
   }
  ]
 }

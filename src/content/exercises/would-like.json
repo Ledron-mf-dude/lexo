@@ -105,6 +105,155 @@
     "Would you like some tea?"
    ],
    "why": "Would you like + іменник."
+  },
+  {
+   "id": "would-like-9",
+   "type": "fill",
+   "q": "I'd like ___ (order) a pizza, please.",
+   "answer": [
+    "to order"
+   ],
+   "why": "would like + to + V."
+  },
+  {
+   "id": "would-like-10",
+   "type": "fill",
+   "q": "Would you like ___ milk in your tea?",
+   "answer": [
+    "some"
+   ],
+   "why": "some — у пропозиціях."
+  },
+  {
+   "id": "would-like-11",
+   "type": "fill",
+   "q": "\"Would you like to join us?\" — \"I'd ___ to!\"",
+   "answer": [
+    "love"
+   ],
+   "why": "I'd love to — із задоволенням."
+  },
+  {
+   "id": "would-like-12",
+   "type": "fill",
+   "q": "What ___ you like to drink?",
+   "answer": [
+    "would"
+   ],
+   "why": "What would you like…?"
+  },
+  {
+   "id": "would-like-13",
+   "type": "fill",
+   "q": "I ___ like to be late. (заперечення)",
+   "answer": [
+    "wouldn't",
+    "would not"
+   ],
+   "why": "wouldn't like to + V."
+  },
+  {
+   "id": "would-like-14",
+   "type": "choice",
+   "q": "\"Would you like some cake?\" — \"No, ___.\"",
+   "options": [
+    "thank you",
+    "I wouldn't like",
+    "I don't",
+    "not"
+   ],
+   "answer": 0,
+   "why": "No, thank you — ввічлива відмова."
+  },
+  {
+   "id": "would-like-15",
+   "type": "choice",
+   "q": "___ some help with that?",
+   "options": [
+    "Would you like",
+    "Do you like",
+    "Would you",
+    "You like"
+   ],
+   "answer": 0,
+   "why": "Would you like…? — пропозиція."
+  },
+  {
+   "id": "would-like-16",
+   "type": "choice",
+   "q": "I'd like you ___ my colleague.",
+   "options": [
+    "to meet",
+    "meet",
+    "meeting",
+    "to meeting"
+   ],
+   "answer": 0,
+   "why": "would like + особа + to + V."
+  },
+  {
+   "id": "would-like-17",
+   "type": "choice",
+   "q": "Do you like ___?",
+   "options": [
+    "cooking",
+    "to cooking",
+    "cook",
+    "cooks"
+   ],
+   "answer": 0,
+   "why": "Загальне вподобання — like + -ing (або to V)."
+  },
+  {
+   "id": "would-like-18",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "like",
+    "a",
+    "glass",
+    "of",
+    "water"
+   ],
+   "answer": [
+    "I would like a glass of water"
+   ],
+   "why": "would like + іменник.",
+   "hint": "Я б хотів склянку води."
+  },
+  {
+   "id": "would-like-19",
+   "type": "order",
+   "words": [
+    "Would",
+    "you",
+    "like",
+    "to",
+    "dance"
+   ],
+   "answer": [
+    "Would you like to dance"
+   ],
+   "why": "Would you like to + V.",
+   "hint": "Хочеш потанцювати?"
+  },
+  {
+   "id": "would-like-20",
+   "type": "order",
+   "words": [
+    "What",
+    "would",
+    "you",
+    "like",
+    "to",
+    "do"
+   ],
+   "answer": [
+    "What would you like to do"
+   ],
+   "why": "What would you like to…?",
+   "hint": "Що б ти хотів робити?"
   }
  ]
 }

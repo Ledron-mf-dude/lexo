@@ -132,6 +132,164 @@
     "The woman who lives next door is a nurse"
    ],
    "why": "who — про людей (defining clause, без ком)."
+  },
+  {
+   "id": "relative-clauses-11",
+   "type": "fill",
+   "q": "This is the man ___ car was stolen.",
+   "answer": [
+    "whose"
+   ],
+   "why": "whose — чий."
+  },
+  {
+   "id": "relative-clauses-12",
+   "type": "fill",
+   "q": "The film ___ we watched last night was boring.",
+   "answer": [
+    "that",
+    "which",
+    "-"
+   ],
+   "why": "Додаток у defining clause — that/which або без слова.",
+   "hint": "Якщо слово можна пропустити, напишіть «-»"
+  },
+  {
+   "id": "relative-clauses-13",
+   "type": "fill",
+   "q": "That's the hotel ___ we stayed last summer.",
+   "answer": [
+    "where",
+    "that",
+    "which"
+   ],
+   "why": "where — про місце."
+  },
+  {
+   "id": "relative-clauses-14",
+   "type": "fill",
+   "q": "My car, ___ is ten years old, still runs well.",
+   "answer": [
+    "which"
+   ],
+   "why": "Non-defining (у комах) про річ — which."
+  },
+  {
+   "id": "relative-clauses-15",
+   "type": "fill",
+   "q": "The girl ___ is talking to Tom is my sister.",
+   "answer": [
+    "who",
+    "that"
+   ],
+   "why": "Підмет — who/that, не пропускаємо."
+  },
+  {
+   "id": "relative-clauses-16",
+   "type": "choice",
+   "q": "The woman ___ I spoke to was very helpful.",
+   "options": [
+    "who",
+    "which",
+    "whose",
+    "what"
+   ],
+   "answer": 0,
+   "why": "Про людину — who."
+  },
+  {
+   "id": "relative-clauses-17",
+   "type": "choice",
+   "q": "I don't like people ___ are rude.",
+   "options": [
+    "who",
+    "which",
+    "whom they",
+    "what"
+   ],
+   "answer": 0,
+   "why": "Про людей — who."
+  },
+  {
+   "id": "relative-clauses-18",
+   "type": "choice",
+   "q": "Kyiv, ___ is the capital of Ukraine, is on the Dnipro.",
+   "options": [
+    "which",
+    "that",
+    "what",
+    "where"
+   ],
+   "answer": 0,
+   "why": "Non-defining — which, не that."
+  },
+  {
+   "id": "relative-clauses-19",
+   "type": "choice",
+   "q": "That's the reason ___ I left.",
+   "options": [
+    "why",
+    "which",
+    "what",
+    "whose"
+   ],
+   "answer": 0,
+   "why": "the reason why — причина."
+  },
+  {
+   "id": "relative-clauses-20",
+   "type": "order",
+   "words": [
+    "The",
+    "book",
+    "that",
+    "I",
+    "bought",
+    "is",
+    "great"
+   ],
+   "answer": [
+    "The book that I bought is great"
+   ],
+   "why": "that — про річ.",
+   "hint": "Книжка, яку я купив, — чудова."
+  },
+  {
+   "id": "relative-clauses-21",
+   "type": "order",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "house",
+    "where",
+    "I",
+    "grew",
+    "up"
+   ],
+   "answer": [
+    "This is the house where I grew up"
+   ],
+   "why": "where — про місце.",
+   "hint": "Це будинок, де я виріс."
+  },
+  {
+   "id": "relative-clauses-22",
+   "type": "order",
+   "words": [
+    "The",
+    "man",
+    "who",
+    "called",
+    "you",
+    "is",
+    "here"
+   ],
+   "answer": [
+    "The man who called you is here"
+   ],
+   "why": "who — підмет.",
+   "hint": "Чоловік, що тобі дзвонив, тут."
   }
  ]
 }

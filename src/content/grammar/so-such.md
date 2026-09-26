@@ -47,4 +47,11 @@ tags: [so, such, such a, so much, so many, so that, so … that, такий, н�
 
 Порівняйте: *so + adj*: *so nice* → *such a nice day*.
 
+## Типові помилки
+
+- ✗ *It was so nice day.* → ✓ *It was **such a** nice day.*
+- ✗ *She is such kind.* → ✓ *She is **so** kind.*
+- ✗ *such a good news* → ✓ ***such** good news* (нелічильне — без a)
+- ✗ *so many money* → ✓ ***so much** money*
+
 Див. також «Contrast, purpose, reason, result».

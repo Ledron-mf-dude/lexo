@@ -102,7 +102,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "discuss — без прийменника."
+   "why": "discuss — без прийменника: discuss the problem (не discuss about)."
   },
   {
    "id": "verb-preposition-9",
@@ -129,6 +129,164 @@
    ],
    "answer": 1,
    "why": "suffer from."
+  },
+  {
+   "id": "verb-preposition-11",
+   "type": "fill",
+   "q": "I don't agree ___ you.",
+   "answer": [
+    "with"
+   ],
+   "why": "agree with + людина."
+  },
+  {
+   "id": "verb-preposition-12",
+   "type": "fill",
+   "q": "Who does this bag belong ___?",
+   "answer": [
+    "to"
+   ],
+   "why": "belong to — належати."
+  },
+  {
+   "id": "verb-preposition-13",
+   "type": "fill",
+   "q": "Can you pay ___ the coffee?",
+   "answer": [
+    "for"
+   ],
+   "why": "pay for — платити за."
+  },
+  {
+   "id": "verb-preposition-14",
+   "type": "fill",
+   "q": "She's thinking ___ changing jobs.",
+   "answer": [
+    "about",
+    "of"
+   ],
+   "why": "think about / of — розмірковувати про."
+  },
+  {
+   "id": "verb-preposition-15",
+   "type": "fill",
+   "q": "This book consists ___ ten chapters.",
+   "answer": [
+    "of"
+   ],
+   "why": "consist of — складатися з."
+  },
+  {
+   "id": "verb-preposition-16",
+   "type": "fill",
+   "q": "Don't laugh ___ me!",
+   "answer": [
+    "at"
+   ],
+   "why": "laugh at — сміятися з."
+  },
+  {
+   "id": "verb-preposition-17",
+   "type": "choice",
+   "q": "We must concentrate ___ the problem.",
+   "options": [
+    "on",
+    "at",
+    "in",
+    "to"
+   ],
+   "answer": 0,
+   "why": "concentrate on."
+  },
+  {
+   "id": "verb-preposition-18",
+   "type": "choice",
+   "q": "I've never heard ___ him.",
+   "options": [
+    "of",
+    "about him of",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "why": "hear of — чути про (існування)."
+  },
+  {
+   "id": "verb-preposition-19",
+   "type": "choice",
+   "q": "She succeeded ___ passing the exam.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "to"
+   ],
+   "answer": 0,
+   "why": "succeed in + -ing."
+  },
+  {
+   "id": "verb-preposition-20",
+   "type": "choice",
+   "q": "He entered ___ the room quietly.",
+   "options": [
+    "- (без прийменника)",
+    "into",
+    "in",
+    "to"
+   ],
+   "answer": 0,
+   "why": "enter — без прийменника."
+  },
+  {
+   "id": "verb-preposition-21",
+   "type": "order",
+   "words": [
+    "It",
+    "depends",
+    "on",
+    "the",
+    "price"
+   ],
+   "answer": [
+    "It depends on the price"
+   ],
+   "why": "depend on.",
+   "hint": "Це залежить від ціни."
+  },
+  {
+   "id": "verb-preposition-22",
+   "type": "order",
+   "words": [
+    "I",
+    "am",
+    "looking",
+    "for",
+    "my",
+    "glasses"
+   ],
+   "answer": [
+    "I am looking for my glasses"
+   ],
+   "why": "look for — шукати.",
+   "hint": "Я шукаю окуляри."
+  },
+  {
+   "id": "verb-preposition-23",
+   "type": "order",
+   "words": [
+    "She",
+    "asked",
+    "for",
+    "a",
+    "glass",
+    "of",
+    "water"
+   ],
+   "answer": [
+    "She asked for a glass of water"
+   ],
+   "why": "ask for — просити щось.",
+   "hint": "Вона попросила склянку води."
   }
  ]
 }

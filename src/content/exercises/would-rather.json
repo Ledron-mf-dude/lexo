@@ -24,7 +24,7 @@
     "is rather"
    ],
    "answer": 0,
-   "why": "would rather + V + than + V."
+   "why": "would rather + V + than + V — краще (одне), ніж (інше)."
   },
   {
    "id": "would-rather-3",
@@ -63,7 +63,7 @@
     "I've rather"
    ],
    "answer": 0,
-   "why": "I’d rather."
+   "why": "I would rather → I'd rather."
   },
   {
    "id": "would-rather-6",
@@ -105,6 +105,153 @@
     "I would rather stay home"
    ],
    "why": "would rather + V."
+  },
+  {
+   "id": "would-rather-9",
+   "type": "fill",
+   "q": "I'd rather ___ (not / talk) about it.",
+   "answer": [
+    "not talk"
+   ],
+   "why": "would rather not + V."
+  },
+  {
+   "id": "would-rather-10",
+   "type": "fill",
+   "q": "She'd rather walk ___ take the bus.",
+   "answer": [
+    "than"
+   ],
+   "why": "would rather … than …"
+  },
+  {
+   "id": "would-rather-11",
+   "type": "fill",
+   "q": "I'd rather you ___ (not / smoke) here.",
+   "answer": [
+    "didn't smoke",
+    "did not smoke"
+   ],
+   "why": "would rather + особа + Past Simple."
+  },
+  {
+   "id": "would-rather-12",
+   "type": "fill",
+   "q": "I'd rather ___ (stay) at home yesterday. (жаль)",
+   "answer": [
+    "have stayed"
+   ],
+   "why": "Про минуле — would rather have + V3."
+  },
+  {
+   "id": "would-rather-13",
+   "type": "fill",
+   "q": "Would you rather ___ (go) to the cinema or the theatre?",
+   "answer": [
+    "go"
+   ],
+   "why": "Would you rather + V?"
+  },
+  {
+   "id": "would-rather-14",
+   "type": "choice",
+   "q": "I'd rather ___ tea, please.",
+   "options": [
+    "have",
+    "to have",
+    "having",
+    "had"
+   ],
+   "answer": 0,
+   "why": "would rather + V без to."
+  },
+  {
+   "id": "would-rather-15",
+   "type": "choice",
+   "q": "He'd rather ___ alone.",
+   "options": [
+    "work",
+    "to work",
+    "works",
+    "working"
+   ],
+   "answer": 0,
+   "why": "Без -s після would rather."
+  },
+  {
+   "id": "would-rather-16",
+   "type": "choice",
+   "q": "I'd rather you ___ me the truth.",
+   "options": [
+    "told",
+    "tell",
+    "to tell",
+    "will tell"
+   ],
+   "answer": 0,
+   "why": "Інша особа — Past Simple."
+  },
+  {
+   "id": "would-rather-17",
+   "type": "choice",
+   "q": "\"Shall we go out?\" — \"I'd rather ___. I'm tired.\"",
+   "options": [
+    "not",
+    "don't",
+    "not to",
+    "no"
+   ],
+   "answer": 0,
+   "why": "I'd rather not."
+  },
+  {
+   "id": "would-rather-18",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "rather",
+    "walk",
+    "than",
+    "drive"
+   ],
+   "answer": [
+    "I would rather walk than drive"
+   ],
+   "why": "would rather … than.",
+   "hint": "Я б краще пішов пішки, ніж поїхав."
+  },
+  {
+   "id": "would-rather-19",
+   "type": "order",
+   "words": [
+    "I'd",
+    "rather",
+    "you",
+    "stayed",
+    "here"
+   ],
+   "answer": [
+    "I'd rather you stayed here"
+   ],
+   "why": "would rather + особа + Past Simple.",
+   "hint": "Я б хотів, щоб ти залишився тут."
+  },
+  {
+   "id": "would-rather-20",
+   "type": "order",
+   "words": [
+    "She",
+    "would",
+    "rather",
+    "not",
+    "go"
+   ],
+   "answer": [
+    "She would rather not go"
+   ],
+   "why": "would rather not + V.",
+   "hint": "Вона б краще не йшла."
   }
  ]
 }

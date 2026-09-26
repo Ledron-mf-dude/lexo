@@ -129,6 +129,151 @@
    ],
    "answer": 0,
    "why": "work — нелічильне: a lot of."
+  },
+  {
+   "id": "quantifiers-11",
+   "type": "fill",
+   "q": "There are ___ many people here. (надто)",
+   "answer": [
+    "too"
+   ],
+   "why": "too many + лічильне."
+  },
+  {
+   "id": "quantifiers-12",
+   "type": "fill",
+   "q": "I have ___ money left. Just two euros. (трохи, але є)",
+   "answer": [
+    "a little"
+   ],
+   "why": "a little — трохи (нелічильне)."
+  },
+  {
+   "id": "quantifiers-13",
+   "type": "fill",
+   "q": "How ___ water should I drink?",
+   "answer": [
+    "much"
+   ],
+   "why": "water — нелічильне: much."
+  },
+  {
+   "id": "quantifiers-14",
+   "type": "fill",
+   "q": "Is there ___ coffee left?",
+   "answer": [
+    "any"
+   ],
+   "why": "У питанні — any."
+  },
+  {
+   "id": "quantifiers-15",
+   "type": "fill",
+   "q": "___ of my friends came. Nobody!",
+   "answer": [
+    "None"
+   ],
+   "why": "none of — жоден."
+  },
+  {
+   "id": "quantifiers-16",
+   "type": "choice",
+   "q": "I've got ___ ideas. Let me tell you.",
+   "options": [
+    "a few",
+    "a little",
+    "few of",
+    "much"
+   ],
+   "answer": 0,
+   "why": "a few — кілька (лічильне)."
+  },
+  {
+   "id": "quantifiers-17",
+   "type": "choice",
+   "q": "There's ___ traffic today.",
+   "options": [
+    "too much",
+    "too many",
+    "too",
+    "enough of"
+   ],
+   "answer": 0,
+   "why": "traffic — нелічильне: too much."
+  },
+  {
+   "id": "quantifiers-18",
+   "type": "choice",
+   "q": "___ my parents are teachers.",
+   "options": [
+    "Both",
+    "Either",
+    "Neither",
+    "All of two"
+   ],
+   "answer": 0,
+   "why": "both — обидва."
+  },
+  {
+   "id": "quantifiers-19",
+   "type": "choice",
+   "q": "We have ___ chairs. Please sit down.",
+   "options": [
+    "enough",
+    "too",
+    "too much",
+    "a little"
+   ],
+   "answer": 0,
+   "why": "enough + іменник."
+  },
+  {
+   "id": "quantifiers-20",
+   "type": "order",
+   "words": [
+    "I",
+    "don't",
+    "have",
+    "much",
+    "time"
+   ],
+   "answer": [
+    "I don't have much time"
+   ],
+   "why": "much + нелічильне.",
+   "hint": "У мене небагато часу."
+  },
+  {
+   "id": "quantifiers-21",
+   "type": "order",
+   "words": [
+    "There",
+    "are",
+    "a",
+    "few",
+    "apples",
+    "left"
+   ],
+   "answer": [
+    "There are a few apples left"
+   ],
+   "why": "a few + лічильне.",
+   "hint": "Залишилося кілька яблук."
+  },
+  {
+   "id": "quantifiers-22",
+   "type": "order",
+   "words": [
+    "Neither",
+    "answer",
+    "is",
+    "correct"
+   ],
+   "answer": [
+    "Neither answer is correct"
+   ],
+   "why": "neither + однина.",
+   "hint": "Жодна з двох відповідей не правильна."
   }
  ]
 }

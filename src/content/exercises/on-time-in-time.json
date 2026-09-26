@@ -103,6 +103,165 @@
    ],
    "answer": 0,
    "why": "in time — встиг."
+  },
+  {
+   "id": "on-time-in-time-9",
+   "type": "fill",
+   "q": "The meeting started exactly ___ time.",
+   "answer": [
+    "on"
+   ],
+   "why": "on time — точно за розкладом."
+  },
+  {
+   "id": "on-time-in-time-10",
+   "type": "fill",
+   "q": "We arrived just ___ time to see the start.",
+   "answer": [
+    "in"
+   ],
+   "why": "in time — встигли."
+  },
+  {
+   "id": "on-time-in-time-11",
+   "type": "fill",
+   "q": "___ the end of the day, I was exhausted.",
+   "answer": [
+    "At"
+   ],
+   "why": "at the end of + період."
+  },
+  {
+   "id": "on-time-in-time-12",
+   "type": "fill",
+   "q": "We argued for hours, but ___ the end we agreed.",
+   "answer": [
+    "in"
+   ],
+   "why": "in the end — зрештою."
+  },
+  {
+   "id": "on-time-in-time-13",
+   "type": "choice",
+   "q": "Please hand in your homework ___. The deadline is 9 am.",
+   "options": [
+    "on time",
+    "in time",
+    "at time",
+    "at the end"
+   ],
+   "answer": 0,
+   "why": "Пунктуально — on time."
+  },
+  {
+   "id": "on-time-in-time-14",
+   "type": "choice",
+   "q": "Will we get there ___ for dinner?",
+   "options": [
+    "in time",
+    "on time",
+    "at the end",
+    "at last"
+   ],
+   "answer": 0,
+   "why": "in time for — встигнути до."
+  },
+  {
+   "id": "on-time-in-time-15",
+   "type": "choice",
+   "q": "___ the story, the hero goes home.",
+   "options": [
+    "At the end of",
+    "In the end of",
+    "On the end of",
+    "At end of"
+   ],
+   "answer": 0,
+   "why": "at the end of — наприкінці чогось."
+  },
+  {
+   "id": "on-time-in-time-16",
+   "type": "choice",
+   "q": "After three hours of waiting, ___ the bus came!",
+   "options": [
+    "at last",
+    "on time",
+    "in time",
+    "at the end"
+   ],
+   "answer": 0,
+   "why": "at last — нарешті (довго чекали)."
+  },
+  {
+   "id": "on-time-in-time-17",
+   "type": "order",
+   "words": [
+    "The",
+    "train",
+    "left",
+    "on",
+    "time"
+   ],
+   "answer": [
+    "The train left on time"
+   ],
+   "why": "on time.",
+   "hint": "Потяг вирушив вчасно (за розкладом)."
+  },
+  {
+   "id": "on-time-in-time-18",
+   "type": "order",
+   "words": [
+    "I",
+    "got",
+    "home",
+    "in",
+    "time",
+    "for",
+    "dinner"
+   ],
+   "answer": [
+    "I got home in time for dinner"
+   ],
+   "why": "in time for.",
+   "hint": "Я встиг додому до вечері."
+  },
+  {
+   "id": "on-time-in-time-19",
+   "type": "order",
+   "words": [
+    "In",
+    "the",
+    "end",
+    "we",
+    "stayed",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "In the end we stayed at home",
+    "In the end, we stayed at home"
+   ],
+   "why": "in the end — зрештою.",
+   "hint": "Зрештою ми залишилися вдома."
+  },
+  {
+   "id": "on-time-in-time-20",
+   "type": "order",
+   "words": [
+    "We",
+    "met",
+    "at",
+    "the",
+    "end",
+    "of",
+    "May"
+   ],
+   "answer": [
+    "We met at the end of May"
+   ],
+   "why": "at the end of.",
+   "hint": "Ми зустрілися наприкінці травня."
   }
  ]
 }

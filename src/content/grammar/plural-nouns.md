@@ -47,3 +47,11 @@ tags: [plural, plural nouns, singular, a an, -s, -es, irregular plurals, childre
 
 - *There are two **women** and three **children**.*
 - *She has three **babies** and two **knives**.*
+
+## Типові помилки
+
+- ✗ *childs, mans, foots* → ✓ ***children, men, feet***
+- ✗ *peoples* (люди) → ✓ ***people*** (*peoples* = народи)
+- ✗ *The police is coming.* → ✓ *The police **are** coming.*
+- ✗ *a trousers* → ✓ ***a pair of** trousers*
+- ✗ *photoes* → ✓ ***photos*** (також *pianos, radios*)

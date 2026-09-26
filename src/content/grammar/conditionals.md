@@ -59,4 +59,11 @@ tags: [conditionals, if, first conditional, second conditional, third conditiona
 | **even if** | навіть якщо | I'll go **even if** it rains. |
 | **in case** | на випадок, якщо | Take an umbrella **in case** it rains. |
 
+## Типові помилки
+
+- ✗ *If it will rain, we will stay home.* → ✓ *If it **rains**, we will stay home.*
+- ✗ *If I would have time, I would help.* → ✓ *If I **had** time, I would help.*
+- ✗ *If I had known, I would told you.* → ✓ *…I **would have told** you.*
+- ✗ *If I was you…* (розм.) → ✓ *If I **were** you…* (нейтрально й письмово)
+
 Про побажання — «Wish, if only, it's time».

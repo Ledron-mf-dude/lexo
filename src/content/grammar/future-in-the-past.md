@@ -30,3 +30,10 @@ tags: [future in the past, was going to, would, was about to, was to, were going
 ## У непрямій мові
 
 `Will` → `would`, `am going to` → `was going to`: *She said she **was going to** study abroad.* Див. «Reported speech».
+
+## Типові помилки
+
+- ✗ *He said he will call.* → ✓ *He said he **would** call.*
+- ✗ *I was going to calling you.* → ✓ *I was going to **call** you.*
+- ✗ *I was about leaving.* → ✓ *I was about **to leave**.*
+- ✗ *We were going to travel, but it rains.* → ✓ *…but it **rained**.*

@@ -49,4 +49,11 @@ tags: [indirect questions, could you tell me, do you know, I wonder, embedded qu
 - Час **не змінюється** (це не reported speech): *Do you know where she **lives**?*
 - Питання до підмета вже мають прямий порядок: *Do you know **who called**?*
 
+## Типові помилки
+
+- ✗ *Could you tell me where is the station?* → ✓ *…where **the station is**?*
+- ✗ *Do you know what time does it start?* → ✓ *…what time **it starts**?*
+- ✗ *I wonder did he call.* → ✓ *I wonder **if / whether** he called.*
+- ✗ *Can you tell me how much costs it?* → ✓ *…how much **it costs**?*
+
 Порівняйте: «Reported speech» (там — зсув часів) та «Питання в англійській».

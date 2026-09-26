@@ -52,3 +52,10 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 
 - "Close the door." → She **told me to close** the door.
 - "Don't be late." → She **told me not to be** late.
+
+## Типові помилки
+
+- ✗ *She said me that she was tired.* → ✓ *She **told** me / She **said** (that)…*
+- ✗ *He asked where did I live.* → ✓ *He asked where **I lived**.*
+- ✗ *She told me don't be late.* → ✓ *She told me **not to be** late.*
+- ✗ *He said he will call tomorrow.* (повідомлення вже неактуальне) → ✓ *He said he **would** call the next day.*

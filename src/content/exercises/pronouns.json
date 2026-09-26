@@ -129,6 +129,152 @@
    ],
    "answer": 1,
    "why": "Підмет — he and I."
+  },
+  {
+   "id": "pronouns-11",
+   "type": "fill",
+   "q": "Can you help ___? (we)",
+   "answer": [
+    "us"
+   ],
+   "why": "Додаток — us."
+  },
+  {
+   "id": "pronouns-12",
+   "type": "fill",
+   "q": "Is this umbrella ___? (you)",
+   "answer": [
+    "yours"
+   ],
+   "why": "Без іменника — yours."
+  },
+  {
+   "id": "pronouns-13",
+   "type": "fill",
+   "q": "The dog is eating ___ food. (it)",
+   "answer": [
+    "its"
+   ],
+   "why": "Присвійне its (без апострофа)."
+  },
+  {
+   "id": "pronouns-14",
+   "type": "fill",
+   "q": "___ are my best friends. (they)",
+   "answer": [
+    "They"
+   ],
+   "why": "Підмет — they."
+  },
+  {
+   "id": "pronouns-15",
+   "type": "fill",
+   "q": "I saw Tom and Kate yesterday. I talked to ___.",
+   "answer": [
+    "them"
+   ],
+   "why": "Додаток — them."
+  },
+  {
+   "id": "pronouns-16",
+   "type": "choice",
+   "q": "My sister and ___ are going to Paris.",
+   "options": [
+    "I",
+    "me",
+    "myself",
+    "mine"
+   ],
+   "answer": 0,
+   "why": "Підмет — I."
+  },
+  {
+   "id": "pronouns-17",
+   "type": "choice",
+   "q": "Can you give ___ your number?",
+   "options": [
+    "me",
+    "I",
+    "my",
+    "mine"
+   ],
+   "answer": 0,
+   "why": "Після дієслова — me."
+  },
+  {
+   "id": "pronouns-18",
+   "type": "choice",
+   "q": "This isn't my coat. ___ is black.",
+   "options": [
+    "Mine",
+    "My",
+    "Me",
+    "I"
+   ],
+   "answer": 0,
+   "why": "Без іменника — mine."
+  },
+  {
+   "id": "pronouns-19",
+   "type": "choice",
+   "q": "The children ate all ___ sweets.",
+   "options": [
+    "their",
+    "there",
+    "they're",
+    "them"
+   ],
+   "answer": 0,
+   "why": "Присвійний прикметник — their."
+  },
+  {
+   "id": "pronouns-20",
+   "type": "order",
+   "words": [
+    "This",
+    "bag",
+    "is",
+    "not",
+    "mine"
+   ],
+   "answer": [
+    "This bag is not mine"
+   ],
+   "why": "mine — без іменника.",
+   "hint": "Ця сумка не моя."
+  },
+  {
+   "id": "pronouns-21",
+   "type": "order",
+   "words": [
+    "She",
+    "gave",
+    "me",
+    "her",
+    "number"
+   ],
+   "answer": [
+    "She gave me her number"
+   ],
+   "why": "me — додаток, her — присвійне.",
+   "hint": "Вона дала мені свій номер."
+  },
+  {
+   "id": "pronouns-22",
+   "type": "order",
+   "words": [
+    "We",
+    "invited",
+    "them",
+    "to",
+    "our",
+    "party"
+   ],
+   "answer": [
+    "We invited them to our party"
+   ],
+   "why": "them — додаток.",
+   "hint": "Ми запросили їх на нашу вечірку."
   }
  ]
 }

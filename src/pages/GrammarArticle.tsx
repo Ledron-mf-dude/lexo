@@ -1,4 +1,4 @@
-import type { ComponentProps } from 'react'
+import { Children, isValidElement, type ComponentProps, type ReactNode } from 'react'
 import Markdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
@@ -9,6 +9,7 @@ import { exercises } from '../lib/exercises'
 import { topicStats, useExerciseLog } from '../lib/exerciseLog'
 import { bySlug } from '../lib/grammar'
 import { useTags, useWords } from '../lib/queries'
+import { useTitle } from '../lib/useTitle'
 
 // Links to other articles are app-internal routes; everything else opens normally.
 function ArticleLink({ href = '', children }: ComponentProps<'a'>) {
@@ -23,6 +24,38 @@ function ArticleLink({ href = '', children }: ComponentProps<'a'>) {
   )
 }
 
+const headingId = (text: string) => 'h-' + text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '')
+
+const textOf = (node: ReactNode): string =>
+  typeof node === 'string' || typeof node === 'number' ? String(node) : Array.isArray(node) ? node.map(textOf).join('') : isValidElement(node) ? textOf((node.props as { children?: ReactNode }).children) : ''
+
+// Section headings get ids so the table of contents can scroll to them (HashRouter owns the URL hash, so no #anchors).
+function Heading({ children }: ComponentProps<'h2'>) {
+  return (
+    <h2 id={headingId(textOf(children))} className="scroll-mt-4">
+      {children}
+    </h2>
+  )
+}
+
+// A "Типові помилки" list item: "✗ wrong → ✓ right" gets coloured marks.
+function ListItem({ children }: ComponentProps<'li'>) {
+  if (!textOf(children).startsWith('✗')) return <li>{children}</li>
+  const mark = (node: ReactNode, key: number): ReactNode =>
+    typeof node === 'string'
+      ? node.split(/([✗✓])/).map((part, i) =>
+          part === '✗' ? (
+            <span key={`${key}-${i}`} className="font-medium text-bad">✗</span>
+          ) : part === '✓' ? (
+            <span key={`${key}-${i}`} className="font-medium text-good">✓</span>
+          ) : (
+            part
+          ),
+        )
+      : node
+  return <li className="mistake list-none">{Children.toArray(children).map(mark)}</li>
+}
+
 // Wide tables scroll inside the card on a phone instead of stretching the whole page.
 function ScrollTable({ children }: ComponentProps<'table'>) {
   return (
@@ -35,6 +68,7 @@ function ScrollTable({ children }: ComponentProps<'table'>) {
 export default function GrammarArticle() {
   const { slug = '' } = useParams()
   const article = bySlug.get(slug)
+  useTitle(article?.title.split(/[:(—]/)[0].trim())
   const navigate = useNavigate()
   const words = useWords()
   const tags = useTags()
@@ -55,6 +89,10 @@ export default function GrammarArticle() {
   }
 
   const related = article.related.map((s) => bySlug.get(s)).filter((a) => a !== undefined)
+  // Short chip labels ("Модальні дієслова"), unless two related articles would get the same one.
+  const short = (title: string) => title.split(/[:(—]/)[0].trim()
+  const label = (title: string) => (related.filter((r) => short(r.title) === short(title)).length > 1 ? title : short(title))
+  const sections = [...article.body.matchAll(/^## (.+)$/gm)].map((m) => m[1].replace(/[*`]/g, '').trim())
 
   return (
     <article className="space-y-4">
@@ -77,8 +115,21 @@ export default function GrammarArticle() {
         </div>
         <h1 className="text-2xl font-light tracking-tight break-words sm:text-3xl">{article.title}</h1>
       </div>
+      {sections.length >= 4 && (
+        <nav aria-label="Зміст" className="chip-row">
+          {sections.map((title) => (
+            <button
+              key={title}
+              onClick={() => document.getElementById(headingId(title))?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+              className={`rounded-full border px-3 py-1 text-xs transition-colors ${title.startsWith('Типові помилки') ? 'border-bad/30 text-bad/80 hover:text-bad' : 'border-white/12 text-white/55 hover:text-white'}`}
+            >
+              {title}
+            </button>
+          ))}
+        </nav>
+      )}
       <div className="glass prose prose-invert max-w-none rounded-3xl p-4 break-words sm:p-6 prose-headings:font-normal prose-strong:text-white prose-code:text-accent-alt prose-code:before:content-none prose-code:after:content-none prose-th:text-left">
-        <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={{ a: ArticleLink, table: ScrollTable }}>
+        <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={{ a: ArticleLink, table: ScrollTable, h2: Heading, li: ListItem }}>
           {article.body}
         </Markdown>
       </div>
@@ -131,7 +182,7 @@ export default function GrammarArticle() {
           <div className="flex flex-wrap gap-2">
             {related.map((r) => (
               <Link key={r.slug} to={`/grammar/${r.slug}`} className="glass rounded-full px-3 py-1.5 text-sm text-white/70 transition-colors hover:bg-white/10 hover:text-white">
-                {r.title.split(/[:(—]/)[0].trim()}
+                {label(r.title)}
               </Link>
             ))}
           </div>

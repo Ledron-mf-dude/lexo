@@ -103,6 +103,156 @@
    ],
    "answer": 1,
    "why": "arrive in + місто."
+  },
+  {
+   "id": "prepositions-movement-9",
+   "type": "fill",
+   "q": "The cat jumped ___ the table. (на поверхню)",
+   "answer": [
+    "onto",
+    "on to"
+   ],
+   "why": "onto — рух на поверхню."
+  },
+  {
+   "id": "prepositions-movement-10",
+   "type": "fill",
+   "q": "She got ___ the taxi and paid the driver. (вийшла)",
+   "answer": [
+    "out of"
+   ],
+   "why": "get out of + car / taxi."
+  },
+  {
+   "id": "prepositions-movement-11",
+   "type": "fill",
+   "q": "I got ___ the bus at the wrong stop. (вийшов)",
+   "answer": [
+    "off"
+   ],
+   "why": "get off + bus / train."
+  },
+  {
+   "id": "prepositions-movement-12",
+   "type": "fill",
+   "q": "They walked ___ the lake. (навколо)",
+   "answer": [
+    "around",
+    "round"
+   ],
+   "why": "around — навколо."
+  },
+  {
+   "id": "prepositions-movement-13",
+   "type": "fill",
+   "q": "We drove ___ the mountains. (через, над)",
+   "answer": [
+    "over",
+    "through",
+    "across"
+   ],
+   "why": "over / through the mountains."
+  },
+  {
+   "id": "prepositions-movement-14",
+   "type": "choice",
+   "q": "He ran ___ the stairs to the top floor.",
+   "options": [
+    "up",
+    "down",
+    "along",
+    "past"
+   ],
+   "answer": 0,
+   "why": "up — вгору."
+  },
+  {
+   "id": "prepositions-movement-15",
+   "type": "choice",
+   "q": "She walked ___ the door and waved.",
+   "options": [
+    "towards",
+    "into",
+    "off",
+    "onto"
+   ],
+   "answer": 0,
+   "why": "towards — у бік."
+  },
+  {
+   "id": "prepositions-movement-16",
+   "type": "choice",
+   "q": "We arrived ___ the airport two hours early.",
+   "options": [
+    "at",
+    "in",
+    "to",
+    "on"
+   ],
+   "answer": 0,
+   "why": "arrive at + точка/будівля."
+  },
+  {
+   "id": "prepositions-movement-17",
+   "type": "choice",
+   "q": "He fell ___ his bike.",
+   "options": [
+    "off",
+    "out of",
+    "from off",
+    "down to"
+   ],
+   "answer": 0,
+   "why": "fall off — впасти з."
+  },
+  {
+   "id": "prepositions-movement-18",
+   "type": "order",
+   "words": [
+    "She",
+    "walked",
+    "into",
+    "the",
+    "kitchen"
+   ],
+   "answer": [
+    "She walked into the kitchen"
+   ],
+   "why": "into — всередину.",
+   "hint": "Вона зайшла на кухню."
+  },
+  {
+   "id": "prepositions-movement-19",
+   "type": "order",
+   "words": [
+    "The",
+    "dog",
+    "jumped",
+    "over",
+    "the",
+    "fence"
+   ],
+   "answer": [
+    "The dog jumped over the fence"
+   ],
+   "why": "over — над, через.",
+   "hint": "Собака перестрибнув через паркан."
+  },
+  {
+   "id": "prepositions-movement-20",
+   "type": "order",
+   "words": [
+    "We",
+    "walked",
+    "along",
+    "the",
+    "river"
+   ],
+   "answer": [
+    "We walked along the river"
+   ],
+   "why": "along — уздовж.",
+   "hint": "Ми йшли вздовж річки."
   }
  ]
 }

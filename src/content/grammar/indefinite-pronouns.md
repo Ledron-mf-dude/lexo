@@ -28,7 +28,7 @@ tags: [something, anything, nothing, everything, someone, anyone, nobody, everyb
 
 - *I saw **nobody**.* = *I didn't see **anybody**.*
 - *There's **nothing** to do.*
-- ~~*I didn't see nobody.*~~
+- ~~*I didn't see nobody.*~~ (див. «Подвійне заперечення: I don't know anything»)
 
 ## Every-
 
@@ -46,5 +46,12 @@ tags: [something, anything, nothing, everything, someone, anyone, nobody, everyb
 
 - ***Somebody** left **their** umbrella.*
 - ***Everyone** did **their** best.*
+
+## Типові помилки
+
+- ✗ *I didn't see nobody.* → ✓ *I didn't see **anybody**.* / *I saw **nobody**.*
+- ✗ *Everybody are here.* → ✓ *Everybody **is** here.*
+- ✗ *interesting something* → ✓ *something **interesting***
+- ✗ *Somebody left his umbrella.* (стать невідома) → ✓ *Somebody left **their** umbrella.*
 
 Див. «Займенники», «Quantifiers».

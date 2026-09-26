@@ -2,6 +2,7 @@
 title: Relative clauses (означальні підрядні): who, which, that, where, whose
 category: Складні речення
 levels: [A2, B1, B2]
+aliases: [Relative clauses]
 tags: [relative clauses, who, which, that, where, whose, defining, non-defining, означальні підрядні, відносні займенники]
 ---
 
@@ -39,3 +40,11 @@ tags: [relative clauses, who, which, that, where, whose, defining, non-defining,
 ## Which про всю ситуацію
 
 - *He passed the exam, **which** surprised everyone.* — Він склав іспит, і це всіх здивувало.
+
+## Типові помилки
+
+- ✗ *The man which called is my boss.* → ✓ *The man **who / that** called…*
+- ✗ *My brother, that lives in Kyiv, is a doctor.* → ✓ *My brother, **who** lives in Kyiv…* (у комах — без that)
+- ✗ *The book what I read was great.* → ✓ *The book **that / which** I read…*
+- ✗ *The man lives next door is kind.* → ✓ *The man **who** lives next door…* (підмет не опускаємо)
+- ✗ *The café where we met there has closed.* → ✓ *The café where we met has closed.*

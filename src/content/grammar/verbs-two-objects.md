@@ -43,3 +43,10 @@ tags: [two objects, give, send, show, tell, buy, indirect object, direct object,
 - *A book **was given** to me.*
 
 Перший варіант (підмет — особа) частіше. Див. «Passive Voice».
+
+## Типові помилки
+
+- ✗ *She explained me the rule.* → ✓ *She explained the rule **to me**.*
+- ✗ *He gave to me a book.* → ✓ *He gave **me** a book.* / *He gave a book **to** me.*
+- ✗ *She bought a present to me.* → ✓ *…a present **for** me.*
+- ✗ *Can you say me the time?* → ✓ *Can you **tell** me the time?*

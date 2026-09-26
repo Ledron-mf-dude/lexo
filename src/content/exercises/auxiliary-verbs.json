@@ -24,7 +24,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Емфаза: do + інфінітив."
+   "why": "Емфаза: do + інфінітив — «справді подобається»."
   },
   {
    "id": "auxiliary-verbs-3",
@@ -113,6 +113,154 @@
     "did not work"
    ],
    "why": "Past Simple: didn’t + V."
+  },
+  {
+   "id": "auxiliary-verbs-10",
+   "type": "fill",
+   "q": "___ they live near here?",
+   "answer": [
+    "Do"
+   ],
+   "why": "Present Simple, they → Do."
+  },
+  {
+   "id": "auxiliary-verbs-11",
+   "type": "fill",
+   "q": "She ___ working at the moment.",
+   "answer": [
+    "is"
+   ],
+   "why": "Continuous — be + -ing."
+  },
+  {
+   "id": "auxiliary-verbs-12",
+   "type": "fill",
+   "q": "We ___ already eaten.",
+   "answer": [
+    "have"
+   ],
+   "why": "Perfect — have + V3."
+  },
+  {
+   "id": "auxiliary-verbs-13",
+   "type": "fill",
+   "q": "The letters ___ sent yesterday.",
+   "answer": [
+    "were"
+   ],
+   "why": "Пасив минулого: were + V3."
+  },
+  {
+   "id": "auxiliary-verbs-14",
+   "type": "fill",
+   "q": "He ___ go to the party last night.",
+   "answer": [
+    "didn't",
+    "did not"
+   ],
+   "why": "Past Simple: didn't + V.",
+   "hint": "Заперечення"
+  },
+  {
+   "id": "auxiliary-verbs-15",
+   "type": "choice",
+   "q": "\"Are you tired?\" — \"Yes, I ___.\"",
+   "options": [
+    "am",
+    "do",
+    "are",
+    "have"
+   ],
+   "answer": 0,
+   "why": "Коротка відповідь повторює допоміжне: am."
+  },
+  {
+   "id": "auxiliary-verbs-16",
+   "type": "choice",
+   "q": "I ___ like coffee, but I love tea.",
+   "options": [
+    "don't",
+    "doesn't",
+    "am not",
+    "haven't"
+   ],
+   "answer": 0,
+   "why": "Present Simple, I → don't."
+  },
+  {
+   "id": "auxiliary-verbs-17",
+   "type": "choice",
+   "q": "She speaks French better than he ___.",
+   "options": [
+    "does",
+    "is",
+    "do",
+    "speaks it does"
+   ],
+   "answer": 0,
+   "why": "does замінює повтор дієслова speaks."
+  },
+  {
+   "id": "auxiliary-verbs-18",
+   "type": "choice",
+   "q": "___ he been to Paris?",
+   "options": [
+    "Has",
+    "Did",
+    "Is",
+    "Does"
+   ],
+   "answer": 0,
+   "why": "Present Perfect — has."
+  },
+  {
+   "id": "auxiliary-verbs-19",
+   "type": "order",
+   "words": [
+    "Does",
+    "your",
+    "sister",
+    "work",
+    "here"
+   ],
+   "answer": [
+    "Does your sister work here"
+   ],
+   "why": "Does + підмет + V.",
+   "hint": "Твоя сестра тут працює?"
+  },
+  {
+   "id": "auxiliary-verbs-20",
+   "type": "order",
+   "words": [
+    "They",
+    "didn't",
+    "see",
+    "the",
+    "film"
+   ],
+   "answer": [
+    "They didn't see the film"
+   ],
+   "why": "didn't + V (без -ed).",
+   "hint": "Вони не бачили фільм."
+  },
+  {
+   "id": "auxiliary-verbs-21",
+   "type": "order",
+   "words": [
+    "Have",
+    "you",
+    "ever",
+    "been",
+    "to",
+    "London"
+   ],
+   "answer": [
+    "Have you ever been to London"
+   ],
+   "why": "Have + підмет + been.",
+   "hint": "Ти колись був у Лондоні?"
   }
  ]
 }

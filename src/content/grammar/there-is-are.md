@@ -46,4 +46,12 @@ tags: [there is, there are, there was, there were, there will be, there has been
 - ***There used to be** a cinema here.* — Раніше тут було кіно.
 - ***There seems to be** a mistake.* — Здається, є помилка.
 
+## Типові помилки
+
+- ✗ *There are a book on the table.* → ✓ *There **is** a book…*
+- ✗ *It is a cat in the garden.* → ✓ ***There is** a cat in the garden.*
+- ✗ *Is there any questions?* → ✓ ***Are** there any questions?*
+- ✗ *In the room is a table.* (калька) → ✓ ***There is** a table in the room.*
+- ✗ *There will a meeting.* → ✓ *There will **be** a meeting.*
+
 Порівняйте з `it`: «There чи it».

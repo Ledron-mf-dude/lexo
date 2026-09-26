@@ -51,10 +51,12 @@ tags: [word order, subject verb object, SVO, manner place time, порядок �
 
 *a **red** car*, не *a car red*. Порядок кількох прикметників — «Adjective order».
 
-## Помилки українців
+## Типові помилки
 
-- ~~I very like it.~~ → **I like it very much.**
-- ~~She is always late.~~ ✅ (`always` після `be`) / ~~She always is late~~ ✗
-- ~~Yesterday I went to the cinema with my friend.~~ ✅ (обидва варіанти).
+- ✗ *I very like it.* → ✓ *I like it **very much**.*
+- ✗ *She always is late.* → ✓ *She **is always** late.* (`always` — після `be`)
+- ✗ *I like very much football.* → ✓ *I like **football very much**.* (не розриваємо дієслово й додаток)
+- ✗ *Every day I am going to work by bus.* → ✓ *I **go** to work by bus every day.*
+- ✗ *Where you live?* → ✓ *Where **do you** live?*
 
 Див. також «Питання в англійській».

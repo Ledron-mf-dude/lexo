@@ -49,3 +49,11 @@ tags: [question tags, isn't it, don't you, so do I, neither do I, me too, me nei
 | I **haven't** eaten. | **Neither have I.** |
 
 Після `so` і `neither` — **допоміжне дієслово + підмет**. З `neither` дієслово в ствердній формі: не *Neither don't I*.
+
+## Типові помилки
+
+- ✗ *She is late, is she?* → ✓ *She is late, **isn't she**?*
+- ✗ *You live here, isn't it?* → ✓ *You live here, **don't you**?*
+- ✗ *I am right, amn't I?* → ✓ *I am right, **aren't I**?*
+- ✗ *Neither don't I.* → ✓ ***Neither do I.***
+- ✗ *So I do.* (згода) → ✓ ***So do I.***

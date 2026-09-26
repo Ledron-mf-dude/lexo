@@ -1,0 +1,233 @@
+{
+ "questions": [
+  {
+   "id": "distancing-1",
+   "type": "choice",
+   "q": "___, the meeting has been cancelled. (я чув)",
+   "options": [
+    "Apparently",
+    "According",
+    "Actually me",
+    "Obviously"
+   ],
+   "answer": 0,
+   "why": "Apparently — як кажуть, схоже."
+  },
+  {
+   "id": "distancing-2",
+   "type": "choice",
+   "q": "He is said ___ very rich.",
+   "options": [
+    "to be",
+    "being",
+    "be",
+    "that he is"
+   ],
+   "answer": 0,
+   "why": "be said + to-інфінітив."
+  },
+  {
+   "id": "distancing-3",
+   "type": "choice",
+   "q": "___ the report, sales fell by 10%.",
+   "options": [
+    "According to",
+    "According",
+    "In my opinion",
+    "Apparently"
+   ],
+   "answer": 0,
+   "why": "According to + джерело."
+  },
+  {
+   "id": "distancing-4",
+   "type": "choice",
+   "q": "The painting is believed ___ stolen in 1990.",
+   "options": [
+    "to have been",
+    "to be being",
+    "having been",
+    "that was"
+   ],
+   "answer": 0,
+   "why": "Про минуле — to have been + V3."
+  },
+  {
+   "id": "distancing-5",
+   "type": "choice",
+   "q": "Young people ___ spend more time online.",
+   "options": [
+    "tend to",
+    "tend",
+    "are tending",
+    "tends to"
+   ],
+   "answer": 0,
+   "why": "tend to + V — мають тенденцію."
+  },
+  {
+   "id": "distancing-6",
+   "type": "choice",
+   "q": "___ that the train is delayed.",
+   "options": [
+    "It appears",
+    "It is appearing",
+    "There appears",
+    "Appears"
+   ],
+   "answer": 0,
+   "why": "It appears that…"
+  },
+  {
+   "id": "distancing-7",
+   "type": "choice",
+   "q": "The suspect ___ broke into the house. (не доведено)",
+   "options": [
+    "allegedly",
+    "apparently not",
+    "according",
+    "seemingly to"
+   ],
+   "answer": 0,
+   "why": "allegedly — нібито (новини, юристи)."
+  },
+  {
+   "id": "distancing-8",
+   "type": "choice",
+   "q": "Which is the most tactful?",
+   "options": [
+    "There seem to be a few mistakes.",
+    "Your report is wrong.",
+    "You made mistakes.",
+    "This is bad."
+   ],
+   "answer": 0,
+   "why": "Обережне формулювання — seem."
+  },
+  {
+   "id": "distancing-9",
+   "type": "choice",
+   "q": "It ___ that two people were injured.",
+   "options": [
+    "is reported",
+    "reports",
+    "has reported",
+    "reported"
+   ],
+   "answer": 0,
+   "why": "It is reported that…"
+  },
+  {
+   "id": "distancing-10",
+   "type": "fill",
+   "q": "The company is thought ___ (be) in trouble.",
+   "answer": [
+    "to be"
+   ],
+   "why": "be thought + to-інфінітив."
+  },
+  {
+   "id": "distancing-11",
+   "type": "fill",
+   "q": "It ___ that he has resigned. (кажуть)",
+   "answer": [
+    "is said",
+    "is reported",
+    "is believed",
+    "seems",
+    "appears"
+   ],
+   "why": "It is said that…"
+  },
+  {
+   "id": "distancing-12",
+   "type": "fill",
+   "q": "___ to the forecast, it'll rain tomorrow.",
+   "answer": [
+    "According"
+   ],
+   "why": "According to — за даними."
+  },
+  {
+   "id": "distancing-13",
+   "type": "fill",
+   "q": "The plan seems ___ (work).",
+   "answer": [
+    "to be working",
+    "to work"
+   ],
+   "why": "seem + to-інфінітив."
+  },
+  {
+   "id": "distancing-14",
+   "type": "fill",
+   "q": "The minister is reported ___ (resign) yesterday.",
+   "answer": [
+    "to have resigned"
+   ],
+   "why": "Про минуле — to have + V3."
+  },
+  {
+   "id": "distancing-15",
+   "type": "fill",
+   "q": "People ___ to buy more in December.",
+   "answer": [
+    "tend"
+   ],
+   "why": "tend to + V."
+  },
+  {
+   "id": "distancing-16",
+   "type": "order",
+   "words": [
+    "Apparently",
+    "he",
+    "is",
+    "leaving"
+   ],
+   "answer": [
+    "Apparently he is leaving",
+    "Apparently, he is leaving"
+   ],
+   "why": "Apparently — як кажуть.",
+   "hint": "Кажуть, він іде (з роботи)."
+  },
+  {
+   "id": "distancing-17",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "believed",
+    "that",
+    "the",
+    "fire",
+    "started",
+    "at",
+    "night"
+   ],
+   "answer": [
+    "It is believed that the fire started at night"
+   ],
+   "why": "It is believed that…",
+   "hint": "Вважають, що пожежа почалася вночі."
+  },
+  {
+   "id": "distancing-18",
+   "type": "order",
+   "words": [
+    "The",
+    "plan",
+    "seems",
+    "to",
+    "be",
+    "working"
+   ],
+   "answer": [
+    "The plan seems to be working"
+   ],
+   "why": "seem + to be + V-ing.",
+   "hint": "Схоже, план працює."
+  }
+ ]
+}

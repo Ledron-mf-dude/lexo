@@ -45,3 +45,10 @@ tags: [can, could, be able to, ability, permission, possibility, requests, manag
 | Заперечення (будь-яка ситуація) | I **couldn't** / **wasn't able to** open it. |
 
 > З дієсловами сприйняття й мислення (*see, hear, understand, remember*) частіше `could`: *I **could see** him.*
+
+## Типові помилки
+
+- ✗ *I will can help you.* → ✓ *I **will be able to** help you.*
+- ✗ *She cans swim.* → ✓ *She **can** swim.*
+- ✗ *I can to drive.* → ✓ *I can **drive**.*
+- ✗ *Yesterday I could finish the report.* (вдала одноразова дія) → ✓ *…I **was able to / managed to** finish…*

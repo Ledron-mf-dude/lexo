@@ -116,6 +116,147 @@
     "I was reading when she called"
    ],
    "why": "Процес (Continuous) + подія (Simple)."
+  },
+  {
+   "id": "past-tenses-11",
+   "type": "fill",
+   "q": "While I ___ (cook), the lights went out.",
+   "answer": [
+    "was cooking"
+   ],
+   "why": "Тривала дія — Past Continuous."
+  },
+  {
+   "id": "past-tenses-12",
+   "type": "fill",
+   "q": "She ___ (already / leave) when I arrived.",
+   "answer": [
+    "had already left"
+   ],
+   "why": "Раніше за інший минулий момент — Past Perfect."
+  },
+  {
+   "id": "past-tenses-13",
+   "type": "fill",
+   "q": "What ___ you doing at 8 pm yesterday?",
+   "answer": [
+    "were"
+   ],
+   "why": "Процес у момент — were + V-ing."
+  },
+  {
+   "id": "past-tenses-14",
+   "type": "fill",
+   "q": "I ___ (not / sleep) well last night.",
+   "answer": [
+    "didn't sleep",
+    "did not sleep"
+   ],
+   "why": "Past Simple: didn't + V."
+  },
+  {
+   "id": "past-tenses-15",
+   "type": "choice",
+   "q": "When she came in, everyone ___.",
+   "options": [
+    "was laughing",
+    "laughed already",
+    "had laughing",
+    "were laugh"
+   ],
+   "answer": 0,
+   "why": "Тло — Past Continuous."
+  },
+  {
+   "id": "past-tenses-16",
+   "type": "choice",
+   "q": "I realised I ___ my wallet at home.",
+   "options": [
+    "had left",
+    "left have",
+    "was leaving",
+    "have left"
+   ],
+   "answer": 0,
+   "why": "Раніше — Past Perfect."
+  },
+  {
+   "id": "past-tenses-17",
+   "type": "choice",
+   "q": "He ___ the door, ___ in and sat down.",
+   "options": [
+    "opened / walked",
+    "was opening / walked",
+    "had opened / was walking",
+    "opens / walks"
+   ],
+   "answer": 0,
+   "why": "Послідовні події — Past Simple."
+  },
+  {
+   "id": "past-tenses-18",
+   "type": "choice",
+   "q": "It ___ when we left the house.",
+   "options": [
+    "was raining",
+    "rained on",
+    "had rain",
+    "is raining"
+   ],
+   "answer": 0,
+   "why": "Тло подій — Past Continuous."
+  },
+  {
+   "id": "past-tenses-19",
+   "type": "order",
+   "words": [
+    "She",
+    "was",
+    "sleeping",
+    "when",
+    "I",
+    "got",
+    "home"
+   ],
+   "answer": [
+    "She was sleeping when I got home"
+   ],
+   "why": "Процес + подія.",
+   "hint": "Вона спала, коли я прийшов додому."
+  },
+  {
+   "id": "past-tenses-20",
+   "type": "order",
+   "words": [
+    "I",
+    "had",
+    "never",
+    "seen",
+    "snow",
+    "before"
+   ],
+   "answer": [
+    "I had never seen snow before"
+   ],
+   "why": "Past Perfect — досвід до моменту в минулому.",
+   "hint": "Я ніколи раніше не бачив снігу."
+  },
+  {
+   "id": "past-tenses-21",
+   "type": "order",
+   "words": [
+    "We",
+    "met",
+    "in",
+    "Paris",
+    "in",
+    "2019"
+   ],
+   "answer": [
+    "We met in Paris in 2019"
+   ],
+   "why": "Past Simple — названий час.",
+   "hint": "Ми познайомилися в Парижі 2019 року."
   }
  ]
 }

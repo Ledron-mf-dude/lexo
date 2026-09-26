@@ -48,3 +48,10 @@ tags: [the rich, the poor, the young, the elderly, the unemployed, the British, 
 ## Заміна іменника: one, ones
 
 Щоб не повторювати іменник: *I like the **red** one.* / *the **big** ones*. Див. «Ellipsis and substitution».
+
+## Типові помилки
+
+- ✗ *The rich is not always happy.* → ✓ *The rich **are**…* (група — множина)
+- ✗ *The poors need help.* → ✓ ***The poor** need help.* (без -s)
+- ✗ *He is a rich.* → ✓ *He is **a rich man**.* (про одну людину — з іменником)
+- ✗ *The Italian love pasta.* → ✓ ***Italians** love pasta.*

@@ -50,7 +50,7 @@
     "Unless"
    ],
    "answer": 0,
-   "why": "But for = if it weren’t for."
+   "why": "But for + іменник = If it weren't for — «якби не»."
   },
   {
    "id": "conditionals-advanced-5",
@@ -116,6 +116,169 @@
    ],
    "answer": 0,
    "why": "Were I you…"
+  },
+  {
+   "id": "conditionals-advanced-10",
+   "type": "fill",
+   "q": "I'll lend you the car ___ you drive carefully. (за умови що)",
+   "answer": [
+    "as long as",
+    "provided",
+    "providing",
+    "so long as",
+    "provided that"
+   ],
+   "why": "as long as / provided — за умови."
+  },
+  {
+   "id": "conditionals-advanced-11",
+   "type": "fill",
+   "q": "___ I known about the problem, I would have helped.",
+   "answer": [
+    "Had"
+   ],
+   "why": "Had I known = If I had known.",
+   "hint": "Інверсія без if"
+  },
+  {
+   "id": "conditionals-advanced-12",
+   "type": "fill",
+   "q": "___ you need any help, just call. (формально)",
+   "answer": [
+    "Should"
+   ],
+   "why": "Should you need = If you should need.",
+   "hint": "Інверсія без if"
+  },
+  {
+   "id": "conditionals-advanced-13",
+   "type": "fill",
+   "q": "Take some money ___ you need a taxi.",
+   "answer": [
+    "in case"
+   ],
+   "why": "in case — на випадок, якщо."
+  },
+  {
+   "id": "conditionals-advanced-14",
+   "type": "fill",
+   "q": "I'll go ___ it rains. (навіть якщо)",
+   "answer": [
+    "even if"
+   ],
+   "why": "even if — навіть якщо."
+  },
+  {
+   "id": "conditionals-advanced-15",
+   "type": "choice",
+   "q": "___ it not for your support, I would give up.",
+   "options": [
+    "Were",
+    "Had",
+    "Should",
+    "Did"
+   ],
+   "answer": 0,
+   "why": "Were it not for = If it weren't for."
+  },
+  {
+   "id": "conditionals-advanced-16",
+   "type": "choice",
+   "q": "You won't pass ___ you study.",
+   "options": [
+    "unless",
+    "if",
+    "in case",
+    "provided"
+   ],
+   "answer": 0,
+   "why": "unless = if … not."
+  },
+  {
+   "id": "conditionals-advanced-17",
+   "type": "choice",
+   "q": "___ you won the lottery, what would you buy?",
+   "options": [
+    "Supposing",
+    "Unless",
+    "Provided",
+    "In case"
+   ],
+   "answer": 0,
+   "why": "Supposing — припустімо."
+  },
+  {
+   "id": "conditionals-advanced-18",
+   "type": "choice",
+   "q": "If it ___ for the rain, we would have gone out.",
+   "options": [
+    "hadn't been",
+    "wasn't",
+    "weren't",
+    "isn't"
+   ],
+   "answer": 0,
+   "why": "Минуле: If it hadn't been for…"
+  },
+  {
+   "id": "conditionals-advanced-19",
+   "type": "order",
+   "words": [
+    "Had",
+    "I",
+    "known",
+    "I",
+    "would",
+    "have",
+    "told",
+    "you"
+   ],
+   "answer": [
+    "Had I known I would have told you"
+   ],
+   "why": "Інверсія: Had I known.",
+   "hint": "Якби я знав, я б тобі сказав."
+  },
+  {
+   "id": "conditionals-advanced-20",
+   "type": "order",
+   "words": [
+    "You",
+    "can",
+    "go",
+    "out",
+    "as",
+    "long",
+    "as",
+    "you",
+    "are",
+    "back",
+    "by",
+    "ten"
+   ],
+   "answer": [
+    "You can go out as long as you are back by ten"
+   ],
+   "why": "as long as — за умови.",
+   "hint": "Можеш погуляти, якщо повернешся до десятої."
+  },
+  {
+   "id": "conditionals-advanced-21",
+   "type": "order",
+   "words": [
+    "Take",
+    "an",
+    "umbrella",
+    "in",
+    "case",
+    "it",
+    "rains"
+   ],
+   "answer": [
+    "Take an umbrella in case it rains"
+   ],
+   "why": "in case + Present Simple.",
+   "hint": "Візьми парасольку на випадок дощу."
   }
  ]
 }

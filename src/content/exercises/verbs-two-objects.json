@@ -97,6 +97,155 @@
     "She told me a story"
    ],
    "why": "tell + кому + що."
+  },
+  {
+   "id": "verbs-two-objects-9",
+   "type": "fill",
+   "q": "Can you lend ___ some money? (me)",
+   "answer": [
+    "me"
+   ],
+   "why": "lend + кому + що."
+  },
+  {
+   "id": "verbs-two-objects-10",
+   "type": "fill",
+   "q": "I'll send the photos ___ you tomorrow.",
+   "answer": [
+    "to"
+   ],
+   "why": "send … to."
+  },
+  {
+   "id": "verbs-two-objects-11",
+   "type": "fill",
+   "q": "He cooked dinner ___ us.",
+   "answer": [
+    "for"
+   ],
+   "why": "cook … for."
+  },
+  {
+   "id": "verbs-two-objects-12",
+   "type": "fill",
+   "q": "Could you pass me ___ salt, please?",
+   "answer": [
+    "the"
+   ],
+   "why": "pass me the salt — кому + що."
+  },
+  {
+   "id": "verbs-two-objects-13",
+   "type": "fill",
+   "q": "She told ___ the truth. (us)",
+   "answer": [
+    "us"
+   ],
+   "why": "tell + кому + що."
+  },
+  {
+   "id": "verbs-two-objects-14",
+   "type": "choice",
+   "q": "She described the man ___ the police.",
+   "options": [
+    "to",
+    "for",
+    "-",
+    "at"
+   ],
+   "answer": 0,
+   "why": "describe … to (не describe me)."
+  },
+  {
+   "id": "verbs-two-objects-15",
+   "type": "choice",
+   "q": "I bought ___.",
+   "options": [
+    "my mum some flowers",
+    "some flowers my mum",
+    "to my mum some flowers",
+    "flowers some my mum"
+   ],
+   "answer": 0,
+   "why": "buy + кому + що."
+  },
+  {
+   "id": "verbs-two-objects-16",
+   "type": "choice",
+   "q": "Can you show ___?",
+   "options": [
+    "me the way",
+    "the way me",
+    "to me the way",
+    "me to the way"
+   ],
+   "answer": 0,
+   "why": "show + кому + що."
+  },
+  {
+   "id": "verbs-two-objects-17",
+   "type": "choice",
+   "q": "He gave ___.",
+   "options": [
+    "it to her",
+    "her it to",
+    "to her it",
+    "it her to"
+   ],
+   "answer": 0,
+   "why": "Два займенники — it to her."
+  },
+  {
+   "id": "verbs-two-objects-18",
+   "type": "order",
+   "words": [
+    "She",
+    "gave",
+    "me",
+    "a",
+    "present"
+   ],
+   "answer": [
+    "She gave me a present"
+   ],
+   "why": "give + кому + що.",
+   "hint": "Вона подарувала мені подарунок."
+  },
+  {
+   "id": "verbs-two-objects-19",
+   "type": "order",
+   "words": [
+    "Can",
+    "you",
+    "explain",
+    "this",
+    "word",
+    "to",
+    "me"
+   ],
+   "answer": [
+    "Can you explain this word to me"
+   ],
+   "why": "explain + що + to + кому.",
+   "hint": "Можеш пояснити мені це слово?"
+  },
+  {
+   "id": "verbs-two-objects-20",
+   "type": "order",
+   "words": [
+    "I",
+    "made",
+    "a",
+    "cake",
+    "for",
+    "my",
+    "friend"
+   ],
+   "answer": [
+    "I made a cake for my friend"
+   ],
+   "why": "make … for.",
+   "hint": "Я спік торт для друга."
   }
  ]
 }

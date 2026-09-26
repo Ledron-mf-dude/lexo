@@ -43,4 +43,15 @@ tags: [pronouns, subject pronouns, object pronouns, possessive adjectives, posse
 
 ## Узагальнення: they
 
+Про *you, one, they* у значенні «люди загалом» — «Узагальнені займенники: you, one, they, people».
+
+
 Коли стать невідома, `they / their / them` уживають і в однині: *Someone left **their** umbrella.* Див. «Indefinite pronouns».
+
+## Типові помилки
+
+- ✗ *Me and Tom went home.* → ✓ ***Tom and I** went home.*
+- ✗ *between you and I* → ✓ *between you and **me***
+- ✗ *The dog wagged it's tail.* → ✓ *…**its** tail.* (it's = it is)
+- ✗ *This bag is my.* → ✓ *This bag is **mine**.*
+- ✗ *a friend of my* → ✓ *a friend of **mine***

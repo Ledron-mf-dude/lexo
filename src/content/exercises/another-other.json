@@ -99,6 +99,151 @@
    ],
    "answer": 1,
    "why": "Others не вживається перед іменником; other people."
+  },
+  {
+   "id": "another-other-9",
+   "type": "fill",
+   "q": "Would you like ___ piece of cake?",
+   "answer": [
+    "another"
+   ],
+   "why": "another — ще один (однина)."
+  },
+  {
+   "id": "another-other-10",
+   "type": "fill",
+   "q": "I have two brothers. One is a doctor, and ___ is a teacher.",
+   "answer": [
+    "the other"
+   ],
+   "why": "the other — другий із двох."
+  },
+  {
+   "id": "another-other-11",
+   "type": "fill",
+   "q": "Some students passed; ___ failed.",
+   "answer": [
+    "others",
+    "the others"
+   ],
+   "why": "others — інші (без іменника)."
+  },
+  {
+   "id": "another-other-12",
+   "type": "fill",
+   "q": "Where are ___ kids? They were here a minute ago.",
+   "answer": [
+    "the other"
+   ],
+   "why": "the other + множина — решта певних дітей."
+  },
+  {
+   "id": "another-other-13",
+   "type": "choice",
+   "q": "We need ___ two chairs.",
+   "options": [
+    "another",
+    "other",
+    "others",
+    "the others"
+   ],
+   "answer": 0,
+   "why": "another + число: ще два стільці."
+  },
+  {
+   "id": "another-other-14",
+   "type": "choice",
+   "q": "I don't like this one. Can you show me ___?",
+   "options": [
+    "another one",
+    "other one",
+    "others",
+    "an other"
+   ],
+   "answer": 0,
+   "why": "another one — ще / інший один."
+  },
+  {
+   "id": "another-other-15",
+   "type": "choice",
+   "q": "They help ___.",
+   "options": [
+    "each other",
+    "each others",
+    "the other",
+    "another"
+   ],
+   "answer": 0,
+   "why": "each other — один одному."
+  },
+  {
+   "id": "another-other-16",
+   "type": "order",
+   "words": [
+    "Can",
+    "I",
+    "have",
+    "another",
+    "cup",
+    "of",
+    "coffee"
+   ],
+   "answer": [
+    "Can I have another cup of coffee"
+   ],
+   "why": "another + однина.",
+   "hint": "Можна мені ще одну чашку кави?"
+  },
+  {
+   "id": "another-other-17",
+   "type": "order",
+   "words": [
+    "Some",
+    "people",
+    "like",
+    "cats",
+    "and",
+    "others",
+    "like",
+    "dogs"
+   ],
+   "answer": [
+    "Some people like cats and others like dogs"
+   ],
+   "why": "others — без іменника.",
+   "hint": "Деякі люблять котів, а інші — собак."
+  },
+  {
+   "id": "another-other-18",
+   "type": "order",
+   "words": [
+    "I'll",
+    "call",
+    "you",
+    "back",
+    "in",
+    "another",
+    "ten",
+    "minutes"
+   ],
+   "answer": [
+    "I'll call you back in another ten minutes"
+   ],
+   "why": "another + число хвилин.",
+   "hint": "Я передзвоню ще через десять хвилин."
+  },
+  {
+   "id": "another-other-19",
+   "type": "choice",
+   "q": "She has lived in Poland and some ___ countries.",
+   "options": [
+    "other",
+    "another",
+    "others",
+    "the others"
+   ],
+   "answer": 0,
+   "why": "other + множина."
   }
  ]
 }

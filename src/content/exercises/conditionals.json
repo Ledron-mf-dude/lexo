@@ -123,6 +123,166 @@
     "If I were rich, I would travel"
    ],
    "why": "Second conditional: if I were …, I would …"
+  },
+  {
+   "id": "conditionals-11",
+   "type": "fill",
+   "q": "If I ___ (have) a car, I would drive to work.",
+   "answer": [
+    "had"
+   ],
+   "why": "Second conditional: if + Past Simple."
+  },
+  {
+   "id": "conditionals-12",
+   "type": "fill",
+   "q": "If you ___ (not / hurry), you'll be late.",
+   "answer": [
+    "don't hurry",
+    "do not hurry"
+   ],
+   "why": "First conditional: if + Present Simple."
+  },
+  {
+   "id": "conditionals-13",
+   "type": "fill",
+   "q": "If they had left earlier, they ___ (catch) the train.",
+   "answer": [
+    "would have caught"
+   ],
+   "why": "Third conditional: would have + V3."
+  },
+  {
+   "id": "conditionals-14",
+   "type": "fill",
+   "q": "If I had taken that job, I ___ (be) rich now.",
+   "answer": [
+    "would be"
+   ],
+   "why": "Mixed: минула умова → теперішній наслідок."
+  },
+  {
+   "id": "conditionals-15",
+   "type": "choice",
+   "q": "If water ___ 100°C, it boils.",
+   "options": [
+    "reaches",
+    "will reach",
+    "reached",
+    "would reach"
+   ],
+   "answer": 0,
+   "why": "Zero conditional: Present Simple."
+  },
+  {
+   "id": "conditionals-16",
+   "type": "choice",
+   "q": "What would you do if you ___ a million?",
+   "options": [
+    "won",
+    "win",
+    "will win",
+    "had won"
+   ],
+   "answer": 0,
+   "why": "Уявна ситуація — Past Simple."
+  },
+  {
+   "id": "conditionals-17",
+   "type": "choice",
+   "q": "If I ___ you, I wouldn't do that.",
+   "options": [
+    "were",
+    "am",
+    "will be",
+    "had been"
+   ],
+   "answer": 0,
+   "why": "If I were you — порада."
+  },
+  {
+   "id": "conditionals-18",
+   "type": "choice",
+   "q": "She would have come if you ___ her.",
+   "options": [
+    "had invited",
+    "invited",
+    "would invite",
+    "have invited"
+   ],
+   "answer": 0,
+   "why": "Third conditional: had + V3."
+  },
+  {
+   "id": "conditionals-19",
+   "type": "choice",
+   "q": "I'll lend you my bike if you ___ careful.",
+   "options": [
+    "are",
+    "will be",
+    "were",
+    "would be"
+   ],
+   "answer": 0,
+   "why": "First conditional: Present Simple після if."
+  },
+  {
+   "id": "conditionals-20",
+   "type": "order",
+   "words": [
+    "If",
+    "it",
+    "rains",
+    "we",
+    "will",
+    "stay",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "If it rains we will stay at home",
+    "If it rains, we will stay at home"
+   ],
+   "why": "First conditional.",
+   "hint": "Якщо піде дощ, ми залишимося вдома."
+  },
+  {
+   "id": "conditionals-21",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "help",
+    "you",
+    "if",
+    "I",
+    "had",
+    "time"
+   ],
+   "answer": [
+    "I would help you if I had time"
+   ],
+   "why": "Second conditional.",
+   "hint": "Я б допоміг, якби мав час."
+  },
+  {
+   "id": "conditionals-22",
+   "type": "order",
+   "words": [
+    "If",
+    "I",
+    "had",
+    "known",
+    "I",
+    "would",
+    "have",
+    "come"
+   ],
+   "answer": [
+    "If I had known I would have come"
+   ],
+   "why": "Third conditional.",
+   "hint": "Якби я знав, я б прийшов."
   }
  ]
 }

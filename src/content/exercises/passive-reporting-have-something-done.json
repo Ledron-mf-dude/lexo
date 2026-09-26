@@ -117,6 +117,160 @@
     "They are thought to have stolen the painting"
    ],
    "why": "Passive reporting: are thought to have + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-10",
+   "type": "fill",
+   "q": "I'm going to have my eyes ___ (test).",
+   "answer": [
+    "tested"
+   ],
+   "why": "have + предмет + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-11",
+   "type": "fill",
+   "q": "It is ___ that the company will close. (вважають)",
+   "answer": [
+    "thought",
+    "believed",
+    "said",
+    "expected"
+   ],
+   "why": "It is thought / believed that…"
+  },
+  {
+   "id": "passive-reporting-have-something-done-12",
+   "type": "fill",
+   "q": "She is said ___ (be) a brilliant cook.",
+   "answer": [
+    "to be"
+   ],
+   "why": "be said + to-інфінітив."
+  },
+  {
+   "id": "passive-reporting-have-something-done-13",
+   "type": "fill",
+   "q": "We had our car ___ (steal) last week.",
+   "answer": [
+    "stolen"
+   ],
+   "why": "have something done — неприємна подія."
+  },
+  {
+   "id": "passive-reporting-have-something-done-14",
+   "type": "fill",
+   "q": "The minister is reported ___ (resign). (вже)",
+   "answer": [
+    "to have resigned"
+   ],
+   "why": "Про минуле — to have + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-15",
+   "type": "choice",
+   "q": "I ___ my phone fixed yesterday.",
+   "options": [
+    "got",
+    "made",
+    "did",
+    "took"
+   ],
+   "answer": 0,
+   "why": "get + предмет + V3 — розмовно."
+  },
+  {
+   "id": "passive-reporting-have-something-done-16",
+   "type": "choice",
+   "q": "She ___ her nails done every week.",
+   "options": [
+    "has",
+    "makes",
+    "does",
+    "is"
+   ],
+   "answer": 0,
+   "why": "have something done — регулярна послуга."
+  },
+  {
+   "id": "passive-reporting-have-something-done-17",
+   "type": "choice",
+   "q": "The painting is believed ___ in 1990.",
+   "options": [
+    "to have been stolen",
+    "to steal",
+    "stolen",
+    "to be stealing"
+   ],
+   "answer": 0,
+   "why": "Пасивний перфектний інфінітив."
+  },
+  {
+   "id": "passive-reporting-have-something-done-18",
+   "type": "choice",
+   "q": "It ___ that he was involved.",
+   "options": [
+    "is claimed",
+    "claims",
+    "is claiming",
+    "has claimed"
+   ],
+   "answer": 0,
+   "why": "It is claimed that…"
+  },
+  {
+   "id": "passive-reporting-have-something-done-19",
+   "type": "order",
+   "words": [
+    "I",
+    "had",
+    "my",
+    "hair",
+    "cut",
+    "yesterday"
+   ],
+   "answer": [
+    "I had my hair cut yesterday"
+   ],
+   "why": "have + предмет + V3.",
+   "hint": "Учора я підстригся (у перукаря)."
+  },
+  {
+   "id": "passive-reporting-have-something-done-20",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "said",
+    "that",
+    "he",
+    "is",
+    "very",
+    "rich"
+   ],
+   "answer": [
+    "It is said that he is very rich"
+   ],
+   "why": "It is said that…",
+   "hint": "Кажуть, що він дуже багатий."
+  },
+  {
+   "id": "passive-reporting-have-something-done-21",
+   "type": "order",
+   "words": [
+    "He",
+    "is",
+    "believed",
+    "to",
+    "be",
+    "in",
+    "Spain"
+   ],
+   "answer": [
+    "He is believed to be in Spain"
+   ],
+   "why": "be believed + to-інфінітив.",
+   "hint": "Вважають, що він в Іспанії."
   }
  ]
 }

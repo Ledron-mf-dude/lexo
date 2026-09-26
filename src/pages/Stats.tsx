@@ -9,11 +9,13 @@ import { useReviewLog } from '../lib/reviewLog'
 import { tracks, unlocked } from '../lib/achievements'
 import { MODE_LABELS, activity, forecast, maturity, modeStats, percent, streak } from '../lib/stats'
 import { demoExerciseLog, demoProgress, demoReviewLog } from '../lib/statsDemo'
+import { useTitle } from '../lib/useTitle'
 
 const dateLabel = (d: Date) => d.toLocaleDateString('uk-UA', { day: 'numeric', month: 'short' })
 const weekday = (d: Date) => d.toLocaleDateString('uk-UA', { weekday: 'short' })
 
 export default function Stats() {
+  useTitle('Статистика')
   const [params] = useSearchParams()
   const demo = params.get('demo') === '1'
   const navigate = useNavigate()

@@ -11,7 +11,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "do homework."
+   "why": "do homework — завдання, робота: do."
   },
   {
    "id": "do-make-2",
@@ -24,7 +24,7 @@
     "had"
    ],
    "answer": 1,
-   "why": "make a mistake."
+   "why": "make a mistake — помилку «роблять» з make."
   },
   {
    "id": "do-make-3",
@@ -37,7 +37,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "do a favour."
+   "why": "do a favour — зробити послугу."
   },
   {
    "id": "do-make-4",
@@ -50,7 +50,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "make a plan."
+   "why": "make a plan — створити план."
   },
   {
    "id": "do-make-5",
@@ -63,7 +63,7 @@
     "gets"
    ],
    "answer": 1,
-   "why": "make money."
+   "why": "make money — заробляти гроші."
   },
   {
    "id": "do-make-6",
@@ -76,7 +76,7 @@
     "Put"
    ],
    "answer": 1,
-   "why": "do the dishes."
+   "why": "do the dishes — мити посуд (хатня робота — do)."
   },
   {
    "id": "do-make-7",
@@ -89,7 +89,7 @@
     "put"
    ],
    "answer": 1,
-   "why": "make a call."
+   "why": "make a (phone) call — телефонувати."
   },
   {
    "id": "do-make-8",
@@ -102,7 +102,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "make sense."
+   "why": "make sense — мати сенс."
   },
   {
    "id": "do-make-9",
@@ -116,6 +116,163 @@
    ],
    "answer": 0,
    "why": "Друге do — професія."
+  },
+  {
+   "id": "do-make-10",
+   "type": "fill",
+   "q": "I need to ___ a decision by Friday.",
+   "answer": [
+    "make"
+   ],
+   "why": "make a decision."
+  },
+  {
+   "id": "do-make-11",
+   "type": "fill",
+   "q": "Let's ___ the shopping on Saturday.",
+   "answer": [
+    "do"
+   ],
+   "why": "do the shopping — хатні справи."
+  },
+  {
+   "id": "do-make-12",
+   "type": "fill",
+   "q": "She always ___ her best.",
+   "answer": [
+    "does"
+   ],
+   "why": "do your best — старатися з усіх сил."
+  },
+  {
+   "id": "do-make-13",
+   "type": "fill",
+   "q": "Don't ___ so much noise!",
+   "answer": [
+    "make"
+   ],
+   "why": "make a noise."
+  },
+  {
+   "id": "do-make-14",
+   "type": "fill",
+   "q": "I ___ yoga twice a week.",
+   "answer": [
+    "do"
+   ],
+   "why": "do yoga / exercise / sport."
+  },
+  {
+   "id": "do-make-15",
+   "type": "fill",
+   "q": "We ___ friends with our neighbours quickly.",
+   "answer": [
+    "made"
+   ],
+   "why": "make friends — подружитися."
+  },
+  {
+   "id": "do-make-16",
+   "type": "choice",
+   "q": "Can you ___ me a cup of tea?",
+   "options": [
+    "make",
+    "do",
+    "take",
+    "have"
+   ],
+   "answer": 0,
+   "why": "make tea / coffee — приготувати."
+  },
+  {
+   "id": "do-make-17",
+   "type": "choice",
+   "q": "He ___ research on climate change.",
+   "options": [
+    "does",
+    "makes",
+    "takes",
+    "gets"
+   ],
+   "answer": 0,
+   "why": "do research."
+  },
+  {
+   "id": "do-make-18",
+   "type": "choice",
+   "q": "You're ___ good progress!",
+   "options": [
+    "making",
+    "doing",
+    "having",
+    "taking"
+   ],
+   "answer": 0,
+   "why": "make progress."
+  },
+  {
+   "id": "do-make-19",
+   "type": "choice",
+   "q": "I have to ___ an exam tomorrow.",
+   "options": [
+    "do",
+    "make",
+    "pass on",
+    "write on"
+   ],
+   "answer": 0,
+   "why": "do / take an exam (BrE)."
+  },
+  {
+   "id": "do-make-20",
+   "type": "order",
+   "words": [
+    "Could",
+    "you",
+    "do",
+    "me",
+    "a",
+    "favour"
+   ],
+   "answer": [
+    "Could you do me a favour"
+   ],
+   "why": "do a favour.",
+   "hint": "Можеш зробити мені послугу?"
+  },
+  {
+   "id": "do-make-21",
+   "type": "order",
+   "words": [
+    "I",
+    "made",
+    "a",
+    "lot",
+    "of",
+    "mistakes"
+   ],
+   "answer": [
+    "I made a lot of mistakes"
+   ],
+   "why": "make a mistake.",
+   "hint": "Я зробив багато помилок."
+  },
+  {
+   "id": "do-make-22",
+   "type": "order",
+   "words": [
+    "She",
+    "does",
+    "the",
+    "laundry",
+    "on",
+    "Sundays"
+   ],
+   "answer": [
+    "She does the laundry on Sundays"
+   ],
+   "why": "do the laundry.",
+   "hint": "Вона пере білизну по неділях."
   }
  ]
 }

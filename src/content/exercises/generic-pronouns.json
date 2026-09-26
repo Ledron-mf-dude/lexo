@@ -1,0 +1,228 @@
+{
+ "questions": [
+  {
+   "id": "generic-pronouns-1",
+   "type": "choice",
+   "q": "___ can't smoke here. It's not allowed.",
+   "options": [
+    "You",
+    "One must",
+    "It",
+    "There"
+   ],
+   "answer": 0,
+   "why": "you — узагальнено «тут не можна»."
+  },
+  {
+   "id": "generic-pronouns-2",
+   "type": "choice",
+   "q": "___ say it's going to be a cold winter.",
+   "options": [
+    "They",
+    "One",
+    "It",
+    "We"
+   ],
+   "answer": 0,
+   "why": "they say — кажуть."
+  },
+  {
+   "id": "generic-pronouns-3",
+   "type": "choice",
+   "q": "___ should always keep one's promises.",
+   "options": [
+    "One",
+    "You",
+    "They",
+    "It"
+   ],
+   "answer": 0,
+   "why": "one — формально; далі one's."
+  },
+  {
+   "id": "generic-pronouns-4",
+   "type": "choice",
+   "q": "How do ___ get to the station from here?",
+   "options": [
+    "you",
+    "one's",
+    "they",
+    "it"
+   ],
+   "answer": 0,
+   "why": "you — будь-хто (зокрема я)."
+  },
+  {
+   "id": "generic-pronouns-5",
+   "type": "choice",
+   "q": "___ are building a new metro line.",
+   "options": [
+    "They",
+    "One",
+    "You",
+    "We are"
+   ],
+   "answer": 0,
+   "why": "they — невизначені люди, влада."
+  },
+  {
+   "id": "generic-pronouns-6",
+   "type": "choice",
+   "q": "___ all make mistakes.",
+   "options": [
+    "We",
+    "They",
+    "One",
+    "It"
+   ],
+   "answer": 0,
+   "why": "we — усі ми, люди."
+  },
+  {
+   "id": "generic-pronouns-7",
+   "type": "choice",
+   "q": "Which is the most formal?",
+   "options": [
+    "One must be careful.",
+    "You must be careful.",
+    "They must be careful.",
+    "People must be careful."
+   ],
+   "answer": 0,
+   "why": "one — найформальніше."
+  },
+  {
+   "id": "generic-pronouns-8",
+   "type": "choice",
+   "q": "It's important to look after ___. (formal)",
+   "options": [
+    "oneself",
+    "yourself",
+    "ourself",
+    "themself"
+   ],
+   "answer": 0,
+   "why": "one → oneself."
+  },
+  {
+   "id": "generic-pronouns-9",
+   "type": "choice",
+   "q": "___ think he's very rich. (люди)",
+   "options": [
+    "People",
+    "Peoples",
+    "One",
+    "It"
+   ],
+   "answer": 0,
+   "why": "people — люди загалом."
+  },
+  {
+   "id": "generic-pronouns-10",
+   "type": "fill",
+   "q": "___ never know what will happen. (you)",
+   "answer": [
+    "You"
+   ],
+   "why": "You never know — ніколи не знаєш."
+  },
+  {
+   "id": "generic-pronouns-11",
+   "type": "fill",
+   "q": "In Japan, ___ drive on the left. (узагальнено)",
+   "answer": [
+    "you",
+    "they",
+    "people"
+   ],
+   "why": "you / they / people — узагальнено."
+  },
+  {
+   "id": "generic-pronouns-12",
+   "type": "fill",
+   "q": "One should do ___ best.",
+   "answer": [
+    "one's"
+   ],
+   "why": "one → one's."
+  },
+  {
+   "id": "generic-pronouns-13",
+   "type": "fill",
+   "q": "___ say that the new café is great. (кажуть)",
+   "answer": [
+    "They",
+    "People"
+   ],
+   "why": "They say — кажуть."
+  },
+  {
+   "id": "generic-pronouns-14",
+   "type": "fill",
+   "q": "___ have to be 18 to vote here.",
+   "answer": [
+    "You"
+   ],
+   "why": "You have to… — узагальнено."
+  },
+  {
+   "id": "generic-pronouns-15",
+   "type": "fill",
+   "q": "Smoking is not ___ here. (пасив замість узагальнення)",
+   "answer": [
+    "allowed",
+    "permitted"
+   ],
+   "why": "Пасив: is not allowed."
+  },
+  {
+   "id": "generic-pronouns-16",
+   "type": "order",
+   "words": [
+    "You",
+    "can",
+    "buy",
+    "tickets",
+    "online"
+   ],
+   "answer": [
+    "You can buy tickets online"
+   ],
+   "why": "you — узагальнено.",
+   "hint": "Квитки можна купити онлайн."
+  },
+  {
+   "id": "generic-pronouns-17",
+   "type": "order",
+   "words": [
+    "They",
+    "say",
+    "it",
+    "will",
+    "rain",
+    "tomorrow"
+   ],
+   "answer": [
+    "They say it will rain tomorrow"
+   ],
+   "why": "they say.",
+   "hint": "Кажуть, що завтра буде дощ."
+  },
+  {
+   "id": "generic-pronouns-18",
+   "type": "order",
+   "words": [
+    "People",
+    "often",
+    "forget",
+    "their",
+    "passwords"
+   ],
+   "answer": [
+    "People often forget their passwords"
+   ],
+   "why": "people — загалом.",
+   "hint": "Люди часто забувають паролі."
+  }
+ ]
+}

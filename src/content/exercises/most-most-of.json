@@ -103,6 +103,154 @@
    ],
    "answer": 0,
    "why": "Most of + займенник / the / my."
+  },
+  {
+   "id": "most-most-of-9",
+   "type": "fill",
+   "q": "___ children love sweets. (загалом)",
+   "answer": [
+    "Most"
+   ],
+   "why": "Most + іменник — загалом."
+  },
+  {
+   "id": "most-most-of-10",
+   "type": "fill",
+   "q": "Most ___ the rooms have a sea view.",
+   "answer": [
+    "of"
+   ],
+   "why": "Most of + the — конкретна група."
+  },
+  {
+   "id": "most-most-of-11",
+   "type": "fill",
+   "q": "I ___ work from home. (здебільшого)",
+   "answer": [
+    "mostly"
+   ],
+   "why": "mostly — переважно."
+  },
+  {
+   "id": "most-most-of-12",
+   "type": "fill",
+   "q": "She's ___ intelligent person I know.",
+   "answer": [
+    "the most"
+   ],
+   "why": "Найвищий ступінь — the most."
+  },
+  {
+   "id": "most-most-of-13",
+   "type": "fill",
+   "q": "___ everyone came to the party. (майже всі)",
+   "answer": [
+    "Almost",
+    "Nearly"
+   ],
+   "why": "almost / nearly everyone — майже всі."
+  },
+  {
+   "id": "most-most-of-14",
+   "type": "choice",
+   "q": "___ of us agreed with the plan.",
+   "options": [
+    "Most",
+    "Mostly",
+    "Almost",
+    "The most"
+   ],
+   "answer": 0,
+   "why": "Most of us — більшість із нас."
+  },
+  {
+   "id": "most-most-of-15",
+   "type": "choice",
+   "q": "I spent ___ of my money on books.",
+   "options": [
+    "most",
+    "mostly",
+    "almost",
+    "the most"
+   ],
+   "answer": 0,
+   "why": "most of + my."
+  },
+  {
+   "id": "most-most-of-16",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Most British people drink tea.",
+    "Most of British people drink tea.",
+    "The most British people drink tea.",
+    "Mostly British people drink tea."
+   ],
+   "answer": 0,
+   "why": "Загально — Most + іменник без of."
+  },
+  {
+   "id": "most-most-of-17",
+   "type": "choice",
+   "q": "The weather was ___ sunny.",
+   "options": [
+    "mostly",
+    "most",
+    "the most",
+    "most of"
+   ],
+   "answer": 0,
+   "why": "mostly — здебільшого."
+  },
+  {
+   "id": "most-most-of-18",
+   "type": "order",
+   "words": [
+    "Most",
+    "people",
+    "have",
+    "a",
+    "mobile",
+    "phone"
+   ],
+   "answer": [
+    "Most people have a mobile phone"
+   ],
+   "why": "Most + іменник — загалом.",
+   "hint": "Більшість людей мають мобільний телефон."
+  },
+  {
+   "id": "most-most-of-19",
+   "type": "order",
+   "words": [
+    "Most",
+    "of",
+    "my",
+    "friends",
+    "are",
+    "students"
+   ],
+   "answer": [
+    "Most of my friends are students"
+   ],
+   "why": "Most of + my.",
+   "hint": "Більшість моїх друзів — студенти."
+  },
+  {
+   "id": "most-most-of-20",
+   "type": "order",
+   "words": [
+    "I",
+    "mostly",
+    "listen",
+    "to",
+    "jazz"
+   ],
+   "answer": [
+    "I mostly listen to jazz"
+   ],
+   "why": "mostly — прислівник.",
+   "hint": "Я здебільшого слухаю джаз."
   }
  ]
 }

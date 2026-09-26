@@ -2,6 +2,7 @@
 title: Inversion (зворотний порядок слів): never have I…
 category: Порядок слів
 levels: [B2, C1]
+aliases: [Inversion]
 tags: [inversion, never have I, hardly, no sooner, not only, seldom, rarely, little, only when, under no circumstances, so beautiful was, інверсія, наголос]
 ---
 
@@ -48,3 +49,10 @@ tags: [inversion, never have I, hardly, no sooner, not only, seldom, rarely, lit
 1. Немає допоміжного? Додаємо **do / does / did**: *Never **did** I see…*
 2. Речення залишається ствердним: *Never **have I** seen*, не *haven't*.
 3. Вживайте обережно: це ефектно, але **формально**.
+
+## Типові помилки
+
+- ✗ *Never I have seen such a thing.* → ✓ ***Never have I** seen…*
+- ✗ *Rarely she goes out.* → ✓ ***Rarely does she** go out.*
+- ✗ *Never haven't I seen it.* → ✓ ***Never have I** seen it.* (речення ствердне)
+- ✗ *No sooner had she left when he called.* → ✓ *No sooner had she left **than** he called.*

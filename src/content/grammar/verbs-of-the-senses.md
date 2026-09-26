@@ -33,3 +33,10 @@ tags: [verbs of the senses, look, sound, feel, smell, taste, look like, as if, a
 ## Схожі за змістом
 
 `Seem` і `appear` працюють подібно: *She **seems** happy.* Див. «Seem — здаватися».
+
+## Типові помилки
+
+- ✗ *It smells deliciously.* → ✓ *It smells **delicious**.*
+- ✗ *You look like tired.* → ✓ *You look **tired**.* (like — перед іменником)
+- ✗ *It sounds like great.* → ✓ *It sounds **great**.* (перед прикметником — без like)
+- ✗ *The soup is tasting salty.* → ✓ *The soup **tastes** salty.*

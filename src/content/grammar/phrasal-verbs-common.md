@@ -64,4 +64,11 @@ tags: [phrasal verbs, break down, give up, look after, turn down, put off, find 
 | **get on with** | ладнати; продовжувати | Let's **get on with** work. |
 | **deal with** I | мати справу | I'll **deal with** it. |
 
+## Типові помилки
+
+- ✗ *Turn off it.* → ✓ *Turn **it off**.*
+- ✗ *I look forward to see you.* → ✓ *I look forward to **seeing** you.*
+- ✗ *We ran out milk.* → ✓ *We ran out **of** milk.*
+- ✗ *She looks her grandmother after.* → ✓ *She **looks after** her grandmother.*
+
 Правила розташування додатка — у статті «Фразові дієслова: що це і як користуватися».

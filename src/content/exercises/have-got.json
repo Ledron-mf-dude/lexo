@@ -11,7 +11,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "she + has got."
+   "why": "he/she/it — has got (скорочено she's got)."
   },
   {
    "id": "have-got-2",
@@ -99,6 +99,157 @@
     "She has got blue eyes"
    ],
    "why": "have got — для зовнішності, володіння."
+  },
+  {
+   "id": "have-got-9",
+   "type": "fill",
+   "q": "___ your flat got a balcony?",
+   "answer": [
+    "Has"
+   ],
+   "why": "flat — it: Has … got?"
+  },
+  {
+   "id": "have-got-10",
+   "type": "fill",
+   "q": "I've ___ a terrible headache.",
+   "answer": [
+    "got"
+   ],
+   "why": "have got — для хвороб."
+  },
+  {
+   "id": "have-got-11",
+   "type": "fill",
+   "q": "They ___ got any children.",
+   "answer": [
+    "haven't",
+    "have not"
+   ],
+   "why": "they → haven't got.",
+   "hint": "Заперечення"
+  },
+  {
+   "id": "have-got-12",
+   "type": "fill",
+   "q": "\"Has he got a car?\" — \"No, he ___.\"",
+   "answer": [
+    "hasn't",
+    "has not"
+   ],
+   "why": "Коротка відповідь без got: No, he hasn't."
+  },
+  {
+   "id": "have-got-13",
+   "type": "fill",
+   "q": "When I was a child, I ___ a dog.",
+   "answer": [
+    "had"
+   ],
+   "why": "have got — лише теперішній; минуле — had.",
+   "hint": "Минуле"
+  },
+  {
+   "id": "have-got-14",
+   "type": "choice",
+   "q": "___ you got any brothers or sisters?",
+   "options": [
+    "Have",
+    "Do",
+    "Are",
+    "Has"
+   ],
+   "answer": 0,
+   "why": "Питання: Have + you + got."
+  },
+  {
+   "id": "have-got-15",
+   "type": "choice",
+   "q": "She ___ long dark hair.",
+   "options": [
+    "'s got",
+    "have got",
+    "'s get",
+    "got has"
+   ],
+   "answer": 0,
+   "why": "she has got = she's got."
+  },
+  {
+   "id": "have-got-16",
+   "type": "choice",
+   "q": "Which one can NOT be replaced by 'have got'?",
+   "options": [
+    "I have lunch at one.",
+    "I have a car.",
+    "I have two sisters.",
+    "I have a cold."
+   ],
+   "answer": 0,
+   "why": "have у виразах (have lunch) — дія, не володіння."
+  },
+  {
+   "id": "have-got-17",
+   "type": "choice",
+   "q": "I've got ___ go now. Bye!",
+   "options": [
+    "to",
+    "for",
+    "-",
+    "at"
+   ],
+   "answer": 0,
+   "why": "have got to = have to (розм.)."
+  },
+  {
+   "id": "have-got-18",
+   "type": "order",
+   "words": [
+    "Have",
+    "you",
+    "got",
+    "a",
+    "pen"
+   ],
+   "answer": [
+    "Have you got a pen"
+   ],
+   "why": "Have + підмет + got.",
+   "hint": "У тебе є ручка?"
+  },
+  {
+   "id": "have-got-19",
+   "type": "order",
+   "words": [
+    "We",
+    "haven't",
+    "got",
+    "much",
+    "time"
+   ],
+   "answer": [
+    "We haven't got much time"
+   ],
+   "why": "haven't got + much.",
+   "hint": "У нас мало часу."
+  },
+  {
+   "id": "have-got-20",
+   "type": "order",
+   "words": [
+    "My",
+    "brother",
+    "has",
+    "got",
+    "a",
+    "new",
+    "job"
+   ],
+   "answer": [
+    "My brother has got a new job"
+   ],
+   "why": "has got — третя особа.",
+   "hint": "Мій брат отримав нову роботу / має нову роботу."
   }
  ]
 }

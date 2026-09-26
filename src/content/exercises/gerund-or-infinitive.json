@@ -123,6 +123,155 @@
     "He forgot to call her"
    ],
    "why": "forget + to = забув зробити."
+  },
+  {
+   "id": "gerund-or-infinitive-11",
+   "type": "fill",
+   "q": "We can't afford ___ (buy) a new car.",
+   "answer": [
+    "to buy"
+   ],
+   "why": "afford + to-інфінітив."
+  },
+  {
+   "id": "gerund-or-infinitive-12",
+   "type": "fill",
+   "q": "She promised ___ (call) me.",
+   "answer": [
+    "to call"
+   ],
+   "why": "promise + to-інфінітив."
+  },
+  {
+   "id": "gerund-or-infinitive-13",
+   "type": "fill",
+   "q": "I'll never forget ___ (see) the ocean for the first time.",
+   "answer": [
+    "seeing"
+   ],
+   "why": "forget + -ing — не забуду того, що було."
+  },
+  {
+   "id": "gerund-or-infinitive-14",
+   "type": "fill",
+   "q": "Try ___ (turn) it off and on again.",
+   "answer": [
+    "turning"
+   ],
+   "why": "try + -ing — спробуй як експеримент."
+  },
+  {
+   "id": "gerund-or-infinitive-15",
+   "type": "fill",
+   "q": "He managed ___ (finish) on time.",
+   "answer": [
+    "to finish"
+   ],
+   "why": "manage + to-інфінітив."
+  },
+  {
+   "id": "gerund-or-infinitive-16",
+   "type": "choice",
+   "q": "I tried ___ the window, but it was stuck.",
+   "options": [
+    "to open",
+    "opening",
+    "open",
+    "to opening"
+   ],
+   "answer": 0,
+   "why": "try + to — намагався (не вдалося)."
+  },
+  {
+   "id": "gerund-or-infinitive-17",
+   "type": "choice",
+   "q": "It started ___ at noon.",
+   "options": [
+    "to rain / raining — both",
+    "only to rain",
+    "only raining",
+    "rain"
+   ],
+   "answer": 0,
+   "why": "start допускає обидві форми."
+  },
+  {
+   "id": "gerund-or-infinitive-18",
+   "type": "choice",
+   "q": "We agreed ___ at 6.",
+   "options": [
+    "to meet",
+    "meeting",
+    "meet",
+    "to meeting"
+   ],
+   "answer": 0,
+   "why": "agree + to-інфінітив."
+  },
+  {
+   "id": "gerund-or-infinitive-19",
+   "type": "choice",
+   "q": "I regret ___ her the truth. (шкодую, що сказав)",
+   "options": [
+    "telling",
+    "to tell",
+    "tell",
+    "told"
+   ],
+   "answer": 0,
+   "why": "regret + -ing — шкодую про зроблене."
+  },
+  {
+   "id": "gerund-or-infinitive-20",
+   "type": "order",
+   "words": [
+    "I",
+    "decided",
+    "to",
+    "stay",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "I decided to stay at home"
+   ],
+   "why": "decide + to-інфінітив.",
+   "hint": "Я вирішив залишитися вдома."
+  },
+  {
+   "id": "gerund-or-infinitive-21",
+   "type": "order",
+   "words": [
+    "She",
+    "stopped",
+    "talking",
+    "when",
+    "I",
+    "came",
+    "in"
+   ],
+   "answer": [
+    "She stopped talking when I came in"
+   ],
+   "why": "stop + -ing — припинити.",
+   "hint": "Вона замовкла, коли я зайшов."
+  },
+  {
+   "id": "gerund-or-infinitive-22",
+   "type": "order",
+   "words": [
+    "Please",
+    "remember",
+    "to",
+    "buy",
+    "some",
+    "bread"
+   ],
+   "answer": [
+    "Please remember to buy some bread"
+   ],
+   "why": "remember + to — не забудь зробити.",
+   "hint": "Будь ласка, не забудь купити хліба."
   }
  ]
 }

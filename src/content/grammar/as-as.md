@@ -1,27 +1,53 @@
 ---
 title: As … as (такий самий, як)
 category: Прикметники та прислівники
-levels: [A2]
-tags: [as as, as tall as, equal comparison, порівняння, такий самий]
+levels: [A2, B1]
+tags: [as as, as tall as, not as as, not so as, twice as, the same as, equal comparison, порівняння, такий самий]
 ---
 
-Конструкція **as … as** каже, що двоє людей чи речей **однакові** за якоюсь ознакою.
-
-## Правило
-
-Між двома `as` прикметник (або прислівник) стоїть **у звичайній формі**. Тут **не** використовуємо:
-
-- закінчення `-er` / `-est`;
-- `more` / `the most`.
-
-## Приклади
-
-- She is **as tall as** me. — Вона така сама висока, як я.
-- He is **as strong as** me. — Він такий самий сильний, як я.
-- They are **as fast as** me. — Вони такі самі швидкі, як я.
+**As + прикметник / прислівник + as** — «такий самий …, як». Прикметник між двома `as` стоїть у **звичайній** формі: без `-er`, без `more`.
 
 ## Схема
 
-**subject + be + as + adjective + as + object**
+| Значення | Схема | Приклад |
+| --- | --- | --- |
+| Однаково | **as** + adj + **as** | She is **as tall as** her brother. |
+| Не так, менше | **not as / not so** + adj + **as** | This film is**n't as good as** the book. |
+| З прислівником | **as** + adv + **as** | He runs **as fast as** me. |
+| Кількість | **as much / as many** + іменник + **as** | I don't earn **as much** money **as** you. |
 
-> Для заперечення додають `not`: *He is **not as tall as** me.* — Він не такий високий, як я.
+`Not as … as` = «менш …, ніж»: *The bus **isn't as fast as** the train.* = *The bus is **slower than** the train.*
+
+## Скільки разів
+
+**twice / three times / half + as … as**:
+
+- *This flat is **twice as big as** mine.* — удвічі більша.
+- *Tickets cost **half as much as** last year.* — удвічі менше.
+
+## Me чи I після as?
+
+У розмові після `as` — **об'єктний** займенник: *She's as tall as **me**.* Формальніше — з дієсловом: *…as tall as **I am**.*
+
+## Сталі вирази
+
+| Вираз | Значення |
+| --- | --- |
+| **as soon as possible** (ASAP) | якнайшвидше |
+| **as well as** | а також |
+| **as long as** | за умови що; поки |
+| **as far as I know** | наскільки я знаю |
+| **as good as new** | як новий |
+
+## The same as, similar to, different from
+
+- *Your phone is **the same as** mine.* (не *the same like*)
+- *Her dress is **similar to** mine.* / *This is **different from** that.*
+
+## Типові помилки
+
+- ✗ *She is as taller as me.* → ✓ *She is as **tall** as me.*
+- ✗ *He is as more intelligent as his sister.* → ✓ *He is as **intelligent** as his sister.*
+- ✗ *It's the same like yours.* → ✓ *It's the same **as** yours.*
+- ✗ *I have as much friends as you.* → ✓ *I have as **many** friends as you.* (friends — лічильне)
+- ✗ *Twice bigger than* (калька) → ✓ ***twice as big as***

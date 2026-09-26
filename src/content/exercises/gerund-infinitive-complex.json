@@ -116,6 +116,145 @@
    ],
    "answer": 1,
    "why": "let + інфінітив без to."
+  },
+  {
+   "id": "gerund-infinitive-complex-10",
+   "type": "fill",
+   "q": "My parents didn't let me ___ (go) to the party.",
+   "answer": [
+    "go"
+   ],
+   "why": "let + особа + інфінітив без to."
+  },
+  {
+   "id": "gerund-infinitive-complex-11",
+   "type": "fill",
+   "q": "I'd like you ___ (meet) my brother.",
+   "answer": [
+    "to meet"
+   ],
+   "why": "would like + особа + to-інфінітив."
+  },
+  {
+   "id": "gerund-infinitive-complex-12",
+   "type": "fill",
+   "q": "She seems ___ (work) very hard these days.",
+   "answer": [
+    "to be working"
+   ],
+   "why": "Процес зараз — continuous infinitive."
+  },
+  {
+   "id": "gerund-infinitive-complex-13",
+   "type": "fill",
+   "q": "He hates ___ (tell) what to do.",
+   "answer": [
+    "being told"
+   ],
+   "why": "Пасивний gerund: being + V3."
+  },
+  {
+   "id": "gerund-infinitive-complex-14",
+   "type": "choice",
+   "q": "I heard someone ___ my name. (почув усе)",
+   "options": [
+    "call",
+    "to call",
+    "called",
+    "calls"
+   ],
+   "answer": 0,
+   "why": "hear + інфінітив без to — уся дія."
+  },
+  {
+   "id": "gerund-infinitive-complex-15",
+   "type": "choice",
+   "q": "She is said ___ five languages.",
+   "options": [
+    "to speak",
+    "speaking",
+    "speak",
+    "to speaking"
+   ],
+   "answer": 0,
+   "why": "be said + to-інфінітив."
+  },
+  {
+   "id": "gerund-infinitive-complex-16",
+   "type": "choice",
+   "q": "I'm happy ___ you at last.",
+   "options": [
+    "to have met",
+    "having meet",
+    "to meet having",
+    "meet"
+   ],
+   "answer": 0,
+   "why": "Perfect infinitive — щойно сталося."
+  },
+  {
+   "id": "gerund-infinitive-complex-17",
+   "type": "choice",
+   "q": "The teacher made the students ___ the text again.",
+   "options": [
+    "read",
+    "to read",
+    "reading",
+    "reads"
+   ],
+   "answer": 0,
+   "why": "make + особа + інфінітив без to."
+  },
+  {
+   "id": "gerund-infinitive-complex-18",
+   "type": "order",
+   "words": [
+    "She",
+    "wants",
+    "me",
+    "to",
+    "help",
+    "her"
+   ],
+   "answer": [
+    "She wants me to help her"
+   ],
+   "why": "want + особа + to-інфінітив.",
+   "hint": "Вона хоче, щоб я їй допоміг."
+  },
+  {
+   "id": "gerund-infinitive-complex-19",
+   "type": "order",
+   "words": [
+    "He",
+    "denied",
+    "having",
+    "taken",
+    "the",
+    "money"
+   ],
+   "answer": [
+    "He denied having taken the money"
+   ],
+   "why": "Perfect gerund — дія раніше.",
+   "hint": "Він заперечив, що взяв гроші."
+  },
+  {
+   "id": "gerund-infinitive-complex-20",
+   "type": "order",
+   "words": [
+    "I",
+    "saw",
+    "her",
+    "crossing",
+    "the",
+    "street"
+   ],
+   "answer": [
+    "I saw her crossing the street"
+   ],
+   "why": "see + -ing — процес.",
+   "hint": "Я бачив, як вона переходила вулицю."
   }
  ]
 }

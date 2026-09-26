@@ -50,7 +50,7 @@
     "hottest"
    ],
    "answer": 1,
-   "why": "Подвоюємо приголосну."
+   "why": "hot → hotter: короткий прикметник на CVC — подвоюємо приголосну."
   },
   {
    "id": "comparative-modifiers-5",
@@ -63,7 +63,7 @@
     "convenientest"
    ],
    "answer": 1,
-   "why": "Довгий прикметник — more."
+   "why": "convenient — довгий прикметник, тому more convenient."
   },
   {
    "id": "comparative-modifiers-6",
@@ -106,6 +106,172 @@
     "It is a lot more expensive"
    ],
    "why": "a lot + more + adj."
+  },
+  {
+   "id": "comparative-modifiers-9",
+   "type": "fill",
+   "q": "The new flat is ___ bigger than the old one. (набагато)",
+   "answer": [
+    "much",
+    "a lot",
+    "far"
+   ],
+   "why": "much / a lot / far + порівняльний — набагато."
+  },
+  {
+   "id": "comparative-modifiers-10",
+   "type": "fill",
+   "q": "Could you speak a ___ more slowly? (трохи)",
+   "answer": [
+    "bit",
+    "little"
+   ],
+   "why": "a bit / a little + порівняльний — трохи."
+  },
+  {
+   "id": "comparative-modifiers-11",
+   "type": "fill",
+   "q": "Tom is tall, but his brother is ___ taller. (ще вищий)",
+   "answer": [
+    "even"
+   ],
+   "why": "even — «ще більше»: обидва високі."
+  },
+  {
+   "id": "comparative-modifiers-12",
+   "type": "fill",
+   "q": "We need many ___ chairs for the party.",
+   "answer": [
+    "more"
+   ],
+   "why": "many more + лічильний у множині."
+  },
+  {
+   "id": "comparative-modifiers-13",
+   "type": "fill",
+   "q": "This option is ___ cheaper. (трохи, формально)",
+   "answer": [
+    "slightly"
+   ],
+   "why": "slightly — трохи, нейтрально-формально."
+  },
+  {
+   "id": "comparative-modifiers-14",
+   "type": "choice",
+   "q": "Today it's ___ colder than yesterday.",
+   "options": [
+    "much",
+    "very",
+    "too much",
+    "more"
+   ],
+   "answer": 0,
+   "why": "much + порівняльний; very — ні."
+  },
+  {
+   "id": "comparative-modifiers-15",
+   "type": "choice",
+   "q": "I feel ___ better today, thanks.",
+   "options": [
+    "a lot",
+    "very",
+    "lot",
+    "too"
+   ],
+   "answer": 0,
+   "why": "a lot better — набагато краще."
+  },
+  {
+   "id": "comparative-modifiers-16",
+   "type": "choice",
+   "q": "There's ___ less traffic this morning.",
+   "options": [
+    "a bit",
+    "very",
+    "many",
+    "a few"
+   ],
+   "answer": 0,
+   "why": "a bit less — трохи менше."
+  },
+  {
+   "id": "comparative-modifiers-17",
+   "type": "choice",
+   "q": "This one isn't ___ cheaper than that one.",
+   "options": [
+    "any",
+    "no",
+    "some",
+    "much more"
+   ],
+   "answer": 0,
+   "why": "not any + порівняльний — анітрохи не."
+  },
+  {
+   "id": "comparative-modifiers-18",
+   "type": "choice",
+   "q": "She's ___ the best player in the team.",
+   "options": [
+    "by far",
+    "very",
+    "much more",
+    "a lot"
+   ],
+   "answer": 0,
+   "why": "З найвищим ступенем — by far."
+  },
+  {
+   "id": "comparative-modifiers-19",
+   "type": "order",
+   "words": [
+    "This",
+    "test",
+    "was",
+    "much",
+    "easier",
+    "than",
+    "the",
+    "last",
+    "one"
+   ],
+   "answer": [
+    "This test was much easier than the last one"
+   ],
+   "why": "much + порівняльний.",
+   "hint": "Цей тест був набагато легшим за попередній."
+  },
+  {
+   "id": "comparative-modifiers-20",
+   "type": "order",
+   "words": [
+    "Could",
+    "you",
+    "walk",
+    "a",
+    "bit",
+    "faster"
+   ],
+   "answer": [
+    "Could you walk a bit faster"
+   ],
+   "why": "a bit + порівняльний.",
+   "hint": "Можеш іти трохи швидше?"
+  },
+  {
+   "id": "comparative-modifiers-21",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "even",
+    "colder",
+    "today"
+   ],
+   "answer": [
+    "It is even colder today"
+   ],
+   "why": "even + порівняльний.",
+   "hint": "Сьогодні ще холодніше."
   }
  ]
 }

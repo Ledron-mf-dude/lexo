@@ -24,7 +24,7 @@ tags: [likely, unlikely, bound to, definitely, probably, certainly, possibly, pe
 
 ## Be bound to
 
-Впевненість говорить: «неодмінно, напевно»:
+Мовець упевнений: «неодмінно, напевно»:
 
 - *She **is bound to** be late.* — Вона напевно запізниться.
 - *There **is bound to** be a problem.*
@@ -47,5 +47,12 @@ tags: [likely, unlikely, bound to, definitely, probably, certainly, possibly, pe
 | will + **probably** | I'll **probably** go. |
 | **might** | I **might** go. (менш упевнено) |
 | **be bound to** | You're **bound to** like it. |
+
+## Типові помилки
+
+- ✗ *He is likely win.* → ✓ *He is likely **to win**.*
+- ✗ *It's likely to she'll agree.* → ✓ ***It's likely that** she'll agree.* / *She is **likely to** agree.*
+- ✗ *He won't probably come.* → ✓ *He **probably won't** come.*
+- ✗ *She will definitely to come.* → ✓ *She will definitely **come**.*
 
 Пов'язані теми: «Probability — should і Future Simple», «Модальні дієслова: припущення».

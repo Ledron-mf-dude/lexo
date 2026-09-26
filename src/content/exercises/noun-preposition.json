@@ -11,7 +11,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "reason for."
+   "why": "reason for — причина чогось (не of)."
   },
   {
    "id": "noun-preposition-2",
@@ -24,7 +24,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "increase in."
+   "why": "increase in — зростання чогось (у чому)."
   },
   {
    "id": "noun-preposition-3",
@@ -37,7 +37,7 @@
     "in"
    ],
    "answer": 2,
-   "why": "difference between."
+   "why": "difference between — різниця між."
   },
   {
    "id": "noun-preposition-4",
@@ -50,7 +50,7 @@
     "at"
    ],
    "answer": 2,
-   "why": "solution to."
+   "why": "solution to — розв'язання (проблеми)."
   },
   {
    "id": "noun-preposition-5",
@@ -63,7 +63,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "demand for."
+   "why": "demand for — попит на."
   },
   {
    "id": "noun-preposition-6",
@@ -76,7 +76,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "cause of."
+   "why": "cause of — причина (чогось поганого)."
   },
   {
    "id": "noun-preposition-7",
@@ -89,7 +89,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "trouble with."
+   "why": "trouble with — проблеми з."
   },
   {
    "id": "noun-preposition-8",
@@ -102,7 +102,169 @@
     "on"
    ],
    "answer": 1,
-   "why": "attitude to."
+   "why": "attitude to / towards — ставлення до."
+  },
+  {
+   "id": "noun-preposition-9",
+   "type": "fill",
+   "q": "The key ___ success is hard work.",
+   "answer": [
+    "to"
+   ],
+   "why": "key to — ключ до."
+  },
+  {
+   "id": "noun-preposition-10",
+   "type": "fill",
+   "q": "There's been a fall ___ unemployment.",
+   "answer": [
+    "in"
+   ],
+   "why": "fall in — зниження чогось."
+  },
+  {
+   "id": "noun-preposition-11",
+   "type": "fill",
+   "q": "I have no experience ___ marketing.",
+   "answer": [
+    "in"
+   ],
+   "why": "experience in — досвід у сфері."
+  },
+  {
+   "id": "noun-preposition-12",
+   "type": "fill",
+   "q": "What's your opinion ___ the new law?",
+   "answer": [
+    "on",
+    "of",
+    "about"
+   ],
+   "why": "opinion on / of / about."
+  },
+  {
+   "id": "noun-preposition-13",
+   "type": "fill",
+   "q": "Smoking has a bad effect ___ your health.",
+   "answer": [
+    "on"
+   ],
+   "why": "effect on — вплив на."
+  },
+  {
+   "id": "noun-preposition-14",
+   "type": "fill",
+   "q": "She has a lot of respect ___ her teachers.",
+   "answer": [
+    "for"
+   ],
+   "why": "respect for — повага до."
+  },
+  {
+   "id": "noun-preposition-15",
+   "type": "choice",
+   "q": "We received an invitation ___ the wedding.",
+   "options": [
+    "to",
+    "for",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "why": "invitation to — запрошення на."
+  },
+  {
+   "id": "noun-preposition-16",
+   "type": "choice",
+   "q": "Prices went up by 5%. There was an increase ___ 5%.",
+   "options": [
+    "of",
+    "in",
+    "for",
+    "on"
+   ],
+   "answer": 0,
+   "why": "increase of + число."
+  },
+  {
+   "id": "noun-preposition-17",
+   "type": "choice",
+   "q": "There's a lack ___ information.",
+   "options": [
+    "of",
+    "in",
+    "for",
+    "with"
+   ],
+   "answer": 0,
+   "why": "lack of — брак."
+  },
+  {
+   "id": "noun-preposition-18",
+   "type": "choice",
+   "q": "He has a good relationship ___ his colleagues.",
+   "options": [
+    "with",
+    "to",
+    "between",
+    "for"
+   ],
+   "answer": 0,
+   "why": "relationship with — стосунки з."
+  },
+  {
+   "id": "noun-preposition-19",
+   "type": "order",
+   "words": [
+    "What",
+    "is",
+    "the",
+    "reason",
+    "for",
+    "the",
+    "delay"
+   ],
+   "answer": [
+    "What is the reason for the delay"
+   ],
+   "why": "reason for.",
+   "hint": "Яка причина затримки?"
+  },
+  {
+   "id": "noun-preposition-20",
+   "type": "order",
+   "words": [
+    "There",
+    "has",
+    "been",
+    "an",
+    "increase",
+    "in",
+    "crime"
+   ],
+   "answer": [
+    "There has been an increase in crime"
+   ],
+   "why": "increase in.",
+   "hint": "Злочинність зросла."
+  },
+  {
+   "id": "noun-preposition-21",
+   "type": "order",
+   "words": [
+    "I",
+    "don't",
+    "see",
+    "any",
+    "difference",
+    "between",
+    "them"
+   ],
+   "answer": [
+    "I don't see any difference between them"
+   ],
+   "why": "difference between.",
+   "hint": "Я не бачу різниці між ними."
   }
  ]
 }

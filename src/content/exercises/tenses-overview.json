@@ -121,6 +121,156 @@
     "I have been waiting for an hour"
    ],
    "why": "Present Perfect Continuous: have been + V-ing."
+  },
+  {
+   "id": "tenses-overview-11",
+   "type": "fill",
+   "q": "I ___ (work) here since 2020.",
+   "answer": [
+    "have worked",
+    "have been working",
+    "'ve worked",
+    "'ve been working"
+   ],
+   "why": "since + Present Perfect (Continuous)."
+  },
+  {
+   "id": "tenses-overview-12",
+   "type": "fill",
+   "q": "Yesterday at 6 pm I ___ (drive) home.",
+   "answer": [
+    "was driving"
+   ],
+   "why": "Процес у момент минулого — Past Continuous."
+  },
+  {
+   "id": "tenses-overview-13",
+   "type": "fill",
+   "q": "By the time she arrived, we ___ (finish).",
+   "answer": [
+    "had finished"
+   ],
+   "why": "Раніше за минулий момент — Past Perfect."
+  },
+  {
+   "id": "tenses-overview-14",
+   "type": "fill",
+   "q": "Look! It ___ (snow).",
+   "answer": [
+    "is snowing",
+    "'s snowing"
+   ],
+   "why": "Зараз — Present Continuous."
+  },
+  {
+   "id": "tenses-overview-15",
+   "type": "fill",
+   "q": "I ___ (see) him last week.",
+   "answer": [
+    "saw"
+   ],
+   "why": "last week — Past Simple."
+  },
+  {
+   "id": "tenses-overview-16",
+   "type": "fill",
+   "q": "Next year I ___ (be) 30.",
+   "answer": [
+    "will be",
+    "'ll be"
+   ],
+   "why": "Факт про майбутнє — will."
+  },
+  {
+   "id": "tenses-overview-17",
+   "type": "choice",
+   "q": "She ___ to work by bus every day.",
+   "options": [
+    "goes",
+    "is going",
+    "has gone",
+    "went every"
+   ],
+   "answer": 0,
+   "why": "Звичка — Present Simple."
+  },
+  {
+   "id": "tenses-overview-18",
+   "type": "choice",
+   "q": "We ___ for two hours when the bus finally came.",
+   "options": [
+    "had been waiting",
+    "have waited",
+    "were waited",
+    "are waiting"
+   ],
+   "answer": 0,
+   "why": "Тривалість до моменту в минулому — Past Perfect Continuous."
+  },
+  {
+   "id": "tenses-overview-19",
+   "type": "choice",
+   "q": "This time tomorrow I ___ on the beach.",
+   "options": [
+    "will be lying",
+    "will lie",
+    "lie",
+    "am lying on"
+   ],
+   "answer": 0,
+   "why": "Процес у майбутньому — Future Continuous."
+  },
+  {
+   "id": "tenses-overview-20",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "never",
+    "been",
+    "to",
+    "Spain"
+   ],
+   "answer": [
+    "I have never been to Spain"
+   ],
+   "why": "Present Perfect — досвід.",
+   "hint": "Я ніколи не був в Іспанії."
+  },
+  {
+   "id": "tenses-overview-21",
+   "type": "order",
+   "words": [
+    "She",
+    "was",
+    "reading",
+    "when",
+    "I",
+    "came",
+    "in"
+   ],
+   "answer": [
+    "She was reading when I came in"
+   ],
+   "why": "Past Continuous + Past Simple.",
+   "hint": "Вона читала, коли я зайшов."
+  },
+  {
+   "id": "tenses-overview-22",
+   "type": "order",
+   "words": [
+    "They",
+    "will",
+    "have",
+    "finished",
+    "by",
+    "Monday"
+   ],
+   "answer": [
+    "They will have finished by Monday"
+   ],
+   "why": "Future Perfect.",
+   "hint": "Вони закінчать до понеділка."
   }
  ]
 }

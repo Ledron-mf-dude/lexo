@@ -44,3 +44,13 @@ tags: [do, make, do vs make, collocations, homework, mistake, decision, роби
 | **do** business | **make** a deal |
 
 > `Do` також допоміжне дієслово: *What **do** you **do**?* — перше `do` допоміжне, друге — «займатися» (робота).
+
+Інші дієслова з широким значенням — «Дієслово get: значення та вирази» і «Дієслово go: конструкції та сталі вирази».
+
+## Типові помилки
+
+- ✗ *make homework* → ✓ ***do** homework*
+- ✗ *do a mistake* → ✓ ***make** a mistake*
+- ✗ *do a decision* → ✓ ***make** a decision*
+- ✗ *make sport* → ✓ ***do** sport* / ***play** football*
+- ✗ *make a favour* → ✓ ***do** me a favour*

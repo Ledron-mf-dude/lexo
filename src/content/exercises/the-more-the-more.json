@@ -95,6 +95,149 @@
     "The more you practise, the better you become"
    ],
    "why": "The + comparative, the + comparative."
+  },
+  {
+   "id": "the-more-the-more-8",
+   "type": "fill",
+   "q": "The ___ you sleep, the more tired you feel. (less)",
+   "answer": [
+    "less"
+   ],
+   "why": "The less …, the more …"
+  },
+  {
+   "id": "the-more-the-more-9",
+   "type": "fill",
+   "q": "The more I learn, the ___ I realise I don't know. (much)",
+   "answer": [
+    "more"
+   ],
+   "why": "The more …, the more …"
+  },
+  {
+   "id": "the-more-the-more-10",
+   "type": "fill",
+   "q": "The ___ the car, the more expensive it is. (big)",
+   "answer": [
+    "bigger"
+   ],
+   "why": "The + порівняльний."
+  },
+  {
+   "id": "the-more-the-more-11",
+   "type": "fill",
+   "q": "The more, the ___. (merry)",
+   "answer": [
+    "merrier"
+   ],
+   "why": "The more, the merrier — чим більше, тим веселіше."
+  },
+  {
+   "id": "the-more-the-more-12",
+   "type": "choice",
+   "q": "The harder you work, ___ you will earn.",
+   "options": [
+    "the more",
+    "more",
+    "the most",
+    "much more"
+   ],
+   "answer": 0,
+   "why": "The + порівняльний."
+  },
+  {
+   "id": "the-more-the-more-13",
+   "type": "choice",
+   "q": "The ___ you start, the sooner you'll finish.",
+   "options": [
+    "earlier",
+    "early",
+    "earliest",
+    "more early"
+   ],
+   "answer": 0,
+   "why": "early → earlier."
+  },
+  {
+   "id": "the-more-the-more-14",
+   "type": "choice",
+   "q": "Prices are going up ___.",
+   "options": [
+    "more and more",
+    "the more",
+    "most and most",
+    "the most and most"
+   ],
+   "answer": 0,
+   "why": "more and more — постійне зростання."
+  },
+  {
+   "id": "the-more-the-more-15",
+   "type": "choice",
+   "q": "___ I see him, the less I like him.",
+   "options": [
+    "The more",
+    "More",
+    "The most",
+    "Most"
+   ],
+   "answer": 0,
+   "why": "The more …, the less …"
+  },
+  {
+   "id": "the-more-the-more-16",
+   "type": "order",
+   "words": [
+    "The",
+    "sooner",
+    "we",
+    "leave",
+    "the",
+    "better"
+   ],
+   "answer": [
+    "The sooner we leave the better",
+    "The sooner we leave, the better"
+   ],
+   "why": "The + порівняльний.",
+   "hint": "Чим раніше вирушимо, тим краще."
+  },
+  {
+   "id": "the-more-the-more-17",
+   "type": "order",
+   "words": [
+    "The",
+    "older",
+    "I",
+    "get",
+    "the",
+    "happier",
+    "I",
+    "am"
+   ],
+   "answer": [
+    "The older I get the happier I am",
+    "The older I get, the happier I am"
+   ],
+   "why": "The older …, the happier …",
+   "hint": "Чим старшим я стаю, тим щасливіший."
+  },
+  {
+   "id": "the-more-the-more-18",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "getting",
+    "colder",
+    "and",
+    "colder"
+   ],
+   "answer": [
+    "It is getting colder and colder"
+   ],
+   "why": "comparative and comparative.",
+   "hint": "Стає дедалі холодніше."
   }
  ]
 }

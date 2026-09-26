@@ -34,3 +34,12 @@ tags: [would like, i'd like, would you like, offers, requests, polite, ввіч�
 | **Would you like** to dance? (запрошення) | **Do you like** dancing? (уподобання) |
 
 > Після `would like to` — інфінітив; після `like` (уподобання) можливі `-ing` і `to`. Порівняйте: *Would you like to swim?* — *Do you like swimming?*
+
+Див. також «Prefer, would prefer, would rather, would sooner» і «Would rather (краще б)».
+
+## Типові помилки
+
+- ✗ *I would like go.* → ✓ *I would like **to go**.*
+- ✗ *Do you like a coffee?* (пропозиція) → ✓ ***Would** you like a coffee?*
+- ✗ *I want a coffee.* (у кафе звучить різко) → ✓ ***I'd like** a coffee, please.*
+- ✗ *Would you like dancing?* (запрошення) → ✓ *Would you like **to dance**?*

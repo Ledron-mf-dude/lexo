@@ -3,10 +3,12 @@ import { useLocation } from 'react-router-dom'
 import ImportDialog from '../components/ImportDialog'
 import WordForm from '../components/WordForm'
 import SpeakButton from '../components/SpeakButton'
-import { useAuth } from '../lib/auth'
+import { useAuth } from '../lib/authContext'
 import { useDeleteWord, useSaveWord, useTags, useWords, type WordInput, type WordWithTags } from '../lib/queries'
+import { useTitle } from '../lib/useTitle'
 
 export default function Words() {
+  useTitle('Слова')
   const { session } = useAuth()
   const words = useWords()
   const tags = useTags()

@@ -54,4 +54,11 @@ tags: [most, most of, the most, mostly, almost, majority, більшість, н
 | some (of) | деякі |
 | none (of) | жоден |
 
+## Типові помилки
+
+- ✗ *Most of people like music.* → ✓ ***Most people** like music.* (загалом — без of)
+- ✗ *Most the students passed.* → ✓ ***Most of the** students passed.*
+- ✗ *Almost people agree.* → ✓ ***Most** people agree.* / ***Almost all** people agree.*
+- ✗ *the most of my friends* → ✓ ***most of** my friends*
+
 Див. «Quantifiers».

@@ -19,7 +19,9 @@ tags: [adjectives, adverbs, adverbs of manner, slowly, fast, hard, hardly, well,
 | adjective + **-ly** | slow → slow**ly**, quick → quick**ly** |
 | **-y** → **-ily** | happy → happ**ily**, easy → eas**ily** |
 | **-le** → **-ly** | simple → simp**ly**, gentle → gent**ly** |
-| **-ic** → **-ically** | basic → basic**ally** |
+| **-ic** → **-ically** | basic → basic**ally** (але public → public**ly**) |
+
+Прикметники на **-ly** (`friendly`, `lovely`, `lonely`, `silly`) прислівника не мають: *in a friendly way* (не *friendlily*).
 
 ## Неправильні прислівники
 
@@ -56,4 +58,11 @@ tags: [adjectives, adverbs, adverbs of manner, slowly, fast, hard, hardly, well,
 ## Позиція прислівників способу
 
 - Після дієслова або додатка: *She speaks **slowly**.* / *He opened the door **quietly**.*
-- Між `to be` і прикметником: *very **happy***.
+- Прислівники ступеня (`very`, `really`, `quite`) — перед прикметником: *She is **very** happy.*
+
+## Типові помилки
+
+- ✗ *She speaks English very good.* → ✓ *She speaks English very **well**.*
+- ✗ *He works hardly.* (= майже не працює) → ✓ *He works **hard**.*
+- ✗ *The soup tastes well.* → ✓ *The soup tastes **good**.* (після taste — прикметник)
+- ✗ *She drives careful.* → ✓ *She drives **carefully**.*

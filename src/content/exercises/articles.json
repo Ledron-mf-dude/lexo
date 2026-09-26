@@ -1,19 +1,6 @@
 {
  "questions": [
   {
-   "id": "articles-1",
-   "type": "choice",
-   "q": "I have ___ sister. ___ sister lives in Kyiv.",
-   "options": [
-    "a / The",
-    "the / A",
-    "a / A",
-    "an / The"
-   ],
-   "answer": 0,
-   "why": "Уперше — a, повторно (вже відома) — the."
-  },
-  {
    "id": "articles-2",
    "type": "choice",
    "q": "She is ___ engineer.",
@@ -129,6 +116,212 @@
    ],
    "answer": 1,
    "why": "h не вимовляється, слово починається з голосного звуку — an."
+  },
+  {
+   "id": "articles-11",
+   "type": "choice",
+   "q": "I bought a phone and a case. ___ phone was cheap.",
+   "options": [
+    "The",
+    "A",
+    "An",
+    "(без артикля)"
+   ],
+   "answer": 0,
+   "why": "Уже згаданий предмет — the."
+  },
+  {
+   "id": "articles-12",
+   "type": "choice",
+   "q": "She plays ___ guitar in a band.",
+   "options": [
+    "the",
+    "a",
+    "an",
+    "(без артикля)"
+   ],
+   "answer": 0,
+   "why": "Музичні інструменти — the."
+  },
+  {
+   "id": "articles-13",
+   "type": "choice",
+   "q": "My brother plays ___ tennis.",
+   "options": [
+    "(без артикля)",
+    "the",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "why": "Види спорту — без артикля."
+  },
+  {
+   "id": "articles-14",
+   "type": "choice",
+   "q": "They live in ___ Netherlands.",
+   "options": [
+    "the",
+    "a",
+    "(без артикля)",
+    "an"
+   ],
+   "answer": 0,
+   "why": "Країни у множині — the."
+  },
+  {
+   "id": "articles-15",
+   "type": "choice",
+   "q": "We went to ___ Italy last summer.",
+   "options": [
+    "(без артикля)",
+    "the",
+    "an",
+    "a"
+   ],
+   "answer": 0,
+   "why": "Більшість країн — без артикля."
+  },
+  {
+   "id": "articles-16",
+   "type": "choice",
+   "q": "It costs 20 pounds ___ hour.",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "(без артикля)"
+   ],
+   "answer": 0,
+   "why": "«за годину» — an hour (h німа)."
+  },
+  {
+   "id": "articles-17",
+   "type": "choice",
+   "q": "My son goes to ___ school near here.",
+   "options": [
+    "(без артикля)",
+    "the",
+    "an",
+    "a"
+   ],
+   "answer": 0,
+   "why": "Школа як місце навчання — без артикля."
+  },
+  {
+   "id": "articles-18",
+   "type": "choice",
+   "q": "What ___ beautiful day!",
+   "options": [
+    "a",
+    "the",
+    "an",
+    "(без артикля)"
+   ],
+   "answer": 0,
+   "why": "What a + лічильний в однині."
+  },
+  {
+   "id": "articles-19",
+   "type": "fill",
+   "q": "The Dnipro is ___ longest river in Ukraine.",
+   "answer": [
+    "the"
+   ],
+   "why": "Найвищий ступінь — the."
+  },
+  {
+   "id": "articles-20",
+   "type": "fill",
+   "q": "I need ___ advice.",
+   "answer": [
+    "some"
+   ],
+   "why": "advice — нелічильне: some advice.",
+   "hint": "Нелічильне: не a"
+  },
+  {
+   "id": "articles-21",
+   "type": "fill",
+   "q": "She's ___ teacher at a local school.",
+   "answer": [
+    "a"
+   ],
+   "why": "Професія — a/an."
+  },
+  {
+   "id": "articles-22",
+   "type": "fill",
+   "q": "I usually go to ___ bed at eleven.",
+   "answer": [
+    "-",
+    "no article",
+    "(без артикля)"
+   ],
+   "why": "go to bed — сталий вираз без артикля.",
+   "hint": "Якщо артикль не потрібен, напишіть «-»"
+  },
+  {
+   "id": "articles-23",
+   "type": "fill",
+   "q": "___ Black Sea is warm in summer.",
+   "answer": [
+    "The"
+   ],
+   "why": "Моря — з the."
+  },
+  {
+   "id": "articles-24",
+   "type": "order",
+   "words": [
+    "The",
+    "man",
+    "who",
+    "lives",
+    "next",
+    "door",
+    "is",
+    "a",
+    "pilot"
+   ],
+   "answer": [
+    "The man who lives next door is a pilot"
+   ],
+   "why": "the — уточнення після іменника; a — професія.",
+   "hint": "Чоловік, що живе поруч, — пілот."
+  },
+  {
+   "id": "articles-25",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "a",
+    "dog",
+    "and",
+    "a",
+    "cat"
+   ],
+   "answer": [
+    "I have a dog and a cat"
+   ],
+   "why": "Уперше — a.",
+   "hint": "У мене є собака й кіт."
+  },
+  {
+   "id": "articles-26",
+   "type": "order",
+   "words": [
+    "Life",
+    "is",
+    "too",
+    "short"
+   ],
+   "answer": [
+    "Life is too short"
+   ],
+   "why": "Абстрактне поняття загалом — без артикля.",
+   "hint": "Життя надто коротке."
   }
  ]
 }

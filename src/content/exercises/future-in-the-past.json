@@ -102,6 +102,144 @@
     "He said he would call later"
    ],
    "why": "would — майбутнє з погляду минулого."
+  },
+  {
+   "id": "future-in-the-past-9",
+   "type": "fill",
+   "q": "I ___ about to go to bed when the phone rang.",
+   "answer": [
+    "was"
+   ],
+   "why": "was about to — ось-ось мало статися."
+  },
+  {
+   "id": "future-in-the-past-10",
+   "type": "fill",
+   "q": "She said she ___ (help) us the next day.",
+   "answer": [
+    "would help"
+   ],
+   "why": "will → would у непрямій мові."
+  },
+  {
+   "id": "future-in-the-past-11",
+   "type": "fill",
+   "q": "We ___ (go) to the beach, but it started raining.",
+   "answer": [
+    "were going to go",
+    "were going to"
+   ],
+   "why": "План, що не здійснився, — were going to."
+  },
+  {
+   "id": "future-in-the-past-12",
+   "type": "fill",
+   "q": "I knew you ___ (like) this film.",
+   "answer": [
+    "would like"
+   ],
+   "why": "Майбутнє з погляду минулого — would."
+  },
+  {
+   "id": "future-in-the-past-13",
+   "type": "choice",
+   "q": "He ___ become a famous writer, although nobody knew it then.",
+   "options": [
+    "was to",
+    "will",
+    "is to",
+    "was being"
+   ],
+   "answer": 0,
+   "why": "was to — доля, формальне."
+  },
+  {
+   "id": "future-in-the-past-14",
+   "type": "choice",
+   "q": "They said the train ___ late.",
+   "options": [
+    "would be",
+    "will be",
+    "is",
+    "would have"
+   ],
+   "answer": 0,
+   "why": "will → would."
+  },
+  {
+   "id": "future-in-the-past-15",
+   "type": "choice",
+   "q": "I ___ phone you, but my battery died.",
+   "options": [
+    "was going to",
+    "am going to",
+    "will",
+    "was about"
+   ],
+   "answer": 0,
+   "why": "Намір у минулому — was going to."
+  },
+  {
+   "id": "future-in-the-past-16",
+   "type": "choice",
+   "q": "She ___ leaving the next morning, so she packed.",
+   "options": [
+    "was",
+    "is",
+    "will be",
+    "would"
+   ],
+   "answer": 0,
+   "why": "Past Continuous — домовленість у минулому."
+  },
+  {
+   "id": "future-in-the-past-17",
+   "type": "order",
+   "words": [
+    "I",
+    "was",
+    "going",
+    "to",
+    "tell",
+    "you"
+   ],
+   "answer": [
+    "I was going to tell you"
+   ],
+   "why": "was going to — намір.",
+   "hint": "Я збирався тобі сказати."
+  },
+  {
+   "id": "future-in-the-past-18",
+   "type": "order",
+   "words": [
+    "She",
+    "was",
+    "about",
+    "to",
+    "leave"
+   ],
+   "answer": [
+    "She was about to leave"
+   ],
+   "why": "was about to.",
+   "hint": "Вона вже збиралася йти."
+  },
+  {
+   "id": "future-in-the-past-19",
+   "type": "order",
+   "words": [
+    "He",
+    "promised",
+    "he",
+    "would",
+    "call"
+   ],
+   "answer": [
+    "He promised he would call"
+   ],
+   "why": "would — майбутнє з погляду минулого.",
+   "hint": "Він пообіцяв, що зателефонує."
   }
  ]
 }

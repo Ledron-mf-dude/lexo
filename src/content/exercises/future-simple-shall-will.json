@@ -103,6 +103,156 @@
     "Shall we go to the cinema?"
    ],
    "why": "Shall we + V — пропозиція."
+  },
+  {
+   "id": "future-simple-shall-will-9",
+   "type": "fill",
+   "q": "Don't worry, I ___ (not / tell) anybody.",
+   "answer": [
+    "won't tell",
+    "will not tell"
+   ],
+   "why": "Обіцянка — won't + V."
+  },
+  {
+   "id": "future-simple-shall-will-10",
+   "type": "fill",
+   "q": "___ I help you with your bags?",
+   "answer": [
+    "Shall"
+   ],
+   "why": "Shall I…? — пропоную допомогу.",
+   "hint": "Пропозиція допомоги"
+  },
+  {
+   "id": "future-simple-shall-will-11",
+   "type": "fill",
+   "q": "I think it ___ (snow) tonight.",
+   "answer": [
+    "will snow",
+    "'ll snow"
+   ],
+   "why": "Прогноз-думка — will."
+  },
+  {
+   "id": "future-simple-shall-will-12",
+   "type": "fill",
+   "q": "The car ___ start. I think the battery is dead.",
+   "answer": [
+    "won't",
+    "will not"
+   ],
+   "why": "won't — «не хоче» (про речі).",
+   "hint": "Відмова речі працювати"
+  },
+  {
+   "id": "future-simple-shall-will-13",
+   "type": "fill",
+   "q": "What ___ we do this weekend?",
+   "answer": [
+    "shall"
+   ],
+   "why": "What shall we…? — що робитимемо?",
+   "hint": "Пропозиція"
+  },
+  {
+   "id": "future-simple-shall-will-14",
+   "type": "choice",
+   "q": "\"The phone is ringing.\" — \"I ___ get it.\"",
+   "options": [
+    "'ll",
+    "am going to",
+    "shall to",
+    "will to"
+   ],
+   "answer": 0,
+   "why": "Рішення в момент мовлення — will ('ll)."
+  },
+  {
+   "id": "future-simple-shall-will-15",
+   "type": "choice",
+   "q": "I'm sure you ___ pass the exam.",
+   "options": [
+    "will",
+    "shall to",
+    "are passing",
+    "wills"
+   ],
+   "answer": 0,
+   "why": "Прогноз — will."
+  },
+  {
+   "id": "future-simple-shall-will-16",
+   "type": "choice",
+   "q": "She ___ 30 next month.",
+   "options": [
+    "will be",
+    "is being",
+    "will",
+    "be"
+   ],
+   "answer": 0,
+   "why": "Факт про майбутнє — will be."
+  },
+  {
+   "id": "future-simple-shall-will-17",
+   "type": "choice",
+   "q": "___ you marry me?",
+   "options": [
+    "Will",
+    "Shall",
+    "Do",
+    "Are"
+   ],
+   "answer": 0,
+   "why": "Прохання/пропозиція — Will you…?"
+  },
+  {
+   "id": "future-simple-shall-will-18",
+   "type": "order",
+   "words": [
+    "I",
+    "will",
+    "call",
+    "you",
+    "tomorrow"
+   ],
+   "answer": [
+    "I will call you tomorrow"
+   ],
+   "why": "will + V.",
+   "hint": "Я зателефоную тобі завтра."
+  },
+  {
+   "id": "future-simple-shall-will-19",
+   "type": "order",
+   "words": [
+    "Shall",
+    "I",
+    "open",
+    "the",
+    "window"
+   ],
+   "answer": [
+    "Shall I open the window"
+   ],
+   "why": "Shall I…? — пропозиція.",
+   "hint": "Відчинити вікно?"
+  },
+  {
+   "id": "future-simple-shall-will-20",
+   "type": "order",
+   "words": [
+    "She",
+    "won't",
+    "be",
+    "late"
+   ],
+   "answer": [
+    "She won't be late"
+   ],
+   "why": "won't + V.",
+   "hint": "Вона не запізниться."
   }
  ]
 }

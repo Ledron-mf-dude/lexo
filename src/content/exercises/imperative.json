@@ -104,7 +104,156 @@
     "a condition"
    ],
    "answer": 0,
-   "why": "Підмет you виділяє виконавця."
+   "why": "You перед наказом виділяє виконавця: «ти йди першим»."
+  },
+  {
+   "id": "imperative-9",
+   "type": "fill",
+   "q": "___ touch that! It's hot! (заперечення)",
+   "answer": [
+    "Don't",
+    "Do not"
+   ],
+   "why": "Заборона: Don't + V."
+  },
+  {
+   "id": "imperative-10",
+   "type": "fill",
+   "q": "___ go to the park. It's sunny! (давай)",
+   "answer": [
+    "Let's"
+   ],
+   "why": "Let's + V — пропозиція."
+  },
+  {
+   "id": "imperative-11",
+   "type": "fill",
+   "q": "___ quiet, please. (be)",
+   "answer": [
+    "Be"
+   ],
+   "why": "Наказ з be: Be quiet."
+  },
+  {
+   "id": "imperative-12",
+   "type": "fill",
+   "q": "Please ___ your phones off. (turn)",
+   "answer": [
+    "turn"
+   ],
+   "why": "Наказ — початкова форма: turn off."
+  },
+  {
+   "id": "imperative-13",
+   "type": "choice",
+   "q": "___ worry, everything will be fine.",
+   "options": [
+    "Don't",
+    "Not",
+    "No",
+    "Doesn't"
+   ],
+   "answer": 0,
+   "why": "Don't + V."
+  },
+  {
+   "id": "imperative-14",
+   "type": "choice",
+   "q": "___ sit down! You look tired. (дружньо, наполегливо)",
+   "options": [
+    "Do",
+    "Does",
+    "Be",
+    "Let"
+   ],
+   "answer": 0,
+   "why": "Do + V — емфаза."
+  },
+  {
+   "id": "imperative-15",
+   "type": "choice",
+   "q": "___ argue about it. (давай не будемо)",
+   "options": [
+    "Let's not",
+    "Let's don't",
+    "Don't let's to",
+    "Not let's"
+   ],
+   "answer": 0,
+   "why": "Let's not + V."
+  },
+  {
+   "id": "imperative-16",
+   "type": "choice",
+   "q": "Which is an instruction in a recipe?",
+   "options": [
+    "Add the sugar and stir.",
+    "You adding the sugar.",
+    "Adds the sugar.",
+    "To add sugar."
+   ],
+   "answer": 0,
+   "why": "Інструкції — наказовий спосіб."
+  },
+  {
+   "id": "imperative-17",
+   "type": "order",
+   "words": [
+    "Please",
+    "sit",
+    "down"
+   ],
+   "answer": [
+    "Please sit down"
+   ],
+   "why": "Please + наказ.",
+   "hint": "Сідайте, будь ласка."
+  },
+  {
+   "id": "imperative-18",
+   "type": "order",
+   "words": [
+    "Don't",
+    "be",
+    "late",
+    "again"
+   ],
+   "answer": [
+    "Don't be late again"
+   ],
+   "why": "Don't be + прикметник.",
+   "hint": "Не запізнюйся знову."
+  },
+  {
+   "id": "imperative-19",
+   "type": "order",
+   "words": [
+    "Let's",
+    "have",
+    "a",
+    "break"
+   ],
+   "answer": [
+    "Let's have a break"
+   ],
+   "why": "Let's + V.",
+   "hint": "Давай зробимо перерву."
+  },
+  {
+   "id": "imperative-20",
+   "type": "order",
+   "words": [
+    "Turn",
+    "left",
+    "at",
+    "the",
+    "lights"
+   ],
+   "answer": [
+    "Turn left at the lights"
+   ],
+   "why": "Інструкція — наказовий спосіб.",
+   "hint": "На світлофорі поверніть ліворуч."
   }
  ]
 }

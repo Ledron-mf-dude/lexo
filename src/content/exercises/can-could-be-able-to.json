@@ -117,6 +117,153 @@
     "I was able to finish on time"
    ],
    "why": "Одна конкретна вдала дія — was able to."
+  },
+  {
+   "id": "can-could-be-able-to-10",
+   "type": "fill",
+   "q": "I'm sorry, I ___ come to your party tomorrow.",
+   "answer": [
+    "can't",
+    "cannot"
+   ],
+   "why": "Заперечення: can't + V.",
+   "hint": "(can)"
+  },
+  {
+   "id": "can-could-be-able-to-11",
+   "type": "fill",
+   "q": "She will ___ to walk again after the operation.",
+   "answer": [
+    "be able"
+   ],
+   "why": "Майбутнє: will be able to."
+  },
+  {
+   "id": "can-could-be-able-to-12",
+   "type": "fill",
+   "q": "I ___ find my keys anywhere yesterday.",
+   "answer": [
+    "couldn't",
+    "could not"
+   ],
+   "why": "Заперечення в минулому — couldn't."
+  },
+  {
+   "id": "can-could-be-able-to-13",
+   "type": "fill",
+   "q": "___ you help me with this box, please?",
+   "answer": [
+    "Could",
+    "Can"
+   ],
+   "why": "Could you…? — ввічливе прохання.",
+   "hint": "Ввічливе прохання"
+  },
+  {
+   "id": "can-could-be-able-to-14",
+   "type": "choice",
+   "q": "After a long search, we ___ find a parking space.",
+   "options": [
+    "were able to",
+    "could",
+    "can",
+    "are able"
+   ],
+   "answer": 0,
+   "why": "Одна конкретна вдала дія — were able to."
+  },
+  {
+   "id": "can-could-be-able-to-15",
+   "type": "choice",
+   "q": "I'd like ___ speak Chinese.",
+   "options": [
+    "to be able to",
+    "can",
+    "could",
+    "be able"
+   ],
+   "answer": 0,
+   "why": "Після would like — to be able to."
+  },
+  {
+   "id": "can-could-be-able-to-16",
+   "type": "choice",
+   "q": "___ I use your phone?",
+   "options": [
+    "Can",
+    "Must",
+    "Should",
+    "Would"
+   ],
+   "answer": 0,
+   "why": "Прохання про дозвіл: Can I…?"
+  },
+  {
+   "id": "can-could-be-able-to-17",
+   "type": "choice",
+   "q": "My grandmother ___ read without glasses until she was 80.",
+   "options": [
+    "could",
+    "was able",
+    "can",
+    "is able to"
+   ],
+   "answer": 0,
+   "why": "Загальне вміння в минулому — could."
+  },
+  {
+   "id": "can-could-be-able-to-18",
+   "type": "order",
+   "words": [
+    "I",
+    "could",
+    "swim",
+    "when",
+    "I",
+    "was",
+    "six"
+   ],
+   "answer": [
+    "I could swim when I was six"
+   ],
+   "why": "Загальне вміння в минулому — could.",
+   "hint": "Я вмів плавати, коли мені було шість."
+  },
+  {
+   "id": "can-could-be-able-to-19",
+   "type": "order",
+   "words": [
+    "Will",
+    "you",
+    "be",
+    "able",
+    "to",
+    "come",
+    "tomorrow"
+   ],
+   "answer": [
+    "Will you be able to come tomorrow"
+   ],
+   "why": "Майбутнє — will be able to.",
+   "hint": "Ти зможеш прийти завтра?"
+  },
+  {
+   "id": "can-could-be-able-to-20",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "never",
+    "been",
+    "able",
+    "to",
+    "cook"
+   ],
+   "answer": [
+    "I have never been able to cook"
+   ],
+   "why": "Present Perfect — have been able to.",
+   "hint": "Я ніколи не вмів готувати."
   }
  ]
 }

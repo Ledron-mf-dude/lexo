@@ -90,6 +90,171 @@
    ],
    "answer": 0,
    "why": "Середня позиція."
+  },
+  {
+   "id": "no-longer-anymore-8",
+   "type": "fill",
+   "q": "He doesn't live here ___.",
+   "answer": [
+    "anymore",
+    "any more",
+    "any longer"
+   ],
+   "why": "not … anymore / any longer — у кінці."
+  },
+  {
+   "id": "no-longer-anymore-9",
+   "type": "fill",
+   "q": "We ___ use that software. (більше не, формально)",
+   "answer": [
+    "no longer"
+   ],
+   "why": "no longer — перед основним дієсловом."
+  },
+  {
+   "id": "no-longer-anymore-10",
+   "type": "fill",
+   "q": "I can't stand this noise any ___.",
+   "answer": [
+    "longer",
+    "more"
+   ],
+   "why": "not … any longer / any more."
+  },
+  {
+   "id": "no-longer-anymore-11",
+   "type": "fill",
+   "q": "There's no ___ coffee. Can you buy some?",
+   "answer": [
+    "more"
+   ],
+   "why": "no more + іменник — більше немає."
+  },
+  {
+   "id": "no-longer-anymore-12",
+   "type": "fill",
+   "q": "She is ___ longer the manager.",
+   "answer": [
+    "no"
+   ],
+   "why": "is no longer — після be."
+  },
+  {
+   "id": "no-longer-anymore-13",
+   "type": "choice",
+   "q": "They ___ sell this model.",
+   "options": [
+    "no longer",
+    "not longer",
+    "no more longer",
+    "any longer"
+   ],
+   "answer": 0,
+   "why": "no longer — перед основним дієсловом."
+  },
+  {
+   "id": "no-longer-anymore-14",
+   "type": "choice",
+   "q": "I don't smoke ___.",
+   "options": [
+    "anymore",
+    "no longer",
+    "no more",
+    "longer"
+   ],
+   "answer": 0,
+   "why": "not … anymore — у кінці речення."
+  },
+  {
+   "id": "no-longer-anymore-15",
+   "type": "choice",
+   "q": "He ___ work here.",
+   "options": [
+    "doesn't … anymore",
+    "doesn't … no longer",
+    "no longer doesn't",
+    "not … anymore"
+   ],
+   "answer": 0,
+   "why": "Одне заперечення: doesn't … anymore."
+  },
+  {
+   "id": "no-longer-anymore-16",
+   "type": "choice",
+   "q": "She can ___ walk without help.",
+   "options": [
+    "no longer",
+    "not longer",
+    "anymore",
+    "no more longer"
+   ],
+   "answer": 0,
+   "why": "can + no longer + V."
+  },
+  {
+   "id": "no-longer-anymore-17",
+   "type": "order",
+   "words": [
+    "She",
+    "no",
+    "longer",
+    "works",
+    "here"
+   ],
+   "answer": [
+    "She no longer works here"
+   ],
+   "why": "no longer + V.",
+   "hint": "Вона тут більше не працює."
+  },
+  {
+   "id": "no-longer-anymore-18",
+   "type": "order",
+   "words": [
+    "I",
+    "don't",
+    "need",
+    "it",
+    "anymore"
+   ],
+   "answer": [
+    "I don't need it anymore"
+   ],
+   "why": "not … anymore.",
+   "hint": "Мені це більше не потрібно."
+  },
+  {
+   "id": "no-longer-anymore-19",
+   "type": "order",
+   "words": [
+    "We",
+    "can't",
+    "wait",
+    "any",
+    "longer"
+   ],
+   "answer": [
+    "We can't wait any longer"
+   ],
+   "why": "not … any longer.",
+   "hint": "Ми не можемо більше чекати."
+  },
+  {
+   "id": "no-longer-anymore-20",
+   "type": "order",
+   "words": [
+    "He",
+    "is",
+    "no",
+    "longer",
+    "my",
+    "boss"
+   ],
+   "answer": [
+    "He is no longer my boss"
+   ],
+   "why": "is + no longer.",
+   "hint": "Він більше не мій начальник."
   }
  ]
 }

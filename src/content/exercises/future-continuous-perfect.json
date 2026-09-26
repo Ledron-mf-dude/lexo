@@ -110,6 +110,152 @@
     "By Friday I will have finished the project"
    ],
    "why": "Future Perfect: will have + V3."
+  },
+  {
+   "id": "future-continuous-perfect-10",
+   "type": "fill",
+   "q": "By next year I ___ (save) enough money.",
+   "answer": [
+    "will have saved"
+   ],
+   "why": "До моменту в майбутньому — will have + V3."
+  },
+  {
+   "id": "future-continuous-perfect-11",
+   "type": "fill",
+   "q": "At 10 am tomorrow I ___ (sit) in a meeting.",
+   "answer": [
+    "will be sitting"
+   ],
+   "why": "Процес у момент — will be + V-ing."
+  },
+  {
+   "id": "future-continuous-perfect-12",
+   "type": "fill",
+   "q": "By the time we get there, the film ___ (start).",
+   "answer": [
+    "will have started"
+   ],
+   "why": "Завершиться раніше — Future Perfect."
+  },
+  {
+   "id": "future-continuous-perfect-13",
+   "type": "fill",
+   "q": "Next month I ___ (live) here for a year.",
+   "answer": [
+    "will have been living",
+    "will have lived"
+   ],
+   "why": "Тривалість до моменту — Future Perfect (Continuous)."
+  },
+  {
+   "id": "future-continuous-perfect-14",
+   "type": "choice",
+   "q": "___ you be passing the post office? Could you post this?",
+   "options": [
+    "Will",
+    "Are",
+    "Have",
+    "Would have"
+   ],
+   "answer": 0,
+   "why": "Future Continuous — ввічливе питання про плани."
+  },
+  {
+   "id": "future-continuous-perfect-15",
+   "type": "choice",
+   "q": "I'll call you at 8. — No, I ___ then.",
+   "options": [
+    "will be driving",
+    "will drive",
+    "will have driven",
+    "drive"
+   ],
+   "answer": 0,
+   "why": "Процес у момент — Future Continuous."
+  },
+  {
+   "id": "future-continuous-perfect-16",
+   "type": "choice",
+   "q": "By 2030 scientists ___ a cure.",
+   "options": [
+    "will have found",
+    "will be finding",
+    "will find by",
+    "found"
+   ],
+   "answer": 0,
+   "why": "Завершиться до 2030 — Future Perfect."
+  },
+  {
+   "id": "future-continuous-perfect-17",
+   "type": "choice",
+   "q": "When you arrive, I ___ dinner, so we can eat at once.",
+   "options": [
+    "will have cooked",
+    "will cook",
+    "will be cooking",
+    "cook"
+   ],
+   "answer": 0,
+   "why": "Готово до вашого приходу — Future Perfect."
+  },
+  {
+   "id": "future-continuous-perfect-18",
+   "type": "order",
+   "words": [
+    "This",
+    "time",
+    "next",
+    "week",
+    "I",
+    "will",
+    "be",
+    "lying",
+    "on",
+    "a",
+    "beach"
+   ],
+   "answer": [
+    "This time next week I will be lying on a beach"
+   ],
+   "why": "Future Continuous.",
+   "hint": "Цієї пори наступного тижня я лежатиму на пляжі."
+  },
+  {
+   "id": "future-continuous-perfect-19",
+   "type": "order",
+   "words": [
+    "They",
+    "will",
+    "have",
+    "finished",
+    "by",
+    "six"
+   ],
+   "answer": [
+    "They will have finished by six"
+   ],
+   "why": "Future Perfect + by.",
+   "hint": "Вони закінчать до шостої."
+  },
+  {
+   "id": "future-continuous-perfect-20",
+   "type": "order",
+   "words": [
+    "Will",
+    "you",
+    "be",
+    "using",
+    "the",
+    "car",
+    "tonight"
+   ],
+   "answer": [
+    "Will you be using the car tonight"
+   ],
+   "why": "Ввічливе питання — Future Continuous.",
+   "hint": "Ти користуватимешся машиною ввечері?"
   }
  ]
 }

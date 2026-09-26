@@ -1,17 +1,8 @@
 import type { Session } from '@supabase/supabase-js'
-import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
+import { AuthContext } from './authContext'
 import { openedFromPasswordLink } from './authHash'
 import { supabase } from './supabase'
-
-interface AuthState {
-  session: Session | null
-  loading: boolean
-  /** True after a password-reset / invite link: the user must choose a password before using the app. */
-  mustSetPassword: boolean
-  passwordSet: () => void
-}
-
-const AuthContext = createContext<AuthState>({ session: null, loading: true, mustSetPassword: false, passwordSet: () => {} })
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null)
@@ -37,8 +28,4 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       {children}
     </AuthContext.Provider>
   )
-}
-
-export function useAuth() {
-  return useContext(AuthContext)
 }

@@ -129,6 +129,160 @@
    ],
    "answer": 0,
    "why": "carry on — продовжувати."
+  },
+  {
+   "id": "phrasal-verbs-common-11",
+   "type": "fill",
+   "q": "I found ___ that the shop was closed.",
+   "answer": [
+    "out"
+   ],
+   "why": "find out — дізнатися."
+  },
+  {
+   "id": "phrasal-verbs-common-12",
+   "type": "fill",
+   "q": "Don't give ___! You can do it.",
+   "answer": [
+    "up"
+   ],
+   "why": "give up — здаватися."
+  },
+  {
+   "id": "phrasal-verbs-common-13",
+   "type": "fill",
+   "q": "They called ___ the match because of the rain.",
+   "answer": [
+    "off"
+   ],
+   "why": "call off — скасувати."
+  },
+  {
+   "id": "phrasal-verbs-common-14",
+   "type": "fill",
+   "q": "She grew ___ in a small village.",
+   "answer": [
+    "up"
+   ],
+   "why": "grow up — вирости."
+  },
+  {
+   "id": "phrasal-verbs-common-15",
+   "type": "fill",
+   "q": "We need to sort this problem ___.",
+   "answer": [
+    "out"
+   ],
+   "why": "sort out — розібратися."
+  },
+  {
+   "id": "phrasal-verbs-common-16",
+   "type": "fill",
+   "q": "I came ___ an old photo in the drawer.",
+   "answer": [
+    "across"
+   ],
+   "why": "come across — натрапити."
+  },
+  {
+   "id": "phrasal-verbs-common-17",
+   "type": "choice",
+   "q": "I took ___ tennis last year.",
+   "options": [
+    "up",
+    "off",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "why": "take up — почати (хобі)."
+  },
+  {
+   "id": "phrasal-verbs-common-18",
+   "type": "choice",
+   "q": "Can I try these jeans ___?",
+   "options": [
+    "on",
+    "in",
+    "up",
+    "off"
+   ],
+   "answer": 0,
+   "why": "try on — приміряти."
+  },
+  {
+   "id": "phrasal-verbs-common-19",
+   "type": "choice",
+   "q": "The plane took ___ on time.",
+   "options": [
+    "off",
+    "up",
+    "away",
+    "out"
+   ],
+   "answer": 0,
+   "why": "take off — злетіти."
+  },
+  {
+   "id": "phrasal-verbs-common-20",
+   "type": "choice",
+   "q": "I get ___ well with my neighbours.",
+   "options": [
+    "on",
+    "off",
+    "up",
+    "in"
+   ],
+   "answer": 0,
+   "why": "get on (with) — ладнати."
+  },
+  {
+   "id": "phrasal-verbs-common-21",
+   "type": "order",
+   "words": [
+    "I",
+    "get",
+    "up",
+    "at",
+    "seven"
+   ],
+   "answer": [
+    "I get up at seven"
+   ],
+   "why": "get up — вставати.",
+   "hint": "Я встаю о сьомій."
+  },
+  {
+   "id": "phrasal-verbs-common-22",
+   "type": "order",
+   "words": [
+    "They",
+    "broke",
+    "up",
+    "last",
+    "year"
+   ],
+   "answer": [
+    "They broke up last year"
+   ],
+   "why": "break up — розійтися.",
+   "hint": "Вони розійшлися минулого року."
+  },
+  {
+   "id": "phrasal-verbs-common-23",
+   "type": "order",
+   "words": [
+    "Let's",
+    "put",
+    "off",
+    "the",
+    "meeting"
+   ],
+   "answer": [
+    "Let's put off the meeting"
+   ],
+   "why": "put off — відкласти.",
+   "hint": "Давай відкладемо зустріч."
   }
  ]
 }

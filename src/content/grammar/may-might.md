@@ -42,3 +42,10 @@ tags: [may, might, may not, might not, possibility, permission, можливо, 
 ## Might як форма минулого в непрямій мові
 
 *"I may come."* → *She said she **might** come.* Див. «Reported speech».
+
+## Типові помилки
+
+- ✗ *It may rains.* → ✓ *It may **rain**.*
+- ✗ *She mights come.* → ✓ *She **might** come.*
+- ✗ *May be he's right.* → ✓ ***Maybe** he's right.* / *He **may be** right.*
+- ✗ *It might to be true.* → ✓ *It might **be** true.*

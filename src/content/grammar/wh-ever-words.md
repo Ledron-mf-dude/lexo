@@ -38,3 +38,10 @@ tags: [whatever, whenever, wherever, whoever, whichever, however, no matter, б�
 
 - ***Whatever!*** — Мені байдуже / як хочеш.
 - *"When shall we meet?" — "**Whenever**."* — Коли завгодно.
+
+## Типові помилки
+
+- ✗ *Whatever you will say, I won't change my mind.* → ✓ *Whatever you **say**…*
+- ✗ *However I try hard, I fail.* → ✓ ***However hard** I try, I fail.*
+- ✗ *Call me whenever you will need.* → ✓ *…whenever you **need** (me).*
+- ✗ *Who ever did this…* → ✓ ***Whoever** did this…* (разом)

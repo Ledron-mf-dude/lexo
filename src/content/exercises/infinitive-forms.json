@@ -114,6 +114,143 @@
     "She seems to have left"
    ],
    "why": "seem + Perfect Infinitive."
+  },
+  {
+   "id": "infinitive-forms-10",
+   "type": "fill",
+   "q": "He must ___ (sleep) now — his lights are off.",
+   "answer": [
+    "be sleeping"
+   ],
+   "why": "Процес зараз — be + V-ing."
+  },
+  {
+   "id": "infinitive-forms-11",
+   "type": "fill",
+   "q": "She seems ___ (lose) her keys again.",
+   "answer": [
+    "to have lost"
+   ],
+   "why": "Раніше — to have + V3."
+  },
+  {
+   "id": "infinitive-forms-12",
+   "type": "fill",
+   "q": "You should ___ (tell) me earlier!",
+   "answer": [
+    "have told"
+   ],
+   "why": "Про минуле — have + V3."
+  },
+  {
+   "id": "infinitive-forms-13",
+   "type": "fill",
+   "q": "They seem ___ (wait) for hours.",
+   "answer": [
+    "to have been waiting"
+   ],
+   "why": "Тривалість до тепер — to have been + V-ing."
+  },
+  {
+   "id": "infinitive-forms-14",
+   "type": "choice",
+   "q": "She may ___ at the moment.",
+   "options": [
+    "be working",
+    "to be working",
+    "have worked",
+    "working"
+   ],
+   "answer": 0,
+   "why": "Зараз — be + V-ing (без to після may)."
+  },
+  {
+   "id": "infinitive-forms-15",
+   "type": "choice",
+   "q": "He appears ___ the answer. (зараз знає)",
+   "options": [
+    "to know",
+    "to be knowing",
+    "knowing",
+    "to have known"
+   ],
+   "answer": 0,
+   "why": "know — дієслово стану: to know."
+  },
+  {
+   "id": "infinitive-forms-16",
+   "type": "choice",
+   "q": "They might ___ the wrong bus yesterday.",
+   "options": [
+    "have taken",
+    "take",
+    "be taking",
+    "taken"
+   ],
+   "answer": 0,
+   "why": "Минуле — have + V3."
+  },
+  {
+   "id": "infinitive-forms-17",
+   "type": "choice",
+   "q": "The Present Infinitive after 'seem' refers to:",
+   "options": [
+    "a general or present fact",
+    "the past",
+    "the future",
+    "a finished action"
+   ],
+   "answer": 0,
+   "why": "seem + to + V — загалом / зараз."
+  },
+  {
+   "id": "infinitive-forms-18",
+   "type": "order",
+   "words": [
+    "She",
+    "seems",
+    "to",
+    "be",
+    "happy"
+   ],
+   "answer": [
+    "She seems to be happy"
+   ],
+   "why": "seem + to be.",
+   "hint": "Здається, вона щаслива."
+  },
+  {
+   "id": "infinitive-forms-19",
+   "type": "order",
+   "words": [
+    "He",
+    "must",
+    "have",
+    "missed",
+    "the",
+    "train"
+   ],
+   "answer": [
+    "He must have missed the train"
+   ],
+   "why": "must + have + V3.",
+   "hint": "Він, мабуть, спізнився на потяг."
+  },
+  {
+   "id": "infinitive-forms-20",
+   "type": "order",
+   "words": [
+    "They",
+    "should",
+    "be",
+    "arriving",
+    "soon"
+   ],
+   "answer": [
+    "They should be arriving soon"
+   ],
+   "why": "should + be + V-ing.",
+   "hint": "Вони мають скоро прибути."
   }
  ]
 }

@@ -104,6 +104,148 @@
     "The flight is due to land at noon"
    ],
    "why": "be due to + V — за розкладом."
+  },
+  {
+   "id": "other-ways-future-9",
+   "type": "fill",
+   "q": "Quick! The show is about ___ start.",
+   "answer": [
+    "to"
+   ],
+   "why": "be about to + V — ось-ось."
+  },
+  {
+   "id": "other-ways-future-10",
+   "type": "fill",
+   "q": "Her flight is ___ to land at 10:30.",
+   "answer": [
+    "due"
+   ],
+   "why": "be due to — за розкладом."
+  },
+  {
+   "id": "other-ways-future-11",
+   "type": "fill",
+   "q": "Don't worry. He's ___ to call you back. (напевно)",
+   "answer": [
+    "bound",
+    "sure",
+    "certain"
+   ],
+   "why": "be bound / sure to — напевно."
+  },
+  {
+   "id": "other-ways-future-12",
+   "type": "fill",
+   "q": "The company is ___ to open a new office. (у новинах: заплановано)",
+   "answer": [
+    "set"
+   ],
+   "why": "be set to — заплановано."
+  },
+  {
+   "id": "other-ways-future-13",
+   "type": "choice",
+   "q": "All staff ___ attend the meeting at 9. (офіційна вимога)",
+   "options": [
+    "are to",
+    "are about to",
+    "are due",
+    "are bound"
+   ],
+   "answer": 0,
+   "why": "be to — офіційна вказівка."
+  },
+  {
+   "id": "other-ways-future-14",
+   "type": "choice",
+   "q": "I was on the point of ___ when the phone rang.",
+   "options": [
+    "leaving",
+    "to leave",
+    "leave",
+    "left"
+   ],
+   "answer": 0,
+   "why": "be on the point of + -ing."
+  },
+  {
+   "id": "other-ways-future-15",
+   "type": "choice",
+   "q": "Hurry up! The train ___ leave.",
+   "options": [
+    "is about to",
+    "is due",
+    "is bound",
+    "is set"
+   ],
+   "answer": 0,
+   "why": "be about to — ось-ось."
+  },
+  {
+   "id": "other-ways-future-16",
+   "type": "choice",
+   "q": "It's ___ to rain this afternoon. (ймовірно)",
+   "options": [
+    "likely",
+    "about",
+    "due",
+    "on the point"
+   ],
+   "answer": 0,
+   "why": "be likely to — ймовірно."
+  },
+  {
+   "id": "other-ways-future-17",
+   "type": "order",
+   "words": [
+    "The",
+    "film",
+    "is",
+    "about",
+    "to",
+    "start"
+   ],
+   "answer": [
+    "The film is about to start"
+   ],
+   "why": "be about to + V.",
+   "hint": "Фільм ось-ось почнеться."
+  },
+  {
+   "id": "other-ways-future-18",
+   "type": "order",
+   "words": [
+    "The",
+    "train",
+    "is",
+    "due",
+    "to",
+    "arrive",
+    "at",
+    "six"
+   ],
+   "answer": [
+    "The train is due to arrive at six"
+   ],
+   "why": "be due to + V.",
+   "hint": "Потяг має прибути о шостій."
+  },
+  {
+   "id": "other-ways-future-19",
+   "type": "order",
+   "words": [
+    "Prices",
+    "are",
+    "set",
+    "to",
+    "rise"
+   ],
+   "answer": [
+    "Prices are set to rise"
+   ],
+   "why": "be set to + V.",
+   "hint": "Ціни ось-ось зростуть."
   }
  ]
 }

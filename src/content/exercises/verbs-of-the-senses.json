@@ -103,6 +103,154 @@
    ],
    "answer": 1,
    "why": "hear — сприймати без наміру."
+  },
+  {
+   "id": "verbs-of-the-senses-9",
+   "type": "fill",
+   "q": "You look ___. Did you sleep well? (tired)",
+   "answer": [
+    "tired"
+   ],
+   "why": "Після look — прикметник."
+  },
+  {
+   "id": "verbs-of-the-senses-10",
+   "type": "fill",
+   "q": "That sounds ___ a great plan!",
+   "answer": [
+    "like"
+   ],
+   "why": "sound like + іменник."
+  },
+  {
+   "id": "verbs-of-the-senses-11",
+   "type": "fill",
+   "q": "This material feels very ___. (soft)",
+   "answer": [
+    "soft"
+   ],
+   "why": "feel + прикметник."
+  },
+  {
+   "id": "verbs-of-the-senses-12",
+   "type": "fill",
+   "q": "It looks as ___ it's going to rain.",
+   "answer": [
+    "if",
+    "though"
+   ],
+   "why": "look as if / as though + речення."
+  },
+  {
+   "id": "verbs-of-the-senses-13",
+   "type": "fill",
+   "q": "The milk smells ___. Don't drink it. (bad)",
+   "answer": [
+    "bad",
+    "off",
+    "sour"
+   ],
+   "why": "smell + прикметник."
+  },
+  {
+   "id": "verbs-of-the-senses-14",
+   "type": "choice",
+   "q": "Your idea sounds ___.",
+   "options": [
+    "interesting",
+    "interestingly",
+    "like interesting",
+    "as interesting"
+   ],
+   "answer": 0,
+   "why": "sound + прикметник."
+  },
+  {
+   "id": "verbs-of-the-senses-15",
+   "type": "choice",
+   "q": "She looks ___ her mother.",
+   "options": [
+    "like",
+    "as",
+    "alike",
+    "likes"
+   ],
+   "answer": 0,
+   "why": "look like — схожа на."
+  },
+  {
+   "id": "verbs-of-the-senses-16",
+   "type": "choice",
+   "q": "I ___ smell something burning!",
+   "options": [
+    "can",
+    "am",
+    "do can",
+    "have"
+   ],
+   "answer": 0,
+   "why": "can + smell — сприймаємо."
+  },
+  {
+   "id": "verbs-of-the-senses-17",
+   "type": "choice",
+   "q": "Why are you ___ the soup? Is it too salty?",
+   "options": [
+    "tasting",
+    "taste",
+    "tastes",
+    "tasted it"
+   ],
+   "answer": 0,
+   "why": "taste (куштувати) — дія, Continuous."
+  },
+  {
+   "id": "verbs-of-the-senses-18",
+   "type": "order",
+   "words": [
+    "This",
+    "cake",
+    "tastes",
+    "delicious"
+   ],
+   "answer": [
+    "This cake tastes delicious"
+   ],
+   "why": "taste + прикметник.",
+   "hint": "Цей торт смачний."
+  },
+  {
+   "id": "verbs-of-the-senses-19",
+   "type": "order",
+   "words": [
+    "You",
+    "look",
+    "like",
+    "your",
+    "father"
+   ],
+   "answer": [
+    "You look like your father"
+   ],
+   "why": "look like + іменник.",
+   "hint": "Ти схожий на свого батька."
+  },
+  {
+   "id": "verbs-of-the-senses-20",
+   "type": "order",
+   "words": [
+    "It",
+    "sounds",
+    "like",
+    "a",
+    "good",
+    "idea"
+   ],
+   "answer": [
+    "It sounds like a good idea"
+   ],
+   "why": "sound like + іменник.",
+   "hint": "Звучить як гарна ідея."
   }
  ]
 }

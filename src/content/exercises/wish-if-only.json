@@ -116,6 +116,156 @@
    ],
    "answer": 0,
    "why": "If only + Past Perfect."
+  },
+  {
+   "id": "wish-if-only-10",
+   "type": "fill",
+   "q": "I wish I ___ (can) speak Chinese.",
+   "answer": [
+    "could"
+   ],
+   "why": "wish + could — про вміння."
+  },
+  {
+   "id": "wish-if-only-11",
+   "type": "fill",
+   "q": "I wish it ___ (stop) raining.",
+   "answer": [
+    "would stop"
+   ],
+   "why": "wish + would — хочемо змін."
+  },
+  {
+   "id": "wish-if-only-12",
+   "type": "fill",
+   "q": "I wish I ___ (not / eat) so much last night.",
+   "answer": [
+    "hadn't eaten",
+    "had not eaten"
+   ],
+   "why": "Жаль про минуле — Past Perfect."
+  },
+  {
+   "id": "wish-if-only-13",
+   "type": "fill",
+   "q": "If only I ___ (live) closer to work!",
+   "answer": [
+    "lived"
+   ],
+   "why": "If only + Past Simple — теперішнє."
+  },
+  {
+   "id": "wish-if-only-14",
+   "type": "fill",
+   "q": "It's high time you ___ (start) studying.",
+   "answer": [
+    "started"
+   ],
+   "why": "It's high time + Past Simple."
+  },
+  {
+   "id": "wish-if-only-15",
+   "type": "choice",
+   "q": "I wish I ___ so rude to her yesterday.",
+   "options": [
+    "hadn't been",
+    "wasn't",
+    "weren't",
+    "didn't be"
+   ],
+   "answer": 0,
+   "why": "Минуле — Past Perfect."
+  },
+  {
+   "id": "wish-if-only-16",
+   "type": "choice",
+   "q": "She wishes she ___ a bigger flat.",
+   "options": [
+    "had",
+    "has",
+    "would have",
+    "will have"
+   ],
+   "answer": 0,
+   "why": "wish + Past Simple."
+  },
+  {
+   "id": "wish-if-only-17",
+   "type": "choice",
+   "q": "I wish you ___ smoking in the house.",
+   "options": [
+    "would stop",
+    "stopped yesterday",
+    "will stop",
+    "stop"
+   ],
+   "answer": 0,
+   "why": "wish + would — роздратування."
+  },
+  {
+   "id": "wish-if-only-18",
+   "type": "choice",
+   "q": "If only we ___ more time!",
+   "options": [
+    "had",
+    "have",
+    "would have",
+    "will have"
+   ],
+   "answer": 0,
+   "why": "If only + Past Simple."
+  },
+  {
+   "id": "wish-if-only-19",
+   "type": "order",
+   "words": [
+    "I",
+    "wish",
+    "I",
+    "knew",
+    "the",
+    "answer"
+   ],
+   "answer": [
+    "I wish I knew the answer"
+   ],
+   "why": "wish + Past Simple.",
+   "hint": "Шкода, що я не знаю відповіді."
+  },
+  {
+   "id": "wish-if-only-20",
+   "type": "order",
+   "words": [
+    "I",
+    "wish",
+    "I",
+    "had",
+    "listened",
+    "to",
+    "you"
+   ],
+   "answer": [
+    "I wish I had listened to you"
+   ],
+   "why": "wish + Past Perfect.",
+   "hint": "Шкодую, що не послухав тебе."
+  },
+  {
+   "id": "wish-if-only-21",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "time",
+    "we",
+    "went",
+    "home"
+   ],
+   "answer": [
+    "It is time we went home"
+   ],
+   "why": "It's time + Past Simple.",
+   "hint": "Нам час додому."
   }
  ]
 }

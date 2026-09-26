@@ -16,7 +16,7 @@ tags: [the more the merrier, the sooner the better, double comparative, more and
 | **The more** you practise, **the better** you become. | Чим більше практикуєшся, тим кращим стаєш. |
 | **The older** he gets, **the wiser** he becomes. | Чим старіший, тим мудріший. |
 | **The sooner** we leave, **the earlier** we'll arrive. | Чим раніше вирушимо, тим раніше приїдемо. |
-| **The less** I eat, **the hungrier** I am. | |
+| **The less** I sleep, **the worse** I feel. | Чим менше сплю, тим гірше почуваюся. |
 
 ## Скорочена форма
 
@@ -37,5 +37,12 @@ tags: [the more the merrier, the sooner the better, double comparative, more and
 ## Артикль
 
 `The` тут — не артикль, а частина конструкції: вона стоїть перед **обома** порівняльними. Порівняльний ступінь утворюється як зазвичай (*better*, *more interesting*).
+
+## Типові помилки
+
+- ✗ *More you practise, better you become.* → ✓ ***The** more you practise, **the** better you become.*
+- ✗ *The more you practise, the more better you become.* → ✓ *…the **better**…*
+- ✗ *The more is the better.* → ✓ ***The more, the better.***
+- ✗ *The more I know him, more I like him.* → ✓ *…**the more** I like him.*
 
 Див. «Ступені порівняння прикметників і прислівників».

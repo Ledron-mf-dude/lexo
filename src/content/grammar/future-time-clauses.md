@@ -20,7 +20,7 @@ tags: [future time clauses, when, as soon as, before, after, until, by the time,
 ## Present Simple чи Present Perfect
 
 - ***When I finish**, I'll call you.* — коли закінчу.
-- ***When I have finished**, I'll call you.* — коли буду **вже закінчивши** (наголос на завершеності).
+- ***When I have finished**, I'll call you.* — коли вже закінчу (наголос на тому, що дія завершиться).
 
 `Present Perfect` показує, що дія у підрядній **завершиться раніше** за дію в головній:
 
@@ -43,3 +43,10 @@ tags: [future time clauses, when, as soon as, before, after, until, by the time,
 ## Порівняння з First conditional
 
 Після `if` — теж Present Simple: *If it **rains**, we **will stay** home.* Див. «Умовні речення».
+
+## Типові помилки
+
+- ✗ *I'll call you when I will arrive.* → ✓ *…when I **arrive**.*
+- ✗ *As soon as she will come, we'll start.* → ✓ *As soon as she **comes**…*
+- ✗ *I'll wait until you will finish.* → ✓ *…until you **finish** / **have finished**.*
+- ✗ *When I'll be older, I'll travel.* → ✓ *When I **am** older…*

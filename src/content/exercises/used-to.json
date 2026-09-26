@@ -124,6 +124,156 @@
     "She used to live in Paris"
    ],
    "why": "used to + інфінітив."
+  },
+  {
+   "id": "used-to-11",
+   "type": "fill",
+   "q": "I ___ to go swimming every day when I was a kid.",
+   "answer": [
+    "used"
+   ],
+   "why": "used to + V — минула звичка."
+  },
+  {
+   "id": "used-to-12",
+   "type": "fill",
+   "q": "She isn't ___ to driving on the left.",
+   "answer": [
+    "used"
+   ],
+   "why": "be used to + -ing."
+  },
+  {
+   "id": "used-to-13",
+   "type": "fill",
+   "q": "We ___ (not / use to) have a car.",
+   "answer": [
+    "didn't use to",
+    "did not use to"
+   ],
+   "why": "didn't use to."
+  },
+  {
+   "id": "used-to-14",
+   "type": "fill",
+   "q": "I'm getting used to ___ (work) at night.",
+   "answer": [
+    "working"
+   ],
+   "why": "get used to + -ing."
+  },
+  {
+   "id": "used-to-15",
+   "type": "fill",
+   "q": "Every summer my grandpa ___ take us fishing.",
+   "answer": [
+    "would",
+    "used to"
+   ],
+   "why": "would — повторювані дії в минулому."
+  },
+  {
+   "id": "used-to-16",
+   "type": "choice",
+   "q": "There ___ a cinema here, but they closed it.",
+   "options": [
+    "used to be",
+    "would be",
+    "was used to",
+    "use to be"
+   ],
+   "answer": 0,
+   "why": "Стан у минулому — used to."
+  },
+  {
+   "id": "used-to-17",
+   "type": "choice",
+   "q": "I can't get used ___ early.",
+   "options": [
+    "to getting up",
+    "to get up",
+    "getting up",
+    "get up"
+   ],
+   "answer": 0,
+   "why": "get used to + -ing."
+  },
+  {
+   "id": "used-to-18",
+   "type": "choice",
+   "q": "___ you use to live in London?",
+   "options": [
+    "Did",
+    "Were",
+    "Do",
+    "Have"
+   ],
+   "answer": 0,
+   "why": "Did + підмет + use to."
+  },
+  {
+   "id": "used-to-19",
+   "type": "choice",
+   "q": "He ___ have long hair. (раніше)",
+   "options": [
+    "used to",
+    "would",
+    "was used to",
+    "uses to"
+   ],
+   "answer": 0,
+   "why": "Стан — used to, не would."
+  },
+  {
+   "id": "used-to-20",
+   "type": "order",
+   "words": [
+    "I",
+    "used",
+    "to",
+    "play",
+    "the",
+    "piano"
+   ],
+   "answer": [
+    "I used to play the piano"
+   ],
+   "why": "used to + V.",
+   "hint": "Раніше я грав на піаніно."
+  },
+  {
+   "id": "used-to-21",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "used",
+    "to",
+    "working",
+    "late"
+   ],
+   "answer": [
+    "She is used to working late"
+   ],
+   "why": "be used to + -ing.",
+   "hint": "Вона звикла працювати допізна."
+  },
+  {
+   "id": "used-to-22",
+   "type": "order",
+   "words": [
+    "I",
+    "didn't",
+    "use",
+    "to",
+    "like",
+    "fish"
+   ],
+   "answer": [
+    "I didn't use to like fish"
+   ],
+   "why": "didn't use to + V.",
+   "hint": "Раніше я не любив рибу."
   }
  ]
 }

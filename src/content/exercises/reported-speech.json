@@ -117,6 +117,157 @@
    ],
    "answer": 1,
    "why": "tell вживається з особою (told me)."
+  },
+  {
+   "id": "reported-speech-11",
+   "type": "fill",
+   "q": "\"I'm working.\" → She said she ___ working.",
+   "answer": [
+    "was"
+   ],
+   "why": "am → was."
+  },
+  {
+   "id": "reported-speech-12",
+   "type": "fill",
+   "q": "\"We went to Rome.\" → They said they ___ to Rome.",
+   "answer": [
+    "had gone",
+    "went"
+   ],
+   "why": "Past Simple → Past Perfect (або без змін)."
+  },
+  {
+   "id": "reported-speech-13",
+   "type": "fill",
+   "q": "\"Can you help me?\" → She asked me ___ I could help her.",
+   "answer": [
+    "if",
+    "whether"
+   ],
+   "why": "Так/ні → if / whether."
+  },
+  {
+   "id": "reported-speech-14",
+   "type": "fill",
+   "q": "\"Don't touch it.\" → He told me ___ touch it.",
+   "answer": [
+    "not to"
+   ],
+   "why": "Заборона → not to + V."
+  },
+  {
+   "id": "reported-speech-15",
+   "type": "fill",
+   "q": "\"I'll be here tomorrow.\" → He said he would be there the ___ day.",
+   "answer": [
+    "next",
+    "following"
+   ],
+   "why": "tomorrow → the next / following day."
+  },
+  {
+   "id": "reported-speech-16",
+   "type": "choice",
+   "q": "\"I like jazz.\" → He ___ that he liked jazz.",
+   "options": [
+    "said",
+    "told",
+    "said me",
+    "told to"
+   ],
+   "answer": 0,
+   "why": "say без особи."
+  },
+  {
+   "id": "reported-speech-17",
+   "type": "choice",
+   "q": "\"What are you doing?\" → She asked me what ___.",
+   "options": [
+    "I was doing",
+    "was I doing",
+    "I am doing now",
+    "did I do"
+   ],
+   "answer": 0,
+   "why": "Прямий порядок + зсув часу."
+  },
+  {
+   "id": "reported-speech-18",
+   "type": "choice",
+   "q": "\"I must go.\" → She said she ___ go.",
+   "options": [
+    "had to",
+    "musts",
+    "must to",
+    "has to go"
+   ],
+   "answer": 0,
+   "why": "must → had to."
+  },
+  {
+   "id": "reported-speech-19",
+   "type": "choice",
+   "q": "\"I saw him yesterday.\" → She said she had seen him ___.",
+   "options": [
+    "the day before",
+    "yesterday",
+    "the next day",
+    "tomorrow"
+   ],
+   "answer": 0,
+   "why": "yesterday → the day before."
+  },
+  {
+   "id": "reported-speech-20",
+   "type": "order",
+   "words": [
+    "She",
+    "said",
+    "that",
+    "she",
+    "was",
+    "tired"
+   ],
+   "answer": [
+    "She said that she was tired"
+   ],
+   "why": "said (that) + зсув часу.",
+   "hint": "Вона сказала, що втомилася."
+  },
+  {
+   "id": "reported-speech-21",
+   "type": "order",
+   "words": [
+    "He",
+    "told",
+    "me",
+    "to",
+    "wait",
+    "outside"
+   ],
+   "answer": [
+    "He told me to wait outside"
+   ],
+   "why": "told + особа + to-інфінітив.",
+   "hint": "Він сказав мені чекати надворі."
+  },
+  {
+   "id": "reported-speech-22",
+   "type": "order",
+   "words": [
+    "She",
+    "asked",
+    "me",
+    "where",
+    "I",
+    "lived"
+   ],
+   "answer": [
+    "She asked me where I lived"
+   ],
+   "why": "Прямий порядок слів.",
+   "hint": "Вона запитала, де я живу."
   }
  ]
 }

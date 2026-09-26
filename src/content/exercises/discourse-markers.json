@@ -116,6 +116,164 @@
    ],
    "answer": 0,
    "why": "Пояснення іншими словами."
+  },
+  {
+   "id": "discourse-markers-10",
+   "type": "fill",
+   "q": "The flat is small. ___, it's in a great location. (контраст)",
+   "answer": [
+    "However",
+    "Nevertheless",
+    "Still"
+   ],
+   "why": "However — контраст, окреме речення."
+  },
+  {
+   "id": "discourse-markers-11",
+   "type": "fill",
+   "q": "I love travelling. ___ instance, last year I visited five countries.",
+   "answer": [
+    "For"
+   ],
+   "why": "For instance — наприклад."
+  },
+  {
+   "id": "discourse-markers-12",
+   "type": "fill",
+   "q": "The course is cheap. ___ addition, it's online.",
+   "answer": [
+    "In"
+   ],
+   "why": "In addition — крім того."
+  },
+  {
+   "id": "discourse-markers-13",
+   "type": "fill",
+   "q": "___ sum up, the project was a success.",
+   "answer": [
+    "To"
+   ],
+   "why": "To sum up — підсумовуючи."
+  },
+  {
+   "id": "discourse-markers-14",
+   "type": "fill",
+   "q": "She didn't train. ___, she lost the race. (наслідок)",
+   "answer": [
+    "Consequently",
+    "As a result",
+    "Therefore",
+    "So"
+   ],
+   "why": "Consequently / As a result — наслідок."
+  },
+  {
+   "id": "discourse-markers-15",
+   "type": "choice",
+   "q": "___, I think we should wait.",
+   "options": [
+    "Personally",
+    "Moreover",
+    "Therefore",
+    "Firstly of all"
+   ],
+   "answer": 0,
+   "why": "Personally — моя особиста думка."
+  },
+  {
+   "id": "discourse-markers-16",
+   "type": "choice",
+   "q": "The hotel was dirty. ___, the staff were rude.",
+   "options": [
+    "What's more",
+    "However",
+    "For example",
+    "In conclusion"
+   ],
+   "answer": 0,
+   "why": "What's more — більше того."
+  },
+  {
+   "id": "discourse-markers-17",
+   "type": "choice",
+   "q": "He's not lazy. ___, he works very hard.",
+   "options": [
+    "On the contrary",
+    "On the other hand",
+    "For instance",
+    "As a result"
+   ],
+   "answer": 0,
+   "why": "On the contrary — навпаки (заперечуємо сказане)."
+  },
+  {
+   "id": "discourse-markers-18",
+   "type": "choice",
+   "q": "___, let me introduce myself.",
+   "options": [
+    "First of all",
+    "Finally",
+    "In conclusion",
+    "However"
+   ],
+   "answer": 0,
+   "why": "First of all — спочатку."
+  },
+  {
+   "id": "discourse-markers-19",
+   "type": "order",
+   "words": [
+    "However",
+    "the",
+    "price",
+    "is",
+    "too",
+    "high"
+   ],
+   "answer": [
+    "However the price is too high",
+    "However, the price is too high"
+   ],
+   "why": "However + кома.",
+   "hint": "Однак ціна надто висока."
+  },
+  {
+   "id": "discourse-markers-20",
+   "type": "order",
+   "words": [
+    "For",
+    "example",
+    "many",
+    "people",
+    "work",
+    "from",
+    "home"
+   ],
+   "answer": [
+    "For example many people work from home",
+    "For example, many people work from home"
+   ],
+   "why": "For example — приклад.",
+   "hint": "Наприклад, багато людей працюють з дому."
+  },
+  {
+   "id": "discourse-markers-21",
+   "type": "order",
+   "words": [
+    "In",
+    "conclusion",
+    "the",
+    "plan",
+    "is",
+    "too",
+    "risky"
+   ],
+   "answer": [
+    "In conclusion the plan is too risky",
+    "In conclusion, the plan is too risky"
+   ],
+   "why": "In conclusion — підсумок.",
+   "hint": "Отже, план надто ризикований."
   }
  ]
 }

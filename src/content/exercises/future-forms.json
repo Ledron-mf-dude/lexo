@@ -128,6 +128,158 @@
     "He is going to have a day off tomorrow"
    ],
    "why": "Особистий план — be going to."
+  },
+  {
+   "id": "future-forms-11",
+   "type": "fill",
+   "q": "The concert ___ (start) at 8 pm. It's on the ticket.",
+   "answer": [
+    "starts"
+   ],
+   "why": "Розклад — Present Simple."
+  },
+  {
+   "id": "future-forms-12",
+   "type": "fill",
+   "q": "I ___ (meet) Anna for lunch tomorrow. We've booked a table.",
+   "answer": [
+    "am meeting",
+    "'m meeting"
+   ],
+   "why": "Домовленість — Present Continuous."
+  },
+  {
+   "id": "future-forms-13",
+   "type": "fill",
+   "q": "Watch out! You ___ (fall)!",
+   "answer": [
+    "are going to fall",
+    "'re going to fall"
+   ],
+   "why": "Бачимо ознаки — be going to."
+  },
+  {
+   "id": "future-forms-14",
+   "type": "fill",
+   "q": "I think it ___ (be) a great party.",
+   "answer": [
+    "will be",
+    "'ll be"
+   ],
+   "why": "Прогноз-думка з I think — will."
+  },
+  {
+   "id": "future-forms-15",
+   "type": "fill",
+   "q": "\"I'm cold.\" — \"I ___ (close) the window.\"",
+   "answer": [
+    "will close",
+    "'ll close"
+   ],
+   "why": "Рішення в момент мовлення — will."
+  },
+  {
+   "id": "future-forms-16",
+   "type": "choice",
+   "q": "My flight ___ at 6 am.",
+   "options": [
+    "leaves",
+    "will be leaving by",
+    "is leave",
+    "leave"
+   ],
+   "answer": 0,
+   "why": "Розклад — Present Simple."
+  },
+  {
+   "id": "future-forms-17",
+   "type": "choice",
+   "q": "I've decided. I ___ learn to drive this year.",
+   "options": [
+    "am going to",
+    "will be",
+    "shall to",
+    "am learning to"
+   ],
+   "answer": 0,
+   "why": "Рішення, прийняте раніше, — be going to."
+  },
+  {
+   "id": "future-forms-18",
+   "type": "choice",
+   "q": "Maybe I ___ visit you next summer.",
+   "options": [
+    "will",
+    "am going",
+    "am visiting",
+    "visit"
+   ],
+   "answer": 0,
+   "why": "Невпевнений прогноз — will."
+  },
+  {
+   "id": "future-forms-19",
+   "type": "choice",
+   "q": "What ___ this evening? Any plans?",
+   "options": [
+    "are you doing",
+    "will you do",
+    "do you do",
+    "you are doing"
+   ],
+   "answer": 0,
+   "why": "Питання про плани — Present Continuous."
+  },
+  {
+   "id": "future-forms-20",
+   "type": "order",
+   "words": [
+    "We",
+    "are",
+    "flying",
+    "to",
+    "Rome",
+    "on",
+    "Friday"
+   ],
+   "answer": [
+    "We are flying to Rome on Friday"
+   ],
+   "why": "Домовленість — Present Continuous.",
+   "hint": "У п'ятницю ми летимо до Рима."
+  },
+  {
+   "id": "future-forms-21",
+   "type": "order",
+   "words": [
+    "I",
+    "think",
+    "she",
+    "will",
+    "win"
+   ],
+   "answer": [
+    "I think she will win"
+   ],
+   "why": "Прогноз-думка — will.",
+   "hint": "Думаю, вона виграє."
+  },
+  {
+   "id": "future-forms-22",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "going",
+    "to",
+    "rain",
+    "soon"
+   ],
+   "answer": [
+    "It is going to rain soon"
+   ],
+   "why": "Ознаки — be going to.",
+   "hint": "Скоро піде дощ."
   }
  ]
 }

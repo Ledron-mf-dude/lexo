@@ -1,28 +1,22 @@
-import { useState, type FormEvent } from 'react'
-import { Link, useLocation, useParams } from 'react-router-dom'
-import { useAuth } from '../lib/auth'
-import { correctAnswer, exercises, isCorrectText, type Question } from '../lib/exercises'
-import { topicStats, useExerciseLog, useLogAnswer } from '../lib/exerciseLog'
-import { bySlug } from '../lib/grammar'
+import { useEffect, useState, type FormEvent, type ReactNode } from 'react'
+import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom'
+import { useAuth } from '../lib/authContext'
+import { correctAnswer, drawDeck, exercises, isCorrectText, itemsOf, shuffle, type Item, type Question } from '../lib/exercises'
+import { allMistakes, topicStats, useExerciseLog, useLogAnswer } from '../lib/exerciseLog'
 import { useFocusMode } from '../lib/focusMode'
+import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
+import { useTitle } from '../lib/useTitle'
 
 const DECK_SIZE = 10
-
-function shuffle<T>(items: T[]): T[] {
-  const a = [...items]
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
-  }
-  return a
-}
+const MIXED_DECK_SIZE = 15
 
 /** Authors put answers in any order; shuffle the options so the position of the right one never gives it away. */
-function withShuffledOptions(q: Question): Question {
-  if (q.type !== 'choice') return q
+function withShuffledOptions(item: Item): Item {
+  const { q } = item
+  if (q.type !== 'choice') return item
   const correct = q.options[q.answer]
   const options = shuffle(q.options)
-  return { ...q, options, answer: options.indexOf(correct) }
+  return { ...item, q: { ...q, options, answer: options.indexOf(correct) } }
 }
 
 interface Outcome {
@@ -30,16 +24,22 @@ interface Outcome {
   given: string
 }
 
+/** Waits for the answer log once (it decides "repeat mistakes"), then keeps the quiz mounted through background refetches. */
+function useSettledLog() {
+  const log = useExerciseLog()
+  const [settled, setSettled] = useState(false)
+  if (!settled && !log.isPending) setSettled(true)
+  return { log: log.data, settled }
+}
+
+/** Exercises of one topic: `/grammar/:slug/exercises` (router state `{ mistakes: true }` limits it to the questions answered wrongly). */
 export default function ExerciseQuiz() {
   const { slug = '' } = useParams()
   const article = bySlug.get(slug)
   const bank = exercises.get(slug)
   const mistakesOnly = (useLocation().state as { mistakes?: boolean } | null)?.mistakes === true
-  const log = useExerciseLog()
+  const { log, settled } = useSettledLog()
   const [attempt, setAttempt] = useState(0)
-  // Once the log has answered (or failed), keep the quiz mounted: a background refetch must not reset a quiz in progress.
-  const [settled, setSettled] = useState(false)
-  if (!settled && !log.isPending) setSettled(true)
 
   if (!article || !bank) {
     return (
@@ -54,39 +54,97 @@ export default function ExerciseQuiz() {
   if (!settled) return <p className="text-white/50">Завантаження…</p>
 
   // The deck is drawn once, after the log is known, so "repeat mistakes" can pick the right questions.
-  const wrong = new Set(topicStats(log.data, slug, new Set(bank.map((q) => q.id))).mistakes)
-  const pool = mistakesOnly ? bank.filter((q) => wrong.has(q.id)) : bank
-  return <Quiz key={attempt} slug={slug} title={article.title} pool={pool.length > 0 ? pool : bank} onRestart={() => setAttempt((n) => n + 1)} />
+  const wrong = new Set(topicStats(log, slug, new Set(bank.map((q) => q.id))).mistakes)
+  const all = itemsOf(slug)
+  const pool = mistakesOnly ? all.filter((i) => wrong.has(i.q.id)) : all
+  return (
+    <Quiz
+      key={attempt}
+      title={article.title}
+      pool={pool.length > 0 ? pool : all}
+      size={DECK_SIZE}
+      back={{ to: `/grammar/${slug}`, label: 'До статті' }}
+      onRestart={() => setAttempt((n) => n + 1)}
+    />
+  )
 }
 
-function Quiz({ slug, title, pool, onRestart }: { slug: string; title: string; pool: Question[]; onRestart: () => void }) {
+/** Mixed practice across topics: `/grammar/practice?level=B1&cat=…`, or `?mistakes=1` for every question answered wrongly. */
+export function MixedQuiz() {
+  const [params] = useSearchParams()
+  const levelParam = params.get('level')
+  const level = (LEVELS as readonly string[]).includes(levelParam ?? '') ? (levelParam as Level) : null
+  const category = params.get('cat')
+  const mistakes = params.get('mistakes') === '1'
+  const { log, settled } = useSettledLog()
+  const [attempt, setAttempt] = useState(0)
+
+  if (!settled) return <p className="text-white/50">Завантаження…</p>
+
+  let pool: Item[]
+  let title: string
+  if (mistakes) {
+    const byId = new Map([...exercises].flatMap(([slug, qs]) => qs.map((q): [string, Item] => [`${slug}/${q.id}`, { slug, q }])))
+    pool = allMistakes(log, exercises).map((m) => byId.get(`${m.slug}/${m.id}`)!)
+    title = 'Робота над помилками'
+  } else {
+    const topics = articles.filter((a) => (!level || a.levels.includes(level)) && (!category || a.category === category))
+    pool = topics.flatMap((a) => itemsOf(a.slug))
+    title = ['Змішані вправи', level, category].filter(Boolean).join(' · ')
+  }
+
+  if (pool.length === 0) {
+    return (
+      <section className="space-y-4">
+        <Link to="/grammar" className="text-sm text-white/50 hover:text-white">
+          ← До статей
+        </Link>
+        <p className="glass rounded-3xl p-8 text-center text-white/50">{mistakes ? 'Помилок немає — усі останні відповіді правильні.' : 'Для цих фільтрів немає вправ.'}</p>
+      </section>
+    )
+  }
+  return <Quiz key={attempt} title={title} pool={pool} size={MIXED_DECK_SIZE} showTopic back={{ to: '/grammar', label: 'До граматики' }} onRestart={() => setAttempt((n) => n + 1)} />
+}
+
+interface QuizProps {
+  title: string
+  pool: Item[]
+  size: number
+  /** Mixed decks name the topic above each question, with a link to its article in the review. */
+  showTopic?: boolean
+  back: { to: string; label: string }
+  onRestart: () => void
+}
+
+function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
+  useTitle(`Вправи: ${title.split(/[:(—]/)[0].trim()}`)
   const { session } = useAuth()
   const { mutate: logAnswer } = useLogAnswer(session!.user.id)
-  const [deck] = useState(() => shuffle(pool).slice(0, DECK_SIZE).map(withShuffledOptions))
+  const [deck] = useState(() => drawDeck(pool, size).map(withShuffledOptions))
   const [index, setIndex] = useState(0)
   const [outcome, setOutcome] = useState<Outcome | null>(null)
-  const [results, setResults] = useState<{ q: Question; outcome: Outcome }[]>([])
-  const [round, setRound] = useState(0)
+  const [results, setResults] = useState<{ item: Item; outcome: Outcome }[]>([])
 
-  const q = deck[index]
-  useFocusMode(q !== undefined)
+  const item = deck[index]
+  useFocusMode(item !== undefined)
 
   function answer(o: Outcome) {
     if (outcome) return
     setOutcome(o)
-    setResults((r) => [...r, { q, outcome: o }])
-    logAnswer({ slug, questionId: q.id, correct: o.correct })
+    setResults((r) => [...r, { item, outcome: o }])
+    logAnswer({ slug: item.slug, questionId: item.q.id, correct: o.correct })
+    if (!o.correct && navigator.vibrate) navigator.vibrate(50)
   }
 
   function next() {
     setOutcome(null)
     setIndex((i) => i + 1)
-    setRound((r) => r + 1)
   }
 
-  if (!q) {
+  if (!item) {
     const score = results.filter((r) => r.outcome.correct).length
     const missed = results.filter((r) => !r.outcome.correct)
+    const percent = Math.round((score / results.length) * 100)
     return (
       <section className="space-y-5">
         <div className="glass space-y-3 rounded-[2rem] p-8 text-center">
@@ -94,25 +152,32 @@ function Quiz({ slug, title, pool, onRestart }: { slug: string; title: string; p
           <p className="text-5xl font-light">
             {score} <span className="text-2xl text-white/40">/ {results.length}</span>
           </p>
-          <p className="text-white/50">{score === results.length ? 'Без помилок!' : `Помилок: ${missed.length}`}</p>
+          <p className={percent >= 80 ? 'text-good' : 'text-white/50'}>
+            {score === results.length ? 'Без помилок!' : percent >= 80 ? `Чудово · помилок: ${missed.length}` : `Помилок: ${missed.length} — розберіть їх нижче`}
+          </p>
         </div>
         {missed.length > 0 && (
           <div className="space-y-2">
             <h2 className="text-sm tracking-widest text-white/40 uppercase">Розберіть помилки</h2>
-            {missed.map(({ q: mq, outcome: o }) => (
-              <div key={mq.id} className="glass space-y-1 rounded-2xl p-4 text-sm">
-                <p className="text-white/60">{mq.type === 'order' ? mq.words.join(' / ') : mq.q}</p>
+            {missed.map(({ item: m, outcome: o }) => (
+              <div key={`${m.slug}/${m.q.id}`} className="glass space-y-1.5 rounded-2xl p-4 text-sm">
+                {showTopic && (
+                  <Link to={`/grammar/${m.slug}`} className="text-xs text-accent hover:underline">
+                    {bySlug.get(m.slug)?.title}
+                  </Link>
+                )}
+                <p className="text-white/60">{m.q.type === 'order' ? (m.q.hint ?? m.q.words.join(' / ')) : m.q.q}</p>
                 <p>
-                  <span className="text-bad">{o.given || '—'}</span> → <span className="text-good">{correctAnswer(mq)}</span>
+                  <span className="text-bad line-through decoration-bad/50">{o.given || '—'}</span> → <span className="text-good">{correctAnswer(m.q)}</span>
                 </p>
-                <p className="text-white/45">{mq.why}</p>
+                <p className="text-white/45">{m.q.why}</p>
               </div>
             ))}
           </div>
         )}
         <div className="flex flex-wrap gap-2">
-          <Link to={`/grammar/${slug}`} className="btn-ghost">
-            До статті
+          <Link to={back.to} className="btn-ghost">
+            {back.label}
           </Link>
           <button onClick={onRestart} className="btn-primary">
             Ще раз
@@ -122,39 +187,61 @@ function Quiz({ slug, title, pool, onRestart }: { slug: string; title: string; p
     )
   }
 
+  const { q } = item
   return (
     <section className="space-y-5">
       <div className="flex items-center gap-3 text-sm text-white/50">
-        <Link to={`/grammar/${slug}`} aria-label="Вийти з вправ" className="hover:text-white">
+        <Link to={back.to} aria-label="Вийти з вправ" className="hover:text-white">
           ✕
         </Link>
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/10">
           <div className="h-full bg-accent transition-all" style={{ width: `${(index / deck.length) * 100}%` }} />
         </div>
-        <span>
+        <span className="tabular-nums">
           {index + 1} / {deck.length}
         </span>
       </div>
 
-      <div key={round}>
+      {showTopic && <p className="text-center text-xs text-white/40">{bySlug.get(item.slug)?.title}</p>}
+
+      <div key={index}>
         {q.type === 'choice' && <ChoiceQ q={q} outcome={outcome} onAnswer={answer} />}
         {q.type === 'fill' && <FillQ q={q} outcome={outcome} onAnswer={answer} />}
         {q.type === 'order' && <OrderQ q={q} outcome={outcome} onAnswer={answer} />}
       </div>
 
-      {outcome && (
-        <div className="space-y-3">
-          <div className={`glass rounded-2xl p-4 ${outcome.correct ? 'border-good/40!' : 'border-bad/40!'}`}>
-            <p className={`text-sm ${outcome.correct ? 'text-good' : 'text-bad'}`}>{outcome.correct ? 'Правильно' : 'Неправильно'}</p>
-            {!outcome.correct && <p className="mt-1 text-lg">{correctAnswer(q)}</p>}
-            <p className="mt-2 text-sm text-white/55">{q.why}</p>
-          </div>
-          <button autoFocus onClick={next} className="btn-primary w-full">
-            {index + 1 === deck.length ? 'Результат' : 'Далі'}
-          </button>
-        </div>
-      )}
+      {outcome && <Feedback q={q} outcome={outcome} last={index + 1 === deck.length} onNext={next} />}
     </section>
+  )
+}
+
+function Feedback({ q, outcome, last, onNext }: { q: Question; outcome: Outcome; last: boolean; onNext: () => void }) {
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Enter') {
+        e.preventDefault()
+        onNext()
+      }
+    }
+    // Attached on the next tick, so the Enter that submitted the answer does not also skip the explanation.
+    const t = setTimeout(() => window.addEventListener('keydown', onKey), 0)
+    return () => {
+      clearTimeout(t)
+      window.removeEventListener('keydown', onKey)
+    }
+  }, [onNext])
+
+  return (
+    <div className="space-y-3">
+      <div className={`glass rounded-2xl p-4 ${outcome.correct ? 'border-good/40!' : 'border-bad/40!'}`}>
+        <p className={`text-sm ${outcome.correct ? 'text-good' : 'text-bad'}`}>{outcome.correct ? 'Правильно' : 'Неправильно'}</p>
+        {!outcome.correct && <p className="mt-1 text-lg">{correctAnswer(q)}</p>}
+        <p className="mt-2 text-sm text-white/60">{q.why}</p>
+      </div>
+      <button onClick={onNext} className="btn-primary w-full">
+        {last ? 'Результат' : 'Далі'}
+      </button>
+    </div>
   )
 }
 
@@ -164,12 +251,45 @@ interface QProps<T extends Question> {
   onAnswer: (o: Outcome) => void
 }
 
-function Prompt({ children }: { children: React.ReactNode }) {
-  return <div className="glass grid min-h-40 place-items-center rounded-[2rem] p-8 text-center text-2xl font-light tracking-tight">{children}</div>
+/** The question text; a run of underscores is drawn as a blank to fill. */
+function Prompt({ text, hint, children }: { text?: string; hint?: string; children?: ReactNode }) {
+  const long = (text?.length ?? 0) > 70
+  return (
+    <div className="glass grid min-h-40 place-items-center rounded-[2rem] p-6 text-center sm:p-8">
+      <div className="space-y-3">
+        {text !== undefined && (
+          <p className={`font-light tracking-tight ${long ? 'text-xl' : 'text-2xl'}`}>
+            {text.split(/(_{2,})/).map((part, i) =>
+              /^_{2,}$/.test(part) ? (
+                <span key={i} className="mx-0.5 inline-block min-w-12 border-b-2 border-accent/70 align-baseline" aria-label="пропуск">
+                  &nbsp;
+                </span>
+              ) : (
+                part
+              ),
+            )}
+          </p>
+        )}
+        {children}
+        {hint && <p className="text-sm text-white/45">{hint}</p>}
+      </div>
+    </div>
+  )
 }
 
 function ChoiceQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'choice' }>>) {
   const picked = outcome?.given
+
+  useEffect(() => {
+    if (outcome) return
+    function onKey(e: KeyboardEvent) {
+      const i = Number(e.key) - 1
+      if (i >= 0 && i < q.options.length) onAnswer({ correct: i === q.answer, given: q.options[i] })
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [q, outcome, onAnswer])
+
   function style(option: string, i: number) {
     if (!outcome) return 'hover:bg-white/15'
     if (i === q.answer) return 'border-good/60 bg-good/15 text-good'
@@ -178,16 +298,17 @@ function ChoiceQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'cho
   }
   return (
     <div className="space-y-3">
-      <Prompt>{q.q}</Prompt>
+      <Prompt text={q.q} hint={q.hint} />
       <div className="grid gap-2">
         {q.options.map((option, i) => (
           <button
             key={option}
             disabled={outcome !== null}
             onClick={() => onAnswer({ correct: i === q.answer, given: option })}
-            className={`glass rounded-2xl px-4 py-3 text-left transition-colors ${style(option, i)}`}
+            className={`glass flex items-center gap-3 rounded-2xl px-4 py-3 text-left transition-colors ${style(option, i)}`}
           >
-            {option}
+            <span className="hidden w-4 shrink-0 text-xs text-white/30 md:block">{i + 1}</span>
+            <span>{option}</span>
           </button>
         ))}
       </div>
@@ -203,14 +324,16 @@ function FillQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'fill'
   }
   return (
     <div className="space-y-3">
-      <Prompt>{q.q}</Prompt>
+      <Prompt text={q.q} hint={q.hint} />
       <form onSubmit={submit} className="space-y-2">
         <input
           autoFocus
           disabled={outcome !== null}
           autoComplete="off"
           autoCapitalize="off"
+          autoCorrect="off"
           spellCheck={false}
+          enterKeyHint="done"
           value={value}
           onChange={(e) => setValue(e.target.value)}
           placeholder="Ваша відповідь"
@@ -248,8 +371,10 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
 
   return (
     <div className="space-y-3">
-      <Prompt>Складіть речення</Prompt>
-      <div className="glass min-h-16 rounded-2xl p-4 text-center text-lg">{sentence || <span className="text-white/25">…</span>}</div>
+      <Prompt hint={q.hint}>
+        <p className="text-xs tracking-widest text-white/35 uppercase">Складіть речення</p>
+      </Prompt>
+      <div className="glass min-h-16 rounded-2xl p-4 text-center text-lg">{sentence || <span className="text-white/25">Торкайтеся слів по порядку</span>}</div>
       {!outcome && (
         <>
           <div className="flex flex-wrap justify-center gap-2">

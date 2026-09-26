@@ -116,6 +116,154 @@
    ],
    "answer": 1,
    "why": "at home."
+  },
+  {
+   "id": "prepositions-place-10",
+   "type": "fill",
+   "q": "My keys are ___ the drawer.",
+   "answer": [
+    "in"
+   ],
+   "why": "in — всередині."
+  },
+  {
+   "id": "prepositions-place-11",
+   "type": "fill",
+   "q": "The painting is ___ the wall.",
+   "answer": [
+    "on"
+   ],
+   "why": "on — на поверхні (стіна)."
+  },
+  {
+   "id": "prepositions-place-12",
+   "type": "fill",
+   "q": "I'll wait for you ___ the entrance.",
+   "answer": [
+    "at"
+   ],
+   "why": "at — точка, місце зустрічі."
+  },
+  {
+   "id": "prepositions-place-13",
+   "type": "fill",
+   "q": "The post office is ___ to the bank.",
+   "answer": [
+    "next"
+   ],
+   "why": "next to — поруч."
+  },
+  {
+   "id": "prepositions-place-14",
+   "type": "fill",
+   "q": "She was ___ the few people who stayed.",
+   "answer": [
+    "among"
+   ],
+   "why": "among — серед багатьох."
+  },
+  {
+   "id": "prepositions-place-15",
+   "type": "choice",
+   "q": "There's a car ___ the house. (перед)",
+   "options": [
+    "in front of",
+    "in front",
+    "front of",
+    "before of"
+   ],
+   "answer": 0,
+   "why": "in front of — перед."
+  },
+  {
+   "id": "prepositions-place-16",
+   "type": "choice",
+   "q": "I live ___ the third floor.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "by"
+   ],
+   "answer": 0,
+   "why": "on + поверх."
+  },
+  {
+   "id": "prepositions-place-17",
+   "type": "choice",
+   "q": "Who's the woman ___ the photo?",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "by"
+   ],
+   "answer": 0,
+   "why": "in the photo / picture."
+  },
+  {
+   "id": "prepositions-place-18",
+   "type": "choice",
+   "q": "The garden is ___ the house.",
+   "options": [
+    "behind",
+    "back",
+    "after",
+    "beyond of"
+   ],
+   "answer": 0,
+   "why": "behind — позаду."
+  },
+  {
+   "id": "prepositions-place-19",
+   "type": "order",
+   "words": [
+    "The",
+    "cat",
+    "is",
+    "under",
+    "the",
+    "bed"
+   ],
+   "answer": [
+    "The cat is under the bed"
+   ],
+   "why": "under — під.",
+   "hint": "Кіт під ліжком."
+  },
+  {
+   "id": "prepositions-place-20",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "sitting",
+    "between",
+    "Tom",
+    "and",
+    "Anna"
+   ],
+   "answer": [
+    "She is sitting between Tom and Anna"
+   ],
+   "why": "between — між двома.",
+   "hint": "Вона сидить між Томом та Анною."
+  },
+  {
+   "id": "prepositions-place-21",
+   "type": "order",
+   "words": [
+    "We",
+    "live",
+    "opposite",
+    "the",
+    "park"
+   ],
+   "answer": [
+    "We live opposite the park"
+   ],
+   "why": "opposite — навпроти.",
+   "hint": "Ми живемо навпроти парку."
   }
  ]
 }

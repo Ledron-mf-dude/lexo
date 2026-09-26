@@ -2,6 +2,7 @@
 title: Питання в англійській: порядок слів і питальні слова
 category: Запитання та відповіді
 levels: [A1, A2]
+aliases: [Питання в англійській: порядок слів, Питання в англійській]
 tags: [questions, question words, what, who, where, when, why, how, which, whose, do does did, yes no questions, wh questions, питання, питальні слова]
 ---
 
@@ -53,8 +54,10 @@ tags: [questions, question words, what, who, where, when, why, how, which, whose
 
 ## Типові помилки
 
-- ~~Where you live?~~ → **Where do you live?**
-- ~~What you are doing?~~ → **What are you doing?**
-- ~~Did you went?~~ → **Did you go?**
+- ✗ *Where you live?* → ✓ *Where **do you** live?*
+- ✗ *What you are doing?* → ✓ *What **are you** doing?*
+- ✗ *Did you went?* → ✓ *Did you **go**?*
+- ✗ *Who did call you?* → ✓ *Who **called** you?* (питання до підмета — без did)
+- ✗ *How much people came?* → ✓ *How **many** people came?*
 
 Про питання з підметом: «Subject questions». Ввічливі: «Indirect questions».

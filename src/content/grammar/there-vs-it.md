@@ -49,3 +49,10 @@ tags: [there, it, preparatory subject, it is important to, it takes, dummy subje
 ## This чи it?
 
 - *This is my phone. **It** is new.* Див. «This, that, these, those».
+
+## Типові помилки
+
+- ✗ *Is raining.* → ✓ ***It** is raining.* (підмет обов'язковий)
+- ✗ *There is difficult to learn English.* → ✓ ***It** is difficult to learn English.*
+- ✗ *It is a problem with the printer.* (нова інформація) → ✓ ***There is** a problem…*
+- ✗ *Takes two hours.* → ✓ ***It takes** two hours.*

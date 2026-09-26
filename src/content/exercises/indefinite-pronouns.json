@@ -129,6 +129,151 @@
    ],
    "answer": 0,
    "why": "anywhere — де завгодно."
+  },
+  {
+   "id": "indefinite-pronouns-11",
+   "type": "fill",
+   "q": "Is there ___ I can do to help?",
+   "answer": [
+    "anything"
+   ],
+   "why": "У питанні — any-: anything."
+  },
+  {
+   "id": "indefinite-pronouns-12",
+   "type": "fill",
+   "q": "I'm hungry. I want ___ to eat.",
+   "answer": [
+    "something"
+   ],
+   "why": "У ствердженні — some-: something."
+  },
+  {
+   "id": "indefinite-pronouns-13",
+   "type": "fill",
+   "q": "___ knows the answer. It's a mystery.",
+   "answer": [
+    "Nobody",
+    "No one",
+    "Noone"
+   ],
+   "why": "nobody + ствердне дієслово."
+  },
+  {
+   "id": "indefinite-pronouns-14",
+   "type": "fill",
+   "q": "I've looked ___, but I can't find my phone.",
+   "answer": [
+    "everywhere"
+   ],
+   "why": "everywhere — скрізь."
+  },
+  {
+   "id": "indefinite-pronouns-15",
+   "type": "fill",
+   "q": "Let's go ___ quiet.",
+   "answer": [
+    "somewhere"
+   ],
+   "why": "somewhere + прикметник: somewhere quiet."
+  },
+  {
+   "id": "indefinite-pronouns-16",
+   "type": "choice",
+   "q": "Did ___ call me?",
+   "options": [
+    "anyone",
+    "someone's",
+    "no one",
+    "everyone are"
+   ],
+   "answer": 0,
+   "why": "У питанні — anyone."
+  },
+  {
+   "id": "indefinite-pronouns-17",
+   "type": "choice",
+   "q": "There's ___ at the door.",
+   "options": [
+    "someone",
+    "anyone",
+    "no one",
+    "everyone"
+   ],
+   "answer": 0,
+   "why": "Ствердження — someone."
+  },
+  {
+   "id": "indefinite-pronouns-18",
+   "type": "choice",
+   "q": "I have ___ to wear to the party!",
+   "options": [
+    "nothing",
+    "anything",
+    "something not",
+    "none"
+   ],
+   "answer": 0,
+   "why": "nothing + ствердне дієслово."
+  },
+  {
+   "id": "indefinite-pronouns-19",
+   "type": "choice",
+   "q": "Would you like ___ else?",
+   "options": [
+    "anything",
+    "nothing",
+    "nobody",
+    "anywhere"
+   ],
+   "answer": 0,
+   "why": "anything else — ще щось (у питанні)."
+  },
+  {
+   "id": "indefinite-pronouns-20",
+   "type": "order",
+   "words": [
+    "I",
+    "didn't",
+    "buy",
+    "anything"
+   ],
+   "answer": [
+    "I didn't buy anything"
+   ],
+   "why": "didn't + anything.",
+   "hint": "Я нічого не купив."
+  },
+  {
+   "id": "indefinite-pronouns-21",
+   "type": "order",
+   "words": [
+    "Everybody",
+    "likes",
+    "her"
+   ],
+   "answer": [
+    "Everybody likes her"
+   ],
+   "why": "everybody + дієслово в однині.",
+   "hint": "Усі її люблять."
+  },
+  {
+   "id": "indefinite-pronouns-22",
+   "type": "order",
+   "words": [
+    "There",
+    "is",
+    "nothing",
+    "in",
+    "the",
+    "fridge"
+   ],
+   "answer": [
+    "There is nothing in the fridge"
+   ],
+   "why": "there is nothing.",
+   "hint": "У холодильнику нічого немає."
   }
  ]
 }

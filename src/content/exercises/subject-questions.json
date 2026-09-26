@@ -103,6 +103,150 @@
    ],
    "answer": 0,
    "why": "How many people — підмет, без did."
+  },
+  {
+   "id": "subject-questions-9",
+   "type": "fill",
+   "q": "Who ___ (break) the window?",
+   "answer": [
+    "broke"
+   ],
+   "why": "Питання до підмета — без did."
+  },
+  {
+   "id": "subject-questions-10",
+   "type": "fill",
+   "q": "What ___ (make) you laugh?",
+   "answer": [
+    "makes",
+    "made"
+   ],
+   "why": "What — підмет: makes."
+  },
+  {
+   "id": "subject-questions-11",
+   "type": "fill",
+   "q": "Who ___ you talking to?",
+   "answer": [
+    "are"
+   ],
+   "why": "Питання до додатка з прийменником у кінці."
+  },
+  {
+   "id": "subject-questions-12",
+   "type": "fill",
+   "q": "Who ___ Anna marry? (питання до додатка)",
+   "answer": [
+    "did"
+   ],
+   "why": "Питання до додатка — did."
+  },
+  {
+   "id": "subject-questions-13",
+   "type": "fill",
+   "q": "Which team ___ (win) the match yesterday?",
+   "answer": [
+    "won"
+   ],
+   "why": "Which team — підмет: won."
+  },
+  {
+   "id": "subject-questions-14",
+   "type": "choice",
+   "q": "Who ___ this cake? It's delicious!",
+   "options": [
+    "made",
+    "did make",
+    "did made",
+    "makes it"
+   ],
+   "answer": 0,
+   "why": "Питання до підмета."
+  },
+  {
+   "id": "subject-questions-15",
+   "type": "choice",
+   "q": "What ___ you want for dinner?",
+   "options": [
+    "do",
+    "does",
+    "-",
+    "are"
+   ],
+   "answer": 0,
+   "why": "Питання до додатка: do + you + V."
+  },
+  {
+   "id": "subject-questions-16",
+   "type": "choice",
+   "q": "How many students ___ the exam?",
+   "options": [
+    "passed",
+    "did pass",
+    "passed did",
+    "do passed"
+   ],
+   "answer": 0,
+   "why": "How many students — підмет."
+  },
+  {
+   "id": "subject-questions-17",
+   "type": "choice",
+   "q": "Where ___ she come from?",
+   "options": [
+    "does",
+    "is",
+    "-",
+    "do"
+   ],
+   "answer": 0,
+   "why": "Прийменник у кінці: Where does she come from?"
+  },
+  {
+   "id": "subject-questions-18",
+   "type": "order",
+   "words": [
+    "Who",
+    "told",
+    "you"
+   ],
+   "answer": [
+    "Who told you"
+   ],
+   "why": "Питання до підмета.",
+   "hint": "Хто тобі сказав?"
+  },
+  {
+   "id": "subject-questions-19",
+   "type": "order",
+   "words": [
+    "What",
+    "happened",
+    "to",
+    "your",
+    "car"
+   ],
+   "answer": [
+    "What happened to your car"
+   ],
+   "why": "What happened…?",
+   "hint": "Що сталося з твоєю машиною?"
+  },
+  {
+   "id": "subject-questions-20",
+   "type": "order",
+   "words": [
+    "Who",
+    "are",
+    "you",
+    "waiting",
+    "for"
+   ],
+   "answer": [
+    "Who are you waiting for"
+   ],
+   "why": "Прийменник у кінці.",
+   "hint": "На кого ти чекаєш?"
   }
  ]
 }

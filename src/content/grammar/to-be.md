@@ -50,3 +50,13 @@ tags: [to be, am is are, describing people, possessions, whose, possessive, be, 
 **Whose…?** — «чий?»: ***Whose** bag is this?* — *It's **Anna's**.* / *It's **mine**.*
 
 > Не плутайте: `it's` = it **is**, а `its` — «його / її» (про річ чи тварину).
+
+Див. також «Займенники: особові, присвійні, me чи I» і «Питання в англійській».
+
+## Типові помилки
+
+- ✗ *She a doctor.* → ✓ *She **is** a doctor.*
+- ✗ *I have 25 years.* → ✓ *I **am** 25 (years old).*
+- ✗ *Do you are ready?* → ✓ ***Are** you ready?*
+- ✗ *Where you are from?* → ✓ *Where **are you** from?*
+- ✗ *I am agree.* → ✓ *I **agree**.* (agree — дієслово)

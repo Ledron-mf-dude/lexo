@@ -11,7 +11,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "afraid of."
+   "why": "afraid of — боятися чогось."
   },
   {
    "id": "adjective-preposition-2",
@@ -24,7 +24,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "good at."
+   "why": "good at — вмілий у чомусь (good at maths, good at cooking)."
   },
   {
    "id": "adjective-preposition-3",
@@ -37,7 +37,7 @@
     "for"
    ],
    "answer": 2,
-   "why": "interested in."
+   "why": "interested in — цікавитися чимось."
   },
   {
    "id": "adjective-preposition-4",
@@ -50,7 +50,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "worried about."
+   "why": "worried about — хвилюватися через щось."
   },
   {
    "id": "adjective-preposition-5",
@@ -76,7 +76,7 @@
     "for"
    ],
    "answer": 1,
-   "why": "married to."
+   "why": "married to — одружений з кимось (не with)."
   },
   {
    "id": "adjective-preposition-7",
@@ -89,7 +89,7 @@
     "about"
    ],
    "answer": 0,
-   "why": "famous for."
+   "why": "famous for — відомий чимось."
   },
   {
    "id": "adjective-preposition-8",
@@ -102,7 +102,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "proud of."
+   "why": "proud of — пишатися кимось / чимось."
   },
   {
    "id": "adjective-preposition-9",
@@ -116,6 +116,163 @@
    ],
    "answer": 0,
    "why": "kind of + людина + to-інфінітив."
+  },
+  {
+   "id": "adjective-preposition-10",
+   "type": "fill",
+   "q": "She's very good ___ drawing.",
+   "answer": [
+    "at"
+   ],
+   "why": "good at + -ing: good at drawing."
+  },
+  {
+   "id": "adjective-preposition-11",
+   "type": "fill",
+   "q": "I'm tired ___ waiting.",
+   "answer": [
+    "of"
+   ],
+   "why": "tired of — набридло щось."
+  },
+  {
+   "id": "adjective-preposition-12",
+   "type": "fill",
+   "q": "This city is famous ___ its bridges.",
+   "answer": [
+    "for"
+   ],
+   "why": "famous for — відомий чимось."
+  },
+  {
+   "id": "adjective-preposition-13",
+   "type": "fill",
+   "q": "He's responsible ___ the budget.",
+   "answer": [
+    "for"
+   ],
+   "why": "responsible for — відповідальний за щось."
+  },
+  {
+   "id": "adjective-preposition-14",
+   "type": "fill",
+   "q": "This phone is similar ___ mine.",
+   "answer": [
+    "to"
+   ],
+   "why": "similar to — схожий на."
+  },
+  {
+   "id": "adjective-preposition-15",
+   "type": "fill",
+   "q": "I'm not keen ___ horror films.",
+   "answer": [
+    "on"
+   ],
+   "why": "keen on — захоплюватися чимось."
+  },
+  {
+   "id": "adjective-preposition-16",
+   "type": "choice",
+   "q": "She's allergic ___ nuts.",
+   "options": [
+    "to",
+    "of",
+    "with",
+    "from"
+   ],
+   "answer": 0,
+   "why": "allergic to — алергія на щось."
+  },
+  {
+   "id": "adjective-preposition-17",
+   "type": "choice",
+   "q": "I'm sorry ___ the mess.",
+   "options": [
+    "about",
+    "of",
+    "with",
+    "at"
+   ],
+   "answer": 0,
+   "why": "sorry about + ситуація."
+  },
+  {
+   "id": "adjective-preposition-18",
+   "type": "choice",
+   "q": "He is capable ___ doing better.",
+   "options": [
+    "of",
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "why": "capable of + -ing."
+  },
+  {
+   "id": "adjective-preposition-19",
+   "type": "choice",
+   "q": "Are you ready ___ the exam?",
+   "options": [
+    "for",
+    "to",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "why": "ready for — готовий до чогось."
+  },
+  {
+   "id": "adjective-preposition-20",
+   "type": "order",
+   "words": [
+    "I",
+    "am",
+    "interested",
+    "in",
+    "learning",
+    "Spanish"
+   ],
+   "answer": [
+    "I am interested in learning Spanish"
+   ],
+   "why": "interested in + -ing.",
+   "hint": "Мене цікавить вивчення іспанської."
+  },
+  {
+   "id": "adjective-preposition-21",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "proud",
+    "of",
+    "her",
+    "son"
+   ],
+   "answer": [
+    "She is proud of her son"
+   ],
+   "why": "proud of + людина.",
+   "hint": "Вона пишається своїм сином."
+  },
+  {
+   "id": "adjective-preposition-22",
+   "type": "order",
+   "words": [
+    "We",
+    "are",
+    "worried",
+    "about",
+    "the",
+    "test"
+   ],
+   "answer": [
+    "We are worried about the test"
+   ],
+   "why": "worried about.",
+   "hint": "Ми хвилюємося через тест."
   }
  ]
 }

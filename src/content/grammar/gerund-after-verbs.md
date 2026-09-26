@@ -33,9 +33,9 @@ tags: [gerund, -ing, verb + -ing, герундій, дієслова, прийм
 | Уявляти / згадувати | imagine, recall, recollect, mention |
 | Закінчувати / кидати / продовжувати | finish, give up, keep |
 | Обмірковувати / пропонувати | consider, suggest, anticipate |
-| Інші | appreciate, excuse, forgive, pardon, involve, mind, miss, practice, prevent, risk, understand |
+| Інші | appreciate, excuse, forgive, involve, mind, miss, practise (AmE practice), prevent, risk |
 
-На першому слайді уроку також згадано `like`, `love`, `hate`, `prefer`, `begin`: після них gerund цілком природний (більшість із них допускає й інфінітив без помітної різниці в значенні).
+Після `like`, `love`, `hate`, `prefer`, `begin`, `start` gerund теж природний, але ці дієслова допускають і інфінітив, здебільшого без різниці в значенні. Див. «Gerund чи infinitive: verb patterns».
 
 **Приклади**
 
@@ -107,3 +107,11 @@ tags: [gerund, -ing, verb + -ing, герундій, дієслова, прийм
 5. It's no use (wait). → *waiting*
 
 > Слова з цих таблиць у Lexo мають теги `gerund-verbs` та `gerund-phrases` — їх можна відібрати для окремої сесії практики.
+
+## Типові помилки
+
+- ✗ *I enjoy to read.* → ✓ *I enjoy **reading**.*
+- ✗ *I'm looking forward to meet you.* → ✓ *…to **meeting** you.* (to — прийменник)
+- ✗ *He suggested to go.* → ✓ *He suggested **going**.*
+- ✗ *Do you mind to open the window?* → ✓ *Do you mind **opening**…?*
+- ✗ *It's worth to visit.* → ✓ *It's worth **visiting**.*

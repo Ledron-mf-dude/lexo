@@ -2,47 +2,64 @@
 title: Seem — здаватися
 category: Конструкції
 levels: [B1+, B2]
-tags: [seem, it seems, seem to, здається, казаться, seem + infinitive, that-clause]
+tags: [seem, it seems, seem to, seem like, appear, there seems to be, здається, seem + infinitive, that-clause]
 ---
 
-`Seem` означає «здаватися». Є три способи ним користуватися: з прикметником, з реченням після `it seems that` і з інфінітивом.
+`Seem` — «здаватися, мати вигляд». Англійською це дієслово, а не вставне слово, тому речення будується навколо нього. Є чотири основні схеми.
 
-## 1. Seem + adjective
+## Чотири схеми
 
-- She **seems happy**. — Здається, вона щаслива.
-
-## 2. It seems (to me) that + речення
-
-Після `that` йде повне речення в потрібному часі. Можна додати `(to me)` — «мені здається».
-
-| Час у реченні після that | Приклад | Переклад |
+| Схема | Приклад | Переклад |
 | --- | --- | --- |
-| Present Simple | It seems (to me) that she **lives** in Bonn. | (Мені) здається, що вона живе в Бонні. |
-| Present Continuous | It seems (to me) that she **is living** in Bonn. | …що вона живе в Бонні (зараз). |
-| Present Perfect | It seems (to me) that she **has lived** in Bonn. | …що вона жила в Бонні. |
-| Past Simple | It seems (to me) that she **lived** in Bonn. | …що вона жила в Бонні. |
-| Past Continuous | It seems (to me) that she **was living** in Bonn. | …що вона жила в Бонні. |
-| Future Simple | It seems (to me) that she **will live** in Bonn. | …що вона житиме в Бонні. |
+| **seem + прикметник** | She **seems tired**. | Вона, здається, втомилася. |
+| **seem like + іменник / речення** | It **seems like** a good idea. | Здається, це гарна ідея. |
+| **It seems (that) + речення** | **It seems (that)** they've left. | Здається, вони пішли. |
+| **seem + to-інфінітив** | They **seem to have left**. | Здається, вони пішли. |
 
-## 3. Seem + infinitive
+`Seem` — дієслово стану, тому **не вживається в Continuous**: не *She is seeming tired*.
 
-Те саме можна сказати коротше: підмет переходить наперед, а дієслово з речення стає **інфінітивом** відповідної форми.
+## It seems that ↔ seem to: як перетворювати
 
-| It seems that + речення | She seems + інфінітив |
+Підмет із that-речення переходить на початок, а дієслово стає **інфінітивом**. Форма інфінітива залежить від часу:
+
+| It seems that… | Підмет + seems + … | Про що |
+| --- | --- | --- |
+| It seems that she **lives** in Bonn. | She seems **to live** in Bonn. | загалом, зараз |
+| It seems that she **is working**. | She seems **to be working**. | саме зараз, процес |
+| It seems that she **has left**. / she **left**. | She seems **to have left**. | раніше, минуле |
+| It seems that she **was sleeping**. | She seems **to have been sleeping**. | процес у минулому |
+
+Про **майбутнє** інфінітивом так не скажеш. Використовуйте that-речення або `likely / going to`:
+
+- *It seems (that) **she will** get the job.* / *She **seems likely to** get the job.*
+- *It **seems to be going to** rain.* (розм.) — простіше: *It **looks like** it's going to rain.*
+
+Докладніше про форми — «Форми інфінітива».
+
+## To me: чия думка
+
+- ***It seems to me** (that) he's wrong.* — Мені здається, що він помиляється.
+- *He **seems** nice **to me**.*
+
+## Заперечення
+
+| Звичайно | Формально |
 | --- | --- |
-| It seems that she **lives** in Bonn. | She seems **to live** in Bonn. |
-| It seems that she **is living** in Bonn. | She seems **to be living** in Bonn. |
-| It seems that she **has lived** in Bonn. <br> It seems that she **lived** in Bonn. | She seems **to have lived** in Bonn. |
-| It seems that she **was living** in Bonn. | She seems **to have been living** in Bonn. |
-| It seems that she **will live** in Bonn. | She seems **to live** in Bonn. (з контекстом майбутнього) |
+| She **doesn't seem to** understand. | She **seems not to** understand. |
+| It **doesn't seem** fair. | — |
 
-## Яку форму інфінітива брати
+## There seems to be
 
-| Форма | Приклад | Про який час |
-| --- | --- | --- |
-| **Full** (to + verb) | He seems **to sing** well. — Здається, він добре співає. | Present (загалом) |
-| **Full** (to + verb) | He seems **to come** tomorrow. — Здається, він приїде завтра. | Future |
-| **Continuous** (to be + -ing) | He seems **to be singing** well. — Здається, він (зараз) співає добре. | Present (зараз) |
-| **Perfect** (to have + V3) | He seems **to have sung** well. — Здається, він співав / заспівав добре. | Past |
+*There **seems to be** a problem.* — Здається, є проблема. / *There **seem to be** some mistakes.* (множина)
 
-Докладніше про форми — у статті «Форми інфінітива». Схожа логіка з модальними дієсловами — див. «Модальні дієслова: припущення».
+## Appear — формальніший синонім
+
+*She **appears to be** upset.* / ***It appears (that)** the train is delayed.* — ті самі схеми, що й із `seem`.
+
+## Типові помилки
+
+- ✗ *She seems be tired.* → ✓ *She seems **to be** tired.* / *She seems **tired**.*
+- ✗ *He seems to come tomorrow.* → ✓ *It seems (that) he **will come** tomorrow.* / *He **seems likely to** come tomorrow.*
+- ✗ *It seems like she has left yesterday.* → ✓ *She seems **to have left** yesterday.* / *It seems she **left** yesterday.*
+- ✗ *She is seeming happy.* → ✓ *She **seems** happy.*
+- ✗ *It seems me that…* → ✓ *It seems **to** me that…*

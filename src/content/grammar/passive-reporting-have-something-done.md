@@ -22,6 +22,8 @@ tags: [passive, reporting verbs, it is said that, is said to, have something don
 - *She **is believed to be working** abroad.* (Continuous — зараз)
 - *They **are thought to have stolen** the painting.* (Perfect — раніше)
 
+Такі конструкції — частина ширшої теми «Distancing: apparently, it seems, is said to (обережні твердження)».
+
 ## Have something done
 
 Коли **не ви самі** робите щось, а **хтось для вас** (послуга):
@@ -39,3 +41,10 @@ tags: [passive, reporting verbs, it is said that, is said to, have something don
 Розмовний варіант: **get + предмет + V3**: *I **got** my phone **fixed**.*
 
 `Have something done` також описує неприємну подію, що трапилася з вами: *He **had his bag stolen**.*
+
+## Типові помилки
+
+- ✗ *I cut my hair at the hairdresser's.* → ✓ *I **had my hair cut**.*
+- ✗ *He is said that he is rich.* → ✓ ***It** is said that he is rich.* / *He is said **to be** rich.*
+- ✗ *She had repaired her car.* (послуга) → ✓ *She **had her car repaired**.*
+- ✗ *They are thought to steal it.* (раніше) → ✓ *…to **have stolen** it.*

@@ -104,6 +104,144 @@
     "It might rain tomorrow"
    ],
    "why": "might + інфінітив без to."
+  },
+  {
+   "id": "may-might-9",
+   "type": "fill",
+   "q": "Take a coat. It ___ get cold later.",
+   "answer": [
+    "may",
+    "might"
+   ],
+   "why": "may / might — можливість."
+  },
+  {
+   "id": "may-might-10",
+   "type": "fill",
+   "q": "___ I use your phone, please? (формально)",
+   "answer": [
+    "May",
+    "Can",
+    "Could"
+   ],
+   "why": "May I…? — ввічливе прохання про дозвіл."
+  },
+  {
+   "id": "may-might-11",
+   "type": "fill",
+   "q": "She ___ have missed the train. That's why she's late.",
+   "answer": [
+    "may",
+    "might"
+   ],
+   "why": "may / might + have + V3 — можливо, у минулому."
+  },
+  {
+   "id": "may-might-12",
+   "type": "fill",
+   "q": "I'm not sure, but I ___ not go to the party.",
+   "answer": [
+    "may",
+    "might"
+   ],
+   "why": "may / might not — можливо, ні."
+  },
+  {
+   "id": "may-might-13",
+   "type": "choice",
+   "q": "He ___ be at home now — his car is outside.",
+   "options": [
+    "may",
+    "mays",
+    "may to",
+    "mights"
+   ],
+   "answer": 0,
+   "why": "may + інфінітив без to."
+  },
+  {
+   "id": "may-might-14",
+   "type": "choice",
+   "q": "\"Is Tom coming?\" — \"He ___.\"",
+   "options": [
+    "might",
+    "might come to",
+    "mights",
+    "may to"
+   ],
+   "answer": 0,
+   "why": "Коротка відповідь: He might."
+  },
+  {
+   "id": "may-might-15",
+   "type": "choice",
+   "q": "You ___ leave your bags here. (офіційний дозвіл)",
+   "options": [
+    "may",
+    "might",
+    "mightn't",
+    "must"
+   ],
+   "answer": 0,
+   "why": "may — формальний дозвіл."
+  },
+  {
+   "id": "may-might-16",
+   "type": "choice",
+   "q": "She said she ___ be late. (\"I may be late\")",
+   "options": [
+    "might",
+    "may to",
+    "will",
+    "mights"
+   ],
+   "answer": 0,
+   "why": "may → might у непрямій мові."
+  },
+  {
+   "id": "may-might-17",
+   "type": "order",
+   "words": [
+    "It",
+    "might",
+    "snow",
+    "tonight"
+   ],
+   "answer": [
+    "It might snow tonight"
+   ],
+   "why": "might + V.",
+   "hint": "Сьогодні вночі може піти сніг."
+  },
+  {
+   "id": "may-might-18",
+   "type": "order",
+   "words": [
+    "May",
+    "I",
+    "come",
+    "in"
+   ],
+   "answer": [
+    "May I come in"
+   ],
+   "why": "May I…? — дозвіл.",
+   "hint": "Можна увійти?"
+  },
+  {
+   "id": "may-might-19",
+   "type": "order",
+   "words": [
+    "He",
+    "may",
+    "have",
+    "forgotten"
+   ],
+   "answer": [
+    "He may have forgotten"
+   ],
+   "why": "may + have + V3.",
+   "hint": "Можливо, він забув."
   }
  ]
 }

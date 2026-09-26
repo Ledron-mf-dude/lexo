@@ -47,4 +47,11 @@ tags: [ellipsis, substitution, one, ones, do so, so, not, I think so, I hope not
 - *She speaks French better than I **do**.*
 - *He didn't call, but I **did**.*
 
+## Типові помилки
+
+- ✗ *I think yes.* → ✓ *I think **so**.*
+- ✗ *I don't hope so.* → ✓ *I hope **not**.*
+- ✗ *I like the red shirt and the blue.* (про річ) → ✓ *…and the blue **one**.*
+- ✗ *She speaks French better than I speak.* (зайвий повтор) → ✓ *…better than I **do**.*
+
 Див. «Auxiliary verbs», «Question tags, so am I, neither do I».

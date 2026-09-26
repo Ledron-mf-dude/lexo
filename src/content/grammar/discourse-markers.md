@@ -48,3 +48,10 @@ tags: [discourse markers, linking words, moreover, furthermore, however, therefo
 ## Коротка пам'ятка
 
 Не перевантажуйте текст: 1–2 слова-зв'язки на абзац достатньо. Див. «Contrast, purpose, reason, result».
+
+## Типові помилки
+
+- ✗ *However he refused.* → ✓ ***However,** he refused.* (кома після маркера)
+- ✗ *He was ill, therefore he stayed home.* → ✓ *He was ill; **therefore,** he stayed home.* / *…ill, **so** he stayed home.*
+- ✗ *On the other side, it's expensive.* → ✓ ***On the other hand,** it's expensive.*
+- ✗ *Besides of that, it's cheap.* → ✓ ***Besides,** it's cheap.* / ***Apart from that,** it's cheap.*
