@@ -1,7 +1,9 @@
 import { useQueryClient } from '@tanstack/react-query'
 import { useMemo, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import DailyGoal from '../components/DailyGoal'
 import Session from '../components/practice/Session'
+import WordOfDay from '../components/WordOfDay'
 import { useAuth } from '../lib/auth'
 import { useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
 import { canSpeak } from '../lib/speech'
@@ -95,6 +97,7 @@ export default function Practice() {
         onFinish={() => {
           setRunning(null)
           qc.invalidateQueries({ queryKey: ['progress'] })
+          qc.invalidateQueries({ queryKey: ['review_log'] })
         }}
       />
     )
@@ -134,6 +137,8 @@ export default function Practice() {
   return (
     <section className="space-y-6">
       <h1 className="text-2xl font-light tracking-tight sm:text-3xl">Практика</h1>
+
+      <DailyGoal />
 
       <div className="grid gap-2 sm:grid-cols-2">
         {sources.map((s) => (
@@ -206,6 +211,8 @@ export default function Practice() {
       </div>
 
       {/* On a phone the button stays above the bottom bar, so it is reachable without scrolling to the end of the settings. */}
+      <WordOfDay words={words.data ?? []} />
+
       <div className="sticky bottom-24 z-[5] md:static">
         <button onClick={start} disabled={available === 0} className="btn-primary w-full py-3 text-lg shadow-[0_8px_30px_rgb(0_0_0/0.45)] md:shadow-none">
           {available === 0 ? 'Немає слів для цього вибору' : `Почати · ${wordCount} слів${complex ? ` × ${config.modes.length} вправи` : ''}`}
