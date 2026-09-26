@@ -8,6 +8,7 @@ import Account from './pages/Account'
 import Login from './pages/Login'
 import Placeholder from './pages/Placeholder'
 import Practice from './pages/Practice'
+import Tags from './pages/Tags'
 import SetPassword from './pages/SetPassword'
 import Words from './pages/Words'
 
@@ -42,7 +43,7 @@ export default function App() {
               <Route path="grammar/:slug" element={<Suspense fallback={null}><GrammarArticle /></Suspense>} />
               <Route path="grammar/:slug/exercises" element={<Suspense fallback={null}><ExerciseQuiz /></Suspense>} />
               <Route path="account" element={<Account />} />
-              <Route path="tags" element={<Placeholder title="Теги" />} />
+              <Route path="tags" element={<Tags />} />
               <Route path="stats" element={<Placeholder title="Статистика" />} />
             </Route>
           </Routes>

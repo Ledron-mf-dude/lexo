@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import ImportDialog from '../components/ImportDialog'
 import WordForm from '../components/WordForm'
 import { useAuth } from '../lib/auth'
@@ -12,7 +13,9 @@ export default function Words() {
   const remove = useDeleteWord()
 
   const [query, setQuery] = useState('')
-  const [activeTags, setActiveTags] = useState<string[]>([])
+  // The Tags page can open this list already filtered (router state).
+  const startTag = (useLocation().state as { tagId?: string } | null)?.tagId
+  const [activeTags, setActiveTags] = useState<string[]>(startTag ? [startTag] : [])
   const [editing, setEditing] = useState<WordInput | 'new' | null>(null)
   const [importing, setImporting] = useState(false)
 
