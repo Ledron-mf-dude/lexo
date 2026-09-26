@@ -15,6 +15,7 @@ import Words from './pages/Words'
 const Grammar = lazy(() => import('./pages/Grammar'))
 const GrammarArticle = lazy(() => import('./pages/GrammarArticle'))
 const ExerciseQuiz = lazy(() => import('./pages/ExerciseQuiz'))
+const Stats = lazy(() => import('./pages/Stats'))
 
 const queryClient = new QueryClient()
 
@@ -43,7 +44,7 @@ export default function App() {
               <Route path="grammar/:slug/exercises" element={<Suspense fallback={null}><ExerciseQuiz /></Suspense>} />
               <Route path="account" element={<Account />} />
               <Route path="tags" element={<Placeholder title="Теги" />} />
-              <Route path="stats" element={<Placeholder title="Статистика" />} />
+              <Route path="stats" element={<Suspense fallback={null}><Stats /></Suspense>} />
             </Route>
           </Routes>
         </HashRouter>
