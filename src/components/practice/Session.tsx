@@ -3,6 +3,7 @@ import { useCallback, useState } from 'react'
 import { useFocusMode } from '../../lib/focusMode'
 import { useReviewWord, type WordWithTags } from '../../lib/queries'
 import { buildQueue, type Card, type Exercise } from '../../lib/session'
+import { canSpeak, setAutoSpeak, useAutoSpeak } from '../../lib/speech'
 import { complexGrade, schedule, worseGrade, type Grade, type SrsState } from '../../lib/sm2'
 import type { Progress } from '../../types'
 import Choice from './Choice'
@@ -32,6 +33,7 @@ function fromProgress(p: Progress): Live {
 
 export default function Session({ userId, words, allWords, progress, modes, onFinish }: Props) {
   const { mutate: saveReview } = useReviewWord(userId)
+  const autoSpeak = useAutoSpeak()
   useFocusMode()
 
   // Live schedule per word, so a card repeated within the session builds on its latest state.
@@ -113,6 +115,17 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/10">
           <motion.div className="h-full bg-accent" animate={{ width: `${(done / total) * 100}%` }} transition={{ duration: 0.3 }} />
         </div>
+        {canSpeak && (
+          <button
+            onClick={() => setAutoSpeak(!autoSpeak)}
+            aria-pressed={autoSpeak}
+            aria-label="Озвучувати слова автоматично"
+            title="Озвучувати слова автоматично"
+            className={`rounded-full border px-2.5 py-1 text-xs transition-colors ${autoSpeak ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/45'}`}
+          >
+            {autoSpeak ? 'Звук: увімк.' : 'Звук: вимк.'}
+          </button>
+        )}
         <span>
           {done} / {total}
         </span>
