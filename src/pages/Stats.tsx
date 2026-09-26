@@ -6,6 +6,7 @@ import { topicStats, useExerciseLog, type LogRow } from '../lib/exerciseLog'
 import { articles, categories } from '../lib/grammar'
 import { useProgress, useWords } from '../lib/queries'
 import { useReviewLog } from '../lib/reviewLog'
+import { tracks, unlocked } from '../lib/achievements'
 import { MODE_LABELS, activity, forecast, maturity, modeStats, percent, streak } from '../lib/stats'
 import { demoExerciseLog, demoProgress, demoReviewLog } from '../lib/statsDemo'
 
@@ -73,6 +74,18 @@ export default function Stats() {
     return { total, mastered, started, weak }
   }, [topics])
 
+  const achievements = useMemo(
+    () =>
+      tracks({
+        wordCount: progress.length,
+        progress,
+        log,
+        topicsStarted: grammar.started,
+        topicsMastered: topics.filter((t) => t.total > 0 && t.mastered === t.total).length,
+      }),
+    [progress, log, grammar.started, topics],
+  )
+
   if (loading) return <p className="text-white/50">Завантаження…</p>
   if (failed) return <p className="text-bad">{failed.message}</p>
 
@@ -106,6 +119,38 @@ export default function Stats() {
         <Kpi label="Серія" value={stats.streak} hint={stats.streak === 1 ? 'день поспіль' : 'днів поспіль'} />
         <Kpi label="Точність, 7 днів" value={stats.weekTotal > 0 ? `${stats.weekAccuracy}%` : '—'} hint={`${stats.weekTotal} повторень`} />
       </div>
+
+      <Card title="Досягнення" note={`${achievements.reduce((n, t) => n + unlocked(t), 0)} з ${achievements.reduce((n, t) => n + t.tiers.length, 0)}`}>
+        <div className="grid gap-x-8 gap-y-4 md:grid-cols-2">
+          {achievements.map((t) => {
+            const got = unlocked(t)
+            const next = t.tiers[got]
+            return (
+              <div key={t.id} className="min-w-0 space-y-1.5">
+                <Meter
+                  label={t.title}
+                  value={next === undefined ? 1 : Math.min(t.value, next)}
+                  max={next === undefined ? 1 : next}
+                  right={next === undefined ? 'усі рівні' : `${t.value} / ${next}`}
+                  color={next === undefined ? 'bg-good' : 'bg-accent'}
+                />
+                <div className="flex items-center gap-1.5">
+                  {t.tiers.map((n, i) => (
+                    <span
+                      key={n}
+                      title={`${n} — ${t.hint}`}
+                      className={`grid size-6 place-items-center rounded-full text-[10px] tabular-nums ${i < got ? 'bg-accent text-[#0a0b0f]' : 'border border-white/12 text-white/30'}`}
+                    >
+                      {n}
+                    </span>
+                  ))}
+                  <span className="ml-1 min-w-0 truncate text-xs text-white/35">{t.hint}</span>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </Card>
 
       <Card title="Активність, 30 днів" note={`${stats.monthTotal} повторень`}>
         {stats.monthTotal === 0 ? (

@@ -6,6 +6,7 @@ import { EXERCISES, buildQueue, type Card, type Exercise } from '../../lib/sessi
 import { canSpeak, setAutoSpeak, useAutoSpeak } from '../../lib/speech'
 import { complexGrade, schedule, worseGrade, type Grade, type SrsState } from '../../lib/sm2'
 import type { Progress } from '../../types'
+import SpeakButton from '../SpeakButton'
 import Choice from './Choice'
 import Cloze from './Cloze'
 import Flashcard from './Flashcard'
@@ -52,6 +53,8 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
   const [stats, setStats] = useState({ right: 0, wrong: 0 })
   const [step, setStep] = useState(0)
   const [failed, setFailed] = useState<Set<string>>(() => new Set())
+  // Answers in a row without a miss (like a Duolingo combo), and the best run of the session.
+  const [combo, setCombo] = useState({ now: 0, best: 0 })
   // Complex: the worst grade a word got in its earlier exercises; combined with the last one to set the schedule once.
   const [earlier, setEarlier] = useState<Map<string, Grade>>(() => new Map())
 
@@ -81,7 +84,10 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
       }
 
       setStats((s) => (correct ? { ...s, right: s.right + 1 } : { ...s, wrong: s.wrong + 1 }))
-      if (!correct) setFailed((f) => new Set(f).add(id))
+      if (!correct) {
+        setFailed((f) => new Set(f).add(id))
+        if (navigator.vibrate) navigator.vibrate(50)
+      }
       return commit
     },
     [stateOf, saveReview, earlier],
@@ -107,6 +113,10 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         return rest
       })
       setDone((d) => d + solved)
+      setCombo((c) => {
+        const now = retries.length > 0 ? 0 : c.now + results.length
+        return { now, best: Math.max(c.best, now) }
+      })
       setStep((s) => s + 1)
     },
     [queue, gradeWord],
@@ -132,7 +142,24 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         <p className="text-white/60">
           Слів: {words.length} · відповідей {answers} · правильно {stats.right} · помилок {stats.wrong} · точність {accuracy}%
         </p>
-        {failed.size > 0 && <p className="text-sm text-white/40">Слів з помилками: {failed.size}</p>}
+        {combo.best >= 3 && <p className="text-sm text-[#fbbf24]">Найдовша серія без помилок: {combo.best}</p>}
+        {failed.size > 0 && (
+          <div className="space-y-2 pt-2 text-left">
+            <p className="text-center text-xs tracking-widest text-white/35 uppercase">Слова, у яких були помилки · {failed.size}</p>
+            <ul className="space-y-1.5">
+              {words
+                .filter((w) => failed.has(w.id))
+                .map((w) => (
+                  <li key={w.id} className="flex items-center justify-between gap-2 rounded-xl bg-white/5 px-3 py-1.5">
+                    <span className="min-w-0 break-words">
+                      <span className="font-medium">{w.term}</span> <span className="text-white/50">— {w.translation}</span>
+                    </span>
+                    <SpeakButton text={w.term} className="size-8" />
+                  </li>
+                ))}
+            </ul>
+          </div>
+        )}
         <button onClick={onFinish} className="btn-primary">
           Готово
         </button>
@@ -153,6 +180,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/10">
           <motion.div className="h-full bg-accent" animate={{ width: `${(done / total) * 100}%` }} transition={{ duration: 0.3 }} />
         </div>
+        {combo.now >= 3 && <span className="rounded-full bg-[#fbbf24]/15 px-2.5 py-1 text-xs text-[#fbbf24] tabular-nums">×{combo.now}</span>}
         {canSpeak && (
           <button
             onClick={() => setAutoSpeak(!autoSpeak)}
