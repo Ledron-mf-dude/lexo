@@ -1,8 +1,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useFocusMode } from '../../lib/focusMode'
 import { useReviewWord, type WordWithTags } from '../../lib/queries'
-import { buildQueue, type Card, type Exercise } from '../../lib/session'
+import { EXERCISES, buildQueue, type Card, type Exercise } from '../../lib/session'
 import { canSpeak, setAutoSpeak, useAutoSpeak } from '../../lib/speech'
 import { complexGrade, schedule, worseGrade, type Grade, type SrsState } from '../../lib/sm2'
 import type { Progress } from '../../types'
@@ -51,6 +51,8 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
   const [earlier, setEarlier] = useState<Map<string, Grade>>(() => new Map())
 
   const card = queue[0]
+  // Complex: the round whose intro screen has been dismissed; a new round starts with an announcement.
+  const [announced, setAnnounced] = useState<Exercise | null>(null)
 
   const onGrade = useCallback(
     (grade: Grade) => {
@@ -106,6 +108,10 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
     )
   }
 
+  if (modes.length >= 2 && card.round && card.round !== announced) {
+    return <RoundIntro round={card.round} modes={modes} words={queue.filter((c) => c.round === card.round).length} onStart={() => setAnnounced(card.round!)} onExit={onFinish} />
+  }
+
   return (
     <div className="space-y-5">
       <div className="flex items-center gap-3 text-sm text-white/50">
@@ -131,11 +137,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         </span>
       </div>
 
-      {card.stages !== undefined && card.stages > 1 && !card.retry && (
-        <p className="text-center text-xs tracking-widest text-white/35 uppercase">
-          Комплекс · вправа {card.stage} з {card.stages}
-        </p>
-      )}
+      {card.retry && modes.length >= 2 && <p className="text-center text-xs tracking-widest text-white/35 uppercase">Повтор помилки</p>}
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -158,6 +160,43 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
           )}
         </motion.div>
       </AnimatePresence>
+    </div>
+  )
+}
+
+/** Shown between the rounds of a complex: which exercise comes next and how far along the complex is. */
+function RoundIntro({ round, modes, words, onStart, onExit }: { round: Exercise; modes: Exercise[]; words: number; onStart: () => void; onExit: () => void }) {
+  const index = modes.indexOf(round)
+  const label = EXERCISES.find((e) => e.value === round)?.label ?? round
+  const next = modes[index + 1] && EXERCISES.find((e) => e.value === modes[index + 1])?.label
+
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault()
+        onStart()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onStart])
+
+  return (
+    <div className="space-y-5">
+      <button onClick={onExit} aria-label="Вийти з сесії" className="text-sm text-white/50 hover:text-white">
+        ✕
+      </button>
+      <div className="glass space-y-4 rounded-[2rem] p-8 text-center">
+        <p className="text-xs tracking-widest text-white/35 uppercase">
+          Вправа {index + 1} з {modes.length}
+        </p>
+        <h2 className="text-3xl font-light">{label}</h2>
+        <p className="text-white/50">Слів у цьому колі: {words}</p>
+        {next && <p className="text-sm text-white/35">Далі: {next}</p>}
+        <button onClick={onStart} className="btn-primary w-full">
+          Почати
+        </button>
+      </div>
     </div>
   )
 }

@@ -15,11 +15,11 @@ const PRESETS: { label: string; modes: Exercise[] }[] = [
 
 const MODES_KEY = 'lexo.practice.modes'
 
-/** The exercises picked last time (per browser); empty means automatic. */
+/** The exercises picked last time, in the order picked (per browser); empty means automatic. */
 function loadModes(): Exercise[] {
   try {
     const saved = JSON.parse(localStorage.getItem(MODES_KEY) ?? '[]') as string[]
-    return EXERCISES.map((e) => e.value).filter((m) => saved.includes(m))
+    return saved.filter((m): m is Exercise => EXERCISES.some((e) => e.value === m))
   } catch {
     return []
   }
@@ -95,10 +95,10 @@ export default function Practice() {
     )
   }
 
+  // The order of `modes` is the order of the rounds: exercises run in the order they were picked.
   function setModes(modes: Exercise[]) {
-    const ordered = EXERCISES.map((e) => e.value).filter((m) => modes.includes(m))
-    saveModes(ordered)
-    setConfig((c) => ({ ...c, modes: ordered }))
+    saveModes(modes)
+    setConfig((c) => ({ ...c, modes }))
   }
 
   function toggleExercise(value: Exercise) {
@@ -120,7 +120,7 @@ export default function Practice() {
     config.modes.length === 0
       ? 'Авто: вправа залежить від того, наскільки слово вже вивчене.'
       : complex
-        ? `Комплекс: кожне слово пройде ${config.modes.length} вправи поспіль (близько ${wordCount * config.modes.length} карток). Розклад повторень оновиться один раз, за підсумком усіх вправ.`
+        ? `Комплекс по порядку: ${config.modes.map((m) => `«${EXERCISES.find((e) => e.value === m)!.label}»`).join(' → ')}. Спершу всі слова в першій вправі, потім усі в наступній (близько ${wordCount * config.modes.length} карток). Розклад повторень оновиться один раз, після останньої вправи.`
         : 'Усі слова — в одній вправі.'
 
   const chip = (active: boolean) =>
@@ -167,6 +167,7 @@ export default function Practice() {
           </button>
           {EXERCISES.map((e) => (
             <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={config.modes.includes(e.value)} className={chip(config.modes.includes(e.value))}>
+              {complex && config.modes.includes(e.value) && <span className="mr-1.5 text-xs opacity-70">{config.modes.indexOf(e.value) + 1}.</span>}
               {e.label}
             </button>
           ))}

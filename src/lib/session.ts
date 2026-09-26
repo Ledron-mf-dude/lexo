@@ -6,7 +6,7 @@ export type Source = 'today' | 'new' | 'hard' | 'all' | 'subset'
 export type ModeChoice = 'auto' | 'flashcard' | 'translation' | 'choice' | 'typing' | 'scramble' | 'gaps'
 export type Exercise = Exclude<ModeChoice, 'auto'>
 
-/** In teaching order: recognise first, recall last. A complex always runs its exercises in this order. */
+/** Listed in teaching order (recognise first, recall last); a complex runs its exercises in the order the user picked them. */
 export const EXERCISES: { value: Exercise; label: string }[] = [
   { value: 'choice', label: 'Вибір відповіді' },
   { value: 'flashcard', label: 'Слово → переклад' },
@@ -46,6 +46,8 @@ export interface Card {
   stages?: number
   /** A repeat of a missed card; it never counts as a stage. */
   retry?: boolean
+  /** Complex only: the exercise (round) this card belongs to; a missed word's repeat card has none. */
+  round?: Exercise
 }
 
 export const HARD_ERRORS = 2
@@ -177,14 +179,14 @@ export function eligibleFor(mode: Exercise, word: WordWithTags, all: WordWithTag
  * The card queue of a session.
  * - no exercises chosen: one adaptive card per word;
  * - one exercise: that exercise for every word;
- * - several (a complex): rounds — everyone does the first exercise, then the second, and so on. An exercise a word cannot do
- *   (e.g. letter scrambling for a phrase) is skipped for that word only.
+ * - several (a complex): rounds, in the order the exercises were chosen — everyone does the first exercise, then the second,
+ *   and so on. An exercise a word cannot do (e.g. letter scrambling for a phrase) is skipped for that word only.
  */
 export function buildQueue(words: WordWithTags[], progress: Map<string, Progress>, all: WordWithTags[], modes: Exercise[]): Card[] {
   const prog = (w: WordWithTags) => progress.get(w.id)!
   if (modes.length < 2) return words.map((w) => makeCard(w, prog(w), all, modes[0] ?? 'auto'))
 
-  const ordered = EXERCISES.map((e) => e.value).filter((m) => modes.includes(m))
+  const ordered = [...new Set(modes)]
   const plan = new Map(words.map((w) => [w.id, ordered.filter((m) => eligibleFor(m, w, all))]))
   const queue: Card[] = []
   for (const mode of ordered) {
@@ -193,7 +195,7 @@ export function buildQueue(words: WordWithTags[], progress: Map<string, Progress
       const stage = mine.indexOf(mode)
       if (stage < 0) continue
       const card = makeCard(w, prog(w), all, mode)
-      queue.push({ ...card, stage: stage + 1, stages: mine.length, final: stage === mine.length - 1, commit: stage === mine.length - 1 })
+      queue.push({ ...card, round: mode, stage: stage + 1, stages: mine.length, final: stage === mine.length - 1, commit: stage === mine.length - 1 })
     }
   }
   // A word that cannot do any chosen exercise still gets one card.
