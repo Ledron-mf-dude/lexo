@@ -11,7 +11,7 @@
     "a lovely red old car"
    ],
    "answer": 0,
-   "why": "Думка → вік → колір."
+   "why": "Порядок: думка (lovely) → вік (old) → колір (red)."
   },
   {
    "id": "adjective-order-2",
@@ -24,7 +24,7 @@
     "a wooden big round table"
    ],
    "answer": 0,
-   "why": "Розмір → форма → матеріал."
+   "why": "Порядок: розмір (big) → форма (round) → матеріал (wooden)."
   },
   {
    "id": "adjective-order-3",
@@ -37,7 +37,7 @@
     "a beautiful Italian small bag"
    ],
    "answer": 0,
-   "why": "Думка → розмір → походження."
+   "why": "Порядок: думка (beautiful) → розмір (small) → походження (Italian)."
   },
   {
    "id": "adjective-order-4",
@@ -50,7 +50,7 @@
     "my new running black shoes"
    ],
    "answer": 0,
-   "why": "Вік → колір → призначення."
+   "why": "Порядок: вік (new) → колір (black) → призначення (running)."
   },
   {
    "id": "adjective-order-5",
@@ -103,6 +103,148 @@
    ],
    "answer": 1,
    "why": "Призначення — найближче до іменника."
+  },
+  {
+   "id": "adjective-order-9",
+   "type": "choice",
+   "q": "She bought ___ dress.",
+   "options": [
+    "a beautiful long silk",
+    "a silk long beautiful",
+    "a long beautiful silk",
+    "a beautiful silk long"
+   ],
+   "answer": 0,
+   "why": "Думка (beautiful) → розмір (long) → матеріал (silk)."
+  },
+  {
+   "id": "adjective-order-10",
+   "type": "choice",
+   "q": "They live in ___ house.",
+   "options": [
+    "a lovely old stone",
+    "a stone old lovely",
+    "an old lovely stone",
+    "a lovely stone old"
+   ],
+   "answer": 0,
+   "why": "Думка → вік → матеріал (stone)."
+  },
+  {
+   "id": "adjective-order-11",
+   "type": "choice",
+   "q": "He drives ___ car.",
+   "options": [
+    "a fast new German",
+    "a German new fast",
+    "a new fast German",
+    "a fast German new"
+   ],
+   "answer": 0,
+   "why": "Думка (fast) → вік (new) → походження (German)."
+  },
+  {
+   "id": "adjective-order-12",
+   "type": "choice",
+   "q": "I found ___ box.",
+   "options": [
+    "a small square metal",
+    "a metal square small",
+    "a square small metal",
+    "a small metal square"
+   ],
+   "answer": 0,
+   "why": "Розмір → форма → матеріал."
+  },
+  {
+   "id": "adjective-order-13",
+   "type": "choice",
+   "q": "We stayed in ___ hotel.",
+   "options": [
+    "a nice little French",
+    "a French little nice",
+    "a little nice French",
+    "a nice French little"
+   ],
+   "answer": 0,
+   "why": "Думка → розмір → походження."
+  },
+  {
+   "id": "adjective-order-14",
+   "type": "fill",
+   "q": "It was a long, dark and ___ night.",
+   "answer": [
+    "cold"
+   ],
+   "why": "Однієї категорії (опис) — через кому, перед останнім and.",
+   "hint": "(cold) — поставте прикметник у кінець переліку"
+  },
+  {
+   "id": "adjective-order-15",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "long",
+    "black",
+    "hair"
+   ],
+   "answer": [
+    "She has long black hair"
+   ],
+   "why": "Розмір/довжина (long) → колір (black).",
+   "hint": "У неї довге чорне волосся."
+  },
+  {
+   "id": "adjective-order-16",
+   "type": "order",
+   "words": [
+    "I",
+    "need",
+    "a",
+    "big",
+    "plastic",
+    "bag"
+   ],
+   "answer": [
+    "I need a big plastic bag"
+   ],
+   "why": "Розмір (big) → матеріал (plastic).",
+   "hint": "Мені потрібен великий пластиковий пакет."
+  },
+  {
+   "id": "adjective-order-17",
+   "type": "order",
+   "words": [
+    "He",
+    "wore",
+    "an",
+    "old",
+    "leather",
+    "jacket"
+   ],
+   "answer": [
+    "He wore an old leather jacket"
+   ],
+   "why": "Вік (old) → матеріал (leather); an — бо old починається з голосного.",
+   "hint": "Він був у старій шкіряній куртці."
+  },
+  {
+   "id": "adjective-order-18",
+   "type": "order",
+   "words": [
+    "They",
+    "have",
+    "a",
+    "lovely",
+    "little",
+    "garden"
+   ],
+   "answer": [
+    "They have a lovely little garden"
+   ],
+   "why": "Думка (lovely) → розмір (little).",
+   "hint": "У них чудовий маленький сад."
   }
  ]
 }

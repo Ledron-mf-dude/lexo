@@ -105,6 +105,152 @@
     "This is my sister Anna"
    ],
    "why": "Знайомство: This is…"
+  },
+  {
+   "id": "demonstratives-9",
+   "type": "fill",
+   "q": "___ apples here are sweet. (близько)",
+   "answer": [
+    "These"
+   ],
+   "why": "these — множина, близько."
+  },
+  {
+   "id": "demonstratives-10",
+   "type": "fill",
+   "q": "Look at ___ bird up there!",
+   "answer": [
+    "that"
+   ],
+   "why": "that — однина, далеко."
+  },
+  {
+   "id": "demonstratives-11",
+   "type": "fill",
+   "q": "Who are ___ people over there?",
+   "answer": [
+    "those"
+   ],
+   "why": "those — множина, далеко."
+  },
+  {
+   "id": "demonstratives-12",
+   "type": "fill",
+   "q": "___ is my friend Mark. (знайомлю)",
+   "answer": [
+    "This"
+   ],
+   "why": "Знайомство: This is…"
+  },
+  {
+   "id": "demonstratives-13",
+   "type": "fill",
+   "q": "I'm really busy ___ week. (поточний)",
+   "answer": [
+    "this"
+   ],
+   "why": "this week — цього тижня."
+  },
+  {
+   "id": "demonstratives-14",
+   "type": "choice",
+   "q": "Do you remember ___ day when we met?",
+   "options": [
+    "that",
+    "this",
+    "these",
+    "those"
+   ],
+   "answer": 0,
+   "why": "Минулий момент — that."
+  },
+  {
+   "id": "demonstratives-15",
+   "type": "choice",
+   "q": "I love ___ song! It's on the radio now.",
+   "options": [
+    "this",
+    "that",
+    "these",
+    "those"
+   ],
+   "answer": 0,
+   "why": "Те, що відбувається зараз, — this."
+  },
+  {
+   "id": "demonstratives-16",
+   "type": "choice",
+   "q": "___ trousers are too long. (у руках)",
+   "options": [
+    "These",
+    "This",
+    "That",
+    "Those is"
+   ],
+   "answer": 0,
+   "why": "trousers — множина, близько: these."
+  },
+  {
+   "id": "demonstratives-17",
+   "type": "choice",
+   "q": "\"Is this your pen?\" — \"Yes, ___ mine.\"",
+   "options": [
+    "it's",
+    "this's",
+    "that are",
+    "these are"
+   ],
+   "answer": 0,
+   "why": "Відповідь — it: Yes, it's mine."
+  },
+  {
+   "id": "demonstratives-18",
+   "type": "order",
+   "words": [
+    "Those",
+    "shoes",
+    "are",
+    "too",
+    "expensive"
+   ],
+   "answer": [
+    "Those shoes are too expensive"
+   ],
+   "why": "those — множина, далеко.",
+   "hint": "Ті черевики надто дорогі."
+  },
+  {
+   "id": "demonstratives-19",
+   "type": "order",
+   "words": [
+    "This",
+    "is",
+    "my",
+    "new",
+    "phone"
+   ],
+   "answer": [
+    "This is my new phone"
+   ],
+   "why": "This is… — показую.",
+   "hint": "Це мій новий телефон."
+  },
+  {
+   "id": "demonstratives-20",
+   "type": "order",
+   "words": [
+    "Is",
+    "that",
+    "your",
+    "car",
+    "over",
+    "there"
+   ],
+   "answer": [
+    "Is that your car over there"
+   ],
+   "why": "that — далеко.",
+   "hint": "Це твоя машина он там?"
   }
  ]
 }

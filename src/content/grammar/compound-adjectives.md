@@ -43,4 +43,11 @@ tags: [compound adjectives, a two-day trip, ten-year-old, well-known, part-time,
 - *It was a **hard-working** team.*
 - *I bought a **five-year-old** car.*
 
+## Типові помилки
+
+- ✗ *a two-days trip* → ✓ *a **two-day** trip* (іменник в однині)
+- ✗ *a ten years old boy* → ✓ *a **ten-year-old** boy*
+- ✗ *a five minutes walk* → ✓ *a **five-minute** walk*
+- ✗ *She is a well known actor who is well-known.* → ✓ *a **well-known** actor* / *The actor is **well known**.*
+
 Див. також «Adjective order».

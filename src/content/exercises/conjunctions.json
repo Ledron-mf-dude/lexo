@@ -103,6 +103,160 @@
    ],
    "answer": 1,
    "why": "Не вживаємо because і so разом."
+  },
+  {
+   "id": "conjunctions-9",
+   "type": "fill",
+   "q": "I called her, ___ she didn't answer.",
+   "answer": [
+    "but"
+   ],
+   "why": "but — контраст."
+  },
+  {
+   "id": "conjunctions-10",
+   "type": "fill",
+   "q": "It was cold, ___ I put on a coat.",
+   "answer": [
+    "so"
+   ],
+   "why": "so — наслідок."
+  },
+  {
+   "id": "conjunctions-11",
+   "type": "fill",
+   "q": "We can meet on Monday ___ Tuesday.",
+   "answer": [
+    "or"
+   ],
+   "why": "or — вибір."
+  },
+  {
+   "id": "conjunctions-12",
+   "type": "fill",
+   "q": "___ my brother and my sister are doctors.",
+   "answer": [
+    "Both"
+   ],
+   "why": "both … and — і … і."
+  },
+  {
+   "id": "conjunctions-13",
+   "type": "fill",
+   "q": "She speaks not only English ___ also French.",
+   "answer": [
+    "but"
+   ],
+   "why": "not only … but also."
+  },
+  {
+   "id": "conjunctions-14",
+   "type": "choice",
+   "q": "I'm hungry ___ I didn't have breakfast.",
+   "options": [
+    "because",
+    "so",
+    "but",
+    "or"
+   ],
+   "answer": 0,
+   "why": "because + причина."
+  },
+  {
+   "id": "conjunctions-15",
+   "type": "choice",
+   "q": "He didn't come ___ the snow.",
+   "options": [
+    "because of",
+    "because",
+    "so",
+    "although"
+   ],
+   "answer": 0,
+   "why": "because of + іменник."
+  },
+  {
+   "id": "conjunctions-16",
+   "type": "choice",
+   "q": "___ Anna nor her husband eats meat.",
+   "options": [
+    "Neither",
+    "Either",
+    "Both",
+    "Not"
+   ],
+   "answer": 0,
+   "why": "neither … nor."
+  },
+  {
+   "id": "conjunctions-17",
+   "type": "choice",
+   "q": "You can pay ___ by card or in cash.",
+   "options": [
+    "either",
+    "neither",
+    "both",
+    "or"
+   ],
+   "answer": 0,
+   "why": "either … or — або … або."
+  },
+  {
+   "id": "conjunctions-18",
+   "type": "order",
+   "words": [
+    "I",
+    "was",
+    "tired",
+    "so",
+    "I",
+    "went",
+    "to",
+    "bed"
+   ],
+   "answer": [
+    "I was tired so I went to bed",
+    "I was tired, so I went to bed"
+   ],
+   "why": "so — наслідок.",
+   "hint": "Я втомився, тому пішов спати."
+  },
+  {
+   "id": "conjunctions-19",
+   "type": "order",
+   "words": [
+    "She",
+    "stayed",
+    "at",
+    "home",
+    "because",
+    "she",
+    "was",
+    "ill"
+   ],
+   "answer": [
+    "She stayed at home because she was ill"
+   ],
+   "why": "because + причина.",
+   "hint": "Вона залишилася вдома, бо захворіла."
+  },
+  {
+   "id": "conjunctions-20",
+   "type": "order",
+   "words": [
+    "Both",
+    "Tom",
+    "and",
+    "Kate",
+    "passed",
+    "the",
+    "exam"
+   ],
+   "answer": [
+    "Both Tom and Kate passed the exam"
+   ],
+   "why": "both … and.",
+   "hint": "І Том, і Кейт склали іспит."
   }
  ]
 }

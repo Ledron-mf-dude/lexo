@@ -116,6 +116,157 @@
    ],
    "answer": 0,
    "why": "promise + to-інфінітив."
+  },
+  {
+   "id": "reporting-verbs-10",
+   "type": "fill",
+   "q": "\"No, I won't sign it.\" → He refused ___ it.",
+   "answer": [
+    "to sign"
+   ],
+   "why": "refuse + to-інфінітив."
+  },
+  {
+   "id": "reporting-verbs-11",
+   "type": "fill",
+   "q": "\"Don't forget your keys.\" → She reminded me ___ my keys.",
+   "answer": [
+    "to take",
+    "to bring",
+    "not to forget"
+   ],
+   "why": "remind + особа + to-інфінітив."
+  },
+  {
+   "id": "reporting-verbs-12",
+   "type": "fill",
+   "q": "\"Yes, I broke it.\" → He admitted ___ it.",
+   "answer": [
+    "breaking",
+    "having broken"
+   ],
+   "why": "admit + -ing."
+  },
+  {
+   "id": "reporting-verbs-13",
+   "type": "fill",
+   "q": "\"Thank you for coming.\" → She thanked us ___ coming.",
+   "answer": [
+    "for"
+   ],
+   "why": "thank sb for + -ing."
+  },
+  {
+   "id": "reporting-verbs-14",
+   "type": "fill",
+   "q": "\"You should rest.\" → The doctor advised me ___.",
+   "answer": [
+    "to rest"
+   ],
+   "why": "advise + особа + to-інфінітив."
+  },
+  {
+   "id": "reporting-verbs-15",
+   "type": "choice",
+   "q": "\"Let's take a taxi.\" → She ___ taking a taxi.",
+   "options": [
+    "suggested",
+    "offered",
+    "promised",
+    "agreed"
+   ],
+   "answer": 0,
+   "why": "suggest + -ing."
+  },
+  {
+   "id": "reporting-verbs-16",
+   "type": "choice",
+   "q": "\"I'll help you, I promise.\" → He ___ to help me.",
+   "options": [
+    "promised",
+    "suggested",
+    "admitted",
+    "denied"
+   ],
+   "answer": 0,
+   "why": "promise + to-інфінітив."
+  },
+  {
+   "id": "reporting-verbs-17",
+   "type": "choice",
+   "q": "\"You broke the vase!\" → She blamed me ___ breaking the vase.",
+   "options": [
+    "for",
+    "of",
+    "on",
+    "with"
+   ],
+   "answer": 0,
+   "why": "blame sb for + -ing."
+  },
+  {
+   "id": "reporting-verbs-18",
+   "type": "choice",
+   "q": "\"Come to my party!\" → She ___ me to her party.",
+   "options": [
+    "invited",
+    "suggested",
+    "offered",
+    "apologised"
+   ],
+   "answer": 0,
+   "why": "invite + особа + to."
+  },
+  {
+   "id": "reporting-verbs-19",
+   "type": "order",
+   "words": [
+    "He",
+    "apologised",
+    "for",
+    "being",
+    "late"
+   ],
+   "answer": [
+    "He apologised for being late"
+   ],
+   "why": "apologise for + -ing.",
+   "hint": "Він вибачився за запізнення."
+  },
+  {
+   "id": "reporting-verbs-20",
+   "type": "order",
+   "words": [
+    "She",
+    "advised",
+    "me",
+    "to",
+    "see",
+    "a",
+    "doctor"
+   ],
+   "answer": [
+    "She advised me to see a doctor"
+   ],
+   "why": "advise + особа + to.",
+   "hint": "Вона порадила мені звернутися до лікаря."
+  },
+  {
+   "id": "reporting-verbs-21",
+   "type": "order",
+   "words": [
+    "They",
+    "agreed",
+    "to",
+    "meet",
+    "at",
+    "six"
+   ],
+   "answer": [
+    "They agreed to meet at six"
+   ],
+   "why": "agree + to-інфінітив.",
+   "hint": "Вони домовилися зустрітися о шостій."
   }
  ]
 }

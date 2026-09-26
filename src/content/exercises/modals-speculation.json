@@ -131,6 +131,154 @@
     "She must have forgotten it"
    ],
    "why": "must + have + V3."
+  },
+  {
+   "id": "modals-speculation-11",
+   "type": "fill",
+   "q": "The lights are off. They ___ be out. (я впевнений)",
+   "answer": [
+    "must"
+   ],
+   "why": "must — упевнений висновок."
+  },
+  {
+   "id": "modals-speculation-12",
+   "type": "fill",
+   "q": "That ___ be true! It's impossible!",
+   "answer": [
+    "can't",
+    "cannot"
+   ],
+   "why": "can't — упевнене «ні»."
+  },
+  {
+   "id": "modals-speculation-13",
+   "type": "fill",
+   "q": "I'm not sure where she is. She ___ be in the library.",
+   "answer": [
+    "might",
+    "may",
+    "could"
+   ],
+   "why": "might / may / could — можливо."
+  },
+  {
+   "id": "modals-speculation-14",
+   "type": "fill",
+   "q": "He ___ have left already — his coat is gone.",
+   "answer": [
+    "must"
+   ],
+   "why": "must + have + V3 — упевнений висновок про минуле."
+  },
+  {
+   "id": "modals-speculation-15",
+   "type": "fill",
+   "q": "She ___ have seen us. She was looking the other way.",
+   "answer": [
+    "can't",
+    "couldn't"
+   ],
+   "why": "can't / couldn't have + V3 — не може бути."
+  },
+  {
+   "id": "modals-speculation-16",
+   "type": "choice",
+   "q": "The phone is ringing. It ___ be my mother. She always calls at six.",
+   "options": [
+    "must",
+    "can't",
+    "mustn't",
+    "should to"
+   ],
+   "answer": 0,
+   "why": "Висновок із фактів — must."
+  },
+  {
+   "id": "modals-speculation-17",
+   "type": "choice",
+   "q": "You ___ be tired after such a long trip.",
+   "options": [
+    "must",
+    "can",
+    "mustn't",
+    "might not to"
+   ],
+   "answer": 0,
+   "why": "must — логічний висновок."
+  },
+  {
+   "id": "modals-speculation-18",
+   "type": "choice",
+   "q": "They ___ have got lost. They should be here by now.",
+   "options": [
+    "may",
+    "must to",
+    "can",
+    "should to"
+   ],
+   "answer": 0,
+   "why": "may have + V3 — можливо."
+  },
+  {
+   "id": "modals-speculation-19",
+   "type": "choice",
+   "q": "He ___ be working — his light is on at 2 am.",
+   "options": [
+    "must",
+    "can't",
+    "mustn't",
+    "shouldn't to"
+   ],
+   "answer": 0,
+   "why": "must be + V-ing — висновок про процес."
+  },
+  {
+   "id": "modals-speculation-20",
+   "type": "order",
+   "words": [
+    "She",
+    "must",
+    "be",
+    "very",
+    "happy"
+   ],
+   "answer": [
+    "She must be very happy"
+   ],
+   "why": "must + be.",
+   "hint": "Вона, мабуть, дуже щаслива."
+  },
+  {
+   "id": "modals-speculation-21",
+   "type": "order",
+   "words": [
+    "He",
+    "can't",
+    "have",
+    "finished",
+    "already"
+   ],
+   "answer": [
+    "He can't have finished already"
+   ],
+   "why": "can't + have + V3.",
+   "hint": "Не може бути, що він уже закінчив."
+  },
+  {
+   "id": "modals-speculation-22",
+   "type": "order",
+   "words": [
+    "They",
+    "might",
+    "be",
+    "sleeping"
+   ],
+   "answer": [
+    "They might be sleeping"
+   ],
+   "why": "might + be + V-ing.",
+   "hint": "Можливо, вони сплять."
   }
  ]
 }

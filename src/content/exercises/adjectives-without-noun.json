@@ -90,6 +90,148 @@
    ],
    "answer": 1,
    "why": "the unemployed — множина."
+  },
+  {
+   "id": "adjectives-without-noun-8",
+   "type": "fill",
+   "q": "___ should help the poor. (багаті)",
+   "answer": [
+    "The rich",
+    "the rich"
+   ],
+   "why": "the + прикметник = група людей.",
+   "hint": "(rich)"
+  },
+  {
+   "id": "adjectives-without-noun-9",
+   "type": "fill",
+   "q": "___ are often very creative. (молодь)",
+   "answer": [
+    "The young",
+    "the young"
+   ],
+   "why": "the young — молоді люди загалом.",
+   "hint": "(young)"
+  },
+  {
+   "id": "adjectives-without-noun-10",
+   "type": "fill",
+   "q": "This charity helps ___. (бездомних)",
+   "answer": [
+    "the homeless"
+   ],
+   "why": "the homeless — бездомні.",
+   "hint": "(homeless)"
+  },
+  {
+   "id": "adjectives-without-noun-11",
+   "type": "choice",
+   "q": "The elderly ___ special care.",
+   "options": [
+    "need",
+    "needs",
+    "is needing",
+    "has need"
+   ],
+   "answer": 0,
+   "why": "Група людей — дієслово у множині."
+  },
+  {
+   "id": "adjectives-without-noun-12",
+   "type": "choice",
+   "q": "___ love football. (національність)",
+   "options": [
+    "Italians",
+    "The Italian",
+    "The Italians people",
+    "Italian"
+   ],
+   "answer": 0,
+   "why": "Italian має форму іменника: Italians."
+  },
+  {
+   "id": "adjectives-without-noun-13",
+   "type": "choice",
+   "q": "___ drink a lot of tea.",
+   "options": [
+    "The British",
+    "The Britishes",
+    "British people is",
+    "A British"
+   ],
+   "answer": 0,
+   "why": "the British — група, без -s."
+  },
+  {
+   "id": "adjectives-without-noun-14",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The injured were taken to hospital.",
+    "The injureds were taken to hospital.",
+    "The injured was taken to hospital.",
+    "An injured were taken to hospital."
+   ],
+   "answer": 0,
+   "why": "the injured — множина, без -s."
+  },
+  {
+   "id": "adjectives-without-noun-15",
+   "type": "order",
+   "words": [
+    "The",
+    "rich",
+    "pay",
+    "more",
+    "taxes"
+   ],
+   "answer": [
+    "The rich pay more taxes"
+   ],
+   "why": "the + adj + дієслово у множині.",
+   "hint": "Багаті платять більше податків."
+  },
+  {
+   "id": "adjectives-without-noun-16",
+   "type": "order",
+   "words": [
+    "We",
+    "should",
+    "help",
+    "the",
+    "unemployed"
+   ],
+   "answer": [
+    "We should help the unemployed"
+   ],
+   "why": "the unemployed — безробітні.",
+   "hint": "Ми маємо допомагати безробітним."
+  },
+  {
+   "id": "adjectives-without-noun-17",
+   "type": "order",
+   "words": [
+    "The",
+    "best",
+    "is",
+    "yet",
+    "to",
+    "come"
+   ],
+   "answer": [
+    "The best is yet to come"
+   ],
+   "why": "the best — абстрактне поняття, однина.",
+   "hint": "Найкраще ще попереду."
+  },
+  {
+   "id": "adjectives-without-noun-18",
+   "type": "fill",
+   "q": "I like the blue shirt more than the red ___.",
+   "answer": [
+    "one"
+   ],
+   "why": "one замінює лічильний іменник в однині."
   }
  ]
 }

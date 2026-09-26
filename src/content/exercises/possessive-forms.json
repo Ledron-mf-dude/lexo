@@ -116,6 +116,152 @@
    ],
    "answer": 1,
    "why": "Порядок: власник + 's + річ."
+  },
+  {
+   "id": "possessive-forms-10",
+   "type": "fill",
+   "q": "This is ___ room. (James)",
+   "answer": [
+    "James's",
+    "James'"
+   ],
+   "why": "Імена на -s: 's або '."
+  },
+  {
+   "id": "possessive-forms-11",
+   "type": "fill",
+   "q": "The ___ room is on the second floor. (teachers — кілька)",
+   "answer": [
+    "teachers'"
+   ],
+   "why": "Множина на -s — лише апостроф."
+  },
+  {
+   "id": "possessive-forms-12",
+   "type": "fill",
+   "q": "Is this pen yours or ___? (Tom)",
+   "answer": [
+    "Tom's"
+   ],
+   "why": "Без іменника після 's: Tom's."
+  },
+  {
+   "id": "possessive-forms-13",
+   "type": "fill",
+   "q": "I stayed at my ___ last night. (дім тітки)",
+   "answer": [
+    "aunt's"
+   ],
+   "why": "at my aunt's — у тітки вдома."
+  },
+  {
+   "id": "possessive-forms-14",
+   "type": "fill",
+   "q": "It's ten ___ walk from here. (minutes)",
+   "answer": [
+    "minutes'"
+   ],
+   "why": "ten minutes' walk — присвійна форма з часом."
+  },
+  {
+   "id": "possessive-forms-15",
+   "type": "choice",
+   "q": "Have you read ___ newspaper?",
+   "options": [
+    "today's",
+    "todays",
+    "the today",
+    "today"
+   ],
+   "answer": 0,
+   "why": "today's — присвійна форма з часом."
+  },
+  {
+   "id": "possessive-forms-16",
+   "type": "choice",
+   "q": "The ___ of the story is sad.",
+   "options": [
+    "end",
+    "story's end of",
+    "end's",
+    "ending's"
+   ],
+   "answer": 0,
+   "why": "Для речей — of: the end of the story."
+  },
+  {
+   "id": "possessive-forms-17",
+   "type": "choice",
+   "q": "This is ___ car. (обоє, спільна)",
+   "options": [
+    "Tom and Anna's",
+    "Tom's and Anna's",
+    "Tom and Anna",
+    "Tom's and Anna"
+   ],
+   "answer": 0,
+   "why": "Спільне — 's лише після останнього."
+  },
+  {
+   "id": "possessive-forms-18",
+   "type": "choice",
+   "q": "The ___ uniforms are blue. (the women)",
+   "options": [
+    "women's",
+    "womens'",
+    "woman's",
+    "womens"
+   ],
+   "answer": 0,
+   "why": "Неправильна множина + 's."
+  },
+  {
+   "id": "possessive-forms-19",
+   "type": "order",
+   "words": [
+    "This",
+    "is",
+    "my",
+    "brother's",
+    "bike"
+   ],
+   "answer": [
+    "This is my brother's bike"
+   ],
+   "why": "brother's — однина.",
+   "hint": "Це велосипед мого брата."
+  },
+  {
+   "id": "possessive-forms-20",
+   "type": "order",
+   "words": [
+    "Whose",
+    "phone",
+    "is",
+    "this"
+   ],
+   "answer": [
+    "Whose phone is this"
+   ],
+   "why": "Whose + іменник.",
+   "hint": "Чий це телефон?"
+  },
+  {
+   "id": "possessive-forms-21",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "a",
+    "friend",
+    "of",
+    "mine"
+   ],
+   "answer": [
+    "She is a friend of mine"
+   ],
+   "why": "a friend of mine.",
+   "hint": "Вона — моя подруга (одна з подруг)."
   }
  ]
 }

@@ -37,7 +37,7 @@
     "swum pool"
    ],
    "answer": 0,
-   "why": "swimming pool — -ing + іменник."
+   "why": "swimming pool — -ing + іменник (призначення: басейн для плавання)."
   },
   {
    "id": "compound-nouns-4",
@@ -85,7 +85,7 @@
     "lived room"
    ],
    "answer": 0,
-   "why": "living room — -ing + іменник."
+   "why": "living room — -ing + іменник: вітальня."
   },
   {
    "id": "compound-nouns-8",
@@ -99,6 +99,157 @@
    ],
    "answer": 0,
    "why": "'s додаємо в кінці складного іменника."
+  },
+  {
+   "id": "compound-nouns-9",
+   "type": "fill",
+   "q": "The plural of 'toothbrush' is ___.",
+   "answer": [
+    "toothbrushes"
+   ],
+   "why": "-sh → -es в кінці головного слова."
+  },
+  {
+   "id": "compound-nouns-10",
+   "type": "fill",
+   "q": "The plural of 'son-in-law' is ___.",
+   "answer": [
+    "sons-in-law"
+   ],
+   "why": "Змінюється головне слово: sons-in-law."
+  },
+  {
+   "id": "compound-nouns-11",
+   "type": "fill",
+   "q": "A shop that sells shoes is a ___ shop.",
+   "answer": [
+    "shoe"
+   ],
+   "why": "Перший іменник зазвичай в однині: a shoe shop."
+  },
+  {
+   "id": "compound-nouns-12",
+   "type": "fill",
+   "q": "A machine for washing clothes is a ___ machine.",
+   "answer": [
+    "washing"
+   ],
+   "why": "-ing + іменник: washing machine."
+  },
+  {
+   "id": "compound-nouns-13",
+   "type": "choice",
+   "q": "A room where you sleep is a ___.",
+   "options": [
+    "bedroom",
+    "sleeproom",
+    "bed-room's",
+    "beds room"
+   ],
+   "answer": 0,
+   "why": "bedroom — пишеться разом."
+  },
+  {
+   "id": "compound-nouns-14",
+   "type": "choice",
+   "q": "Which is written as two words?",
+   "options": [
+    "bus stop",
+    "toothpaste",
+    "mother-in-law",
+    "sunflower"
+   ],
+   "answer": 0,
+   "why": "bus stop — окремо."
+  },
+  {
+   "id": "compound-nouns-15",
+   "type": "choice",
+   "q": "'check-in' is formed from:",
+   "options": [
+    "verb + particle",
+    "noun + noun",
+    "adjective + noun",
+    "-ing + noun"
+   ],
+   "answer": 0,
+   "why": "check-in: дієслово check + частка in."
+  },
+  {
+   "id": "compound-nouns-16",
+   "type": "choice",
+   "q": "The plural of 'woman driver' is:",
+   "options": [
+    "women drivers",
+    "woman drivers",
+    "women driver",
+    "womans drivers"
+   ],
+   "answer": 0,
+   "why": "Виняток: man/woman змінюються обидва."
+  },
+  {
+   "id": "compound-nouns-17",
+   "type": "choice",
+   "q": "A ___ car is designed for racing.",
+   "options": [
+    "sports",
+    "sport's",
+    "sporting",
+    "sporty's"
+   ],
+   "answer": 0,
+   "why": "sports car — перший елемент у формі множини."
+  },
+  {
+   "id": "compound-nouns-18",
+   "type": "order",
+   "words": [
+    "We",
+    "waited",
+    "at",
+    "the",
+    "bus",
+    "stop"
+   ],
+   "answer": [
+    "We waited at the bus stop"
+   ],
+   "why": "bus stop — складний іменник.",
+   "hint": "Ми чекали на автобусній зупинці."
+  },
+  {
+   "id": "compound-nouns-19",
+   "type": "order",
+   "words": [
+    "My",
+    "mother-in-law's",
+    "house",
+    "is",
+    "big"
+   ],
+   "answer": [
+    "My mother-in-law's house is big"
+   ],
+   "why": "'s у кінці складного іменника.",
+   "hint": "Будинок моєї тещі великий."
+  },
+  {
+   "id": "compound-nouns-20",
+   "type": "order",
+   "words": [
+    "Put",
+    "the",
+    "dishes",
+    "in",
+    "the",
+    "dishwasher"
+   ],
+   "answer": [
+    "Put the dishes in the dishwasher"
+   ],
+   "why": "dishwasher — пишеться разом.",
+   "hint": "Постав посуд у посудомийку."
   }
  ]
 }

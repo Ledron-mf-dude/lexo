@@ -4,11 +4,12 @@ import { useLocation } from 'react-router-dom'
 import DailyGoal from '../components/DailyGoal'
 import Session from '../components/practice/Session'
 import WordOfDay from '../components/WordOfDay'
-import { useAuth } from '../lib/auth'
+import { useAuth } from '../lib/authContext'
 import { useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
 import { canSpeak } from '../lib/speech'
 import { EXERCISES as ALL_EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
 import type { Progress } from '../types'
+import { useTitle } from '../lib/useTitle'
 
 // Listening needs speech synthesis, which a few browsers lack.
 const EXERCISES = ALL_EXERCISES.filter((e) => e.value !== 'listen' || canSpeak)
@@ -50,6 +51,7 @@ interface NavState {
 }
 
 export default function Practice() {
+  useTitle('Практика')
   const { session } = useAuth()
   const nav = (useLocation().state as NavState | null) ?? null
   const fromArticle = nav?.wordIds && nav.title ? { wordIds: nav.wordIds, title: nav.title } : null

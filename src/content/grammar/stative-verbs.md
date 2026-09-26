@@ -2,6 +2,7 @@
 title: Stative verbs і dynamic verbs
 category: Дієслівні форми
 levels: [A2, B1]
+aliases: [Stative verbs]
 tags: [stative verbs, dynamic verbs, love, know, want, think, have, see, статичні дієслова, стан, не вживаються в continuous]
 ---
 
@@ -16,7 +17,7 @@ tags: [stative verbs, dynamic verbs, love, know, want, think, have, see, ста�
 | **Почуття та вподобання** | love, like, hate, prefer, want, need, wish |
 | **Думки** | know, understand, believe, remember, forget, mean, doubt |
 | **Відчуття** | see, hear, smell, taste, feel (стан) |
-| **Володіння та стани** | have (= mean «мати»), own, belong, be, seem, contain |
+| **Володіння та стани** | have (у значенні «мати, володіти»), own, belong, be, seem, contain, cost |
 
 ## Dynamic verbs
 
@@ -41,3 +42,10 @@ tags: [stative verbs, dynamic verbs, love, know, want, think, have, see, ста�
 Запитайте себе: це **стан** чи **дія**, яку можна робити прямо зараз? Якщо стан — використовуйте **Present Simple**, навіть коли говорите про теперішній момент.
 
 Порівняння часів — у статті «Present Simple і Present Continuous».
+
+## Типові помилки
+
+- ✗ *I'm knowing the answer.* → ✓ *I **know** the answer.*
+- ✗ *She is having a car.* → ✓ *She **has** a car.* (але *is having lunch* — ✓)
+- ✗ *I'm understanding you.* → ✓ *I **understand** you.*
+- ✗ *This bag is belonging to me.* → ✓ *This bag **belongs** to me.*

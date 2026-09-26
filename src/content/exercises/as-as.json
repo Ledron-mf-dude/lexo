@@ -37,7 +37,7 @@
     "more fast"
    ],
    "answer": 1,
-   "why": "Base form."
+   "why": "Між as … as — звичайна форма прикметника: fast."
   },
   {
    "id": "as-as-4",
@@ -76,7 +76,7 @@
     "an adverb only"
    ],
    "answer": 0,
-   "why": "Звичайна форма."
+   "why": "Між двома as — звичайна форма, без -er і more."
   },
   {
    "id": "as-as-7",
@@ -106,6 +106,164 @@
     "He is as strong as me"
    ],
    "why": "as + adj + as."
+  },
+  {
+   "id": "as-as-9",
+   "type": "fill",
+   "q": "My car is not as ___ as yours.",
+   "answer": [
+    "expensive"
+   ],
+   "why": "not as + звичайна форма + as.",
+   "hint": "(expensive)"
+  },
+  {
+   "id": "as-as-10",
+   "type": "fill",
+   "q": "She runs as ___ as her brother.",
+   "answer": [
+    "fast"
+   ],
+   "why": "as + прислівник + as.",
+   "hint": "(fast)"
+  },
+  {
+   "id": "as-as-11",
+   "type": "fill",
+   "q": "This room is twice as ___ as that one.",
+   "answer": [
+    "big"
+   ],
+   "why": "twice as + adj + as — удвічі більший.",
+   "hint": "(big)"
+  },
+  {
+   "id": "as-as-12",
+   "type": "fill",
+   "q": "I don't have as ___ free time as you.",
+   "answer": [
+    "much"
+   ],
+   "why": "Нелічильне time — as much."
+  },
+  {
+   "id": "as-as-13",
+   "type": "fill",
+   "q": "Your phone is the same ___ mine.",
+   "answer": [
+    "as"
+   ],
+   "why": "the same as (не like)."
+  },
+  {
+   "id": "as-as-14",
+   "type": "choice",
+   "q": "He isn't as ___ as he looks.",
+   "options": [
+    "old",
+    "older",
+    "oldest",
+    "more old"
+   ],
+   "answer": 0,
+   "why": "Між as … as — звичайна форма."
+  },
+  {
+   "id": "as-as-15",
+   "type": "choice",
+   "q": "There aren't as ___ people as yesterday.",
+   "options": [
+    "many",
+    "much",
+    "more",
+    "lot"
+   ],
+   "answer": 0,
+   "why": "people — лічильне: as many."
+  },
+  {
+   "id": "as-as-16",
+   "type": "choice",
+   "q": "Please reply as ___ as possible.",
+   "options": [
+    "soon",
+    "sooner",
+    "soonest",
+    "early as"
+   ],
+   "answer": 0,
+   "why": "as soon as possible — якнайшвидше."
+  },
+  {
+   "id": "as-as-17",
+   "type": "choice",
+   "q": "She's as clever as ___. (у розмові)",
+   "options": [
+    "me",
+    "my",
+    "mine is",
+    "myself"
+   ],
+   "answer": 0,
+   "why": "У розмові після as — об'єктний займенник: me."
+  },
+  {
+   "id": "as-as-18",
+   "type": "order",
+   "words": [
+    "The",
+    "bus",
+    "is",
+    "not",
+    "as",
+    "fast",
+    "as",
+    "the",
+    "train"
+   ],
+   "answer": [
+    "The bus is not as fast as the train"
+   ],
+   "why": "not as … as.",
+   "hint": "Автобус не такий швидкий, як потяг."
+  },
+  {
+   "id": "as-as-19",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "as",
+    "tall",
+    "as",
+    "her",
+    "mother"
+   ],
+   "answer": [
+    "She is as tall as her mother"
+   ],
+   "why": "as + adj + as.",
+   "hint": "Вона така ж висока, як її мама."
+  },
+  {
+   "id": "as-as-20",
+   "type": "order",
+   "words": [
+    "This",
+    "book",
+    "is",
+    "twice",
+    "as",
+    "long",
+    "as",
+    "that",
+    "one"
+   ],
+   "answer": [
+    "This book is twice as long as that one"
+   ],
+   "why": "twice as … as.",
+   "hint": "Ця книжка вдвічі довша за ту."
   }
  ]
 }

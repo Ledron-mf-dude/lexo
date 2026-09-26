@@ -1,8 +1,10 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { lazy, Suspense } from 'react'
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
+import ErrorBoundary from './components/ErrorBoundary'
 import Layout from './components/Layout'
-import { AuthProvider, useAuth } from './lib/auth'
+import { AuthProvider } from './lib/auth'
+import { useAuth } from './lib/authContext'
 import { isSupabaseConfigured } from './lib/supabase'
 import Account from './pages/Account'
 import Login from './pages/Login'
@@ -15,9 +17,13 @@ import Words from './pages/Words'
 const Grammar = lazy(() => import('./pages/Grammar'))
 const GrammarArticle = lazy(() => import('./pages/GrammarArticle'))
 const ExerciseQuiz = lazy(() => import('./pages/ExerciseQuiz'))
+const MixedQuiz = lazy(() => import('./pages/ExerciseQuiz').then((m) => ({ default: m.MixedQuiz })))
 const Stats = lazy(() => import('./pages/Stats'))
 
 const queryClient = new QueryClient()
+
+// Shown while a lazily loaded section (grammar, statistics) downloads.
+const loading = <p className="text-white/40">Завантаження…</p>
 
 function Gate() {
   const { session, loading, mustSetPassword } = useAuth()
@@ -31,6 +37,7 @@ function Gate() {
 // HashRouter: GitHub Pages has no server-side fallback for deep links.
 export default function App() {
   return (
+    <ErrorBoundary>
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
         <HashRouter>
@@ -39,16 +46,19 @@ export default function App() {
               <Route index element={<Navigate to="/practice" replace />} />
               <Route path="practice" element={<Practice />} />
               <Route path="words" element={<Words />} />
-              <Route path="grammar" element={<Suspense fallback={null}><Grammar /></Suspense>} />
-              <Route path="grammar/:slug" element={<Suspense fallback={null}><GrammarArticle /></Suspense>} />
-              <Route path="grammar/:slug/exercises" element={<Suspense fallback={null}><ExerciseQuiz /></Suspense>} />
+              <Route path="grammar" element={<Suspense fallback={loading}><Grammar /></Suspense>} />
+              <Route path="grammar/practice" element={<Suspense fallback={loading}><MixedQuiz /></Suspense>} />
+              <Route path="grammar/:slug" element={<Suspense fallback={loading}><GrammarArticle /></Suspense>} />
+              <Route path="grammar/:slug/exercises" element={<Suspense fallback={loading}><ExerciseQuiz /></Suspense>} />
               <Route path="account" element={<Account />} />
               <Route path="tags" element={<Tags />} />
-              <Route path="stats" element={<Suspense fallback={null}><Stats /></Suspense>} />
+              <Route path="stats" element={<Suspense fallback={loading}><Stats /></Suspense>} />
+              <Route path="*" element={<Navigate to="/practice" replace />} />
             </Route>
           </Routes>
         </HashRouter>
       </AuthProvider>
     </QueryClientProvider>
+    </ErrorBoundary>
   )
 }

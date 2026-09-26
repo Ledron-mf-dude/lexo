@@ -1,44 +1,87 @@
 ---
 title: Артиклі: a / an / the / без артикля
 category: Іменники, артиклі, займенники
-levels: [A1, B1]
+levels: [A1, A2, B1]
 tags: [articles, a, an, the, zero article, артиклі, артикль]
 ---
 
-## Неозначений артикль — a / an
+В українській артиклів немає, тому це одна з найчастіших помилок. Головне питання, яке варто ставити собі: **співрозмовник знає, про що саме я кажу?**
 
-Вживаємо з **однією** ще невідомою чи будь-якою річчю (тільки **однина**, лічильні іменники).
+## Коротко
 
-- **a** — перед приголосним **звуком**: *a book, a university* (звук /ju/).
-- **an** — перед голосним **звуком**: *an apple, an hour* (h не вимовляється).
+| Питання до себе | Артикль | Приклад |
+| --- | --- | --- |
+| Один із багатьох, будь-який, згадую вперше? | **a / an** | I saw **a** dog. |
+| Конкретний, обом зрозуміло який? | **the** | **The** dog was huge. |
+| Множина чи нелічильне **загалом**? | **—** (без артикля) | **Dogs** are loyal. I like **coffee**. |
 
-**Коли:** уперше згадуємо; називаємо професію; кажемо «якийсь».
+## A / an — «один, якийсь»
 
-- I have **a** sister. She is **a** doctor.
+Лише з **лічильними іменниками в однині**.
 
-## Означений артикль — the
-
-Вживаємо, коли **зрозуміло, про який саме** предмет: він уже згаданий, єдиний або очевидний із ситуації.
-
-- I have a sister. **The** sister lives in Kyiv. *(уже згадана)*
-- **The** sun is hot. *(єдине)*
-- She is **the** best student. *(найвищий ступінь)*
-- Open **the** window, please. *(обидва розуміють, яке)*
-
-## Без артикля (zero article)
+- **a** — перед приголосним **звуком**: *a book, a **u**niversity* (/juː/), *a **Eu**ropean country*.
+- **an** — перед голосним **звуком**: *an apple, an **h**our* (h німа), *an **M**P* (/em/).
 
 | Коли | Приклад |
 | --- | --- |
-| Множина в загальному сенсі | **Dogs** are loyal. |
-| Нелічильні іменники в загальному сенсі | I like **coffee**. |
-| Мови, більшість країн і міст | She speaks **English**. He lives in **Poland**. |
-| Прийоми їжі | We have **lunch** at one. |
-| Імена, назви | **Tom** is my friend. |
+| Згадуємо вперше | I bought **a** new phone yesterday. |
+| Професія, роль | She is **a** doctor. He works as **an** engineer. |
+| «Якийсь, будь-який» | Can you lend me **a** pen? |
+| «Один» у виразах частоти й ціни | twice **a** week, 50 km **an** hour, £3 **a** kilo |
+| Оклик із лічильним в однині | What **a** nice day! |
 
-## Швидка схема
+## The — «той самий, конкретний»
 
-| Питання до себе | Артикль |
+| Коли | Приклад |
 | --- | --- |
-| Одна із багатьох, невідома? | **a / an** |
-| Конкретна, відома співрозмовникам? | **the** |
-| Множина / нелічильне в загальному сенсі? | **—** |
+| Уже згадане | I bought a phone and a case. **The** phone was cheap. |
+| Зрозуміло з ситуації | Close **the** door, please. Where's **the** kitchen? |
+| Єдине у своєму роді | **the** sun, **the** moon, **the** internet, **the** world |
+| Найвищий ступінь, порядкові числівники | **the** best film, **the** first time, **the** last train |
+| Уточнення після іменника | **the** man **who lives next door**, **the** capital **of France** |
+| Музичні інструменти | She plays **the** piano. |
+| Групи людей і прізвища в множині | **the** rich, **the** Smiths |
+
+## Без артикля
+
+| Коли | Приклад |
+| --- | --- |
+| Множина в загальному значенні | **Cats** are independent. |
+| Нелічильні загалом | **Water** boils at 100°C. I need **advice**. |
+| Імена, більшість країн, міст, вулиць | **Anna**, **Poland**, **Kyiv**, **Oxford Street** |
+| Мови, предмети, види спорту | She speaks **French**. I love **maths**. They play **football**. |
+| Прийоми їжі | We have **dinner** at seven. |
+| Дні, місяці, свята | on **Monday**, in **May**, at **Christmas** |
+| Транспорт після by | by **bus**, by **train** |
+| Сталі вирази | at **home**, at **work**, go to **bed**, **next** week, **last** year |
+
+## Географічні назви
+
+| З the | Без артикля |
+| --- | --- |
+| Країни з Republic, Kingdom, States: **the** UK, **the** USA, **the** Czech Republic | Більшість країн: Ukraine, Spain, Japan |
+| Країни у множині: **the** Netherlands, **the** Philippines | Континенти: Europe, Asia |
+| Річки, моря, океани: **the** Dnipro, **the** Black Sea, **the** Atlantic | Окремі озера й гори: Lake Como, Mount Everest |
+| Гірські хребти, групи островів: **the** Alps, **the** Canaries | Окремі острови: Crete, Sicily |
+
+## School, hospital, prison, church
+
+Без артикля, коли йдеться про **призначення** місця; з **the** — про саму будівлю:
+
+- *My son goes to **school**.* (навчається) — *I went to **the school** to talk to his teacher.* (до будівлі)
+- *She's in **hospital**.* (лікується, BrE) — *I visited her in **the hospital**.*
+
+## Загальне чи конкретне?
+
+- *I like **music**.* (музика загалом) — *I like **the music** in this film.* (конкретна)
+- ***Life** is short.* — ***The life** of a soldier is hard.*
+- ***People** are friendly here.* — ***The people** I met were friendly.*
+
+## Типові помилки
+
+- ✗ *She is doctor.* → ✓ *She is **a** doctor.* (професія — з a/an)
+- ✗ *I like the coffee.* (загалом) → ✓ *I like **coffee**.*
+- ✗ *The life is beautiful.* → ✓ ***Life** is beautiful.*
+- ✗ *I have a good news.* → ✓ *I have **some** good news.* (news — нелічильне)
+- ✗ *He plays the football.* → ✓ *He plays **football**.* (але *plays **the** guitar*)
+- ✗ *an university* → ✓ ***a** university* (звук /j/, не голосний)

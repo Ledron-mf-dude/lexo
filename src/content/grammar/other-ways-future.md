@@ -23,6 +23,13 @@ tags: [be about to, be due to, be to, be bound to, be on the point of, be set to
 - **be about to** — час майже настав: *I'm **about to** leave.*
 - **be due to** — є розклад чи очікування: *The baby **is due** in May.*
 - **be to** — офіційні плани, новини, інструкції: *You **are to** report at 9.*
-- **be bound to** — висока впевненість говорить: *Prices **are bound to** go up.*
+- **be bound to** — висока впевненість мовця: *Prices **are bound to** go up.*
+
+## Типові помилки
+
+- ✗ *The film is about starting.* → ✓ *The film is about **to start**.*
+- ✗ *The train is due arrive at 6.* → ✓ *…is due **to arrive**…*
+- ✗ *She is bound winning.* → ✓ *She is bound **to win**.*
+- ✗ *I'm about to leave tomorrow.* → ✓ *I'm **leaving** tomorrow.* (about to — лише «от-от»)
 
 Порівняйте з ймовірністю: «likely, unlikely, bound, definitely, probably».

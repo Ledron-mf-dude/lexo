@@ -116,6 +116,151 @@
    ],
    "answer": 0,
    "why": "Переважно письмова мова."
+  },
+  {
+   "id": "participle-clauses-10",
+   "type": "fill",
+   "q": "___ (feel) tired, I went to bed early.",
+   "answer": [
+    "Feeling"
+   ],
+   "why": "Причина, той самий підмет — -ing."
+  },
+  {
+   "id": "participle-clauses-11",
+   "type": "fill",
+   "q": "___ (finish) the report, she sent it to her boss.",
+   "answer": [
+    "Having finished"
+   ],
+   "why": "Дія раніше — having + V3."
+  },
+  {
+   "id": "participle-clauses-12",
+   "type": "fill",
+   "q": "The car ___ (park) outside is mine.",
+   "answer": [
+    "parked"
+   ],
+   "why": "Пасив — V3: the car (which is) parked."
+  },
+  {
+   "id": "participle-clauses-13",
+   "type": "fill",
+   "q": "Before ___ (leave), check the windows.",
+   "answer": [
+    "leaving"
+   ],
+   "why": "Після before — -ing."
+  },
+  {
+   "id": "participle-clauses-14",
+   "type": "choice",
+   "q": "___ by the noise, the baby started crying.",
+   "options": [
+    "Woken",
+    "Waking",
+    "Having woke",
+    "Woke"
+   ],
+   "answer": 0,
+   "why": "Пасив (дитину розбудили) — V3."
+  },
+  {
+   "id": "participle-clauses-15",
+   "type": "choice",
+   "q": "The girl ___ next to Anna is my cousin.",
+   "options": [
+    "sitting",
+    "sat to",
+    "sits",
+    "who sitting"
+   ],
+   "answer": 0,
+   "why": "Скорочене означальне — -ing."
+  },
+  {
+   "id": "participle-clauses-16",
+   "type": "choice",
+   "q": "___ the door, he found a letter.",
+   "options": [
+    "Opening",
+    "Opened",
+    "Having open",
+    "Open"
+   ],
+   "answer": 0,
+   "why": "Одночасна дія — -ing."
+  },
+  {
+   "id": "participle-clauses-17",
+   "type": "choice",
+   "q": "___ his keys, he couldn't get in.",
+   "options": [
+    "Having lost",
+    "Losing yesterday",
+    "Lost",
+    "Having losing"
+   ],
+   "answer": 0,
+   "why": "Раніше + причина — having + V3."
+  },
+  {
+   "id": "participle-clauses-18",
+   "type": "order",
+   "words": [
+    "Having",
+    "finished",
+    "dinner",
+    "we",
+    "went",
+    "out"
+   ],
+   "answer": [
+    "Having finished dinner we went out",
+    "Having finished dinner, we went out"
+   ],
+   "why": "having + V3.",
+   "hint": "Повечерявши, ми вийшли."
+  },
+  {
+   "id": "participle-clauses-19",
+   "type": "order",
+   "words": [
+    "The",
+    "woman",
+    "standing",
+    "by",
+    "the",
+    "door",
+    "is",
+    "my",
+    "boss"
+   ],
+   "answer": [
+    "The woman standing by the door is my boss"
+   ],
+   "why": "Скорочене означальне.",
+   "hint": "Жінка, що стоїть біля дверей, — моя начальниця."
+  },
+  {
+   "id": "participle-clauses-20",
+   "type": "order",
+   "words": [
+    "Made",
+    "in",
+    "Italy",
+    "these",
+    "shoes",
+    "are",
+    "expensive"
+   ],
+   "answer": [
+    "Made in Italy these shoes are expensive",
+    "Made in Italy, these shoes are expensive"
+   ],
+   "why": "V3 — пасив.",
+   "hint": "Зроблені в Італії, ці черевики дорогі."
   }
  ]
 }

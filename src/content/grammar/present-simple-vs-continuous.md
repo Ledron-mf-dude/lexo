@@ -39,3 +39,11 @@ tags: [present simple, present continuous, do does, am is are + ing, тепер�
 | Water **boils** at 100°C. (факт) | The water **is boiling**. (зараз) |
 
 Слова-підказки — у статті «Time markers». Дієслова, які зазвичай не вживаються в Continuous, — у статті «Stative verbs».
+
+## Типові помилки
+
+- ✗ *She work in a bank.* → ✓ *She **works** in a bank.*
+- ✗ *Look! It rains.* → ✓ *Look! **It's raining**.*
+- ✗ *I am knowing the answer.* → ✓ *I **know** the answer.*
+- ✗ *Does she works here?* → ✓ *Does she **work** here?*
+- ✗ *I am usually get up at 7.* → ✓ *I usually **get** up at 7.*

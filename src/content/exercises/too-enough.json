@@ -1,0 +1,247 @@
+{
+ "questions": [
+  {
+   "id": "too-enough-1",
+   "type": "choice",
+   "q": "This coffee is ___ hot to drink.",
+   "options": [
+    "too",
+    "enough",
+    "very",
+    "so"
+   ],
+   "answer": 0,
+   "why": "too + прикметник + to — надто, щоб."
+  },
+  {
+   "id": "too-enough-2",
+   "type": "choice",
+   "q": "He isn't ___ to vote.",
+   "options": [
+    "old enough",
+    "enough old",
+    "too old",
+    "old too"
+   ],
+   "answer": 0,
+   "why": "Прикметник + enough."
+  },
+  {
+   "id": "too-enough-3",
+   "type": "choice",
+   "q": "There are ___ people in this room.",
+   "options": [
+    "too many",
+    "too much",
+    "enough of",
+    "too"
+   ],
+   "answer": 0,
+   "why": "people — лічильне: too many."
+  },
+  {
+   "id": "too-enough-4",
+   "type": "choice",
+   "q": "We don't have ___.",
+   "options": [
+    "enough time",
+    "time enough to",
+    "too time",
+    "enough of time"
+   ],
+   "answer": 0,
+   "why": "enough + іменник."
+  },
+  {
+   "id": "too-enough-5",
+   "type": "choice",
+   "q": "I drank ___ coffee and now I can't sleep.",
+   "options": [
+    "too much",
+    "too many",
+    "enough much",
+    "very much of"
+   ],
+   "answer": 0,
+   "why": "coffee — нелічильне: too much."
+  },
+  {
+   "id": "too-enough-6",
+   "type": "choice",
+   "q": "The box is too heavy ___ me to carry.",
+   "options": [
+    "for",
+    "to",
+    "of",
+    "by"
+   ],
+   "answer": 0,
+   "why": "too … for + особа + to."
+  },
+  {
+   "id": "too-enough-7",
+   "type": "choice",
+   "q": "It's ___ cold, but I like it. (просто дуже, без проблеми)",
+   "options": [
+    "very",
+    "too",
+    "enough",
+    "too much"
+   ],
+   "answer": 0,
+   "why": "very — «дуже» без негативу."
+  },
+  {
+   "id": "too-enough-8",
+   "type": "choice",
+   "q": "Is the water warm ___ to swim?",
+   "options": [
+    "enough",
+    "too",
+    "very",
+    "so"
+   ],
+   "answer": 0,
+   "why": "прикметник + enough + to."
+  },
+  {
+   "id": "too-enough-9",
+   "type": "choice",
+   "q": "I like it ___. (теж)",
+   "options": [
+    "too",
+    "enough",
+    "very",
+    "so"
+   ],
+   "answer": 0,
+   "why": "too в кінці — «теж»."
+  },
+  {
+   "id": "too-enough-10",
+   "type": "fill",
+   "q": "You're driving ___ fast! Slow down.",
+   "answer": [
+    "too"
+   ],
+   "why": "too + прислівник — надто."
+  },
+  {
+   "id": "too-enough-11",
+   "type": "fill",
+   "q": "She didn't study hard ___.",
+   "answer": [
+    "enough"
+   ],
+   "why": "прислівник + enough."
+  },
+  {
+   "id": "too-enough-12",
+   "type": "fill",
+   "q": "There's ___ much sugar in this tea.",
+   "answer": [
+    "too"
+   ],
+   "why": "too much + нелічильне."
+  },
+  {
+   "id": "too-enough-13",
+   "type": "fill",
+   "q": "I haven't got ___ money for a taxi.",
+   "answer": [
+    "enough"
+   ],
+   "why": "enough + іменник."
+  },
+  {
+   "id": "too-enough-14",
+   "type": "fill",
+   "q": "It's too late ___ (call) him now.",
+   "answer": [
+    "to call"
+   ],
+   "why": "too + adj + to-інфінітив."
+  },
+  {
+   "id": "too-enough-15",
+   "type": "fill",
+   "q": "This bag isn't big ___ for all my things.",
+   "answer": [
+    "enough"
+   ],
+   "why": "not + adj + enough."
+  },
+  {
+   "id": "too-enough-16",
+   "type": "order",
+   "words": [
+    "The",
+    "shoes",
+    "are",
+    "too",
+    "small",
+    "for",
+    "me"
+   ],
+   "answer": [
+    "The shoes are too small for me"
+   ],
+   "why": "too + adj + for.",
+   "hint": "Черевики мені замалі."
+  },
+  {
+   "id": "too-enough-17",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "not",
+    "tall",
+    "enough",
+    "to",
+    "reach",
+    "it"
+   ],
+   "answer": [
+    "She is not tall enough to reach it"
+   ],
+   "why": "adj + enough + to.",
+   "hint": "Вона недостатньо висока, щоб дістати."
+  },
+  {
+   "id": "too-enough-18",
+   "type": "order",
+   "words": [
+    "We",
+    "have",
+    "enough",
+    "chairs",
+    "for",
+    "everyone"
+   ],
+   "answer": [
+    "We have enough chairs for everyone"
+   ],
+   "why": "enough + іменник.",
+   "hint": "У нас достатньо стільців для всіх."
+  },
+  {
+   "id": "too-enough-19",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "too",
+    "cold",
+    "to",
+    "go",
+    "out"
+   ],
+   "answer": [
+    "It is too cold to go out"
+   ],
+   "why": "too + adj + to.",
+   "hint": "Надто холодно, щоб виходити."
+  }
+ ]
+}

@@ -40,3 +40,12 @@ tags: [another, other, others, the other, the others, one more, else, інший
 - *someone **else**, something **else**, anywhere **else**.*
 
 > Не кажемо: ~~others people~~. Правильно: **other people**.
+
+Див. також «Зворотні займенники: myself, yourself, each other» і «Quantifiers».
+
+## Типові помилки
+
+- ✗ *Can I have other coffee?* → ✓ *Can I have **another** coffee?*
+- ✗ *another books* → ✓ ***other** books* (another — лише з одниною)
+- ✗ *others people* → ✓ ***other** people*
+- ✗ *One is red, other is blue.* → ✓ *…**the other** is blue.*

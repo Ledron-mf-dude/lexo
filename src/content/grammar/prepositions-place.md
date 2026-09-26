@@ -49,3 +49,12 @@ tags: [prepositions of place, at, in, on, next to, under, between, behind, in fr
 ## Ще
 
 - *in the middle **of***, *at the top **of***, *at the bottom **of***, *on the left / right*.
+
+Див. також «Прийменники руху: to, into, through, across, along, past» і «Прийменники часу: at, in, on, by, until, before, after».
+
+## Типові помилки
+
+- ✗ *in the bus* → ✓ ***on** the bus* (але *in a car*)
+- ✗ *at the Paris* → ✓ ***in** Paris*
+- ✗ *on the picture* → ✓ ***in** the picture*
+- ✗ *between many people* → ✓ ***among** many people* (between — з двома)

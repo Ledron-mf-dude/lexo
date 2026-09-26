@@ -53,4 +53,11 @@ tags: [go, go to, go home, go swimming, go for a walk, go on, gone, been, go by 
 | go off | вибухнути; зіпсуватися; спрацювати (будильник) |
 | go through | пройти (випробування); переглядати |
 
+## Типові помилки
+
+- ✗ *go to home* → ✓ ***go home***
+- ✗ *go to swimming* → ✓ ***go swimming***
+- ✗ *She has been to London.* (якщо вона зараз там) → ✓ *She **has gone** to London.*
+- ✗ *go by foot* → ✓ *go **on** foot*
+
 Див. також «Фразові дієслова: що це і як користуватися».

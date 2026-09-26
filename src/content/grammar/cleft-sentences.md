@@ -55,4 +55,11 @@ tags: [cleft sentences, it was who, what I need is, wh-cleft, emphasis, all I wa
 - Щоб **підкреслити** важливе: ***What matters is** honesty.*
 - Щоб **пояснити**: ***What I mean is…***
 
+## Типові помилки
+
+- ✗ *It was Tom which broke it.* → ✓ *It was Tom **who / that** broke it.*
+- ✗ *What I need it is a rest.* → ✓ *What I need **is** a rest.*
+- ✗ *It was in Paris where I met her.* → ✓ *It was in Paris **that** I met her.*
+- ✗ *All what I want is peace.* → ✓ ***All (that)** I want is peace.*
+
 Див. також «Inversion (зворотний порядок слів)».

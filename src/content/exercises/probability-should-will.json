@@ -11,7 +11,7 @@
     "can't"
    ],
    "answer": 0,
-   "why": "should — ≈ 90%."
+   "why": "should — «скоріш за все» (≈ 80–90%)."
   },
   {
    "id": "probability-should-will-2",
@@ -24,7 +24,7 @@
     "mustn't"
    ],
    "answer": 1,
-   "why": "should + інфінітив."
+   "why": "should + інфінітив без to — висока ймовірність."
   },
   {
    "id": "probability-should-will-3",
@@ -37,20 +37,7 @@
     "surely"
    ],
    "answer": 1,
-   "why": "will probably — приблизно 90%."
-  },
-  {
-   "id": "probability-should-will-4",
-   "type": "choice",
-   "q": "Tom will ___ arrive tomorrow. (101%)",
-   "options": [
-    "probably",
-    "definitely",
-    "perhaps",
-    "maybe"
-   ],
-   "answer": 1,
-   "why": "will definitely — найвища впевненість."
+   "why": "will probably — ймовірно, але не напевно."
   },
   {
    "id": "probability-should-will-5",
@@ -105,6 +92,142 @@
     "Tom should know the address"
    ],
    "why": "should + інфінітив."
+  },
+  {
+   "id": "probability-should-will-9",
+   "type": "choice",
+   "q": "Tom will ___ arrive tomorrow. (я абсолютно впевнений)",
+   "options": [
+    "definitely",
+    "probably",
+    "maybe",
+    "should"
+   ],
+   "answer": 0,
+   "why": "will definitely — найвища впевненість."
+  },
+  {
+   "id": "probability-should-will-10",
+   "type": "fill",
+   "q": "The parcel ___ arrive tomorrow. (скоріш за все)",
+   "answer": [
+    "should"
+   ],
+   "why": "should — висока ймовірність."
+  },
+  {
+   "id": "probability-should-will-11",
+   "type": "fill",
+   "q": "He will ___ be late. (ймовірно)",
+   "answer": [
+    "probably"
+   ],
+   "why": "will probably + V."
+  },
+  {
+   "id": "probability-should-will-12",
+   "type": "fill",
+   "q": "They should ___ (finish) by now.",
+   "answer": [
+    "have finished"
+   ],
+   "why": "should + have + V3 — мало б уже статися."
+  },
+  {
+   "id": "probability-should-will-13",
+   "type": "fill",
+   "q": "She ___ probably come. (заперечення)",
+   "answer": [
+    "won't",
+    "will not"
+   ],
+   "why": "probably won't — ймовірно, ні."
+  },
+  {
+   "id": "probability-should-will-14",
+   "type": "choice",
+   "q": "The meeting ___ be over by five. (очікуємо)",
+   "options": [
+    "should",
+    "must to",
+    "would to",
+    "shall to"
+   ],
+   "answer": 0,
+   "why": "should — очікування."
+  },
+  {
+   "id": "probability-should-will-15",
+   "type": "choice",
+   "q": "I ___ definitely call you tonight.",
+   "options": [
+    "will",
+    "should",
+    "shall to",
+    "would"
+   ],
+   "answer": 0,
+   "why": "will + definitely + V."
+  },
+  {
+   "id": "probability-should-will-16",
+   "type": "choice",
+   "q": "Which is the most certain?",
+   "options": [
+    "She will definitely win.",
+    "She should win.",
+    "She will probably win.",
+    "She might win."
+   ],
+   "answer": 0,
+   "why": "will definitely — найвища впевненість."
+  },
+  {
+   "id": "probability-should-will-17",
+   "type": "order",
+   "words": [
+    "The",
+    "train",
+    "should",
+    "arrive",
+    "soon"
+   ],
+   "answer": [
+    "The train should arrive soon"
+   ],
+   "why": "should + V.",
+   "hint": "Потяг має скоро прибути."
+  },
+  {
+   "id": "probability-should-will-18",
+   "type": "order",
+   "words": [
+    "She",
+    "will",
+    "probably",
+    "call",
+    "tonight"
+   ],
+   "answer": [
+    "She will probably call tonight"
+   ],
+   "why": "will + probably + V.",
+   "hint": "Вона, ймовірно, зателефонує ввечері."
+  },
+  {
+   "id": "probability-should-will-19",
+   "type": "order",
+   "words": [
+    "He",
+    "probably",
+    "won't",
+    "come"
+   ],
+   "answer": [
+    "He probably won't come"
+   ],
+   "why": "probably + won't.",
+   "hint": "Він, мабуть, не прийде."
   }
  ]
 }

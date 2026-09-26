@@ -52,4 +52,12 @@ tags: [adjective preposition, afraid of, good at, interested in, proud of, marri
 
 *She is **good at** tennis* (уміє) — *She is **good for** you* (корисно) — *She is **good to** me* (добра до мене).
 
+## Типові помилки
+
+- ✗ *I'm interested about history.* → ✓ *I'm interested **in** history.*
+- ✗ *She is good in maths.* → ✓ *She is good **at** maths.*
+- ✗ *He is married with Anna.* → ✓ *He is married **to** Anna.*
+- ✗ *I'm afraid from dogs.* → ✓ *I'm afraid **of** dogs.*
+- ✗ *different than* (BrE вважає розмовним) → ✓ *different **from***
+
 Див. «Дієслово + прийменник» і «Gerund».

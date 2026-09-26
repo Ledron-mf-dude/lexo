@@ -125,6 +125,169 @@
    ],
    "answer": 0,
    "why": "furniture — нелічильне: the furniture."
+  },
+  {
+   "id": "countable-uncountable-11",
+   "type": "fill",
+   "q": "How ___ sugar do you take?",
+   "answer": [
+    "much"
+   ],
+   "why": "sugar — нелічильне: How much."
+  },
+  {
+   "id": "countable-uncountable-12",
+   "type": "fill",
+   "q": "There are too ___ cars in the city centre.",
+   "answer": [
+    "many"
+   ],
+   "why": "cars — лічильне у множині: many."
+  },
+  {
+   "id": "countable-uncountable-13",
+   "type": "fill",
+   "q": "I bought a ___ of milk. (пляшку)",
+   "answer": [
+    "bottle",
+    "carton"
+   ],
+   "why": "Нелічильне рахуємо через тару: a bottle of milk."
+  },
+  {
+   "id": "countable-uncountable-14",
+   "type": "fill",
+   "q": "She gave me some useful ___. (інформація)",
+   "answer": [
+    "information"
+   ],
+   "why": "information — нелічильне, без -s."
+  },
+  {
+   "id": "countable-uncountable-15",
+   "type": "fill",
+   "q": "I have two ___ of luggage.",
+   "answer": [
+    "pieces"
+   ],
+   "why": "luggage — нелічильне: pieces of luggage."
+  },
+  {
+   "id": "countable-uncountable-16",
+   "type": "choice",
+   "q": "I'd like ___ glass of water, please.",
+   "options": [
+    "a",
+    "some",
+    "any",
+    "much"
+   ],
+   "answer": 0,
+   "why": "glass (склянка) — лічильне: a glass."
+  },
+  {
+   "id": "countable-uncountable-17",
+   "type": "choice",
+   "q": "Windows are made of ___.",
+   "options": [
+    "glass",
+    "glasses",
+    "a glass",
+    "the glasses"
+   ],
+   "answer": 0,
+   "why": "glass (скло) — нелічильне."
+  },
+  {
+   "id": "countable-uncountable-18",
+   "type": "choice",
+   "q": "Can you give me ___ help?",
+   "options": [
+    "some",
+    "a",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "why": "help — нелічильне: some help."
+  },
+  {
+   "id": "countable-uncountable-19",
+   "type": "choice",
+   "q": "We haven't got ___ homework today.",
+   "options": [
+    "much",
+    "many",
+    "a",
+    "few"
+   ],
+   "answer": 0,
+   "why": "homework — нелічильне: much."
+  },
+  {
+   "id": "countable-uncountable-20",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "I have a lot of work.",
+    "I have a lot of works.",
+    "I have many work.",
+    "I have a work."
+   ],
+   "answer": 0,
+   "why": "work (робота загалом) — нелічильне."
+  },
+  {
+   "id": "countable-uncountable-21",
+   "type": "order",
+   "words": [
+    "Can",
+    "I",
+    "have",
+    "some",
+    "water",
+    "please"
+   ],
+   "answer": [
+    "Can I have some water please",
+    "Can I have some water, please"
+   ],
+   "why": "some + нелічильне.",
+   "hint": "Можна мені води, будь ласка?"
+  },
+  {
+   "id": "countable-uncountable-22",
+   "type": "order",
+   "words": [
+    "She",
+    "gave",
+    "me",
+    "a",
+    "piece",
+    "of",
+    "advice"
+   ],
+   "answer": [
+    "She gave me a piece of advice"
+   ],
+   "why": "a piece of advice.",
+   "hint": "Вона дала мені пораду."
+  },
+  {
+   "id": "countable-uncountable-23",
+   "type": "order",
+   "words": [
+    "We",
+    "don't",
+    "have",
+    "much",
+    "time"
+   ],
+   "answer": [
+    "We don't have much time"
+   ],
+   "why": "much + нелічильне в запереченні.",
+   "hint": "У нас небагато часу."
   }
  ]
 }

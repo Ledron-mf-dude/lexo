@@ -1,0 +1,227 @@
+{
+ "questions": [
+  {
+   "id": "subjunctive-1",
+   "type": "choice",
+   "q": "The doctor suggested that he ___ more exercise.",
+   "options": [
+    "take",
+    "takes",
+    "took",
+    "will take"
+   ],
+   "answer": 0,
+   "why": "suggest that + базова форма."
+  },
+  {
+   "id": "subjunctive-2",
+   "type": "choice",
+   "q": "It's essential that everyone ___ on time.",
+   "options": [
+    "arrive",
+    "arrives",
+    "arrived",
+    "will arrive"
+   ],
+   "answer": 0,
+   "why": "It's essential that + базова форма."
+  },
+  {
+   "id": "subjunctive-3",
+   "type": "choice",
+   "q": "They insisted that she ___ present.",
+   "options": [
+    "be",
+    "is",
+    "was",
+    "will be"
+   ],
+   "answer": 0,
+   "why": "insist that + be."
+  },
+  {
+   "id": "subjunctive-4",
+   "type": "choice",
+   "q": "We recommend that you ___ this app.",
+   "options": [
+    "not use",
+    "don't use",
+    "not to use",
+    "didn't use"
+   ],
+   "answer": 0,
+   "why": "Заперечення: not + базова форма."
+  },
+  {
+   "id": "subjunctive-5",
+   "type": "choice",
+   "q": "I suggest ___ a break.",
+   "options": [
+    "taking",
+    "to take",
+    "take",
+    "we taking"
+   ],
+   "answer": 0,
+   "why": "suggest + -ing — теж можливо."
+  },
+  {
+   "id": "subjunctive-6",
+   "type": "choice",
+   "q": "If I ___ you, I'd accept the offer.",
+   "options": [
+    "were",
+    "am",
+    "be",
+    "will be"
+   ],
+   "answer": 0,
+   "why": "Past subjunctive — were."
+  },
+  {
+   "id": "subjunctive-7",
+   "type": "choice",
+   "q": "The court ordered that the company ___ a fine.",
+   "options": [
+    "pay",
+    "pays",
+    "paid",
+    "to pay"
+   ],
+   "answer": 0,
+   "why": "order that + базова форма."
+  },
+  {
+   "id": "subjunctive-8",
+   "type": "choice",
+   "q": "It is important that he ___ late.",
+   "options": [
+    "not be",
+    "isn't",
+    "won't be",
+    "doesn't be"
+   ],
+   "answer": 0,
+   "why": "not + be."
+  },
+  {
+   "id": "subjunctive-9",
+   "type": "choice",
+   "q": "BrE alternative: I suggest that he ___ see a doctor.",
+   "options": [
+    "should",
+    "would",
+    "must to",
+    "shall to"
+   ],
+   "answer": 0,
+   "why": "Британський варіант — should + V."
+  },
+  {
+   "id": "subjunctive-10",
+   "type": "fill",
+   "q": "The manager demanded that the report ___ (be) finished today.",
+   "answer": [
+    "be"
+   ],
+   "why": "demand that + be."
+  },
+  {
+   "id": "subjunctive-11",
+   "type": "fill",
+   "q": "I propose that we ___ (start) now.",
+   "answer": [
+    "start"
+   ],
+   "why": "propose that + базова форма."
+  },
+  {
+   "id": "subjunctive-12",
+   "type": "fill",
+   "q": "It's vital that she ___ (not / miss) the deadline.",
+   "answer": [
+    "not miss"
+   ],
+   "why": "not + базова форма."
+  },
+  {
+   "id": "subjunctive-13",
+   "type": "fill",
+   "q": "He requested that the meeting ___ (postpone).",
+   "answer": [
+    "be postponed"
+   ],
+   "why": "Пасив у subjunctive: be + V3."
+  },
+  {
+   "id": "subjunctive-14",
+   "type": "fill",
+   "q": "___ that as it may, we have to decide.",
+   "answer": [
+    "Be"
+   ],
+   "why": "Be that as it may — хай там як."
+  },
+  {
+   "id": "subjunctive-15",
+   "type": "fill",
+   "q": "Come what ___, I'll support you.",
+   "answer": [
+    "may"
+   ],
+   "why": "Come what may — хоч би що сталося."
+  },
+  {
+   "id": "subjunctive-16",
+   "type": "order",
+   "words": [
+    "I",
+    "suggest",
+    "that",
+    "he",
+    "see",
+    "a",
+    "doctor"
+   ],
+   "answer": [
+    "I suggest that he see a doctor"
+   ],
+   "why": "suggest that + базова форма.",
+   "hint": "Пропоную, щоб він звернувся до лікаря."
+  },
+  {
+   "id": "subjunctive-17",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "essential",
+    "that",
+    "she",
+    "be",
+    "there"
+   ],
+   "answer": [
+    "It is essential that she be there"
+   ],
+   "why": "essential that + be.",
+   "hint": "Важливо, щоб вона була там."
+  },
+  {
+   "id": "subjunctive-18",
+   "type": "order",
+   "words": [
+    "They",
+    "insisted",
+    "that",
+    "we",
+    "stay"
+   ],
+   "answer": [
+    "They insisted that we stay"
+   ],
+   "why": "insist that + базова форма.",
+   "hint": "Вони наполягли, щоб ми залишилися."
+  }
+ ]
+}

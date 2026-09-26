@@ -52,4 +52,11 @@ tags: [already, still, yet, just, so far, ще, вже, все ще, ще не]
 | **Вже (так)** | I've **already** seen it. |
 | **Ще (так)** | I **still** live in Lviv. |
 
+## Типові помилки
+
+- ✗ *I have finished it yet.* → ✓ *I have **already** finished it.* (yet — у запереченні й питаннях)
+- ✗ *She yet lives here.* → ✓ *She **still** lives here.*
+- ✗ *I didn't finish yet.* (BrE) → ✓ *I **haven't finished** yet.*
+- ✗ *He hasn't still called.* → ✓ *He **still hasn't** called.*
+
 Див. «No longer, any longer, anymore».

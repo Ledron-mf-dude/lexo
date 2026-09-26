@@ -9,6 +9,22 @@ const base = process.env.VITE_BASE ?? '/lexo/'
 // https://vite.dev/config/
 export default defineConfig({
   base,
+  build: {
+    // The grammar chunk is all 100+ articles and 2000+ exercises as text; it loads only with the grammar section.
+    chunkSizeWarningLimit: 800,
+    rolldownOptions: {
+      output: {
+        // Libraries change rarely: keeping them in their own chunks means a deploy re-downloads only the app code.
+        codeSplitting: {
+          groups: [
+            { name: 'react', test: /node_modules[\\/](react|react-dom|react-router|scheduler)[\\/]/ },
+            { name: 'supabase', test: /node_modules[\\/]@supabase[\\/]/ },
+            { name: 'data', test: /node_modules[\\/](@tanstack|framer-motion|motion-dom|motion-utils)[\\/]/ },
+          ],
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     tailwindcss(),

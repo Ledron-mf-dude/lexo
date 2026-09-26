@@ -112,6 +112,153 @@
     "arrives"
    ],
    "why": "Після the moment — Present Simple."
+  },
+  {
+   "id": "future-time-clauses-10",
+   "type": "fill",
+   "q": "Let me know as soon as you ___ (hear) anything.",
+   "answer": [
+    "hear"
+   ],
+   "why": "as soon as + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-11",
+   "type": "fill",
+   "q": "We'll have dinner when Dad ___ (get) home.",
+   "answer": [
+    "gets"
+   ],
+   "why": "when + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-12",
+   "type": "fill",
+   "q": "Don't leave until I ___ (come) back.",
+   "answer": [
+    "come",
+    "have come"
+   ],
+   "why": "until + Present Simple / Perfect."
+  },
+  {
+   "id": "future-time-clauses-13",
+   "type": "fill",
+   "q": "I'll send it once I ___ (finish) it.",
+   "answer": [
+    "have finished",
+    "finish",
+    "'ve finished"
+   ],
+   "why": "once + Present Perfect / Simple."
+  },
+  {
+   "id": "future-time-clauses-14",
+   "type": "choice",
+   "q": "Before you ___, turn off the lights.",
+   "options": [
+    "leave",
+    "will leave",
+    "left",
+    "are going to leave"
+   ],
+   "answer": 0,
+   "why": "before + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-15",
+   "type": "choice",
+   "q": "I'll be happy when the exams ___ over.",
+   "options": [
+    "are",
+    "will be",
+    "were",
+    "have"
+   ],
+   "answer": 0,
+   "why": "when + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-16",
+   "type": "choice",
+   "q": "By the time you ___, I'll have cooked dinner.",
+   "options": [
+    "get here",
+    "will get here",
+    "got here",
+    "will have got"
+   ],
+   "answer": 0,
+   "why": "by the time + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-17",
+   "type": "choice",
+   "q": "I'll look after the kids while you ___ at work.",
+   "options": [
+    "are",
+    "will be",
+    "were",
+    "have been"
+   ],
+   "answer": 0,
+   "why": "while + Present Simple."
+  },
+  {
+   "id": "future-time-clauses-18",
+   "type": "order",
+   "words": [
+    "I",
+    "will",
+    "call",
+    "you",
+    "when",
+    "I",
+    "arrive"
+   ],
+   "answer": [
+    "I will call you when I arrive"
+   ],
+   "why": "when + Present Simple.",
+   "hint": "Я зателефоную, коли приїду."
+  },
+  {
+   "id": "future-time-clauses-19",
+   "type": "order",
+   "words": [
+    "As",
+    "soon",
+    "as",
+    "I",
+    "get",
+    "home",
+    "I",
+    "will",
+    "cook"
+   ],
+   "answer": [
+    "As soon as I get home I will cook",
+    "As soon as I get home, I will cook"
+   ],
+   "why": "as soon as + Present Simple.",
+   "hint": "Щойно прийду додому, приготую їсти."
+  },
+  {
+   "id": "future-time-clauses-20",
+   "type": "order",
+   "words": [
+    "Wait",
+    "here",
+    "until",
+    "I",
+    "come",
+    "back"
+   ],
+   "answer": [
+    "Wait here until I come back"
+   ],
+   "why": "until + Present Simple.",
+   "hint": "Чекай тут, поки я не повернуся."
   }
  ]
 }

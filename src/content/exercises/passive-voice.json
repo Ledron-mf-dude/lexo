@@ -120,6 +120,154 @@
    ],
    "answer": 1,
    "why": "Минулий час, пасив: was broken."
+  },
+  {
+   "id": "passive-voice-11",
+   "type": "fill",
+   "q": "The museum ___ (visit) by thousands of people every year.",
+   "answer": [
+    "is visited"
+   ],
+   "why": "Present Simple Passive."
+  },
+  {
+   "id": "passive-voice-12",
+   "type": "fill",
+   "q": "My bike ___ (steal) yesterday.",
+   "answer": [
+    "was stolen"
+   ],
+   "why": "Past Simple Passive."
+  },
+  {
+   "id": "passive-voice-13",
+   "type": "fill",
+   "q": "The results ___ (announce) tomorrow.",
+   "answer": [
+    "will be announced"
+   ],
+   "why": "Future Passive."
+  },
+  {
+   "id": "passive-voice-14",
+   "type": "fill",
+   "q": "The form must ___ (sign) by your parents.",
+   "answer": [
+    "be signed"
+   ],
+   "why": "Модальне + be + V3."
+  },
+  {
+   "id": "passive-voice-15",
+   "type": "fill",
+   "q": "The work ___ (not / finish) yet.",
+   "answer": [
+    "hasn't been finished",
+    "has not been finished"
+   ],
+   "why": "Present Perfect Passive."
+  },
+  {
+   "id": "passive-voice-16",
+   "type": "choice",
+   "q": "Coffee ___ in Brazil.",
+   "options": [
+    "is grown",
+    "grows",
+    "is growing",
+    "has grown by"
+   ],
+   "answer": 0,
+   "why": "Пасив — хто вирощує, неважливо."
+  },
+  {
+   "id": "passive-voice-17",
+   "type": "choice",
+   "q": "The accident ___ at 5 pm.",
+   "options": [
+    "happened",
+    "was happened",
+    "is happened",
+    "has been happened"
+   ],
+   "answer": 0,
+   "why": "happen не має пасиву."
+  },
+  {
+   "id": "passive-voice-18",
+   "type": "choice",
+   "q": "A new hospital ___ at the moment.",
+   "options": [
+    "is being built",
+    "is building",
+    "builds",
+    "is built now"
+   ],
+   "answer": 0,
+   "why": "Present Continuous Passive."
+  },
+  {
+   "id": "passive-voice-19",
+   "type": "choice",
+   "q": "I ___ to the party. Nobody invited me!",
+   "options": [
+    "wasn't invited",
+    "didn't invite",
+    "wasn't invite",
+    "haven't invited"
+   ],
+   "answer": 0,
+   "why": "Мене не запросили — пасив."
+  },
+  {
+   "id": "passive-voice-20",
+   "type": "order",
+   "words": [
+    "The",
+    "house",
+    "was",
+    "built",
+    "in",
+    "1920"
+   ],
+   "answer": [
+    "The house was built in 1920"
+   ],
+   "why": "was + V3.",
+   "hint": "Будинок збудували 1920 року."
+  },
+  {
+   "id": "passive-voice-21",
+   "type": "order",
+   "words": [
+    "English",
+    "is",
+    "spoken",
+    "in",
+    "many",
+    "countries"
+   ],
+   "answer": [
+    "English is spoken in many countries"
+   ],
+   "why": "is + V3.",
+   "hint": "Англійською розмовляють у багатьох країнах."
+  },
+  {
+   "id": "passive-voice-22",
+   "type": "order",
+   "words": [
+    "The",
+    "car",
+    "is",
+    "being",
+    "repaired"
+   ],
+   "answer": [
+    "The car is being repaired"
+   ],
+   "why": "is being + V3.",
+   "hint": "Машину зараз ремонтують."
   }
  ]
 }

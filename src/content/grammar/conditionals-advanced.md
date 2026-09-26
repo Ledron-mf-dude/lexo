@@ -46,3 +46,10 @@ tags: [unless, provided that, as long as, supposing, otherwise, but for, if it w
 | If it **weren't** for you… | **Were it not for** you… |
 
 Інверсія в запереченні: **Had I not** known…, **Were I not** busy… Див. також «Inversion».
+
+## Типові помилки
+
+- ✗ *Unless you don't hurry, you'll be late.* → ✓ ***Unless** you hurry…* (unless вже містить заперечення)
+- ✗ *In case it will rain, take an umbrella.* → ✓ *…in case it **rains**.*
+- ✗ *If I would have known…* → ✓ ***Had I known…*** / *If I **had** known…*
+- ✗ *Should you will need help…* → ✓ ***Should you need** help…*

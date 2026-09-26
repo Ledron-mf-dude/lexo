@@ -101,6 +101,163 @@
     "flew"
    ],
    "why": "fly – flew – flown."
+  },
+  {
+   "id": "irregular-verbs-11",
+   "type": "fill",
+   "q": "I ___ (see) a great film last night.",
+   "answer": [
+    "saw"
+   ],
+   "why": "see – saw – seen."
+  },
+  {
+   "id": "irregular-verbs-12",
+   "type": "fill",
+   "q": "She has ___ (speak) to the manager.",
+   "answer": [
+    "spoken"
+   ],
+   "why": "speak – spoke – spoken."
+  },
+  {
+   "id": "irregular-verbs-13",
+   "type": "fill",
+   "q": "We ___ (take) a taxi to the airport.",
+   "answer": [
+    "took"
+   ],
+   "why": "take – took – taken."
+  },
+  {
+   "id": "irregular-verbs-14",
+   "type": "fill",
+   "q": "Have you ever ___ (drive) a truck?",
+   "answer": [
+    "driven"
+   ],
+   "why": "drive – drove – driven."
+  },
+  {
+   "id": "irregular-verbs-15",
+   "type": "fill",
+   "q": "He ___ (not / come) to school yesterday.",
+   "answer": [
+    "didn't come",
+    "did not come"
+   ],
+   "why": "Після didn't — початкова форма."
+  },
+  {
+   "id": "irregular-verbs-16",
+   "type": "fill",
+   "q": "I ___ (be) very tired last night.",
+   "answer": [
+    "was"
+   ],
+   "why": "I — was."
+  },
+  {
+   "id": "irregular-verbs-17",
+   "type": "choice",
+   "q": "They ___ at home yesterday evening.",
+   "options": [
+    "were",
+    "was",
+    "been",
+    "are"
+   ],
+   "answer": 0,
+   "why": "they — were."
+  },
+  {
+   "id": "irregular-verbs-18",
+   "type": "choice",
+   "q": "I ___ my keys yesterday.",
+   "options": [
+    "lost",
+    "losed",
+    "lose",
+    "have lose"
+   ],
+   "answer": 0,
+   "why": "lose – lost – lost."
+  },
+  {
+   "id": "irregular-verbs-19",
+   "type": "choice",
+   "q": "The past simple of 'think' is:",
+   "options": [
+    "thought",
+    "thinked",
+    "thougt",
+    "taught"
+   ],
+   "answer": 0,
+   "why": "think – thought – thought."
+  },
+  {
+   "id": "irregular-verbs-20",
+   "type": "choice",
+   "q": "She has ___ her leg.",
+   "options": [
+    "broken",
+    "broke",
+    "breaked",
+    "break"
+   ],
+   "answer": 0,
+   "why": "has + V3: broken."
+  },
+  {
+   "id": "irregular-verbs-21",
+   "type": "order",
+   "words": [
+    "I",
+    "bought",
+    "a",
+    "new",
+    "jacket",
+    "yesterday"
+   ],
+   "answer": [
+    "I bought a new jacket yesterday"
+   ],
+   "why": "buy – bought.",
+   "hint": "Учора я купив нову куртку."
+  },
+  {
+   "id": "irregular-verbs-22",
+   "type": "order",
+   "words": [
+    "Did",
+    "you",
+    "sleep",
+    "well"
+   ],
+   "answer": [
+    "Did you sleep well"
+   ],
+   "why": "Did + підмет + V (початкова форма).",
+   "hint": "Ти добре спав?"
+  },
+  {
+   "id": "irregular-verbs-23",
+   "type": "order",
+   "words": [
+    "We",
+    "went",
+    "to",
+    "the",
+    "sea",
+    "last",
+    "summer"
+   ],
+   "answer": [
+    "We went to the sea last summer"
+   ],
+   "why": "go – went.",
+   "hint": "Минулого літа ми їздили на море."
   }
  ]
 }

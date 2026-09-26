@@ -50,7 +50,7 @@
     "certainty"
    ],
    "answer": 0,
-   "why": "Теперішнє або майбутнє."
+   "why": "could be + comparative — про теперішнє/майбутнє; про минуле — could have been."
   },
   {
    "id": "could-be-comparative-5",
@@ -92,6 +92,156 @@
     "The food could be better"
    ],
    "why": "could be + better."
+  },
+  {
+   "id": "could-be-comparative-8",
+   "type": "fill",
+   "q": "The weather ___ worse. It's not that bad.",
+   "answer": [
+    "could be"
+   ],
+   "why": "could be worse — могло бути й гірше."
+  },
+  {
+   "id": "could-be-comparative-9",
+   "type": "fill",
+   "q": "\"How are you?\" — \"Couldn't be ___!\"",
+   "answer": [
+    "better"
+   ],
+   "why": "Couldn't be better — краще не буває."
+  },
+  {
+   "id": "could-be-comparative-10",
+   "type": "fill",
+   "q": "The hotel could have been ___. (clean)",
+   "answer": [
+    "cleaner"
+   ],
+   "why": "could have been + порівняльний — про минуле."
+  },
+  {
+   "id": "could-be-comparative-11",
+   "type": "fill",
+   "q": "The instructions could be ___. (clear)",
+   "answer": [
+    "clearer"
+   ],
+   "why": "clear → clearer."
+  },
+  {
+   "id": "could-be-comparative-12",
+   "type": "choice",
+   "q": "The service here ___ better. (зараз так собі)",
+   "options": [
+    "could be",
+    "could have been",
+    "can be",
+    "could being"
+   ],
+   "answer": 0,
+   "why": "could be better — є куди покращувати."
+  },
+  {
+   "id": "could-be-comparative-13",
+   "type": "choice",
+   "q": "\"Couldn't be better\" means:",
+   "options": [
+    "everything is excellent",
+    "it's not good",
+    "it could improve",
+    "it's the same"
+   ],
+   "answer": 0,
+   "why": "Заперечення + порівняльний — найвища оцінка."
+  },
+  {
+   "id": "could-be-comparative-14",
+   "type": "choice",
+   "q": "The film ___ shorter. (ми вчора дивилися)",
+   "options": [
+    "could have been",
+    "could be",
+    "can be",
+    "could had been"
+   ],
+   "answer": 0,
+   "why": "Про минуле — could have been."
+  },
+  {
+   "id": "could-be-comparative-15",
+   "type": "choice",
+   "q": "I couldn't agree ___.",
+   "options": [
+    "more",
+    "better",
+    "most",
+    "much"
+   ],
+   "answer": 0,
+   "why": "I couldn't agree more — повністю згоден."
+  },
+  {
+   "id": "could-be-comparative-16",
+   "type": "choice",
+   "q": "This hotel could be a lot ___.",
+   "options": [
+    "cheaper",
+    "more cheap",
+    "cheapest",
+    "cheap"
+   ],
+   "answer": 0,
+   "why": "a lot + порівняльний: cheaper."
+  },
+  {
+   "id": "could-be-comparative-17",
+   "type": "order",
+   "words": [
+    "The",
+    "service",
+    "could",
+    "be",
+    "much",
+    "better"
+   ],
+   "answer": [
+    "The service could be much better"
+   ],
+   "why": "could be + much + порівняльний.",
+   "hint": "Обслуговування могло б бути набагато кращим."
+  },
+  {
+   "id": "could-be-comparative-18",
+   "type": "order",
+   "words": [
+    "It",
+    "could",
+    "have",
+    "been",
+    "worse"
+   ],
+   "answer": [
+    "It could have been worse"
+   ],
+   "why": "Про минуле — could have been.",
+   "hint": "Могло бути й гірше."
+  },
+  {
+   "id": "could-be-comparative-19",
+   "type": "order",
+   "words": [
+    "The",
+    "timing",
+    "couldn't",
+    "be",
+    "worse"
+   ],
+   "answer": [
+    "The timing couldn't be worse"
+   ],
+   "why": "couldn't be + порівняльний.",
+   "hint": "Гіршого моменту не придумаєш."
   }
  ]
 }

@@ -116,6 +116,153 @@
    ],
    "answer": 1,
    "why": "see = розуміти — стан."
+  },
+  {
+   "id": "stative-verbs-10",
+   "type": "fill",
+   "q": "This book ___ (belong) to my brother.",
+   "answer": [
+    "belongs"
+   ],
+   "why": "belong — стан."
+  },
+  {
+   "id": "stative-verbs-11",
+   "type": "fill",
+   "q": "I ___ (not / believe) you.",
+   "answer": [
+    "don't believe",
+    "do not believe"
+   ],
+   "why": "believe — стан."
+  },
+  {
+   "id": "stative-verbs-12",
+   "type": "fill",
+   "q": "What ___ you thinking about?",
+   "answer": [
+    "are"
+   ],
+   "why": "think about = міркувати — дія, Continuous."
+  },
+  {
+   "id": "stative-verbs-13",
+   "type": "fill",
+   "q": "She ___ (want) a new phone.",
+   "answer": [
+    "wants"
+   ],
+   "why": "want — стан."
+  },
+  {
+   "id": "stative-verbs-14",
+   "type": "fill",
+   "q": "We ___ (have) dinner at the moment. Call later.",
+   "answer": [
+    "are having",
+    "'re having"
+   ],
+   "why": "have dinner — дія."
+  },
+  {
+   "id": "stative-verbs-15",
+   "type": "choice",
+   "q": "I ___ this song!",
+   "options": [
+    "love",
+    "am loving",
+    "loving",
+    "am love"
+   ],
+   "answer": 0,
+   "why": "love — стан (нейтрально)."
+  },
+  {
+   "id": "stative-verbs-16",
+   "type": "choice",
+   "q": "The box ___ old photos.",
+   "options": [
+    "contains",
+    "is containing",
+    "contain",
+    "containing"
+   ],
+   "answer": 0,
+   "why": "contain — стан."
+  },
+  {
+   "id": "stative-verbs-17",
+   "type": "choice",
+   "q": "Why ___ you smelling the milk? Is it bad?",
+   "options": [
+    "are",
+    "do",
+    "is",
+    "have"
+   ],
+   "answer": 0,
+   "why": "smell (нюхати) — дія, Continuous."
+  },
+  {
+   "id": "stative-verbs-18",
+   "type": "choice",
+   "q": "I ___ you're right.",
+   "options": [
+    "think",
+    "am thinking",
+    "thinking",
+    "am think"
+   ],
+   "answer": 0,
+   "why": "think = вважаю — стан."
+  },
+  {
+   "id": "stative-verbs-19",
+   "type": "order",
+   "words": [
+    "I",
+    "don't",
+    "understand",
+    "the",
+    "question"
+   ],
+   "answer": [
+    "I don't understand the question"
+   ],
+   "why": "understand — стан.",
+   "hint": "Я не розумію запитання."
+  },
+  {
+   "id": "stative-verbs-20",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "having",
+    "a",
+    "shower"
+   ],
+   "answer": [
+    "She is having a shower"
+   ],
+   "why": "have a shower — дія.",
+   "hint": "Вона приймає душ."
+  },
+  {
+   "id": "stative-verbs-21",
+   "type": "order",
+   "words": [
+    "This",
+    "coat",
+    "belongs",
+    "to",
+    "me"
+   ],
+   "answer": [
+    "This coat belongs to me"
+   ],
+   "why": "belong — стан.",
+   "hint": "Це пальто належить мені."
   }
  ]
 }

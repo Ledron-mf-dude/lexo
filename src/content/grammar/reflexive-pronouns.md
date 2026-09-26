@@ -49,4 +49,11 @@ tags: [reflexive pronouns, myself, yourself, themselves, each other, one another
 - **Behave yourself.** — Поводься добре.
 - **Make yourself at home.** — Почувайтеся як удома.
 
+## Типові помилки
+
+- ✗ *I washed myself and dressed myself.* (зайве) → ✓ *I washed and dressed.*
+- ✗ *They love themselves.* (один одного) → ✓ *They love **each other**.*
+- ✗ *hisself, theirselves* → ✓ ***himself, themselves***
+- ✗ *We met ourselves at six.* → ✓ *We **met** at six.*
+
 Див. «Займенники» (особові, присвійні).

@@ -131,6 +131,151 @@
     "What are you doing now?"
    ],
    "why": "Wh-слово + допоміжне + підмет + V-ing."
+  },
+  {
+   "id": "questions-11",
+   "type": "fill",
+   "q": "Where ___ you go on holiday last year?",
+   "answer": [
+    "did"
+   ],
+   "why": "Past Simple — did."
+  },
+  {
+   "id": "questions-12",
+   "type": "fill",
+   "q": "___ are you going? — To the shop.",
+   "answer": [
+    "Where"
+   ],
+   "why": "Where — куди."
+  },
+  {
+   "id": "questions-13",
+   "type": "fill",
+   "q": "___ long does it take to get there?",
+   "answer": [
+    "How"
+   ],
+   "why": "How long — скільки часу."
+  },
+  {
+   "id": "questions-14",
+   "type": "fill",
+   "q": "___ colour do you prefer, red or blue?",
+   "answer": [
+    "Which"
+   ],
+   "why": "Which — вибір з обмеженого набору."
+  },
+  {
+   "id": "questions-15",
+   "type": "fill",
+   "q": "___ you ever been to Spain?",
+   "answer": [
+    "Have"
+   ],
+   "why": "ever + Present Perfect: Have you…?"
+  },
+  {
+   "id": "questions-16",
+   "type": "choice",
+   "q": "___ does your brother do? — He's a doctor.",
+   "options": [
+    "What",
+    "Who",
+    "How",
+    "Which"
+   ],
+   "answer": 0,
+   "why": "What does he do? — професія."
+  },
+  {
+   "id": "questions-17",
+   "type": "choice",
+   "q": "How ___ is it to the airport?",
+   "options": [
+    "far",
+    "long",
+    "much",
+    "many"
+   ],
+   "answer": 0,
+   "why": "How far — як далеко."
+  },
+  {
+   "id": "questions-18",
+   "type": "choice",
+   "q": "___ are you so late?",
+   "options": [
+    "Why",
+    "What",
+    "How",
+    "Who"
+   ],
+   "answer": 0,
+   "why": "Why — чому."
+  },
+  {
+   "id": "questions-19",
+   "type": "choice",
+   "q": "___ time is it?",
+   "options": [
+    "What",
+    "Which",
+    "How",
+    "When"
+   ],
+   "answer": 0,
+   "why": "What time is it? — котра година."
+  },
+  {
+   "id": "questions-20",
+   "type": "order",
+   "words": [
+    "Where",
+    "do",
+    "you",
+    "work"
+   ],
+   "answer": [
+    "Where do you work"
+   ],
+   "why": "Wh + do + підмет + V.",
+   "hint": "Де ти працюєш?"
+  },
+  {
+   "id": "questions-21",
+   "type": "order",
+   "words": [
+    "How",
+    "often",
+    "do",
+    "you",
+    "go",
+    "swimming"
+   ],
+   "answer": [
+    "How often do you go swimming"
+   ],
+   "why": "How often.",
+   "hint": "Як часто ти ходиш плавати?"
+  },
+  {
+   "id": "questions-22",
+   "type": "order",
+   "words": [
+    "What",
+    "did",
+    "you",
+    "do",
+    "yesterday"
+   ],
+   "answer": [
+    "What did you do yesterday"
+   ],
+   "why": "What + did + підмет + V.",
+   "hint": "Що ти робив учора?"
   }
  ]
 }

@@ -1,0 +1,227 @@
+{
+ "questions": [
+  {
+   "id": "unreal-past-1",
+   "type": "choice",
+   "q": "It's time we ___ home.",
+   "options": [
+    "went",
+    "go",
+    "will go",
+    "have gone"
+   ],
+   "answer": 0,
+   "why": "It's time + Past Simple."
+  },
+  {
+   "id": "unreal-past-2",
+   "type": "choice",
+   "q": "He talks as if he ___ everything. (але не знає)",
+   "options": [
+    "knew",
+    "knows",
+    "will know",
+    "has known"
+   ],
+   "answer": 0,
+   "why": "as if + Past Simple — нереально."
+  },
+  {
+   "id": "unreal-past-3",
+   "type": "choice",
+   "q": "I'd rather you ___ tell her.",
+   "options": [
+    "didn't",
+    "don't",
+    "won't",
+    "not"
+   ],
+   "answer": 0,
+   "why": "would rather + особа + Past Simple."
+  },
+  {
+   "id": "unreal-past-4",
+   "type": "choice",
+   "q": "She looked as if she ___ a ghost.",
+   "options": [
+    "had seen",
+    "saw now",
+    "sees",
+    "has seen"
+   ],
+   "answer": 0,
+   "why": "Раніше за момент — Past Perfect."
+  },
+  {
+   "id": "unreal-past-5",
+   "type": "choice",
+   "q": "Suppose you ___ a million dollars. What would you do?",
+   "options": [
+    "won",
+    "win",
+    "will win",
+    "would win"
+   ],
+   "answer": 0,
+   "why": "Уявна ситуація — Past Simple."
+  },
+  {
+   "id": "unreal-past-6",
+   "type": "choice",
+   "q": "It looks as if it ___ rain. (реально можливо)",
+   "options": [
+    "is going to",
+    "would",
+    "was going",
+    "had"
+   ],
+   "answer": 0,
+   "why": "Реальна ситуація — звичайний час."
+  },
+  {
+   "id": "unreal-past-7",
+   "type": "choice",
+   "q": "It's high time the government ___ something.",
+   "options": [
+    "did",
+    "does",
+    "will do",
+    "has done"
+   ],
+   "answer": 0,
+   "why": "It's high time + Past Simple."
+  },
+  {
+   "id": "unreal-past-8",
+   "type": "choice",
+   "q": "I'd rather you ___ told him. Now he's upset.",
+   "options": [
+    "hadn't",
+    "didn't",
+    "don't",
+    "wouldn't"
+   ],
+   "answer": 0,
+   "why": "Про минуле — Past Perfect."
+  },
+  {
+   "id": "unreal-past-9",
+   "type": "choice",
+   "q": "What if the plane ___ late? We'd miss the connection.",
+   "options": [
+    "were",
+    "is being",
+    "will be",
+    "be"
+   ],
+   "answer": 0,
+   "why": "What if + Past Simple (were) — уявно."
+  },
+  {
+   "id": "unreal-past-10",
+   "type": "fill",
+   "q": "It's time you ___ (go) to bed.",
+   "answer": [
+    "went"
+   ],
+   "why": "It's time + Past Simple."
+  },
+  {
+   "id": "unreal-past-11",
+   "type": "fill",
+   "q": "She acts as though she ___ (be) the boss.",
+   "answer": [
+    "were",
+    "was"
+   ],
+   "why": "as though + were — нереально."
+  },
+  {
+   "id": "unreal-past-12",
+   "type": "fill",
+   "q": "I'd rather we ___ (meet) tomorrow.",
+   "answer": [
+    "met"
+   ],
+   "why": "would rather + особа + Past Simple."
+  },
+  {
+   "id": "unreal-past-13",
+   "type": "fill",
+   "q": "Suppose she ___ (say) no. What will you do?",
+   "answer": [
+    "says"
+   ],
+   "why": "Реальна можливість — Present Simple."
+  },
+  {
+   "id": "unreal-past-14",
+   "type": "fill",
+   "q": "It's time ___ (leave). (без особи)",
+   "answer": [
+    "to leave"
+   ],
+   "why": "It's time to + V."
+  },
+  {
+   "id": "unreal-past-15",
+   "type": "fill",
+   "q": "He looked as if he ___ (not / sleep) for days.",
+   "answer": [
+    "hadn't slept",
+    "had not slept"
+   ],
+   "why": "Раніше — Past Perfect."
+  },
+  {
+   "id": "unreal-past-16",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "time",
+    "we",
+    "left"
+   ],
+   "answer": [
+    "It is time we left"
+   ],
+   "why": "It's time + Past Simple.",
+   "hint": "Нам час іти."
+  },
+  {
+   "id": "unreal-past-17",
+   "type": "order",
+   "words": [
+    "He",
+    "behaves",
+    "as",
+    "if",
+    "he",
+    "were",
+    "rich"
+   ],
+   "answer": [
+    "He behaves as if he were rich"
+   ],
+   "why": "as if + were.",
+   "hint": "Він поводиться так, ніби багатий."
+  },
+  {
+   "id": "unreal-past-18",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "rather",
+    "you",
+    "stayed"
+   ],
+   "answer": [
+    "I would rather you stayed"
+   ],
+   "why": "would rather + Past Simple.",
+   "hint": "Я б волів, щоб ти залишився."
+  }
+ ]
+}

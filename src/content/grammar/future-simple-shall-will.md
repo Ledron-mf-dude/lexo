@@ -1,35 +1,60 @@
 ---
 title: Future Simple: will і shall
 category: Часи
-levels: [A1]
-tags: [future simple, will, shall, offers, пропозиції, майбутній час]
+levels: [A1, A2]
+tags: [future simple, will, won't, shall, offers, promises, predictions, пропозиції, майбутній час]
 ---
 
-## Will і shall
+**will + дієслово** (без `to`) — найпростіший спосіб говорити про майбутнє. Форма однакова для всіх осіб.
 
-| | Займенники | Форма |
+## Форми
+
+| | Схема | Приклад |
 | --- | --- | --- |
-| **Раніше (традиційно)** | I, we | **shall** |
-| | you, he, she, it, they | **will** |
-| **Тепер** | усі (I, we, you, he, she, it, they) | **will** |
+| Ствердження | **will ('ll)** + V | **I'll** call you later. |
+| Заперечення | **will not (won't)** + V | She **won't** come. |
+| Питання | **Will** + підмет + V? | **Will** you be at home? |
+| Коротка відповідь | Yes, I **will**. / No, I **won't**. | |
 
-Сьогодні для звичайного майбутнього вживаємо **will** з усіма займенниками:
+## Коли вживаємо will
 
-- I **will** see him tomorrow. — Я побачу його завтра.
+| Значення | Приклад |
+| --- | --- |
+| Рішення в момент мовлення | The phone's ringing. — **I'll** get it! |
+| Прогноз-думка (часто з *I think, probably, I'm sure*) | I think it **will** rain. / She'll **probably** win. |
+| Обіцянка | I **won't** tell anyone, I promise. |
+| Пропозиція допомогти | That bag looks heavy. **I'll** carry it. |
+| Прохання | **Will** you close the window, please? |
+| Відмова (про людей і речі) | The car **won't** start. / He **won't** listen. |
+| Факти про майбутнє | **I'll** be 30 next year. |
 
-## Shall = пропозиція
+Про заплановане заздалегідь частіше кажуть **be going to** або **Present Continuous**. Див. «Майбутнє: Present Continuous, be going to, Present Simple, Future Simple».
 
-`Shall` з **I / we** зберігається в **пропозиціях** («давайте / чи ми…?»):
+## Shall
 
+Колись `shall` вживали з **I / we** для звичайного майбутнього. Сьогодні для цього всі кажуть **will**. `Shall` залишився в питаннях-**пропозиціях**:
+
+- **Shall I** open the window? — Відчинити вікно?
 - **Shall we** go to the cinema? — Може, підемо в кіно?
-- **Shall I** bring you a cup of tea? — Принести вам чаю?
-- **Shall we** dance? — Потанцюємо?
+- What **shall we** do tonight? — Що робитимемо ввечері?
 
-## Will = прохання
+У документах і правилах `shall` означає обов'язок: *The tenant **shall** pay rent monthly.*
 
-Запитання з `will you` — це **прохання**:
+## Shall I…? чи Will you…?
 
-- **Will you** help me? — Допоможеш мені?
-- **Will you** come? — Ти прийдеш?
+| Shall I…? | Will you…? |
+| --- | --- |
+| Пропоную **свою** допомогу | Прошу **вас** щось зробити |
+| **Shall I** help you? | **Will you** help me? |
 
-Порівняння всіх форм майбутнього — у статті «Майбутнє: Present Continuous, be going to, Present Simple, Future Simple».
+## Після if і when — без will
+
+*I'll call you **when I arrive**.* (не *when I will arrive*). Див. «Підрядні часу про майбутнє».
+
+## Типові помилки
+
+- ✗ *I will to call you.* → ✓ *I will **call** you.* (без to)
+- ✗ *She wills come.* → ✓ *She **will** come.* (без -s)
+- ✗ *I will help you when I will finish.* → ✓ *…when I **finish**.*
+- ✗ *Will I open the window?* (пропозиція) → ✓ ***Shall** I open the window?*
+- ✗ *I don't will go.* → ✓ *I **won't** go.*

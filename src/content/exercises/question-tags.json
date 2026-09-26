@@ -129,6 +129,152 @@
    ],
    "answer": 1,
    "why": "Згода із запереченням: Neither do I."
+  },
+  {
+   "id": "question-tags-11",
+   "type": "fill",
+   "q": "It's a nice day, ___ it?",
+   "answer": [
+    "isn't"
+   ],
+   "why": "is → isn't."
+  },
+  {
+   "id": "question-tags-12",
+   "type": "fill",
+   "q": "You haven't seen my keys, ___ you?",
+   "answer": [
+    "have"
+   ],
+   "why": "haven't → have."
+  },
+  {
+   "id": "question-tags-13",
+   "type": "fill",
+   "q": "She went home early, ___ she?",
+   "answer": [
+    "didn't"
+   ],
+   "why": "Past Simple → didn't."
+  },
+  {
+   "id": "question-tags-14",
+   "type": "fill",
+   "q": "There's a problem, ___ there?",
+   "answer": [
+    "isn't"
+   ],
+   "why": "there is → isn't there."
+  },
+  {
+   "id": "question-tags-15",
+   "type": "fill",
+   "q": "\"I'm hungry.\" — \"So ___ I.\"",
+   "answer": [
+    "am"
+   ],
+   "why": "So am I — повторюємо допоміжне."
+  },
+  {
+   "id": "question-tags-16",
+   "type": "choice",
+   "q": "You will help me, ___?",
+   "options": [
+    "won't you",
+    "will you",
+    "don't you",
+    "aren't you"
+   ],
+   "answer": 0,
+   "why": "will → won't."
+  },
+  {
+   "id": "question-tags-17",
+   "type": "choice",
+   "q": "Nobody called, ___?",
+   "options": [
+    "did they",
+    "didn't they",
+    "did he",
+    "didn't anyone"
+   ],
+   "answer": 0,
+   "why": "Nobody → ствердний тег + they."
+  },
+  {
+   "id": "question-tags-18",
+   "type": "choice",
+   "q": "\"I can't swim.\" — \"___.\"",
+   "options": [
+    "Neither can I.",
+    "So can't I.",
+    "Neither can't I.",
+    "So can I."
+   ],
+   "answer": 0,
+   "why": "Згода із запереченням: Neither can I."
+  },
+  {
+   "id": "question-tags-19",
+   "type": "choice",
+   "q": "He's never been to Paris, ___?",
+   "options": [
+    "has he",
+    "hasn't he",
+    "is he",
+    "isn't he"
+   ],
+   "answer": 0,
+   "why": "never — заперечення, тому ствердний тег."
+  },
+  {
+   "id": "question-tags-20",
+   "type": "order",
+   "words": [
+    "You",
+    "are",
+    "coming",
+    "aren't",
+    "you"
+   ],
+   "answer": [
+    "You are coming aren't you",
+    "You are coming, aren't you"
+   ],
+   "why": "Ствердження → заперечний тег.",
+   "hint": "Ти ж прийдеш, так?"
+  },
+  {
+   "id": "question-tags-21",
+   "type": "order",
+   "words": [
+    "She",
+    "doesn't",
+    "eat",
+    "meat",
+    "does",
+    "she"
+   ],
+   "answer": [
+    "She doesn't eat meat does she",
+    "She doesn't eat meat, does she"
+   ],
+   "why": "Заперечення → ствердний тег.",
+   "hint": "Вона ж не їсть м'яса, правда?"
+  },
+  {
+   "id": "question-tags-22",
+   "type": "order",
+   "words": [
+    "So",
+    "do",
+    "I"
+   ],
+   "answer": [
+    "So do I"
+   ],
+   "why": "So + допоміжне + підмет.",
+   "hint": "І я теж. (згода з «I love music»)"
   }
  ]
 }

@@ -129,6 +129,153 @@
    ],
    "answer": 1,
    "why": "annoyed — роздратована."
+  },
+  {
+   "id": "ed-ing-adjectives-11",
+   "type": "fill",
+   "q": "The match was really ___. (excite)",
+   "answer": [
+    "exciting"
+   ],
+   "why": "Матч викликає емоції — -ing."
+  },
+  {
+   "id": "ed-ing-adjectives-12",
+   "type": "fill",
+   "q": "I was ___ when I heard the noise. (frighten)",
+   "answer": [
+    "frightened"
+   ],
+   "why": "Я відчуваю страх — -ed."
+  },
+  {
+   "id": "ed-ing-adjectives-13",
+   "type": "fill",
+   "q": "It was an ___ experience. (amaze)",
+   "answer": [
+    "amazing"
+   ],
+   "why": "Досвід, що вражає, — -ing."
+  },
+  {
+   "id": "ed-ing-adjectives-14",
+   "type": "fill",
+   "q": "We were ___ after the long walk. (exhaust)",
+   "answer": [
+    "exhausted"
+   ],
+   "why": "Люди відчувають — -ed."
+  },
+  {
+   "id": "ed-ing-adjectives-15",
+   "type": "fill",
+   "q": "His speech was very ___. (disappoint)",
+   "answer": [
+    "disappointing"
+   ],
+   "why": "Промова викликає розчарування — -ing."
+  },
+  {
+   "id": "ed-ing-adjectives-16",
+   "type": "choice",
+   "q": "I felt ___ when I fell over in public.",
+   "options": [
+    "embarrassed",
+    "embarrassing",
+    "embarrass",
+    "embarrassment"
+   ],
+   "answer": 0,
+   "why": "Я відчуваю — -ed."
+  },
+  {
+   "id": "ed-ing-adjectives-17",
+   "type": "choice",
+   "q": "This book is really ___.",
+   "options": [
+    "interesting",
+    "interested",
+    "interest",
+    "interestingly"
+   ],
+   "answer": 0,
+   "why": "Книжка викликає цікавість — -ing."
+  },
+  {
+   "id": "ed-ing-adjectives-18",
+   "type": "choice",
+   "q": "Are you ___ about the trip?",
+   "options": [
+    "excited",
+    "exciting",
+    "excite",
+    "excitedly"
+   ],
+   "answer": 0,
+   "why": "Людина відчуває — -ed."
+  },
+  {
+   "id": "ed-ing-adjectives-19",
+   "type": "choice",
+   "q": "The results were ___. We expected more.",
+   "options": [
+    "disappointing",
+    "disappointed",
+    "disappoint",
+    "disappointedly"
+   ],
+   "answer": 0,
+   "why": "Результати викликають розчарування — -ing."
+  },
+  {
+   "id": "ed-ing-adjectives-20",
+   "type": "order",
+   "words": [
+    "I",
+    "am",
+    "bored",
+    "with",
+    "this",
+    "film"
+   ],
+   "answer": [
+    "I am bored with this film"
+   ],
+   "why": "Я відчуваю — bored.",
+   "hint": "Мені нудно від цього фільму."
+  },
+  {
+   "id": "ed-ing-adjectives-21",
+   "type": "order",
+   "words": [
+    "The",
+    "lecture",
+    "was",
+    "really",
+    "boring"
+   ],
+   "answer": [
+    "The lecture was really boring"
+   ],
+   "why": "Лекція викликає — boring.",
+   "hint": "Лекція була дуже нудною."
+  },
+  {
+   "id": "ed-ing-adjectives-22",
+   "type": "order",
+   "words": [
+    "She",
+    "was",
+    "surprised",
+    "by",
+    "the",
+    "result"
+   ],
+   "answer": [
+    "She was surprised by the result"
+   ],
+   "why": "Вона відчуває — surprised.",
+   "hint": "Вона була здивована результатом."
   }
  ]
 }

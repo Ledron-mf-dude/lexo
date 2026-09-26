@@ -76,7 +76,7 @@
     "bigest"
    ],
    "answer": 1,
-   "why": "Подвоюємо приголосну."
+   "why": "big → bigger: CVC — подвоюємо приголосну."
   },
   {
    "id": "comparatives-superlatives-7",
@@ -129,6 +129,180 @@
    ],
    "answer": 1,
    "why": "far – further/farther."
+  },
+  {
+   "id": "comparatives-superlatives-11",
+   "type": "fill",
+   "q": "This is the ___ day of my life. (happy)",
+   "answer": [
+    "happiest"
+   ],
+   "why": "-y → -iest: the happiest."
+  },
+  {
+   "id": "comparatives-superlatives-12",
+   "type": "fill",
+   "q": "My new phone is ___ than my old one. (good)",
+   "answer": [
+    "better"
+   ],
+   "why": "good → better."
+  },
+  {
+   "id": "comparatives-superlatives-13",
+   "type": "fill",
+   "q": "Which is the ___ city in the world? (big)",
+   "answer": [
+    "biggest"
+   ],
+   "why": "CVC: big → the biggest."
+  },
+  {
+   "id": "comparatives-superlatives-14",
+   "type": "fill",
+   "q": "This exam was ___ than the last one. (difficult)",
+   "answer": [
+    "more difficult"
+   ],
+   "why": "Довгий прикметник — more."
+  },
+  {
+   "id": "comparatives-superlatives-15",
+   "type": "fill",
+   "q": "He drives ___ than his wife. (carefully)",
+   "answer": [
+    "more carefully"
+   ],
+   "why": "Прислівник на -ly — more carefully."
+  },
+  {
+   "id": "comparatives-superlatives-16",
+   "type": "fill",
+   "q": "It's the ___ film I've ever seen. (bad)",
+   "answer": [
+    "worst"
+   ],
+   "why": "bad → the worst."
+  },
+  {
+   "id": "comparatives-superlatives-17",
+   "type": "choice",
+   "q": "She is ___ person I know.",
+   "options": [
+    "the kindest",
+    "kinder",
+    "the most kind of",
+    "kindest"
+   ],
+   "answer": 0,
+   "why": "Найвищий ступінь з the: the kindest."
+  },
+  {
+   "id": "comparatives-superlatives-18",
+   "type": "choice",
+   "q": "Russian is ___ than English for me.",
+   "options": [
+    "harder",
+    "more hard",
+    "hardest",
+    "the harder"
+   ],
+   "answer": 0,
+   "why": "hard → harder."
+  },
+  {
+   "id": "comparatives-superlatives-19",
+   "type": "choice",
+   "q": "It's the tallest building ___ the city.",
+   "options": [
+    "in",
+    "of",
+    "than",
+    "at"
+   ],
+   "answer": 0,
+   "why": "Найвищий ступінь + місце — in."
+  },
+  {
+   "id": "comparatives-superlatives-20",
+   "type": "choice",
+   "q": "This bag is ___ expensive than that one.",
+   "options": [
+    "less",
+    "least",
+    "fewer",
+    "lesser"
+   ],
+   "answer": 0,
+   "why": "less + adj + than — менш дорогий."
+  },
+  {
+   "id": "comparatives-superlatives-21",
+   "type": "choice",
+   "q": "Everest is the highest mountain ___ all.",
+   "options": [
+    "of",
+    "in",
+    "than",
+    "from"
+   ],
+   "answer": 0,
+   "why": "the … of all — з групи."
+  },
+  {
+   "id": "comparatives-superlatives-22",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "the",
+    "youngest",
+    "in",
+    "her",
+    "family"
+   ],
+   "answer": [
+    "She is the youngest in her family"
+   ],
+   "why": "the + -est + in.",
+   "hint": "Вона наймолодша в родині."
+  },
+  {
+   "id": "comparatives-superlatives-23",
+   "type": "order",
+   "words": [
+    "My",
+    "sister",
+    "is",
+    "older",
+    "than",
+    "me"
+   ],
+   "answer": [
+    "My sister is older than me"
+   ],
+   "why": "Порівняльний + than.",
+   "hint": "Моя сестра старша за мене."
+  },
+  {
+   "id": "comparatives-superlatives-24",
+   "type": "order",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "most",
+    "interesting",
+    "book",
+    "I",
+    "have",
+    "read"
+   ],
+   "answer": [
+    "This is the most interesting book I have read"
+   ],
+   "why": "the most + довгий прикметник.",
+   "hint": "Це найцікавіша книжка, яку я прочитав."
   }
  ]
 }

@@ -17,7 +17,7 @@ tags: [get, get up, get on, get over, get used to, get + adjective, get done, о
 | **ставати** (get + прикметник) | It's **getting** dark. / She **got** tired. |
 | **добиратися, прибувати** | When did you **get** home? |
 | **розуміти** (розм.) | I don't **get** it. |
-| **дозволяти собі, встигати** | We **got** to see the show. |
+| **мати нагоду** (get to + V) | We **got to see** the show. — Нам пощастило побачити шоу. |
 
 ## Get + прикметник = ставати
 
@@ -49,5 +49,12 @@ tags: [get, get up, get on, get over, get used to, get + adjective, get done, о
 | get through | пройти, дозвонитися |
 | get in / out (of) | сідати / виходити (з авто) |
 | get used to | звикати |
+
+## Типові помилки
+
+- ✗ *It's getting to be dark.* (зайве) → ✓ *It's **getting dark**.*
+- ✗ *I got repaired my car.* → ✓ *I got **my car repaired**.*
+- ✗ *We got married with each other.* → ✓ *We **got married**.* / *She **got married to** Tom.*
+- ✗ *How did you get to home?* → ✓ *How did you **get home**?*
 
 Див. «Used to, would, be used to, get used to» та «Passive: it is said that…, have something done».

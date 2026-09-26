@@ -1,10 +1,12 @@
 import PasswordForm from '../components/PasswordForm'
-import { useAuth } from '../lib/auth'
+import { useAuth } from '../lib/authContext'
 import { useTags, useWords } from '../lib/queries'
 import { supabase } from '../lib/supabase'
 import { downloadText, wordsToText } from '../lib/wordsExport'
+import { useTitle } from '../lib/useTitle'
 
 export default function Account() {
+  useTitle('Акаунт')
   const { session } = useAuth()
   const words = useWords()
   const tags = useTags()

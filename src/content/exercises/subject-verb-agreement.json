@@ -1,0 +1,225 @@
+{
+ "questions": [
+  {
+   "id": "subject-verb-agreement-1",
+   "type": "choice",
+   "q": "Everyone ___ ready.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have"
+   ],
+   "answer": 0,
+   "why": "every- — однина."
+  },
+  {
+   "id": "subject-verb-agreement-2",
+   "type": "choice",
+   "q": "One of my friends ___ in Canada.",
+   "options": [
+    "lives",
+    "live",
+    "are living",
+    "have lived"
+   ],
+   "answer": 0,
+   "why": "one — однина."
+  },
+  {
+   "id": "subject-verb-agreement-3",
+   "type": "choice",
+   "q": "The number of tourists ___ increased.",
+   "options": [
+    "has",
+    "have",
+    "are",
+    "were"
+   ],
+   "answer": 0,
+   "why": "the number of — однина."
+  },
+  {
+   "id": "subject-verb-agreement-4",
+   "type": "choice",
+   "q": "A number of people ___ complained.",
+   "options": [
+    "have",
+    "has",
+    "is",
+    "was"
+   ],
+   "answer": 0,
+   "why": "a number of — множина."
+  },
+  {
+   "id": "subject-verb-agreement-5",
+   "type": "choice",
+   "q": "The news ___ shocking.",
+   "options": [
+    "was",
+    "were",
+    "are",
+    "have been"
+   ],
+   "answer": 0,
+   "why": "news — однина."
+  },
+  {
+   "id": "subject-verb-agreement-6",
+   "type": "choice",
+   "q": "My glasses ___ broken.",
+   "options": [
+    "are",
+    "is",
+    "was",
+    "has"
+   ],
+   "answer": 0,
+   "why": "glasses — множина."
+  },
+  {
+   "id": "subject-verb-agreement-7",
+   "type": "choice",
+   "q": "Neither the teacher nor the students ___ ready.",
+   "options": [
+    "were",
+    "was",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "why": "Узгодження з ближчим (students)."
+  },
+  {
+   "id": "subject-verb-agreement-8",
+   "type": "choice",
+   "q": "The price of the tickets ___ too high.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have"
+   ],
+   "answer": 0,
+   "why": "Головне слово — price."
+  },
+  {
+   "id": "subject-verb-agreement-9",
+   "type": "choice",
+   "q": "Ten dollars ___ too much for a coffee.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have"
+   ],
+   "answer": 0,
+   "why": "Сума як одне ціле — однина."
+  },
+  {
+   "id": "subject-verb-agreement-10",
+   "type": "fill",
+   "q": "Each of the students ___ (have) a laptop.",
+   "answer": [
+    "has"
+   ],
+   "why": "each — однина."
+  },
+  {
+   "id": "subject-verb-agreement-11",
+   "type": "fill",
+   "q": "The police ___ (be) investigating the case.",
+   "answer": [
+    "are"
+   ],
+   "why": "police — множина."
+  },
+  {
+   "id": "subject-verb-agreement-12",
+   "type": "fill",
+   "q": "Reading books ___ (help) you relax.",
+   "answer": [
+    "helps"
+   ],
+   "why": "Герундій-підмет — однина."
+  },
+  {
+   "id": "subject-verb-agreement-13",
+   "type": "fill",
+   "q": "The manager, as well as his team, ___ (be) here.",
+   "answer": [
+    "is"
+   ],
+   "why": "as well as не робить підмет множиною."
+  },
+  {
+   "id": "subject-verb-agreement-14",
+   "type": "fill",
+   "q": "Physics ___ (be) my favourite subject.",
+   "answer": [
+    "is"
+   ],
+   "why": "physics — однина."
+  },
+  {
+   "id": "subject-verb-agreement-15",
+   "type": "fill",
+   "q": "Both answers ___ (be) correct.",
+   "answer": [
+    "are"
+   ],
+   "why": "both — множина."
+  },
+  {
+   "id": "subject-verb-agreement-16",
+   "type": "order",
+   "words": [
+    "Everybody",
+    "knows",
+    "the",
+    "answer"
+   ],
+   "answer": [
+    "Everybody knows the answer"
+   ],
+   "why": "everybody + однина.",
+   "hint": "Усі знають відповідь."
+  },
+  {
+   "id": "subject-verb-agreement-17",
+   "type": "order",
+   "words": [
+    "The",
+    "keys",
+    "to",
+    "the",
+    "car",
+    "are",
+    "on",
+    "the",
+    "table"
+   ],
+   "answer": [
+    "The keys to the car are on the table"
+   ],
+   "why": "Головне слово — keys.",
+   "hint": "Ключі від машини на столі."
+  },
+  {
+   "id": "subject-verb-agreement-18",
+   "type": "order",
+   "words": [
+    "Nobody",
+    "was",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "Nobody was at home"
+   ],
+   "why": "nobody + однина.",
+   "hint": "Нікого не було вдома."
+  }
+ ]
+}

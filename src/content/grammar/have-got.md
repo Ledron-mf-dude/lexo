@@ -41,3 +41,10 @@ tags: [have got, has got, have, possession, володіння, мати, haven'
 
 - `Have got` = **мати**. Але `have` у виразах *have breakfast, have a shower, have a good time* **не замінюється** на `have got`.
 - *I've got to go.* = *I have to go.* (треба йти, розмовно). Див. «Модальні дієслова: обов'язок, заборона, порада».
+
+## Типові помилки
+
+- ✗ *Do you have got a car?* → ✓ ***Have** you **got** a car?* / *Do you **have** a car?*
+- ✗ *I had got a dog as a child.* → ✓ *I **had** a dog as a child.* (have got — лише теперішнє)
+- ✗ *She have got two sisters.* → ✓ *She **has** got two sisters.*
+- ✗ *I've got breakfast at 8.* → ✓ *I **have** breakfast at 8.* (have у виразах не замінюємо)

@@ -129,6 +129,157 @@
    ],
    "answer": 1,
    "why": "news — нелічильне: such good news."
+  },
+  {
+   "id": "so-such-11",
+   "type": "fill",
+   "q": "The film was ___ boring that I fell asleep.",
+   "answer": [
+    "so"
+   ],
+   "why": "so + прикметник + that."
+  },
+  {
+   "id": "so-such-12",
+   "type": "fill",
+   "q": "She's ___ a good teacher!",
+   "answer": [
+    "such"
+   ],
+   "why": "such a + прикметник + іменник."
+  },
+  {
+   "id": "so-such-13",
+   "type": "fill",
+   "q": "I've never seen ___ many birds.",
+   "answer": [
+    "so"
+   ],
+   "why": "so many + лічильне."
+  },
+  {
+   "id": "so-such-14",
+   "type": "fill",
+   "q": "We had ___ fun at the party!",
+   "answer": [
+    "such",
+    "so much"
+   ],
+   "why": "such fun / so much fun — нелічильне."
+  },
+  {
+   "id": "so-such-15",
+   "type": "fill",
+   "q": "Why are you walking ___ fast?",
+   "answer": [
+    "so"
+   ],
+   "why": "so + прислівник."
+  },
+  {
+   "id": "so-such-16",
+   "type": "choice",
+   "q": "They were ___ friendly people.",
+   "options": [
+    "such",
+    "so",
+    "such a",
+    "so much"
+   ],
+   "answer": 0,
+   "why": "such + множина."
+  },
+  {
+   "id": "so-such-17",
+   "type": "choice",
+   "q": "It was ___ an interesting book that I read it twice.",
+   "options": [
+    "such",
+    "so",
+    "so much",
+    "such a"
+   ],
+   "answer": 0,
+   "why": "such + an + adj + noun."
+  },
+  {
+   "id": "so-such-18",
+   "type": "choice",
+   "q": "I've got ___ little time.",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "so much"
+   ],
+   "answer": 0,
+   "why": "so little + нелічильне."
+  },
+  {
+   "id": "so-such-19",
+   "type": "choice",
+   "q": "I'm ___ happy for you!",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "so much"
+   ],
+   "answer": 0,
+   "why": "so + прикметник."
+  },
+  {
+   "id": "so-such-20",
+   "type": "order",
+   "words": [
+    "It",
+    "was",
+    "such",
+    "a",
+    "lovely",
+    "day"
+   ],
+   "answer": [
+    "It was such a lovely day"
+   ],
+   "why": "such a + adj + noun.",
+   "hint": "Був такий чудовий день."
+  },
+  {
+   "id": "so-such-21",
+   "type": "order",
+   "words": [
+    "She",
+    "was",
+    "so",
+    "tired",
+    "that",
+    "she",
+    "fell",
+    "asleep"
+   ],
+   "answer": [
+    "She was so tired that she fell asleep"
+   ],
+   "why": "so + adj + that.",
+   "hint": "Вона так утомилася, що заснула."
+  },
+  {
+   "id": "so-such-22",
+   "type": "order",
+   "words": [
+    "There",
+    "are",
+    "so",
+    "many",
+    "people",
+    "here"
+   ],
+   "answer": [
+    "There are so many people here"
+   ],
+   "why": "so many + лічильне.",
+   "hint": "Тут так багато людей."
   }
  ]
 }

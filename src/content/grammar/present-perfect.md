@@ -49,3 +49,11 @@ tags: [present perfect, present perfect continuous, have done, have been doing, 
 | She **has read** the book. | She **has been reading** that book for a week. |
 
 Дієслова стану (`know`, `like`, `have` = «мати») в Continuous не вживаються: *I've **known** him for years.* Див. «Stative verbs і dynamic verbs».
+
+## Типові помилки
+
+- ✗ *I have seen him yesterday.* → ✓ *I **saw** him yesterday.*
+- ✗ *I live here since 2015.* → ✓ *I **have lived** here since 2015.*
+- ✗ *How long do you know her?* → ✓ *How long **have** you **known** her?*
+- ✗ *I've been knowing him for years.* → ✓ *I've **known** him for years.* (know — стан)
+- ✗ *She has went.* → ✓ *She has **gone**.*

@@ -46,3 +46,10 @@ tags: [adjective order, opinion, size, age, shape, colour, origin, material, pur
 ## Складні прикметники
 
 *a **five-year-old** boy*, *a **well-known** author* — Див. «Складні прикметники».
+
+## Типові помилки
+
+- ✗ *a red big car* → ✓ *a **big red** car* (розмір → колір)
+- ✗ *a wooden old table* → ✓ *an **old wooden** table* (вік → матеріал)
+- ✗ *an Italian beautiful bag* → ✓ *a **beautiful Italian** bag* (думка — завжди першою)
+- ✗ *a big, red ball* → ✓ *a **big red** ball* (різні категорії — без коми)

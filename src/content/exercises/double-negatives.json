@@ -1,0 +1,223 @@
+{
+ "questions": [
+  {
+   "id": "double-negatives-1",
+   "type": "choice",
+   "q": "I don't know ___ about it.",
+   "options": [
+    "anything",
+    "nothing",
+    "something",
+    "none"
+   ],
+   "answer": 0,
+   "why": "not + any-."
+  },
+  {
+   "id": "double-negatives-2",
+   "type": "choice",
+   "q": "Nobody ___.",
+   "options": [
+    "called",
+    "didn't call",
+    "not called",
+    "doesn't called"
+   ],
+   "answer": 0,
+   "why": "nobody + ствердне дієслово."
+  },
+  {
+   "id": "double-negatives-3",
+   "type": "choice",
+   "q": "We haven't got ___ money.",
+   "options": [
+    "any",
+    "no",
+    "none",
+    "some"
+   ],
+   "answer": 0,
+   "why": "haven't + any."
+  },
+  {
+   "id": "double-negatives-4",
+   "type": "choice",
+   "q": "I can ___ hear you.",
+   "options": [
+    "hardly",
+    "not hardly",
+    "hardly not",
+    "no hardly"
+   ],
+   "answer": 0,
+   "why": "hardly — уже заперечне."
+  },
+  {
+   "id": "double-negatives-5",
+   "type": "choice",
+   "q": "She never says ___.",
+   "options": [
+    "anything",
+    "nothing",
+    "something not",
+    "none"
+   ],
+   "answer": 0,
+   "why": "never + any-."
+  },
+  {
+   "id": "double-negatives-6",
+   "type": "choice",
+   "q": "Which sentence is standard English?",
+   "options": [
+    "I didn't see anyone.",
+    "I didn't see no one.",
+    "I not saw anyone.",
+    "I didn't saw nobody."
+   ],
+   "answer": 0,
+   "why": "Одне заперечення."
+  },
+  {
+   "id": "double-negatives-7",
+   "type": "choice",
+   "q": "___ happened.",
+   "options": [
+    "Nothing",
+    "Anything",
+    "Not nothing",
+    "Nothing didn't"
+   ],
+   "answer": 0,
+   "why": "nothing + ствердне дієслово."
+  },
+  {
+   "id": "double-negatives-8",
+   "type": "choice",
+   "q": "There isn't ___ milk left.",
+   "options": [
+    "any",
+    "no",
+    "none",
+    "nothing"
+   ],
+   "answer": 0,
+   "why": "isn't + any."
+  },
+  {
+   "id": "double-negatives-9",
+   "type": "choice",
+   "q": "He ___ goes anywhere.",
+   "options": [
+    "never",
+    "doesn't never",
+    "not never",
+    "ever"
+   ],
+   "answer": 0,
+   "why": "never + anywhere."
+  },
+  {
+   "id": "double-negatives-10",
+   "type": "fill",
+   "q": "I didn't buy ___. (нічого)",
+   "answer": [
+    "anything"
+   ],
+   "why": "didn't + anything."
+  },
+  {
+   "id": "double-negatives-11",
+   "type": "fill",
+   "q": "I bought ___. (нічого)",
+   "answer": [
+    "nothing"
+   ],
+   "why": "Ствердне дієслово + nothing."
+  },
+  {
+   "id": "double-negatives-12",
+   "type": "fill",
+   "q": "She doesn't know ___ here. (нікого)",
+   "answer": [
+    "anybody",
+    "anyone"
+   ],
+   "why": "doesn't + anybody."
+  },
+  {
+   "id": "double-negatives-13",
+   "type": "fill",
+   "q": "___ came to the meeting. (ніхто)",
+   "answer": [
+    "Nobody",
+    "No one"
+   ],
+   "why": "nobody + ствердне дієслово."
+  },
+  {
+   "id": "double-negatives-14",
+   "type": "fill",
+   "q": "There's barely ___ food left.",
+   "answer": [
+    "any"
+   ],
+   "why": "barely + any."
+  },
+  {
+   "id": "double-negatives-15",
+   "type": "fill",
+   "q": "I don't ___ want to see him again. (коли-небудь)",
+   "answer": [
+    "ever"
+   ],
+   "why": "don't ever = never."
+  },
+  {
+   "id": "double-negatives-16",
+   "type": "order",
+   "words": [
+    "I",
+    "don't",
+    "have",
+    "any",
+    "questions"
+   ],
+   "answer": [
+    "I don't have any questions"
+   ],
+   "why": "not + any.",
+   "hint": "У мене немає запитань."
+  },
+  {
+   "id": "double-negatives-17",
+   "type": "order",
+   "words": [
+    "Nobody",
+    "told",
+    "me",
+    "anything"
+   ],
+   "answer": [
+    "Nobody told me anything"
+   ],
+   "why": "nobody + ствердне дієслово + anything.",
+   "hint": "Ніхто мені нічого не сказав."
+  },
+  {
+   "id": "double-negatives-18",
+   "type": "order",
+   "words": [
+    "We",
+    "didn't",
+    "go",
+    "anywhere"
+   ],
+   "answer": [
+    "We didn't go anywhere"
+   ],
+   "why": "didn't + anywhere.",
+   "hint": "Ми нікуди не ходили."
+  }
+ ]
+}

@@ -105,6 +105,167 @@
     "I always wake up early"
    ],
    "why": "always — перед основним дієсловом."
+  },
+  {
+   "id": "word-order-9",
+   "type": "fill",
+   "q": "She ___ tennis on Sundays. (plays / often)",
+   "answer": [
+    "often plays"
+   ],
+   "why": "Частота — перед основним дієсловом.",
+   "hint": "Поставте слова в правильному порядку"
+  },
+  {
+   "id": "word-order-10",
+   "type": "fill",
+   "q": "I bought ___ yesterday. (a / new / car / red)",
+   "answer": [
+    "a new red car"
+   ],
+   "why": "Прикметники перед іменником: вік → колір.",
+   "hint": "Поставте слова в правильному порядку"
+  },
+  {
+   "id": "word-order-11",
+   "type": "fill",
+   "q": "___ you like coffee?",
+   "answer": [
+    "Do"
+   ],
+   "why": "Питання: Do + підмет + V."
+  },
+  {
+   "id": "word-order-12",
+   "type": "fill",
+   "q": "He speaks ___. (English / well)",
+   "answer": [
+    "English well"
+   ],
+   "why": "Прислівник — після додатка.",
+   "hint": "Поставте слова в правильному порядку"
+  },
+  {
+   "id": "word-order-13",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "We visited our friends in London last summer.",
+    "We visited last summer in London our friends.",
+    "Last summer we our friends visited in London.",
+    "We in London visited our friends last summer."
+   ],
+   "answer": 0,
+   "why": "S + V + O + місце + час."
+  },
+  {
+   "id": "word-order-14",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "I don't like this film very much.",
+    "I don't like very much this film.",
+    "I very much don't like this film.",
+    "I don't very much like film this."
+   ],
+   "answer": 0,
+   "why": "very much — після додатка."
+  },
+  {
+   "id": "word-order-15",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Where does your brother work?",
+    "Where your brother works?",
+    "Where does work your brother?",
+    "Where your brother does work?"
+   ],
+   "answer": 0,
+   "why": "Wh + does + підмет + V."
+  },
+  {
+   "id": "word-order-16",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She is never late.",
+    "She never is late.",
+    "Never she is late.",
+    "She is late never."
+   ],
+   "answer": 0,
+   "why": "never — після be."
+  },
+  {
+   "id": "word-order-17",
+   "type": "order",
+   "words": [
+    "I",
+    "usually",
+    "drink",
+    "coffee",
+    "in",
+    "the",
+    "morning"
+   ],
+   "answer": [
+    "I usually drink coffee in the morning"
+   ],
+   "why": "Частота — перед дієсловом; час — у кінці.",
+   "hint": "Зазвичай я п'ю каву зранку."
+  },
+  {
+   "id": "word-order-18",
+   "type": "order",
+   "words": [
+    "She",
+    "sent",
+    "me",
+    "a",
+    "message",
+    "yesterday"
+   ],
+   "answer": [
+    "She sent me a message yesterday"
+   ],
+   "why": "S + V + кому + що + час.",
+   "hint": "Учора вона надіслала мені повідомлення."
+  },
+  {
+   "id": "word-order-19",
+   "type": "order",
+   "words": [
+    "Do",
+    "you",
+    "often",
+    "go",
+    "to",
+    "the",
+    "cinema"
+   ],
+   "answer": [
+    "Do you often go to the cinema"
+   ],
+   "why": "Do + підмет + частота + V.",
+   "hint": "Ти часто ходиш у кіно?"
+  },
+  {
+   "id": "word-order-20",
+   "type": "order",
+   "words": [
+    "They",
+    "arrived",
+    "at",
+    "the",
+    "station",
+    "late"
+   ],
+   "answer": [
+    "They arrived at the station late"
+   ],
+   "why": "Місце → час.",
+   "hint": "Вони прибули на вокзал пізно."
   }
  ]
 }

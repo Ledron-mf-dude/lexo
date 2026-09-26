@@ -117,6 +117,157 @@
     "She has just left"
    ],
    "why": "just — після has."
+  },
+  {
+   "id": "adverb-position-10",
+   "type": "fill",
+   "q": "She ___ late. (always / is)",
+   "answer": [
+    "is always"
+   ],
+   "why": "Прислівник частоти — після be.",
+   "hint": "Поставте слова в правильному порядку"
+  },
+  {
+   "id": "adverb-position-11",
+   "type": "fill",
+   "q": "I ___ this film. (seen / have / never)",
+   "answer": [
+    "have never seen"
+   ],
+   "why": "Після першого допоміжного.",
+   "hint": "Поставте слова в правильному порядку"
+  },
+  {
+   "id": "adverb-position-12",
+   "type": "fill",
+   "q": "He ___ tomorrow. (probably / come / won't)",
+   "answer": [
+    "probably won't come"
+   ],
+   "why": "probably — перед won't.",
+   "hint": "Поставте слова в правильному порядку"
+  },
+  {
+   "id": "adverb-position-13",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "She speaks English fluently.",
+    "She speaks fluently English.",
+    "She fluently speaks English very.",
+    "Fluently she English speaks."
+   ],
+   "answer": 0,
+   "why": "Прислівник — після додатка."
+  },
+  {
+   "id": "adverb-position-14",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "We usually have dinner at seven.",
+    "We have usually dinner at seven.",
+    "We have dinner usually at seven.",
+    "Usually we dinner have at seven."
+   ],
+   "answer": 0,
+   "why": "Частота — перед основним дієсловом."
+  },
+  {
+   "id": "adverb-position-15",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "He will probably call later.",
+    "He probably will call later.",
+    "He will call probably later.",
+    "Probably he call will later."
+   ],
+   "answer": 0,
+   "why": "У ствердженні probably — після will."
+  },
+  {
+   "id": "adverb-position-16",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "They have already left.",
+    "They already have left.",
+    "They have left already yet.",
+    "Already they left have."
+   ],
+   "answer": 0,
+   "why": "already — після have."
+  },
+  {
+   "id": "adverb-position-17",
+   "type": "order",
+   "words": [
+    "I",
+    "often",
+    "go",
+    "to",
+    "the",
+    "gym"
+   ],
+   "answer": [
+    "I often go to the gym"
+   ],
+   "why": "often — перед основним дієсловом.",
+   "hint": "Я часто ходжу в спортзал."
+  },
+  {
+   "id": "adverb-position-18",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "never",
+    "late",
+    "for",
+    "work"
+   ],
+   "answer": [
+    "She is never late for work"
+   ],
+   "why": "never — після is.",
+   "hint": "Вона ніколи не запізнюється на роботу."
+  },
+  {
+   "id": "adverb-position-19",
+   "type": "order",
+   "words": [
+    "He",
+    "has",
+    "just",
+    "finished",
+    "his",
+    "homework"
+   ],
+   "answer": [
+    "He has just finished his homework"
+   ],
+   "why": "just — після has.",
+   "hint": "Він щойно закінчив домашнє завдання."
+  },
+  {
+   "id": "adverb-position-20",
+   "type": "order",
+   "words": [
+    "They",
+    "played",
+    "well",
+    "in",
+    "the",
+    "match",
+    "yesterday"
+   ],
+   "answer": [
+    "They played well in the match yesterday"
+   ],
+   "why": "Спосіб → місце → час.",
+   "hint": "Вони добре зіграли в матчі вчора."
   }
  ]
 }

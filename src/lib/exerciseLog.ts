@@ -60,3 +60,16 @@ export function topicStats(log: LogRow[] | undefined, slug: string, validIds: Se
   const mistakes = [...latest].filter(([, ok]) => !ok).map(([id]) => id)
   return { mastered: latest.size - mistakes.length, attempted: latest.size, mistakes }
 }
+
+/** Every question, across all topics, whose latest answer is wrong (newest mistakes first). */
+export function allMistakes(log: LogRow[] | undefined, banks: Map<string, { id: string }[]>): { slug: string; id: string }[] {
+  const seen = new Set<string>()
+  const out: { slug: string; id: string }[] = []
+  for (const row of log ?? []) {
+    const key = `${row.article_slug}/${row.question_id}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    if (!row.correct && banks.get(row.article_slug)?.some((q) => q.id === row.question_id)) out.push({ slug: row.article_slug, id: row.question_id })
+  }
+  return out
+}

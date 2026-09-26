@@ -40,4 +40,11 @@ tags: [no longer, any longer, anymore, not any more, no more, still, вже не
 - *He **still** works here.* — Він досі тут працює.
 - *He **doesn't** work here **anymore**.* — Він тут більше не працює.
 
+## Типові помилки
+
+- ✗ *She doesn't no longer work here.* → ✓ *She **no longer** works here.* (no longer вже заперечне)
+- ✗ *She works here anymore.* → ✓ *She **doesn't** work here anymore.*
+- ✗ *He no longer is my friend.* → ✓ *He **is no longer** my friend.*
+- ✗ *There's no longer milk.* (кількість) → ✓ *There's **no more** milk.*
+
 Див. «Already, still, yet».

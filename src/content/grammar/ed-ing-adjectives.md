@@ -48,4 +48,11 @@ tags: [ed adjectives, ing adjectives, bored boring, interested interesting, exci
 
 Запитайте: «Про кого/що говорю? Що він **відчуває**» → **-ed**; «Що він **викликає**?» → **-ing**.
 
+## Типові помилки
+
+- ✗ *I am boring.* (= я нудний) → ✓ *I am **bored**.* (мені нудно)
+- ✗ *The film was bored.* → ✓ *The film was **boring**.*
+- ✗ *I'm very interesting in art.* → ✓ *I'm very **interested** in art.*
+- ✗ *She was exciting about the trip.* → ✓ *She was **excited** about the trip.*
+
 Див. також «Adjective order».

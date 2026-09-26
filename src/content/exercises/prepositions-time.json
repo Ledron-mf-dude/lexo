@@ -129,6 +129,155 @@
    ],
    "answer": 0,
    "why": "from … to."
+  },
+  {
+   "id": "prepositions-time-11",
+   "type": "fill",
+   "q": "The shop opens ___ 9 am.",
+   "answer": [
+    "at"
+   ],
+   "why": "at + точний час."
+  },
+  {
+   "id": "prepositions-time-12",
+   "type": "fill",
+   "q": "I was born ___ 1995.",
+   "answer": [
+    "in"
+   ],
+   "why": "in + рік."
+  },
+  {
+   "id": "prepositions-time-13",
+   "type": "fill",
+   "q": "We met ___ New Year's Eve.",
+   "answer": [
+    "on"
+   ],
+   "why": "on + конкретний день."
+  },
+  {
+   "id": "prepositions-time-14",
+   "type": "fill",
+   "q": "I've been here ___ two o'clock.",
+   "answer": [
+    "since"
+   ],
+   "why": "since + момент (Present Perfect)."
+  },
+  {
+   "id": "prepositions-time-15",
+   "type": "fill",
+   "q": "She lived in Rome ___ three years.",
+   "answer": [
+    "for"
+   ],
+   "why": "for + тривалість."
+  },
+  {
+   "id": "prepositions-time-16",
+   "type": "choice",
+   "q": "Let's meet ___ Friday evening.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "by"
+   ],
+   "answer": 0,
+   "why": "on + день + evening."
+  },
+  {
+   "id": "prepositions-time-17",
+   "type": "choice",
+   "q": "The meeting is ___ the afternoon.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "by"
+   ],
+   "answer": 0,
+   "why": "in the afternoon."
+  },
+  {
+   "id": "prepositions-time-18",
+   "type": "choice",
+   "q": "I'll see you ___ week.",
+   "options": [
+    "next",
+    "on next",
+    "in next",
+    "at next"
+   ],
+   "answer": 0,
+   "why": "next week — без прийменника."
+  },
+  {
+   "id": "prepositions-time-19",
+   "type": "choice",
+   "q": "The report must be ready ___ Monday at the latest.",
+   "options": [
+    "by",
+    "until",
+    "till",
+    "since"
+   ],
+   "answer": 0,
+   "why": "by — дедлайн."
+  },
+  {
+   "id": "prepositions-time-20",
+   "type": "order",
+   "words": [
+    "I",
+    "usually",
+    "go",
+    "to",
+    "bed",
+    "at",
+    "midnight"
+   ],
+   "answer": [
+    "I usually go to bed at midnight"
+   ],
+   "why": "at midnight.",
+   "hint": "Зазвичай я лягаю спати опівночі."
+  },
+  {
+   "id": "prepositions-time-21",
+   "type": "order",
+   "words": [
+    "We",
+    "go",
+    "on",
+    "holiday",
+    "in",
+    "August"
+   ],
+   "answer": [
+    "We go on holiday in August"
+   ],
+   "why": "in + місяць.",
+   "hint": "Ми їдемо у відпустку в серпні."
+  },
+  {
+   "id": "prepositions-time-22",
+   "type": "order",
+   "words": [
+    "The",
+    "film",
+    "starts",
+    "in",
+    "ten",
+    "minutes"
+   ],
+   "answer": [
+    "The film starts in ten minutes"
+   ],
+   "why": "in + проміжок — через.",
+   "hint": "Фільм почнеться через десять хвилин."
   }
  ]
 }

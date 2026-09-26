@@ -44,4 +44,11 @@ Perfect gerund підкреслює, що дія була **раніше**: *He 
 - *I'm happy **to have met** you.* — радий, що зустрів (тепер).
 - *I'm proud of **having won**.* — пишаюся тим, що виграв.
 
+## Типові помилки
+
+- ✗ *She wants that I come.* → ✓ *She wants **me to come**.*
+- ✗ *They made me to wait.* → ✓ *They made me **wait**.*
+- ✗ *Let him to go.* → ✓ *Let him **go**.*
+- ✗ *He seems to leave.* (уже пішов) → ✓ *He seems **to have left**.*
+
 Основи — у статтях «Gerund» і «Gerund чи infinitive: verb patterns».

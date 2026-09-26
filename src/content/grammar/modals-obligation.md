@@ -9,7 +9,7 @@ tags: [must, have to, mustn't, don't have to, should, ought to, had better, need
 
 | Слово | Значення | Приклад |
 | --- | --- | --- |
-| **must** | обов'язок, який відчуває / встановлює **говорить** | I **must** call my mother. |
+| **must** | обов'язок, який відчуває або встановлює **сам мовець** | I **must** call my mother. |
 | **have to** | обов'язок через **зовнішні** правила чи обставини | I **have to** wear a uniform at work. |
 
 У минулому й майбутньому `must` немає, тому: **had to** (минуле), **will have to** (майбутнє).
@@ -44,6 +44,16 @@ tags: [must, have to, mustn't, don't have to, should, ought to, had better, need
 | **didn't need to** | не було потреби (і, можливо, не робив) | I **didn't need to** go, so I stayed. |
 | **should have + V3** | слід було (докір) | You **should have called**. |
 
+Докладніше про оцінку минулого — «Модальні дієслова в минулому: should have, could have, must have».
+
 ## Дозвіл
 
 `can`, `may`, `be allowed to`: *You **can** park here.* / *We **weren't allowed to** enter.*
+
+## Типові помилки
+
+- ✗ *You mustn't come, it's optional.* → ✓ *You **don't have to** come.* (mustn't = заборонено)
+- ✗ *I must to go.* → ✓ *I must **go**.*
+- ✗ *Yesterday I must work late.* → ✓ *Yesterday I **had to** work late.*
+- ✗ *You'd better to leave.* → ✓ *You'd better **leave**.*
+- ✗ *He don't have to…* → ✓ *He **doesn't** have to…*

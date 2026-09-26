@@ -129,6 +129,178 @@
    ],
    "answer": 1,
    "why": "Після although не ставимо but."
+  },
+  {
+   "id": "contrast-purpose-reason-result-11",
+   "type": "fill",
+   "q": "___ being tired, she finished the report.",
+   "answer": [
+    "Despite",
+    "In spite of"
+   ],
+   "why": "despite / in spite of + -ing."
+  },
+  {
+   "id": "contrast-purpose-reason-result-12",
+   "type": "fill",
+   "q": "He saved money ___ that he could buy a car.",
+   "answer": [
+    "so"
+   ],
+   "why": "so that + речення з can/could."
+  },
+  {
+   "id": "contrast-purpose-reason-result-13",
+   "type": "fill",
+   "q": "I left early in order ___ to miss the bus.",
+   "answer": [
+    "not"
+   ],
+   "why": "in order not to + V."
+  },
+  {
+   "id": "contrast-purpose-reason-result-14",
+   "type": "fill",
+   "q": "The match was cancelled ___ to the storm.",
+   "answer": [
+    "due",
+    "owing"
+   ],
+   "why": "due to / owing to + іменник."
+  },
+  {
+   "id": "contrast-purpose-reason-result-15",
+   "type": "fill",
+   "q": "___ it was late, we took a taxi. (відома причина)",
+   "answer": [
+    "As",
+    "Since",
+    "Because"
+   ],
+   "why": "as / since — причина на початку речення."
+  },
+  {
+   "id": "contrast-purpose-reason-result-16",
+   "type": "choice",
+   "q": "She is rich. ___, she isn't happy.",
+   "options": [
+    "Nevertheless",
+    "Because",
+    "So",
+    "Despite"
+   ],
+   "answer": 0,
+   "why": "Nevertheless — проте (окреме речення)."
+  },
+  {
+   "id": "contrast-purpose-reason-result-17",
+   "type": "choice",
+   "q": "I'm learning English ___ get a better job.",
+   "options": [
+    "to",
+    "for",
+    "so",
+    "because"
+   ],
+   "answer": 0,
+   "why": "Мета: to + V."
+  },
+  {
+   "id": "contrast-purpose-reason-result-18",
+   "type": "choice",
+   "q": "This knife is ___ cutting bread.",
+   "options": [
+    "for",
+    "to",
+    "so that",
+    "in order"
+   ],
+   "answer": 0,
+   "why": "for + -ing — призначення."
+  },
+  {
+   "id": "contrast-purpose-reason-result-19",
+   "type": "choice",
+   "q": "The roads were icy. ___, there were many accidents.",
+   "options": [
+    "As a result",
+    "Although",
+    "Despite",
+    "Whereas"
+   ],
+   "answer": 0,
+   "why": "As a result — наслідок."
+  },
+  {
+   "id": "contrast-purpose-reason-result-20",
+   "type": "choice",
+   "q": "___ the fact that he was ill, he went to work.",
+   "options": [
+    "Despite",
+    "Although",
+    "However",
+    "Because"
+   ],
+   "answer": 0,
+   "why": "despite the fact that + речення."
+  },
+  {
+   "id": "contrast-purpose-reason-result-21",
+   "type": "order",
+   "words": [
+    "Although",
+    "it",
+    "was",
+    "raining",
+    "we",
+    "went",
+    "for",
+    "a",
+    "walk"
+   ],
+   "answer": [
+    "Although it was raining we went for a walk",
+    "Although it was raining, we went for a walk"
+   ],
+   "why": "although + речення.",
+   "hint": "Хоч і йшов дощ, ми пішли гуляти."
+  },
+  {
+   "id": "contrast-purpose-reason-result-22",
+   "type": "order",
+   "words": [
+    "I",
+    "spoke",
+    "slowly",
+    "so",
+    "that",
+    "she",
+    "could",
+    "understand"
+   ],
+   "answer": [
+    "I spoke slowly so that she could understand"
+   ],
+   "why": "so that + could.",
+   "hint": "Я говорив повільно, щоб вона зрозуміла."
+  },
+  {
+   "id": "contrast-purpose-reason-result-23",
+   "type": "order",
+   "words": [
+    "We",
+    "stayed",
+    "inside",
+    "because",
+    "of",
+    "the",
+    "heat"
+   ],
+   "answer": [
+    "We stayed inside because of the heat"
+   ],
+   "why": "because of + іменник.",
+   "hint": "Ми залишилися всередині через спеку."
   }
  ]
 }

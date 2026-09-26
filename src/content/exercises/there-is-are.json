@@ -119,6 +119,156 @@
     "There is no need to worry"
    ],
    "why": "there is no need to + V."
+  },
+  {
+   "id": "there-is-are-10",
+   "type": "fill",
+   "q": "There ___ a lot of people at the concert last night.",
+   "answer": [
+    "were"
+   ],
+   "why": "Минуле, множина — were."
+  },
+  {
+   "id": "there-is-are-11",
+   "type": "fill",
+   "q": "___ there a pharmacy near here?",
+   "answer": [
+    "Is"
+   ],
+   "why": "Питання, однина — Is there."
+  },
+  {
+   "id": "there-is-are-12",
+   "type": "fill",
+   "q": "There ___ been an accident on the motorway.",
+   "answer": [
+    "has"
+   ],
+   "why": "Present Perfect — has been."
+  },
+  {
+   "id": "there-is-are-13",
+   "type": "fill",
+   "q": "There ___ be a problem with the printer. (можливо)",
+   "answer": [
+    "might",
+    "may",
+    "could"
+   ],
+   "why": "Модальне + be."
+  },
+  {
+   "id": "there-is-are-14",
+   "type": "fill",
+   "q": "How many rooms ___ there in your flat?",
+   "answer": [
+    "are"
+   ],
+   "why": "How many … are there?"
+  },
+  {
+   "id": "there-is-are-15",
+   "type": "choice",
+   "q": "There ___ some milk in the fridge.",
+   "options": [
+    "is",
+    "are",
+    "have",
+    "has"
+   ],
+   "answer": 0,
+   "why": "Нелічильне — is."
+  },
+  {
+   "id": "there-is-are-16",
+   "type": "choice",
+   "q": "There ___ any tickets left.",
+   "options": [
+    "aren't",
+    "isn't",
+    "wasn't",
+    "hasn't"
+   ],
+   "answer": 0,
+   "why": "Множина + any — aren't."
+  },
+  {
+   "id": "there-is-are-17",
+   "type": "choice",
+   "q": "There ___ to be a cinema here.",
+   "options": [
+    "used",
+    "use",
+    "was",
+    "were"
+   ],
+   "answer": 0,
+   "why": "There used to be — раніше тут був."
+  },
+  {
+   "id": "there-is-are-18",
+   "type": "choice",
+   "q": "___ going to be a storm tonight.",
+   "options": [
+    "There's",
+    "It's",
+    "There are",
+    "It's there"
+   ],
+   "answer": 0,
+   "why": "There is going to be…"
+  },
+  {
+   "id": "there-is-are-19",
+   "type": "order",
+   "words": [
+    "There",
+    "are",
+    "two",
+    "cats",
+    "in",
+    "the",
+    "garden"
+   ],
+   "answer": [
+    "There are two cats in the garden"
+   ],
+   "why": "there are + множина.",
+   "hint": "У саду двоє котів."
+  },
+  {
+   "id": "there-is-are-20",
+   "type": "order",
+   "words": [
+    "Is",
+    "there",
+    "a",
+    "bank",
+    "near",
+    "here"
+   ],
+   "answer": [
+    "Is there a bank near here"
+   ],
+   "why": "Is there…?",
+   "hint": "Тут поблизу є банк?"
+  },
+  {
+   "id": "there-is-are-21",
+   "type": "order",
+   "words": [
+    "There",
+    "was",
+    "nobody",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "There was nobody at home"
+   ],
+   "why": "there was + nobody.",
+   "hint": "Удома нікого не було."
   }
  ]
 }

@@ -132,3 +132,15 @@ summary {
     padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
   }
 }
+
+/* "Типові помилки" in grammar articles: "✗ wrong → ✓ right" as a small card per line. */
+.prose li.mistake {
+  margin-inline-start: -1.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  background: rgb(255 255 255 / 0.04);
+  border-left: 2px solid rgb(251 113 133 / 0.5);
+}
+.prose li.mistake + li.mistake {
+  margin-top: 0.5rem;
+}

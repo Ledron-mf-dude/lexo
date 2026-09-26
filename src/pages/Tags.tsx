@@ -1,12 +1,14 @@
 import { useMemo, useState, type FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useAuth } from '../lib/auth'
+import { useAuth } from '../lib/authContext'
 import { TAG_COLORS, useTagActions, useTags, useWords } from '../lib/queries'
 import type { Tag } from '../types'
+import { useTitle } from '../lib/useTitle'
 
 type Sort = 'name' | 'count'
 
 export default function Tags() {
+  useTitle('Теги')
   const { session } = useAuth()
   const navigate = useNavigate()
   const tags = useTags()

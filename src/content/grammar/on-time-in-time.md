@@ -2,6 +2,7 @@
 title: On time чи in time, at the end чи in the end
 category: Прийменники
 levels: [A2]
+aliases: [On time чи in time]
 tags: [on time, in time, at the end, in the end, punctual, finally, вчасно, наприкінці, зрештою]
 ---
 
@@ -45,5 +46,12 @@ tags: [on time, in time, at the end, in the end, punctual, finally, вчасно
 
 - *He waited for hours and **at last** she came.*
 - *I couldn't decide, but **in the end** I bought it.*
+
+## Типові помилки
+
+- ✗ *The train arrived in time, at exactly 9:00.* → ✓ *…arrived **on time**…* (за розкладом)
+- ✗ *At the end, we decided to stay.* (зрештою) → ✓ ***In the end,** we decided to stay.*
+- ✗ *in the end of the film* → ✓ ***at the end of** the film*
+- ✗ *I arrived on time to catch the train.* → ✓ *…**in time** to catch the train.*
 
 Див. також «Прийменники часу».

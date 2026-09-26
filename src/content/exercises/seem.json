@@ -24,7 +24,7 @@
     "live"
    ],
    "answer": 0,
-   "why": "Present → full infinitive."
+   "why": "Present Simple → to + V (to live)."
   },
   {
    "id": "seem-3",
@@ -37,7 +37,7 @@
     "living"
    ],
    "answer": 1,
-   "why": "Present Perfect → perfect infinitive."
+   "why": "Present Perfect → perfect infinitive (to have lived)."
   },
   {
    "id": "seem-4",
@@ -50,7 +50,7 @@
     "living"
    ],
    "answer": 2,
-   "why": "Present Continuous → continuous infinitive."
+   "why": "Present Continuous → continuous infinitive (to be living)."
   },
   {
    "id": "seem-5",
@@ -120,6 +120,146 @@
     "It seems that she lives in Bonn"
    ],
    "why": "It seems that + повне речення."
+  },
+  {
+   "id": "seem-10",
+   "type": "fill",
+   "q": "It seems ___ me that he's lying.",
+   "answer": [
+    "to"
+   ],
+   "why": "It seems to me — мені здається."
+  },
+  {
+   "id": "seem-11",
+   "type": "fill",
+   "q": "She doesn't seem ___ (understand) the question.",
+   "answer": [
+    "to understand"
+   ],
+   "why": "doesn't seem + to-інфінітив."
+  },
+  {
+   "id": "seem-12",
+   "type": "fill",
+   "q": "They seem ___ (forget) about the meeting. (уже)",
+   "answer": [
+    "to have forgotten"
+   ],
+   "why": "Минуле — perfect infinitive."
+  },
+  {
+   "id": "seem-13",
+   "type": "fill",
+   "q": "There ___ to be a mistake in the bill.",
+   "answer": [
+    "seems"
+   ],
+   "why": "There seems to be — здається, є."
+  },
+  {
+   "id": "seem-14",
+   "type": "choice",
+   "q": "He seems ___ a nice guy.",
+   "options": [
+    "like",
+    "as",
+    "to",
+    "so"
+   ],
+   "answer": 0,
+   "why": "seem like + іменник."
+  },
+  {
+   "id": "seem-15",
+   "type": "choice",
+   "q": "It ___ that the shop is closed.",
+   "options": [
+    "seems",
+    "is seeming",
+    "seem",
+    "seems to"
+   ],
+   "answer": 0,
+   "why": "It seems that + речення."
+  },
+  {
+   "id": "seem-16",
+   "type": "choice",
+   "q": "She seems ___ right now.",
+   "options": [
+    "to be working",
+    "to work now",
+    "working",
+    "to have worked"
+   ],
+   "answer": 0,
+   "why": "Процес зараз — to be + V-ing."
+  },
+  {
+   "id": "seem-17",
+   "type": "choice",
+   "q": "He'll probably get the job. = He seems ___ the job.",
+   "options": [
+    "likely to get",
+    "to get tomorrow",
+    "to be going get",
+    "getting"
+   ],
+   "answer": 0,
+   "why": "Про майбутнє — seem likely to."
+  },
+  {
+   "id": "seem-18",
+   "type": "order",
+   "words": [
+    "She",
+    "seems",
+    "to",
+    "be",
+    "very",
+    "busy"
+   ],
+   "answer": [
+    "She seems to be very busy"
+   ],
+   "why": "seem + to be.",
+   "hint": "Здається, вона дуже зайнята."
+  },
+  {
+   "id": "seem-19",
+   "type": "order",
+   "words": [
+    "It",
+    "seems",
+    "to",
+    "me",
+    "that",
+    "he",
+    "is",
+    "right"
+   ],
+   "answer": [
+    "It seems to me that he is right"
+   ],
+   "why": "It seems to me that…",
+   "hint": "Мені здається, що він має рацію."
+  },
+  {
+   "id": "seem-20",
+   "type": "order",
+   "words": [
+    "They",
+    "seem",
+    "to",
+    "have",
+    "left"
+   ],
+   "answer": [
+    "They seem to have left"
+   ],
+   "why": "seem + perfect infinitive.",
+   "hint": "Схоже, вони пішли."
   }
  ]
 }

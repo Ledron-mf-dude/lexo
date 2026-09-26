@@ -116,6 +116,146 @@
    ],
    "answer": 0,
    "why": "Perhaps — на початку."
+  },
+  {
+   "id": "likely-unlikely-bound-10",
+   "type": "fill",
+   "q": "It's ___ to rain later, so take an umbrella.",
+   "answer": [
+    "likely"
+   ],
+   "why": "be likely to — ймовірно."
+  },
+  {
+   "id": "likely-unlikely-bound-11",
+   "type": "fill",
+   "q": "Prices are ___ to go up. They always do.",
+   "answer": [
+    "bound"
+   ],
+   "why": "be bound to — неодмінно."
+  },
+  {
+   "id": "likely-unlikely-bound-12",
+   "type": "fill",
+   "q": "I'll ___ call you tonight. (точно)",
+   "answer": [
+    "definitely",
+    "certainly"
+   ],
+   "why": "will + definitely + V."
+  },
+  {
+   "id": "likely-unlikely-bound-13",
+   "type": "fill",
+   "q": "She's ___ to get the job — she has no experience.",
+   "answer": [
+    "unlikely"
+   ],
+   "why": "be unlikely to — малоймовірно."
+  },
+  {
+   "id": "likely-unlikely-bound-14",
+   "type": "choice",
+   "q": "He ___ come to the party. He's ill.",
+   "options": [
+    "probably won't",
+    "won't probably",
+    "will probably not to",
+    "probably will not to"
+   ],
+   "answer": 0,
+   "why": "У запереченні probably — перед won't."
+  },
+  {
+   "id": "likely-unlikely-bound-15",
+   "type": "choice",
+   "q": "There is ___ to be traffic at this time.",
+   "options": [
+    "bound",
+    "likely that",
+    "sure that",
+    "bound that"
+   ],
+   "answer": 0,
+   "why": "There is bound to be… — напевно буде."
+  },
+  {
+   "id": "likely-unlikely-bound-16",
+   "type": "choice",
+   "q": "Which sentence expresses about 50% certainty?",
+   "options": [
+    "Perhaps we'll win.",
+    "We'll definitely win.",
+    "We're bound to win.",
+    "We're unlikely to win."
+   ],
+   "answer": 0,
+   "why": "perhaps / maybe — середня ймовірність."
+  },
+  {
+   "id": "likely-unlikely-bound-17",
+   "type": "choice",
+   "q": "It is ___ that they will cancel the flight.",
+   "options": [
+    "likely",
+    "bound",
+    "sure to",
+    "likely to"
+   ],
+   "answer": 0,
+   "why": "It is likely that + речення."
+  },
+  {
+   "id": "likely-unlikely-bound-18",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "likely",
+    "to",
+    "be",
+    "late"
+   ],
+   "answer": [
+    "She is likely to be late"
+   ],
+   "why": "be likely to + V.",
+   "hint": "Вона, ймовірно, запізниться."
+  },
+  {
+   "id": "likely-unlikely-bound-19",
+   "type": "order",
+   "words": [
+    "You",
+    "are",
+    "bound",
+    "to",
+    "like",
+    "it"
+   ],
+   "answer": [
+    "You are bound to like it"
+   ],
+   "why": "be bound to + V.",
+   "hint": "Тобі це неодмінно сподобається."
+  },
+  {
+   "id": "likely-unlikely-bound-20",
+   "type": "order",
+   "words": [
+    "I",
+    "will",
+    "probably",
+    "stay",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "I will probably stay at home"
+   ],
+   "why": "will + probably + V.",
+   "hint": "Я, мабуть, залишуся вдома."
   }
  ]
 }

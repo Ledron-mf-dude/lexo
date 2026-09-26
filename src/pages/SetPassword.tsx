@@ -1,5 +1,5 @@
 import PasswordForm from '../components/PasswordForm'
-import { useAuth } from '../lib/auth'
+import { useAuth } from '../lib/authContext'
 
 /** Shown once after a password-reset or invite link. */
 export default function SetPassword() {

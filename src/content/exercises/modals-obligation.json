@@ -123,6 +123,156 @@
     "You don't have to wait"
    ],
    "why": "don’t have to — не потрібно."
+  },
+  {
+   "id": "modals-obligation-11",
+   "type": "fill",
+   "q": "You ___ park here. It's a hospital entrance.",
+   "answer": [
+    "mustn't",
+    "must not"
+   ],
+   "why": "mustn't — заборона."
+  },
+  {
+   "id": "modals-obligation-12",
+   "type": "fill",
+   "q": "I ___ to wear glasses for reading.",
+   "answer": [
+    "have"
+   ],
+   "why": "have to — необхідність."
+  },
+  {
+   "id": "modals-obligation-13",
+   "type": "fill",
+   "q": "We ___ have to pay. It was free.",
+   "answer": [
+    "didn't",
+    "did not"
+   ],
+   "why": "didn't have to — не було потреби."
+  },
+  {
+   "id": "modals-obligation-14",
+   "type": "fill",
+   "q": "You ___ better see a doctor.",
+   "answer": [
+    "had",
+    "'d"
+   ],
+   "why": "had better + V — сильна порада."
+  },
+  {
+   "id": "modals-obligation-15",
+   "type": "fill",
+   "q": "You ___ to apologise. It was your fault.",
+   "answer": [
+    "ought"
+   ],
+   "why": "ought to — слід."
+  },
+  {
+   "id": "modals-obligation-16",
+   "type": "choice",
+   "q": "Do you ___ work on Saturdays?",
+   "options": [
+    "have to",
+    "must to",
+    "must",
+    "has to"
+   ],
+   "answer": 0,
+   "why": "Питання: Do you have to…?"
+  },
+  {
+   "id": "modals-obligation-17",
+   "type": "choice",
+   "q": "You ___ bring anything. We have everything.",
+   "options": [
+    "don't need to",
+    "mustn't",
+    "haven't to",
+    "need not to"
+   ],
+   "answer": 0,
+   "why": "don't need to — не треба."
+  },
+  {
+   "id": "modals-obligation-18",
+   "type": "choice",
+   "q": "Next year I ___ take the exam again.",
+   "options": [
+    "will have to",
+    "will must",
+    "must will",
+    "have must"
+   ],
+   "answer": 0,
+   "why": "Майбутнє — will have to."
+  },
+  {
+   "id": "modals-obligation-19",
+   "type": "choice",
+   "q": "You ___ told her. Now she's upset.",
+   "options": [
+    "shouldn't have",
+    "mustn't have",
+    "shouldn't",
+    "haven't to"
+   ],
+   "answer": 0,
+   "why": "shouldn't have + V3 — не слід було."
+  },
+  {
+   "id": "modals-obligation-20",
+   "type": "order",
+   "words": [
+    "You",
+    "must",
+    "wear",
+    "a",
+    "seatbelt"
+   ],
+   "answer": [
+    "You must wear a seatbelt"
+   ],
+   "why": "must + V.",
+   "hint": "Ви маєте пристебнутися."
+  },
+  {
+   "id": "modals-obligation-21",
+   "type": "order",
+   "words": [
+    "We",
+    "had",
+    "to",
+    "wait",
+    "for",
+    "an",
+    "hour"
+   ],
+   "answer": [
+    "We had to wait for an hour"
+   ],
+   "why": "had to — минуле.",
+   "hint": "Нам довелося чекати годину."
+  },
+  {
+   "id": "modals-obligation-22",
+   "type": "order",
+   "words": [
+    "You",
+    "should",
+    "get",
+    "some",
+    "rest"
+   ],
+   "answer": [
+    "You should get some rest"
+   ],
+   "why": "should — порада.",
+   "hint": "Тобі варто відпочити."
   }
  ]
 }

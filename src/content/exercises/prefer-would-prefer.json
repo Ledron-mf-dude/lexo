@@ -116,6 +116,152 @@
    ],
    "answer": 1,
    "why": "would prefer + особа + to + V."
+  },
+  {
+   "id": "prefer-would-prefer-10",
+   "type": "fill",
+   "q": "I prefer summer ___ winter.",
+   "answer": [
+    "to"
+   ],
+   "why": "prefer X to Y."
+  },
+  {
+   "id": "prefer-would-prefer-11",
+   "type": "fill",
+   "q": "She'd prefer ___ (not / go) out tonight.",
+   "answer": [
+    "not to go"
+   ],
+   "why": "would prefer not to + V."
+  },
+  {
+   "id": "prefer-would-prefer-12",
+   "type": "fill",
+   "q": "I'd rather ___ (walk) than take a taxi.",
+   "answer": [
+    "walk"
+   ],
+   "why": "would rather + V без to."
+  },
+  {
+   "id": "prefer-would-prefer-13",
+   "type": "fill",
+   "q": "I prefer to cook at home ___ than eat out.",
+   "answer": [
+    "rather"
+   ],
+   "why": "prefer to V rather than V."
+  },
+  {
+   "id": "prefer-would-prefer-14",
+   "type": "fill",
+   "q": "Would you prefer tea ___ coffee?",
+   "answer": [
+    "or"
+   ],
+   "why": "Would you prefer X or Y? — вибір зараз."
+  },
+  {
+   "id": "prefer-would-prefer-15",
+   "type": "choice",
+   "q": "I'd prefer ___ by train.",
+   "options": [
+    "to travel",
+    "travel",
+    "travelling to",
+    "to travelling"
+   ],
+   "answer": 0,
+   "why": "would prefer + to + V."
+  },
+  {
+   "id": "prefer-would-prefer-16",
+   "type": "choice",
+   "q": "He prefers ___ to watching TV.",
+   "options": [
+    "reading",
+    "to read",
+    "read",
+    "reads"
+   ],
+   "answer": 0,
+   "why": "prefer -ing to -ing."
+  },
+  {
+   "id": "prefer-would-prefer-17",
+   "type": "choice",
+   "q": "I'd rather you ___ tell anyone.",
+   "options": [
+    "didn't",
+    "don't",
+    "not",
+    "won't"
+   ],
+   "answer": 0,
+   "why": "would rather + особа + Past Simple."
+  },
+  {
+   "id": "prefer-would-prefer-18",
+   "type": "choice",
+   "q": "\"Coffee?\" — \"I'd ___ have tea, please.\"",
+   "options": [
+    "rather",
+    "prefer",
+    "better",
+    "like to"
+   ],
+   "answer": 0,
+   "why": "I'd rather have… — краще…"
+  },
+  {
+   "id": "prefer-would-prefer-19",
+   "type": "order",
+   "words": [
+    "I",
+    "prefer",
+    "coffee",
+    "to",
+    "tea"
+   ],
+   "answer": [
+    "I prefer coffee to tea"
+   ],
+   "why": "prefer X to Y.",
+   "hint": "Я віддаю перевагу каві перед чаєм."
+  },
+  {
+   "id": "prefer-would-prefer-20",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "rather",
+    "stay",
+    "at",
+    "home"
+   ],
+   "answer": [
+    "I would rather stay at home"
+   ],
+   "why": "would rather + V.",
+   "hint": "Я б краще залишився вдома."
+  },
+  {
+   "id": "prefer-would-prefer-21",
+   "type": "order",
+   "words": [
+    "She",
+    "would",
+    "prefer",
+    "to",
+    "wait"
+   ],
+   "answer": [
+    "She would prefer to wait"
+   ],
+   "why": "would prefer to + V.",
+   "hint": "Вона воліла б почекати."
   }
  ]
 }

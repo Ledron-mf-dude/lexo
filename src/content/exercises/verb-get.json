@@ -116,6 +116,152 @@
    ],
    "answer": 0,
    "why": "get on with — ладнати."
+  },
+  {
+   "id": "verb-get-10",
+   "type": "fill",
+   "q": "It's getting ___. Let's go home. (пізно)",
+   "answer": [
+    "late"
+   ],
+   "why": "get + прикметник = ставати."
+  },
+  {
+   "id": "verb-get-11",
+   "type": "fill",
+   "q": "I got ___ at the wrong station. (вийшов із потяга)",
+   "answer": [
+    "off"
+   ],
+   "why": "get off — вийти (з транспорту)."
+  },
+  {
+   "id": "verb-get-12",
+   "type": "fill",
+   "q": "She's getting ___ next month. (одружується)",
+   "answer": [
+    "married"
+   ],
+   "why": "get married — одружитися."
+  },
+  {
+   "id": "verb-get-13",
+   "type": "fill",
+   "q": "I need to get my laptop ___ (fix).",
+   "answer": [
+    "fixed"
+   ],
+   "why": "get + предмет + V3."
+  },
+  {
+   "id": "verb-get-14",
+   "type": "fill",
+   "q": "How long did it take you to get ___ the flu? (оговтатися)",
+   "answer": [
+    "over"
+   ],
+   "why": "get over — одужати, оговтатися."
+  },
+  {
+   "id": "verb-get-15",
+   "type": "choice",
+   "q": "Can you ___ some bread on your way home?",
+   "options": [
+    "get",
+    "take",
+    "make",
+    "do"
+   ],
+   "answer": 0,
+   "why": "get = купити, принести."
+  },
+  {
+   "id": "verb-get-16",
+   "type": "choice",
+   "q": "I didn't ___ the joke.",
+   "options": [
+    "get",
+    "take",
+    "make",
+    "have"
+   ],
+   "answer": 0,
+   "why": "get = зрозуміти."
+  },
+  {
+   "id": "verb-get-17",
+   "type": "choice",
+   "q": "We ___ lost in the old town.",
+   "options": [
+    "got",
+    "became to",
+    "went to",
+    "made"
+   ],
+   "answer": 0,
+   "why": "get lost — заблукати."
+  },
+  {
+   "id": "verb-get-18",
+   "type": "choice",
+   "q": "My brother and I get ___ really well.",
+   "options": [
+    "on",
+    "up",
+    "over",
+    "off"
+   ],
+   "answer": 0,
+   "why": "get on (well) — ладнати."
+  },
+  {
+   "id": "verb-get-19",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "getting",
+    "cold"
+   ],
+   "answer": [
+    "It is getting cold"
+   ],
+   "why": "get + прикметник.",
+   "hint": "Стає холодно."
+  },
+  {
+   "id": "verb-get-20",
+   "type": "order",
+   "words": [
+    "What",
+    "time",
+    "did",
+    "you",
+    "get",
+    "home"
+   ],
+   "answer": [
+    "What time did you get home"
+   ],
+   "why": "get home — без to.",
+   "hint": "О котрій ти дістався додому?"
+  },
+  {
+   "id": "verb-get-21",
+   "type": "order",
+   "words": [
+    "I",
+    "got",
+    "a",
+    "message",
+    "from",
+    "her"
+   ],
+   "answer": [
+    "I got a message from her"
+   ],
+   "why": "get = отримати.",
+   "hint": "Я отримав від неї повідомлення."
   }
  ]
 }

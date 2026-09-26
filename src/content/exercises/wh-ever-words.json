@@ -90,6 +90,155 @@
    ],
    "answer": 0,
    "why": "whichever — з обмеженого набору."
+  },
+  {
+   "id": "wh-ever-words-8",
+   "type": "fill",
+   "q": "___ you do, don't tell her. (що б не)",
+   "answer": [
+    "Whatever"
+   ],
+   "why": "Whatever — що б не."
+  },
+  {
+   "id": "wh-ever-words-9",
+   "type": "fill",
+   "q": "You can sit ___ you like. (де завгодно)",
+   "answer": [
+    "wherever"
+   ],
+   "why": "wherever — де завгодно."
+  },
+  {
+   "id": "wh-ever-words-10",
+   "type": "fill",
+   "q": "___ comes first will get a prize. (хто б не)",
+   "answer": [
+    "Whoever"
+   ],
+   "why": "Whoever — хто б не."
+  },
+  {
+   "id": "wh-ever-words-11",
+   "type": "fill",
+   "q": "___ tired you are, finish your work. (якою б не)",
+   "answer": [
+    "However"
+   ],
+   "why": "However + прикметник — наскільки б не."
+  },
+  {
+   "id": "wh-ever-words-12",
+   "type": "fill",
+   "q": "Pick ___ colour you like — red or blue.",
+   "answer": [
+    "whichever"
+   ],
+   "why": "whichever — будь-який з кількох."
+  },
+  {
+   "id": "wh-ever-words-13",
+   "type": "choice",
+   "q": "___ I see him, he smiles. (щоразу)",
+   "options": [
+    "Whenever",
+    "Whatever",
+    "Wherever",
+    "However"
+   ],
+   "answer": 0,
+   "why": "Whenever — щоразу, коли."
+  },
+  {
+   "id": "wh-ever-words-14",
+   "type": "choice",
+   "q": "I'll love you ___ happens.",
+   "options": [
+    "whatever",
+    "whenever",
+    "wherever",
+    "whoever"
+   ],
+   "answer": 0,
+   "why": "whatever happens — що б не сталося."
+  },
+  {
+   "id": "wh-ever-words-15",
+   "type": "choice",
+   "q": "___ much it costs, I'll buy it.",
+   "options": [
+    "However",
+    "Whatever",
+    "Whichever",
+    "Whenever"
+   ],
+   "answer": 0,
+   "why": "However much — скільки б не."
+  },
+  {
+   "id": "wh-ever-words-16",
+   "type": "choice",
+   "q": "\"Pizza or pasta?\" — \"___. I'm not fussy.\"",
+   "options": [
+    "Whichever",
+    "Whoever",
+    "Wherever",
+    "However"
+   ],
+   "answer": 0,
+   "why": "Whichever — будь-що з двох."
+  },
+  {
+   "id": "wh-ever-words-17",
+   "type": "order",
+   "words": [
+    "You",
+    "can",
+    "eat",
+    "whatever",
+    "you",
+    "want"
+   ],
+   "answer": [
+    "You can eat whatever you want"
+   ],
+   "why": "whatever — що завгодно.",
+   "hint": "Можеш їсти що завгодно."
+  },
+  {
+   "id": "wh-ever-words-18",
+   "type": "order",
+   "words": [
+    "Call",
+    "me",
+    "whenever",
+    "you",
+    "like"
+   ],
+   "answer": [
+    "Call me whenever you like"
+   ],
+   "why": "whenever — коли завгодно.",
+   "hint": "Телефонуй мені, коли захочеш."
+  },
+  {
+   "id": "wh-ever-words-19",
+   "type": "order",
+   "words": [
+    "Wherever",
+    "you",
+    "go",
+    "I",
+    "will",
+    "follow",
+    "you"
+   ],
+   "answer": [
+    "Wherever you go I will follow you",
+    "Wherever you go, I will follow you"
+   ],
+   "why": "wherever — куди б не.",
+   "hint": "Куди б ти не пішов, я піду за тобою."
   }
  ]
 }

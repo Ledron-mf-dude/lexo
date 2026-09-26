@@ -103,6 +103,170 @@
    ],
    "answer": 1,
    "why": "Головне речення — питання."
+  },
+  {
+   "id": "indirect-questions-9",
+   "type": "fill",
+   "q": "Could you tell me where ___ bank is?",
+   "answer": [
+    "the"
+   ],
+   "why": "Прямий порядок: where the bank is.",
+   "hint": "Порядок слів"
+  },
+  {
+   "id": "indirect-questions-10",
+   "type": "fill",
+   "q": "Do you know ___ the museum is open today?",
+   "answer": [
+    "if",
+    "whether"
+   ],
+   "why": "Питання так/ні → if / whether."
+  },
+  {
+   "id": "indirect-questions-11",
+   "type": "fill",
+   "q": "I wonder what ___ means. (this word)",
+   "answer": [
+    "this word"
+   ],
+   "why": "Прямий порядок: what this word means.",
+   "hint": "Вставте підмет"
+  },
+  {
+   "id": "indirect-questions-12",
+   "type": "fill",
+   "q": "Can you tell me how much ___? (it / cost)",
+   "answer": [
+    "it costs"
+   ],
+   "why": "Без does: how much it costs."
+  },
+  {
+   "id": "indirect-questions-13",
+   "type": "choice",
+   "q": "Do you know where ___?",
+   "options": [
+    "she lives",
+    "does she live",
+    "lives she",
+    "she does live"
+   ],
+   "answer": 0,
+   "why": "Без допоміжного, прямий порядок."
+  },
+  {
+   "id": "indirect-questions-14",
+   "type": "choice",
+   "q": "Could you tell me what time ___?",
+   "options": [
+    "the train leaves",
+    "does the train leave",
+    "leaves the train",
+    "the train does leave"
+   ],
+   "answer": 0,
+   "why": "Прямий порядок слів."
+  },
+  {
+   "id": "indirect-questions-15",
+   "type": "choice",
+   "q": "I'm not sure ___ or not.",
+   "options": [
+    "whether he'll come",
+    "if he'll come or",
+    "will he come",
+    "whether will he come"
+   ],
+   "answer": 0,
+   "why": "whether or not — частіше з whether."
+  },
+  {
+   "id": "indirect-questions-16",
+   "type": "choice",
+   "q": "Do you have any idea ___?",
+   "options": [
+    "who called",
+    "who did call",
+    "who has called did",
+    "called who"
+   ],
+   "answer": 0,
+   "why": "Питання до підмета — прямий порядок уже є."
+  },
+  {
+   "id": "indirect-questions-17",
+   "type": "order",
+   "words": [
+    "Do",
+    "you",
+    "know",
+    "where",
+    "the",
+    "station",
+    "is"
+   ],
+   "answer": [
+    "Do you know where the station is"
+   ],
+   "why": "Прямий порядок: the station is.",
+   "hint": "Ви не знаєте, де вокзал?"
+  },
+  {
+   "id": "indirect-questions-18",
+   "type": "order",
+   "words": [
+    "Can",
+    "you",
+    "tell",
+    "me",
+    "what",
+    "time",
+    "it",
+    "is"
+   ],
+   "answer": [
+    "Can you tell me what time it is"
+   ],
+   "why": "what time it is.",
+   "hint": "Можете сказати, котра година?"
+  },
+  {
+   "id": "indirect-questions-19",
+   "type": "order",
+   "words": [
+    "I",
+    "wonder",
+    "why",
+    "she",
+    "left"
+   ],
+   "answer": [
+    "I wonder why she left"
+   ],
+   "why": "why + she left (без did).",
+   "hint": "Цікаво, чому вона пішла."
+  },
+  {
+   "id": "indirect-questions-20",
+   "type": "order",
+   "words": [
+    "Could",
+    "you",
+    "tell",
+    "me",
+    "if",
+    "the",
+    "shop",
+    "is",
+    "open"
+   ],
+   "answer": [
+    "Could you tell me if the shop is open"
+   ],
+   "why": "if + прямий порядок.",
+   "hint": "Скажіть, будь ласка, чи відкритий магазин?"
   }
  ]
 }

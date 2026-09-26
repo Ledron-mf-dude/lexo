@@ -55,4 +55,12 @@ tags: [verb preposition, depend on, listen to, wait for, look at, believe in, ap
 
 ## Прийменникові дієслова та фразові
 
+## Типові помилки
+
+- ✗ *It depends of the weather.* → ✓ *It depends **on** the weather.*
+- ✗ *We discussed about the problem.* → ✓ *We **discussed** the problem.*
+- ✗ *Listen me!* → ✓ ***Listen to** me!*
+- ✗ *I'm waiting you.* → ✓ *I'm waiting **for** you.*
+- ✗ *She married with Tom.* → ✓ *She **married** Tom.*
+
 Див. «Фразові дієслова: що це і як користуватися».

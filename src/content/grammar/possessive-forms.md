@@ -46,3 +46,11 @@ tags: [possessive, 's, s', of, whose, two hours' walk, a friend of mine, при�
 Для складених назв 's у кінці: *my **mother-in-law's** car*. Див. «Складні іменники».
 
 > Не плутайте: *the **teacher's** book* (однина) — *the **teachers'** room* (множина).
+
+## Типові помилки
+
+- ✗ *the car of my sister* → ✓ *my **sister's** car*
+- ✗ *my parent's house* (двоє батьків) → ✓ *my **parents'** house*
+- ✗ *the childrens' toys* → ✓ *the **children's** toys*
+- ✗ *a friend of me* → ✓ *a friend of **mine***
+- ✗ *the leg's table* → ✓ *the leg **of the table*** (для речей частіше of)

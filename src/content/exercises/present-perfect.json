@@ -122,6 +122,160 @@
     "I have lived here for ten years"
    ],
    "why": "for + період: Present Perfect."
+  },
+  {
+   "id": "present-perfect-11",
+   "type": "fill",
+   "q": "I ___ (know) him for ten years.",
+   "answer": [
+    "have known",
+    "'ve known"
+   ],
+   "why": "know — стан: Present Perfect Simple."
+  },
+  {
+   "id": "present-perfect-12",
+   "type": "fill",
+   "q": "She ___ (just / leave).",
+   "answer": [
+    "has just left",
+    "'s just left"
+   ],
+   "why": "just — Present Perfect."
+  },
+  {
+   "id": "present-perfect-13",
+   "type": "fill",
+   "q": "How long ___ you been waiting?",
+   "answer": [
+    "have"
+   ],
+   "why": "How long + have + been + V-ing."
+  },
+  {
+   "id": "present-perfect-14",
+   "type": "fill",
+   "q": "I ___ (never / be) to Japan.",
+   "answer": [
+    "have never been",
+    "'ve never been"
+   ],
+   "why": "Досвід — have never been."
+  },
+  {
+   "id": "present-perfect-15",
+   "type": "fill",
+   "q": "We ___ (live) here since 2010.",
+   "answer": [
+    "have lived",
+    "'ve lived",
+    "have been living",
+    "'ve been living"
+   ],
+   "why": "since + Present Perfect (Continuous)."
+  },
+  {
+   "id": "present-perfect-16",
+   "type": "choice",
+   "q": "___ you ever ___ a famous person?",
+   "options": [
+    "Have / met",
+    "Did / meet",
+    "Have / meet",
+    "Do / meet"
+   ],
+   "answer": 0,
+   "why": "ever — Present Perfect."
+  },
+  {
+   "id": "present-perfect-17",
+   "type": "choice",
+   "q": "I ___ my homework. Can I go out now?",
+   "options": [
+    "have finished",
+    "finished yesterday",
+    "am finishing",
+    "finish"
+   ],
+   "answer": 0,
+   "why": "Результат зараз — Present Perfect."
+  },
+  {
+   "id": "present-perfect-18",
+   "type": "choice",
+   "q": "She ___ three books this year.",
+   "options": [
+    "has written",
+    "wrote on",
+    "has been writing on",
+    "writes"
+   ],
+   "answer": 0,
+   "why": "Кількість, період триває — Present Perfect Simple."
+  },
+  {
+   "id": "present-perfect-19",
+   "type": "choice",
+   "q": "When ___ you ___ to London?",
+   "options": [
+    "did / move",
+    "have / moved",
+    "did / moved",
+    "have / move"
+   ],
+   "answer": 0,
+   "why": "When — Past Simple."
+  },
+  {
+   "id": "present-perfect-20",
+   "type": "order",
+   "words": [
+    "Have",
+    "you",
+    "ever",
+    "been",
+    "to",
+    "Italy"
+   ],
+   "answer": [
+    "Have you ever been to Italy"
+   ],
+   "why": "ever + Present Perfect.",
+   "hint": "Ти колись був в Італії?"
+  },
+  {
+   "id": "present-perfect-21",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "been",
+    "learning",
+    "English",
+    "for",
+    "two",
+    "years"
+   ],
+   "answer": [
+    "I have been learning English for two years"
+   ],
+   "why": "Present Perfect Continuous + for.",
+   "hint": "Я вивчаю англійську вже два роки."
+  },
+  {
+   "id": "present-perfect-22",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "just",
+    "called"
+   ],
+   "answer": [
+    "She has just called"
+   ],
+   "why": "just + Present Perfect.",
+   "hint": "Вона щойно зателефонувала."
   }
  ]
 }

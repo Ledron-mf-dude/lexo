@@ -46,4 +46,12 @@ tags: [although, though, even though, despite, in spite of, however, while, wher
 | **as a result / consequently** | **As a result,** prices rose. |
 | **so / such … that** | It was **so** cold **that** we stayed home. |
 
-Докладніше про `so … that`: «So, such». Слова-зв'язки для тексту: «Discourse markers».
+## Типові помилки
+
+- ✗ *Despite it was raining…* → ✓ *Despite **the rain**…* / ***Although** it was raining…*
+- ✗ *I went there for buy milk.* → ✓ *I went there **to buy** milk.*
+- ✗ *However it was late, we stayed.* (контраст) → ✓ *It was late. **However,** we stayed.*
+- ✗ *in order to not be late* → ✓ *in order **not to** be late*
+- ✗ *because of he was ill* → ✓ *because **he was ill*** / *because of **his illness***
+
+Докладніше про `so … that`: «So, such, such a, so much, so many». Слова-зв'язки для тексту: «Discourse markers».

@@ -120,3 +120,13 @@ tags: [past simple, irregular verbs, regular verbs, -ed, was were, v2, v3, не�
 | write | wrote | written | писати |
 
 > `Gone` — пішов і не повернувся; `been` — побував і повернувся: *She **has gone** to Paris* (зараз там) — *She **has been** to Paris* (була).
+
+Що далі: «Минулі часи: Past Simple, Continuous, Perfect» і «Present Perfect: simple, continuous і різниця з Past Simple» (там потрібна третя форма).
+
+## Типові помилки
+
+- ✗ *Did you went?* → ✓ *Did you **go**?*
+- ✗ *I buyed a car.* → ✓ *I **bought** a car.*
+- ✗ *She didn't came.* → ✓ *She didn't **come**.*
+- ✗ *They was at home.* → ✓ *They **were** at home.*
+- ✗ *I have wrote* → ✓ *I have **written*** (після have — V3, а не V2)

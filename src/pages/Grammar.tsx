@@ -1,11 +1,15 @@
 import { useEffect, useRef } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import LevelBadge from '../components/LevelBadge'
+import { exercises, questionCount } from '../lib/exercises'
+import { allMistakes, useExerciseLog } from '../lib/exerciseLog'
 import { LEVELS, articles, categories, levelCounts, searchArticles, startLevel, type Article, type Hit, type Level } from '../lib/grammar'
+import { useTitle } from '../lib/useTitle'
 
 type View = 'category' | 'level'
 
 export default function Grammar() {
+  useTitle('Граматика')
   const [params, setParams] = useSearchParams()
   const q = params.get('q') ?? ''
   const level = (LEVELS as readonly string[]).includes(params.get('level') ?? '') ? (params.get('level') as Level) : null
@@ -13,6 +17,9 @@ export default function Grammar() {
   const view: View = params.get('view') === 'level' ? 'level' : 'category'
   const searching = q.trim() !== ''
   const input = useRef<HTMLInputElement>(null)
+  const navigate = useNavigate()
+  const log = useExerciseLog()
+  const mistakes = allMistakes(log.data, exercises).length
 
   // Filters live in the URL, so Back from an article returns to the same list.
   function update(next: Record<string, string | null>) {
@@ -109,6 +116,30 @@ export default function Grammar() {
           </div>
         </div>
       </div>
+
+      {!searching && (
+        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
+          <div className="min-w-0">
+            <p className="font-medium">Змішані вправи</p>
+            <p className="text-sm text-white/45">
+              {level || category ? `15 запитань з тем: ${[level, category].filter(Boolean).join(' · ')}` : `15 випадкових запитань з ${questionCount} у ${exercises.size} темах`}
+            </p>
+          </div>
+          <div className="flex w-full gap-2 *:flex-1 sm:w-auto sm:*:flex-none">
+            {mistakes > 0 && (
+              <button onClick={() => navigate('/grammar/practice?mistakes=1')} className="btn-ghost">
+                Помилки · {mistakes}
+              </button>
+            )}
+            <button
+              onClick={() => navigate(`/grammar/practice?${new URLSearchParams(Object.entries({ level, cat: category }).filter((e): e is [string, string] => Boolean(e[1]))).toString()}`)}
+              className="btn-primary"
+            >
+              Почати
+            </button>
+          </div>
+        </div>
+      )}
 
       {!searching && (
         <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-white/45">

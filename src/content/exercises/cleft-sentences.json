@@ -106,6 +106,146 @@
     "What I need is a rest"
    ],
    "why": "What + підмет + дієслово + is."
+  },
+  {
+   "id": "cleft-sentences-9",
+   "type": "fill",
+   "q": "It was my sister ___ found the keys.",
+   "answer": [
+    "who",
+    "that"
+   ],
+   "why": "It was + людина + who/that."
+  },
+  {
+   "id": "cleft-sentences-10",
+   "type": "fill",
+   "q": "___ I love about this city is the food.",
+   "answer": [
+    "What"
+   ],
+   "why": "What-cleft: What I love … is…"
+  },
+  {
+   "id": "cleft-sentences-11",
+   "type": "fill",
+   "q": "___ he did was complain.",
+   "answer": [
+    "All"
+   ],
+   "why": "All + підмет + дієслово + was."
+  },
+  {
+   "id": "cleft-sentences-12",
+   "type": "fill",
+   "q": "It ___ in 2015 that we met.",
+   "answer": [
+    "was"
+   ],
+   "why": "It was + час + that."
+  },
+  {
+   "id": "cleft-sentences-13",
+   "type": "choice",
+   "q": "___ matters is your health.",
+   "options": [
+    "What",
+    "It",
+    "That",
+    "Which"
+   ],
+   "answer": 0,
+   "why": "What matters is… — виділення."
+  },
+  {
+   "id": "cleft-sentences-14",
+   "type": "choice",
+   "q": "It was the noise ___ kept me awake.",
+   "options": [
+    "that",
+    "what",
+    "where",
+    "when"
+   ],
+   "answer": 0,
+   "why": "It was + річ + that."
+  },
+  {
+   "id": "cleft-sentences-15",
+   "type": "choice",
+   "q": "The place ___ we met was a small café.",
+   "options": [
+    "where",
+    "what",
+    "who",
+    "which it"
+   ],
+   "answer": 0,
+   "why": "the place where…"
+  },
+  {
+   "id": "cleft-sentences-16",
+   "type": "choice",
+   "q": "No, it wasn't Anna ___ called — it was Kate.",
+   "options": [
+    "who",
+    "which",
+    "what",
+    "where"
+   ],
+   "answer": 0,
+   "why": "Виправлення інформації: It wasn't … who."
+  },
+  {
+   "id": "cleft-sentences-17",
+   "type": "order",
+   "words": [
+    "It",
+    "was",
+    "John",
+    "who",
+    "told",
+    "me"
+   ],
+   "answer": [
+    "It was John who told me"
+   ],
+   "why": "It was + людина + who.",
+   "hint": "Саме Джон мені сказав."
+  },
+  {
+   "id": "cleft-sentences-18",
+   "type": "order",
+   "words": [
+    "What",
+    "I",
+    "need",
+    "is",
+    "more",
+    "time"
+   ],
+   "answer": [
+    "What I need is more time"
+   ],
+   "why": "What + підмет + дієслово + is.",
+   "hint": "Що мені потрібно — це більше часу."
+  },
+  {
+   "id": "cleft-sentences-19",
+   "type": "order",
+   "words": [
+    "All",
+    "she",
+    "wanted",
+    "was",
+    "a",
+    "holiday"
+   ],
+   "answer": [
+    "All she wanted was a holiday"
+   ],
+   "why": "All + підмет + дієслово + was.",
+   "hint": "Усе, чого вона хотіла, — це відпустка."
   }
  ]
 }

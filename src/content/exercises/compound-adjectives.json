@@ -50,7 +50,7 @@
     "well knowing"
    ],
    "answer": 0,
-   "why": "well-known."
+   "why": "well-known — прислівник + дієприкметник: складний прикметник."
   },
   {
    "id": "compound-adjectives-5",
@@ -63,7 +63,7 @@
     "full-timed"
    ],
    "answer": 0,
-   "why": "full-time."
+   "why": "full-time — на повний робочий день."
   },
   {
    "id": "compound-adjectives-6",
@@ -76,7 +76,7 @@
     "third-course"
    ],
    "answer": 0,
-   "why": "three-course."
+   "why": "three-course — із трьох страв (іменник в однині)."
   },
   {
    "id": "compound-adjectives-7",
@@ -89,7 +89,7 @@
     "five-old-year"
    ],
    "answer": 0,
-   "why": "five-year-old."
+   "why": "five-year-old — іменник у складі в однині, через дефіс."
   },
   {
    "id": "compound-adjectives-8",
@@ -103,6 +103,153 @@
    ],
    "answer": 3,
    "why": "tomorrow — не складний прикметник."
+  },
+  {
+   "id": "compound-adjectives-9",
+   "type": "fill",
+   "q": "It's a ___ drive to the airport. (two hours)",
+   "answer": [
+    "two-hour"
+   ],
+   "why": "Складний прикметник: іменник в однині, дефіс."
+  },
+  {
+   "id": "compound-adjectives-10",
+   "type": "fill",
+   "q": "She has a ___ daughter. (six years old)",
+   "answer": [
+    "six-year-old"
+   ],
+   "why": "six-year-old — через дефіси, year в однині."
+  },
+  {
+   "id": "compound-adjectives-11",
+   "type": "fill",
+   "q": "We bought a ___ house. (it has three bedrooms)",
+   "answer": [
+    "three-bedroom"
+   ],
+   "why": "three-bedroom — іменник в однині.",
+   "hint": "(three bedrooms)"
+  },
+  {
+   "id": "compound-adjectives-12",
+   "type": "fill",
+   "q": "He's a very ___ person. (works hard)",
+   "answer": [
+    "hard-working"
+   ],
+   "why": "прикметник + -ing: hard-working."
+  },
+  {
+   "id": "compound-adjectives-13",
+   "type": "fill",
+   "q": "She has ___ eyes. (blue)",
+   "answer": [
+    "blue-eyed"
+   ],
+   "why": "прикметник + іменник + -ed: blue-eyed.",
+   "hint": "(blue eyes)"
+  },
+  {
+   "id": "compound-adjectives-14",
+   "type": "choice",
+   "q": "I need a ___ note. (ten pounds)",
+   "options": [
+    "ten-pound",
+    "ten-pounds",
+    "ten pounds",
+    "ten-poundes"
+   ],
+   "answer": 0,
+   "why": "Іменник у складному прикметнику — однина."
+  },
+  {
+   "id": "compound-adjectives-15",
+   "type": "choice",
+   "q": "It was a ___ decision. (made quickly)",
+   "options": [
+    "last-minute",
+    "last-minutes",
+    "minute-last",
+    "last minute's"
+   ],
+   "answer": 0,
+   "why": "last-minute — в останню хвилину."
+  },
+  {
+   "id": "compound-adjectives-16",
+   "type": "choice",
+   "q": "My grandfather has very ___ ideas. (not modern)",
+   "options": [
+    "old-fashioned",
+    "old-fashion",
+    "fashioned-old",
+    "old fashions"
+   ],
+   "answer": 0,
+   "why": "old-fashioned — старомодний."
+  },
+  {
+   "id": "compound-adjectives-17",
+   "type": "choice",
+   "q": "The author is ___ in Europe. (after the verb)",
+   "options": [
+    "well known",
+    "well-knowing",
+    "well-knowned",
+    "good known"
+   ],
+   "answer": 0,
+   "why": "Після дієслова часто без дефіса: well known."
+  },
+  {
+   "id": "compound-adjectives-18",
+   "type": "order",
+   "words": [
+    "We",
+    "had",
+    "a",
+    "three-course",
+    "meal"
+   ],
+   "answer": [
+    "We had a three-course meal"
+   ],
+   "why": "three-course — однина.",
+   "hint": "Ми мали обід із трьох страв."
+  },
+  {
+   "id": "compound-adjectives-19",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "a",
+    "part-time",
+    "job"
+   ],
+   "answer": [
+    "She has a part-time job"
+   ],
+   "why": "part-time — перед іменником з дефісом.",
+   "hint": "Вона працює неповний робочий день."
+  },
+  {
+   "id": "compound-adjectives-20",
+   "type": "order",
+   "words": [
+    "It",
+    "was",
+    "a",
+    "ten-minute",
+    "walk"
+   ],
+   "answer": [
+    "It was a ten-minute walk"
+   ],
+   "why": "ten-minute — однина.",
+   "hint": "Це була десятихвилинна прогулянка."
   }
  ]
 }

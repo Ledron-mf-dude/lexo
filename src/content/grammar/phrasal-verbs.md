@@ -43,4 +43,11 @@ tags: [phrasal verbs, separable, inseparable, transitive, intransitive, particle
 | **Phrasal verb** | give up, turn on | частка змінює значення |
 | **Prepositional verb** | look at, listen to, depend on | прийменник просто вимагається дієсловом |
 
+## Типові помилки
+
+- ✗ *Pick up it.* → ✓ *Pick **it up**.* (займенник — всередині)
+- ✗ *She looks her after.* → ✓ *She **looks after** her.* (нероздільне)
+- ✗ *I can't put up noise.* → ✓ *I can't put up **with** noise.*
+- ✗ *The plane took off the ground at 6.* → ✓ *The plane **took off** at 6.* (take off = злетіти, без додатка)
+
 Перелік найуживаніших — у статті «Поширені фразові дієслова».

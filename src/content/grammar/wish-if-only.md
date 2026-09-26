@@ -44,4 +44,11 @@ tags: [wish, if only, it's time, regrets, побажання, шкодую, як
 
 - *I'd rather you **stayed** here.* — Я б хотів, щоб ти залишився.
 
-Порівняйте з `would rather` + інфінітив (свої переваги): «Would rather».
+## Типові помилки
+
+- ✗ *I wish I have more time.* → ✓ *I wish I **had** more time.*
+- ✗ *I wish I didn't say it yesterday.* → ✓ *I wish I **hadn't said** it.*
+- ✗ *I wish I would be taller.* → ✓ *I wish I **were** taller.*
+- ✗ *It's time we go home.* → ✓ *It's time we **went** home.*
+
+Порівняйте з `would rather` + інфінітив (свої переваги): «Would rather». Ширше про минулий час у нереальних ситуаціях (as if, suppose) — «Нереальний минулий час: as if, suppose, it's time, I'd rather you».

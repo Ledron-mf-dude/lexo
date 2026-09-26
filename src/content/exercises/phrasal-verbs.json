@@ -103,6 +103,152 @@
    ],
    "answer": 0,
    "why": "Значення часто ідіоматичне."
+  },
+  {
+   "id": "phrasal-verbs-9",
+   "type": "fill",
+   "q": "Can you turn the music ___? It's too loud.",
+   "answer": [
+    "down"
+   ],
+   "why": "turn down — зменшити гучність."
+  },
+  {
+   "id": "phrasal-verbs-10",
+   "type": "fill",
+   "q": "I'll pick you ___ at eight.",
+   "answer": [
+    "up"
+   ],
+   "why": "pick up — заїхати, забрати."
+  },
+  {
+   "id": "phrasal-verbs-11",
+   "type": "fill",
+   "q": "She takes ___ her mother. They look alike.",
+   "answer": [
+    "after"
+   ],
+   "why": "take after — бути схожим (на родича)."
+  },
+  {
+   "id": "phrasal-verbs-12",
+   "type": "fill",
+   "q": "Please turn ___ the lights when you leave.",
+   "answer": [
+    "off"
+   ],
+   "why": "turn off — вимкнути."
+  },
+  {
+   "id": "phrasal-verbs-13",
+   "type": "fill",
+   "q": "I can't put ___ with this noise any longer.",
+   "answer": [
+    "up"
+   ],
+   "why": "put up with — терпіти."
+  },
+  {
+   "id": "phrasal-verbs-14",
+   "type": "choice",
+   "q": "Could you fill ___ this form?",
+   "options": [
+    "in",
+    "on",
+    "up",
+    "at"
+   ],
+   "answer": 0,
+   "why": "fill in — заповнити."
+  },
+  {
+   "id": "phrasal-verbs-15",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "Turn it off.",
+    "Turn off it.",
+    "It turn off.",
+    "Off turn it."
+   ],
+   "answer": 0,
+   "why": "Займенник — всередині роздільного дієслова."
+  },
+  {
+   "id": "phrasal-verbs-16",
+   "type": "choice",
+   "q": "'Look up' in 'Look up the word' means:",
+   "options": [
+    "find in a dictionary",
+    "look at the sky",
+    "respect",
+    "visit"
+   ],
+   "answer": 0,
+   "why": "look up — знайти в довіднику."
+  },
+  {
+   "id": "phrasal-verbs-17",
+   "type": "choice",
+   "q": "We ran ___ of time and couldn't finish.",
+   "options": [
+    "out",
+    "off",
+    "away",
+    "down"
+   ],
+   "answer": 0,
+   "why": "run out of — закінчитися."
+  },
+  {
+   "id": "phrasal-verbs-18",
+   "type": "order",
+   "words": [
+    "I",
+    "will",
+    "look",
+    "after",
+    "your",
+    "cat"
+   ],
+   "answer": [
+    "I will look after your cat"
+   ],
+   "why": "look after — нероздільне.",
+   "hint": "Я доглядатиму твого кота."
+  },
+  {
+   "id": "phrasal-verbs-19",
+   "type": "order",
+   "words": [
+    "She",
+    "turned",
+    "the",
+    "job",
+    "down"
+   ],
+   "answer": [
+    "She turned the job down"
+   ],
+   "why": "turn down — роздільне.",
+   "hint": "Вона відмовилася від роботи."
+  },
+  {
+   "id": "phrasal-verbs-20",
+   "type": "order",
+   "words": [
+    "Please",
+    "put",
+    "your",
+    "coat",
+    "on"
+   ],
+   "answer": [
+    "Please put your coat on"
+   ],
+   "why": "put on — роздільне.",
+   "hint": "Одягни пальто, будь ласка."
   }
  ]
 }

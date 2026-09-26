@@ -2,6 +2,7 @@
 title: Ступені порівняння прикметників і прислівників
 category: Прикметники та прислівники
 levels: [A1, A2, B1]
+aliases: [Ступені порівняння]
 tags: [comparative, superlative, older than, the oldest, more important, the most important, better, worse, further, ступені порівняння]
 ---
 
@@ -57,3 +58,11 @@ tags: [comparative, superlative, older than, the oldest, more important, the mos
 - *She is **one of the best** players in the team.*
 - *It's getting **colder and colder**.* — усе холодніше.
 - Двоскладові на -er, -le, -ow допускають обидві форми: *clever → cleverer / more clever*, *simple → simpler / more simple*.
+
+## Типові помилки
+
+- ✗ *more better* → ✓ ***better***
+- ✗ *the most tallest* → ✓ ***the tallest***
+- ✗ *She is taller that me.* → ✓ *…taller **than** me.*
+- ✗ *the best in the world of* → ✓ *the best **in** the world* (in — місце, of — група: *the best of all*)
+- ✗ *more easy* → ✓ ***easier*** (двоскладові на -y)

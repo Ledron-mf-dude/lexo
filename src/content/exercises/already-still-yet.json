@@ -103,6 +103,156 @@
    ],
    "answer": 0,
    "why": "already у питанні — здивування."
+  },
+  {
+   "id": "already-still-yet-9",
+   "type": "fill",
+   "q": "Have you finished ___?",
+   "answer": [
+    "yet"
+   ],
+   "why": "yet — у питанні, в кінці."
+  },
+  {
+   "id": "already-still-yet-10",
+   "type": "fill",
+   "q": "I'm ___ waiting for an answer.",
+   "answer": [
+    "still"
+   ],
+   "why": "still — дія все ще триває."
+  },
+  {
+   "id": "already-still-yet-11",
+   "type": "fill",
+   "q": "She has ___ left. You've missed her.",
+   "answer": [
+    "already"
+   ],
+   "why": "already — вже (раніше, ніж очікували)."
+  },
+  {
+   "id": "already-still-yet-12",
+   "type": "fill",
+   "q": "They haven't decided ___.",
+   "answer": [
+    "yet"
+   ],
+   "why": "yet — у запереченні: ще не."
+  },
+  {
+   "id": "already-still-yet-13",
+   "type": "fill",
+   "q": "He ___ hasn't paid me back.",
+   "answer": [
+    "still"
+   ],
+   "why": "still + заперечення: досі не."
+  },
+  {
+   "id": "already-still-yet-14",
+   "type": "choice",
+   "q": "It's 10 pm and the shop is ___ open.",
+   "options": [
+    "still",
+    "yet",
+    "already",
+    "ever"
+   ],
+   "answer": 0,
+   "why": "still — все ще."
+  },
+  {
+   "id": "already-still-yet-15",
+   "type": "choice",
+   "q": "I've ___ seen this film twice.",
+   "options": [
+    "already",
+    "yet",
+    "still",
+    "ever"
+   ],
+   "answer": 0,
+   "why": "already — вже."
+  },
+  {
+   "id": "already-still-yet-16",
+   "type": "choice",
+   "q": "Has the parcel arrived ___?",
+   "options": [
+    "yet",
+    "already",
+    "still",
+    "since"
+   ],
+   "answer": 0,
+   "why": "yet — у питанні."
+  },
+  {
+   "id": "already-still-yet-17",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "already",
+    "sent",
+    "the",
+    "email"
+   ],
+   "answer": [
+    "I have already sent the email"
+   ],
+   "why": "already — між have і V3.",
+   "hint": "Я вже надіслав листа."
+  },
+  {
+   "id": "already-still-yet-18",
+   "type": "order",
+   "words": [
+    "She",
+    "still",
+    "lives",
+    "with",
+    "her",
+    "parents"
+   ],
+   "answer": [
+    "She still lives with her parents"
+   ],
+   "why": "still — перед основним дієсловом.",
+   "hint": "Вона досі живе з батьками."
+  },
+  {
+   "id": "already-still-yet-19",
+   "type": "order",
+   "words": [
+    "We",
+    "haven't",
+    "had",
+    "lunch",
+    "yet"
+   ],
+   "answer": [
+    "We haven't had lunch yet"
+   ],
+   "why": "yet — у кінці заперечного речення.",
+   "hint": "Ми ще не обідали."
+  },
+  {
+   "id": "already-still-yet-20",
+   "type": "order",
+   "words": [
+    "Is",
+    "it",
+    "still",
+    "raining",
+    "outside"
+   ],
+   "answer": [
+    "Is it still raining outside"
+   ],
+   "why": "still — після підмета в питанні з be.",
+   "hint": "На вулиці досі йде дощ?"
   }
  ]
 }

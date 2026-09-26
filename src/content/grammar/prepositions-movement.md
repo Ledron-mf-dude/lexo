@@ -51,3 +51,10 @@ tags: [prepositions of movement, to, from, into, out of, through, across, along,
 ## Home
 
 Без `to`: *go **home**, come **home**, get **home***. Див. «Дієслово go».
+
+## Типові помилки
+
+- ✗ *I arrived to London.* → ✓ *I arrived **in** London.* (**at** the station)
+- ✗ *go to home* → ✓ *go **home***
+- ✗ *He went in the room.* (рух) → ✓ *He went **into** the room.*
+- ✗ *get off the car* → ✓ *get **out of** the car* (але *get off the bus*)

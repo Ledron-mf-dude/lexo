@@ -34,7 +34,7 @@ tags: [noun preposition, reason for, increase in, demand for, solution to, diffe
 
 | Іменник | Прийменник | Не плутайте |
 | --- | --- | --- |
-| **increase** | **in** (сфері) | **an increase in** prices |
+| **increase** | **in** (у чому зростання) | **an increase in** prices |
 | **increase** | **of** (на скільки) | **an increase of** 5% |
 | **reason** | **for** (причина чого) | the **reason for** delay |
 | **cause** | **of** (причина чого) | the **cause of** the accident |
@@ -42,5 +42,12 @@ tags: [noun preposition, reason for, increase in, demand for, solution to, diffe
 ## Після прийменника
 
 Далі — іменник, займенник або gerund: *reason **for being** late*, *idea **of moving***. Див. «Gerund».
+
+## Типові помилки
+
+- ✗ *the reason of the delay* → ✓ *the reason **for** the delay*
+- ✗ *an increase of prices* → ✓ *an increase **in** prices* (але *an increase **of** 5%*)
+- ✗ *the solution of the problem* → ✓ *the solution **to** the problem*
+- ✗ *the difference of them* → ✓ *the difference **between** them*
 
 Про дієслова й прикметники з прийменниками: «Дієслово + прийменник», «Прикметник + прийменник».

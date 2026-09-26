@@ -47,3 +47,10 @@ tags: [this, that, these, those, demonstratives, this or it, вказівні з
 - *At **that** time* — тоді.
 - *This week / this year* — цього тижня / цього року.
 - ***That's** right. / **That's** all.*
+
+## Типові помилки
+
+- ✗ *This books are mine.* → ✓ ***These** books are mine.*
+- ✗ *Those is my car.* → ✓ ***That** is my car.*
+- ✗ *I'm busy that week.* (про поточний) → ✓ *I'm busy **this** week.*
+- ✗ *This is raining.* → ✓ ***It** is raining.* (погода — it)

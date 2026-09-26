@@ -17,7 +17,7 @@ tags: [future, future forms, be going to, present continuous for future, will, �
 | **Present Simple** | розклади (**timetables, schedules**) | My flight **arrives** at 10 am. |
 | **Future Simple** (will) | загальні прогнози (**general predictions**) | Life **will be** better in the future. |
 | **Future Simple** (will) | рішення «на ходу» (**on-the-spot decisions**) | I **will open** the window. |
-| **Future Simple** (will) | обіцянки, погрози, попередження (**promises, threats, warnings**) | Stop or I **will shoot**. |
+| **Future Simple** (will) | обіцянки, попередження (**promises, warnings**) | **I'll** call you tonight, I promise. / Be careful or **you'll** fall. |
 
 ## Як не заплутатися
 
@@ -26,5 +26,12 @@ tags: [future, future forms, be going to, present continuous for future, will, �
 - **Бачимо ознаки, що це станеться** → be going to: *Look at those clouds! It's going to rain.*
 - **Розклад, який не залежить від нас** → Present Simple: *The train leaves at 9.*
 - **Вирішив просто зараз, обіцяю, прогнозую загалом** → will: *I'll help you.*
+
+## Типові помилки
+
+- ✗ *I will meet Tom at 6. We agreed yesterday.* → ✓ ***I'm meeting** Tom at 6.* (домовленість)
+- ✗ *Look at those clouds! It will rain.* → ✓ *…**It's going to** rain.* (є ознаки)
+- ✗ *The phone's ringing. I'm going to answer it.* (рішення зараз) → ✓ ***I'll** answer it.*
+- ✗ *The train will leave at 9.* (розклад) → ✓ *The train **leaves** at 9.*
 
 Докладніше про `will` та `shall` — стаття «Future Simple: will і shall».

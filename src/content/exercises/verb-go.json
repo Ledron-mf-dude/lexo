@@ -103,6 +103,151 @@
    ],
    "answer": 0,
    "why": "go on — продовжувати."
+  },
+  {
+   "id": "verb-go-9",
+   "type": "fill",
+   "q": "Let's go ___ holiday in June.",
+   "answer": [
+    "on"
+   ],
+   "why": "go on holiday."
+  },
+  {
+   "id": "verb-go-10",
+   "type": "fill",
+   "q": "We went ___ in the mountains. (skiing)",
+   "answer": [
+    "skiing"
+   ],
+   "why": "go + -ing — активності."
+  },
+  {
+   "id": "verb-go-11",
+   "type": "fill",
+   "q": "He's ___ to the shop. He'll be back soon. (пішов і ще там)",
+   "answer": [
+    "gone"
+   ],
+   "why": "has gone — ще не повернувся."
+  },
+  {
+   "id": "verb-go-12",
+   "type": "fill",
+   "q": "Everything went ___. It was a disaster.",
+   "answer": [
+    "wrong"
+   ],
+   "why": "go wrong — піти не так."
+  },
+  {
+   "id": "verb-go-13",
+   "type": "fill",
+   "q": "Prices are going ___. (зростають)",
+   "answer": [
+    "up"
+   ],
+   "why": "go up — зростати."
+  },
+  {
+   "id": "verb-go-14",
+   "type": "choice",
+   "q": "I usually go to work ___ foot.",
+   "options": [
+    "on",
+    "by",
+    "with",
+    "in"
+   ],
+   "answer": 0,
+   "why": "on foot — пішки."
+  },
+  {
+   "id": "verb-go-15",
+   "type": "choice",
+   "q": "Would you like to go ___ a drink?",
+   "options": [
+    "for",
+    "to",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "why": "go for a drink."
+  },
+  {
+   "id": "verb-go-16",
+   "type": "choice",
+   "q": "Have you ever ___ to Paris?",
+   "options": [
+    "been",
+    "gone",
+    "went",
+    "go"
+   ],
+   "answer": 0,
+   "why": "have been to — досвід (побував)."
+  },
+  {
+   "id": "verb-go-17",
+   "type": "choice",
+   "q": "Please go ___. I'm listening.",
+   "options": [
+    "on",
+    "up",
+    "off",
+    "away"
+   ],
+   "answer": 0,
+   "why": "go on — продовжуй."
+  },
+  {
+   "id": "verb-go-18",
+   "type": "order",
+   "words": [
+    "We",
+    "went",
+    "shopping",
+    "on",
+    "Saturday"
+   ],
+   "answer": [
+    "We went shopping on Saturday"
+   ],
+   "why": "go shopping.",
+   "hint": "У суботу ми ходили по магазинах."
+  },
+  {
+   "id": "verb-go-19",
+   "type": "order",
+   "words": [
+    "Let's",
+    "go",
+    "for",
+    "a",
+    "walk"
+   ],
+   "answer": [
+    "Let's go for a walk"
+   ],
+   "why": "go for a walk.",
+   "hint": "Ходімо на прогулянку."
+  },
+  {
+   "id": "verb-go-20",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "gone",
+    "to",
+    "work"
+   ],
+   "answer": [
+    "She has gone to work"
+   ],
+   "why": "has gone — ще там.",
+   "hint": "Вона пішла на роботу."
   }
  ]
 }

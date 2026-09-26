@@ -47,3 +47,11 @@ tags: [gerund, infinitive, to do, doing, verb patterns, stop, remember, try, for
 
 - *I went to the shop **to buy** milk.* / *She works hard **in order to** succeed.*
 - Після `for` — іменник або gerund: *a tool **for cutting** wood*.
+
+## Типові помилки
+
+- ✗ *I decided going.* → ✓ *I decided **to go**.*
+- ✗ *He stopped to smoke.* (якщо кинув) → ✓ *He stopped **smoking**.*
+- ✗ *Remember locking the door!* (не забудь) → ✓ *Remember **to lock** the door!*
+- ✗ *She refused helping.* → ✓ *She refused **to help**.*
+- ✗ *I can't afford buying it.* → ✓ *I can't afford **to buy** it.*

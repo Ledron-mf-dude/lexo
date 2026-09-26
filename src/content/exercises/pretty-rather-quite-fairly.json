@@ -104,6 +104,143 @@
     "It was pretty good"
    ],
    "why": "pretty + adj."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-9",
+   "type": "fill",
+   "q": "I'm ___ sure I locked the door. (цілком)",
+   "answer": [
+    "quite",
+    "pretty"
+   ],
+   "why": "quite / pretty sure — цілком упевнений."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-10",
+   "type": "fill",
+   "q": "The flat is ___ small, unfortunately. (доволі, недолік)",
+   "answer": [
+    "rather"
+   ],
+   "why": "rather — часто з відтінком недоліку."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-11",
+   "type": "fill",
+   "q": "She has ___ a few friends here.",
+   "answer": [
+    "quite"
+   ],
+   "why": "quite a few — чимало."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-12",
+   "type": "fill",
+   "q": "It's a ___ good restaurant. (досить, розм.)",
+   "answer": [
+    "pretty"
+   ],
+   "why": "pretty — розмовне «досить»."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-13",
+   "type": "choice",
+   "q": "It was ___ long film.",
+   "options": [
+    "rather a",
+    "a rather long a",
+    "rather",
+    "a rather"
+   ],
+   "answer": 0,
+   "why": "rather a + adj + noun (або a rather)."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-14",
+   "type": "choice",
+   "q": "The exam was ___ easy — I passed without problems.",
+   "options": [
+    "fairly",
+    "fair",
+    "fairy",
+    "fairly an"
+   ],
+   "answer": 0,
+   "why": "fairly — помірно."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-15",
+   "type": "choice",
+   "q": "You're ___ right! (абсолютно)",
+   "options": [
+    "quite",
+    "fairly",
+    "rather",
+    "pretty much a"
+   ],
+   "answer": 0,
+   "why": "quite + абсолютне слово — цілком."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-16",
+   "type": "choice",
+   "q": "I ___ like it. (досить подобається)",
+   "options": [
+    "quite",
+    "fairly a",
+    "pretty much of",
+    "rather a"
+   ],
+   "answer": 0,
+   "why": "quite like — досить подобається."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-17",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "quite",
+    "a",
+    "nice",
+    "day"
+   ],
+   "answer": [
+    "It is quite a nice day"
+   ],
+   "why": "quite a + adj + noun.",
+   "hint": "Сьогодні досить гарний день."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-18",
+   "type": "order",
+   "words": [
+    "The",
+    "test",
+    "was",
+    "fairly",
+    "easy"
+   ],
+   "answer": [
+    "The test was fairly easy"
+   ],
+   "why": "fairly + adj.",
+   "hint": "Тест був досить легким."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-19",
+   "type": "order",
+   "words": [
+    "I",
+    "am",
+    "pretty",
+    "tired"
+   ],
+   "answer": [
+    "I am pretty tired"
+   ],
+   "why": "pretty + adj.",
+   "hint": "Я досить утомився."
   }
  ]
 }

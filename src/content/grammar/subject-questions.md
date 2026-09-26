@@ -2,6 +2,7 @@
 title: Subject questions і питання з прийменником
 category: Запитання та відповіді
 levels: [A2]
+aliases: [Subject questions]
 tags: [subject questions, object questions, who called, what happened, prepositions in questions, who did you go with, питання до підмета]
 ---
 
@@ -45,7 +46,7 @@ tags: [subject questions, object questions, who called, what happened, prepositi
 
 У формальному мовленні прийменник — на початку: ***With whom** did you go?* / ***To whom** are you talking?*
 
-## Кілька підметів
+## Дієслово після who / what — в однині
 
 - ***Who** knows the answer?* — однина: *Who **knows**?* (не *know*)
 - ***What** makes you happy?* — підмет.
@@ -54,5 +55,12 @@ tags: [subject questions, object questions, who called, what happened, prepositi
 
 1. Питальне слово — **підмет** → просто дієслово: ***Who** phoned?*
 2. Питальне слово — **додаток** → допоміжне + підмет + дієслово: ***Who** did you phone?*
+
+## Типові помилки
+
+- ✗ *Who did call you?* → ✓ ***Who called** you?*
+- ✗ *What did happen?* → ✓ ***What happened**?*
+- ✗ *Who know the answer?* → ✓ *Who **knows** the answer?*
+- ✗ *Who you are talking to?* → ✓ *Who **are you** talking to?*
 
 Див. «Питання в англійській: порядок слів».

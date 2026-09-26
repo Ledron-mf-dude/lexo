@@ -116,6 +116,152 @@
     "learning"
    ],
    "why": "Після прийменника in — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-11",
+   "type": "fill",
+   "q": "I don't mind ___ (work) late.",
+   "answer": [
+    "working"
+   ],
+   "why": "Після mind — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-12",
+   "type": "fill",
+   "q": "She avoided ___ (look) at me.",
+   "answer": [
+    "looking"
+   ],
+   "why": "Після avoid — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-13",
+   "type": "fill",
+   "q": "Have you finished ___ (read) the report?",
+   "answer": [
+    "reading"
+   ],
+   "why": "Після finish — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-14",
+   "type": "fill",
+   "q": "He keeps ___ (forget) my name.",
+   "answer": [
+    "forgetting"
+   ],
+   "why": "Після keep — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-15",
+   "type": "fill",
+   "q": "I feel like ___ (go) out tonight.",
+   "answer": [
+    "going"
+   ],
+   "why": "feel like + gerund."
+  },
+  {
+   "id": "gerund-after-verbs-16",
+   "type": "choice",
+   "q": "There's no point ___ about it.",
+   "options": [
+    "in worrying",
+    "to worry",
+    "worry",
+    "worrying about in"
+   ],
+   "answer": 0,
+   "why": "there's no point in + -ing."
+  },
+  {
+   "id": "gerund-after-verbs-17",
+   "type": "choice",
+   "q": "I'm used to ___ up early.",
+   "options": [
+    "getting",
+    "get",
+    "got",
+    "have got"
+   ],
+   "answer": 0,
+   "why": "be used to + -ing."
+  },
+  {
+   "id": "gerund-after-verbs-18",
+   "type": "choice",
+   "q": "He denied ___ the window.",
+   "options": [
+    "breaking",
+    "to break",
+    "break",
+    "broke"
+   ],
+   "answer": 0,
+   "why": "Після deny — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-19",
+   "type": "choice",
+   "q": "Would you consider ___ abroad?",
+   "options": [
+    "working",
+    "to work",
+    "work",
+    "worked"
+   ],
+   "answer": 0,
+   "why": "Після consider — gerund."
+  },
+  {
+   "id": "gerund-after-verbs-20",
+   "type": "order",
+   "words": [
+    "I",
+    "can't",
+    "stand",
+    "waiting",
+    "in",
+    "queues"
+   ],
+   "answer": [
+    "I can't stand waiting in queues"
+   ],
+   "why": "can't stand + -ing.",
+   "hint": "Терпіти не можу чекати в чергах."
+  },
+  {
+   "id": "gerund-after-verbs-21",
+   "type": "order",
+   "words": [
+    "She",
+    "gave",
+    "up",
+    "eating",
+    "meat"
+   ],
+   "answer": [
+    "She gave up eating meat"
+   ],
+   "why": "give up + -ing.",
+   "hint": "Вона відмовилася від м'яса."
+  },
+  {
+   "id": "gerund-after-verbs-22",
+   "type": "order",
+   "words": [
+    "Thank",
+    "you",
+    "for",
+    "helping",
+    "me"
+   ],
+   "answer": [
+    "Thank you for helping me"
+   ],
+   "why": "for — прийменник, тому -ing.",
+   "hint": "Дякую, що допоміг мені."
   }
  ]
 }

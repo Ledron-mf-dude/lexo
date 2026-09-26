@@ -3,31 +3,50 @@ title: Would rather (краще б; віддавати перевагу)
 category: Модальні дієслова
 levels: [B1, B1+]
 aliases: [Would rather (краще б)]
-tags: [would rather, preference, 'd rather, перевага, краще б]
+tags: [would rather, 'd rather, would rather than, would rather you did, would rather have done, preference, перевага, краще б]
 ---
 
-`Would rather` виражає **перевагу**: «я б краще…». Вживається для **теперішнього і майбутнього** (не для минулого).
+`Would rather` ('d rather) — «я б краще…», перевага в конкретній ситуації. Після нього — **інфінітив без to**.
 
-## Правило
+## Власна перевага
 
-Після `would rather` стоїть **інфінітив без `to`** — тобто дієслово в чистій формі. Отже, не потрібні:
+| Тип | Схема | Приклад |
+| --- | --- | --- |
+| Ствердження | **would rather + V** | **I'd rather stay** at home. |
+| З порівнянням | **would rather + V + than + V** | I'd rather **walk than take** the bus. |
+| Заперечення | **would rather not + V** | I'd rather **not talk** about it. |
+| Питання | **Would** you **rather + V**? | **Would** you **rather** have tea or coffee? |
 
-1. закінчення `-s`, `-es`, `-ing` тощо;
-2. частка `to`;
-3. допоміжні `do` / `does`.
+Після `would rather` дієслово в **чистій** формі: без `to`, без `-s`, без `-ing`.
 
-## Приклади
+## Коли хочемо, щоб інший щось зробив
 
-| Тип | Приклад |
+**would rather + інша особа + Past Simple** (хоча йдеться про теперішнє чи майбутнє):
+
+- *I'd rather **you stayed** here.* — Я б хотів, щоб ти залишився.
+- *I'd rather **you didn't smoke** in the car.* — Краще б ти не курив у машині.
+- *She'd rather **we came** tomorrow.*
+
+## Про минуле: would rather have + V3
+
+Жаль про те, що вже сталося:
+
+- *I'd rather **have stayed** at home.* — Краще б я залишився вдома (а я пішов).
+
+## Would rather чи would prefer?
+
+| Would rather | Would prefer |
 | --- | --- |
-| Ствердження | I **would rather stay** home (than go to the store). |
-| Порівняння через `than` | He **would rather write** a new program than a poem. |
-| Заперечення (`not` перед дієсловом) | I **would rather not go** to work. |
-| Скорочення | **I'd rather not go** to work. |
-| Питання (`would` — на початок) | **Would** he **rather write** a new program? |
+| + інфінітив **без to** | + **to**-інфінітив |
+| I'd rather **go**. | I'd prefer **to go**. |
+| I'd rather go **than** stay. | I'd prefer to go **rather than** stay. |
 
-## Коротко
+Детальніше: «Prefer, would prefer, would rather, would sooner».
 
-**would rather + Verb** (без to) → *I would rather sleep.*
+## Типові помилки
 
-**would rather not + Verb** → *I would rather not talk about it.*
+- ✗ *I'd rather to stay.* → ✓ *I'd rather **stay**.*
+- ✗ *I'd rather don't go.* → ✓ *I'd rather **not go**.*
+- ✗ *I'd rather you stay here.* → ✓ *I'd rather you **stayed** here.* (інша особа — Past Simple)
+- ✗ *She'd rather goes.* → ✓ *She'd rather **go**.*
+- ✗ *I'd rather walk that drive.* → ✓ *…walk **than** drive.*

@@ -32,3 +32,10 @@ tags: [used to, would, be used to, get used to, past habits, звичка, ко�
 - *It takes time to **get used to** a new job.*
 
 > Порівняйте: *I **used to** work nights* (раніше працював) — *I'**m used to** working nights* (звик працювати вночі).
+
+## Типові помилки
+
+- ✗ *I use to smoke.* (у минулому) → ✓ *I **used to** smoke.*
+- ✗ *Did you used to play chess?* → ✓ *Did you **use to** play chess?*
+- ✗ *I'm used to get up early.* → ✓ *I'm used to **getting** up early.*
+- ✗ *I would have a dog.* (стан) → ✓ *I **used to** have a dog.*
