@@ -231,3 +231,65 @@ export function useReviewWord(userId: string) {
     },
   })
 }
+
+export const TAG_COLORS = ['#7c9bff', '#5eead4', '#6ee7b7', '#fbbf24', '#fb7185', '#c4b5fd', '#f9a8d4', '#94a3b8']
+
+/** Create / rename / recolour / delete / merge tags. Words and tags are refetched afterwards. */
+export function useTagActions(userId: string) {
+  const qc = useQueryClient()
+  const refresh = () => {
+    qc.invalidateQueries({ queryKey: ['tags'] })
+    qc.invalidateQueries({ queryKey: ['words'] })
+  }
+  const opts = { onSuccess: refresh }
+
+  const create = useMutation({
+    mutationFn: async (name: string) => {
+      const { error } = await supabase.from('tags').insert({ name: name.trim(), user_id: userId })
+      if (error) throw error
+    },
+    ...opts,
+  })
+  const rename = useMutation({
+    mutationFn: async ({ id, name }: { id: string; name: string }) => {
+      const { error } = await supabase.from('tags').update({ name: name.trim() }).eq('id', id)
+      if (error) throw error
+    },
+    ...opts,
+  })
+  const recolor = useMutation({
+    mutationFn: async ({ id, color }: { id: string; color: string | null }) => {
+      const { error } = await supabase.from('tags').update({ color }).eq('id', id)
+      if (error) throw error
+    },
+    ...opts,
+  })
+  const remove = useMutation({
+    mutationFn: async (ids: string[]) => {
+      // word_tags rows disappear with the tag (ON DELETE CASCADE); the words themselves stay.
+      const { error } = await supabase.from('tags').delete().in('id', ids)
+      if (error) throw error
+    },
+    ...opts,
+  })
+  /** Moves every word of `from` to `into` (skipping words that already have it), then deletes `from`. */
+  const merge = useMutation({
+    mutationFn: async ({ from, into }: { from: string; into: string }) => {
+      const { data: fromRows, error: e1 } = await supabase.from('word_tags').select('word_id').eq('tag_id', from)
+      if (e1) throw e1
+      const { data: intoRows, error: e2 } = await supabase.from('word_tags').select('word_id').eq('tag_id', into)
+      if (e2) throw e2
+      const already = new Set(intoRows.map((r) => r.word_id as string))
+      const toAdd = fromRows.map((r) => r.word_id as string).filter((id) => !already.has(id))
+      for (let i = 0; i < toAdd.length; i += 500) {
+        const { error } = await supabase.from('word_tags').insert(toAdd.slice(i, i + 500).map((word_id) => ({ word_id, tag_id: into })))
+        if (error) throw error
+      }
+      const { error } = await supabase.from('tags').delete().eq('id', from)
+      if (error) throw error
+    },
+    ...opts,
+  })
+
+  return { create, rename, recolor, remove, merge }
+}
