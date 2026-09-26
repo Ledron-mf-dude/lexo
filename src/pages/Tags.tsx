@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
 import { TAG_COLORS, useTagActions, useTags, useWords } from '../lib/queries'
 import type { Tag } from '../types'
+import { count, WORD } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
 
 type Sort = 'name' | 'count'
@@ -20,6 +21,7 @@ export default function Tags() {
   const [editing, setEditing] = useState<string | null>(null) // tag id being renamed
   const [draft, setDraft] = useState('')
   const [merging, setMerging] = useState<Tag | null>(null)
+  const [open, setOpen] = useState<string | null>(null) // tag id whose colour and extra actions are shown
   const [error, setError] = useState<string | null>(null)
 
   const counts = useMemo(() => {
@@ -54,7 +56,7 @@ export default function Tags() {
 
   function remove(tag: Tag) {
     const n = counts.get(tag.id) ?? 0
-    const text = n > 0 ? `Видалити тег «${tag.name}»? Він зникне зі ${n} слів; самі слова залишаться.` : `Видалити тег «${tag.name}»?`
+    const text = n > 0 ? `Видалити тег «${tag.name}»? Він зникне з ${count(n, WORD)}; самі слова залишаться.` : `Видалити тег «${tag.name}»?`
     if (window.confirm(text)) run(actions.remove.mutateAsync([tag.id]))
   }
 
@@ -79,11 +81,7 @@ export default function Tags() {
         </h1>
         <div className="flex gap-1 text-sm">
           {(['name', 'count'] as const).map((s) => (
-            <button
-              key={s}
-              onClick={() => setSort(s)}
-              className={`rounded-full border px-3 py-1 transition-colors ${sort === s ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60 hover:text-white'}`}
-            >
+            <button key={s} onClick={() => setSort(s)} data-on={sort === s} className="chip">
               {s === 'name' ? 'За назвою' : 'За кількістю'}
             </button>
           ))}
@@ -101,7 +99,7 @@ export default function Tags() {
 
       {unused.length > 0 && (
         <p className="text-sm text-white/45">
-          Без слів: {unused.length}.{' '}
+          Тегів без слів: {unused.length}.{' '}
           <button onClick={removeUnused} className="text-accent hover:underline">
             видалити всі
           </button>
@@ -113,13 +111,20 @@ export default function Tags() {
       <ul className="space-y-2">
         {rows.map((tag) => {
           const n = counts.get(tag.id) ?? 0
+          const expanded = open === tag.id
           return (
-            <li key={tag.id} className="glass space-y-3 rounded-2xl p-4">
+            <li key={tag.id} className="glass space-y-3 rounded-2xl p-3 sm:p-4">
               <div className="flex items-center gap-3">
-                <span className="size-3 shrink-0 rounded-full" style={{ background: tag.color ?? '#94a3b8' }} aria-hidden />
+                <button
+                  onClick={() => setOpen(expanded ? null : tag.id)}
+                  aria-label="Змінити колір"
+                  className="grid size-7 shrink-0 place-items-center rounded-full hover:bg-white/10"
+                >
+                  <span className="size-3 rounded-full" style={{ background: tag.color ?? '#94a3b8' }} aria-hidden />
+                </button>
                 {editing === tag.id ? (
                   <form
-                    className="flex flex-1 gap-2"
+                    className="flex min-w-0 flex-1 gap-2"
                     onSubmit={(e) => {
                       e.preventDefault()
                       saveRename(tag)
@@ -131,54 +136,62 @@ export default function Tags() {
                 ) : (
                   <>
                     <span className="min-w-0 flex-1 truncate font-medium">{tag.name}</span>
-                    <span className="shrink-0 text-sm text-white/45 tabular-nums">{n} слів</span>
+                    <span className="shrink-0 text-sm text-white/45 tabular-nums">{count(n, WORD)}</span>
                   </>
                 )}
               </div>
 
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-                <span className="flex gap-2 sm:gap-1.5" role="group" aria-label="Колір тегу">
-                  {TAG_COLORS.map((c) => (
-                    <button
-                      key={c}
-                      aria-label={`Колір ${c}`}
-                      aria-pressed={tag.color === c}
-                      onClick={() => run(actions.recolor.mutateAsync({ id: tag.id, color: c }))}
-                      className={`size-7 rounded-full border-2 transition-transform hover:scale-110 sm:size-5 ${tag.color === c ? 'border-white' : 'border-transparent'}`}
-                      style={{ background: c }}
-                    />
-                  ))}
-                </span>
-                <span className="ml-auto flex flex-wrap gap-x-1 gap-y-0.5 text-white/55 *:rounded-lg *:px-2 *:py-1.5">
-                  {n > 0 && (
-                    <button onClick={() => practice(tag)} className="text-accent hover:underline">
-                      Практикувати
-                    </button>
-                  )}
-                  {n > 0 && (
-                    <button onClick={() => navigate('/words', { state: { tagId: tag.id } })} className="hover:text-white">
-                      Слова
-                    </button>
-                  )}
-                  <button
-                    onClick={() => {
-                      setEditing(tag.id)
-                      setDraft(tag.name)
-                    }}
-                    className="hover:text-white"
-                  >
-                    Перейменувати
+              <div className="flex flex-wrap items-center gap-1 text-sm text-white/55 *:rounded-lg *:px-2.5 *:py-1.5">
+                {n > 0 && (
+                  <button onClick={() => practice(tag)} className="bg-accent/10 text-accent hover:bg-accent/20">
+                    Практикувати
                   </button>
-                  {rows.length > 1 && (
-                    <button onClick={() => setMerging(tag)} className="hover:text-white">
-                      Об'єднати
-                    </button>
-                  )}
-                  <button onClick={() => remove(tag)} className="hover:text-bad">
-                    Видалити
+                )}
+                {n > 0 && (
+                  <button onClick={() => navigate('/words', { state: { tagId: tag.id } })} className="hover:bg-white/8 hover:text-white">
+                    Слова
                   </button>
-                </span>
+                )}
+                <button onClick={() => setOpen(expanded ? null : tag.id)} aria-expanded={expanded} className="ml-auto hover:bg-white/8 hover:text-white">
+                  {expanded ? 'Сховати' : 'Ще ⋯'}
+                </button>
               </div>
+
+              {expanded && (
+                <div className="space-y-3 border-t border-white/8 pt-3">
+                  <span className="flex flex-wrap gap-2" role="group" aria-label="Колір тегу">
+                    {TAG_COLORS.map((c) => (
+                      <button
+                        key={c}
+                        aria-label={`Колір ${c}`}
+                        aria-pressed={tag.color === c}
+                        onClick={() => run(actions.recolor.mutateAsync({ id: tag.id, color: c }))}
+                        className={`size-7 rounded-full border-2 transition-transform hover:scale-110 ${tag.color === c ? 'border-white' : 'border-transparent'}`}
+                        style={{ background: c }}
+                      />
+                    ))}
+                  </span>
+                  <div className="flex flex-wrap gap-1 text-sm text-white/55 *:rounded-lg *:px-2.5 *:py-1.5">
+                    <button
+                      onClick={() => {
+                        setEditing(tag.id)
+                        setDraft(tag.name)
+                      }}
+                      className="hover:bg-white/8 hover:text-white"
+                    >
+                      Перейменувати
+                    </button>
+                    {rows.length > 1 && (
+                      <button onClick={() => setMerging(tag)} className="hover:bg-white/8 hover:text-white">
+                        Об'єднати з іншим
+                      </button>
+                    )}
+                    <button onClick={() => remove(tag)} className="hover:bg-bad/10 hover:text-bad">
+                      Видалити
+                    </button>
+                  </div>
+                </div>
+              )}
             </li>
           )
         })}

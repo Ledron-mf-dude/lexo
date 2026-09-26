@@ -81,19 +81,24 @@ const isDue = (p: Progress, now: Date) => !isNew(p) && new Date(p.due_at) <= now
 
 export interface Counts {
   due: number
+  /** Not due yet, but due before the end of today (e.g. a word missed 10 minutes ago). */
+  later: number
   fresh: number
   hard: number
   all: number
 }
 
 export function countSources(words: WordWithTags[], progress: Map<string, Progress>, tagIds: string[], now = new Date()): Counts {
-  const counts: Counts = { due: 0, fresh: 0, hard: 0, all: 0 }
+  const counts: Counts = { due: 0, later: 0, fresh: 0, hard: 0, all: 0 }
+  const endOfDay = new Date(now)
+  endOfDay.setHours(23, 59, 59, 999)
   for (const w of filterByTags(words, tagIds)) {
     const p = progress.get(w.id)
     if (!p) continue
     counts.all++
     if (isNew(p)) counts.fresh++
     else if (isDue(p, now)) counts.due++
+    else if (isDue(p, endOfDay)) counts.later++
     if (p.error_count >= HARD_ERRORS) counts.hard++
   }
   return counts

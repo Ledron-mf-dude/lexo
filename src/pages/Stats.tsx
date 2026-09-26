@@ -9,10 +9,18 @@ import { useReviewLog } from '../lib/reviewLog'
 import { tracks, unlocked } from '../lib/achievements'
 import { MODE_LABELS, activity, forecast, maturity, modeStats, percent, streak } from '../lib/stats'
 import { demoExerciseLog, demoProgress, demoReviewLog } from '../lib/statsDemo'
+import { count, DAY, plural, REVIEW, WORD } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
+import type { Progress } from '../types'
 
 const dateLabel = (d: Date) => d.toLocaleDateString('uk-UA', { day: 'numeric', month: 'short' })
 const weekday = (d: Date) => d.toLocaleDateString('uk-UA', { weekday: 'short' })
+
+/** Words the Practice screen offers for review right now. */
+function dueCount(progress: Progress[]) {
+  const now = Date.now()
+  return progress.filter((p) => p.last_reviewed !== null && new Date(p.due_at).getTime() <= now).length
+}
 
 export default function Stats() {
   useTitle('Статистика')
@@ -40,7 +48,9 @@ export default function Stats() {
     const weekCorrect = week.reduce((s, d) => s + d.correct, 0)
     const m = maturity(progress)
     const next7 = forecast(progress, 7)
-    return { weekTotal, weekAccuracy: percent(weekCorrect, weekTotal), m, next7, streak: streak(log), monthTotal: days30.reduce((s, d) => s + d.total, 0) }
+    // "Due now" is what the Practice screen offers; the rest of today's forecast comes due later in the day.
+    const dueNow = dueCount(progress)
+    return { weekTotal, weekAccuracy: percent(weekCorrect, weekTotal), m, next7, dueNow, streak: streak(log), monthTotal: days30.reduce((s, d) => s + d.total, 0) }
   }, [days30, progress, log])
 
   const wordById = useMemo(() => new Map((words.data ?? []).map((w) => [w.id, w])), [words.data])
@@ -95,19 +105,19 @@ export default function Stats() {
     key: d.key,
     label: dateLabel(d.date),
     value: d.total,
-    detail: `${dateLabel(d.date)} · ${d.total} повторень${d.total > 0 ? ` · ${percent(d.correct, d.total)}% правильно` : ''}`,
+    detail: `${dateLabel(d.date)} · ${count(d.total, REVIEW)}${d.total > 0 ? ` · ${percent(d.correct, d.total)}% правильно` : ''}`,
   }))
   const forecastBars: Bar[] = stats.next7.map((d, i) => ({
     key: d.date.toISOString(),
     label: i === 0 ? 'сьогодні' : weekday(d.date),
     value: d.due,
-    detail: `${i === 0 ? 'Сьогодні (із простроченими)' : dateLabel(d.date)} · ${d.due} слів`,
+    detail: `${i === 0 ? 'Сьогодні (із простроченими)' : dateLabel(d.date)} · ${count(d.due, WORD)}`,
   }))
 
   return (
     <section className="space-y-5">
       <div className="flex items-baseline justify-between gap-3">
-        <h1 className="text-3xl font-light tracking-tight">Статистика</h1>
+        <h1 className="text-2xl font-light tracking-tight sm:text-3xl">Статистика</h1>
         {demo && (
           <Link to="/stats" className="rounded-full bg-accent/15 px-3 py-1 text-xs text-accent">
             демо-дані · вийти
@@ -117,9 +127,21 @@ export default function Stats() {
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
         <Kpi label="Слів" value={progress.length} hint={`вивчено ${stats.m.mature} · нових ${stats.m.fresh}`} />
-        <Kpi label="Сьогодні до повторення" value={stats.next7[0].due} hint={stats.next7[0].due > 0 ? 'на екрані «Практика»' : stats.m.fresh > 0 ? 'є нові слова для вивчення' : 'усе повторено'} />
-        <Kpi label="Серія" value={stats.streak} hint={stats.streak === 1 ? 'день поспіль' : 'днів поспіль'} />
-        <Kpi label="Точність, 7 днів" value={stats.weekTotal > 0 ? `${stats.weekAccuracy}%` : '—'} hint={`${stats.weekTotal} повторень`} />
+        <Kpi
+          label="До повторення"
+          value={stats.dueNow}
+          hint={
+            stats.next7[0].due > stats.dueNow
+              ? `ще ${stats.next7[0].due - stats.dueNow} пізніше сьогодні`
+              : stats.dueNow > 0
+                ? 'на екрані «Практика»'
+                : stats.m.fresh > 0
+                  ? 'є нові слова для вивчення'
+                  : 'усе повторено'
+          }
+        />
+        <Kpi label="Серія" value={stats.streak} hint={`${plural(stats.streak, DAY)} поспіль`} />
+        <Kpi label="Точність, 7 днів" value={stats.weekTotal > 0 ? `${stats.weekAccuracy}%` : '—'} hint={count(stats.weekTotal, REVIEW)} />
       </div>
 
       <Card title="Досягнення" note={`${achievements.reduce((n, t) => n + unlocked(t), 0)} з ${achievements.reduce((n, t) => n + t.tiers.length, 0)}`}>
@@ -136,17 +158,17 @@ export default function Stats() {
                   right={next === undefined ? 'усі рівні' : `${t.value} / ${next}`}
                   color={next === undefined ? 'bg-good' : 'bg-accent'}
                 />
-                <div className="flex items-center gap-1.5">
+                <div className="flex flex-wrap items-center gap-1.5">
                   {t.tiers.map((n, i) => (
                     <span
                       key={n}
                       title={`${n} — ${t.hint}`}
-                      className={`grid size-6 place-items-center rounded-full text-[10px] tabular-nums ${i < got ? 'bg-accent text-[#0a0b0f]' : 'border border-white/12 text-white/30'}`}
+                      className={`grid h-6 min-w-6 place-items-center rounded-full px-1 text-[10px] tabular-nums ${i < got ? 'bg-accent text-[#0a0b0f]' : 'border border-white/12 text-white/30'}`}
                     >
-                      {n}
+                      {n >= 1000 ? `${n / 1000}k` : n}
                     </span>
                   ))}
-                  <span className="ml-1 min-w-0 truncate text-xs text-white/35">{t.hint}</span>
+                  <span className="ml-1 text-xs text-white/35">{t.hint}</span>
                 </div>
               </div>
             )
@@ -154,7 +176,7 @@ export default function Stats() {
         </div>
       </Card>
 
-      <Card title="Активність, 30 днів" note={`${stats.monthTotal} повторень`}>
+      <Card title="Активність, 30 днів" note={count(stats.monthTotal, REVIEW)}>
         {stats.monthTotal === 0 ? (
           <p className="text-sm text-white/45">Повторень ще немає. Пройдіть першу сесію на екрані «Практика» — тут з'явиться графік.</p>
         ) : (

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useReviewLog } from '../lib/reviewLog'
+import { CARD, count, DAY, plural } from '../lib/plural'
 import { activity, streak } from '../lib/stats'
 
 const GOAL_KEY = 'lexo.goal'
@@ -58,16 +59,17 @@ export default function DailyGoal() {
 
       <div className="min-w-0 flex-1 space-y-1.5">
         <p className="font-medium">{reached ? 'Ціль на сьогодні виконано' : 'Щоденна ціль'}</p>
-        <p className="text-sm text-white/45">
-          {today} з {goal} карток
+        <p className="flex flex-wrap gap-x-3 text-sm text-white/45">
+          <span>
+            {today} з {goal} {plural(goal, CARD)}
+          </span>
           {days > 0 && (
             <>
-              {' · '}
               <span className="inline-flex items-center gap-1 text-[#fbbf24]">
                 <svg viewBox="0 0 24 24" className="size-3.5" fill="currentColor" aria-hidden>
                   <path d="M12 2c1 4-2 5-2 8 0 1.5 1 2.5 2 2.5S14 11.500 14 10c2 1.500 4 4 4 7a6 6 0 0 1-12 0c0-3 1.500-5 2.500-6.500C9 12 9.500 8 12 2Z" />
                 </svg>
-                {days} {days === 1 ? 'день' : 'дн.'} поспіль
+                {count(days, DAY)} поспіль
               </span>
             </>
           )}

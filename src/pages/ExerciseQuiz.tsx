@@ -202,7 +202,7 @@ function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
         </span>
       </div>
 
-      {showTopic && <p className="text-center text-xs text-white/40">{bySlug.get(item.slug)?.title}</p>}
+      <p className="text-center text-xs text-white/40">{showTopic ? bySlug.get(item.slug)?.title : title.split(/[:(—]/)[0].trim()}</p>
 
       <div key={index}>
         {q.type === 'choice' && <ChoiceQ q={q} outcome={outcome} onAnswer={answer} />}

@@ -62,7 +62,8 @@ npm run lint     # oxlint
 - [src/components/practice/Session.tsx](src/components/practice/Session.tsx) drives the flow.
 
 **App shell:**
-- Routing uses `HashRouter` because of GitHub Pages. Grammar pages and stats are lazy-loaded.
+- Routing uses `HashRouter` because of GitHub Pages. Grammar pages and stats are lazy-loaded through `lazyPage` ([src/lib/lazyPage.ts](src/lib/lazyPage.ts)). After a deploy the service worker removes old chunks, so `lazyPage` reloads the page once when a chunk is missing. Use `lazyPage` instead of plain `React.lazy`.
+- Scroll position is managed by the app, not the browser. `ScrollRestoration` in [src/components/Layout.tsx](src/components/Layout.tsx) opens each new page at the top and restores the position on Back. Do not use `autoFocus` on pages: it scrolls to the input. Call `focus({ preventScroll: true })` instead.
 - The static route `grammar/practice` (mixed quiz) must be declared before `grammar/:slug`.
 - Server state goes through TanStack Query hooks in [src/lib/queries.ts](src/lib/queries.ts).
 - Auth works as follows:
@@ -74,6 +75,8 @@ npm run lint     # oxlint
   - Speech uses the browser's Web Speech API ([src/lib/speech.ts](src/lib/speech.ts)).
 - Vendor chunks (react, supabase, data) are split in `vite.config.ts` through `rolldownOptions.output.codeSplitting.groups`.
 - Small per-device preferences are stored in `localStorage` under keys prefixed `lexo.`.
+- Ukrainian plurals go through `plural` / `count` in [src/lib/plural.ts](src/lib/plural.ts), for example `count(n, WORD)` gives «1 слово», «3 слова», «5 слів». Do not hard-code «слів».
+- Filter pills use the `chip` utility with `data-on={selected}` ([src/index.css](src/index.css)). The `chip-row` utility scrolls sideways on phones and wraps on wider screens.
 
 ## Conventions
 

@@ -6,7 +6,9 @@ import SpeakButton from './SpeakButton'
 /** One word from the user's own dictionary that stays the same for the whole day (chosen by the date). */
 export default function WordOfDay({ words }: { words: WordWithTags[] }) {
   const word = useMemo(() => {
-    const pool = words.filter((w) => w.example)
+    // Words with an example read best; a dictionary without examples still gets a word of the day.
+    const withExample = words.filter((w) => w.example)
+    const pool = withExample.length > 0 ? withExample : words
     if (pool.length === 0) return null
     const seed = [...dayKey(new Date())].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7)
     return pool[seed % pool.length]
@@ -21,10 +23,13 @@ export default function WordOfDay({ words }: { words: WordWithTags[] }) {
         <SpeakButton text={word.term} />
       </p>
       <p className="text-accent">{word.translation}</p>
-      <p className="flex items-start gap-1 text-sm text-white/45 italic">
-        <span className="min-w-0">{word.example}</span>
-        <SpeakButton text={word.example!} className="-mt-1.5 size-8" />
-      </p>
+      {word.definition && <p className="text-sm text-white/45">{word.definition}</p>}
+      {word.example && (
+        <p className="flex items-start gap-1 text-sm text-white/45 italic">
+          <span className="min-w-0">{word.example}</span>
+          <SpeakButton text={word.example} className="-mt-1.5 size-8" />
+        </p>
+      )}
     </div>
   )
 }

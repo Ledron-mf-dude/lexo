@@ -9,6 +9,7 @@ import { exercises } from '../lib/exercises'
 import { topicStats, useExerciseLog } from '../lib/exerciseLog'
 import { bySlug } from '../lib/grammar'
 import { useTags, useWords } from '../lib/queries'
+import { count, QUESTION } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
 
 // Links to other articles are app-internal routes; everything else opens normally.
@@ -112,6 +113,12 @@ export default function GrammarArticle() {
               <LevelBadge level={l} />
             </Link>
           ))}
+          {bank && (
+            // The exercises are also at the end of the article; this shortcut saves scrolling through it on a repeat visit.
+            <Link to={`/grammar/${slug}/exercises`} className="ml-auto rounded-full border border-accent/40 px-3 py-1 text-xs text-accent transition-colors hover:bg-accent/10">
+              Вправи · {bank.length}
+            </Link>
+          )}
         </div>
         <h1 className="text-2xl font-light tracking-tight break-words sm:text-3xl">{article.title}</h1>
       </div>
@@ -137,7 +144,7 @@ export default function GrammarArticle() {
       {bank && stats && (
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-4 sm:p-5">
           <div>
-            <p className="font-medium">Вправи до теми: {bank.length} запитань</p>
+            <p className="font-medium">Вправи до теми: {count(bank.length, QUESTION)}</p>
             <p className="text-sm text-white/45">
               {stats.attempted === 0 ? 'Ще не проходили' : `Опановано ${stats.mastered} з ${bank.length}${stats.mistakes.length > 0 ? ` · помилок ${stats.mistakes.length}` : ''}`}
             </p>
