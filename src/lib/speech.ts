@@ -1,4 +1,5 @@
 import { useEffect, useSyncExternalStore } from 'react'
+import { getAccent, onAccentChange } from './accent'
 
 /** Pronunciation through the browser's own speech synthesis: free, offline-capable, no server. */
 export const canSpeak = typeof window !== 'undefined' && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window
@@ -7,15 +8,19 @@ const AUTO_KEY = 'lexo.speech.auto'
 
 let voice: SpeechSynthesisVoice | undefined
 
+// The voice follows the British / American choice (Account → Озвучування); any English voice if that one is missing.
 function pickVoice() {
   const voices = window.speechSynthesis.getVoices()
-  voice = voices.find((v) => v.lang === 'en-US') ?? voices.find((v) => v.lang.startsWith('en'))
+  const wanted = getAccent() === 'US' ? 'en-US' : 'en-GB'
+  const lang = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-')
+  voice = voices.find((v) => lang(v) === wanted) ?? voices.find((v) => lang(v).startsWith('en'))
 }
 
 if (canSpeak) {
   pickVoice()
   // Voices load asynchronously in Chrome.
   window.speechSynthesis.addEventListener('voiceschanged', pickVoice)
+  onAccentChange(pickVoice)
 }
 
 /** "get sth done (informal)" -> "get sth done": what is in brackets is a note, not something to pronounce. */
