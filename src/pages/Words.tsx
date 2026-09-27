@@ -123,6 +123,7 @@ export default function Words() {
       example: w.example ?? '',
       ipa: w.ipa ?? '',
       pos: w.pos ?? '',
+      ...('note' in w && { note: w.note ?? '' }),
       audio_url: w.audio_url ?? '',
       tagNames: w.tagIds.map((id) => tagById.get(id)?.name).filter((n): n is string => Boolean(n)),
     })
@@ -310,6 +311,7 @@ export default function Words() {
           saving={save.isPending}
           error={save.error ? (save.error as Error).message : null}
           onSubmit={onSubmit}
+          canNote={!words.data?.length || 'note' in words.data[0]}
           onCancel={() => setEditing(null)}
         />
       )}

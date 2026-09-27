@@ -17,6 +17,8 @@ export interface WordInput {
   ipa?: string
   pos?: string
   audio_url?: string
+  /** Personal hint (migration 0005); undefined leaves it as it is. */
+  note?: string
 }
 
 /** PostgREST's "column not in the schema cache": the migration that adds it has not been run yet. */
@@ -96,6 +98,7 @@ export function useSaveWord(userId: string) {
         ...(input.ipa !== undefined && { ipa: input.ipa.trim() || null }),
         ...(input.pos !== undefined && { pos: input.pos.trim() || null }),
         ...(input.audio_url !== undefined && { audio_url: input.audio_url.trim() || null }),
+        ...(input.note !== undefined && { note: input.note.trim() || null }),
       }
       // Before migration 0004 the ipa and pos columns do not exist: the word is saved without its pronunciation.
       async function write(values: Record<string, unknown>): Promise<string> {
@@ -134,6 +137,20 @@ export function useSaveWord(userId: string) {
       qc.invalidateQueries({ queryKey: ['words'] })
       qc.invalidateQueries({ queryKey: ['tags'] })
     },
+  })
+}
+
+export const MIGRATION_0005 = 'Спершу запустіть міграцію supabase/migrations/0005_hard_words_directions.sql у Supabase → SQL Editor.'
+
+/** «Відкласти»: leaves a word out of practice until `until` (null brings it back). Needs migration 0005. */
+export function useSuspendWord() {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: async ({ wordId, until }: { wordId: string; until: Date | null }) => {
+      const { error } = await supabase.from('progress').update({ suspended_until: until?.toISOString() ?? null }).eq('word_id', wordId)
+      if (error) throw isMissingColumn(error) ? new Error(MIGRATION_0005) : error
+    },
+    onSuccess: () => qc.invalidateQueries({ queryKey: ['progress'] }),
   })
 }
 
@@ -242,6 +259,10 @@ export interface ReviewInput {
   errorCount: number
   /** Omitted for the early exercises of a complex: those are only logged, the schedule changes once, at the end. */
   next?: { ease_factor: number; interval_days: number; repetitions: number; due_at: Date }
+  /** Recall schedule (translation -> word), set when the word was practised in a recall exercise (migration 0005). */
+  recall?: { ease_factor: number; interval_days: number; repetitions: number; due_at: Date }
+  /** The wrong option picked, for finding words that get confused (migration 0005). */
+  given?: string
   /** false: only the schedule changes, nothing is logged (a skipped exercise was not an answer). */
   log?: boolean
 }
@@ -251,24 +272,34 @@ export function useReviewWord(userId: string) {
   return useMutation({
     mutationFn: async (r: ReviewInput) => {
       const now = new Date().toISOString()
-      if (r.next) {
-        const { error } = await supabase
-          .from('progress')
-          .update({
+      if (r.next || r.recall) {
+        const base = {
+          ...(r.next && {
             ease_factor: r.next.ease_factor,
             interval_days: r.next.interval_days,
             repetitions: r.next.repetitions,
             due_at: r.next.due_at.toISOString(),
-            last_reviewed: now,
-            error_count: r.errorCount,
-          })
-          .eq('word_id', r.wordId)
+          }),
+          // last_reviewed marks the word as started, whichever direction was practised.
+          last_reviewed: now,
+          error_count: r.errorCount,
+        }
+        const recall = r.recall && {
+          recall_ease_factor: r.recall.ease_factor,
+          recall_interval_days: r.recall.interval_days,
+          recall_repetitions: r.recall.repetitions,
+          recall_due_at: r.recall.due_at.toISOString(),
+          recall_last_reviewed: now,
+        }
+        let { error } = await supabase.from('progress').update({ ...base, ...recall }).eq('word_id', r.wordId)
+        // Before migration 0005 there are no recall columns: keep the recognition schedule only.
+        if (error && recall && isMissingColumn(error)) ({ error } = await supabase.from('progress').update(base).eq('word_id', r.wordId))
         if (error) throw error
       }
       if (r.log === false) return
-      const { error: logError } = await supabase
-        .from('review_log')
-        .insert({ word_id: r.wordId, user_id: userId, mode: r.mode, correct: r.correct, reviewed_at: now })
+      const row: Record<string, unknown> = { word_id: r.wordId, user_id: userId, mode: r.mode, correct: r.correct, reviewed_at: now }
+      let { error: logError } = await supabase.from('review_log').insert(r.given ? { ...row, given: r.given } : row)
+      if (logError && r.given && isMissingColumn(logError)) ({ error: logError } = await supabase.from('review_log').insert(row))
       if (logError) throw logError
     },
   })

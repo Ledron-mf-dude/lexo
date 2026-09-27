@@ -8,7 +8,8 @@ const NO_OPTIONS: string[] = []
 
 interface Props {
   card: Card
-  onGrade: (grade: Grade) => void
+  /** `given`: the wrong option picked, logged to find words that get confused. */
+  onGrade: (grade: Grade, given?: string) => void
 }
 
 /** Multiple choice: pick the translation. Right -> "good" after a short pause, wrong -> "again" after the user has seen the answer. */
@@ -39,12 +40,12 @@ export default function Choice({ card, onGrade }: Props) {
         if (i >= 0 && i < options.length) setPicked(options[i])
       } else if (!isRight && (e.key === 'Enter' || e.key === ' ')) {
         e.preventDefault()
-        onGrade('again')
+        onGrade('again', picked ?? undefined)
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [answered, isRight, options, onGrade])
+  }, [answered, isRight, options, onGrade, picked])
 
   function style(option: string) {
     if (!answered) return 'hover:bg-white/15'
@@ -80,7 +81,7 @@ export default function Choice({ card, onGrade }: Props) {
       </div>
 
       {answered && !isRight && (
-        <button onClick={() => onGrade('again')} className="btn-primary w-full">
+        <button onClick={() => onGrade('again', picked ?? undefined)} className="btn-primary w-full">
           Далі
         </button>
       )}

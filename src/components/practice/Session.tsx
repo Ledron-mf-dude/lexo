@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useCallback, useEffect, useState } from 'react'
 import { useFocusMode } from '../../lib/focusMode'
 import { useReviewWord, type WordWithTags } from '../../lib/queries'
-import { EXERCISES, buildQueue, type Card, type Exercise } from '../../lib/session'
+import { EXERCISES, RECALL_MODES, buildQueue, type Card, type Exercise } from '../../lib/session'
 import { canSpeak, setAutoSpeak, useAutoSpeak } from '../../lib/speech'
 import { complexGrade, schedule, worseGrade, type Grade, type SrsState } from '../../lib/sm2'
 import type { Progress } from '../../types'
@@ -30,12 +30,26 @@ interface Props {
 
 interface Live extends SrsState {
   error_count: number
+  /** Recall (translation -> word) schedule; defaults before migration 0005 or before recall is first practised. */
+  recall: SrsState
+}
+
+/** Complex: the worst grade a word got so far in each direction; combined with the last one to set the schedules once. */
+interface Earlier {
+  rec?: Grade
+  prod?: Grade
 }
 
 const REQUEUE_AFTER = 3
 
 function fromProgress(p: Progress): Live {
-  return { ease_factor: p.ease_factor, interval_days: p.interval_days, repetitions: p.repetitions, error_count: p.error_count }
+  return {
+    ease_factor: p.ease_factor,
+    interval_days: p.interval_days,
+    repetitions: p.repetitions,
+    error_count: p.error_count,
+    recall: { ease_factor: p.recall_ease_factor ?? 2.5, interval_days: p.recall_interval_days ?? 0, repetitions: p.recall_repetitions ?? 0 },
+  }
 }
 
 export default function Session({ userId, words, allWords, progress, modes, onFinish }: Props) {
@@ -59,7 +73,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
   // Answers in a row without a miss (like a Duolingo combo), and the best run of the session.
   const [combo, setCombo] = useState({ now: 0, best: 0 })
   // Complex: the worst grade a word got in its earlier exercises; combined with the last one to set the schedule once.
-  const [earlier, setEarlier] = useState<Map<string, Grade>>(() => new Map())
+  const [earlier, setEarlier] = useState<Map<string, Earlier>>(() => new Map())
 
   const card = queue[0]
   // Complex: the round whose intro screen has been dismissed; a new round starts with an announcement.
@@ -67,23 +81,33 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
 
   // Grades one word for the card being answered: schedule (or just the log, in a complex), counters and the failed set.
   const gradeWord = useCallback(
-    (current: Card, word: WordWithTags, grade: Grade) => {
+    (current: Card, word: WordWithTags, grade: Grade, given?: string) => {
       const id = word.id
       const prev = stateOf(id)
       const errorCount = grade === 'again' ? prev.error_count + 1 : prev.error_count
       const correct = grade !== 'again'
       const commit = current.commitFor ? current.commitFor.includes(id) : current.commit
+      const dir: keyof Earlier = RECALL_MODES.has(current.mode) ? 'prod' : 'rec'
+      const wrongPick = correct ? undefined : given
 
       if (commit) {
-        // Complex: one grade for the whole word (a retry is graded on its own, as in a single exercise).
-        const final = current.retry ? grade : complexGrade(earlier.get(id), grade)
-        const next = schedule(prev, final)
-        setLive((m) => new Map(m).set(id, { ...next, error_count: errorCount }))
-        saveReview({ wordId: id, mode: current.mode, correct, errorCount, next })
+        // Complex: one grade per direction for the whole word (a retry is graded on its own, as in a single exercise).
+        const e: Earlier = current.retry ? {} : (earlier.get(id) ?? {})
+        const prodGrade = dir === 'prod' ? complexGrade(e.prod, grade) : e.prod
+        // Recalling a word also shows it is recognised: a successful recall moves recognition on when it was not graded itself.
+        const recGrade = dir === 'rec' ? complexGrade(e.rec, grade) : (e.rec ?? (prodGrade !== 'again' ? prodGrade : undefined))
+        const next = recGrade ? schedule(prev, recGrade) : undefined
+        const recall = prodGrade ? schedule(prev.recall, prodGrade) : undefined
+        setLive((m) => new Map(m).set(id, { ...prev, ...next, error_count: errorCount, recall: recall ?? prev.recall }))
+        saveReview({ wordId: id, mode: current.mode, correct, errorCount, next, recall, given: wrongPick })
       } else {
         setLive((m) => new Map(m).set(id, { ...prev, error_count: errorCount }))
-        saveReview({ wordId: id, mode: current.mode, correct, errorCount })
-        if (!current.retry) setEarlier((m) => new Map(m).set(id, worseGrade(m.get(id), grade)))
+        saveReview({ wordId: id, mode: current.mode, correct, errorCount, given: wrongPick })
+        if (!current.retry)
+          setEarlier((m) => {
+            const e = m.get(id) ?? {}
+            return new Map(m).set(id, { ...e, [dir]: worseGrade(e[dir], grade) })
+          })
       }
 
       setStats((s) => (correct ? { ...s, right: s.right + 1 } : { ...s, wrong: s.wrong + 1 }))
@@ -98,13 +122,13 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
 
   // Answers the card on top of the queue. A matching card grades several words at once.
   const onGrades = useCallback(
-    (results: { word: WordWithTags; grade: Grade }[]) => {
+    (results: { word: WordWithTags; grade: Grade; given?: string }[]) => {
       const current = queue[0]
       if (!current) return
       const retries: Card[] = []
       let solved = 0
-      for (const { word, grade } of results) {
-        const commit = gradeWord(current, word, grade)
+      for (const { word, grade, given } of results) {
+        const commit = gradeWord(current, word, grade, given)
         if (grade === 'again') {
           // Missed: see it again a few cards later, as a plain flashcard (it keeps the original card's commit rule).
           retries.push({ word, mode: 'flashcard', reverse: false, commit, final: commit, retry: true })
@@ -125,7 +149,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
     [queue, gradeWord],
   )
 
-  const onGrade = useCallback((grade: Grade) => onGrades(queue[0] ? [{ word: queue[0].word, grade }] : []), [queue, onGrades])
+  const onGrade = useCallback((grade: Grade, given?: string) => onGrades(queue[0] ? [{ word: queue[0].word, grade, given }] : []), [queue, onGrades])
 
   // Skipping a speaking card (or all of them: "can't talk right now") gives no grade. If it was a word's last exercise
   // in a complex, the schedule is set from the earlier exercises, as if the skipped one had not been chosen.
@@ -135,12 +159,14 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
       if (!current) return
       const skipped = new Set(all ? queue.filter((c) => c.mode === current.mode && !c.retry) : [current])
       for (const c of skipped) {
-        const grade = earlier.get(c.word.id)
-        if (!c.commit || c.retry || !grade) continue
+        const e = earlier.get(c.word.id)
+        if (!c.commit || c.retry || !e || (!e.rec && !e.prod)) continue
         const prev = stateOf(c.word.id)
-        const next = schedule(prev, grade)
-        setLive((m) => new Map(m).set(c.word.id, { ...next, error_count: prev.error_count }))
-        saveReview({ wordId: c.word.id, mode: c.mode, correct: grade !== 'again', errorCount: prev.error_count, next, log: false })
+        const next = e.rec ? schedule(prev, e.rec) : undefined
+        const recall = e.prod ? schedule(prev.recall, e.prod) : undefined
+        setLive((m) => new Map(m).set(c.word.id, { ...prev, ...next, error_count: prev.error_count, recall: recall ?? prev.recall }))
+        const graded = e.rec ?? e.prod
+        saveReview({ wordId: c.word.id, mode: c.mode, correct: graded !== 'again', errorCount: prev.error_count, next, recall, log: false })
       }
       setQueue((q) => q.filter((c) => !skipped.has(c)))
       setDone((d) => d + skipped.size)
