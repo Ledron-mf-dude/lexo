@@ -1,7 +1,7 @@
-import { useEffect, useState, type FormEvent, type ReactNode } from 'react'
+import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react'
 import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
-import { correctAnswer, drawDeck, exercises, isCorrectText, itemsOf, shuffle, type Item, type Question } from '../lib/exercises'
+import { correctAnswer, drawDeck, exercises, isCorrectText, itemsOf, promptOf, shuffle, type Item, type Question } from '../lib/exercises'
 import { allMistakes, topicStats, useExerciseLog, useLogAnswer } from '../lib/exerciseLog'
 import { useFocusMode } from '../lib/focusMode'
 import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
@@ -10,9 +10,16 @@ import { useTitle } from '../lib/useTitle'
 const DECK_SIZE = 10
 const MIXED_DECK_SIZE = 15
 
-/** Authors put answers in any order; shuffle the options so the position of the right one never gives it away. */
-function withShuffledOptions(item: Item): Item {
+// «Знайди помилку» sometimes shows the corrected sentence, so «there is a mistake» is not always the answer.
+const SHOW_RIGHT_SHARE = 0.3
+
+/**
+ * Per-draw variation: authors put answers in any order, so choice options are shuffled and the position of the right one never gives it away;
+ * a «find the mistake» pair is shown either as the wrong or as the corrected sentence.
+ */
+function withVariant(item: Item): Item {
   const { q } = item
+  if (q.type === 'fix') return { ...item, q: { ...q, showRight: Math.random() < SHOW_RIGHT_SHARE } }
   if (q.type !== 'choice') return item
   const correct = q.options[q.answer]
   const options = shuffle(q.options)
@@ -76,6 +83,7 @@ export function MixedQuiz() {
   const level = (LEVELS as readonly string[]).includes(levelParam ?? '') ? (levelParam as Level) : null
   const category = params.get('cat')
   const mistakes = params.get('mistakes') === '1'
+  const fixOnly = params.get('type') === 'fix'
   const { log, settled } = useSettledLog()
   const [attempt, setAttempt] = useState(0)
 
@@ -89,8 +97,8 @@ export function MixedQuiz() {
     title = 'Робота над помилками'
   } else {
     const topics = articles.filter((a) => (!level || a.levels.includes(level)) && (!category || a.category === category))
-    pool = topics.flatMap((a) => itemsOf(a.slug))
-    title = ['Змішані вправи', level, category].filter(Boolean).join(' · ')
+    pool = topics.flatMap((a) => itemsOf(a.slug)).filter((i) => !fixOnly || i.q.type === 'fix')
+    title = [fixOnly ? 'Знайди помилку' : 'Змішані вправи', level, category].filter(Boolean).join(' · ')
   }
 
   if (pool.length === 0) {
@@ -120,7 +128,7 @@ function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
   useTitle(`Вправи: ${title.split(/[:(—]/)[0].trim()}`)
   const { session } = useAuth()
   const { mutate: logAnswer } = useLogAnswer(session!.user.id)
-  const [deck] = useState(() => drawDeck(pool, size).map(withShuffledOptions))
+  const [deck] = useState(() => drawDeck(pool, size).map(withVariant))
   const [index, setIndex] = useState(0)
   const [outcome, setOutcome] = useState<Outcome | null>(null)
   const [results, setResults] = useState<{ item: Item; outcome: Outcome }[]>([])
@@ -134,6 +142,15 @@ function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
     setResults((r) => [...r, { item, outcome: o }])
     logAnswer({ slug: item.slug, questionId: item.q.id, correct: o.correct })
     if (!o.correct && navigator.vibrate) navigator.vibrate(50)
+  }
+
+  /** «Мій варіант теж правильний»: a correction can be worded differently from the one in the article; the newer log row wins. */
+  function override() {
+    if (!outcome || outcome.correct) return
+    const o = { ...outcome, correct: true }
+    setOutcome(o)
+    setResults((r) => [...r.slice(0, -1), { item, outcome: o }])
+    logAnswer({ slug: item.slug, questionId: item.q.id, correct: true })
   }
 
   function next() {
@@ -166,7 +183,7 @@ function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
                     {bySlug.get(m.slug)?.title}
                   </Link>
                 )}
-                <p className="text-white/60">{m.q.type === 'order' ? (m.q.hint ?? m.q.words.join(' / ')) : m.q.q}</p>
+                <p className="text-white/60">{promptOf(m.q)}</p>
                 <p>
                   <span className="text-bad line-through decoration-bad/50">{o.given || '—'}</span> → <span className="text-good">{correctAnswer(m.q)}</span>
                 </p>
@@ -208,14 +225,23 @@ function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
         {q.type === 'choice' && <ChoiceQ q={q} outcome={outcome} onAnswer={answer} />}
         {q.type === 'fill' && <FillQ q={q} outcome={outcome} onAnswer={answer} />}
         {q.type === 'order' && <OrderQ q={q} outcome={outcome} onAnswer={answer} />}
+        {q.type === 'fix' && <FixQ q={q} outcome={outcome} onAnswer={answer} />}
       </div>
 
-      {outcome && <Feedback q={q} outcome={outcome} last={index + 1 === deck.length} onNext={next} />}
+      {outcome && <Feedback q={q} outcome={outcome} last={index + 1 === deck.length} onNext={next} onOverride={override} />}
     </section>
   )
 }
 
-function Feedback({ q, outcome, last, onNext }: { q: Question; outcome: Outcome; last: boolean; onNext: () => void }) {
+interface FeedbackProps {
+  q: Question
+  outcome: Outcome
+  last: boolean
+  onNext: () => void
+  onOverride: () => void
+}
+
+function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps) {
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (e.key === 'Enter') {
@@ -235,9 +261,29 @@ function Feedback({ q, outcome, last, onNext }: { q: Question; outcome: Outcome;
     <div className="space-y-3">
       <div className={`glass rounded-2xl p-4 ${outcome.correct ? 'border-good/40!' : 'border-bad/40!'}`}>
         <p className={`text-sm ${outcome.correct ? 'text-good' : 'text-bad'}`}>{outcome.correct ? 'Правильно' : 'Неправильно'}</p>
-        {!outcome.correct && <p className="mt-1 text-lg">{correctAnswer(q)}</p>}
-        <p className="mt-2 text-sm text-white/60">{q.why}</p>
+        {q.type === 'fix' ? (
+          <div className="mt-1 space-y-0.5">
+            {q.showRight && <p className="text-sm text-white/60">Речення було без помилки. Типова помилка в ньому:</p>}
+            <p className="text-white/50">
+              <span className="text-bad">✗</span> <span className="line-through decoration-bad/50">{q.wrong}</span>
+            </p>
+            {q.answer.map((a) => (
+              <p key={a} className="text-lg">
+                <span className="text-good">✓</span> {a}
+              </p>
+            ))}
+          </div>
+        ) : (
+          !outcome.correct && <p className="mt-1 text-lg">{correctAnswer(q)}</p>
+        )}
+        {q.why && <p className="mt-2 text-sm text-white/60">{q.why}</p>}
       </div>
+      {/* A typed correction the checker did not recognise may still be right: let the learner count it. */}
+      {q.type === 'fix' && !outcome.correct && !q.showRight && outcome.given !== '' && outcome.given !== q.wrong && (
+        <button onClick={onOverride} className="w-full text-center text-sm text-white/40 hover:text-white">
+          Мій варіант теж правильний
+        </button>
+      )}
       <button onClick={onNext} className="btn-primary w-full">
         {last ? 'Результат' : 'Далі'}
       </button>
@@ -398,6 +444,87 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
             </button>
           </div>
         </>
+      )}
+    </div>
+  )
+}
+
+function FixQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'fix' }>>) {
+  const shown = q.showRight ? q.answer[0] : q.wrong
+  const [editing, setEditing] = useState(false)
+  const [value, setValue] = useState(shown)
+  const input = useRef<HTMLInputElement>(null)
+
+  // The sentence is edited in place: the cursor goes to the end, no scroll jump on phones.
+  useEffect(() => {
+    if (!editing) return
+    const el = input.current
+    el?.focus({ preventScroll: true })
+    el?.setSelectionRange(el.value.length, el.value.length)
+  }, [editing])
+
+  const judgeRight = () => onAnswer({ correct: q.showRight === true, given: 'Речення правильне' })
+
+  useEffect(() => {
+    if (outcome || editing) return
+    function onKey(e: KeyboardEvent) {
+      if (e.key === '1') onAnswer({ correct: q.showRight === true, given: 'Речення правильне' })
+      if (e.key === '2') setEditing(true)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [q, outcome, editing, onAnswer])
+
+  // Saying «there is a mistake» about a correct sentence is wrong whatever is typed; the editor still opens, so it gives nothing away.
+  function submit(e: FormEvent) {
+    e.preventDefault()
+    if (outcome || value.trim() === '') return
+    onAnswer({ correct: !q.showRight && isCorrectText(value, q.answer), given: q.showRight ? 'Є помилка' : value.trim() })
+  }
+
+  return (
+    <div className="space-y-3">
+      <Prompt hint={q.hint}>
+        <p className="text-xs tracking-widest text-white/35 uppercase">Чи є тут помилка?</p>
+        <p className={`font-light tracking-tight ${shown.length > 70 ? 'text-xl' : 'text-2xl'}`}>{shown}</p>
+      </Prompt>
+      {!editing ? (
+        !outcome && (
+          <div className="grid grid-cols-2 gap-2">
+            <button onClick={judgeRight} className="glass rounded-2xl px-4 py-3 transition-colors hover:bg-white/15">
+              <span className="mr-2 hidden text-xs text-white/30 md:inline">1</span>Правильно
+            </button>
+            <button onClick={() => setEditing(true)} className="glass rounded-2xl px-4 py-3 transition-colors hover:bg-white/15">
+              <span className="mr-2 hidden text-xs text-white/30 md:inline">2</span>Є помилка
+            </button>
+          </div>
+        )
+      ) : (
+        <form onSubmit={submit} className="space-y-2">
+          <p className="text-center text-sm text-white/45">Виправте речення</p>
+          <input
+            ref={input}
+            disabled={outcome !== null}
+            autoComplete="off"
+            autoCapitalize="off"
+            autoCorrect="off"
+            spellCheck={false}
+            enterKeyHint="done"
+            value={value}
+            onChange={(e) => setValue(e.target.value)}
+            className="field text-center text-lg"
+          />
+          {!outcome && (
+            <div className="grid grid-cols-2 gap-2">
+              <button type="button" onClick={() => onAnswer({ correct: false, given: '' })} className="btn-ghost">
+                Не знаю
+              </button>
+              <button disabled={value.trim() === ''} className="btn-primary">
+                Перевірити
+              </button>
+            </div>
+          )}
+        </form>
       )}
     </div>
   )
