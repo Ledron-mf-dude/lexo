@@ -75,6 +75,7 @@ npm run lint     # oxlint
 **Vocabulary practice** ([src/lib/session.ts](src/lib/session.ts), [src/components/practice/](src/components/practice/)):
 - `pickWords` selects words by source: today, new, hard, all, or a subset.
 - `buildQueue` builds one round per exercise type, in the order the user picked the types. A multi-exercise "complex" runs the rounds sequentially, not interleaved.
+- `passage` (text with gaps plus a word bank, 5 examples per card, grouped by first tag) is also a group card and reuses `onMatched` grading. `dictation` reads a word's example aloud and compares the typed sentence word by word.
 - `match`, `matchdef` and `cloze` use group cards: several words per card, with `commitFor` deciding when each word's result is recorded.
 - Scheduling is SM-2 ([src/lib/sm2.ts](src/lib/sm2.ts)). Within a complex, a word's grades are combined with `complexGrade`, and `progress` is updated once per word per session. Every answer also goes to `review_log` for stats and streaks.
 - [src/components/practice/Session.tsx](src/components/practice/Session.tsx) drives the flow.

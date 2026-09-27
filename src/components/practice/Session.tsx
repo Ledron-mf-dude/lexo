@@ -7,6 +7,8 @@ import { canSpeak, setAutoSpeak, useAutoSpeak } from '../../lib/speech'
 import { complexGrade, schedule, worseGrade, type Grade, type SrsState } from '../../lib/sm2'
 import type { Progress } from '../../types'
 import SpeakButton from '../SpeakButton'
+import Dictation from './Dictation'
+import Passage from './Passage'
 import Choice from './Choice'
 import Cloze from './Cloze'
 import Flashcard from './Flashcard'
@@ -246,6 +248,10 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
             <Choice card={card} onGrade={onGrade} />
           ) : card.mode === 'match' ? (
             <Match card={card} onDone={onMatched} />
+          ) : card.mode === 'passage' ? (
+            <Passage card={card} onDone={onMatched} />
+          ) : card.mode === 'dictation' ? (
+            <Dictation card={card} onGrade={onGrade} />
           ) : card.mode === 'cloze' ? (
             <Cloze card={card} onGrade={onGrade} />
           ) : card.mode === 'listen' ? (

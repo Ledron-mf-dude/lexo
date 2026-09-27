@@ -5,7 +5,7 @@ import { canSpeak } from './speech'
 import { findInExample, pickGaps, scrambleLetters, type Blank } from './text'
 
 export type Source = 'today' | 'new' | 'hard' | 'all' | 'subset'
-export type ModeChoice = 'auto' | 'flashcard' | 'translation' | 'choice' | 'typing' | 'scramble' | 'gaps' | 'cloze' | 'match' | 'matchdef' | 'listen' | 'speak'
+export type ModeChoice = 'auto' | 'flashcard' | 'translation' | 'choice' | 'typing' | 'scramble' | 'gaps' | 'cloze' | 'passage' | 'match' | 'matchdef' | 'listen' | 'dictation' | 'speak'
 export type Exercise = Exclude<ModeChoice, 'auto'>
 
 /** Listed in teaching order (recognise first, recall last); a complex runs its exercises in the order the user picked them. */
@@ -16,15 +16,17 @@ export const EXERCISES: { value: Exercise; label: string }[] = [
   { value: 'flashcard', label: 'Слово → переклад' },
   { value: 'translation', label: 'Переклад → слово' },
   { value: 'cloze', label: 'Слово в реченні' },
+  { value: 'passage', label: 'Текст із пропусками' },
   { value: 'gaps', label: 'Пропущені літери' },
   { value: 'scramble', label: 'Складання з літер' },
   { value: 'listen', label: 'Аудіювання' },
+  { value: 'dictation', label: 'Диктант речень' },
   { value: 'speak', label: 'Вимова' },
   { value: 'typing', label: 'Введення слова' },
 ]
 
 /** Exercises where several words share one card. */
-export const isGroupExercise = (m: Exercise) => m === 'match' || m === 'matchdef'
+export const isGroupExercise = (m: Exercise) => m === 'match' || m === 'matchdef' || m === 'passage'
 
 export interface SessionConfig {
   source: Source
@@ -184,6 +186,11 @@ function eligible(mode: Resolved, word: WordWithTags, canChoose: boolean): boole
       return term.length <= 40 && pickGaps(term) !== null
     case 'cloze':
       return canChoose && blankOf(word) !== null
+    case 'passage':
+      return blankOf(word) !== null
+    case 'dictation':
+      // A whole sentence to write down: long ones are more about memory than listening.
+      return canSpeak && Boolean(word.example?.trim()) && word.example!.length <= 140
     case 'matchdef':
       return Boolean(word.definition?.trim())
     case 'listen':
@@ -204,7 +211,7 @@ function pickAuto(word: WordWithTags, repetitions: number, canChoose: boolean): 
   let pool: Resolved[]
   if (repetitions < 2) pool = ['choice', 'choice', 'flashcard']
   else if (repetitions < 4) pool = ['gaps', 'scramble', 'typing', 'translation', 'cloze']
-  else pool = ['typing', 'typing', 'translation', 'flashcard', 'cloze', 'listen']
+  else pool = ['typing', 'typing', 'translation', 'flashcard', 'cloze', 'listen', 'dictation']
   const ok = pool.filter((m) => eligible(m, word, canChoose))
   return ok.length > 0 ? ok[Math.floor(Math.random() * ok.length)] : 'flashcard'
 }
@@ -226,6 +233,7 @@ export function makeCard(word: WordWithTags, prog: Progress, all: WordWithTags[]
   }
   if (resolved === 'listen') return { ...base, word, mode: 'listen', reverse: true }
   if (resolved === 'speak') return { ...base, word, mode: 'speak', reverse: true }
+  if (resolved === 'dictation') return { ...base, word, mode: 'dictation', reverse: false }
   if (resolved === 'gaps') return { ...base, word, mode: 'gaps', reverse: true, gaps: pickGaps(word.term) ?? [] }
   if (resolved === 'scramble') return { ...base, word, mode: 'scramble', reverse: true, letters: scrambleLetters(word.term) }
   const plain = resolved === 'translation' || resolved === 'typing' ? resolved : 'flashcard'
@@ -235,9 +243,9 @@ export function makeCard(word: WordWithTags, prog: Progress, all: WordWithTags[]
 const GROUP_SIZE = 4
 
 /** Groups of four; a leftover of one or two joins the previous group instead of forming a tiny one. */
-function chunkGroups(words: WordWithTags[]): WordWithTags[][] {
+function chunkGroups(words: WordWithTags[], size = GROUP_SIZE): WordWithTags[][] {
   const out: WordWithTags[][] = []
-  for (let i = 0; i < words.length; i += GROUP_SIZE) out.push(words.slice(i, i + GROUP_SIZE))
+  for (let i = 0; i < words.length; i += size) out.push(words.slice(i, i + size))
   if (out.length > 1 && out[out.length - 1].length < 3) out[out.length - 2].push(...out.pop()!)
   return out
 }
@@ -270,12 +278,14 @@ export function buildQueue(words: WordWithTags[], progress: Map<string, Progress
     const takers = (single ? words : shuffle(words)).filter((w) => plan.get(w.id)!.includes(mode))
     const round = single ? undefined : mode
     if (isGroupExercise(mode)) {
-      for (const group of chunkGroups(takers)) {
+      // A text with gaps reads better when its sentences share a topic: words are grouped by their first tag.
+      const members = mode === 'passage' ? [...takers].sort((a, b) => (a.tagIds[0] ?? '').localeCompare(b.tagIds[0] ?? '')) : takers
+      for (const group of chunkGroups(members, mode === 'passage' ? 5 : GROUP_SIZE)) {
         queue.push({
           word: group[0],
           group,
           pairs: mode === 'match' ? 'translation' : 'definition',
-          mode: 'match',
+          mode: mode === 'passage' ? 'passage' : 'match',
           reverse: false,
           commit: false,
           final: false,

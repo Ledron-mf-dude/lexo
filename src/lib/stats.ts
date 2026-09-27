@@ -119,6 +119,8 @@ export const MODE_LABELS: Record<string, string> = {
   match: 'Підбір пар',
   listen: 'Аудіювання',
   speak: 'Вимова',
+  passage: 'Текст із пропусками',
+  dictation: 'Диктант речень',
   definition: 'За визначенням',
   speed: 'Швидкий раунд',
 }

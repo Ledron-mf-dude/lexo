@@ -49,6 +49,8 @@ export type PracticeMode =
   | 'match'
   | 'listen'
   | 'speak'
+  | 'passage'
+  | 'dictation'
 
 export interface ReviewLog {
   id: string
