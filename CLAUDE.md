@@ -61,6 +61,10 @@ npm run lint     # oxlint
   - [src/components/LearningPath.tsx](src/components/LearningPath.tsx) on the Grammar page builds the route with `buildRoute`: weak topics first, then topics of the study level.
   - A topic counts as learned after 8+ attempted questions with at least 80% of the latest answers right. The study level moves up once 80% of its topics are learned.
   - `QuestionView` and `Feedback` are exported from ExerciseQuiz for reuse.
+- Grammar review ([src/lib/grammarReview.ts](src/lib/grammarReview.ts), [src/components/GrammarReview.tsx](src/components/GrammarReview.tsx)):
+  - `reviewSchedule` derives spaced repetition from `exercise_log`, with no extra table. A question answered wrongly returns after 1 → 3 → 7 → 14 days. A right answer counts as a step only after at least 80% of the interval.
+  - `CONTRAST_PAIRS` lists topics that are easy to confuse. `personalPairs` orders them by the user's current mistakes.
+  - The sessions are `/grammar/practice?review=1` (due questions, most overdue first) and `?pair=a,b` (topics alternate, topic name hidden). Both use `Quiz`'s `ordered` deck.
 - Writing coach ([src/pages/Writing.tsx](src/pages/Writing.tsx), `/grammar/writing`):
   - The text is checked by the public LanguageTool API ([src/lib/languageTool.ts](src/lib/languageTool.ts)). It is free and needs no key, but is limited to about 20 checks a minute.
   - `RULE_TOPICS` maps LanguageTool rule ids to article slugs.
