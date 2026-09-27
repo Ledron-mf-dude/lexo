@@ -1,6 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import type { WordInput } from '../lib/queries'
 import { BUILT_IN, loadTopicDictionary, suggestTags, type TopicDictionary } from '../lib/tagTaxonomy'
+import { fillFor, loadWordDetails, type DetailsDictionary } from '../lib/wordDetails'
 import TagInput from './TagInput'
 
 interface Props {
@@ -17,10 +18,15 @@ const empty: WordInput = { term: '', translation: '', definition: '', example: '
 export default function WordForm({ initial, suggestions, saving, error, onSubmit, onCancel }: Props) {
   const [form, setForm] = useState<WordInput>(initial ?? empty)
   const [dict, setDict] = useState<TopicDictionary | null>(null)
+  const [details, setDetails] = useState<DetailsDictionary | null>(null)
 
   useEffect(() => {
     loadTopicDictionary().then(setDict, () => {})
+    loadWordDetails().then(setDetails, () => {})
   }, [])
+
+  // A known word with an empty definition or example can take them from the dictionary in one tap.
+  const fill = details && form.term.trim() ? fillFor(form, details) : null
 
   // Tags that fit the word (known words from the topic dictionary, others by their shape), minus those already added.
   const suggested = form.term.trim() ? suggestTags(form.term, dict).filter((n) => !form.tagNames.includes(n)) : []
@@ -58,9 +64,18 @@ export default function WordForm({ initial, suggestions, saving, error, onSubmit
           onChange={(e) => set('translation', e.target.value)}
           className="field"
         />
+        {fill && (
+          <button
+            type="button"
+            onClick={() => setForm((f) => ({ ...f, definition: fill.definition ?? f.definition, example: fill.example ?? f.example }))}
+            className="text-left text-sm text-accent hover:underline"
+          >
+            ↳ Підставити {fill.definition && fill.example ? 'пояснення й приклад' : fill.definition ? 'пояснення' : 'приклад'} зі словника
+          </button>
+        )}
         <textarea
           rows={2}
-          placeholder="Визначення / підказка (необов'язково)"
+          placeholder="Пояснення англійською простими словами (необов'язково)"
           value={form.definition}
           onChange={(e) => set('definition', e.target.value)}
           className="field"

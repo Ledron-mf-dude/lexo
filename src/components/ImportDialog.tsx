@@ -2,6 +2,7 @@ import { useState, type ChangeEvent } from 'react'
 import { ACCEPTED_FILES, parseFiles, parsePasted, type ParseResult } from '../lib/importFormats'
 import { useImportWords } from '../lib/queries'
 import { loadTopicDictionary, suggestTags } from '../lib/tagTaxonomy'
+import { fillFor, loadWordDetails } from '../lib/wordDetails'
 
 interface Props {
   userId: string
@@ -28,6 +29,7 @@ export default function ImportDialog({ userId, onClose }: Props) {
   const [swap, setSwap] = useState(false)
   const [fileTags, setFileTags] = useState(true)
   const [autoTags, setAutoTags] = useState(true)
+  const [autoDetails, setAutoDetails] = useState(true)
   const [extraTag, setExtraTag] = useState('')
   const [progress, setProgress] = useState<[number, number] | null>(null)
   const [parseError, setParseError] = useState<string | null>(null)
@@ -69,10 +71,11 @@ export default function ImportDialog({ userId, onClose }: Props) {
 
   async function run() {
     if (!parsed) return
-    const dict = autoTags ? await loadTopicDictionary() : null
+    const [dict, details] = await Promise.all([autoTags ? loadTopicDictionary() : null, autoDetails ? loadWordDetails() : null])
     importWords.mutate({
       words: words.map((w) => ({
         ...w,
+        ...(details ? fillFor(w, details) : null),
         tagNames: [...new Set([...(fileTags ? w.tagNames : []), ...(dict ? suggestTags(w.term, dict) : [])])],
       })),
       extraTag,
@@ -184,6 +187,10 @@ export default function ImportDialog({ userId, onClose }: Props) {
                   <label className="flex cursor-pointer items-center gap-2">
                     <input type="checkbox" checked={autoTags} onChange={(e) => setAutoTags(e.target.checked)} className="size-4 accent-[#7c9bff]" />
                     Підібрати теги за темами (почуття, робота, фразові дієслова…)
+                  </label>
+                  <label className="flex cursor-pointer items-center gap-2">
+                    <input type="checkbox" checked={autoDetails} onChange={(e) => setAutoDetails(e.target.checked)} className="size-4 accent-[#7c9bff]" />
+                    Додати пояснення англійською і приклад, де слово відоме
                   </label>
                   {hasFileTags && (
                     <label className="flex cursor-pointer items-center gap-2">
