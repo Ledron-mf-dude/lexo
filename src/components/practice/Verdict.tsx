@@ -8,6 +8,8 @@ interface Props {
   result: TypedResult
   expected: string
   onGrade: (grade: Grade) => void
+  /** Heading for a near miss; typing says «одруківка», speaking says the sound was a little off. */
+  typoLabel?: string
 }
 
 const GRADE: Record<TypedResult, Grade> = { exact: 'good', typo: 'hard', wrong: 'again' }
@@ -16,7 +18,7 @@ const GRADE: Record<TypedResult, Grade> = { exact: 'good', typo: 'hard', wrong: 
  * Feedback after a typed / assembled answer. A perfect answer moves on by itself;
  * a typo or a miss waits for the user so the correct spelling can be read.
  */
-export default function Verdict({ result, expected, onGrade }: Props) {
+export default function Verdict({ result, expected, onGrade, typoLabel = 'Майже — є одруківка' }: Props) {
   useSpeakOnShow(expected)
   useEffect(() => {
     if (result === 'exact') {
@@ -39,7 +41,7 @@ export default function Verdict({ result, expected, onGrade }: Props) {
     <div className="space-y-3">
       <div className={`glass rounded-2xl p-4 text-center ${result === 'typo' ? 'border-accent/50!' : 'border-bad/50!'}`}>
         <p className={`text-sm ${result === 'typo' ? 'text-accent' : 'text-bad'}`}>
-          {result === 'typo' ? 'Майже — є одруківка' : 'Неправильно'}
+          {result === 'typo' ? typoLabel : 'Неправильно'}
         </p>
         <p className="mt-1 flex items-center justify-center gap-2 text-2xl break-words">
           {expected}

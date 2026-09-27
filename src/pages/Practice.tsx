@@ -7,14 +7,15 @@ import TagPicker from '../components/TagPicker'
 import WordOfDay from '../components/WordOfDay'
 import { useAuth } from '../lib/authContext'
 import { useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
+import { canRecognize } from '../lib/recognition'
 import { canSpeak } from '../lib/speech'
 import { EXERCISES as ALL_EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
 import type { Progress } from '../types'
 import { useTitle } from '../lib/useTitle'
 import { count, EXERCISE, WORD } from '../lib/plural'
 
-// Listening needs speech synthesis, which a few browsers lack.
-const EXERCISES = ALL_EXERCISES.filter((e) => e.value !== 'listen' || canSpeak)
+// Listening needs speech synthesis and speaking needs speech recognition; browsers without them do not show those exercises.
+const EXERCISES = ALL_EXERCISES.filter((e) => (e.value !== 'listen' || canSpeak) && (e.value !== 'speak' || canRecognize))
 
 // Ready-made complexes: every word goes through all of the listed exercises in one session.
 const PRESETS: { title: string; modes: Exercise[] }[] = [
@@ -26,7 +27,7 @@ const PRESETS: { title: string; modes: Exercise[] }[] = [
 // Recognising a word comes before producing it; the grid shows the two kinds apart.
 const EXERCISE_GROUPS: { title: string; modes: Exercise[] }[] = [
   { title: 'Впізнати', modes: ['choice', 'match', 'matchdef', 'flashcard', 'cloze'] },
-  { title: 'Відтворити', modes: ['translation', 'gaps', 'scramble', 'listen', 'typing'] },
+  { title: 'Відтворити', modes: ['translation', 'gaps', 'scramble', 'listen', 'typing', 'speak'] },
 ]
 
 const MODES_KEY = 'lexo.practice.modes'

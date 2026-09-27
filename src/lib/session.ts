@@ -1,10 +1,11 @@
 import type { PracticeMode, Progress } from '../types'
 import type { WordWithTags } from './queries'
+import { canRecognize } from './recognition'
 import { canSpeak } from './speech'
 import { findInExample, pickGaps, scrambleLetters, type Blank } from './text'
 
 export type Source = 'today' | 'new' | 'hard' | 'all' | 'subset'
-export type ModeChoice = 'auto' | 'flashcard' | 'translation' | 'choice' | 'typing' | 'scramble' | 'gaps' | 'cloze' | 'match' | 'matchdef' | 'listen'
+export type ModeChoice = 'auto' | 'flashcard' | 'translation' | 'choice' | 'typing' | 'scramble' | 'gaps' | 'cloze' | 'match' | 'matchdef' | 'listen' | 'speak'
 export type Exercise = Exclude<ModeChoice, 'auto'>
 
 /** Listed in teaching order (recognise first, recall last); a complex runs its exercises in the order the user picked them. */
@@ -18,6 +19,7 @@ export const EXERCISES: { value: Exercise; label: string }[] = [
   { value: 'gaps', label: 'Пропущені літери' },
   { value: 'scramble', label: 'Складання з літер' },
   { value: 'listen', label: 'Аудіювання' },
+  { value: 'speak', label: 'Вимова' },
   { value: 'typing', label: 'Введення слова' },
 ]
 
@@ -186,6 +188,9 @@ function eligible(mode: Resolved, word: WordWithTags, canChoose: boolean): boole
       return Boolean(word.definition?.trim())
     case 'listen':
       return canSpeak && term.length <= 40
+    case 'speak':
+      // Full sentences are too long to recognise reliably in one go.
+      return canRecognize && term.length <= 40 && term.split(/\s+/).length <= 5
     default:
       return true
   }
@@ -220,6 +225,7 @@ export function makeCard(word: WordWithTags, prog: Progress, all: WordWithTags[]
     return { ...base, word, mode: 'cloze', reverse: false, blank: blankOf(word)!, options: shuffle([word.term, ...termDistractors(word, all)]) }
   }
   if (resolved === 'listen') return { ...base, word, mode: 'listen', reverse: true }
+  if (resolved === 'speak') return { ...base, word, mode: 'speak', reverse: true }
   if (resolved === 'gaps') return { ...base, word, mode: 'gaps', reverse: true, gaps: pickGaps(word.term) ?? [] }
   if (resolved === 'scramble') return { ...base, word, mode: 'scramble', reverse: true, letters: scrambleLetters(word.term) }
   const plain = resolved === 'translation' || resolved === 'typing' ? resolved : 'flashcard'
