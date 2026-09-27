@@ -6,6 +6,7 @@ import { allMistakes, topicStats, useExerciseLog, useLogAnswer } from '../lib/ex
 import { useFocusMode } from '../lib/focusMode'
 import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
 import { useTitle } from '../lib/useTitle'
+import { cardItems } from '../lib/writingCards'
 
 const DECK_SIZE = 10
 const MIXED_DECK_SIZE = 15
@@ -68,6 +69,7 @@ export function MixedQuiz() {
   const category = params.get('cat')
   const mistakes = params.get('mistakes') === '1'
   const fixOnly = params.get('type') === 'fix'
+  const mine = params.get('type') === 'mine'
   const { log, settled } = useSettledLog()
   const [attempt, setAttempt] = useState(0)
 
@@ -75,7 +77,10 @@ export function MixedQuiz() {
 
   let pool: Item[]
   let title: string
-  if (mistakes) {
+  if (mine) {
+    pool = cardItems()
+    title = 'Мої помилки з письма'
+  } else if (mistakes) {
     const byId = new Map([...exercises].flatMap(([slug, qs]) => qs.map((q): [string, Item] => [`${slug}/${q.id}`, { slug, q }])))
     pool = allMistakes(log, exercises).map((m) => byId.get(`${m.slug}/${m.id}`)!)
     title = 'Робота над помилками'
@@ -91,7 +96,9 @@ export function MixedQuiz() {
         <Link to="/grammar" className="text-sm text-white/50 hover:text-white">
           ← До статей
         </Link>
-        <p className="glass rounded-3xl p-8 text-center text-white/50">{mistakes ? 'Помилок немає — усі останні відповіді правильні.' : 'Для цих фільтрів немає вправ.'}</p>
+        <p className="glass rounded-3xl p-8 text-center text-white/50">
+          {mine ? 'Карток ще немає: їх додає «Тренер письма».' : mistakes ? 'Помилок немає — усі останні відповіді правильні.' : 'Для цих фільтрів немає вправ.'}
+        </p>
       </section>
     )
   }

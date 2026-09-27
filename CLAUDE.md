@@ -61,6 +61,12 @@ npm run lint     # oxlint
   - [src/components/LearningPath.tsx](src/components/LearningPath.tsx) on the Grammar page builds the route with `buildRoute`: weak topics first, then topics of the study level.
   - A topic counts as learned after 8+ attempted questions with at least 80% of the latest answers right. The study level moves up once 80% of its topics are learned.
   - `QuestionView` and `Feedback` are exported from ExerciseQuiz for reuse.
+- Writing coach ([src/pages/Writing.tsx](src/pages/Writing.tsx), `/grammar/writing`):
+  - The text is checked by the public LanguageTool API ([src/lib/languageTool.ts](src/lib/languageTool.ts)). It is free and needs no key, but is limited to about 20 checks a minute.
+  - `RULE_TOPICS` maps LanguageTool rule ids to article slugs.
+  - Learnable mistakes become one personal card per sentence (`sentenceCards`). The cards are kept in `localStorage` ([src/lib/writingCards.ts](src/lib/writingCards.ts)).
+  - The cards are practised as `fix` questions under the pseudo-topic `my-writing` (`/grammar/practice?type=mine`).
+  - The British or American spelling check follows `lib/accent.ts`.
 
 **Vocabulary practice** ([src/lib/session.ts](src/lib/session.ts), [src/components/practice/](src/components/practice/)):
 - `pickWords` selects words by source: today, new, hard, all, or a subset.
