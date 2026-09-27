@@ -11,6 +11,7 @@ import { MODE_LABELS, activity, forecast, maturity, modeStats, percent, streak }
 import { demoExerciseLog, demoProgress, demoReviewLog } from '../lib/statsDemo'
 import { count, DAY, plural, REVIEW, WORD } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
+import { levelOf, useWordLevels, WORD_LEVELS } from '../lib/wordLevels'
 import type { Progress } from '../types'
 
 const dateLabel = (d: Date) => d.toLocaleDateString('uk-UA', { day: 'numeric', month: 'short' })
@@ -54,6 +55,26 @@ export default function Stats() {
   }, [days30, progress, log])
 
   const wordById = useMemo(() => new Map((words.data ?? []).map((w) => [w.id, w])), [words.data])
+
+  // Vocabulary by CEFR level: how many words of each level there are and how many are mature (21+ days, as above).
+  const levels = useWordLevels()
+  const byLevel = useMemo(() => {
+    if (!levels) return null
+    const rows = new Map(WORD_LEVELS.map((l) => [l, { total: 0, mature: 0 }]))
+    let unlevelled = 0
+    for (const p of progress) {
+      const word = wordById.get(p.word_id)
+      const level = word && levelOf(word.term, levels)
+      if (!level) {
+        unlevelled++
+        continue
+      }
+      const row = rows.get(level)!
+      row.total++
+      if (p.last_reviewed !== null && p.interval_days >= 21) row.mature++
+    }
+    return { rows: [...rows].filter(([, r]) => r.total > 0), unlevelled }
+  }, [levels, progress, wordById])
   const hardWords = useMemo(
     () =>
       progress
@@ -201,6 +222,17 @@ export default function Stats() {
           <BarChart data={forecastBars} color="bg-accent-alt" height={110} ariaLabel="Слова до повторення за днями" unit="слів" />
         </Card>
       </div>
+
+      {byLevel && byLevel.rows.length > 0 && (
+        <Card title="Словник за рівнями" note={byLevel.unlevelled > 0 ? `без рівня: ${byLevel.unlevelled}` : undefined}>
+          <div className="space-y-3">
+            {byLevel.rows.map(([level, r]) => (
+              <Meter key={level} label={level} value={r.mature} max={r.total} right={`зрілих ${r.mature} з ${r.total}`} />
+            ))}
+          </div>
+          <p className="text-xs text-white/35">Рівні — власна оцінка Lexo для вбудованого словника; зрілі — з інтервалом повторення 21+ день.</p>
+        </Card>
+      )}
 
       {modes.length > 0 && (
         <Card title="Точність за режимами" note="90 днів">
