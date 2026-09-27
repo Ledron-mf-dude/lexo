@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react'
 import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
-import { correctAnswer, drawDeck, exercises, isCorrectText, itemsOf, promptOf, shuffle, type Item, type Question } from '../lib/exercises'
+import { correctAnswer, drawDeck, exercises, isCorrectText, itemsOf, promptOf, shuffle, withVariant, type Item, type Question } from '../lib/exercises'
 import { allMistakes, topicStats, useExerciseLog, useLogAnswer } from '../lib/exerciseLog'
 import { useFocusMode } from '../lib/focusMode'
 import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
@@ -10,23 +10,7 @@ import { useTitle } from '../lib/useTitle'
 const DECK_SIZE = 10
 const MIXED_DECK_SIZE = 15
 
-// «Знайди помилку» sometimes shows the corrected sentence, so «there is a mistake» is not always the answer.
-const SHOW_RIGHT_SHARE = 0.3
-
-/**
- * Per-draw variation: authors put answers in any order, so choice options are shuffled and the position of the right one never gives it away;
- * a «find the mistake» pair is shown either as the wrong or as the corrected sentence.
- */
-function withVariant(item: Item): Item {
-  const { q } = item
-  if (q.type === 'fix') return { ...item, q: { ...q, showRight: Math.random() < SHOW_RIGHT_SHARE } }
-  if (q.type !== 'choice') return item
-  const correct = q.options[q.answer]
-  const options = shuffle(q.options)
-  return { ...item, q: { ...q, options, answer: options.indexOf(correct) } }
-}
-
-interface Outcome {
+export interface Outcome {
   correct: boolean
   given: string
 }
@@ -222,10 +206,7 @@ function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
       <p className="text-center text-xs text-white/40">{showTopic ? bySlug.get(item.slug)?.title : title.split(/[:(—]/)[0].trim()}</p>
 
       <div key={index}>
-        {q.type === 'choice' && <ChoiceQ q={q} outcome={outcome} onAnswer={answer} />}
-        {q.type === 'fill' && <FillQ q={q} outcome={outcome} onAnswer={answer} />}
-        {q.type === 'order' && <OrderQ q={q} outcome={outcome} onAnswer={answer} />}
-        {q.type === 'fix' && <FixQ q={q} outcome={outcome} onAnswer={answer} />}
+        <QuestionView q={q} outcome={outcome} onAnswer={answer} />
       </div>
 
       {outcome && <Feedback q={q} outcome={outcome} last={index + 1 === deck.length} onNext={next} onOverride={override} />}
@@ -241,7 +222,7 @@ interface FeedbackProps {
   onOverride: () => void
 }
 
-function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps) {
+export function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps) {
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (e.key === 'Enter') {
@@ -289,6 +270,14 @@ function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps) {
       </button>
     </div>
   )
+}
+
+/** The answering part of any question type. */
+export function QuestionView({ q, outcome, onAnswer }: QProps<Question>) {
+  if (q.type === 'choice') return <ChoiceQ q={q} outcome={outcome} onAnswer={onAnswer} />
+  if (q.type === 'fill') return <FillQ q={q} outcome={outcome} onAnswer={onAnswer} />
+  if (q.type === 'order') return <OrderQ q={q} outcome={outcome} onAnswer={onAnswer} />
+  return <FixQ q={q} outcome={outcome} onAnswer={onAnswer} />
 }
 
 interface QProps<T extends Question> {
