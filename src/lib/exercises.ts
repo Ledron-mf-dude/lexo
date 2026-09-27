@@ -141,3 +141,19 @@ export function drawDeck(pool: Item[], size: number): Item[] {
   }
   return deck
 }
+
+// «Знайди помилку» sometimes shows the corrected sentence, so «there is a mistake» is not always the answer.
+const SHOW_RIGHT_SHARE = 0.3
+
+/**
+ * Per-draw variation: authors put answers in any order, so choice options are shuffled and the position of the right one never gives it away;
+ * a «find the mistake» pair is shown either as the wrong or as the corrected sentence.
+ */
+export function withVariant(item: Item): Item {
+  const { q } = item
+  if (q.type === 'fix') return { ...item, q: { ...q, showRight: Math.random() < SHOW_RIGHT_SHARE } }
+  if (q.type !== 'choice') return item
+  const correct = q.options[q.answer]
+  const options = shuffle(q.options)
+  return { ...item, q: { ...q, options, answer: options.indexOf(correct) } }
+}

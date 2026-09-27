@@ -54,6 +54,13 @@ npm run lint     # oxlint
 - `drawDeck` interleaves the question types.
 - Answers go to `exercise_log`. The "mistakes" review ([src/lib/exerciseLog.ts](src/lib/exerciseLog.ts) `allMistakes`) picks the questions whose latest answer was wrong.
 - Question ids must stay stable, because the log references them.
+- Placement test and learning path ([src/lib/learningPath.ts](src/lib/learningPath.ts)):
+  - [src/pages/Placement.tsx](src/pages/Placement.tsx) is at `/grammar/placement`, declared before `grammar/:slug`.
+  - It asks blocks of 4 choice/fill questions per level, A1 → A2 → B1 → B1+ → B2 (C1 has one topic), taken from topics whose starting level is that level. It stops at the first block with fewer than 3 right.
+  - Answers go to `exercise_log`. The result (passed level, scores, weak topics) is kept in `localStorage` under `lexo.placement`.
+  - [src/components/LearningPath.tsx](src/components/LearningPath.tsx) on the Grammar page builds the route with `buildRoute`: weak topics first, then topics of the study level.
+  - A topic counts as learned after 8+ attempted questions with at least 80% of the latest answers right. The study level moves up once 80% of its topics are learned.
+  - `QuestionView` and `Feedback` are exported from ExerciseQuiz for reuse.
 
 **Vocabulary practice** ([src/lib/session.ts](src/lib/session.ts), [src/components/practice/](src/components/practice/)):
 - `pickWords` selects words by source: today, new, hard, all, or a subset.

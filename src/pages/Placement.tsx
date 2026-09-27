@@ -1,0 +1,177 @@
+import { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { useAuth } from '../lib/authContext'
+import { useLogAnswer } from '../lib/exerciseLog'
+import { withVariant, type Item } from '../lib/exercises'
+import { useFocusMode } from '../lib/focusMode'
+import { bySlug, type Level } from '../lib/grammar'
+import { BLOCK_SIZE, drawBlock, PASS_MARK, PLACEMENT_LEVELS, savePlacement, studyLevelAfter, type Placement as Result } from '../lib/learningPath'
+import { useTitle } from '../lib/useTitle'
+import { Feedback, QuestionView, type Outcome } from './ExerciseQuiz'
+
+const noop = () => {}
+
+/** Placement test: `/grammar/placement`. Blocks of questions from A1 up; the first block not passed ends the test. */
+export default function Placement() {
+  useTitle('Тест рівня')
+  const { session } = useAuth()
+  const navigate = useNavigate()
+  const { mutate: logAnswer } = useLogAnswer(session!.user.id)
+  const [started, setStarted] = useState(false)
+  const [levelIndex, setLevelIndex] = useState(0)
+  const [block, setBlock] = useState<Item[]>(() => drawBlock(PLACEMENT_LEVELS[0]).map(withVariant))
+  const [index, setIndex] = useState(0)
+  const [outcome, setOutcome] = useState<Outcome | null>(null)
+  const [scores, setScores] = useState<Partial<Record<Level, number>>>({})
+  const [weak, setWeak] = useState<string[]>([])
+  const [result, setResult] = useState<Result | null>(null)
+
+  const level = PLACEMENT_LEVELS[levelIndex]
+  const item = block[index]
+  useFocusMode(started && !result)
+
+  // Answers go to the exercise log like any other: mistakes from the test show up in «Робота над помилками».
+  function answer(o: Outcome) {
+    if (outcome) return
+    setOutcome(o)
+    logAnswer({ slug: item.slug, questionId: item.q.id, correct: o.correct })
+    if (o.correct) setScores((s) => ({ ...s, [level]: (s[level] ?? 0) + 1 }))
+    else setWeak((w) => (w.includes(item.slug) ? w : [...w, item.slug]))
+  }
+
+  function next() {
+    setOutcome(null)
+    if (index + 1 < block.length) return setIndex(index + 1)
+    // End of a block: pass and go up, or stop here.
+    const score = scores[level] ?? 0
+    const passedThis = score >= PASS_MARK
+    const last = levelIndex + 1 >= PLACEMENT_LEVELS.length
+    if (passedThis && !last) {
+      setLevelIndex(levelIndex + 1)
+      setBlock(drawBlock(PLACEMENT_LEVELS[levelIndex + 1]).map(withVariant))
+      setIndex(0)
+      return
+    }
+    const passed = passedThis ? level : levelIndex > 0 ? PLACEMENT_LEVELS[levelIndex - 1] : null
+    const r: Result = { passed, scores, weak, date: new Date().toISOString() }
+    savePlacement(r)
+    setResult(r)
+  }
+
+  if (result) {
+    const study = studyLevelAfter(result.passed)
+    const allPassed = result.passed === PLACEMENT_LEVELS.at(-1)
+    return (
+      <section className="space-y-5">
+        <div className="glass space-y-3 rounded-[2rem] p-8 text-center">
+          <p className="text-xs tracking-widest text-white/35 uppercase">Ваш рівень граматики</p>
+          <p className="text-5xl font-light">{result.passed ?? 'A1'}{allPassed ? '+' : ''}</p>
+          <p className="text-white/55">
+            {result.passed === null
+              ? 'Почнімо з основ: маршрут відкриється з тем A1.'
+              : allPassed
+                ? 'Усі рівні тесту пройдено. У маршруті — теми B2, щоб закріпити.'
+                : `Далі — теми рівня ${study}.`}
+          </p>
+        </div>
+        <div className="glass space-y-2 rounded-2xl p-4">
+          {PLACEMENT_LEVELS.slice(0, levelIndex + 1).map((l) => {
+            const s = result.scores[l] ?? 0
+            return (
+              <div key={l} className="flex items-center gap-3 text-sm">
+                <span className="w-10 text-white/60">{l}</span>
+                <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10">
+                  <div className={`h-full ${s >= PASS_MARK ? 'bg-good' : 'bg-bad/70'}`} style={{ width: `${(s / BLOCK_SIZE) * 100}%` }} />
+                </div>
+                <span className="w-10 text-right text-white/45 tabular-nums">
+                  {s} / {BLOCK_SIZE}
+                </span>
+              </div>
+            )
+          })}
+        </div>
+        {result.weak.length > 0 && (
+          <div className="space-y-2">
+            <h2 className="text-sm tracking-widest text-white/40 uppercase">Теми з помилками</h2>
+            <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl text-sm">
+              {result.weak.map((slug) => (
+                <li key={slug}>
+                  <Link to={`/grammar/${slug}`} className="block px-4 py-2.5 hover:bg-white/5">
+                    {bySlug.get(slug)?.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <div className="flex flex-wrap gap-2">
+          <button onClick={() => navigate('/grammar')} className="btn-primary">
+            До маршруту
+          </button>
+          <button
+            onClick={() => {
+              setResult(null)
+              setStarted(false)
+              setLevelIndex(0)
+              setBlock(drawBlock(PLACEMENT_LEVELS[0]).map(withVariant))
+              setIndex(0)
+              setScores({})
+              setWeak([])
+            }}
+            className="btn-ghost"
+          >
+            Пройти ще раз
+          </button>
+        </div>
+      </section>
+    )
+  }
+
+  if (!started) {
+    return (
+      <section className="space-y-5">
+        <Link to="/grammar" className="text-sm text-white/50 hover:text-white">
+          ← До граматики
+        </Link>
+        <div className="glass space-y-4 rounded-[2rem] p-6 sm:p-8">
+          <h1 className="text-2xl font-light tracking-tight">Тест рівня граматики</h1>
+          <ul className="list-disc space-y-1.5 pl-5 text-white/60">
+            <li>
+              Запитання йдуть блоками по {BLOCK_SIZE} від A1 до B2, до {BLOCK_SIZE * PLACEMENT_LEVELS.length} запитань, 5–10 хвилин.
+            </li>
+            <li>
+              Щоб пройти рівень, потрібно {PASS_MARK} правильні відповіді з {BLOCK_SIZE}. Тест зупиниться на першому непройденому рівні: заскладних запитань не буде.
+            </li>
+            <li>Після тесту на сторінці «Граматика» з'явиться маршрут: теми вашого рівня по порядку, першими — ті, де були помилки.</li>
+            <li>Відповіді записуються, як у звичайних вправах, тож помилки потраплять у «Роботу над помилками».</li>
+          </ul>
+          <button onClick={() => setStarted(true)} className="btn-primary w-full sm:w-auto">
+            Почати тест
+          </button>
+        </div>
+      </section>
+    )
+  }
+
+  const done = PLACEMENT_LEVELS.slice(0, levelIndex).length * BLOCK_SIZE + index
+  return (
+    <section className="space-y-5">
+      <div className="flex items-center gap-3 text-sm text-white/50">
+        <Link to="/grammar" aria-label="Вийти з тесту" className="hover:text-white">
+          ✕
+        </Link>
+        <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/10">
+          <div className="h-full bg-accent transition-all" style={{ width: `${(done / (BLOCK_SIZE * PLACEMENT_LEVELS.length)) * 100}%` }} />
+        </div>
+        <span className="tabular-nums">
+          {level} · {index + 1} / {block.length}
+        </span>
+      </div>
+      {/* No topic name above the question: in a test it would be a hint. */}
+      <div key={`${level}-${index}`}>
+        <QuestionView q={item.q} outcome={outcome} onAnswer={answer} />
+      </div>
+      {outcome && <Feedback q={item.q} outcome={outcome} last={false} onNext={next} onOverride={noop} />}
+    </section>
+  )
+}
