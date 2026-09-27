@@ -210,6 +210,8 @@ export interface ReviewInput {
   errorCount: number
   /** Omitted for the early exercises of a complex: those are only logged, the schedule changes once, at the end. */
   next?: { ease_factor: number; interval_days: number; repetitions: number; due_at: Date }
+  /** false: only the schedule changes, nothing is logged (a skipped exercise was not an answer). */
+  log?: boolean
 }
 
 /** Persists one answer: appends a review_log row and, unless `next` is omitted, updates the word's schedule. */
@@ -231,6 +233,7 @@ export function useReviewWord(userId: string) {
           .eq('word_id', r.wordId)
         if (error) throw error
       }
+      if (r.log === false) return
       const { error: logError } = await supabase
         .from('review_log')
         .insert({ word_id: r.wordId, user_id: userId, mode: r.mode, correct: r.correct, reviewed_at: now })

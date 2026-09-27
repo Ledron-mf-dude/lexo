@@ -118,6 +118,7 @@ export const MODE_LABELS: Record<string, string> = {
   cloze: 'Слово в реченні',
   match: 'Підбір пар',
   listen: 'Аудіювання',
+  speak: 'Вимова',
   definition: 'За визначенням',
   speed: 'Швидкий раунд',
 }

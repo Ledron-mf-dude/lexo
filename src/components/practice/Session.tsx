@@ -14,6 +14,7 @@ import Gaps from './Gaps'
 import Listen from './Listen'
 import Match from './Match'
 import Scramble from './Scramble'
+import Speak from './Speak'
 import Typing from './Typing'
 
 interface Props {
@@ -50,7 +51,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
   // The exercises that actually have cards (an exercise nobody can do is left out of the complex).
   const rounds = modes.filter((m) => initial.some((c) => c.round === m))
   const [done, setDone] = useState(0)
-  const [stats, setStats] = useState({ right: 0, wrong: 0 })
+  const [stats, setStats] = useState({ right: 0, wrong: 0, skipped: 0 })
   const [step, setStep] = useState(0)
   const [failed, setFailed] = useState<Set<string>>(() => new Set())
   // Answers in a row without a miss (like a Duolingo combo), and the best run of the session.
@@ -124,6 +125,29 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
 
   const onGrade = useCallback((grade: Grade) => onGrades(queue[0] ? [{ word: queue[0].word, grade }] : []), [queue, onGrades])
 
+  // Skipping a speaking card (or all of them: "can't talk right now") gives no grade. If it was a word's last exercise
+  // in a complex, the schedule is set from the earlier exercises, as if the skipped one had not been chosen.
+  const onSkip = useCallback(
+    (all: boolean) => {
+      const current = queue[0]
+      if (!current) return
+      const skipped = new Set(all ? queue.filter((c) => c.mode === current.mode && !c.retry) : [current])
+      for (const c of skipped) {
+        const grade = earlier.get(c.word.id)
+        if (!c.commit || c.retry || !grade) continue
+        const prev = stateOf(c.word.id)
+        const next = schedule(prev, grade)
+        setLive((m) => new Map(m).set(c.word.id, { ...next, error_count: prev.error_count }))
+        saveReview({ wordId: c.word.id, mode: c.mode, correct: grade !== 'again', errorCount: prev.error_count, next, log: false })
+      }
+      setQueue((q) => q.filter((c) => !skipped.has(c)))
+      setDone((d) => d + skipped.size)
+      setStats((st) => ({ ...st, skipped: st.skipped + skipped.size }))
+      setStep((s) => s + 1)
+    },
+    [queue, earlier, stateOf, saveReview],
+  )
+
   const onMatched = useCallback(
     (mistakes: Record<string, number>) => {
       const group = queue[0]?.group ?? []
@@ -140,7 +164,9 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
       <div className="glass space-y-4 rounded-[2rem] p-8 text-center">
         <h2 className="text-3xl font-light">Сесію завершено</h2>
         <p className="text-white/60">
-          Слів: {words.length} · відповідей {answers} · правильно {stats.right} · помилок {stats.wrong} · точність {accuracy}%
+          Слів: {words.length} · відповідей {answers}
+          {answers > 0 && ` · правильно ${stats.right} · помилок ${stats.wrong} · точність ${accuracy}%`}
+          {stats.skipped > 0 && ` · пропущено ${stats.skipped}`}
         </p>
         {combo.best >= 3 && <p className="text-sm text-[#fbbf24]">Найдовша серія без помилок: {combo.best}</p>}
         {failed.size > 0 && (
@@ -168,7 +194,16 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
   }
 
   if (card.round && card.round !== announced) {
-    return <RoundIntro round={card.round} modes={rounds} words={queue.filter((c) => c.round === card.round).reduce((n, c) => n + (c.group?.length ?? 1), 0)} onStart={() => setAnnounced(card.round!)} onExit={onFinish} />
+    return (
+      <RoundIntro
+        round={card.round}
+        modes={rounds}
+        words={queue.filter((c) => c.round === card.round).reduce((n, c) => n + (c.group?.length ?? 1), 0)}
+        onStart={() => setAnnounced(card.round!)}
+        onSkip={card.round === 'speak' ? () => onSkip(true) : undefined}
+        onExit={onFinish}
+      />
+    )
   }
 
   return (
@@ -215,6 +250,8 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
             <Cloze card={card} onGrade={onGrade} />
           ) : card.mode === 'listen' ? (
             <Listen card={card} onGrade={onGrade} />
+          ) : card.mode === 'speak' ? (
+            <Speak card={card} onGrade={onGrade} onSkip={onSkip} />
           ) : card.mode === 'typing' ? (
             <Typing card={card} onGrade={onGrade} />
           ) : card.mode === 'scramble' ? (
@@ -231,7 +268,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
 }
 
 /** Shown between the rounds of a complex: which exercise comes next and how far along the complex is. */
-function RoundIntro({ round, modes, words, onStart, onExit }: { round: Exercise; modes: Exercise[]; words: number; onStart: () => void; onExit: () => void }) {
+function RoundIntro({ round, modes, words, onStart, onSkip, onExit }: { round: Exercise; modes: Exercise[]; words: number; onStart: () => void; onSkip?: () => void; onExit: () => void }) {
   const index = modes.indexOf(round)
   const label = EXERCISES.find((e) => e.value === round)?.label ?? round
   const next = modes[index + 1] && EXERCISES.find((e) => e.value === modes[index + 1])?.label
@@ -262,6 +299,11 @@ function RoundIntro({ round, modes, words, onStart, onExit }: { round: Exercise;
         <button onClick={onStart} className="btn-primary w-full">
           Почати
         </button>
+        {onSkip && (
+          <button onClick={onSkip} className="w-full text-sm text-white/45 hover:text-white">
+            Не можу говорити зараз — пропустити цю вправу
+          </button>
+        )}
       </div>
     </div>
   )
