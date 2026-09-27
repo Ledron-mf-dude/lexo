@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import LevelBadge from '../components/LevelBadge'
 import SelectMenu from '../components/SelectMenu'
-import { exercises, questionCount } from '../lib/exercises'
+import { exercises, fixCount, questionCount } from '../lib/exercises'
 import { allMistakes, topicStats, useExerciseLog } from '../lib/exerciseLog'
 import { LEVELS, articles, categories, levelCounts, searchArticles, startLevel, type Article, type Hit, type Level } from '../lib/grammar'
 import { ARTICLE, count } from '../lib/plural'
@@ -35,6 +35,10 @@ export default function Grammar() {
     }
     return map
   }, [log.data])
+
+  /** Query string for mixed practice with the current level and topic filters. */
+  const practiceQuery = (extra: Record<string, string>) =>
+    new URLSearchParams(Object.entries({ level, cat: category, ...extra }).filter((e): e is [string, string] => Boolean(e[1]))).toString()
 
   // Filters live in the URL, so Back from an article returns to the same list.
   function update(next: Record<string, string | null>) {
@@ -138,10 +142,12 @@ export default function Grammar() {
                 Помилки · {mistakes}
               </button>
             )}
-            <button
-              onClick={() => navigate(`/grammar/practice?${new URLSearchParams(Object.entries({ level, cat: category }).filter((e): e is [string, string] => Boolean(e[1]))).toString()}`)}
-              className="btn-primary"
-            >
+            {fixCount > 0 && (
+              <button onClick={() => navigate(`/grammar/practice?${practiceQuery({ type: 'fix' })}`)} className="btn-ghost" title={`${fixCount} речень із розділів «Типові помилки»`}>
+                Знайди помилку
+              </button>
+            )}
+            <button onClick={() => navigate(`/grammar/practice?${practiceQuery({})}`)} className="btn-primary">
               Почати
             </button>
           </div>

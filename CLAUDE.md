@@ -48,6 +48,7 @@ npm run lint     # oxlint
   - `choice`: `q`, `options`, and `answer`, which is an index into `options`;
   - `fill`: `q` containing `___`, and `answer`, which is a list of accepted strings;
   - `order`: `words`, and `answer`, which is a list of accepted sentences.
+- A fourth type, `fix` («Знайди помилку»), is not written in JSON. `mistakeQuestions` generates it from the article's `- ✗ *wrong* → ✓ *right*` lines; alternatives after ` / ` become extra accepted answers. Pairs with «…», a slash inside a span, a BrE/AmE/register note, or a punctuation-only change are skipped. The id is a hash of the wrong sentence, so editing that sentence resets its log history. In the quiz, about 30% of draws show the corrected sentence instead, and the learner can mark an unrecognised correction as right («Мій варіант теж правильний»), which logs a newer correct row.
 - Invalid questions are skipped with a console warning, not rejected at build time.
 - Text answers are compared ignoring case, extra spaces, curly apostrophes and punctuation (`canon`).
 - `drawDeck` interleaves the question types.
