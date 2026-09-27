@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import LevelBadge from '../components/LevelBadge'
+import GrammarReview from '../components/GrammarReview'
 import LearningPath from '../components/LearningPath'
 import SelectMenu from '../components/SelectMenu'
 import { exercises, fixCount, questionCount } from '../lib/exercises'
@@ -130,6 +131,8 @@ export default function Grammar() {
       </div>
 
       {!searching && <LearningPath progress={progress} />}
+
+      {!searching && <GrammarReview log={log.data} />}
 
       {!searching && (
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">

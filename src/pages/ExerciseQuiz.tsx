@@ -6,7 +6,8 @@ import { allMistakes, topicStats, useExerciseLog, useLogAnswer } from '../lib/ex
 import { useFocusMode } from '../lib/focusMode'
 import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
 import { useTitle } from '../lib/useTitle'
-import { cardItems } from '../lib/writingCards'
+import { cardItems, MY_WRITING } from '../lib/writingCards'
+import { reviewSchedule, reviewSummary, shortTitle } from '../lib/grammarReview'
 
 const DECK_SIZE = 10
 const MIXED_DECK_SIZE = 15
@@ -70,6 +71,8 @@ export function MixedQuiz() {
   const mistakes = params.get('mistakes') === '1'
   const fixOnly = params.get('type') === 'fix'
   const mine = params.get('type') === 'mine'
+  const review = params.get('review') === '1'
+  const pair = params.get('pair')?.split(',').filter((s) => exercises.has(s))
   const { log, settled } = useSettledLog()
   const [attempt, setAttempt] = useState(0)
 
@@ -77,7 +80,27 @@ export function MixedQuiz() {
 
   let pool: Item[]
   let title: string
-  if (mine) {
+  // Review and pair decks come in a set order (most overdue first; topics alternating), not re-drawn by type.
+  let ordered = false
+  let showTopic = true
+  if (review) {
+    const cards = new Map(cardItems().map((i) => [i.q.id, i]))
+    const find = (slug: string, id: string): Item | undefined =>
+      slug === MY_WRITING ? cards.get(id) : (() => {
+        const q = exercises.get(slug)?.find((x) => x.id === id)
+        return q && { slug, q }
+      })()
+    pool = reviewSummary(reviewSchedule(log, (slug, id) => find(slug, id) !== undefined)).due.map((e) => find(e.slug, e.id)!)
+    ordered = true
+    title = 'Граматика на сьогодні'
+  } else if (pair && pair.length === 2) {
+    // Alternating topics, names hidden: which rule applies has to be recognised from the sentence itself.
+    const [a, b] = pair.map((s) => shuffle(itemsOf(s)))
+    pool = Array.from({ length: Math.max(a.length, b.length) }, (_, i) => [a[i], b[i]]).flat().filter(Boolean)
+    ordered = true
+    showTopic = false
+    title = `${shortTitle(pair[0])} / ${shortTitle(pair[1])}`
+  } else if (mine) {
     pool = cardItems()
     title = 'Мої помилки з письма'
   } else if (mistakes) {
@@ -97,12 +120,23 @@ export function MixedQuiz() {
           ← До статей
         </Link>
         <p className="glass rounded-3xl p-8 text-center text-white/50">
-          {mine ? 'Карток ще немає: їх додає «Тренер письма».' : mistakes ? 'Помилок немає — усі останні відповіді правильні.' : 'Для цих фільтрів немає вправ.'}
+          {review ? 'На сьогодні повторювати нічого.' : mine ? 'Карток ще немає: їх додає «Тренер письма».' : mistakes ? 'Помилок немає — усі останні відповіді правильні.' : 'Для цих фільтрів немає вправ.'}
         </p>
       </section>
     )
   }
-  return <Quiz key={attempt} title={title} pool={pool} size={MIXED_DECK_SIZE} showTopic back={{ to: '/grammar', label: 'До граматики' }} onRestart={() => setAttempt((n) => n + 1)} />
+  return (
+    <Quiz
+      key={attempt}
+      title={title}
+      pool={pool}
+      size={pair ? 16 : MIXED_DECK_SIZE}
+      ordered={ordered}
+      showTopic={showTopic}
+      back={{ to: '/grammar', label: 'До граматики' }}
+      onRestart={() => setAttempt((n) => n + 1)}
+    />
+  )
 }
 
 interface QuizProps {
@@ -111,15 +145,17 @@ interface QuizProps {
   size: number
   /** Mixed decks name the topic above each question, with a link to its article in the review. */
   showTopic?: boolean
+  /** Take the pool in its order instead of drawing a type-interleaved deck. */
+  ordered?: boolean
   back: { to: string; label: string }
   onRestart: () => void
 }
 
-function Quiz({ title, pool, size, showTopic, back, onRestart }: QuizProps) {
+function Quiz({ title, pool, size, showTopic, ordered, back, onRestart }: QuizProps) {
   useTitle(`Вправи: ${title.split(/[:(—]/)[0].trim()}`)
   const { session } = useAuth()
   const { mutate: logAnswer } = useLogAnswer(session!.user.id)
-  const [deck] = useState(() => drawDeck(pool, size).map(withVariant))
+  const [deck] = useState(() => (ordered ? pool.slice(0, size) : drawDeck(pool, size)).map(withVariant))
   const [index, setIndex] = useState(0)
   const [outcome, setOutcome] = useState<Outcome | null>(null)
   const [results, setResults] = useState<{ item: Item; outcome: Outcome }[]>([])
