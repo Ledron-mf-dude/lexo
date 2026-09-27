@@ -76,7 +76,12 @@ npm run lint     # oxlint
   - Words it cannot find are remembered in `localStorage`, so the bulk lookup does not ask for them again.
   - The word form uses it with a debounce. Transcription, part of speech and recording are saved without asking; the definition and example need a tap.
   - [src/components/PronunciationCard.tsx](src/components/PronunciationCard.tsx) runs the bulk lookup on the Words page.
-  - The data is stored in `words.ipa`, `words.pos` (migration 0004) and `words.audio_url`. Before migration 0004 is run, saving falls back to the old columns (`isMissingColumn`, error code PGRST204).
+  - The data is stored in `words.ipa`, `words.pos` (migration 0004) and `words.audio_url`. Bulk import (`useImportWords`) saves these fields too, when the rows have them. Before migration 0004 is run, saving falls back to the old columns (`isMissingColumn`, error code PGRST204).
+- «Слова з тексту» ([src/components/AddFromTextDialog.tsx](src/components/AddFromTextDialog.tsx)) works on pasted text.
+  - [src/lib/textWords.ts](src/lib/textWords.ts) splits the text into tokens. It marks words already in the dictionary, matching inflected forms through `baseForms` and multi-word terms (including `sth`/`sb` placeholders) through `findPhrases`.
+  - The user taps new words and can grow a selection into a phrase.
+  - Each chosen word gets a draft translation from MyMemory ([src/lib/translate.ts](src/lib/translate.ts)) plus Wiktionary data. The sentence it came from becomes its example.
+  - Only the chosen words are sent to these services, never the whole text.
 - The development plan agreed with the owner is in [ROADMAP.md](ROADMAP.md).
 - [src/lib/importFormats.ts](src/lib/importFormats.ts) parses the import formats. The format is chosen by file extension, then by content.
   - Formats: Anki `.txt` and `.apkg`, CSV/TSV/text lists (the separator is detected), Google Translate CSV, `.xlsx`, JSON.
