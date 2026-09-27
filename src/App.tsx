@@ -21,6 +21,7 @@ const ExerciseQuiz = lazyPage(() => import('./pages/ExerciseQuiz'))
 const MixedQuiz = lazyPage(() => import('./pages/ExerciseQuiz').then((m) => ({ default: m.MixedQuiz })))
 const Stats = lazyPage(() => import('./pages/Stats'))
 const Placement = lazyPage(() => import('./pages/Placement'))
+const Writing = lazyPage(() => import('./pages/Writing'))
 
 const queryClient = new QueryClient()
 
@@ -51,6 +52,7 @@ export default function App() {
               <Route path="grammar" element={<Suspense fallback={loading}><Grammar /></Suspense>} />
               <Route path="grammar/practice" element={<Suspense fallback={loading}><MixedQuiz /></Suspense>} />
               <Route path="grammar/placement" element={<Suspense fallback={loading}><Placement /></Suspense>} />
+              <Route path="grammar/writing" element={<Suspense fallback={loading}><Writing /></Suspense>} />
               <Route path="grammar/:slug" element={<Suspense fallback={loading}><GrammarArticle /></Suspense>} />
               <Route path="grammar/:slug/exercises" element={<Suspense fallback={loading}><ExerciseQuiz /></Suspense>} />
               <Route path="account" element={<Account />} />

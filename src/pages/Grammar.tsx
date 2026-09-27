@@ -133,6 +133,18 @@ export default function Grammar() {
 
       {!searching && (
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
+          <div className="min-w-0 flex-1">
+            <p className="font-medium">Тренер письма</p>
+            <p className="text-sm text-white/45">Напишіть кілька речень на тему: перевірка знайде помилки, а з них вийдуть ваші картки на повторення.</p>
+          </div>
+          <button onClick={() => navigate('/grammar/writing')} className="btn-ghost w-full sm:w-auto">
+            Писати
+          </button>
+        </div>
+      )}
+
+      {!searching && (
+        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
           <div className="min-w-0">
             <p className="font-medium">Змішані вправи</p>
             <p className="text-sm text-white/45">
