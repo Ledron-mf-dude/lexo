@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import FillDetailsCard from '../components/FillDetailsCard'
 import ImportDialog from '../components/ImportDialog'
 import WordForm from '../components/WordForm'
 import SelectMenu from '../components/SelectMenu'
@@ -174,6 +175,8 @@ export default function Words() {
           </span>
         )}
       </div>
+
+      {words.data && !filtered && <FillDetailsCard words={words.data} />}
 
       {words.isLoading && <p className="animate-pulse text-white/50">Завантаження…</p>}
       {words.error && <p className="text-bad">{(words.error as Error).message}</p>}

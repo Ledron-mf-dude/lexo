@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
 import { TAG_COLORS, useTagActions, useTags, useWords } from '../lib/queries'
 import type { Tag } from '../types'
-import { count, WORD } from '../lib/plural'
+import { count, WORD, WORD_GEN } from '../lib/plural'
 import { GROUP_LABELS, groupTags } from '../lib/tagTaxonomy'
 import AutoTagDialog from '../components/AutoTagDialog'
 import { useTitle } from '../lib/useTitle'
@@ -59,7 +59,7 @@ export default function Tags() {
 
   function remove(tag: Tag) {
     const n = counts.get(tag.id) ?? 0
-    const text = n > 0 ? `Видалити тег «${tag.name}»? Він зникне з ${count(n, WORD)}; самі слова залишаться.` : `Видалити тег «${tag.name}»?`
+    const text = n > 0 ? `Видалити тег «${tag.name}»? Він зникне з ${count(n, WORD_GEN)}; самі слова залишаться.` : `Видалити тег «${tag.name}»?`
     if (window.confirm(text)) run(actions.remove.mutateAsync([tag.id]))
   }
 

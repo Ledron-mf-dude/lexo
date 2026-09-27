@@ -11,6 +11,8 @@ export function plural(n: number, [one, few, many]: readonly [string, string, st
 export const count = (n: number, forms: readonly [string, string, string]) => `${n} ${plural(n, forms)}`
 
 export const WORD = ['слово', 'слова', 'слів'] as const
+/** After «у», «для», «до», «з»: «для 1 слова», «для 5 слів». */
+export const WORD_GEN = ['слова', 'слів', 'слів'] as const
 export const DAY = ['день', 'дні', 'днів'] as const
 export const CARD = ['картка', 'картки', 'карток'] as const
 export const REVIEW = ['повторення', 'повторення', 'повторень'] as const

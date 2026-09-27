@@ -298,6 +298,29 @@ export function useTagActions(userId: string) {
   return { create, rename, recolor, remove, merge }
 }
 
+/** Writes definitions / examples into words that had those fields empty (one UPDATE per word). */
+export function useFillDetails() {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: async ({ fills, onProgress }: { fills: { id: string; definition?: string; example?: string }[]; onProgress?: (done: number, total: number) => void }) => {
+      let done = 0
+      // Small parallel batches keep ~1100 updates to about a minute without flooding the API.
+      for (let i = 0; i < fills.length; i += 20) {
+        const batch = fills.slice(i, i + 20)
+        const results = await Promise.all(
+          batch.map(({ id, ...fields }) => supabase.from('words').update(fields).eq('id', id)),
+        )
+        const failed = results.find((r) => r.error)
+        if (failed?.error) throw failed.error
+        done += batch.length
+        onProgress?.(done, fills.length)
+      }
+      return done
+    },
+    onSuccess: () => qc.invalidateQueries({ queryKey: ['words'] }),
+  })
+}
+
 export interface AutoTagPlan {
   /** Tags to add to each word (existing links are kept). */
   links: { wordId: string; tagNames: string[] }[]

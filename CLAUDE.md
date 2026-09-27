@@ -69,6 +69,8 @@ npm run lint     # oxlint
   - the import dialog;
   - the word form.
 - Tag names are matched by text. Renaming a built-in tag makes it a personal one, and article `wordTags` front matter refers to tags by name.
+- [src/content/wordDetails.json](src/content/wordDetails.json) gives known words a plain-English definition and an example that contains the word. It loads lazily through `loadWordDetails` in [src/lib/wordDetails.ts](src/lib/wordDetails.ts). `fillFor` fills only empty fields and is used by the «Доповнити» card on the Words page, by import, and by the word form. Definitions must not contain the word itself, otherwise «Слово ↔ пояснення» becomes trivial.
+- The development plan agreed with the owner is in [ROADMAP.md](ROADMAP.md).
 - [src/lib/importFormats.ts](src/lib/importFormats.ts) parses the import formats. The format is chosen by file extension, then by content.
   - Formats: Anki `.txt` and `.apkg`, CSV/TSV/text lists (the separator is detected), Google Translate CSV, `.xlsx`, JSON.
   - If most rows are "Ukrainian, English", the columns are swapped.

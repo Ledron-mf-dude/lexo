@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { count, TAG, WORD } from '../lib/plural'
+import { count, TAG, WORD, WORD_GEN } from '../lib/plural'
 import { useAutoTag, type WordWithTags } from '../lib/queries'
 import { BUILT_IN, GROUP_LABELS, isBuiltInTag, loadTopicDictionary, suggestTags, type TopicDictionary } from '../lib/tagTaxonomy'
 import type { Tag } from '../types'
@@ -72,7 +72,7 @@ export default function AutoTagDialog({ userId, words, tags, onClose }: Props) {
         {done ? (
           <>
             <p className="text-good">
-              Готово: теги додано до {count(done.tagged, WORD)}
+              Готово: теги додано до {count(done.tagged, WORD_GEN)}
               {done.removed > 0 && `, видалено ${count(done.removed, TAG)}`}.
             </p>
             <div className="flex justify-end">
