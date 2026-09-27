@@ -1,5 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import type { WordInput } from '../lib/queries'
+import { playRecording, speak } from '../lib/speech'
+import { lookupOnline, posLabel, type OnlineEntry } from '../lib/wiktionary'
 import { BUILT_IN, loadTopicDictionary, suggestTags, type TopicDictionary } from '../lib/tagTaxonomy'
 import { fillFor, loadWordDetails, type DetailsDictionary } from '../lib/wordDetails'
 import TagInput from './TagInput'
@@ -20,13 +22,44 @@ export default function WordForm({ initial, suggestions, saving, error, onSubmit
   const [dict, setDict] = useState<TopicDictionary | null>(null)
   const [details, setDetails] = useState<DetailsDictionary | null>(null)
 
+  // Wiktionary entry for the typed word: looked up a moment after typing stops, kept only while the term still matches.
+  const [online, setOnline] = useState<{ term: string; entry: OnlineEntry | null } | null>(null)
+  const term = form.term.trim()
+
   useEffect(() => {
     loadTopicDictionary().then(setDict, () => {})
     loadWordDetails().then(setDetails, () => {})
   }, [])
 
-  // A known word with an empty definition or example can take them from the dictionary in one tap.
-  const fill = details && form.term.trim() ? fillFor(form, details) : null
+  useEffect(() => {
+    if (term.length < 2 || !navigator.onLine) return
+    let live = true
+    const t = setTimeout(() => {
+      lookupOnline(term).then(
+        (entry) => live && setOnline({ term, entry }),
+        () => {}, // offline or Wiktionary unavailable: the form works as before
+      )
+    }, 600)
+    return () => {
+      live = false
+      clearTimeout(t)
+    }
+  }, [term])
+
+  const entry = online?.term === term ? online.entry : null
+  // A changed word keeps nothing of the old one's pronunciation.
+  const sameWord = term === (initial?.term ?? '').trim()
+  const ipa = (sameWord && form.ipa) || entry?.ipa || ''
+  const pos = (sameWord && form.pos) || entry?.pos || ''
+  const audio = (sameWord && form.audio_url) || entry?.audio || ''
+
+  // Empty definition or example: the built-in dictionary (plain English) first, Wiktionary for the rest. Filled only on a tap.
+  const local = details && term ? fillFor(form, details) : null
+  const fill = {
+    definition: local?.definition ?? (!form.definition.trim() ? (entry?.definition ?? undefined) : undefined),
+    example: local?.example ?? (!form.example.trim() ? (entry?.example ?? undefined) : undefined),
+  }
+  const fromWiktionary = (!local?.definition && fill.definition) || (!local?.example && fill.example)
 
   // Tags that fit the word (known words from the topic dictionary, others by their shape), minus those already added.
   const suggested = form.term.trim() ? suggestTags(form.term, dict).filter((n) => !form.tagNames.includes(n)) : []
@@ -36,9 +69,10 @@ export default function WordForm({ initial, suggestions, saving, error, onSubmit
     setForm((f) => ({ ...f, [key]: value }))
   }
 
+  // Transcription, part of speech and recording are not the user's writing: they are saved with the word without asking.
   function submit(e: FormEvent) {
     e.preventDefault()
-    onSubmit(form)
+    onSubmit({ ...form, ipa, pos, audio_url: audio })
   }
 
   return (
@@ -64,13 +98,33 @@ export default function WordForm({ initial, suggestions, saving, error, onSubmit
           onChange={(e) => set('translation', e.target.value)}
           className="field"
         />
-        {fill && (
+        {(ipa || pos || audio) && (
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-white/55">
+            {ipa && <span className="font-mono text-white/70">{ipa}</span>}
+            {pos && <span className="text-white/40">{posLabel(pos)}</span>}
+            <button
+              type="button"
+              onClick={() => (audio ? playRecording(audio, term) : speak(term))}
+              className="rounded-full px-2 py-0.5 text-accent hover:bg-accent/10"
+              aria-label={`Прослухати «${term}»`}
+            >
+              ▶ {audio ? 'запис вимови' : 'прослухати'}
+            </button>
+            {entry && (
+              <a href={entry.page} target="_blank" rel="noreferrer" className="ml-auto text-xs text-white/30 hover:text-white/60">
+                Wiktionary · CC BY-SA
+              </a>
+            )}
+          </div>
+        )}
+        {(fill.definition || fill.example) && (
           <button
             type="button"
             onClick={() => setForm((f) => ({ ...f, definition: fill.definition ?? f.definition, example: fill.example ?? f.example }))}
             className="text-left text-sm text-accent hover:underline"
           >
-            ↳ Підставити {fill.definition && fill.example ? 'пояснення й приклад' : fill.definition ? 'пояснення' : 'приклад'} зі словника
+            ↳ Підставити {fill.definition && fill.example ? 'пояснення й приклад' : fill.definition ? 'пояснення' : 'приклад'}
+            {fromWiktionary ? (local ? ' зі словника та Wiktionary' : ' з Wiktionary') : ' зі словника'}
           </button>
         )}
         <textarea

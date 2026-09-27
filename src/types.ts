@@ -6,6 +6,9 @@ export interface Word {
   definition: string | null
   example: string | null
   audio_url: string | null
+  /** Transcription and part of speech, from Wiktionary (migration 0004; absent before it is run). */
+  ipa?: string | null
+  pos?: string | null
   created_at: string
 }
 

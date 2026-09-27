@@ -1,10 +1,12 @@
 import { useMemo, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import FillDetailsCard from '../components/FillDetailsCard'
+import PronunciationCard from '../components/PronunciationCard'
 import ImportDialog from '../components/ImportDialog'
 import WordForm from '../components/WordForm'
 import SelectMenu from '../components/SelectMenu'
 import SpeakButton from '../components/SpeakButton'
+import { posLabel } from '../lib/wiktionary'
 import TagPicker from '../components/TagPicker'
 import { useAuth } from '../lib/authContext'
 import { useDeleteWord, useProgress, useSaveWord, useTags, useWords, type WordInput, type WordWithTags } from '../lib/queries'
@@ -105,6 +107,9 @@ export default function Words() {
       translation: w.translation,
       definition: w.definition ?? '',
       example: w.example ?? '',
+      ipa: w.ipa ?? '',
+      pos: w.pos ?? '',
+      audio_url: w.audio_url ?? '',
       tagNames: w.tagIds.map((id) => tagById.get(id)?.name).filter((n): n is string => Boolean(n)),
     })
   }
@@ -177,6 +182,7 @@ export default function Words() {
       </div>
 
       {words.data && !filtered && <FillDetailsCard words={words.data} />}
+      {words.data && !filtered && <PronunciationCard words={words.data} />}
 
       {words.isLoading && <p className="animate-pulse text-white/50">Завантаження…</p>}
       {words.error && <p className="text-bad">{(words.error as Error).message}</p>}
@@ -212,6 +218,12 @@ export default function Words() {
                 </div>
                 {expanded && (
                   <div className="space-y-2 px-3 pb-3 text-sm">
+                    {(w.ipa || w.pos) && (
+                      <p className="flex flex-wrap gap-x-2 text-white/45">
+                        {w.ipa && <span className="font-mono text-white/65">{w.ipa}</span>}
+                        {w.pos && <span>{posLabel(w.pos)}</span>}
+                      </p>
+                    )}
                     {w.definition && <p className="text-white/55">{w.definition}</p>}
                     {w.example && <p className="text-white/45 italic">{w.example}</p>}
                     <div className="flex flex-wrap items-center gap-1.5">
