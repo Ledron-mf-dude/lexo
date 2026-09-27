@@ -3,7 +3,8 @@ title: Ступені порівняння прикметників і прис�
 category: Прикметники та прислівники
 levels: [A1, A2, B1]
 aliases: [Ступені порівняння]
-tags: [comparative, superlative, older than, the oldest, more important, the most important, better, worse, further, ступені порівняння]
+tags: [comparative, superlative, older than, the oldest, more important, the most important, better, worse, further, ступені порівняння]
+wordTags: [порівняння]
 ---
 
 ## Утворення

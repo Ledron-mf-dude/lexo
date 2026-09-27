@@ -2,7 +2,8 @@
 title: Поширені фразові дієслова (B1)
 category: Фразові дієслова та сталі вирази
 levels: [B1]
-tags: [phrasal verbs, break down, give up, look after, turn down, put off, find out, come up with, фразові дієслова, список]
+tags: [phrasal verbs, break down, give up, look after, turn down, put off, find out, come up with, фразові дієслова, список]
+wordTags: [фразові дієслова]
 ---
 
 **T** — роздільне (можна: *pick it up*), **I** — нероздільне.

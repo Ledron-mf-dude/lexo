@@ -108,6 +108,70 @@ body {
   }
 }
 
+/* Joined buttons for a short one-of-N choice (view, sort, size); `data-on` marks the selected one. */
+@utility segmented {
+  display: inline-flex;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  gap: 0.125rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  background: rgb(255 255 255 / 0.03);
+  padding: 0.125rem;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  & > button {
+    flex-shrink: 0;
+    border-radius: 0.6rem;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    white-space: nowrap;
+    color: rgb(255 255 255 / 0.55);
+    transition:
+      color 0.15s,
+      background 0.15s;
+  }
+  & > button:hover {
+    color: white;
+  }
+  & > button[data-on='true'] {
+    background: rgb(124 155 255 / 0.18);
+    color: var(--color-accent);
+  }
+}
+
+/* An option tile in a grid (exercises, presets): same size for every option, so the choice reads as a table. */
+@utility tile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  border-radius: 0.875rem;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  background: rgb(255 255 255 / 0.03);
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  color: rgb(255 255 255 / 0.75);
+  transition:
+    color 0.15s,
+    background 0.15s,
+    border-color 0.15s;
+  &:hover {
+    background: rgb(255 255 255 / 0.07);
+    color: white;
+  }
+  &[data-on='true'] {
+    border-color: rgb(124 155 255 / 0.7);
+    background: rgb(124 155 255 / 0.14);
+    color: var(--color-accent);
+  }
+}
+
 /* A filter / option pill; `data-on` marks the selected one. */
 @utility chip {
   border-radius: 9999px;

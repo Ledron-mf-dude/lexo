@@ -2,7 +2,8 @@
 title: Discourse markers (слова-зв'язки)
 category: Складні речення
 levels: [B2]
-tags: [discourse markers, linking words, moreover, furthermore, however, therefore, firstly, in conclusion, for example, on the other hand, слова-зв'язки, вступні слова]
+tags: [discourse markers, linking words, moreover, furthermore, however, therefore, firstly, in conclusion, for example, on the other hand, слова-зв'язки, вступні слова]
+wordTags: [слова-зв'язки]
 ---
 
 **Discourse markers** з'єднують думки в тексті та виступі. Зазвичай — на початку речення або абзацу, після них **кома**.

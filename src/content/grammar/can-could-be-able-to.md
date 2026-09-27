@@ -2,7 +2,8 @@
 title: Can, could, be able to (вміння, можливість, дозвіл)
 category: Модальні дієслова
 levels: [A1, B1]
-tags: [can, could, be able to, ability, permission, possibility, requests, manage to, уміти, могти, дозвіл]
+tags: [can, could, be able to, ability, permission, possibility, requests, manage to, уміти, могти, дозвіл]
+wordTags: [модальні дієслова]
 ---
 
 ## Can

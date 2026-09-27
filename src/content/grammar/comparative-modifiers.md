@@ -2,7 +2,8 @@
 title: Порівняльний ступінь: a bit, a lot, much
 category: Прикметники та прислівники
 levels: [B1, B2]
-tags: [comparative, a little, a bit, a lot, much, far, slightly, even, no better, hotter, more convenient, порівняльний ступінь, набагато, трохи]
+tags: [comparative, a little, a bit, a lot, much, far, slightly, even, no better, hotter, more convenient, порівняльний ступінь, набагато, трохи]
+wordTags: [порівняння]
 ---
 
 Щоб сказати, **наскільки** одне більше чи менше за інше, перед порівняльним ступенем ставимо слово міри.

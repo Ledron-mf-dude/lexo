@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import DailyGoal from '../components/DailyGoal'
 import Session from '../components/practice/Session'
+import TagPicker from '../components/TagPicker'
 import WordOfDay from '../components/WordOfDay'
 import { useAuth } from '../lib/authContext'
 import { useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
@@ -16,10 +17,16 @@ import { count, EXERCISE, WORD } from '../lib/plural'
 const EXERCISES = ALL_EXERCISES.filter((e) => e.value !== 'listen' || canSpeak)
 
 // Ready-made complexes: every word goes through all of the listed exercises in one session.
-const PRESETS: { label: string; modes: Exercise[] }[] = [
-  { label: 'Швидкий: вибір + введення', modes: ['choice', 'typing'] },
-  { label: 'Повний: вибір, переклад, складання, введення', modes: ['choice', 'translation', 'scramble', 'typing'] },
-  { label: 'Змішаний: пари, речення, слухання, введення', modes: ['match', 'cloze', 'listen', 'typing'] },
+const PRESETS: { title: string; modes: Exercise[] }[] = [
+  { title: 'Швидкий', modes: ['choice', 'typing'] },
+  { title: 'Повний', modes: ['choice', 'translation', 'scramble', 'typing'] },
+  { title: 'Змішаний', modes: ['match', 'cloze', 'listen', 'typing'] },
+]
+
+// Recognising a word comes before producing it; the grid shows the two kinds apart.
+const EXERCISE_GROUPS: { title: string; modes: Exercise[] }[] = [
+  { title: 'Впізнати', modes: ['choice', 'match', 'matchdef', 'flashcard', 'cloze'] },
+  { title: 'Відтворити', modes: ['translation', 'gaps', 'scramble', 'listen', 'typing'] },
 ]
 
 const MODES_KEY = 'lexo.practice.modes'
@@ -69,6 +76,11 @@ export default function Practice() {
   const [running, setRunning] = useState<WordWithTags[] | null>(null)
 
   const progressById = useMemo(() => new Map((progress.data ?? []).map((p): [string, Progress] => [p.word_id, p])), [progress.data])
+  const tagCounts = useMemo(() => {
+    const map = new Map<string, number>()
+    for (const w of words.data ?? []) for (const id of w.tagIds) map.set(id, (map.get(id) ?? 0) + 1)
+    return map
+  }, [words.data])
   const counts = useMemo(
     () => countSources(words.data ?? [], progressById, config.tagIds),
     [words.data, progressById, config.tagIds],
@@ -121,10 +133,6 @@ export default function Practice() {
     setModes(config.modes.includes(value) ? config.modes.filter((m) => m !== value) : [...config.modes, value])
   }
 
-  function toggleTag(id: string) {
-    setConfig((c) => ({ ...c, tagIds: c.tagIds.includes(id) ? c.tagIds.filter((t) => t !== id) : [...c.tagIds, id] }))
-  }
-
   function start() {
     const picked = pickWords(words.data ?? [], progressById, config)
     if (picked.length > 0) setRunning(picked)
@@ -134,7 +142,7 @@ export default function Practice() {
   const complex = config.modes.length >= 2
   const modeHint =
     config.modes.length === 0
-      ? 'Авто: вправа залежить від того, наскільки слово вже вивчене.'
+      ? ''
       : complex
         ? `Комплекс по порядку: ${config.modes.map((m) => `«${EXERCISES.find((e) => e.value === m)!.label}»`).join(' → ')}. Спершу всі слова в першій вправі, потім усі в наступній (близько ${wordCount * config.modes.length} карток). Розклад повторень оновиться один раз, після останньої вправи.`
         : 'Усі слова — в одній вправі.'
@@ -164,65 +172,76 @@ export default function Practice() {
         ))}
       </div>
 
-      {(tags.data?.length ?? 0) > 0 && (
+      <div className="flex flex-wrap items-end gap-x-6 gap-y-4">
         <div className="space-y-2">
-          <p className={label}>
-            Теги <span className="tracking-normal normal-case">{config.tagIds.length === 0 ? '· усі' : `· ${config.tagIds.length}`}</span>
-          </p>
-          <div className="chip-row">
-            {tags.data!.map((t) => (
-              <button key={t.id} onClick={() => toggleTag(t.id)} data-on={config.tagIds.includes(t.id)} className="chip">
-                {t.color && <span className="mr-1.5 inline-block size-2 rounded-full align-middle" style={{ background: t.color }} aria-hidden />}
-                {t.name}
+          <p className={label}>Кількість слів</p>
+          <div className="segmented">
+            {limits.map((n) => (
+              <button key={n} onClick={() => setConfig((c) => ({ ...c, limit: n }))} data-on={config.limit === n} className="min-w-11">
+                {n}
               </button>
             ))}
           </div>
         </div>
-      )}
-
-      <div className="space-y-3">
-        <p className={label}>Вправи</p>
-        <div className="flex flex-wrap gap-2">
-          <button onClick={() => setModes([])} data-on={config.modes.length === 0} className="chip">
-            Авто
-          </button>
-          {EXERCISES.map((e) => (
-            <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={config.modes.includes(e.value)} data-on={config.modes.includes(e.value)} className="chip">
-              {complex && config.modes.includes(e.value) && <span className="mr-1.5 text-xs opacity-70">{config.modes.indexOf(e.value) + 1}.</span>}
-              {e.label}
-            </button>
-          ))}
-        </div>
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-xs text-white/35">Готові комплекси:</span>
-          {PRESETS.map((preset) => {
-            const on = preset.modes.join() === config.modes.join()
-            return (
-              <button
-                key={preset.label}
-                onClick={() => setModes(preset.modes)}
-                className={`rounded-full border border-dashed px-3 py-1 text-xs transition-colors ${on ? 'border-accent/60 text-accent' : 'border-white/15 text-white/50 hover:text-white'}`}
-              >
-                {preset.label}
-              </button>
-            )
-          })}
-        </div>
-        <p className="text-sm text-white/40">{modeHint}</p>
-        {(config.modes.includes('cloze') || config.modes.includes('matchdef')) && (
-          <p className="text-xs text-white/30">«Слово в реченні» працює для слів із прикладом, де це слово є, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.</p>
+        {(tags.data?.length ?? 0) > 0 && (
+          <div className="min-w-0 space-y-2">
+            <p className={label}>
+              Теги <span className="tracking-normal normal-case">{config.tagIds.length === 0 ? '· усі слова' : ''}</span>
+            </p>
+            <TagPicker tags={tags.data!} selected={config.tagIds} counts={tagCounts} onChange={(ids) => setConfig((c) => ({ ...c, tagIds: ids }))} />
+          </div>
         )}
       </div>
 
-      <div className="space-y-2">
-        <p className={label}>Кількість слів</p>
-        <div className="flex flex-wrap gap-2">
-          {limits.map((n) => (
-            <button key={n} onClick={() => setConfig((c) => ({ ...c, limit: n }))} data-on={config.limit === n} className="chip min-w-12">
-              {n}
+      <div className="space-y-3">
+        <div className="flex items-baseline justify-between gap-3">
+          <p className={label}>Вправи</p>
+          {config.modes.length > 0 && (
+            <button onClick={() => setModes([])} className="text-xs text-white/45 hover:text-white">
+              скинути
             </button>
-          ))}
+          )}
         </div>
+        <button onClick={() => setModes([])} data-on={config.modes.length === 0} className="tile w-full">
+          <span className="font-medium">Авто</span>
+          <span className="text-xs text-white/45">вправа залежить від того, наскільки слово вже вивчене</span>
+        </button>
+        {EXERCISE_GROUPS.map((group) => (
+          <div key={group.title} className="space-y-1.5">
+            <p className="text-xs text-white/35">{group.title}</p>
+            <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
+              {EXERCISES.filter((e) => group.modes.includes(e.value)).map((e) => {
+                const on = config.modes.includes(e.value)
+                return (
+                  <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={on} data-on={on} className="tile">
+                    <span className={`grid size-5 shrink-0 place-items-center rounded-full text-[11px] tabular-nums ${on ? 'bg-accent text-[#0a0b0f]' : 'border border-white/20'}`}>
+                      {on ? (complex ? config.modes.indexOf(e.value) + 1 : '✓') : ''}
+                    </span>
+                    <span className="min-w-0">{e.label}</span>
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        ))}
+        <div className="space-y-1.5">
+          <p className="text-xs text-white/35">Готові комплекси</p>
+          <div className="grid gap-1.5 sm:grid-cols-3">
+            {PRESETS.map((preset) => {
+              const on = preset.modes.join() === config.modes.join()
+              return (
+                <button key={preset.title} onClick={() => setModes(preset.modes)} data-on={on} className="tile flex-col items-start! gap-0.5!">
+                  <span className="font-medium">{preset.title}</span>
+                  <span className="text-xs text-white/45">{preset.modes.map((m) => EXERCISES.find((e) => e.value === m)?.label).filter(Boolean).join(' → ')}</span>
+                </button>
+              )
+            })}
+          </div>
+        </div>
+        {config.modes.length > 0 && <p className="text-sm text-white/40">{modeHint}</p>}
+        {(config.modes.includes('cloze') || config.modes.includes('matchdef')) && (
+          <p className="text-xs text-white/30">«Слово в реченні» працює для слів із прикладом, де це слово є, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.</p>
+        )}
       </div>
 
       {/* On a phone the button stays above the bottom bar, so it is reachable without scrolling to the end of the settings. */}

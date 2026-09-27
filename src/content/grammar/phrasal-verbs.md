@@ -2,7 +2,8 @@
 title: Фразові дієслова: що це і як користуватися
 category: Фразові дієслова та сталі вирази
 levels: [A2, B1]
-tags: [phrasal verbs, separable, inseparable, transitive, intransitive, particle, фразові дієслова, дієслівні частки]
+tags: [phrasal verbs, separable, inseparable, transitive, intransitive, particle, фразові дієслова, дієслівні частки]
+wordTags: [фразові дієслова]
 ---
 
 **Phrasal verb** — дієслово + частка (`up`, `out`, `off`, `on`, `in`…). Значення часто **не** випливає з окремих слів: *give up* — здатися; *look up* — знайти в довіднику.

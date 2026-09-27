@@ -61,6 +61,19 @@ npm run lint     # oxlint
 - Scheduling is SM-2 ([src/lib/sm2.ts](src/lib/sm2.ts)). Within a complex, a word's grades are combined with `complexGrade`, and `progress` is updated once per word per session. Every answer also goes to `review_log` for stats and streaks.
 - [src/components/practice/Session.tsx](src/components/practice/Session.tsx) drives the flow.
 
+**Tags and import:**
+- [src/lib/tagTaxonomy.ts](src/lib/tagTaxonomy.ts) defines the built-in tags in two groups: «Теми» (meaning) and «Мова» (kind of expression). Any other tag name counts as the user's own («Мої теги»). The UI groups tags with `groupTags`.
+- [src/content/wordTopics.json](src/content/wordTopics.json) maps a lowercased term to built-in tag codes. It loads lazily through `loadTopicDictionary`.
+- `suggestTags` uses that dictionary for known words and simple shape rules (sentence, phrasal verb, -ing) for the rest. It is used in three places:
+  - the «Підібрати теги» dialog on the Tags page ([src/components/AutoTagDialog.tsx](src/components/AutoTagDialog.tsx) plus `useAutoTag`);
+  - the import dialog;
+  - the word form.
+- Tag names are matched by text. Renaming a built-in tag makes it a personal one, and article `wordTags` front matter refers to tags by name.
+- [src/lib/importFormats.ts](src/lib/importFormats.ts) parses the import formats. The format is chosen by file extension, then by content.
+  - Formats: Anki `.txt` and `.apkg`, CSV/TSV/text lists (the separator is detected), Google Translate CSV, `.xlsx`, JSON.
+  - If most rows are "Ukrainian, English", the columns are swapped.
+  - `.apkg` needs `sql.js` (a WASM file, fetched only when needed), `fflate` and `fzstd` (for Anki 23.10+ `collection.anki21b`). All of them are dynamically imported, so they stay out of the main bundle.
+
 **App shell:**
 - Routing uses `HashRouter` because of GitHub Pages. Grammar pages and stats are lazy-loaded through `lazyPage` ([src/lib/lazyPage.ts](src/lib/lazyPage.ts)). After a deploy the service worker removes old chunks, so `lazyPage` reloads the page once when a chunk is missing. Use `lazyPage` instead of plain `React.lazy`.
 - Scroll position is managed by the app, not the browser. `ScrollRestoration` in [src/components/Layout.tsx](src/components/Layout.tsx) opens each new page at the top and restores the position on Back. Do not use `autoFocus` on pages: it scrolls to the input. Call `focus({ preventScroll: true })` instead.

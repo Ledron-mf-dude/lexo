@@ -4,6 +4,8 @@ import { useAuth } from '../lib/authContext'
 import { TAG_COLORS, useTagActions, useTags, useWords } from '../lib/queries'
 import type { Tag } from '../types'
 import { count, WORD } from '../lib/plural'
+import { GROUP_LABELS, groupTags } from '../lib/tagTaxonomy'
+import AutoTagDialog from '../components/AutoTagDialog'
 import { useTitle } from '../lib/useTitle'
 
 type Sort = 'name' | 'count'
@@ -22,6 +24,7 @@ export default function Tags() {
   const [draft, setDraft] = useState('')
   const [merging, setMerging] = useState<Tag | null>(null)
   const [open, setOpen] = useState<string | null>(null) // tag id whose colour and extra actions are shown
+  const [autoTagging, setAutoTagging] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
   const counts = useMemo(() => {
@@ -79,14 +82,26 @@ export default function Tags() {
         <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
           Теги <span className="text-lg text-white/40">{rows.length}</span>
         </h1>
-        <div className="flex gap-1 text-sm">
+        <div className="segmented">
           {(['name', 'count'] as const).map((s) => (
-            <button key={s} onClick={() => setSort(s)} data-on={sort === s} className="chip">
+            <button key={s} onClick={() => setSort(s)} data-on={sort === s}>
               {s === 'name' ? 'За назвою' : 'За кількістю'}
             </button>
           ))}
         </div>
       </div>
+
+      {(words.data?.length ?? 0) > 0 && (
+        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
+          <div className="min-w-0 flex-1">
+            <p className="font-medium">Розкласти слова за темами</p>
+            <p className="text-sm text-white/45">Автоматично додає теги за значенням і типом виразу: почуття, робота, фразові дієслова, герундій…</p>
+          </div>
+          <button onClick={() => setAutoTagging(true)} className="btn-primary w-full sm:w-auto">
+            Підібрати теги
+          </button>
+        </div>
+      )}
 
       <form onSubmit={add} className="flex gap-2">
         <input value={newName} onChange={(e) => setNewName(e.target.value)} placeholder="Новий тег" className="field" />
@@ -108,20 +123,19 @@ export default function Tags() {
 
       {rows.length === 0 && <p className="glass rounded-3xl p-8 text-center text-white/50">Тегів ще немає. Створіть перший або додайте теги до слів.</p>}
 
-      <ul className="space-y-2">
-        {rows.map((tag) => {
+      {groupTags(rows).map(({ group, tags: groupRows }) => (
+      <section key={group} className="space-y-2">
+      <h2 className="text-xs tracking-widest text-white/40 uppercase">
+        {GROUP_LABELS[group]} <span className="text-white/25">{groupRows.length}</span>
+      </h2>
+      <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl">
+        {(sort === 'name' ? groupRows : [...groupRows].sort((a, b) => (counts.get(b.id) ?? 0) - (counts.get(a.id) ?? 0))).map((tag) => {
           const n = counts.get(tag.id) ?? 0
           const expanded = open === tag.id
           return (
-            <li key={tag.id} className="glass space-y-3 rounded-2xl p-3 sm:p-4">
-              <div className="flex items-center gap-3">
-                <button
-                  onClick={() => setOpen(expanded ? null : tag.id)}
-                  aria-label="Змінити колір"
-                  className="grid size-7 shrink-0 place-items-center rounded-full hover:bg-white/10"
-                >
-                  <span className="size-3 rounded-full" style={{ background: tag.color ?? '#94a3b8' }} aria-hidden />
-                </button>
+            <li key={tag.id} className={expanded ? 'bg-white/4' : ''}>
+              <div className="flex items-center gap-2 py-1.5 pr-1.5 pl-3">
+                <span className="size-2.5 shrink-0 rounded-full" style={{ background: tag.color ?? '#94a3b8' }} aria-hidden />
                 {editing === tag.id ? (
                   <form
                     className="flex min-w-0 flex-1 gap-2"
@@ -135,43 +149,49 @@ export default function Tags() {
                   </form>
                 ) : (
                   <>
-                    <span className="min-w-0 flex-1 truncate font-medium">{tag.name}</span>
-                    <span className="shrink-0 text-sm text-white/45 tabular-nums">{count(n, WORD)}</span>
+                    <button
+                      onClick={() => n > 0 && navigate('/words', { state: { tagId: tag.id } })}
+                      title={n > 0 ? 'Показати слова' : undefined}
+                      className="min-w-0 flex-1 truncate py-1 text-left hover:text-accent"
+                    >
+                      {tag.name}
+                    </button>
+                    <span className="shrink-0 text-xs text-white/40 tabular-nums">{count(n, WORD)}</span>
                   </>
                 )}
-              </div>
-
-              <div className="flex flex-wrap items-center gap-1 text-sm text-white/55 *:rounded-lg *:px-2.5 *:py-1.5">
-                {n > 0 && (
-                  <button onClick={() => practice(tag)} className="bg-accent/10 text-accent hover:bg-accent/20">
-                    Практикувати
+                {n > 0 && editing !== tag.id && (
+                  <button onClick={() => practice(tag)} aria-label={`Практикувати слова з тегом ${tag.name}`} className="grid h-8 min-w-8 shrink-0 place-items-center rounded-lg px-2 text-sm text-accent hover:bg-accent/10">
+                    <span className="hidden sm:inline">Практикувати</span>
+                    <span className="sm:hidden" aria-hidden>
+                      ▶
+                    </span>
                   </button>
                 )}
-                {n > 0 && (
-                  <button onClick={() => navigate('/words', { state: { tagId: tag.id } })} className="hover:bg-white/8 hover:text-white">
-                    Слова
-                  </button>
-                )}
-                <button onClick={() => setOpen(expanded ? null : tag.id)} aria-expanded={expanded} className="ml-auto hover:bg-white/8 hover:text-white">
-                  {expanded ? 'Сховати' : 'Ще ⋯'}
+                <button
+                  onClick={() => setOpen(expanded ? null : tag.id)}
+                  aria-expanded={expanded}
+                  aria-label={`Дії з тегом ${tag.name}`}
+                  className="grid size-8 shrink-0 place-items-center rounded-lg text-white/45 hover:bg-white/8 hover:text-white"
+                >
+                  ⋯
                 </button>
               </div>
 
               {expanded && (
-                <div className="space-y-3 border-t border-white/8 pt-3">
-                  <span className="flex flex-wrap gap-2" role="group" aria-label="Колір тегу">
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3 pb-3">
+                  <span className="flex flex-wrap gap-1.5" role="group" aria-label="Колір тегу">
                     {TAG_COLORS.map((c) => (
                       <button
                         key={c}
                         aria-label={`Колір ${c}`}
                         aria-pressed={tag.color === c}
                         onClick={() => run(actions.recolor.mutateAsync({ id: tag.id, color: c }))}
-                        className={`size-7 rounded-full border-2 transition-transform hover:scale-110 ${tag.color === c ? 'border-white' : 'border-transparent'}`}
+                        className={`size-6 rounded-full border-2 transition-transform hover:scale-110 ${tag.color === c ? 'border-white' : 'border-transparent'}`}
                         style={{ background: c }}
                       />
                     ))}
                   </span>
-                  <div className="flex flex-wrap gap-1 text-sm text-white/55 *:rounded-lg *:px-2.5 *:py-1.5">
+                  <span className="flex flex-wrap gap-1 text-sm text-white/55 *:rounded-lg *:px-2.5 *:py-1">
                     <button
                       onClick={() => {
                         setEditing(tag.id)
@@ -189,13 +209,17 @@ export default function Tags() {
                     <button onClick={() => remove(tag)} className="hover:bg-bad/10 hover:text-bad">
                       Видалити
                     </button>
-                  </div>
+                  </span>
                 </div>
               )}
             </li>
           )
         })}
       </ul>
+      </section>
+      ))}
+
+      {autoTagging && <AutoTagDialog userId={session!.user.id} words={words.data ?? []} tags={tags.data ?? []} onClose={() => setAutoTagging(false)} />}
 
       {merging && (
         <div className="fixed inset-0 z-20 grid place-items-center bg-black/60 p-4 backdrop-blur-sm" onClick={() => setMerging(null)}>
