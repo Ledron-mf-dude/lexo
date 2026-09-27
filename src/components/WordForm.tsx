@@ -7,6 +7,8 @@ import { fillFor, loadWordDetails, type DetailsDictionary } from '../lib/wordDet
 import TagInput from './TagInput'
 
 interface Props {
+  /** The note field exists once migration 0005 is run. */
+  canNote?: boolean
   initial?: WordInput
   suggestions: string[]
   saving: boolean
@@ -17,7 +19,7 @@ interface Props {
 
 const empty: WordInput = { term: '', translation: '', definition: '', example: '', tagNames: [] }
 
-export default function WordForm({ initial, suggestions, saving, error, onSubmit, onCancel }: Props) {
+export default function WordForm({ canNote = false, initial, suggestions, saving, error, onSubmit, onCancel }: Props) {
   const [form, setForm] = useState<WordInput>(initial ?? empty)
   const [dict, setDict] = useState<TopicDictionary | null>(null)
   const [details, setDetails] = useState<DetailsDictionary | null>(null)
@@ -141,6 +143,15 @@ export default function WordForm({ initial, suggestions, saving, error, onSubmit
           onChange={(e) => set('example', e.target.value)}
           className="field"
         />
+        {canNote && (
+          <textarea
+            rows={2}
+            placeholder="Асоціація або підказка: як запам'ятати (необов'язково)"
+            value={form.note ?? ''}
+            onChange={(e) => set('note', e.target.value)}
+            className="field"
+          />
+        )}
         <TagInput value={form.tagNames} onChange={(tags) => set('tagNames', tags)} suggestions={allNames} />
         {suggested.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5 text-sm">

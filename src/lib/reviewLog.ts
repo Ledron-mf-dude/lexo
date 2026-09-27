@@ -21,6 +21,24 @@ async function fetchReviewLog(): Promise<ReviewRow[]> {
   }
 }
 
+export interface Confusion {
+  word_id: string
+  mode: string
+  given: string
+}
+
+/** Wrong options picked in the last 90 days (migration 0005). Before the migration the query fails and there is no data. */
+async function fetchConfusions(): Promise<Confusion[]> {
+  const since = new Date(Date.now() - LOG_DAYS * 86_400_000).toISOString()
+  const { data, error } = await supabase.from('review_log').select('word_id, mode, given').not('given', 'is', null).gte('reviewed_at', since).limit(2000)
+  if (error) throw error
+  return data as Confusion[]
+}
+
+export function useConfusions() {
+  return useQuery({ queryKey: ['review_log', 'confusions'], queryFn: fetchConfusions, retry: false, refetchOnWindowFocus: false })
+}
+
 /** Word reviews of the last 90 days (enough for every chart on the statistics page). */
 export function useReviewLog() {
   return useQuery({ queryKey: ['review_log'], queryFn: fetchReviewLog, refetchOnWindowFocus: false })

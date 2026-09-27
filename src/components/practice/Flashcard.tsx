@@ -61,6 +61,7 @@ export default function Flashcard({ card, state, onGrade }: Props) {
               {reverse && word.ipa && <p className="font-mono text-sm text-white/45">{word.ipa}</p>}
               {word.definition && <p className="text-sm text-white/50">{word.definition}</p>}
               {word.example && <p className="text-sm text-white/40 italic">{word.example}</p>}
+              {word.note && <p className="text-sm text-accent/80">💡 {word.note}</p>}
             </div>
           ) : (
             <p className="text-sm text-white/30">Натисніть, щоб показати відповідь</p>

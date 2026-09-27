@@ -25,6 +25,9 @@ export const EXERCISES: { value: Exercise; label: string }[] = [
   { value: 'typing', label: 'Введення слова' },
 ]
 
+/** Exercises where the learner produces the English word (recall); they update the word's recall schedule. The rest are recognition. */
+export const RECALL_MODES = new Set<PracticeMode>(['translation', 'typing', 'gaps', 'scramble', 'listen', 'speak', 'dictation'])
+
 /** Exercises where several words share one card. */
 export const isGroupExercise = (m: Exercise) => m === 'match' || m === 'matchdef' || m === 'passage'
 
@@ -81,7 +84,14 @@ function shuffle<T>(items: T[]): T[] {
 }
 
 const isNew = (p: Progress) => p.last_reviewed === null
-const isDue = (p: Progress, now: Date) => !isNew(p) && new Date(p.due_at) <= now
+const recallDue = (p: Progress, now: Date) => Boolean(p.recall_due_at) && new Date(p.recall_due_at!) <= now
+/** Due in either direction: recognition (due_at) or recall (recall_due_at, once recall has started). */
+const isDue = (p: Progress, now: Date) => !isNew(p) && (new Date(p.due_at) <= now || recallDue(p, now))
+/** The earlier of the two due times, for putting the most overdue words first. */
+const dueTime = (p: Progress) => Math.min(+new Date(p.due_at), p.recall_due_at ? +new Date(p.recall_due_at) : Infinity)
+/** «Відкласти»: a word that does not stick stays out of practice for a while. */
+export const isSuspended = (p: Progress | undefined, now = new Date()) => Boolean(p?.suspended_until) && new Date(p!.suspended_until!) > now
+export const LEECH_ERRORS = 6
 
 export interface Counts {
   due: number
@@ -98,7 +108,7 @@ export function countSources(words: WordWithTags[], progress: Map<string, Progre
   endOfDay.setHours(23, 59, 59, 999)
   for (const w of filterByTags(words, tagIds)) {
     const p = progress.get(w.id)
-    if (!p) continue
+    if (!p || isSuspended(p, now)) continue
     counts.all++
     if (isNew(p)) counts.fresh++
     else if (isDue(p, now)) counts.due++
@@ -114,12 +124,14 @@ function filterByTags(words: WordWithTags[], tagIds: string[]) {
 
 export function pickWords(words: WordWithTags[], progress: Map<string, Progress>, config: SessionConfig, now = new Date()) {
   const inSubset = config.source === 'subset' ? new Set(config.subset?.ids) : null
-  const pool = (inSubset ? words.filter((w) => inSubset.has(w.id)) : filterByTags(words, config.tagIds)).filter((w) => progress.has(w.id))
+  const pool = (inSubset ? words.filter((w) => inSubset.has(w.id)) : filterByTags(words, config.tagIds)).filter(
+    (w) => progress.has(w.id) && (inSubset !== null || !isSuspended(progress.get(w.id), now)),
+  )
   const p = (w: WordWithTags) => progress.get(w.id)!
   let picked: WordWithTags[]
 
   if (config.source === 'today') {
-    const due = pool.filter((w) => isDue(p(w), now)).sort((a, b) => +new Date(p(a).due_at) - +new Date(p(b).due_at))
+    const due = pool.filter((w) => isDue(p(w), now)).sort((a, b) => dueTime(p(a)) - dueTime(p(b)))
     const fresh = shuffle(pool.filter((w) => isNew(p(w))))
     picked = [...due, ...fresh]
   } else if (config.source === 'subset') {
@@ -207,11 +219,23 @@ export function eligibleFor(mode: Exercise, word: WordWithTags, all: WordWithTag
   return eligible(mode, word, all.length >= 4)
 }
 
-function pickAuto(word: WordWithTags, repetitions: number, canChoose: boolean): Resolved {
+/**
+ * Automatic exercise. Recognition and recall have separate schedules: a word the learner recognises (2+ repetitions)
+ * but has not yet recalled, or whose recall is due, gets a recall exercise; otherwise a recognition one.
+ */
+function pickAuto(word: WordWithTags, prog: Progress, canChoose: boolean): Resolved {
+  const now = new Date()
+  const recallStarted = Boolean(prog.recall_due_at)
+  const recognitionDue = new Date(prog.due_at) <= now
+  const wantRecall = recallStarted
+    ? recallDue(prog, now) && (!recognitionDue || +new Date(prog.recall_due_at!) <= +new Date(prog.due_at))
+    : prog.repetitions >= 2
+  const recallReps = prog.recall_repetitions ?? 0
   let pool: Resolved[]
-  if (repetitions < 2) pool = ['choice', 'choice', 'flashcard']
-  else if (repetitions < 4) pool = ['gaps', 'scramble', 'typing', 'translation', 'cloze']
-  else pool = ['typing', 'typing', 'translation', 'flashcard', 'cloze', 'listen', 'dictation']
+  if (!wantRecall) pool = prog.repetitions < 2 ? ['choice', 'choice', 'flashcard'] : ['choice', 'flashcard', 'cloze']
+  else if (recallReps < 2) pool = ['gaps', 'scramble', 'translation']
+  else if (recallReps < 4) pool = ['typing', 'translation', 'gaps', 'listen']
+  else pool = ['typing', 'typing', 'listen', 'dictation', 'translation']
   const ok = pool.filter((m) => eligible(m, word, canChoose))
   return ok.length > 0 ? ok[Math.floor(Math.random() * ok.length)] : 'flashcard'
 }
@@ -220,7 +244,7 @@ export function makeCard(word: WordWithTags, prog: Progress, all: WordWithTags[]
   const base = { commit: true, final: true }
   const canChoose = all.length >= 4
   let resolved: Resolved
-  if (mode === 'auto') resolved = pickAuto(word, prog.repetitions, canChoose)
+  if (mode === 'auto') resolved = pickAuto(word, prog, canChoose)
   else if (isGroupExercise(mode)) resolved = 'flashcard' // a lone word cannot be matched: it falls back to a plain card
   else if (eligible(mode, word, canChoose)) resolved = mode
   else resolved = mode === 'choice' ? 'flashcard' : eligible('typing', word, canChoose) ? 'typing' : 'flashcard'
