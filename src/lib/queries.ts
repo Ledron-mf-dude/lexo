@@ -1,5 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import type { PracticeMode, Progress, Tag, Word } from '../types'
+import { setRecordings } from './speech'
 import { supabase } from './supabase'
 import { builtInColor } from './tagTaxonomy'
 
@@ -12,7 +13,16 @@ export interface WordInput {
   definition: string
   example: string
   tagNames: string[]
+  /** Pronunciation from Wiktionary; undefined leaves the stored value as it is. */
+  ipa?: string
+  pos?: string
+  audio_url?: string
 }
+
+/** PostgREST's "column not in the schema cache": the migration that adds it has not been run yet. */
+export const isMissingColumn = (error: { code?: string } | null) => error?.code === 'PGRST204'
+
+export const MIGRATION_0004 = 'Спершу запустіть міграцію supabase/migrations/0004_word_pronunciation.sql у Supabase → SQL Editor.'
 
 const PAGE = 1000 // PostgREST returns at most 1000 rows per request
 
@@ -32,7 +42,10 @@ async function fetchAllWords(): Promise<WordWithTags[]> {
       const { word_tags, ...word } = row as Word & { word_tags: { tag_id: string }[] }
       rows.push({ ...word, tagIds: word_tags.map((wt) => wt.tag_id) })
     }
-    if (data.length < PAGE) return rows
+    if (data.length < PAGE) {
+      setRecordings(rows)
+      return rows
+    }
   }
 }
 
@@ -79,18 +92,32 @@ export function useSaveWord(userId: string) {
         definition: input.definition.trim() || null,
         example: input.example.trim() || null,
       }
-      let wordId = input.id
-      if (wordId) {
-        const { error } = await supabase.from('words').update(fields).eq('id', wordId)
-        if (error) throw error
-      } else {
+      const pronunciation = {
+        ...(input.ipa !== undefined && { ipa: input.ipa.trim() || null }),
+        ...(input.pos !== undefined && { pos: input.pos.trim() || null }),
+        ...(input.audio_url !== undefined && { audio_url: input.audio_url.trim() || null }),
+      }
+      // Before migration 0004 the ipa and pos columns do not exist: the word is saved without its pronunciation.
+      async function write(values: Record<string, unknown>): Promise<string> {
+        if (input.id) {
+          const { error } = await supabase.from('words').update(values).eq('id', input.id)
+          if (error) throw error
+          return input.id
+        }
         const { data, error } = await supabase
           .from('words')
-          .insert({ ...fields, user_id: userId })
+          .insert({ ...values, user_id: userId })
           .select('id')
           .single()
         if (error) throw error
-        wordId = data.id as string
+        return data.id as string
+      }
+      let wordId: string
+      try {
+        wordId = await write({ ...fields, ...pronunciation })
+      } catch (e) {
+        if (!isMissingColumn(e as { code?: string })) throw e
+        wordId = await write(fields)
       }
 
       const tagIds = await ensureTags(userId, input.tagNames)
@@ -305,19 +332,24 @@ export function useTagActions(userId: string) {
 }
 
 /** Writes definitions / examples into words that had those fields empty (one UPDATE per word). */
+export type WordFill = { id: string } & Partial<Pick<Word, 'definition' | 'example' | 'audio_url' | 'ipa' | 'pos'>>
+
+/** Updates the given fields of several words in parallel (a batch of up to ~20). */
+export async function updateWords(fills: WordFill[]) {
+  const results = await Promise.all(fills.map(({ id, ...fields }) => supabase.from('words').update(fields).eq('id', id)))
+  const failed = results.find((r) => r.error)
+  if (failed?.error) throw isMissingColumn(failed.error) ? new Error(MIGRATION_0004) : failed.error
+}
+
 export function useFillDetails() {
   const qc = useQueryClient()
   return useMutation({
-    mutationFn: async ({ fills, onProgress }: { fills: { id: string; definition?: string; example?: string }[]; onProgress?: (done: number, total: number) => void }) => {
+    mutationFn: async ({ fills, onProgress }: { fills: WordFill[]; onProgress?: (done: number, total: number) => void }) => {
       let done = 0
       // Small parallel batches keep ~1100 updates to about a minute without flooding the API.
       for (let i = 0; i < fills.length; i += 20) {
         const batch = fills.slice(i, i + 20)
-        const results = await Promise.all(
-          batch.map(({ id, ...fields }) => supabase.from('words').update(fields).eq('id', id)),
-        )
-        const failed = results.find((r) => r.error)
-        if (failed?.error) throw failed.error
+        await updateWords(batch)
         done += batch.length
         onProgress?.(done, fills.length)
       }

@@ -71,6 +71,12 @@ npm run lint     # oxlint
   - the word form.
 - Tag names are matched by text. Renaming a built-in tag makes it a personal one, and article `wordTags` front matter refers to tags by name.
 - [src/content/wordDetails.json](src/content/wordDetails.json) gives known words a plain-English definition and an example that contains the word. It loads lazily through `loadWordDetails` in [src/lib/wordDetails.ts](src/lib/wordDetails.ts). `fillFor` fills only empty fields and is used by the «Доповнити» card on the Words page, by import, and by the word form. Definitions must not contain the word itself, otherwise «Слово ↔ пояснення» becomes trivial.
+- [src/lib/wiktionary.ts](src/lib/wiktionary.ts) looks words up on English Wiktionary. It is free, needs no key, and supports CORS; the text is CC BY-SA, so keep the attribution links. Wiktionary is used instead of dictionaryapi.dev, which is only a proxy over it and is often down, and instead of the Cambridge API, which is licensed.
+  - It reads the transcription, the recording (Commons `{{audio}}`, British first) and the parts of speech from the page wikitext, plus a definition and an example from the REST definition endpoint.
+  - Words it cannot find are remembered in `localStorage`, so the bulk lookup does not ask for them again.
+  - The word form uses it with a debounce. Transcription, part of speech and recording are saved without asking; the definition and example need a tap.
+  - [src/components/PronunciationCard.tsx](src/components/PronunciationCard.tsx) runs the bulk lookup on the Words page.
+  - The data is stored in `words.ipa`, `words.pos` (migration 0004) and `words.audio_url`. Before migration 0004 is run, saving falls back to the old columns (`isMissingColumn`, error code PGRST204).
 - The development plan agreed with the owner is in [ROADMAP.md](ROADMAP.md).
 - [src/lib/importFormats.ts](src/lib/importFormats.ts) parses the import formats. The format is chosen by file extension, then by content.
   - Formats: Anki `.txt` and `.apkg`, CSV/TSV/text lists (the separator is detected), Google Translate CSV, `.xlsx`, JSON.
@@ -88,7 +94,7 @@ npm run lint     # oxlint
 - Other hooks and utilities:
   - `useFocusMode` hides the nav and header on phones during practice.
   - `useTitle` sets the tab title.
-  - Speech uses the browser's Web Speech API ([src/lib/speech.ts](src/lib/speech.ts)).
+  - Speech uses the browser's Web Speech API ([src/lib/speech.ts](src/lib/speech.ts)). The word list registers each word's `audio_url` (`setRecordings`), so `speak(term)` plays the real recording when there is one. Safari cannot play Ogg Vorbis, so it falls back to the synthetic voice.
 - Vendor chunks (react, supabase, data) are split in `vite.config.ts` through `rolldownOptions.output.codeSplitting.groups`.
 - Small per-device preferences are stored in `localStorage` under keys prefixed `lexo.`.
 - Ukrainian plurals go through `plural` / `count` in [src/lib/plural.ts](src/lib/plural.ts), for example `count(n, WORD)` gives «1 слово», «3 слова», «5 слів». Do not hard-code «слів».

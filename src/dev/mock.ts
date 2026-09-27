@@ -40,6 +40,8 @@ if (import.meta.env.DEV && new URLSearchParams(location.search).has('mock')) {
       definition: b[2],
       example: b[3],
       audio_url: null,
+      ipa: null,
+      pos: null,
       created_at: new Date(Date.now() - i * 3600_000).toISOString(),
       // One personal tag plus one or two built-in topic tags, so the tag picker has groups to show.
       word_tags: [{ tag_id: tags[i % 3].id }, { tag_id: builtIn[i % builtIn.length].id }, ...(i % 3 === 0 ? [{ tag_id: builtIn[(i * 7) % builtIn.length].id }] : [])],

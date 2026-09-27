@@ -54,9 +54,11 @@ export default function Flashcard({ card, state, onGrade }: Props) {
         <div className="space-y-4">
           <p className="text-xs tracking-widest text-white/35 uppercase">{reverse ? 'Переклад → слово' : 'Слово → переклад'}</p>
           <p className="text-4xl font-light tracking-tight break-words">{front}</p>
+          {!reverse && word.ipa && <p className="-mt-2 font-mono text-sm text-white/45">{word.ipa}</p>}
           {revealed ? (
             <div className="space-y-2 border-t border-white/10 pt-4">
               <p className="text-2xl text-accent break-words">{back}</p>
+              {reverse && word.ipa && <p className="font-mono text-sm text-white/45">{word.ipa}</p>}
               {word.definition && <p className="text-sm text-white/50">{word.definition}</p>}
               {word.example && <p className="text-sm text-white/40 italic">{word.example}</p>}
             </div>
