@@ -16,7 +16,7 @@ import { count, EXERCISE, WORD } from '../lib/plural'
 import { matchesLevel, useWordLevels, WORD_LEVELS, type LevelFilter } from '../lib/wordLevels'
 
 // Listening needs speech synthesis and speaking needs speech recognition; browsers without them do not show those exercises.
-const EXERCISES = ALL_EXERCISES.filter((e) => (e.value !== 'listen' || canSpeak) && (e.value !== 'speak' || canRecognize))
+const EXERCISES = ALL_EXERCISES.filter((e) => ((e.value !== 'listen' && e.value !== 'dictation') || canSpeak) && (e.value !== 'speak' || canRecognize))
 
 // Ready-made complexes: every word goes through all of the listed exercises in one session.
 const PRESETS: { title: string; modes: Exercise[] }[] = [
@@ -27,8 +27,8 @@ const PRESETS: { title: string; modes: Exercise[] }[] = [
 
 // Recognising a word comes before producing it; the grid shows the two kinds apart.
 const EXERCISE_GROUPS: { title: string; modes: Exercise[] }[] = [
-  { title: 'Впізнати', modes: ['choice', 'match', 'matchdef', 'flashcard', 'cloze'] },
-  { title: 'Відтворити', modes: ['translation', 'gaps', 'scramble', 'listen', 'typing', 'speak'] },
+  { title: 'Впізнати', modes: ['choice', 'match', 'matchdef', 'flashcard', 'cloze', 'passage'] },
+  { title: 'Відтворити', modes: ['translation', 'gaps', 'scramble', 'listen', 'dictation', 'typing', 'speak'] },
 ]
 
 const MODES_KEY = 'lexo.practice.modes'
@@ -269,8 +269,10 @@ export default function Practice() {
           </div>
         </div>
         {config.modes.length > 0 && <p className="text-sm text-white/40">{modeHint}</p>}
-        {(config.modes.includes('cloze') || config.modes.includes('matchdef')) && (
-          <p className="text-xs text-white/30">«Слово в реченні» працює для слів із прикладом, де це слово є, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.</p>
+        {config.modes.some((m) => ['cloze', 'passage', 'dictation', 'matchdef'].includes(m)) && (
+          <p className="text-xs text-white/30">
+            «Слово в реченні», «Текст із пропусками» й «Диктант речень» працюють для слів із прикладом, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.
+          </p>
         )}
       </div>
 
