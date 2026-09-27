@@ -23,6 +23,9 @@ async function fetchAllWords(): Promise<WordWithTags[]> {
       .from('words')
       .select('*, word_tags(tag_id)')
       .order('created_at', { ascending: false })
+      // Words from one import share created_at: a unique tiebreaker keeps the order stable and the pages from overlapping.
+      .order('term')
+      .order('id')
       .range(from, from + PAGE - 1)
     if (error) throw error
     for (const row of data) {
@@ -189,7 +192,7 @@ export function useImportWords(userId: string) {
 async function fetchAllProgress(): Promise<Progress[]> {
   const rows: Progress[] = []
   for (let from = 0; ; from += PAGE) {
-    const { data, error } = await supabase.from('progress').select('*').range(from, from + PAGE - 1)
+    const { data, error } = await supabase.from('progress').select('*').order('id').range(from, from + PAGE - 1)
     if (error) throw error
     rows.push(...(data as Progress[]))
     if (data.length < PAGE) return rows
