@@ -13,6 +13,7 @@ import { EXERCISES as ALL_EXERCISES, countSources, pickWords, type Exercise, typ
 import type { Progress } from '../types'
 import { useTitle } from '../lib/useTitle'
 import { count, EXERCISE, WORD } from '../lib/plural'
+import { matchesLevel, useWordLevels, WORD_LEVELS, type LevelFilter } from '../lib/wordLevels'
 
 // Listening needs speech synthesis and speaking needs speech recognition; browsers without them do not show those exercises.
 const EXERCISES = ALL_EXERCISES.filter((e) => (e.value !== 'listen' || canSpeak) && (e.value !== 'speak' || canRecognize))
@@ -75,6 +76,14 @@ export default function Practice() {
       : { source: nav?.source ?? 'today', tagIds: [], limit: 20, modes: loadModes() },
   )
   const [running, setRunning] = useState<WordWithTags[] | null>(null)
+  // Level filter (per session, not remembered): words of the chosen CEFR levels only; empty = all words.
+  const [levelFilter, setLevelFilter] = useState<LevelFilter[]>([])
+  const levels = useWordLevels()
+  // Words from a grammar article are practised as they are; the level filter applies to the other sources.
+  const pool = useMemo(
+    () => (config.source === 'subset' || levelFilter.length === 0 ? (words.data ?? []) : (words.data ?? []).filter((w) => matchesLevel(w.term, levels, levelFilter))),
+    [words.data, levels, levelFilter, config.source],
+  )
 
   const progressById = useMemo(() => new Map((progress.data ?? []).map((p): [string, Progress] => [p.word_id, p])), [progress.data])
   const tagCounts = useMemo(() => {
@@ -83,8 +92,8 @@ export default function Practice() {
     return map
   }, [words.data])
   const counts = useMemo(
-    () => countSources(words.data ?? [], progressById, config.tagIds),
-    [words.data, progressById, config.tagIds],
+    () => countSources(pool, progressById, config.tagIds),
+    [pool, progressById, config.tagIds],
   )
 
   const sources: { value: Source; title: string; hint: string; count: number }[] = [
@@ -135,7 +144,7 @@ export default function Practice() {
   }
 
   function start() {
-    const picked = pickWords(words.data ?? [], progressById, config)
+    const picked = pickWords(pool, progressById, config)
     if (picked.length > 0) setRunning(picked)
   }
 
@@ -184,6 +193,26 @@ export default function Practice() {
             ))}
           </div>
         </div>
+        {levels && config.source !== 'subset' && (
+          <div className="space-y-2">
+            <p className={label}>
+              Рівень <span className="tracking-normal normal-case">{levelFilter.length === 0 ? '· усі' : ''}</span>
+            </p>
+            <div className="flex flex-wrap gap-1.5">
+              {WORD_LEVELS.map((l) => (
+                <button
+                  key={l}
+                  onClick={() => setLevelFilter((f) => (f.includes(l) ? f.filter((x) => x !== l) : [...f, l]))}
+                  data-on={levelFilter.includes(l)}
+                  aria-pressed={levelFilter.includes(l)}
+                  className="chip min-w-10 justify-center"
+                >
+                  {l}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
         {(tags.data?.length ?? 0) > 0 && (
           <div className="min-w-0 space-y-2">
             <p className={label}>

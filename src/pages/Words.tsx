@@ -8,6 +8,7 @@ import WordForm from '../components/WordForm'
 import SelectMenu from '../components/SelectMenu'
 import SpeakButton from '../components/SpeakButton'
 import { posLabel } from '../lib/wiktionary'
+import { levelOf, NO_LEVEL, useWordLevels, WORD_LEVELS, type LevelFilter } from '../lib/wordLevels'
 import TagPicker from '../components/TagPicker'
 import { useAuth } from '../lib/authContext'
 import { useDeleteWord, useProgress, useSaveWord, useTags, useWords, type WordInput, type WordWithTags } from '../lib/queries'
@@ -66,6 +67,8 @@ export default function Words() {
   const startTag = (useLocation().state as { tagId?: string } | null)?.tagId
   const [activeTags, setActiveTags] = useState<string[]>(startTag ? [startTag] : [])
   const [status, setStatus] = useState<Status | null>(null)
+  const [level, setLevel] = useState<LevelFilter | null>(null)
+  const levels = useWordLevels()
   const [limit, setLimit] = useState(PAGE)
   const [editing, setEditing] = useState<WordInput | 'new' | null>(null)
   const [importing, setImporting] = useState(false)
@@ -81,10 +84,19 @@ export default function Words() {
       (w) =>
         (activeTags.length === 0 || w.tagIds.some((id) => activeTags.includes(id))) &&
         (status === null || statusById.get(w.id) === status) &&
+        (level === null || (levelOf(w.term, levels) ?? NO_LEVEL) === level) &&
         (q === '' || w.term.toLowerCase().includes(q) || w.translation.toLowerCase().includes(q)),
     )
-  }, [words.data, query, activeTags, status, statusById])
-  const filtered = query.trim() !== '' || activeTags.length > 0 || status !== null
+  }, [words.data, query, activeTags, status, statusById, level, levels])
+  const filtered = query.trim() !== '' || activeTags.length > 0 || status !== null || level !== null
+  const levelCounts = useMemo(() => {
+    const map = new Map<LevelFilter, number>()
+    for (const w of words.data ?? []) {
+      const l = levelOf(w.term, levels) ?? NO_LEVEL
+      map.set(l, (map.get(l) ?? 0) + 1)
+    }
+    return map
+  }, [words.data, levels])
   const statusCounts = useMemo(() => {
     const map = new Map<Status, number>()
     for (const st of statusById.values()) map.set(st, (map.get(st) ?? 0) + 1)
@@ -166,6 +178,19 @@ export default function Words() {
           options={FILTERS.map((f) => ({ ...f, count: f.value === null ? words.data?.length : (statusCounts.get(f.value) ?? 0) }))}
           onChange={(v) => filter(() => setStatus(v))}
         />
+        {levels && (
+          <SelectMenu<LevelFilter>
+            label="Рівень"
+            value={level}
+            width="sm:w-56"
+            options={[
+              { value: null, label: 'Усі', count: words.data?.length },
+              ...WORD_LEVELS.map((l) => ({ value: l, label: l, count: levelCounts.get(l) ?? 0 })),
+              { value: NO_LEVEL, label: 'Без рівня', count: levelCounts.get(NO_LEVEL) ?? 0 },
+            ]}
+            onChange={(v) => filter(() => setLevel(v))}
+          />
+        )}
         {(tags.data?.length ?? 0) > 0 && <TagPicker tags={tags.data!} selected={activeTags} counts={tagCounts} onChange={(ids) => filter(() => setActiveTags(ids))} />}
         {words.data && filtered && (
           <span className="ml-auto text-sm text-white/45">
@@ -176,6 +201,7 @@ export default function Words() {
                   setQuery('')
                   setActiveTags([])
                   setStatus(null)
+                  setLevel(null)
                 })
               }
               className="ml-2 text-accent hover:underline"
@@ -218,6 +244,11 @@ export default function Words() {
                     <span className="max-w-full truncate font-medium sm:max-w-[45%] sm:shrink-0">{w.term}</span>
                     <span className="min-w-0 truncate text-sm font-light text-white/55 sm:text-base">{w.translation}</span>
                   </button>
+                  {levelOf(w.term, levels) && (
+                    <span title="Рівень CEFR (оцінка)" className="w-6 shrink-0 text-center text-[10px] text-white/35 tabular-nums">
+                      {levelOf(w.term, levels)}
+                    </span>
+                  )}
                   <span title={st.label} className={`size-2 shrink-0 rounded-full ${st.dot}`} aria-label={st.label} />
                   <SpeakButton text={w.term} className="size-8 shrink-0" />
                 </div>
