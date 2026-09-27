@@ -2,7 +2,8 @@
 title: Сполучники: and, but, or, so, because
 category: Складні речення
 levels: [A1]
-tags: [conjunctions, and, but, or, so, because, both and, either or, neither nor, сполучники, і але або тому]
+tags: [conjunctions, and, but, or, so, because, both and, either or, neither nor, сполучники, і але або тому]
+wordTags: [слова-зв'язки]
 ---
 
 ## Основні сполучники

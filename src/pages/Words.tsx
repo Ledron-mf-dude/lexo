@@ -2,7 +2,9 @@ import { useMemo, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import ImportDialog from '../components/ImportDialog'
 import WordForm from '../components/WordForm'
+import SelectMenu from '../components/SelectMenu'
 import SpeakButton from '../components/SpeakButton'
+import TagPicker from '../components/TagPicker'
 import { useAuth } from '../lib/authContext'
 import { useDeleteWord, useProgress, useSaveWord, useTags, useWords, type WordInput, type WordWithTags } from '../lib/queries'
 import { HARD_ERRORS } from '../lib/session'
@@ -11,18 +13,19 @@ import type { Progress } from '../types'
 
 type Status = 'new' | 'due' | 'hard' | 'learning' | 'known'
 
-const STATUS: Record<Status, { label: string; className: string }> = {
-  new: { label: 'нове', className: 'bg-white/8 text-white/50' },
-  due: { label: 'до повторення', className: 'bg-accent/15 text-accent' },
-  hard: { label: 'складне', className: 'bg-bad/15 text-bad' },
-  learning: { label: 'вчиться', className: 'bg-white/8 text-white/50' },
-  known: { label: 'вивчене', className: 'bg-good/15 text-good' },
+const STATUS: Record<Status, { label: string; dot: string; text: string }> = {
+  new: { label: 'нове', dot: 'border border-white/30', text: 'text-white/45' },
+  due: { label: 'до повторення', dot: 'bg-accent', text: 'text-accent' },
+  hard: { label: 'складне', dot: 'bg-bad', text: 'text-bad' },
+  learning: { label: 'вчиться', dot: 'bg-white/40', text: 'text-white/55' },
+  known: { label: 'вивчене', dot: 'bg-good', text: 'text-good' },
 }
 
 const FILTERS: { value: Status | null; label: string }[] = [
   { value: null, label: 'Усі' },
   { value: 'new', label: 'Нові' },
   { value: 'due', label: 'До повторення' },
+  { value: 'learning', label: 'Вчаться' },
   { value: 'hard', label: 'Складні' },
   { value: 'known', label: 'Вивчені' },
 ]
@@ -43,7 +46,7 @@ function statuses(words: WordWithTags[], progress: Progress[]): Map<string, Stat
 }
 
 // Rendering 1000+ glass cards at once is slow on a phone: the list grows by a page at a time.
-const PAGE = 60
+const PAGE = 100
 
 export default function Words() {
   useTitle('Слова')
@@ -62,6 +65,7 @@ export default function Words() {
   const [limit, setLimit] = useState(PAGE)
   const [editing, setEditing] = useState<WordInput | 'new' | null>(null)
   const [importing, setImporting] = useState(false)
+  const [open, setOpen] = useState<string | null>(null) // word shown with details
 
   const tagById = useMemo(() => new Map((tags.data ?? []).map((t) => [t.id, t])), [tags.data])
   const statusById = useMemo(() => statuses(words.data ?? [], progress.data ?? []), [words.data, progress.data])
@@ -76,15 +80,21 @@ export default function Words() {
     )
   }, [words.data, query, activeTags, status, statusById])
   const filtered = query.trim() !== '' || activeTags.length > 0 || status !== null
+  const statusCounts = useMemo(() => {
+    const map = new Map<Status, number>()
+    for (const st of statusById.values()) map.set(st, (map.get(st) ?? 0) + 1)
+    return map
+  }, [statusById])
+  const tagCounts = useMemo(() => {
+    const map = new Map<string, number>()
+    for (const w of words.data ?? []) for (const id of w.tagIds) map.set(id, (map.get(id) ?? 0) + 1)
+    return map
+  }, [words.data])
 
   // Any new filter starts from the first page again.
   function filter(apply: () => void) {
     apply()
     setLimit(PAGE)
-  }
-
-  function toggleTag(id: string) {
-    filter(() => setActiveTags((cur) => (cur.includes(id) ? cur.filter((t) => t !== id) : [...cur, id])))
   }
 
   function startEdit(w: WordWithTags) {
@@ -137,42 +147,33 @@ export default function Words() {
         className="field"
       />
 
-      <div className="chip-row">
-        {FILTERS.map((f) => (
-          <button key={f.label} onClick={() => filter(() => setStatus(f.value))} data-on={status === f.value} className="chip">
-            {f.label}
-          </button>
-        ))}
-      </div>
-
-      {(tags.data?.length ?? 0) > 0 && (
-        <div className="chip-row">
-          {tags.data!.map((t) => (
-            <button key={t.id} onClick={() => toggleTag(t.id)} data-on={activeTags.includes(t.id)} className="chip">
-              {t.color && <span className="mr-1.5 inline-block size-2 rounded-full align-middle" style={{ background: t.color }} aria-hidden />}
-              {t.name}
+      <div className="flex flex-wrap items-center gap-2">
+        <SelectMenu
+          label="Статус"
+          value={status}
+          width="sm:w-64"
+          options={FILTERS.map((f) => ({ ...f, count: f.value === null ? words.data?.length : (statusCounts.get(f.value) ?? 0) }))}
+          onChange={(v) => filter(() => setStatus(v))}
+        />
+        {(tags.data?.length ?? 0) > 0 && <TagPicker tags={tags.data!} selected={activeTags} counts={tagCounts} onChange={(ids) => filter(() => setActiveTags(ids))} />}
+        {words.data && filtered && (
+          <span className="ml-auto text-sm text-white/45">
+            {visible.length} з {words.data.length}
+            <button
+              onClick={() =>
+                filter(() => {
+                  setQuery('')
+                  setActiveTags([])
+                  setStatus(null)
+                })
+              }
+              className="ml-2 text-accent hover:underline"
+            >
+              скинути
             </button>
-          ))}
-        </div>
-      )}
-
-      {words.data && filtered && visible.length > 0 && (
-        <p className="text-sm text-white/45">
-          Знайдено {visible.length} з {words.data.length}
-          <button
-            onClick={() =>
-              filter(() => {
-                setQuery('')
-                setActiveTags([])
-                setStatus(null)
-              })
-            }
-            className="ml-3 text-accent hover:underline"
-          >
-            скинути
-          </button>
-        </p>
-      )}
+          </span>
+        )}
+      </div>
 
       {words.isLoading && <p className="animate-pulse text-white/50">Завантаження…</p>}
       {words.error && <p className="text-bad">{(words.error as Error).message}</p>}
@@ -187,48 +188,60 @@ export default function Words() {
         </div>
       )}
 
-      <ul className="space-y-2">
-        {visible.slice(0, limit).map((w) => {
-          const st = STATUS[statusById.get(w.id) ?? 'new']
-          return (
-            <li key={w.id} className="glass flex items-start gap-2 rounded-2xl py-3 pr-2 pl-4">
-              <div className="min-w-0 flex-1 space-y-0.5">
-                <p className="flex flex-wrap items-center gap-x-1 font-medium">
-                  <span className="break-words">{w.term}</span>
-                  <SpeakButton text={w.term} className="-my-1.5 size-8" />
-                </p>
-                <p className="font-light break-words text-white/65">{w.translation}</p>
-                {w.definition && <p className="text-sm text-white/40">{w.definition}</p>}
-                <div className="flex flex-wrap gap-1.5 pt-1.5">
-                  <span className={`rounded-full px-2 py-0.5 text-xs ${st.className}`}>{st.label}</span>
-                  {w.tagIds.map((id) => {
-                    const tag = tagById.get(id)
-                    return (
-                      <span key={id} className="inline-flex items-center gap-1 rounded-full bg-white/8 px-2 py-0.5 text-xs text-white/60">
-                        {tag?.color && <span className="size-1.5 rounded-full" style={{ background: tag.color }} aria-hidden />}
-                        {tag?.name}
-                      </span>
-                    )
-                  })}
+      {visible.length > 0 && (
+        <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl">
+          {visible.slice(0, limit).map((w) => {
+            const st = STATUS[statusById.get(w.id) ?? 'new']
+            const expanded = open === w.id
+            return (
+              <li key={w.id} className={expanded ? 'bg-white/4' : ''}>
+                <div className="flex items-center gap-1 py-1 pr-1.5 pl-3">
+                  <button
+                    onClick={() => setOpen(expanded ? null : w.id)}
+                    aria-expanded={expanded}
+                    className="flex min-w-0 flex-1 flex-col py-1.5 text-left sm:flex-row sm:items-baseline sm:gap-3"
+                  >
+                    <span className="max-w-full truncate font-medium sm:max-w-[45%] sm:shrink-0">{w.term}</span>
+                    <span className="min-w-0 truncate text-sm font-light text-white/55 sm:text-base">{w.translation}</span>
+                  </button>
+                  <span title={st.label} className={`size-2 shrink-0 rounded-full ${st.dot}`} aria-label={st.label} />
+                  <SpeakButton text={w.term} className="size-8 shrink-0" />
                 </div>
-              </div>
-              <div className="flex shrink-0 gap-0.5 text-sm">
-                <button onClick={() => startEdit(w)} aria-label={`Змінити «${w.term}»`} title="Змінити" className="grid size-9 place-items-center rounded-lg text-white/45 hover:bg-white/8 hover:text-white">
-                  <svg viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                    <path d="M4 20h4L19 9l-4-4L4 16v4Z" />
-                    <path d="m13.5 6.5 4 4" />
-                  </svg>
-                </button>
-                <button onClick={() => onDelete(w)} aria-label={`Видалити «${w.term}»`} title="Видалити" className="grid size-9 place-items-center rounded-lg text-white/45 hover:bg-bad/10 hover:text-bad">
-                  <svg viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                    <path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13" />
-                  </svg>
-                </button>
-              </div>
-            </li>
-          )
-        })}
-      </ul>
+                {expanded && (
+                  <div className="space-y-2 px-3 pb-3 text-sm">
+                    {w.definition && <p className="text-white/55">{w.definition}</p>}
+                    {w.example && <p className="text-white/45 italic">{w.example}</p>}
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      <span className={`text-xs ${st.text}`}>{st.label}</span>
+                      {w.tagIds.map((id) => {
+                        const tag = tagById.get(id)
+                        return (
+                          <button
+                            key={id}
+                            onClick={() => filter(() => setActiveTags([id]))}
+                            className="inline-flex items-center gap-1 rounded-full bg-white/8 px-2 py-0.5 text-xs text-white/60 hover:bg-white/12"
+                          >
+                            {tag?.color && <span className="size-1.5 rounded-full" style={{ background: tag.color }} aria-hidden />}
+                            {tag?.name}
+                          </button>
+                        )
+                      })}
+                      <span className="ml-auto flex gap-1">
+                        <button onClick={() => startEdit(w)} className="rounded-lg px-2.5 py-1 text-white/60 hover:bg-white/8 hover:text-white">
+                          Змінити
+                        </button>
+                        <button onClick={() => onDelete(w)} className="rounded-lg px-2.5 py-1 text-white/60 hover:bg-bad/10 hover:text-bad">
+                          Видалити
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                )}
+              </li>
+            )
+          })}
+        </ul>
+      )}
 
       {visible.length > limit && (
         <button onClick={() => setLimit((n) => n + PAGE * 2)} className="btn-ghost w-full">

@@ -2,7 +2,8 @@
 title: Модальні дієслова: обов'язок, заборона, порада
 category: Модальні дієслова
 levels: [A2, B1, B1+, B2]
-tags: [must, have to, mustn't, don't have to, should, ought to, had better, needn't, obligation, prohibition, advice, обов'язок, заборона, порада]
+tags: [must, have to, mustn't, don't have to, should, ought to, had better, needn't, obligation, prohibition, advice, обов'язок, заборона, порада]
+wordTags: [модальні дієслова]
 ---
 
 ## Обов'язок і необхідність

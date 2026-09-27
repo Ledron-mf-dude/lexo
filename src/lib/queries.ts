@@ -1,6 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import type { PracticeMode, Progress, Tag, Word } from '../types'
 import { supabase } from './supabase'
+import { builtInColor } from './tagTaxonomy'
 
 export type WordWithTags = Word & { tagIds: string[] }
 
@@ -57,7 +58,7 @@ async function ensureTags(userId: string, names: string[]): Promise<string[]> {
   if (missing.length > 0) {
     const { data: created, error: insertError } = await supabase
       .from('tags')
-      .insert(missing.map((name) => ({ name, user_id: userId })))
+      .insert(missing.map((name) => ({ name, user_id: userId, color: builtInColor(name) ?? null })))
       .select('id, name')
     if (insertError) throw insertError
     for (const t of created) byName.set(t.name as string, t.id as string)
@@ -248,7 +249,7 @@ export function useTagActions(userId: string) {
 
   const create = useMutation({
     mutationFn: async (name: string) => {
-      const { error } = await supabase.from('tags').insert({ name: name.trim(), user_id: userId })
+      const { error } = await supabase.from('tags').insert({ name: name.trim(), user_id: userId, color: builtInColor(name.trim()) ?? null })
       if (error) throw error
     },
     ...opts,
@@ -295,4 +296,39 @@ export function useTagActions(userId: string) {
   })
 
   return { create, rename, recolor, remove, merge }
+}
+
+export interface AutoTagPlan {
+  /** Tags to add to each word (existing links are kept). */
+  links: { wordId: string; tagNames: string[] }[]
+  /** Tags to delete afterwards (their links go with them). */
+  removeTagIds: string[]
+}
+
+/** Applies suggested tags to many words at once: creates missing tags, adds links, optionally removes old tags. */
+export function useAutoTag(userId: string) {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: async ({ plan, onProgress }: { plan: AutoTagPlan; onProgress?: (done: number, total: number) => void }) => {
+      const names = [...new Set(plan.links.flatMap((l) => l.tagNames))]
+      const ids = await ensureTags(userId, names)
+      const idByName = new Map(names.map((n, i) => [n, ids[i]]))
+      const rows = plan.links.flatMap((l) => l.tagNames.map((n) => ({ word_id: l.wordId, tag_id: idByName.get(n)! })))
+      for (let i = 0; i < rows.length; i += 500) {
+        // A word may already carry the tag: the duplicate row is skipped.
+        const { error } = await supabase.from('word_tags').upsert(rows.slice(i, i + 500), { onConflict: 'word_id,tag_id', ignoreDuplicates: true })
+        if (error) throw error
+        onProgress?.(Math.min(i + 500, rows.length), rows.length)
+      }
+      if (plan.removeTagIds.length > 0) {
+        const { error } = await supabase.from('tags').delete().in('id', plan.removeTagIds)
+        if (error) throw error
+      }
+      return { tagged: plan.links.length, links: rows.length, removed: plan.removeTagIds.length }
+    },
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ['tags'] })
+      qc.invalidateQueries({ queryKey: ['words'] })
+    },
+  })
 }

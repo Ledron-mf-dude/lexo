@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import LevelBadge from '../components/LevelBadge'
+import SelectMenu from '../components/SelectMenu'
 import { exercises, questionCount } from '../lib/exercises'
 import { allMistakes, topicStats, useExerciseLog } from '../lib/exerciseLog'
 import { LEVELS, articles, categories, levelCounts, searchArticles, startLevel, type Article, type Hit, type Level } from '../lib/grammar'
@@ -87,9 +88,6 @@ export default function Grammar() {
     return entries
   })()
 
-  const chip = (active: boolean) =>
-    `rounded-full border px-3 py-1.5 text-sm transition-colors sm:py-1 ${active ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60 hover:text-white'}`
-
   return (
     <section className="space-y-5">
       <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
@@ -106,33 +104,24 @@ export default function Grammar() {
         className="field"
       />
 
-      <div className="space-y-2">
-        <div className="flex items-center gap-2 sm:items-start">
-          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16 sm:pt-1.5">Рівень</span>
-          <div className="chip-row m-0! min-w-0 flex-1 p-0! sm:items-center">
-            <button onClick={() => update({ level: null })} className={chip(level === null)}>
-              Усі
+      <div className="flex flex-wrap items-center gap-2">
+        <div className="segmented" role="group" aria-label="Рівень">
+          <button onClick={() => update({ level: null })} data-on={level === null}>
+            Усі рівні
+          </button>
+          {LEVELS.map((l) => (
+            <button key={l} onClick={() => update({ level: level === l ? null : l })} data-on={level === l} title={`${levelCounts[l]} статей`}>
+              {l}
             </button>
-            {LEVELS.map((l) => (
-              <button key={l} onClick={() => update({ level: level === l ? null : l })} className={chip(level === l)}>
-                {l} <span className="text-xs text-white/35">{levelCounts[l]}</span>
-              </button>
-            ))}
-          </div>
+          ))}
         </div>
-        <div className="flex items-center gap-2 sm:items-start">
-          <span className="w-14 shrink-0 text-xs tracking-widest text-white/35 uppercase sm:w-16 sm:pt-1.5">Тема</span>
-          <div className="chip-row m-0! min-w-0 flex-1 p-0! sm:items-center">
-            <button onClick={() => update({ cat: null })} className={chip(category === null)}>
-              Усі
-            </button>
-            {categories.map((c) => (
-              <button key={c.name} onClick={() => update({ cat: category === c.name ? null : c.name })} className={chip(category === c.name)}>
-                {c.name} <span className="text-xs text-white/35">{c.count}</span>
-              </button>
-            ))}
-          </div>
-        </div>
+        <SelectMenu
+          label="Тема"
+          value={category}
+          width="sm:w-80"
+          options={[{ value: null, label: 'Усі теми', count: articles.length }, ...categories.map((c) => ({ value: c.name, label: c.name, count: c.count }))]}
+          onChange={(v) => update({ cat: v })}
+        />
       </div>
 
       {!searching && (
@@ -169,9 +158,9 @@ export default function Grammar() {
               </button>
             )}
           </span>
-          <div className="flex gap-1">
+          <div className="segmented" role="group" aria-label="Групувати">
             {(['category', 'level'] as const).map((v) => (
-              <button key={v} onClick={() => update({ view: v === 'category' ? null : v })} className={chip(view === v)}>
+              <button key={v} onClick={() => update({ view: v === 'category' ? null : v })} data-on={view === v}>
                 {v === 'category' ? 'За темами' : 'За рівнями'}
               </button>
             ))}
@@ -221,7 +210,7 @@ function Section({ title, count, muted, children }: { title: string; count: numb
       <h2 className={`text-sm tracking-widest uppercase ${muted ? 'text-white/30' : 'text-white/45'}`}>
         {title} <span className="text-white/25">{count}</span>
       </h2>
-      <ul className="space-y-2">{children}</ul>
+      <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl">{children}</ul>
     </div>
   )
 }
@@ -231,7 +220,7 @@ function ArticleRow({ hit, progress, showCategory }: { hit: Hit; progress?: { ma
   const done = progress !== undefined && progress.total > 0 && progress.mastered === progress.total
   return (
     <li>
-      <Link to={`/grammar/${article.slug}`} className="glass block rounded-2xl p-4 transition-colors hover:bg-white/10">
+      <Link to={`/grammar/${article.slug}`} className="block px-4 py-3 transition-colors hover:bg-white/6">
         <div className="flex items-start justify-between gap-3">
           <p className="font-medium">{article.title}</p>
           <span className="flex shrink-0 gap-1">

@@ -2,7 +2,8 @@
 title: Прикметник + прийменник (afraid of, good at, interested in)
 category: Прийменники
 levels: [B1]
-tags: [adjective preposition, afraid of, good at, interested in, proud of, married to, angry with, keen on, прикметник з прийменником]
+tags: [adjective preposition, afraid of, good at, interested in, proud of, married to, angry with, keen on, прикметник з прийменником]
+wordTags: [з прийменником]
 ---
 
 Багато прикметників вживаються з **певним прийменником**.

@@ -1,5 +1,6 @@
-import { useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import type { WordInput } from '../lib/queries'
+import { BUILT_IN, loadTopicDictionary, suggestTags, type TopicDictionary } from '../lib/tagTaxonomy'
 import TagInput from './TagInput'
 
 interface Props {
@@ -15,6 +16,15 @@ const empty: WordInput = { term: '', translation: '', definition: '', example: '
 
 export default function WordForm({ initial, suggestions, saving, error, onSubmit, onCancel }: Props) {
   const [form, setForm] = useState<WordInput>(initial ?? empty)
+  const [dict, setDict] = useState<TopicDictionary | null>(null)
+
+  useEffect(() => {
+    loadTopicDictionary().then(setDict, () => {})
+  }, [])
+
+  // Tags that fit the word (known words from the topic dictionary, others by their shape), minus those already added.
+  const suggested = form.term.trim() ? suggestTags(form.term, dict).filter((n) => !form.tagNames.includes(n)) : []
+  const allNames = [...new Set([...suggestions, ...Object.values(BUILT_IN).map((t) => t.name)])]
 
   function set<K extends keyof WordInput>(key: K, value: WordInput[K]) {
     setForm((f) => ({ ...f, [key]: value }))
@@ -62,7 +72,22 @@ export default function WordForm({ initial, suggestions, saving, error, onSubmit
           onChange={(e) => set('example', e.target.value)}
           className="field"
         />
-        <TagInput value={form.tagNames} onChange={(tags) => set('tagNames', tags)} suggestions={suggestions} />
+        <TagInput value={form.tagNames} onChange={(tags) => set('tagNames', tags)} suggestions={allNames} />
+        {suggested.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1.5 text-sm">
+            <span className="text-xs text-white/40">Підходять:</span>
+            {suggested.map((name) => (
+              <button
+                key={name}
+                type="button"
+                onClick={() => set('tagNames', [...form.tagNames, name])}
+                className="rounded-full border border-dashed border-accent/40 px-2.5 py-0.5 text-xs text-accent/90 hover:bg-accent/10"
+              >
+                + {name}
+              </button>
+            ))}
+          </div>
+        )}
         {error && <p className="text-sm text-bad">{error}</p>}
         <div className="flex justify-end gap-2 pt-2">
           <button type="button" onClick={onCancel} className="btn-ghost">

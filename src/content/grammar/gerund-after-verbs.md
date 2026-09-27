@@ -2,7 +2,7 @@
 title: Gerund (герундій)
 category: Дієслівні форми
 levels: [A2, B1, B1+]
-wordTags: [gerund-verbs, gerund-phrases]
+wordTags: [gerund-verbs, gerund-phrases, герундій (-ing)]
 tags: [gerund, -ing, verb + -ing, герундій, дієслова, прийменники]
 ---
 

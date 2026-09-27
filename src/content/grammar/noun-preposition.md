@@ -2,7 +2,8 @@
 title: Іменник + прийменник (reason for, increase in, key to)
 category: Прийменники
 levels: [B2]
-tags: [noun preposition, reason for, increase in, demand for, solution to, difference between, need for, interest in, collocations, іменник з прийменником, словосполучення]
+tags: [noun preposition, reason for, increase in, demand for, solution to, difference between, need for, interest in, collocations, іменник з прийменником, словосполучення]
+wordTags: [з прийменником]
 ---
 
 Багато іменників поєднуються з певним прийменником. Вони часто відповідають дієсловам і прикметникам з тим самим коренем.

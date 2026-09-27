@@ -1,3 +1,5 @@
+import { BUILT_IN } from '../lib/tagTaxonomy'
+
 // Local-only preview data: open http://localhost:5173/lexo/?mock=1 in `npm run dev`. Never active in production builds.
 if (import.meta.env.DEV && new URLSearchParams(location.search).has('mock')) {
   const ref = new URL(import.meta.env.VITE_SUPABASE_URL as string).hostname.split('.')[0]
@@ -25,6 +27,8 @@ if (import.meta.env.DEV && new URLSearchParams(location.search).has('mock')) {
     { id: 't2', user_id: 'u-mock', name: 'work', color: '#5eead4' },
     { id: 't3', user_id: 'u-mock', name: 'unit 12', color: '#fbbf24' },
   ]
+  const builtIn = Object.values(BUILT_IN).map((t, i) => ({ id: `b${i}`, user_id: 'u-mock', name: t.name, color: t.color }))
+  tags.push(...builtIn)
   const words = Array.from({ length: 60 }, (_, i) => {
     const b = base[i % base.length]
     const n = i >= base.length ? ` ${Math.floor(i / base.length) + 1}` : ''
@@ -37,7 +41,8 @@ if (import.meta.env.DEV && new URLSearchParams(location.search).has('mock')) {
       example: b[3],
       audio_url: null,
       created_at: new Date(Date.now() - i * 3600_000).toISOString(),
-      word_tags: [{ tag_id: tags[i % 3].id }],
+      // One personal tag plus one or two built-in topic tags, so the tag picker has groups to show.
+      word_tags: [{ tag_id: tags[i % 3].id }, { tag_id: builtIn[i % builtIn.length].id }, ...(i % 3 === 0 ? [{ tag_id: builtIn[(i * 7) % builtIn.length].id }] : [])],
     }
   })
   const progress = words.map((w, i) => ({
@@ -61,7 +66,8 @@ if (import.meta.env.DEV && new URLSearchParams(location.search).has('mock')) {
   const tables: Record<string, unknown[]> = { words, tags, progress, review_log, exercise_log: [] }
   const realFetch = window.fetch.bind(window)
   window.fetch = async (input, init) => {
-    const url = new URL(typeof input === 'string' ? input : input instanceof URL ? input.href : input.url)
+    // Relative URLs (app assets, the sql.js wasm) are resolved against the page, as fetch itself does.
+    const url = new URL(typeof input === 'string' ? input : input instanceof URL ? input.href : input.url, location.href)
     const method = (init?.method ?? (input instanceof Request ? input.method : 'GET')).toUpperCase()
     if (url.hostname.includes('supabase.co') && url.pathname.startsWith('/rest/v1/')) {
       const rows = tables[url.pathname.split('/').pop()!] ?? []

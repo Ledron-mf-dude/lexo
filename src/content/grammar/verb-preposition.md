@@ -2,7 +2,8 @@
 title: Дієслово + прийменник (depend on, listen to, wait for)
 category: Прийменники
 levels: [B1]
-tags: [verb preposition, depend on, listen to, wait for, look at, believe in, apologise for, ask for, care about, belong to, дієслово з прийменником, керування]
+tags: [verb preposition, depend on, listen to, wait for, look at, believe in, apologise for, ask for, care about, belong to, дієслово з прийменником, керування]
+wordTags: [з прийменником]
 ---
 
 Багато англійських дієслів вимагають **певного прийменника**. Їх треба запам'ятовувати разом.

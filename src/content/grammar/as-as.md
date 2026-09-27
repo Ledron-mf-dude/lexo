@@ -2,7 +2,8 @@
 title: As … as (такий самий, як)
 category: Прикметники та прислівники
 levels: [A2, B1]
-tags: [as as, as tall as, not as as, not so as, twice as, the same as, equal comparison, порівняння, такий самий]
+tags: [as as, as tall as, not as as, not so as, twice as, the same as, equal comparison, порівняння, такий самий]
+wordTags: [порівняння]
 ---
 
 **As + прикметник / прислівник + as** — «такий самий …, як». Прикметник між двома `as` стоїть у **звичайній** формі: без `-er`, без `more`.
