@@ -52,6 +52,15 @@ export function savePlacement(p: Placement) {
   }
 }
 
+/** Clears the saved placement result, so the route offers the test again instead of picking up where it left off. */
+export function resetPlacement() {
+  try {
+    localStorage.removeItem(KEY)
+  } catch {
+    // private mode: nothing was remembered anyway
+  }
+}
+
 /** The level to study after the test: the first one not passed (B2 once everything is passed). */
 export function studyLevelAfter(passed: Level | null): Level {
   if (passed === null) return PLACEMENT_LEVELS[0]

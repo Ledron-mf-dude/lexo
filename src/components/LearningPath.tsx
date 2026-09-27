@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { buildRoute, loadPlacement, type TopicProgress, type TopicStatus } from '../lib/learningPath'
+import { buildRoute, loadPlacement, resetPlacement, type TopicProgress, type TopicStatus } from '../lib/learningPath'
 
 const DOT: Record<TopicStatus, string> = {
   new: 'border border-white/30',
@@ -12,9 +12,15 @@ const PREVIEW = 4
 
 /** «Ваш маршрут» on the Grammar page: an invitation to the placement test, or the topics of the level to study. */
 export default function LearningPath({ progress }: { progress: Map<string, TopicProgress> }) {
-  const [placement] = useState(loadPlacement)
+  const [placement, setPlacement] = useState(loadPlacement)
   const [expanded, setExpanded] = useState(false)
   const route = useMemo(() => (placement ? buildRoute(placement, progress) : null), [placement, progress])
+
+  function reset() {
+    if (!window.confirm('Скинути маршрут і результат тесту рівня? Доведеться пройти тест заново.')) return
+    resetPlacement()
+    setPlacement(null)
+  }
 
   if (!placement || !route) {
     return (
@@ -38,9 +44,15 @@ export default function LearningPath({ progress }: { progress: Map<string, Topic
         <p className="font-medium">
           Ваш маршрут <span className="text-white/45">· {route.level}</span>
         </p>
-        <Link to="/grammar/placement" className="text-xs text-white/40 hover:text-white">
-          тест: {placement.passed ?? 'A1'} · пройти ще раз
-        </Link>
+        <div className="flex items-center gap-2 text-xs text-white/40">
+          <Link to="/grammar/placement" className="hover:text-white">
+            тест: {placement.passed ?? 'A1'} · пройти ще раз
+          </Link>
+          <span aria-hidden="true">·</span>
+          <button onClick={reset} className="hover:text-white">
+            скинути маршрут
+          </button>
+        </div>
       </div>
 
       <div className="space-y-1">
