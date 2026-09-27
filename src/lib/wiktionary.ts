@@ -1,3 +1,5 @@
+import { getAccent } from './accent'
+
 /**
  * Online dictionary data for words the built-in dictionary does not know, from English Wiktionary
  * (free, no key, CORS-enabled; text under CC BY-SA, recordings from Wikimedia Commons).
@@ -87,12 +89,13 @@ function englishSection(wikitext: string): string | null {
   return m ? m[1] : null
 }
 
-// British first, as taught in Ukrainian schools; then American; then whatever there is.
+// The chosen variety first (British by default, as taught in Ukrainian schools), then the other, then whatever there is.
 const UK = /\b(RP|UK|SSB|Received|Southern England|British)\b|en-(uk|gb)-/i
 const US = /\b(GA|US|General American|American)\b|en-us-/i
 
 function pick<T>(items: T[], describe: (x: T) => string): T | undefined {
-  return items.find((x) => UK.test(describe(x))) ?? items.find((x) => US.test(describe(x))) ?? items[0]
+  const [first, second] = getAccent() === 'US' ? [US, UK] : [UK, US]
+  return items.find((x) => first.test(describe(x))) ?? items.find((x) => second.test(describe(x))) ?? items[0]
 }
 
 function parsePronunciation(section: string) {
@@ -185,7 +188,7 @@ async function lookup(term: string, withDetails: boolean): Promise<OnlineEntry |
  * `withDetails` also fetches a definition and an example (one more request).
  */
 export function lookupOnline(term: string, withDetails = true): Promise<OnlineEntry | null> {
-  const key = `${withDetails ? 'd' : 'p'}:${term.trim().toLowerCase()}`
+  const key = `${withDetails ? 'd' : 'p'}:${getAccent()}:${term.trim().toLowerCase()}`
   let hit = cache.get(key)
   if (!hit) {
     hit = lookup(term.trim(), withDetails)

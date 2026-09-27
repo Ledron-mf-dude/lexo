@@ -113,6 +113,7 @@ npm run lint     # oxlint
 - Other hooks and utilities:
   - `useFocusMode` hides the nav and header on phones during practice.
   - `useTitle` sets the tab title.
+  - British or American English is a per-browser choice (`lib/accent.ts`, Account page). The browser voice, Wiktionary's recording and transcription picks, and the LanguageTool variant all follow it.
   - Speech uses the browser's Web Speech API ([src/lib/speech.ts](src/lib/speech.ts)). The word list registers each word's `audio_url` (`setRecordings`), so `speak(term)` plays the real recording when there is one. Safari cannot play Ogg Vorbis, so it falls back to the synthetic voice.
 - Vendor chunks (react, supabase, data) are split in `vite.config.ts` through `rolldownOptions.output.codeSplitting.groups`.
 - Small per-device preferences are stored in `localStorage` under keys prefixed `lexo.`.

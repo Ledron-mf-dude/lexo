@@ -5,6 +5,7 @@ import { supabase } from '../lib/supabase'
 import { downloadText, wordsToText } from '../lib/wordsExport'
 import { canSpeak, setAutoSpeak, speak, useAutoSpeak } from '../lib/speech'
 import { useTitle } from '../lib/useTitle'
+import { setAccent, useAccent } from '../lib/accent'
 
 export default function Account() {
   useTitle('Акаунт')
@@ -13,6 +14,7 @@ export default function Account() {
   const tags = useTags()
   const ready = words.data !== undefined && tags.data !== undefined
   const autoSpeak = useAutoSpeak()
+  const accent = useAccent()
 
   function exportWords() {
     if (!words.data || !tags.data) return
@@ -39,7 +41,21 @@ export default function Account() {
             </span>
             <input type="checkbox" checked={autoSpeak} onChange={(e) => setAutoSpeak(e.target.checked)} className="size-5 shrink-0 accent-[#7c9bff]" />
           </label>
-          <button onClick={() => speak('Hello! This is how words will sound.')} className="btn-ghost text-sm">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <span className="text-sm text-white/70">
+              Вимова
+              <span className="block text-xs text-white/40">Голос, транскрипція й запис для нових слів, правопис у «Тренері письма». Уже збережені записи не змінюються.</span>
+            </span>
+            <div className="segmented">
+              <button onClick={() => setAccent('GB')} data-on={accent === 'GB'}>
+                Британська
+              </button>
+              <button onClick={() => setAccent('US')} data-on={accent === 'US'}>
+                Американська
+              </button>
+            </div>
+          </div>
+          <button onClick={() => speak(accent === 'US' ? 'Hello! This is how words will sound. Color, center, schedule.' : 'Hello! This is how words will sound. Colour, centre, schedule.')} className="btn-ghost text-sm">
             Перевірити звук
           </button>
         </div>
