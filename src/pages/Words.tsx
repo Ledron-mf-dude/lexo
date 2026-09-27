@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import AddFromTextDialog from '../components/AddFromTextDialog'
 import FillDetailsCard from '../components/FillDetailsCard'
 import PronunciationCard from '../components/PronunciationCard'
 import ImportDialog from '../components/ImportDialog'
@@ -68,6 +69,7 @@ export default function Words() {
   const [limit, setLimit] = useState(PAGE)
   const [editing, setEditing] = useState<WordInput | 'new' | null>(null)
   const [importing, setImporting] = useState(false)
+  const [fromText, setFromText] = useState(false)
   const [open, setOpen] = useState<string | null>(null) // word shown with details
 
   const tagById = useMemo(() => new Map((tags.data ?? []).map((t) => [t.id, t])), [tags.data])
@@ -131,6 +133,9 @@ export default function Words() {
         <div className="flex gap-2 text-sm sm:text-base">
           <button onClick={() => setImporting(true)} className="btn-ghost px-3 sm:px-[1.1rem]">
             Імпорт
+          </button>
+          <button onClick={() => setFromText(true)} className="btn-ghost px-3 whitespace-nowrap sm:px-[1.1rem]">
+            З тексту
           </button>
           <button
             onClick={() => {
@@ -265,6 +270,7 @@ export default function Words() {
       )}
 
       {importing && <ImportDialog userId={session!.user.id} onClose={() => setImporting(false)} />}
+      {fromText && <AddFromTextDialog userId={session!.user.id} words={words.data ?? []} onClose={() => setFromText(false)} />}
 
       {editing && (
         <WordForm

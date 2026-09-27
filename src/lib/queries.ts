@@ -181,20 +181,25 @@ export function useImportWords(userId: string) {
 
       const links: { word_id: string; tag_id: string }[] = []
       let done = 0
+      // Pronunciation goes along when the rows have it; before migration 0004 the batch is retried without it.
+      let withPronunciation = true
+      const row = (w: WordInput) => ({
+        user_id: userId,
+        term: w.term,
+        translation: w.translation,
+        definition: w.definition || null,
+        example: w.example || null,
+        ...(withPronunciation && { ipa: w.ipa || null, pos: w.pos || null, audio_url: w.audio_url || null }),
+      })
+      const hasPronunciation = withTags.some((w) => w.ipa || w.pos || w.audio_url)
+      if (!hasPronunciation) withPronunciation = false
       for (const batch of chunks(withTags, CHUNK)) {
-        const { data, error } = await supabase
-          .from('words')
-          .insert(
-            batch.map((w) => ({
-              user_id: userId,
-              term: w.term,
-              translation: w.translation,
-              definition: w.definition || null,
-              example: w.example || null,
-            })),
-          )
-          .select('id, term')
-        if (error) throw error
+        let { data, error } = await supabase.from('words').insert(batch.map(row)).select('id, term')
+        if (error && withPronunciation && isMissingColumn(error)) {
+          withPronunciation = false
+          ;({ data, error } = await supabase.from('words').insert(batch.map(row)).select('id, term'))
+        }
+        if (error || !data) throw error
         const idByTerm = new Map(data.map((r) => [(r.term as string).toLowerCase(), r.id as string]))
         for (const w of batch) {
           const wordId = idByTerm.get(w.term.toLowerCase())
