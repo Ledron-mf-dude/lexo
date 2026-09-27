@@ -2,8 +2,12 @@ import { shuffle, itemsOf, type Item } from './exercises'
 import { articles, LEVELS, startLevel, type Article, type Level } from './grammar'
 
 /**
- * Placement test and learning path. The test walks up the levels in blocks of a few questions and stops at the first
- * block the learner does not pass; the path then offers the topics of the first level not yet passed.
+ * Placement test and learning path. The test walks up the levels in blocks of a few questions.
+ * A single failed block no longer ends the test: it keeps going so a careless slip on an easy level
+ * does not hide what the learner actually knows higher up. It stops only when a block is a complete
+ * miss (too high a level to be worth continuing) or the learner ends it themselves.
+ * The path then offers the topics of the first level not yet passed, with weak topics first regardless
+ * of which level they belong to.
  * The result is kept per browser (no database table needed).
  */
 
@@ -14,13 +18,20 @@ export const BLOCK_SIZE = 4
 export const PASS_MARK = 3
 
 export interface Placement {
-  /** Highest level passed; null if even A1 was not passed. */
+  /** Highest level whose score met PASS_MARK; null if none did. Earlier levels may have failed silently. */
   passed: Level | null
   /** Correct answers per level tried. */
   scores: Partial<Record<Level, number>>
   /** Topics answered wrongly during the test: they come first on the path. */
   weak: string[]
   date: string
+}
+
+/** The highest level with a passing score, scanning from A1 up. A weaker level in between does not cap it. */
+export function passedLevel(scores: Partial<Record<Level, number>>): Level | null {
+  let passed: Level | null = null
+  for (const l of PLACEMENT_LEVELS) if ((scores[l] ?? 0) >= PASS_MARK) passed = l
+  return passed
 }
 
 const KEY = 'lexo.placement'

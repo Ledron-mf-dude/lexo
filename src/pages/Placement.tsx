@@ -5,13 +5,17 @@ import { useLogAnswer } from '../lib/exerciseLog'
 import { withVariant, type Item } from '../lib/exercises'
 import { useFocusMode } from '../lib/focusMode'
 import { bySlug, type Level } from '../lib/grammar'
-import { BLOCK_SIZE, drawBlock, PASS_MARK, PLACEMENT_LEVELS, savePlacement, studyLevelAfter, type Placement as Result } from '../lib/learningPath'
+import { BLOCK_SIZE, drawBlock, PASS_MARK, passedLevel, PLACEMENT_LEVELS, savePlacement, studyLevelAfter, type Placement as Result } from '../lib/learningPath'
 import { useTitle } from '../lib/useTitle'
 import { Feedback, QuestionView, type Outcome } from './ExerciseQuiz'
 
 const noop = () => {}
 
-/** Placement test: `/grammar/placement`. Blocks of questions from A1 up; the first block not passed ends the test. */
+/**
+ * Placement test: `/grammar/placement`. Blocks of questions from A1 up; a failed block does not end the test,
+ * it just moves on. The test ends itself only on a complete miss (a whole block wrong) or the last level,
+ * and the learner can end it early with ✕.
+ */
 export default function Placement() {
   useTitle('Тест рівня')
   const { session } = useAuth()
@@ -39,23 +43,22 @@ export default function Placement() {
     else setWeak((w) => (w.includes(item.slug) ? w : [...w, item.slug]))
   }
 
+  function finish(finalScores: Partial<Record<Level, number>>) {
+    const r: Result = { passed: passedLevel(finalScores), scores: finalScores, weak, date: new Date().toISOString() }
+    savePlacement(r)
+    setResult(r)
+  }
+
   function next() {
     setOutcome(null)
     if (index + 1 < block.length) return setIndex(index + 1)
-    // End of a block: pass and go up, or stop here.
+    // End of a block: a complete miss means the level is too high to be worth continuing.
     const score = scores[level] ?? 0
-    const passedThis = score >= PASS_MARK
     const last = levelIndex + 1 >= PLACEMENT_LEVELS.length
-    if (passedThis && !last) {
-      setLevelIndex(levelIndex + 1)
-      setBlock(drawBlock(PLACEMENT_LEVELS[levelIndex + 1]).map(withVariant))
-      setIndex(0)
-      return
-    }
-    const passed = passedThis ? level : levelIndex > 0 ? PLACEMENT_LEVELS[levelIndex - 1] : null
-    const r: Result = { passed, scores, weak, date: new Date().toISOString() }
-    savePlacement(r)
-    setResult(r)
+    if (score === 0 || last) return finish(scores)
+    setLevelIndex(levelIndex + 1)
+    setBlock(drawBlock(PLACEMENT_LEVELS[levelIndex + 1]).map(withVariant))
+    setIndex(0)
   }
 
   if (result) {
@@ -140,7 +143,7 @@ export default function Placement() {
               Запитання йдуть блоками по {BLOCK_SIZE} від A1 до B2, до {BLOCK_SIZE * PLACEMENT_LEVELS.length} запитань, 5–10 хвилин.
             </li>
             <li>
-              Щоб пройти рівень, потрібно {PASS_MARK} правильні відповіді з {BLOCK_SIZE}. Тест зупиниться на першому непройденому рівні: заскладних запитань не буде.
+              Одна помилка не зупиняє тест: він іде далі до наступного рівня, а тема з помилкою просто потрапить у маршрут. Тест зупиниться сам, лише якщо цілий блок вийде невірним — це знак, що рівень явно зарано. Натиснувши «✕», можна завершити раніше й подивитись результат.
             </li>
             <li>Після тесту на сторінці «Граматика» з'явиться маршрут: теми вашого рівня по порядку, першими — ті, де були помилки.</li>
             <li>Відповіді записуються, як у звичайних вправах, тож помилки потраплять у «Роботу над помилками».</li>
@@ -157,9 +160,9 @@ export default function Placement() {
   return (
     <section className="space-y-5">
       <div className="flex items-center gap-3 text-sm text-white/50">
-        <Link to="/grammar" aria-label="Вийти з тесту" className="hover:text-white">
+        <button onClick={() => finish(scores)} aria-label="Завершити тест" className="hover:text-white">
           ✕
-        </Link>
+        </button>
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/10">
           <div className="h-full bg-accent transition-all" style={{ width: `${(done / (BLOCK_SIZE * PLACEMENT_LEVELS.length)) * 100}%` }} />
         </div>
