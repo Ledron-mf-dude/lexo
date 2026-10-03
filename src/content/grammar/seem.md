@@ -59,7 +59,7 @@ tags: [seem, it seems, seem to, seem like, appear, there seems to be, здаєт
 ## Типові помилки
 
 - ✗ *She seems be tired.* → ✓ *She seems **to be** tired.* / *She seems **tired**.*
-- ✗ *He seems to come tomorrow.* → ✓ *It seems (that) he **will come** tomorrow.* / *He **seems likely to** come tomorrow.*
+- ✗ *He seems to come tomorrow.* → ✓ *It seems he **will come** tomorrow.* / *It seems that he **will come** tomorrow.* / *He **seems likely to** come tomorrow.*
 - ✗ *It seems like she has left yesterday.* → ✓ *She seems **to have left** yesterday.* / *It seems she **left** yesterday.*
 - ✗ *She is seeming happy.* → ✓ *She **seems** happy.*
 - ✗ *It seems me that…* → ✓ *It seems **to** me that…*

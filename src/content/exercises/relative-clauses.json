@@ -290,6 +290,65 @@
    ],
    "why": "who — підмет.",
    "hint": "Чоловік, що тобі дзвонив, тут."
+  },
+  {
+   "id": "relative-clauses-23",
+   "type": "choice",
+   "q": "The man ___ I spoke was very helpful.",
+   "options": [
+    "to who",
+    "to whom",
+    "to that",
+    "to which"
+   ],
+   "answer": 1,
+   "why": "Після прийменника про людей — whom."
+  },
+  {
+   "id": "relative-clauses-24",
+   "type": "choice",
+   "q": "That's the company ___ products are sold worldwide.",
+   "options": [
+    "which",
+    "who's",
+    "whose",
+    "that"
+   ],
+   "answer": 2,
+   "why": "Належність, і для речей теж — whose."
+  },
+  {
+   "id": "relative-clauses-25",
+   "type": "choice",
+   "q": "I didn't understand ___ he said.",
+   "options": [
+    "that",
+    "which",
+    "what",
+    "who"
+   ],
+   "answer": 2,
+   "why": "what = the thing that, без іменника перед ним."
+  },
+  {
+   "id": "relative-clauses-26",
+   "type": "fill",
+   "q": "This is the house ___ I grew up in.",
+   "answer": [
+    "that",
+    "which"
+   ],
+   "why": "Об'єкт із прийменником у кінці — that або which (або без слова)."
+  },
+  {
+   "id": "relative-clauses-27",
+   "type": "fill",
+   "q": "That's the reason ___ I called you.",
+   "answer": [
+    "why",
+    "that"
+   ],
+   "why": "the reason why."
   }
  ]
 }

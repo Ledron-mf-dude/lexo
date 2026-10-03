@@ -15,6 +15,15 @@ wordTags: [модальні дієслова]
 
 У минулому й майбутньому `must` немає, тому: **had to** (минуле), **will have to** (майбутнє).
 
+| | must | have to |
+| --- | --- | --- |
+| Форма | однакова для всіх, без `to`: *she **must** go* | змінюється: *she **has to** go*, *they **had to** go* |
+| Питання | ***Must** I go?* (рідко, офіційно) | ***Do** I **have to** go?* (звичайно) |
+| Заперечення | *mustn't* = **заборонено** | *don't have to* = **не обов'язково** |
+| Письмові правила, інструкції | *Passengers **must** wear seat belts.* | — |
+
+`Have got to` — розмовний британський варіант `have to`: *I'**ve got to** go now.*
+
 ## Заборона і відсутність необхідності
 
 | Слово | Значення | Приклад |
@@ -25,6 +34,14 @@ wordTags: [модальні дієслова]
 
 > Не плутайте: `mustn't` = «не можна», `don't have to` = «не треба».
 
+## Need: два дієслова
+
+| Як звичайне дієслово | Як модальне (переважно BrE) |
+| --- | --- |
+| **need to** + V, з `do / does` | **needn't** + V, без `to` |
+| *She **needs to** rest.* / *You **don't need to** come.* | *You **needn't** come.* |
+| *Do I **need to** bring anything?* | *Need I bring anything?* (рідко) |
+
 ## Порада
 
 | Слово | Сила | Приклад |
@@ -33,7 +50,9 @@ wordTags: [модальні дієслова]
 | **ought to** | схоже на should | You **ought to** apologise. |
 | **had better** | сильна порада, наслідки | You'**d better** leave, or you'll miss the train. |
 
-`Had better` вказує на теперішнє чи майбутнє; після нього **інфінітив без to**.
+`Had better` вказує на теперішнє чи майбутнє; після нього **інфінітив без to**. Заперечення — **had better not**: *You'd **better not** be late.*
+
+**Сила:** *should* (раджу) → *had better* (раджу, інакше будуть проблеми) → *must / have to* (обов'язково).
 
 ## Минуле
 
@@ -53,8 +72,12 @@ wordTags: [модальні дієслова]
 
 ## Типові помилки
 
-- ✗ *You mustn't come, it's optional.* → ✓ *You **don't have to** come.* (mustn't = заборонено)
+- ✗ *You mustn't come, it's optional.* (mustn't = заборонено) → ✓ *You **don't have to** come, it's optional.*
 - ✗ *I must to go.* → ✓ *I must **go**.*
 - ✗ *Yesterday I must work late.* → ✓ *Yesterday I **had to** work late.*
 - ✗ *You'd better to leave.* → ✓ *You'd better **leave**.*
 - ✗ *He don't have to…* → ✓ *He **doesn't** have to…*
+- ✗ *Do I must wear a tie?* → ✓ *Do I **have to** wear a tie?*
+- ✗ *She has to goes now.* → ✓ *She has to **go** now.*
+- ✗ *You'd not better tell him.* → ✓ *You'd better **not** tell him.*
+- ✗ *We will must pay more.* → ✓ *We **will have to** pay more.*

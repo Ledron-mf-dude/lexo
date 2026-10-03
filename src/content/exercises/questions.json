@@ -276,6 +276,63 @@
    ],
    "why": "What + did + підмет + V.",
    "hint": "Що ти робив учора?"
+  },
+  {
+   "id": "questions-23",
+   "type": "choice",
+   "q": "___ colour do you prefer, black or white?",
+   "options": [
+    "What",
+    "Which",
+    "How",
+    "Whose"
+   ],
+   "answer": 1,
+   "why": "Вибір із відомих варіантів — which."
+  },
+  {
+   "id": "questions-24",
+   "type": "choice",
+   "q": "\"What's your new flat ___?\" — \"It's small but cosy.\"",
+   "options": [
+    "look",
+    "like",
+    "likes",
+    "as"
+   ],
+   "answer": 1,
+   "why": "What … like? — опис."
+  },
+  {
+   "id": "questions-25",
+   "type": "choice",
+   "q": "How come ___ here so early?",
+   "options": [
+    "are you",
+    "you are",
+    "do you",
+    "you do"
+   ],
+   "answer": 1,
+   "why": "How come — без інверсії."
+  },
+  {
+   "id": "questions-26",
+   "type": "fill",
+   "q": "___ of these phones is yours?",
+   "answer": [
+    "Which"
+   ],
+   "why": "Перед of — лише which."
+  },
+  {
+   "id": "questions-27",
+   "type": "fill",
+   "q": "What does your sister look ___?",
+   "answer": [
+    "like"
+   ],
+   "why": "What does … look like? — зовнішність."
   }
  ]
 }

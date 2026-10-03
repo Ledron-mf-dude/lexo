@@ -33,12 +33,15 @@ wordTags: [порівняння]
 | **good** | **better** | **the best** |
 | **bad** | **worse** | **the worst** |
 | **far** | **farther / further** | **the farthest / furthest** |
+| **old** (у родині) | **elder** (+ іменник) | **the eldest** |
 | **little** | **less** | **the least** |
 | **much / many** | **more** | **the most** |
 
+`Further` має ще й значення «додатковий, подальший»: ***further** information*, *until **further** notice*. `Elder / eldest` — лише про членів родини і лише перед іменником: *my **elder** sister*, але *She is **older** than me* (не *elder than*).
+
 ## Порівняння
 
-- ***Than*** після порівняльного: *She is **taller than** me.*
+- ***Than*** після порівняльного: *She is **taller than** me.* Після `than` у розмові — `me / him / her`; формальніше — з дієсловом: *…taller than **I am**.*
 - **Найвищий ступінь:** ***the** oldest*, **in** (місце) / **of** (група): *the tallest **in** the class*, *the best **of** all*.
 - **Менше:** *less expensive than*, *not as … as* — див. «As … as».
 
@@ -67,3 +70,7 @@ wordTags: [порівняння]
 - ✗ *She is taller that me.* → ✓ *…taller **than** me.*
 - ✗ *the best in the world of* → ✓ *the best **in** the world* (in — місце, of — група: *the best of all*)
 - ✗ *more easy* → ✓ ***easier*** (двоскладові на -y)
+- ✗ *My brother is elder than me.* → ✓ *My brother is **older** than me.*
+- ✗ *It's the more expensive hotel in the city.* → ✓ *It's **the most expensive** hotel in the city.*
+- ✗ *She is the most intelligent of the class.* → ✓ *She is the most intelligent **in** the class.*
+- ✗ *This is badder than before.* → ✓ *This is **worse** than before.*

@@ -41,5 +41,5 @@ tags: [would like, i'd like, would you like, offers, requests, polite, ввіч�
 
 - ✗ *I would like go.* → ✓ *I would like **to go**.*
 - ✗ *Do you like a coffee?* (пропозиція) → ✓ ***Would** you like a coffee?*
-- ✗ *I want a coffee.* (у кафе звучить різко) → ✓ ***I'd like** a coffee, please.*
+- ✗ *I want a coffee.* (у кафе звучить різко) → ✓ ***I'd like** a coffee, please.* / ***I'd like** a coffee.*
 - ✗ *Would you like dancing?* (запрошення) → ✓ *Would you like **to dance**?*

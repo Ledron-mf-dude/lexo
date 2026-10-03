@@ -1,0 +1,252 @@
+{
+ "questions": [
+  {
+   "id": "confusing-words-1",
+   "type": "choice",
+   "q": "She ___ me she would be late.",
+   "options": [
+    "said",
+    "told",
+    "spoke",
+    "talked"
+   ],
+   "answer": 1,
+   "why": "З особою без to — tell: told me."
+  },
+  {
+   "id": "confusing-words-2",
+   "type": "choice",
+   "q": "What did he ___ to you?",
+   "options": [
+    "say",
+    "tell",
+    "speak",
+    "talk"
+   ],
+   "answer": 0,
+   "why": "say something to somebody."
+  },
+  {
+   "id": "confusing-words-3",
+   "type": "choice",
+   "q": "Could you ___ me your car for the weekend?",
+   "options": [
+    "borrow",
+    "lend",
+    "take",
+    "rent"
+   ],
+   "answer": 1,
+   "why": "Дати в борг — lend somebody something."
+  },
+  {
+   "id": "confusing-words-4",
+   "type": "choice",
+   "q": "Can I ___ your charger? Mine is broken.",
+   "options": [
+    "lend",
+    "borrow",
+    "give",
+    "bring"
+   ],
+   "answer": 1,
+   "why": "Взяти в борг — borrow."
+  },
+  {
+   "id": "confusing-words-5",
+   "type": "choice",
+   "q": "___ me to call the dentist tomorrow.",
+   "options": [
+    "Remember",
+    "Remind",
+    "Recall",
+    "Memorise"
+   ],
+   "answer": 1,
+   "why": "Нагадати комусь — remind somebody to do."
+  },
+  {
+   "id": "confusing-words-6",
+   "type": "choice",
+   "q": "Hurry up or we'll ___ the train!",
+   "options": [
+    "lose",
+    "miss",
+    "loose",
+    "pass"
+   ],
+   "answer": 1,
+   "why": "Не встигнути — miss."
+  },
+  {
+   "id": "confusing-words-7",
+   "type": "choice",
+   "q": "Two men ___ the jewellery shop last night.",
+   "options": [
+    "stole",
+    "robbed",
+    "thieved",
+    "took off"
+   ],
+   "answer": 1,
+   "why": "Пограбувати місце — rob."
+  },
+  {
+   "id": "confusing-words-8",
+   "type": "choice",
+   "q": "Our team ___ them 2–1.",
+   "options": [
+    "won",
+    "beat",
+    "earned",
+    "gained"
+   ],
+   "answer": 1,
+   "why": "Перемогти суперника — beat."
+  },
+  {
+   "id": "confusing-words-9",
+   "type": "choice",
+   "q": "How much does a nurse ___ in your country?",
+   "options": [
+    "win",
+    "earn",
+    "gain",
+    "beat"
+   ],
+   "answer": 1,
+   "why": "Заробити працею — earn."
+  },
+  {
+   "id": "confusing-words-10",
+   "type": "choice",
+   "q": "We ___ a great film last night on TV.",
+   "options": [
+    "looked",
+    "watched",
+    "saw at",
+    "looked at"
+   ],
+   "answer": 1,
+   "why": "Дивитися телевізор, фільм удома — watch."
+  },
+  {
+   "id": "confusing-words-11",
+   "type": "choice",
+   "q": "Shh! ___! Can you hear that?",
+   "options": [
+    "Hear",
+    "Listen",
+    "Listen to",
+    "Look"
+   ],
+   "answer": 1,
+   "why": "Без додатка — просто Listen!"
+  },
+  {
+   "id": "confusing-words-12",
+   "type": "choice",
+   "q": "The trip was great ___. We laughed all day.",
+   "options": [
+    "funny",
+    "fun",
+    "funnily",
+    "fan"
+   ],
+   "answer": 1,
+   "why": "Весело, приємно — fun (іменник): great fun."
+  },
+  {
+   "id": "confusing-words-13",
+   "type": "choice",
+   "q": "The price of petrol has ___ again.",
+   "options": [
+    "raised",
+    "risen",
+    "rose",
+    "arisen"
+   ],
+   "answer": 1,
+   "why": "Підніматися саме — rise, V3 risen."
+  },
+  {
+   "id": "confusing-words-14",
+   "type": "fill",
+   "q": "Please ___ your hand if you have a question.",
+   "answer": [
+    "raise"
+   ],
+   "why": "Піднімати щось — raise."
+  },
+  {
+   "id": "confusing-words-15",
+   "type": "fill",
+   "q": "Don't forget to ___ an umbrella with you when you go out.",
+   "answer": [
+    "take"
+   ],
+   "why": "Від мовця, туди — take."
+  },
+  {
+   "id": "confusing-words-16",
+   "type": "fill",
+   "q": "Can you ___ me a glass of water, please? I'm in the kitchen.",
+   "answer": [
+    "bring"
+   ],
+   "why": "До мовця, сюди — bring."
+  },
+  {
+   "id": "confusing-words-17",
+   "type": "fill",
+   "q": "Does anyone here ___ Spanish?",
+   "answer": [
+    "speak"
+   ],
+   "why": "Мовами говорять — speak."
+  },
+  {
+   "id": "confusing-words-18",
+   "type": "fill",
+   "q": "I've ___ my wallet. Have you seen it?",
+   "answer": [
+    "lost"
+   ],
+   "why": "Загубити — lose, lost."
+  },
+  {
+   "id": "confusing-words-19",
+   "type": "order",
+   "words": [
+    "You",
+    "remind",
+    "me",
+    "of",
+    "my",
+    "brother"
+   ],
+   "answer": [
+    "You remind me of my brother"
+   ],
+   "why": "remind somebody of somebody — нагадувати когось, бути схожим.",
+   "hint": "Ти нагадуєш мені мого брата."
+  },
+  {
+   "id": "confusing-words-20",
+   "type": "order",
+   "words": [
+    "She",
+    "told",
+    "us",
+    "a",
+    "funny",
+    "story"
+   ],
+   "answer": [
+    "She told us a funny story"
+   ],
+   "why": "tell a story; funny — смішний.",
+   "hint": "Вона розповіла нам смішну історію."
+  }
+ ]
+}

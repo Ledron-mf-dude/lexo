@@ -42,11 +42,49 @@ tags: [passive, passive voice, пасив, пасивний стан, be + V3, �
 | Someone **is repairing** the road now. | The road **is being repaired** now. |
 | They **have finished** the project. | The project **has been finished**. |
 
-Виконавця можна додати через `by`, якщо він важливий: *The house was built **by a famous architect**.*
+Як перетворити: **додаток** активного речення стає **підметом**, `be` ставимо в тому самому часі, що й активне дієслово, змістове дієслово — у V3.
+
+## By чи with?
+
+- **by** — хто виконав дію, якщо це важливо або нова інформація: *The house was built **by a famous architect**.* / *The window was broken **by** the kids next door.*
+- **with** — чим, яким інструментом чи матеріалом: *The door was opened **with** a key.* / *The cake was decorated **with** cream.*
+
+Виконавця **не називають**, коли він невідомий, очевидний або неважливий: *My bike **was stolen**.* (хто — невідомо) / *He **was arrested**.* (очевидно, поліцією) — не *by someone*, *by the police*.
+
+## Коли обирають пасив
+
+- Важливіша **дія чи результат**, ніж виконавець: *English **is spoken** all over the world.*
+- Виконавець **невідомий**: *The museum **was built** in the 19th century.*
+- **Офіційний, науковий** стиль, інструкції: *The mixture **is heated** to 80°C.* / *Mistakes **were made**.*
+- Щоб почати речення з того, про що вже йдеться: *This is my grandmother's ring. It **was made** in 1920.*
+
+## Питання й заперечення
+
+| | Схема | Приклад |
+| --- | --- | --- |
+| Заперечення | `not` після першого допоміжного | The letter **wasn't sent**. / It **hasn't been decided** yet. |
+| Питання | перше допоміжне перед підметом | **Was** the letter **sent**? / **Has** the room **been cleaned**? |
+| Питання з wh- | wh + допоміжне + підмет + V3 | **Where was** it **made**? / **When will** it **be finished**? |
+| Питання про виконавця | **Who … by?** | **Who was** this book **written by**? |
+
+## Дієслова з двома додатками
+
+`give`, `send`, `show`, `offer`, `tell`, `teach`, `pay` мають два пасиви. Частіше підметом стає **людина**:
+
+- *They gave **me** a prize.* → ***I was given** a prize.* (природно) / *A prize **was given to me**.*
+- *Somebody showed **us** the way.* → ***We were shown** the way.*
+
+Див. «Дієслова з двома додатками: give, send, show, buy».
+
+## Дієслово з прийменником
+
+Прийменник **залишається** після дієслова: *Someone looked after the dog.* → *The dog **was looked after**.* / *They laughed at him.* → *He **was laughed at**.*
 
 ## Модальні дієслова й інфінітив
 
 **modal + be + V3**: *The form **must be signed**.* / *It **can't be done**.* / *The work **should be finished** by Friday.*
+
+Про минуле — **modal + have been + V3**: *The letter **should have been sent** yesterday.* / *It **must have been stolen**.*
 
 Інфінітив і gerund теж мають пасивну форму: *I want **to be told** the truth.* / *He hates **being interrupted**.*
 
@@ -68,3 +106,8 @@ tags: [passive, passive voice, пасив, пасивний стан, be + V3, �
 - ✗ *The accident was happened at night.* → ✓ *The accident **happened**…* (happen не має пасиву)
 - ✗ *It has been finish.* → ✓ *It has been **finished**.*
 - ✗ *The letter was written from Tom.* → ✓ *…written **by** Tom.*
+- ✗ *I was given it a prize.* → ✓ *I **was given** a prize.*
+- ✗ *The door was opened by a key.* → ✓ *The door was opened **with** a key.* (інструмент — with)
+- ✗ *Who was this book written?* → ✓ *Who was this book written **by**?*
+- ✗ *My car was stolen by someone.* → ✓ *My car **was stolen**.* (виконавець невідомий — без by)
+- ✗ *The baby was looked by her aunt.* → ✓ *The baby was looked **after** by her aunt.*

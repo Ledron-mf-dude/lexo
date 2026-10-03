@@ -11,7 +11,7 @@ tags: [pretty, rather, quite, fairly, very, extremely, degree adverbs, modifiers
 
 | Слово | Значення | Приклад |
 | --- | --- | --- |
-| **fairly** | помірно, трохи менше за середнє | It's **fairly** good. |
+| **fairly** | помірно, «нормально» (найслабше з чотирьох) | It's **fairly** good. |
 | **quite** | досить (трохи більше за fairly) | It's **quite** good. |
 | **pretty** | досить (розмовно, часто позитивно) | It's **pretty** good. |
 | **rather** | доволі (більше, ніж очікували; часто негативно) | It's **rather** cold. |

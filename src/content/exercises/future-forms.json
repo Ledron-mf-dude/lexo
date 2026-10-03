@@ -280,6 +280,63 @@
    ],
    "why": "Ознаки — be going to.",
    "hint": "Скоро піде дощ."
+  },
+  {
+   "id": "future-forms-23",
+   "type": "choice",
+   "q": "Look at the score! They ___ win.",
+   "options": [
+    "will",
+    "are going to",
+    "win",
+    "are winning to"
+   ],
+   "answer": 1,
+   "why": "Видно вже зараз — be going to."
+  },
+  {
+   "id": "future-forms-24",
+   "type": "choice",
+   "q": "I think you ___ this book.",
+   "options": [
+    "are liking",
+    "'ll like",
+    "like",
+    "are going like"
+   ],
+   "answer": 1,
+   "why": "Прогноз-думка з I think — will."
+  },
+  {
+   "id": "future-forms-25",
+   "type": "choice",
+   "q": "She ___ to sell her car.",
+   "options": [
+    "isn't going",
+    "doesn't going",
+    "won't going",
+    "not going"
+   ],
+   "answer": 0,
+   "why": "Заперечення: isn't going to + V."
+  },
+  {
+   "id": "future-forms-26",
+   "type": "fill",
+   "q": "___ you going to tell him the truth?",
+   "answer": [
+    "Are"
+   ],
+   "why": "Питання: Are + підмет + going to + V."
+  },
+  {
+   "id": "future-forms-27",
+   "type": "fill",
+   "q": "I'll text you when I ___ (arrive).",
+   "answer": [
+    "arrive"
+   ],
+   "why": "Після when про майбутнє — Present Simple."
   }
  ]
 }

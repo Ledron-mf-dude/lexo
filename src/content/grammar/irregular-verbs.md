@@ -33,7 +33,9 @@ tags: [past simple, irregular verbs, regular verbs, -ed, was were, v2, v3, не�
 | Закінчується на **-e** → **-d** | love → love**d** |
 | Приголосний + **y** → **-ied** | study → stud**ied** |
 | Голосний + y → **-ed** | play → play**ed** |
-| Односкладове з CVC → подвоюємо | stop → stop**ped** |
+| Односкладове з CVC → подвоюємо | stop → stop**ped**, plan → plan**ned** |
+| Наголос на останньому складі → подвоюємо | prefer → prefer**red**, admit → admit**ted** (але visit → visit**ed**) |
+| BrE подвоює кінцеве **-l** | travel → travel**led** (AmE travel**ed**) |
 
 **Вимова -ed:** `/t/` після глухих (*worked*), `/d/` після дзвінких і голосних (*played*), `/ɪd/` після **t / d** (*wanted, needed*).
 
@@ -66,7 +68,7 @@ tags: [past simple, irregular verbs, regular verbs, -ed, was were, v2, v3, не�
 | find | found | found | знаходити |
 | fly | flew | flown | літати |
 | forget | forgot | forgotten | забувати |
-| get | got | got | отримувати |
+| get | got | got (AmE gotten) | отримувати |
 | give | gave | given | давати |
 | go | went | gone / been | йти |
 | grow | grew | grown | рости |

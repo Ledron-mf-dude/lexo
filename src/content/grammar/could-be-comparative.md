@@ -42,4 +42,4 @@ tags: [could be, couldn't be better, could have been, comparative, warmer, cheap
 
 - ✗ *It could be more warm.* → ✓ *It could be **warmer**.*
 - ✗ *It could be better yesterday.* → ✓ *It **could have been** better yesterday.*
-- ✗ *"How are you?" — "It couldn't be good."* → ✓ *"**Couldn't be better!**"* (потрібен порівняльний ступінь)
+- ✗ *"How are you?" — "It couldn't be good."* (потрібен порівняльний ступінь) → ✓ *"How are you?" — "It **couldn't be better**."*

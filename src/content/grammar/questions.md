@@ -43,10 +43,39 @@ tags: [questions, question words, what, who, where, when, why, how, which, whose
 | **how many / much** | скільки | **How many** people came? |
 | **how long / often / old / far** | скільки часу / як часто / скільки років / як далеко | **How long** does it take? |
 
+## What чи which?
+
+| what | which |
+| --- | --- |
+| вибір **не обмежений**, відкрите питання | вибір з **кількох відомих** варіантів |
+| ***What** music do you like?* | ***Which** colour do you want, red or blue?* |
+| | ***Which of** these bags is yours?* (перед `of` — лише which) |
+
+## Питання з прийменником у кінці
+
+Прийменник зазвичай стоїть **у кінці** питання: ***Who** are you talking **to**?* / ***What** is it **about**?* / ***Where** are you **from**?* Докладніше: «Subject questions і питання з прийменником».
+
+## Корисні питання
+
+| Питання | Що означає |
+| --- | --- |
+| **What … like?** | який (опис): *What's your new boss **like**?* — Який у тебе новий начальник? |
+| **What does … look like?** | як виглядає: *What does she **look like**?* |
+| **How is …?** | як справи, як почувається: *How's your mother?* |
+| **What … for?** = Why | навіщо: ***What** did you do that **for**?* |
+| **How come …?** | як так, що (розмовно, без інверсії): *How come **you're** here?* |
+| **What kind / sort of …?** | який саме тип: *What kind of films do you like?* |
+
 ## Заперечні питання
 
 - ***Don't** you like it?* / ***Isn't** she coming?* — очікуємо підтвердження, здивування.
 - Формальніше: ***Do you not** like it?*
+
+Відповідь залежить від **факту**, а не від форми питання — не як в українській:
+
+| Питання | Якщо подобається | Якщо не подобається |
+| --- | --- | --- |
+| *Don't you like it?* | **Yes**, I do. | **No**, I don't. |
 
 ## Короткі відповіді
 
@@ -59,5 +88,8 @@ tags: [questions, question words, what, who, where, when, why, how, which, whose
 - ✗ *Did you went?* → ✓ *Did you **go**?*
 - ✗ *Who did call you?* → ✓ *Who **called** you?* (питання до підмета — без did)
 - ✗ *How much people came?* → ✓ *How **many** people came?*
+- ✗ *What is she like? — She likes music.* → ✓ *What **does** she **like**? — She likes music.*
+- ✗ *Which of music do you like?* → ✓ ***What** music do you like?*
+- ✗ *How come are you here?* → ✓ *How come **you are** here?*
 
 Про питання з підметом: «Subject questions». Ввічливі: «Indirect questions».

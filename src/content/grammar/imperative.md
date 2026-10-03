@@ -38,6 +38,6 @@ tags: [imperative, sit down, don't, let's, please, наказовий спосі
 - ✗ *Not talk!* → ✓ ***Don't** talk!*
 - ✗ *Be not late!* → ✓ ***Don't be** late!*
 - ✗ *Let's to go!* → ✓ *Let's **go**!*
-- ✗ *Let's don't argue.* (BrE) → ✓ *Let's **not** argue.*
+- ✗ *Let's don't argue.* (розмовне AmE) → ✓ *Let's **not** argue.*
 
 Порівняйте з проханнями через модальні: *Could you close the door?* — м'якше. Див. «Can, could, be able to».

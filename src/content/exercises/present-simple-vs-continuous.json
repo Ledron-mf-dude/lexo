@@ -272,6 +272,76 @@
    ],
    "why": "What do you do? — питання про професію.",
    "hint": "Ким ти працюєш?"
+  },
+  {
+   "id": "present-simple-vs-continuous-23",
+   "type": "choice",
+   "q": "She ___ to work by bike.",
+   "options": [
+    "usually goes",
+    "goes usually",
+    "is usually go",
+    "usually go"
+   ],
+   "answer": 0,
+   "why": "Прислівник частоти — перед основним дієсловом; he/she — goes."
+  },
+  {
+   "id": "present-simple-vs-continuous-24",
+   "type": "choice",
+   "q": "He ___ late for meetings.",
+   "options": [
+    "often is",
+    "is often",
+    "does often be",
+    "often be"
+   ],
+   "answer": 1,
+   "why": "Після be прислівник частоти стоїть після нього: is often."
+  },
+  {
+   "id": "present-simple-vs-continuous-25",
+   "type": "choice",
+   "q": "\"Do you ever cook?\" — \"Yes, I ___.\"",
+   "options": [
+    "do always",
+    "always do",
+    "always",
+    "am always"
+   ],
+   "answer": 1,
+   "why": "У короткій відповіді — перед допоміжним: I always do."
+  },
+  {
+   "id": "present-simple-vs-continuous-26",
+   "type": "choice",
+   "q": "My brother ___ his keys! It's so annoying.",
+   "options": [
+    "always loses",
+    "is always losing",
+    "always is losing",
+    "loses always"
+   ],
+   "answer": 1,
+   "why": "always + Continuous — роздратування."
+  },
+  {
+   "id": "present-simple-vs-continuous-27",
+   "type": "fill",
+   "q": "The climate ___ (get) warmer every year.",
+   "answer": [
+    "is getting"
+   ],
+   "why": "Зміни, тенденції — Present Continuous."
+  },
+  {
+   "id": "present-simple-vs-continuous-28",
+   "type": "fill",
+   "q": "She ___ (watch) a series every evening.",
+   "answer": [
+    "watches"
+   ],
+   "why": "Після -ch закінчення -es: watches."
   }
  ]
 }

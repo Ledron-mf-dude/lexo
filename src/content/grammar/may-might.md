@@ -37,7 +37,7 @@ tags: [may, might, may not, might not, possibility, permission, можливо, 
 | «Можливо, ні» | **may not** / **might not**: *It **might not** work.* |
 | Заборона | **may not** (формально): *You **may not** enter.* / **mustn't**: *You **mustn't** enter.* |
 
-> `Mightn't` та `mayn't` майже не вживаються.
+> `Mightn't` трапляється в британській розмовній мові, а `mayn't` застаріле. Надійніше писати повністю: *might not*, *may not*.
 
 ## Might як форма минулого в непрямій мові
 

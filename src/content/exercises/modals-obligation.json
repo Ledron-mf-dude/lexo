@@ -273,6 +273,63 @@
    ],
    "why": "should — порада.",
    "hint": "Тобі варто відпочити."
+  },
+  {
+   "id": "modals-obligation-23",
+   "type": "choice",
+   "q": "___ I have to bring my passport?",
+   "options": [
+    "Must",
+    "Do",
+    "Have",
+    "Am"
+   ],
+   "answer": 1,
+   "why": "Питання з have to — через do."
+  },
+  {
+   "id": "modals-obligation-24",
+   "type": "choice",
+   "q": "You ___ tell anyone. It's a secret!",
+   "options": [
+    "don't have to",
+    "mustn't",
+    "needn't",
+    "haven't to"
+   ],
+   "answer": 1,
+   "why": "Заборона — mustn't."
+  },
+  {
+   "id": "modals-obligation-25",
+   "type": "choice",
+   "q": "She ___ to work tomorrow — it's a holiday.",
+   "options": [
+    "mustn't go",
+    "doesn't have to go",
+    "hasn't to go",
+    "don't have to go"
+   ],
+   "answer": 1,
+   "why": "Немає потреби — doesn't have to."
+  },
+  {
+   "id": "modals-obligation-26",
+   "type": "fill",
+   "q": "We'll ___ to leave early tomorrow.",
+   "answer": [
+    "have"
+   ],
+   "why": "Майбутнє від must — will have to."
+  },
+  {
+   "id": "modals-obligation-27",
+   "type": "fill",
+   "q": "You'd better ___ be late again.",
+   "answer": [
+    "not"
+   ],
+   "why": "Заперечення: had better not + V."
   }
  ]
 }
