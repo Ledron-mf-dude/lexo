@@ -11,7 +11,7 @@
     "He"
    ],
    "answer": 0,
-   "why": "It was … who — виділення."
+   "why": "Щоб виділити, хто саме зробив, кажемо *It was* + людина + *who*: *It was Tom who broke the window* (саме Том, а не хтось інший)."
   },
   {
    "id": "cleft-sentences-2",
@@ -24,7 +24,7 @@
     "Which"
    ],
    "answer": 2,
-   "why": "Wh-cleft: What I need is…"
+   "why": "*What* + підмет + дієслово + *is* … — «те, що мені треба, — це…»: *What I need is a rest.*"
   },
   {
    "id": "cleft-sentences-3",
@@ -37,7 +37,7 @@
     "which"
    ],
    "answer": 1,
-   "why": "It was + обставина + that."
+   "why": "Виділяємо обставину: *It was* + обставина + *that*: *It was in Paris that I met her.*"
   },
   {
    "id": "cleft-sentences-4",
@@ -50,7 +50,7 @@
     "There"
    ],
    "answer": 0,
-   "why": "All I want is…"
+   "why": "*All I want is…* — «усе, чого я хочу, — це…». *Which* у цій конструкції не вживається."
   },
   {
    "id": "cleft-sentences-5",
@@ -63,7 +63,7 @@
     "conditional"
    ],
    "answer": 0,
-   "why": "Зворотний порядок wh-cleft."
+   "why": "*A rest is what I need* — те саме, що *What I need is a rest*, але в зворотному порядку."
   },
   {
    "id": "cleft-sentences-6",
@@ -76,7 +76,7 @@
     "Was yesterday when she called."
    ],
    "answer": 0,
-   "why": "It was … that."
+   "why": "Виділяємо час: *It was yesterday that she called.*"
   },
   {
    "id": "cleft-sentences-7",
@@ -89,7 +89,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "Про минуле — was."
+   "why": "Подія в минулому — *What happened was that…*"
   },
   {
    "id": "cleft-sentences-8",
@@ -105,7 +105,7 @@
    "answer": [
     "What I need is a rest"
    ],
-   "why": "What + підмет + дієслово + is."
+   "why": "*What I need is a rest.*"
   },
   {
    "id": "cleft-sentences-9",
@@ -115,7 +115,7 @@
     "who",
     "that"
    ],
-   "why": "It was + людина + who/that."
+   "why": "*It was* + людина + *who / that*."
   },
   {
    "id": "cleft-sentences-10",
@@ -124,7 +124,7 @@
    "answer": [
     "What"
    ],
-   "why": "What-cleft: What I love … is…"
+   "why": "*What I love about this city is the food.*"
   },
   {
    "id": "cleft-sentences-11",
@@ -134,7 +134,7 @@
     "All",
     "What"
    ],
-   "why": "All + підмет + дієслово + was."
+   "why": "*All he did was complain* (або *What he did was complain*) — він тільки й робив, що скаржився."
   },
   {
    "id": "cleft-sentences-12",
@@ -143,7 +143,7 @@
    "answer": [
     "was"
    ],
-   "why": "It was + час + that."
+   "why": "*It was in 2015 that…*"
   },
   {
    "id": "cleft-sentences-13",
@@ -156,7 +156,7 @@
     "Which"
    ],
    "answer": 0,
-   "why": "What matters is… — виділення."
+   "why": "*What matters is your health.*"
   },
   {
    "id": "cleft-sentences-14",
@@ -169,7 +169,7 @@
     "when"
    ],
    "answer": 0,
-   "why": "It was + річ + that."
+   "why": "*It was the noise that kept me awake.*"
   },
   {
    "id": "cleft-sentences-15",
@@ -182,7 +182,7 @@
     "which it"
    ],
    "answer": 0,
-   "why": "the place where…"
+   "why": "*the place where we met*."
   },
   {
    "id": "cleft-sentences-16",
@@ -195,7 +195,7 @@
     "where"
    ],
    "answer": 0,
-   "why": "Виправлення інформації: It wasn't … who."
+   "why": "Виправляємо: *It wasn't Anna who called — it was Kate.*"
   },
   {
    "id": "cleft-sentences-17",
@@ -211,7 +211,7 @@
    "answer": [
     "It was John who told me"
    ],
-   "why": "It was + людина + who.",
+   "why": "*It was John who told me.*",
    "hint": "Саме Джон мені сказав."
   },
   {
@@ -228,7 +228,7 @@
    "answer": [
     "What I need is more time"
    ],
-   "why": "What + підмет + дієслово + is.",
+   "why": "*What I need is more time.*",
    "hint": "Що мені потрібно — це більше часу."
   },
   {
@@ -245,7 +245,7 @@
    "answer": [
     "All she wanted was a holiday"
    ],
-   "why": "All + підмет + дієслово + was.",
+   "why": "*All she wanted was a holiday.*",
    "hint": "Усе, чого вона хотіла, — це відпустка."
   },
   {
@@ -259,7 +259,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "What … is + виділене."
+   "why": "Після *What*-частини — *is*: *What I need is a long holiday.*"
   },
   {
    "id": "cleft-sentences-21",
@@ -272,7 +272,7 @@
     "when that"
    ],
    "answer": 1,
-   "why": "It-cleft: It was … that."
+   "why": "*It was in 2010 that we first met.*"
   },
   {
    "id": "cleft-sentences-22",
@@ -281,7 +281,7 @@
    "answer": [
     "was"
    ],
-   "why": "All I did was + інфінітив."
+   "why": "*All I did was ask* — після *was* інфінітив без *to*."
   }
  ]
 }

@@ -11,7 +11,7 @@
     "always leaving"
    ],
    "answer": 0,
-   "why": "always + Present Continuous — дія, що дратує."
+   "why": "*always* + Present Continuous — повторювана дія, що дратує: *He's always leaving…* *always* стоїть між *is* і *-ing*."
   },
   {
    "id": "present-tenses-advanced-2",
@@ -24,7 +24,7 @@
     "has resign"
    ],
    "answer": 0,
-   "why": "У заголовках Present Simple — про подію, що щойно сталася."
+   "why": "У заголовках Present Simple описує подію, що щойно сталася: *Minister resigns*."
   },
   {
    "id": "present-tenses-advanced-3",
@@ -37,7 +37,7 @@
     "to visited"
    ],
    "answer": 0,
-   "why": "to + інфінітив у заголовку — запланована подія."
+   "why": "*to* + інфінітив у заголовку — запланована подія: *President to visit Kyiv*."
   },
   {
    "id": "present-tenses-advanced-4",
@@ -50,7 +50,7 @@
     "have chopped"
    ],
    "answer": 0,
-   "why": "Інструкції й рецепти — Present Simple."
+   "why": "Рецепти й інструкції — Present Simple: *First you chop the onions.*"
   },
   {
    "id": "present-tenses-advanced-5",
@@ -63,7 +63,7 @@
     "I'm hear"
    ],
    "answer": 0,
-   "why": "I hear = мені сказали."
+   "why": "*I hear* = «мені сказали»: *I hear you're moving.*"
   },
   {
    "id": "present-tenses-advanced-6",
@@ -76,7 +76,7 @@
     "does be"
    ],
    "answer": 0,
-   "why": "be being — тимчасова поведінка."
+   "why": "*be being* + прикметник — тимчасова поведінка: сьогодні він поводиться грубо, хоча зазвичай не такий."
   },
   {
    "id": "present-tenses-advanced-7",
@@ -89,7 +89,7 @@
     "is buying"
    ],
    "answer": 0,
-   "why": "Тенденція, що триває, — Present Continuous."
+   "why": "Тенденція, що триває, — Present Continuous: *More and more people are buying…*"
   },
   {
    "id": "present-tenses-advanced-8",
@@ -102,7 +102,7 @@
     "am apologised"
    ],
    "answer": 0,
-   "why": "Дієслово-дія (вибачення) — Present Simple."
+   "why": "Дієслова, що самі є дією (*apologise, promise*), — у Present Simple: *I apologise for the delay.*"
   },
   {
    "id": "present-tenses-advanced-9",
@@ -115,7 +115,7 @@
     "has pass"
    ],
    "answer": 0,
-   "why": "Короткі швидкі дії в коментарі — Present Simple."
+   "why": "У спортивному коментарі короткі швидкі дії — Present Simple: *Smith passes…*"
   },
   {
    "id": "present-tenses-advanced-10",
@@ -126,7 +126,7 @@
     "'m hoping",
     "was hoping"
    ],
-   "why": "Continuous робить прохання м'якшим."
+   "why": "Continuous робить прохання м'якшим: *I'm hoping you can help.* (*I was hoping* — ще м'якше.)"
   },
   {
    "id": "present-tenses-advanced-11",
@@ -135,7 +135,7 @@
    "answer": [
     "losing"
    ],
-   "why": "forever + V-ing — дія, що дратує."
+   "why": "*forever* + *-ing* — роздратування."
   },
   {
    "id": "present-tenses-advanced-12",
@@ -144,7 +144,7 @@
    "answer": [
     "gather"
    ],
-   "why": "I gather = як я зрозумів."
+   "why": "*I gather* — «як я зрозумів»."
   },
   {
    "id": "present-tenses-advanced-13",
@@ -154,7 +154,7 @@
     "are thinking",
     "'re thinking"
    ],
-   "why": "think of = обмірковувати — дія, Continuous."
+   "why": "*think of* = обмірковувати — дія: *We are thinking of moving.*"
   },
   {
    "id": "present-tenses-advanced-14",
@@ -163,7 +163,7 @@
    "answer": [
     "promise"
    ],
-   "why": "Сама обіцянка — Present Simple."
+   "why": "Сама обіцянка — *I promise*."
   },
   {
    "id": "present-tenses-advanced-15",
@@ -180,7 +180,7 @@
    "answer": [
     "He is always complaining about his job"
    ],
-   "why": "always між is і V-ing.",
+   "why": "*is always complaining*.",
    "hint": "Він вічно скаржиться на роботу."
   },
   {
@@ -197,7 +197,7 @@
    "answer": [
     "I am hoping you can come"
    ],
-   "why": "Continuous для м'якості.",
+   "why": "*I am hoping* — м'яко.",
    "hint": "Я сподіваюся, що ти зможеш прийти."
   },
   {
@@ -215,7 +215,7 @@
    "answer": [
     "I hear you are moving to London"
    ],
-   "why": "I hear = мені сказали.",
+   "why": "*I hear you are moving…*",
    "hint": "Я чув, ти переїжджаєш до Лондона."
   },
   {
@@ -232,7 +232,7 @@
     "Prices are going up again",
     "Again prices are going up"
    ],
-   "why": "Тенденція — Present Continuous.",
+   "why": "Тенденція — *are going up*.",
    "hint": "Ціни знову ростуть."
   }
  ]

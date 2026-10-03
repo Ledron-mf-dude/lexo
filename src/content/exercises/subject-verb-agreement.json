@@ -11,7 +11,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "every- — однина."
+   "why": "Слова з *every-* (*everyone, everybody*) — однина: *Everyone is ready.*"
   },
   {
    "id": "subject-verb-agreement-2",
@@ -24,7 +24,7 @@
     "have lived"
    ],
    "answer": 0,
-   "why": "one — однина."
+   "why": "Підмет — *One* (один із друзів), тому однина: *lives*."
   },
   {
    "id": "subject-verb-agreement-3",
@@ -37,7 +37,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "the number of — однина."
+   "why": "*The number of* — «кількість», однина: *has increased*."
   },
   {
    "id": "subject-verb-agreement-4",
@@ -50,7 +50,7 @@
     "was"
    ],
    "answer": 0,
-   "why": "a number of — множина."
+   "why": "*A number of* — «багато», множина: *have complained*."
   },
   {
    "id": "subject-verb-agreement-5",
@@ -63,7 +63,7 @@
     "have been"
    ],
    "answer": 0,
-   "why": "news — однина."
+   "why": "*news* — однина."
   },
   {
    "id": "subject-verb-agreement-6",
@@ -76,7 +76,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "glasses — множина."
+   "why": "*glasses* — лише множина."
   },
   {
    "id": "subject-verb-agreement-7",
@@ -89,7 +89,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "Узгодження з ближчим (students)."
+   "why": "З *neither … nor* дієслово узгоджуємо з найближчим підметом (*the students*): *were*."
   },
   {
    "id": "subject-verb-agreement-8",
@@ -102,7 +102,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Головне слово — price."
+   "why": "Головне слово — *price*, а не *tickets*: *is*."
   },
   {
    "id": "subject-verb-agreement-9",
@@ -115,7 +115,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Сума як одне ціле — однина."
+   "why": "Сума грошей як одне ціле — однина: *Ten dollars is too much.*"
   },
   {
    "id": "subject-verb-agreement-10",
@@ -125,7 +125,7 @@
     "has",
     "had"
    ],
-   "why": "each — однина."
+   "why": "*Each of* — однина: *has*."
   },
   {
    "id": "subject-verb-agreement-11",
@@ -135,7 +135,7 @@
     "are",
     "were"
    ],
-   "why": "police — множина."
+   "why": "*police* — множина: *are*."
   },
   {
    "id": "subject-verb-agreement-12",
@@ -146,7 +146,7 @@
     "helped",
     "can help"
    ],
-   "why": "Герундій-підмет — однина."
+   "why": "Герундій-підмет — однина: *Reading books helps…*"
   },
   {
    "id": "subject-verb-agreement-13",
@@ -156,7 +156,7 @@
     "is",
     "was"
    ],
-   "why": "as well as не робить підмет множиною."
+   "why": "*as well as* не робить підмет множиною: *The manager … is*."
   },
   {
    "id": "subject-verb-agreement-14",
@@ -166,7 +166,7 @@
     "is",
     "was"
    ],
-   "why": "physics — однина."
+   "why": "*physics* — однина."
   },
   {
    "id": "subject-verb-agreement-15",
@@ -176,7 +176,7 @@
     "are",
     "were"
    ],
-   "why": "both — множина."
+   "why": "*Both* — множина: *are*."
   },
   {
    "id": "subject-verb-agreement-16",
@@ -190,7 +190,7 @@
    "answer": [
     "Everybody knows the answer"
    ],
-   "why": "everybody + однина.",
+   "why": "*Everybody knows*.",
    "hint": "Усі знають відповідь."
   },
   {
@@ -210,7 +210,7 @@
    "answer": [
     "The keys to the car are on the table"
    ],
-   "why": "Головне слово — keys.",
+   "why": "Головне слово — *keys*: *are*.",
    "hint": "Ключі від машини на столі."
   },
   {
@@ -225,7 +225,7 @@
    "answer": [
     "Nobody was at home"
    ],
-   "why": "nobody + однина.",
+   "why": "*Nobody was*.",
    "hint": "Нікого не було вдома."
   },
   {
@@ -239,7 +239,7 @@
     "were"
    ],
    "answer": 1,
-   "why": "money — нелічильне: has."
+   "why": "Частина + *of* + нелічильне (*money*) — однина: *has*."
   },
   {
    "id": "subject-verb-agreement-20",
@@ -252,7 +252,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "people — множина."
+   "why": "*A lot of people* — множина."
   },
   {
    "id": "subject-verb-agreement-21",
@@ -262,7 +262,7 @@
     "is",
     "was"
    ],
-   "why": "Назва країни — однина."
+   "why": "Назва країни — однина: *The United States is*."
   },
   {
    "id": "subject-verb-agreement-22",
@@ -275,7 +275,7 @@
     "have been"
    ],
    "answer": 0,
-   "why": "Одне ціле — однина."
+   "why": "*Fish and chips* — одна страва, однина: *is*."
   },
   {
    "id": "subject-verb-agreement-23",
@@ -288,7 +288,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "more than one + однина."
+   "why": "*More than one* + однина: *has*."
   },
   {
    "id": "subject-verb-agreement-24",
@@ -301,7 +301,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "Підмет після дієслова — two letters, множина."
+   "why": "Підмет після дієслова — *two letters*, множина: *were*."
   }
  ]
 }

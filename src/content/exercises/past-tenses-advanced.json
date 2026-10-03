@@ -11,7 +11,7 @@
     "am wondered"
    ],
    "answer": 0,
-   "why": "I was wondering if… — ввічливе прохання."
+   "why": "*I was wondering if…* — дуже ввічливе прохання; минулий час тут лише пом'якшує."
   },
   {
    "id": "past-tenses-advanced-2",
@@ -24,7 +24,7 @@
     "is crying"
    ],
    "answer": 0,
-   "why": "Сліди дії до моменту в минулому — Past Perfect Continuous."
+   "why": "Сліди тривалої дії до моменту в минулому — *had been crying*."
   },
   {
    "id": "past-tenses-advanced-3",
@@ -37,7 +37,7 @@
     "is leaving"
    ],
    "answer": 0,
-   "why": "Дія раніше за інший момент у минулому — Past Perfect."
+   "why": "Її вже не було — Past Perfect *had left*."
   },
   {
    "id": "past-tenses-advanced-4",
@@ -50,7 +50,7 @@
     "were supposing"
    ],
    "answer": 0,
-   "why": "was / were supposed to — так домовилися."
+   "why": "*were supposed to* — так домовилися, але не вийшло."
   },
   {
    "id": "past-tenses-advanced-5",
@@ -63,7 +63,7 @@
     "had hope"
    ],
    "answer": 0,
-   "why": "had hoped to — план, що не здійснився."
+   "why": "*had hoped to* — сподівався, але план не здійснився."
   },
   {
    "id": "past-tenses-advanced-6",
@@ -89,7 +89,7 @@
     "Have"
    ],
    "answer": 0,
-   "why": "Did you want…? — м'якша форма за Do you want."
+   "why": "*Did you want…?* — м'якше за *Do you want…?*"
   },
   {
    "id": "past-tenses-advanced-8",
@@ -102,7 +102,7 @@
     "had going to"
    ],
    "answer": 0,
-   "why": "was going to — намір, який не виконали."
+   "why": "Намір, який не виконали, — *was going to*."
   },
   {
    "id": "past-tenses-advanced-9",
@@ -115,7 +115,7 @@
     "to borrow"
    ],
    "answer": 0,
-   "why": "was always + V-ing — роздратування в минулому."
+   "why": "*was always* + *-ing* — роздратування в минулому."
   },
   {
    "id": "past-tenses-advanced-10",
@@ -124,7 +124,7 @@
    "answer": [
     "wanted"
    ],
-   "why": "I wanted to ask — ввічливіше за I want."
+   "why": "*I wanted to ask* — ввічливіше за *I want*."
   },
   {
    "id": "past-tenses-advanced-11",
@@ -133,7 +133,7 @@
    "answer": [
     "been"
    ],
-   "why": "had been + V-ing — тривалість до моменту в минулому."
+   "why": "*had been walking* — тривалість до моменту в минулому."
   },
   {
    "id": "past-tenses-advanced-12",
@@ -142,7 +142,7 @@
    "answer": [
     "about"
    ],
-   "why": "was about to — ось-ось."
+   "why": "*was about to* — якраз збирався."
   },
   {
    "id": "past-tenses-advanced-13",
@@ -151,7 +151,7 @@
    "answer": [
     "hoping"
    ],
-   "why": "I was hoping — м'яке прохання.",
+   "why": "*I was hoping you could…* — м'яке прохання.",
    "hint": "(сподівався)"
   },
   {
@@ -161,7 +161,7 @@
    "answer": [
     "been raining"
    ],
-   "why": "Сліди — Past Perfect Continuous."
+   "why": "Сліди дощу — *had been raining*."
   },
   {
    "id": "past-tenses-advanced-15",
@@ -179,7 +179,7 @@
    "answer": [
     "I was wondering if you could help me"
    ],
-   "why": "if + прямий порядок слів.",
+   "why": "*I was wondering if you could help me.*",
    "hint": "Я хотів спитати, чи не могли б ви мені допомогти."
   },
   {
@@ -197,7 +197,7 @@
    "answer": [
     "We were supposed to meet at six"
    ],
-   "why": "were supposed to + V.",
+   "why": "*We were supposed to meet at six.*",
    "hint": "Ми мали зустрітися о шостій."
   },
   {
@@ -215,7 +215,7 @@
     "She had been working all day",
     "All day she had been working"
    ],
-   "why": "Past Perfect Continuous.",
+   "why": "*She had been working all day.*",
    "hint": "Вона працювала весь день (до того моменту)."
   },
   {
@@ -233,7 +233,7 @@
    "answer": [
     "I had hoped to see you there"
    ],
-   "why": "had hoped to — не вийшло.",
+   "why": "*I had hoped to see you there.*",
    "hint": "Я сподівався побачити тебе там."
   }
  ]

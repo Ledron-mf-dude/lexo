@@ -11,7 +11,7 @@
     "have gone"
    ],
    "answer": 0,
-   "why": "It's time + Past Simple."
+   "why": "*It's time* + Past Simple — «давно пора»: *It's time we went home.* Минулий час тут не про минуле, а про нереальність."
   },
   {
    "id": "unreal-past-2",
@@ -24,7 +24,7 @@
     "has known"
    ],
    "answer": 0,
-   "why": "as if + Past Simple — нереально."
+   "why": "*as if* + Past Simple — нереально (насправді не знає): *as if he knew everything*."
   },
   {
    "id": "unreal-past-3",
@@ -32,12 +32,12 @@
    "q": "I'd rather you ___ tell her.",
    "options": [
     "didn't",
-    "don't",
+    "doesn't",
     "won't",
     "not"
    ],
    "answer": 0,
-   "why": "would rather + особа + Past Simple."
+   "why": "*would rather* + інша особа + Past Simple: *I'd rather you didn't tell her.*"
   },
   {
    "id": "unreal-past-4",
@@ -50,7 +50,7 @@
     "has seen"
    ],
    "answer": 0,
-   "why": "Раніше за момент — Past Perfect."
+   "why": "Привида бачила раніше за момент «виглядала» — *as if she had seen a ghost*."
   },
   {
    "id": "unreal-past-5",
@@ -63,7 +63,7 @@
     "would win"
    ],
    "answer": 0,
-   "why": "Уявна ситуація — Past Simple."
+   "why": "Уявна ситуація — *Suppose* + Past Simple: *Suppose you won a million.*"
   },
   {
    "id": "unreal-past-6",
@@ -76,7 +76,7 @@
     "had"
    ],
    "answer": 0,
-   "why": "Реальна ситуація — звичайний час."
+   "why": "Реально можливий дощ — звичайний час: *It looks as if it is going to rain.*"
   },
   {
    "id": "unreal-past-7",
@@ -89,7 +89,7 @@
     "has done"
    ],
    "answer": 0,
-   "why": "It's high time + Past Simple."
+   "why": "*It's high time* + Past Simple."
   },
   {
    "id": "unreal-past-8",
@@ -102,7 +102,7 @@
     "wouldn't"
    ],
    "answer": 0,
-   "why": "Про минуле — Past Perfect."
+   "why": "Про минуле — *would rather you hadn't told him*."
   },
   {
    "id": "unreal-past-9",
@@ -115,7 +115,7 @@
     "be"
    ],
    "answer": 0,
-   "why": "What if + Past Simple (were) — уявно."
+   "why": "*What if* + Past Simple / *were* — уявна ситуація: *What if the plane were late?*"
   },
   {
    "id": "unreal-past-10",
@@ -124,7 +124,7 @@
    "answer": [
     "went"
    ],
-   "why": "It's time + Past Simple."
+   "why": "*It's time you went to bed.*"
   },
   {
    "id": "unreal-past-11",
@@ -134,7 +134,7 @@
     "were",
     "was"
    ],
-   "why": "as though + were — нереально."
+   "why": "*as though she were the boss* (у розмові *was*)."
   },
   {
    "id": "unreal-past-12",
@@ -143,7 +143,7 @@
    "answer": [
     "met"
    ],
-   "why": "would rather + особа + Past Simple."
+   "why": "*I'd rather we met tomorrow.*"
   },
   {
    "id": "unreal-past-13",
@@ -152,7 +152,7 @@
    "answer": [
     "says"
    ],
-   "why": "Реальна можливість — Present Simple."
+   "why": "Реальна можливість (*What will you do?*) — Present Simple: *Suppose she says no.*"
   },
   {
    "id": "unreal-past-14",
@@ -161,7 +161,7 @@
    "answer": [
     "to leave"
    ],
-   "why": "It's time to + V."
+   "why": "Без особи — *It's time to leave.*"
   },
   {
    "id": "unreal-past-15",
@@ -171,7 +171,7 @@
     "hadn't slept",
     "had not slept"
    ],
-   "why": "Раніше — Past Perfect."
+   "why": "Раніше — *as if he hadn't slept for days*."
   },
   {
    "id": "unreal-past-16",
@@ -186,7 +186,7 @@
    "answer": [
     "It is time we left"
    ],
-   "why": "It's time + Past Simple.",
+   "why": "*It is time we left.*",
    "hint": "Нам час іти."
   },
   {
@@ -204,7 +204,7 @@
    "answer": [
     "He behaves as if he were rich"
    ],
-   "why": "as if + were.",
+   "why": "*as if he were rich*.",
    "hint": "Він поводиться так, ніби багатий."
   },
   {
@@ -220,7 +220,7 @@
    "answer": [
     "I would rather you stayed"
    ],
-   "why": "would rather + Past Simple.",
+   "why": "*would rather you stayed*.",
    "hint": "Я б волів, щоб ти залишився."
   },
   {
@@ -234,20 +234,20 @@
     "have made"
    ],
    "answer": 1,
-   "why": "It's high time + Past Simple."
+   "why": "*It's high time you made a decision.*"
   },
   {
    "id": "unreal-past-20",
    "type": "choice",
    "q": "I ___ if you could help me with this.",
    "options": [
-    "wonder",
+    "wondering",
     "was wondering",
     "am wondering to",
     "wondered if"
    ],
    "answer": 1,
-   "why": "Ввічливо — I was wondering if…"
+   "why": "*I was wondering if…* — дуже ввічливе прохання."
   },
   {
    "id": "unreal-past-21",
@@ -256,7 +256,7 @@
    "answer": [
     "lost"
    ],
-   "why": "Уявна ситуація — Past Simple."
+   "why": "Уявна ситуація (*What would you do?*) — Past Simple: *Suppose you lost your job.*"
   }
  ]
 }

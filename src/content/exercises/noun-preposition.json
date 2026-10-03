@@ -11,7 +11,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "reason for — причина чогось (не of)."
+   "why": "*reason for* — причина чогось: *the reason for the delay*."
   },
   {
    "id": "noun-preposition-2",
@@ -24,7 +24,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "increase in — зростання чогось (у чому)."
+   "why": "*increase in* — зростання в чомусь: *an increase in prices*. *increase of* — з числом (*of 5%*)."
   },
   {
    "id": "noun-preposition-3",
@@ -37,7 +37,7 @@
     "in"
    ],
    "answer": 2,
-   "why": "difference between — різниця між."
+   "why": "*difference between* — різниця між."
   },
   {
    "id": "noun-preposition-4",
@@ -50,7 +50,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "solution to — розв'язання (проблеми)."
+   "why": "*solution to* — розв'язання проблеми."
   },
   {
    "id": "noun-preposition-5",
@@ -63,7 +63,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "demand for — попит на."
+   "why": "*demand for* — попит на."
   },
   {
    "id": "noun-preposition-6",
@@ -76,7 +76,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "cause of — причина (чогось поганого)."
+   "why": "*cause of* — причина (чогось поганого)."
   },
   {
    "id": "noun-preposition-7",
@@ -89,7 +89,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "trouble with — проблеми з."
+   "why": "*trouble with* — проблеми з."
   },
   {
    "id": "noun-preposition-8",
@@ -102,7 +102,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "attitude to / towards — ставлення до."
+   "why": "*attitude to / towards* — ставлення до."
   },
   {
    "id": "noun-preposition-9",
@@ -111,7 +111,7 @@
    "answer": [
     "to"
    ],
-   "why": "key to — ключ до."
+   "why": "*key to* — ключ до."
   },
   {
    "id": "noun-preposition-10",
@@ -120,7 +120,7 @@
    "answer": [
     "in"
    ],
-   "why": "fall in — зниження чогось."
+   "why": "*fall in* — зниження чогось."
   },
   {
    "id": "noun-preposition-11",
@@ -131,7 +131,7 @@
     "of",
     "with"
    ],
-   "why": "experience in — досвід у сфері."
+   "why": "*experience in / of / with*."
   },
   {
    "id": "noun-preposition-12",
@@ -142,7 +142,7 @@
     "of",
     "about"
    ],
-   "why": "opinion on / of / about."
+   "why": "*opinion on / of / about*."
   },
   {
    "id": "noun-preposition-13",
@@ -151,7 +151,7 @@
    "answer": [
     "on"
    ],
-   "why": "effect on — вплив на."
+   "why": "*effect on* — вплив на."
   },
   {
    "id": "noun-preposition-14",
@@ -160,7 +160,7 @@
    "answer": [
     "for"
    ],
-   "why": "respect for — повага до."
+   "why": "*respect for* — повага до."
   },
   {
    "id": "noun-preposition-15",
@@ -173,7 +173,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "invitation to — запрошення на."
+   "why": "*invitation to* — запрошення на."
   },
   {
    "id": "noun-preposition-16",
@@ -186,7 +186,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "increase of + число."
+   "why": "З числом — *increase of 5%*."
   },
   {
    "id": "noun-preposition-17",
@@ -199,7 +199,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "lack of — брак."
+   "why": "*lack of* — брак."
   },
   {
    "id": "noun-preposition-18",
@@ -212,7 +212,7 @@
     "for"
    ],
    "answer": 0,
-   "why": "relationship with — стосунки з."
+   "why": "*relationship with*."
   },
   {
    "id": "noun-preposition-19",
@@ -229,7 +229,7 @@
    "answer": [
     "What is the reason for the delay"
    ],
-   "why": "reason for.",
+   "why": "*reason for*.",
    "hint": "Яка причина затримки?"
   },
   {
@@ -247,7 +247,7 @@
    "answer": [
     "There has been an increase in crime"
    ],
-   "why": "increase in.",
+   "why": "*increase in*.",
    "hint": "Злочинність зросла."
   },
   {
@@ -265,7 +265,7 @@
    "answer": [
     "I don't see any difference between them"
    ],
-   "why": "difference between.",
+   "why": "*difference between*.",
    "hint": "Я не бачу різниці між ними."
   },
   {
@@ -279,7 +279,7 @@
     "with"
    ],
    "answer": 1,
-   "why": "in charge of."
+   "why": "*in charge of* — відповідальний за."
   },
   {
    "id": "noun-preposition-23",
@@ -292,7 +292,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "by mistake — випадково."
+   "why": "*by mistake* — випадково."
   },
   {
    "id": "noun-preposition-24",
@@ -301,7 +301,7 @@
    "answer": [
     "for"
    ],
-   "why": "for sale."
+   "why": "*for sale* — продається."
   }
  ]
 }

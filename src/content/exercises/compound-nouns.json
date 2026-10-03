@@ -11,7 +11,7 @@
     "buss stops"
    ],
    "answer": 1,
-   "why": "У складному іменнику змінюється головний (останній) елемент."
+   "why": "У складному іменнику множину отримує головне, останнє слово: *bus stops*."
   },
   {
    "id": "compound-nouns-2",
@@ -24,7 +24,7 @@
     "mother-in-law's"
    ],
    "answer": 1,
-   "why": "Множина утворюється від головного слова: mothers-in-law."
+   "why": "У *mother-in-law* головне слово — *mother*, тому *mothers-in-law*."
   },
   {
    "id": "compound-nouns-3",
@@ -37,7 +37,7 @@
     "swum pool"
    ],
    "answer": 0,
-   "why": "swimming pool — -ing + іменник (призначення: басейн для плавання)."
+   "why": "*swimming pool* — *-ing* + іменник: басейн для плавання."
   },
   {
    "id": "compound-nouns-4",
@@ -50,7 +50,7 @@
     "nowhere"
    ],
    "answer": 0,
-   "why": "Зазвичай наголос на першому слові."
+   "why": "У складних іменниках наголос зазвичай на першому слові: *BLACKboard, BUS stop*."
   },
   {
    "id": "compound-nouns-5",
@@ -63,7 +63,7 @@
     "football"
    ],
    "answer": 1,
-   "why": "mother-in-law пишеться через дефіс."
+   "why": "*mother-in-law* пишеться з дефісами."
   },
   {
    "id": "compound-nouns-6",
@@ -72,7 +72,7 @@
    "answer": [
     "passers-by"
    ],
-   "why": "Змінюється перший, головний елемент: passers-by."
+   "why": "У *passer-by* головне слово перше — *passers-by*."
   },
   {
    "id": "compound-nouns-7",
@@ -85,7 +85,7 @@
     "lived room"
    ],
    "answer": 0,
-   "why": "living room — -ing + іменник: вітальня."
+   "why": "*living room* — *-ing* + іменник."
   },
   {
    "id": "compound-nouns-8",
@@ -98,7 +98,7 @@
     "my mother-in-laws car"
    ],
    "answer": 0,
-   "why": "'s додаємо в кінці складного іменника."
+   "why": "*'s* додаємо в кінці всього складного іменника: *my mother-in-law's car*."
   },
   {
    "id": "compound-nouns-9",
@@ -107,7 +107,7 @@
    "answer": [
     "toothbrushes"
    ],
-   "why": "-sh → -es в кінці головного слова."
+   "why": "*toothbrush → toothbrushes*: *-sh* + *-es*."
   },
   {
    "id": "compound-nouns-10",
@@ -116,7 +116,7 @@
    "answer": [
     "sons-in-law"
    ],
-   "why": "Змінюється головне слово: sons-in-law."
+   "why": "*sons-in-law*."
   },
   {
    "id": "compound-nouns-11",
@@ -125,7 +125,7 @@
    "answer": [
     "shoe"
    ],
-   "why": "Перший іменник зазвичай в однині: a shoe shop."
+   "why": "Перший іменник зазвичай в однині: *a shoe shop*."
   },
   {
    "id": "compound-nouns-12",
@@ -134,7 +134,7 @@
    "answer": [
     "washing"
    ],
-   "why": "-ing + іменник: washing machine."
+   "why": "*washing machine* — для прання."
   },
   {
    "id": "compound-nouns-13",
@@ -147,7 +147,7 @@
     "beds room"
    ],
    "answer": 0,
-   "why": "bedroom — пишеться разом."
+   "why": "*bedroom* — разом."
   },
   {
    "id": "compound-nouns-14",
@@ -160,7 +160,7 @@
     "sunflower"
    ],
    "answer": 0,
-   "why": "bus stop — окремо."
+   "why": "*bus stop* — окремо."
   },
   {
    "id": "compound-nouns-15",
@@ -173,7 +173,7 @@
     "-ing + noun"
    ],
    "answer": 0,
-   "why": "check-in: дієслово check + частка in."
+   "why": "*check-in* — дієслово + частка."
   },
   {
    "id": "compound-nouns-16",
@@ -186,7 +186,7 @@
     "womans drivers"
    ],
    "answer": 0,
-   "why": "Виняток: man/woman змінюються обидва."
+   "why": "З *man / woman* змінюються обидва слова: *women drivers*."
   },
   {
    "id": "compound-nouns-17",
@@ -199,7 +199,7 @@
     "sporty's"
    ],
    "answer": 0,
-   "why": "sports car — перший елемент у формі множини."
+   "why": "*sports car* — перший елемент у формі множини (як *sports centre*)."
   },
   {
    "id": "compound-nouns-18",
@@ -215,7 +215,7 @@
    "answer": [
     "We waited at the bus stop"
    ],
-   "why": "bus stop — складний іменник.",
+   "why": "*bus stop*.",
    "hint": "Ми чекали на автобусній зупинці."
   },
   {
@@ -231,7 +231,7 @@
    "answer": [
     "My mother-in-law's house is big"
    ],
-   "why": "'s у кінці складного іменника.",
+   "why": "*mother-in-law's*.",
    "hint": "Будинок моєї тещі великий."
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "Put the dishes in the dishwasher"
    ],
-   "why": "dishwasher — пишеться разом.",
+   "why": "*dishwasher* — разом.",
    "hint": "Постав посуд у посудомийку."
   },
   {
@@ -262,7 +262,7 @@
     "passports holder"
    ],
    "answer": 1,
-   "why": "Призначення — іменник + іменник в однині: passport holder."
+   "why": "*passport holder* — однина першого слова."
   },
   {
    "id": "compound-nouns-22",
@@ -275,7 +275,7 @@
     "with"
    ],
    "answer": 1,
-   "why": "Чашка з чаєм — a cup of tea."
+   "why": "*a cup of tea* — чашка з чаєм. *a teacup* — сама чашка."
   },
   {
    "id": "compound-nouns-23",
@@ -284,7 +284,7 @@
    "answer": [
     "park"
    ],
-   "why": "car park — стоянка."
+   "why": "*car park* — стоянка."
   }
  ]
 }

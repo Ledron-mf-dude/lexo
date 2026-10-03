@@ -11,7 +11,7 @@
     "Walks"
    ],
    "answer": 0,
-   "why": "Present participle."
+   "why": "Дія відбувається одночасно з головною й підмет той самий (я йшов і зустрів) — *-ing*: *Walking home, I met Tom.*"
   },
   {
    "id": "participle-clauses-2",
@@ -24,7 +24,7 @@
     "To finish"
    ],
    "answer": 0,
-   "why": "Perfect participle: having + V3."
+   "why": "Дія відбулася раніше за головну — *Having* + третя форма: *Having finished work, she left.*"
   },
   {
    "id": "participle-clauses-3",
@@ -37,7 +37,7 @@
     "To build"
    ],
    "answer": 1,
-   "why": "Past participle — пасив."
+   "why": "Будинок збудували (пасив) — третя форма: *Built in 1900, the house is old.*"
   },
   {
    "id": "participle-clauses-4",
@@ -50,7 +50,7 @@
     "Having eaten, we left."
    ],
    "answer": 0,
-   "why": "Дощ не «йшов додому» — різні підмети."
+   "why": "У звороті має бути той самий підмет, що в головному реченні. *Walking home, it started to rain* означає, що дощ ішов додому, — це помилка."
   },
   {
    "id": "participle-clauses-5",
@@ -63,7 +63,7 @@
     "to stand"
    ],
    "answer": 0,
-   "why": "Скорочене означальне: standing."
+   "why": "Скорочене означальне: *The man (who is) standing there…*"
   },
   {
    "id": "participle-clauses-6",
@@ -76,7 +76,7 @@
     "write"
    ],
    "answer": 1,
-   "why": "written by Tom."
+   "why": "Пасивне значення — третя форма: *The letter written by Tom…*"
   },
   {
    "id": "participle-clauses-7",
@@ -89,7 +89,7 @@
     "After finished work, she left."
    ],
    "answer": 0,
-   "why": "Після сполучника — -ing."
+   "why": "Після сполучника (*After*) — *-ing*: *After finishing work…*"
   },
   {
    "id": "participle-clauses-8",
@@ -102,7 +102,7 @@
     "he left before being warned"
    ],
    "answer": 0,
-   "why": "having been + V3 — раніше."
+   "why": "*Having been warned* — його попередили раніше, ніж він пішов."
   },
   {
    "id": "participle-clauses-9",
@@ -115,7 +115,7 @@
     "questions only"
    ],
    "answer": 0,
-   "why": "Переважно письмова мова."
+   "why": "Такі звороти частіше трапляються в письмовій мові."
   },
   {
    "id": "participle-clauses-10",
@@ -124,7 +124,7 @@
    "answer": [
     "Feeling"
    ],
-   "why": "Причина, той самий підмет — -ing."
+   "why": "Причина й той самий підмет — *Feeling tired, I went to bed.*"
   },
   {
    "id": "participle-clauses-11",
@@ -133,7 +133,7 @@
    "answer": [
     "Having finished"
    ],
-   "why": "Дія раніше — having + V3."
+   "why": "Спочатку закінчила, потім надіслала — *Having finished*."
   },
   {
    "id": "participle-clauses-12",
@@ -142,7 +142,7 @@
    "answer": [
     "parked"
    ],
-   "why": "Пасив — V3: the car (which is) parked."
+   "why": "Машину припаркували (пасив) — *parked*."
   },
   {
    "id": "participle-clauses-13",
@@ -151,7 +151,7 @@
    "answer": [
     "leaving"
    ],
-   "why": "Після before — -ing."
+   "why": "Після *before* — *-ing*: *Before leaving*."
   },
   {
    "id": "participle-clauses-14",
@@ -164,7 +164,7 @@
     "Woke"
    ],
    "answer": 0,
-   "why": "Пасив (дитину розбудили) — V3."
+   "why": "Дитину розбудив шум (пасив) — *Woken by the noise*."
   },
   {
    "id": "participle-clauses-15",
@@ -177,7 +177,7 @@
     "who sitting"
    ],
    "answer": 0,
-   "why": "Скорочене означальне — -ing."
+   "why": "*The girl (who is) sitting…*"
   },
   {
    "id": "participle-clauses-16",
@@ -190,7 +190,7 @@
     "Open"
    ],
    "answer": 0,
-   "why": "Одночасна дія — -ing."
+   "why": "Одночасна дія — *Opening the door, he found a letter.*"
   },
   {
    "id": "participle-clauses-17",
@@ -203,7 +203,7 @@
     "Having losing"
    ],
    "answer": 0,
-   "why": "Раніше + причина — having + V3."
+   "why": "Загубив раніше, тому не міг увійти — *Having lost his keys*."
   },
   {
    "id": "participle-clauses-18",
@@ -220,7 +220,7 @@
     "Having finished dinner we went out",
     "Having finished dinner, we went out"
    ],
-   "why": "having + V3.",
+   "why": "*Having finished dinner, we went out.*",
    "hint": "Повечерявши, ми вийшли."
   },
   {
@@ -240,7 +240,7 @@
    "answer": [
     "The woman standing by the door is my boss"
    ],
-   "why": "Скорочене означальне.",
+   "why": "*The woman standing by the door…*",
    "hint": "Жінка, що стоїть біля дверей, — моя начальниця."
   },
   {
@@ -259,7 +259,7 @@
     "Made in Italy these shoes are expensive",
     "Made in Italy, these shoes are expensive"
    ],
-   "why": "V3 — пасив.",
+   "why": "Пасив — *Made in Italy*.",
    "hint": "Зроблені в Італії, ці черевики дорогі."
   },
   {
@@ -273,7 +273,7 @@
     "No having"
    ],
    "answer": 0,
-   "why": "Заперечення: not + -ing."
+   "why": "Заперечення — *Not* перед зворотом: *Not having a car, we had to walk.*"
   },
   {
    "id": "participle-clauses-22",
@@ -286,7 +286,7 @@
     "send"
    ],
    "answer": 1,
-   "why": "Пасивне значення — V3."
+   "why": "Листи надіслали (пасив) — *sent*."
   },
   {
    "id": "participle-clauses-23",
@@ -295,7 +295,7 @@
    "answer": [
     "Having finished"
    ],
-   "why": "Раніше за головну дію — having + V3."
+   "why": "Раніше за головну дію — *Having finished*."
   },
   {
    "id": "participle-clauses-24",
@@ -308,7 +308,7 @@
     "For"
    ],
    "answer": 0,
-   "why": "with + іменник + -ing — абсолютний зворот."
+   "why": "*With* + іменник + *-ing* — абсолютний зворот зі своїм підметом: *With prices rising…*"
   },
   {
    "id": "participle-clauses-25",
@@ -321,7 +321,7 @@
     "Judge"
    ],
    "answer": 0,
-   "why": "Judging by — судячи з."
+   "why": "*Judging by* — сталий вираз «судячи з»."
   },
   {
    "id": "participle-clauses-26",
@@ -330,7 +330,7 @@
    "answer": [
     "asked"
    ],
-   "why": "If asked = if you are asked."
+   "why": "*If asked* = *if you are asked*."
   }
  ]
 }

@@ -11,7 +11,7 @@
     "Very much as"
    ],
    "answer": 0,
-   "why": "Much as = хоч і."
+   "why": "*Much as* + підмет + дієслово = «хоч і»: *Much as I like him, …*"
   },
   {
    "id": "word-order-advanced-2",
@@ -24,7 +24,7 @@
     "was"
    ],
    "answer": 0,
-   "why": "Adj + as + підмет + дієслово."
+   "why": "Прикметник + *as* + підмет + дієслово: *Tired as she was* (без інверсії)."
   },
   {
    "id": "word-order-advanced-3",
@@ -37,7 +37,7 @@
     "does the bus come"
    ],
    "answer": 0,
-   "why": "Here + дієслово + іменник-підмет."
+   "why": "*Here comes the bus!* — дієслово перед іменником-підметом."
   },
   {
    "id": "word-order-advanced-4",
@@ -50,7 +50,7 @@
     "it come"
    ],
    "answer": 0,
-   "why": "З займенником інверсії немає."
+   "why": "З займенником інверсії немає: *Here it comes.*"
   },
   {
    "id": "word-order-advanced-5",
@@ -63,7 +63,7 @@
     "this to"
    ],
    "answer": 0,
-   "why": "find it + adj + to V."
+   "why": "*find it* + прикметник + *to*: *I find it difficult to…* — формальне *it* обов'язкове."
   },
   {
    "id": "word-order-advanced-6",
@@ -76,7 +76,7 @@
     "Try though"
    ],
    "answer": 0,
-   "why": "Try as he might — як він не намагався."
+   "why": "*Try as he might* — як він не намагався."
   },
   {
    "id": "word-order-advanced-7",
@@ -89,7 +89,7 @@
     "this to"
    ],
    "answer": 0,
-   "why": "appreciate it if…"
+   "why": "*appreciate it if…*"
   },
   {
    "id": "word-order-advanced-8",
@@ -102,7 +102,7 @@
     "standing"
    ],
    "answer": 0,
-   "why": "Обставина місця + дієслово + підмет."
+   "why": "Обставина місця на початку — дієслово перед підметом: *On the hill stood an old castle.*"
   },
   {
    "id": "word-order-advanced-9",
@@ -115,7 +115,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "Adj + though + підмет — поступка."
+   "why": "Прикметник + *though* + підмет: *Strange though it may seem*."
   },
   {
    "id": "word-order-advanced-10",
@@ -128,7 +128,7 @@
     "down the offer it"
    ],
    "answer": 0,
-   "why": "Довгий додаток — після частки."
+   "why": "Довгий додаток стоїть після частки: *turned down the offer we made last week*."
   },
   {
    "id": "word-order-advanced-11",
@@ -137,7 +137,7 @@
    "answer": [
     "It"
    ],
-   "why": "Формальне it, довге підрядне — у кінець."
+   "why": "Формальне *It* замість довгого підрядного: *It surprised everyone that he resigned.*"
   },
   {
    "id": "word-order-advanced-12",
@@ -146,7 +146,7 @@
    "answer": [
     "as"
    ],
-   "why": "Much as = хоч і."
+   "why": "*Much as I admire her…*"
   },
   {
    "id": "word-order-advanced-13",
@@ -155,7 +155,7 @@
    "answer": [
     "it"
    ],
-   "why": "make it + adj + to V."
+   "why": "*made it impossible to sleep*."
   },
   {
    "id": "word-order-advanced-14",
@@ -164,7 +164,7 @@
    "answer": [
     "There"
    ],
-   "why": "There goes… — інверсія після there."
+   "why": "*There goes my train!*"
   },
   {
    "id": "word-order-advanced-15",
@@ -184,7 +184,7 @@
     "Much as I like her, I can't agree",
     "I can't agree much as I like her"
    ],
-   "why": "Much as + підмет + дієслово, без but.",
+   "why": "*Much as* + без *but* у другій частині.",
    "hint": "Хоч вона мені й подобається, я не можу погодитися."
   },
   {
@@ -201,7 +201,7 @@
    "answer": [
     "I find it hard to believe"
    ],
-   "why": "find it + adj + to V.",
+   "why": "*find it hard to believe*.",
    "hint": "Мені важко в це повірити."
   },
   {
@@ -216,7 +216,7 @@
    "answer": [
     "Here comes the bus"
    ],
-   "why": "Інверсія після here.",
+   "why": "*Here comes the bus.*",
    "hint": "Ось і автобус."
   },
   {
@@ -236,7 +236,7 @@
     "Tired as he was he finished the job",
     "Tired as he was, he finished the job"
    ],
-   "why": "Adj + as + S + V.",
+   "why": "*Tired as he was, …*",
    "hint": "Хоч він і втомився, він закінчив роботу."
   }
  ]

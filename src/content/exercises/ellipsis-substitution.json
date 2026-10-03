@@ -11,7 +11,7 @@
     "that"
    ],
    "answer": 0,
-   "why": "one замінює іменник в однині."
+   "why": "*one* замінює іменник в однині, щоб не повторювати: *the red one* (shirt)."
   },
   {
    "id": "ellipsis-substitution-2",
@@ -24,7 +24,7 @@
     "that"
    ],
    "answer": 1,
-   "why": "ones — у множині."
+   "why": "Множина — *ones*: *the blue ones*."
   },
   {
    "id": "ellipsis-substitution-3",
@@ -37,7 +37,7 @@
     "yes"
    ],
    "answer": 0,
-   "why": "I think so."
+   "why": "*I think so* — *so* замінює ціле речення («думаю, що піде»)."
   },
   {
    "id": "ellipsis-substitution-4",
@@ -50,7 +50,7 @@
     "it"
    ],
    "answer": 1,
-   "why": "I hope not."
+   "why": "Не хочемо дощу — *I hope not*. *I don't hope so* — помилка."
   },
   {
    "id": "ellipsis-substitution-5",
@@ -63,7 +63,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "do замінює speak French."
+   "why": "*do* замінює *speak French*: *than I do*."
   },
   {
    "id": "ellipsis-substitution-6",
@@ -76,7 +76,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "did замінює called."
+   "why": "*did* замінює *called*: *but I did*."
   },
   {
    "id": "ellipsis-substitution-7",
@@ -89,7 +89,7 @@
     "same one"
    ],
    "answer": 0,
-   "why": "the same."
+   "why": "*the same* — з артиклем."
   },
   {
    "id": "ellipsis-substitution-8",
@@ -102,7 +102,7 @@
     "The same"
    ],
    "answer": 0,
-   "why": "Ellipsis — пропуск слів."
+   "why": "Ellipsis — пропуск: *Tom is tall and (he is) thin.*"
   },
   {
    "id": "ellipsis-substitution-9",
@@ -111,7 +111,7 @@
    "answer": [
     "so"
    ],
-   "why": "I'm afraid so — боюся, що так."
+   "why": "*I'm afraid so* — боюся, що так."
   },
   {
    "id": "ellipsis-substitution-10",
@@ -120,7 +120,7 @@
    "answer": [
     "not"
    ],
-   "why": "I hope not — сподіваюся, що ні."
+   "why": "*I hope not* — сподіваюся, що ні."
   },
   {
    "id": "ellipsis-substitution-11",
@@ -129,7 +129,7 @@
    "answer": [
     "ones"
    ],
-   "why": "ones — замість іменника в множині."
+   "why": "*the black ones* — множина."
   },
   {
    "id": "ellipsis-substitution-12",
@@ -139,7 +139,7 @@
     "can't",
     "cannot"
    ],
-   "why": "Замість can't swim — лише допоміжне."
+   "why": "*but I can't* — без повтору *swim*."
   },
   {
    "id": "ellipsis-substitution-13",
@@ -148,7 +148,7 @@
    "answer": [
     "do"
    ],
-   "why": "So do I — і я теж."
+   "why": "*So do I* — і я теж."
   },
   {
    "id": "ellipsis-substitution-14",
@@ -161,7 +161,7 @@
     "I think no."
    ],
    "answer": 0,
-   "why": "I don't think so — природна заперечна відповідь."
+   "why": "*I don't think so* — природна заперечна відповідь."
   },
   {
    "id": "ellipsis-substitution-15",
@@ -174,7 +174,7 @@
     "calling"
    ],
    "answer": 0,
-   "why": "Ellipsis: forgot to (call)."
+   "why": "*I forgot to* — пропускаємо *call*, але *to* лишаємо."
   },
   {
    "id": "ellipsis-substitution-16",
@@ -187,7 +187,7 @@
     "does so it"
    ],
    "answer": 0,
-   "why": "did замінює helped."
+   "why": "*and he did* — *did* замінює *helped*."
   },
   {
    "id": "ellipsis-substitution-17",
@@ -200,7 +200,7 @@
     "Tom is tall and thin."
    ],
    "answer": 0,
-   "why": "so замінює ціле речення."
+   "why": "Заміна (substitution) — *so* у *I think so*."
   },
   {
    "id": "ellipsis-substitution-18",
@@ -213,7 +213,7 @@
    "answer": [
     "I hope so"
    ],
-   "why": "so замінює речення.",
+   "why": "*I hope so*.",
    "hint": "Сподіваюся, що так."
   },
   {
@@ -229,7 +229,7 @@
    "answer": [
     "The red one is mine"
    ],
-   "why": "one замінює іменник.",
+   "why": "*The red one is mine.*",
    "hint": "Червоний — мій."
   },
   {
@@ -246,7 +246,7 @@
    "answer": [
     "She works harder than I do"
    ],
-   "why": "do замінює works.",
+   "why": "*than I do*.",
    "hint": "Вона працює старанніше, ніж я."
   },
   {
@@ -260,7 +260,7 @@
     "I can't too."
    ],
    "answer": 1,
-   "why": "Згода із запереченням — Neither can I."
+   "why": "Згода із запереченням — *Neither can I.*"
   },
   {
    "id": "ellipsis-substitution-22",
@@ -273,7 +273,7 @@
     "am"
    ],
    "answer": 1,
-   "why": "Коротка відповідь — допоміжне з питання."
+   "why": "*Have you finished?* — *Yes, I have.*"
   },
   {
    "id": "ellipsis-substitution-23",
@@ -282,7 +282,7 @@
    "answer": [
     "to"
    ],
-   "why": "Після to дієслово можна пропустити."
+   "why": "*I'd love to* — дієслово після *to* пропускаємо."
   }
  ]
 }

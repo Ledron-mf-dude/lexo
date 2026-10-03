@@ -11,7 +11,7 @@
     "is"
    ],
    "answer": 0,
-   "why": "It was the first time + Past Perfect."
+   "why": "*It was the first time* + Past Perfect: *she had been abroad*."
   },
   {
    "id": "perfect-aspect-2",
@@ -24,7 +24,7 @@
     "am ever reading"
    ],
    "answer": 0,
-   "why": "Найвищий ступінь + Present Perfect."
+   "why": "Найвищий ступінь + Present Perfect: *the best book I have ever read*."
   },
   {
    "id": "perfect-aspect-3",
@@ -37,7 +37,7 @@
     "had finished"
    ],
    "answer": 0,
-   "why": "У підрядному часу — Present Perfect, без will."
+   "why": "У підрядному часу про майбутнє — Present Perfect (без *will*): *when I have finished*."
   },
   {
    "id": "perfect-aspect-4",
@@ -50,7 +50,7 @@
     "to have leave"
    ],
    "answer": 0,
-   "why": "to have + V3 — дія раніше."
+   "why": "*to have left* — дія раніша."
   },
   {
    "id": "perfect-aspect-5",
@@ -63,7 +63,7 @@
     "to take"
    ],
    "answer": 0,
-   "why": "deny + (perfect) gerund."
+   "why": "*deny* + (перфектний) герундій: *having taken*."
   },
   {
    "id": "perfect-aspect-6",
@@ -76,7 +76,7 @@
     "Had finished"
    ],
    "answer": 0,
-   "why": "Perfect participle — спершу одне, потім інше."
+   "why": "*Having finished* — спершу закінчила, потім пішла."
   },
   {
    "id": "perfect-aspect-7",
@@ -89,7 +89,7 @@
     "will have build"
    ],
    "answer": 0,
-   "why": "Future Perfect — до моменту в майбутньому."
+   "why": "*By 2030* — Future Perfect: *will have built*."
   },
   {
    "id": "perfect-aspect-8",
@@ -102,7 +102,7 @@
     "you finished"
    ],
    "answer": 0,
-   "why": "When питає про конкретний момент — Past Simple."
+   "why": "*When* — конкретний момент, Past Simple: *When did you finish?*"
   },
   {
    "id": "perfect-aspect-9",
@@ -115,7 +115,7 @@
     "are you doing done"
    ],
    "answer": 0,
-   "why": "Сліди процесу — Present Perfect Continuous."
+   "why": "Сліди процесу — *have you been doing*."
   },
   {
    "id": "perfect-aspect-10",
@@ -125,7 +125,7 @@
     "had started",
     "had already started"
    ],
-   "why": "Past Perfect — до моменту в минулому."
+   "why": "*had started*."
   },
   {
    "id": "perfect-aspect-11",
@@ -135,7 +135,7 @@
     "having studied",
     "studying"
    ],
-   "why": "regret not having studied / not studying."
+   "why": "*regret not having studied* (або *not studying*)."
   },
   {
    "id": "perfect-aspect-12",
@@ -145,7 +145,7 @@
     "have been working",
     "have worked"
    ],
-   "why": "Future Perfect Continuous / Simple з for."
+   "why": "*will have been working / will have worked* з *for*."
   },
   {
    "id": "perfect-aspect-13",
@@ -154,7 +154,7 @@
    "answer": [
     "have earned"
    ],
-   "why": "to have + V3 — дія раніше."
+   "why": "*to have earned*."
   },
   {
    "id": "perfect-aspect-14",
@@ -165,7 +165,7 @@
     "'ve read",
     "read"
    ],
-   "why": "Once + Present Perfect / Present Simple."
+   "why": "*Once you have read…* (або *read*)."
   },
   {
    "id": "perfect-aspect-15",
@@ -185,7 +185,7 @@
    "answer": [
     "It was the first time I had seen the sea"
    ],
-   "why": "first time + Past Perfect.",
+   "why": "*It was the first time I had seen the sea.*",
    "hint": "Тоді я вперше побачив море."
   },
   {
@@ -201,7 +201,7 @@
    "answer": [
     "She seems to have forgotten"
    ],
-   "why": "to have + V3.",
+   "why": "*seems to have forgotten*.",
    "hint": "Здається, вона забула."
   },
   {
@@ -219,7 +219,7 @@
     "By noon we will have finished",
     "We will have finished by noon"
    ],
-   "why": "Future Perfect.",
+   "why": "*By noon we will have finished.*",
    "hint": "До полудня ми закінчимо."
   },
   {
@@ -238,7 +238,7 @@
     "Having lived abroad she speaks three languages",
     "Having lived abroad, she speaks three languages"
    ],
-   "why": "Perfect participle.",
+   "why": "*Having lived abroad…*",
    "hint": "Поживши за кордоном, вона говорить трьома мовами."
   }
  ]

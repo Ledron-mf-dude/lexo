@@ -11,7 +11,7 @@
     "came"
    ],
    "answer": 1,
-   "why": "want + особа + to-інфінітив."
+   "why": "*want* + особа + *to* + дієслово: *She wants me to come early.* *wants that I come* — калька з «хоче, щоб я»."
   },
   {
    "id": "gerund-infinitive-complex-2",
@@ -24,7 +24,7 @@
     "waited"
    ],
    "answer": 0,
-   "why": "make + особа + інфінітив без to."
+   "why": "*make* + особа + дієслово без *to*: *They made him wait.*"
   },
   {
    "id": "gerund-infinitive-complex-3",
@@ -37,7 +37,7 @@
     "crosses"
    ],
    "answer": 0,
-   "why": "see + інфінітив — бачив усю дію."
+   "why": "*see* + особа + інфінітив без *to* — бачив усю дію від початку до кінця: *I saw him cross the road.*"
   },
   {
    "id": "gerund-infinitive-complex-4",
@@ -50,7 +50,7 @@
     "crossed"
    ],
    "answer": 1,
-   "why": "see + -ing — бачив процес."
+   "why": "*see* + особа + *-ing* — бачив частину процесу (дію перервали): *I saw him crossing the road when the car hit him.*"
   },
   {
    "id": "gerund-infinitive-complex-5",
@@ -63,7 +63,7 @@
     "having left"
    ],
    "answer": 1,
-   "why": "Про минуле — Perfect Infinitive."
+   "why": "Дія вже відбулася — перфектний інфінітив: *He seems to have left the country.*"
   },
   {
    "id": "gerund-infinitive-complex-6",
@@ -76,7 +76,7 @@
     "to saying"
    ],
    "answer": 0,
-   "why": "Про більш раннє — perfect gerund."
+   "why": "Жаль про те, що сказав раніше, — *regret having said* (перфектний герундій)."
   },
   {
    "id": "gerund-infinitive-complex-7",
@@ -89,7 +89,7 @@
     "having tell"
    ],
    "answer": 0,
-   "why": "Passive gerund: being + V3."
+   "why": "Пасивний герундій — *being told*: він не любить, коли йому вказують."
   },
   {
    "id": "gerund-infinitive-complex-8",
@@ -102,7 +102,7 @@
     "being invited"
    ],
    "answer": 1,
-   "why": "Passive infinitive: to be + V3."
+   "why": "Пасивний інфінітив — *to be invited*: вона хоче, щоб її запросили."
   },
   {
    "id": "gerund-infinitive-complex-9",
@@ -115,7 +115,7 @@
     "gone"
    ],
    "answer": 1,
-   "why": "let + інфінітив без to."
+   "why": "*let* + інфінітив без *to*: *Let me go.*"
   },
   {
    "id": "gerund-infinitive-complex-10",
@@ -124,7 +124,7 @@
    "answer": [
     "go"
    ],
-   "why": "let + особа + інфінітив без to."
+   "why": "*let* + особа + дієслово без *to*: *didn't let me go*."
   },
   {
    "id": "gerund-infinitive-complex-11",
@@ -133,7 +133,7 @@
    "answer": [
     "to meet"
    ],
-   "why": "would like + особа + to-інфінітив."
+   "why": "*would like* + особа + *to*: *I'd like you to meet my brother.*"
   },
   {
    "id": "gerund-infinitive-complex-12",
@@ -143,7 +143,7 @@
     "to be working",
     "to work"
    ],
-   "why": "Процес зараз — continuous infinitive."
+   "why": "Процес цими днями — *to be working* (або *to work*)."
   },
   {
    "id": "gerund-infinitive-complex-13",
@@ -152,7 +152,7 @@
    "answer": [
     "being told"
    ],
-   "why": "Пасивний gerund: being + V3."
+   "why": "Пасивний герундій — *being told*."
   },
   {
    "id": "gerund-infinitive-complex-14",
@@ -165,7 +165,7 @@
     "calls"
    ],
    "answer": 0,
-   "why": "hear + інфінітив без to — уся дія."
+   "why": "*hear* + особа + інфінітив без *to* — почув усю дію: *heard someone call my name*."
   },
   {
    "id": "gerund-infinitive-complex-15",
@@ -178,7 +178,7 @@
     "to speaking"
    ],
    "answer": 0,
-   "why": "be said + to-інфінітив."
+   "why": "*is said to speak* — кажуть, що вона говорить."
   },
   {
    "id": "gerund-infinitive-complex-16",
@@ -191,7 +191,7 @@
     "meet"
    ],
    "answer": 0,
-   "why": "Perfect infinitive — щойно сталося."
+   "why": "Щойно сталося — *happy to have met you*."
   },
   {
    "id": "gerund-infinitive-complex-17",
@@ -204,7 +204,7 @@
     "reads"
    ],
    "answer": 0,
-   "why": "make + особа + інфінітив без to."
+   "why": "*make* + особа + без *to*: *made the students read*."
   },
   {
    "id": "gerund-infinitive-complex-18",
@@ -220,7 +220,7 @@
    "answer": [
     "She wants me to help her"
    ],
-   "why": "want + особа + to-інфінітив.",
+   "why": "*wants me to help her*.",
    "hint": "Вона хоче, щоб я їй допоміг."
   },
   {
@@ -237,7 +237,7 @@
    "answer": [
     "He denied having taken the money"
    ],
-   "why": "Perfect gerund — дія раніше.",
+   "why": "*denied having taken* — дія раніше.",
    "hint": "Він заперечив, що взяв гроші."
   },
   {
@@ -254,7 +254,7 @@
    "answer": [
     "I saw her crossing the street"
    ],
-   "why": "see + -ing — процес.",
+   "why": "*saw her crossing* — процес.",
    "hint": "Я бачив, як вона переходила вулицю."
   },
   {
@@ -268,7 +268,7 @@
     "me"
    ],
    "answer": 0,
-   "why": "for + особа + to-інфінітив."
+   "why": "*It's difficult for me to…* — *for* + особа + *to*."
   },
   {
    "id": "gerund-infinitive-complex-22",
@@ -281,7 +281,7 @@
     "be painting"
    ],
    "answer": 1,
-   "why": "need + -ing — пасивне значення."
+   "why": "*need* + *-ing* — пасивне значення: стіни треба пофарбувати."
   },
   {
    "id": "gerund-infinitive-complex-23",
@@ -290,7 +290,7 @@
    "answer": [
     "being interrupted"
    ],
-   "why": "Пасивний gerund: being + V3."
+   "why": "Пасивний герундій — *being interrupted*: не люблю, коли мене перебивають."
   }
  ]
 }

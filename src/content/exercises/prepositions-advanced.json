@@ -11,7 +11,7 @@
     "in"
    ],
    "answer": 0,
-   "why": "Прийменник у кінці питання — звичайна норма."
+   "why": "У питаннях прийменник зазвичай стоїть у кінці: *Who are you talking to?*"
   },
   {
    "id": "prepositions-advanced-2",
@@ -24,7 +24,7 @@
     "where"
    ],
    "answer": 0,
-   "why": "grow up in — прийменник у кінці підрядного."
+   "why": "*grow up in* — прийменник лишається в кінці підрядного."
   },
   {
    "id": "prepositions-advanced-3",
@@ -37,7 +37,7 @@
     "in where"
    ],
    "answer": 0,
-   "why": "Формально: прийменник + which."
+   "why": "Формально — прийменник перед *which*: *in which*."
   },
   {
    "id": "prepositions-advanced-4",
@@ -50,7 +50,7 @@
     "whom to"
    ],
    "answer": 0,
-   "why": "Формально: to whom."
+   "why": "Формально — *to whom*."
   },
   {
    "id": "prepositions-advanced-5",
@@ -63,7 +63,7 @@
     "of"
    ],
    "answer": 0,
-   "why": "worry about — прийменник лишається в кінці."
+   "why": "*nothing to worry about* — прийменник у кінці."
   },
   {
    "id": "prepositions-advanced-6",
@@ -76,7 +76,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "sit on a chair — прийменник потрібен."
+   "why": "*a chair to sit on* — без *on* речення неповне."
   },
   {
    "id": "prepositions-advanced-7",
@@ -89,7 +89,7 @@
     "In arrive"
    ],
    "answer": 0,
-   "why": "On + V-ing — щойно…"
+   "why": "*On arriving* — щойно приїхавши (*on* + *-ing*)."
   },
   {
    "id": "prepositions-advanced-8",
@@ -102,7 +102,7 @@
     "of"
    ],
    "answer": 0,
-   "why": "Перед that-реченням прийменник не ставимо."
+   "why": "Перед *that*-реченням прийменник не ставимо: *aware that*."
   },
   {
    "id": "prepositions-advanced-9",
@@ -115,7 +115,7 @@
     "which that"
    ],
    "answer": 0,
-   "why": "Прийменник + wh-слово."
+   "why": "Прийменник + *wh*-слово: *depends on what you mean*."
   },
   {
    "id": "prepositions-advanced-10",
@@ -128,7 +128,7 @@
     "on behalf to"
    ],
    "answer": 0,
-   "why": "on behalf of — від імені."
+   "why": "*on behalf of* — від імені."
   },
   {
    "id": "prepositions-advanced-11",
@@ -137,7 +137,7 @@
    "answer": [
     "hearing"
    ],
-   "why": "to тут прийменник — після нього -ing."
+   "why": "*look forward to* + *-ing*."
   },
   {
    "id": "prepositions-advanced-12",
@@ -146,7 +146,7 @@
    "answer": [
     "saying"
    ],
-   "why": "Прийменник + V-ing."
+   "why": "*without saying*."
   },
   {
    "id": "prepositions-advanced-13",
@@ -155,7 +155,7 @@
    "answer": [
     "terms"
    ],
-   "why": "in terms of — з погляду."
+   "why": "*in terms of* — з погляду."
   },
   {
    "id": "prepositions-advanced-14",
@@ -164,7 +164,7 @@
    "answer": [
     "into"
    ],
-   "why": "look into — розібратися; прийменник у кінці."
+   "why": "*look into* — розібратися."
   },
   {
    "id": "prepositions-advanced-15",
@@ -179,7 +179,7 @@
    "answer": [
     "Who did you go with"
    ],
-   "why": "Прийменник у кінці питання.",
+   "why": "*Who did you go with?*",
    "hint": "З ким ти ходив?"
   },
   {
@@ -197,7 +197,7 @@
    "answer": [
     "That is not what I asked for"
    ],
-   "why": "what … for.",
+   "why": "*what I asked for*.",
    "hint": "Це не те, що я просив."
   },
   {
@@ -214,7 +214,7 @@
    "answer": [
     "She is easy to talk to"
    ],
-   "why": "Прийменник після інфінітива.",
+   "why": "*easy to talk to*.",
    "hint": "З нею легко говорити."
   },
   {
@@ -232,7 +232,7 @@
    "answer": [
     "There is nothing to be afraid of"
    ],
-   "why": "afraid of у кінці.",
+   "why": "*nothing to be afraid of*.",
    "hint": "Нема чого боятися."
   }
  ]

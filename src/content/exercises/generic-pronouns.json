@@ -11,7 +11,7 @@
     "There"
    ],
    "answer": 0,
-   "why": "you — узагальнено «тут не можна»."
+   "why": "*you* — будь-хто: *You can't smoke here.* *One must* вимагав би *not*, а *It / There* не підходять."
   },
   {
    "id": "generic-pronouns-2",
@@ -24,7 +24,7 @@
     "We"
    ],
    "answer": 0,
-   "why": "they say — кажуть."
+   "why": "*They say* — «кажуть»."
   },
   {
    "id": "generic-pronouns-3",
@@ -37,7 +37,7 @@
     "It"
    ],
    "answer": 0,
-   "why": "one — формально; далі one's."
+   "why": "*One* — формально, і далі *one's*: *One should keep one's promises.*"
   },
   {
    "id": "generic-pronouns-4",
@@ -50,7 +50,7 @@
     "it"
    ],
    "answer": 0,
-   "why": "you — будь-хто (зокрема я)."
+   "why": "*you* — будь-хто: *How do you get to the station?*"
   },
   {
    "id": "generic-pronouns-5",
@@ -63,7 +63,7 @@
     "We are"
    ],
    "answer": 0,
-   "why": "they — невизначені люди, влада."
+   "why": "*they* — невизначені люди, влада: *They are building a new metro line.*"
   },
   {
    "id": "generic-pronouns-6",
@@ -76,7 +76,7 @@
     "It"
    ],
    "answer": 0,
-   "why": "we — усі ми, люди."
+   "why": "*We* — усі ми, люди: *We all make mistakes.*"
   },
   {
    "id": "generic-pronouns-7",
@@ -89,7 +89,7 @@
     "People must be careful."
    ],
    "answer": 0,
-   "why": "one — найформальніше."
+   "why": "*One* — найформальніше."
   },
   {
    "id": "generic-pronouns-8",
@@ -102,7 +102,7 @@
     "themself"
    ],
    "answer": 0,
-   "why": "one → oneself."
+   "why": "*one → oneself*."
   },
   {
    "id": "generic-pronouns-9",
@@ -115,7 +115,7 @@
     "It"
    ],
    "answer": 0,
-   "why": "people — люди загалом."
+   "why": "*People think…* — люди вважають."
   },
   {
    "id": "generic-pronouns-10",
@@ -124,7 +124,7 @@
    "answer": [
     "You"
    ],
-   "why": "You never know — ніколи не знаєш."
+   "why": "*You never know* — ніколи не знаєш."
   },
   {
    "id": "generic-pronouns-11",
@@ -135,7 +135,7 @@
     "they",
     "people"
    ],
-   "why": "you / they / people — узагальнено."
+   "why": "*you / they / people drive on the left*."
   },
   {
    "id": "generic-pronouns-12",
@@ -144,7 +144,7 @@
    "answer": [
     "one's"
    ],
-   "why": "one → one's."
+   "why": "*one's best*."
   },
   {
    "id": "generic-pronouns-13",
@@ -154,7 +154,7 @@
     "They",
     "People"
    ],
-   "why": "They say — кажуть."
+   "why": "*They / People say…*"
   },
   {
    "id": "generic-pronouns-14",
@@ -164,7 +164,7 @@
     "You",
     "People"
    ],
-   "why": "You have to… — узагальнено.",
+   "why": "*You have to be 18* — будь-хто.",
    "hint": "(узагальнено — будь-хто)"
   },
   {
@@ -175,7 +175,7 @@
     "allowed",
     "permitted"
    ],
-   "why": "Пасив: is not allowed."
+   "why": "Пасив замість узагальненого підмета: *Smoking is not allowed.*"
   },
   {
    "id": "generic-pronouns-16",
@@ -190,7 +190,7 @@
    "answer": [
     "You can buy tickets online"
    ],
-   "why": "you — узагальнено.",
+   "why": "*You can buy tickets online.*",
    "hint": "Квитки можна купити онлайн."
   },
   {
@@ -207,7 +207,7 @@
    "answer": [
     "They say it will rain tomorrow"
    ],
-   "why": "they say.",
+   "why": "*They say…*",
    "hint": "Кажуть, що завтра буде дощ."
   },
   {
@@ -223,7 +223,7 @@
    "answer": [
     "People often forget their passwords"
    ],
-   "why": "people — загалом.",
+   "why": "*People often forget…*",
    "hint": "Люди часто забувають паролі."
   },
   {
@@ -237,7 +237,7 @@
     "theirs"
    ],
    "answer": 1,
-   "why": "Стать невідома — their.",
+   "why": "Про людей будь-якої статі — *their*: *Every student needs their own laptop.*",
    "hint": "(у групі і хлопці, і дівчата)"
   },
   {
@@ -251,7 +251,7 @@
     "There"
    ],
    "answer": 1,
-   "why": "They say — кажуть."
+   "why": "*They say* — кажуть."
   },
   {
    "id": "generic-pronouns-21",
@@ -261,7 +261,7 @@
     "you",
     "one"
    ],
-   "why": "you — будь-хто.",
+   "why": "*How do you turn it on?* — будь-хто.",
    "hint": "(узагальнено — будь-хто)"
   }
  ]

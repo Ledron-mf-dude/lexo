@@ -11,7 +11,7 @@
     "In conclusion"
    ],
    "answer": 1,
-   "why": "Moreover — додавання."
+   "why": "Додаємо ще одну перевагу — *Moreover* (крім того)."
   },
   {
    "id": "discourse-markers-2",
@@ -24,7 +24,7 @@
     "For example"
    ],
    "answer": 1,
-   "why": "However — контраст."
+   "why": "Протиставлення — *However*."
   },
   {
    "id": "discourse-markers-3",
@@ -37,7 +37,7 @@
     "For instance"
    ],
    "answer": 0,
-   "why": "As a result — наслідок."
+   "why": "Наслідок — *As a result*."
   },
   {
    "id": "discourse-markers-4",
@@ -50,7 +50,7 @@
     "Besides"
    ],
    "answer": 0,
-   "why": "First of all."
+   "why": "*First of all* — насамперед."
   },
   {
    "id": "discourse-markers-5",
@@ -63,7 +63,7 @@
     "therefore"
    ],
    "answer": 0,
-   "why": "such as — приклад."
+   "why": "Приклади в середині речення — *such as*."
   },
   {
    "id": "discourse-markers-6",
@@ -76,7 +76,7 @@
     "Furthermore"
    ],
    "answer": 0,
-   "why": "In my opinion — думка."
+   "why": "Думка — *In my opinion*."
   },
   {
    "id": "discourse-markers-7",
@@ -89,7 +89,7 @@
     "Moreover"
    ],
    "answer": 0,
-   "why": "In conclusion — підсумок."
+   "why": "Підсумок — *In conclusion*."
   },
   {
    "id": "discourse-markers-8",
@@ -102,7 +102,7 @@
     "and"
    ],
    "answer": 0,
-   "why": "furthermore — формальніше."
+   "why": "*furthermore* — формальніше за *also, plus, and*."
   },
   {
    "id": "discourse-markers-9",
@@ -115,7 +115,7 @@
     "a result"
    ],
    "answer": 0,
-   "why": "Пояснення іншими словами."
+   "why": "*In other words* — «іншими словами», пояснення."
   },
   {
    "id": "discourse-markers-10",
@@ -131,7 +131,7 @@
     "Nonetheless",
     "On the other hand"
    ],
-   "why": "However — контраст, окреме речення."
+   "why": "Протиставлення в новому реченні — *However* (також *Nevertheless, Still, Yet, On the other hand…*)."
   },
   {
    "id": "discourse-markers-11",
@@ -140,7 +140,7 @@
    "answer": [
     "For"
    ],
-   "why": "For instance — наприклад."
+   "why": "*For instance* — наприклад."
   },
   {
    "id": "discourse-markers-12",
@@ -149,7 +149,7 @@
    "answer": [
     "In"
    ],
-   "why": "In addition — крім того."
+   "why": "*In addition* — крім того."
   },
   {
    "id": "discourse-markers-13",
@@ -158,7 +158,7 @@
    "answer": [
     "To"
    ],
-   "why": "To sum up — підсумовуючи."
+   "why": "*To sum up* — підсумовуючи."
   },
   {
    "id": "discourse-markers-14",
@@ -173,7 +173,7 @@
     "Hence",
     "As a consequence"
    ],
-   "why": "Consequently / As a result — наслідок."
+   "why": "Наслідок — *Consequently / As a result / Therefore…*"
   },
   {
    "id": "discourse-markers-15",
@@ -186,7 +186,7 @@
     "Firstly of all"
    ],
    "answer": 0,
-   "why": "Personally — моя особиста думка."
+   "why": "*Personally* — особисто я."
   },
   {
    "id": "discourse-markers-16",
@@ -199,7 +199,7 @@
     "In conclusion"
    ],
    "answer": 0,
-   "why": "What's more — більше того."
+   "why": "*What's more* — більше того (додаємо ще гірше)."
   },
   {
    "id": "discourse-markers-17",
@@ -212,7 +212,7 @@
     "As a result"
    ],
    "answer": 0,
-   "why": "On the contrary — навпаки (заперечуємо сказане)."
+   "why": "*On the contrary* — навпаки (заперечуємо сказане). *On the other hand* — зважуємо іншу сторону."
   },
   {
    "id": "discourse-markers-18",
@@ -225,7 +225,7 @@
     "However"
    ],
    "answer": 0,
-   "why": "First of all — спочатку."
+   "why": "*First of all* — спочатку."
   },
   {
    "id": "discourse-markers-19",
@@ -243,7 +243,7 @@
     "However, the price is too high",
     "The price however is too high"
    ],
-   "why": "However + кома.",
+   "why": "*However* — на початку з комою або в середині.",
    "hint": "Однак ціна надто висока."
   },
   {
@@ -264,7 +264,7 @@
     "Many people for example work from home",
     "Many people work from home for example"
    ],
-   "why": "For example — приклад.",
+   "why": "*For example* — на початку, в середині чи в кінці.",
    "hint": "Наприклад, багато людей працюють з дому."
   },
   {
@@ -283,7 +283,7 @@
     "In conclusion the plan is too risky",
     "In conclusion, the plan is too risky"
    ],
-   "why": "In conclusion — підсумок.",
+   "why": "*In conclusion* — підсумок.",
    "hint": "Отже, план надто ризикований."
   },
   {
@@ -297,7 +297,7 @@
     "However"
    ],
    "answer": 1,
-   "why": "Нова тема між іншим — by the way."
+   "why": "Нова тема «між іншим» — *By the way*."
   },
   {
    "id": "discourse-markers-23",
@@ -310,7 +310,7 @@
     "factual"
    ],
    "answer": 1,
-   "why": "Актуальний — relevant."
+   "why": "«Актуальний» — *relevant*. *actual* означає «справжній, фактичний»."
   },
   {
    "id": "discourse-markers-24",
@@ -320,7 +320,7 @@
     "Actually",
     "In fact"
    ],
-   "why": "Actually — уточнення, незгода."
+   "why": "*Actually* — «насправді», уточнення чи заперечення (*In fact* — те саме)."
   }
  ]
 }
