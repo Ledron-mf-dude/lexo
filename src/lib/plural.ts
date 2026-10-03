@@ -17,6 +17,7 @@ export const DAY = ['день', 'дні', 'днів'] as const
 export const CARD = ['картка', 'картки', 'карток'] as const
 export const REVIEW = ['повторення', 'повторення', 'повторень'] as const
 export const QUESTION = ['запитання', 'запитання', 'запитань'] as const
+export const NEW_QUESTION = ['нове запитання', 'нові запитання', 'нових запитань'] as const
 export const EXERCISE = ['вправа', 'вправи', 'вправ'] as const
 export const ARTICLE = ['стаття', 'статті', 'статей'] as const
 export const TAG = ['тег', 'теги', 'тегів'] as const
