@@ -12,8 +12,9 @@ import { canSpeak } from '../lib/speech'
 import { EXERCISES as ALL_EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
 import type { Progress } from '../types'
 import { useTitle } from '../lib/useTitle'
-import { count, EXERCISE, WORD } from '../lib/plural'
+import { count, EXERCISE, EXERCISE_GEN, WORD } from '../lib/plural'
 import { matchesLevel, useWordLevels, WORD_LEVELS, type LevelFilter } from '../lib/wordLevels'
+import { practiceSettingsPref } from '../lib/prefs'
 
 // Listening needs speech synthesis and speaking needs speech recognition; browsers without them do not show those exercises.
 const EXERCISES = ALL_EXERCISES.filter((e) => ((e.value !== 'listen' && e.value !== 'dictation') || canSpeak) && (e.value !== 'speak' || canRecognize))
@@ -76,6 +77,7 @@ export default function Practice() {
       : { source: nav?.source ?? 'today', tagIds: [], limit: 20, modes: loadModes() },
   )
   const [running, setRunning] = useState<WordWithTags[] | null>(null)
+  const settingsOpen = practiceSettingsPref.use() === 'open'
   // Level filter (per session, not remembered): words of the chosen CEFR levels only; empty = all words.
   const [levelFilter, setLevelFilter] = useState<LevelFilter[]>([])
   const levels = useWordLevels()
@@ -159,6 +161,18 @@ export default function Practice() {
 
   const label = 'text-xs tracking-widest text-white/40 uppercase'
 
+  // What the session will be, in one line, so the settings can stay folded away.
+  const modesSummary =
+    config.modes.length === 0 ? 'вправи: авто' : complex ? `комплекс із ${count(config.modes.length, EXERCISE_GEN)}` : `«${EXERCISES.find((e) => e.value === config.modes[0])!.label}»`
+  const summary = [
+    count(wordCount, WORD),
+    modesSummary,
+    levelFilter.length > 0 && config.source !== 'subset' ? `рівень ${levelFilter.join(', ')}` : null,
+    config.tagIds.length > 0 ? `тегів: ${config.tagIds.length}` : null,
+  ]
+    .filter(Boolean)
+    .join(' · ')
+
   return (
     <section className="space-y-6">
       <h1 className="text-2xl font-light tracking-tight sm:text-3xl">Практика</h1>
@@ -182,106 +196,120 @@ export default function Practice() {
         ))}
       </div>
 
-      <div className="flex flex-wrap items-end gap-x-6 gap-y-4">
-        <div className="space-y-2">
-          <p className={label}>Кількість слів</p>
-          <div className="segmented">
-            {limits.map((n) => (
-              <button key={n} onClick={() => setConfig((c) => ({ ...c, limit: n }))} data-on={config.limit === n} className="min-w-11">
-                {n}
-              </button>
-            ))}
-          </div>
-        </div>
-        {levels && config.source !== 'subset' && (
-          <div className="space-y-2">
-            <p className={label}>
-              Рівень <span className="tracking-normal normal-case">{levelFilter.length === 0 ? '· усі' : ''}</span>
-            </p>
-            <div className="flex flex-wrap gap-1.5">
-              {WORD_LEVELS.map((l) => (
-                <button
-                  key={l}
-                  onClick={() => setLevelFilter((f) => (f.includes(l) ? f.filter((x) => x !== l) : [...f, l]))}
-                  data-on={levelFilter.includes(l)}
-                  aria-pressed={levelFilter.includes(l)}
-                  className="chip min-w-10 justify-center"
-                >
-                  {l}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-        {(tags.data?.length ?? 0) > 0 && (
-          <div className="min-w-0 space-y-2">
-            <p className={label}>
-              Теги <span className="tracking-normal normal-case">{config.tagIds.length === 0 ? '· усі слова' : ''}</span>
-            </p>
-            <TagPicker tags={tags.data!} selected={config.tagIds} counts={tagCounts} onChange={(ids) => setConfig((c) => ({ ...c, tagIds: ids }))} />
-          </div>
-        )}
-      </div>
-
-      <div className="space-y-3">
-        <div className="flex items-baseline justify-between gap-3">
-          <p className={label}>Вправи</p>
-          {config.modes.length > 0 && (
-            <button onClick={() => setModes([])} className="text-xs text-white/45 hover:text-white">
-              скинути
-            </button>
-          )}
-        </div>
-        <button onClick={() => setModes([])} data-on={config.modes.length === 0} className="tile w-full">
-          <span className="font-medium">Авто</span>
-          <span className="text-xs text-white/45">вправа залежить від того, наскільки слово вже вивчене</span>
-        </button>
-        {EXERCISE_GROUPS.map((group) => (
-          <div key={group.title} className="space-y-1.5">
-            <p className="text-xs text-white/35">{group.title}</p>
-            <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
-              {EXERCISES.filter((e) => group.modes.includes(e.value)).map((e) => {
-                const on = config.modes.includes(e.value)
-                return (
-                  <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={on} data-on={on} className="tile">
-                    <span className={`grid size-5 shrink-0 place-items-center rounded-full text-[11px] tabular-nums ${on ? 'bg-accent text-[#0a0b0f]' : 'border border-white/20'}`}>
-                      {on ? (complex ? config.modes.indexOf(e.value) + 1 : '✓') : ''}
-                    </span>
-                    <span className="min-w-0">{e.label}</span>
-                  </button>
-                )
-              })}
-            </div>
-          </div>
-        ))}
-        <div className="space-y-1.5">
-          <p className="text-xs text-white/35">Готові комплекси</p>
-          <div className="grid gap-1.5 sm:grid-cols-3">
-            {PRESETS.map((preset) => {
-              const on = preset.modes.join() === config.modes.join()
-              return (
-                <button key={preset.title} onClick={() => setModes(preset.modes)} data-on={on} className="tile flex-col items-start! gap-0.5!">
-                  <span className="font-medium">{preset.title}</span>
-                  <span className="text-xs text-white/45">{preset.modes.map((m) => EXERCISES.find((e) => e.value === m)?.label).filter(Boolean).join(' → ')}</span>
-                </button>
-              )
-            })}
-          </div>
-        </div>
-        {config.modes.length > 0 && <p className="text-sm text-white/40">{modeHint}</p>}
-        {config.modes.some((m) => ['cloze', 'passage', 'dictation', 'matchdef'].includes(m)) && (
-          <p className="text-xs text-white/30">
-            «Слово в реченні», «Текст із пропусками» й «Диктант речень» працюють для слів із прикладом, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.
-          </p>
-        )}
-      </div>
-
-      {/* On a phone the button stays above the bottom bar, so it is reachable without scrolling to the end of the settings. */}
-      <div className="sticky bottom-24 z-[5] md:static">
-        <button onClick={start} disabled={available === 0} className="btn-primary w-full py-3 text-lg shadow-[0_8px_30px_rgb(0_0_0/0.45)] md:shadow-none">
+      {/* Start comes right after the source: most sessions keep the settings as they are. */}
+      <div className="space-y-2">
+        <button onClick={start} disabled={available === 0} className="btn-primary w-full py-3 text-lg">
           {available === 0 ? 'Немає слів для цього вибору' : `Почати · ${count(wordCount, WORD)}${complex ? ` × ${count(config.modes.length, EXERCISE)}` : ''}`}
         </button>
+        <button
+          onClick={() => practiceSettingsPref.set(settingsOpen ? 'closed' : 'open')}
+          aria-expanded={settingsOpen}
+          className="flex w-full items-center justify-between gap-3 rounded-2xl px-1 py-1 text-left text-sm text-white/50 hover:text-white"
+        >
+          <span className="min-w-0">
+            Налаштування <span className="text-white/35">· {summary}</span>
+          </span>
+          <span aria-hidden="true">{settingsOpen ? '▴' : '▾'}</span>
+        </button>
       </div>
+
+      {settingsOpen && (
+        <div className="space-y-6">
+          <div className="flex flex-wrap items-end gap-x-6 gap-y-4">
+            <div className="space-y-2">
+              <p className={label}>Кількість слів</p>
+              <div className="segmented">
+                {limits.map((n) => (
+                  <button key={n} onClick={() => setConfig((c) => ({ ...c, limit: n }))} data-on={config.limit === n} className="min-w-11">
+                    {n}
+                  </button>
+                ))}
+              </div>
+            </div>
+            {levels && config.source !== 'subset' && (
+              <div className="space-y-2">
+                <p className={label}>
+                  Рівень <span className="tracking-normal normal-case">{levelFilter.length === 0 ? '· усі' : ''}</span>
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  {WORD_LEVELS.map((l) => (
+                    <button
+                      key={l}
+                      onClick={() => setLevelFilter((f) => (f.includes(l) ? f.filter((x) => x !== l) : [...f, l]))}
+                      data-on={levelFilter.includes(l)}
+                      aria-pressed={levelFilter.includes(l)}
+                      className="chip min-w-10 justify-center"
+                    >
+                      {l}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+            {(tags.data?.length ?? 0) > 0 && (
+              <div className="min-w-0 space-y-2">
+                <p className={label}>
+                  Теги <span className="tracking-normal normal-case">{config.tagIds.length === 0 ? '· усі слова' : ''}</span>
+                </p>
+                <TagPicker tags={tags.data!} selected={config.tagIds} counts={tagCounts} onChange={(ids) => setConfig((c) => ({ ...c, tagIds: ids }))} />
+              </div>
+            )}
+          </div>
+
+          <div className="space-y-3">
+            <div className="flex items-baseline justify-between gap-3">
+              <p className={label}>Вправи</p>
+              {config.modes.length > 0 && (
+                <button onClick={() => setModes([])} className="text-xs text-white/45 hover:text-white">
+                  скинути
+                </button>
+              )}
+            </div>
+            <button onClick={() => setModes([])} data-on={config.modes.length === 0} className="tile w-full">
+              <span className="font-medium">Авто</span>
+              <span className="text-xs text-white/45">вправа залежить від того, наскільки слово вже вивчене</span>
+            </button>
+            {EXERCISE_GROUPS.map((group) => (
+              <div key={group.title} className="space-y-1.5">
+                <p className="text-xs text-white/35">{group.title}</p>
+                <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
+                  {EXERCISES.filter((e) => group.modes.includes(e.value)).map((e) => {
+                    const on = config.modes.includes(e.value)
+                    return (
+                      <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={on} data-on={on} className="tile">
+                        <span className={`grid size-5 shrink-0 place-items-center rounded-full text-[11px] tabular-nums ${on ? 'bg-accent text-[#0a0b0f]' : 'border border-white/20'}`}>
+                          {on ? (complex ? config.modes.indexOf(e.value) + 1 : '✓') : ''}
+                        </span>
+                        <span className="min-w-0">{e.label}</span>
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+            ))}
+            <div className="space-y-1.5">
+              <p className="text-xs text-white/35">Готові комплекси</p>
+              <div className="grid gap-1.5 sm:grid-cols-3">
+                {PRESETS.map((preset) => {
+                  const on = preset.modes.join() === config.modes.join()
+                  return (
+                    <button key={preset.title} onClick={() => setModes(preset.modes)} data-on={on} className="tile flex-col items-start! gap-0.5!">
+                      <span className="font-medium">{preset.title}</span>
+                      <span className="text-xs text-white/45">{preset.modes.map((m) => EXERCISES.find((e) => e.value === m)?.label).filter(Boolean).join(' → ')}</span>
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+            {config.modes.length > 0 && <p className="text-sm text-white/40">{modeHint}</p>}
+            {config.modes.some((m) => ['cloze', 'passage', 'dictation', 'matchdef'].includes(m)) && (
+              <p className="text-xs text-white/30">
+                «Слово в реченні», «Текст із пропусками» й «Диктант речень» працюють для слів із прикладом, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.
+              </p>
+            )}
+          </div>
+        </div>
+      )}
 
       <WordOfDay words={words.data ?? []} />
     </section>

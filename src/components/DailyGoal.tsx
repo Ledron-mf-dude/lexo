@@ -23,6 +23,8 @@ const CIRCUMFERENCE = 2 * Math.PI * R
 export default function DailyGoal() {
   const log = useReviewLog()
   const [goal, setGoal] = useState(loadGoal)
+  // The goal is changed rarely, so its chips stay hidden until the goal itself is tapped.
+  const [editing, setEditing] = useState(false)
   const rows = log.data ?? []
   const today = activity(rows, 1)[0].total
   const days = streak(rows)
@@ -30,6 +32,7 @@ export default function DailyGoal() {
 
   function pick(n: number) {
     setGoal(n)
+    setEditing(false)
     try {
       localStorage.setItem(GOAL_KEY, String(n))
     } catch {
@@ -60,9 +63,9 @@ export default function DailyGoal() {
       <div className="min-w-0 flex-1 space-y-1.5">
         <p className="font-medium">{reached ? 'Ціль на сьогодні виконано' : 'Щоденна ціль'}</p>
         <p className="flex flex-wrap gap-x-3 text-sm text-white/45">
-          <span>
-            {today} з {goal} {plural(goal, CARD)}
-          </span>
+          <button onClick={() => setEditing((e) => !e)} aria-expanded={editing} title="Змінити щоденну ціль" className="hover:text-white">
+            {today} з <span className="underline decoration-white/25 decoration-dotted underline-offset-4">{goal}</span> {plural(goal, CARD)}
+          </button>
           {days > 0 && (
             <>
               <span className="inline-flex items-center gap-1 text-[#fbbf24]">
@@ -74,18 +77,20 @@ export default function DailyGoal() {
             </>
           )}
         </p>
-        <div className="flex gap-1.5" role="group" aria-label="Щоденна ціль">
-          {GOALS.map((n) => (
-            <button
-              key={n}
-              onClick={() => pick(n)}
-              aria-pressed={goal === n}
-              className={`rounded-full border px-2.5 py-0.5 text-xs transition-colors ${goal === n ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/45 hover:text-white'}`}
-            >
-              {n}
-            </button>
-          ))}
-        </div>
+        {editing && (
+          <div className="flex gap-1.5" role="group" aria-label="Щоденна ціль">
+            {GOALS.map((n) => (
+              <button
+                key={n}
+                onClick={() => pick(n)}
+                aria-pressed={goal === n}
+                className={`rounded-full border px-2.5 py-0.5 text-xs transition-colors ${goal === n ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/45 hover:text-white'}`}
+              >
+                {n}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )

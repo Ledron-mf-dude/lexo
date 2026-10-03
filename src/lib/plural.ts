@@ -19,5 +19,7 @@ export const REVIEW = ['повторення', 'повторення', 'повт
 export const QUESTION = ['запитання', 'запитання', 'запитань'] as const
 export const NEW_QUESTION = ['нове запитання', 'нові запитання', 'нових запитань'] as const
 export const EXERCISE = ['вправа', 'вправи', 'вправ'] as const
+/** After «з», «із»: «з 1 вправи», «з 2 вправ». */
+export const EXERCISE_GEN = ['вправи', 'вправ', 'вправ'] as const
 export const ARTICLE = ['стаття', 'статті', 'статей'] as const
 export const TAG = ['тег', 'теги', 'тегів'] as const
