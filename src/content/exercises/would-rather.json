@@ -11,7 +11,7 @@
     "stayed"
    ],
    "answer": 0,
-   "why": "would rather + V без to."
+   "why": "Після *would rather* — дієслово без *to*: *I would rather stay at home.* (Порівняйте: *would prefer to stay*.)"
   },
   {
    "id": "would-rather-2",
@@ -24,7 +24,7 @@
     "is rather"
    ],
    "answer": 0,
-   "why": "would rather + V + than + V — краще (одне), ніж (інше)."
+   "why": "*would rather* + дієслово + *than* + дієслово — «краще одне, ніж інше»."
   },
   {
    "id": "would-rather-3",
@@ -37,7 +37,7 @@
     "to not"
    ],
    "answer": 0,
-   "why": "would rather not + V."
+   "why": "Заперечення — *would rather not* + дієслово, без *don't*."
   },
   {
    "id": "would-rather-4",
@@ -50,7 +50,7 @@
     "Do"
    ],
    "answer": 0,
-   "why": "Питання: Would + підмет + rather + V."
+   "why": "Питання: *Would* + підмет + *rather* + дієслово."
   },
   {
    "id": "would-rather-5",
@@ -63,7 +63,7 @@
     "I've rather"
    ],
    "answer": 0,
-   "why": "I would rather → I'd rather."
+   "why": "*I would rather* скорочується до *I'd rather*."
   },
   {
    "id": "would-rather-6",
@@ -76,7 +76,7 @@
     "I would rather slept."
    ],
    "answer": 1,
-   "why": "Без to, без -ing."
+   "why": "Після *would rather* — без *to* і без *-ing*."
   },
   {
    "id": "would-rather-7",
@@ -89,7 +89,7 @@
     "went"
    ],
    "answer": 0,
-   "why": "would rather not + V."
+   "why": "*I'd rather not go* — заперечення без *to*."
   },
   {
    "id": "would-rather-8",
@@ -104,7 +104,7 @@
    "answer": [
     "I would rather stay home"
    ],
-   "why": "would rather + V."
+   "why": "*would rather* + дієслово."
   },
   {
    "id": "would-rather-9",
@@ -113,7 +113,7 @@
    "answer": [
     "not talk"
    ],
-   "why": "would rather not + V."
+   "why": "*would rather not talk*."
   },
   {
    "id": "would-rather-10",
@@ -122,7 +122,7 @@
    "answer": [
     "than"
    ],
-   "why": "would rather … than …"
+   "why": "*would rather … than …*."
   },
   {
    "id": "would-rather-11",
@@ -132,7 +132,7 @@
     "didn't smoke",
     "did not smoke"
    ],
-   "why": "would rather + особа + Past Simple."
+   "why": "Коли бажання стосується іншої людини — *would rather* + особа + Past Simple: *I'd rather you didn't smoke.*"
   },
   {
    "id": "would-rather-12",
@@ -141,7 +141,7 @@
    "answer": [
     "have stayed"
    ],
-   "why": "Про минуле — would rather have + V3."
+   "why": "Шкодуємо про минуле — *would rather have* + третя форма: *I'd rather have stayed at home.*"
   },
   {
    "id": "would-rather-13",
@@ -150,7 +150,7 @@
    "answer": [
     "go"
    ],
-   "why": "Would you rather + V?"
+   "why": "*Would you rather go…?* — дієслово без *to*."
   },
   {
    "id": "would-rather-14",
@@ -163,7 +163,7 @@
     "had"
    ],
    "answer": 0,
-   "why": "would rather + V без to."
+   "why": "*would rather have tea* — без *to*."
   },
   {
    "id": "would-rather-15",
@@ -176,7 +176,7 @@
     "working"
    ],
    "answer": 0,
-   "why": "Без -s після would rather."
+   "why": "Після *would rather* дієслово без закінчень: *He'd rather work alone.*"
   },
   {
    "id": "would-rather-16",
@@ -189,7 +189,7 @@
     "will tell"
    ],
    "answer": 0,
-   "why": "Інша особа — Past Simple."
+   "why": "Інша особа — Past Simple: *I'd rather you told me the truth.*"
   },
   {
    "id": "would-rather-17",
@@ -202,7 +202,7 @@
     "no"
    ],
    "answer": 0,
-   "why": "I'd rather not."
+   "why": "Коротка відмова — *I'd rather not.*"
   },
   {
    "id": "would-rather-18",
@@ -218,7 +218,7 @@
    "answer": [
     "I would rather walk than drive"
    ],
-   "why": "would rather … than.",
+   "why": "*would rather walk than drive*.",
    "hint": "Я б краще пішов пішки, ніж поїхав."
   },
   {
@@ -234,7 +234,7 @@
    "answer": [
     "I'd rather you stayed here"
    ],
-   "why": "would rather + особа + Past Simple.",
+   "why": "*would rather* + особа + Past Simple.",
    "hint": "Я б хотів, щоб ти залишився тут."
   },
   {
@@ -250,7 +250,7 @@
    "answer": [
     "She would rather not go"
    ],
-   "why": "would rather not + V.",
+   "why": "*would rather not go*.",
    "hint": "Вона б краще не йшла."
   },
   {
@@ -264,7 +264,7 @@
     "not"
    ],
    "answer": 1,
-   "why": "would rather + інша особа + Past Simple."
+   "why": "Ввічлива відмова: *I'd rather you didn't* (краще не треба)."
   },
   {
    "id": "would-rather-22",
@@ -277,7 +277,7 @@
     "like"
    ],
    "answer": 1,
-   "why": "Порада — had better."
+   "why": "Порада — *had better*: *You'd better go home.* *You'd rather* означало б «ти волієш»."
   },
   {
    "id": "would-rather-23",
@@ -286,7 +286,7 @@
    "answer": [
     "not"
    ],
-   "why": "I'd rather not."
+   "why": "*I'd rather not* — «краще не треба»."
   }
  ]
 }

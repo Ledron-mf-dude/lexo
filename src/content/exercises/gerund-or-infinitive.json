@@ -11,7 +11,7 @@
     "looked for"
    ],
    "answer": 1,
-   "why": "Після decide — інфінітив із to."
+   "why": "Після *decide* — інфінітив з *to*: *She decided to look for a new job.* Дієслова рішень і намірів (*decide, plan, hope, want*) зазвичай беруть *to*."
   },
   {
    "id": "gerund-or-infinitive-2",
@@ -24,7 +24,7 @@
     "helped"
    ],
    "answer": 1,
-   "why": "Після refuse — інфінітив із to."
+   "why": "Після *refuse* — *to* + дієслово: *He refused to help me.*"
   },
   {
    "id": "gerund-or-infinitive-3",
@@ -37,7 +37,7 @@
     "to locking"
    ],
    "answer": 0,
-   "why": "remember + -ing = пам’ятаю, що зробив (минуле)."
+   "why": "*remember* + *-ing* — пам'ятаю те, що вже зробив: *I remember locking the door.* *remember to lock* — не забути зробити (у майбутньому)."
   },
   {
    "id": "gerund-or-infinitive-4",
@@ -50,7 +50,7 @@
     "locked"
    ],
    "answer": 1,
-   "why": "remember + to = не забудь зробити."
+   "why": "*remember* + *to* — не забути зробити: *Remember to lock the door.* *locking* означало б «пам'ятай, що зачинив»."
   },
   {
    "id": "gerund-or-infinitive-5",
@@ -59,12 +59,12 @@
    "answer": [
     "smoking"
    ],
-   "why": "stop + -ing = припинив робити (кинув)."
+   "why": "*stop* + *-ing* — припинити робити (кинути): *He stopped smoking.* *stopped to smoke* — зупинився, щоб покурити."
   },
   {
    "id": "gerund-or-infinitive-6",
    "type": "choice",
-   "q": "We stopped ___ a coffee.",
+   "q": "We stopped ___ a coffee. (зупинилися, щоб випити)",
    "options": [
     "to have",
     "having",
@@ -72,7 +72,7 @@
     "had"
    ],
    "answer": 0,
-   "why": "stop + to = зупинилися, щоб зробити."
+   "why": "*stop* + *to* — зупинитися, щоб зробити щось інше: *We stopped to have a coffee.*"
   },
   {
    "id": "gerund-or-infinitive-7",
@@ -81,7 +81,7 @@
    "answer": [
     "to wait"
    ],
-   "why": "tell + особа + to-інфінітив."
+   "why": "*tell* + особа + *to* + дієслово: *She told me to wait outside.*"
   },
   {
    "id": "gerund-or-infinitive-8",
@@ -94,7 +94,7 @@
     "waited"
    ],
    "answer": 2,
-   "why": "Після make + особа — інфінітив без to."
+   "why": "*make* + особа + дієслово без *to*: *They made us wait.*"
   },
   {
    "id": "gerund-or-infinitive-9",
@@ -107,7 +107,7 @@
     "told"
    ],
    "answer": 1,
-   "why": "regret + to = з жалем повідомляю (щойно)."
+   "why": "*regret to tell you* — «з жалем повідомляю» (зараз, офіційно). *regret telling* — шкодую, що сказав раніше."
   },
   {
    "id": "gerund-or-infinitive-10",
@@ -122,7 +122,7 @@
    "answer": [
     "He forgot to call her"
    ],
-   "why": "forget + to = забув зробити."
+   "why": "*forget to* — забути зробити: *He forgot to call her.*"
   },
   {
    "id": "gerund-or-infinitive-11",
@@ -131,7 +131,7 @@
    "answer": [
     "to buy"
    ],
-   "why": "afford + to-інфінітив."
+   "why": "*afford* + *to*: *We can't afford to buy a new car.*"
   },
   {
    "id": "gerund-or-infinitive-12",
@@ -140,7 +140,7 @@
    "answer": [
     "to call"
    ],
-   "why": "promise + to-інфінітив."
+   "why": "*promise* + *to*: *She promised to call me.*"
   },
   {
    "id": "gerund-or-infinitive-13",
@@ -149,7 +149,7 @@
    "answer": [
     "seeing"
    ],
-   "why": "forget + -ing — не забуду того, що було."
+   "why": "*forget* + *-ing* — не забуду того, що було: *I'll never forget seeing the ocean.*"
   },
   {
    "id": "gerund-or-infinitive-14",
@@ -158,7 +158,7 @@
    "answer": [
     "turning"
    ],
-   "why": "try + -ing — спробуй як експеримент.",
+   "why": "*try* + *-ing* — спробувати як експеримент (чи допоможе): *Try turning it off and on again.* *try to* — намагатися зробити щось важке.",
    "hint": "(як експеримент: спробуй і подивись)"
   },
   {
@@ -168,7 +168,7 @@
    "answer": [
     "to finish"
    ],
-   "why": "manage + to-інфінітив."
+   "why": "*manage* + *to* — вдатися: *He managed to finish on time.*"
   },
   {
    "id": "gerund-or-infinitive-16",
@@ -176,12 +176,12 @@
    "q": "I tried ___ the window, but it was stuck.",
    "options": [
     "to open",
-    "opening",
     "open",
+    "opened",
     "to opening"
    ],
    "answer": 0,
-   "why": "try + to — намагався (не вдалося)."
+   "why": "*try* + *to* — намагатися (і не вдалося): *I tried to open the window, but it was stuck.*"
   },
   {
    "id": "gerund-or-infinitive-17",
@@ -194,7 +194,7 @@
     "rain"
    ],
    "answer": 0,
-   "why": "start допускає обидві форми."
+   "why": "Після *start, begin, continue* можливі обидві форми без різниці в значенні."
   },
   {
    "id": "gerund-or-infinitive-18",
@@ -207,7 +207,7 @@
     "to meeting"
    ],
    "answer": 0,
-   "why": "agree + to-інфінітив."
+   "why": "*agree* + *to*: *We agreed to meet at 6.*"
   },
   {
    "id": "gerund-or-infinitive-19",
@@ -220,7 +220,7 @@
     "told"
    ],
    "answer": 0,
-   "why": "regret + -ing — шкодую про зроблене."
+   "why": "*regret* + *-ing* — шкодую про те, що зробив: *I regret telling her the truth.*"
   },
   {
    "id": "gerund-or-infinitive-20",
@@ -236,7 +236,7 @@
    "answer": [
     "I decided to stay at home"
    ],
-   "why": "decide + to-інфінітив.",
+   "why": "*decide* + *to*.",
    "hint": "Я вирішив залишитися вдома."
   },
   {
@@ -255,7 +255,7 @@
     "She stopped talking when I came in",
     "When I came in she stopped talking"
    ],
-   "why": "stop + -ing — припинити.",
+   "why": "*stop* + *-ing* — припинити: *She stopped talking.*",
    "hint": "Вона замовкла, коли я зайшов."
   },
   {
@@ -272,7 +272,7 @@
    "answer": [
     "Please remember to buy some bread"
    ],
-   "why": "remember + to — не забудь зробити.",
+   "why": "*remember to* — не забудь зробити.",
    "hint": "Будь ласка, не забудь купити хліба."
   },
   {
@@ -286,7 +286,7 @@
     "used"
    ],
    "answer": 1,
-   "why": "Питальне слово + to-інфінітив."
+   "why": "Після питального слова — *to* + дієслово: *how to use this machine*."
   },
   {
    "id": "gerund-or-infinitive-24",
@@ -299,7 +299,7 @@
     "be cleaned to"
    ],
    "answer": 1,
-   "why": "need + -ing — пасивне значення."
+   "why": "*need* + *-ing* має пасивне значення: *The windows need cleaning* (= *need to be cleaned*)."
   },
   {
    "id": "gerund-or-infinitive-25",
@@ -312,7 +312,7 @@
     "for get"
    ],
    "answer": 1,
-   "why": "It takes + час + to-інфінітив."
+   "why": "*It takes* + час + *to* + дієслово: *It takes an hour to get there.*"
   },
   {
    "id": "gerund-or-infinitive-26",
@@ -325,7 +325,7 @@
     "talked"
    ],
    "answer": 1,
-   "why": "go on + -ing — продовжувати те саме."
+   "why": "*go on* + *-ing* — продовжувати робити те саме: *He went on talking.* *go on to talk* — перейти до чогось нового."
   },
   {
    "id": "gerund-or-infinitive-27",
@@ -334,7 +334,7 @@
    "answer": [
     "to upset"
    ],
-   "why": "mean + to = мати намір."
+   "why": "*mean* + *to* — мати намір: *I didn't mean to upset you.*"
   }
  ]
 }

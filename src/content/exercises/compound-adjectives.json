@@ -11,7 +11,7 @@
     "two days"
    ],
    "answer": 0,
-   "why": "Іменник в однині: two-day."
+   "why": "У складному прикметнику перед іменником іменник стоїть в однині й через дефіс: *a two-day trip*. Порівняйте: *The trip lasts two days.*"
   },
   {
    "id": "compound-adjectives-2",
@@ -24,7 +24,7 @@
     "years'"
    ],
    "answer": 1,
-   "why": "Після числа без дефіса — years."
+   "why": "Після числа без дефіса (не перед іменником) — множина: *ten years old*."
   },
   {
    "id": "compound-adjectives-3",
@@ -37,7 +37,7 @@
     "ten year old"
    ],
    "answer": 1,
-   "why": "Складний прикметник: ten-year-old."
+   "why": "Перед іменником — складний прикметник: *a ten-year-old boy* (однина, дефіси)."
   },
   {
    "id": "compound-adjectives-4",
@@ -50,7 +50,7 @@
     "well knowing"
    ],
    "answer": 0,
-   "why": "well-known — прислівник + дієприкметник: складний прикметник."
+   "why": "*well-known* — прислівник + дієприкметник, один прикметник."
   },
   {
    "id": "compound-adjectives-5",
@@ -63,7 +63,7 @@
     "full-timed"
    ],
    "answer": 0,
-   "why": "full-time — на повний робочий день."
+   "why": "*full-time job* — робота на повний день."
   },
   {
    "id": "compound-adjectives-6",
@@ -76,7 +76,7 @@
     "third-course"
    ],
    "answer": 0,
-   "why": "three-course — із трьох страв (іменник в однині)."
+   "why": "*a three-course meal* — іменник в однині."
   },
   {
    "id": "compound-adjectives-7",
@@ -89,7 +89,7 @@
     "five-old-year"
    ],
    "answer": 0,
-   "why": "five-year-old — іменник у складі в однині, через дефіс."
+   "why": "*a five-year-old car*."
   },
   {
    "id": "compound-adjectives-8",
@@ -102,7 +102,7 @@
     "tomorrow"
    ],
    "answer": 3,
-   "why": "tomorrow — не складний прикметник."
+   "why": "*tomorrow* — прислівник, а не складний прикметник."
   },
   {
    "id": "compound-adjectives-9",
@@ -111,7 +111,7 @@
    "answer": [
     "two-hour"
    ],
-   "why": "Складний прикметник: іменник в однині, дефіс."
+   "why": "*a two-hour drive* — однина, дефіс."
   },
   {
    "id": "compound-adjectives-10",
@@ -120,7 +120,7 @@
    "answer": [
     "six-year-old"
    ],
-   "why": "six-year-old — через дефіси, year в однині."
+   "why": "*a six-year-old daughter*."
   },
   {
    "id": "compound-adjectives-11",
@@ -129,7 +129,7 @@
    "answer": [
     "three-bedroom"
    ],
-   "why": "three-bedroom — іменник в однині.",
+   "why": "*a three-bedroom house*.",
    "hint": "(three bedrooms)"
   },
   {
@@ -140,7 +140,7 @@
     "hard-working",
     "hardworking"
    ],
-   "why": "прикметник + -ing: hard-working."
+   "why": "*hard-working* (або разом *hardworking*)."
   },
   {
    "id": "compound-adjectives-13",
@@ -149,7 +149,7 @@
    "answer": [
     "blue-eyed"
    ],
-   "why": "прикметник + іменник + -ed: blue-eyed.",
+   "why": "Прикметник + іменник + *-ed*: *blue-eyed*.",
    "hint": "(blue eyes)"
   },
   {
@@ -163,7 +163,7 @@
     "ten-poundes"
    ],
    "answer": 0,
-   "why": "Іменник у складному прикметнику — однина."
+   "why": "*a ten-pound note* — однина."
   },
   {
    "id": "compound-adjectives-15",
@@ -176,7 +176,7 @@
     "last minute's"
    ],
    "answer": 0,
-   "why": "last-minute — в останню хвилину."
+   "why": "*a last-minute decision* — в останню хвилину."
   },
   {
    "id": "compound-adjectives-16",
@@ -189,7 +189,7 @@
     "old fashions"
    ],
    "answer": 0,
-   "why": "old-fashioned — старомодний."
+   "why": "*old-fashioned* — старомодний."
   },
   {
    "id": "compound-adjectives-17",
@@ -202,7 +202,7 @@
     "good known"
    ],
    "answer": 0,
-   "why": "Після дієслова часто без дефіса: well known."
+   "why": "Після дієслова такі прикметники часто пишуть без дефіса: *is well known*."
   },
   {
    "id": "compound-adjectives-18",
@@ -217,7 +217,7 @@
    "answer": [
     "We had a three-course meal"
    ],
-   "why": "three-course — однина.",
+   "why": "*a three-course meal*.",
    "hint": "Ми мали обід із трьох страв."
   },
   {
@@ -233,7 +233,7 @@
    "answer": [
     "She has a part-time job"
    ],
-   "why": "part-time — перед іменником з дефісом.",
+   "why": "*a part-time job*.",
    "hint": "Вона працює неповний робочий день."
   },
   {
@@ -249,7 +249,7 @@
    "answer": [
     "It was a ten-minute walk"
    ],
-   "why": "ten-minute — однина.",
+   "why": "*a ten-minute walk*.",
    "hint": "Це була десятихвилинна прогулянка."
   },
   {
@@ -263,7 +263,7 @@
     "twelve-houred"
    ],
    "answer": 1,
-   "why": "Іменник у складному прикметнику — в однині."
+   "why": "*twelve-hour shifts* — у складному прикметнику однина, навіть якщо іменник після нього в множині."
   },
   {
    "id": "compound-adjectives-22",
@@ -276,7 +276,7 @@
     "left-handed"
    ],
    "answer": 0,
-   "why": "absent-minded — неуважний."
+   "why": "*absent-minded* — неуважний (вічно все забуває)."
   },
   {
    "id": "compound-adjectives-23",
@@ -285,7 +285,7 @@
    "answer": [
     "two-hour"
    ],
-   "why": "two-hour — через дефіс, однина."
+   "why": "*a two-hour flight*."
   }
  ]
 }

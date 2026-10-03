@@ -11,7 +11,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "depend on."
+   "why": "*depend on* — залежати від. Українське «від» підштовхує до *from*, але в англійській — *on*."
   },
   {
    "id": "verb-preposition-2",
@@ -24,7 +24,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "listen to."
+   "why": "*listen to* — слухати когось: прийменник обов'язковий, якщо є додаток."
   },
   {
    "id": "verb-preposition-3",
@@ -37,7 +37,7 @@
     "on"
    ],
    "answer": 2,
-   "why": "wait for."
+   "why": "*wait for* — чекати на когось."
   },
   {
    "id": "verb-preposition-4",
@@ -50,7 +50,7 @@
     "about"
    ],
    "answer": 0,
-   "why": "apologise for."
+   "why": "*apologise for* — вибачатися за щось."
   },
   {
    "id": "verb-preposition-5",
@@ -63,7 +63,7 @@
     "to"
    ],
    "answer": 1,
-   "why": "believe in."
+   "why": "*believe in* — вірити в когось (довіряти, підтримувати). *believe you* без прийменника — вірити твоїм словам."
   },
   {
    "id": "verb-preposition-6",
@@ -76,7 +76,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "look for — шукати."
+   "why": "*look for* — шукати."
   },
   {
    "id": "verb-preposition-7",
@@ -89,7 +89,7 @@
     "up"
    ],
    "answer": 1,
-   "why": "look after — доглядати."
+   "why": "*look after* — доглядати."
   },
   {
    "id": "verb-preposition-8",
@@ -102,7 +102,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "discuss — без прийменника: discuss the problem (не discuss about)."
+   "why": "*discuss* — перехідне дієслово, без прийменника: *We discussed the problem.* *discuss about* — калька з «обговорювати про»."
   },
   {
    "id": "verb-preposition-9",
@@ -115,7 +115,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "agree with + людина."
+   "why": "*agree with* + людина: *They agreed with me.* *agree to* + пропозиція."
   },
   {
    "id": "verb-preposition-10",
@@ -128,7 +128,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "suffer from."
+   "why": "*suffer from* — страждати від."
   },
   {
    "id": "verb-preposition-11",
@@ -137,7 +137,7 @@
    "answer": [
     "with"
    ],
-   "why": "agree with + людина."
+   "why": "*agree with* + людина."
   },
   {
    "id": "verb-preposition-12",
@@ -146,7 +146,7 @@
    "answer": [
     "to"
    ],
-   "why": "belong to — належати."
+   "why": "*belong to* — належати."
   },
   {
    "id": "verb-preposition-13",
@@ -155,7 +155,7 @@
    "answer": [
     "for"
    ],
-   "why": "pay for — платити за."
+   "why": "*pay for* — платити за."
   },
   {
    "id": "verb-preposition-14",
@@ -165,7 +165,7 @@
     "about",
     "of"
    ],
-   "why": "think about / of — розмірковувати про."
+   "why": "*think about / of* — розмірковувати про."
   },
   {
    "id": "verb-preposition-15",
@@ -174,7 +174,7 @@
    "answer": [
     "of"
    ],
-   "why": "consist of — складатися з."
+   "why": "*consist of* — складатися з."
   },
   {
    "id": "verb-preposition-16",
@@ -183,7 +183,7 @@
    "answer": [
     "at"
    ],
-   "why": "laugh at — сміятися з."
+   "why": "*laugh at* — сміятися з когось."
   },
   {
    "id": "verb-preposition-17",
@@ -196,7 +196,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "concentrate on."
+   "why": "*concentrate on* — зосередитися на."
   },
   {
    "id": "verb-preposition-18",
@@ -209,7 +209,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "hear of — чути про (існування)."
+   "why": "*hear of* — знати про існування: *I've never heard of him.*"
   },
   {
    "id": "verb-preposition-19",
@@ -222,7 +222,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "succeed in + -ing."
+   "why": "*succeed in* + *-ing*."
   },
   {
    "id": "verb-preposition-20",
@@ -235,7 +235,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "enter — без прийменника."
+   "why": "*enter* — без прийменника: *entered the room*."
   },
   {
    "id": "verb-preposition-21",
@@ -250,7 +250,7 @@
    "answer": [
     "It depends on the price"
    ],
-   "why": "depend on.",
+   "why": "*depend on*.",
    "hint": "Це залежить від ціни."
   },
   {
@@ -267,7 +267,7 @@
    "answer": [
     "I am looking for my glasses"
    ],
-   "why": "look for — шукати.",
+   "why": "*look for* — шукати.",
    "hint": "Я шукаю окуляри."
   },
   {
@@ -285,7 +285,7 @@
    "answer": [
     "She asked for a glass of water"
    ],
-   "why": "ask for — просити щось.",
+   "why": "*ask for* — просити щось.",
    "hint": "Вона попросила склянку води."
   },
   {
@@ -293,13 +293,13 @@
    "type": "choice",
    "q": "I've never heard ___ this writer.",
    "options": [
-    "about",
+    "at",
     "of",
     "from",
     "for"
    ],
    "answer": 1,
-   "why": "hear of — знати про існування."
+   "why": "*hear of* — знати про існування: *I've never heard of this writer.*"
   },
   {
    "id": "verb-preposition-25",
@@ -312,7 +312,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "provide sb with sth."
+   "why": "*provide somebody with something*."
   },
   {
    "id": "verb-preposition-26",
@@ -322,7 +322,7 @@
     "into",
     "to"
    ],
-   "why": "translate into."
+   "why": "*translate into English* (у розмові й *to*)."
   }
  ]
 }

@@ -11,7 +11,7 @@
     "continue"
    ],
    "answer": 1,
-   "why": "give up — кинути."
+   "why": "*give up* — кинути, здатися."
   },
   {
    "id": "phrasal-verbs-common-2",
@@ -24,7 +24,7 @@
     "forget"
    ],
    "answer": 0,
-   "why": "find out — дізнатися."
+   "why": "*find out* — дізнатися."
   },
   {
    "id": "phrasal-verbs-common-3",
@@ -37,7 +37,7 @@
     "admire"
    ],
    "answer": 1,
-   "why": "look after — доглядати."
+   "why": "*look after* — доглядати."
   },
   {
    "id": "phrasal-verbs-common-4",
@@ -50,7 +50,7 @@
     "throw"
    ],
    "answer": 0,
-   "why": "put off — відкласти."
+   "why": "*put off* — відкласти."
   },
   {
    "id": "phrasal-verbs-common-5",
@@ -63,7 +63,7 @@
     "repeat"
    ],
    "answer": 0,
-   "why": "turn down — відхилити."
+   "why": "*turn down* — відхилити."
   },
   {
    "id": "phrasal-verbs-common-6",
@@ -76,7 +76,7 @@
     "argue"
    ],
    "answer": 0,
-   "why": "get along — ладнати."
+   "why": "*get along with* — ладнати."
   },
   {
    "id": "phrasal-verbs-common-7",
@@ -89,7 +89,7 @@
     "refuse"
    ],
    "answer": 0,
-   "why": "come up with — придумати."
+   "why": "*come up with* — придумати."
   },
   {
    "id": "phrasal-verbs-common-8",
@@ -102,7 +102,7 @@
     "exit"
    ],
    "answer": 0,
-   "why": "run out of — вичерпатися."
+   "why": "*run out of* — закінчитися."
   },
   {
    "id": "phrasal-verbs-common-9",
@@ -115,7 +115,7 @@
     "repair"
    ],
    "answer": 0,
-   "why": "break up — розійтися."
+   "why": "*break up* — розійтися."
   },
   {
    "id": "phrasal-verbs-common-10",
@@ -128,7 +128,7 @@
     "cancel"
    ],
    "answer": 0,
-   "why": "carry on — продовжувати."
+   "why": "*carry on* — продовжувати."
   },
   {
    "id": "phrasal-verbs-common-11",
@@ -137,7 +137,7 @@
    "answer": [
     "out"
    ],
-   "why": "find out — дізнатися."
+   "why": "*find out* — дізнатися."
   },
   {
    "id": "phrasal-verbs-common-12",
@@ -146,7 +146,7 @@
    "answer": [
     "up"
    ],
-   "why": "give up — здаватися."
+   "why": "*give up* — здаватися."
   },
   {
    "id": "phrasal-verbs-common-13",
@@ -155,7 +155,7 @@
    "answer": [
     "off"
    ],
-   "why": "call off — скасувати."
+   "why": "*call off* — скасувати."
   },
   {
    "id": "phrasal-verbs-common-14",
@@ -164,7 +164,7 @@
    "answer": [
     "up"
    ],
-   "why": "grow up — вирости."
+   "why": "*grow up* — вирости."
   },
   {
    "id": "phrasal-verbs-common-15",
@@ -173,7 +173,7 @@
    "answer": [
     "out"
    ],
-   "why": "sort out — розібратися."
+   "why": "*sort out* — розібратися, владнати."
   },
   {
    "id": "phrasal-verbs-common-16",
@@ -183,7 +183,7 @@
     "across",
     "upon"
    ],
-   "why": "come across — натрапити."
+   "why": "*come across* — натрапити (*come upon* — книжне)."
   },
   {
    "id": "phrasal-verbs-common-17",
@@ -196,7 +196,7 @@
     "in"
    ],
    "answer": 0,
-   "why": "take up — почати (хобі)."
+   "why": "*take up* — почати займатися (хобі, спорт)."
   },
   {
    "id": "phrasal-verbs-common-18",
@@ -209,7 +209,7 @@
     "off"
    ],
    "answer": 0,
-   "why": "try on — приміряти."
+   "why": "*try on* — приміряти."
   },
   {
    "id": "phrasal-verbs-common-19",
@@ -222,7 +222,7 @@
     "out"
    ],
    "answer": 0,
-   "why": "take off — злетіти."
+   "why": "*take off* — злетіти."
   },
   {
    "id": "phrasal-verbs-common-20",
@@ -235,7 +235,7 @@
     "in"
    ],
    "answer": 0,
-   "why": "get on (with) — ладнати."
+   "why": "*get on (well) with* — ладнати."
   },
   {
    "id": "phrasal-verbs-common-21",
@@ -250,7 +250,7 @@
    "answer": [
     "I get up at seven"
    ],
-   "why": "get up — вставати.",
+   "why": "*get up* — вставати.",
    "hint": "Я встаю о сьомій."
   },
   {
@@ -267,7 +267,7 @@
     "They broke up last year",
     "Last year they broke up"
    ],
-   "why": "break up — розійтися.",
+   "why": "*break up* — розійтися.",
    "hint": "Вони розійшлися минулого року."
   },
   {
@@ -284,7 +284,7 @@
     "Let's put off the meeting",
     "Let's put the meeting off"
    ],
-   "why": "put off — відкласти.",
+   "why": "*put off* — роздільне: *put off the meeting* / *put the meeting off*.",
    "hint": "Давай відкладемо зустріч."
   },
   {
@@ -294,11 +294,11 @@
    "options": [
     "set off",
     "set up",
-    "took off",
+    "put off",
     "got off"
    ],
    "answer": 0,
-   "why": "set off — вирушити."
+   "why": "*set off* — вирушити в дорогу."
   },
   {
    "id": "phrasal-verbs-common-25",
@@ -308,10 +308,10 @@
     "turned up",
     "turned out",
     "found out",
-    "came out"
+    "went out"
    ],
    "answer": 1,
-   "why": "turn out — виявитися."
+   "why": "*It turned out that…* — виявилося, що…"
   },
   {
    "id": "phrasal-verbs-common-26",
@@ -320,7 +320,7 @@
    "answer": [
     "off"
    ],
-   "why": "see off — проводжати."
+   "why": "*see somebody off* — проводжати."
   }
  ]
 }

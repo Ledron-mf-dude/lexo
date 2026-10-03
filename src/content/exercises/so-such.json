@@ -11,7 +11,7 @@
     "so much"
    ],
    "answer": 1,
-   "why": "so + прикметник."
+   "why": "*so* + прикметник без іменника: *She is so tall.* *such* вимагає іменника."
   },
   {
    "id": "so-such-2",
@@ -24,7 +24,7 @@
     "so a"
    ],
    "answer": 2,
-   "why": "such a + прикметник + іменник."
+   "why": "*such a* + прикметник + лічильний іменник в однині: *such a nice day*."
   },
   {
    "id": "so-such-3",
@@ -37,7 +37,7 @@
     "so much"
    ],
    "answer": 1,
-   "why": "such + множина."
+   "why": "Множина — *such* без артикля: *such kind people*."
   },
   {
    "id": "so-such-4",
@@ -50,7 +50,7 @@
     "very"
    ],
    "answer": 0,
-   "why": "so much + нелічильне."
+   "why": "*so much* + нелічильне: *so much work*."
   },
   {
    "id": "so-such-5",
@@ -63,7 +63,7 @@
     "much"
    ],
    "answer": 0,
-   "why": "so many + лічильне."
+   "why": "*so many* + лічильне: *so many people*."
   },
   {
    "id": "so-such-6",
@@ -76,7 +76,7 @@
     "very"
    ],
    "answer": 0,
-   "why": "so + adj + that."
+   "why": "*so* + прикметник + *that*: *so cold that…*"
   },
   {
    "id": "so-such-7",
@@ -89,7 +89,7 @@
     "very"
    ],
    "answer": 1,
-   "why": "such a + adj + noun + that."
+   "why": "*such a* + прикметник + іменник + *that*."
   },
   {
    "id": "so-such-8",
@@ -102,7 +102,7 @@
     "She is such a tall."
    ],
    "answer": 1,
-   "why": "so + adj."
+   "why": "*so* + прикметник: *She is so tall.*"
   },
   {
    "id": "so-such-9",
@@ -115,7 +115,7 @@
     "very much"
    ],
    "answer": 0,
-   "why": "so + adv + that."
+   "why": "*so* + прислівник + *that*: *so fast that…*"
   },
   {
    "id": "so-such-10",
@@ -128,7 +128,7 @@
     "so much"
    ],
    "answer": 1,
-   "why": "news — нелічильне: such good news."
+   "why": "*news* — нелічильне: *such good news* (без *a*)."
   },
   {
    "id": "so-such-11",
@@ -137,7 +137,7 @@
    "answer": [
     "so"
    ],
-   "why": "so + прикметник + that."
+   "why": "*so boring that…*"
   },
   {
    "id": "so-such-12",
@@ -146,7 +146,7 @@
    "answer": [
     "such"
    ],
-   "why": "such a + прикметник + іменник."
+   "why": "*such a good teacher*."
   },
   {
    "id": "so-such-13",
@@ -156,7 +156,7 @@
     "so",
     "that"
    ],
-   "why": "so many + лічильне."
+   "why": "*so many birds* (у розмові й *that many*)."
   },
   {
    "id": "so-such-14",
@@ -166,7 +166,7 @@
     "such",
     "so much"
    ],
-   "why": "such fun / so much fun — нелічильне."
+   "why": "*fun* — нелічильне: *such fun* або *so much fun*."
   },
   {
    "id": "so-such-15",
@@ -176,7 +176,7 @@
     "so",
     "that"
    ],
-   "why": "so + прислівник.",
+   "why": "*so fast* (у розмові й *that fast*).",
    "hint": "(так)"
   },
   {
@@ -190,7 +190,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "such + множина."
+   "why": "Множина — *such friendly people*."
   },
   {
    "id": "so-such-17",
@@ -203,7 +203,7 @@
     "such a"
    ],
    "answer": 0,
-   "why": "such + an + adj + noun."
+   "why": "*such an interesting book*."
   },
   {
    "id": "so-such-18",
@@ -216,7 +216,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "so little + нелічильне."
+   "why": "*so little time*."
   },
   {
    "id": "so-such-19",
@@ -229,7 +229,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "so + прикметник."
+   "why": "*so happy*."
   },
   {
    "id": "so-such-20",
@@ -245,7 +245,7 @@
    "answer": [
     "It was such a lovely day"
    ],
-   "why": "such a + adj + noun.",
+   "why": "*such a lovely day*.",
    "hint": "Був такий чудовий день."
   },
   {
@@ -264,7 +264,7 @@
    "answer": [
     "She was so tired that she fell asleep"
    ],
-   "why": "so + adj + that.",
+   "why": "*so tired that…*",
    "hint": "Вона так утомилася, що заснула."
   },
   {
@@ -281,7 +281,7 @@
    "answer": [
     "There are so many people here"
    ],
-   "why": "so many + лічильне.",
+   "why": "*so many people*.",
    "hint": "Тут так багато людей."
   },
   {
@@ -295,7 +295,7 @@
     "such much"
    ],
    "answer": 1,
-   "why": "Лічильні — so many."
+   "why": "Лічильне — *so many cars*."
   },
   {
    "id": "so-such-24",
@@ -308,7 +308,7 @@
     "so a"
    ],
    "answer": 1,
-   "why": "fun — нелічильне: such fun."
+   "why": "*fun* — нелічильне: *such fun*."
   },
   {
    "id": "so-such-25",
@@ -317,7 +317,7 @@
    "answer": [
     "such"
    ],
-   "why": "such as — наприклад."
+   "why": "*such as* — наприклад."
   }
  ]
 }

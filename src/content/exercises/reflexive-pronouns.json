@@ -11,7 +11,7 @@
     "I"
    ],
    "answer": 1,
-   "why": "Підмет = додаток — myself."
+   "why": "Коли підмет і додаток — та сама людина, потрібен зворотний займенник: *I cut myself.* *me* означало б когось іншого."
   },
   {
    "id": "reflexive-pronouns-2",
@@ -24,7 +24,7 @@
     "hers"
    ],
    "answer": 2,
-   "why": "herself."
+   "why": "Вона дивилася на себе: *herself*. *her* означало б іншу жінку."
   },
   {
    "id": "reflexive-pronouns-3",
@@ -37,7 +37,7 @@
     "them"
    ],
    "answer": 1,
-   "why": "each other — один одного."
+   "why": "Він любить її, а вона його — взаємність: *each other*. *themselves* — кожен любить себе."
   },
   {
    "id": "reflexive-pronouns-4",
@@ -50,7 +50,7 @@
     "on his own self"
    ],
    "answer": 0,
-   "why": "by himself — сам, самотньо."
+   "why": "*by himself* — сам, без нікого."
   },
   {
    "id": "reflexive-pronouns-5",
@@ -63,7 +63,7 @@
     "yours"
    ],
    "answer": 1,
-   "why": "Help yourself! — Пригощайтеся."
+   "why": "*Help yourself!* — «Пригощайтеся!»"
   },
   {
    "id": "reflexive-pronouns-6",
@@ -76,7 +76,7 @@
     "we"
    ],
    "answer": 2,
-   "why": "ourselves."
+   "why": "*enjoy* вимагає додатка: *We enjoyed ourselves.*"
   },
   {
    "id": "reflexive-pronouns-7",
@@ -89,7 +89,7 @@
     "yous"
    ],
    "answer": 1,
-   "why": "yourself → yourselves."
+   "why": "*yourself → yourselves*."
   },
   {
    "id": "reflexive-pronouns-8",
@@ -102,7 +102,7 @@
     "in myself"
    ],
    "answer": 1,
-   "why": "by myself — сам, без допомоги."
+   "why": "*by myself* — сам, без допомоги."
   },
   {
    "id": "reflexive-pronouns-9",
@@ -115,7 +115,7 @@
     "he"
    ],
    "answer": 1,
-   "why": "Для підкреслення — himself."
+   "why": "Підсилення («сам менеджер») — *himself*: *The manager himself called me.*"
   },
   {
    "id": "reflexive-pronouns-10",
@@ -124,7 +124,7 @@
    "answer": [
     "yourself"
    ],
-   "why": "you (однина) → yourself."
+   "why": "*you* в однині — *yourself*."
   },
   {
    "id": "reflexive-pronouns-11",
@@ -134,7 +134,7 @@
     "themselves",
     "by themselves"
    ],
-   "why": "themselves — самі."
+   "why": "*themselves / by themselves* — самі, без допомоги."
   },
   {
    "id": "reflexive-pronouns-12",
@@ -144,7 +144,7 @@
     "yourself",
     "yourselves"
    ],
-   "why": "Make yourself at home — почувайтеся як удома."
+   "why": "*Make yourself at home* — «почувайтеся як удома»; до кількох людей — *yourselves*."
   },
   {
    "id": "reflexive-pronouns-13",
@@ -153,7 +153,7 @@
    "answer": [
     "itself"
    ],
-   "why": "by itself — само собою."
+   "why": "*by itself* — само собою."
   },
   {
    "id": "reflexive-pronouns-14",
@@ -163,7 +163,7 @@
     "each other",
     "one another"
    ],
-   "why": "each other — один на одного."
+   "why": "Взаємність — *each other / one another*."
   },
   {
    "id": "reflexive-pronouns-15",
@@ -176,7 +176,7 @@
     "my self"
    ],
    "answer": 0,
-   "why": "Підмет = додаток — myself."
+   "why": "*taught myself* — навчився сам."
   },
   {
    "id": "reflexive-pronouns-16",
@@ -184,12 +184,12 @@
    "q": "She got up, washed and ___.",
    "options": [
     "got dressed",
-    "dressed herself up",
+    "dressed herself on",
     "dressing",
     "dressed her"
    ],
    "answer": 0,
-   "why": "Після wash/dress зазвичай без -self."
+   "why": "*wash, dress, shave* зазвичай без *-self*: *got dressed*."
   },
   {
    "id": "reflexive-pronouns-17",
@@ -202,7 +202,7 @@
     "ourselves"
    ],
    "answer": 0,
-   "why": "Кілька дітей — yourselves."
+   "why": "До кількох дітей — *yourselves*."
   },
   {
    "id": "reflexive-pronouns-18",
@@ -215,7 +215,7 @@
     "them"
    ],
    "answer": 0,
-   "why": "Кожен себе — themselves."
+   "why": "Кожен звинувачував себе — *themselves*."
   },
   {
    "id": "reflexive-pronouns-19",
@@ -230,7 +230,7 @@
    "answer": [
     "I did it by myself"
    ],
-   "why": "by myself — без допомоги.",
+   "why": "*by myself* — без допомоги.",
    "hint": "Я зробив це сам."
   },
   {
@@ -246,7 +246,7 @@
    "answer": [
     "Help yourself to some tea"
    ],
-   "why": "Help yourself.",
+   "why": "*Help yourself to…* — пригощайтеся.",
    "hint": "Пригощайтеся чаєм."
   },
   {
@@ -265,7 +265,7 @@
     "They talk to each other every day",
     "Every day they talk to each other"
    ],
-   "why": "each other — взаємно.",
+   "why": "*each other* — одне одного.",
    "hint": "Вони розмовляють одне з одним щодня."
   },
   {
@@ -279,7 +279,7 @@
     "mine"
    ],
    "answer": 1,
-   "why": "introduce yourself."
+   "why": "*introduce myself* — представитися."
   },
   {
    "id": "reflexive-pronouns-23",
@@ -292,7 +292,7 @@
     "yourself concentrate"
    ],
    "answer": 1,
-   "why": "concentrate — без займенника."
+   "why": "*concentrate* і *relax* — без зворотного займенника."
   },
   {
    "id": "reflexive-pronouns-24",
@@ -301,7 +301,7 @@
    "answer": [
     "yourself"
    ],
-   "why": "cut yourself."
+   "why": "*cut yourself* — порізатися."
   }
  ]
 }

@@ -11,7 +11,7 @@
     "is could"
    ],
    "answer": 0,
-   "why": "could be + порівняльний ступінь."
+   "why": "*could be* + порівняльний ступінь — «могло б бути краще»: *It could be warmer today.*"
   },
   {
    "id": "could-be-comparative-2",
@@ -24,7 +24,7 @@
     "cheapest"
    ],
    "answer": 1,
-   "why": "Короткий прикметник: -er."
+   "why": "Короткий прикметник: *cheap → cheaper*."
   },
   {
    "id": "could-be-comparative-3",
@@ -37,7 +37,7 @@
     "mostly"
    ],
    "answer": 0,
-   "why": "Довгий прикметник: more + adj."
+   "why": "Довгий прикметник: *more interesting*."
   },
   {
    "id": "could-be-comparative-4",
@@ -50,7 +50,7 @@
     "certainty"
    ],
    "answer": 0,
-   "why": "could be + comparative — про теперішнє/майбутнє; про минуле — could have been."
+   "why": "*could be* + порівняльний — про теперішнє чи майбутнє; про минуле — *could have been*."
   },
   {
    "id": "could-be-comparative-5",
@@ -63,7 +63,7 @@
     "It could be warmest."
    ],
    "answer": 1,
-   "why": "warm → warmer."
+   "why": "*warm → warmer*."
   },
   {
    "id": "could-be-comparative-6",
@@ -76,7 +76,7 @@
     "more big"
    ],
    "answer": 1,
-   "why": "big → bigger."
+   "why": "*big → bigger*."
   },
   {
    "id": "could-be-comparative-7",
@@ -91,7 +91,7 @@
    "answer": [
     "The food could be better"
    ],
-   "why": "could be + better."
+   "why": "*could be better* — є куди покращувати."
   },
   {
    "id": "could-be-comparative-8",
@@ -100,7 +100,7 @@
    "answer": [
     "could be"
    ],
-   "why": "could be worse — могло бути й гірше."
+   "why": "*could be worse* — могло бути й гірше."
   },
   {
    "id": "could-be-comparative-9",
@@ -109,7 +109,7 @@
    "answer": [
     "better"
    ],
-   "why": "Couldn't be better — краще не буває."
+   "why": "*Couldn't be better* — краще не буває."
   },
   {
    "id": "could-be-comparative-10",
@@ -118,7 +118,7 @@
    "answer": [
     "cleaner"
    ],
-   "why": "could have been + порівняльний — про минуле."
+   "why": "Про минуле — *could have been cleaner*."
   },
   {
    "id": "could-be-comparative-11",
@@ -127,7 +127,7 @@
    "answer": [
     "clearer"
    ],
-   "why": "clear → clearer."
+   "why": "*clear → clearer*."
   },
   {
    "id": "could-be-comparative-12",
@@ -140,7 +140,7 @@
     "could being"
    ],
    "answer": 0,
-   "why": "could be better — є куди покращувати."
+   "why": "Зараз так собі — *could be better*."
   },
   {
    "id": "could-be-comparative-13",
@@ -153,7 +153,7 @@
     "it's the same"
    ],
    "answer": 0,
-   "why": "Заперечення + порівняльний — найвища оцінка."
+   "why": "Заперечення + порівняльний = найвища оцінка."
   },
   {
    "id": "could-be-comparative-14",
@@ -166,7 +166,7 @@
     "could had been"
    ],
    "answer": 0,
-   "why": "Про минуле — could have been."
+   "why": "Про минуле — *could have been shorter*."
   },
   {
    "id": "could-be-comparative-15",
@@ -179,7 +179,7 @@
     "much"
    ],
    "answer": 0,
-   "why": "I couldn't agree more — повністю згоден."
+   "why": "*I couldn't agree more* — повністю згоден."
   },
   {
    "id": "could-be-comparative-16",
@@ -192,7 +192,7 @@
     "cheap"
    ],
    "answer": 0,
-   "why": "a lot + порівняльний: cheaper."
+   "why": "*a lot cheaper*."
   },
   {
    "id": "could-be-comparative-17",
@@ -208,7 +208,7 @@
    "answer": [
     "The service could be much better"
    ],
-   "why": "could be + much + порівняльний.",
+   "why": "*much better*.",
    "hint": "Обслуговування могло б бути набагато кращим."
   },
   {
@@ -224,7 +224,7 @@
    "answer": [
     "It could have been worse"
    ],
-   "why": "Про минуле — could have been.",
+   "why": "*It could have been worse*.",
    "hint": "Могло бути й гірше."
   },
   {
@@ -240,7 +240,7 @@
    "answer": [
     "The timing couldn't be worse"
    ],
-   "why": "couldn't be + порівняльний.",
+   "why": "*couldn't be worse* — гіршого не придумаєш.",
    "hint": "Гіршого моменту не придумаєш."
   },
   {
@@ -254,7 +254,7 @@
     "worse"
    ],
    "answer": 1,
-   "why": "couldn't care less — байдуже."
+   "why": "*I couldn't care less* — мені байдуже."
   },
   {
    "id": "could-be-comparative-21",
@@ -267,7 +267,7 @@
     "could have"
    ],
    "answer": 1,
-   "why": "could be better — є куди покращувати."
+   "why": "Чекали годину — *could be better*."
   },
   {
    "id": "could-be-comparative-22",
@@ -276,7 +276,7 @@
    "answer": [
     "easier"
    ],
-   "why": "Потрібен порівняльний ступінь."
+   "why": "*couldn't have been easier* — легше не буває."
   }
  ]
 }
