@@ -63,7 +63,8 @@ npm run lint     # oxlint
 - Question ids must stay stable, because the log references them.
 - Placement test and learning path ([src/lib/learningPath.ts](src/lib/learningPath.ts)):
   - [src/pages/Placement.tsx](src/pages/Placement.tsx) is at `/grammar/placement`, declared before `grammar/:slug`.
-  - It asks blocks of 4 choice/fill questions per level, A1 → A2 → B1 → B1+ → B2 (C1 has one topic), taken from topics whose starting level is that level. It stops at the first block with fewer than 3 right.
+  - It asks blocks of 4 questions per level, A1 → A2 → B1 → B1+ → B2 (C1 has one topic), one per topic. A level counts as passed with 3 right. A failed block does not end the test; only a block with no right answers does.
+  - The questions come from a hand-picked list per level, [src/content/placement.json](src/content/placement.json), of question ids. Whole banks are not used because they also hold harder and theory questions, and the test has no «Мій варіант теж правильний». A listed question must have a gap, be of that level, and have exactly one right answer.
   - Answers go to `exercise_log`. The result (passed level, scores, weak topics) is kept in `localStorage` under `lexo.placement`.
   - [src/components/LearningPath.tsx](src/components/LearningPath.tsx) on the Grammar page builds the route with `buildRoute`: weak topics first, then topics of the study level.
   - A topic counts as learned (`topicStatus`, «засвоєно») when the latest answer is right for at least 80% of all its questions. The same rule is used by the topic list, the article, Stats and the route. Question-level wording is «правильно». The study level moves up once 80% of its topics are learned.

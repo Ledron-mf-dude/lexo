@@ -1,6 +1,7 @@
 import { topicStats, type LogRow } from './exerciseLog'
 import { exercises, shuffle, itemsOf, type Item } from './exercises'
 import { articles, LEVELS, startLevel, type Article, type Level } from './grammar'
+import placementIds from '../content/placement.json'
 
 /**
  * Placement test and learning path. The test walks up the levels in blocks of a few questions.
@@ -71,14 +72,32 @@ export function studyLevelAfter(passed: Level | null): Level {
 
 /** Questions for one level: from different topics that start at that level, quick types only (choice and fill). */
 export function drawBlock(level: Level): Item[] {
-  const topics = shuffle(articles.filter((a) => startLevel(a) === level && itemsOf(a.slug).length > 0))
-  const block: Item[] = []
-  for (const a of topics) {
-    const quick = itemsOf(a.slug).filter((i) => i.q.type === 'choice' || i.q.type === 'fill')
-    if (quick.length > 0) block.push(shuffle(quick)[0])
-    if (block.length === BLOCK_SIZE) break
+  // One question per topic, so a block samples several areas of the level.
+  const byTopic = new Map<string, Item[]>()
+  for (const item of placementPool(level)) byTopic.set(item.slug, [...(byTopic.get(item.slug) ?? []), item])
+  return shuffle([...byTopic.values()])
+    .slice(0, BLOCK_SIZE)
+    .map((items) => shuffle(items)[0])
+}
+
+/**
+ * The questions the test may ask at a level: a hand-picked list (src/content/placement.json) of gap questions
+ * of that level with one clear answer. A topic's bank also holds harder and theory questions, and the test
+ * offers no «my answer is right too», so it does not draw from whole banks.
+ */
+function placementPool(level: Level): Item[] {
+  const items: Item[] = []
+  for (const id of (placementIds as Partial<Record<Level, string[]>>)[level] ?? []) {
+    const slug = id.replace(/-\d+$/, '')
+    const item = itemsOf(slug).find((i) => i.q.id === id)
+    if (item) items.push(item)
+    else console.warn(`placement.json: no question ${id}`)
   }
-  return block
+  if (items.length > 0) return items
+  // A level without a list falls back to the quick questions of the topics that start there.
+  return articles
+    .filter((a) => startLevel(a) === level)
+    .flatMap((a) => itemsOf(a.slug).filter((i) => i.q.type === 'choice' || i.q.type === 'fill'))
 }
 
 export type TopicStatus = 'new' | 'progress' | 'done'
