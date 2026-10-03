@@ -60,6 +60,20 @@ tags: [double negatives, nothing, anything, nobody, anybody, never, ever, hardly
 
 Для емоційного підсилення: *I'll **never ever** do that again!* / ***No way!*** — це не подвійне заперечення, а підсилення одного.
 
+## Як вибрати
+
+1. Заперечення вже є в дієслові (*don't, didn't, can't, never*)? — далі ***any-***: *I don't know anything.*
+2. Дієслово ствердне? — заперечення переносимо в слово: *nobody, nothing, nowhere*: *I know nothing.*
+3. *hardly, barely, scarcely, without* уже заперечні — далі теж *any-*: *hardly anything*, *without saying anything*.
+4. *Nobody / Nothing* на початку — дієслово ствердне: *Nobody called.*
+
+## Пастки перекладу
+
+- Українська вимагає подвійного заперечення («я нічого не знаю»), а стандартна англійська — ні: *I don't know anything* або *I know nothing*.
+- «Ніхто не дзвонив» — *Nobody called*, а не *Nobody didn't call*.
+- «Ледве чую» — *I can hardly hear*, без *not*.
+- У пісні чи розмові *I don't need no…* трапляється, але в нормі — помилка.
+
 ## Типові помилки
 
 - ✗ *I don't know nothing.* → ✓ *I don't know **anything**.* / *I know **nothing**.*

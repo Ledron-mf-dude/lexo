@@ -66,6 +66,21 @@ tags: [do, make, do vs make, collocations, homework, mistake, decision, роби
 
 **make** + особа + прикметник — «робити якимось»: *The news **made her happy**.*
 
+## Як вибрати
+
+1. Створюєте, виготовляєте щось нове, що лишиться (план, торт, шум, рішення)? — ***make***.
+2. Виконуєте роботу, завдання, діяльність (домашні справи, спорт, обов'язки)? — ***do***.
+3. Загальне «щось робити» без назви дії — *do*: *What are you doing?*, *do something*.
+4. Багато виразів просто треба запам'ятати: *make a mistake, make money, make friends, make sense*; *do a favour, do your best, do research*.
+5. *make* + особа + дієслово без *to* — «змусити»: *It made me cry.*
+
+## Пастки перекладу
+
+- «Зробити помилку» — *make a mistake*, а не *do a mistake*.
+- «Робити домашнє завдання» — *do homework*, а не *make homework*.
+- «Зробити послугу» — *do somebody a favour*.
+- «Займатися спортом» — *do sport* (або *play football*), не *make sport*.
+
 ## Типові помилки
 
 - ✗ *make homework* → ✓ ***do** homework*

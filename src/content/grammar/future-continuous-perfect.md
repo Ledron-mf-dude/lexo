@@ -56,6 +56,21 @@ tags: [future continuous, future perfect, future perfect continuous, will be doi
 
 `Will be + -ing` і `will have + V3` іноді — упевнене припущення: *Don't call now — they**'ll be having** dinner.* / *She**'ll have arrived** by now.*
 
+## Як вибрати
+
+1. Процес у певний момент майбутнього (*this time tomorrow, at 8 pm*)? — **Future Continuous**: *will be + -ing*.
+2. Дія закінчиться **до** моменту в майбутньому (*by Friday, by the time*)? — **Future Perfect**: *will have + V3*.
+3. Тривалість до моменту в майбутньому (*by June … for ten years*)? — **Future Perfect Continuous**.
+4. Ввічливо питаєте про плани? — *Will you be using…?*
+5. Припущення про вже зроблене — *She'll have gone to bed.*
+
+## Пастки перекладу
+
+- «О восьмій я буду в дорозі» — *I'll be driving*, а не *I'll drive*.
+- «До п'ятниці я закінчу» — *By Friday I'll have finished*: прийменник *by* підказує перфект.
+- Після *by the time* — Present Simple: *By the time you arrive…*, не *will arrive*.
+- Українська має один майбутній час, тому важливо вирішити, процес це, результат чи тривалість.
+
 ## Типові помилки
 
 - ✗ *By 6 pm I will have finish the report.* → ✓ *By 6 pm I will have **finished** the report.*

@@ -63,6 +63,21 @@ wordTags: [порівняння]
 
 **like** + іменник — «схожий на»: *She sings **like** a bird.* **as** + іменник — «у ролі»: *She works **as** a singer.* Після `the same` — тільки **as**.
 
+## Як вибрати
+
+1. Двоє рівні? — *as* + звичайна форма + *as*: *as tall as*.
+2. Не рівні? — *not as … as* (м'якше за порівняльний ступінь).
+3. У скільки разів? — *twice / three times as … as*.
+4. Кількість: лічильні — *as many*, нелічильні — *as much*.
+5. «Такий самий, як» з іменником — *the same as*.
+
+## Пастки перекладу
+
+- «Такий же високий, як я» — *as tall as me* (у розмові) або *as tall as I am*.
+- Між *as … as* — ніколи не порівняльний: *as tall as*, не *as taller as*.
+- «Удвічі більший» — *twice as big as*, а не *twice bigger than* (калька).
+- «Те саме, що» — *the same as*, а не *the same like*.
+
 ## Типові помилки
 
 - ✗ *She is as taller as me.* → ✓ *She is as **tall** as me.*

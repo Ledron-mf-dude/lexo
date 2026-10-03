@@ -69,6 +69,21 @@ tags: [future, future forms, be going to, present continuous for future, will, �
 - **Future Continuous** (*will be doing*) і **Future Perfect** (*will have done*) — у статті «Future Continuous, Future Perfect і Future Perfect Continuous».
 - **be about to, be due to, be to** — у статті «Інші способи говорити про майбутнє: be about to, be due to, be to».
 
+## Як вибрати
+
+1. Розклад, офіційний графік? — **Present Simple**: *The train leaves at 9.*
+2. Домовленість з іншими людьми (є час, місце, квитки)? — **Present Continuous**: *I'm meeting Anna at 6.*
+3. Власний намір, рішення, прийняте раніше? — ***be going to***.
+4. Прогноз на основі того, що бачимо зараз? — ***be going to***: *Look at the clouds! It's going to rain.*
+5. Рішення в момент мовлення, обіцянка, пропозиція, думка-прогноз (*I think…*)? — ***will***.
+
+## Пастки перекладу
+
+- В українській одна форма «піду / буду йти», а в англійській вибір залежить від того, план це, домовленість чи раптове рішення.
+- «Телефон дзвонить. Я візьму» — *I'll get it* (рішення зараз).
+- «Подзвоню, коли приїду» — *when I arrive*: після *when* без *will*.
+- «Що ти робиш увечері?» (про плани) — *What are you doing this evening?*
+
 ## Типові помилки
 
 - ✗ *I meet Tom at 6 tonight. We agreed yesterday.* (домовленість) → ✓ ***I'm meeting** Tom at 6 tonight. We agreed yesterday.* / ***I'm going to meet** Tom at 6 tonight. We agreed yesterday.*

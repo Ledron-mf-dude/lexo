@@ -80,6 +80,21 @@ tags: [although, though, even though, despite, in spite of, however, while, wher
 
 **so that** + can / could / will / would — мета з іншим підметом: *I'll write it down **so that** you **don't** forget.* / *She spoke slowly **so that** everyone **could** understand.*
 
+## Як вибрати
+
+1. **Протиставлення**: + речення — *although / even though*; + іменник чи *-ing* — *despite / in spite of*; нове речення — *However, …*
+2. **Мета**: *to* + дієслово; *so that* + речення (часто з *can / could*); заперечна — *so as not to / in order not to*.
+3. **Причина**: + речення — *because / as / since*; + іменник — *because of / due to / owing to*.
+4. **Наслідок**: *so* (у тому ж реченні); *As a result / Therefore* (нове речення).
+5. **На випадок** — *in case*; **у ролі** — *as*.
+
+## Пастки перекладу
+
+- «Я пішов у магазин купити молока» — *to buy milk*, а не *for buy*: *for* + дієслово — калька.
+- «Попри дощ» — *despite the rain*, а не *despite of*; *despite it rained* — помилка.
+- «Хоча…, але…» — в англійській лише один сполучник: *Although…, we…*
+- «Працює офіціантом» — *works as a waiter*; *like a waiter* — «як (схоже на) офіціант».
+
 ## Типові помилки
 
 - ✗ *Despite it was raining…* → ✓ *Despite **the rain**…* / ***Although** it was raining…*

@@ -63,6 +63,21 @@ wordTags: [порівняння]
 - *It's getting **colder and colder**.* — усе холодніше.
 - Двоскладові на -er, -le, -ow допускають обидві форми: *clever → cleverer / more clever*, *simple → simpler / more simple*.
 
+## Як вибрати
+
+1. Порівнюєте **двох** (є *than*)? — порівняльний ступінь. **Одного з групи** (*in the class, of all*) — найвищий з *the*.
+2. Односкладовий прикметник — *-er / -est* (*tall, taller, the tallest*); двоскладовий на *-y* — *-ier / -iest* (*happy, happier*).
+3. Довгий прикметник (2+ склади, крім *-y*) — *more / the most*.
+4. Неправильні: *good – better – best*, *bad – worse – worst*, *far – further – furthest*.
+5. Приголосна + голосна + приголосна — подвоюємо: *big – bigger*.
+
+## Пастки перекладу
+
+- «Більш краще» — так не кажуть: *better*, а не *more better*.
+- «Найвищий у класі» — *the tallest **in** the class*; «найвищий з усіх» — *the tallest **of** all*.
+- «Старший брат» — *my older brother* або *my elder brother*; але «він старший за мене» — лише *older than me*.
+- «Менш дорогий» — *less expensive*, не *fewer expensive*.
+
 ## Типові помилки
 
 - ✗ *more better* → ✓ ***better***

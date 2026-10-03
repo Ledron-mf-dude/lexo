@@ -89,6 +89,21 @@ tags: [conditionals, if, first conditional, second conditional, third conditiona
 
 Коли `if`-частина стоїть **першою**, після неї ставимо кому: *If it rains**,** we'll stay in.* Коли **другою** — коми немає: *We'll stay in if it rains.*
 
+## Як вибрати
+
+1. Загальна істина, завжди так? — **zero**: *If + Present, Present*.
+2. Реальна можливість у майбутньому? — **first**: *If + Present, will + V*.
+3. Уявна ситуація зараз або в майбутньому («якби»)? — **second**: *If + Past, would + V*.
+4. Уявна ситуація в минулому, яку вже не змінити? — **third**: *If + Past Perfect, would have + V3*.
+5. Минула умова — теперішній наслідок? — **mixed**: *If I had taken the job, I would be rich now.*
+
+## Пастки перекладу
+
+- Українське «якщо буде дощ» — у частині з *if* англійською **без will**: *If it rains*, а не *If it will rain*.
+- «Якби я був тобою» — *If I were you*, *were* для всіх осіб (у розмові й *was*).
+- Українське «якби» відповідає і другому, і третьому типу: дивіться, про теперішнє чи про минуле йдеться.
+- *would* стоїть у головній частині, а не в частині з *if*: *If I had time, I would help*, не *If I would have time*.
+
 ## Типові помилки
 
 - ✗ *If it will rain, we will stay home.* → ✓ *If it **rains**, we will stay home.*

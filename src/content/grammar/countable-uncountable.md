@@ -76,6 +76,21 @@ tags: [countable, uncountable, some, any, a piece of, advice, information, furni
 | **business** — бізнес, справи | **a business** — компанія |
 | **work** — робота (праця) | **a work** — твір: *a work of art* |
 
+## Як вибрати
+
+1. Можна порахувати (*one apple, two apples*)? — лічильне: *a / an*, множина, *many, few*.
+2. Не рахується (маса, речовина, абстракція)? — нелічильне: без *a*, без *-s*, *much, little*, дієслово в однині.
+3. Потрібно порахувати нелічильне? — через одиницю: *a piece of advice*, *a bottle of water*, *two loaves of bread*.
+4. *some* — у ствердженні й проханні, *any* — у питанні й запереченні; обидва працюють з обома типами.
+5. Деякі слова мають обидва значення: *a glass* (склянка) / *glass* (скло), *a time* (раз) / *time* (час).
+
+## Пастки перекладу
+
+- Слова, лічильні в українській, але нелічильні в англійській: *advice, information, news, furniture, luggage, homework, work, research, equipment*.
+- «Порада» — *a piece of advice* або *some advice*, не *an advice*.
+- «Новини погані» — *The news is bad*: однина.
+- «Волосся» — *hair* (нелічильне); *hairs* — окремі волосини.
+
 ## Типові помилки
 
 - ✗ *an advice* → ✓ ***a piece of** advice* / ***some** advice*

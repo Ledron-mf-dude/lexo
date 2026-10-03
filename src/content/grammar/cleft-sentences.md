@@ -68,6 +68,20 @@ tags: [cleft sentences, it was who, what I need is, wh-cleft, emphasis, all I wa
 
 Без перебудови речення наголос дає допоміжне **do / does / did**: *I **do** like your new haircut!* / *She **did** call, but you were out.* Див. «Допоміжні дієслова: do, be, have».
 
+## Як вибрати
+
+1. Хочете виділити людину, річ, місце чи час («саме…»)? — ***It is / was* + виділене + *that / who***: *It was Tom who called.*
+2. Хочете підвести до головного («те, що мені треба, — це…»)? — ***What* + підмет + дієслово + *is / was***: *What I need is a rest.*
+3. «Усе, що…» — ***All* + підмет + дієслово + *is / was***: *All I want is peace.*
+4. Час дієслова *be* збігається з часом події: *It **was** in 2010 that we met.*
+
+## Пастки перекладу
+
+- «Саме Том розбив вікно» — *It was Tom who broke the window*: українське «саме» передаємо конструкцією, а не словом *exactly*.
+- «Мені потрібен відпочинок, от що» — *What I need is a rest*, без зайвого *it*: *What I need it is* — помилка.
+- «Усе, що я хочу» — *All I want*, а не *All what I want*.
+- Після *All I did was* / *What he did was* — дієслово без *to*: *All I did was ask.*
+
 ## Типові помилки
 
 - ✗ *It was Tom which broke it.* → ✓ *It was Tom **who / that** broke it.*

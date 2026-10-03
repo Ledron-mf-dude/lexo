@@ -124,6 +124,23 @@ tags: [say tell, speak talk, lend borrow, bring take, remember remind, lose miss
 | **since / for** | з якого моменту — скільки часу | *since 2020* / *for three years* (див. «For, since, from, during, while: різниця») |
 | **make / do** | створити — виконати | див. «Do чи make: словосполучення» |
 
+## Як вибрати
+
+1. *say* — що сказали (*say something to somebody*); *tell* — кому сказали (*tell somebody something*), а також *tell a story / the truth / a lie*.
+2. *lend* — дати в борг; *borrow* — взяти в борг.
+3. *remember* — пам'ятати самому; *remind* — нагадати іншому.
+4. *miss* — не встигнути, пропустити; *lose* — загубити, програти.
+5. *rob* + місце чи людина; *steal* + річ.
+6. *win* + гру чи приз; *beat* + суперника; *earn* + гроші за роботу.
+7. *bring* — сюди, до мовця; *take* — туди, від мовця.
+
+## Пастки перекладу
+
+- Українське «сказати мені» має два англійські відповідники: *tell me* і *say to me*. *Say me* — помилка.
+- «Позич мені ручку» — *Lend me your pen* (ти даєш), а не *Borrow me*.
+- «Я спізнився на потяг» — *I missed the train*, не *I lost the train*.
+- «Вечірка була весела» — *The party was fun*; *funny* означає «смішна».
+
 ## Типові помилки
 
 - ✗ *She said me the truth.* → ✓ *She **told** me the truth.*
