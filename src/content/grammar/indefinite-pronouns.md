@@ -62,6 +62,21 @@ tags: [something, anything, nothing, everything, someone, anyone, nobody, everyb
 
 Після займенників на `some- / any- / no- / every-` і питальних слів: *someone **else**, nothing **else**, everywhere **else**, who **else**, what **else***. Присвійне — *someone **else's** bag*.
 
+## Як вибрати
+
+1. Ствердження або пропозиція / прохання (чекаємо «так»)? — ***some-***: *someone, something*.
+2. Питання або заперечення з *not*? — ***any-***: *anyone, anything*.
+3. Заперечення **без** *not* у дієслові? — ***no-***: *nobody, nothing*.
+4. «Усі, все, скрізь»? — ***every-***.
+5. *any-* у ствердженні — «будь-хто, що завгодно»: *Anyone can do it.*
+
+## Пастки перекладу
+
+- «Я нікого не бачив» — *I didn't see anybody* або *I saw nobody*, але не *I didn't see nobody*: в англійській одне заперечення.
+- «Щось цікаве» — *something interesting*: прикметник після займенника.
+- Слова з *every-*, *some-*, *no-* узгоджуються з дієсловом **в однині**: *Everybody is here.*
+- Про людину невідомої статі після *someone* природно сказати *their*: *Someone left their bag.*
+
 ## Типові помилки
 
 - ✗ *I didn't see nobody.* → ✓ *I didn't see **anybody**.* / *I saw **nobody**.*

@@ -49,6 +49,21 @@ tags: [probability, should, will, definitely, probably, вірогідність
 | It **may / might** be fine. | можливо |
 | It **won't** be fine. | майже напевно ні |
 
+## Як вибрати
+
+1. Упевнені на 100%? — *will definitely / certainly*.
+2. Очікуєте, що так буде (~80–90%), бо все йде за планом? — ***should***: *The parcel should arrive tomorrow.*
+3. Ймовірно, але не напевно? — *will probably*; заперечення — *probably won't*.
+4. Мало б уже статися? — *should have* + V3: *They should have arrived by now.*
+5. Процес зараз, як очікується? — *should be* + *-ing*.
+
+## Пастки перекладу
+
+- *should* тут — не порада, а «має (за очікуванням)»: *It should be sunny tomorrow* — завтра має бути сонячно.
+- «Він, мабуть, не прийде» — *He probably won't come*: *probably* перед *won't*.
+- *should have done* у контексті минулого часто означає докір: *You should have called* — тобі слід було подзвонити.
+- Після *should* — інфінітив без *to*: *should arrive*, не *should to arrive*.
+
 ## Типові помилки
 
 - ✗ *Tom should to arrive tomorrow.* → ✓ *Tom should **arrive** tomorrow.*

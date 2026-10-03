@@ -59,6 +59,20 @@ tags: [likely, unlikely, bound to, definitely, probably, certainly, possibly, pe
 - *There's **no chance**!* — ні за що.
 - ***In all likelihood**, …* — найімовірніше (книжно).
 
+## Як вибрати
+
+1. Оцініть упевненість: 100% — *definitely / certainly / bound to*; ~80% — *probably / likely*; ~50% — *perhaps / maybe*; ~20% — *unlikely / probably not*.
+2. Прикметник *likely / unlikely / bound / sure* — після *be*: *She **is likely to** win.* Або *It is likely **that**…*
+3. Прислівник *probably / definitely* — у ствердженні після *will*, у запереченні перед *won't*: *will probably* / *probably won't*.
+4. *Maybe / perhaps* — зазвичай на початку речення.
+
+## Пастки перекладу
+
+- «Він, мабуть, не прийде» — *He probably won't come*, а не *He won't probably come*.
+- «Ймовірно, вона погодиться» — *She is likely to agree* або *It's likely that she'll agree*, але не *It's likely to she'll agree*.
+- *Maybe* (можливо) пишемо разом; *may be* — це дієслово: *He may be right.*
+- *bound to* — «неодмінно», а не «зобов'язаний».
+
 ## Типові помилки
 
 - ✗ *He is likely win.* → ✓ *He is likely **to win**.*

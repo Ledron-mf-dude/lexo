@@ -60,6 +60,22 @@ tags: [possessive, 's, s', of, whose, two hours' walk, a friend of mine, при�
 
 З довгими назвами природніше **of**: *the name **of** the street where I grew up* (не *the street where I grew up's name*).
 
+## Як вибрати
+
+1. Власник — людина чи тварина? — *'s*: *my sister's car*.
+2. Власників кілька й слово на *-s*? — лише апостроф: *my parents' house*. Неправильна множина — *'s*: *the children's toys*.
+3. Власник — річ? — частіше *of*: *the end of the film*, *the leg of the table*.
+4. Спільна власність кількох? — *'s* лише після останнього: *Tom and Anna's flat*.
+5. Час і тривалість? — *'s* / *'*: *today's news*, *ten minutes' walk*.
+6. Місце (лікар, аптека, чийсь дім)? — *'s* без іменника: *at the dentist's*, *at my aunt's*.
+
+## Пастки перекладу
+
+- «Машина моєї сестри» — *my sister's car*, а не *the car of my sister*.
+- «Мій друг» в значенні «один із друзів» — *a friend of mine*, не *a friend of me*.
+- «Дім батьків» — *my parents' house* (двоє), *my parent's house* — одного з батьків.
+- Присвійні займенники пишемо без апострофа: *its, hers, yours, theirs*.
+
 ## Типові помилки
 
 - ✗ *the car of my sister* → ✓ *my **sister's** car*

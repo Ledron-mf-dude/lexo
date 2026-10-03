@@ -38,6 +38,22 @@ tags: [be about to, be due to, be to, be bound to, be on the point of, be set to
 
 `be due` + **to**-інфінітив або іменник: *The train **is due to** arrive at 6.* / *The rent **is due** on Monday.* / *The baby **is due** in May.*
 
+## Як вибрати
+
+1. Станеться ось-ось, через хвилини? — ***be about to***.
+2. За розкладом чи терміном? — ***be due to*** (рейс, потяг, дитина, оплата).
+3. Майже напевно, бо так завжди? — ***be bound to / be sure to***.
+4. Офіційний план, вказівка, правило? — ***be to***: *All staff are to attend.*
+5. Новина про заплановане? — ***be set to***: *Prices are set to rise.*
+6. Ймовірно, але не напевно? — ***be likely to***.
+
+## Пастки перекладу
+
+- «Фільм от-от почнеться» — *The film is about to start*, а не *will start soon* (це просто «скоро»).
+- «Потяг має прибути о 6» — *The train is due to arrive at 6*: *has to arrive* означало б обов'язок.
+- «Він неодмінно запізниться» — *He is bound to be late*.
+- *be about to* не вживають із конкретним часом: *I'm about to leave tomorrow* — помилка, тут *I'm leaving tomorrow*.
+
 ## Типові помилки
 
 - ✗ *The film is about starting.* → ✓ *The film is about **to start**.*

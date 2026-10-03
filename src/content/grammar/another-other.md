@@ -61,6 +61,21 @@ tags: [another, other, others, the other, the others, one more, else, інший
 
 Обидва — «один одного». `One another` трохи формальніше й частіше про групу з кількох людей, але в розмові їх вживають однаково.
 
+## Як вибрати
+
+1. «Ще один / інший один» з іменником в **однині**? — ***another***: *another cup*. Також з числом: *another two days*.
+2. Іменник у **множині** або нелічильний, «інші» взагалі? — ***other***: *other people*.
+3. Без іменника, «інші (люди / речі)»? — ***others***.
+4. Другий із двох або решта певної групи? — ***the other*** (+ іменник) / ***the others*** (без іменника).
+5. Взаємна дія? — ***each other***.
+
+## Пастки перекладу
+
+- «Інші люди» — *other people*, не *others people*: *others* не стоїть перед іменником.
+- «Ще одна кава» — *another coffee*, не *other coffee*.
+- «Ще три дні» — *another three days*: *another* з числом можливий, хоч іменник у множині.
+- «Днями» — *the other day*; «через день» — *every other day*.
+
 ## Типові помилки
 
 - ✗ *Can I have other coffee?* → ✓ *Can I have **another** coffee?*

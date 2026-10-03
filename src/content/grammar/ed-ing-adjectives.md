@@ -65,6 +65,20 @@ tags: [ed adjectives, ing adjectives, bored boring, interested interesting, exci
 
 Прикметник на **-ed** часто йде з прийменником: *interested **in**, bored **with**, excited **about**, surprised **at / by**, disappointed **with / in**, worried **about**, scared **of***. Після прийменника — іменник або -ing: *I'm bored **with** waiting.* Див. «Прикметник + прийменник (afraid of, good at, interested in)».
 
+## Як вибрати
+
+1. Хто відчуває емоцію? Якщо людина — **-ed**: *I'm **bored**.*
+2. Що викликає емоцію? Річ, ситуація чи людина, яка впливає на інших, — **-ing**: *The film is **boring**.*
+3. Перевірте: «мені нудно» → *bored*; «це нудно» → *boring*.
+4. Людину теж можна описати через *-ing*, якщо вона так впливає на інших: *He's **boring*** = він нудний для інших.
+
+## Пастки перекладу
+
+- «Мені нудно» — *I'm bored*. *I'm boring* означає «я нудна людина».
+- «Мені цікаво» — *I'm interested*; «Це цікаво» — *It's interesting*.
+- «Я збентежений» — *I'm confused*; «Інструкції незрозумілі» — *The instructions are confusing*.
+- Українське «я схвильований» може бути і *excited* (радісно), і *nervous / worried* (тривожно) — не плутайте.
+
 ## Типові помилки
 
 - ✗ *I am boring. Let's do something!* (= я нудний; «мені нудно» — bored) → ✓ *I am **bored**. Let's do something!*

@@ -68,6 +68,22 @@ tags: [for, since, from, during, while, ago, how long, prepositions of time, п�
 
 `Since` на початку речення ще й означає причину: ***Since** it's late, let's go home.* Див. «Contrast, purpose, reason, result (although, so that, because of, therefore)».
 
+## Як вибрати
+
+1. **Скільки часу** тривало? — ***for*** + тривалість: *for two hours*.
+2. **Від якого моменту** триває досі? — ***since*** + момент: *since Monday* (з Present Perfect).
+3. **Під час** чого? Далі іменник — ***during***: *during the film*.
+4. Далі ціле речення з дієсловом — ***while***: *while I was cooking*.
+5. «Тому» від сьогодні — ***ago***; від моменту в минулому — ***before***.
+6. Від і до — ***from … to / until***.
+
+## Пастки перекладу
+
+- «Я живу тут п'ять років» — *I have lived here for five years*: Present Perfect, а не *I live here five years*.
+- «Протягом фільму» — *during the film*, а не *during I was watching*.
+- «Два роки тому» — *two years ago*, з Past Simple: *I moved here two years ago*.
+- *since* — ще й «оскільки»: *Since it's late, let's go.*
+
 ## Типові помилки
 
 - ✗ *I've lived here since ten years.* → ✓ *…**for** ten years.*

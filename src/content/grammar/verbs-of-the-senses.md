@@ -48,6 +48,21 @@ tags: [verbs of the senses, look, sound, feel, smell, taste, look like, as if, a
 - *That **sounds like** a good plan.* — звучить як.
 - *What does it **taste like**?* — який на смак?
 
+## Як вибрати
+
+1. Описуєте враження від чогось (виглядає, звучить, пахне)? — дієслово-зв'язка + **прикметник**: *It **smells** good.*
+2. Після дієслова йде **іменник**? — додайте **like**: *It **looks like** a dog.*
+3. Далі ціле **речення**? — *as if / as though*: *It **looks as if** it's going to rain.*
+4. Людина робить дію навмисно (нюхає, куштує, дивиться)? — звичайне дієслово дії, можливий Continuous: *She **is tasting** the soup.*
+5. Сприймаєте щось зараз мимоволі? — *can see / can hear / can smell*.
+
+## Пастки перекладу
+
+- «Пахне смачно», «виглядає втомленим» — в українській прислівник або орудний відмінок, а в англійській **прикметник**: *smells delicious*, *looks tired*.
+- «Схоже на дощ» — *It looks like rain*; «схоже, що піде дощ» — *It looks as if it's going to rain*.
+- «Я чую музику» — *I can hear music*, а не *I'm hearing music*.
+- «Який він на смак?» — *What does it taste **like**?* Без *like* питання неповне.
+
 ## Типові помилки
 
 - ✗ *It smells deliciously.* → ✓ *It smells **delicious**.*

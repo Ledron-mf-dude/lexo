@@ -51,6 +51,21 @@ tags: [would like, i'd like, would you like, offers, requests, polite, ввіч�
 - *I'll have the soup, please.* — замовлення
 - *I was wondering if…* — дуже м'яко
 
+## Як вибрати
+
+1. Пропонуєте щось або запрошуєте? — ***Would you like** a tea? / **Would you like to** join us?*
+2. Просите чи замовляєте? — ***I'd like** the soup, please.* Це ввічливіше за *I want*.
+3. Говорите про смак, уподобання взагалі? — тоді **like** без *would*: *I **like** jazz.*
+4. Хочете, щоб щось зробив **хтось інший**? — ***would like** + особа + **to***: *I'd like **you to** wait.*
+5. Шкодуєте про те, що не сталося? — ***would like to have** + V3*.
+
+## Пастки перекладу
+
+- Українське «я хочу» в кафе чи магазині перекладайте як *I'd like…*, а не *I want…*: *want* звучить як вимога.
+- «Хочеш чаю?» — пропозиція, тому *Would you like…?*, а не *Do you like tea?* (це питання про смак).
+- «Хочу, щоб ти прийшов» — *I'd like you to come*, без *that*: *I'd like that you come* — калька.
+- Відповідь на пропозицію — *Yes, please* / *No, thank you*, а не *Yes, I would like*.
+
 ## Типові помилки
 
 - ✗ *I would like go.* → ✓ *I would like **to go**.*

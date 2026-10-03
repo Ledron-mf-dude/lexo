@@ -55,6 +55,21 @@ wordTags: [порівняння]
 
 Перед порівняльним — **a lot**, без `of`: *a lot cheaper*. `A lot of` — перед іменником: *a lot of people*, *a lot more people*.
 
+## Як вибрати
+
+1. Різниця **велика**? — *much / a lot / far* + порівняльний: *much bigger*.
+2. Різниця **мала**? — *a bit / a little / slightly* + порівняльний.
+3. Обидва вже мають ознаку, але другий ще більше? — ***even***: *even taller*.
+4. Заперечення «анітрохи не»? — *not any* + порівняльний: *isn't any cheaper*.
+5. З найвищим ступенем? — *by far the best*, *much the best*.
+
+## Пастки перекладу
+
+- «Набагато краще» — *much better*, не *very better*: *very* з порівняльним не вживають.
+- «Ще дешевше» — *even cheaper*; «трохи дешевше» — *a bit cheaper*.
+- «Набагато більше людей» — *many more people* (лічильні), «набагато більше часу» — *much more time*.
+- «Дедалі гірше» — *worse and worse*.
+
 ## Типові помилки
 
 - ✗ *It's very hotter today.* → ✓ *It's **much** hotter today.* (`very` — лише зі звичайною формою: *very hot*)
