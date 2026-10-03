@@ -67,5 +67,5 @@ tags: [distancing, hedging, apparently, allegedly, it seems, it appears, is said
 - ✗ *It seems that he to be busy.* → ✓ *It seems that he **is** busy.* / *He seems **to be** busy.*
 - ✗ *According to me, it's wrong.* → ✓ ***In my opinion**, it's wrong.* (according to — про джерело, не про себе)
 - ✗ *People tend using phones.* → ✓ *People tend **to use** phones.*
-- ✗ *It seems that there is a mistake to be.* → ✓ *There **seems to be** a mistake.*
+- ✗ *It seems that there is a mistake to be.* → ✓ *There **seems to be** a mistake.* / *It seems that there is a mistake.*
 - ✗ *Would it be possible sending it today?* → ✓ *Would it be possible **to send** it today?*

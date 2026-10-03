@@ -68,4 +68,4 @@ tags: [may, might, may not, might not, possibility, permission, можливо, 
 - ✗ *May be he's right.* → ✓ ***Maybe** he's right.* / *He **may be** right.*
 - ✗ *It might to be true.* → ✓ *It might **be** true.*
 - ✗ *We might as well to go home.* → ✓ *We might as well **go** home.*
-- ✗ *Take an umbrella. It can rain later.* → ✓ *Take an umbrella. It **might** rain later.*
+- ✗ *Take an umbrella. It can rain later.* → ✓ *Take an umbrella. It **might** rain later.* / *Take an umbrella. It may rain later.* / *Take an umbrella. It could rain later.*

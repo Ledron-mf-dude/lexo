@@ -56,10 +56,10 @@ tags: [no longer, any longer, anymore, not any more, no more, still, вже не
 ## Типові помилки
 
 - ✗ *She doesn't no longer work here.* → ✓ *She **no longer** works here.* (no longer вже заперечне)
-- ✗ *She works here anymore.* → ✓ *She **doesn't** work here anymore.*
+- ✗ *She works here anymore.* → ✓ *She **doesn't** work here anymore.* / *She doesn't work here any more.* / *She no longer works here.*
 - ✗ *He no longer is my friend.* → ✓ *He **is no longer** my friend.*
-- ✗ *There's no longer milk.* (кількість) → ✓ *There's **no more** milk.*
-- ✗ *I don't work there no more.* → ✓ *I don't work there **any more**.*
-- ✗ *Is there no longer coffee?* → ✓ *Is there **any more** coffee?*
+- ✗ *There's no longer milk.* (кількість) → ✓ *There's **no more** milk.* / *There's no milk left.*
+- ✗ *I don't work there no more.* → ✓ *I don't work there **any more**.* / *I don't work there anymore.* / *I no longer work there.*
+- ✗ *Is there no longer coffee?* → ✓ *Is there **any more** coffee?* / *Is there any coffee left?*
 
 Див. «Already, still, yet».

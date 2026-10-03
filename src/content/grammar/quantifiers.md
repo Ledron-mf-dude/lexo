@@ -106,7 +106,7 @@ tags: [quantifiers, much, many, a lot of, lots of, plenty of, few, a few, little
 
 - ✗ *I have much friends.* → ✓ *I have **a lot of / many** friends.*
 - ✗ *There is few water.* → ✓ *There is **little** water.*
-- ✗ *I have a few money.* → ✓ *I have **a little** money.*
+- ✗ *I have a few money.* → ✓ *I have **a little** money.* / *I have little money.*
 - ✗ *Neither of them are here.* (формально) → ✓ *Neither of them **is** here.*
 - ✗ *It's enough big.* → ✓ *It's big **enough**.*
 - ✗ *Every students passed.* → ✓ ***Every student** passed.* / ***All the students** passed.*

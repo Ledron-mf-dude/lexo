@@ -67,7 +67,7 @@ tags: [the rich, the poor, the young, the elderly, the unemployed, the British, 
 
 - ✗ *The rich is not always happy.* → ✓ *The rich **are**…* (група — множина)
 - ✗ *The poors need help.* → ✓ ***The poor** need help.* (без -s)
-- ✗ *He is a rich.* → ✓ *He is **a rich man**.* (про одну людину — з іменником)
-- ✗ *The Italian love pasta.* → ✓ ***Italians** love pasta.*
+- ✗ *He is a rich.* → ✓ *He is **a rich man**.* / *He is rich.* (про одну людину — з іменником)
+- ✗ *The Italian love pasta.* → ✓ ***Italians** love pasta.* / *The Italians love pasta.*
 - ✗ *The Japanese is very polite.* → ✓ *The Japanese **are** very polite.*
 - ✗ *He's a French.* → ✓ *He's **French**.* / *He's **a Frenchman**.*

@@ -77,5 +77,5 @@ tags: [prepositions of movement, to, from, into, out of, through, across, along,
 - ✗ *go to home* → ✓ *go **home***
 - ✗ *He went in the room.* (рух) → ✓ *He went **into** the room.*
 - ✗ *get off the car* → ✓ *get **out of** the car* (але *get off the bus*)
-- ✗ *She jumped in the pool from the side.* → ✓ *She jumped **into** the pool from the side.*
+- ✗ *The cat jumped in the table.* → ✓ *The cat jumped **onto** the table.* / *The cat jumped **on** the table.*
 - ✗ *We reached to the station at six.* → ✓ *We **reached** the station at six.*

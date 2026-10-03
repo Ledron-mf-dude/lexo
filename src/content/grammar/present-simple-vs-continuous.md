@@ -122,7 +122,7 @@ tags: [present simple, present continuous, do does, am is are + ing, тепер�
 - ✗ *I am usually get up at 7.* → ✓ *I usually **get** up at 7.*
 - ✗ *He watchs TV every evening.* → ✓ *He **watches** TV every evening.*
 - ✗ *She studys English.* → ✓ *She **studies** English.*
-- ✗ *I don't never eat meat.* → ✓ *I **never** eat meat.*
+- ✗ *I don't never eat meat.* → ✓ *I **never** eat meat.* / *I don't ever eat meat.*
 - ✗ *She always is tired.* → ✓ *She **is always** tired.* (після be)
-- ✗ *What do you do now?* (дія зараз) → ✓ *What **are** you **doing** now?*
+- ✗ *What do you do at the moment? I can hear music.* (дія саме зараз) → ✓ *What **are you doing** at the moment? I can hear music.*
 - ✗ *I'm writting an email.* → ✓ *I'm **writing** an email.*

@@ -109,5 +109,5 @@ tags: [passive, passive voice, пасив, пасивний стан, be + V3, �
 - ✗ *I was given it a prize.* → ✓ *I **was given** a prize.*
 - ✗ *The door was opened by a key.* → ✓ *The door was opened **with** a key.* (інструмент — with)
 - ✗ *Who was this book written?* → ✓ *Who was this book written **by**?*
-- ✗ *My car was stolen by someone.* → ✓ *My car **was stolen**.* (виконавець невідомий — без by)
+- ✗ *My car stole last night.* → ✓ *My car **was stolen** last night.*
 - ✗ *The baby was looked by her aunt.* → ✓ *The baby was looked **after** by her aunt.*

@@ -65,7 +65,7 @@ tags: [used to, would, be used to, get used to, past habits, звичка, ко�
 - ✗ *I use to smoke.* (у минулому) → ✓ *I **used to** smoke.*
 - ✗ *Did you used to play chess?* → ✓ *Did you **use to** play chess?*
 - ✗ *I'm used to get up early.* → ✓ *I'm used to **getting** up early.*
-- ✗ *I would have a dog.* (стан) → ✓ *I **used to** have a dog.*
-- ✗ *I use to get up at 7 every day.* → ✓ *I **usually get** up at 7 every day.*
+- ✗ *When I was a child, I would have a dog.* (стан, не повторювана дія) → ✓ *When I was a child, I **used to have** a dog.*
+- ✗ *I use to get up at 7 every day.* → ✓ *I **usually get** up at 7 every day.* / *I used to get up at 7 every day.*
 - ✗ *She is used to live alone.* → ✓ *She is used to **living** alone.*
 - ✗ *I'll never get used to drive on the left.* → ✓ *I'll never get used to **driving** on the left.*

@@ -82,7 +82,7 @@ tags: [auxiliary verbs, do, does, did, be, have, main verb, short answers, до�
 - ✗ *He don't like it.* → ✓ *He **doesn't** like it.*
 - ✗ *Did you saw him?* → ✓ *Did you **see** him?*
 - ✗ *Have you a car?* (застаріло) → ✓ ***Do** you have a car?* / ***Have** you **got** a car?*
-- ✗ *He works harder than I work.* (зайвий повтор) → ✓ *He works harder than I **do**.*
-- ✗ *I don't understand it, and she too.* → ✓ *I don't understand it, and **neither does she**.*
+- ✗ *He works harder than I does.* → ✓ *He works harder than I **do**.*
+- ✗ *I don't understand it, and she too.* → ✓ *I don't understand it, and **neither does she**.* / *I don't understand it, and she doesn't either.* / *I don't understand it, and nor does she.*
 
 Див. «Question tags, so am I, neither do I» та «Ellipsis and substitution».

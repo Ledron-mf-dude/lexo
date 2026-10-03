@@ -58,7 +58,7 @@ tags: [future continuous, future perfect, future perfect continuous, will be doi
 
 ## Типові помилки
 
-- ✗ *By 6 pm I will finish the report.* (наголос «до») → ✓ *By 6 pm I **will have finished** the report.*
+- ✗ *By 6 pm I will have finish the report.* → ✓ *By 6 pm I will have **finished** the report.*
 - ✗ *This time tomorrow I will fly to Rome.* → ✓ *…I **will be flying** to Rome.*
 - ✗ *By the time you will arrive…* → ✓ *By the time you **arrive**…*
 - ✗ *I will have been knowing him for ten years.* → ✓ *I **will have known** him…* (know — дієслово стану)

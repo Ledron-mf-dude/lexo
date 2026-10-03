@@ -66,11 +66,11 @@ tags: [reflexive pronouns, myself, yourself, themselves, each other, one another
 
 ## Типові помилки
 
-- ✗ *I washed myself and dressed myself.* (зайве) → ✓ *I washed and dressed.*
-- ✗ *They love themselves.* (один одного) → ✓ *They love **each other**.*
+- ✗ *I shaved me and got dressed.* → ✓ *I **shaved** and got dressed.* / *I **shaved myself** and got dressed.*
+- ✗ *Tom and Anna love themselves — they're getting married.* (один одного) → ✓ *Tom and Anna love **each other** — they're getting married.*
 - ✗ *hisself, theirselves* → ✓ ***himself, themselves***
 - ✗ *We met ourselves at six.* → ✓ *We **met** at six.*
-- ✗ *Did you enjoy at the party?* → ✓ *Did you enjoy **yourselves** at the party?*
+- ✗ *Did you enjoy at the party?* → ✓ *Did you enjoy **yourselves** at the party?* / *Did you enjoy yourself at the party?* / *Did you enjoy the party?*
 - ✗ *I feel myself much better today.* → ✓ *I **feel** much better today.*
 - ✗ *She put the bag next to herself.* → ✓ *She put the bag next to **her**.*
 

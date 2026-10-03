@@ -94,6 +94,6 @@ wordTags: [фразові дієслова]
 - ✗ *We ran out milk.* → ✓ *We ran out **of** milk.*
 - ✗ *She looks her grandmother after.* → ✓ *She **looks after** her grandmother.*
 - ✗ *It turned that he was right.* → ✓ *It **turned out** that he was right.*
-- ✗ *Please hand your essays.* → ✓ *Please hand **in** your essays.*
+- ✗ *Please hand your essays.* → ✓ *Please hand **in** your essays.* / *Please hand your essays in.*
 
 Правила розташування додатка — у статті «Фразові дієслова: що це і як користуватися».

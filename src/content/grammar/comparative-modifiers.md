@@ -58,8 +58,8 @@ wordTags: [порівняння]
 ## Типові помилки
 
 - ✗ *It's very hotter today.* → ✓ *It's **much** hotter today.* (`very` — лише зі звичайною формою: *very hot*)
-- ✗ *This is more better.* → ✓ *This is **much better**.*
+- ✗ *This is more better.* → ✓ *This is **much better**.* / *This is better.* / *This is even better.*
 - ✗ *a bit more cheap* → ✓ ***a bit cheaper***
-- ✗ *much more people* → ✓ ***many more** people* (people — лічильне)
+- ✗ *much more people* → ✓ ***many more** people* / *a lot more people* / *far more people* (people — лічильне)
 - ✗ *It's a lot of cheaper here.* → ✓ *It's **a lot** cheaper here.*
 - ✗ *There are less and less shops.* → ✓ *There are **fewer and fewer** shops.*

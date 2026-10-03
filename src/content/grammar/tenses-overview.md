@@ -66,6 +66,6 @@ tags: [tenses, all tenses, present, past, future, simple, continuous, perfect, p
 - ✗ *I will call you when I will arrive.* → ✓ *…when I **arrive**.*
 - ✗ *She is knowing him.* → ✓ *She **knows** him.*
 - ✗ *I have been knowing her for years.* → ✓ *I **have known** her for years.*
-- ✗ *By next year I will finish my degree.* → ✓ *By next year I **will have finished** my degree.*
+- ✗ *By next year I will have finish my degree.* → ✓ *By next year I **will have finished** my degree.*
 
 Докладні статті: «Present Simple і Present Continuous», «Present Perfect», «Минулі часи», «Майбутнє», «Future Continuous, Future Perfect і Future Perfect Continuous».

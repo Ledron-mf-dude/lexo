@@ -75,7 +75,7 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 - ✗ *She said me that she was tired.* → ✓ *She **told** me / She **said** (that)…*
 - ✗ *He asked where did I live.* → ✓ *He asked where **I lived**.*
 - ✗ *She told me don't be late.* → ✓ *She told me **not to be** late.*
-- ✗ *He said he will call tomorrow.* (повідомлення вже неактуальне) → ✓ *He said he **would** call the next day.*
+- ✗ *He said he will call tomorrow.* (повідомлення вже неактуальне) → ✓ *He said he **would** call the next day.* / *He said he would call tomorrow.*
 - ✗ *She asked me if I am ready.* → ✓ *She asked me if I **was** ready.*
 - ✗ *He asked me do I like coffee.* → ✓ *He asked me **if I liked** coffee.*
 - ✗ *She told to me to wait.* → ✓ *She told **me** to wait.*

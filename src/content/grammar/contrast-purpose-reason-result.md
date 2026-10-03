@@ -84,12 +84,12 @@ tags: [although, though, even though, despite, in spite of, however, while, wher
 
 - ✗ *Despite it was raining…* → ✓ *Despite **the rain**…* / ***Although** it was raining…*
 - ✗ *I went there for buy milk.* → ✓ *I went there **to buy** milk.*
-- ✗ *However it was late, we stayed.* (контраст) → ✓ *It was late. **However,** we stayed.*
+- ✗ *However it was late, we stayed.* (контраст) → ✓ *It was late. **However,** we stayed.* / *Although it was late, we stayed.* / *Even though it was late, we stayed.*
 - ✗ *in order to not be late* → ✓ *in order **not to** be late*
 - ✗ *because of he was ill* → ✓ *because **he was ill*** / *because of **his illness***
 - ✗ *Take a map in case you will get lost.* → ✓ *Take a map in case you **get** lost.*
-- ✗ *Even if he is rich, he isn't happy.* → ✓ ***Even though** he is rich, he isn't happy.*
+- ✗ *Even though it rains tomorrow, we'll go.* (дощ лише можливий) → ✓ ***Even if** it rains tomorrow, we'll go.*
 - ✗ *Despite of the rain, we went out.* → ✓ ***Despite** the rain, we went out.*
-- ✗ *She works like a teacher.* → ✓ *She works **as** a teacher.*
+- ✗ *She got a job like a teacher.* (посада — as) → ✓ *She got a job **as** a teacher.*
 
 Докладніше про `so … that`: «So, such, such a, so much, so many». Слова-зв'язки для тексту: «Discourse markers».

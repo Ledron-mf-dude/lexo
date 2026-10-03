@@ -98,7 +98,7 @@ tags: [to be, am is are, describing people, possessions, whose, possessive, be, 
 - ✗ *Do you are ready?* → ✓ ***Are** you ready?*
 - ✗ *Where you are from?* → ✓ *Where **are you** from?*
 - ✗ *I am agree.* → ✓ *I **agree**.* (agree — дієслово)
-- ✗ *I have cold.* → ✓ *I **am** cold.*
+- ✗ *I have cold.* → ✓ *I **am** cold.* / *I have a cold.*
 - ✗ *She is 30 years.* → ✓ *She is 30 **years old**.*
 - ✗ *Is cold today.* → ✓ ***It is** cold today.*
 - ✗ *Where are you come from?* → ✓ *Where **are you** from?* / *Where **do you come** from?*

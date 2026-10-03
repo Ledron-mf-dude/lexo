@@ -92,10 +92,10 @@ tags: [articles, a, an, the, zero article, артиклі, артикль]
 ## Типові помилки
 
 - ✗ *She is doctor.* → ✓ *She is **a** doctor.* (професія — з a/an)
-- ✗ *I like the coffee.* (загалом) → ✓ *I like **coffee**.*
+- ✗ *I drink the coffee every morning.* (загалом, не конкретна чашка) → ✓ *I drink **coffee** every morning.*
 - ✗ *The life is beautiful.* → ✓ ***Life** is beautiful.*
-- ✗ *I have a good news.* → ✓ *I have **some** good news.* (news — нелічильне)
+- ✗ *I have a good news.* → ✓ *I have **some** good news.* / *I have good news.* (news — нелічильне)
 - ✗ *He plays the football.* → ✓ *He plays **football**.* (але *plays **the** guitar*)
 - ✗ *an university* → ✓ ***a** university* (звук /j/, не голосний)
 - ✗ *We met at same day.* → ✓ *We met on **the same** day.*
-- ✗ *I have only a brother.* → ✓ *I have only **one** brother.*
+- ✗ *I have only a brother.* → ✓ *I have only **one** brother.* / *I only have one brother.*

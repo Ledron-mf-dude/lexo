@@ -76,9 +76,9 @@ tags: [go, go to, go home, go swimming, go for a walk, go on, gone, been, go by 
 
 - ✗ *go to home* → ✓ ***go home***
 - ✗ *go to swimming* → ✓ ***go swimming***
-- ✗ *She has been to London.* (якщо вона зараз там) → ✓ *She **has gone** to London.*
+- ✗ *She isn't here — she has been to London.* (вона зараз там) → ✓ *She isn't here — she **has gone** to London.*
 - ✗ *go by foot* → ✓ *go **on** foot*
-- ✗ *Can I go to your party?* → ✓ *Can I **come** to your party?*
+- ✗ *Dinner's ready! — I'm going!* (рух до того, хто кличе) → ✓ *Dinner's ready! — I'm **coming**!*
 - ✗ *Something went bad with the computer.* → ✓ *Something went **wrong** with the computer.*
 
 Див. також «Фразові дієслова: що це і як користуватися».

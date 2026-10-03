@@ -73,11 +73,11 @@ tags: [gerund, infinitive, to do, doing, verb patterns, stop, remember, try, for
 ## Типові помилки
 
 - ✗ *I decided going.* → ✓ *I decided **to go**.*
-- ✗ *He stopped to smoke.* (якщо кинув) → ✓ *He stopped **smoking**.*
+- ✗ *He stopped to smoke last year, and now he feels great.* (кинув курити) → ✓ *He stopped **smoking** last year, and now he feels great.*
 - ✗ *Remember locking the door!* (не забудь) → ✓ *Remember **to lock** the door!*
 - ✗ *She refused helping.* → ✓ *She refused **to help**.*
 - ✗ *I can't afford buying it.* → ✓ *I can't afford **to buy** it.*
 - ✗ *Can you tell me how get there?* → ✓ *Can you tell me how **to get** there?*
-- ✗ *My car needs to wash.* → ✓ *My car needs **washing**.*
+- ✗ *My car needs to wash.* → ✓ *My car needs **washing**.* / *My car needs to be washed.*
 - ✗ *It takes two hours getting there.* → ✓ *It takes two hours **to get** there.*
 - ✗ *I didn't mean hurting you.* → ✓ *I didn't mean **to hurt** you.*

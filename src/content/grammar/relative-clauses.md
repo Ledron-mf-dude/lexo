@@ -69,6 +69,6 @@ tags: [relative clauses, who, which, that, where, whose, defining, non-defining,
 - ✗ *The man lives next door is kind.* → ✓ *The man **who** lives next door…* (підмет не опускаємо)
 - ✗ *The café where we met there has closed.* → ✓ *The café where we met has closed.*
 - ✗ *This is the woman who I told you about her.* → ✓ *This is the woman who I told you **about**.*
-- ✗ *The man to who I spoke was rude.* → ✓ *The man to **whom** I spoke was rude.*
-- ✗ *Everything what she said was true.* → ✓ *Everything **that** she said was true.*
+- ✗ *The man to who I spoke was rude.* → ✓ *The man to **whom** I spoke was rude.* / *The man who I spoke to was rude.* / *The man I spoke to was rude.*
+- ✗ *Everything what she said was true.* → ✓ *Everything **that** she said was true.* / *Everything she said was true.*
 - ✗ *He's the man which car was stolen.* → ✓ *He's the man **whose** car was stolen.*

@@ -74,6 +74,6 @@ tags: [for, since, from, during, while, ago, how long, prepositions of time, п�
 - ✗ *I fell asleep during I was watching TV.* → ✓ *…**while** I was watching TV.* / *…**during** the film.*
 - ✗ *I have moved here two years ago.* → ✓ *I **moved** here two years ago.*
 - ✗ *I slept during eight hours.* → ✓ *I slept **for** eight hours.*
-- ✗ *She had left the company two years ago.* → ✓ *She had left the company two years **before**.*
+- ✗ *She had left the company two years ago.* → ✓ *She had left the company two years **before**.* / *She left the company two years ago.*
 
 Див. «Present Perfect», «Прийменники часу».

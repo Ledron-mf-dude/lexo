@@ -62,7 +62,7 @@ tags: [generic pronouns, you, one, they, people, we, impersonal, узагаль�
 
 - ✗ *Is not allowed to smoke here.* → ✓ ***You** aren't allowed to smoke here.* / *Smoking **is not allowed**.*
 - ✗ *Say that it will rain.* → ✓ ***They** say (that) it will rain.* / ***It is said**…*
-- ✗ *One should do his best.* → ✓ *One should do **one's** best.*
+- ✗ *One should do his best.* (his — застаріле) → ✓ *One should do **one's** best.*
 - ✗ *Here can buy tickets.* → ✓ ***You** can buy tickets here.*
-- ✗ *If anyone calls, tell him I'm out.* (стать невідома) → ✓ *If anyone calls, tell **them** I'm out.*
+- ✗ *If anyone calls, tell him I'm out.* (him — застаріле; стать невідома — them) → ✓ *If anyone calls, tell **them** I'm out.*
 - ✗ *How to get to the station?* → ✓ *How **do you get** to the station?*

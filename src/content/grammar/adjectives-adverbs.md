@@ -95,6 +95,6 @@ tags: [adjectives, adverbs, adverbs of manner, slowly, fast, hard, hardly, well,
 - ✗ *The soup tastes well.* → ✓ *The soup tastes **good**.* (після taste — прикметник)
 - ✗ *She drives careful.* → ✓ *She drives **carefully**.*
 - ✗ *He drives very fastly.* → ✓ *He drives very **fast**.*
-- ✗ *I'm feeling badly today.* → ✓ *I'm feeling **bad** today.*
+- ✗ *I'm feeling badly today.* (badly — AmE, розмовне) → ✓ *I'm feeling **bad** today.*
 - ✗ *This hotel is high recommended.* → ✓ *This hotel is **highly** recommended.*
 - ✗ *I haven't seen him lastly.* → ✓ *I haven't seen him **lately**.*

@@ -58,7 +58,7 @@ tags: [passive, reporting verbs, it is said that, is said to, have something don
 
 - ✗ *I cut my hair at the hairdresser's.* → ✓ *I **had my hair cut** at the hairdresser's.*
 - ✗ *He is said that he is rich.* → ✓ ***It** is said that he is rich.* / *He is said **to be** rich.*
-- ✗ *She had repaired her car.* (послуга) → ✓ *She **had her car repaired**.*
+- ✗ *I repaired my car by a mechanic.* (послуга) → ✓ *I **had my car repaired** by a mechanic.* / *I **got my car repaired** by a mechanic.*
 - ✗ *They are thought to steal it.* (раніше) → ✓ *…to **have stolen** it.*
 - ✗ *I had cut my hair yesterday.* (у перукаря) → ✓ *I **had my hair cut** yesterday.*
 - ✗ *I got a mechanic check the brakes.* → ✓ *I got a mechanic **to check** the brakes.*

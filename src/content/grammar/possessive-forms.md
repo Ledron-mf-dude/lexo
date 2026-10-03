@@ -66,6 +66,6 @@ tags: [possessive, 's, s', of, whose, two hours' walk, a friend of mine, при�
 - ✗ *my parent's house* (двоє батьків) → ✓ *my **parents'** house*
 - ✗ *the childrens' toys* → ✓ *the **children's** toys*
 - ✗ *a friend of me* → ✓ *a friend of **mine***
-- ✗ *the leg's table* → ✓ *the leg **of the table*** (для речей частіше of)
+- ✗ *the leg's table* → ✓ *the leg **of the table*** / *the table leg* (для речей частіше of)
 - ✗ *I'm going to the dentist tomorrow's.* → ✓ *I'm going to the **dentist's** tomorrow.*
 - ✗ *Tom's and Anna's flat is small.* (одна спільна) → ✓ ***Tom and Anna's** flat is small.*

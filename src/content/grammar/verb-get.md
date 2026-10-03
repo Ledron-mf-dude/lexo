@@ -73,7 +73,7 @@ tags: [get, get up, get on, get over, get used to, get + adjective, get done, о
 
 ## Типові помилки
 
-- ✗ *It's getting to be dark.* (зайве) → ✓ *It's **getting dark**.*
+- ✗ *It's getting darkly.* (після get — прикметник) → ✓ *It's getting **dark**.*
 - ✗ *I got repaired my car.* → ✓ *I got **my car repaired**.*
 - ✗ *We got married with each other.* → ✓ *We **got married**.* / *She **got married to** Tom.*
 - ✗ *How did you get to home?* → ✓ *How did you **get home**?*

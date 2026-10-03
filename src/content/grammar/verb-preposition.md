@@ -84,8 +84,8 @@ wordTags: [з прийменником]
 - ✗ *Listen me!* → ✓ ***Listen to** me!*
 - ✗ *I'm waiting you.* → ✓ *I'm waiting **for** you.*
 - ✗ *She married with Tom.* → ✓ *She **married** Tom.*
-- ✗ *I haven't heard about her for months.* → ✓ *I haven't heard **from** her for months.*
+- ✗ *I haven't heard about her for months. She never writes.* → ✓ *I haven't heard **from** her for months. She never writes.*
 - ✗ *They provided us maps.* → ✓ *They provided us **with** maps.*
-- ✗ *We agreed with the price.* → ✓ *We agreed **on** the price.*
+- ✗ *I agree to you.* → ✓ *I agree **with** you.*
 
 Див. «Фразові дієслова: що це і як користуватися».
