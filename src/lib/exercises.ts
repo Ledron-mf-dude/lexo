@@ -15,8 +15,26 @@ export interface Item {
   q: Question
 }
 
-/** Text answers: case, extra spaces, curly apostrophes and punctuation (commas, full stops, question marks) do not matter. */
-const canon = (s: string) => normalize(s.replace(/[.,!?;:]/g, ' '))
+// Contractions are spelled out on both sides, so «It is raining» matches «It's raining» and «do not» matches «don't».
+// `'s` is expanded only after pronouns (elsewhere it is usually a possessive); `'d` is taken as «would».
+const CONTRACTIONS: [RegExp, string][] = [
+  [/\bwon't\b/g, 'will not'],
+  [/\bshan't\b/g, 'shall not'],
+  [/\bcan't\b|\bcannot\b/g, 'can not'],
+  [/n't\b/g, ' not'],
+  [/'re\b/g, ' are'],
+  [/'m\b/g, ' am'],
+  [/'ll\b/g, ' will'],
+  [/'ve\b/g, ' have'],
+  [/'d\b/g, ' would'],
+  [/\b(it|he|she|that|there|here|what|who|where|how)'s\b/g, '$1 is'],
+]
+
+/** Text answers: case, extra spaces, curly apostrophes, punctuation (commas, full stops, question marks) and contractions do not matter. */
+const canon = (s: string) =>
+  CONTRACTIONS.reduce((t, [re, full]) => t.replace(re, full), normalize(s.replace(/[.,!?;:]/g, ' ')))
+    .replace(/\s+/g, ' ')
+    .trim()
 
 // Question banks are JSON files in src/content/exercises, one per article slug (bundled, works offline).
 const files = import.meta.glob<{ questions: unknown[] }>('../content/exercises/*.json', { eager: true, import: 'default' })
