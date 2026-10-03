@@ -11,7 +11,7 @@
     "few"
    ],
    "answer": 1,
-   "why": "people — лічильне: How many."
+   "why": "*people* — лічильне у множині, тому *How many*. *How much* — для нелічильних (*How much time?*)."
   },
   {
    "id": "quantifiers-2",
@@ -24,7 +24,7 @@
     "many"
    ],
    "answer": 1,
-   "why": "little — майже немає (нелічильне)."
+   "why": "*little* без *a* — «майже немає», для нелічильних: *I have little time*. *a few / few* — для лічильних."
   },
   {
    "id": "quantifiers-3",
@@ -37,7 +37,7 @@
     "much"
    ],
    "answer": 1,
-   "why": "a few — кілька, достатньо."
+   "why": "*a few* — «кілька, і цього досить», для лічильних: *a few friends*. *few* без *a* — «мало, майже немає», а *little* — для нелічильних."
   },
   {
    "id": "quantifiers-4",
@@ -50,7 +50,7 @@
     "a few"
    ],
    "answer": 1,
-   "why": "У запереченні — any."
+   "why": "У запереченні — *any*: *There isn't any sugar.* *some* — у ствердженні, *many / a few* — для лічильних."
   },
   {
    "id": "quantifiers-5",
@@ -63,7 +63,7 @@
     "very much"
    ],
    "answer": 1,
-   "why": "too + прикметник — надто."
+   "why": "*too* + прикметник + *to*-інфінітив — «надто…, щоб»: *It's too hot to go out.* *enough* стоїть після прикметника."
   },
   {
    "id": "quantifiers-6",
@@ -76,7 +76,7 @@
     "many"
    ],
    "answer": 1,
-   "why": "Прикметник + enough."
+   "why": "*enough* стоїть після прикметника: *old enough to drive*. *too old* означало б «надто старий»."
   },
   {
    "id": "quantifiers-7",
@@ -89,7 +89,7 @@
     "Neither"
    ],
    "answer": 1,
-   "why": "both — обидва."
+   "why": "Про дві речі разом — *both*: *Both answers are correct.* *All* — про три й більше, *Neither* — «жодна з двох»."
   },
   {
    "id": "quantifiers-8",
@@ -102,7 +102,7 @@
     "None"
    ],
    "answer": 0,
-   "why": "neither — жоден із двох."
+   "why": "*Neither of them* — «жоден із двох», з дієсловом в однині: *Neither of them is here.* *None* — про трьох і більше."
   },
   {
    "id": "quantifiers-9",
@@ -115,7 +115,7 @@
     "none"
    ],
    "answer": 0,
-   "why": "either — будь-яка з двох."
+   "why": "*either* — «будь-яка з двох»: *You can take either road.* *neither* означало б «жодну»."
   },
   {
    "id": "quantifiers-10",
@@ -128,7 +128,7 @@
     "a few"
    ],
    "answer": 0,
-   "why": "work — нелічильне: a lot of."
+   "why": "*work* — нелічильне, тому *a lot of work*. *many / a few* — лише для лічильних."
   },
   {
    "id": "quantifiers-11",
@@ -137,7 +137,7 @@
    "answer": [
     "too"
    ],
-   "why": "too many + лічильне."
+   "why": "*too many* + лічильне у множині — «надто багато»: *too many people*."
   },
   {
    "id": "quantifiers-12",
@@ -146,7 +146,7 @@
    "answer": [
     "a little"
    ],
-   "why": "a little — трохи (нелічильне)."
+   "why": "*a little* — «трохи, але є», для нелічильних (*money*). *little* без *a* звучало б як «майже немає»."
   },
   {
    "id": "quantifiers-13",
@@ -155,7 +155,7 @@
    "answer": [
     "much"
    ],
-   "why": "water — нелічильне: much."
+   "why": "*water* — нелічильне, тому *How much water…?*"
   },
   {
    "id": "quantifiers-14",
@@ -167,7 +167,7 @@
     "much",
     "enough"
    ],
-   "why": "У питанні — any."
+   "why": "У питанні найчастіше *any*: *Is there any coffee left?* Також підходять *some* (якщо очікуємо «так»), *much* і *enough*."
   },
   {
    "id": "quantifiers-15",
@@ -176,7 +176,7 @@
    "answer": [
     "None"
    ],
-   "why": "none of — жоден."
+   "why": "*None of my friends came* — «жоден із друзів». Підказка *Nobody!* показує нуль, тому *None*."
   },
   {
    "id": "quantifiers-16",
@@ -189,7 +189,7 @@
     "much"
    ],
    "answer": 0,
-   "why": "a few — кілька (лічильне)."
+   "why": "*ideas* — лічильне, тому *a few* (кілька). *a little* — для нелічильних, *much* — теж."
   },
   {
    "id": "quantifiers-17",
@@ -202,7 +202,7 @@
     "enough of"
    ],
    "answer": 0,
-   "why": "traffic — нелічильне: too much."
+   "why": "*traffic* — нелічильне, тому *too much traffic*. *too many* — для лічильних."
   },
   {
    "id": "quantifiers-18",
@@ -215,7 +215,7 @@
     "All of two"
    ],
    "answer": 0,
-   "why": "both — обидва."
+   "why": "Про двох людей разом — *Both my parents*. *Neither* означало б, що жоден не вчитель."
   },
   {
    "id": "quantifiers-19",
@@ -228,7 +228,7 @@
     "a little"
    ],
    "answer": 0,
-   "why": "enough + іменник."
+   "why": "*enough* стоїть перед іменником: *enough chairs*. Після прикметника — навпаки: *big enough*."
   },
   {
    "id": "quantifiers-20",
@@ -243,7 +243,7 @@
    "answer": [
     "I don't have much time"
    ],
-   "why": "much + нелічильне.",
+   "why": "*much* + нелічильне в запереченні: *I don't have much time.*",
    "hint": "У мене небагато часу."
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "There are a few apples left"
    ],
-   "why": "a few + лічильне.",
+   "why": "*a few* + лічильне: *There are a few apples left.*",
    "hint": "Залишилося кілька яблук."
   },
   {
@@ -275,7 +275,7 @@
    "answer": [
     "Neither answer is correct"
    ],
-   "why": "neither + однина.",
+   "why": "*Neither* + іменник в однині: *Neither answer is correct.*",
    "hint": "Жодна з двох відповідей не правильна."
   },
   {
@@ -289,7 +289,7 @@
     "Many"
    ],
    "answer": 1,
-   "why": "З одниною — each або every."
+   "why": "З іменником в однині — *Each* (або *Every*): *Each student received a certificate.* *All / Both / Many* вимагають множини."
   },
   {
    "id": "quantifiers-24",
@@ -302,7 +302,7 @@
     "the all"
    ],
    "answer": 1,
-   "why": "the whole + однина: the whole day."
+   "why": "*the whole* + однина: *the whole day*. Інший варіант — *all day*. *whole the* — неправильний порядок."
   },
   {
    "id": "quantifiers-25",
@@ -315,7 +315,7 @@
     "many"
    ],
    "answer": 0,
-   "why": "plenty of — більш ніж достатньо."
+   "why": "*plenty of* — «більш ніж досить», і з лічильними, і з нелічильними: *plenty of time*."
   },
   {
    "id": "quantifiers-26",
@@ -328,7 +328,7 @@
     "Both"
    ],
    "answer": 1,
-   "why": "None of — жоден із багатьох."
+   "why": "*None of* — «жоден із» (більше двох). *I was alone* підтверджує: ніхто не прийшов."
   },
   {
    "id": "quantifiers-27",
@@ -337,7 +337,7 @@
    "answer": [
     "each"
    ],
-   "why": "Без іменника в кінці — each."
+   "why": "*each* у кінці речення означає «кожен, за штуку»: *The tickets cost ten euros each.*"
   },
   {
    "id": "quantifiers-28",
@@ -346,7 +346,7 @@
    "answer": [
     "few"
    ],
-   "why": "quite a few — доволі багато."
+   "why": "*quite a few* — сталий вираз «доволі багато», а не «кілька»: *Quite a few people came.*"
   }
  ]
 }

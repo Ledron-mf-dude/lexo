@@ -10,7 +10,9 @@ import { count, NEW_QUESTION } from '../lib/plural'
 import { autoNextPref, deckSizePref } from '../lib/prefs'
 import { useTitle } from '../lib/useTitle'
 import QuizSettings from '../components/QuizSettings'
+import RichText from '../components/RichText'
 import RuleSheet from '../components/RuleSheet'
+import { diffWords, type DiffPart } from '../lib/wordDiff'
 import { cardItems, MY_WRITING } from '../lib/writingCards'
 import { reviewSchedule, reviewSummary, shortTitle } from '../lib/grammarReview'
 
@@ -243,7 +245,9 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
                 <p>
                   <span className="text-bad line-through decoration-bad/50">{o.given || '—'}</span> → <span className="text-good">{correctAnswer(m.q)}</span>
                 </p>
-                <p className="text-white/45">{m.q.why}</p>
+                <p className="text-white/45">
+                  <RichText text={m.q.why} />
+                </p>
               </div>
             ))}
           </div>
@@ -335,6 +339,16 @@ interface FeedbackProps {
   slug?: string
 }
 
+/** A sentence with some of its words highlighted. */
+function Marked({ parts, className }: { parts: DiffPart[]; className: string }) {
+  return parts.map((p, i) => (
+    <span key={i}>
+      {i > 0 && ' '}
+      {p.changed ? <span className={className}>{p.text}</span> : p.text}
+    </span>
+  ))
+}
+
 /** Only a typed or built answer can be «also right»; a choice, a blank, or the unchanged wrong sentence cannot. */
 function canOverride(q: Question, outcome: Outcome) {
   if (outcome.correct || outcome.given === '') return false
@@ -409,12 +423,13 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
         {q.type === 'fix' ? (
           <div className="mt-1 space-y-0.5">
             {q.showRight && <p className="text-sm text-white/60">Речення було без помилки. Типова помилка в ньому:</p>}
+            {/* The words the correction changes are highlighted on both sides, so it is clear where the mistake was. */}
             <p className="text-white/50">
-              <span className="text-bad">✗</span> <span className="line-through decoration-bad/50">{q.wrong}</span>
+              <span className="text-bad">✗</span> <Marked parts={diffWords(q.wrong, q.answer[0]).wrong} className="text-bad line-through decoration-bad/60" />
             </p>
             {q.answer.map((a) => (
               <p key={a} className="text-lg">
-                <span className="text-good">✓</span> {a}
+                <span className="text-good">✓</span> <Marked parts={diffWords(q.wrong, a).right} className="font-medium text-good" />
               </p>
             ))}
           </div>
@@ -425,7 +440,11 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
           !outcome.correct && <p className="mt-1 text-lg">{correctAnswer(q)}</p>
         )}
         {others.length > 0 && <p className="mt-1 text-sm text-white/50">Також правильно: {others.join(' · ')}</p>}
-        {q.why && <p className="mt-2 text-sm text-white/60">{q.why}</p>}
+        {q.why && (
+          <p className="mt-2 text-sm text-white/60">
+            <RichText text={q.why} />
+          </p>
+        )}
       </div>
       {/* A typed answer the checker did not recognise may still be right (another modal, another word order): let the learner count it. */}
       {onOverride && canOverride(q, outcome) && (

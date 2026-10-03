@@ -11,7 +11,7 @@
     "to"
    ],
    "answer": 1,
-   "why": "on — на поверхні."
+   "why": "*on* — на поверхні, з дотиком: *on the table*. *in* — всередині, *at* — у точці."
   },
   {
    "id": "prepositions-place-2",
@@ -24,7 +24,7 @@
     "to"
    ],
    "answer": 2,
-   "why": "in + місто."
+   "why": "З містами й країнами — *in*: *in Paris, in Ukraine*."
   },
   {
    "id": "prepositions-place-3",
@@ -37,7 +37,7 @@
     "to"
    ],
    "answer": 1,
-   "why": "at — точка."
+   "why": "*at* — точка, місце зустрічі: *at the bus stop, at the entrance*."
   },
   {
    "id": "prepositions-place-4",
@@ -50,7 +50,7 @@
     "over"
    ],
    "answer": 0,
-   "why": "between — між двома."
+   "why": "*between* — між двома предметами (кафе і магазин). *among* — серед багатьох."
   },
   {
    "id": "prepositions-place-5",
@@ -63,7 +63,7 @@
     "into"
    ],
    "answer": 0,
-   "why": "above — вище."
+   "why": "*above* — вище, без дотику: *above the sofa*. *on* означало б, що картина лежить на дивані."
   },
   {
    "id": "prepositions-place-6",
@@ -76,7 +76,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "under — під."
+   "why": "*under* — під: *under the chair*."
   },
   {
    "id": "prepositions-place-7",
@@ -89,7 +89,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "on the bus / train / plane."
+   "why": "У громадському транспорті — *on*: *on the bus / train / plane*. В авто й таксі — *in*: *in a car*."
   },
   {
    "id": "prepositions-place-8",
@@ -102,7 +102,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "opposite — навпроти."
+   "why": "*opposite* — навпроти: *She sat opposite me.* *next* потребує *to*: *next to me*."
   },
   {
    "id": "prepositions-place-9",
@@ -115,7 +115,7 @@
     "to"
    ],
    "answer": 1,
-   "why": "at home."
+   "why": "*at home* — сталий вираз «удома» (без артикля)."
   },
   {
    "id": "prepositions-place-10",
@@ -124,7 +124,7 @@
    "answer": [
     "in"
    ],
-   "why": "in — всередині."
+   "why": "*in* — всередині закритого простору: *in the drawer*."
   },
   {
    "id": "prepositions-place-11",
@@ -133,7 +133,7 @@
    "answer": [
     "on"
    ],
-   "why": "on — на поверхні (стіна)."
+   "why": "*on* — на поверхні, зокрема вертикальній: *on the wall*."
   },
   {
    "id": "prepositions-place-12",
@@ -145,7 +145,7 @@
     "near",
     "outside"
    ],
-   "why": "at — точка, місце зустрічі."
+   "why": "*at the entrance* — у точці зустрічі. Підходять і *by* / *near* (біля), *outside* (надворі біля входу)."
   },
   {
    "id": "prepositions-place-13",
@@ -154,7 +154,7 @@
    "answer": [
     "next"
    ],
-   "why": "next to — поруч."
+   "why": "*next to* — поруч: *next to the bank*."
   },
   {
    "id": "prepositions-place-14",
@@ -163,7 +163,7 @@
    "answer": [
     "among"
    ],
-   "why": "among — серед багатьох."
+   "why": "*among* — серед багатьох: *among the few people*."
   },
   {
    "id": "prepositions-place-15",
@@ -176,7 +176,7 @@
     "before of"
    ],
    "answer": 0,
-   "why": "in front of — перед."
+   "why": "*in front of* — перед: *in front of the house*. *before* — про час, а не місце."
   },
   {
    "id": "prepositions-place-16",
@@ -189,7 +189,7 @@
     "by"
    ],
    "answer": 0,
-   "why": "on + поверх."
+   "why": "З поверхами — *on*: *on the third floor*."
   },
   {
    "id": "prepositions-place-17",
@@ -202,7 +202,7 @@
     "by"
    ],
    "answer": 0,
-   "why": "in the photo / picture."
+   "why": "На фото чи картині — *in*: *in the photo*. *on the photo* — розмовна калька."
   },
   {
    "id": "prepositions-place-18",
@@ -215,7 +215,7 @@
     "beyond of"
    ],
    "answer": 0,
-   "why": "behind — позаду."
+   "why": "*behind* — позаду: *behind the house*."
   },
   {
    "id": "prepositions-place-19",
@@ -231,7 +231,7 @@
    "answer": [
     "The cat is under the bed"
    ],
-   "why": "under — під.",
+   "why": "*under* — під: *The cat is under the bed.*",
    "hint": "Кіт під ліжком."
   },
   {
@@ -250,7 +250,7 @@
     "She is sitting between Tom and Anna",
     "She is sitting between Anna and Tom"
    ],
-   "why": "between — між двома.",
+   "why": "*between* — між двома людьми. Порядок імен може бути будь-який.",
    "hint": "Вона сидить між Томом та Анною."
   },
   {
@@ -266,7 +266,7 @@
    "answer": [
     "We live opposite the park"
    ],
-   "why": "opposite — навпроти.",
+   "why": "*opposite* — навпроти, без прийменника після нього: *opposite the park*.",
    "hint": "Ми живемо навпроти парку."
   },
   {
@@ -280,7 +280,7 @@
     "by"
    ],
    "answer": 2,
-   "why": "Адреса з номером — at."
+   "why": "Точна адреса з номером будинку — *at*: *at 25 Park Road*. Лише вулиця без номера — *on* (AmE) або *in* (BrE)."
   },
   {
    "id": "prepositions-place-23",
@@ -293,7 +293,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "Поверх — on."
+   "why": "Поверх — *on*: *on the fifth floor*."
   },
   {
    "id": "prepositions-place-24",
@@ -306,7 +306,7 @@
     "under"
    ],
    "answer": 2,
-   "why": "at the top / bottom of."
+   "why": "*at the top / bottom of* — угорі / внизу сторінки."
   },
   {
    "id": "prepositions-place-25",
@@ -315,7 +315,7 @@
    "answer": [
     "in"
    ],
-   "why": "Сталий вираз — in bed."
+   "why": "*in bed* — сталий вираз «у ліжку» (без артикля): *ill in bed*."
   }
  ]
 }

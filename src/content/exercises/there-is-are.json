@@ -11,7 +11,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "Однина → there is."
+   "why": "*a book* — одна річ, однина, тому *There is*. *are* — для множини, а *have / has* у цій конструкції не вживаємо (*There has a book* — калька з «є»)."
   },
   {
    "id": "there-is-are-2",
@@ -24,7 +24,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "Множина → there are."
+   "why": "*two people* — множина, тому *There are*. *people* вже множина від *person*."
   },
   {
    "id": "there-is-are-3",
@@ -37,7 +37,7 @@
     "Do there"
    ],
    "answer": 1,
-   "why": "Питання: Are there…?"
+   "why": "*questions* — множина, тому *Are there…?* У питанні *there* і дієслово міняються місцями: *There are* → *Are there*."
   },
   {
    "id": "there-is-are-4",
@@ -50,7 +50,7 @@
     "were"
    ],
    "answer": 2,
-   "why": "Минуле, однина → was."
+   "why": "*yesterday* — минуле, *a storm* — однина, тому *There was*."
   },
   {
    "id": "there-is-are-5",
@@ -63,7 +63,7 @@
     "is being"
    ],
    "answer": 0,
-   "why": "Майбутнє → will be."
+   "why": "*tomorrow* — майбутнє: *There will be a meeting tomorrow.* Після *will* — завжди *be*, незалежно від числа."
   },
   {
    "id": "there-is-are-6",
@@ -76,7 +76,7 @@
     "many"
    ],
    "answer": 1,
-   "why": "У запереченні — any."
+   "why": "У запереченні — *any*: *There isn't any milk.* *a* не можна з нелічильним *milk*, *many* — лише з лічильними."
   },
   {
    "id": "there-is-are-7",
@@ -89,7 +89,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "Узгодження з першим іменником."
+   "why": "Коли після *there* йде перелік, дієслово узгоджуємо з першим іменником: *a book* — однина, тому *There is a book and two pens*. (Якщо першою стоїть множина — *There are two pens and a book*.)"
   },
   {
    "id": "there-is-are-8",
@@ -102,7 +102,7 @@
     "be"
    ],
    "answer": 0,
-   "why": "there used to be."
+   "why": "*There used to be* — «раніше тут був / була»: *There used to be a cinema here.* Після *used to* — інфінітив *be*."
   },
   {
    "id": "there-is-are-9",
@@ -118,7 +118,7 @@
    "answer": [
     "There is no need to worry"
    ],
-   "why": "there is no need to + V."
+   "why": "*There is no need to* + дієслово — «немає потреби»: *There is no need to worry.*"
   },
   {
    "id": "there-is-are-10",
@@ -127,7 +127,7 @@
    "answer": [
     "were"
    ],
-   "why": "Минуле, множина — were."
+   "why": "*last night* — минуле, *a lot of people* — множина, тому *There were*."
   },
   {
    "id": "there-is-are-11",
@@ -136,7 +136,7 @@
    "answer": [
     "Is"
    ],
-   "why": "Питання, однина — Is there."
+   "why": "*a pharmacy* — однина, питання, тому *Is there…?*"
   },
   {
    "id": "there-is-are-12",
@@ -146,7 +146,7 @@
     "has",
     "had"
    ],
-   "why": "Present Perfect — has been."
+   "why": "Present Perfect з *there*: *There has been an accident* — щойно сталося, новина. *had* теж граматично можливе в розповіді про минуле (*There had been…*)."
   },
   {
    "id": "there-is-are-13",
@@ -157,7 +157,7 @@
     "may",
     "could"
    ],
-   "why": "Модальне + be."
+   "why": "Модальне дієслово + *be*: *There might / may / could be a problem.* Усі три виражають можливість."
   },
   {
    "id": "there-is-are-14",
@@ -166,7 +166,7 @@
    "answer": [
     "are"
    ],
-   "why": "How many … are there?"
+   "why": "*How many* + іменник у множині + *are there*: *How many rooms are there?*"
   },
   {
    "id": "there-is-are-15",
@@ -179,7 +179,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "Нелічильне — is."
+   "why": "*milk* — нелічильне, а нелічильні узгоджуються як однина: *There is some milk.*"
   },
   {
    "id": "there-is-are-16",
@@ -192,7 +192,7 @@
     "hasn't"
    ],
    "answer": 0,
-   "why": "Множина + any — aren't."
+   "why": "*tickets* — множина, тому *There aren't any tickets left.*"
   },
   {
    "id": "there-is-are-17",
@@ -205,7 +205,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "There used to be — раніше тут був."
+   "why": "*There used to be* — минулий стан, якого вже немає. *There use to be* — помилка правопису, *was / were to be* означало б план."
   },
   {
    "id": "there-is-are-18",
@@ -218,7 +218,7 @@
     "It's there"
    ],
    "answer": 0,
-   "why": "There is going to be…"
+   "why": "*There is going to be* — прогноз: *There's going to be a storm tonight.* *It's going to be stormy* — інша конструкція, з прикметником."
   },
   {
    "id": "there-is-are-19",
@@ -235,7 +235,7 @@
    "answer": [
     "There are two cats in the garden"
    ],
-   "why": "there are + множина.",
+   "why": "*two cats* — множина: *There are two cats in the garden.*",
    "hint": "У саду двоє котів."
   },
   {
@@ -252,7 +252,7 @@
    "answer": [
     "Is there a bank near here"
    ],
-   "why": "Is there…?",
+   "why": "Питання: *Is there* + однина: *Is there a bank near here?*",
    "hint": "Тут поблизу є банк?"
   },
   {
@@ -268,7 +268,7 @@
    "answer": [
     "There was nobody at home"
    ],
-   "why": "there was + nobody.",
+   "why": "*There was nobody at home* — «нікого не було». *nobody* — однина, і заперечення вже в ньому (без *not*).",
    "hint": "Удома нікого не було."
   },
   {
@@ -282,7 +282,7 @@
     "It has"
    ],
    "answer": 1,
-   "why": "traffic — нелічильний: there's."
+   "why": "*traffic* — нелічильне, тому *There's a lot of traffic* (однина), хоча *a lot of* звучить як «багато»."
   },
   {
    "id": "there-is-are-23",
@@ -295,7 +295,7 @@
     "are they"
    ],
    "answer": 1,
-   "why": "Питання: How many + are there."
+   "why": "Питання: *How many students are there…?* — дієслово перед *there*. *there are* — порядок ствердження."
   },
   {
    "id": "there-is-are-24",
@@ -305,7 +305,7 @@
     "seems",
     "appears"
    ],
-   "why": "There seems to be."
+   "why": "*There seems to be* — «здається, є»: *There seems to be a problem.* *appears* — той самий зміст, трохи формальніше."
   }
  ]
 }

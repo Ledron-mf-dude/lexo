@@ -11,7 +11,7 @@
     "Closing"
    ],
    "answer": 1,
-   "why": "Наказовий спосіб — початкова форма дієслова."
+   "why": "Наказовий спосіб — початкова форма дієслова без підмета: *Close the door, please.*"
   },
   {
    "id": "imperative-2",
@@ -24,7 +24,7 @@
     "No be"
    ],
    "answer": 1,
-   "why": "Заперечення: Don’t + V."
+   "why": "Заперечний наказ — *Don't* + дієслово, навіть з *be*: *Don't be late!*"
   },
   {
    "id": "imperative-3",
@@ -37,7 +37,7 @@
     "Lets to go!"
    ],
    "answer": 0,
-   "why": "Let’s + V."
+   "why": "Пропозиція зробити разом — *Let's* + дієслово без *to*: *Let's go!*"
   },
   {
    "id": "imperative-4",
@@ -50,7 +50,7 @@
     "Sit!"
    ],
    "answer": 1,
-   "why": "Please пом’якшує."
+   "why": "*please* пом'якшує наказ і робить його проханням."
   },
   {
    "id": "imperative-5",
@@ -63,7 +63,7 @@
     "Be"
    ],
    "answer": 0,
-   "why": "Do + V — наполегливо."
+   "why": "*Do* перед наказом робить його наполегливим: *Do be careful!*"
   },
   {
    "id": "imperative-6",
@@ -72,11 +72,11 @@
    "options": [
     "Let's don't go.",
     "Let's not go.",
-    "Don't let's go.",
+    "Let's not to go.",
     "Let's no go."
    ],
    "answer": 1,
-   "why": "Let’s not + V."
+   "why": "Заперечна пропозиція — *Let's not* + дієслово: *Let's not go.* *Let's don't* — розмовна американська форма, у нормі — *Let's not*."
   },
   {
    "id": "imperative-7",
@@ -91,7 +91,7 @@
    "answer": [
     "Don't forget to call me"
    ],
-   "why": "Don’t + V — заперечний наказ."
+   "why": "*Don't* + дієслово: *Don't forget to call me.*"
   },
   {
    "id": "imperative-8",
@@ -104,7 +104,7 @@
     "a condition"
    ],
    "answer": 0,
-   "why": "You перед наказом виділяє виконавця: «ти йди першим»."
+   "why": "*You go first* — *you* перед наказом підкреслює, хто має діяти."
   },
   {
    "id": "imperative-9",
@@ -114,7 +114,7 @@
     "Don't",
     "Do not"
    ],
-   "why": "Заборона: Don't + V."
+   "why": "Заборона — *Don't touch that!*"
   },
   {
    "id": "imperative-10",
@@ -123,7 +123,7 @@
    "answer": [
     "Let's"
    ],
-   "why": "Let's + V — пропозиція."
+   "why": "Пропозиція — *Let's go to the park.*"
   },
   {
    "id": "imperative-11",
@@ -132,7 +132,7 @@
    "answer": [
     "Be"
    ],
-   "why": "Наказ з be: Be quiet."
+   "why": "Наказ з *be* + прикметник: *Be quiet, please.*"
   },
   {
    "id": "imperative-12",
@@ -141,7 +141,7 @@
    "answer": [
     "turn"
    ],
-   "why": "Наказ — початкова форма: turn off."
+   "why": "Наказ — початкова форма: *Please turn your phones off.*"
   },
   {
    "id": "imperative-13",
@@ -154,7 +154,7 @@
     "Doesn't"
    ],
    "answer": 0,
-   "why": "Don't + V."
+   "why": "*Don't worry* — заперечний наказ."
   },
   {
    "id": "imperative-14",
@@ -167,7 +167,7 @@
     "Let"
    ],
    "answer": 0,
-   "why": "Do + V — емфаза."
+   "why": "*Do sit down!* — дружня наполегливість."
   },
   {
    "id": "imperative-15",
@@ -180,7 +180,7 @@
     "Not let's"
    ],
    "answer": 0,
-   "why": "Let's not + V."
+   "why": "*Let's not argue* — давай не будемо."
   },
   {
    "id": "imperative-16",
@@ -193,7 +193,7 @@
     "To add sugar."
    ],
    "answer": 0,
-   "why": "Інструкції — наказовий спосіб."
+   "why": "Рецепти й інструкції пишуть у наказовому способі: *Add the sugar and stir.*"
   },
   {
    "id": "imperative-17",
@@ -206,7 +206,7 @@
    "answer": [
     "Please sit down"
    ],
-   "why": "Please + наказ.",
+   "why": "*Please sit down* — ввічливе прохання.",
    "hint": "Сідайте, будь ласка."
   },
   {
@@ -221,7 +221,7 @@
    "answer": [
     "Don't be late again"
    ],
-   "why": "Don't be + прикметник.",
+   "why": "*Don't be* + прикметник: *Don't be late again.*",
    "hint": "Не запізнюйся знову."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "Let's have a break"
    ],
-   "why": "Let's + V.",
+   "why": "*Let's have a break.*",
    "hint": "Давай зробимо перерву."
   },
   {
@@ -252,7 +252,7 @@
    "answer": [
     "Turn left at the lights"
    ],
-   "why": "Інструкція — наказовий спосіб.",
+   "why": "Інструкція — наказовий спосіб: *Turn left at the lights.*",
    "hint": "На світлофорі поверніть ліворуч."
   },
   {
@@ -266,7 +266,7 @@
     "No"
    ],
    "answer": 1,
-   "why": "Never + дієслово — правило, без don't."
+   "why": "*Never* + дієслово — сильна заборона без *don't*: *Never leave your bag unattended.* *Don't never* — подвійне заперечення."
   },
   {
    "id": "imperative-22",
@@ -279,7 +279,7 @@
     "shall I"
    ],
    "answer": 1,
-   "why": "Наказ + will you? — м'якше прохання."
+   "why": "Після наказу тег *will you?* робить його проханням: *Close the window, will you?*"
   },
   {
    "id": "imperative-23",
@@ -288,7 +288,7 @@
    "answer": [
     "help"
    ],
-   "why": "Let me + інфінітив без to."
+   "why": "*Let me* + інфінітив без *to*: *Let me help you.*"
   }
  ]
 }

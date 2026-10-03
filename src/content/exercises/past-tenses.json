@@ -11,7 +11,7 @@
     "has started"
    ],
    "answer": 1,
-   "why": "Дія, що сталася раніше за іншу минулу, — Past Perfect."
+   "why": "Фільм почався раніше, ніж я прийшов (я пропустив початок), — дія раніша за інший момент у минулому, тому Past Perfect: *had started*."
   },
   {
    "id": "past-tenses-2",
@@ -24,7 +24,7 @@
     "watch"
    ],
    "answer": 1,
-   "why": "Дія в процесі, яку перервали, — Past Continuous."
+   "why": "Тривала дія, яку перервала інша подія, — Past Continuous: *I was watching TV when the phone rang.* Коротка подія (*rang*) — Past Simple."
   },
   {
    "id": "past-tenses-3",
@@ -33,7 +33,7 @@
    "answer": [
     "went"
    ],
-   "why": "Друга дія в минулому — Past Simple: went."
+   "why": "*After he had eaten* — перша дія (Past Perfect); друга, наступна дія — у Past Simple: *he went to bed*."
   },
   {
    "id": "past-tenses-4",
@@ -42,7 +42,7 @@
    "answer": [
     "was walking"
    ],
-   "why": "Тривала дія, у яку вклинилася подія, — was walking."
+   "why": "Я був у процесі ходьби, коли побачив аварію: тривала дія — *was walking*, коротка — *saw*."
   },
   {
    "id": "past-tenses-5",
@@ -55,7 +55,7 @@
     "Do / attend"
    ],
    "answer": 0,
-   "why": "Yesterday + питання: Did + інфінітив."
+   "why": "*yesterday* — завершений час у минулому, тому Past Simple: *Did you attend…?* Present Perfect (*Have you attended*) з *yesterday* не вживають."
   },
   {
    "id": "past-tenses-6",
@@ -64,7 +64,7 @@
    "answer": [
     "see"
    ],
-   "why": "Після didn’t — початкова форма."
+   "why": "Після *didn't* — початкова форма дієслова: *She didn't see him.* Минулий час уже показує *did*."
   },
   {
    "id": "past-tenses-7",
@@ -77,7 +77,7 @@
     "have gone"
    ],
    "answer": 1,
-   "why": "by the time + раніша дія — Past Perfect."
+   "why": "*By the time we got there* — до того моменту вони вже пішли: дія раніша, тому Past Perfect: *had gone*."
   },
   {
    "id": "past-tenses-8",
@@ -86,7 +86,7 @@
    "answer": [
     "were"
    ],
-   "why": "Past Simple від to be для we — were."
+   "why": "*last night* — минуле; Past Simple від *be* для *we* — *were*."
   },
   {
    "id": "past-tenses-9",
@@ -99,7 +99,7 @@
     "did / cook"
    ],
    "answer": 0,
-   "why": "already + раніше за минулий момент — had cooked."
+   "why": "*already* + момент у минулому (*When I got home*) — сестра приготувала вечерю раніше: *had already cooked*."
   },
   {
    "id": "past-tenses-10",
@@ -116,7 +116,7 @@
     "I was reading when she called",
     "When she called I was reading"
    ],
-   "why": "Процес (Continuous) + подія (Simple)."
+   "why": "Процес (*was reading*) перервала коротка подія (*called*)."
   },
   {
    "id": "past-tenses-11",
@@ -125,7 +125,7 @@
    "answer": [
     "was cooking"
    ],
-   "why": "Тривала дія — Past Continuous."
+   "why": "*While* + тривала дія — Past Continuous: *While I was cooking, the lights went out.*"
   },
   {
    "id": "past-tenses-12",
@@ -134,7 +134,7 @@
    "answer": [
     "had already left"
    ],
-   "why": "Раніше за інший минулий момент — Past Perfect."
+   "why": "Вона пішла раніше, ніж я прийшов, — Past Perfect з *already* між *had* і дієсловом: *had already left*."
   },
   {
    "id": "past-tenses-13",
@@ -143,7 +143,7 @@
    "answer": [
     "were"
    ],
-   "why": "Процес у момент — were + V-ing."
+   "why": "Процес у конкретний момент минулого (*at 8 pm yesterday*) — Past Continuous: *What were you doing?*"
   },
   {
    "id": "past-tenses-14",
@@ -153,7 +153,7 @@
     "didn't sleep",
     "did not sleep"
    ],
-   "why": "Past Simple: didn't + V."
+   "why": "*last night* — Past Simple; заперечення — *didn't* + початкова форма: *didn't sleep*."
   },
   {
    "id": "past-tenses-15",
@@ -166,7 +166,7 @@
     "were laugh"
    ],
    "answer": 0,
-   "why": "Тло — Past Continuous."
+   "why": "Коли вона ввійшла, сміх уже тривав — це тло, Past Continuous: *everyone was laughing*. *everyone* — однина, тому *was*."
   },
   {
    "id": "past-tenses-16",
@@ -179,7 +179,7 @@
     "have left"
    ],
    "answer": 0,
-   "why": "Раніше — Past Perfect."
+   "why": "Гаманець залишився вдома раніше, ніж я це помітив, — Past Perfect: *I realised I had left my wallet at home.*"
   },
   {
    "id": "past-tenses-17",
@@ -192,7 +192,7 @@
     "opens / walks"
    ],
    "answer": 0,
-   "why": "Послідовні події — Past Simple."
+   "why": "Послідовні короткі дії в минулому — Past Simple: *He opened the door, walked in and sat down.*"
   },
   {
    "id": "past-tenses-18",
@@ -205,7 +205,7 @@
     "is raining"
    ],
    "answer": 0,
-   "why": "Тло подій — Past Continuous."
+   "why": "Тло, що вже тривало, коли ми вийшли, — Past Continuous: *It was raining.*"
   },
   {
    "id": "past-tenses-19",
@@ -223,7 +223,7 @@
     "She was sleeping when I got home",
     "When I got home she was sleeping"
    ],
-   "why": "Процес + подія.",
+   "why": "Процес (*was sleeping*) + подія (*got home*).",
    "hint": "Вона спала, коли я прийшов додому."
   },
   {
@@ -240,7 +240,7 @@
    "answer": [
     "I had never seen snow before"
    ],
-   "why": "Past Perfect — досвід до моменту в минулому.",
+   "why": "*never … before* відносно моменту в минулому — Past Perfect: *I had never seen snow before.*",
    "hint": "Я ніколи раніше не бачив снігу."
   },
   {
@@ -258,7 +258,7 @@
     "We met in Paris in 2019",
     "In 2019 we met in Paris"
    ],
-   "why": "Past Simple — названий час.",
+   "why": "Конкретний рік у минулому — Past Simple: *We met in Paris in 2019.*",
    "hint": "Ми познайомилися в Парижі 2019 року."
   },
   {
@@ -272,7 +272,7 @@
     "Since"
    ],
    "answer": 1,
-   "why": "Тривала дія (Continuous) — while."
+   "why": "*While* + підмет + дієслово (тривала дія). *During* вживають з іменником (*during the walk*), а не з реченням."
   },
   {
    "id": "past-tenses-23",
@@ -285,7 +285,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "Вона прийшла посеред вечері — Past Continuous."
+   "why": "Вона прийшла посеред вечері — вечеря тривала: Past Continuous *were having*."
   },
   {
    "id": "past-tenses-24",
@@ -298,7 +298,7 @@
     "have had"
    ],
    "answer": 2,
-   "why": "Дія раніше за інший момент — Past Perfect: had had."
+   "why": "Ми повечеряли до її приходу — Past Perfect: *had had* (перше *had* — допоміжне, друге — *have dinner*)."
   },
   {
    "id": "past-tenses-25",
@@ -307,7 +307,7 @@
    "answer": [
     "were"
    ],
-   "why": "Past Continuous: were + підмет + V-ing."
+   "why": "Процес у момент минулого — *were* + підмет + *-ing*: *What were you doing at 10?*"
   },
   {
    "id": "past-tenses-26",
@@ -317,7 +317,7 @@
     "didn't hear",
     "did not hear"
    ],
-   "why": "Коротка подія — Past Simple, заперечення didn't + V."
+   "why": "Коротка подія (не почув) — Past Simple, заперечення *didn't hear*. *was in the shower* — тло."
   }
  ]
 }

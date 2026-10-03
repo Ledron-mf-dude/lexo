@@ -11,7 +11,7 @@
     "more tall"
    ],
    "answer": 1,
-   "why": "Порівняльний ступінь: taller."
+   "why": "Порівнюємо двох (*than me*) — порівняльний ступінь: *taller*. Короткий прикметник отримує *-er*."
   },
   {
    "id": "comparatives-superlatives-2",
@@ -24,7 +24,7 @@
     "most tall"
    ],
    "answer": 2,
-   "why": "Найвищий ступінь: tallest."
+   "why": "Найвищий у групі (*in the class*) — *the tallest*."
   },
   {
    "id": "comparatives-superlatives-3",
@@ -37,7 +37,7 @@
     "the interesting"
    ],
    "answer": 0,
-   "why": "Довгий прикметник: more + adj."
+   "why": "Довгий прикметник (3+ склади) — *more* + прикметник: *more interesting*."
   },
   {
    "id": "comparatives-superlatives-4",
@@ -50,7 +50,7 @@
     "more good"
    ],
    "answer": 1,
-   "why": "good – better – best."
+   "why": "*good* має неправильні форми: *good – better – best*."
   },
   {
    "id": "comparatives-superlatives-5",
@@ -63,7 +63,7 @@
     "most bad"
    ],
    "answer": 1,
-   "why": "bad – worse – worst."
+   "why": "*bad – worse – worst*. *worse* — порівняльний, *worst* — найвищий."
   },
   {
    "id": "comparatives-superlatives-6",
@@ -76,7 +76,7 @@
     "bigest"
    ],
    "answer": 1,
-   "why": "big → bigger: CVC — подвоюємо приголосну."
+   "why": "Односкладові на приголосна + голосна + приголосна подвоюють останню літеру: *big → bigger*."
   },
   {
    "id": "comparatives-superlatives-7",
@@ -89,7 +89,7 @@
     "hapiier"
    ],
    "answer": 1,
-   "why": "-y → -ier."
+   "why": "*-y* після приголосної змінюється на *-ier*: *happy → happier*."
   },
   {
    "id": "comparatives-superlatives-8",
@@ -102,7 +102,7 @@
     "cold and cold"
    ],
    "answer": 0,
-   "why": "comparative and comparative."
+   "why": "«Дедалі холодніше» — порівняльний + *and* + порівняльний: *colder and colder*."
   },
   {
    "id": "comparatives-superlatives-9",
@@ -115,7 +115,7 @@
     "an"
    ],
    "answer": 1,
-   "why": "Найвищий ступінь — the."
+   "why": "Найвищий ступінь — з *the*: *the best student*."
   },
   {
    "id": "comparatives-superlatives-10",
@@ -128,7 +128,7 @@
     "farest"
    ],
    "answer": 1,
-   "why": "far – further/farther."
+   "why": "*far* має форми *further* і *farther* (обидві про відстань). *farrer, more far* — помилки."
   },
   {
    "id": "comparatives-superlatives-11",
@@ -137,7 +137,7 @@
    "answer": [
     "happiest"
    ],
-   "why": "-y → -iest: the happiest."
+   "why": "*happy → the happiest*: *-y* → *-iest*, з *the*."
   },
   {
    "id": "comparatives-superlatives-12",
@@ -146,7 +146,7 @@
    "answer": [
     "better"
    ],
-   "why": "good → better."
+   "why": "*good → better*: неправильна форма."
   },
   {
    "id": "comparatives-superlatives-13",
@@ -155,7 +155,7 @@
    "answer": [
     "biggest"
    ],
-   "why": "CVC: big → the biggest."
+   "why": "*big → the biggest*: подвоєння *g* і *the*."
   },
   {
    "id": "comparatives-superlatives-14",
@@ -164,7 +164,7 @@
    "answer": [
     "more difficult"
    ],
-   "why": "Довгий прикметник — more."
+   "why": "Довгий прикметник — *more difficult*."
   },
   {
    "id": "comparatives-superlatives-15",
@@ -173,7 +173,7 @@
    "answer": [
     "more carefully"
    ],
-   "why": "Прислівник на -ly — more carefully."
+   "why": "Прислівник на *-ly* — *more* + прислівник: *more carefully*."
   },
   {
    "id": "comparatives-superlatives-16",
@@ -182,7 +182,7 @@
    "answer": [
     "worst"
    ],
-   "why": "bad → the worst."
+   "why": "*bad → the worst*."
   },
   {
    "id": "comparatives-superlatives-17",
@@ -195,7 +195,7 @@
     "kindest"
    ],
    "answer": 0,
-   "why": "Найвищий ступінь з the: the kindest."
+   "why": "Найвищий ступінь з *the*: *the kindest person*. *kindest* без артикля — помилка."
   },
   {
    "id": "comparatives-superlatives-18",
@@ -208,7 +208,7 @@
     "the harder"
    ],
    "answer": 0,
-   "why": "hard → harder."
+   "why": "Односкладове *hard* — *harder*: *harder than English*."
   },
   {
    "id": "comparatives-superlatives-19",
@@ -221,7 +221,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "Найвищий ступінь + місце — in."
+   "why": "Після найвищого ступеня місце позначаємо через *in*: *the tallest building in the city*."
   },
   {
    "id": "comparatives-superlatives-20",
@@ -234,7 +234,7 @@
     "lesser"
    ],
    "answer": 0,
-   "why": "less + adj + than — менш дорогий."
+   "why": "*less* + прикметник + *than* — «менш…»: *less expensive than*. *fewer* — з лічильними іменниками."
   },
   {
    "id": "comparatives-superlatives-21",
@@ -247,7 +247,7 @@
     "from"
    ],
    "answer": 0,
-   "why": "the … of all — з групи."
+   "why": "*of all* — «з усіх»: *the highest mountain of all*. З місцем — *in* (*in the world*)."
   },
   {
    "id": "comparatives-superlatives-22",
@@ -264,7 +264,7 @@
    "answer": [
     "She is the youngest in her family"
    ],
-   "why": "the + -est + in.",
+   "why": "*the youngest in her family* — найвищий ступінь + *in* + група-місце.",
    "hint": "Вона наймолодша в родині."
   },
   {
@@ -281,7 +281,7 @@
    "answer": [
     "My sister is older than me"
    ],
-   "why": "Порівняльний + than.",
+   "why": "Порівняльний + *than*: *older than me*.",
    "hint": "Моя сестра старша за мене."
   },
   {
@@ -301,7 +301,7 @@
    "answer": [
     "This is the most interesting book I have read"
    ],
-   "why": "the most + довгий прикметник.",
+   "why": "Довгий прикметник — *the most interesting*.",
    "hint": "Це найцікавіша книжка, яку я прочитав."
   },
   {
@@ -315,7 +315,7 @@
     "most old"
    ],
    "answer": 1,
-   "why": "Член родини перед іменником — elder (або older)."
+   "why": "Про старших членів родини перед іменником — *elder* (*my elder sister*). *older* теж можна, а *eldest* — найстарший із трьох і більше."
   },
   {
    "id": "comparatives-superlatives-26",
@@ -328,7 +328,7 @@
     "more far"
    ],
    "answer": 1,
-   "why": "Додатковий — further."
+   "why": "*further* у значенні «додатковий»: *further information*. *farther* — лише про відстань."
   },
   {
    "id": "comparatives-superlatives-27",
@@ -341,7 +341,7 @@
     "more hot"
    ],
    "answer": 2,
-   "why": "Найвищий ступінь: the hottest."
+   "why": "*hot → the hottest*: подвоєння *t*."
   },
   {
    "id": "comparatives-superlatives-28",
@@ -350,7 +350,7 @@
    "answer": [
     "worse"
    ],
-   "why": "bad → worse."
+   "why": "*bad → worse* (порівняльний)."
   }
  ]
 }

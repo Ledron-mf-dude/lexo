@@ -11,7 +11,7 @@
     "These"
    ],
    "answer": 1,
-   "why": "this — однина, близько."
+   "why": "Одна річ поруч — *This*: *This book here is mine.* *here* підтверджує «близько»."
   },
   {
    "id": "demonstratives-2",
@@ -24,7 +24,7 @@
     "Those"
    ],
    "answer": 3,
-   "why": "those — множина, далеко."
+   "why": "Кілька речей далеко (*over there*) — *Those*: *Those shoes over there are yours.*"
   },
   {
    "id": "demonstratives-3",
@@ -37,7 +37,7 @@
     "Those"
    ],
    "answer": 2,
-   "why": "these — множина, близько."
+   "why": "Кілька речей поруч — *These*: *These are my keys.*"
   },
   {
    "id": "demonstratives-4",
@@ -50,7 +50,7 @@
     "He"
    ],
    "answer": 1,
-   "why": "Про себе в телефонній розмові — This is…"
+   "why": "Називаючи себе по телефону, британці кажуть *This is Tom (speaking).*"
   },
   {
    "id": "demonstratives-5",
@@ -63,7 +63,7 @@
     "those"
    ],
    "answer": 1,
-   "why": "Про співрозмовника — Who is that?"
+   "why": "Питаючи по телефону, хто говорить, британці кажуть *Who is that?* (американці частіше *Who is this?*). *these / those* — множина."
   },
   {
    "id": "demonstratives-6",
@@ -76,7 +76,7 @@
     "There"
    ],
    "answer": 1,
-   "why": "Погода — it."
+   "why": "Про погоду — *It*: *It is raining.* Вказівні слова тут не вживаємо."
   },
   {
    "id": "demonstratives-7",
@@ -89,7 +89,7 @@
     "thoses"
    ],
    "answer": 1,
-   "why": "that → those."
+   "why": "*that → those*, *this → these*."
   },
   {
    "id": "demonstratives-8",
@@ -104,7 +104,7 @@
    "answer": [
     "This is my sister Anna"
    ],
-   "why": "Знайомство: This is…"
+   "why": "Знайомлячи людей, кажемо *This is…*: *This is my sister Anna.*"
   },
   {
    "id": "demonstratives-9",
@@ -113,7 +113,7 @@
    "answer": [
     "These"
    ],
-   "why": "these — множина, близько."
+   "why": "Кілька яблук поруч — *These apples here*."
   },
   {
    "id": "demonstratives-10",
@@ -122,7 +122,7 @@
    "answer": [
     "that"
    ],
-   "why": "that — однина, далеко.",
+   "why": "Одна пташка далеко (*up there*) — *that bird*.",
    "hint": "(той — далеко)"
   },
   {
@@ -132,7 +132,7 @@
    "answer": [
     "those"
    ],
-   "why": "those — множина, далеко.",
+   "why": "Кілька людей далеко (*over there*) — *those people*.",
    "hint": "(ті — далеко)"
   },
   {
@@ -142,7 +142,7 @@
    "answer": [
     "This"
    ],
-   "why": "Знайомство: This is…"
+   "why": "Знайомлячи когось, кажемо *This is…*: *This is my friend Mark.*"
   },
   {
    "id": "demonstratives-13",
@@ -151,7 +151,7 @@
    "answer": [
     "this"
    ],
-   "why": "this week — цього тижня."
+   "why": "Поточний період — *this week / this month*."
   },
   {
    "id": "demonstratives-14",
@@ -164,7 +164,7 @@
     "those"
    ],
    "answer": 0,
-   "why": "Минулий момент — that."
+   "why": "Про момент у минулому — *that day*: *Do you remember that day when we met?*"
   },
   {
    "id": "demonstratives-15",
@@ -177,7 +177,7 @@
     "them"
    ],
    "answer": 0,
-   "why": "Те, що відбувається зараз, — this."
+   "why": "Пісня звучить зараз — *this song*. *these / those* — множина, а *them* не стоїть перед іменником."
   },
   {
    "id": "demonstratives-16",
@@ -190,7 +190,7 @@
     "Those is"
    ],
    "answer": 0,
-   "why": "trousers — множина, близько: these."
+   "why": "*trousers* — множина, і вони в руках (близько), тому *These trousers are too long.*"
   },
   {
    "id": "demonstratives-17",
@@ -203,7 +203,7 @@
     "these are"
    ],
    "answer": 0,
-   "why": "Відповідь — it: Yes, it's mine."
+   "why": "Відповідаючи про згадану річ, уживаємо *it*: *Yes, it's mine.*"
   },
   {
    "id": "demonstratives-18",
@@ -218,7 +218,7 @@
    "answer": [
     "Those shoes are too expensive"
    ],
-   "why": "those — множина, далеко.",
+   "why": "Кілька пар далеко — *Those shoes*.",
    "hint": "Ті черевики надто дорогі."
   },
   {
@@ -234,7 +234,7 @@
    "answer": [
     "This is my new phone"
    ],
-   "why": "This is… — показую.",
+   "why": "Показуючи річ поруч — *This is my new phone.*",
    "hint": "Це мій новий телефон."
   },
   {
@@ -251,7 +251,7 @@
    "answer": [
     "Is that your car over there"
    ],
-   "why": "that — далеко.",
+   "why": "Річ далеко (*over there*) — *Is that your car over there?*",
    "hint": "Це твоя машина он там?"
   },
   {
@@ -265,7 +265,7 @@
     "that"
    ],
    "answer": 1,
-   "why": "Множина — those (ones)."
+   "why": "Множина — *those ones* (або просто *those*). *that ones* — невідповідність однини й множини, *this one* — однина."
   },
   {
    "id": "demonstratives-22",
@@ -278,7 +278,7 @@
     "It's this"
    ],
    "answer": 1,
-   "why": "Відповідь на слова співрозмовника — That's…"
+   "why": "Реагуючи на почуте від співрозмовника, кажемо *That's fantastic!*"
   },
   {
    "id": "demonstratives-23",
@@ -287,7 +287,7 @@
    "answer": [
     "those"
    ],
-   "why": "Про минуле — in those days."
+   "why": "Про давнє минуле — *in those days*."
   }
  ]
 }

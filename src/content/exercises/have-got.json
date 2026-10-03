@@ -11,7 +11,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "he/she/it — has got (скорочено she's got)."
+   "why": "Для he / she / it — *has got*: *She has got two brothers* (*She's got*). *have got* — для I / you / we / they."
   },
   {
    "id": "have-got-2",
@@ -24,7 +24,7 @@
     "Has / got"
    ],
    "answer": 1,
-   "why": "Питання: Have + підмет + got."
+   "why": "Питання з *have got*: *Have* + підмет + *got*: *Have you got a pen?*"
   },
   {
    "id": "have-got-3",
@@ -34,7 +34,7 @@
     "hasn't got",
     "has not got"
    ],
-   "why": "Заперечення: hasn’t got."
+   "why": "Заперечення: *hasn't got* для he / she / it: *He hasn't got any money.*"
   },
   {
    "id": "have-got-4",
@@ -47,7 +47,7 @@
     "I was got a car."
    ],
    "answer": 0,
-   "why": "have got — лише теперішній час; у минулому — had."
+   "why": "*have got* вживають лише в теперішньому часі. Про минуле — просто *had*: *I had a car.*"
   },
   {
    "id": "have-got-5",
@@ -60,7 +60,7 @@
     "am"
    ],
    "answer": 1,
-   "why": "У короткій відповіді got не повторюємо: Yes, I have."
+   "why": "У короткій відповіді *got* не повторюємо: *Yes, I have.*"
   },
   {
    "id": "have-got-6",
@@ -70,7 +70,7 @@
     "have got",
     "'ve got"
    ],
-   "why": "we + have got."
+   "why": "*we* + *have got* (*'ve got*): *We have got a big garden.*"
   },
   {
    "id": "have-got-7",
@@ -83,7 +83,7 @@
     "Does you have a car?"
    ],
    "answer": 0,
-   "why": "З have (без got) питання утворюємо через do."
+   "why": "З *have* без *got* питання будуємо через *do*: *Do you have a car?*"
   },
   {
    "id": "have-got-8",
@@ -98,7 +98,7 @@
    "answer": [
     "She has got blue eyes"
    ],
-   "why": "have got — для зовнішності, володіння."
+   "why": "*has got* — для зовнішності й володіння: *She has got blue eyes.*"
   },
   {
    "id": "have-got-9",
@@ -107,7 +107,7 @@
    "answer": [
     "Has"
    ],
-   "why": "flat — it: Has … got?"
+   "why": "*your flat* = it, тому *Has … got*: *Has your flat got a balcony?*"
   },
   {
    "id": "have-got-10",
@@ -116,7 +116,7 @@
    "answer": [
     "got"
    ],
-   "why": "have got — для хвороб."
+   "why": "Хвороби — *have got*: *I've got a headache.*"
   },
   {
    "id": "have-got-11",
@@ -126,7 +126,7 @@
     "haven't",
     "have not"
    ],
-   "why": "they → haven't got.",
+   "why": "*they* — *haven't got*: *They haven't got any children.*",
    "hint": "Заперечення"
   },
   {
@@ -137,7 +137,7 @@
     "hasn't",
     "has not"
    ],
-   "why": "Коротка відповідь без got: No, he hasn't."
+   "why": "Коротка відповідь без *got*: *No, he hasn't.*"
   },
   {
    "id": "have-got-13",
@@ -146,7 +146,7 @@
    "answer": [
     "had"
    ],
-   "why": "have got — лише теперішній; минуле — had.",
+   "why": "Про минуле — *had*: *I had a dog.* *had got* у цьому значенні не вживають.",
    "hint": "Минуле"
   },
   {
@@ -160,7 +160,7 @@
     "Has"
    ],
    "answer": 0,
-   "why": "Питання: Have + you + got."
+   "why": "Питання: *Have you got…?*"
   },
   {
    "id": "have-got-15",
@@ -173,7 +173,7 @@
     "got has"
    ],
    "answer": 0,
-   "why": "she has got = she's got."
+   "why": "*she has got* = *she's got*: *She's got long dark hair.*"
   },
   {
    "id": "have-got-16",
@@ -186,7 +186,7 @@
     "I have a cold."
    ],
    "answer": 0,
-   "why": "have у виразах (have lunch) — дія, не володіння."
+   "why": "*have lunch* — дія (обідати), а не володіння, тому замінити на *have got* не можна. Решта — володіння чи стан."
   },
   {
    "id": "have-got-17",
@@ -199,7 +199,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "have got to = have to (розм.)."
+   "why": "*have got to* = *have to* (треба), розмовне: *I've got to go now.*"
   },
   {
    "id": "have-got-18",
@@ -214,7 +214,7 @@
    "answer": [
     "Have you got a pen"
    ],
-   "why": "Have + підмет + got.",
+   "why": "*Have* + підмет + *got*: *Have you got a pen?*",
    "hint": "У тебе є ручка?"
   },
   {
@@ -230,7 +230,7 @@
    "answer": [
     "We haven't got much time"
    ],
-   "why": "haven't got + much.",
+   "why": "Заперечення з *much*: *We haven't got much time.*",
    "hint": "У нас мало часу."
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "My brother has got a new job"
    ],
-   "why": "has got — третя особа.",
+   "why": "*has got* — третя особа однини: *My brother has got a new job.*",
    "hint": "Мій брат отримав нову роботу / має нову роботу."
   },
   {
@@ -262,7 +262,7 @@
     "is"
    ],
    "answer": 1,
-   "why": "Коротка відповідь без got."
+   "why": "Коротка відповідь без *got*: *Yes, she has.*"
   },
   {
    "id": "have-got-22",
@@ -275,7 +275,7 @@
     "have get to"
    ],
    "answer": 1,
-   "why": "have got to — треба."
+   "why": "*I've got to go* — «мені треба йти»."
   },
   {
    "id": "have-got-23",
@@ -284,7 +284,7 @@
    "answer": [
     "haven't"
    ],
-   "why": "Тег до have got — haven't."
+   "why": "Розділове питання до *You've got*: тег з *have* — *haven't you?*"
   }
  ]
 }

@@ -11,7 +11,7 @@
     "be"
    ],
    "answer": 2,
-   "why": "I am."
+   "why": "З *I* дієслово *to be* має окрему форму — *am*: *I am a student*. *is* — для he / she / it, *are* — для you / we / they, а *be* без зміни після підмета не вживається."
   },
   {
    "id": "to-be-2",
@@ -24,7 +24,7 @@
     "be"
    ],
    "answer": 2,
-   "why": "they are."
+   "why": "*They* — множина, тому *are*: *They are at home*. *is* — лише для однини (he / she / it), *am* — лише для *I*."
   },
   {
    "id": "to-be-3",
@@ -34,7 +34,7 @@
     "isn't",
     "is not"
    ],
-   "why": "Заперечення: is not / isn’t."
+   "why": "Заперечення з *to be* утворюємо через *not* після дієслова: *She is not* / *She isn't tall*. Допоміжне *doesn't* тут не потрібне — *to be* обходиться без *do*."
   },
   {
    "id": "to-be-4",
@@ -47,7 +47,7 @@
     "Does"
    ],
    "answer": 1,
-   "why": "To be виносимо перед підмет: Is he…?"
+   "why": "У питанні *to be* стає перед підметом: *He is a doctor* → *Is he a doctor?* *Do / Does* потрібні для інших дієслів, але не для *to be*; *Are* не узгоджується з *he*."
   },
   {
    "id": "to-be-5",
@@ -60,7 +60,7 @@
     "aren't"
    ],
    "answer": 0,
-   "why": "Коротка відповідь: Yes, they are."
+   "why": "Коротка відповідь повторює те саме дієслово, що в питанні: *Are they…?* → *Yes, they are.* *do* не підходить, бо в питанні не було *do*, а *is* не узгоджується з *they*."
   },
   {
    "id": "to-be-6",
@@ -73,7 +73,7 @@
     "mine"
    ],
    "answer": 2,
-   "why": "Перед іменником — присвійний прикметник my."
+   "why": "Перед іменником ставимо присвійний прикметник *my* (мій): *my bag*. *mine* вживається без іменника (*The bag is mine*), *me* — додаток (*Give it to me*), *I* — підмет."
   },
   {
    "id": "to-be-7",
@@ -86,7 +86,7 @@
     "What"
    ],
    "answer": 1,
-   "why": "Whose — «чий»."
+   "why": "*Whose* питає «чий?»: *Whose book is this?* *Who's* — це скорочення *who is* («хто є»), яке звучить так само, але означає інше."
   },
   {
    "id": "to-be-8",
@@ -95,7 +95,7 @@
    "answer": [
     "hers"
    ],
-   "why": "Без іменника — присвійний займенник hers."
+   "why": "Після *It is* іменника немає, тому потрібен присвійний займенник, що стоїть самостійно, — *hers*: *It is hers*. *her* вимагав би іменника після себе: *It is her bag*."
   },
   {
    "id": "to-be-9",
@@ -108,7 +108,7 @@
     "it is"
    ],
    "answer": 1,
-   "why": "its — присвійне (його); it’s = it is."
+   "why": "*its* без апострофа — присвійне «його / її» про предмет чи тварину: *its ball*. *it's* з апострофом — скорочення *it is*: *It's cold.*"
   },
   {
    "id": "to-be-10",
@@ -122,7 +122,7 @@
    "answer": [
     "How old are you?"
    ],
-   "why": "How old + to be + підмет."
+   "why": "Питання про вік: *How old* + дієслово *to be* + підмет: *How old are you?* Українською «скільки тобі років», але англійською вік — це стан, тому *be*, а не *have*."
   },
   {
    "id": "to-be-11",
@@ -132,7 +132,7 @@
     "are",
     "'re"
    ],
-   "why": "we are."
+   "why": "*We* — множина, тому *are* (або скорочено *'re*): *We are from Ukraine*."
   },
   {
    "id": "to-be-12",
@@ -141,7 +141,7 @@
    "answer": [
     "Are"
    ],
-   "why": "Питання: Are + you."
+   "why": "У питанні *to be* стоїть першим, і з *you* це *Are*: *Are you tired?* Не *Do you tired?* — *tired* прикметник, а не дієслово."
   },
   {
    "id": "to-be-13",
@@ -151,7 +151,7 @@
     "am",
     "'m"
    ],
-   "why": "I am not."
+   "why": "З *I* — *am*, і заперечне *not* стоїть після нього: *I am not hungry* (*I'm not hungry*). Скорочення *amn't* не існує."
   },
   {
    "id": "to-be-14",
@@ -160,7 +160,7 @@
    "answer": [
     "are"
    ],
-   "why": "Множина — are."
+   "why": "*My parents* — двоє людей, множина, тому *are*: *My parents are doctors*."
   },
   {
    "id": "to-be-15",
@@ -169,7 +169,7 @@
    "answer": [
     "are"
    ],
-   "why": "keys — множина: Where are…?"
+   "why": "*keys* — множина, тому *are*: *Where are your keys?* Дієслово узгоджується з підметом, який стоїть після нього."
   },
   {
    "id": "to-be-16",
@@ -182,7 +182,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "Вік — be: I am 25."
+   "why": "Вік англійською виражаємо через *to be*: *I am 25 (years old)*. *I have 25 years* — калька з інших мов, так не кажуть."
   },
   {
    "id": "to-be-17",
@@ -195,7 +195,7 @@
     "Has"
    ],
    "answer": 0,
-   "why": "Is + підмет?"
+   "why": "*your sister* = she, тому *Is*: *Is your sister a teacher?* *Does* не вживаємо з *to be*, *Are* — для множини."
   },
   {
    "id": "to-be-18",
@@ -208,7 +208,7 @@
     "aren't"
    ],
    "answer": 0,
-   "why": "Коротка відповідь: No, he isn't."
+   "why": "Коротка заперечна відповідь повторює *is* з питання: *Is he…?* → *No, he isn't.* *doesn't* не підходить, бо в питанні було *is*, а не *does*."
   },
   {
    "id": "to-be-19",
@@ -221,7 +221,7 @@
     "that are"
    ],
    "answer": 0,
-   "why": "Знайомимо: this is…"
+   "why": "Коли знайомимо людей, кажемо *This is…* про кожну людину: *This is Tom and this is his wife, Anna.* *these* — множина, а тут одна людина."
   },
   {
    "id": "to-be-20",
@@ -235,7 +235,7 @@
    "answer": [
     "She is my sister"
    ],
-   "why": "she is.",
+   "why": "Звичайний порядок: підмет + *to be* + решта: *She is my sister.*",
    "hint": "Вона моя сестра."
   },
   {
@@ -250,7 +250,7 @@
    "answer": [
     "Where are you from"
    ],
-   "why": "Where + are + підмет.",
+   "why": "Питання «звідки ти?»: *Where* + *are* + підмет + *from*: *Where are you from?* Прийменник *from* залишається в кінці.",
    "hint": "Звідки ти?"
   },
   {
@@ -266,7 +266,7 @@
    "answer": [
     "They are not at home"
    ],
-   "why": "are not.",
+   "why": "Заперечення: *are* + *not*: *They are not at home* (*They aren't at home*).",
    "hint": "Їх немає вдома."
   },
   {
@@ -280,7 +280,7 @@
     "do"
    ],
    "answer": 1,
-   "why": "Мені голодно — I am hungry (з be)."
+   "why": "«Мені голодно» англійською — це стан, тому *to be*: *I am hungry*. Так само *I am cold / thirsty / tired*. *I have hungry* — калька."
   },
   {
    "id": "to-be-24",
@@ -293,7 +293,7 @@
     "does"
    ],
    "answer": 1,
-   "why": "Shoes — множина: How much are…?"
+   "why": "*these shoes* — множина, тому *are*: *How much are these shoes?* Ціна узгоджується з тим, про що питаємо: *How much is this bag?*"
   },
   {
    "id": "to-be-25",
@@ -306,7 +306,7 @@
     "are"
    ],
    "answer": 1,
-   "why": "У короткій відповіді «так» не скорочуємо: Yes, I am."
+   "why": "У короткій ствердній відповіді наприкінці дієслово не скорочуємо: *Yes, I am.* (не *Yes, I'm.*). Скорочення можливе лише в запереченні: *No, I'm not.*"
   },
   {
    "id": "to-be-26",
@@ -315,7 +315,7 @@
    "answer": [
     "Were"
    ],
-   "why": "Минуле від be з you — were."
+   "why": "*yesterday* — минуле, а минула форма *to be* для you / we / they — *were*: *Were you at home yesterday?* Для I / he / she / it — *was*."
   },
   {
    "id": "to-be-27",
@@ -325,7 +325,7 @@
     "is",
     "'s"
    ],
-   "why": "Погода — It is cold."
+   "why": "Про погоду кажемо через *it* + *to be*: *It is (It's) very cold today.* *today* і порада «візьми пальто» показують, що мова про зараз, тому *is*."
   }
  ]
 }

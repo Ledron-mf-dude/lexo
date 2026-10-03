@@ -7,7 +7,7 @@
    "answer": [
     "gone"
    ],
-   "why": "Третя форма go — gone."
+   "why": "*go – went – gone*: третя форма — *gone*."
   },
   {
    "id": "irregular-verbs-2",
@@ -16,7 +16,7 @@
    "answer": [
     "seen"
    ],
-   "why": "Третя форма see — seen."
+   "why": "*see – saw – seen*: третя форма — *seen*."
   },
   {
    "id": "irregular-verbs-3",
@@ -25,7 +25,7 @@
    "answer": [
     "bought"
    ],
-   "why": "Past Simple від buy — bought."
+   "why": "*yesterday* — Past Simple; *buy – bought – bought*."
   },
   {
    "id": "irregular-verbs-4",
@@ -34,7 +34,7 @@
    "answer": [
     "written"
    ],
-   "why": "Третя форма write — written."
+   "why": "Після *has* — третя форма: *write – wrote – written*."
   },
   {
    "id": "irregular-verbs-5",
@@ -47,7 +47,7 @@
     "teachen"
    ],
    "answer": 1,
-   "why": "teach – taught – taught."
+   "why": "*teach – taught – taught*. *teached* — помилка правильного дієслова, *tought* — неправильне написання."
   },
   {
    "id": "irregular-verbs-6",
@@ -60,7 +60,7 @@
     "brokened"
    ],
    "answer": 1,
-   "why": "break – broke – broken."
+   "why": "*break – broke – broken*: *broke* — друга форма, *broken* — третя."
   },
   {
    "id": "irregular-verbs-7",
@@ -69,7 +69,7 @@
    "answer": [
     "met"
    ],
-   "why": "meet – met – met."
+   "why": "*last year* — Past Simple; *meet – met – met*."
   },
   {
    "id": "irregular-verbs-8",
@@ -78,7 +78,7 @@
    "answer": [
     "eaten"
    ],
-   "why": "eat – ate – eaten."
+   "why": "Після *has* — третя форма: *eat – ate – eaten*."
   },
   {
    "id": "irregular-verbs-9",
@@ -91,7 +91,7 @@
     "sing"
    ],
    "answer": 0,
-   "why": "put – put – put."
+   "why": "*put* має однакові три форми: *put – put – put* (як *cut, hit, let*)."
   },
   {
    "id": "irregular-verbs-10",
@@ -100,7 +100,7 @@
    "answer": [
     "flew"
    ],
-   "why": "fly – flew – flown."
+   "why": "*last week* — Past Simple; *fly – flew – flown*."
   },
   {
    "id": "irregular-verbs-11",
@@ -109,7 +109,7 @@
    "answer": [
     "saw"
    ],
-   "why": "see – saw – seen."
+   "why": "*last night* — Past Simple; *see – saw*."
   },
   {
    "id": "irregular-verbs-12",
@@ -118,7 +118,7 @@
    "answer": [
     "spoken"
    ],
-   "why": "speak – spoke – spoken."
+   "why": "Після *has* — третя форма: *speak – spoke – spoken*."
   },
   {
    "id": "irregular-verbs-13",
@@ -127,7 +127,7 @@
    "answer": [
     "took"
    ],
-   "why": "take – took – taken.",
+   "why": "Past Simple від *take* — *took* (*take – took – taken*).",
    "hint": "Past Simple"
   },
   {
@@ -137,7 +137,7 @@
    "answer": [
     "driven"
    ],
-   "why": "drive – drove – driven."
+   "why": "*Have you ever* + третя форма: *drive – drove – driven*."
   },
   {
    "id": "irregular-verbs-15",
@@ -147,7 +147,7 @@
     "didn't come",
     "did not come"
    ],
-   "why": "Після didn't — початкова форма."
+   "why": "Після *didn't* — початкова форма: *didn't come*."
   },
   {
    "id": "irregular-verbs-16",
@@ -156,7 +156,7 @@
    "answer": [
     "was"
    ],
-   "why": "I — was."
+   "why": "Past Simple від *be* для *I* — *was*."
   },
   {
    "id": "irregular-verbs-17",
@@ -169,7 +169,7 @@
     "are"
    ],
    "answer": 0,
-   "why": "they — were."
+   "why": "Past Simple від *be* для *they* — *were*."
   },
   {
    "id": "irregular-verbs-18",
@@ -182,7 +182,7 @@
     "have lose"
    ],
    "answer": 0,
-   "why": "lose – lost – lost."
+   "why": "*yesterday* — Past Simple; *lose – lost – lost*."
   },
   {
    "id": "irregular-verbs-19",
@@ -195,7 +195,7 @@
     "taught"
    ],
    "answer": 0,
-   "why": "think – thought – thought."
+   "why": "*think – thought – thought*. Не плутайте з *taught* (від *teach*)."
   },
   {
    "id": "irregular-verbs-20",
@@ -208,7 +208,7 @@
     "break"
    ],
    "answer": 0,
-   "why": "has + V3: broken."
+   "why": "Після *has* — третя форма *broken*."
   },
   {
    "id": "irregular-verbs-21",
@@ -225,7 +225,7 @@
     "I bought a new jacket yesterday",
     "Yesterday I bought a new jacket"
    ],
-   "why": "buy – bought.",
+   "why": "*yesterday* — Past Simple: *bought*.",
    "hint": "Учора я купив нову куртку."
   },
   {
@@ -240,7 +240,7 @@
    "answer": [
     "Did you sleep well"
    ],
-   "why": "Did + підмет + V (початкова форма).",
+   "why": "Після *Did* — початкова форма: *Did you sleep well?*",
    "hint": "Ти добре спав?"
   },
   {
@@ -259,7 +259,7 @@
     "We went to the sea last summer",
     "Last summer we went to the sea"
    ],
-   "why": "go – went.",
+   "why": "*last summer* — Past Simple: *went*.",
    "hint": "Минулого літа ми їздили на море."
   },
   {
@@ -273,7 +273,7 @@
     "tought"
    ],
    "answer": 1,
-   "why": "teach – taught – taught."
+   "why": "*last year* — Past Simple: *taught*."
   },
   {
    "id": "irregular-verbs-25",
@@ -286,7 +286,7 @@
     "drink"
    ],
    "answer": 1,
-   "why": "drink – drank – drunk; після have — V3."
+   "why": "Після *have* — третя форма: *drink – drank – drunk*."
   },
   {
    "id": "irregular-verbs-26",
@@ -297,7 +297,7 @@
     "was lying",
     "has been lying"
    ],
-   "why": "lie (лежати) – lay – lain."
+   "why": "*lie* (лежати) – *lay* – *lain*. Не плутайте з *lay* (класти) – *laid*. Підходять і *was lying*, *has been lying*."
   },
   {
    "id": "irregular-verbs-27",
@@ -307,7 +307,7 @@
     "brought",
     "has brought"
    ],
-   "why": "bring – brought – brought."
+   "why": "*bring – brought – brought*. *has brought* теж правильно, якщо торт щойно принесли."
   }
  ]
 }
