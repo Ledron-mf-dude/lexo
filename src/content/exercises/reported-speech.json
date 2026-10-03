@@ -11,7 +11,7 @@
     "has been"
    ],
    "answer": 1,
-   "why": "Present Simple → Past Simple (backshift)."
+   "why": "Коли переказуємо вчорашні слова, час зсуваємо на крок назад: *am* → *was*: *She said she was tired.*"
   },
   {
    "id": "reported-speech-2",
@@ -24,7 +24,7 @@
     "called"
    ],
    "answer": 1,
-   "why": "will → would."
+   "why": "*will* у непрямій мові → *would*: *He said he would call me.*"
   },
   {
    "id": "reported-speech-3",
@@ -33,7 +33,7 @@
    "answer": [
     "had finished"
    ],
-   "why": "Present Perfect → Past Perfect.",
+   "why": "Present Perfect → Past Perfect: *She said she had finished.*",
    "hint": "Зі зсувом часу назад"
   },
   {
@@ -47,7 +47,7 @@
     "did I live"
    ],
    "answer": 1,
-   "why": "Прямий порядок слів + зсув часу."
+   "why": "Непряме питання має прямий порядок слів (без *do*) і зсув часу: *He asked me where I lived.*"
   },
   {
    "id": "reported-speech-5",
@@ -60,7 +60,7 @@
     "which"
    ],
    "answer": 1,
-   "why": "Питання «так/ні» → if / whether."
+   "why": "Питання «так / ні» в непрямій мові вводимо через *if* (або *whether*): *She asked if I was ready.*"
   },
   {
    "id": "reported-speech-6",
@@ -69,7 +69,7 @@
    "answer": [
     "to close"
    ],
-   "why": "Наказ → tell + особа + to-інфінітив."
+   "why": "Наказ → *tell* + особа + *to* + дієслово: *He told me to close the door.*"
   },
   {
    "id": "reported-speech-7",
@@ -82,7 +82,7 @@
     "next before"
    ],
    "answer": 1,
-   "why": "tomorrow → the next day."
+   "why": "Слова про час теж зсуваються: *tomorrow* → *the next day*."
   },
   {
    "id": "reported-speech-8",
@@ -95,7 +95,7 @@
     "don't be late"
    ],
    "answer": 2,
-   "why": "Заперечний наказ: not to + V."
+   "why": "Заперечний наказ → *not to* + дієслово: *She told us not to be late.*"
   },
   {
    "id": "reported-speech-9",
@@ -104,7 +104,7 @@
    "answer": [
     "could"
    ],
-   "why": "can → could.",
+   "why": "*can* → *could*: *He said he could swim.*",
    "hint": "Зі зсувом часу назад"
   },
   {
@@ -118,7 +118,7 @@
     "asked"
    ],
    "answer": 1,
-   "why": "tell вживається з особою (told me)."
+   "why": "*tell* вимагає особи після себе: *She told me that…* *said* — без особи (*She said that…*)."
   },
   {
    "id": "reported-speech-11",
@@ -127,7 +127,7 @@
    "answer": [
     "was"
    ],
-   "why": "am → was.",
+   "why": "*am* → *was*: *She said she was working.*",
    "hint": "Зі зсувом часу назад"
   },
   {
@@ -138,7 +138,7 @@
     "had gone",
     "went"
    ],
-   "why": "Past Simple → Past Perfect (або без змін)."
+   "why": "Past Simple → Past Perfect (*had gone*); у розмові часто лишають без зміни (*went*)."
   },
   {
    "id": "reported-speech-13",
@@ -148,7 +148,7 @@
     "if",
     "whether"
    ],
-   "why": "Так/ні → if / whether."
+   "why": "Питання «так / ні» → *if / whether*."
   },
   {
    "id": "reported-speech-14",
@@ -157,7 +157,7 @@
    "answer": [
     "not to"
    ],
-   "why": "Заборона → not to + V."
+   "why": "Заборона → *not to* + дієслово: *He told me not to touch it.*"
   },
   {
    "id": "reported-speech-15",
@@ -167,7 +167,7 @@
     "next",
     "following"
    ],
-   "why": "tomorrow → the next / following day."
+   "why": "*tomorrow* → *the next day / the following day*."
   },
   {
    "id": "reported-speech-16",
@@ -180,7 +180,7 @@
     "told to"
    ],
    "answer": 0,
-   "why": "say без особи."
+   "why": "*say* — без особи: *He said that he liked jazz.* *said me* — помилка (тоді *told me*)."
   },
   {
    "id": "reported-speech-17",
@@ -193,7 +193,7 @@
     "did I do"
    ],
    "answer": 0,
-   "why": "Прямий порядок + зсув часу."
+   "why": "Непряме питання — прямий порядок: *what I was doing*."
   },
   {
    "id": "reported-speech-18",
@@ -206,7 +206,7 @@
     "has to go"
    ],
    "answer": 0,
-   "why": "must → had to."
+   "why": "*must* (обов'язок) → *had to*: *She said she had to go.*"
   },
   {
    "id": "reported-speech-19",
@@ -219,7 +219,7 @@
     "tomorrow"
    ],
    "answer": 0,
-   "why": "yesterday → the day before."
+   "why": "*yesterday* → *the day before*."
   },
   {
    "id": "reported-speech-20",
@@ -235,7 +235,7 @@
    "answer": [
     "She said that she was tired"
    ],
-   "why": "said (that) + зсув часу.",
+   "why": "*said (that)* + зсув часу.",
    "hint": "Вона сказала, що втомилася."
   },
   {
@@ -252,7 +252,7 @@
    "answer": [
     "He told me to wait outside"
    ],
-   "why": "told + особа + to-інфінітив.",
+   "why": "*told* + особа + *to* + дієслово.",
    "hint": "Він сказав мені чекати надворі."
   },
   {
@@ -269,7 +269,7 @@
    "answer": [
     "She asked me where I lived"
    ],
-   "why": "Прямий порядок слів.",
+   "why": "Непряме питання — прямий порядок слів: *where I lived*.",
    "hint": "Вона запитала, де я живу."
   },
   {
@@ -283,7 +283,7 @@
     "would be"
    ],
    "answer": 1,
-   "why": "Головне дієслово в теперішньому — без зсуву."
+   "why": "Якщо головне дієслово в теперішньому (*says*), зсуву часу немає: *She says she is tired.*"
   },
   {
    "id": "reported-speech-24",
@@ -296,7 +296,7 @@
     "is boiling"
    ],
    "answer": 1,
-   "why": "Загальна істина — можна без зсуву: boils."
+   "why": "Загальна істина може лишатися в Present Simple: *water boils at 100°C*."
   },
   {
    "id": "reported-speech-25",
@@ -309,7 +309,7 @@
     "lived I"
    ],
    "answer": 1,
-   "why": "Непряме питання — прямий порядок слів, зсув часу."
+   "why": "Непряме питання — прямий порядок: *where I lived*."
   },
   {
    "id": "reported-speech-26",
@@ -318,7 +318,7 @@
    "answer": [
     "eating"
    ],
-   "why": "suggest + -ing."
+   "why": "*suggest* + *-ing*: *She suggested eating out.*"
   },
   {
    "id": "reported-speech-27",
@@ -327,7 +327,7 @@
    "answer": [
     "to"
    ],
-   "why": "ask somebody to + V."
+   "why": "Прохання → *ask* + особа + *to* + дієслово: *He asked me to help him.*"
   }
  ]
 }

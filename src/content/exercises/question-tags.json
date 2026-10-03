@@ -11,7 +11,7 @@
     "does she"
    ],
    "answer": 1,
-   "why": "Ствердження → заперечний тег."
+   "why": "Ствердне речення — заперечний тег з тим самим допоміжним: *She is late, isn't she?*"
   },
   {
    "id": "question-tags-2",
@@ -24,7 +24,7 @@
     "did you"
    ],
    "answer": 1,
-   "why": "Заперечення → ствердний тег."
+   "why": "Заперечне речення — ствердний тег: *You don't like it, do you?*"
   },
   {
    "id": "question-tags-3",
@@ -37,7 +37,7 @@
     "didn't they"
    ],
    "answer": 1,
-   "why": "Той самий допоміжний: have → haven’t."
+   "why": "У тегу повторюємо те саме допоміжне (*have*): *They have left, haven't they?*"
   },
   {
    "id": "question-tags-4",
@@ -50,7 +50,7 @@
     "doesn't he"
    ],
    "answer": 1,
-   "why": "can → can’t."
+   "why": "Модальне *can* повторюється в тегу: *He can swim, can't he?*"
   },
   {
    "id": "question-tags-5",
@@ -63,7 +63,7 @@
     "live you"
    ],
    "answer": 0,
-   "why": "Present Simple → don’t you."
+   "why": "Present Simple без допоміжного — у тегу *do / don't*: *You live here, don't you?*"
   },
   {
    "id": "question-tags-6",
@@ -76,7 +76,7 @@
     "don't I"
    ],
    "answer": 1,
-   "why": "Виняток: I am → aren’t I?"
+   "why": "Виняток: *I am* → *aren't I?* *amn't I* у стандартній англійській не вживають."
   },
   {
    "id": "question-tags-7",
@@ -89,7 +89,7 @@
     "let we"
    ],
    "answer": 1,
-   "why": "Let’s → shall we?"
+   "why": "Після *Let's* тег — *shall we?*: *Let's go, shall we?*"
   },
   {
    "id": "question-tags-8",
@@ -102,7 +102,7 @@
     "shall we"
    ],
    "answer": 0,
-   "why": "Наказ → will you?"
+   "why": "Після наказу тег *will you?* робить його проханням."
   },
   {
    "id": "question-tags-9",
@@ -115,7 +115,7 @@
     "Me neither"
    ],
    "answer": 0,
-   "why": "Згода зі ствердженням: So do I."
+   "why": "Згода зі ствердженням (*I like*): *So do I.* *So am I* — для *to be* (*I'm hungry*)."
   },
   {
    "id": "question-tags-10",
@@ -128,7 +128,7 @@
     "Me too"
    ],
    "answer": 1,
-   "why": "Згода із запереченням: Neither do I."
+   "why": "Згода із запереченням: *Neither do I* (= *Me neither*). *Me too* — лише на ствердження."
   },
   {
    "id": "question-tags-11",
@@ -137,7 +137,7 @@
    "answer": [
     "isn't"
    ],
-   "why": "is → isn't."
+   "why": "*It's* (*it is*) — ствердження, тому тег *isn't it?*"
   },
   {
    "id": "question-tags-12",
@@ -146,7 +146,7 @@
    "answer": [
     "have"
    ],
-   "why": "haven't → have."
+   "why": "*haven't* — заперечення, тому тег *have you?*"
   },
   {
    "id": "question-tags-13",
@@ -155,7 +155,7 @@
    "answer": [
     "didn't"
    ],
-   "why": "Past Simple → didn't."
+   "why": "Past Simple (*went*) — тег *didn't she?*"
   },
   {
    "id": "question-tags-14",
@@ -164,7 +164,7 @@
    "answer": [
     "isn't"
    ],
-   "why": "there is → isn't there."
+   "why": "*There's* (*there is*) — тег *isn't there?*"
   },
   {
    "id": "question-tags-15",
@@ -173,7 +173,7 @@
    "answer": [
     "am"
    ],
-   "why": "So am I — повторюємо допоміжне."
+   "why": "Згода з *I'm hungry* (*to be*) — *So am I.*"
   },
   {
    "id": "question-tags-16",
@@ -186,7 +186,7 @@
     "aren't you"
    ],
    "answer": 0,
-   "why": "will → won't."
+   "why": "*will* — тег *won't you?*"
   },
   {
    "id": "question-tags-17",
@@ -199,7 +199,7 @@
     "didn't anyone"
    ],
    "answer": 0,
-   "why": "Nobody → ствердний тег + they."
+   "why": "*Nobody* — заперечне слово, тому тег ствердний; про людей невідомої статі — *they*: *did they?*"
   },
   {
    "id": "question-tags-18",
@@ -212,7 +212,7 @@
     "So can I."
    ],
    "answer": 0,
-   "why": "Згода із запереченням: Neither can I."
+   "why": "Згода із запереченням (*can't*): *Neither can I.*"
   },
   {
    "id": "question-tags-19",
@@ -225,7 +225,7 @@
     "isn't he"
    ],
    "answer": 0,
-   "why": "never — заперечення, тому ствердний тег."
+   "why": "*never* робить речення заперечним, тому тег ствердний: *has he?*"
   },
   {
    "id": "question-tags-20",
@@ -241,7 +241,7 @@
     "You are coming aren't you",
     "You are coming, aren't you"
    ],
-   "why": "Ствердження → заперечний тег.",
+   "why": "Ствердження (*are coming*) — заперечний тег *aren't you?*",
    "hint": "Ти ж прийдеш, так?"
   },
   {
@@ -259,7 +259,7 @@
     "She doesn't eat meat does she",
     "She doesn't eat meat, does she"
    ],
-   "why": "Заперечення → ствердний тег.",
+   "why": "Заперечення (*doesn't*) — ствердний тег *does she?*",
    "hint": "Вона ж не їсть м'яса, правда?"
   },
   {
@@ -273,7 +273,7 @@
    "answer": [
     "So do I"
    ],
-   "why": "So + допоміжне + підмет.",
+   "why": "*So do I* — згода з твердженням у Present Simple.",
    "hint": "І я теж. (згода з «I love music»)"
   },
   {
@@ -287,7 +287,7 @@
     "don't you"
    ],
    "answer": 1,
-   "why": "never — заперечне, тег ствердний."
+   "why": "*never* — заперечне, тому тег ствердний: *have you?*"
   },
   {
    "id": "question-tags-24",
@@ -300,7 +300,7 @@
     "wasn't it"
    ],
    "answer": 1,
-   "why": "everybody → they."
+   "why": "*Everybody* у тегу — *they*: *Everybody liked the film, didn't they?*"
   },
   {
    "id": "question-tags-25",
@@ -313,7 +313,7 @@
     "weren't you"
    ],
    "answer": 1,
-   "why": "used to → did."
+   "why": "*used to* у тегу — *didn't*: *You used to live here, didn't you?*"
   },
   {
    "id": "question-tags-26",
@@ -322,7 +322,7 @@
    "answer": [
     "did"
    ],
-   "why": "nothing — заперечне, тег ствердний: did it?"
+   "why": "*Nothing* — заперечне, тому тег ствердний: *did it?*"
   }
  ]
 }

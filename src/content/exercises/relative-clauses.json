@@ -11,7 +11,7 @@
     "where"
    ],
    "answer": 1,
-   "why": "who — про людей."
+   "why": "Про людей — *who*: *The man who called you…* *which* — про речі."
   },
   {
    "id": "relative-clauses-2",
@@ -24,7 +24,7 @@
     "whose"
    ],
    "answer": 2,
-   "why": "that — про речі (defining clause)."
+   "why": "Про речі у визначальному підрядному — *that* (або *which*): *The book that I read…*"
   },
   {
    "id": "relative-clauses-3",
@@ -37,7 +37,7 @@
     "whose"
    ],
    "answer": 2,
-   "why": "where — про місце."
+   "why": "Про місце — *where*: *the café where we met*."
   },
   {
    "id": "relative-clauses-4",
@@ -50,7 +50,7 @@
     "that"
    ],
    "answer": 2,
-   "why": "whose — належність."
+   "why": "Належність («чия сумка») — *whose*: *The girl whose bag was stolen…*"
   },
   {
    "id": "relative-clauses-5",
@@ -63,7 +63,7 @@
     "whose"
    ],
    "answer": 1,
-   "why": "У non-defining (з комами) that не вживається; для людей — who."
+   "why": "У підрядному в комах (додаткова інформація) *that* не вживаємо; про людину — *who*."
   },
   {
    "id": "relative-clauses-6",
@@ -76,7 +76,7 @@
     "No — never"
    ],
    "answer": 0,
-   "why": "Відносне слово-додаток у defining clause можна опустити."
+   "why": "*who* тут — додаток (я зустрів його), тому його можна пропустити: *The man I met yesterday…*"
   },
   {
    "id": "relative-clauses-7",
@@ -89,7 +89,7 @@
     "what"
    ],
    "answer": 1,
-   "why": "which може відносити всю попередню ситуацію."
+   "why": "*which* може стосуватися всієї попередньої ситуації (те, що він склав іспит)."
   },
   {
    "id": "relative-clauses-8",
@@ -100,7 +100,7 @@
     "that",
     "-"
    ],
-   "why": "Про час — when (або that)."
+   "why": "Про час — *when* (або *that*, або без слова): *the day we met*."
   },
   {
    "id": "relative-clauses-9",
@@ -113,7 +113,7 @@
     "The teacher whose helped me is kind."
    ],
    "answer": 1,
-   "why": "Для людей — who; that не вживається в non-defining."
+   "why": "Про людину без ком — *who*. *that* у комах не вживається, *which* — не про людей."
   },
   {
    "id": "relative-clauses-10",
@@ -132,7 +132,7 @@
    "answer": [
     "The woman who lives next door is a nurse"
    ],
-   "why": "who — про людей (defining clause, без ком)."
+   "why": "*who* — про людину, без ком (уточнює, яка саме жінка)."
   },
   {
    "id": "relative-clauses-11",
@@ -141,7 +141,7 @@
    "answer": [
     "whose"
    ],
-   "why": "whose — чий."
+   "why": "«Чия машина» — *whose*."
   },
   {
    "id": "relative-clauses-12",
@@ -152,7 +152,7 @@
     "which",
     "-"
    ],
-   "why": "Додаток у defining clause — that/which або без слова.",
+   "why": "Додаток у визначальному підрядному — *that / which* або без слова («-»).",
    "hint": "Якщо слово можна пропустити, напишіть «-»"
   },
   {
@@ -164,7 +164,7 @@
     "in which",
     "at which"
    ],
-   "why": "where — про місце."
+   "why": "Про місце — *where* (або формально *in / at which*). *that* без прийменника тут не підходить."
   },
   {
    "id": "relative-clauses-14",
@@ -173,7 +173,7 @@
    "answer": [
     "which"
    ],
-   "why": "Non-defining (у комах) про річ — which."
+   "why": "Додаткова інформація в комах про річ — *which*."
   },
   {
    "id": "relative-clauses-15",
@@ -183,7 +183,7 @@
     "who",
     "that"
    ],
-   "why": "Підмет — who/that, не пропускаємо."
+   "why": "Підмет підрядного — *who / that*, пропустити не можна."
   },
   {
    "id": "relative-clauses-16",
@@ -196,7 +196,7 @@
     "what"
    ],
    "answer": 0,
-   "why": "Про людину — who."
+   "why": "Про людину — *who*."
   },
   {
    "id": "relative-clauses-17",
@@ -209,7 +209,7 @@
     "what"
    ],
    "answer": 0,
-   "why": "Про людей — who."
+   "why": "Про людей — *who*."
   },
   {
    "id": "relative-clauses-18",
@@ -222,7 +222,7 @@
     "where"
    ],
    "answer": 0,
-   "why": "Non-defining — which, не that."
+   "why": "У комах — *which*, не *that*."
   },
   {
    "id": "relative-clauses-19",
@@ -235,7 +235,7 @@
     "whose"
    ],
    "answer": 0,
-   "why": "the reason why — причина."
+   "why": "*the reason why* — причина."
   },
   {
    "id": "relative-clauses-20",
@@ -252,7 +252,7 @@
    "answer": [
     "The book that I bought is great"
    ],
-   "why": "that — про річ.",
+   "why": "*that* — про річ.",
    "hint": "Книжка, яку я купив, — чудова."
   },
   {
@@ -271,7 +271,7 @@
    "answer": [
     "This is the house where I grew up"
    ],
-   "why": "where — про місце.",
+   "why": "*where* — про місце.",
    "hint": "Це будинок, де я виріс."
   },
   {
@@ -289,7 +289,7 @@
    "answer": [
     "The man who called you is here"
    ],
-   "why": "who — підмет.",
+   "why": "*who* — підмет.",
    "hint": "Чоловік, що тобі дзвонив, тут."
   },
   {
@@ -303,7 +303,7 @@
     "to which"
    ],
    "answer": 1,
-   "why": "Після прийменника про людей — whom."
+   "why": "Після прийменника про людей — *whom*: *to whom*."
   },
   {
    "id": "relative-clauses-24",
@@ -316,7 +316,7 @@
     "that"
    ],
    "answer": 2,
-   "why": "Належність, і для речей теж — whose."
+   "why": "*whose* — належність, і для компаній та речей теж."
   },
   {
    "id": "relative-clauses-25",
@@ -329,7 +329,7 @@
     "who"
    ],
    "answer": 2,
-   "why": "what = the thing that, без іменника перед ним."
+   "why": "*what* = «те, що», без іменника перед ним: *I didn't understand what he said.*"
   },
   {
    "id": "relative-clauses-26",
@@ -340,7 +340,7 @@
     "which",
     "-"
    ],
-   "why": "Об'єкт із прийменником у кінці — that або which (або без слова).",
+   "why": "Прийменник у кінці (*grew up in*) — *that / which* або без слова.",
    "hint": "Якщо слово можна пропустити, напишіть «-»"
   },
   {
@@ -352,7 +352,7 @@
     "that",
     "-"
    ],
-   "why": "the reason why."
+   "why": "*the reason why / that* (або без слова)."
   }
  ]
 }

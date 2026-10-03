@@ -11,7 +11,7 @@
     "Present Continuous"
    ],
    "answer": 1,
-   "why": "have/has been + V-ing — Present Perfect Continuous."
+   "why": "*has been working* = *have / has been* + *-ing* — Present Perfect Continuous."
   },
   {
    "id": "tenses-overview-2",
@@ -24,7 +24,7 @@
     "Present Continuous"
    ],
    "answer": 1,
-   "why": "was/were + V-ing — Past Continuous."
+   "why": "*was sleeping* = *was / were* + *-ing* — Past Continuous."
   },
   {
    "id": "tenses-overview-3",
@@ -37,7 +37,7 @@
     "Present Perfect"
    ],
    "answer": 2,
-   "why": "will have + V3 — Future Perfect."
+   "why": "*will have moved* = *will have* + третя форма — Future Perfect."
   },
   {
    "id": "tenses-overview-4",
@@ -47,7 +47,7 @@
     "have lived",
     "have been living"
    ],
-   "why": "have + V3."
+   "why": "Present Perfect: *have lived* (або Continuous *have been living*)."
   },
   {
    "id": "tenses-overview-5",
@@ -56,7 +56,7 @@
    "answer": [
     "will be working"
    ],
-   "why": "will be + V-ing."
+   "why": "Future Continuous: *will be working*."
   },
   {
    "id": "tenses-overview-6",
@@ -69,7 +69,7 @@
     "Future Perfect"
    ],
    "answer": 0,
-   "why": "had + V3 — Past Perfect."
+   "why": "*had* + третя форма — Past Perfect."
   },
   {
    "id": "tenses-overview-7",
@@ -95,7 +95,7 @@
     "Present Perfect Continuous"
    ],
    "answer": 2,
-   "why": "had been + V-ing — Past Perfect Continuous."
+   "why": "*had been waiting* — Past Perfect Continuous."
   },
   {
    "id": "tenses-overview-9",
@@ -104,7 +104,7 @@
    "answer": [
     "will have finished"
    ],
-   "why": "will have + V3."
+   "why": "Future Perfect: *will have finished*."
   },
   {
    "id": "tenses-overview-10",
@@ -121,7 +121,7 @@
    "answer": [
     "I have been waiting for an hour"
    ],
-   "why": "Present Perfect Continuous: have been + V-ing."
+   "why": "*have been waiting* — Present Perfect Continuous."
   },
   {
    "id": "tenses-overview-11",
@@ -133,7 +133,7 @@
     "'ve worked",
     "'ve been working"
    ],
-   "why": "since + Present Perfect (Continuous)."
+   "why": "*since 2020* — Present Perfect (Simple чи Continuous)."
   },
   {
    "id": "tenses-overview-12",
@@ -142,7 +142,7 @@
    "answer": [
     "was driving"
    ],
-   "why": "Процес у момент минулого — Past Continuous."
+   "why": "Процес у конкретний момент минулого — *was driving*."
   },
   {
    "id": "tenses-overview-13",
@@ -151,7 +151,7 @@
    "answer": [
     "had finished"
    ],
-   "why": "Раніше за минулий момент — Past Perfect."
+   "why": "Раніше за інший момент у минулому — *had finished*."
   },
   {
    "id": "tenses-overview-14",
@@ -161,7 +161,7 @@
     "is snowing",
     "'s snowing"
    ],
-   "why": "Зараз — Present Continuous."
+   "why": "*Look!* — зараз: *is snowing*."
   },
   {
    "id": "tenses-overview-15",
@@ -170,7 +170,7 @@
    "answer": [
     "saw"
    ],
-   "why": "last week — Past Simple."
+   "why": "*last week* — Past Simple: *saw*."
   },
   {
    "id": "tenses-overview-16",
@@ -180,7 +180,7 @@
     "will be",
     "'ll be"
    ],
-   "why": "Факт про майбутнє — will."
+   "why": "Факт про майбутнє — *will be*."
   },
   {
    "id": "tenses-overview-17",
@@ -193,7 +193,7 @@
     "went every"
    ],
    "answer": 0,
-   "why": "Звичка — Present Simple."
+   "why": "*every day* — звичка, Present Simple."
   },
   {
    "id": "tenses-overview-18",
@@ -206,7 +206,7 @@
     "are waiting"
    ],
    "answer": 0,
-   "why": "Тривалість до моменту в минулому — Past Perfect Continuous."
+   "why": "Тривалість до моменту в минулому — *had been waiting*."
   },
   {
    "id": "tenses-overview-19",
@@ -219,7 +219,7 @@
     "am lying on"
    ],
    "answer": 0,
-   "why": "Процес у майбутньому — Future Continuous."
+   "why": "*This time tomorrow* — Future Continuous."
   },
   {
    "id": "tenses-overview-20",
@@ -235,7 +235,7 @@
    "answer": [
     "I have never been to Spain"
    ],
-   "why": "Present Perfect — досвід.",
+   "why": "Досвід — Present Perfect.",
    "hint": "Я ніколи не був в Іспанії."
   },
   {
@@ -254,7 +254,7 @@
     "She was reading when I came in",
     "When I came in she was reading"
    ],
-   "why": "Past Continuous + Past Simple.",
+   "why": "Процес + подія в минулому.",
    "hint": "Вона читала, коли я зайшов."
   },
   {
@@ -272,7 +272,7 @@
     "They will have finished by Monday",
     "By Monday they will have finished"
    ],
-   "why": "Future Perfect.",
+   "why": "*by Monday* — Future Perfect.",
    "hint": "Вони закінчать до понеділка."
   },
   {
@@ -286,7 +286,7 @@
     "am lying"
    ],
    "answer": 1,
-   "why": "Процес у момент майбутнього — Future Continuous."
+   "why": "Процес у момент майбутнього — *will be lying*."
   },
   {
    "id": "tenses-overview-24",
@@ -299,7 +299,7 @@
     "worked"
    ],
    "answer": 2,
-   "why": "Тривалість до тепер — Present Perfect."
+   "why": "*since 2018* — Present Perfect: *has worked*."
   },
   {
    "id": "tenses-overview-25",
@@ -308,7 +308,7 @@
    "answer": [
     "had already left"
    ],
-   "why": "Раніше за момент у минулому — Past Perfect."
+   "why": "*already* відносно моменту в минулому — *had already left*."
   }
  ]
 }

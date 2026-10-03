@@ -11,7 +11,7 @@
     "shouldn't have"
    ],
    "answer": 1,
-   "why": "mustn’t = заборонено."
+   "why": "*mustn't* — заборона: курити тут не можна. *don't have to* означало б «не обов'язково», а це зовсім інше."
   },
   {
    "id": "modals-obligation-2",
@@ -24,7 +24,7 @@
     "must"
    ],
    "answer": 1,
-   "why": "don’t have to = не обов’язково."
+   "why": "*don't have to* — немає обов'язку: прийти можна, але не обов'язково. *mustn't* — заборона."
   },
   {
    "id": "modals-obligation-3",
@@ -33,7 +33,7 @@
    "answer": [
     "had to"
    ],
-   "why": "Минуле від have to — had to."
+   "why": "*must* не має минулої форми, тому про минуле — *had to*: *Yesterday I had to work late.*"
   },
   {
    "id": "modals-obligation-4",
@@ -46,7 +46,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "should — порада."
+   "why": "Порада — *should*: *You should see a doctor.*"
   },
   {
    "id": "modals-obligation-5",
@@ -59,7 +59,7 @@
     "shouldn't"
    ],
    "answer": 0,
-   "why": "needn’t have + V3 — зробив, хоча не треба було."
+   "why": "*needn't have* + третя форма — зробив, хоча не треба було: *You needn't have brought food.*"
   },
   {
    "id": "modals-obligation-6",
@@ -72,7 +72,7 @@
     "left"
    ],
    "answer": 1,
-   "why": "had better + інфінітив без to."
+   "why": "Після *had better* — інфінітив без *to*: *You'd better leave now.*"
   },
   {
    "id": "modals-obligation-7",
@@ -81,7 +81,7 @@
    "answer": [
     "should have called"
    ],
-   "why": "should have + V3 — слід було (докір)."
+   "why": "*should have* + третя форма — докір за минуле: *You should have called her.*"
   },
   {
    "id": "modals-obligation-8",
@@ -94,7 +94,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "have to — зовнішнє правило."
+   "why": "Правило, встановлене кимось ззовні, — *have to*: *We have to wear a uniform.*"
   },
   {
    "id": "modals-obligation-9",
@@ -107,7 +107,7 @@
     "must"
    ],
    "answer": 1,
-   "why": "could — вміння в минулому."
+   "why": "Вміння в минулому — *could*."
   },
   {
    "id": "modals-obligation-10",
@@ -122,7 +122,7 @@
    "answer": [
     "You don't have to wait"
    ],
-   "why": "don’t have to — не потрібно."
+   "why": "*don't have to* — не обов'язково: *You don't have to wait.*"
   },
   {
    "id": "modals-obligation-11",
@@ -133,7 +133,7 @@
     "must not",
     "can't"
    ],
-   "why": "mustn't — заборона."
+   "why": "Заборона — *mustn't* або *can't*: *You mustn't park here.*"
   },
   {
    "id": "modals-obligation-12",
@@ -143,7 +143,7 @@
     "have",
     "need"
    ],
-   "why": "have to — необхідність.",
+   "why": "Необхідність — *have to* (або *need to*): *I have to wear glasses.*",
    "hint": "(have to)"
   },
   {
@@ -154,7 +154,7 @@
     "didn't",
     "did not"
    ],
-   "why": "didn't have to — не було потреби."
+   "why": "Минуле від *don't have to* — *didn't have to*: платити не довелося."
   },
   {
    "id": "modals-obligation-14",
@@ -164,7 +164,7 @@
     "had",
     "'d"
    ],
-   "why": "had better + V — сильна порада."
+   "why": "*had better* + дієслово — сильна порада: *You'd better see a doctor.*"
   },
   {
    "id": "modals-obligation-15",
@@ -175,7 +175,7 @@
     "need",
     "have"
    ],
-   "why": "ought to — слід."
+   "why": "*ought to* — «слід» (як *should*). *need to* і *have to* теж підходять за змістом."
   },
   {
    "id": "modals-obligation-16",
@@ -188,7 +188,7 @@
     "has to"
    ],
    "answer": 0,
-   "why": "Питання: Do you have to…?"
+   "why": "Питання з *have to* — через *do*: *Do you have to work on Saturdays?*"
   },
   {
    "id": "modals-obligation-17",
@@ -201,7 +201,7 @@
     "need not to"
    ],
    "answer": 0,
-   "why": "don't need to — не треба."
+   "why": "*don't need to* — не треба. *need not to* — помилка (або *needn't*, або *don't need to*)."
   },
   {
    "id": "modals-obligation-18",
@@ -214,7 +214,7 @@
     "have must"
    ],
    "answer": 0,
-   "why": "Майбутнє — will have to."
+   "why": "*must* не має майбутньої форми, тому *will have to*."
   },
   {
    "id": "modals-obligation-19",
@@ -227,7 +227,7 @@
     "haven't to"
    ],
    "answer": 0,
-   "why": "shouldn't have + V3 — не слід було."
+   "why": "*shouldn't have* + третя форма — шкода, що зробив: *You shouldn't have told her.*"
   },
   {
    "id": "modals-obligation-20",
@@ -242,7 +242,7 @@
    "answer": [
     "You must wear a seatbelt"
    ],
-   "why": "must + V.",
+   "why": "*must* + дієслово — обов'язок.",
    "hint": "Ви маєте пристебнутися."
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "We had to wait for an hour"
    ],
-   "why": "had to — минуле.",
+   "why": "Минуле від *must* — *had to*.",
    "hint": "Нам довелося чекати годину."
   },
   {
@@ -276,7 +276,7 @@
    "answer": [
     "You should get some rest"
    ],
-   "why": "should — порада.",
+   "why": "*should* — порада.",
    "hint": "Тобі варто відпочити."
   },
   {
@@ -290,7 +290,7 @@
     "Am"
    ],
    "answer": 1,
-   "why": "Питання з have to — через do."
+   "why": "Питання з *have to* — через *Do*: *Do I have to bring my passport?*"
   },
   {
    "id": "modals-obligation-24",
@@ -303,7 +303,7 @@
     "haven't to"
    ],
    "answer": 1,
-   "why": "Заборона — mustn't."
+   "why": "Заборона — *mustn't*: секрет не можна розповідати."
   },
   {
    "id": "modals-obligation-25",
@@ -316,7 +316,7 @@
     "don't have to go"
    ],
    "answer": 1,
-   "why": "Немає потреби — doesn't have to."
+   "why": "Немає потреби (вихідний) — *doesn't have to go*. *mustn't go* означало б заборону."
   },
   {
    "id": "modals-obligation-26",
@@ -326,7 +326,7 @@
     "have",
     "need"
    ],
-   "why": "Майбутнє від must — will have to."
+   "why": "Майбутнє від *must* — *will have to* (або *will need to*)."
   },
   {
    "id": "modals-obligation-27",
@@ -335,7 +335,7 @@
    "answer": [
     "not"
    ],
-   "why": "Заперечення: had better not + V."
+   "why": "Заперечення *had better* — *had better not* + дієслово: *You'd better not be late.*"
   }
  ]
 }

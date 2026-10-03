@@ -11,7 +11,7 @@
     "shall"
    ],
    "answer": 0,
-   "why": "may — можливість."
+   "why": "*may* — можливість, у якій мовець не впевнений: *It may rain later.* *will* — упевненість, *must* — висновок."
   },
   {
    "id": "may-might-2",
@@ -19,12 +19,12 @@
    "q": "___ I come in? (formal permission)",
    "options": [
     "May",
-    "Might",
+    "Must",
     "Will",
     "Shall"
    ],
    "answer": 0,
-   "why": "May I…? — формальний дозвіл."
+   "why": "Формальне прохання про дозвіл — *May I…?*: *May I come in?*"
   },
   {
    "id": "may-might-3",
@@ -37,7 +37,7 @@
     "does"
    ],
    "answer": 0,
-   "why": "may not — можливо, ні."
+   "why": "*may not* — «можливо, ні»: *She may not come.*"
   },
   {
    "id": "may-might-4",
@@ -50,7 +50,7 @@
     "must to"
    ],
    "answer": 1,
-   "why": "may → might у непрямій мові."
+   "why": "У непрямій мові *may* часто змінюється на *might*: *He said he might come.*"
   },
   {
    "id": "may-might-5",
@@ -63,7 +63,7 @@
     "might"
    ],
    "answer": 0,
-   "why": "may not — формальна заборона."
+   "why": "*may not* в офіційних правилах — заборона: *You may not enter.*"
   },
   {
    "id": "may-might-6",
@@ -76,7 +76,7 @@
     "must"
    ],
    "answer": 1,
-   "why": "might — трохи менше впевненості."
+   "why": "*might* зазвичай звучить трохи менш упевнено, ніж *may*, хоча в розмові їх часто вживають як синоніми."
   },
   {
    "id": "may-might-7",
@@ -89,7 +89,7 @@
     "She may has forgotten."
    ],
    "answer": 1,
-   "why": "may + have + V3."
+   "why": "Можливість у минулому — *may have* + третя форма: *She may have forgotten.*"
   },
   {
    "id": "may-might-8",
@@ -103,7 +103,7 @@
    "answer": [
     "It might rain tomorrow"
    ],
-   "why": "might + інфінітив без to."
+   "why": "*might* + інфінітив без *to*: *It might rain tomorrow.*"
   },
   {
    "id": "may-might-9",
@@ -114,7 +114,7 @@
     "might",
     "could"
    ],
-   "why": "may / might — можливість."
+   "why": "Можливість — *may / might / could*: *It may get cold later.*"
   },
   {
    "id": "may-might-10",
@@ -125,7 +125,7 @@
     "Can",
     "Could"
    ],
-   "why": "May I…? — ввічливе прохання про дозвіл."
+   "why": "Формальне прохання — *May I…?* *Can* і *Could* теж правильні, менш формальні."
   },
   {
    "id": "may-might-11",
@@ -137,7 +137,7 @@
     "could",
     "must"
    ],
-   "why": "may / might + have + V3 — можливо, у минулому."
+   "why": "Можливе пояснення минулого — *may / might / could have missed*. *must have missed* — упевнений висновок, теж логічний."
   },
   {
    "id": "may-might-12",
@@ -147,7 +147,7 @@
     "may",
     "might"
    ],
-   "why": "may / might not — можливо, ні."
+   "why": "*may / might not* — «можливо, не піду»."
   },
   {
    "id": "may-might-13",
@@ -160,7 +160,7 @@
     "mights"
    ],
    "answer": 0,
-   "why": "may + інфінітив без to."
+   "why": "*may* + інфінітив без *to*, без закінчень."
   },
   {
    "id": "may-might-14",
@@ -173,7 +173,7 @@
     "may to"
    ],
    "answer": 0,
-   "why": "Коротка відповідь: He might."
+   "why": "Коротка відповідь — лише модальне: *He might.*"
   },
   {
    "id": "may-might-15",
@@ -186,7 +186,7 @@
     "must"
    ],
    "answer": 0,
-   "why": "may — формальний дозвіл."
+   "why": "*may* — формальний дозвіл: *You may leave your bags here.*"
   },
   {
    "id": "may-might-16",
@@ -199,7 +199,7 @@
     "mights"
    ],
    "answer": 0,
-   "why": "may → might у непрямій мові."
+   "why": "*may* у непрямій мові → *might*."
   },
   {
    "id": "may-might-17",
@@ -213,7 +213,7 @@
    "answer": [
     "It might snow tonight"
    ],
-   "why": "might + V.",
+   "why": "*might* + дієслово.",
    "hint": "Сьогодні вночі може піти сніг."
   },
   {
@@ -228,7 +228,7 @@
    "answer": [
     "May I come in"
    ],
-   "why": "May I…? — дозвіл.",
+   "why": "*May I…?* — прохання про дозвіл.",
    "hint": "Можна увійти?"
   },
   {
@@ -243,7 +243,7 @@
    "answer": [
     "He may have forgotten"
    ],
-   "why": "may + have + V3.",
+   "why": "*may have* + третя форма — можливо, у минулому.",
    "hint": "Можливо, він забув."
   },
   {
@@ -257,7 +257,7 @@
     "can be"
    ],
    "answer": 1,
-   "why": "Можливо, триває зараз: might be + -ing."
+   "why": "Можливо, дія триває зараз — *might be* + *-ing*: *She might be sleeping.*"
   },
   {
    "id": "may-might-21",
@@ -270,7 +270,7 @@
     "walked"
    ],
    "answer": 1,
-   "why": "might as well + інфінітив без to."
+   "why": "*might as well* + інфінітив без *to*: *We might as well walk.*"
   },
   {
    "id": "may-might-22",
@@ -281,7 +281,7 @@
     "may",
     "could"
    ],
-   "why": "Конкретна можливість у майбутньому — might / may / could."
+   "why": "Можливість у майбутньому — *might / may / could*."
   }
  ]
 }

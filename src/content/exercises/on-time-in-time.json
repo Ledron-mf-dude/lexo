@@ -11,7 +11,7 @@
     "by time"
    ],
    "answer": 0,
-   "why": "on time — точно за розкладом."
+   "why": "*on time* — точно в запланований час, за розкладом: *exactly at 6*. *in time* — «встигнути, не запізнитися на щось»."
   },
   {
    "id": "on-time-in-time-2",
@@ -24,7 +24,7 @@
     "at time"
    ],
    "answer": 1,
-   "why": "in time to — встигли зробити."
+   "why": "*in time to* + дієслово — встигли зробити щось: *in time to catch the train*."
   },
   {
    "id": "on-time-in-time-3",
@@ -37,7 +37,7 @@
     "in the end"
    ],
    "answer": 0,
-   "why": "Бути пунктуальним — on time."
+   "why": "Бути пунктуальним, прийти точно на початок — *Be on time.*"
   },
   {
    "id": "on-time-in-time-4",
@@ -50,7 +50,7 @@
     "By end"
    ],
    "answer": 1,
-   "why": "at the end of + що."
+   "why": "*At the end of* + що саме (фільму) — наприкінці. *In the end* — «зрештою», без *of*."
   },
   {
    "id": "on-time-in-time-5",
@@ -63,7 +63,7 @@
     "End"
    ],
    "answer": 1,
-   "why": "in the end — зрештою."
+   "why": "*In the end* — «зрештою, після всього»: *In the end, we succeeded.*"
   },
   {
    "id": "on-time-in-time-6",
@@ -76,7 +76,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "at the end of."
+   "why": "*at the end of the month* — сталий вираз з *of*."
   },
   {
    "id": "on-time-in-time-7",
@@ -89,7 +89,7 @@
     "at the end of"
    ],
    "answer": 0,
-   "why": "at last — нарешті."
+   "why": "*at last* — «нарешті» після довгого чекання."
   },
   {
    "id": "on-time-in-time-8",
@@ -102,7 +102,7 @@
     "at last"
    ],
    "answer": 0,
-   "why": "in time — встиг."
+   "why": "*in time for* — встиг до початку: *just before it started*."
   },
   {
    "id": "on-time-in-time-9",
@@ -111,7 +111,7 @@
    "answer": [
     "on"
    ],
-   "why": "on time — точно за розкладом."
+   "why": "*on time* — точно за розкладом."
   },
   {
    "id": "on-time-in-time-10",
@@ -120,7 +120,7 @@
    "answer": [
     "in"
    ],
-   "why": "in time — встигли."
+   "why": "*in time to* — встигли побачити початок."
   },
   {
    "id": "on-time-in-time-11",
@@ -130,7 +130,7 @@
     "At",
     "By"
    ],
-   "why": "at the end of + період."
+   "why": "*At the end of the day* — наприкінці дня. *By the end of the day* (до кінця дня) теж підходить."
   },
   {
    "id": "on-time-in-time-12",
@@ -139,7 +139,7 @@
    "answer": [
     "in"
    ],
-   "why": "in the end — зрештою."
+   "why": "*in the end* — зрештою."
   },
   {
    "id": "on-time-in-time-13",
@@ -152,7 +152,7 @@
     "at the end"
    ],
    "answer": 0,
-   "why": "Пунктуально — on time."
+   "why": "Здати до дедлайну, без запізнення — *on time*."
   },
   {
    "id": "on-time-in-time-14",
@@ -165,7 +165,7 @@
     "at last"
    ],
    "answer": 0,
-   "why": "in time for — встигнути до."
+   "why": "*in time for dinner* — встигнути до вечері."
   },
   {
    "id": "on-time-in-time-15",
@@ -178,7 +178,7 @@
     "At end of"
    ],
    "answer": 0,
-   "why": "at the end of — наприкінці чогось."
+   "why": "*At the end of* — наприкінці чогось (історії). *In the end of* — помилка."
   },
   {
    "id": "on-time-in-time-16",
@@ -191,7 +191,7 @@
     "at the end"
    ],
    "answer": 0,
-   "why": "at last — нарешті (довго чекали)."
+   "why": "Після довгого чекання — *at last*."
   },
   {
    "id": "on-time-in-time-17",
@@ -206,7 +206,7 @@
    "answer": [
     "The train left on time"
    ],
-   "why": "on time.",
+   "why": "*on time* — вчасно за розкладом.",
    "hint": "Потяг вирушив вчасно (за розкладом)."
   },
   {
@@ -224,7 +224,7 @@
    "answer": [
     "I got home in time for dinner"
    ],
-   "why": "in time for.",
+   "why": "*in time for* — встиг до чогось.",
    "hint": "Я встиг додому до вечері."
   },
   {
@@ -244,7 +244,7 @@
     "In the end, we stayed at home",
     "We stayed at home in the end"
    ],
-   "why": "in the end — зрештою.",
+   "why": "*In the end* — зрештою.",
    "hint": "Зрештою ми залишилися вдома."
   },
   {
@@ -262,7 +262,7 @@
    "answer": [
     "We met at the end of May"
    ],
-   "why": "at the end of.",
+   "why": "*at the end of May* — наприкінці травня.",
    "hint": "Ми зустрілися наприкінці травня."
   },
   {
@@ -276,7 +276,7 @@
     "First of all"
    ],
    "answer": 0,
-   "why": "Спершу (потім змінилося) — at first."
+   "why": "*At first* — «спочатку» (потім усе змінилося). *Firstly* — «по-перше» у переліку."
   },
   {
    "id": "on-time-in-time-22",
@@ -289,7 +289,7 @@
     "the way"
    ],
    "answer": 1,
-   "why": "in the way — заважає."
+   "why": "*in the way* — заважає, стоїть на дорозі. *on the way* — по дорозі, *by the way* — до речі."
   },
   {
    "id": "on-time-in-time-23",
@@ -298,7 +298,7 @@
    "answer": [
     "in"
    ],
-   "why": "just in time — в останню мить."
+   "why": "*just in time* — в останню мить, ледь встигли."
   }
  ]
 }

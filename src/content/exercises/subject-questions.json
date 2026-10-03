@@ -11,7 +11,7 @@
     "Whom"
    ],
    "answer": 1,
-   "why": "Питання до підмета — без did."
+   "why": "Питаємо про підмет (хто дзвонив?) — *did* не потрібне, порядок як у ствердженні: *Who called you?*"
   },
   {
    "id": "subject-questions-2",
@@ -24,7 +24,7 @@
     "What does"
    ],
    "answer": 1,
-   "why": "What happened? — без did."
+   "why": "Питання до підмета: *What happened?* — без *did*."
   },
   {
    "id": "subject-questions-3",
@@ -37,7 +37,7 @@
     "What do"
    ],
    "answer": 0,
-   "why": "Питання до додатка: Who did you call?"
+   "why": "Питаємо про додаток (кому ти дзвонив?) — потрібне *did*: *Who did you call?*"
   },
   {
    "id": "subject-questions-4",
@@ -50,7 +50,7 @@
     "Who call you?"
    ],
    "answer": 1,
-   "why": "Питання до підмета: Who + V2."
+   "why": "Питання до підмета — *Who* + дієслово в Past Simple: *Who called you?* *Who did call you?* — лише з наголосом-емоцією."
   },
   {
    "id": "subject-questions-5",
@@ -63,7 +63,7 @@
     "do know"
    ],
    "answer": 1,
-   "why": "Who — однина: knows."
+   "why": "*Who* як підмет узгоджується з дієсловом в однині: *Who knows the answer?*"
   },
   {
    "id": "subject-questions-6",
@@ -76,7 +76,7 @@
     "Go you with who?"
    ],
    "answer": 0,
-   "why": "Прийменник зазвичай в кінці."
+   "why": "У питаннях прийменник зазвичай стоїть у кінці: *Who did you go with?*"
   },
   {
    "id": "subject-questions-7",
@@ -89,7 +89,7 @@
     "Who did"
    ],
    "answer": 0,
-   "why": "Питання до підмета."
+   "why": "Питання до підмета: *Who lives here?*"
   },
   {
    "id": "subject-questions-8",
@@ -102,7 +102,7 @@
     "coming"
    ],
    "answer": 0,
-   "why": "How many people — підмет, без did."
+   "why": "*How many people* — підмет, тому без *did*: *How many people came?*"
   },
   {
    "id": "subject-questions-9",
@@ -112,7 +112,7 @@
     "broke",
     "has broken"
    ],
-   "why": "Питання до підмета — без did."
+   "why": "Питання до підмета: *Who broke the window?* (або *has broken*)."
   },
   {
    "id": "subject-questions-10",
@@ -122,7 +122,7 @@
     "makes",
     "made"
    ],
-   "why": "What — підмет: makes."
+   "why": "*What* — підмет, тому *makes* (або *made*): *What makes you laugh?*"
   },
   {
    "id": "subject-questions-11",
@@ -132,7 +132,7 @@
     "are",
     "were"
    ],
-   "why": "Питання до додатка з прийменником у кінці."
+   "why": "Питання до додатка з прийменником у кінці: *Who are you talking to?*"
   },
   {
    "id": "subject-questions-12",
@@ -142,7 +142,7 @@
     "did",
     "will"
    ],
-   "why": "Питання до додатка — did."
+   "why": "Питаємо про додаток (за кого вийде Анна) — *did* (або *will*): *Who did Anna marry?*"
   },
   {
    "id": "subject-questions-13",
@@ -151,7 +151,7 @@
    "answer": [
     "won"
    ],
-   "why": "Which team — підмет: won."
+   "why": "*Which team* — підмет: *Which team won the match?*"
   },
   {
    "id": "subject-questions-14",
@@ -164,7 +164,7 @@
     "makes it"
    ],
    "answer": 0,
-   "why": "Питання до підмета."
+   "why": "Питання до підмета: *Who made this cake?*"
   },
   {
    "id": "subject-questions-15",
@@ -177,7 +177,7 @@
     "are"
    ],
    "answer": 0,
-   "why": "Питання до додатка: do + you + V."
+   "why": "Питання до додатка: *What do you want for dinner?*"
   },
   {
    "id": "subject-questions-16",
@@ -190,7 +190,7 @@
     "do passed"
    ],
    "answer": 0,
-   "why": "How many students — підмет."
+   "why": "*How many students* — підмет: *How many students passed?*"
   },
   {
    "id": "subject-questions-17",
@@ -203,7 +203,7 @@
     "do"
    ],
    "answer": 0,
-   "why": "Прийменник у кінці: Where does she come from?"
+   "why": "*Where does she come from?* — питання до обставини з *does*, прийменник у кінці."
   },
   {
    "id": "subject-questions-18",
@@ -216,7 +216,7 @@
    "answer": [
     "Who told you"
    ],
-   "why": "Питання до підмета.",
+   "why": "Питання до підмета: *Who told you?*",
    "hint": "Хто тобі сказав?"
   },
   {
@@ -232,7 +232,7 @@
    "answer": [
     "What happened to your car"
    ],
-   "why": "What happened…?",
+   "why": "*What happened to…?* — питання до підмета.",
    "hint": "Що сталося з твоєю машиною?"
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "Who are you waiting for"
    ],
-   "why": "Прийменник у кінці.",
+   "why": "Прийменник у кінці: *Who are you waiting for?*",
    "hint": "На кого ти чекаєш?"
   },
   {
@@ -262,7 +262,7 @@
     "come"
    ],
    "answer": 1,
-   "why": "Питання до підмета — без did."
+   "why": "Питання до підмета без *did*: *How many people came?*"
   },
   {
    "id": "subject-questions-22",
@@ -275,7 +275,7 @@
     "is"
    ],
    "answer": 0,
-   "why": "Питання до додатка — з do."
+   "why": "Питання до додатка: *Who do you live with?*"
   },
   {
    "id": "subject-questions-23",
@@ -284,7 +284,7 @@
    "answer": [
     "is"
    ],
-   "why": "Whose bag is this?"
+   "why": "*Whose bag is this?*"
   }
  ]
 }

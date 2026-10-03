@@ -11,7 +11,7 @@
     "off"
    ],
    "answer": 0,
-   "why": "into — всередину."
+   "why": "*into* — рух усередину: *He walked into the room.* *at, onto, off* не передають входження."
   },
   {
    "id": "prepositions-movement-2",
@@ -24,7 +24,7 @@
     "outside"
    ],
    "answer": 0,
-   "why": "out of."
+   "why": "*out of* — рух назовні з чогось: *took the book out of the bag*."
   },
   {
    "id": "prepositions-movement-3",
@@ -37,7 +37,7 @@
     "along"
    ],
    "answer": 0,
-   "why": "off — з поверхні."
+   "why": "*off* — рух із поверхні: *fell off the shelf*."
   },
   {
    "id": "prepositions-movement-4",
@@ -50,7 +50,7 @@
     "off"
    ],
    "answer": 0,
-   "why": "along — уздовж."
+   "why": "*along* — уздовж чогось довгого: *along the beach*."
   },
   {
    "id": "prepositions-movement-5",
@@ -63,7 +63,7 @@
     "past"
    ],
    "answer": 0,
-   "why": "across — поперек."
+   "why": "*across* — з одного боку на інший: *swam across the river*."
   },
   {
    "id": "prepositions-movement-6",
@@ -76,7 +76,7 @@
     "past"
    ],
    "answer": 0,
-   "why": "through — крізь."
+   "why": "*through* — крізь, усередині чогось: *through a tunnel*."
   },
   {
    "id": "prepositions-movement-7",
@@ -89,7 +89,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "past — повз."
+   "why": "*past* — повз, не зупиняючись: *walked past the bank*."
   },
   {
    "id": "prepositions-movement-8",
@@ -102,7 +102,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "arrive in + місто."
+   "why": "*arrive in* + місто чи країна: *arrived in Paris*. *arrive to* — помилка."
   },
   {
    "id": "prepositions-movement-9",
@@ -113,7 +113,7 @@
     "on to",
     "on"
    ],
-   "why": "onto — рух на поверхню."
+   "why": "*onto* — рух на поверхню: *jumped onto the table* (у розмові часто просто *on*)."
   },
   {
    "id": "prepositions-movement-10",
@@ -122,7 +122,7 @@
    "answer": [
     "out of"
    ],
-   "why": "get out of + car / taxi."
+   "why": "З авто й таксі — *get out of*: *got out of the taxi*."
   },
   {
    "id": "prepositions-movement-11",
@@ -131,7 +131,7 @@
    "answer": [
     "off"
    ],
-   "why": "get off + bus / train."
+   "why": "З автобуса, потяга, літака — *get off*: *got off the bus*."
   },
   {
    "id": "prepositions-movement-12",
@@ -141,7 +141,7 @@
     "around",
     "round"
    ],
-   "why": "around — навколо."
+   "why": "*around / round* — навколо."
   },
   {
    "id": "prepositions-movement-13",
@@ -152,7 +152,7 @@
     "through",
     "across"
    ],
-   "why": "over / through the mountains."
+   "why": "*over / through / across the mountains* — залежно від того, як дорога проходить."
   },
   {
    "id": "prepositions-movement-14",
@@ -165,7 +165,7 @@
     "past"
    ],
    "answer": 0,
-   "why": "up — вгору."
+   "why": "*up the stairs* — угору сходами."
   },
   {
    "id": "prepositions-movement-15",
@@ -178,7 +178,7 @@
     "onto"
    ],
    "answer": 0,
-   "why": "towards — у бік."
+   "why": "*towards* — у бік чогось: *walked towards the door*."
   },
   {
    "id": "prepositions-movement-16",
@@ -191,7 +191,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "arrive at + точка/будівля."
+   "why": "*arrive at* + будівля чи точка: *arrived at the airport*."
   },
   {
    "id": "prepositions-movement-17",
@@ -204,7 +204,7 @@
     "down to"
    ],
    "answer": 0,
-   "why": "fall off — впасти з."
+   "why": "*fall off* — впасти з чогось: *fell off his bike*."
   },
   {
    "id": "prepositions-movement-18",
@@ -219,7 +219,7 @@
    "answer": [
     "She walked into the kitchen"
    ],
-   "why": "into — всередину.",
+   "why": "*into* — усередину.",
    "hint": "Вона зайшла на кухню."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "The dog jumped over the fence"
    ],
-   "why": "over — над, через.",
+   "why": "*over* — через щось зверху.",
    "hint": "Собака перестрибнув через паркан."
   },
   {
@@ -252,7 +252,7 @@
    "answer": [
     "We walked along the river"
    ],
-   "why": "along — уздовж.",
+   "why": "*along* — уздовж.",
    "hint": "Ми йшли вздовж річки."
   },
   {
@@ -266,7 +266,7 @@
     "along"
    ],
    "answer": 0,
-   "why": "Через щось зверху — over."
+   "why": "Стрибок через перешкоду зверху — *over the fence*."
   },
   {
    "id": "prepositions-movement-22",
@@ -279,7 +279,7 @@
     "back"
    ],
    "answer": 1,
-   "why": "away from — геть від."
+   "why": "*away from* — геть від: *Move away from the edge!*"
   },
   {
    "id": "prepositions-movement-23",
@@ -288,7 +288,7 @@
    "answer": [
     "to"
    ],
-   "why": "back to."
+   "why": "*go back to* — повернутися до: *go back to your seats*."
   }
  ]
 }

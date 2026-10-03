@@ -11,7 +11,7 @@
     "everybody"
    ],
    "answer": 1,
-   "why": "У запереченні — any-."
+   "why": "У запереченні — слова з *any-*: *I didn't see anybody.* *nobody* з *didn't* дає подвійне заперечення, а *everybody* означало б «не всіх»."
   },
   {
    "id": "indefinite-pronouns-2",
@@ -24,7 +24,7 @@
     "nobody"
    ],
    "answer": 1,
-   "why": "У пропозиції — some-."
+   "why": "У пропозиції (чекаємо «так») — *some-*: *Would you like something to eat?*"
   },
   {
    "id": "indefinite-pronouns-3",
@@ -37,7 +37,7 @@
     "everything"
    ],
    "answer": 0,
-   "why": "nothing — нічого."
+   "why": "Коробка порожня — *nothing* (нічого) зі ствердним дієсловом: *There is nothing in the box.*"
   },
   {
    "id": "indefinite-pronouns-4",
@@ -50,7 +50,7 @@
     "Anybody"
    ],
    "answer": 2,
-   "why": "everybody — усі."
+   "why": "Усі прийшли — *Everybody is here.*"
   },
   {
    "id": "indefinite-pronouns-5",
@@ -63,7 +63,7 @@
     "I didn't saw anybody."
    ],
    "answer": 1,
-   "why": "Одне заперечення: didn’t see anybody."
+   "why": "В англійській одне заперечення в реченні: *I didn't see anybody.*"
   },
   {
    "id": "indefinite-pronouns-6",
@@ -76,7 +76,7 @@
     "anything to interesting"
    ],
    "answer": 1,
-   "why": "Прикметник стоїть після слова: something interesting."
+   "why": "Прикметник стоїть після *something*: *something interesting*."
   },
   {
    "id": "indefinite-pronouns-7",
@@ -89,7 +89,7 @@
     "everywhere"
    ],
    "answer": 0,
-   "why": "У запереченні — anywhere."
+   "why": "У запереченні — *anywhere*: *I can't find my keys anywhere.*"
   },
   {
    "id": "indefinite-pronouns-8",
@@ -102,7 +102,7 @@
     "our"
    ],
    "answer": 1,
-   "why": "У розмові somebody → their."
+   "why": "Коли стать невідома, природно сказати *their*: *Somebody left their umbrella.* *his or her* правильне, але звучить формально й громіздко."
   },
   {
    "id": "indefinite-pronouns-9",
@@ -115,7 +115,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "every- — дієслово в однині."
+   "why": "Слова з *every-* узгоджуються з дієсловом в однині: *Everybody is here.*"
   },
   {
    "id": "indefinite-pronouns-10",
@@ -124,11 +124,11 @@
    "options": [
     "anywhere",
     "nowhere",
-    "somewhere",
+    "everywhere",
     "nothing"
    ],
    "answer": 0,
-   "why": "anywhere — де завгодно."
+   "why": "*anywhere* у ствердженні — «де завгодно»: *You can put it anywhere.*"
   },
   {
    "id": "indefinite-pronouns-11",
@@ -138,7 +138,7 @@
     "anything",
     "something"
    ],
-   "why": "У питанні — any-: anything."
+   "why": "У питанні — *anything*. *something* теж можливе, якщо очікуємо «так»."
   },
   {
    "id": "indefinite-pronouns-12",
@@ -147,7 +147,7 @@
    "answer": [
     "something"
    ],
-   "why": "У ствердженні — some-: something."
+   "why": "У ствердженні — *something*: *I want something to eat.*"
   },
   {
    "id": "indefinite-pronouns-13",
@@ -159,7 +159,7 @@
     "Noone",
     "No-one"
    ],
-   "why": "nobody + ствердне дієслово."
+   "why": "*Nobody / No one* + ствердне дієслово: *Nobody knows the answer.*"
   },
   {
    "id": "indefinite-pronouns-14",
@@ -168,7 +168,7 @@
    "answer": [
     "everywhere"
    ],
-   "why": "everywhere — скрізь."
+   "why": "*everywhere* — скрізь."
   },
   {
    "id": "indefinite-pronouns-15",
@@ -178,7 +178,7 @@
     "somewhere",
     "anywhere"
    ],
-   "why": "somewhere + прикметник: somewhere quiet."
+   "why": "*somewhere* + прикметник: *somewhere quiet*. *anywhere quiet* теж можна (будь-куди)."
   },
   {
    "id": "indefinite-pronouns-16",
@@ -191,7 +191,7 @@
     "everyone are"
    ],
    "answer": 0,
-   "why": "У питанні — anyone."
+   "why": "У питанні — *anyone*: *Did anyone call me?*"
   },
   {
    "id": "indefinite-pronouns-17",
@@ -204,7 +204,7 @@
     "everyone"
    ],
    "answer": 0,
-   "why": "Ствердження — someone."
+   "why": "Ствердження — *someone*: *There's someone at the door.*"
   },
   {
    "id": "indefinite-pronouns-18",
@@ -217,7 +217,7 @@
     "none"
    ],
    "answer": 0,
-   "why": "nothing + ствердне дієслово."
+   "why": "*nothing* + ствердне дієслово: *I have nothing to wear!*"
   },
   {
    "id": "indefinite-pronouns-19",
@@ -230,7 +230,7 @@
     "anywhere"
    ],
    "answer": 0,
-   "why": "anything else — ще щось (у питанні)."
+   "why": "*anything else* — «ще щось» у питанні."
   },
   {
    "id": "indefinite-pronouns-20",
@@ -244,7 +244,7 @@
    "answer": [
     "I didn't buy anything"
    ],
-   "why": "didn't + anything.",
+   "why": "*didn't* + *anything*.",
    "hint": "Я нічого не купив."
   },
   {
@@ -258,7 +258,7 @@
    "answer": [
     "Everybody likes her"
    ],
-   "why": "everybody + дієслово в однині.",
+   "why": "*Everybody* + дієслово в однині: *likes*.",
    "hint": "Усі її люблять."
   },
   {
@@ -275,7 +275,7 @@
    "answer": [
     "There is nothing in the fridge"
    ],
-   "why": "there is nothing.",
+   "why": "*There is nothing* — нічого немає.",
    "hint": "У холодильнику нічого немає."
   },
   {
@@ -289,7 +289,7 @@
     "another"
    ],
    "answer": 1,
-   "why": "anything else."
+   "why": "«Щось ще» — *anything else*."
   },
   {
    "id": "indefinite-pronouns-24",
@@ -302,7 +302,7 @@
     "all one"
    ],
    "answer": 1,
-   "why": "every one of — кожен із."
+   "why": "*every one of* — кожен із. *everyone* (разом) — лише про людей і без *of*."
   },
   {
    "id": "indefinite-pronouns-25",
@@ -312,7 +312,7 @@
     "Anyone",
     "Anybody"
    ],
-   "why": "Any- у ствердженні — будь-хто."
+   "why": "*any-* у ствердженні — «будь-хто»: *Anyone can learn to swim.*"
   }
  ]
 }

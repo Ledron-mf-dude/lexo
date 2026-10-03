@@ -11,7 +11,7 @@
     "Despite"
    ],
    "answer": 1,
-   "why": "although + речення — контраст."
+   "why": "Дощ і прогулянка суперечать одне одному — це протиставлення, тому *Although* + речення. *Despite* вимагає іменника або *-ing*."
   },
   {
    "id": "contrast-purpose-reason-result-2",
@@ -24,7 +24,7 @@
     "But"
    ],
    "answer": 1,
-   "why": "despite + іменник."
+   "why": "Перед іменником (*the rain*) — *Despite*. *Although* вимагає речення з дієсловом."
   },
   {
    "id": "contrast-purpose-reason-result-3",
@@ -37,7 +37,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "Мета: to + V."
+   "why": "Мета — *to* + дієслово: *I went to the shop to buy milk.* *for buy* — калька з «для»."
   },
   {
    "id": "contrast-purpose-reason-result-4",
@@ -50,7 +50,7 @@
     "as"
    ],
    "answer": 0,
-   "why": "so that + речення."
+   "why": "*so that* + речення (часто з *can / could*): *so that he could understand*."
   },
   {
    "id": "contrast-purpose-reason-result-5",
@@ -63,7 +63,7 @@
     "although"
    ],
    "answer": 1,
-   "why": "because of + іменник."
+   "why": "Перед іменником — *because of*: *because of the weather*."
   },
   {
    "id": "contrast-purpose-reason-result-6",
@@ -76,7 +76,7 @@
     "despite"
    ],
    "answer": 1,
-   "why": "so — наслідок."
+   "why": "*so* — наслідок: було пізно, тому ми пішли."
   },
   {
    "id": "contrast-purpose-reason-result-7",
@@ -89,7 +89,7 @@
     "So"
    ],
    "answer": 0,
-   "why": "However — контраст."
+   "why": "*However* — протиставлення в новому реченні: хворів, проте пішов на роботу."
   },
   {
    "id": "contrast-purpose-reason-result-8",
@@ -102,7 +102,7 @@
     "despite"
    ],
    "answer": 0,
-   "why": "whereas — протиставлення."
+   "why": "*whereas* — протиставлення двох фактів: *Tom is tall, whereas his brother is short.*"
   },
   {
    "id": "contrast-purpose-reason-result-9",
@@ -115,7 +115,7 @@
     "she was"
    ],
    "answer": 0,
-   "why": "despite + -ing."
+   "why": "Після *despite* — *-ing*: *Despite being tired*."
   },
   {
    "id": "contrast-purpose-reason-result-10",
@@ -128,7 +128,7 @@
     "Although of the rain, we went."
    ],
    "answer": 1,
-   "why": "Після although не ставимо but."
+   "why": "*although* і *but* разом не вживаємо. *Despite* не стоїть перед реченням."
   },
   {
    "id": "contrast-purpose-reason-result-11",
@@ -138,7 +138,7 @@
     "Despite",
     "In spite of"
    ],
-   "why": "despite / in spite of + -ing."
+   "why": "*Despite / In spite of* + *-ing*."
   },
   {
    "id": "contrast-purpose-reason-result-12",
@@ -147,7 +147,7 @@
    "answer": [
     "so"
    ],
-   "why": "so that + речення з can/could."
+   "why": "*so that* + речення: *so that he could buy a car*."
   },
   {
    "id": "contrast-purpose-reason-result-13",
@@ -156,7 +156,7 @@
    "answer": [
     "not"
    ],
-   "why": "in order not to + V."
+   "why": "Заперечна мета — *in order not to* + дієслово (*not* перед *to*)."
   },
   {
    "id": "contrast-purpose-reason-result-14",
@@ -166,7 +166,7 @@
     "due",
     "owing"
    ],
-   "why": "due to / owing to + іменник."
+   "why": "*due to / owing to* + іменник: *due to the storm*."
   },
   {
    "id": "contrast-purpose-reason-result-15",
@@ -177,7 +177,7 @@
     "Since",
     "Because"
    ],
-   "why": "as / since — причина на початку речення."
+   "why": "Відома причина на початку — *As / Since* (або *Because*)."
   },
   {
    "id": "contrast-purpose-reason-result-16",
@@ -190,7 +190,7 @@
     "Despite"
    ],
    "answer": 0,
-   "why": "Nevertheless — проте (окреме речення)."
+   "why": "*Nevertheless* — «проте» в новому реченні."
   },
   {
    "id": "contrast-purpose-reason-result-17",
@@ -203,7 +203,7 @@
     "because"
    ],
    "answer": 0,
-   "why": "Мета: to + V."
+   "why": "Мета — *to* + дієслово."
   },
   {
    "id": "contrast-purpose-reason-result-18",
@@ -216,7 +216,7 @@
     "in order"
    ],
    "answer": 0,
-   "why": "for + -ing — призначення."
+   "why": "Призначення речі — *for* + *-ing*: *a knife for cutting bread*."
   },
   {
    "id": "contrast-purpose-reason-result-19",
@@ -229,7 +229,7 @@
     "Whereas"
    ],
    "answer": 0,
-   "why": "As a result — наслідок."
+   "why": "*As a result* — наслідок: дороги були слизькі, тому багато аварій."
   },
   {
    "id": "contrast-purpose-reason-result-20",
@@ -242,7 +242,7 @@
     "Because"
    ],
    "answer": 0,
-   "why": "despite the fact that + речення."
+   "why": "*Despite the fact that* + речення."
   },
   {
    "id": "contrast-purpose-reason-result-21",
@@ -263,7 +263,7 @@
     "Although it was raining, we went for a walk",
     "We went for a walk although it was raining"
    ],
-   "why": "although + речення.",
+   "why": "*although* + речення; частини можна міняти місцями.",
    "hint": "Хоч і йшов дощ, ми пішли гуляти."
   },
   {
@@ -283,7 +283,7 @@
     "I spoke slowly so that she could understand",
     "So that she could understand I spoke slowly"
    ],
-   "why": "so that + could.",
+   "why": "*so that* + *could*.",
    "hint": "Я говорив повільно, щоб вона зрозуміла."
   },
   {
@@ -302,7 +302,7 @@
     "We stayed inside because of the heat",
     "Because of the heat we stayed inside"
    ],
-   "why": "because of + іменник.",
+   "why": "*because of* + іменник.",
    "hint": "Ми залишилися всередині через спеку."
   },
   {
@@ -316,7 +316,7 @@
     "despite"
    ],
    "answer": 0,
-   "why": "На випадок — in case + теперішній час."
+   "why": "*in case* — «на випадок, якщо»: *Take an umbrella in case it rains.* Після *in case* — теперішній час."
   },
   {
    "id": "contrast-purpose-reason-result-25",
@@ -329,7 +329,7 @@
     "However"
    ],
    "answer": 1,
-   "why": "Despite + -ing."
+   "why": "Перед *-ing* — *Despite*. *Although* і *Even though* вимагають підмета й дієслова."
   },
   {
    "id": "contrast-purpose-reason-result-26",
@@ -342,7 +342,7 @@
     "in spite"
    ],
    "answer": 1,
-   "why": "Умова (невідомо) — even if.",
+   "why": "Ще невідомо, чи ти прийдеш, — умова: *even if*. *even though* — про відомий факт.",
    "hint": "(ще невідомо, чи ти прийдеш)"
   },
   {
@@ -356,7 +356,7 @@
     "such as"
    ],
    "answer": 1,
-   "why": "У ролі — as."
+   "why": "У ролі, на посаді — *as*: *He works as a waiter.* *like* — «схоже на»."
   },
   {
    "id": "contrast-purpose-reason-result-28",
@@ -365,7 +365,7 @@
    "answer": [
     "not"
    ],
-   "why": "so as not to + V."
+   "why": "*so as not to* + дієслово — заперечна мета."
   }
  ]
 }

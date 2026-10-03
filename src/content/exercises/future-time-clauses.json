@@ -11,7 +11,7 @@
     "am getting"
    ],
    "answer": 1,
-   "why": "Після when — Present Simple."
+   "why": "Після сполучників часу (*when, as soon as, until, before, after*) про майбутнє вживаємо Present Simple, а не *will*: *I'll call you when I get home.* *will* — лише в головній частині."
   },
   {
    "id": "future-time-clauses-2",
@@ -24,7 +24,7 @@
     "come"
    ],
    "answer": 1,
-   "why": "as soon as + Present Simple."
+   "why": "*as soon as* + Present Simple навіть про майбутнє: *As soon as she comes, we'll start.*"
   },
   {
    "id": "future-time-clauses-3",
@@ -37,7 +37,7 @@
     "would finish"
    ],
    "answer": 1,
-   "why": "until + Present Simple."
+   "why": "*until* + Present Simple: *I'll wait until you finish.*"
   },
   {
    "id": "future-time-clauses-4",
@@ -50,7 +50,7 @@
     "did"
    ],
    "answer": 1,
-   "why": "Present Perfect підкреслює завершення."
+   "why": "Present Perfect після *after / when* підкреслює, що дія спершу завершиться: *after I have done my homework*."
   },
   {
    "id": "future-time-clauses-5",
@@ -63,7 +63,7 @@
     "slept"
    ],
    "answer": 1,
-   "why": "while + Present Continuous."
+   "why": "*while* + тривала дія в майбутньому — Present Continuous: *While you are sleeping, I'll cook dinner.*"
   },
   {
    "id": "future-time-clauses-6",
@@ -76,7 +76,7 @@
     "When I would arrive, I’ll call."
    ],
    "answer": 1,
-   "why": "Без will після when."
+   "why": "У підрядному часу *will* не ставимо: *When I arrive, I'll call.*"
   },
   {
    "id": "future-time-clauses-7",
@@ -89,7 +89,7 @@
     "finished"
    ],
    "answer": 0,
-   "why": "if — невпевненість."
+   "why": "*if* — подія невідома, може й не статися."
   },
   {
    "id": "future-time-clauses-8",
@@ -102,7 +102,7 @@
     "past only"
    ],
    "answer": 0,
-   "why": "when — ми очікуємо, що станеться."
+   "why": "*when* — ми очікуємо, що подія точно станеться."
   },
   {
    "id": "future-time-clauses-9",
@@ -111,7 +111,7 @@
    "answer": [
     "arrives"
    ],
-   "why": "Після the moment — Present Simple."
+   "why": "*the moment* (щойно) працює як сполучник часу — Present Simple: *the moment she arrives*."
   },
   {
    "id": "future-time-clauses-10",
@@ -120,7 +120,7 @@
    "answer": [
     "hear"
    ],
-   "why": "as soon as + Present Simple."
+   "why": "*as soon as* + Present Simple: *as soon as you hear anything*."
   },
   {
    "id": "future-time-clauses-11",
@@ -129,7 +129,7 @@
    "answer": [
     "gets"
    ],
-   "why": "when + Present Simple."
+   "why": "*when* + Present Simple: *when Dad gets home*."
   },
   {
    "id": "future-time-clauses-12",
@@ -141,7 +141,7 @@
     "get back",
     "have got back"
    ],
-   "why": "until + Present Simple / Perfect."
+   "why": "*until* + Present Simple (*come*) або Present Perfect (*have come*); *get back* — той самий зміст."
   },
   {
    "id": "future-time-clauses-13",
@@ -152,7 +152,7 @@
     "finish",
     "'ve finished"
    ],
-   "why": "once + Present Perfect / Simple."
+   "why": "*once* + Present Perfect (завершення) або Present Simple."
   },
   {
    "id": "future-time-clauses-14",
@@ -165,7 +165,7 @@
     "are going to leave"
    ],
    "answer": 0,
-   "why": "before + Present Simple."
+   "why": "*before* + Present Simple: *Before you leave, turn off the lights.*"
   },
   {
    "id": "future-time-clauses-15",
@@ -178,7 +178,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "when + Present Simple."
+   "why": "*when* + Present Simple: *when the exams are over*."
   },
   {
    "id": "future-time-clauses-16",
@@ -191,7 +191,7 @@
     "will have got"
    ],
    "answer": 0,
-   "why": "by the time + Present Simple."
+   "why": "*by the time* + Present Simple: *By the time you get here…*"
   },
   {
    "id": "future-time-clauses-17",
@@ -204,7 +204,7 @@
     "have been"
    ],
    "answer": 0,
-   "why": "while + Present Simple."
+   "why": "*while* + Present Simple для стану: *while you are at work*."
   },
   {
    "id": "future-time-clauses-18",
@@ -222,7 +222,7 @@
     "I will call you when I arrive",
     "When I arrive I will call you"
    ],
-   "why": "when + Present Simple.",
+   "why": "*when* + Present Simple; частини можна поміняти місцями.",
    "hint": "Я зателефоную, коли приїду."
   },
   {
@@ -244,7 +244,7 @@
     "As soon as I get home, I will cook",
     "I will cook as soon as I get home"
    ],
-   "why": "as soon as + Present Simple.",
+   "why": "*as soon as* + Present Simple.",
    "hint": "Щойно прийду додому, приготую їсти."
   },
   {
@@ -261,7 +261,7 @@
    "answer": [
     "Wait here until I come back"
    ],
-   "why": "until + Present Simple.",
+   "why": "*until* + Present Simple: *until I come back*.",
    "hint": "Чекай тут, поки я не повернуся."
   },
   {
@@ -275,7 +275,7 @@
     "is coming to"
    ],
    "answer": 1,
-   "why": "Тут when — питальне слово (непряме питання), а не сполучник часу, тому майбутнє — will."
+   "why": "Тут *when* — питальне слово в непрямому питанні («не знаю, коли»), а не сполучник часу, тому майбутнє — *will come*."
   },
   {
    "id": "future-time-clauses-22",
@@ -288,7 +288,7 @@
     "am going to get"
    ],
    "answer": 1,
-   "why": "when — сполучник часу, про майбутнє — Present Simple."
+   "why": "*when* — сполучник часу, тому Present Simple: *when I get the results*."
   },
   {
    "id": "future-time-clauses-23",
@@ -301,7 +301,7 @@
     "are arriving to"
    ],
    "answer": 1,
-   "why": "Після by the time — теперішній час."
+   "why": "Після *by the time* — теперішній час: *By the time you arrive…*"
   },
   {
    "id": "future-time-clauses-24",
@@ -314,7 +314,7 @@
     "that"
    ],
    "answer": 1,
-   "why": "no sooner … than."
+   "why": "*no sooner … than* — «щойно…, як»: *She had no sooner sat down than the phone rang.*"
   },
   {
    "id": "future-time-clauses-25",
@@ -326,7 +326,7 @@
     "before",
     "unless"
    ],
-   "why": "not … until — не раніше ніж."
+   "why": "*not … until* — «не раніше, ніж»: *I won't sign it until I've read it.* *before* і *unless* теж логічно підходять."
   }
  ]
 }

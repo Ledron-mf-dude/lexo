@@ -11,7 +11,7 @@
     "watched"
    ],
    "answer": 2,
-   "why": "Після enjoy — gerund (-ing)."
+   "why": "Після *enjoy* дієслово стоїть у формі *-ing* (герундій): *She enjoys watching TV.* *enjoy to watch* — типова помилка."
   },
   {
    "id": "gerund-after-verbs-2",
@@ -24,7 +24,7 @@
     "see"
    ],
    "answer": 1,
-   "why": "У look forward to слово to — прийменник, тож далі -ing."
+   "why": "У *look forward to* слово *to* — прийменник, а після прийменника — *-ing*: *looking forward to seeing you*. *to see* — помилка, бо це не інфінітив."
   },
   {
    "id": "gerund-after-verbs-3",
@@ -33,7 +33,7 @@
    "answer": [
     "taking"
    ],
-   "why": "Після admit — gerund."
+   "why": "Після *admit* (визнати) — *-ing*: *He admitted taking the money.*"
   },
   {
    "id": "gerund-after-verbs-4",
@@ -42,7 +42,7 @@
    "answer": [
     "crying"
    ],
-   "why": "Після it's no use — gerund."
+   "why": "*It's no use* + *-ing* — «марно»: *It's no use crying.*"
   },
   {
    "id": "gerund-after-verbs-5",
@@ -55,7 +55,7 @@
     "opened"
    ],
    "answer": 2,
-   "why": "Після mind — gerund."
+   "why": "Після *mind* — *-ing*: *Would you mind opening the window?*"
   },
   {
    "id": "gerund-after-verbs-6",
@@ -64,7 +64,7 @@
    "answer": [
     "laughing"
    ],
-   "why": "Після can't help — gerund."
+   "why": "*can't help* + *-ing* — «не можу втриматися»: *I can't help laughing.*"
   },
   {
    "id": "gerund-after-verbs-7",
@@ -77,7 +77,7 @@
     "for reading"
    ],
    "answer": 1,
-   "why": "Після worth — gerund."
+   "why": "*be worth* + *-ing* — «варто»: *The book is worth reading.*"
   },
   {
    "id": "gerund-after-verbs-8",
@@ -93,7 +93,7 @@
    "answer": [
     "She suggested going to the cinema"
    ],
-   "why": "Після suggest — gerund: suggested going."
+   "why": "Після *suggest* — *-ing*: *She suggested going to the cinema.* *suggested to go* — помилка."
   },
   {
    "id": "gerund-after-verbs-9",
@@ -106,7 +106,7 @@
     "Reads"
    ],
    "answer": 1,
-   "why": "Gerund може бути підметом."
+   "why": "Герундій може бути підметом речення: *Reading books is my hobby.*"
   },
   {
    "id": "gerund-after-verbs-10",
@@ -115,7 +115,7 @@
    "answer": [
     "learning"
    ],
-   "why": "Після прийменника in — gerund."
+   "why": "Після прийменника (*in*) — завжди *-ing*: *interested in learning*."
   },
   {
    "id": "gerund-after-verbs-11",
@@ -124,7 +124,7 @@
    "answer": [
     "working"
    ],
-   "why": "Після mind — gerund."
+   "why": "Після *mind* — *-ing*: *I don't mind working late.*"
   },
   {
    "id": "gerund-after-verbs-12",
@@ -133,7 +133,7 @@
    "answer": [
     "looking"
    ],
-   "why": "Після avoid — gerund."
+   "why": "Після *avoid* — *-ing*: *She avoided looking at me.*"
   },
   {
    "id": "gerund-after-verbs-13",
@@ -142,7 +142,7 @@
    "answer": [
     "reading"
    ],
-   "why": "Після finish — gerund."
+   "why": "Після *finish* — *-ing*: *finished reading*."
   },
   {
    "id": "gerund-after-verbs-14",
@@ -151,7 +151,7 @@
    "answer": [
     "forgetting"
    ],
-   "why": "Після keep — gerund."
+   "why": "*keep* + *-ing* — «постійно, раз у раз»: *He keeps forgetting my name.*"
   },
   {
    "id": "gerund-after-verbs-15",
@@ -160,7 +160,7 @@
    "answer": [
     "going"
    ],
-   "why": "feel like + gerund."
+   "why": "*feel like* + *-ing* — «хочеться»: *I feel like going out.*"
   },
   {
    "id": "gerund-after-verbs-16",
@@ -173,7 +173,7 @@
     "worrying about in"
    ],
    "answer": 0,
-   "why": "there's no point in + -ing."
+   "why": "*There's no point in* + *-ing* — «немає сенсу»: *There's no point in worrying.*"
   },
   {
    "id": "gerund-after-verbs-17",
@@ -186,7 +186,7 @@
     "have got"
    ],
    "answer": 0,
-   "why": "be used to + -ing."
+   "why": "*be used to* + *-ing* — «звик»: *I'm used to getting up early.* *to* тут прийменник."
   },
   {
    "id": "gerund-after-verbs-18",
@@ -199,7 +199,7 @@
     "broke"
    ],
    "answer": 0,
-   "why": "Після deny — gerund."
+   "why": "Після *deny* — *-ing*: *He denied breaking the window.*"
   },
   {
    "id": "gerund-after-verbs-19",
@@ -212,7 +212,7 @@
     "worked"
    ],
    "answer": 0,
-   "why": "Після consider — gerund."
+   "why": "Після *consider* — *-ing*: *Would you consider working abroad?*"
   },
   {
    "id": "gerund-after-verbs-20",
@@ -228,7 +228,7 @@
    "answer": [
     "I can't stand waiting in queues"
    ],
-   "why": "can't stand + -ing.",
+   "why": "*can't stand* + *-ing* — «терпіти не можу».",
    "hint": "Терпіти не можу чекати в чергах."
   },
   {
@@ -244,7 +244,7 @@
    "answer": [
     "She gave up eating meat"
    ],
-   "why": "give up + -ing.",
+   "why": "*give up* + *-ing* — «кинути, відмовитися».",
    "hint": "Вона відмовилася від м'яса."
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "Thank you for helping me"
    ],
-   "why": "for — прийменник, тому -ing.",
+   "why": "*for* — прийменник, тому *-ing*: *Thank you for helping me.*",
    "hint": "Дякую, що допоміг мені."
   },
   {
@@ -274,7 +274,7 @@
     "for tidying"
    ],
    "answer": 1,
-   "why": "spend time + -ing."
+   "why": "*spend* + час + *-ing*: *I spent the weekend tidying the garage.*"
   },
   {
    "id": "gerund-after-verbs-24",
@@ -287,7 +287,7 @@
     "shop"
    ],
    "answer": 1,
-   "why": "go + -ing для дозвілля."
+   "why": "Дозвілля й спорт: *go* + *-ing*: *go shopping, go swimming*."
   },
   {
    "id": "gerund-after-verbs-25",
@@ -296,7 +296,7 @@
    "answer": [
     "preparing"
    ],
-   "why": "be busy + -ing."
+   "why": "*be busy* + *-ing*: *She's busy preparing for the exam.*"
   }
  ]
 }
