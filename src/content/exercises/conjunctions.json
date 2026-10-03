@@ -11,7 +11,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "and — додавання."
+   "why": "*and* поєднує два однорідні слова: *tea and coffee*."
   },
   {
    "id": "conjunctions-2",
@@ -24,7 +24,7 @@
     "or"
    ],
    "answer": 1,
-   "why": "so — наслідок."
+   "why": "*so* вводить наслідок: втомився → тому ліг рано."
   },
   {
    "id": "conjunctions-3",
@@ -37,7 +37,7 @@
     "or"
    ],
    "answer": 1,
-   "why": "because — причина."
+   "why": "*because* вводить причину: удома, бо йшов дощ."
   },
   {
    "id": "conjunctions-4",
@@ -50,7 +50,7 @@
     "so"
    ],
    "answer": 1,
-   "why": "or — вибір."
+   "why": "У питанні з вибором — *or*: *tea or coffee?*"
   },
   {
    "id": "conjunctions-5",
@@ -63,7 +63,7 @@
     "because"
    ],
    "answer": 2,
-   "why": "but — контраст."
+   "why": "*but* — протиставлення: бідна, але щаслива."
   },
   {
    "id": "conjunctions-6",
@@ -76,7 +76,7 @@
     "Not"
    ],
    "answer": 0,
-   "why": "neither … nor."
+   "why": "*Neither … nor* — «ні … ні»: *Neither Tom nor Anna came.* Дієслово ствердне."
   },
   {
    "id": "conjunctions-7",
@@ -89,7 +89,7 @@
     "and"
    ],
    "answer": 1,
-   "why": "either … or."
+   "why": "*either … or* — «або … або»: *either tea or coffee*."
   },
   {
    "id": "conjunctions-8",
@@ -102,7 +102,7 @@
     "So because I was tired I left."
    ],
    "answer": 1,
-   "why": "Не вживаємо because і so разом."
+   "why": "*because* і *so* разом не вживаємо: або *Because I was tired, I left*, або *I was tired, so I left*."
   },
   {
    "id": "conjunctions-9",
@@ -112,7 +112,7 @@
     "but",
     "yet"
    ],
-   "why": "but — контраст."
+   "why": "Протиставлення — *but* (або *yet*): дзвонила, але вона не відповіла."
   },
   {
    "id": "conjunctions-10",
@@ -121,7 +121,7 @@
    "answer": [
     "so"
    ],
-   "why": "so — наслідок.",
+   "why": "Наслідок — *so*: було холодно, тому я вдягнув пальто.",
    "hint": "(тому)"
   },
   {
@@ -131,7 +131,7 @@
    "answer": [
     "or"
    ],
-   "why": "or — вибір.",
+   "why": "Вибір — *or*: понеділок або вівторок.",
    "hint": "(або)"
   },
   {
@@ -141,7 +141,7 @@
    "answer": [
     "Both"
    ],
-   "why": "both … and — і … і."
+   "why": "*Both … and* — «і … і»: *Both my brother and my sister are doctors.*"
   },
   {
    "id": "conjunctions-13",
@@ -150,7 +150,7 @@
    "answer": [
     "but"
    ],
-   "why": "not only … but also."
+   "why": "*not only … but also* — «не тільки …, а й»: *not only English but also French*."
   },
   {
    "id": "conjunctions-14",
@@ -163,7 +163,7 @@
     "or"
    ],
    "answer": 0,
-   "why": "because + причина."
+   "why": "Причина (не снідав) — *because*."
   },
   {
    "id": "conjunctions-15",
@@ -176,7 +176,7 @@
     "although"
    ],
    "answer": 0,
-   "why": "because of + іменник."
+   "why": "Перед іменником (*the snow*) — *because of*. *because* вимагає підрядного речення з дієсловом."
   },
   {
    "id": "conjunctions-16",
@@ -189,7 +189,7 @@
     "Not"
    ],
    "answer": 0,
-   "why": "neither … nor."
+   "why": "*Neither … nor*: *Neither Anna nor her husband eats meat.*"
   },
   {
    "id": "conjunctions-17",
@@ -202,7 +202,7 @@
     "or"
    ],
    "answer": 0,
-   "why": "either … or — або … або."
+   "why": "*either … or* — один із двох варіантів: *either by card or in cash*."
   },
   {
    "id": "conjunctions-18",
@@ -221,7 +221,7 @@
     "I was tired so I went to bed",
     "I was tired, so I went to bed"
    ],
-   "why": "so — наслідок.",
+   "why": "*so* вводить наслідок: *I was tired, so I went to bed.*",
    "hint": "Я втомився, тому пішов спати."
   },
   {
@@ -241,7 +241,7 @@
     "She stayed at home because she was ill",
     "Because she was ill she stayed at home"
    ],
-   "why": "because + причина.",
+   "why": "*because* + причина. Можна почати й з неї: *Because she was ill, she stayed at home.*",
    "hint": "Вона залишилася вдома, бо захворіла."
   },
   {
@@ -259,7 +259,7 @@
    "answer": [
     "Both Tom and Kate passed the exam"
    ],
-   "why": "both … and.",
+   "why": "*Both … and*: *Both Tom and Kate passed the exam.*",
    "hint": "І Том, і Кейт склали іспит."
   },
   {
@@ -273,7 +273,7 @@
     "neither"
    ],
    "answer": 1,
-   "why": "Заперечення — either."
+   "why": "У запереченні «теж не» — *either* в кінці: *my sister doesn't either*. *too* і *also* — для ствердження."
   },
   {
    "id": "conjunctions-22",
@@ -286,7 +286,7 @@
     "Also"
    ],
    "answer": 1,
-   "why": "Apart from + іменник."
+   "why": "*Apart from* (крім того, що) + іменник: *Apart from English, she speaks…* *Besides of* — помилка (правильно *Besides*)."
   },
   {
    "id": "conjunctions-23",
@@ -295,7 +295,7 @@
    "answer": [
     "as"
    ],
-   "why": "as well as."
+   "why": "*as well as* — «так само як і»: *the guitar as well as the piano*."
   }
  ]
 }

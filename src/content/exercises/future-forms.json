@@ -5,26 +5,26 @@
    "type": "choice",
    "q": "Look at those clouds! It ___ rain.",
    "options": [
-    "will",
+    "will to",
     "is going to",
     "rains",
     "is raining"
    ],
    "answer": 1,
-   "why": "Прогноз за ознаками — be going to."
+   "why": "Прогноз за тим, що бачимо зараз (хмари), — *be going to*: *It is going to rain.*"
   },
   {
    "id": "future-forms-2",
    "type": "choice",
    "q": "We ___ her tomorrow at 5; we've arranged it.",
    "options": [
-    "will visit",
+    "visiting",
     "are visiting",
     "visit",
-    "shall visit"
+    "are visit"
    ],
    "answer": 1,
-   "why": "Домовленість — Present Continuous."
+   "why": "Домовленість на конкретний час (*we've arranged it*) — Present Continuous: *We are visiting her tomorrow at 5.*"
   },
   {
    "id": "future-forms-3",
@@ -37,7 +37,7 @@
     "leave"
    ],
    "answer": 1,
-   "why": "Розклад — Present Simple."
+   "why": "Розклад транспорту — Present Simple: *The train leaves at 9:15 tomorrow.*"
   },
   {
    "id": "future-forms-4",
@@ -47,10 +47,10 @@
     "answer",
     "will answer",
     "am answering",
-    "am going to answer"
+    "am going answer"
    ],
    "answer": 1,
-   "why": "Рішення «на ходу» — will."
+   "why": "Рішення, прийняте в момент мовлення (телефон дзвонить просто зараз), — *will*: *I'll answer it.*"
   },
   {
    "id": "future-forms-5",
@@ -60,7 +60,7 @@
     "won't tell",
     "will not tell"
    ],
-   "why": "Обіцянка — will."
+   "why": "Обіцянка — *will*: *I promise I won't tell anyone.*"
   },
   {
    "id": "future-forms-6",
@@ -73,7 +73,7 @@
     "work"
    ],
    "answer": 1,
-   "why": "Тривалість до майбутнього моменту — Future Perfect."
+   "why": "До певного моменту в майбутньому (*In June*) я пропрацюю п'ять років — Future Perfect: *will have worked*."
   },
   {
    "id": "future-forms-7",
@@ -82,20 +82,20 @@
    "answer": [
     "will be flying"
    ],
-   "why": "Процес у майбутньому — Future Continuous."
+   "why": "*This time tomorrow* — процес у конкретний момент майбутнього, Future Continuous: *will be flying*."
   },
   {
    "id": "future-forms-8",
    "type": "choice",
    "q": "I ___ visit my grandmother this weekend. I've already decided.",
    "options": [
-    "will",
+    "will to",
     "am going to",
-    "shall",
+    "going",
     "would"
    ],
    "answer": 1,
-   "why": "Заздалегідь прийняте рішення — be going to."
+   "why": "Рішення прийняли заздалегідь (*I've already decided*) — *be going to*: *I am going to visit my grandmother.*"
   },
   {
    "id": "future-forms-9",
@@ -108,7 +108,7 @@
     "Are"
    ],
    "answer": 1,
-   "why": "Shall we…? — пропозиція."
+   "why": "Пропозиція зробити щось разом — *Shall we…?*: *Shall we go to the cinema?*"
   },
   {
    "id": "future-forms-10",
@@ -128,7 +128,7 @@
     "He is going to have a day off tomorrow",
     "Tomorrow he is going to have a day off"
    ],
-   "why": "Особистий план — be going to."
+   "why": "Особистий план — *be going to*: *He is going to have a day off tomorrow.*"
   },
   {
    "id": "future-forms-11",
@@ -137,7 +137,7 @@
    "answer": [
     "starts"
    ],
-   "why": "Розклад — Present Simple.",
+   "why": "Подія за розкладом (на квитку) — Present Simple: *The concert starts at 8 pm.*",
    "hint": "За розкладом"
   },
   {
@@ -149,7 +149,7 @@
     "'m meeting",
     "am going to meet"
    ],
-   "why": "Домовленість — Present Continuous."
+   "why": "Домовленість (столик заброньовано) — Present Continuous: *I am meeting Anna.* *am going to meet* (план) теж правильне."
   },
   {
    "id": "future-forms-13",
@@ -160,7 +160,7 @@
     "'re going to fall",
     "will fall"
    ],
-   "why": "Бачимо ознаки — be going to."
+   "why": "Бачимо, що зараз станеться, — *be going to*: *You're going to fall!* Як вигук-попередження можна і *You'll fall!*"
   },
   {
    "id": "future-forms-14",
@@ -172,7 +172,7 @@
     "is going to be",
     "'s going to be"
    ],
-   "why": "Прогноз-думка з I think — will."
+   "why": "Думка про майбутнє з *I think* — найчастіше *will*: *I think it will be a great party.* *is going to be* теж правильно."
   },
   {
    "id": "future-forms-15",
@@ -182,7 +182,7 @@
     "will close",
     "'ll close"
    ],
-   "why": "Рішення в момент мовлення — will."
+   "why": "Рішення в момент мовлення (відповідь на *I'm cold*) — *will*: *I'll close the window.*"
   },
   {
    "id": "future-forms-16",
@@ -195,7 +195,7 @@
     "leave"
    ],
    "answer": 0,
-   "why": "Розклад — Present Simple."
+   "why": "Розклад рейсу — Present Simple: *My flight leaves at 6 am.*"
   },
   {
    "id": "future-forms-17",
@@ -208,7 +208,7 @@
     "am learning to"
    ],
    "answer": 0,
-   "why": "Рішення, прийняте раніше, — be going to."
+   "why": "Рішення, прийняте раніше (*I've decided*), — *be going to*: *I am going to learn to drive.*"
   },
   {
    "id": "future-forms-18",
@@ -221,7 +221,7 @@
     "visit"
    ],
    "answer": 0,
-   "why": "Невпевнений прогноз — will."
+   "why": "Невпевнене припущення з *Maybe* — *will*: *Maybe I'll visit you.*"
   },
   {
    "id": "future-forms-19",
@@ -229,12 +229,12 @@
    "q": "What ___ this evening? Any plans?",
    "options": [
     "are you doing",
-    "will you do",
+    "will you doing",
     "do you do",
     "you are doing"
    ],
    "answer": 0,
-   "why": "Питання про плани — Present Continuous."
+   "why": "Питання про плани на сьогодні — Present Continuous: *What are you doing this evening?*"
   },
   {
    "id": "future-forms-20",
@@ -252,7 +252,7 @@
     "We are flying to Rome on Friday",
     "On Friday we are flying to Rome"
    ],
-   "why": "Домовленість — Present Continuous.",
+   "why": "Домовленість (квитки є) — Present Continuous: *We are flying to Rome on Friday.*",
    "hint": "У п'ятницю ми летимо до Рима."
   },
   {
@@ -268,7 +268,7 @@
    "answer": [
     "I think she will win"
    ],
-   "why": "Прогноз-думка — will.",
+   "why": "Думка-прогноз з *I think* — *will*: *I think she will win.*",
    "hint": "Думаю, вона виграє."
   },
   {
@@ -286,7 +286,7 @@
     "It is going to rain soon",
     "Soon it is going to rain"
    ],
-   "why": "Ознаки — be going to.",
+   "why": "Прогноз за ознаками — *be going to*: *It is going to rain soon.*",
    "hint": "Скоро піде дощ."
   },
   {
@@ -294,13 +294,13 @@
    "type": "choice",
    "q": "Look at the score! They ___ win.",
    "options": [
-    "will",
+    "going",
     "are going to",
     "win",
     "are winning to"
    ],
    "answer": 1,
-   "why": "Видно вже зараз — be going to."
+   "why": "Рахунок уже показує, що буде, — *be going to*: *They are going to win.*"
   },
   {
    "id": "future-forms-24",
@@ -309,11 +309,11 @@
    "options": [
     "are liking",
     "'ll like",
-    "like",
+    "liking",
     "are going like"
    ],
    "answer": 1,
-   "why": "Прогноз-думка з I think — will."
+   "why": "Прогноз-думка з *I think* — *will*: *I think you'll like this book.* *like* у Continuous не вживають."
   },
   {
    "id": "future-forms-25",
@@ -326,7 +326,7 @@
     "not going"
    ],
    "answer": 0,
-   "why": "Заперечення: isn't going to + V."
+   "why": "Заперечення — *isn't going to* + дієслово: *She isn't going to sell her car.*"
   },
   {
    "id": "future-forms-26",
@@ -335,7 +335,7 @@
    "answer": [
     "Are"
    ],
-   "why": "Питання: Are + підмет + going to + V."
+   "why": "Питання з *going to*: *Are* + підмет + *going to*: *Are you going to tell him?*"
   },
   {
    "id": "future-forms-27",
@@ -344,7 +344,7 @@
    "answer": [
     "arrive"
    ],
-   "why": "Після when про майбутнє — Present Simple."
+   "why": "Після *when* у значенні майбутнього — Present Simple: *when I arrive*, не *when I will arrive*."
   }
  ]
 }

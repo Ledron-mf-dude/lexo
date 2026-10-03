@@ -11,7 +11,7 @@
     "must"
    ],
    "answer": 1,
-   "why": "could — загальне вміння в минулому."
+   "why": "Загальне вміння в минулому («умів») — *could*: *I could swim when I was five.* *can* — теперішнє."
   },
   {
    "id": "can-could-be-able-to-2",
@@ -24,7 +24,7 @@
     "am able to"
    ],
    "answer": 1,
-   "why": "Одна конкретна вдала дія в минулому — was able to."
+   "why": "Про одну конкретну вдалу дію в минулому («зміг, вдалося») кажуть *was able to* (або *managed to*), а не *could*: *Yesterday I was able to finish the report.*"
   },
   {
    "id": "can-could-be-able-to-3",
@@ -37,7 +37,7 @@
     "being can"
    ],
    "answer": 1,
-   "why": "can не має інфінітива: to be able to."
+   "why": "*can* не має інфінітива, тому після *would love* вживаємо *to be able to*: *I'd love to be able to sing well.* *to can* не існує."
   },
   {
    "id": "can-could-be-able-to-4",
@@ -50,7 +50,7 @@
     "You open the window."
    ],
    "answer": 2,
-   "why": "Could you…? — ввічливіше."
+   "why": "*Could you…?* — найввічливіше прохання з цих: *could* звучить м'якше за *can*. Наказовий спосіб без *please* звучить різко."
   },
   {
    "id": "can-could-be-able-to-5",
@@ -63,7 +63,7 @@
     "be able"
    ],
    "answer": 2,
-   "why": "Present Perfect від be able to: has been able to."
+   "why": "*can* не має перфектної форми, тому Present Perfect — *has been able to*: *He hasn't been able to relax lately.*"
   },
   {
    "id": "can-could-be-able-to-6",
@@ -76,7 +76,7 @@
     "Can I help?"
    ],
    "answer": 0,
-   "why": "You can park here — дозвіл."
+   "why": "*You can park here* дає дозвіл. *I can swim* — вміння, *Can I help?* — пропозиція, *You can't swim* — заборона або невміння."
   },
   {
    "id": "can-could-be-able-to-7",
@@ -86,7 +86,7 @@
     "couldn't speak",
     "could not speak"
    ],
-   "why": "Заперечення в минулому: couldn’t + V."
+   "why": "Заперечення вміння в минулому — *couldn't* + дієслово: *she couldn't speak French*."
   },
   {
    "id": "can-could-be-able-to-8",
@@ -99,7 +99,7 @@
     "She is can swim."
    ],
    "answer": 1,
-   "why": "can не змінюється й вимагає інфінітива без to."
+   "why": "*can* не змінюється за особами (без *-s*) і після нього інфінітив без *to*: *She can swim.*"
   },
   {
    "id": "can-could-be-able-to-9",
@@ -116,7 +116,7 @@
    "answer": [
     "I was able to finish on time"
    ],
-   "why": "Одна конкретна вдала дія — was able to."
+   "why": "Одна конкретна вдала дія в минулому — *was able to*: *I was able to finish on time.*"
   },
   {
    "id": "can-could-be-able-to-10",
@@ -127,7 +127,7 @@
     "cannot",
     "won't be able to"
    ],
-   "why": "Заперечення: can't + V.",
+   "why": "Неможливість у майбутньому найчастіше передаємо через *can't*: *I can't come tomorrow.* *won't be able to* — той самий зміст, теж правильно.",
    "hint": "(can)"
   },
   {
@@ -137,7 +137,7 @@
    "answer": [
     "be able"
    ],
-   "why": "Майбутнє: will be able to."
+   "why": "Майбутнє від *can* — *will be able to*: *She will be able to walk again.*"
   },
   {
    "id": "can-could-be-able-to-12",
@@ -148,7 +148,7 @@
     "could not",
     "wasn't able to"
    ],
-   "why": "Заперечення в минулому — couldn't.",
+   "why": "Про невдачу в минулому кажемо *couldn't* (або *wasn't able to*): *I couldn't find my keys.* У запереченні *couldn't* підходить і для конкретного випадку.",
    "hint": "(can) — заперечення в минулому"
   },
   {
@@ -161,7 +161,7 @@
     "Would",
     "Will"
    ],
-   "why": "Could you…? — ввічливе прохання.",
+   "why": "Ввічливе прохання: *Could you…?* (найввічливіше), *Can you…?*, *Would you…?*, *Will you…?* — усі правильні.",
    "hint": "Ввічливе прохання"
   },
   {
@@ -175,7 +175,7 @@
     "are able"
    ],
    "answer": 0,
-   "why": "Одна конкретна вдала дія — were able to."
+   "why": "Після довгих пошуків — одна конкретна вдала дія, тому *were able to*. *could* у ствердженні про одну подію в минулому не вживають."
   },
   {
    "id": "can-could-be-able-to-15",
@@ -188,7 +188,7 @@
     "be able"
    ],
    "answer": 0,
-   "why": "Після would like — to be able to."
+   "why": "Після *would like* потрібен інфінітив, а в *can* його немає: *I'd like to be able to speak Chinese.*"
   },
   {
    "id": "can-could-be-able-to-16",
@@ -201,7 +201,7 @@
     "Would"
    ],
    "answer": 0,
-   "why": "Прохання про дозвіл: Can I…?"
+   "why": "Просимо дозволу — *Can I…?*: *Can I use your phone?* *Must / Should I* питали б про обов'язок, *Would I* — неправильне."
   },
   {
    "id": "can-could-be-able-to-17",
@@ -214,7 +214,7 @@
     "is able to"
    ],
    "answer": 0,
-   "why": "Загальне вміння в минулому — could."
+   "why": "Загальне вміння протягом тривалого часу в минулому — *could*: *My grandmother could read without glasses until she was 80.*"
   },
   {
    "id": "can-could-be-able-to-18",
@@ -232,7 +232,7 @@
     "I could swim when I was six",
     "When I was six I could swim"
    ],
-   "why": "Загальне вміння в минулому — could.",
+   "why": "Загальне вміння в минулому — *could*: *I could swim when I was six.*",
    "hint": "Я вмів плавати, коли мені було шість."
   },
   {
@@ -250,7 +250,7 @@
    "answer": [
     "Will you be able to come tomorrow"
    ],
-   "why": "Майбутнє — will be able to.",
+   "why": "Майбутнє від *can* — *will be able to*: *Will you be able to come tomorrow?*",
    "hint": "Ти зможеш прийти завтра?"
   },
   {
@@ -268,7 +268,7 @@
    "answer": [
     "I have never been able to cook"
    ],
-   "why": "Present Perfect — have been able to.",
+   "why": "Present Perfect від *can* — *have been able to*: *I have never been able to cook.*",
    "hint": "Я ніколи не вмів готувати."
   },
   {
@@ -282,7 +282,7 @@
     "would"
    ],
    "answer": 1,
-   "why": "Дозвіл даємо через can."
+   "why": "Відповідаючи на прохання про дозвіл, кажемо *Yes, you can.* *could* у питанні — лише ввічливість, у відповіді *Yes, you could* звучить дивно."
   },
   {
    "id": "can-could-be-able-to-22",
@@ -295,7 +295,7 @@
     "can"
    ],
    "answer": 1,
-   "why": "Дозвіл у минулому — were allowed to (або could)."
+   "why": "Дозвіл у минулому, правило на роботі — *were allowed to*. *could to* — помилка, *must* означало б обов'язок."
   },
   {
    "id": "can-could-be-able-to-23",
@@ -308,7 +308,7 @@
     "closed"
    ],
    "answer": 1,
-   "why": "Would you mind + -ing."
+   "why": "Після *Would you mind* — дієслово з *-ing*: *Would you mind closing the door?*"
   },
   {
    "id": "can-could-be-able-to-24",
@@ -317,7 +317,7 @@
    "answer": [
     "can"
    ],
-   "why": "Загальна можливість — can."
+   "why": "*can* — «буває»: *It can be really hot here in July* (іноді буває дуже спекотно)."
   },
   {
    "id": "can-could-be-able-to-25",
@@ -326,7 +326,7 @@
    "answer": [
     "to"
    ],
-   "why": "managed to + V."
+   "why": "*manage to* + дієслово — «вдалося»: *I managed to lift it.*"
   }
  ]
 }

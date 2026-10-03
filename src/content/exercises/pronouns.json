@@ -11,7 +11,7 @@
     "Herself"
    ],
    "answer": 1,
-   "why": "Підмет — she."
+   "why": "У ролі підмета (хто йшов?) — особовий займенник *she*: *She and I went home.* *Her and I* — розмовна помилка, у нормі — *she*."
   },
   {
    "id": "pronouns-2",
@@ -24,7 +24,7 @@
     "mine"
    ],
    "answer": 1,
-   "why": "Після прийменника — me."
+   "why": "Після прийменника (*between*) стоїть об'єктна форма: *between you and me*. *between you and I* — поширена гіперкорекція, але неправильна."
   },
   {
    "id": "pronouns-3",
@@ -37,7 +37,7 @@
     "herself"
    ],
    "answer": 1,
-   "why": "Додаток — her."
+   "why": "Після прийменника *to* — об'єктна форма: *Give it to her.* *she* — підмет, *hers* — «її» без іменника."
   },
   {
    "id": "pronouns-4",
@@ -50,7 +50,7 @@
     "I"
    ],
    "answer": 2,
-   "why": "Без іменника — mine."
+   "why": "Без іменника після *is* — присвійний займенник *mine*: *That book is mine.* *my* вимагає іменника (*my book*)."
   },
   {
    "id": "pronouns-5",
@@ -63,7 +63,7 @@
     "It"
    ],
    "answer": 1,
-   "why": "It's = it is."
+   "why": "*It's* = *it is*: *It's raining.* *Its* без апострофа — присвійне «його / її» (*its tail*)."
   },
   {
    "id": "pronouns-6",
@@ -76,7 +76,7 @@
     "My"
    ],
    "answer": 1,
-   "why": "У розмові — It’s me."
+   "why": "У відповіді на *Who is it?* кажуть *It's me* або просто *Me.* Форма *It is I* формально правильна, але в живій мові звучить застаріло."
   },
   {
    "id": "pronouns-7",
@@ -89,7 +89,7 @@
     "I"
    ],
    "answer": 2,
-   "why": "a friend of mine."
+   "why": "*a friend of mine* — «один із моїх друзів»: після *of* у цій конструкції стоїть присвійний займенник *mine*."
   },
   {
    "id": "pronouns-8",
@@ -102,7 +102,7 @@
     "theirs"
    ],
    "answer": 1,
-   "why": "their — присвійний прикметник."
+   "why": "Перед іменником (*tickets*) — присвійний прикметник *their*. *there* — «там», *they're* = *they are*."
   },
   {
    "id": "pronouns-9",
@@ -115,7 +115,7 @@
     "they"
    ],
    "answer": 2,
-   "why": "Без іменника — theirs."
+   "why": "Замість *their house* без іменника — *theirs*: *Our house is bigger than theirs.* *them* означало б «ніж вони (самі)»."
   },
   {
    "id": "pronouns-10",
@@ -128,7 +128,7 @@
     "He and me went out."
    ],
    "answer": 1,
-   "why": "Підмет — he and I."
+   "why": "Обидва займенники тут — підмет, тому *He and I*. Перевірка: прибери другого — *He went out*, *I went out*."
   },
   {
    "id": "pronouns-11",
@@ -137,7 +137,7 @@
    "answer": [
     "us"
    ],
-   "why": "Додаток — us."
+   "why": "Після дієслова *help* — додаток, об'єктна форма: *help us*."
   },
   {
    "id": "pronouns-12",
@@ -146,7 +146,7 @@
    "answer": [
     "yours"
    ],
-   "why": "Без іменника — yours."
+   "why": "Без іменника — присвійний займенник *yours*: *Is this umbrella yours?*"
   },
   {
    "id": "pronouns-13",
@@ -155,7 +155,7 @@
    "answer": [
     "its"
    ],
-   "why": "Присвійне its (без апострофа)."
+   "why": "Присвійне «його» про тварину — *its* без апострофа: *its food*. *it's* означало б *it is*."
   },
   {
    "id": "pronouns-14",
@@ -164,7 +164,7 @@
    "answer": [
     "They"
    ],
-   "why": "Підмет — they."
+   "why": "Підмет речення — особовий займенник *They*: *They are my best friends.*"
   },
   {
    "id": "pronouns-15",
@@ -173,7 +173,7 @@
    "answer": [
     "them"
    ],
-   "why": "Додаток — them."
+   "why": "Після прийменника *to* — об'єктна форма множини *them*: *I talked to them.*"
   },
   {
    "id": "pronouns-16",
@@ -186,7 +186,7 @@
     "mine"
    ],
    "answer": 0,
-   "why": "Підмет — I."
+   "why": "Тут займенник — частина підмета (*My sister and I are going*), тому *I*. Перевірка: *I am going to Paris*."
   },
   {
    "id": "pronouns-17",
@@ -199,7 +199,7 @@
     "mine"
    ],
    "answer": 0,
-   "why": "Після дієслова — me."
+   "why": "Після дієслова (*give*) — об'єктна форма: *give me your number*."
   },
   {
    "id": "pronouns-18",
@@ -212,7 +212,7 @@
     "I"
    ],
    "answer": 0,
-   "why": "Без іменника — mine."
+   "why": "Замість *my coat* без іменника — *Mine*: *Mine is black.*"
   },
   {
    "id": "pronouns-19",
@@ -225,7 +225,7 @@
     "them"
    ],
    "answer": 0,
-   "why": "Присвійний прикметник — their."
+   "why": "Перед іменником *sweets* — присвійний прикметник *their*. *there* — «там», *they're* — «вони є»."
   },
   {
    "id": "pronouns-20",
@@ -240,7 +240,7 @@
    "answer": [
     "This bag is not mine"
    ],
-   "why": "mine — без іменника.",
+   "why": "*mine* стоїть без іменника в кінці: *This bag is not mine.*",
    "hint": "Ця сумка не моя."
   },
   {
@@ -256,7 +256,7 @@
    "answer": [
     "She gave me her number"
    ],
-   "why": "me — додаток, her — присвійне.",
+   "why": "*me* — кому дала (додаток), *her* — чий номер (присвійне): *She gave me her number.*",
    "hint": "Вона дала мені свій номер."
   },
   {
@@ -273,7 +273,7 @@
    "answer": [
     "We invited them to our party"
    ],
-   "why": "them — додаток.",
+   "why": "*them* — кого запросили (додаток), *our* — чия вечірка: *We invited them to our party.*",
    "hint": "Ми запросили їх на нашу вечірку."
   },
   {
@@ -287,7 +287,7 @@
     "I"
    ],
    "answer": 1,
-   "why": "Замість іменника — присвійний займенник mine."
+   "why": "Без іменника — *mine*: *This umbrella isn't mine.* Наступне речення *Mine is black* підтверджує форму."
   },
   {
    "id": "pronouns-24",
@@ -300,7 +300,7 @@
     "Them"
    ],
    "answer": 2,
-   "why": "They are → they're."
+   "why": "Потрібне «вони (є)»: *They are late* → *They're late again!* *Their* — «їхній», *There* — «там»."
   },
   {
    "id": "pronouns-25",
@@ -313,7 +313,7 @@
     "ours"
    ],
    "answer": 2,
-   "why": "Після дієслова — об'єктний займенник us."
+   "why": "Після дієслова *help* — об'єктна форма *us*. *we* — підмет, *our / ours* — присвійні."
   },
   {
    "id": "pronouns-26",
@@ -322,7 +322,7 @@
    "answer": [
     "yours"
    ],
-   "why": "Присвійний займенник без апострофа: yours."
+   "why": "Без іменника — *yours*, і без апострофа: присвійні займенники (*yours, hers, ours*) апострофа не мають."
   }
  ]
 }

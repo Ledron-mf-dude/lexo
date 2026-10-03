@@ -11,7 +11,7 @@
     "by"
    ],
    "answer": 2,
-   "why": "at + точний час."
+   "why": "З точним часом на годиннику — *at*: *at 7 o'clock, at noon*. *in* — для довших періодів (місяць, рік), *on* — для днів і дат."
   },
   {
    "id": "prepositions-time-2",
@@ -24,7 +24,7 @@
     "of"
    ],
    "answer": 1,
-   "why": "on + дата."
+   "why": "З датою — *on*: *on 5 May, on Monday*. *in* — лише з місяцем без числа (*in May*)."
   },
   {
    "id": "prepositions-time-3",
@@ -37,7 +37,7 @@
     "by"
    ],
    "answer": 2,
-   "why": "in + пора року."
+   "why": "Пори року — *in*: *in winter, in summer*."
   },
   {
    "id": "prepositions-time-4",
@@ -50,7 +50,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "in + проміжок — через."
+   "why": "*in* + проміжок часу від тепер означає «через»: *in ten minutes* — через десять хвилин. *after ten minutes* — про минуле (через десять хвилин після чогось)."
   },
   {
    "id": "prepositions-time-5",
@@ -63,7 +63,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "by — не пізніше."
+   "why": "*by* — «не пізніше ніж», дедлайн: *Finish the report by Friday.* *until* означало б, що дія триває аж до п'ятниці."
   },
   {
    "id": "prepositions-time-6",
@@ -76,7 +76,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "until — до."
+   "why": "*until* — дія триває аж до моменту: *I'll wait until Friday.* *by* — дедлайн для одноразової дії."
   },
   {
    "id": "prepositions-time-7",
@@ -89,7 +89,7 @@
     "by"
    ],
    "answer": 0,
-   "why": "in the morning."
+   "why": "Частини дня — *in*: *in the morning / afternoon / evening*. Виняток — *at night*."
   },
   {
    "id": "prepositions-time-8",
@@ -102,7 +102,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "at night."
+   "why": "*at night* — сталий вираз «уночі», на відміну від *in the morning*."
   },
   {
    "id": "prepositions-time-9",
@@ -115,7 +115,7 @@
     "by"
    ],
    "answer": 2,
-   "why": "on + день + morning."
+   "why": "День тижня + частина дня — *on*: *on Monday morning*. Конкретний день важливіший за частину дня."
   },
   {
    "id": "prepositions-time-10",
@@ -128,7 +128,7 @@
     "in / to"
    ],
    "answer": 0,
-   "why": "from … to."
+   "why": "Проміжок «з … до …» — *from … to …*: *from Monday to Friday*. (Також *from … until …*.)"
   },
   {
    "id": "prepositions-time-11",
@@ -137,7 +137,7 @@
    "answer": [
     "at"
    ],
-   "why": "at + точний час."
+   "why": "Точний час — *at*: *at 9 am*."
   },
   {
    "id": "prepositions-time-12",
@@ -146,7 +146,7 @@
    "answer": [
     "in"
    ],
-   "why": "in + рік."
+   "why": "Рік — *in*: *in 1995*."
   },
   {
    "id": "prepositions-time-13",
@@ -155,7 +155,7 @@
    "answer": [
     "on"
    ],
-   "why": "on + конкретний день."
+   "why": "Конкретний день, навіть свято, — *on*: *on New Year's Eve, on my birthday*. *at New Year* — про період свят."
   },
   {
    "id": "prepositions-time-14",
@@ -164,7 +164,7 @@
    "answer": [
     "since"
    ],
-   "why": "since + момент (Present Perfect)."
+   "why": "*since* + момент, коли дія почалася, з Present Perfect: *I've been here since two o'clock.* *for* — з тривалістю (*for two hours*)."
   },
   {
    "id": "prepositions-time-15",
@@ -173,7 +173,7 @@
    "answer": [
     "for"
    ],
-   "why": "for + тривалість."
+   "why": "*for* + тривалість: *for three years*. *since* потребує моменту (*since 2020*)."
   },
   {
    "id": "prepositions-time-16",
@@ -186,7 +186,7 @@
     "by"
    ],
    "answer": 0,
-   "why": "on + день + evening."
+   "why": "День тижня + частина дня — *on*: *on Friday evening*."
   },
   {
    "id": "prepositions-time-17",
@@ -199,7 +199,7 @@
     "by"
    ],
    "answer": 0,
-   "why": "in the afternoon."
+   "why": "*in the afternoon* — частина дня з *in*."
   },
   {
    "id": "prepositions-time-18",
@@ -212,7 +212,7 @@
     "at next"
    ],
    "answer": 0,
-   "why": "next week — без прийменника."
+   "why": "Перед *next, last, this, every* прийменник не ставимо: *next week, last year*."
   },
   {
    "id": "prepositions-time-19",
@@ -225,7 +225,7 @@
     "since"
    ],
    "answer": 0,
-   "why": "by — дедлайн."
+   "why": "*by* — дедлайн, «не пізніше»: *by Monday at the latest*. *until* і *till* — тривалість аж до моменту."
   },
   {
    "id": "prepositions-time-20",
@@ -244,7 +244,7 @@
     "Usually I go to bed at midnight",
     "At midnight I usually go to bed"
    ],
-   "why": "at midnight.",
+   "why": "*at midnight* — як і точний час, з *at*.",
    "hint": "Зазвичай я лягаю спати опівночі."
   },
   {
@@ -262,7 +262,7 @@
     "We go on holiday in August",
     "In August we go on holiday"
    ],
-   "why": "in + місяць.",
+   "why": "Місяці — *in*: *in August*.",
    "hint": "Ми їдемо у відпустку в серпні."
   },
   {
@@ -280,7 +280,7 @@
     "The film starts in ten minutes",
     "In ten minutes the film starts"
    ],
-   "why": "in + проміжок — через.",
+   "why": "*in ten minutes* — через десять хвилин від тепер.",
    "hint": "Фільм почнеться через десять хвилин."
   },
   {
@@ -294,7 +294,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "Конкретний день свята — on."
+   "why": "Конкретний день свята — *on*: *on Christmas Day*. *at Christmas* — про святковий період загалом."
   },
   {
    "id": "prepositions-time-24",
@@ -307,7 +307,7 @@
     "for"
    ],
    "answer": 1,
-   "why": "Через стільки часу від тепер — in."
+   "why": "Через стільки-то часу від тепер — *in*: *in five minutes*. *after five minutes* звучить як розповідь про минуле."
   },
   {
    "id": "prepositions-time-25",
@@ -320,7 +320,7 @@
     "during the"
    ],
    "answer": 2,
-   "why": "Десятиліття — in."
+   "why": "Десятиліття, як і роки, — *in*: *in the 1980s*."
   },
   {
    "id": "prepositions-time-26",
@@ -330,7 +330,7 @@
     "at",
     "in"
    ],
-   "why": "На початку чогось — at the beginning."
+   "why": "*at the beginning of* — на початку чогось конкретного (фільму). *in the beginning* — «спочатку, колись» — теж приймаємо."
   }
  ]
 }

@@ -11,20 +11,20 @@
     "currently"
    ],
    "answer": 0,
-   "why": "every day — маркер Present Simple."
+   "why": "*every day* — регулярність, маркер Present Simple, як і *I go*. Інші варіанти — маркери Present Continuous."
   },
   {
    "id": "time-markers-2",
    "type": "choice",
    "q": "Which marker goes with Present Continuous?",
    "options": [
-    "always",
+    "usually",
     "at the moment",
     "never",
     "every week"
    ],
    "answer": 1,
-   "why": "at the moment — Present Continuous."
+   "why": "*at the moment* — «саме зараз», маркер Present Continuous. *usually, never, every week* — маркери Present Simple."
   },
   {
    "id": "time-markers-3",
@@ -37,7 +37,7 @@
     "She is late always."
    ],
    "answer": 1,
-   "why": "Прислівник частоти стоїть після to be."
+   "why": "Прислівник частоти стоїть після *to be*: *She is always late.*"
   },
   {
    "id": "time-markers-4",
@@ -50,7 +50,7 @@
     "never"
    ],
    "answer": 3,
-   "why": "never — жодного разу."
+   "why": "Вегетаріанець ніколи не їсть м'яса — *never*."
   },
   {
    "id": "time-markers-5",
@@ -63,7 +63,7 @@
     "has snow"
    ],
    "answer": 1,
-   "why": "Look! — дія відбувається зараз."
+   "why": "*Look!* — зараз, Present Continuous: *It is snowing.*"
   },
   {
    "id": "time-markers-6",
@@ -76,7 +76,7 @@
     "Usually goes he to school by bus."
    ],
    "answer": 1,
-   "why": "Прислівник частоти — перед основним дієсловом."
+   "why": "Прислівник частоти — перед основним дієсловом: *He usually goes…*"
   },
   {
    "id": "time-markers-7",
@@ -89,7 +89,7 @@
     "Past Perfect"
    ],
    "answer": 0,
-   "why": "Регулярність — Present Simple."
+   "why": "*twice a week* — регулярність, Present Simple."
   },
   {
    "id": "time-markers-8",
@@ -102,7 +102,7 @@
     "a plan"
    ],
    "answer": 1,
-   "why": "always + Continuous — роздратування."
+   "why": "*always* + Present Continuous — роздратування повторюваною дією."
   },
   {
    "id": "time-markers-9",
@@ -115,7 +115,7 @@
     "never"
    ],
    "answer": 0,
-   "why": "these days — тимчасова ситуація."
+   "why": "*these days* — тимчасова ситуація, підходить до Present Continuous."
   },
   {
    "id": "time-markers-10",
@@ -124,7 +124,7 @@
    "answer": [
     "ago"
    ],
-   "why": "ago — маркер Past Simple."
+   "why": "*ago* («тому») — маркер Past Simple: *two years ago*."
   },
   {
    "id": "time-markers-11",
@@ -134,7 +134,7 @@
     "ever",
     "never"
    ],
-   "why": "ever — маркер Present Perfect."
+   "why": "*ever* («колись») — маркер Present Perfect у питаннях. *never* теж граматично можливе (*Have you never been…?* — здивування)."
   },
   {
    "id": "time-markers-12",
@@ -143,7 +143,7 @@
    "answer": [
     "yet"
    ],
-   "why": "yet — Present Perfect, заперечення.",
+   "why": "*yet* («ще», у запереченні) — маркер Present Perfect, стоїть у кінці.",
    "hint": "(ще)"
   },
   {
@@ -153,7 +153,7 @@
    "answer": [
     "at"
    ],
-   "why": "at the moment — Present Continuous."
+   "why": "*at the moment* — сталий вираз."
   },
   {
    "id": "time-markers-14",
@@ -162,7 +162,7 @@
    "answer": [
     "next"
    ],
-   "why": "next week — майбутнє.",
+   "why": "*next week* — без прийменника.",
    "hint": "(наступного)"
   },
   {
@@ -176,7 +176,7 @@
     "has been going"
    ],
    "answer": 0,
-   "why": "last year — Past Simple."
+   "why": "*last year* — Past Simple: *went*."
   },
   {
    "id": "time-markers-16",
@@ -189,7 +189,7 @@
     "am seeing"
    ],
    "answer": 0,
-   "why": "already — Present Perfect."
+   "why": "*already* — Present Perfect: *I have seen this film already.*"
   },
   {
    "id": "time-markers-17",
@@ -202,7 +202,7 @@
     "has had"
    ],
    "answer": 0,
-   "why": "right now — Present Continuous."
+   "why": "*right now* — Present Continuous: *is having a shower*."
   },
   {
    "id": "time-markers-18",
@@ -215,7 +215,7 @@
     "are having"
    ],
    "answer": 0,
-   "why": "Момент у минулому — Past Continuous."
+   "why": "Конкретний момент у минулому (*At 7 pm yesterday*) — Past Continuous."
   },
   {
    "id": "time-markers-19",
@@ -228,7 +228,7 @@
     "wasn't seeing"
    ],
    "answer": 0,
-   "why": "since — Present Perfect."
+   "why": "*since Monday* — від моменту до тепер, Present Perfect: *haven't seen*."
   },
   {
    "id": "time-markers-20",
@@ -243,7 +243,7 @@
     "I saw him yesterday",
     "Yesterday I saw him"
    ],
-   "why": "yesterday — Past Simple.",
+   "why": "*yesterday* — Past Simple: *saw*.",
    "hint": "Я бачив його вчора."
   },
   {
@@ -258,7 +258,7 @@
    "answer": [
     "She has already left"
    ],
-   "why": "already — Present Perfect.",
+   "why": "*already* — Present Perfect: *has already left*.",
    "hint": "Вона вже пішла."
   },
   {
@@ -275,7 +275,7 @@
     "We are having lunch now",
     "Now we are having lunch"
    ],
-   "why": "now — Present Continuous.",
+   "why": "*now* — Present Continuous.",
    "hint": "Ми зараз обідаємо."
   },
   {
@@ -286,10 +286,10 @@
     "do you work",
     "have you been working",
     "are you working",
-    "did you work"
+    "you have been working"
    ],
    "answer": 1,
-   "why": "How long + тривалість до тепер — Present Perfect Continuous."
+   "why": "*How long* про дію, що почалася в минулому й триває досі, — Present Perfect Continuous: *How long have you been working…?*"
   },
   {
    "id": "time-markers-24",
@@ -302,7 +302,7 @@
     "are finishing"
    ],
    "answer": 1,
-   "why": "By the end of — Future Perfect."
+   "why": "*By the end of the year* — до моменту в майбутньому, Future Perfect: *will have finished*."
   },
   {
    "id": "time-markers-25",
@@ -311,7 +311,7 @@
    "answer": [
     "will be flying"
    ],
-   "why": "this time tomorrow — Future Continuous."
+   "why": "*This time tomorrow* — процес у майбутньому, Future Continuous: *will be flying*."
   }
  ]
 }

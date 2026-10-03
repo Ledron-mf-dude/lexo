@@ -11,7 +11,7 @@
     "working"
    ],
    "answer": 1,
-   "why": "usually — звичка, Present Simple."
+   "why": "*usually* показує звичку, регулярну дію — це Present Simple. Підмет *she* (3-тя особа однини) додає закінчення *-s*: *works*. *is working* означало б «саме зараз / тимчасово»."
   },
   {
    "id": "present-simple-vs-continuous-2",
@@ -24,7 +24,7 @@
     "slept"
    ],
    "answer": 1,
-   "why": "Look! — дія відбувається зараз."
+   "why": "*Look!* звертає увагу на те, що відбувається просто зараз, тому Present Continuous: *The baby is sleeping.* *sleeps* описувало б звичку («зазвичай спить»)."
   },
   {
    "id": "present-simple-vs-continuous-3",
@@ -34,7 +34,7 @@
     "doesn't like",
     "does not like"
    ],
-   "why": "Заперечення в Present Simple: doesn’t + V."
+   "why": "Заперечення в Present Simple для he / she / it: *doesn't* + дієслово без *-s*: *He doesn't like coffee*. *-s* уже є в *does*, тому *doesn't likes* — помилка."
   },
   {
    "id": "present-simple-vs-continuous-4",
@@ -43,7 +43,7 @@
    "answer": [
     "is"
    ],
-   "why": "Коротка відповідь повторює допоміжне: Yes, she is."
+   "why": "Коротка відповідь повторює допоміжне дієслово з питання. Питання *Is she working?* — відповідь *Yes, she is.*"
   },
   {
    "id": "present-simple-vs-continuous-5",
@@ -56,7 +56,7 @@
     "boiled"
    ],
    "answer": 1,
-   "why": "Наукові факти — Present Simple."
+   "why": "Загальновідомі факти й закони природи — Present Simple: *Water boils at 100 degrees*. *is boiling* означало б, що вода кипить саме зараз у каструлі."
   },
   {
    "id": "present-simple-vs-continuous-6",
@@ -69,7 +69,7 @@
     "looked"
    ],
    "answer": 2,
-   "why": "Тимчасова ситуація — Present Continuous."
+   "why": "*this month* — обмежений період: зараз, тимчасово я шукаю квартиру. Тимчасові ситуації — Present Continuous: *I am looking*."
   },
   {
    "id": "present-simple-vs-continuous-7",
@@ -82,7 +82,7 @@
     "Do / drinking"
    ],
    "answer": 1,
-   "why": "Звичка: Do + підмет + V."
+   "why": "*every morning* — регулярна дія, Present Simple. Питання: *Do* + підмет + дієслово без закінчень: *Do you drink tea every morning?*"
   },
   {
    "id": "present-simple-vs-continuous-8",
@@ -95,7 +95,7 @@
     "write"
    ],
    "answer": 1,
-   "why": "know — дієслово стану (stative)."
+   "why": "*know* — дієслово стану (знання), його не вживають у Continuous: *I know*, не *I'm knowing*. *run, eat, write* — дії, з ними Continuous звичайний."
   },
   {
    "id": "present-simple-vs-continuous-9",
@@ -105,7 +105,7 @@
     "is studying",
     "studies"
    ],
-   "why": "now — Present Continuous."
+   "why": "*now* підказує Present Continuous: *My brother is studying at university now* (цей період). *studies* теж приймаємо: «зараз (в цей період життя) навчається» — так теж кажуть."
   },
   {
    "id": "present-simple-vs-continuous-10",
@@ -122,7 +122,7 @@
     "She is working from home today",
     "Today she is working from home"
    ],
-   "why": "today — тимчасова ситуація."
+   "why": "*today* підкреслює, що це тимчасово, не як завжди: *She is working from home today.*"
   },
   {
    "id": "present-simple-vs-continuous-11",
@@ -132,7 +132,7 @@
     "is knocking",
     "'s knocking"
    ],
-   "why": "Listen! — зараз."
+   "why": "*Listen!* — звук чути просто зараз, тому Present Continuous: *Someone is knocking at the door.*"
   },
   {
    "id": "present-simple-vs-continuous-12",
@@ -143,7 +143,7 @@
     "is living",
     "'s living"
    ],
-   "why": "Постійна ситуація — Present Simple."
+   "why": "Де людина живе постійно — Present Simple: *My sister lives in Canada.* *is living* теж правильно, якщо це тимчасово (наприклад, на рік)."
   },
   {
    "id": "present-simple-vs-continuous-13",
@@ -153,7 +153,7 @@
     "don't understand",
     "do not understand"
    ],
-   "why": "understand — стан."
+   "why": "*understand* — дієслово стану (розуміння), тому Present Simple навіть «зараз»: *I don't understand this question.*"
   },
   {
    "id": "present-simple-vs-continuous-14",
@@ -162,7 +162,7 @@
    "answer": [
     "Does"
    ],
-   "why": "it → Does."
+   "why": "*often* — частота, Present Simple. Для *it* питання будуємо з *Does*: *Does it often rain here?*"
   },
   {
    "id": "present-simple-vs-continuous-15",
@@ -173,7 +173,7 @@
     "'s always losing",
     "always loses"
    ],
-   "why": "always + Continuous — роздратування."
+   "why": "*always* з Present Continuous виражає роздратування від повторюваної дії: *He is always losing his keys!* *always loses* теж граматично правильне, але звучить нейтрально, без емоції."
   },
   {
    "id": "present-simple-vs-continuous-16",
@@ -186,7 +186,7 @@
     "opening"
    ],
    "answer": 0,
-   "why": "Розклад — Present Simple."
+   "why": "Розклад роботи магазину — постійний, тому Present Simple: *The shop opens at 9 on Sundays.*"
   },
   {
    "id": "present-simple-vs-continuous-17",
@@ -199,7 +199,7 @@
     "am stay"
    ],
    "answer": 0,
-   "why": "Тимчасово — Present Continuous."
+   "why": "*until I find a flat* — тимчасово, поки не знайду квартиру. Тимчасове — Present Continuous: *I am staying at a hotel.*"
   },
   {
    "id": "present-simple-vs-continuous-18",
@@ -212,7 +212,7 @@
     "tasting"
    ],
    "answer": 0,
-   "why": "taste (на смак) — стан."
+   "why": "*taste* у значенні «мати смак» — стан, тому Present Simple: *This soup tastes delicious.* *is tasting* можливе лише про дію «куштувати»: *He is tasting the soup.*"
   },
   {
    "id": "present-simple-vs-continuous-19",
@@ -225,7 +225,7 @@
     "are / do"
    ],
    "answer": 0,
-   "why": "usually — Present Simple."
+   "why": "*usually* — звичка, Present Simple. Питання: *What do you usually do…?* Перше *do* — допоміжне, друге — основне дієслово «робити»."
   },
   {
    "id": "present-simple-vs-continuous-20",
@@ -240,7 +240,7 @@
    "answer": [
     "She works in a hospital"
    ],
-   "why": "Постійна ситуація.",
+   "why": "Постійна робота — Present Simple: *She works in a hospital.*",
    "hint": "Вона працює в лікарні."
   },
   {
@@ -261,7 +261,7 @@
     "I am reading a great book at the moment",
     "At the moment I am reading a great book"
    ],
-   "why": "at the moment — Continuous.",
+   "why": "*at the moment* — дія триває в цей період: *I am reading a great book at the moment.*",
    "hint": "Зараз я читаю чудову книжку."
   },
   {
@@ -276,7 +276,7 @@
    "answer": [
     "What do you do"
    ],
-   "why": "What do you do? — питання про професію.",
+   "why": "*What do you do?* питає про професію, а не про те, що людина робить зараз (*What are you doing?*).",
    "hint": "Ким ти працюєш?"
   },
   {
@@ -290,7 +290,7 @@
     "usually go"
    ],
    "answer": 0,
-   "why": "Прислівник частоти — перед основним дієсловом; he/she — goes."
+   "why": "Прислівник частоти (*usually, often*) стоїть перед основним дієсловом, а з *she* дієслово має *-s*: *She usually goes…* *goes usually* — неправильний порядок слів."
   },
   {
    "id": "present-simple-vs-continuous-24",
@@ -303,7 +303,7 @@
     "often be"
    ],
    "answer": 1,
-   "why": "Після be прислівник частоти стоїть після нього: is often."
+   "why": "З *to be* прислівник частоти стоїть після дієслова: *He is often late*. З іншими дієсловами — перед ними: *He often comes late*."
   },
   {
    "id": "present-simple-vs-continuous-25",
@@ -316,20 +316,20 @@
     "am always"
    ],
    "answer": 1,
-   "why": "У короткій відповіді — перед допоміжним: I always do."
+   "why": "У короткій відповіді прислівник частоти стоїть перед допоміжним дієсловом: *Yes, I always do.*"
   },
   {
    "id": "present-simple-vs-continuous-26",
    "type": "choice",
    "q": "My brother ___ his keys! It's so annoying.",
    "options": [
-    "always loses",
+    "always losing",
     "is always losing",
     "always is losing",
     "loses always"
    ],
    "answer": 1,
-   "why": "always + Continuous — роздратування."
+   "why": "Роздратування від повторюваної дії — *always* + Present Continuous: *My brother is always losing his keys!* *always is losing* — неправильний порядок слів: *always* стоїть між *is* і *-ing*."
   },
   {
    "id": "present-simple-vs-continuous-27",
@@ -339,7 +339,7 @@
     "is getting",
     "gets"
    ],
-   "why": "Зміни, тенденції — Present Continuous."
+   "why": "Зміни й тенденції, що тривають, — Present Continuous: *The climate is getting warmer.* *gets warmer every year* теж правильно як констатація регулярного факту."
   },
   {
    "id": "present-simple-vs-continuous-28",
@@ -348,7 +348,7 @@
    "answer": [
     "watches"
    ],
-   "why": "Після -ch закінчення -es: watches."
+   "why": "*every evening* — звичка, Present Simple. Дієслова на *-ch, -sh, -s, -x, -o* отримують *-es*: *watches*."
   }
  ]
 }

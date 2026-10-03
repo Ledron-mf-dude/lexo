@@ -11,7 +11,7 @@
     "quieter"
    ],
    "answer": 1,
-   "why": "Прислівник способу: quietly."
+   "why": "*speak* — дія, а спосіб дії описує прислівник: *She speaks quietly.* *quiet* — прикметник (*a quiet voice*)."
   },
   {
    "id": "adjectives-adverbs-2",
@@ -24,7 +24,7 @@
     "carefulness"
    ],
    "answer": 0,
-   "why": "Перед іменником — прикметник."
+   "why": "Перед іменником (*driver*) — прикметник: *a careful driver*. Прислівник *carefully* описував би дію: *He drives carefully*."
   },
   {
    "id": "adjectives-adverbs-3",
@@ -37,7 +37,7 @@
     "gooder"
    ],
    "answer": 1,
-   "why": "good → well."
+   "why": "Прислівник від *good* — неправильна форма *well*: *She sings well.*"
   },
   {
    "id": "adjectives-adverbs-4",
@@ -50,7 +50,7 @@
     "hardness"
    ],
    "answer": 1,
-   "why": "hard — і прикметник, і прислівник."
+   "why": "*hard* — і прикметник, і прислівник «старанно, важко»: *He works hard.* *hardly* — зовсім інше слово: «ледве, майже не»."
   },
   {
    "id": "adjectives-adverbs-5",
@@ -63,7 +63,7 @@
     "hardness"
    ],
    "answer": 1,
-   "why": "hardly — ледве, майже не."
+   "why": "*hardly* — «майже не»: *I hardly know him.* (*hard* — «старанно»)."
   },
   {
    "id": "adjectives-adverbs-6",
@@ -76,7 +76,7 @@
     "happying"
    ],
    "answer": 0,
-   "why": "Після look — прикметник."
+   "why": "Після *look* (виглядати), *seem, feel, sound* — прикметник, бо описуємо підмет, а не дію: *She looks happy.*"
   },
   {
    "id": "adjectives-adverbs-7",
@@ -89,7 +89,7 @@
     "lateness"
    ],
    "answer": 0,
-   "why": "late — пізно."
+   "why": "*late* — «пізно» (і прикметник, і прислівник): *The train arrived late.* *lately* — «останнім часом»."
   },
   {
    "id": "adjectives-adverbs-8",
@@ -102,7 +102,7 @@
     "lated"
    ],
    "answer": 1,
-   "why": "lately — останнім часом."
+   "why": "*lately* — «останнім часом», часто з Present Perfect: *I've been busy lately.*"
   },
   {
    "id": "adjectives-adverbs-9",
@@ -115,7 +115,7 @@
     "easier"
    ],
    "answer": 1,
-   "why": "-y → -ily."
+   "why": "*easy* → *easily*: після приголосної *y* змінюється на *i*, далі *-ly*."
   },
   {
    "id": "adjectives-adverbs-10",
@@ -124,7 +124,7 @@
    "answer": [
     "well"
    ],
-   "why": "Прислівник від good — well.",
+   "why": "Прислівник від *good* — *well*: *She sings very well.*",
    "hint": "(good)"
   },
   {
@@ -134,7 +134,7 @@
    "answer": [
     "correctly"
    ],
-   "why": "Дія (answered) — прислівник: correct + ly.",
+   "why": "*answered* — дія, тому прислівник: *correctly*.",
    "hint": "(correct)"
   },
   {
@@ -144,7 +144,7 @@
    "answer": [
     "carefully"
    ],
-   "why": "Спосіб дії — careful + ly.",
+   "why": "*drive* — дія, спосіб — прислівник *carefully* (*careful* + *-ly*).",
    "hint": "(careful)"
   },
   {
@@ -154,7 +154,7 @@
    "answer": [
     "extremely"
    ],
-   "why": "Прислівник ступеня перед прикметником: extremely happy.",
+   "why": "Перед прикметником (*happy*) ступінь показує прислівник: *extremely happy*.",
    "hint": "(extreme)"
   },
   {
@@ -164,7 +164,7 @@
    "answer": [
     "happily"
    ],
-   "why": "-y → -ily: happily.",
+   "why": "*play* — дія, тому прислівник: *happy* → *happily*.",
    "hint": "(happy)"
   },
   {
@@ -178,7 +178,7 @@
     "delicious-ly"
    ],
    "answer": 0,
-   "why": "Після taste — прикметник."
+   "why": "*taste* (мати смак) — дієслово-зв'язка, як *look*, тому прикметник: *tastes delicious*."
   },
   {
    "id": "adjectives-adverbs-16",
@@ -191,7 +191,7 @@
     "more fluent"
    ],
    "answer": 0,
-   "why": "Спосіб дії — прислівник fluently."
+   "why": "*speak* — дія, спосіб — прислівник: *fluently*."
   },
   {
    "id": "adjectives-adverbs-17",
@@ -204,7 +204,7 @@
     "harder"
    ],
    "answer": 0,
-   "why": "hardly — майже не."
+   "why": "*hardly* — «майже не»: *I hardly slept.* *hard* означало б «спав міцно / старанно»."
   },
   {
    "id": "adjectives-adverbs-18",
@@ -217,7 +217,7 @@
     "surprise"
    ],
    "answer": 0,
-   "why": "Перед прикметником — прислівник: surprisingly easy."
+   "why": "Перед прикметником (*easy*) — прислівник: *surprisingly easy*."
   },
   {
    "id": "adjectives-adverbs-19",
@@ -230,7 +230,7 @@
     "friendily"
    ],
    "answer": 0,
-   "why": "friendly — прикметник, прислівника немає: in a friendly way."
+   "why": "*friendly* закінчується на *-ly*, але це прикметник, прислівника від нього немає. Тому кажемо *in a friendly way*."
   },
   {
    "id": "adjectives-adverbs-20",
@@ -245,7 +245,7 @@
    "answer": [
     "She speaks English very well"
    ],
-   "why": "well — прислівник від good.",
+   "why": "*well* — прислівник від *good*, стоїть після додатка: *speaks English very well*.",
    "hint": "Вона дуже добре розмовляє англійською."
   },
   {
@@ -262,7 +262,7 @@
    "answer": [
     "He drove slowly through the town"
    ],
-   "why": "Прислівник способу — після дієслова.",
+   "why": "Прислівник способу — після дієслова: *drove slowly through the town*.",
    "hint": "Він повільно їхав через місто."
   },
   {
@@ -278,7 +278,7 @@
    "answer": [
     "The music sounds really good"
    ],
-   "why": "Після sound — прикметник good.",
+   "why": "Після *sound* — прикметник: *sounds really good* (*really* підсилює прикметник).",
    "hint": "Музика звучить справді добре."
   },
   {
@@ -292,7 +292,7 @@
     "higher"
    ],
    "answer": 1,
-   "why": "highly = дуже (оцінка)."
+   "why": "*highly* — «дуже, високо» в оцінках: *highly recommended*. *high* — «високо» буквально (*fly high*)."
   },
   {
    "id": "adjectives-adverbs-24",
@@ -305,7 +305,7 @@
     "strait"
    ],
    "answer": 1,
-   "why": "straight — і прикметник, і прислівник."
+   "why": "*straight* — і прикметник, і прислівник: *Go straight on.* *straightly* не існує."
   },
   {
    "id": "adjectives-adverbs-25",
@@ -318,7 +318,7 @@
     "latest"
    ],
    "answer": 1,
-   "why": "lately — останнім часом."
+   "why": "*lately* — «останнім часом»."
   },
   {
    "id": "adjectives-adverbs-26",
@@ -327,7 +327,7 @@
    "answer": [
     "bad"
    ],
-   "why": "Після feel — прикметник: bad."
+   "why": "Після *feel* — прикметник: *I feel bad.* (*feel badly* трапляється в американській розмовній мові.)"
   }
  ]
 }

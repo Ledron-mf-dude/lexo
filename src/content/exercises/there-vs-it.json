@@ -11,7 +11,7 @@
     "That"
    ],
    "answer": 1,
-   "why": "Нова інформація про наявність — there."
+   "why": "Повідомляємо, що щось десь є (нова інформація), — *There is*: *There is a dog in the garden.*"
   },
   {
    "id": "there-vs-it-2",
@@ -24,7 +24,7 @@
     "He"
    ],
    "answer": 1,
-   "why": "Погода — it."
+   "why": "Погода — *It*: *It is raining.*"
   },
   {
    "id": "there-vs-it-3",
@@ -37,7 +37,7 @@
     "He"
    ],
    "answer": 1,
-   "why": "Підготовчий підмет — it."
+   "why": "*It* — підготовчий підмет, справжній підмет *to learn English* стоїть у кінці: *It is difficult to learn English.*"
   },
   {
    "id": "there-vs-it-4",
@@ -50,7 +50,7 @@
     "That"
    ],
    "answer": 1,
-   "why": "Тривалість — it takes."
+   "why": "Тривалість — *It takes* + час + *to*-інфінітив."
   },
   {
    "id": "there-vs-it-5",
@@ -63,7 +63,7 @@
     "He"
    ],
    "answer": 1,
-   "why": "Про вже названу річ — it."
+   "why": "Про вже згадану річ (*a car*) — *It*: *It is red.* *They* — множина, *There* не замінює іменник."
   },
   {
    "id": "there-vs-it-6",
@@ -76,7 +76,7 @@
     "That"
    ],
    "answer": 1,
-   "why": "There is nothing…"
+   "why": "Повідомляємо, що чогось немає, — *There is nothing to do here.*"
   },
   {
    "id": "there-vs-it-7",
@@ -89,7 +89,7 @@
     "What"
    ],
    "answer": 1,
-   "why": "It is + прикметник + to-інфінітив."
+   "why": "*It is* + прикметник + *to*-інфінітив: *It is important to sleep well.*"
   },
   {
    "id": "there-vs-it-8",
@@ -102,7 +102,7 @@
     "This"
    ],
    "answer": 1,
-   "why": "there are + множина."
+   "why": "Наявність кількох речей — *There are three problems.*"
   },
   {
    "id": "there-vs-it-9",
@@ -115,7 +115,7 @@
     "This"
    ],
    "answer": 1,
-   "why": "Відстань — it."
+   "why": "Відстань — *It*: *It is five miles to town.*"
   },
   {
    "id": "there-vs-it-10",
@@ -124,7 +124,7 @@
    "answer": [
     "It"
    ],
-   "why": "Температура, погода — it."
+   "why": "Температура в приміщенні, як і погода, — *It*: *It is too hot in here.*"
   },
   {
    "id": "there-vs-it-11",
@@ -133,7 +133,7 @@
    "answer": [
     "There"
    ],
-   "why": "Наявність — there are."
+   "why": "Наявність багатьох речей — *There are lots of things to see.*"
   },
   {
    "id": "there-vs-it-12",
@@ -142,7 +142,7 @@
    "answer": [
     "It"
    ],
-   "why": "It was nice to… — підготовчий підмет."
+   "why": "*It was nice to meet you* — *it* замінює *to meet you*."
   },
   {
    "id": "there-vs-it-13",
@@ -151,7 +151,7 @@
    "answer": [
     "It"
    ],
-   "why": "It costs… — підготовчий підмет."
+   "why": "*It costs a lot to live in London* — *it* замінює *to live in London*."
   },
   {
    "id": "there-vs-it-14",
@@ -160,7 +160,7 @@
    "answer": [
     "There"
    ],
-   "why": "There is no need to…"
+   "why": "*There is no need to…* — сталий вираз «немає потреби»."
   },
   {
    "id": "there-vs-it-15",
@@ -173,7 +173,7 @@
     "That"
    ],
    "answer": 0,
-   "why": "It seems that…"
+   "why": "*It seems that…* — «здається, що…»: *it* — формальний підмет."
   },
   {
    "id": "there-vs-it-16",
@@ -186,7 +186,7 @@
     "This"
    ],
    "answer": 0,
-   "why": "Нова інформація — there."
+   "why": "Нова інформація про те, що хтось є біля дверей, — *There is a man at the door.*"
   },
   {
    "id": "there-vs-it-17",
@@ -199,7 +199,7 @@
     "That it"
    ],
    "answer": 0,
-   "why": "Про вже згадане — it."
+   "why": "Про вже згадану пісню — *It is so beautiful.*"
   },
   {
    "id": "there-vs-it-18",
@@ -212,7 +212,7 @@
     "That"
    ],
    "answer": 0,
-   "why": "Дні, дати — it."
+   "why": "Дні тижня й дати — *It*: *It is Monday today.*"
   },
   {
    "id": "there-vs-it-19",
@@ -228,7 +228,7 @@
    "answer": [
     "It is important to drink water"
    ],
-   "why": "It is + adj + to-інфінітив.",
+   "why": "*It is important to drink water* — *it* замінює *to drink water*.",
    "hint": "Важливо пити воду."
   },
   {
@@ -246,7 +246,7 @@
    "answer": [
     "There is a problem with my phone"
    ],
-   "why": "there is — нова інформація.",
+   "why": "Повідомляємо про проблему вперше — *There is a problem with my phone.*",
    "hint": "З моїм телефоном проблема."
   },
   {
@@ -264,7 +264,7 @@
    "answer": [
     "It takes an hour to get there"
    ],
-   "why": "It takes + час.",
+   "why": "Тривалість — *It takes an hour to get there.*",
    "hint": "Туди їхати годину."
   },
   {
@@ -278,7 +278,7 @@
     "Is"
    ],
    "answer": 1,
-   "why": "Відстань — it."
+   "why": "Відстань — *It's about two kilometres to the beach.* *There is* тут не вживаємо."
   },
   {
    "id": "there-vs-it-23",
@@ -291,7 +291,7 @@
     "Is"
    ],
    "answer": 1,
-   "why": "Нова інформація, що щось є — there."
+   "why": "Повідомляємо, що щось є, — *There's a new café near my house.*"
   },
   {
    "id": "there-vs-it-24",
@@ -302,7 +302,7 @@
     "It is",
     "There's"
    ],
-   "why": "It's no use + -ing."
+   "why": "*It's no use* + *-ing* — «марно…»: *It's no use arguing with him.* У розмові кажуть і *There's no use…*, тому приймаємо обидва."
   }
  ]
 }

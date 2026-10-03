@@ -11,7 +11,7 @@
     "Tom music likes."
    ],
    "answer": 1,
-   "why": "S + V + O."
+   "why": "Базовий порядок: підмет + дієслово + додаток: *Tom likes music.* Англійська, на відміну від української, майже не дозволяє переставляти ці частини."
   },
   {
    "id": "word-order-2",
@@ -24,7 +24,7 @@
     "Safely we at the hotel arrived yesterday."
    ],
    "answer": 0,
-   "why": "Спосіб → місце → час."
+   "why": "Обставини йдуть у порядку: спосіб (як?) → місце (де?) → час (коли?): *arrived safely at the hotel yesterday*."
   },
   {
    "id": "word-order-3",
@@ -37,7 +37,7 @@
     "I it like very much."
    ],
    "answer": 1,
-   "why": "very much — після додатка."
+   "why": "*very much* стоїть після додатка, не між дієсловом і додатком: *I like it very much.* *I very like it* — калька."
   },
   {
    "id": "word-order-4",
@@ -50,7 +50,7 @@
     "You where are going?"
    ],
    "answer": 1,
-   "why": "Wh + допоміжне + підмет + V."
+   "why": "Питання: питальне слово + допоміжне + підмет + дієслово: *Where are you going?*"
   },
   {
    "id": "word-order-5",
@@ -63,7 +63,7 @@
     "plays not"
    ],
    "answer": 0,
-   "why": "doesn’t + V."
+   "why": "Заперечення в Present Simple: *doesn't* + дієслово без *-s*: *She doesn't play tennis.*"
   },
   {
    "id": "word-order-6",
@@ -76,7 +76,7 @@
     "Gave she me a book."
    ],
    "answer": 0,
-   "why": "gave + що + to + кому."
+   "why": "*gave* + що + *to* + кому: *She gave a book to me.* (Або *She gave me a book.*)"
   },
   {
    "id": "word-order-7",
@@ -89,7 +89,7 @@
     "a car is red"
    ],
    "answer": 1,
-   "why": "Прикметник перед іменником."
+   "why": "Прикметник стоїть перед іменником: *a red car*."
   },
   {
    "id": "word-order-8",
@@ -104,7 +104,7 @@
    "answer": [
     "I always wake up early"
    ],
-   "why": "always — перед основним дієсловом."
+   "why": "Прислівник частоти — перед основним дієсловом: *I always wake up early.*"
   },
   {
    "id": "word-order-9",
@@ -113,7 +113,7 @@
    "answer": [
     "often plays"
    ],
-   "why": "Частота — перед основним дієсловом.",
+   "why": "Прислівник частоти — перед основним дієсловом: *She often plays tennis.*",
    "hint": "Поставте слова в правильному порядку"
   },
   {
@@ -123,7 +123,7 @@
    "answer": [
     "a new red car"
    ],
-   "why": "Прикметники перед іменником: вік → колір.",
+   "why": "Прикметники перед іменником, порядок: вік → колір: *a new red car*.",
    "hint": "Поставте слова в правильному порядку"
   },
   {
@@ -135,7 +135,7 @@
     "Would",
     "Did"
    ],
-   "why": "Питання: Do + підмет + V."
+   "why": "Питання з Present Simple починається з *Do*: *Do you like coffee?* Підходять і *Would* (пропозиція) та *Did* (минуле)."
   },
   {
    "id": "word-order-12",
@@ -144,7 +144,7 @@
    "answer": [
     "English well"
    ],
-   "why": "Прислівник — після додатка.",
+   "why": "Дієслово й додаток не розриваємо: *speaks English well*. *speaks well English* — помилка.",
    "hint": "Поставте слова в правильному порядку"
   },
   {
@@ -158,7 +158,7 @@
     "We in London visited our friends last summer."
    ],
    "answer": 0,
-   "why": "S + V + O + місце + час."
+   "why": "Підмет + дієслово + додаток + місце + час: *We visited our friends in London last summer.*"
   },
   {
    "id": "word-order-14",
@@ -171,7 +171,7 @@
     "I don't very much like film this."
    ],
    "answer": 0,
-   "why": "very much — після додатка."
+   "why": "*very much* — після додатка: *I don't like this film very much.*"
   },
   {
    "id": "word-order-15",
@@ -184,7 +184,7 @@
     "Where your brother does work?"
    ],
    "answer": 0,
-   "why": "Wh + does + підмет + V."
+   "why": "Питання: *Where* + *does* + підмет + дієслово: *Where does your brother work?*"
   },
   {
    "id": "word-order-16",
@@ -197,7 +197,7 @@
     "She is late never."
    ],
    "answer": 0,
-   "why": "never — після be."
+   "why": "Прислівник частоти стоїть після *to be*: *She is never late.*"
   },
   {
    "id": "word-order-17",
@@ -216,7 +216,7 @@
     "In the morning I usually drink coffee",
     "Usually I drink coffee in the morning"
    ],
-   "why": "Частота — перед дієсловом; час — у кінці.",
+   "why": "Прислівник частоти — перед основним дієсловом; обставина часу — у кінці або на початку.",
    "hint": "Зазвичай я п'ю каву зранку."
   },
   {
@@ -234,7 +234,7 @@
     "She sent me a message yesterday",
     "Yesterday she sent me a message"
    ],
-   "why": "S + V + кому + що + час.",
+   "why": "Підмет + дієслово + кому + що + час: *She sent me a message yesterday.* Час можна винести на початок.",
    "hint": "Учора вона надіслала мені повідомлення."
   },
   {
@@ -252,7 +252,7 @@
    "answer": [
     "Do you often go to the cinema"
    ],
-   "why": "Do + підмет + частота + V.",
+   "why": "У питанні прислівник частоти стоїть після підмета: *Do you often go…?*",
    "hint": "Ти часто ходиш у кіно?"
   },
   {
@@ -270,7 +270,7 @@
     "They arrived at the station late",
     "They arrived late at the station"
    ],
-   "why": "Місце → час.",
+   "why": "Зазвичай місце, потім час: *They arrived at the station late.* *arrived late at the station* теж природно.",
    "hint": "Вони прибули на вокзал пізно."
   },
   {
@@ -284,7 +284,7 @@
     "I speak German also too."
    ],
    "answer": 1,
-   "why": "also — перед основним дієсловом."
+   "why": "*also* стоїть перед основним дієсловом: *I also speak German.*"
   },
   {
    "id": "word-order-22",
@@ -300,7 +300,7 @@
    "answer": [
     "Do you know where she lives"
    ],
-   "why": "Непряме питання — прямий порядок слів.",
+   "why": "У непрямому питанні після *Do you know* — прямий порядок слів: *where she lives*, а не *where does she live*.",
    "hint": "Ти знаєш, де вона живе?"
   },
   {
@@ -317,7 +317,7 @@
    "answer": [
     "He says he is too busy"
    ],
-   "why": "Підмет обов'язковий.",
+   "why": "В англійській підмет обов'язковий: *He says he is busy.* Без *he* речення неповне.",
    "hint": "Він каже, що надто зайнятий."
   }
  ]

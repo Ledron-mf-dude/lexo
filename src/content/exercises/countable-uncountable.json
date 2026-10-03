@@ -11,7 +11,7 @@
     "a few"
    ],
    "answer": 1,
-   "why": "advice — нелічильне: some advice."
+   "why": "*advice* — нелічильне, тому без *a / an* і без множини. Кажемо *some advice*. *many* і *a few* — лише для лічильних у множині."
   },
   {
    "id": "countable-uncountable-2",
@@ -24,7 +24,7 @@
     "few"
    ],
    "answer": 1,
-   "why": "money — нелічильне: How much."
+   "why": "*money* — нелічильне (гроші як маса), тому *How much*. *How many* можна про купюри: *How many coins?*"
   },
   {
    "id": "countable-uncountable-3",
@@ -37,7 +37,7 @@
     "idea"
    ],
    "answer": 1,
-   "why": "information — нелічильне."
+   "why": "*information* — нелічильне: не буває *an information* чи *informations*. Одиниця — *a piece of information*."
   },
   {
    "id": "countable-uncountable-4",
@@ -47,7 +47,7 @@
     "piece",
     "bit"
    ],
-   "why": "a piece of advice."
+   "why": "Одну пораду називаємо *a piece of advice* (або розмовно *a bit of advice*), бо *advice* нелічильне."
   },
   {
    "id": "countable-uncountable-5",
@@ -60,7 +60,7 @@
     "A news is bad."
    ],
    "answer": 1,
-   "why": "news — форма множини, але значення однини."
+   "why": "*news* закінчується на *-s*, але це нелічильне слово в однині: *The news is bad.*"
   },
   {
    "id": "countable-uncountable-6",
@@ -73,7 +73,7 @@
     "many"
    ],
    "answer": 1,
-   "why": "У запереченні — any."
+   "why": "У запереченні — *any*: *There isn't any milk.* *some* вживаємо у ствердженнях і пропозиціях."
   },
   {
    "id": "countable-uncountable-7",
@@ -86,7 +86,7 @@
     "She gave me many advices."
    ],
    "answer": 1,
-   "why": "advice — нелічильне: без a і без -s."
+   "why": "*advice* — нелічильне: без *a* і без *-s*: *She gave me good advice.*"
   },
   {
    "id": "countable-uncountable-8",
@@ -99,7 +99,7 @@
     "little"
    ],
    "answer": 1,
-   "why": "books — лічильне: How many."
+   "why": "*books* — лічильне у множині, тому *How many*. *much / little* — для нелічильних."
   },
   {
    "id": "countable-uncountable-9",
@@ -112,7 +112,7 @@
     "bread"
    ],
    "answer": 1,
-   "why": "Нелічильне рахуємо через одиницю: two loaves of bread."
+   "why": "*bread* нелічильне, тому рахуємо буханцями: *two loaves of bread*. *loaf* — однина, *loaves* — множина."
   },
   {
    "id": "countable-uncountable-10",
@@ -125,7 +125,7 @@
     "These"
    ],
    "answer": 0,
-   "why": "furniture — нелічильне: the furniture."
+   "why": "*furniture* — нелічильне, тому не може бути *A furniture* чи *These furniture*. Про конкретні меблі цієї кімнати — *The furniture*."
   },
   {
    "id": "countable-uncountable-11",
@@ -134,7 +134,7 @@
    "answer": [
     "much"
    ],
-   "why": "sugar — нелічильне: How much."
+   "why": "*sugar* — нелічильне, тому *How much sugar…?*"
   },
   {
    "id": "countable-uncountable-12",
@@ -143,7 +143,7 @@
    "answer": [
     "many"
    ],
-   "why": "cars — лічильне у множині: many."
+   "why": "*cars* — лічильне у множині, тому *too many*. *too much* — для нелічильних (*too much traffic*)."
   },
   {
    "id": "countable-uncountable-13",
@@ -153,7 +153,7 @@
     "bottle",
     "carton"
    ],
-   "why": "Нелічильне рахуємо через тару: a bottle of milk."
+   "why": "Рідину рахуємо через тару: *a bottle of milk* (пляшка) або *a carton of milk* (пакет)."
   },
   {
    "id": "countable-uncountable-14",
@@ -162,7 +162,7 @@
    "answer": [
     "information"
    ],
-   "why": "information — нелічильне, без -s."
+   "why": "*information* — нелічильне, тому без *-s* навіть після *some*: *some useful information*."
   },
   {
    "id": "countable-uncountable-15",
@@ -172,7 +172,7 @@
     "pieces",
     "items"
    ],
-   "why": "luggage — нелічильне: pieces of luggage."
+   "why": "*luggage* — нелічильне, тому валізи рахуємо як *pieces of luggage* (або *items of luggage*)."
   },
   {
    "id": "countable-uncountable-16",
@@ -185,7 +185,7 @@
     "much"
    ],
    "answer": 0,
-   "why": "glass (склянка) — лічильне: a glass."
+   "why": "*glass* у значенні «склянка» — лічильне, тому *a glass of water*."
   },
   {
    "id": "countable-uncountable-17",
@@ -198,7 +198,7 @@
     "the glasses"
    ],
    "answer": 0,
-   "why": "glass (скло) — нелічильне."
+   "why": "*glass* у значенні «скло» (матеріал) — нелічильне, без артикля: *made of glass*. *glasses* — склянки або окуляри."
   },
   {
    "id": "countable-uncountable-18",
@@ -211,7 +211,7 @@
     "few"
    ],
    "answer": 0,
-   "why": "help — нелічильне: some help."
+   "why": "*help* — нелічильне, тому *some help*, а не *a help* чи *many help*."
   },
   {
    "id": "countable-uncountable-19",
@@ -224,7 +224,7 @@
     "few"
    ],
    "answer": 0,
-   "why": "homework — нелічильне: much."
+   "why": "*homework* — нелічильне, у запереченні — *much*: *We haven't got much homework.* *homeworks* не існує."
   },
   {
    "id": "countable-uncountable-20",
@@ -237,7 +237,7 @@
     "I have a work."
    ],
    "answer": 0,
-   "why": "work (робота загалом) — нелічильне."
+   "why": "*work* у значенні «робота, справи» — нелічильне: *a lot of work*. *works* — це «твори» (*the works of Shevchenko*) або «завод»."
   },
   {
    "id": "countable-uncountable-21",
@@ -254,7 +254,7 @@
     "Can I have some water please",
     "Can I have some water, please"
    ],
-   "why": "some + нелічильне.",
+   "why": "*some* з нелічильним *water* у проханні: *Can I have some water, please?*",
    "hint": "Можна мені води, будь ласка?"
   },
   {
@@ -272,7 +272,7 @@
    "answer": [
     "She gave me a piece of advice"
    ],
-   "why": "a piece of advice.",
+   "why": "Одна порада — *a piece of advice*, бо *advice* нелічильне.",
    "hint": "Вона дала мені пораду."
   },
   {
@@ -288,7 +288,7 @@
    "answer": [
     "We don't have much time"
    ],
-   "why": "much + нелічильне в запереченні.",
+   "why": "*time* — нелічильне, у запереченні з ним *much*: *We don't have much time.*",
    "hint": "У нас небагато часу."
   },
   {
@@ -302,7 +302,7 @@
     "the hairs"
    ],
    "answer": 1,
-   "why": "Волосся загалом — нелічильне hair."
+   "why": "Волосся на голові загалом — нелічильне *hair*. *hairs* — окремі волосини (*There are two hairs in my soup*)."
   },
   {
    "id": "countable-uncountable-25",
@@ -315,7 +315,7 @@
     "a time"
    ],
    "answer": 1,
-   "why": "time = раз — лічильне: three times."
+   "why": "*time* у значенні «раз» лічильне: *three times*. «Час» (*time*) — нелічильне."
   },
   {
    "id": "countable-uncountable-26",
@@ -328,7 +328,7 @@
     "coffee cups of"
    ],
    "answer": 1,
-   "why": "a coffee — чашка кави, тому two coffees."
+   "why": "У кафе *a coffee* = чашка кави, тому дві — *two coffees*. Повна форма — *two cups of coffee*."
   },
   {
    "id": "countable-uncountable-27",
@@ -341,7 +341,7 @@
     "the rooms"
    ],
    "answer": 1,
-   "why": "room = місце, простір — нелічильне."
+   "why": "*room* у значенні «місце, простір» — нелічильне, без *a*: *Is there room for one more person?* *a room* — кімната."
   },
   {
    "id": "countable-uncountable-28",
@@ -350,7 +350,7 @@
    "answer": [
     "experience"
    ],
-   "why": "Досвід-знання — нелічильне, без -s."
+   "why": "*experience* у значенні «досвід, знання» — нелічильне: *a lot of experience*. *experiences* — окремі події, «враження»."
   },
   {
    "id": "countable-uncountable-29",
@@ -359,7 +359,7 @@
    "answer": [
     "furniture"
    ],
-   "why": "furniture — нелічильне, без -s."
+   "why": "*furniture* — нелічильне: *some new furniture*, без *-s*."
   }
  ]
 }

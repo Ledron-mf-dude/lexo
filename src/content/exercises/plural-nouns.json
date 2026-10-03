@@ -7,7 +7,7 @@
    "answer": [
     "cities"
    ],
-   "why": "Приголосна + y → -ies."
+   "why": "Якщо слово закінчується на приголосну + *y*, *y* змінюється на *-ies*: *city → cities*. Після голосної *y* лишається: *day → days*."
   },
   {
    "id": "plural-nouns-2",
@@ -16,7 +16,7 @@
    "answer": [
     "knives"
    ],
-   "why": "-fe → -ves."
+   "why": "Багато слів на *-f / -fe* утворюють множину на *-ves*: *knife → knives, wife → wives, leaf → leaves*."
   },
   {
    "id": "plural-nouns-3",
@@ -25,7 +25,7 @@
    "answer": [
     "children"
    ],
-   "why": "Неправильна множина."
+   "why": "*child* має неправильну множину — *children*. Такі форми (як *man → men*) треба запам'ятати."
   },
   {
    "id": "plural-nouns-4",
@@ -38,7 +38,7 @@
     "boxen"
    ],
    "answer": 1,
-   "why": "Після -x додаємо -es."
+   "why": "Після *-s, -ss, -sh, -ch, -x* додаємо *-es*, бо інакше слово важко вимовити: *box → boxes, bus → buses*."
   },
   {
    "id": "plural-nouns-5",
@@ -51,7 +51,7 @@
     "manes"
    ],
    "answer": 1,
-   "why": "man → men."
+   "why": "*man* має неправильну множину зі зміною голосної: *men*. *mans* — помилка, *mens* — подвійна множина."
   },
   {
    "id": "plural-nouns-6",
@@ -64,7 +64,7 @@
     "tooth"
    ],
    "answer": 0,
-   "why": "sheep — однакова форма."
+   "why": "*sheep* однакове в однині й множині: *one sheep, ten sheep*. Так само *fish, deer*. *tooth → teeth*, а *cat, book* отримують *-s*."
   },
   {
    "id": "plural-nouns-7",
@@ -77,7 +77,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "trousers — лише множина."
+   "why": "*trousers* — слово, що існує лише в множині (як *jeans, glasses, scissors*), тому дієслово *are*."
   },
   {
    "id": "plural-nouns-8",
@@ -90,7 +90,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "news — значення однини."
+   "why": "*news* закінчується на *-s*, але означає одне повідомлення-масу й узгоджується як однина: *The news is good.*"
   },
   {
    "id": "plural-nouns-9",
@@ -99,7 +99,7 @@
    "answer": [
     "teeth"
    ],
-   "why": "tooth → teeth."
+   "why": "*tooth → teeth* — неправильна множина зі зміною голосної (як *foot → feet, goose → geese*)."
   },
   {
    "id": "plural-nouns-10",
@@ -112,7 +112,7 @@
     "babyies"
    ],
    "answer": 1,
-   "why": "Приголосна + y → -ies."
+   "why": "*baby*: приголосна *b* + *y* → *-ies*: *babies*. Голосна перед *y* (*boy*) — просто *-s*."
   },
   {
    "id": "plural-nouns-11",
@@ -121,7 +121,7 @@
    "answer": [
     "women"
    ],
-   "why": "Неправильна множина: woman → women."
+   "why": "*woman → women* — неправильна множина, як *man → men*. Зверніть увагу на вимову: /ˈwɪmɪn/."
   },
   {
    "id": "plural-nouns-12",
@@ -130,7 +130,7 @@
    "answer": [
     "potatoes"
    ],
-   "why": "Приголосна + o → -es: potatoes."
+   "why": "Деякі слова на приголосну + *o* отримують *-es*: *potato → potatoes, tomato → tomatoes, hero → heroes*."
   },
   {
    "id": "plural-nouns-13",
@@ -139,7 +139,7 @@
    "answer": [
     "mice"
    ],
-   "why": "Неправильна множина: mice."
+   "why": "*mouse → mice* — неправильна множина. Про комп'ютерну мишку кажуть і *mice*, і *mouses*, але про тварин — лише *mice*."
   },
   {
    "id": "plural-nouns-14",
@@ -148,7 +148,7 @@
    "answer": [
     "days"
    ],
-   "why": "Голосна + y → -s."
+   "why": "Голосна + *y* — просто *-s*: *day → days, key → keys, boy → boys*. Заміна на *-ies* — лише після приголосної."
   },
   {
    "id": "plural-nouns-15",
@@ -157,7 +157,7 @@
    "answer": [
     "feet"
    ],
-   "why": "Неправильна множина: feet."
+   "why": "*foot → feet* — неправильна множина зі зміною голосної."
   },
   {
    "id": "plural-nouns-16",
@@ -170,7 +170,7 @@
     "photo"
    ],
    "answer": 0,
-   "why": "Виняток: photo → photos."
+   "why": "*photo* — виняток серед слів на *-o*: просто *-s*. Так само *piano → pianos, radio → radios*."
   },
   {
    "id": "plural-nouns-17",
@@ -183,7 +183,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "police — завжди множина."
+   "why": "*police* — збірне слово, яке завжди узгоджується як множина: *The police are looking for him.*"
   },
   {
    "id": "plural-nouns-18",
@@ -196,7 +196,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "physics — однина."
+   "why": "Назви наук на *-ics* (*physics, maths, economics*) — однина: *Physics is my favourite subject.*"
   },
   {
    "id": "plural-nouns-19",
@@ -209,7 +209,7 @@
     "couple's"
    ],
    "answer": 0,
-   "why": "glasses — лише множина: a pair of glasses."
+   "why": "*glasses* (окуляри) існують лише в множині, тому одну річ рахуємо як *a pair of glasses*."
   },
   {
    "id": "plural-nouns-20",
@@ -226,7 +226,7 @@
    "answer": [
     "There are three men in the room"
    ],
-   "why": "man → men.",
+   "why": "*three* — множина, тому *men*: *There are three men in the room.*",
    "hint": "У кімнаті троє чоловіків."
   },
   {
@@ -242,7 +242,7 @@
    "answer": [
     "The children are playing outside"
    ],
-   "why": "children + are.",
+   "why": "*children* — множина (від *child*), тому *are*: *The children are playing.*",
    "hint": "Діти граються надворі."
   },
   {
@@ -258,7 +258,7 @@
    "answer": [
     "My jeans are too tight"
    ],
-   "why": "jeans — множина.",
+   "why": "*jeans* — лише множина, тому *are*: *My jeans are too tight.*",
    "hint": "Мої джинси затісні."
   },
   {
@@ -272,7 +272,7 @@
     "hundred of"
    ],
    "answer": 1,
-   "why": "Після числа — hundred без -s."
+   "why": "Після конкретного числа *hundred, thousand, million* не мають *-s* і не мають *of*: *two hundred people*. *hundreds of people* — «сотні людей», без числа."
   },
   {
    "id": "plural-nouns-24",
@@ -285,7 +285,7 @@
     "roof"
    ],
    "answer": 1,
-   "why": "Виняток: roof → roofs."
+   "why": "*roof* — виняток серед слів на *-f*: просто *-s*: *roofs*. Форму *rooves* іноді можна почути, але норма — *roofs*."
   },
   {
    "id": "plural-nouns-25",
@@ -298,7 +298,7 @@
     "a sheep"
    ],
    "answer": 1,
-   "why": "sheep — множина без змін."
+   "why": "*sheep* не змінюється в множині: *some sheep*. *sheeps* — помилка."
   },
   {
    "id": "plural-nouns-26",
@@ -307,7 +307,7 @@
    "answer": [
     "crises"
    ],
-   "why": "-is → -es: crisis → crises."
+   "why": "Слова грецького походження на *-is* мають множину на *-es*: *crisis → crises, analysis → analyses*."
   },
   {
    "id": "plural-nouns-27",
@@ -316,7 +316,7 @@
    "answer": [
     "Thousands"
    ],
-   "why": "Без числа, «дуже багато» — thousands of."
+   "why": "Без конкретного числа «тисячі людей» — *thousands of people* (з *-s* і *of*). З числом — *three thousand people*."
   }
  ]
 }

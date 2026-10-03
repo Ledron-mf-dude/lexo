@@ -11,7 +11,7 @@
     "Am"
    ],
    "answer": 1,
-   "why": "Shall I…? — пропозиція допомогти."
+   "why": "Пропонуючи допомогу, кажемо *Shall I…?*: *Shall I open the window?* *Will I…?* так не вживають — це питання про майбутнє, а не пропозиція."
   },
   {
    "id": "future-simple-shall-will-2",
@@ -24,7 +24,7 @@
     "Do"
    ],
    "answer": 1,
-   "why": "Will you…? — прохання."
+   "why": "Прохання до іншої людини — *Will you…?*: *Will you help me?* *Shall you* не кажуть."
   },
   {
    "id": "future-simple-shall-will-3",
@@ -37,7 +37,7 @@
     "Are"
    ],
    "answer": 0,
-   "why": "Shall we…? — пропозиція зробити щось разом."
+   "why": "Пропозиція зробити щось разом — *Shall we…?*: *Shall we dance?*"
   },
   {
    "id": "future-simple-shall-will-4",
@@ -50,7 +50,7 @@
     "should"
    ],
    "answer": 1,
-   "why": "Сьогодні для звичайного майбутнього вживаємо will з усіма займенниками."
+   "why": "У сучасній англійській для простого майбутнього *will* вживають з усіма особами. *shall* лишився в пропозиціях (*Shall I…? Shall we…?*)."
   },
   {
    "id": "future-simple-shall-will-5",
@@ -62,7 +62,7 @@
     "am seeing",
     "am going to see"
    ],
-   "why": "Просте майбутнє: will + V."
+   "why": "Просте майбутнє — *will see*. Якщо зустріч домовлена, природно й *I'm seeing him tomorrow* або *I'm going to see him*."
   },
   {
    "id": "future-simple-shall-will-6",
@@ -75,7 +75,7 @@
     "Am"
    ],
    "answer": 1,
-   "why": "Shall I…? — пропозиція."
+   "why": "Пропозиція — *Shall I bring you a cup of tea?*"
   },
   {
    "id": "future-simple-shall-will-7",
@@ -88,7 +88,7 @@
     "I carry your bag."
    ],
    "answer": 0,
-   "why": "Shall I + V — пропозиція допомоги."
+   "why": "*Shall I carry your bag?* — пропоную допомогу. *Will you carry my bag?* — це прохання."
   },
   {
    "id": "future-simple-shall-will-8",
@@ -104,7 +104,7 @@
    "answer": [
     "Shall we go to the cinema?"
    ],
-   "why": "Shall we + V — пропозиція."
+   "why": "*Shall we…?* — пропозиція: *Shall we go to the cinema?*"
   },
   {
    "id": "future-simple-shall-will-9",
@@ -114,7 +114,7 @@
     "won't tell",
     "will not tell"
    ],
-   "why": "Обіцянка — won't + V."
+   "why": "Обіцянка — *won't* (*will not*) + дієслово: *I won't tell anybody.*"
   },
   {
    "id": "future-simple-shall-will-10",
@@ -123,7 +123,7 @@
    "answer": [
     "Shall"
    ],
-   "why": "Shall I…? — пропоную допомогу.",
+   "why": "Пропозиція допомоги — *Shall I help you…?*",
    "hint": "Пропозиція допомоги (shall / will)"
   },
   {
@@ -136,7 +136,7 @@
     "is going to snow",
     "'s going to snow"
    ],
-   "why": "Прогноз-думка — will."
+   "why": "Прогноз-думка з *I think* — *will snow*. *is going to snow* теж правильно."
   },
   {
    "id": "future-simple-shall-will-12",
@@ -146,7 +146,7 @@
     "won't",
     "will not"
    ],
-   "why": "won't — «не хоче» (про речі).",
+   "why": "*won't* про речі — «не хоче»: *The car won't start.*",
    "hint": "Відмова речі працювати"
   },
   {
@@ -156,7 +156,7 @@
    "answer": [
     "shall"
    ],
-   "why": "What shall we…? — що робитимемо?",
+   "why": "*What shall we do?* — пропозиція вирішити разом.",
    "hint": "Пропозиція (shall / will)"
   },
   {
@@ -165,12 +165,12 @@
    "q": "\"The phone is ringing.\" — \"I ___ get it.\"",
    "options": [
     "'ll",
-    "am going to",
+    "am going",
     "shall to",
     "will to"
    ],
    "answer": 0,
-   "why": "Рішення в момент мовлення — will ('ll)."
+   "why": "Рішення в момент мовлення — *I'll get it.*"
   },
   {
    "id": "future-simple-shall-will-15",
@@ -183,7 +183,7 @@
     "wills"
    ],
    "answer": 0,
-   "why": "Прогноз — will."
+   "why": "Прогноз-упевненість — *will*: *I'm sure you will pass.*"
   },
   {
    "id": "future-simple-shall-will-16",
@@ -196,7 +196,7 @@
     "be"
    ],
    "answer": 0,
-   "why": "Факт про майбутнє — will be."
+   "why": "Факт про майбутнє (вік) — *will be*: *She will be 30 next month.*"
   },
   {
    "id": "future-simple-shall-will-17",
@@ -209,7 +209,7 @@
     "Are"
    ],
    "answer": 0,
-   "why": "Прохання/пропозиція — Will you…?"
+   "why": "Прохання / пропозиція — *Will you marry me?*"
   },
   {
    "id": "future-simple-shall-will-18",
@@ -224,7 +224,7 @@
    "answer": [
     "I will call you tomorrow"
    ],
-   "why": "will + V.",
+   "why": "*will* + дієслово: *I will call you tomorrow.*",
    "hint": "Я зателефоную тобі завтра."
   },
   {
@@ -240,7 +240,7 @@
    "answer": [
     "Shall I open the window"
    ],
-   "why": "Shall I…? — пропозиція.",
+   "why": "Пропозиція — *Shall I open the window?*",
    "hint": "Відчинити вікно?"
   },
   {
@@ -255,7 +255,7 @@
    "answer": [
     "She won't be late"
    ],
-   "why": "won't + V.",
+   "why": "*won't* + *be*: *She won't be late.*",
    "hint": "Вона не запізниться."
   },
   {
@@ -269,7 +269,7 @@
     "won't think"
    ],
    "answer": 0,
-   "why": "Заперечення переносимо на think."
+   "why": "Англійською заперечення ставлять на *think*: *I don't think she'll like it* (а не *I think she won't like it*)."
   },
   {
    "id": "future-simple-shall-will-22",
@@ -282,7 +282,7 @@
     "Are"
    ],
    "answer": 1,
-   "why": "Пропозиція — Shall we…?"
+   "why": "Пропозиція — *Shall we take a taxi?*"
   },
   {
    "id": "future-simple-shall-will-23",
@@ -291,7 +291,7 @@
    "answer": [
     "able"
    ],
-   "why": "will be able to."
+   "why": "Майбутнє від *can* — *will be able to*."
   }
  ]
 }

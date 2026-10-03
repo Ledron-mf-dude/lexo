@@ -11,7 +11,7 @@
     "Will"
    ],
    "answer": 0,
-   "why": "Would you like…? — пропозиція."
+   "why": "Пропозиція — *Would you like…?*: *Would you like a coffee?* *Do you like coffee?* питає про смак загалом, а не пропонує."
   },
   {
    "id": "would-like-2",
@@ -24,7 +24,7 @@
     "will"
    ],
    "answer": 0,
-   "why": "I would like to + V."
+   "why": "Ввічливе бажання — *I would like to…*: *I would like to book a table.* (*I'd like…*)"
   },
   {
    "id": "would-like-3",
@@ -37,7 +37,7 @@
     "Yes, I would to."
    ],
    "answer": 0,
-   "why": "Yes, please. — природна відповідь."
+   "why": "На пропозицію природно відповісти *Yes, please.* *Yes, I like* — неповна відповідь, *Yes, I would to* — помилка."
   },
   {
    "id": "would-like-4",
@@ -50,7 +50,7 @@
     "Would you like to swim?"
    ],
    "answer": 0,
-   "why": "like — загальне вподобання."
+   "why": "*I like swimming* — загальне вподобання. *I'd like…* — бажання зараз чи в конкретній ситуації."
   },
   {
    "id": "would-like-5",
@@ -63,7 +63,7 @@
     "called"
    ],
    "answer": 1,
-   "why": "would like + to + V."
+   "why": "Після *would like* — *to* + дієслово: *I'd like to call a taxi.*"
   },
   {
    "id": "would-like-6",
@@ -76,7 +76,7 @@
     "Fish!"
    ],
    "answer": 1,
-   "why": "I’d like… — ввічливо."
+   "why": "*I'd like the fish, please* — ввічливе замовлення. *I want…* і наказ звучать різко."
   },
   {
    "id": "would-like-7",
@@ -89,7 +89,7 @@
     "—"
    ],
    "answer": 0,
-   "why": "would you like to + V."
+   "why": "*Would you like to* + дієслово — запрошення: *Would you like to come with us?*"
   },
   {
    "id": "would-like-8",
@@ -104,7 +104,7 @@
    "answer": [
     "Would you like some tea?"
    ],
-   "why": "Would you like + іменник."
+   "why": "Пропозиція: *Would you like* + іменник: *Would you like some tea?*"
   },
   {
    "id": "would-like-9",
@@ -113,7 +113,7 @@
    "answer": [
     "to order"
    ],
-   "why": "would like + to + V."
+   "why": "*would like* + *to* + дієслово: *I'd like to order a pizza.*"
   },
   {
    "id": "would-like-10",
@@ -124,7 +124,7 @@
     "any",
     "more"
    ],
-   "why": "some — у пропозиціях."
+   "why": "У пропозиціях — *some*: *Would you like some milk?* *any* і *more* (ще) теж природні."
   },
   {
    "id": "would-like-11",
@@ -134,7 +134,7 @@
     "love",
     "like"
    ],
-   "why": "I'd love to — із задоволенням."
+   "why": "*I'd love to!* — «із задоволенням!» *I'd like to!* теж можна, але звучить стриманіше."
   },
   {
    "id": "would-like-12",
@@ -143,7 +143,7 @@
    "answer": [
     "would"
    ],
-   "why": "What would you like…?"
+   "why": "*What would you like to drink?* — ввічливе питання про бажання."
   },
   {
    "id": "would-like-13",
@@ -153,7 +153,7 @@
     "wouldn't",
     "would not"
    ],
-   "why": "wouldn't like to + V."
+   "why": "Заперечення — *wouldn't like to* + дієслово: *I wouldn't like to be late.*"
   },
   {
    "id": "would-like-14",
@@ -166,7 +166,7 @@
     "not"
    ],
    "answer": 0,
-   "why": "No, thank you — ввічлива відмова."
+   "why": "Ввічлива відмова — *No, thank you.* *I wouldn't like* без продовження звучить грубо й неповно."
   },
   {
    "id": "would-like-15",
@@ -179,7 +179,7 @@
     "You like"
    ],
    "answer": 0,
-   "why": "Would you like…? — пропозиція."
+   "why": "Пропонуємо допомогу — *Would you like some help?*"
   },
   {
    "id": "would-like-16",
@@ -192,7 +192,7 @@
     "to meeting"
    ],
    "answer": 0,
-   "why": "would like + особа + to + V."
+   "why": "*would like* + особа + *to* + дієслово: *I'd like you to meet my colleague.*"
   },
   {
    "id": "would-like-17",
@@ -205,7 +205,7 @@
     "cooks"
    ],
    "answer": 0,
-   "why": "Загальне вподобання — like + -ing (або to V)."
+   "why": "Загальне вподобання — *like* + *-ing* (або *to* + дієслово): *Do you like cooking?*"
   },
   {
    "id": "would-like-18",
@@ -222,7 +222,7 @@
    "answer": [
     "I would like a glass of water"
    ],
-   "why": "would like + іменник.",
+   "why": "*would like* + іменник — ввічливе прохання: *I would like a glass of water.*",
    "hint": "Я б хотів склянку води."
   },
   {
@@ -238,7 +238,7 @@
    "answer": [
     "Would you like to dance"
    ],
-   "why": "Would you like to + V.",
+   "why": "Запрошення — *Would you like to dance?*",
    "hint": "Хочеш потанцювати?"
   },
   {
@@ -255,7 +255,7 @@
    "answer": [
     "What would you like to do"
    ],
-   "why": "What would you like to…?",
+   "why": "*What would you like to do?* — питання про бажання.",
    "hint": "Що б ти хотів робити?"
   },
   {
@@ -269,7 +269,7 @@
     "you coming"
    ],
    "answer": 1,
-   "why": "would like + особа + to."
+   "why": "*would like* + особа + *to* + дієслово: *I'd like you to come to my party.* *that you come* — калька з «щоб ти прийшов»."
   },
   {
    "id": "would-like-22",
@@ -282,7 +282,7 @@
     "take to"
    ],
    "answer": 1,
-   "why": "Замовлення — I'll have…"
+   "why": "Замовляючи їжу, кажемо *I'll have…* або *I'd like…*."
   },
   {
    "id": "would-like-23",
@@ -291,7 +291,7 @@
    "answer": [
     "to open"
    ],
-   "why": "would like + особа + to."
+   "why": "*Would you like me to…?* — пропозиція щось зробити: *Would you like me to open the window?*"
   }
  ]
 }

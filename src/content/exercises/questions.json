@@ -11,7 +11,7 @@
     "Where does you live?"
    ],
    "answer": 1,
-   "why": "Питальне слово + do + підмет + V."
+   "why": "Питання з дієсловом, яке не є *to be* чи модальним, будуємо з допоміжним *do*: питальне слово + *do* + підмет + дієслово: *Where do you live?* Без *do* (*Where you live?*) — українська інтонаційна модель, англійською так не можна."
   },
   {
    "id": "questions-2",
@@ -24,7 +24,7 @@
     "Has"
    ],
    "answer": 1,
-   "why": "she → Does."
+   "why": "*she* — 3-тя особа однини, тому допоміжне *Does*: *Does she work here?* *Do* — для I / you / we / they; *Is* потрібне лише з *-ing* або прикметником (*Is she working?*)."
   },
   {
    "id": "questions-3",
@@ -37,7 +37,7 @@
     "are"
    ],
    "answer": 1,
-   "why": "the film → does."
+   "why": "*the film* = it, 3-тя особа однини, тому *does*: *What time does the film start?* Після *does* дієслово без *-s*: *start*, не *starts*."
   },
   {
    "id": "questions-4",
@@ -50,7 +50,7 @@
     "not"
    ],
    "answer": 0,
-   "why": "Коротка відповідь: No, I don’t."
+   "why": "Коротка відповідь повторює допоміжне з питання. Питали *Do you…?* — відповідаємо *No, I don't.* *doesn't* — лише для he / she / it."
   },
   {
    "id": "questions-5",
@@ -63,7 +63,7 @@
     "How often"
    ],
    "answer": 1,
-   "why": "people — лічильне."
+   "why": "*people* — лічильний іменник у множині, тому *How many*. *How much* — для нелічильних (*How much water?*)."
   },
   {
    "id": "questions-6",
@@ -76,7 +76,7 @@
     "Who"
    ],
    "answer": 1,
-   "why": "When — коли."
+   "why": "Відповідь — дата (*On 5 May*), отже питаємо «коли?» — *When*. *What is your birthday?* не питає про час."
   },
   {
    "id": "questions-7",
@@ -89,7 +89,7 @@
     "Did you goed?"
    ],
    "answer": 1,
-   "why": "Після did — початкова форма."
+   "why": "Минулий час уже показує *did*, тому основне дієслово стоїть у початковій формі: *Did you go?* *Did you went?* — минуле позначено двічі."
   },
   {
    "id": "questions-8",
@@ -102,7 +102,7 @@
     "How far"
    ],
    "answer": 1,
-   "why": "How often — як часто."
+   "why": "Відповідь *Twice a week* — частота, тому *How often*. *How long* питає про тривалість (*How long do you train?* — *An hour*)."
   },
   {
    "id": "questions-9",
@@ -115,7 +115,7 @@
     "What"
    ],
    "answer": 1,
-   "why": "Whose — чий."
+   "why": "«Чия сумка?» — *Whose*: *Whose bag is this?* *Who* — «хто», *Which* — «яка з кількох»."
   },
   {
    "id": "questions-10",
@@ -130,7 +130,7 @@
    "answer": [
     "What are you doing now?"
    ],
-   "why": "Wh-слово + допоміжне + підмет + V-ing."
+   "why": "Питання в Present Continuous: питальне слово + *are* + підмет + *-ing*: *What are you doing now?*"
   },
   {
    "id": "questions-11",
@@ -139,7 +139,7 @@
    "answer": [
     "did"
    ],
-   "why": "Past Simple — did."
+   "why": "*last year* — минуле, тому допоміжне *did*: *Where did you go on holiday last year?*"
   },
   {
    "id": "questions-12",
@@ -148,7 +148,7 @@
    "answer": [
     "Where"
    ],
-   "why": "Where — куди."
+   "why": "Відповідь *To the shop* — напрямок, тому *Where*: *Where are you going?*"
   },
   {
    "id": "questions-13",
@@ -157,7 +157,7 @@
    "answer": [
     "How"
    ],
-   "why": "How long — скільки часу."
+   "why": "*How long* питає про тривалість: *How long does it take to get there?* — Скільки часу туди добиратися?"
   },
   {
    "id": "questions-14",
@@ -167,7 +167,7 @@
     "Which",
     "What"
    ],
-   "why": "Which — вибір з обмеженого набору."
+   "why": "Вибір із двох названих варіантів — *Which colour…?* *What colour* теж приймаємо: у розмові так кажуть часто, хоча *which* точніше передає вибір."
   },
   {
    "id": "questions-15",
@@ -176,7 +176,7 @@
    "answer": [
     "Have"
    ],
-   "why": "ever + Present Perfect: Have you…?"
+   "why": "*ever* («колись у житті») + Present Perfect: *Have you ever been to Spain?* Тут допоміжне — *have*, бо далі *been* (V3)."
   },
   {
    "id": "questions-16",
@@ -189,7 +189,7 @@
     "Which"
    ],
    "answer": 0,
-   "why": "What does he do? — професія."
+   "why": "*What does he do?* питає про професію, тому відповідь *He's a doctor*. *Who does…* питав би про людину, *How* — про спосіб."
   },
   {
    "id": "questions-17",
@@ -202,7 +202,7 @@
     "many"
    ],
    "answer": 0,
-   "why": "How far — як далеко."
+   "why": "Відстань — *How far*: *How far is it to the airport?* *How long* питало б про час у дорозі (*How long does it take?*)."
   },
   {
    "id": "questions-18",
@@ -215,7 +215,7 @@
     "Who"
    ],
    "answer": 0,
-   "why": "Why — чому."
+   "why": "Причину питаємо через *Why*: *Why are you so late?*"
   },
   {
    "id": "questions-19",
@@ -228,7 +228,7 @@
     "When"
    ],
    "answer": 0,
-   "why": "What time is it? — котра година."
+   "why": "«Котра година?» — сталий вираз *What time is it?* *Which time* так не вживають."
   },
   {
    "id": "questions-20",
@@ -242,7 +242,7 @@
    "answer": [
     "Where do you work"
    ],
-   "why": "Wh + do + підмет + V.",
+   "why": "Питання з Present Simple: *Where* + *do* + підмет + дієслово: *Where do you work?*",
    "hint": "Де ти працюєш?"
   },
   {
@@ -259,7 +259,7 @@
    "answer": [
     "How often do you go swimming"
    ],
-   "why": "How often.",
+   "why": "*How often* + *do* + підмет + дієслово: *How often do you go swimming?*",
    "hint": "Як часто ти ходиш плавати?"
   },
   {
@@ -275,7 +275,7 @@
    "answer": [
     "What did you do yesterday"
    ],
-   "why": "What + did + підмет + V.",
+   "why": "Минуле: *What* + *did* + підмет + дієслово в початковій формі: *What did you do yesterday?* Друге *do* — основне дієслово «робити».",
    "hint": "Що ти робив учора?"
   },
   {
@@ -289,7 +289,7 @@
     "Whose"
    ],
    "answer": 1,
-   "why": "Вибір із відомих варіантів — which."
+   "why": "Вибір із названих варіантів (*black or white*) — *Which colour…?* *Who* питає про людину, *Whose* — «чий»."
   },
   {
    "id": "questions-24",
@@ -302,7 +302,7 @@
     "as"
    ],
    "answer": 1,
-   "why": "What … like? — опис."
+   "why": "*What is it like?* — «який він?» (опис, враження). *like* тут прийменник «як / схожий на», тому без *-s*: *What's your new flat like?*"
   },
   {
    "id": "questions-25",
@@ -315,7 +315,7 @@
     "you do"
    ],
    "answer": 1,
-   "why": "How come — без інверсії."
+   "why": "Після *How come* («як так, що…») порядок слів — як у ствердженні: *How come you are here so early?* Інверсії (*are you*) немає."
   },
   {
    "id": "questions-26",
@@ -324,7 +324,7 @@
    "answer": [
     "Which"
    ],
-   "why": "Перед of — лише which."
+   "why": "Перед *of* («з цих телефонів») — лише *Which*: *Which of these phones is yours?* *What of…* так не кажуть."
   },
   {
    "id": "questions-27",
@@ -333,7 +333,7 @@
    "answer": [
     "like"
    ],
-   "why": "What does … look like? — зовнішність."
+   "why": "*What does she look like?* питає про зовнішність. *like* — прийменник, він обов'язковий і стоїть у кінці."
   }
  ]
 }

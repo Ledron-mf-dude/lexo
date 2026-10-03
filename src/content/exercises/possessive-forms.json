@@ -11,7 +11,7 @@
     "sister"
    ],
    "answer": 0,
-   "why": "Однина: + 's."
+   "why": "Одна сестра — однина, тому *'s*: *my sister's car*. *sisters'* означало б кількох сестер."
   },
   {
    "id": "possessive-forms-2",
@@ -24,7 +24,7 @@
     "childs'"
    ],
    "answer": 1,
-   "why": "Неправильна множина: children's."
+   "why": "*children* — неправильна множина без *-s*, тому присвійна форма — *'s*: *the children's toys*."
   },
   {
    "id": "possessive-forms-3",
@@ -37,7 +37,7 @@
     "parents"
    ],
    "answer": 1,
-   "why": "Множина на -s: тільки апостроф."
+   "why": "Двоє батьків — *parents*, множина на *-s*, тому лише апостроф: *my parents' house*. *parent's* означало б одного з батьків."
   },
   {
    "id": "possessive-forms-4",
@@ -50,7 +50,7 @@
     "Whom"
    ],
    "answer": 1,
-   "why": "Whose — чий."
+   "why": "«Чия?» — *Whose*: *Whose bag is this?* *Who's* = *who is*, звучить так само, але це інше слово."
   },
   {
    "id": "possessive-forms-5",
@@ -63,7 +63,7 @@
     "two hours"
    ],
    "answer": 1,
-   "why": "У складному прикметнику іменник в однині."
+   "why": "Іменник у складному прикметнику перед іменником стоїть в однині й з дефісом: *a two-hour walk*. Порівняйте: *The walk takes two hours.*"
   },
   {
    "id": "possessive-forms-6",
@@ -76,7 +76,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "Подвійна присвійність: a friend of mine."
+   "why": "*a friend of mine* — «один із моїх друзів». Після *of* у такій конструкції — присвійний займенник *mine*."
   },
   {
    "id": "possessive-forms-7",
@@ -89,7 +89,7 @@
     "doctors'"
    ],
    "answer": 1,
-   "why": "the doctor's — без іменника після 's."
+   "why": "*the doctor's* — скорочення від *the doctor's surgery*: місце називаємо присвійною формою без іменника."
   },
   {
    "id": "possessive-forms-8",
@@ -102,7 +102,7 @@
     "Anna's flat only"
    ],
    "answer": 0,
-   "why": "Спільне володіння — 's лише після останнього."
+   "why": "*'s* лише після останнього імені означає спільну власність: одна квартира на двох. *Tom's and Anna's flats* — у кожного своя."
   },
   {
    "id": "possessive-forms-9",
@@ -115,7 +115,7 @@
     "the tail dog's"
    ],
    "answer": 1,
-   "why": "Порядок: власник + 's + річ."
+   "why": "Порядок: власник + *'s* + річ: *the dog's tail*."
   },
   {
    "id": "possessive-forms-10",
@@ -125,7 +125,7 @@
     "James's",
     "James'"
    ],
-   "why": "Імена на -s: 's або '."
+   "why": "До імен на *-s* додаємо *'s* (*James's*) або лише апостроф (*James'*) — обидва варіанти правильні."
   },
   {
    "id": "possessive-forms-11",
@@ -134,7 +134,7 @@
    "answer": [
     "teachers'"
    ],
-   "why": "Множина на -s — лише апостроф."
+   "why": "Кілька вчителів — *teachers*, множина на *-s*, тому лише апостроф: *the teachers' room*."
   },
   {
    "id": "possessive-forms-12",
@@ -143,7 +143,7 @@
    "answer": [
     "Tom's"
    ],
-   "why": "Без іменника після 's: Tom's."
+   "why": "Замість *Tom's pen* без іменника — просто *Tom's*: *Is this pen yours or Tom's?*"
   },
   {
    "id": "possessive-forms-13",
@@ -152,7 +152,7 @@
    "answer": [
     "aunt's"
    ],
-   "why": "at my aunt's — у тітки вдома."
+   "why": "*at my aunt's* — «у тітки вдома»: слово *house* пропускаємо."
   },
   {
    "id": "possessive-forms-14",
@@ -161,7 +161,7 @@
    "answer": [
     "minutes'"
    ],
-   "why": "ten minutes' walk — присвійна форма з часом."
+   "why": "Присвійну форму вживаємо й з тривалістю: *ten minutes' walk* (десять хвилин пішки). Множина на *-s* — лише апостроф."
   },
   {
    "id": "possessive-forms-15",
@@ -174,7 +174,7 @@
     "today"
    ],
    "answer": 0,
-   "why": "today's — присвійна форма з часом."
+   "why": "*today's newspaper* — сьогоднішня газета: присвійна форма з часом (*yesterday's news, next week's meeting*)."
   },
   {
    "id": "possessive-forms-16",
@@ -187,7 +187,7 @@
     "ending's"
    ],
    "answer": 0,
-   "why": "Для речей — of: the end of the story."
+   "why": "Для частин неживих речей зазвичай вживаємо *of*: *the end of the story*. *the story's end* можливе, але не в цьому реченні."
   },
   {
    "id": "possessive-forms-17",
@@ -200,7 +200,7 @@
     "Tom's and Anna"
    ],
    "answer": 0,
-   "why": "Спільне — 's лише після останнього."
+   "why": "Спільна машина — *'s* лише після останнього імені: *Tom and Anna's car*."
   },
   {
    "id": "possessive-forms-18",
@@ -213,7 +213,7 @@
     "womens"
    ],
    "answer": 0,
-   "why": "Неправильна множина + 's."
+   "why": "*women* — неправильна множина без *-s*, тому *'s*: *the women's uniforms*. *woman's* — однієї жінки."
   },
   {
    "id": "possessive-forms-19",
@@ -228,7 +228,7 @@
    "answer": [
     "This is my brother's bike"
    ],
-   "why": "brother's — однина.",
+   "why": "Один брат — *brother's*: *This is my brother's bike.*",
    "hint": "Це велосипед мого брата."
   },
   {
@@ -243,7 +243,7 @@
    "answer": [
     "Whose phone is this"
    ],
-   "why": "Whose + іменник.",
+   "why": "*Whose* + іменник + *is this*: *Whose phone is this?*",
    "hint": "Чий це телефон?"
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "She is a friend of mine"
    ],
-   "why": "a friend of mine.",
+   "why": "*a friend of mine* — одна з моїх подруг; *my friend* звучить так, ніби вона одна.",
    "hint": "Вона — моя подруга (одна з подруг)."
   },
   {
@@ -274,7 +274,7 @@
     "chemist of"
    ],
    "answer": 1,
-   "why": "Заклад — 's без іменника."
+   "why": "Магазин чи аптеку називаємо присвійною формою без іменника: *the chemist's* (= *the chemist's shop*)."
   },
   {
    "id": "possessive-forms-23",
@@ -287,7 +287,7 @@
     "of Tom and Anna"
    ],
    "answer": 1,
-   "why": "Спільне — 's лише в кінці."
+   "why": "Спільна власність — *'s* лише в кінці: *Tom and Anna's car*. *Tom's and Anna's* — кожен має свою."
   },
   {
    "id": "possessive-forms-24",
@@ -296,7 +296,7 @@
    "answer": [
     "'s"
    ],
-   "why": "at my grandmother's (house)."
+   "why": "*at my grandmother's* — у бабусі вдома: додаємо *'s*, а *house* пропускаємо."
   }
  ]
 }
