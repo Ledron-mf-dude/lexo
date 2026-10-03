@@ -89,7 +89,7 @@ export default function Grammar() {
   return (
     <section className="space-y-5">
       <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
-        Граматика <span className="text-lg text-white/40">{articles.length}</span>
+        Граматика <span className="text-lg text-white/55">{articles.length}</span>
       </h1>
 
       <input
@@ -127,7 +127,7 @@ export default function Grammar() {
       )}
 
       {!searching && (
-        <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-white/45">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-white/60">
           <span>
             {filtered ? `Показано ${shown} з ${articles.length}` : count(articles.length, ARTICLE)}
             {filtered && (
@@ -185,8 +185,8 @@ export default function Grammar() {
 function Section({ title, count, muted, children }: { title: string; count: number; muted?: boolean; children: React.ReactNode }) {
   return (
     <div className="space-y-2">
-      <h2 className={`text-sm tracking-widest uppercase ${muted ? 'text-white/30' : 'text-white/45'}`}>
-        {title} <span className="text-white/25">{count}</span>
+      <h2 className={`text-sm tracking-widest uppercase ${muted ? 'text-white/50' : 'text-white/60'}`}>
+        {title} <span className="text-white/50">{count}</span>
       </h2>
       <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl">{children}</ul>
     </div>
@@ -208,10 +208,10 @@ function ArticleRow({ hit, progress, showCategory }: { hit: Hit; progress?: { ma
             ))}
           </span>
         </div>
-        {showCategory && <p className="text-xs text-white/35">{article.category}</p>}
-        {snippet && <p className="mt-1 text-sm text-white/45">{snippet}</p>}
+        {showCategory && <p className="text-xs text-white/55">{article.category}</p>}
+        {snippet && <p className="mt-1 text-sm text-white/60">{snippet}</p>}
         {progress && progress.attempted > 0 && (
-          <div className="mt-2.5 flex items-center gap-2 text-xs text-white/40" title="Запитання, на які остання відповідь була правильною. Тема засвоєна від 80%.">
+          <div className="mt-2.5 flex items-center gap-2 text-xs text-white/55" title="Запитання, на які остання відповідь була правильною. Тема засвоєна від 80%.">
             <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/8">
               <div className={`h-full rounded-full ${done ? 'bg-good' : 'bg-accent-alt'}`} style={{ width: `${(progress.mastered / progress.total) * 100}%` }} />
             </div>

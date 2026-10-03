@@ -31,7 +31,7 @@ export function BarChart({ data, color = 'bg-accent', height = 132, ariaLabel, u
       <div className="relative" style={{ height }}>
         {/* one recessive gridline at the maximum, plus the baseline */}
         <div className="absolute inset-x-0 top-0 border-t border-dashed border-white/8" />
-        <span className="absolute -top-4 right-0 text-[10px] text-white/30 tabular-nums">{max}</span>
+        <span className="absolute -top-4 right-0 text-[10px] text-white/50 tabular-nums">{max}</span>
         <div className="absolute inset-x-0 bottom-0 border-t border-white/15" />
 
         <div className="absolute inset-0 flex items-end gap-[3px]" onMouseLeave={() => setHover(null)}>
@@ -66,7 +66,7 @@ export function BarChart({ data, color = 'bg-accent', height = 132, ariaLabel, u
         )}
       </div>
 
-      <div className="flex justify-between text-[11px] whitespace-nowrap text-white/35" aria-hidden>
+      <div className="flex justify-between text-[11px] whitespace-nowrap text-white/55" aria-hidden>
         {[0, Math.floor(last / 2), last].map((i) => (
           <span key={i}>{data[i].label}</span>
         ))}
@@ -145,7 +145,7 @@ export function Card({ title, note, children }: { title: string; note?: ReactNod
     <section className="glass space-y-4 rounded-3xl p-5">
       <div className="flex items-baseline justify-between gap-3">
         <h2 className="text-lg font-light">{title}</h2>
-        {note && <span className="text-sm text-white/40">{note}</span>}
+        {note && <span className="text-sm text-white/55">{note}</span>}
       </div>
       {children}
     </section>
@@ -155,9 +155,9 @@ export function Card({ title, note, children }: { title: string; note?: ReactNod
 export function Kpi({ label, value, hint }: { label: string; value: ReactNode; hint?: string }) {
   return (
     <div className="glass rounded-2xl p-4">
-      <p className="text-xs tracking-widest text-white/40 uppercase">{label}</p>
+      <p className="text-xs tracking-widest text-white/55 uppercase">{label}</p>
       <p className="mt-1 text-3xl font-light tabular-nums">{value}</p>
-      {hint && <p className="text-xs text-white/35">{hint}</p>}
+      {hint && <p className="text-xs text-white/55">{hint}</p>}
     </div>
   )
 }

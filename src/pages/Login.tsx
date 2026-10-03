@@ -68,7 +68,7 @@ export default function Login() {
           {mode === 'signin' ? 'Увійти' : 'Зареєструватись'}
         </button>
         {mode === 'signin' && (
-          <button type="button" onClick={forgotPassword} className="w-full text-center text-sm text-white/40 hover:text-white">
+          <button type="button" onClick={forgotPassword} className="w-full text-center text-sm text-white/55 hover:text-white">
             Забули пароль?
           </button>
         )}

@@ -99,9 +99,9 @@ export default function Writing() {
 
       <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
         <div className="min-w-0 flex-1">
-          <p className="text-xs text-white/40">Тема</p>
+          <p className="text-xs text-white/55">Тема</p>
           <p className="font-medium">{uk}</p>
-          <p className="text-sm text-white/45 italic">{en}</p>
+          <p className="text-sm text-white/60 italic">{en}</p>
         </div>
         <button onClick={() => setTopic((t) => (t + 1 + Math.floor(Math.random() * (TOPICS.length - 1))) % TOPICS.length)} className="btn-ghost text-sm">
           Інша тема
@@ -118,7 +118,7 @@ export default function Writing() {
           className="field text-base leading-relaxed"
         />
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <span className="text-sm text-white/40">{count(n, WORD)}</span>
+          <span className="text-sm text-white/55">{count(n, WORD)}</span>
           <button onClick={check} disabled={n < 3 || checking} className="btn-primary">
             {checking ? 'Перевіряю…' : 'Перевірити'}
           </button>
@@ -131,12 +131,12 @@ export default function Writing() {
           {issues.length === 0 ? (
             <p className="glass rounded-2xl p-4 text-sm">
               <span className="text-good">Помилок не знайдено.</span>{' '}
-              <span className="text-white/45">Перевірка не завжди помічає неправильний час у контексті (наприклад, «Yesterday I go»), тож перечитайте дієслова самі.</span>
+              <span className="text-white/60">Перевірка не завжди помічає неправильний час у контексті (наприклад, «Yesterday I go»), тож перечитайте дієслова самі.</span>
             </p>
           ) : (
             <>
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h2 className="text-sm tracking-widest text-white/40 uppercase">Знайдено: {issues.length}</h2>
+                <h2 className="text-sm tracking-widest text-white/55 uppercase">Знайдено: {issues.length}</h2>
                 {issues.some((i) => i.replacements.length > 0) && (
                   <button onClick={applyAll} className="text-sm text-accent hover:underline">
                     Виправити все
@@ -151,7 +151,7 @@ export default function Writing() {
                       <p className="text-white/70">{issue.message}</p>
                       <div className="flex flex-wrap items-center gap-1.5">
                         <span className="text-bad line-through decoration-bad/50">{issue.original || '␣'}</span>
-                        {issue.replacements.length > 0 && <span className="text-white/30">→</span>}
+                        {issue.replacements.length > 0 && <span className="text-white/50">→</span>}
                         {issue.replacements.map((r) => (
                           <button key={r} onClick={() => apply(issue, r)} className="chip text-good" title="Застосувати">
                             {r || '(прибрати)'}
@@ -175,7 +175,7 @@ export default function Writing() {
       {learnable.length > 0 && (
         <div className="glass space-y-3 rounded-2xl p-4">
           <p className="font-medium">Картки з ваших помилок</p>
-          <p className="text-sm text-white/45">Речення, як ви його написали, і виправлене. Їх тренує кнопка «Тренувати мої помилки» нижче, у форматі «Знайди помилку».</p>
+          <p className="text-sm text-white/60">Речення, як ви його написали, і виправлене. Їх тренує кнопка «Тренувати мої помилки» нижче, у форматі «Знайди помилку».</p>
           <ul className="space-y-1.5 text-sm">
             {learnable.map(({ card, idx }) => (
               <li key={idx}>
@@ -230,7 +230,7 @@ export default function Writing() {
                       setCards(loadCards())
                     }}
                     aria-label="Видалити картку"
-                    className="rounded-lg px-2 py-1 text-white/40 hover:bg-bad/10 hover:text-bad"
+                    className="rounded-lg px-2 py-1 text-white/55 hover:bg-bad/10 hover:text-bad"
                   >
                     ✕
                   </button>
@@ -241,7 +241,7 @@ export default function Writing() {
         </div>
       )}
 
-      <p className="text-xs text-white/30">
+      <p className="text-xs text-white/50">
         Перевірка —{' '}
         <a href="https://languagetool.org" target="_blank" rel="noreferrer" className="hover:text-white/60">
           LanguageTool

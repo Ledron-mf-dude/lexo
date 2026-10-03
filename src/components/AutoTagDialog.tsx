@@ -93,13 +93,13 @@ export default function AutoTagDialog({ userId, words, tags, onClose }: Props) {
                 ({ group, items }) =>
                   items.length > 0 && (
                     <div key={group} className="space-y-1.5">
-                      <p className="text-xs tracking-widest text-white/35 uppercase">{GROUP_LABELS[group]}</p>
+                      <p className="text-xs tracking-widest text-white/55 uppercase">{GROUP_LABELS[group]}</p>
                       <div className="flex flex-wrap gap-1.5">
                         {items.map((t) => (
                           <span key={t.name} className="inline-flex items-center gap-1.5 rounded-full bg-white/6 px-2.5 py-1 text-xs text-white/75">
                             <span className="size-2 rounded-full" style={{ background: t.color }} aria-hidden />
                             {t.name}
-                            <span className="text-white/35 tabular-nums">{t.n}</span>
+                            <span className="text-white/55 tabular-nums">{t.n}</span>
                           </span>
                         ))}
                       </div>
@@ -110,7 +110,7 @@ export default function AutoTagDialog({ userId, words, tags, onClose }: Props) {
               <p className="text-sm">
                 Нові теги отримають <span className="text-accent">{count(plan.links.length, WORD)}</span> з {words.length}.
                 {plan.untagged.length > 0 && (
-                  <span className="text-white/45">
+                  <span className="text-white/60">
                     {' '}
                     Без теми залишаться {plan.untagged.length}: {plan.untagged.slice(0, 5).map((w) => w.term).join(', ')}
                     {plan.untagged.length > 5 && '…'} — їм можна додати теги вручну.
@@ -137,7 +137,7 @@ export default function AutoTagDialog({ userId, words, tags, onClose }: Props) {
                           }
                           className="size-4 accent-[#7c9bff]"
                         />
-                        {t.name} <span className="text-white/35">{counts.get(t.id) ?? 0}</span>
+                        {t.name} <span className="text-white/55">{counts.get(t.id) ?? 0}</span>
                       </label>
                     ))}
                   </div>

@@ -19,7 +19,7 @@ import type { Progress } from '../types'
 type Status = 'new' | 'due' | 'hard' | 'learning' | 'known'
 
 const STATUS: Record<Status, { label: string; dot: string; text: string }> = {
-  new: { label: 'нове', dot: 'border border-white/30', text: 'text-white/45' },
+  new: { label: 'нове', dot: 'border border-white/30', text: 'text-white/60' },
   due: { label: 'до повторення', dot: 'bg-accent', text: 'text-accent' },
   hard: { label: 'складне', dot: 'bg-bad', text: 'text-bad' },
   learning: { label: 'вчиться', dot: 'bg-white/40', text: 'text-white/55' },
@@ -141,7 +141,7 @@ export default function Words() {
     <section className="space-y-4">
       <div className="flex items-center justify-between gap-3">
         <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
-          Слова <span className="text-lg text-white/40">{words.data?.length ?? ''}</span>
+          Слова <span className="text-lg text-white/55">{words.data?.length ?? ''}</span>
         </h1>
         <div className="flex gap-2 text-sm sm:text-base">
           <button onClick={() => setImporting(true)} className="btn-ghost px-3 sm:px-[1.1rem]">
@@ -194,7 +194,7 @@ export default function Words() {
         )}
         {(tags.data?.length ?? 0) > 0 && <TagPicker tags={tags.data!} selected={activeTags} counts={tagCounts} onChange={(ids) => filter(() => setActiveTags(ids))} />}
         {words.data && filtered && (
-          <span className="ml-auto text-sm text-white/45">
+          <span className="ml-auto text-sm text-white/60">
             {visible.length} з {words.data.length}
             <button
               onClick={() =>
@@ -246,7 +246,7 @@ export default function Words() {
                     <span className="min-w-0 truncate text-sm font-light text-white/55 sm:text-base">{w.translation}</span>
                   </button>
                   {levelOf(w.term, levels) && (
-                    <span title="Рівень CEFR (оцінка)" className="w-6 shrink-0 text-center text-[10px] text-white/35 tabular-nums">
+                    <span title="Рівень CEFR (оцінка)" className="w-6 shrink-0 text-center text-[10px] text-white/55 tabular-nums">
                       {levelOf(w.term, levels)}
                     </span>
                   )}
@@ -256,13 +256,13 @@ export default function Words() {
                 {expanded && (
                   <div className="space-y-2 px-3 pb-3 text-sm">
                     {(w.ipa || w.pos) && (
-                      <p className="flex flex-wrap gap-x-2 text-white/45">
+                      <p className="flex flex-wrap gap-x-2 text-white/60">
                         {w.ipa && <span className="font-mono text-white/65">{w.ipa}</span>}
                         {w.pos && <span>{posLabel(w.pos)}</span>}
                       </p>
                     )}
                     {w.definition && <p className="text-white/55">{w.definition}</p>}
-                    {w.example && <p className="text-white/45 italic">{w.example}</p>}
+                    {w.example && <p className="text-white/60 italic">{w.example}</p>}
                     <div className="flex flex-wrap items-center gap-1.5">
                       <span className={`text-xs ${st.text}`}>{st.label}</span>
                       {w.tagIds.map((id) => {

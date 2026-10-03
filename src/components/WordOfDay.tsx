@@ -17,15 +17,15 @@ export default function WordOfDay({ words }: { words: WordWithTags[] }) {
   if (!word) return null
   return (
     <div className="glass space-y-1 rounded-2xl p-4">
-      <p className="text-xs tracking-widest text-white/35 uppercase">Слово дня</p>
+      <p className="text-xs tracking-widest text-white/55 uppercase">Слово дня</p>
       <p className="flex items-center gap-1 text-2xl font-light tracking-tight break-words">
         {word.term}
         <SpeakButton text={word.term} />
       </p>
       <p className="text-accent">{word.translation}</p>
-      {word.definition && <p className="text-sm text-white/45">{word.definition}</p>}
+      {word.definition && <p className="text-sm text-white/60">{word.definition}</p>}
       {word.example && (
-        <p className="flex items-start gap-1 text-sm text-white/45 italic">
+        <p className="flex items-start gap-1 text-sm text-white/60 italic">
           <span className="min-w-0">{word.example}</span>
           <SpeakButton text={word.example} className="-mt-1.5 size-8" />
         </p>

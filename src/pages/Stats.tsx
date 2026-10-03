@@ -185,12 +185,12 @@ export default function Stats() {
                     <span
                       key={n}
                       title={`${n} — ${t.hint}`}
-                      className={`grid h-6 min-w-6 place-items-center rounded-full px-1 text-[10px] tabular-nums ${i < got ? 'bg-accent text-[#0a0b0f]' : 'border border-white/12 text-white/30'}`}
+                      className={`grid h-6 min-w-6 place-items-center rounded-full px-1 text-[10px] tabular-nums ${i < got ? 'bg-accent text-[#0a0b0f]' : 'border border-white/12 text-white/50'}`}
                     >
                       {n >= 1000 ? `${n / 1000}k` : n}
                     </span>
                   ))}
-                  <span className="ml-1 text-xs text-white/35">{t.hint}</span>
+                  <span className="ml-1 text-xs text-white/55">{t.hint}</span>
                 </div>
               </div>
             )
@@ -200,7 +200,7 @@ export default function Stats() {
 
       <Card title="Активність, 30 днів" note={count(stats.monthTotal, REVIEW)}>
         {stats.monthTotal === 0 ? (
-          <p className="text-sm text-white/45">Повторень ще немає. Пройдіть першу сесію на екрані «Практика» — тут з'явиться графік.</p>
+          <p className="text-sm text-white/60">Повторень ще немає. Пройдіть першу сесію на екрані «Практика» — тут з'явиться графік.</p>
         ) : (
           <BarChart data={activityBars} ariaLabel="Повторення слів за днями" unit="повторень" />
         )}
@@ -231,7 +231,7 @@ export default function Stats() {
               <Meter key={level} label={level} value={r.mature} max={r.total} right={`зрілих ${r.mature} з ${r.total}`} />
             ))}
           </div>
-          <p className="text-xs text-white/35">Рівні — власна оцінка Lexo для вбудованого словника; зрілі — з інтервалом повторення 21+ день.</p>
+          <p className="text-xs text-white/55">Рівні — власна оцінка Lexo для вбудованого словника; зрілі — з інтервалом повторення 21+ день.</p>
         </Card>
       )}
 
@@ -251,9 +251,9 @@ export default function Stats() {
             {hardWords.map(({ word, errors }) => (
               <li key={word!.id} className="flex items-baseline justify-between gap-3">
                 <span className="min-w-0 truncate">
-                  {word!.term} <span className="text-white/40">— {word!.translation}</span>
+                  {word!.term} <span className="text-white/55">— {word!.translation}</span>
                 </span>
-                <span className="shrink-0 text-white/40 tabular-nums">{errors}×</span>
+                <span className="shrink-0 text-white/55 tabular-nums">{errors}×</span>
               </li>
             ))}
           </ul>
@@ -273,7 +273,7 @@ export default function Stats() {
 
         {grammar.weak.length > 0 && (
           <div className="space-y-2">
-            <h3 className="text-sm tracking-widest text-white/40 uppercase">Що повторити</h3>
+            <h3 className="text-sm tracking-widest text-white/55 uppercase">Що повторити</h3>
             <ul className="space-y-1.5">
               {grammar.weak.map((t) => (
                 <li key={t.article.slug} className="flex items-center justify-between gap-3 text-sm">
@@ -281,7 +281,7 @@ export default function Stats() {
                     {t.article.title}
                   </Link>
                   <span className="flex shrink-0 items-center gap-3">
-                    <span className="text-white/40">помилок {t.mistakes.length}</span>
+                    <span className="text-white/55">помилок {t.mistakes.length}</span>
                     <button onClick={() => navigate(`/grammar/${t.article.slug}/exercises`, { state: { mistakes: true } })} className="text-accent hover:underline">
                       повторити
                     </button>
@@ -293,7 +293,7 @@ export default function Stats() {
         )}
 
         <div className="space-y-2">
-          <h3 className="text-sm tracking-widest text-white/40 uppercase">За темами</h3>
+          <h3 className="text-sm tracking-widest text-white/55 uppercase">За темами</h3>
           {categories.map((c) => {
             const rows = topics.filter((t) => t.article.category === c.name)
             if (rows.length === 0) return null
@@ -325,11 +325,11 @@ export default function Stats() {
             )
           })}
         </div>
-        <p className="text-xs text-white/30">«Правильно» — запитання, на яке остання відповідь була правильною. Тема засвоєна, коли таких щонайменше 80% її запитань.</p>
+        <p className="text-xs text-white/50">«Правильно» — запитання, на яке остання відповідь була правильною. Тема засвоєна, коли таких щонайменше 80% її запитань.</p>
       </Card>
 
       {!demo && stats.monthTotal === 0 && grammar.started === 0 && (
-        <p className="text-center text-sm text-white/35">
+        <p className="text-center text-sm text-white/55">
           Бажаєте побачити, як виглядатиме статистика? <Link to="/stats?demo=1" className="text-accent hover:underline">Показати демо-дані</Link>
         </p>
       )}

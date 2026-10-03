@@ -36,10 +36,10 @@ export default function TagPicker({ tags, selected, onChange, counts }: Props) {
               />
             )}
             <div className="max-h-[min(24rem,55vh)] space-y-3 overflow-y-auto overscroll-contain px-1 pb-1">
-              {groups.length === 0 && <p className="px-2 py-3 text-sm text-white/40">Нічого не знайдено</p>}
+              {groups.length === 0 && <p className="px-2 py-3 text-sm text-white/55">Нічого не знайдено</p>}
               {groups.map(({ group, tags: items }) => (
                 <div key={group} className="space-y-1">
-                  <p className="px-2 pt-1 text-[11px] tracking-widest text-white/35 uppercase">{GROUP_LABELS[group]}</p>
+                  <p className="px-2 pt-1 text-[11px] tracking-widest text-white/55 uppercase">{GROUP_LABELS[group]}</p>
                   <div className="grid grid-cols-1 gap-0.5 min-[420px]:grid-cols-2">
                     {items.map((t) => {
                       const on = selected.includes(t.id)
@@ -54,7 +54,7 @@ export default function TagPicker({ tags, selected, onChange, counts }: Props) {
                           <span className={`grid size-4 shrink-0 place-items-center rounded border text-[10px] ${on ? 'border-accent bg-accent text-[#0a0b0f]' : 'border-white/25'}`}>{on && '✓'}</span>
                           <span className="size-2 shrink-0 rounded-full" style={{ background: t.color ?? '#94a3b8' }} aria-hidden />
                           <span className="min-w-0 flex-1 truncate">{t.name}</span>
-                          {counts && <span className="shrink-0 text-xs text-white/35 tabular-nums">{counts.get(t.id) ?? 0}</span>}
+                          {counts && <span className="shrink-0 text-xs text-white/55 tabular-nums">{counts.get(t.id) ?? 0}</span>}
                         </button>
                       )
                     })}
@@ -84,7 +84,7 @@ export default function TagPicker({ tags, selected, onChange, counts }: Props) {
           >
             <span className="size-2 rounded-full" style={{ background: t.color ?? '#94a3b8' }} aria-hidden />
             {t.name}
-            <span className="text-white/40">✕</span>
+            <span className="text-white/55">✕</span>
           </button>
         )
       })}

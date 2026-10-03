@@ -150,11 +150,11 @@ export default function ImportDialog({ userId, onClose }: Props) {
                 <div className="space-y-3 rounded-2xl bg-white/5 p-4 text-sm">
                   <p>
                     <span className="text-white/50">{fileName}</span>
-                    {parsed.formats.length > 0 && <span className="text-white/35"> · {parsed.formats.join(', ')}</span>}
+                    {parsed.formats.length > 0 && <span className="text-white/55"> · {parsed.formats.join(', ')}</span>}
                   </p>
                   <p>
                     Рядків {parsed.totalRows}, слів до імпорту <b>{words.length}</b>
-                    {parsed.swapped && <span className="text-white/45"> · стовпці переставлено: англійське слово першим</span>}
+                    {parsed.swapped && <span className="text-white/60"> · стовпці переставлено: англійське слово першим</span>}
                   </p>
                   {parsed.merged.length > 0 && (
                     <p className="text-white/50">
@@ -163,7 +163,7 @@ export default function ImportDialog({ userId, onClose }: Props) {
                     </p>
                   )}
                   <table className="w-full table-fixed text-left">
-                    <thead className="text-xs text-white/40">
+                    <thead className="text-xs text-white/55">
                       <tr>
                         <th className="pb-1 font-normal">Слово</th>
                         <th className="pb-1 font-normal">Переклад</th>
@@ -210,7 +210,7 @@ export default function ImportDialog({ userId, onClose }: Props) {
               </p>
             )}
 
-            <p className="text-xs text-white/35">Слова, що вже є в словнику, буде пропущено.</p>
+            <p className="text-xs text-white/55">Слова, що вже є в словнику, буде пропущено.</p>
 
             <div className="flex justify-end gap-2">
               <button onClick={onClose} className="btn-ghost" disabled={importWords.isPending}>

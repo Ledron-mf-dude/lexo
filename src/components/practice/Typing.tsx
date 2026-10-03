@@ -24,10 +24,10 @@ export default function Typing({ card, onGrade }: Props) {
     <div className="space-y-4">
       <div className="glass grid min-h-56 place-items-center rounded-[2rem] p-8 text-center">
         <div className="space-y-3">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Введіть слово</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Введіть слово</p>
           <p className="text-3xl font-light tracking-tight break-words">{word.translation}</p>
-          {word.definition && <p className="text-sm text-white/40">{word.definition}</p>}
-          <p className="text-xs text-white/30">
+          {word.definition && <p className="text-sm text-white/55">{word.definition}</p>}
+          <p className="text-xs text-white/50">
             {word.term.length} символів, починається на «{word.term[0]}»
           </p>
         </div>
@@ -55,7 +55,7 @@ export default function Typing({ card, onGrade }: Props) {
           </div>
         </form>
       ) : (
-        <Verdict result={result} expected={word.term} onGrade={onGrade} />
+        <Verdict result={result} expected={word.term} word={word} onGrade={onGrade} />
       )}
     </div>
   )

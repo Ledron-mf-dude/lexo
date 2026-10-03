@@ -48,9 +48,9 @@ export default function Gaps({ card, onGrade }: Props) {
     <div className="space-y-4">
       <div className="glass grid min-h-44 place-items-center rounded-[2rem] p-8 text-center">
         <div className="space-y-3">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Допишіть пропущені літери</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Допишіть пропущені літери</p>
           <p className="text-3xl font-light tracking-tight break-words">{word.translation}</p>
-          {word.definition && <p className="text-sm text-white/40">{word.definition}</p>}
+          {word.definition && <p className="text-sm text-white/55">{word.definition}</p>}
         </div>
       </div>
 
@@ -86,7 +86,7 @@ export default function Gaps({ card, onGrade }: Props) {
           Не знаю
         </button>
       ) : (
-        <Verdict result={result} expected={word.term} onGrade={onGrade} />
+        <Verdict result={result} expected={word.term} word={word} onGrade={onGrade} />
       )}
     </div>
   )

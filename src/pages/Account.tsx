@@ -28,7 +28,7 @@ export default function Account() {
       <h1 className="text-2xl font-light tracking-tight sm:text-3xl">Акаунт</h1>
 
       <div className="glass space-y-1 rounded-3xl p-6">
-        <p className="text-xs tracking-widest text-white/40 uppercase">Email</p>
+        <p className="text-xs tracking-widest text-white/55 uppercase">Email</p>
         <p>{session?.user.email}</p>
       </div>
 
@@ -38,14 +38,14 @@ export default function Account() {
           <label className="flex cursor-pointer items-center justify-between gap-4">
             <span className="text-sm text-white/70">
               Вимовляти слово автоматично під час практики
-              <span className="block text-xs text-white/40">Кнопка 🔊 біля слова працює завжди. Налаштування діє на цьому пристрої.</span>
+              <span className="block text-xs text-white/55">Кнопка 🔊 біля слова працює завжди. Налаштування діє на цьому пристрої.</span>
             </span>
             <input type="checkbox" checked={autoSpeak} onChange={(e) => setAutoSpeak(e.target.checked)} className="size-5 shrink-0 accent-[#7c9bff]" />
           </label>
           <div className="flex flex-wrap items-center justify-between gap-3">
             <span className="text-sm text-white/70">
               Вимова
-              <span className="block text-xs text-white/40">Голос, транскрипція й запис для нових слів, правопис у «Тренері письма». Уже збережені записи не змінюються.</span>
+              <span className="block text-xs text-white/55">Голос, транскрипція й запис для нових слів, правопис у «Тренері письма». Уже збережені записи не змінюються.</span>
             </span>
             <div className="segmented">
               <button onClick={() => setAccent('GB')} data-on={accent === 'GB'}>

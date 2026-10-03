@@ -159,7 +159,7 @@ export default function Practice() {
         ? `Комплекс по порядку: ${config.modes.map((m) => `«${EXERCISES.find((e) => e.value === m)!.label}»`).join(' → ')}. Спершу всі слова в першій вправі, потім усі в наступній (близько ${wordCount * config.modes.length} карток). Розклад повторень оновиться один раз, після останньої вправи.`
         : 'Усі слова — в одній вправі.'
 
-  const label = 'text-xs tracking-widest text-white/40 uppercase'
+  const label = 'text-xs tracking-widest text-white/55 uppercase'
 
   // What the session will be, in one line, so the settings can stay folded away.
   const modesSummary =
@@ -191,7 +191,7 @@ export default function Practice() {
               <span className="min-w-0 text-sm leading-tight font-medium break-words sm:text-base">{s.title}</span>
               <span className="text-lg font-light text-accent tabular-nums sm:text-xl">{s.count}</span>
             </div>
-            <p className="text-xs text-white/40 sm:text-sm">{s.hint}</p>
+            <p className="text-xs text-white/55 sm:text-sm">{s.hint}</p>
           </button>
         ))}
       </div>
@@ -207,7 +207,7 @@ export default function Practice() {
           className="flex w-full items-center justify-between gap-3 rounded-2xl px-1 py-1 text-left text-sm text-white/50 hover:text-white"
         >
           <span className="min-w-0">
-            Налаштування <span className="text-white/35">· {summary}</span>
+            Налаштування <span className="text-white/55">· {summary}</span>
           </span>
           <span aria-hidden="true">{settingsOpen ? '▴' : '▾'}</span>
         </button>
@@ -260,18 +260,18 @@ export default function Practice() {
             <div className="flex items-baseline justify-between gap-3">
               <p className={label}>Вправи</p>
               {config.modes.length > 0 && (
-                <button onClick={() => setModes([])} className="text-xs text-white/45 hover:text-white">
+                <button onClick={() => setModes([])} className="text-xs text-white/60 hover:text-white">
                   скинути
                 </button>
               )}
             </div>
             <button onClick={() => setModes([])} data-on={config.modes.length === 0} className="tile w-full">
               <span className="font-medium">Авто</span>
-              <span className="text-xs text-white/45">вправа залежить від того, наскільки слово вже вивчене</span>
+              <span className="text-xs text-white/60">вправа залежить від того, наскільки слово вже вивчене</span>
             </button>
             {EXERCISE_GROUPS.map((group) => (
               <div key={group.title} className="space-y-1.5">
-                <p className="text-xs text-white/35">{group.title}</p>
+                <p className="text-xs text-white/55">{group.title}</p>
                 <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
                   {EXERCISES.filter((e) => group.modes.includes(e.value)).map((e) => {
                     const on = config.modes.includes(e.value)
@@ -288,22 +288,22 @@ export default function Practice() {
               </div>
             ))}
             <div className="space-y-1.5">
-              <p className="text-xs text-white/35">Готові комплекси</p>
+              <p className="text-xs text-white/55">Готові комплекси</p>
               <div className="grid gap-1.5 sm:grid-cols-3">
                 {PRESETS.map((preset) => {
                   const on = preset.modes.join() === config.modes.join()
                   return (
                     <button key={preset.title} onClick={() => setModes(preset.modes)} data-on={on} className="tile flex-col items-start! gap-0.5!">
                       <span className="font-medium">{preset.title}</span>
-                      <span className="text-xs text-white/45">{preset.modes.map((m) => EXERCISES.find((e) => e.value === m)?.label).filter(Boolean).join(' → ')}</span>
+                      <span className="text-xs text-white/60">{preset.modes.map((m) => EXERCISES.find((e) => e.value === m)?.label).filter(Boolean).join(' → ')}</span>
                     </button>
                   )
                 })}
               </div>
             </div>
-            {config.modes.length > 0 && <p className="text-sm text-white/40">{modeHint}</p>}
+            {config.modes.length > 0 && <p className="text-sm text-white/55">{modeHint}</p>}
             {config.modes.some((m) => ['cloze', 'passage', 'dictation', 'matchdef'].includes(m)) && (
-              <p className="text-xs text-white/30">
+              <p className="text-xs text-white/50">
                 «Слово в реченні», «Текст із пропусками» й «Диктант речень» працюють для слів із прикладом, «Слово ↔ пояснення» — для слів із визначенням. Інші слова цю вправу пропускають.
               </p>
             )}

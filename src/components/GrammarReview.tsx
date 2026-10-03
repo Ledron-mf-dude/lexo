@@ -14,7 +14,7 @@ export function ContrastPairs({ pairs }: { pairs: Pairs }) {
   return (
     <div className="glass space-y-2 rounded-2xl p-4">
       <p className="text-sm text-white/60">
-        Контрастні пари <span className="text-white/35">· теми, які легко сплутати; назва теми під час вправи прихована</span>
+        Контрастні пари <span className="text-white/55">· теми, які легко сплутати; назва теми під час вправи прихована</span>
       </p>
       <div className="flex flex-wrap gap-1.5">
         {shown.map(({ pair, both }) => (

@@ -80,7 +80,7 @@ export default function Tags() {
     <section className="space-y-5">
       <div className="flex items-baseline justify-between gap-3">
         <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
-          Теги <span className="text-lg text-white/40">{rows.length}</span>
+          Теги <span className="text-lg text-white/55">{rows.length}</span>
         </h1>
         <div className="segmented">
           {(['name', 'count'] as const).map((s) => (
@@ -95,7 +95,7 @@ export default function Tags() {
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
           <div className="min-w-0 flex-1">
             <p className="font-medium">Розкласти слова за темами</p>
-            <p className="text-sm text-white/45">Автоматично додає теги за значенням і типом виразу: почуття, робота, фразові дієслова, герундій…</p>
+            <p className="text-sm text-white/60">Автоматично додає теги за значенням і типом виразу: почуття, робота, фразові дієслова, герундій…</p>
           </div>
           <button onClick={() => setAutoTagging(true)} className="btn-primary w-full sm:w-auto">
             Підібрати теги
@@ -113,7 +113,7 @@ export default function Tags() {
       {error && <p className="text-sm text-bad">{error}</p>}
 
       {unused.length > 0 && (
-        <p className="text-sm text-white/45">
+        <p className="text-sm text-white/60">
           Тегів без слів: {unused.length}.{' '}
           <button onClick={removeUnused} className="text-accent hover:underline">
             видалити всі
@@ -125,8 +125,8 @@ export default function Tags() {
 
       {groupTags(rows).map(({ group, tags: groupRows }) => (
       <section key={group} className="space-y-2">
-      <h2 className="text-xs tracking-widest text-white/40 uppercase">
-        {GROUP_LABELS[group]} <span className="text-white/25">{groupRows.length}</span>
+      <h2 className="text-xs tracking-widest text-white/55 uppercase">
+        {GROUP_LABELS[group]} <span className="text-white/50">{groupRows.length}</span>
       </h2>
       <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl">
         {(sort === 'name' ? groupRows : [...groupRows].sort((a, b) => (counts.get(b.id) ?? 0) - (counts.get(a.id) ?? 0))).map((tag) => {
@@ -156,7 +156,7 @@ export default function Tags() {
                     >
                       {tag.name}
                     </button>
-                    <span className="shrink-0 text-xs text-white/40 tabular-nums">{count(n, WORD)}</span>
+                    <span className="shrink-0 text-xs text-white/55 tabular-nums">{count(n, WORD)}</span>
                   </>
                 )}
                 {n > 0 && editing !== tag.id && (
@@ -171,7 +171,7 @@ export default function Tags() {
                   onClick={() => setOpen(expanded ? null : tag.id)}
                   aria-expanded={expanded}
                   aria-label={`Дії з тегом ${tag.name}`}
-                  className="grid size-8 shrink-0 place-items-center rounded-lg text-white/45 hover:bg-white/8 hover:text-white"
+                  className="grid size-8 shrink-0 place-items-center rounded-lg text-white/60 hover:bg-white/8 hover:text-white"
                 >
                   ⋯
                 </button>
@@ -237,7 +237,7 @@ export default function Tags() {
                   >
                     <span className="size-3 rounded-full" style={{ background: t.color ?? '#94a3b8' }} aria-hidden />
                     <span className="flex-1 truncate">{t.name}</span>
-                    <span className="text-sm text-white/40">{counts.get(t.id) ?? 0}</span>
+                    <span className="text-sm text-white/55">{counts.get(t.id) ?? 0}</span>
                   </button>
                 ))}
             </div>

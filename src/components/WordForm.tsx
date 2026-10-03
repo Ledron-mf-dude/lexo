@@ -103,7 +103,7 @@ export default function WordForm({ canNote = false, initial, suggestions, saving
         {(ipa || pos || audio) && (
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-white/55">
             {ipa && <span className="font-mono text-white/70">{ipa}</span>}
-            {pos && <span className="text-white/40">{posLabel(pos)}</span>}
+            {pos && <span className="text-white/55">{posLabel(pos)}</span>}
             <button
               type="button"
               onClick={() => (audio ? playRecording(audio, term) : speak(term))}
@@ -113,7 +113,7 @@ export default function WordForm({ canNote = false, initial, suggestions, saving
               ▶ {audio ? 'запис вимови' : 'прослухати'}
             </button>
             {entry && (
-              <a href={entry.page} target="_blank" rel="noreferrer" className="ml-auto text-xs text-white/30 hover:text-white/60">
+              <a href={entry.page} target="_blank" rel="noreferrer" className="ml-auto text-xs text-white/50 hover:text-white/60">
                 Wiktionary · CC BY-SA
               </a>
             )}
@@ -155,7 +155,7 @@ export default function WordForm({ canNote = false, initial, suggestions, saving
         <TagInput value={form.tagNames} onChange={(tags) => set('tagNames', tags)} suggestions={allNames} />
         {suggested.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5 text-sm">
-            <span className="text-xs text-white/40">Підходять:</span>
+            <span className="text-xs text-white/55">Підходять:</span>
             {suggested.map((name) => (
               <button
                 key={name}

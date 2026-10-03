@@ -3,6 +3,7 @@ import { useSpeakOnShow } from '../../lib/speech'
 import type { Grade } from '../../lib/sm2'
 import SpeakButton from '../SpeakButton'
 import type { TypedResult } from '../../lib/text'
+import type { Word } from '../../types'
 
 interface Props {
   result: TypedResult
@@ -10,6 +11,8 @@ interface Props {
   onGrade: (grade: Grade) => void
   /** Heading for a near miss; typing says «одруківка», speaking says the sound was a little off. */
   typoLabel?: string
+  /** The word behind the answer: after a miss its transcription, example and note help it stick. */
+  word?: Pick<Word, 'ipa' | 'example' | 'note'>
 }
 
 const GRADE: Record<TypedResult, Grade> = { exact: 'good', typo: 'hard', wrong: 'again' }
@@ -18,7 +21,7 @@ const GRADE: Record<TypedResult, Grade> = { exact: 'good', typo: 'hard', wrong: 
  * Feedback after a typed / assembled answer. A perfect answer moves on by itself;
  * a typo or a miss waits for the user so the correct spelling can be read.
  */
-export default function Verdict({ result, expected, onGrade, typoLabel = 'Майже — є одруківка' }: Props) {
+export default function Verdict({ result, expected, onGrade, typoLabel = 'Майже — є одруківка', word }: Props) {
   useSpeakOnShow(expected)
   useEffect(() => {
     if (result === 'exact') {
@@ -47,6 +50,14 @@ export default function Verdict({ result, expected, onGrade, typoLabel = 'Май
           {expected}
           <SpeakButton text={expected} />
         </p>
+        {word?.ipa && <p className="text-sm text-white/55">{word.ipa}</p>}
+        {word?.example && (
+          <p className="mt-2 flex items-start justify-center gap-1 text-sm text-white/70 italic">
+            <span>{word.example}</span>
+            <SpeakButton text={word.example} />
+          </p>
+        )}
+        {word?.note && <p className="mt-2 text-sm text-white/60">💡 {word.note}</p>}
       </div>
       <button onClick={() => onGrade(GRADE[result])} className="btn-primary w-full">
         Далі

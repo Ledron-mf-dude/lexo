@@ -37,8 +37,8 @@ export default function PronunciationCard({ words }: { words: WordWithTags[] }) 
     return (
       <p className="glass rounded-2xl p-4 text-sm text-good">
         Готово: транскрипцію й вимову додано до {count(run.found, WORD_GEN)}.
-        {run.done - run.found - run.failed > 0 && <span className="text-white/45"> У Wiktionary не знайшлося {count(run.done - run.found - run.failed, WORD_GEN)}.</span>}
-        {run.failed > 0 && <span className="text-white/45"> Не вдалося перевірити {count(run.failed, WORD_GEN)} (мережа), спробуйте пізніше.</span>}
+        {run.done - run.found - run.failed > 0 && <span className="text-white/60"> У Wiktionary не знайшлося {count(run.done - run.found - run.failed, WORD_GEN)}.</span>}
+        {run.failed > 0 && <span className="text-white/60"> Не вдалося перевірити {count(run.failed, WORD_GEN)} (мережа), спробуйте пізніше.</span>}
       </p>
     )
   }
@@ -104,7 +104,7 @@ export default function PronunciationCard({ words }: { words: WordWithTags[] }) 
     <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
       <div className="min-w-0 flex-1">
         <p className="font-medium">Транскрипція і вимова</p>
-        <p className="text-sm text-white/45">
+        <p className="text-sm text-white/60">
           {migrated
             ? `Для ${count(todo.length, WORD_GEN)} ще немає транскрипції. Візьмемо її з Wiktionary разом із записом вимови живим голосом і частиною мови; словам, яких немає у вбудованому словнику, додамо й пояснення з прикладом. Заповнюються тільки порожні поля.`
             : MIGRATION_0004}
@@ -115,7 +115,7 @@ export default function PronunciationCard({ words }: { words: WordWithTags[] }) 
           </div>
         )}
         {error && <p className="mt-1 text-sm text-bad">{error}</p>}
-        <p className="mt-1 text-xs text-white/30">
+        <p className="mt-1 text-xs text-white/50">
           Дані:{' '}
           <a href="https://en.wiktionary.org" target="_blank" rel="noreferrer" className="hover:text-white/60">
             Wiktionary

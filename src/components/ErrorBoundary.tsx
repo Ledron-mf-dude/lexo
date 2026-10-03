@@ -27,7 +27,7 @@ export default class ErrorBoundary extends Component<{ children: ReactNode }, St
         <p className="text-sm text-white/55">
           {staleBundle ? 'Оновіть сторінку, щоб завантажити її.' : 'Спробуйте оновити сторінку. Якщо помилка повториться, повідомте про неї.'}
         </p>
-        {!staleBundle && <p className="rounded-xl bg-white/5 p-3 text-left font-mono text-xs break-words text-white/40">{error.message}</p>}
+        {!staleBundle && <p className="rounded-xl bg-white/5 p-3 text-left font-mono text-xs break-words text-white/55">{error.message}</p>}
         <button onClick={() => location.reload()} className="btn-primary w-full">
           Оновити
         </button>

@@ -47,7 +47,7 @@ export default function TagInput({ value, onChange, suggestions }: Props) {
         onKeyDown={onKeyDown}
         onBlur={commit}
         placeholder={value.length === 0 ? 'Теги (Enter, щоб додати)' : ''}
-        className="min-w-24 flex-1 bg-transparent outline-none placeholder:text-white/35"
+        className="min-w-24 flex-1 bg-transparent outline-none placeholder:text-white/55"
       />
       <datalist id="tag-suggestions">
         {suggestions

@@ -199,7 +199,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         {combo.best >= 3 && <p className="text-sm text-[#fbbf24]">Найдовша серія без помилок: {combo.best}</p>}
         {failed.size > 0 && (
           <div className="space-y-2 pt-2 text-left">
-            <p className="text-center text-xs tracking-widest text-white/35 uppercase">Слова, у яких були помилки · {failed.size}</p>
+            <p className="text-center text-xs tracking-widest text-white/55 uppercase">Слова, у яких були помилки · {failed.size}</p>
             <ul className="space-y-1.5">
               {words
                 .filter((w) => failed.has(w.id))
@@ -241,7 +241,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
           ✕
         </button>
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/10">
-          <motion.div className="h-full bg-accent" animate={{ width: `${(done / total) * 100}%` }} transition={{ duration: 0.3 }} />
+          <motion.div className="h-full bg-accent" initial={false} animate={{ width: `${(done / total) * 100}%` }} transition={{ duration: 0.3 }} />
         </div>
         {combo.now >= 3 && <span className="rounded-full bg-[#fbbf24]/15 px-2.5 py-1 text-xs text-[#fbbf24] tabular-nums">×{combo.now}</span>}
         {canSpeak && (
@@ -250,7 +250,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
             aria-pressed={autoSpeak}
             aria-label="Озвучувати слова автоматично"
             title="Озвучувати слова автоматично"
-            className={`rounded-full border px-2.5 py-1 text-xs transition-colors ${autoSpeak ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/45'}`}
+            className={`rounded-full border px-2.5 py-1 text-xs transition-colors ${autoSpeak ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60'}`}
           >
             {autoSpeak ? 'Звук: увімк.' : 'Звук: вимк.'}
           </button>
@@ -260,7 +260,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         </span>
       </div>
 
-      {card.retry && rounds.length >= 2 && <p className="text-center text-xs tracking-widest text-white/35 uppercase">Повтор помилки</p>}
+      {card.retry && rounds.length >= 2 && <p className="text-center text-xs tracking-widest text-white/55 uppercase">Повтор помилки</p>}
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -322,17 +322,17 @@ function RoundIntro({ round, modes, words, onStart, onSkip, onExit }: { round: E
         ✕
       </button>
       <div className="glass space-y-4 rounded-[2rem] p-8 text-center">
-        <p className="text-xs tracking-widest text-white/35 uppercase">
+        <p className="text-xs tracking-widest text-white/55 uppercase">
           Вправа {index + 1} з {modes.length}
         </p>
         <h2 className="text-3xl font-light">{label}</h2>
         <p className="text-white/50">Слів у цьому колі: {words}</p>
-        {next && <p className="text-sm text-white/35">Далі: {next}</p>}
+        {next && <p className="text-sm text-white/55">Далі: {next}</p>}
         <button onClick={onStart} className="btn-primary w-full">
           Почати
         </button>
         {onSkip && (
-          <button onClick={onSkip} className="w-full text-sm text-white/45 hover:text-white">
+          <button onClick={onSkip} className="w-full text-sm text-white/60 hover:text-white">
             Не можу говорити зараз — пропустити цю вправу
           </button>
         )}

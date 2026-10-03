@@ -53,7 +53,7 @@ export default function Dictation({ card, onGrade }: Props) {
     <div className="space-y-4">
       <div className="glass grid min-h-48 place-items-center rounded-[2rem] p-8 text-center">
         <div className="space-y-4">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Запишіть речення</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Запишіть речення</p>
           <div className="flex items-center justify-center gap-3">
             <button type="button" onClick={() => speak(sentence)} aria-label="Прослухати ще раз" className="grid size-16 place-items-center rounded-full bg-accent/20 text-accent transition-colors hover:bg-accent/30">
               <svg viewBox="0 0 24 24" className="size-7" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -65,7 +65,7 @@ export default function Dictation({ card, onGrade }: Props) {
               Повільно
             </button>
           </div>
-          <p className="text-sm text-white/40">Підказка: у реченні є слово «{card.word.translation}»</p>
+          <p className="text-sm text-white/55">Підказка: у реченні є слово «{card.word.translation}»</p>
         </div>
       </div>
 
@@ -95,7 +95,7 @@ export default function Dictation({ card, onGrade }: Props) {
         </form>
       ) : (
         <>
-          {result !== 'exact' && value.trim() && <p className="text-center text-sm text-white/45">Ви написали: «{value.trim()}»</p>}
+          {result !== 'exact' && value.trim() && <p className="text-center text-sm text-white/60">Ви написали: «{value.trim()}»</p>}
           <Verdict result={result} expected={sentence} onGrade={onGrade} typoLabel="Майже — одне-два слова відрізняються" />
         </>
       )}

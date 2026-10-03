@@ -218,22 +218,22 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
     return (
       <section className="space-y-5">
         <div className="glass space-y-3 rounded-[2rem] p-8 text-center">
-          <p className="text-xs tracking-widest text-white/35 uppercase">{title}</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">{title}</p>
           <p className="text-5xl font-light">
-            {score} <span className="text-2xl text-white/40">/ {results.length}</span>
+            {score} <span className="text-2xl text-white/55">/ {results.length}</span>
           </p>
           <p className={percent >= 80 ? 'text-good' : 'text-white/50'}>
             {score === results.length ? 'Без помилок!' : percent >= 80 ? `Чудово · помилок: ${missed.length}` : `Помилок: ${missed.length} — розберіть їх нижче`}
           </p>
           {bank && (
-            <p className="text-sm text-white/45">
+            <p className="text-sm text-white/60">
               {unseenLeft > 0 ? `У темі ще ${count(unseenLeft, NEW_QUESTION)} — вони будуть першими в наступному колі.` : 'Усі запитання теми ви вже бачили.'}
             </p>
           )}
         </div>
         {missed.length > 0 && (
           <div className="space-y-2">
-            <h2 className="text-sm tracking-widest text-white/40 uppercase">Розберіть помилки</h2>
+            <h2 className="text-sm tracking-widest text-white/55 uppercase">Розберіть помилки</h2>
             {missed.map(({ item: m, outcome: o }) => (
               <div key={`${m.slug}/${m.q.id}`} className="glass space-y-1.5 rounded-2xl p-4 text-sm">
                 {showTopic && (
@@ -245,7 +245,7 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
                 <p>
                   <span className="text-bad line-through decoration-bad/50">{o.given || '—'}</span> → <span className="text-good">{correctAnswer(m.q)}</span>
                 </p>
-                <p className="text-white/45">
+                <p className="text-white/60">
                   <RichText text={m.q.why} />
                 </p>
               </div>
@@ -282,7 +282,7 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
         </span>
       </div>
 
-      <p className="text-center text-xs text-white/40">
+      <p className="text-center text-xs text-white/55">
         {showTopic ? bySlug.get(item.slug)?.title : title.split(/[:(—]/)[0].trim()}
         {isUnseen(item, history) && <span className="ml-2 rounded-full border border-accent/40 px-1.5 py-px text-accent">нове</span>}
       </p>
@@ -311,7 +311,7 @@ function NextTopic({ topic }: { topic: string }) {
       {next && (
         <div className="flex flex-wrap items-center gap-3">
           <div className="min-w-0 flex-1">
-            <p className="text-xs text-white/40">Наступна тема маршруту</p>
+            <p className="text-xs text-white/55">Наступна тема маршруту</p>
             <p className="truncate">{next.title}</p>
           </div>
           <div className="flex w-full gap-2 *:flex-1 sm:w-auto sm:*:flex-none">
@@ -448,7 +448,7 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
       </div>
       {/* A typed answer the checker did not recognise may still be right (another modal, another word order): let the learner count it. */}
       {onOverride && canOverride(q, outcome) && (
-        <button onClick={onOverride} className="w-full text-center text-sm text-white/40 hover:text-white">
+        <button onClick={onOverride} className="w-full text-center text-sm text-white/55 hover:text-white">
           Мій варіант теж правильний
         </button>
       )}
@@ -529,7 +529,7 @@ function Prompt({ text, hint, children }: { text?: string; hint?: string; childr
           </p>
         )}
         {children}
-        {hint && <p className="text-sm text-white/45">{hint}</p>}
+        {hint && <p className="text-sm text-white/60">{hint}</p>}
       </div>
     </div>
   )
@@ -565,7 +565,7 @@ function ChoiceQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'cho
             onClick={() => onAnswer({ correct: i === q.answer, given: option })}
             className={`glass flex items-center gap-3 rounded-2xl px-4 py-3 text-left transition-colors ${style(option, i)}`}
           >
-            <span className="hidden w-4 shrink-0 text-xs text-white/30 md:block">{i + 1}</span>
+            <span className="hidden w-4 shrink-0 text-xs text-white/50 md:block">{i + 1}</span>
             <span>{option}</span>
           </button>
         ))}
@@ -642,11 +642,11 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
   return (
     <div className="flex flex-1 flex-col gap-3">
       <Prompt hint={q.hint}>
-        <p className="text-xs tracking-widest text-white/35 uppercase">Складіть речення</p>
+        <p className="text-xs tracking-widest text-white/55 uppercase">Складіть речення</p>
       </Prompt>
       <div className="glass flex min-h-16 flex-wrap items-center justify-center gap-1.5 rounded-2xl p-3 text-lg">
         {picked.length === 0 ? (
-          <span className="text-white/25">Торкайтеся слів по порядку</span>
+          <span className="text-white/50">Торкайтеся слів по порядку</span>
         ) : (
           picked.map((t) => (
             <button key={t} onClick={() => unpick(t)} disabled={outcome !== null} className="rounded-lg px-1.5 py-0.5 transition-colors enabled:hover:bg-white/10" title="Повернути слово">
@@ -725,23 +725,23 @@ function FixQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'fix' }
   return (
     <div className="flex flex-1 flex-col gap-3">
       <Prompt hint={q.hint}>
-        <p className="text-xs tracking-widest text-white/35 uppercase">Чи є тут помилка?</p>
+        <p className="text-xs tracking-widest text-white/55 uppercase">Чи є тут помилка?</p>
         <p className={`font-light tracking-tight ${shown.length > 70 ? 'text-xl' : 'text-2xl'}`}>{shown}</p>
       </Prompt>
       {!editing ? (
         !outcome && (
           <div className="mt-auto grid grid-cols-2 gap-2">
             <button onClick={judgeRight} className="glass rounded-2xl px-4 py-3 transition-colors hover:bg-white/15">
-              <span className="mr-2 hidden text-xs text-white/30 md:inline">1</span>Правильно
+              <span className="mr-2 hidden text-xs text-white/50 md:inline">1</span>Правильно
             </button>
             <button onClick={() => setEditing(true)} className="glass rounded-2xl px-4 py-3 transition-colors hover:bg-white/15">
-              <span className="mr-2 hidden text-xs text-white/30 md:inline">2</span>Є помилка
+              <span className="mr-2 hidden text-xs text-white/50 md:inline">2</span>Є помилка
             </button>
           </div>
         )
       ) : (
         <form onSubmit={submit} className="space-y-2">
-          <p className="text-center text-sm text-white/45">Виправте речення</p>
+          <p className="text-center text-sm text-white/60">Виправте речення</p>
           <input
             ref={input}
             disabled={outcome !== null}
