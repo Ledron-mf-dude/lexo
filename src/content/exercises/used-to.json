@@ -152,7 +152,7 @@
     "didn't use to",
     "did not use to"
    ],
-   "why": "Заперечення: *didn't use to*."
+   "why": "Заперечення — *didn't use to* (без *-d*)."
   },
   {
    "id": "used-to-14",
@@ -239,7 +239,7 @@
    "answer": [
     "I used to play the piano"
    ],
-   "why": "*used to* + дієслово.",
+   "why": "*used to* + дієслово — раніше грав, тепер ні.",
    "hint": "Раніше я грав на піаніно."
   },
   {
@@ -256,7 +256,7 @@
    "answer": [
     "She is used to working late"
    ],
-   "why": "*be used to* + *-ing*.",
+   "why": "*be used to* + *-ing* — звикла.",
    "hint": "Вона звикла працювати допізна."
   },
   {
@@ -309,7 +309,7 @@
    "answer": [
     "Did"
    ],
-   "why": "Питання: *Did you use to…?*"
+   "why": "Питання — *Did you use to…?*"
   },
   {
    "id": "used-to-26",

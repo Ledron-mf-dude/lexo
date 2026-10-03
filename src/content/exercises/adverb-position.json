@@ -76,7 +76,7 @@
     "She beautifully last night sang at the party."
    ],
    "answer": 0,
-   "why": "Порядок обставин: спосіб → місце → час."
+   "why": "Обставини йдуть у порядку: як (*beautifully*) → де (*at the party*) → коли (*last night*)."
   },
   {
    "id": "adverb-position-7",
@@ -116,7 +116,7 @@
    "answer": [
     "She has just left"
    ],
-   "why": "*just* — між *has* і третьою формою."
+   "why": "*just* стоїть між допоміжним *has* і третьою формою: *She has just left.*"
   },
   {
    "id": "adverb-position-10",
@@ -125,7 +125,7 @@
    "answer": [
     "is always"
    ],
-   "why": "Прислівник частоти після *be*: *is always*.",
+   "why": "З *to be* прислівник частоти стоїть після дієслова: *She is always late.*",
    "hint": "Поставте слова в правильному порядку"
   },
   {
@@ -214,7 +214,7 @@
    "answer": [
     "I often go to the gym"
    ],
-   "why": "*often* — перед основним дієсловом.",
+   "why": "Прислівник частоти — перед основним дієсловом: *I often go…*",
    "hint": "Я часто ходжу в спортзал."
   },
   {
@@ -231,7 +231,7 @@
    "answer": [
     "She is never late for work"
    ],
-   "why": "*never* — після *is*.",
+   "why": "З *to be* — після нього: *She is never late.*",
    "hint": "Вона ніколи не запізнюється на роботу."
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "He has just finished his homework"
    ],
-   "why": "*just* — після *has*.",
+   "why": "*just* — між *has* і третьою формою.",
    "hint": "Він щойно закінчив домашнє завдання."
   },
   {
@@ -280,7 +280,7 @@
     "yet"
    ],
    "answer": 0,
-   "why": "Питання про досвід — *Have you ever been…?*"
+   "why": "У питанні про досвід *ever* стоїть після підмета: *Have you ever been…?* *already* й *yet* тут не передають «колись у житті»."
   },
   {
    "id": "adverb-position-22",
@@ -309,7 +309,7 @@
    "answer": [
     "He has just finished his homework"
    ],
-   "why": "*just* між *has* і третьою формою.",
+   "why": "*just* («щойно») стоїть між допоміжним *has* і третьою формою: *He has just finished.* На початку чи в кінці речення *just* у цьому значенні не ставлять.",
    "hint": "Він щойно закінчив домашнє завдання."
   }
  ]

@@ -24,7 +24,7 @@
     "We"
    ],
    "answer": 0,
-   "why": "*They say* — «кажуть»."
+   "why": "*They say* — «кажуть» (невизначені люди)."
   },
   {
    "id": "generic-pronouns-3",
@@ -89,7 +89,7 @@
     "People must be careful."
    ],
    "answer": 0,
-   "why": "*One* — найформальніше."
+   "why": "*One* — найформальніший узагальнений займенник."
   },
   {
    "id": "generic-pronouns-8",
@@ -102,7 +102,7 @@
     "themself"
    ],
    "answer": 0,
-   "why": "*one → oneself*."
+   "why": "Зворотна форма від *one* — *oneself*."
   },
   {
    "id": "generic-pronouns-9",
@@ -144,7 +144,7 @@
    "answer": [
     "one's"
    ],
-   "why": "*one's best*."
+   "why": "Присвійна форма від *one* — *one's*."
   },
   {
    "id": "generic-pronouns-13",
@@ -154,7 +154,7 @@
     "They",
     "People"
    ],
-   "why": "*They / People say…*"
+   "why": "*They / People say…* — кажуть."
   },
   {
    "id": "generic-pronouns-14",
@@ -164,7 +164,7 @@
     "You",
     "People"
    ],
-   "why": "*You have to be 18* — будь-хто.",
+   "why": "*You have to be 18* — будь-хто має бути повнолітнім.",
    "hint": "(узагальнено — будь-хто)"
   },
   {
@@ -190,7 +190,7 @@
    "answer": [
     "You can buy tickets online"
    ],
-   "why": "*You can buy tickets online.*",
+   "why": "*You can buy…* — будь-хто може купити.",
    "hint": "Квитки можна купити онлайн."
   },
   {
@@ -207,7 +207,7 @@
    "answer": [
     "They say it will rain tomorrow"
    ],
-   "why": "*They say…*",
+   "why": "*They say…* — кажуть.",
    "hint": "Кажуть, що завтра буде дощ."
   },
   {
@@ -223,7 +223,7 @@
    "answer": [
     "People often forget their passwords"
    ],
-   "why": "*People often forget…*",
+   "why": "*People often forget…* — люди загалом.",
    "hint": "Люди часто забувають паролі."
   },
   {

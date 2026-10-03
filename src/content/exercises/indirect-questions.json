@@ -167,7 +167,7 @@
     "the train does leave"
    ],
    "answer": 0,
-   "why": "*what time the train leaves*."
+   "why": "Непряме питання — прямий порядок: *what time the train leaves*."
   },
   {
    "id": "indirect-questions-15",
@@ -210,7 +210,7 @@
    "answer": [
     "Do you know where the station is"
    ],
-   "why": "*where the station is*.",
+   "why": "*where the station is* — прямий порядок слів.",
    "hint": "Ви не знаєте, де вокзал?"
   },
   {
@@ -229,7 +229,7 @@
    "answer": [
     "Can you tell me what time it is"
    ],
-   "why": "*what time it is*.",
+   "why": "*what time it is* — прямий порядок.",
    "hint": "Можете сказати, котра година?"
   },
   {
@@ -265,7 +265,7 @@
    "answer": [
     "Could you tell me if the shop is open"
    ],
-   "why": "*if the shop is open*.",
+   "why": "*if the shop is open* — прямий порядок.",
    "hint": "Скажіть, будь ласка, чи відкритий магазин?"
   },
   {

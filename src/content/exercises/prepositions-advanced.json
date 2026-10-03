@@ -50,7 +50,7 @@
     "whom to"
    ],
    "answer": 0,
-   "why": "Формально — *to whom*."
+   "why": "Формально прийменник ставимо перед *whom*: *the person to whom I spoke*."
   },
   {
    "id": "prepositions-advanced-5",
@@ -137,7 +137,7 @@
    "answer": [
     "hearing"
    ],
-   "why": "*look forward to* + *-ing*."
+   "why": "*to* у *look forward to* — прийменник, тому *-ing*."
   },
   {
    "id": "prepositions-advanced-12",
@@ -146,7 +146,7 @@
    "answer": [
     "saying"
    ],
-   "why": "*without saying*."
+   "why": "Після прийменника — *-ing*: *without saying*."
   },
   {
    "id": "prepositions-advanced-13",
@@ -164,7 +164,7 @@
    "answer": [
     "into"
    ],
-   "why": "*look into* — розібратися."
+   "why": "*look into* — розібратися; прийменник у кінці."
   },
   {
    "id": "prepositions-advanced-15",
@@ -179,7 +179,7 @@
    "answer": [
     "Who did you go with"
    ],
-   "why": "*Who did you go with?*",
+   "why": "Прийменник у кінці питання: *Who did you go with?*",
    "hint": "З ким ти ходив?"
   },
   {
@@ -197,7 +197,7 @@
    "answer": [
     "That is not what I asked for"
    ],
-   "why": "*what I asked for*.",
+   "why": "*ask for* — прийменник лишається в кінці.",
    "hint": "Це не те, що я просив."
   },
   {
@@ -214,7 +214,7 @@
    "answer": [
     "She is easy to talk to"
    ],
-   "why": "*easy to talk to*.",
+   "why": "*talk to* — прийменник після інфінітива в кінці.",
    "hint": "З нею легко говорити."
   },
   {
@@ -232,7 +232,7 @@
    "answer": [
     "There is nothing to be afraid of"
    ],
-   "why": "*nothing to be afraid of*.",
+   "why": "*afraid of* — прийменник у кінці.",
    "hint": "Нема чого боятися."
   }
  ]

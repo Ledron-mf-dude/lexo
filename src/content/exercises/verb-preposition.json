@@ -37,7 +37,7 @@
     "on"
    ],
    "answer": 2,
-   "why": "*wait for* — чекати на когось."
+   "why": "*wait for* — чекати на."
   },
   {
    "id": "verb-preposition-4",
@@ -146,7 +146,7 @@
    "answer": [
     "to"
    ],
-   "why": "*belong to* — належати."
+   "why": "*belong to* — належати; прийменник у кінці питання."
   },
   {
    "id": "verb-preposition-13",
@@ -183,7 +183,7 @@
    "answer": [
     "at"
    ],
-   "why": "*laugh at* — сміятися з когось."
+   "why": "*laugh at* — сміятися з."
   },
   {
    "id": "verb-preposition-17",
@@ -250,7 +250,7 @@
    "answer": [
     "It depends on the price"
    ],
-   "why": "*depend on*.",
+   "why": "*depend on* — залежати від.",
    "hint": "Це залежить від ціни."
   },
   {

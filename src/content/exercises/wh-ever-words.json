@@ -187,7 +187,7 @@
     "However"
    ],
    "answer": 0,
-   "why": "Будь-що з двох — *Whichever*."
+   "why": "Будь-що з двох названих — *Whichever*."
   },
   {
    "id": "wh-ever-words-17",
@@ -203,7 +203,7 @@
    "answer": [
     "You can eat whatever you want"
    ],
-   "why": "*whatever you want*.",
+   "why": "*whatever* — що завгодно.",
    "hint": "Можеш їсти що завгодно."
   },
   {
@@ -219,7 +219,7 @@
    "answer": [
     "Call me whenever you like"
    ],
-   "why": "*whenever you like*.",
+   "why": "*whenever* — коли завгодно.",
    "hint": "Телефонуй мені, коли захочеш."
   },
   {
@@ -239,7 +239,7 @@
     "Wherever you go, I will follow you",
     "I will follow you wherever you go"
    ],
-   "why": "*Wherever you go…*",
+   "why": "*Wherever* — куди б не.",
    "hint": "Куди б ти не пішов, я піду за тобою."
   },
   {
@@ -275,7 +275,7 @@
    "answer": [
     "Whoever"
    ],
-   "why": "*Whoever broke the window…*"
+   "why": "*Whoever* — хто б не, той хто."
   }
  ]
 }

@@ -124,7 +124,7 @@
    "answer": [
     "too"
    ],
-   "why": "*too fast* — надто швидко.",
+   "why": "*too* + прислівник — «надто»: *too fast*.",
    "hint": "(надто)"
   },
   {
@@ -172,7 +172,7 @@
    "answer": [
     "enough"
    ],
-   "why": "*not big enough*."
+   "why": "*enough* після прикметника: *not big enough*."
   },
   {
    "id": "too-enough-16",
@@ -189,7 +189,7 @@
    "answer": [
     "The shoes are too small for me"
    ],
-   "why": "*too small for me*.",
+   "why": "*too* + прикметник + *for* + особа.",
    "hint": "Черевики мені замалі."
   },
   {
@@ -208,7 +208,7 @@
    "answer": [
     "She is not tall enough to reach it"
    ],
-   "why": "*tall enough to reach it*.",
+   "why": "Прикметник + *enough* + *to*.",
    "hint": "Вона недостатньо висока, щоб дістати."
   },
   {
@@ -225,7 +225,7 @@
    "answer": [
     "We have enough chairs for everyone"
    ],
-   "why": "*enough chairs for everyone*.",
+   "why": "*enough* перед іменником.",
    "hint": "У нас достатньо стільців для всіх."
   },
   {
@@ -243,7 +243,7 @@
    "answer": [
     "It is too cold to go out"
    ],
-   "why": "*too cold to go out*.",
+   "why": "*too* + прикметник + *to*.",
    "hint": "Надто холодно, щоб виходити."
   },
   {

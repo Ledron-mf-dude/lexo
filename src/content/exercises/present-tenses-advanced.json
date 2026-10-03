@@ -180,7 +180,7 @@
    "answer": [
     "He is always complaining about his job"
    ],
-   "why": "*is always complaining*.",
+   "why": "*always* + Continuous — роздратування.",
    "hint": "Він вічно скаржиться на роботу."
   },
   {
@@ -197,7 +197,7 @@
    "answer": [
     "I am hoping you can come"
    ],
-   "why": "*I am hoping* — м'яко.",
+   "why": "*I'm hoping* — м'якше за *I hope*.",
    "hint": "Я сподіваюся, що ти зможеш прийти."
   },
   {
@@ -215,7 +215,7 @@
    "answer": [
     "I hear you are moving to London"
    ],
-   "why": "*I hear you are moving…*",
+   "why": "*I hear* = мені сказали.",
    "hint": "Я чув, ти переїжджаєш до Лондона."
   },
   {
@@ -232,7 +232,7 @@
     "Prices are going up again",
     "Again prices are going up"
    ],
-   "why": "Тенденція — *are going up*.",
+   "why": "Тенденція — Present Continuous.",
    "hint": "Ціни знову ростуть."
   }
  ]

@@ -24,7 +24,7 @@
     "mustn't"
    ],
    "answer": 1,
-   "why": "Близько 90% — *should arrive*."
+   "why": "Висока ймовірність (~90%) — *should*."
   },
   {
    "id": "probability-should-will-3",
@@ -91,7 +91,7 @@
    "answer": [
     "Tom should know the address"
    ],
-   "why": "*should know*."
+   "why": "*should know* — скоріш за все знає."
   },
   {
    "id": "probability-should-will-9",
@@ -134,7 +134,7 @@
    "answer": [
     "have finished"
    ],
-   "why": "*should have finished*."
+   "why": "Мало б уже статися — *should have finished*."
   },
   {
    "id": "probability-should-will-13",
@@ -144,7 +144,7 @@
     "won't",
     "will not"
    ],
-   "why": "*probably won't*."
+   "why": "*probably won't* — *probably* перед *won't*."
   },
   {
    "id": "probability-should-will-14",
@@ -170,7 +170,7 @@
     "would"
    ],
    "answer": 0,
-   "why": "*will definitely*."
+   "why": "*will definitely* — точно."
   },
   {
    "id": "probability-should-will-16",
@@ -198,7 +198,7 @@
    "answer": [
     "The train should arrive soon"
    ],
-   "why": "*should arrive soon*.",
+   "why": "*should arrive* — має прибути.",
    "hint": "Потяг має скоро прибути."
   },
   {
@@ -214,7 +214,7 @@
    "answer": [
     "She will probably call tonight"
    ],
-   "why": "*will probably call*.",
+   "why": "*will probably* — ймовірно.",
    "hint": "Вона, ймовірно, зателефонує ввечері."
   },
   {
@@ -229,7 +229,7 @@
    "answer": [
     "He probably won't come"
    ],
-   "why": "*probably won't*.",
+   "why": "*probably won't* — мабуть, ні.",
    "hint": "Він, мабуть, не прийде."
   },
   {
@@ -243,7 +243,7 @@
     "shall"
    ],
    "answer": 0,
-   "why": "*should finish by five*."
+   "why": "Скоріш за все — *should finish*."
   },
   {
    "id": "probability-should-will-21",

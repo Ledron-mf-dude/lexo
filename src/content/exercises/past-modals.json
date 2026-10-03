@@ -124,7 +124,7 @@
    "answer": [
     "have asked"
    ],
-   "why": "*should have asked*."
+   "why": "Докір про минуле — *should have asked*."
   },
   {
    "id": "past-modals-11",
@@ -133,7 +133,7 @@
    "answer": [
     "have forgotten"
    ],
-   "why": "*must have forgotten*."
+   "why": "Упевнений висновок про минуле — *must have forgotten*."
   },
   {
    "id": "past-modals-12",
@@ -142,7 +142,7 @@
    "answer": [
     "have finished"
    ],
-   "why": "*can't have finished*."
+   "why": "Не може бути, що вже закінчили — *can't have finished*."
   },
   {
    "id": "past-modals-13",
@@ -151,7 +151,7 @@
    "answer": [
     "have taken"
    ],
-   "why": "*might have taken*."
+   "why": "Можливо, у минулому — *might have taken*."
   },
   {
    "id": "past-modals-14",
@@ -185,7 +185,7 @@
    "answer": [
     "You should have called me"
    ],
-   "why": "*should have called*.",
+   "why": "*should have called* — слід було подзвонити.",
    "hint": "Тобі слід було мені зателефонувати."
   },
   {
@@ -201,7 +201,7 @@
    "answer": [
     "She must have left early"
    ],
-   "why": "*must have left*.",
+   "why": "*must have left* — мабуть, пішла.",
    "hint": "Вона, мабуть, пішла рано."
   },
   {
@@ -217,7 +217,7 @@
    "answer": [
     "I could have helped you"
    ],
-   "why": "*could have helped*.",
+   "why": "*could have helped* — міг би допомогти, але не допоміг.",
    "hint": "Я міг би тобі допомогти."
   },
   {
@@ -233,7 +233,7 @@
    "answer": [
     "He can't have seen us"
    ],
-   "why": "*can't have seen*.",
+   "why": "*can't have seen* — не міг бачити.",
    "hint": "Він не міг нас бачити."
   },
   {

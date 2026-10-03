@@ -63,7 +63,7 @@
     "don't as tall as"
    ],
    "answer": 0,
-   "why": "Заперечення — *not as tall as*."
+   "why": "Заперечне порівняння — *not as tall as*."
   },
   {
    "id": "as-as-6",
@@ -89,7 +89,7 @@
     "more heavy"
    ],
    "answer": 0,
-   "why": "Звичайна форма: *as heavy as*."
+   "why": "Між *as … as* — звичайна форма прикметника: *as heavy as*."
   },
   {
    "id": "as-as-8",
@@ -105,7 +105,7 @@
    "answer": [
     "He is as strong as me"
    ],
-   "why": "*as* + прикметник + *as*."
+   "why": "*as* + прикметник + *as*: *as strong as me*."
   },
   {
    "id": "as-as-9",
@@ -134,7 +134,7 @@
    "answer": [
     "big"
    ],
-   "why": "*twice as big as* — удвічі більший.",
+   "why": "*twice as* + прикметник + *as* — удвічі більший.",
    "hint": "(big)"
   },
   {
@@ -166,7 +166,7 @@
     "more old"
    ],
    "answer": 0,
-   "why": "Звичайна форма: *as old as he looks*."
+   "why": "Між *as … as* — звичайна форма: *as old as he looks*."
   },
   {
    "id": "as-as-15",
@@ -224,7 +224,7 @@
    "answer": [
     "The bus is not as fast as the train"
    ],
-   "why": "*not as fast as*.",
+   "why": "*not as fast as* — не такий швидкий, як.",
    "hint": "Автобус не такий швидкий, як потяг."
   },
   {
@@ -242,7 +242,7 @@
    "answer": [
     "She is as tall as her mother"
    ],
-   "why": "*as tall as her mother*.",
+   "why": "*as tall as her mother* — така сама висока.",
    "hint": "Вона така ж висока, як її мама."
   },
   {
@@ -262,7 +262,7 @@
    "answer": [
     "This book is twice as long as that one"
    ],
-   "why": "*twice as long as*.",
+   "why": "*twice as long as* — «удвічі довша»: множник стоїть перед першим *as*.",
    "hint": "Ця книжка вдвічі довша за ту."
   },
   {
@@ -298,7 +298,7 @@
    "answer": [
     "as"
    ],
-   "why": "*just as … as* — «так само, як»."
+   "why": "*just as … as* — «так само, як»: *just* підсилює рівність."
   }
  ]
 }

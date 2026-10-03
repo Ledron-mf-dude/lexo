@@ -24,7 +24,7 @@
     "understood"
    ],
    "answer": 0,
-   "why": "*get a letter* = отримати лист."
+   "why": "*get a letter* — отримати лист."
   },
   {
    "id": "verb-get-3",
@@ -227,7 +227,7 @@
    "answer": [
     "It is getting cold"
    ],
-   "why": "*get* + прикметник = ставати.",
+   "why": "*get* + прикметник = ставати: *getting cold*.",
    "hint": "Стає холодно."
   },
   {

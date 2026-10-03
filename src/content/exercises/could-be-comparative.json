@@ -63,7 +63,7 @@
     "It could be warmest."
    ],
    "answer": 1,
-   "why": "*warm → warmer*."
+   "why": "Короткий прикметник *warm* — *warmer*. *more warm* — помилка."
   },
   {
    "id": "could-be-comparative-6",
@@ -76,7 +76,7 @@
     "more big"
    ],
    "answer": 1,
-   "why": "*big → bigger*."
+   "why": "*big → bigger* (подвоєння *g*). *could be bigger* — могла б бути більшою."
   },
   {
    "id": "could-be-comparative-7",
@@ -127,7 +127,7 @@
    "answer": [
     "clearer"
    ],
-   "why": "*clear → clearer*."
+   "why": "*clear → clearer*: *could be clearer* — могли б бути зрозумілішими."
   },
   {
    "id": "could-be-comparative-12",
@@ -192,7 +192,7 @@
     "cheap"
    ],
    "answer": 0,
-   "why": "*a lot cheaper*."
+   "why": "*a lot* + порівняльний: *a lot cheaper*. Короткий прикметник — *-er*."
   },
   {
    "id": "could-be-comparative-17",
@@ -208,7 +208,7 @@
    "answer": [
     "The service could be much better"
    ],
-   "why": "*much better*.",
+   "why": "*much* підсилює порівняльний: *could be much better*.",
    "hint": "Обслуговування могло б бути набагато кращим."
   },
   {
@@ -224,7 +224,7 @@
    "answer": [
     "It could have been worse"
    ],
-   "why": "*It could have been worse*.",
+   "why": "*could have been worse* — про минуле: могло бути й гірше.",
    "hint": "Могло бути й гірше."
   },
   {
@@ -267,7 +267,7 @@
     "could have"
    ],
    "answer": 1,
-   "why": "Чекали годину — *could be better*."
+   "why": "Чекали годину — є куди покращувати: *could be better*."
   },
   {
    "id": "could-be-comparative-22",

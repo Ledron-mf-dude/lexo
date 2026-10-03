@@ -120,7 +120,7 @@
    "answer": [
     "skiing"
    ],
-   "why": "*go skiing* — *go* + *-ing*."
+   "why": "*go skiing* — *go* + *-ing* для спорту."
   },
   {
    "id": "verb-go-11",
@@ -199,7 +199,7 @@
     "away"
    ],
    "answer": 0,
-   "why": "*go on* — продовжуй."
+   "why": "*go on* — продовжуй (говорити)."
   },
   {
    "id": "verb-go-18",
@@ -283,7 +283,7 @@
    "answer": [
     "bald"
    ],
-   "why": "*go bald* — облисіти."
+   "why": "*go bald* — облисіти (*go* + прикметник = стати)."
   }
  ]
 }

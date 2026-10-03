@@ -76,7 +76,7 @@
     "singing"
    ],
    "answer": 0,
-   "why": "Загальне вміння — *to sing*."
+   "why": "Загальне вміння (взагалі гарно співає) — простий інфінітив *to sing*."
   },
   {
    "id": "seem-7",
@@ -89,7 +89,7 @@
     "sung"
    ],
    "answer": 1,
-   "why": "Саме зараз — *to be singing*."
+   "why": "Саме зараз — тривалий інфінітив *to be singing*."
   },
   {
    "id": "seem-8",
@@ -119,7 +119,7 @@
    "answer": [
     "It seems that she lives in Bonn"
    ],
-   "why": "*It seems that* + повне речення."
+   "why": "*It seems that* + повне речення з підметом і дієсловом."
   },
   {
    "id": "seem-10",
@@ -137,7 +137,7 @@
    "answer": [
     "to understand"
    ],
-   "why": "*doesn't seem to understand*."
+   "why": "*doesn't seem to understand* — заперечення через *doesn't*."
   },
   {
    "id": "seem-12",
@@ -225,7 +225,7 @@
    "answer": [
     "She seems to be very busy"
    ],
-   "why": "*seems to be very busy*.",
+   "why": "*seems to be very busy* — з прикметником потрібне *to be*.",
    "hint": "Здається, вона дуже зайнята."
   },
   {
@@ -244,7 +244,7 @@
    "answer": [
     "It seems to me that he is right"
    ],
-   "why": "*It seems to me that…*",
+   "why": "*It seems to me that…* — мені здається.",
    "hint": "Мені здається, що він має рацію."
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "They seem to have left"
    ],
-   "why": "*seem to have left*.",
+   "why": "*seem to have left* — дія вже відбулася.",
    "hint": "Схоже, вони пішли."
   },
   {

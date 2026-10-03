@@ -63,7 +63,7 @@
     "after 'the'"
    ],
    "answer": 0,
-   "why": "*yet* зазвичай у кінці речення."
+   "why": "*yet* зазвичай ставимо в кінці речення: *I haven't finished yet.*"
   },
   {
    "id": "already-still-yet-6",
@@ -76,7 +76,7 @@
     "Still she asleep is."
    ],
    "answer": 1,
-   "why": "*still* — після *be*: *She is still asleep.*"
+   "why": "*still* стоїть після *to be*: *She is still asleep.*"
   },
   {
    "id": "already-still-yet-7",
@@ -121,7 +121,7 @@
    "answer": [
     "still"
    ],
-   "why": "*still* — досі чекаю.",
+   "why": "*still* — дія триває довше, ніж очікували: *I'm still waiting.*",
    "hint": "(досі)"
   },
   {
@@ -132,7 +132,7 @@
     "already",
     "just"
    ],
-   "why": "*already left* (або *just left* — щойно)."
+   "why": "*already* — уже, раніше, ніж ви встигли; *just* — щойно. Обидва підходять."
   },
   {
    "id": "already-still-yet-12",
@@ -141,7 +141,7 @@
    "answer": [
     "yet"
    ],
-   "why": "*haven't decided yet*."
+   "why": "У запереченні «ще не» — *yet* у кінці: *They haven't decided yet.*"
   },
   {
    "id": "already-still-yet-13",
@@ -150,7 +150,7 @@
    "answer": [
     "still"
    ],
-   "why": "*still hasn't paid*."
+   "why": "*still* перед заперечним допоміжним — «досі не» з роздратуванням."
   },
   {
    "id": "already-still-yet-14",
@@ -163,7 +163,7 @@
     "ever"
    ],
    "answer": 0,
-   "why": "*still open* — досі відчинено."
+   "why": "Магазин усе ще відчинений о 10 вечора — *still open*."
   },
   {
    "id": "already-still-yet-15",
@@ -176,7 +176,7 @@
     "ever"
    ],
    "answer": 0,
-   "why": "*already seen twice*."
+   "why": "*already* — вже (двічі встиг подивитися)."
   },
   {
    "id": "already-still-yet-16",
@@ -189,7 +189,7 @@
     "since"
    ],
    "answer": 0,
-   "why": "*Has it arrived yet?*"
+   "why": "У питанні «вже?» ставимо *yet* у кінці: *Has the parcel arrived yet?* *already* в питанні означало б здивування, що так швидко."
   },
   {
    "id": "already-still-yet-17",
@@ -222,7 +222,7 @@
    "answer": [
     "She still lives with her parents"
    ],
-   "why": "*still* перед основним дієсловом.",
+   "why": "*still* — перед основним дієсловом: *She still lives…*",
    "hint": "Вона досі живе з батьками."
   },
   {
@@ -238,7 +238,7 @@
    "answer": [
     "We haven't had lunch yet"
    ],
-   "why": "*yet* у кінці.",
+   "why": "«Ще не» в запереченні — *yet* у кінці речення: *We haven't had lunch yet.*",
    "hint": "Ми ще не обідали."
   },
   {
@@ -254,7 +254,7 @@
    "answer": [
     "Is it still raining outside"
    ],
-   "why": "*Is it still raining?*",
+   "why": "У питанні з *be* *still* стоїть після підмета: *Is it still raining?*",
    "hint": "На вулиці досі йде дощ?"
   },
   {
@@ -268,7 +268,7 @@
     "any more"
    ],
    "answer": 1,
-   "why": "Довше, ніж чекали, — *still working*."
+   "why": "Вона працює довше, ніж чекали, — *still working*."
   },
   {
    "id": "already-still-yet-22",
@@ -281,7 +281,7 @@
     "already"
    ],
    "answer": 2,
-   "why": "*not … any more* — уже не."
+   "why": "«Уже не» — *not … any more*: *I don't live there any more.*"
   },
   {
    "id": "already-still-yet-23",

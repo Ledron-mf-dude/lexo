@@ -76,7 +76,7 @@
     "confusion"
    ],
    "answer": 0,
-   "why": "Він спантеличений — *confused*."
+   "why": "Він відчуває спантеличення — *confused*. *confusing* описувало б інструкції."
   },
   {
    "id": "ed-ing-adjectives-7",
@@ -102,7 +102,7 @@
     "interests"
    ],
    "answer": 0,
-   "why": "Мене цікавить — *interested in*."
+   "why": "Я відчуваю інтерес — *interested in art*. *interesting* — про те, що цікаве."
   },
   {
    "id": "ed-ing-adjectives-9",
@@ -146,7 +146,7 @@
    "answer": [
     "frightened"
    ],
-   "why": "Я відчуваю страх — *frightened*."
+   "why": "Я відчув страх — *frightened*. *frightening* — про те, що лякає."
   },
   {
    "id": "ed-ing-adjectives-13",
@@ -155,7 +155,7 @@
    "answer": [
     "amazing"
    ],
-   "why": "Досвід вражає — *amazing*."
+   "why": "Досвід викликає захоплення — *amazing*."
   },
   {
    "id": "ed-ing-adjectives-14",
@@ -241,7 +241,7 @@
    "answer": [
     "I am bored with this film"
    ],
-   "why": "Я відчуваю нудьгу — *bored with*.",
+   "why": "Я відчуваю нудьгу — *bored with this film*.",
    "hint": "Мені нудно від цього фільму."
   },
   {
@@ -274,7 +274,7 @@
    "answer": [
     "She was surprised by the result"
    ],
-   "why": "Вона відчуває — *surprised by*.",
+   "why": "Вона відчула здивування — *surprised by*.",
    "hint": "Вона була здивована результатом."
   },
   {
@@ -288,7 +288,7 @@
     "exhaustion"
    ],
    "answer": 1,
-   "why": "Переліт виснажує — *exhausting*."
+   "why": "Переліт виснажує — *exhausting*; люди після нього — *exhausted*."
   },
   {
    "id": "ed-ing-adjectives-24",
@@ -301,7 +301,7 @@
     "fascination"
    ],
    "answer": 1,
-   "why": "Діти зачаровані — *fascinated*."
+   "why": "Діти відчувають захоплення — *fascinated*; шоу — *fascinating*."
   },
   {
    "id": "ed-ing-adjectives-25",
@@ -310,7 +310,7 @@
    "answer": [
     "bored"
    ],
-   "why": "Мені нудно — *bored*."
+   "why": "Мені нудно — *bored*; гра — *boring*."
   }
  ]
 }

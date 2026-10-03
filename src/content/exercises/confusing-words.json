@@ -128,7 +128,7 @@
     "looked at"
    ],
    "answer": 1,
-   "why": "Фільм по телевізору — *watch*."
+   "why": "Фільм по телевізору — *watch*: дивимося уважно щось, що рухається. *see at / look* так не вживають."
   },
   {
    "id": "confusing-words-11",
@@ -208,7 +208,7 @@
    "answer": [
     "speak"
    ],
-   "why": "Мовами говорять — *speak Spanish*.",
+   "why": "Мовою розмовляють — *speak Spanish*. *talk / say / tell* з назвою мови не вживають.",
    "hint": "(розмовляти)"
   },
   {
@@ -253,7 +253,7 @@
    "answer": [
     "She told us a funny story"
    ],
-   "why": "*tell a story*; *funny* — смішний.",
+   "why": "*tell a story* — розповідати історію; *funny* — смішний (а *fun* — весело).",
    "hint": "Вона розповіла нам смішну історію."
   }
  ]

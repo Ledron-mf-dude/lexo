@@ -113,7 +113,7 @@
    "answer": [
     "She seems to have left"
    ],
-   "why": "*seems to have left* — дія раніша."
+   "why": "*seems to have left* — дія відбулася раніше."
   },
   {
    "id": "infinitive-forms-10",
@@ -188,7 +188,7 @@
     "taken"
    ],
    "answer": 0,
-   "why": "Минуле — *might have taken*."
+   "why": "Припущення про минуле — *might have taken*."
   },
   {
    "id": "infinitive-forms-17",
@@ -233,7 +233,7 @@
    "answer": [
     "He must have missed the train"
    ],
-   "why": "*must have missed*.",
+   "why": "*must have missed* — упевнений висновок про минуле.",
    "hint": "Він, мабуть, спізнився на потяг."
   },
   {
@@ -249,7 +249,7 @@
    "answer": [
     "They should be arriving soon"
    ],
-   "why": "*should be arriving*.",
+   "why": "*should be arriving* — мають от-от прибути (процес).",
    "hint": "Вони мають скоро прибути."
   },
   {
@@ -285,7 +285,7 @@
    "answer": [
     "think"
    ],
-   "why": "*let* + інфінітив без *to*."
+   "why": "*let* + інфінітив без *to*: *Let me think.*"
   }
  ]
 }

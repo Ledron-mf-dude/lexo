@@ -146,7 +146,7 @@
    "answer": [
     "better"
    ],
-   "why": "*good → better*: неправильна форма."
+   "why": "*good* має неправильну форму порівняльного ступеня — *better*."
   },
   {
    "id": "comparatives-superlatives-13",
@@ -155,7 +155,7 @@
    "answer": [
     "biggest"
    ],
-   "why": "*big → the biggest*: подвоєння *g* і *the*."
+   "why": "Найвищий ступінь з *the*; *big* подвоює *g*: *the biggest*."
   },
   {
    "id": "comparatives-superlatives-14",
@@ -164,7 +164,7 @@
    "answer": [
     "more difficult"
    ],
-   "why": "Довгий прикметник — *more difficult*."
+   "why": "Довгий прикметник — *more difficult*, а не *difficulter*."
   },
   {
    "id": "comparatives-superlatives-15",
@@ -182,7 +182,7 @@
    "answer": [
     "worst"
    ],
-   "why": "*bad → the worst*."
+   "why": "*bad – worse – worst*; після *the* і *I've ever seen* — найвищий: *the worst*."
   },
   {
    "id": "comparatives-superlatives-17",
@@ -281,7 +281,7 @@
    "answer": [
     "My sister is older than me"
    ],
-   "why": "Порівняльний + *than*: *older than me*.",
+   "why": "Порівнюємо двох людей — порівняльний ступінь + *than*: *older than me*.",
    "hint": "Моя сестра старша за мене."
   },
   {
@@ -301,7 +301,7 @@
    "answer": [
     "This is the most interesting book I have read"
    ],
-   "why": "Довгий прикметник — *the most interesting*.",
+   "why": "Довгий прикметник у найвищому ступені — *the most interesting*.",
    "hint": "Це найцікавіша книжка, яку я прочитав."
   },
   {
@@ -341,7 +341,7 @@
     "more hot"
    ],
    "answer": 2,
-   "why": "*hot → the hottest*: подвоєння *t*."
+   "why": "Найвищий ступінь — *the hottest*, з подвоєним *t*."
   },
   {
    "id": "comparatives-superlatives-28",
@@ -350,7 +350,7 @@
    "answer": [
     "worse"
    ],
-   "why": "*bad → worse* (порівняльний)."
+   "why": "Порівнюємо два іспити (*than*) — порівняльний: *worse*."
   }
  ]
 }

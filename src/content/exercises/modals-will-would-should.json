@@ -115,7 +115,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "*would* — звичка в минулому."
+   "why": "Повторювана дія в минулому — *would* + дієслово без *to*: *my grandfather would sit by the fire*."
   },
   {
    "id": "modals-will-would-should-10",
@@ -184,7 +184,7 @@
    "answer": [
     "That will be the postman"
    ],
-   "why": "*That will be the postman.*",
+   "why": "*will be* тут — упевнене припущення про теперішнє: «це, мабуть, листоноша».",
    "hint": "Це, мабуть, листоноша."
   },
   {
@@ -219,7 +219,7 @@
    "answer": [
     "The window won't close"
    ],
-   "why": "*won't close*.",
+   "why": "*won't* про річ — вона «не хоче» працювати: *The window won't close.*",
    "hint": "Вікно не зачиняється."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "I would think they will agree"
    ],
-   "why": "*I would think…* — обережно.",
+   "why": "*I would think…* — обережна, м'яка думка, менш категорична за *I think*.",
    "hint": "Гадаю, вони погодяться."
   }
  ]

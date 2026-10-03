@@ -63,7 +63,7 @@
     "while"
    ],
    "answer": 0,
-   "why": "*for* + період: *for two weeks*."
+   "why": "*for* + тривалість: *for two weeks*. *since* потребує моменту початку."
   },
   {
    "id": "during-for-while-since-6",
@@ -102,7 +102,7 @@
     "ago"
    ],
    "answer": 1,
-   "why": "*since Monday* — момент початку."
+   "why": "*since* + момент, коли почалося: *since Monday*."
   },
   {
    "id": "during-for-while-since-9",
@@ -115,7 +115,7 @@
     "at / at"
    ],
    "answer": 0,
-   "why": "*from … to* — з … до."
+   "why": "*from … to* — «з … до»: *from 9 to 5*."
   },
   {
    "id": "during-for-while-since-10",
@@ -146,7 +146,7 @@
    "answer": [
     "for"
    ],
-   "why": "*for over an hour* — тривалість."
+   "why": "*for* + тривалість: *for over an hour*."
   },
   {
    "id": "during-for-while-since-13",
@@ -175,7 +175,7 @@
    "answer": [
     "ago"
    ],
-   "why": "*ten years ago*."
+   "why": "*ago* — «тому» від теперішнього моменту, з Past Simple."
   },
   {
    "id": "during-for-while-since-16",
@@ -201,7 +201,7 @@
     "during"
    ],
    "answer": 0,
-   "why": "*since 2018*."
+   "why": "*since* + рік початку з Present Perfect: *She's been a teacher since 2018.*"
   },
   {
    "id": "during-for-while-since-18",
@@ -214,7 +214,7 @@
     "since"
    ],
    "answer": 0,
-   "why": "*during the night*."
+   "why": "*during* + іменник: *during the night*. *while* вимагав би речення."
   },
   {
    "id": "during-for-while-since-19",
@@ -227,7 +227,7 @@
     "since"
    ],
    "answer": 0,
-   "why": "*while* + речення."
+   "why": "*while* + речення з дієсловом: *while I was waiting*."
   },
   {
    "id": "during-for-while-since-20",
@@ -240,7 +240,7 @@
     "during / to"
    ],
    "answer": 0,
-   "why": "*from 8 am to 9 pm*."
+   "why": "*from … to*: *from 8 am to 9 pm*."
   },
   {
    "id": "during-for-while-since-21",
@@ -258,7 +258,7 @@
     "I have lived here for five years",
     "For five years I have lived here"
    ],
-   "why": "*for five years*.",
+   "why": "*for* + тривалість, Present Perfect: *I have lived here for five years.*",
    "hint": "Я живу тут п'ять років."
   },
   {
@@ -276,7 +276,7 @@
     "She fell asleep during the lesson",
     "During the lesson she fell asleep"
    ],
-   "why": "*during the lesson*.",
+   "why": "*during* + іменник: *during the lesson*.",
    "hint": "Вона заснула під час уроку."
   },
   {
@@ -294,7 +294,7 @@
     "He called while I was cooking",
     "While I was cooking he called"
    ],
-   "why": "*while I was cooking*.",
+   "why": "*while* + речення: *while I was cooking*.",
    "hint": "Він зателефонував, поки я готував."
   },
   {
@@ -308,7 +308,7 @@
     "for"
    ],
    "answer": 1,
-   "why": "*three years ago*."
+   "why": "Від теперішнього моменту назад — *ago*: *three years ago*."
   },
   {
    "id": "during-for-while-since-25",

@@ -141,7 +141,7 @@
    "answer": [
     "whose"
    ],
-   "why": "«Чия машина» — *whose*."
+   "why": "«Чия машина» — *whose*: *the man whose car was stolen*."
   },
   {
    "id": "relative-clauses-12",
@@ -196,7 +196,7 @@
     "what"
    ],
    "answer": 0,
-   "why": "Про людину — *who*."
+   "why": "Про людину — *who* (або *that*); *which* — про речі."
   },
   {
    "id": "relative-clauses-17",
@@ -209,7 +209,7 @@
     "what"
    ],
    "answer": 0,
-   "why": "Про людей — *who*."
+   "why": "Про людей — *who*: *people who are rude*."
   },
   {
    "id": "relative-clauses-18",
@@ -222,7 +222,7 @@
     "where"
    ],
    "answer": 0,
-   "why": "У комах — *which*, не *that*."
+   "why": "У підрядному в комах (додаткова інформація) про місто — *which*; *that* у комах не вживають."
   },
   {
    "id": "relative-clauses-19",
@@ -235,7 +235,7 @@
     "whose"
    ],
    "answer": 0,
-   "why": "*the reason why* — причина."
+   "why": "*the reason why* — «причина, чому»."
   },
   {
    "id": "relative-clauses-20",
@@ -252,7 +252,7 @@
    "answer": [
     "The book that I bought is great"
    ],
-   "why": "*that* — про річ.",
+   "why": "*that* про річ у визначальному підрядному (можна пропустити: *The book I bought…*).",
    "hint": "Книжка, яку я купив, — чудова."
   },
   {
@@ -271,7 +271,7 @@
    "answer": [
     "This is the house where I grew up"
    ],
-   "why": "*where* — про місце.",
+   "why": "*where* — про місце: *the house where I grew up*.",
    "hint": "Це будинок, де я виріс."
   },
   {
@@ -289,7 +289,7 @@
    "answer": [
     "The man who called you is here"
    ],
-   "why": "*who* — підмет.",
+   "why": "*who* — підмет підрядного, пропустити не можна.",
    "hint": "Чоловік, що тобі дзвонив, тут."
   },
   {

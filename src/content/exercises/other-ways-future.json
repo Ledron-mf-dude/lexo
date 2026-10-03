@@ -24,7 +24,7 @@
     "is to be"
    ],
    "answer": 0,
-   "why": "*be due to* — за розкладом."
+   "why": "За розкладом — *be due to*: *The train is due to arrive at 6:30.*"
   },
   {
    "id": "other-ways-future-3",
@@ -103,7 +103,7 @@
    "answer": [
     "The flight is due to land at noon"
    ],
-   "why": "*is due to land*."
+   "why": "*be due to* + дієслово — за розкладом."
   },
   {
    "id": "other-ways-future-9",
@@ -112,7 +112,7 @@
    "answer": [
     "to"
    ],
-   "why": "*be about to* + дієслово."
+   "why": "*be about to* + дієслово — «ось-ось»."
   },
   {
    "id": "other-ways-future-10",
@@ -176,7 +176,7 @@
     "left"
    ],
    "answer": 0,
-   "why": "*be on the point of* + *-ing*."
+   "why": "*be on the point of* + *-ing* — «якраз збирався»."
   },
   {
    "id": "other-ways-future-15",
@@ -189,7 +189,7 @@
     "is set"
    ],
    "answer": 0,
-   "why": "*is about to leave*."
+   "why": "От-от — *is about to leave*."
   },
   {
    "id": "other-ways-future-16",
@@ -202,7 +202,7 @@
     "on the point"
    ],
    "answer": 0,
-   "why": "*is likely to rain*."
+   "why": "Ймовірно — *is likely to rain*."
   },
   {
    "id": "other-ways-future-17",
@@ -218,7 +218,7 @@
    "answer": [
     "The film is about to start"
    ],
-   "why": "*is about to start*.",
+   "why": "*is about to start* — фільм от-от почнеться.",
    "hint": "Фільм ось-ось почнеться."
   },
   {
@@ -237,7 +237,7 @@
    "answer": [
     "The train is due to arrive at six"
    ],
-   "why": "*is due to arrive*.",
+   "why": "*is due to arrive* — має прибути за розкладом.",
    "hint": "Потяг має прибути о шостій."
   },
   {
@@ -253,7 +253,7 @@
    "answer": [
     "Prices are set to rise"
    ],
-   "why": "*are set to rise*.",
+   "why": "*are set to rise* — от-от зростуть (так пишуть у новинах).",
    "hint": "Ціни ось-ось зростуть."
   },
   {
@@ -267,7 +267,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "*due to land*."
+   "why": "За розкладом — *due to land*."
   },
   {
    "id": "other-ways-future-21",
@@ -280,7 +280,7 @@
     "verge"
    ],
    "answer": 1,
-   "why": "*about to start*."
+   "why": "Ось-ось — *about to start*."
   },
   {
    "id": "other-ways-future-22",

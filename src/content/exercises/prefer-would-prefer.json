@@ -89,7 +89,7 @@
     "I would rather goes home."
    ],
    "answer": 1,
-   "why": "Після *would rather* — без *to*."
+   "why": "Після *would rather* — інфінітив без *to*: *I would rather go home.*"
   },
   {
    "id": "prefer-would-prefer-8",
@@ -102,7 +102,7 @@
     "went"
    ],
    "answer": 0,
-   "why": "*would rather not go*."
+   "why": "*would rather not* + дієслово без *to*."
   },
   {
    "id": "prefer-would-prefer-9",
@@ -134,7 +134,7 @@
    "answer": [
     "not to go"
    ],
-   "why": "*would prefer not to go*."
+   "why": "*would prefer not to* + дієслово."
   },
   {
    "id": "prefer-would-prefer-12",
@@ -143,7 +143,7 @@
    "answer": [
     "walk"
    ],
-   "why": "*would rather walk*."
+   "why": "*would rather* + дієслово без *to*."
   },
   {
    "id": "prefer-would-prefer-13",
@@ -174,7 +174,7 @@
     "to travelling"
    ],
    "answer": 0,
-   "why": "*would prefer to travel*."
+   "why": "*would prefer* + *to* + дієслово."
   },
   {
    "id": "prefer-would-prefer-16",
@@ -213,7 +213,7 @@
     "like to"
    ],
    "answer": 0,
-   "why": "*I'd rather have tea*."
+   "why": "*I'd rather have…* — «я б краще…»."
   },
   {
    "id": "prefer-would-prefer-19",
@@ -228,7 +228,7 @@
    "answer": [
     "I prefer coffee to tea"
    ],
-   "why": "*prefer coffee to tea*.",
+   "why": "*prefer X to Y*.",
    "hint": "Я віддаю перевагу каві перед чаєм."
   },
   {
@@ -275,7 +275,7 @@
     "you staying"
    ],
    "answer": 1,
-   "why": "*would prefer you to stay*."
+   "why": "*would prefer* + особа + *to*: *I'd prefer you to stay.*"
   },
   {
    "id": "prefer-would-prefer-23",
@@ -297,7 +297,7 @@
    "answer": [
     "to"
    ],
-   "why": "*I'd prefer not to.*"
+   "why": "*I'd prefer not to* — дієслово після *to* пропускаємо."
   }
  ]
 }

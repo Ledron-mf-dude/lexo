@@ -154,7 +154,7 @@
    "answer": [
     "for"
    ],
-   "why": "*thank somebody for* + *-ing*."
+   "why": "*thank somebody for* + *-ing*: *thanked us for coming*."
   },
   {
    "id": "reporting-verbs-14",
@@ -189,7 +189,7 @@
     "denied"
    ],
    "answer": 0,
-   "why": "Обіцянка — *promised to help*."
+   "why": "«Я допоможу, обіцяю» — *promised to help*."
   },
   {
    "id": "reporting-verbs-17",
@@ -202,7 +202,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "*blame somebody for* + *-ing*."
+   "why": "*blame somebody for* + *-ing* — звинуватити в чомусь."
   },
   {
    "id": "reporting-verbs-18",
@@ -215,7 +215,7 @@
     "apologised"
    ],
    "answer": 0,
-   "why": "*invite somebody to* + подія."
+   "why": "Запрошення — *invited me to her party*."
   },
   {
    "id": "reporting-verbs-19",
@@ -230,7 +230,7 @@
    "answer": [
     "He apologised for being late"
    ],
-   "why": "*apologised for being late*.",
+   "why": "*apologise for* + *-ing*.",
    "hint": "Він вибачився за запізнення."
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "She advised me to see a doctor"
    ],
-   "why": "*advised me to see a doctor*.",
+   "why": "*advise* + особа + *to*.",
    "hint": "Вона порадила мені звернутися до лікаря."
   },
   {

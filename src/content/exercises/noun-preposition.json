@@ -63,7 +63,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*demand for* — попит на."
+   "why": "*demand for* — попит на щось."
   },
   {
    "id": "noun-preposition-6",
@@ -89,7 +89,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "*trouble with* — проблеми з."
+   "why": "*trouble with* — труднощі з чимось."
   },
   {
    "id": "noun-preposition-8",
@@ -111,7 +111,7 @@
    "answer": [
     "to"
    ],
-   "why": "*key to* — ключ до."
+   "why": "*key to* — ключ до (успіху)."
   },
   {
    "id": "noun-preposition-10",
@@ -120,7 +120,7 @@
    "answer": [
     "in"
    ],
-   "why": "*fall in* — зниження чогось."
+   "why": "*fall in* — зниження в чомусь (як *increase in*)."
   },
   {
    "id": "noun-preposition-11",
@@ -131,7 +131,7 @@
     "of",
     "with"
    ],
-   "why": "*experience in / of / with*."
+   "why": "*experience in* (сфера), також *of / with*."
   },
   {
    "id": "noun-preposition-12",
@@ -142,7 +142,7 @@
     "of",
     "about"
    ],
-   "why": "*opinion on / of / about*."
+   "why": "*opinion on / of / about* — думка щодо."
   },
   {
    "id": "noun-preposition-13",
@@ -173,7 +173,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*invitation to* — запрошення на."
+   "why": "*invitation to* — запрошення на подію."
   },
   {
    "id": "noun-preposition-16",
@@ -186,7 +186,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "З числом — *increase of 5%*."
+   "why": "Розмір зміни (число) — *increase of 5%*; те, що зросло, — *increase in prices*."
   },
   {
    "id": "noun-preposition-17",
@@ -199,7 +199,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "*lack of* — брак."
+   "why": "*lack of* — брак чогось."
   },
   {
    "id": "noun-preposition-18",
@@ -212,7 +212,7 @@
     "for"
    ],
    "answer": 0,
-   "why": "*relationship with*."
+   "why": "*relationship with* — стосунки з кимось."
   },
   {
    "id": "noun-preposition-19",
@@ -229,7 +229,7 @@
    "answer": [
     "What is the reason for the delay"
    ],
-   "why": "*reason for*.",
+   "why": "*reason for* — причина чогось.",
    "hint": "Яка причина затримки?"
   },
   {
@@ -247,7 +247,7 @@
    "answer": [
     "There has been an increase in crime"
    ],
-   "why": "*increase in*.",
+   "why": "*increase in* — зростання чогось.",
    "hint": "Злочинність зросла."
   },
   {
@@ -265,7 +265,7 @@
    "answer": [
     "I don't see any difference between them"
    ],
-   "why": "*difference between*.",
+   "why": "*difference between* — різниця між.",
    "hint": "Я не бачу різниці між ними."
   },
   {
@@ -292,7 +292,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "*by mistake* — випадково."
+   "why": "*by mistake* — випадково, помилково."
   },
   {
    "id": "noun-preposition-24",

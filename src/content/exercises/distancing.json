@@ -24,7 +24,7 @@
     "that he is"
    ],
    "answer": 0,
-   "why": "*is said to be* — кажуть, що він."
+   "why": "*be said to* + інфінітив — «кажуть, що»: *He is said to be very rich.*"
   },
   {
    "id": "distancing-3",
@@ -76,7 +76,7 @@
     "Appears"
    ],
    "answer": 0,
-   "why": "*It appears that…* — схоже, що."
+   "why": "*It appears that…* — «схоже, що» (обережне твердження)."
   },
   {
    "id": "distancing-7",
@@ -124,7 +124,7 @@
    "answer": [
     "to be"
    ],
-   "why": "*is thought to be*."
+   "why": "*be thought to be* — «вважають, що є»."
   },
   {
    "id": "distancing-11",
@@ -149,7 +149,7 @@
    "answer": [
     "According"
    ],
-   "why": "*According to the forecast*."
+   "why": "*According to* + джерело — «за даними, згідно з»."
   },
   {
    "id": "distancing-13",
@@ -168,7 +168,7 @@
    "answer": [
     "to have resigned"
    ],
-   "why": "Учора — *to have resigned*."
+   "why": "Подія вчора, раніше за повідомлення, — перфектний інфінітив *to have resigned*."
   },
   {
    "id": "distancing-15",
@@ -177,7 +177,7 @@
    "answer": [
     "tend"
    ],
-   "why": "*tend to buy*.",
+   "why": "*tend to* + дієслово — «мають схильність, зазвичай».",
    "hint": "(мають схильність)"
   },
   {
@@ -195,7 +195,7 @@
     "He is apparently leaving",
     "He is leaving apparently"
    ],
-   "why": "*Apparently* — як кажуть.",
+   "why": "*Apparently* — «як кажуть, схоже»: дистанція від чуток.",
    "hint": "Кажуть, він іде (з роботи)."
   },
   {
@@ -215,7 +215,7 @@
    "answer": [
     "It is believed that the fire started at night"
    ],
-   "why": "*It is believed that…*",
+   "why": "*It is believed that…* — «вважають, що…».",
    "hint": "Вважають, що пожежа почалася вночі."
   },
   {
@@ -232,7 +232,7 @@
    "answer": [
     "The plan seems to be working"
    ],
-   "why": "*seems to be working*.",
+   "why": "*seems to be working* — схоже, працює (процес зараз).",
    "hint": "Схоже, план працює."
   },
   {
@@ -246,7 +246,7 @@
     "There seem that"
    ],
    "answer": 1,
-   "why": "*There seems to be a problem.*"
+   "why": "*There seems to be a problem* — здається, є проблема (м'якше, ніж *There is*)."
   },
   {
    "id": "distancing-20",
@@ -268,7 +268,7 @@
    "answer": [
     "to change"
    ],
-   "why": "*Would it be possible to change…?*"
+   "why": "*Would it be possible to…?* — дуже ввічливе прохання з інфінітивом."
   }
  ]
 }

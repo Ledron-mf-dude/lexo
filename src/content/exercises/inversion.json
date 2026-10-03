@@ -125,7 +125,7 @@
     "have",
     "had"
    ],
-   "why": "*Never have / had I heard…*"
+   "why": "Після *Never* на початку — інверсія: *have / had I heard*."
   },
   {
    "id": "inversion-11",
@@ -135,7 +135,7 @@
     "does",
     "did"
    ],
-   "why": "*Seldom does / did he complain.*"
+   "why": "Після *Seldom* — інверсія з *does / did*."
   },
   {
    "id": "inversion-12",
@@ -179,7 +179,7 @@
     "did"
    ],
    "answer": 0,
-   "why": "*Only after the exam did I relax.*"
+   "why": "Після *Only after…* інверсія в головній частині: *did I relax*."
   },
   {
    "id": "inversion-16",
@@ -222,7 +222,7 @@
    "answer": [
     "Never have I seen such a mess"
    ],
-   "why": "*Never have I seen…*",
+   "why": "*Never have I seen…* — допоміжне перед підметом.",
    "hint": "Ніколи я не бачив такого безладу."
   },
   {
@@ -238,7 +238,7 @@
    "answer": [
     "Rarely do we eat out"
    ],
-   "why": "*Rarely do we eat out.*",
+   "why": "*Rarely do we eat out* — інверсія з *do*.",
    "hint": "Ми рідко їмо поза домом."
   },
   {
@@ -258,7 +258,7 @@
    "answer": [
     "Not only did she sing but she also danced"
    ],
-   "why": "*Not only did she sing…*",
+   "why": "*Not only did she sing…* — інверсія з *did*.",
    "hint": "Вона не тільки співала, а й танцювала."
   },
   {
@@ -295,7 +295,7 @@
     "when",
     "before"
    ],
-   "why": "*hardly … when* (або *before*)."
+   "why": "*hardly … when* — «ледве …, як» (або *before*)."
   }
  ]
 }

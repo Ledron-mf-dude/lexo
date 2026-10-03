@@ -63,7 +63,7 @@
     "full-timed"
    ],
    "answer": 0,
-   "why": "*full-time job* — робота на повний день."
+   "why": "*full-time* — на повний робочий день; складний прикметник через дефіс."
   },
   {
    "id": "compound-adjectives-6",
@@ -76,7 +76,7 @@
     "third-course"
    ],
    "answer": 0,
-   "why": "*a three-course meal* — іменник в однині."
+   "why": "У складному прикметнику іменник в однині: *a three-course meal*, хоча страв три."
   },
   {
    "id": "compound-adjectives-7",
@@ -89,7 +89,7 @@
     "five-old-year"
    ],
    "answer": 0,
-   "why": "*a five-year-old car*."
+   "why": "*a five-year-old car* — однина й дефіси."
   },
   {
    "id": "compound-adjectives-8",
@@ -111,7 +111,7 @@
    "answer": [
     "two-hour"
    ],
-   "why": "*a two-hour drive* — однина, дефіс."
+   "why": "*a two-hour drive* — однина й дефіс, хоча годин дві."
   },
   {
    "id": "compound-adjectives-10",
@@ -120,7 +120,7 @@
    "answer": [
     "six-year-old"
    ],
-   "why": "*a six-year-old daughter*."
+   "why": "Вік перед іменником — складний прикметник через дефіси, *year* в однині: *a six-year-old daughter*."
   },
   {
    "id": "compound-adjectives-11",
@@ -129,7 +129,7 @@
    "answer": [
     "three-bedroom"
    ],
-   "why": "*a three-bedroom house*.",
+   "why": "Перед іменником кількість + іменник в однині через дефіс: *a three-bedroom house*.",
    "hint": "(three bedrooms)"
   },
   {
@@ -140,7 +140,7 @@
     "hard-working",
     "hardworking"
    ],
-   "why": "*hard-working* (або разом *hardworking*)."
+   "why": "*hard-working* — працьовитий (прикметник + *-ing*)."
   },
   {
    "id": "compound-adjectives-13",
@@ -149,7 +149,7 @@
    "answer": [
     "blue-eyed"
    ],
-   "why": "Прикметник + іменник + *-ed*: *blue-eyed*.",
+   "why": "Прикметник + іменник + *-ed*: *blue-eyed* — блакитноокий.",
    "hint": "(blue eyes)"
   },
   {
@@ -163,7 +163,7 @@
     "ten-poundes"
    ],
    "answer": 0,
-   "why": "*a ten-pound note* — однина."
+   "why": "*a ten-pound note* — однина в складному прикметнику."
   },
   {
    "id": "compound-adjectives-15",
@@ -189,7 +189,7 @@
     "old fashions"
    ],
    "answer": 0,
-   "why": "*old-fashioned* — старомодний."
+   "why": "*old-fashioned* — «старомодний»; складний прикметник із дефісом і закінченням *-ed*."
   },
   {
    "id": "compound-adjectives-17",
@@ -217,7 +217,7 @@
    "answer": [
     "We had a three-course meal"
    ],
-   "why": "*a three-course meal*.",
+   "why": "*a three-course meal* — обід із трьох страв.",
    "hint": "Ми мали обід із трьох страв."
   },
   {
@@ -233,7 +233,7 @@
    "answer": [
     "She has a part-time job"
    ],
-   "why": "*a part-time job*.",
+   "why": "*a part-time job* — неповний робочий день.",
    "hint": "Вона працює неповний робочий день."
   },
   {
@@ -249,7 +249,7 @@
    "answer": [
     "It was a ten-minute walk"
    ],
-   "why": "*a ten-minute walk*.",
+   "why": "*a ten-minute walk* — іменник *minute* в однині, бо це частина прикметника.",
    "hint": "Це була десятихвилинна прогулянка."
   },
   {
@@ -285,7 +285,7 @@
    "answer": [
     "two-hour"
    ],
-   "why": "*a two-hour flight*."
+   "why": "*a two-hour flight* — однина й дефіс."
   }
  ]
 }

@@ -143,7 +143,7 @@
     "much more"
    ],
    "answer": 0,
-   "why": "*the more you will earn*."
+   "why": "Друга частина теж з *the* + порівняльний: *the more you will earn*."
   },
   {
    "id": "the-more-the-more-13",
@@ -250,7 +250,7 @@
     "fewer"
    ],
    "answer": 0,
-   "why": "*The less you sleep…*"
+   "why": "*The less you sleep…* — *less* з дієсловом (не *fewer*)."
   },
   {
    "id": "the-more-the-more-20",
@@ -263,7 +263,7 @@
     "more merry"
    ],
    "answer": 0,
-   "why": "*the merrier*."
+   "why": "Сталий вираз *the more, the merrier*."
   },
   {
    "id": "the-more-the-more-21",
@@ -272,7 +272,7 @@
    "answer": [
     "earlier"
    ],
-   "why": "*The earlier we start…*"
+   "why": "*early → earlier*: *The earlier we start, the sooner…*"
   }
  ]
 }
