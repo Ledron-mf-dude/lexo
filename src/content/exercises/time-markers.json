@@ -153,7 +153,7 @@
    "answer": [
     "at"
    ],
-   "why": "*at the moment* — сталий вираз."
+   "why": "*at the moment* — сталий вираз «зараз»."
   },
   {
    "id": "time-markers-14",
@@ -162,7 +162,7 @@
    "answer": [
     "next"
    ],
-   "why": "*next week* — без прийменника.",
+   "why": "Перед *next, last, this* прийменник не ставимо: *next week*.",
    "hint": "(наступного)"
   },
   {

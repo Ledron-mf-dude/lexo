@@ -50,7 +50,7 @@
     "to have leave"
    ],
    "answer": 0,
-   "why": "*to have left* — дія раніша."
+   "why": "Вона вже пішла — дія раніша: *to have left*."
   },
   {
    "id": "perfect-aspect-5",
@@ -125,7 +125,7 @@
     "had started",
     "had already started"
    ],
-   "why": "*had started*."
+   "why": "До нашого приходу фільм уже почався — *had started*."
   },
   {
    "id": "perfect-aspect-11",
@@ -154,7 +154,7 @@
    "answer": [
     "have earned"
    ],
-   "why": "*to have earned*."
+   "why": "Заробив у минулому — *to have earned*."
   },
   {
    "id": "perfect-aspect-14",
@@ -201,7 +201,7 @@
    "answer": [
     "She seems to have forgotten"
    ],
-   "why": "*seems to have forgotten*.",
+   "why": "*seems to have forgotten* — схоже, забула.",
    "hint": "Здається, вона забула."
   },
   {
@@ -219,7 +219,7 @@
     "By noon we will have finished",
     "We will have finished by noon"
    ],
-   "why": "*By noon we will have finished.*",
+   "why": "*By noon* — Future Perfect: *will have finished*.",
    "hint": "До полудня ми закінчимо."
   },
   {
@@ -238,7 +238,7 @@
     "Having lived abroad she speaks three languages",
     "Having lived abroad, she speaks three languages"
    ],
-   "why": "*Having lived abroad…*",
+   "why": "*Having lived abroad* — спершу пожила, тому знає мови.",
    "hint": "Поживши за кордоном, вона говорить трьома мовами."
   }
  ]

@@ -192,7 +192,7 @@
    "answer": [
     "She has long black hair"
    ],
-   "why": "Довжина → колір: *long black hair*.",
+   "why": "Прикметники стоять у сталому порядку: спершу розмір чи довжина (*long*), потім колір (*black*): *long black hair*. *black long hair* звучить для носія неправильно.",
    "hint": "У неї довге чорне волосся."
   },
   {
@@ -209,7 +209,7 @@
    "answer": [
     "I need a big plastic bag"
    ],
-   "why": "Розмір → матеріал: *a big plastic bag*.",
+   "why": "Розмір (*big*) іде перед матеріалом (*plastic*): матеріал завжди ближче до іменника.",
    "hint": "Мені потрібен великий пластиковий пакет."
   },
   {
@@ -226,7 +226,7 @@
    "answer": [
     "He wore an old leather jacket"
    ],
-   "why": "Вік → матеріал; *an* перед голосним звуком.",
+   "why": "Вік (*old*) стоїть перед матеріалом (*leather*). Артикль *an*, бо *old* починається з голосного звуку.",
    "hint": "Він був у старій шкіряній куртці."
   },
   {
@@ -243,7 +243,7 @@
    "answer": [
     "They have a lovely little garden"
    ],
-   "why": "Думка → розмір: *a lovely little garden*.",
+   "why": "Оцінка (*lovely*) завжди перша, розмір (*little*) — після неї: *a lovely little garden*.",
    "hint": "У них чудовий маленький сад."
   },
   {
@@ -257,7 +257,7 @@
     "a cotton shirt white"
    ],
    "answer": 1,
-   "why": "Колір → матеріал: *a white cotton shirt*."
+   "why": "Колір (*white*) стоїть перед матеріалом (*cotton*), а обидва — перед іменником."
   },
   {
    "id": "adjective-order-20",
@@ -287,7 +287,7 @@
    "answer": [
     "She bought a lovely old wooden table"
    ],
-   "why": "Думка → вік → матеріал.",
+   "why": "Порядок: оцінка (*lovely*) → вік (*old*) → матеріал (*wooden*) → іменник.",
    "hint": "Вона купила гарний старий дерев'яний стіл."
   }
  ]

@@ -24,7 +24,7 @@
     "most"
    ],
    "answer": 0,
-   "why": "Набагато — *a lot* + порівняльний."
+   "why": "«Набагато» перед порівняльним — *a lot*. *very* з порівняльним не вживається."
   },
   {
    "id": "comparative-modifiers-3",
@@ -50,7 +50,7 @@
     "hottest"
    ],
    "answer": 1,
-   "why": "*hot → hotter*: подвоєння *t*."
+   "why": "Односкладовий *hot* (приголосна + голосна + приголосна) подвоює кінцеву: *hotter*."
   },
   {
    "id": "comparative-modifiers-5",
@@ -63,7 +63,7 @@
     "convenientest"
    ],
    "answer": 1,
-   "why": "Довгий прикметник — *more convenient*."
+   "why": "Трискладовий *convenient* — *more convenient*."
   },
   {
    "id": "comparative-modifiers-6",
@@ -76,7 +76,7 @@
     "far"
    ],
    "answer": 0,
-   "why": "*a little bit* — трохи."
+   "why": "*a little bit* означає «трохи» (= *slightly*). *a lot, much, far* — «набагато»."
   },
   {
    "id": "comparative-modifiers-7",
@@ -89,7 +89,7 @@
     "a bit"
    ],
    "answer": 0,
-   "why": "*very* з порівняльним не поєднується."
+   "why": "*very* не стоїть перед порівняльним ступенем; *much / a lot / a bit* — стоять."
   },
   {
    "id": "comparative-modifiers-8",
@@ -105,7 +105,7 @@
    "answer": [
     "It is a lot more expensive"
    ],
-   "why": "*a lot more expensive*."
+   "why": "*a lot* + *more* + довгий прикметник."
   },
   {
    "id": "comparative-modifiers-9",
@@ -116,7 +116,7 @@
     "a lot",
     "far"
    ],
-   "why": "Набагато — *much / a lot / far*."
+   "why": "«Набагато» — *much / a lot / far* + порівняльний."
   },
   {
    "id": "comparative-modifiers-10",
@@ -126,7 +126,7 @@
     "bit",
     "little"
    ],
-   "why": "Трохи — *a bit / a little*."
+   "why": "«Трохи» — *a bit / a little* + порівняльний."
   },
   {
    "id": "comparative-modifiers-11",
@@ -145,7 +145,7 @@
    "answer": [
     "more"
    ],
-   "why": "*many more* + лічильне."
+   "why": "З лічильними — *many more* (з нелічильними — *much more*)."
   },
   {
    "id": "comparative-modifiers-13",
@@ -169,7 +169,7 @@
     "more"
    ],
    "answer": 0,
-   "why": "*much colder* — *very* не підходить."
+   "why": "*much colder* — *very* і *too much* з порівняльним не вживаються."
   },
   {
    "id": "comparative-modifiers-15",
@@ -182,7 +182,7 @@
     "too"
    ],
    "answer": 0,
-   "why": "*a lot better*."
+   "why": "«Набагато краще» — *a lot better*. *very better* не кажуть, *lot* без *a* — помилка."
   },
   {
    "id": "comparative-modifiers-16",
@@ -195,7 +195,7 @@
     "a few"
    ],
    "answer": 0,
-   "why": "*a bit less*."
+   "why": "*a bit less traffic* — трохи менше."
   },
   {
    "id": "comparative-modifiers-17",
@@ -208,7 +208,7 @@
     "much more"
    ],
    "answer": 0,
-   "why": "*not any cheaper* — анітрохи не дешевший."
+   "why": "*not any* + порівняльний — «анітрохи не»: *isn't any cheaper*."
   },
   {
    "id": "comparative-modifiers-18",
@@ -221,7 +221,7 @@
     "a lot"
    ],
    "answer": 0,
-   "why": "З найвищим ступенем — *by far the best*."
+   "why": "З найвищим ступенем — *by far the best* («значно найкращий»)."
   },
   {
    "id": "comparative-modifiers-19",
@@ -240,7 +240,7 @@
    "answer": [
     "This test was much easier than the last one"
    ],
-   "why": "*much easier*.",
+   "why": "*much* підсилює порівняльний: *much easier* — набагато легше.",
    "hint": "Цей тест був набагато легшим за попередній."
   },
   {
@@ -257,7 +257,7 @@
    "answer": [
     "Could you walk a bit faster"
    ],
-   "why": "*a bit faster*.",
+   "why": "*a bit* + порівняльний — «трохи»: *a bit faster*.",
    "hint": "Можеш іти трохи швидше?"
   },
   {
@@ -273,7 +273,7 @@
    "answer": [
     "It is even colder today"
    ],
-   "why": "*even colder*.",
+   "why": "*even colder* — ще холодніше (і вчора було холодно).",
    "hint": "Сьогодні ще холодніше."
   },
   {
@@ -287,7 +287,7 @@
     "too"
    ],
    "answer": 1,
-   "why": "*a lot faster*. *a lot of* — з іменником."
+   "why": "Перед порівняльним — *a lot*; *a lot of* — лише перед іменником."
   },
   {
    "id": "comparative-modifiers-23",
@@ -300,7 +300,7 @@
     "hardest and hardest"
    ],
    "answer": 1,
-   "why": "Дедалі важче — *harder and harder*."
+   "why": "Дедалі важче — порівняльний + *and* + порівняльний: *harder and harder*."
   },
   {
    "id": "comparative-modifiers-24",
@@ -309,7 +309,7 @@
    "answer": [
     "fewer"
    ],
-   "why": "Лічильні — *fewer and fewer*."
+   "why": "З лічильними (*cinemas*) — *fewer and fewer*; з нелічильними — *less and less*."
   }
  ]
 }

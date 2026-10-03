@@ -124,7 +124,7 @@
    "answer": [
     "anything"
    ],
-   "why": "Є *didn't* — тому *anything*."
+   "why": "У реченні вже є *didn't*, тому далі *anything*; *didn't buy nothing* — подвійне заперечення."
   },
   {
    "id": "double-negatives-11",
@@ -186,7 +186,7 @@
    "answer": [
     "I don't have any questions"
    ],
-   "why": "*don't* + *any*.",
+   "why": "*don't* + *any*: *I don't have any questions.*",
    "hint": "У мене немає запитань."
   },
   {
@@ -216,7 +216,7 @@
    "answer": [
     "We didn't go anywhere"
    ],
-   "why": "*didn't* + *anywhere*.",
+   "why": "*didn't* + *anywhere*: *We didn't go anywhere.*",
    "hint": "Ми нікуди не ходили."
   },
   {

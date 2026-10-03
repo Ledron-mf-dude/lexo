@@ -76,7 +76,7 @@
     "rains"
    ],
    "answer": 0,
-   "why": "Фон розповіді — Past Continuous."
+   "why": "Тло розповіді (що тривало) — Past Continuous: *It was raining*. Подія (*stopped*) — Past Simple."
   },
   {
    "id": "past-tenses-advanced-7",
@@ -142,7 +142,7 @@
    "answer": [
     "about"
    ],
-   "why": "*was about to* — якраз збирався."
+   "why": "*was about to* — якраз збирався, коли щось перервало."
   },
   {
    "id": "past-tenses-advanced-13",
@@ -161,7 +161,7 @@
    "answer": [
     "been raining"
    ],
-   "why": "Сліди дощу — *had been raining*."
+   "why": "Мокра земля — слід тривалої дії: *had been raining*."
   },
   {
    "id": "past-tenses-advanced-15",
@@ -215,7 +215,7 @@
     "She had been working all day",
     "All day she had been working"
    ],
-   "why": "*She had been working all day.*",
+   "why": "*had been working* — тривалість до моменту в минулому.",
    "hint": "Вона працювала весь день (до того моменту)."
   },
   {
@@ -233,7 +233,7 @@
    "answer": [
     "I had hoped to see you there"
    ],
-   "why": "*I had hoped to see you there.*",
+   "why": "*had hoped to* — сподівався, але не вийшло.",
    "hint": "Я сподівався побачити тебе там."
   }
  ]

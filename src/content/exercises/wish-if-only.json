@@ -143,7 +143,7 @@
     "hadn't eaten",
     "had not eaten"
    ],
-   "why": "Жаль про вчора — *hadn't eaten*."
+   "why": "Жаль про вчора — Past Perfect: *hadn't eaten*."
   },
   {
    "id": "wish-if-only-13",
@@ -152,7 +152,7 @@
    "answer": [
     "lived"
    ],
-   "why": "*If only I lived closer*."
+   "why": "*If only* + Past Simple — про теперішнє."
   },
   {
    "id": "wish-if-only-14",
@@ -187,7 +187,7 @@
     "will have"
    ],
    "answer": 0,
-   "why": "*wishes she had a bigger flat*."
+   "why": "*wish* + Past Simple — про теперішнє: *had*."
   },
   {
    "id": "wish-if-only-17",
@@ -213,7 +213,7 @@
     "will have"
    ],
    "answer": 0,
-   "why": "*If only we had more time*."
+   "why": "*If only* + Past Simple: *had*."
   },
   {
    "id": "wish-if-only-19",
@@ -229,7 +229,7 @@
    "answer": [
     "I wish I knew the answer"
    ],
-   "why": "*I wish I knew* — про теперішнє.",
+   "why": "*I wish I knew* — шкода, що не знаю (зараз).",
    "hint": "Шкода, що я не знаю відповіді."
   },
   {
@@ -264,7 +264,7 @@
    "answer": [
     "It is time we went home"
    ],
-   "why": "*It is time we went home.*",
+   "why": "*It is time* + Past Simple.",
    "hint": "Нам час додому."
   },
   {
@@ -278,7 +278,7 @@
     "will"
    ],
    "answer": 1,
-   "why": "Уміння — *could*."
+   "why": "Уміння — *wish* + *could*."
   },
   {
    "id": "wish-if-only-23",
@@ -314,7 +314,7 @@
     "hadn't eaten",
     "had not eaten"
    ],
-   "why": "Учора — Past Perfect."
+   "why": "Учора — Past Perfect: *hadn't eaten*."
   }
  ]
 }

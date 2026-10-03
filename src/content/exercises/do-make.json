@@ -24,7 +24,7 @@
     "had"
    ],
    "answer": 1,
-   "why": "*make a mistake* — сталий вираз."
+   "why": "*make a mistake* — помилку в англійській «роблять» з *make*, не з *do*."
   },
   {
    "id": "do-make-3",
@@ -50,7 +50,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "*make a plan* — створити, скласти."
+   "why": "*make a plan* — скласти план (створити щось нове — *make*)."
   },
   {
    "id": "do-make-5",
@@ -134,7 +134,7 @@
    "answer": [
     "do"
    ],
-   "why": "*do the shopping* — хатні справи.",
+   "why": "*do the shopping* — хатні справи йдуть з *do*.",
    "hint": "(do / make)"
   },
   {
@@ -154,7 +154,7 @@
    "answer": [
     "make"
    ],
-   "why": "*make a noise*.",
+   "why": "*make a noise* — шуміти.",
    "hint": "(do / make)"
   },
   {
@@ -164,7 +164,7 @@
    "answer": [
     "do"
    ],
-   "why": "*do yoga / exercise / sport*.",
+   "why": "*do yoga / sport / exercise* — заняття й діяльність з *do*.",
    "hint": "(do / make)"
   },
   {
@@ -188,7 +188,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*make tea* — приготувати."
+   "why": "*make tea / coffee* — приготувати (створити)."
   },
   {
    "id": "do-make-17",
@@ -201,7 +201,7 @@
     "gets"
    ],
    "answer": 0,
-   "why": "*do research*."
+   "why": "*do research* — проводити дослідження."
   },
   {
    "id": "do-make-18",
@@ -214,7 +214,7 @@
     "taking"
    ],
    "answer": 0,
-   "why": "*make progress*."
+   "why": "*make progress* — робити поступ."
   },
   {
    "id": "do-make-19",
@@ -243,7 +243,7 @@
    "answer": [
     "Could you do me a favour"
    ],
-   "why": "*do a favour*.",
+   "why": "*do somebody a favour* — зробити послугу.",
    "hint": "Можеш зробити мені послугу?"
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "I made a lot of mistakes"
    ],
-   "why": "*make a mistake*.",
+   "why": "*make mistakes* — помилятися.",
    "hint": "Я зробив багато помилок."
   },
   {
@@ -277,7 +277,7 @@
    "answer": [
     "She does the laundry on Sundays"
    ],
-   "why": "*do the laundry*.",
+   "why": "*do the laundry* — прати (хатня робота).",
    "hint": "Вона пере білизну по неділях."
   },
   {
@@ -313,7 +313,7 @@
    "answer": [
     "make"
    ],
-   "why": "*make a complaint*.",
+   "why": "*make a complaint* — подати скаргу.",
    "hint": "(do / make)"
   }
  ]

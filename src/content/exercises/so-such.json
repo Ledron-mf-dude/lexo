@@ -137,7 +137,7 @@
    "answer": [
     "so"
    ],
-   "why": "*so boring that…*"
+   "why": "*so* + прикметник + *that*: *so boring that I fell asleep*."
   },
   {
    "id": "so-such-12",
@@ -146,7 +146,7 @@
    "answer": [
     "such"
    ],
-   "why": "*such a good teacher*."
+   "why": "*such a* + прикметник + іменник в однині: *such a good teacher*."
   },
   {
    "id": "so-such-13",
@@ -203,7 +203,7 @@
     "such a"
    ],
    "answer": 0,
-   "why": "*such an interesting book*."
+   "why": "*such an* + прикметник на голосний + іменник: *such an interesting book*."
   },
   {
    "id": "so-such-18",
@@ -216,7 +216,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "*so little time*."
+   "why": "*so little* + нелічильне: *so little time*."
   },
   {
    "id": "so-such-19",
@@ -229,7 +229,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "*so happy*."
+   "why": "*so* + прикметник без іменника: *so happy*."
   },
   {
    "id": "so-such-20",
@@ -245,7 +245,7 @@
    "answer": [
     "It was such a lovely day"
    ],
-   "why": "*such a lovely day*.",
+   "why": "*such a* + прикметник + іменник в однині.",
    "hint": "Був такий чудовий день."
   },
   {
@@ -264,7 +264,7 @@
    "answer": [
     "She was so tired that she fell asleep"
    ],
-   "why": "*so tired that…*",
+   "why": "*so* + прикметник + *that*.",
    "hint": "Вона так утомилася, що заснула."
   },
   {
@@ -281,7 +281,7 @@
    "answer": [
     "There are so many people here"
    ],
-   "why": "*so many people*.",
+   "why": "*so many* + лічильне у множині.",
    "hint": "Тут так багато людей."
   },
   {
@@ -295,7 +295,7 @@
     "such much"
    ],
    "answer": 1,
-   "why": "Лічильне — *so many cars*."
+   "why": "*cars* — лічильне, тому *so many*; *so much* — для нелічильних."
   },
   {
    "id": "so-such-24",
@@ -308,7 +308,7 @@
     "so a"
    ],
    "answer": 1,
-   "why": "*fun* — нелічильне: *such fun*."
+   "why": "*fun* — нелічильне, тому *such fun* без *a*."
   },
   {
    "id": "so-such-25",
@@ -317,7 +317,7 @@
    "answer": [
     "such"
    ],
-   "why": "*such as* — наприклад."
+   "why": "*such as* — «наприклад, такі як»."
   }
  ]
 }

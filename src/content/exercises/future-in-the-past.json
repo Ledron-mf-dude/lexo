@@ -46,7 +46,7 @@
    "answer": [
     "were"
    ],
-   "why": "*we* — *were going to*."
+   "why": "Для *we* — *were going to*: план, що не здійснився."
   },
   {
    "id": "future-in-the-past-5",
@@ -101,7 +101,7 @@
    "answer": [
     "He said he would call later"
    ],
-   "why": "*would call later*."
+   "why": "*would* — майбутнє з погляду минулого: *He said he would call later.*"
   },
   {
    "id": "future-in-the-past-9",
@@ -110,7 +110,7 @@
    "answer": [
     "was"
    ],
-   "why": "*was about to go to bed*."
+   "why": "*was about to* — «якраз збирався» в минулому."
   },
   {
    "id": "future-in-the-past-10",
@@ -119,7 +119,7 @@
    "answer": [
     "would help"
    ],
-   "why": "*will help* → *would help*."
+   "why": "У непрямій мові *will help* → *would help*."
   },
   {
    "id": "future-in-the-past-11",
@@ -138,7 +138,7 @@
    "answer": [
     "would like"
    ],
-   "why": "*I knew you would like…*"
+   "why": "Майбутнє з погляду минулого — *would like*."
   },
   {
    "id": "future-in-the-past-13",
@@ -164,7 +164,7 @@
     "would have"
    ],
    "answer": 0,
-   "why": "*will be* → *would be*."
+   "why": "Прогноз у минулому, який не справдився, — *would be*."
   },
   {
    "id": "future-in-the-past-15",
@@ -177,7 +177,7 @@
     "was about"
    ],
    "answer": 0,
-   "why": "Намір — *was going to phone*."
+   "why": "Намір, який не виконали, — *was going to*."
   },
   {
    "id": "future-in-the-past-16",
@@ -206,7 +206,7 @@
    "answer": [
     "I was going to tell you"
    ],
-   "why": "*was going to tell you*.",
+   "why": "*was going to tell you* — збирався, але не сказав.",
    "hint": "Я збирався тобі сказати."
   },
   {
@@ -222,7 +222,7 @@
    "answer": [
     "She was about to leave"
    ],
-   "why": "*was about to leave*.",
+   "why": "*was about to leave* — ось-ось мала піти.",
    "hint": "Вона вже збиралася йти."
   },
   {
@@ -238,7 +238,7 @@
    "answer": [
     "He promised he would call"
    ],
-   "why": "*promised he would call*.",
+   "why": "*promised he would call* — *will* → *would*.",
    "hint": "Він пообіцяв, що зателефонує."
   },
   {
@@ -252,7 +252,7 @@
     "would to"
    ],
    "answer": 1,
-   "why": "От-от — *was about to leave*."
+   "why": "От-от мало статися — *was about to*."
   },
   {
    "id": "future-in-the-past-21",
@@ -274,7 +274,7 @@
    "answer": [
     "were"
    ],
-   "why": "*were going to go camping*."
+   "why": "*were going to go camping* — план, що не здійснився."
   }
  ]
 }

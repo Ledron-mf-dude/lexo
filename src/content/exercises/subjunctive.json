@@ -208,7 +208,7 @@
    "answer": [
     "It is essential that she be there"
    ],
-   "why": "*essential that she be there*.",
+   "why": "*It is essential that she be there* — *be* для будь-якої особи.",
    "hint": "Важливо, щоб вона була там."
   },
   {
@@ -224,7 +224,7 @@
    "answer": [
     "They insisted that we stay"
    ],
-   "why": "*insisted that we stay*.",
+   "why": "*insisted that we stay* — базова форма.",
    "hint": "Вони наполягли, щоб ми залишилися."
   },
   {
@@ -261,7 +261,7 @@
     "be",
     "should be"
    ],
-   "why": "*be* або *should be*."
+   "why": "Після *essential that* — *be* (американський стиль) або *should be* (британський)."
   },
   {
    "id": "subjunctive-22",

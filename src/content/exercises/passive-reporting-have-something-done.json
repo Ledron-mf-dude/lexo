@@ -116,7 +116,7 @@
    "answer": [
     "They are thought to have stolen the painting"
    ],
-   "why": "*are thought to have stolen*."
+   "why": "*are thought to have stolen* — вважають, що вкрали (у минулому)."
   },
   {
    "id": "passive-reporting-have-something-done-10",
@@ -125,7 +125,7 @@
    "answer": [
     "tested"
    ],
-   "why": "*have my eyes tested*."
+   "why": "*have my eyes tested* — перевірку зробить лікар."
   },
   {
    "id": "passive-reporting-have-something-done-11",
@@ -148,7 +148,7 @@
    "answer": [
     "to be"
    ],
-   "why": "*is said to be*."
+   "why": "*is said to be* — кажуть, що вона."
   },
   {
    "id": "passive-reporting-have-something-done-13",
@@ -157,7 +157,7 @@
    "answer": [
     "stolen"
    ],
-   "why": "*had our car stolen*."
+   "why": "*had our car stolen* — неприємна подія з нами."
   },
   {
    "id": "passive-reporting-have-something-done-14",
@@ -166,7 +166,7 @@
    "answer": [
     "to have resigned"
    ],
-   "why": "Уже — *to have resigned*."
+   "why": "Уже — перфектний інфінітив *to have resigned*."
   },
   {
    "id": "passive-reporting-have-something-done-15",
@@ -179,7 +179,7 @@
     "took"
    ],
    "answer": 0,
-   "why": "*got my phone fixed*."
+   "why": "*got my phone fixed* — розмовний варіант *had it fixed*."
   },
   {
    "id": "passive-reporting-have-something-done-16",
@@ -218,7 +218,7 @@
     "has claimed"
    ],
    "answer": 0,
-   "why": "*It is claimed that…*"
+   "why": "*It is claimed that…* — стверджують, що."
   },
   {
    "id": "passive-reporting-have-something-done-19",
@@ -234,7 +234,7 @@
    "answer": [
     "I had my hair cut yesterday"
    ],
-   "why": "*had my hair cut*.",
+   "why": "*had my hair cut* — підстриг перукар.",
    "hint": "Учора я підстригся (у перукаря)."
   },
   {
@@ -253,7 +253,7 @@
    "answer": [
     "It is said that he is very rich"
    ],
-   "why": "*It is said that…*",
+   "why": "*It is said that…* — кажуть.",
    "hint": "Кажуть, що він дуже багатий."
   },
   {
@@ -271,7 +271,7 @@
    "answer": [
     "He is believed to be in Spain"
    ],
-   "why": "*is believed to be*.",
+   "why": "*is believed to be* — вважають, що він.",
    "hint": "Вважають, що він в Іспанії."
   },
   {
@@ -285,7 +285,7 @@
     "to paint"
    ],
    "answer": 1,
-   "why": "*having the kitchen painted*."
+   "why": "*having the kitchen painted* — фарбуватимуть майстри."
   },
   {
    "id": "passive-reporting-have-something-done-23",
@@ -307,7 +307,7 @@
    "answer": [
     "repaired"
    ],
-   "why": "*get my phone repaired*."
+   "why": "*get my phone repaired* — віддати в ремонт."
   }
  ]
 }

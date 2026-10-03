@@ -102,7 +102,7 @@
     "Did you goes?"
    ],
    "answer": 1,
-   "why": "Після *did* — початкова форма: *Did you go?*"
+   "why": "Минуле вже показує *did*, тому основне дієслово в початковій формі: *Did you go?*"
   },
   {
    "id": "auxiliary-verbs-9",
@@ -112,7 +112,7 @@
     "didn't work",
     "did not work"
    ],
-   "why": "Past Simple, заперечення: *didn't work*."
+   "why": "Заперечення в Past Simple — *didn't* + початкова форма: *didn't work*."
   },
   {
    "id": "auxiliary-verbs-10",
@@ -132,7 +132,7 @@
     "is",
     "isn't"
    ],
-   "why": "Continuous: *be* + *-ing*: *She is working.*"
+   "why": "*at the moment* — Continuous: *is* + *-ing*."
   },
   {
    "id": "auxiliary-verbs-12",
@@ -152,7 +152,7 @@
     "were",
     "weren't"
    ],
-   "why": "Пасив минулого з множиною — *were sent*."
+   "why": "Листи надіслали (пасив, множина, минуле) — *were sent*."
   },
   {
    "id": "auxiliary-verbs-14",
@@ -162,7 +162,7 @@
     "didn't",
     "did not"
    ],
-   "why": "Past Simple, заперечення — *didn't go*.",
+   "why": "Минуле заперечення — *didn't go* (не *didn't went*).",
    "hint": "Заперечення в Past Simple"
   },
   {
@@ -202,7 +202,7 @@
     "speaks it does"
    ],
    "answer": 0,
-   "why": "*does* замінює *speaks*: *than he does*."
+   "why": "*does* замінює *speaks*, щоб не повторювати: *than he does*."
   },
   {
    "id": "auxiliary-verbs-18",
@@ -215,7 +215,7 @@
     "Does"
    ],
    "answer": 0,
-   "why": "Present Perfect з *he* — *Has he been…?*"
+   "why": "*been* — третя форма, отже Present Perfect: *Has he been…?*"
   },
   {
    "id": "auxiliary-verbs-19",
@@ -230,7 +230,7 @@
    "answer": [
     "Does your sister work here"
    ],
-   "why": "*Does* + підмет + дієслово.",
+   "why": "*Does* + підмет + дієслово без *-s*.",
    "hint": "Твоя сестра тут працює?"
   },
   {
@@ -246,7 +246,7 @@
    "answer": [
     "They didn't see the film"
    ],
-   "why": "*didn't* + початкова форма.",
+   "why": "Після *didn't* дієслово стоїть у початковій формі: *didn't see*, не *didn't saw*.",
    "hint": "Вони не бачили фільм."
   },
   {
@@ -263,7 +263,7 @@
    "answer": [
     "Have you ever been to London"
    ],
-   "why": "*Have you ever been…?*",
+   "why": "*Have you ever been…?* — питання про досвід.",
    "hint": "Ти колись був у Лондоні?"
   },
   {

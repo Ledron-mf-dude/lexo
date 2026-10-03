@@ -76,7 +76,7 @@
     "rather"
    ],
    "answer": 2,
-   "why": "*pretty* — найрозмовніше."
+   "why": "*pretty* — найрозмовніше з цих слів."
   },
   {
    "id": "pretty-rather-quite-fairly-7",
@@ -89,7 +89,7 @@
     "exactly three"
    ],
    "answer": 0,
-   "why": "*quite a few* — чимало."
+   "why": "*quite a few* — «чимало», а не «кілька»."
   },
   {
    "id": "pretty-rather-quite-fairly-8",
@@ -103,7 +103,7 @@
    "answer": [
     "It was pretty good"
    ],
-   "why": "*pretty good*."
+   "why": "*pretty* + прикметник — «досить»."
   },
   {
    "id": "pretty-rather-quite-fairly-9",
@@ -113,7 +113,7 @@
     "quite",
     "pretty"
    ],
-   "why": "*quite / pretty sure*."
+   "why": "*quite / pretty sure* — цілком упевнений."
   },
   {
    "id": "pretty-rather-quite-fairly-10",
@@ -122,7 +122,7 @@
    "answer": [
     "rather"
    ],
-   "why": "*rather small* — недолік."
+   "why": "*rather* — часто з відтінком недоліку."
   },
   {
    "id": "pretty-rather-quite-fairly-11",
@@ -131,7 +131,7 @@
    "answer": [
     "quite"
    ],
-   "why": "*quite a few*."
+   "why": "*quite a few* — чимало."
   },
   {
    "id": "pretty-rather-quite-fairly-12",
@@ -166,7 +166,7 @@
     "fairly an"
    ],
    "answer": 0,
-   "why": "*fairly easy*."
+   "why": "*fairly* — помірно: досить легкий."
   },
   {
    "id": "pretty-rather-quite-fairly-15",
@@ -179,7 +179,7 @@
     "pretty much a"
    ],
    "answer": 0,
-   "why": "*quite right* — цілком правий."
+   "why": "*quite* з «абсолютним» словом — «цілком»."
   },
   {
    "id": "pretty-rather-quite-fairly-16",
@@ -208,7 +208,7 @@
    "answer": [
     "It is quite a nice day"
    ],
-   "why": "*quite a nice day*.",
+   "why": "*quite* стоїть перед *a*.",
    "hint": "Сьогодні досить гарний день."
   },
   {
@@ -224,7 +224,7 @@
    "answer": [
     "The test was fairly easy"
    ],
-   "why": "*fairly easy*.",
+   "why": "*fairly* + прикметник.",
    "hint": "Тест був досить легким."
   },
   {
@@ -239,7 +239,7 @@
    "answer": [
     "I am pretty tired"
    ],
-   "why": "*pretty tired*.",
+   "why": "*pretty* + прикметник.",
    "hint": "Я досить утомився."
   },
   {
@@ -266,7 +266,7 @@
     "would rather"
    ],
    "answer": 1,
-   "why": "*rather than* — замість."
+   "why": "*rather than* — «замість»."
   },
   {
    "id": "pretty-rather-quite-fairly-22",

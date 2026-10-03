@@ -109,7 +109,7 @@
    "answer": [
     "By Friday I will have finished the project"
    ],
-   "why": "*By Friday* — Future Perfect."
+   "why": "*By Friday* — до моменту в майбутньому: Future Perfect *will have finished*."
   },
   {
    "id": "future-continuous-perfect-10",
@@ -127,7 +127,7 @@
    "answer": [
     "will be sitting"
    ],
-   "why": "Процес о 10-й — *will be sitting*."
+   "why": "Процес у конкретний момент майбутнього (о 10-й) — *will be sitting*."
   },
   {
    "id": "future-continuous-perfect-12",
@@ -219,7 +219,7 @@
    "answer": [
     "This time next week I will be lying on a beach"
    ],
-   "why": "*will be lying*.",
+   "why": "Процес у момент майбутнього — *will be lying*.",
    "hint": "Цієї пори наступного тижня я лежатиму на пляжі."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "They will have finished by six"
    ],
-   "why": "*will have finished by six*.",
+   "why": "*by six* — Future Perfect: *will have finished*.",
    "hint": "Вони закінчать до шостої."
   },
   {
@@ -254,7 +254,7 @@
    "answer": [
     "Will you be using the car tonight"
    ],
-   "why": "*Will you be using the car?*",
+   "why": "*Will you be using…?* — ввічливе питання про плани.",
    "hint": "Ти користуватимешся машиною ввечері?"
   },
   {
@@ -290,7 +290,7 @@
    "answer": [
     "will have built"
    ],
-   "why": "*will have built*."
+   "why": "*By 2030* — Future Perfect: *will have built*."
   }
  ]
 }

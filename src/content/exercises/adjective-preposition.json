@@ -37,7 +37,7 @@
     "for"
    ],
    "answer": 2,
-   "why": "*interested in* — цікавитися."
+   "why": "*interested in* — цікавитися чимось. Прийменник *in* сталий, українське «цікавитися історією» його не підказує."
   },
   {
    "id": "adjective-preposition-4",
@@ -50,7 +50,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "*worried about* — хвилюватися через щось."
+   "why": "*worried about* — хвилюватися через щось. *worried for* кажуть лише про людину, за яку тривожаться."
   },
   {
    "id": "adjective-preposition-5",
@@ -89,7 +89,7 @@
     "about"
    ],
    "answer": 0,
-   "why": "*famous for* — відомий чимось."
+   "why": "*famous for* — відомий чимось (тим, що створив або має). *famous of* — калька."
   },
   {
    "id": "adjective-preposition-8",
@@ -102,7 +102,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "*proud of* — пишатися."
+   "why": "*proud of* — пишатися кимось. В українській без прийменника («пишаюся тобою»), а в англійській *of* обов'язкове."
   },
   {
    "id": "adjective-preposition-9",
@@ -124,7 +124,7 @@
    "answer": [
     "at"
    ],
-   "why": "*good at* + *-ing*."
+   "why": "*good at* — вмілий у чомусь; після прийменника дієслово стоїть у формі *-ing*: *good at drawing*."
   },
   {
    "id": "adjective-preposition-11",
@@ -133,7 +133,7 @@
    "answer": [
     "of"
    ],
-   "why": "*tired of* — набридло."
+   "why": "*tired of* — «набридло» (а не «втомився від роботи»). Після *of* — *-ing*: *tired of waiting*."
   },
   {
    "id": "adjective-preposition-12",
@@ -142,7 +142,7 @@
    "answer": [
     "for"
    ],
-   "why": "*famous for*."
+   "why": "*famous for* + те, чим відоме місце: *famous for its bridges*."
   },
   {
    "id": "adjective-preposition-13",
@@ -151,7 +151,7 @@
    "answer": [
     "for"
    ],
-   "why": "*responsible for* — відповідальний за."
+   "why": "*responsible for* — відповідати за щось."
   },
   {
    "id": "adjective-preposition-14",
@@ -160,7 +160,7 @@
    "answer": [
     "to"
    ],
-   "why": "*similar to* — схожий на."
+   "why": "*similar to* — схожий на. *similar with* — поширена помилка."
   },
   {
    "id": "adjective-preposition-15",
@@ -169,7 +169,7 @@
    "answer": [
     "on"
    ],
-   "why": "*keen on* — захоплюватися."
+   "why": "*keen on* — захоплюватися, дуже любити; у запереченні — «не в захваті від»."
   },
   {
    "id": "adjective-preposition-16",
@@ -182,7 +182,7 @@
     "from"
    ],
    "answer": 0,
-   "why": "*allergic to* — алергія на."
+   "why": "*allergic to* — алергія на щось. Прийменник *to*, як і в *reaction to*."
   },
   {
    "id": "adjective-preposition-17",
@@ -195,7 +195,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*sorry about* + ситуація."
+   "why": "*sorry about* + ситуація чи річ (безлад). *sorry for* — з людиною чи вчинком (*sorry for being late*)."
   },
   {
    "id": "adjective-preposition-18",
@@ -208,7 +208,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*capable of* + *-ing*."
+   "why": "*capable of* + *-ing*: *capable of doing*. Порівняйте: *able to do*."
   },
   {
    "id": "adjective-preposition-19",
@@ -221,7 +221,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "*ready for* — готовий до."
+   "why": "*ready for* + іменник (*ready for the exam*); з дієсловом — *ready to* (*ready to go*)."
   },
   {
    "id": "adjective-preposition-20",
@@ -237,7 +237,7 @@
    "answer": [
     "I am interested in learning Spanish"
    ],
-   "why": "*interested in* + *-ing*.",
+   "why": "*interested in* + *-ing*: *interested in learning*.",
    "hint": "Мене цікавить вивчення іспанської."
   },
   {
@@ -254,7 +254,7 @@
    "answer": [
     "She is proud of her son"
    ],
-   "why": "*proud of*.",
+   "why": "*proud of* + людина: *proud of her son*.",
    "hint": "Вона пишається своїм сином."
   },
   {
@@ -271,7 +271,7 @@
    "answer": [
     "We are worried about the test"
    ],
-   "why": "*worried about*.",
+   "why": "*worried about* + привід для тривоги.",
    "hint": "Ми хвилюємося через тест."
   },
   {
@@ -285,7 +285,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "*short of* — бракує."
+   "why": "*short of* — «бракує»: *We're running short of time* (час закінчується)."
   },
   {
    "id": "adjective-preposition-24",
@@ -298,7 +298,7 @@
     "about"
    ],
    "answer": 2,
-   "why": "*sick of* — набридло."
+   "why": "*sick of* — «набридло, нудить від»: *sick of hearing…* Після *of* — *-ing*."
   },
   {
    "id": "adjective-preposition-25",
@@ -307,7 +307,7 @@
    "answer": [
     "of"
    ],
-   "why": "*typical of* — характерно для."
+   "why": "*typical of* + людина — «характерно для нього»."
   }
  ]
 }

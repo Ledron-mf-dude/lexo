@@ -50,7 +50,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "*look after* — доглядати."
+   "why": "*look after* — доглядати. *look at* — дивитися, *look up* — шукати в словнику."
   },
   {
    "id": "phrasal-verbs-5",
@@ -216,7 +216,7 @@
    "answer": [
     "I will look after your cat"
    ],
-   "why": "*look after* — нероздільне.",
+   "why": "*look after* нероздільне: додаток після *after*.",
    "hint": "Я доглядатиму твого кота."
   },
   {
@@ -252,7 +252,7 @@
     "Put your coat on please",
     "Put on your coat please"
    ],
-   "why": "*put on* — роздільне.",
+   "why": "*put on* роздільне: *put your coat on* / *put on your coat*.",
    "hint": "Одягни пальто, будь ласка."
   },
   {

@@ -219,7 +219,7 @@
     "tomorrow"
    ],
    "answer": 0,
-   "why": "*yesterday* → *the day before*."
+   "why": "У непрямій мові *yesterday* → *the day before*."
   },
   {
    "id": "reported-speech-20",
@@ -235,7 +235,7 @@
    "answer": [
     "She said that she was tired"
    ],
-   "why": "*said (that)* + зсув часу.",
+   "why": "*said (that)* + зсув часу: *am* → *was*.",
    "hint": "Вона сказала, що втомилася."
   },
   {

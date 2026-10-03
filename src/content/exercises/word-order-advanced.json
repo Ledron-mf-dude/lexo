@@ -89,7 +89,7 @@
     "this to"
    ],
    "answer": 0,
-   "why": "*appreciate it if…*"
+   "why": "*appreciate it if…* — формальне *it* обов'язкове."
   },
   {
    "id": "word-order-advanced-8",
@@ -146,7 +146,7 @@
    "answer": [
     "as"
    ],
-   "why": "*Much as I admire her…*"
+   "why": "*Much as* + підмет + дієслово — «хоч і»."
   },
   {
    "id": "word-order-advanced-13",
@@ -155,7 +155,7 @@
    "answer": [
     "it"
    ],
-   "why": "*made it impossible to sleep*."
+   "why": "*make it* + прикметник + *to*."
   },
   {
    "id": "word-order-advanced-14",
@@ -164,7 +164,7 @@
    "answer": [
     "There"
    ],
-   "why": "*There goes my train!*"
+   "why": "*There goes…!* — інверсія після *there*."
   },
   {
    "id": "word-order-advanced-15",
@@ -201,7 +201,7 @@
    "answer": [
     "I find it hard to believe"
    ],
-   "why": "*find it hard to believe*.",
+   "why": "*find it* + прикметник + *to*.",
    "hint": "Мені важко в це повірити."
   },
   {
@@ -216,7 +216,7 @@
    "answer": [
     "Here comes the bus"
    ],
-   "why": "*Here comes the bus.*",
+   "why": "*Here comes the bus* — інверсія з іменником.",
    "hint": "Ось і автобус."
   },
   {
@@ -236,7 +236,7 @@
     "Tired as he was he finished the job",
     "Tired as he was, he finished the job"
    ],
-   "why": "*Tired as he was, …*",
+   "why": "Прикметник + *as* + підмет + дієслово.",
    "hint": "Хоч він і втомився, він закінчив роботу."
   }
  ]

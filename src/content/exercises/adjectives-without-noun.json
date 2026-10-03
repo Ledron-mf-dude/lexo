@@ -37,7 +37,7 @@
     "Britishes"
    ],
    "answer": 0,
-   "why": "*the British* — британці як народ."
+   "why": "*the British* — британці як народ: *the* + національність на *-sh*. *British* без *the* — лише прикметник."
   },
   {
    "id": "adjectives-without-noun-4",
@@ -63,7 +63,7 @@
     "a place"
    ],
    "answer": 0,
-   "why": "*the unknown* в однині — явище («невідоме»)."
+   "why": "*the* + прикметник в однині може означати абстрактне явище: *the unknown* — «невідоме»."
   },
   {
    "id": "adjectives-without-noun-6",
@@ -76,7 +76,7 @@
     "impossibles"
    ],
    "answer": 0,
-   "why": "*the impossible* — неможливе."
+   "why": "*the impossible* — «неможливе»: *the* + прикметник як іменник-поняття."
   },
   {
    "id": "adjectives-without-noun-7",
@@ -89,7 +89,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "*the unemployed* — множина: *are*."
+   "why": "*the unemployed* = безробітні люди, множина, тому *are*."
   },
   {
    "id": "adjectives-without-noun-8",
@@ -99,7 +99,7 @@
     "The rich",
     "the rich"
    ],
-   "why": "*The rich* — багаті.",
+   "why": "*the rich* = багаті люди. Прикметник без *-s*, але значення множини.",
    "hint": "(rich)"
   },
   {
@@ -110,7 +110,7 @@
     "The young",
     "the young"
    ],
-   "why": "*The young* — молодь.",
+   "why": "*the young* = молоді люди загалом, тому дієслово в множині (*are*).",
    "hint": "(young)"
   },
   {
@@ -120,7 +120,7 @@
    "answer": [
     "the homeless"
    ],
-   "why": "*the homeless* — бездомні.",
+   "why": "*the homeless* = бездомні люди: *the* + прикметник.",
    "hint": "(homeless)"
   },
   {
@@ -134,7 +134,7 @@
     "has need"
    ],
    "answer": 0,
-   "why": "Група — дієслово в множині: *need*."
+   "why": "*the elderly* — група людей, тому дієслово в множині: *need*."
   },
   {
    "id": "adjectives-without-noun-12",
@@ -160,7 +160,7 @@
     "A British"
    ],
    "answer": 0,
-   "why": "*The British* — без *-s*."
+   "why": "*the British* — без *-s*: прикметник у ролі іменника множини не змінюється."
   },
   {
    "id": "adjectives-without-noun-14",
@@ -173,7 +173,7 @@
     "An injured were taken to hospital."
    ],
    "answer": 0,
-   "why": "*the injured* — множина, без *-s*."
+   "why": "*the injured* — поранені (множина), без *-s* і з дієсловом *were*."
   },
   {
    "id": "adjectives-without-noun-15",
@@ -188,7 +188,7 @@
    "answer": [
     "The rich pay more taxes"
    ],
-   "why": "*The rich pay* — множина.",
+   "why": "*the rich* — множина, тому *pay* без *-s*.",
    "hint": "Багаті платять більше податків."
   },
   {
@@ -204,7 +204,7 @@
    "answer": [
     "We should help the unemployed"
    ],
-   "why": "*the unemployed*.",
+   "why": "*the unemployed* — безробітні як група.",
    "hint": "Ми маємо допомагати безробітним."
   },
   {
@@ -221,7 +221,7 @@
    "answer": [
     "The best is yet to come"
    ],
-   "why": "*the best* — абстрактне, однина: *is*.",
+   "why": "*the best* тут — абстрактне «найкраще», тому однина: *is*.",
    "hint": "Найкраще ще попереду."
   },
   {
@@ -244,7 +244,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "*The Swiss* — народ, множина."
+   "why": "*the Swiss* — швейцарці як народ, дієслово в множині: *are*."
   },
   {
    "id": "adjectives-without-noun-20",
@@ -266,7 +266,7 @@
    "answer": [
     "the"
    ],
-   "why": "*the homeless*."
+   "why": "Група людей — *the* + прикметник: *the homeless*. Без *the* прикметник не може стояти сам."
   }
  ]
 }

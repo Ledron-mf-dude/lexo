@@ -89,7 +89,7 @@
     "has done"
    ],
    "answer": 0,
-   "why": "*It's high time* + Past Simple."
+   "why": "*It's high time* + Past Simple: давно пора щось зробити."
   },
   {
    "id": "unreal-past-8",
@@ -124,7 +124,7 @@
    "answer": [
     "went"
    ],
-   "why": "*It's time you went to bed.*"
+   "why": "*It's time you went to bed* — Past Simple, хоча мова про зараз."
   },
   {
    "id": "unreal-past-11",
@@ -143,7 +143,7 @@
    "answer": [
     "met"
    ],
-   "why": "*I'd rather we met tomorrow.*"
+   "why": "*would rather* + особа + Past Simple: *we met*."
   },
   {
    "id": "unreal-past-13",
@@ -204,7 +204,7 @@
    "answer": [
     "He behaves as if he were rich"
    ],
-   "why": "*as if he were rich*.",
+   "why": "*as if he were rich* — насправді не багатий.",
    "hint": "Він поводиться так, ніби багатий."
   },
   {

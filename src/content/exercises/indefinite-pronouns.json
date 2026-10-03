@@ -50,7 +50,7 @@
     "Anybody"
    ],
    "answer": 2,
-   "why": "Усі прийшли — *Everybody is here.*"
+   "why": "Усі прийшли — *Everybody is here.* (дієслово в однині)"
   },
   {
    "id": "indefinite-pronouns-5",
@@ -244,7 +244,7 @@
    "answer": [
     "I didn't buy anything"
    ],
-   "why": "*didn't* + *anything*.",
+   "why": "*didn't* + *anything*: *I didn't buy anything.*",
    "hint": "Я нічого не купив."
   },
   {
@@ -275,7 +275,7 @@
    "answer": [
     "There is nothing in the fridge"
    ],
-   "why": "*There is nothing* — нічого немає.",
+   "why": "*There is nothing* — нічого немає (заперечення в займеннику).",
    "hint": "У холодильнику нічого немає."
   },
   {

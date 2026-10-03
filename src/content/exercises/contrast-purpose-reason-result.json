@@ -138,7 +138,7 @@
     "Despite",
     "In spite of"
    ],
-   "why": "*Despite / In spite of* + *-ing*."
+   "why": "Після *Despite / In spite of* — *-ing* або іменник: *Despite being tired*."
   },
   {
    "id": "contrast-purpose-reason-result-12",
@@ -203,7 +203,7 @@
     "because"
    ],
    "answer": 0,
-   "why": "Мета — *to* + дієслово."
+   "why": "Мета — *to* + дієслово: *to get a better job*. *for get* — калька з «для»."
   },
   {
    "id": "contrast-purpose-reason-result-18",
@@ -242,7 +242,7 @@
     "Because"
    ],
    "answer": 0,
-   "why": "*Despite the fact that* + речення."
+   "why": "*Despite the fact that* + речення. *Although the fact* — помилка."
   },
   {
    "id": "contrast-purpose-reason-result-21",
@@ -283,7 +283,7 @@
     "I spoke slowly so that she could understand",
     "So that she could understand I spoke slowly"
    ],
-   "why": "*so that* + *could*.",
+   "why": "*so that* + *could* — мета: щоб вона зрозуміла.",
    "hint": "Я говорив повільно, щоб вона зрозуміла."
   },
   {
@@ -302,7 +302,7 @@
     "We stayed inside because of the heat",
     "Because of the heat we stayed inside"
    ],
-   "why": "*because of* + іменник.",
+   "why": "Перед іменником (*the heat*) — *because of*.",
    "hint": "Ми залишилися всередині через спеку."
   },
   {

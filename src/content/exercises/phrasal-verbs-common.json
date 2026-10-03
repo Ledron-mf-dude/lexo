@@ -11,7 +11,7 @@
     "continue"
    ],
    "answer": 1,
-   "why": "*give up* — кинути, здатися."
+   "why": "*give up* — кинути (звичку) або здатися."
   },
   {
    "id": "phrasal-verbs-common-2",
@@ -50,7 +50,7 @@
     "throw"
    ],
    "answer": 0,
-   "why": "*put off* — відкласти."
+   "why": "*put off* — відкласти на потім."
   },
   {
    "id": "phrasal-verbs-common-5",
@@ -63,7 +63,7 @@
     "repeat"
    ],
    "answer": 0,
-   "why": "*turn down* — відхилити."
+   "why": "*turn down* — відхилити пропозицію."
   },
   {
    "id": "phrasal-verbs-common-6",
@@ -89,7 +89,7 @@
     "refuse"
    ],
    "answer": 0,
-   "why": "*come up with* — придумати."
+   "why": "*come up with* — придумати (ідею)."
   },
   {
    "id": "phrasal-verbs-common-8",
@@ -102,7 +102,7 @@
     "exit"
    ],
    "answer": 0,
-   "why": "*run out of* — закінчитися."
+   "why": "*run out of* — закінчитися, вичерпатися."
   },
   {
    "id": "phrasal-verbs-common-9",
@@ -209,7 +209,7 @@
     "off"
    ],
    "answer": 0,
-   "why": "*try on* — приміряти."
+   "why": "*try on* — приміряти одяг."
   },
   {
    "id": "phrasal-verbs-common-19",
@@ -222,7 +222,7 @@
     "out"
    ],
    "answer": 0,
-   "why": "*take off* — злетіти."
+   "why": "*take off* — злетіти (про літак)."
   },
   {
    "id": "phrasal-verbs-common-20",
@@ -298,7 +298,7 @@
     "got off"
    ],
    "answer": 0,
-   "why": "*set off* — вирушити в дорогу."
+   "why": "*set off* — вирушити в дорогу. *set up* — заснувати, *put off* — відкласти."
   },
   {
    "id": "phrasal-verbs-common-25",

@@ -82,7 +82,7 @@
     "Future Perfect"
    ],
    "answer": 0,
-   "why": "Звички — Present Simple."
+   "why": "Звички й регулярні дії — Present Simple."
   },
   {
    "id": "tenses-overview-8",
@@ -161,7 +161,7 @@
     "is snowing",
     "'s snowing"
    ],
-   "why": "*Look!* — зараз: *is snowing*."
+   "why": "*Look!* — дія саме зараз: *is snowing*."
   },
   {
    "id": "tenses-overview-15",
@@ -180,7 +180,7 @@
     "will be",
     "'ll be"
    ],
-   "why": "Факт про майбутнє — *will be*."
+   "why": "Факт про майбутнє (вік) — *will be*."
   },
   {
    "id": "tenses-overview-17",
@@ -235,7 +235,7 @@
    "answer": [
     "I have never been to Spain"
    ],
-   "why": "Досвід — Present Perfect.",
+   "why": "Досвід за життя — Present Perfect: *I have never been…*",
    "hint": "Я ніколи не був в Іспанії."
   },
   {
@@ -254,7 +254,7 @@
     "She was reading when I came in",
     "When I came in she was reading"
    ],
-   "why": "Процес + подія в минулому.",
+   "why": "Процес (*was reading*) перервала подія (*came in*).",
    "hint": "Вона читала, коли я зайшов."
   },
   {
@@ -272,7 +272,7 @@
     "They will have finished by Monday",
     "By Monday they will have finished"
    ],
-   "why": "*by Monday* — Future Perfect.",
+   "why": "*by Monday* — Future Perfect: *will have finished*.",
    "hint": "Вони закінчать до понеділка."
   },
   {

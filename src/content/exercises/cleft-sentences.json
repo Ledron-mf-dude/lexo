@@ -89,7 +89,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "Подія в минулому — *What happened was that…*"
+   "why": "Подія в минулому, тому *was*: *What happened was that he lost his keys.*"
   },
   {
    "id": "cleft-sentences-8",
@@ -105,7 +105,7 @@
    "answer": [
     "What I need is a rest"
    ],
-   "why": "*What I need is a rest.*"
+   "why": "*What I need is…* — виділяємо, що саме потрібно."
   },
   {
    "id": "cleft-sentences-9",
@@ -115,7 +115,7 @@
     "who",
     "that"
    ],
-   "why": "*It was* + людина + *who / that*."
+   "why": "Виділяємо людину: *It was* + людина + *who / that*."
   },
   {
    "id": "cleft-sentences-10",
@@ -124,7 +124,7 @@
    "answer": [
     "What"
    ],
-   "why": "*What I love about this city is the food.*"
+   "why": "*What I love … is…* — *What* = «те, що»."
   },
   {
    "id": "cleft-sentences-11",
@@ -143,7 +143,7 @@
    "answer": [
     "was"
    ],
-   "why": "*It was in 2015 that…*"
+   "why": "Виділяємо час — *It was in 2015 that…*"
   },
   {
    "id": "cleft-sentences-13",
@@ -156,7 +156,7 @@
     "Which"
    ],
    "answer": 0,
-   "why": "*What matters is your health.*"
+   "why": "*What matters is…* — «важливо (те, що) — це…»."
   },
   {
    "id": "cleft-sentences-14",
@@ -169,7 +169,7 @@
     "when"
    ],
    "answer": 0,
-   "why": "*It was the noise that kept me awake.*"
+   "why": "*It was the noise that kept me awake* — саме шум."
   },
   {
    "id": "cleft-sentences-15",
@@ -182,7 +182,7 @@
     "which it"
    ],
    "answer": 0,
-   "why": "*the place where we met*."
+   "why": "Про місце — *where*: *the place where we met*."
   },
   {
    "id": "cleft-sentences-16",
@@ -211,7 +211,7 @@
    "answer": [
     "It was John who told me"
    ],
-   "why": "*It was John who told me.*",
+   "why": "*It was John who told me* — саме Джон.",
    "hint": "Саме Джон мені сказав."
   },
   {
@@ -228,7 +228,7 @@
    "answer": [
     "What I need is more time"
    ],
-   "why": "*What I need is more time.*",
+   "why": "*What I need is…* виділяє те, чого бракує: «що мені потрібно, — це більше часу».",
    "hint": "Що мені потрібно — це більше часу."
   },
   {
@@ -245,7 +245,7 @@
    "answer": [
     "All she wanted was a holiday"
    ],
-   "why": "*All she wanted was a holiday.*",
+   "why": "*All she wanted was…* — «усе, чого вона хотіла, — це…».",
    "hint": "Усе, чого вона хотіла, — це відпустка."
   },
   {
@@ -272,7 +272,7 @@
     "when that"
    ],
    "answer": 1,
-   "why": "*It was in 2010 that we first met.*"
+   "why": "Виділяємо рік: *It was* + час + *that*. *where* — лише про місце, *when that* — подвоєння."
   },
   {
    "id": "cleft-sentences-22",

@@ -24,7 +24,7 @@
     "because"
    ],
    "answer": 0,
-   "why": "*provided that* — «за умови, що»."
+   "why": "*provided that* — «за умови, що»: піду, якщо безкоштовно."
   },
   {
    "id": "conditionals-advanced-3",
@@ -89,7 +89,7 @@
     "as long"
    ],
    "answer": 0,
-   "why": "*in case* — на випадок, якщо."
+   "why": "*in case* — на випадок, якщо (запобіжно взяти пальто)."
   },
   {
    "id": "conditionals-advanced-8",
@@ -102,7 +102,7 @@
     "provided"
    ],
    "answer": 0,
-   "why": "*otherwise* — «інакше»."
+   "why": "*otherwise* — «інакше»: виходь зараз, інакше запізнишся."
   },
   {
    "id": "conditionals-advanced-9",
@@ -137,7 +137,7 @@
    "answer": [
     "Had"
    ],
-   "why": "*Had I known* — інверсія без *if*.",
+   "why": "*Had I known* = *If I had known*: формальна інверсія без *if* у третьому умовному.",
    "hint": "Інверсія без if"
   },
   {
@@ -147,7 +147,7 @@
    "answer": [
     "Should"
    ],
-   "why": "*Should you need* — формально.",
+   "why": "*Should you need* = *If you need*: формальна умова з інверсією.",
    "hint": "Інверсія без if"
   },
   {
@@ -167,7 +167,7 @@
    "answer": [
     "even if"
    ],
-   "why": "*even if* — навіть якщо."
+   "why": "*even if* — «навіть якщо»: піду незалежно від дощу."
   },
   {
    "id": "conditionals-advanced-15",
@@ -206,7 +206,7 @@
     "In case"
    ],
    "answer": 0,
-   "why": "*Supposing* — «припустімо»."
+   "why": "*Supposing* — «припустімо»: вводить уявну ситуацію з Past Simple (*won*)."
   },
   {
    "id": "conditionals-advanced-18",
@@ -238,7 +238,7 @@
     "Had I known I would have told you",
     "I would have told you had I known"
    ],
-   "why": "*Had I known* — інверсія.",
+   "why": "Інверсія *Had I known* замінює *If I had known*; головна частина — *I would have told you*.",
    "hint": "Якби я знав, я б тобі сказав."
   },
   {
@@ -262,7 +262,7 @@
     "You can go out as long as you are back by ten",
     "As long as you are back by ten you can go out"
    ],
-   "why": "*as long as* — за умови.",
+   "why": "*as long as* — «за умови, що»: можна піти, якщо повернешся до десятої.",
    "hint": "Можеш погуляти, якщо повернешся до десятої."
   },
   {
@@ -281,7 +281,7 @@
     "Take an umbrella in case it rains",
     "In case it rains take an umbrella"
    ],
-   "why": "*in case* + Present Simple.",
+   "why": "*in case* + Present Simple — «на випадок, якщо»: парасолька про запас.",
    "hint": "Візьми парасольку на випадок дощу."
   },
   {
@@ -308,7 +308,7 @@
     "in case"
    ],
    "answer": 1,
-   "why": "*otherwise* — інакше."
+   "why": "*otherwise* — «інакше»: поспішай, а то спізнимося. *unless* потребувало б іншої побудови."
   },
   {
    "id": "conditionals-advanced-24",
@@ -317,7 +317,7 @@
    "answer": [
     "if"
    ],
-   "why": "*What if…?* — а що, як…?"
+   "why": "*What if…?* — «а що, як…?»: питаємо про можливу проблему."
   }
  ]
 }

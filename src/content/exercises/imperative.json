@@ -114,7 +114,7 @@
     "Don't",
     "Do not"
    ],
-   "why": "Заборона — *Don't touch that!*"
+   "why": "Заборона — *Don't* + дієслово: *Don't touch that!*"
   },
   {
    "id": "imperative-10",
@@ -154,7 +154,7 @@
     "Doesn't"
    ],
    "answer": 0,
-   "why": "*Don't worry* — заперечний наказ."
+   "why": "Заперечний наказ — *Don't worry.*"
   },
   {
    "id": "imperative-14",
@@ -236,7 +236,7 @@
    "answer": [
     "Let's have a break"
    ],
-   "why": "*Let's have a break.*",
+   "why": "Пропозиція — *Let's* + дієслово без *to*.",
    "hint": "Давай зробимо перерву."
   },
   {

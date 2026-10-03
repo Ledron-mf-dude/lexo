@@ -24,7 +24,7 @@
     "For example"
    ],
    "answer": 1,
-   "why": "Протиставлення — *However*."
+   "why": "Квартира подобається, але дорога — протиставлення: *However*."
   },
   {
    "id": "discourse-markers-3",
@@ -37,7 +37,7 @@
     "For instance"
    ],
    "answer": 0,
-   "why": "Наслідок — *As a result*."
+   "why": "Не вчився — отже, провалив: наслідок *As a result*."
   },
   {
    "id": "discourse-markers-4",
@@ -50,7 +50,7 @@
     "Besides"
    ],
    "answer": 0,
-   "why": "*First of all* — насамперед."
+   "why": "*First of all* — «насамперед, спершу»."
   },
   {
    "id": "discourse-markers-5",
@@ -76,7 +76,7 @@
     "Furthermore"
    ],
    "answer": 0,
-   "why": "Думка — *In my opinion*."
+   "why": "Особиста думка — *In my opinion*."
   },
   {
    "id": "discourse-markers-7",
@@ -89,7 +89,7 @@
     "Moreover"
    ],
    "answer": 0,
-   "why": "Підсумок — *In conclusion*."
+   "why": "Підсумовуємо — *In conclusion*."
   },
   {
    "id": "discourse-markers-8",
@@ -140,7 +140,7 @@
    "answer": [
     "For"
    ],
-   "why": "*For instance* — наприклад."
+   "why": "*For instance* = *For example* — наприклад."
   },
   {
    "id": "discourse-markers-12",
@@ -149,7 +149,7 @@
    "answer": [
     "In"
    ],
-   "why": "*In addition* — крім того."
+   "why": "*In addition* — «крім того»: додаємо ще одну перевагу."
   },
   {
    "id": "discourse-markers-13",
@@ -158,7 +158,7 @@
    "answer": [
     "To"
    ],
-   "why": "*To sum up* — підсумовуючи."
+   "why": "*To sum up* — «підсумовуючи»."
   },
   {
    "id": "discourse-markers-14",
@@ -186,7 +186,7 @@
     "Firstly of all"
    ],
    "answer": 0,
-   "why": "*Personally* — особисто я."
+   "why": "*Personally* — «особисто я», вводить власну думку."
   },
   {
    "id": "discourse-markers-16",
@@ -225,7 +225,7 @@
     "However"
    ],
    "answer": 0,
-   "why": "*First of all* — спочатку."
+   "why": "*First of all* — спочатку, перш за все."
   },
   {
    "id": "discourse-markers-19",
@@ -283,7 +283,7 @@
     "In conclusion the plan is too risky",
     "In conclusion, the plan is too risky"
    ],
-   "why": "*In conclusion* — підсумок.",
+   "why": "*In conclusion* — підсумок наприкінці.",
    "hint": "Отже, план надто ризикований."
   },
   {

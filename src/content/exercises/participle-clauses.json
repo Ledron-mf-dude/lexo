@@ -177,7 +177,7 @@
     "who sitting"
    ],
    "answer": 0,
-   "why": "*The girl (who is) sitting…*"
+   "why": "Скорочене означальне: *The girl (who is) sitting next to Anna*."
   },
   {
    "id": "participle-clauses-16",
@@ -259,7 +259,7 @@
     "Made in Italy these shoes are expensive",
     "Made in Italy, these shoes are expensive"
    ],
-   "why": "Пасив — *Made in Italy*.",
+   "why": "Черевики зробили в Італії — пасив, третя форма: *Made in Italy, …*",
    "hint": "Зроблені в Італії, ці черевики дорогі."
   },
   {
@@ -330,7 +330,7 @@
    "answer": [
     "asked"
    ],
-   "why": "*If asked* = *if you are asked*."
+   "why": "*If asked* = *if you are asked* — пасив без підмета."
   }
  ]
 }

@@ -63,7 +63,7 @@
     "have been"
    ],
    "answer": 0,
-   "why": "*news* — однина."
+   "why": "*news* — нелічильне слово в однині, попри *-s*: *was*."
   },
   {
    "id": "subject-verb-agreement-6",
@@ -76,7 +76,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "*glasses* — лише множина."
+   "why": "*glasses* (окуляри) — лише множина: *are*."
   },
   {
    "id": "subject-verb-agreement-7",
@@ -125,7 +125,7 @@
     "has",
     "had"
    ],
-   "why": "*Each of* — однина: *has*."
+   "why": "*Each of* + множина, але дієслово в однині: *has*."
   },
   {
    "id": "subject-verb-agreement-11",
@@ -135,7 +135,7 @@
     "are",
     "were"
    ],
-   "why": "*police* — множина: *are*."
+   "why": "*police* — завжди множина: *are investigating*."
   },
   {
    "id": "subject-verb-agreement-12",
@@ -166,7 +166,7 @@
     "is",
     "was"
    ],
-   "why": "*physics* — однина."
+   "why": "Назви наук на *-ics* — однина: *Physics is*."
   },
   {
    "id": "subject-verb-agreement-15",
@@ -190,7 +190,7 @@
    "answer": [
     "Everybody knows the answer"
    ],
-   "why": "*Everybody knows*.",
+   "why": "*Everybody* + дієслово в однині: *knows*.",
    "hint": "Усі знають відповідь."
   },
   {
@@ -210,7 +210,7 @@
    "answer": [
     "The keys to the car are on the table"
    ],
-   "why": "Головне слово — *keys*: *are*.",
+   "why": "Головне слово — *keys*, а не *car*: *are*.",
    "hint": "Ключі від машини на столі."
   },
   {
@@ -225,7 +225,7 @@
    "answer": [
     "Nobody was at home"
    ],
-   "why": "*Nobody was*.",
+   "why": "*Nobody* + однина: *was*.",
    "hint": "Нікого не було вдома."
   },
   {
@@ -252,7 +252,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "*A lot of people* — множина."
+   "why": "*A lot of people* — множина: *are*."
   },
   {
    "id": "subject-verb-agreement-21",
@@ -288,7 +288,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "*More than one* + однина: *has*."
+   "why": "*More than one* + іменник в однині + дієслово в однині: *has complained*."
   },
   {
    "id": "subject-verb-agreement-24",

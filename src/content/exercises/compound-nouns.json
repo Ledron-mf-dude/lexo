@@ -63,7 +63,7 @@
     "football"
    ],
    "answer": 1,
-   "why": "*mother-in-law* пишеться з дефісами."
+   "why": "*mother-in-law* — складний іменник із прийменником, пишеться з дефісами."
   },
   {
    "id": "compound-nouns-6",
@@ -85,7 +85,7 @@
     "lived room"
    ],
    "answer": 0,
-   "why": "*living room* — *-ing* + іменник."
+   "why": "*living room* — *-ing* + іменник: кімната для життя."
   },
   {
    "id": "compound-nouns-8",
@@ -107,7 +107,7 @@
    "answer": [
     "toothbrushes"
    ],
-   "why": "*toothbrush → toothbrushes*: *-sh* + *-es*."
+   "why": "Множину отримує кінець слова: *toothbrush → toothbrushes* (*-sh* + *-es*)."
   },
   {
    "id": "compound-nouns-10",
@@ -116,7 +116,7 @@
    "answer": [
     "sons-in-law"
    ],
-   "why": "*sons-in-law*."
+   "why": "Головне слово *son* отримує *-s*: *sons-in-law*."
   },
   {
    "id": "compound-nouns-11",
@@ -134,7 +134,7 @@
    "answer": [
     "washing"
    ],
-   "why": "*washing machine* — для прання."
+   "why": "*washing machine* — машина для прання (*-ing* + іменник)."
   },
   {
    "id": "compound-nouns-13",
@@ -147,7 +147,7 @@
     "beds room"
    ],
    "answer": 0,
-   "why": "*bedroom* — разом."
+   "why": "*bedroom* — кімната для сну; цей складний іменник пишеться разом."
   },
   {
    "id": "compound-nouns-14",
@@ -160,7 +160,7 @@
     "sunflower"
    ],
    "answer": 0,
-   "why": "*bus stop* — окремо."
+   "why": "*bus stop* пишеться окремо; *toothpaste, sunflower* — разом, *mother-in-law* — з дефісами."
   },
   {
    "id": "compound-nouns-15",
@@ -173,7 +173,7 @@
     "-ing + noun"
    ],
    "answer": 0,
-   "why": "*check-in* — дієслово + частка."
+   "why": "*check-in* утворене з дієслова *check* і частки *in*."
   },
   {
    "id": "compound-nouns-16",
@@ -215,7 +215,7 @@
    "answer": [
     "We waited at the bus stop"
    ],
-   "why": "*bus stop*.",
+   "why": "*bus stop* — складний іменник із двох слів.",
    "hint": "Ми чекали на автобусній зупинці."
   },
   {
@@ -231,7 +231,7 @@
    "answer": [
     "My mother-in-law's house is big"
    ],
-   "why": "*mother-in-law's*.",
+   "why": "*'s* додаємо в кінці всього складного іменника: *mother-in-law's*.",
    "hint": "Будинок моєї тещі великий."
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "Put the dishes in the dishwasher"
    ],
-   "why": "*dishwasher* — разом.",
+   "why": "*dishwasher* (посудомийка) — складний іменник, пишеться разом.",
    "hint": "Постав посуд у посудомийку."
   },
   {
@@ -262,7 +262,7 @@
     "passports holder"
    ],
    "answer": 1,
-   "why": "*passport holder* — однина першого слова."
+   "why": "Перше слово складного іменника — в однині й без *'s*: *passport holder*."
   },
   {
    "id": "compound-nouns-22",
@@ -284,7 +284,7 @@
    "answer": [
     "park"
    ],
-   "why": "*car park* — стоянка."
+   "why": "*car park* — стоянка (британський варіант)."
   }
  ]
 }

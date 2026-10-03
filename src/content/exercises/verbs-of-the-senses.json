@@ -89,7 +89,7 @@
     "Look"
    ],
    "answer": 1,
-   "why": "*Listen to* — навмисно слухати."
+   "why": "*Listen to* — навмисно слухати; *hear* — чути мимоволі."
   },
   {
    "id": "verbs-of-the-senses-8",
@@ -102,7 +102,7 @@
     "watch"
    ],
    "answer": 1,
-   "why": "*can hear* — сприймати мимоволі."
+   "why": "*can hear* — чую (сприймаю)."
   },
   {
    "id": "verbs-of-the-senses-9",
@@ -111,7 +111,7 @@
    "answer": [
     "tired"
    ],
-   "why": "*look tired*."
+   "why": "Після *look* — прикметник: *look tired*."
   },
   {
    "id": "verbs-of-the-senses-10",
@@ -120,7 +120,7 @@
    "answer": [
     "like"
    ],
-   "why": "*sounds like a great plan*."
+   "why": "*sound like* + іменник."
   },
   {
    "id": "verbs-of-the-senses-11",
@@ -129,7 +129,7 @@
    "answer": [
     "soft"
    ],
-   "why": "*feels soft*."
+   "why": "Після *feel* — прикметник: *feels soft*."
   },
   {
    "id": "verbs-of-the-senses-12",
@@ -150,7 +150,7 @@
     "off",
     "sour"
    ],
-   "why": "*smells bad / off / sour*."
+   "why": "*smells bad / off / sour* — прикметник після *smell*."
   },
   {
    "id": "verbs-of-the-senses-14",
@@ -176,7 +176,7 @@
     "likes"
    ],
    "answer": 0,
-   "why": "*looks like her mother* — схожа."
+   "why": "*look like* — бути схожим."
   },
   {
    "id": "verbs-of-the-senses-16",
@@ -216,7 +216,7 @@
    "answer": [
     "This cake tastes delicious"
    ],
-   "why": "*tastes delicious*.",
+   "why": "Після *taste* — прикметник: *delicious*.",
    "hint": "Цей торт смачний."
   },
   {
@@ -232,7 +232,7 @@
    "answer": [
     "You look like your father"
    ],
-   "why": "*look like your father*.",
+   "why": "*look like* + людина — бути схожим.",
    "hint": "Ти схожий на свого батька."
   },
   {
@@ -249,7 +249,7 @@
    "answer": [
     "It sounds like a good idea"
    ],
-   "why": "*sounds like a good idea*.",
+   "why": "*sound like* + іменник.",
    "hint": "Звучить як гарна ідея."
   },
   {
@@ -276,7 +276,7 @@
     "sounds as"
    ],
    "answer": 0,
-   "why": "*sounds like* + іменник."
+   "why": "Перед іменником — *sounds like*."
   },
   {
    "id": "verbs-of-the-senses-23",

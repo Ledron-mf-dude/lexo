@@ -165,7 +165,7 @@
     "The most"
    ],
    "answer": 0,
-   "why": "*Most of us* — більшість із нас."
+   "why": "Перед займенником (*us*) потрібне *of*: *Most of us*. *Mostly* — прислівник."
   },
   {
    "id": "most-most-of-15",
@@ -178,7 +178,7 @@
     "the most"
    ],
    "answer": 0,
-   "why": "*most of my money*."
+   "why": "*most of* + присвійне (*my money*). *mostly* і *almost* не стоять перед *of my*."
   },
   {
    "id": "most-most-of-16",
@@ -220,7 +220,7 @@
    "answer": [
     "Most people have a mobile phone"
    ],
-   "why": "*Most people* — загалом.",
+   "why": "Про людей загалом — *Most people* без *of* і без *the*.",
    "hint": "Більшість людей мають мобільний телефон."
   },
   {
@@ -289,7 +289,7 @@
    "answer": [
     "of"
    ],
-   "why": "*Most of my friends*."
+   "why": "Перед *my, the, these* — *Most of*: *Most of my friends*."
   }
  ]
 }
