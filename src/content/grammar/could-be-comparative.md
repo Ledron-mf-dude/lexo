@@ -52,6 +52,21 @@ tags: [could be, couldn't be better, could have been, comparative, warmer, cheap
 
 Про теперішнє — **couldn't be**, а не *can't be*: *It **couldn't be** better.* `Can't be` означає «не може бути (неправда)»: *That **can't be** true.* Див. «Модальні дієслова: припущення (might, may, should, must, can't)».
 
+## Як вибрати
+
+1. Зараз щось не ідеальне, «могло б бути краще»? — *could be* + порівняльний: *could be better*.
+2. Про минуле (готель, у якому вже були)? — *could have been* + порівняльний.
+3. Найвища оцінка «краще не буває»? — *couldn't be better*; найгірша — *couldn't be worse*.
+4. Короткий прикметник — *-er*, довгий — *more* + прикметник.
+5. Сталі вирази: *I couldn't agree more* (повністю згоден), *I couldn't care less* (мені байдуже).
+
+## Пастки перекладу
+
+- «Могло бути й гірше» — *It could have been worse* (про минуле) або *It could be worse* (про зараз).
+- «Краще не буває» — *Couldn't be better*, а не *Can't be better*.
+- «Мені байдуже» — *I couldn't care less*: *more* тут означало б протилежне.
+- Після *could be* — порівняльний, не найвищий ступінь: *could be cheaper*, не *could be cheapest*.
+
 ## Типові помилки
 
 - ✗ *It could be more warm.* → ✓ *It could be **warmer**.*

@@ -63,6 +63,21 @@ tags: [the rich, the poor, the young, the elderly, the unemployed, the British, 
 
 ***The best** is yet to come.* / *She's **the oldest** in the family.* / *Of the three, this one is **the cheapest**.* Іменник зрозумілий з контексту.
 
+## Як вибрати
+
+1. Говорите про **всю групу людей** з певною ознакою? — *the* + прикметник: *the rich, the elderly*. Дієслово — у множині.
+2. Про **одну людину**? — потрібен іменник: *a rich man, an old woman*.
+3. Національність на *-sh, -ch, -ese, -ss*? — *the British, the French, the Swiss* (народ). Про одну людину — прикметник: *She's French.*
+4. Національність з окремим іменником (*Italian, German, American*)? — множина з *-s*: *Italians, Germans*.
+5. Абстрактне поняття? — *the* + прикметник в однині: *the unknown, the impossible*.
+
+## Пастки перекладу
+
+- «Багаті» — *the rich*, без *-s*: *the riches* означає «багатства».
+- «Він француз» — *He's French* або *He's a Frenchman*, але не *He's a French*.
+- «Безробітні шукають роботу» — *The unemployed are looking*: множина.
+- «Найкраще ще попереду» — *The best is yet to come*: абстрактне, тому однина.
+
 ## Типові помилки
 
 - ✗ *The rich is not always happy.* → ✓ *The rich **are**…* (група — множина)

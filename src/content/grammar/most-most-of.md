@@ -66,6 +66,21 @@ tags: [most, most of, the most, mostly, almost, majority, більшість, н
 
 У книжному стилі ***a most** + прикметник* означає «дуже, надзвичайно», а не найвищий ступінь: *It was **a most** interesting talk.*
 
+## Як вибрати
+
+1. Говорите про людей чи речі **загалом**? — **most** + іменник без артикля: *Most children like sweets.*
+2. Про **конкретну** групу (з *the, my, these, them*)? — **most of**: *Most of my friends…*
+3. «Найбільш, най-» перед прикметником? — **the most**: *the most expensive*.
+4. «Здебільшого, переважно» біля дієслова чи прикметника? — **mostly**.
+5. «Майже» (всі, кожен, ніколи)? — **almost** / *nearly*: *almost everyone*.
+
+## Пастки перекладу
+
+- «Більшість людей» — *most people*, не *most of people* і не *the most people*.
+- «Майже всі» — *almost all*, а не *most all*.
+- «Більшість із нас» — *most of us*: перед займенником *of* обов'язкове.
+- *most* ≠ *mostly*: *Most students are young* (більшість студентів) / *The students are mostly young* (студенти здебільшого молоді).
+
 ## Типові помилки
 
 - ✗ *Most of people like music.* → ✓ ***Most people** like music.* (загалом — без of)

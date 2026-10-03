@@ -46,6 +46,21 @@ tags: [future in the past, was going to, would, was about to, was to, were going
 
 У книжному стилі `would` показує, що сталося згодом: *She **would** later **become** the first woman to…* — Згодом вона стане першою жінкою, яка…
 
+## Як вибрати
+
+1. Був план або намір, який (часто) не здійснився? — ***was / were going to***: *I was going to call, but…*
+2. Щось мало статися ось-ось, але перервали? — ***was / were about to***.
+3. Переказуєте чужі слова з *will*? — ***would***: *He said he would help.*
+4. Розповідаєте біографію й забігаєте наперед? — ***would*** або книжне ***was to***: *She would later become…*
+5. Була вже домовленість на певний час? — **Past Continuous**: *She was leaving the next day.*
+
+## Пастки перекладу
+
+- «Я збирався подзвонити» — *I was going to call*, а не *I was going to calling*: після *going to* — інфінітив.
+- «Він сказав, що прийде» — *He said he **would** come*; українська не змінює час, англійська — змінює.
+- «Я саме збирався виходити» — *I was about to leave*, не *I was about leaving*.
+- *was going to* підказує, що план не здійснився, тому природно продовжувати *but…*
+
 ## Типові помилки
 
 - ✗ *He said he will call me the next day.* → ✓ *He said he **would** call me the next day.*

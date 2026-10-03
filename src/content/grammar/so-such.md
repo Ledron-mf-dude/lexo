@@ -66,6 +66,21 @@ tags: [so, such, such a, so much, so many, so that, so … that, такий, н�
 
 **such as** = «наприклад, такі як»: *I like fruit **such as** apples and pears.* Не плутайте з `such` у значенні «такий».
 
+## Як вибрати
+
+1. Далі тільки **прикметник чи прислівник**? — ***so***: *so tall, so quickly*.
+2. Далі **іменник** (з прикметником або без)? — ***such***: *such kind people*, *such a mess*.
+3. Іменник лічильний в однині? — ***such a / an***: *such a nice day*.
+4. Кількість: *much / many / little / few*? — ***so***: *so many people, so much work*.
+5. Наслідок? — *so / such … that*: *so tired that I fell asleep*.
+
+## Пастки перекладу
+
+- «Такий гарний день» — *such a nice day*, а не *so nice day*.
+- «Така гарна погода» — *such nice weather*: *weather* нелічильне, тому без *a*.
+- «Так багато людей» — *so many people*, не *such many*.
+- *such as* означає «наприклад, такі як», а не «так».
+
 ## Типові помилки
 
 - ✗ *It was so nice day.* → ✓ *It was **such a** nice day.*

@@ -58,6 +58,21 @@ tags: [prefer, would prefer, would rather, would sooner, preference, перев�
 
 *I **preferred** walking to driving when I lived there.* — `prefer` як звичайне дієслово змінюється за часами; `would prefer` — лише про теперішню чи майбутню ситуацію.
 
+## Як вибрати
+
+1. Загальне вподобання? — ***prefer X to Y*** або *prefer -ing to -ing*: *I prefer tea to coffee.*
+2. Бажання в конкретній ситуації? — ***would prefer to*** + дієслово.
+3. Те саме, але розмовно й без *to*? — ***would rather*** + дієслово.
+4. Хочете, щоб щось зробив інший? — *would prefer* + особа + *to* / *would rather* + особа + Past Simple.
+5. Порівнюєте з дієсловом? — *prefer to do X rather than (do) Y*.
+
+## Пастки перекладу
+
+- «Віддаю перевагу чаю перед кавою» — *prefer tea **to** coffee*, не *than coffee*.
+- «Я б волів не йти» — *I'd prefer not to go*; *I'd rather not go*.
+- «Я б хотів, щоб ти залишився» — *I'd prefer you to stay* або *I'd rather you stayed*.
+- *prefer* і *would prefer* розрізняються як «люблю» і «хочу зараз».
+
 ## Типові помилки
 
 - ✗ *I prefer tea than coffee.* → ✓ *I prefer tea **to** coffee.*

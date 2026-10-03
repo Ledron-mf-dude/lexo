@@ -56,6 +56,21 @@ tags: [would rather, 'd rather, would rather than, would rather you did, would r
 
 *"Shall we go out?" — "I'**d rather not**."* / *"Do you mind if I smoke?" — "I'**d rather you didn't**."* — ввічлива відмова.
 
+## Як вибрати
+
+1. Ваша перевага щодо **себе**? — *would rather* + дієслово **без to**: *I'd rather stay.*
+2. Порівнюєте два варіанти? — *would rather* **A than B**: *I'd rather walk than drive.*
+3. Хочете, щоб щось зробив **інший**? — *would rather* + особа + **Past Simple**: *I'd rather you stayed.*
+4. Шкодуєте про минуле? — *would rather have* + V3.
+5. Порада, а не перевага? — це вже *had better*: *You'd better go.*
+
+## Пастки перекладу
+
+- «Я б краще залишився» — *I'd rather stay*, без *to*: *I'd rather to stay* — помилка.
+- «Я б не хотів» — *I'd rather not*, без *don't*.
+- «Я б хотів, щоб ти не курив тут» — *I'd rather you didn't smoke*: Past Simple, хоча мова про теперішнє.
+- *'d* може бути і *would*, і *had*: *I'd rather* (would) ≠ *You'd better* (had).
+
 ## Типові помилки
 
 - ✗ *I'd rather to stay.* → ✓ *I'd rather **stay**.*

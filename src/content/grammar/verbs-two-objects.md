@@ -58,6 +58,21 @@ tags: [two objects, give, send, show, tell, buy, indirect object, direct object,
 - *The mistake **cost him** his job.* — коштувала (тільки без to).
 - *Can I **ask you** a question?* — `ask` з `of` лише у сталих формальних виразах.
 
+## Як вибрати
+
+1. Хто отримує важливіший для повідомлення: річ чи людина? Нове й важливе ставимо **в кінець**: *She gave **me** a book* (важлива книжка) / *She gave the book **to her sister*** (важливо, кому).
+2. Обидва додатки — займенники? — тільки зі схемою з прийменником: *Give **it to me**.*
+3. Дієслово передачі (*give, send, show, tell, lend*)? — прийменник **to**.
+4. Дієслово «зробити / дістати для когось» (*buy, make, cook, get, find*)? — прийменник **for**.
+5. *explain, say, suggest, describe, mention*? — лише схема **що + to + кому**.
+
+## Пастки перекладу
+
+- «Поясни мені правило» — *Explain the rule **to me***, не *Explain me the rule*.
+- «Скажи мені» — *Tell me* або *Say **to** me*; *Say me* — помилка.
+- «Купи мені квиток» — *Buy me a ticket* або *Buy a ticket **for** me* (не *to me*).
+- У пасиві підметом природніше робити людину: «мені дали» — *I was given…*
+
 ## Типові помилки
 
 - ✗ *She explained me the rule.* → ✓ *She explained the rule **to me**.*
