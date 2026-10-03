@@ -262,6 +262,41 @@
    ],
    "why": "for — прийменник, тому -ing.",
    "hint": "Дякую, що допоміг мені."
+  },
+  {
+   "id": "gerund-after-verbs-23",
+   "type": "choice",
+   "q": "I spent the whole weekend ___ the garage.",
+   "options": [
+    "to tidy",
+    "tidying",
+    "tidy",
+    "for tidying"
+   ],
+   "answer": 1,
+   "why": "spend time + -ing."
+  },
+  {
+   "id": "gerund-after-verbs-24",
+   "type": "choice",
+   "q": "Let's go ___ this afternoon.",
+   "options": [
+    "to shop",
+    "shopping",
+    "for shopping",
+    "shop"
+   ],
+   "answer": 1,
+   "why": "go + -ing для дозвілля."
+  },
+  {
+   "id": "gerund-after-verbs-25",
+   "type": "fill",
+   "q": "She's busy ___ (prepare) for the exam.",
+   "answer": [
+    "preparing"
+   ],
+   "why": "be busy + -ing."
   }
  ]
 }

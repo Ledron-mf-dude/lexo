@@ -266,6 +266,55 @@
    ],
    "why": "It's time + Past Simple.",
    "hint": "Нам час додому."
+  },
+  {
+   "id": "wish-if-only-22",
+   "type": "choice",
+   "q": "I wish I ___ play the piano.",
+   "options": [
+    "can",
+    "could",
+    "would",
+    "will"
+   ],
+   "answer": 1,
+   "why": "Уміння — wish + could."
+  },
+  {
+   "id": "wish-if-only-23",
+   "type": "choice",
+   "q": "I ___ you have a great holiday!",
+   "options": [
+    "wish",
+    "hope",
+    "would",
+    "want"
+   ],
+   "answer": 1,
+   "why": "Реальне побажання — hope."
+  },
+  {
+   "id": "wish-if-only-24",
+   "type": "choice",
+   "q": "I wish it ___ raining. I want to go out.",
+   "options": [
+    "isn't",
+    "wasn't",
+    "won't be",
+    "hasn't"
+   ],
+   "answer": 1,
+   "why": "Дія зараз — wish + Past Continuous."
+  },
+  {
+   "id": "wish-if-only-25",
+   "type": "fill",
+   "q": "I wish I ___ (not / eat) so much last night.",
+   "answer": [
+    "hadn't eaten",
+    "had not eaten"
+   ],
+   "why": "Минуле — wish + Past Perfect."
   }
  ]
 }

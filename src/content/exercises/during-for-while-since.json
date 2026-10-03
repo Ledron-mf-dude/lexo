@@ -291,6 +291,42 @@
    ],
    "why": "while + речення.",
    "hint": "Він зателефонував, поки я готував."
+  },
+  {
+   "id": "during-for-while-since-24",
+   "type": "choice",
+   "q": "She moved to Canada three years ___.",
+   "options": [
+    "before",
+    "ago",
+    "since",
+    "for"
+   ],
+   "answer": 1,
+   "why": "Назад від тепер — ago."
+  },
+  {
+   "id": "during-for-while-since-25",
+   "type": "choice",
+   "q": "When I met him, he had left school two years ___.",
+   "options": [
+    "ago",
+    "before",
+    "since",
+    "after"
+   ],
+   "answer": 1,
+   "why": "Від минулого моменту — before."
+  },
+  {
+   "id": "during-for-while-since-26",
+   "type": "fill",
+   "q": "___ it's late, let's take a taxi.",
+   "answer": [
+    "Since",
+    "As"
+   ],
+   "why": "since / as = тому що."
   }
  ]
 }

@@ -278,6 +278,54 @@
    ],
    "why": "in + проміжок — через.",
    "hint": "Фільм почнеться через десять хвилин."
+  },
+  {
+   "id": "prepositions-time-23",
+   "type": "choice",
+   "q": "We open presents ___ Christmas Day.",
+   "options": [
+    "at",
+    "on",
+    "in",
+    "by"
+   ],
+   "answer": 1,
+   "why": "Конкретний день свята — on."
+  },
+  {
+   "id": "prepositions-time-24",
+   "type": "choice",
+   "q": "I'll be ready ___ five minutes.",
+   "options": [
+    "after",
+    "in",
+    "on",
+    "for"
+   ],
+   "answer": 1,
+   "why": "Через стільки часу від тепер — in."
+  },
+  {
+   "id": "prepositions-time-25",
+   "type": "choice",
+   "q": "My parents met ___ the 1980s.",
+   "options": [
+    "on",
+    "at",
+    "in",
+    "during the"
+   ],
+   "answer": 2,
+   "why": "Десятиліття — in."
+  },
+  {
+   "id": "prepositions-time-26",
+   "type": "fill",
+   "q": "The film was boring ___ the beginning, but then it got better.",
+   "answer": [
+    "at"
+   ],
+   "why": "На початку чогось — at the beginning."
   }
  ]
 }

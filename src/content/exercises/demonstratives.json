@@ -251,6 +251,41 @@
    ],
    "why": "that — далеко.",
    "hint": "Це твоя машина он там?"
+  },
+  {
+   "id": "demonstratives-21",
+   "type": "choice",
+   "q": "I don't like these shoes. I prefer ___.",
+   "options": [
+    "that ones",
+    "those ones",
+    "this one",
+    "that"
+   ],
+   "answer": 1,
+   "why": "Множина — those (ones)."
+  },
+  {
+   "id": "demonstratives-22",
+   "type": "choice",
+   "q": "\"I got the job!\" — \"___ fantastic!\"",
+   "options": [
+    "This is",
+    "That's",
+    "These are",
+    "It's this"
+   ],
+   "answer": 1,
+   "why": "Відповідь на слова співрозмовника — That's…"
+  },
+  {
+   "id": "demonstratives-23",
+   "type": "fill",
+   "q": "In ___ days people didn't have mobile phones.",
+   "answer": [
+    "those"
+   ],
+   "why": "Про минуле — in those days."
   }
  ]
 }

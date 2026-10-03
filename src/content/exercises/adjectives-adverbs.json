@@ -280,6 +280,54 @@
    ],
    "why": "Після sound — прикметник good.",
    "hint": "Музика звучить справді добре."
+  },
+  {
+   "id": "adjectives-adverbs-23",
+   "type": "choice",
+   "q": "This restaurant is ___ recommended.",
+   "options": [
+    "high",
+    "highly",
+    "height",
+    "higher"
+   ],
+   "answer": 1,
+   "why": "highly = дуже (оцінка)."
+  },
+  {
+   "id": "adjectives-adverbs-24",
+   "type": "choice",
+   "q": "Go ___ on and turn left at the bank.",
+   "options": [
+    "straightly",
+    "straight",
+    "straighter",
+    "strait"
+   ],
+   "answer": 1,
+   "why": "straight — і прикметник, і прислівник."
+  },
+  {
+   "id": "adjectives-adverbs-25",
+   "type": "choice",
+   "q": "I've been very busy ___.",
+   "options": [
+    "late",
+    "lately",
+    "later",
+    "latest"
+   ],
+   "answer": 1,
+   "why": "lately — останнім часом."
+  },
+  {
+   "id": "adjectives-adverbs-26",
+   "type": "fill",
+   "q": "I feel ___ (bad) about what I said.",
+   "answer": [
+    "bad"
+   ],
+   "why": "Після feel — прикметник: bad."
   }
  ]
 }

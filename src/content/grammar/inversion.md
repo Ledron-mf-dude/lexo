@@ -50,9 +50,32 @@ tags: [inversion, never have I, hardly, no sooner, not only, seldom, rarely, lit
 2. Речення залишається ствердним: *Never **have I** seen*, не *haven't*.
 3. Вживайте обережно: це ефектно, але **формально**.
 
+## Ті самі значення без інверсії
+
+Більшість конструкцій мають звичайний варіант — він природніший у розмові:
+
+| З інверсією (формально) | Без інверсії |
+| --- | --- |
+| **No sooner had** she left **than** he called. | She **had no sooner** left **than** he called. / As soon as she left, he called. |
+| **Hardly had** I arrived **when** it rained. | I **had hardly** arrived **when** it rained. |
+| **Never have I** seen such a mess. | I **have never** seen such a mess. |
+| **Not until** midnight **did** they arrive. | They **didn't** arrive **until** midnight. |
+| **Only then did** I understand. | I understood **only then**. |
+| **Little did** he know… | He **had no idea**… |
+
+## Only if, only when
+
+***Only if** you work hard **will** you pass.* — інверсія в **головній** частині, не в тій, що після `only if`. Без інверсії: *You'll pass **only if** you work hard.*
+
+## Neither / nor / so
+
+Після них теж інверсія, і це вже звичайна розмова: *I can't swim, and **neither can** my brother.* / *She loves jazz, and **so do** I.* Див. «Question tags, so am I, neither do I».
+
 ## Типові помилки
 
 - ✗ *Never I have seen such a thing.* → ✓ ***Never have I** seen…*
 - ✗ *Rarely she goes out.* → ✓ ***Rarely does she** go out.*
 - ✗ *Never haven't I seen it.* → ✓ ***Never have I** seen it.* (речення ствердне)
 - ✗ *No sooner had she left when he called.* → ✓ *No sooner had she left **than** he called.*
+- ✗ *Only if you work hard you will pass.* → ✓ *Only if you work hard **will you** pass.*
+- ✗ *Not until midnight they arrived.* → ✓ *Not until midnight **did they arrive**.*

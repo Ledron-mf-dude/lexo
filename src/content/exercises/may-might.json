@@ -242,6 +242,43 @@
    ],
    "why": "may + have + V3.",
    "hint": "Можливо, він забув."
+  },
+  {
+   "id": "may-might-20",
+   "type": "choice",
+   "q": "Don't call now. She ___ sleeping.",
+   "options": [
+    "might",
+    "might be",
+    "may to be",
+    "can be"
+   ],
+   "answer": 1,
+   "why": "Можливо, триває зараз: might be + -ing."
+  },
+  {
+   "id": "may-might-21",
+   "type": "choice",
+   "q": "The last bus has gone. We might as well ___.",
+   "options": [
+    "to walk",
+    "walk",
+    "walking",
+    "walked"
+   ],
+   "answer": 1,
+   "why": "might as well + інфінітив без to."
+  },
+  {
+   "id": "may-might-22",
+   "type": "fill",
+   "q": "Take a coat. It ___ get cold later.",
+   "answer": [
+    "might",
+    "may",
+    "could"
+   ],
+   "why": "Конкретна можливість у майбутньому — might / may / could."
   }
  ]
 }

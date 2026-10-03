@@ -257,6 +257,41 @@
    ],
    "why": "both … and.",
    "hint": "І Том, і Кейт склали іспит."
+  },
+  {
+   "id": "conjunctions-21",
+   "type": "choice",
+   "q": "I don't eat meat, and my sister doesn't ___.",
+   "options": [
+    "too",
+    "either",
+    "also",
+    "neither"
+   ],
+   "answer": 1,
+   "why": "Заперечення — either."
+  },
+  {
+   "id": "conjunctions-22",
+   "type": "choice",
+   "q": "___ English, she speaks German and Polish.",
+   "options": [
+    "Besides of",
+    "Apart from",
+    "As well",
+    "Also"
+   ],
+   "answer": 1,
+   "why": "Apart from + іменник."
+  },
+  {
+   "id": "conjunctions-23",
+   "type": "fill",
+   "q": "She plays the guitar as well ___ the piano.",
+   "answer": [
+    "as"
+   ],
+   "why": "as well as."
   }
  ]
 }

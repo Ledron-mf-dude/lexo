@@ -283,6 +283,55 @@
    ],
    "why": "Third conditional.",
    "hint": "Якби я знав, я б прийшов."
+  },
+  {
+   "id": "conditionals-23",
+   "type": "choice",
+   "q": "If you see Tom, ___ him to call me.",
+   "options": [
+    "you tell",
+    "tell",
+    "will tell",
+    "told"
+   ],
+   "answer": 1,
+   "why": "Наказовий спосіб у першому умовному."
+  },
+  {
+   "id": "conditionals-24",
+   "type": "choice",
+   "q": "If I were you, I ___ the job.",
+   "options": [
+    "will take",
+    "would take",
+    "take",
+    "had taken"
+   ],
+   "answer": 1,
+   "why": "If I were you, I'd… — порада."
+  },
+  {
+   "id": "conditionals-25",
+   "type": "choice",
+   "q": "If you finish early, you ___ go home.",
+   "options": [
+    "can",
+    "could have",
+    "would",
+    "had"
+   ],
+   "answer": 0,
+   "why": "Дозвіл у першому умовному — can."
+  },
+  {
+   "id": "conditionals-26",
+   "type": "fill",
+   "q": "If I ___ (be) rich, I would travel the world.",
+   "answer": [
+    "were",
+    "was"
+   ],
+   "why": "Second conditional: were (у розмові was)."
   }
  ]
 }

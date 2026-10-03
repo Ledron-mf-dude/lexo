@@ -108,6 +108,18 @@ tags: [gerund, -ing, verb + -ing, герундій, дієслова, прийм
 
 > Слова з цих таблиць у Lexo мають теги `gerund-verbs` та `gerund-phrases` — їх можна відібрати для окремої сесії практики.
 
+## Ще конструкції з -ing
+
+| Конструкція | Приклад |
+| --- | --- |
+| **go** + -ing (дозвілля) | We **went skiing**. / Let's **go shopping**. |
+| **spend / waste** + час / гроші + -ing | I **spent** two hours **cleaning**. / Don't **waste** time **arguing**. |
+| **be busy** + -ing | She's **busy cooking**. |
+| **have fun / a good time** + -ing | We **had fun playing** in the snow. |
+| **have trouble / problems** + -ing | I **have trouble remembering** names. |
+| **sit / stand / lie** + місце + -ing | He **sat** on the sofa **reading**. |
+| **there's no point (in)** + -ing | **There's no point** waiting. |
+
 ## Типові помилки
 
 - ✗ *I enjoy to read.* → ✓ *I enjoy **reading**.*
@@ -115,3 +127,6 @@ tags: [gerund, -ing, verb + -ing, герундій, дієслова, прийм
 - ✗ *He suggested to go.* → ✓ *He suggested **going**.*
 - ✗ *Do you mind to open the window?* → ✓ *Do you mind **opening**…?*
 - ✗ *It's worth to visit.* → ✓ *It's worth **visiting**.*
+- ✗ *I spent two hours to clean the flat.* → ✓ *I spent two hours **cleaning** the flat.*
+- ✗ *She is busy to cook.* → ✓ *She is busy **cooking**.*
+- ✗ *We went to ski last winter.* → ✓ *We went **skiing** last winter.*

@@ -60,9 +60,41 @@ tags: [adjectives, adverbs, adverbs of manner, slowly, fast, hard, hardly, well,
 - Після дієслова або додатка: *She speaks **slowly**.* / *He opened the door **quietly**.*
 - Прислівники ступеня (`very`, `really`, `quite`) — перед прикметником: *She is **very** happy.*
 
+## Прислівники, що збігаються з прикметниками
+
+Деякі слова однакові в обох ролях: **fast, hard, late, early, daily, weekly, high, low, straight, far, right, wrong**.
+
+- *a **fast** car* — *She drives **fast**.*
+- *a **daily** newspaper* — *It comes out **daily**.*
+- *a **straight** line* — *Go **straight** on.*
+
+## Пари з різним значенням
+
+| Без -ly | З -ly |
+| --- | --- |
+| **high** — високо: *jump high* | **highly** — дуже, високо (оцінка): *highly recommended* |
+| **hard** — наполегливо | **hardly** — ледве, майже не |
+| **late** — пізно | **lately** — останнім часом |
+| **near** — близько | **nearly** — майже |
+| **free** — безкоштовно: *get in free* | **freely** — вільно: *speak freely* |
+| **deep** — глибоко: *dig deep* | **deeply** — глибоко (почуття): *deeply sorry* |
+| **most** — найбільше | **mostly** — здебільшого |
+
+## Good чи well про самопочуття
+
+*I feel **good*** (настрій, усе гаразд) і *I feel **well*** (здоровий) — обидва правильні. Але *I feel **bad*** (погано), а не *badly*: після `feel` — прикметник.
+
+## Прислівники ступеня
+
+`very, really, extremely, quite, rather, pretty, a bit, too, so` стоять **перед** прикметником або прислівником: *really fast, a bit late*. `Enough` — **після**: *fast enough*. Див. «Pretty, rather, quite, fairly: ступінь якості» і «Too і enough (занадто, достатньо)».
+
 ## Типові помилки
 
 - ✗ *She speaks English very good.* → ✓ *She speaks English very **well**.*
 - ✗ *He works hardly.* (= майже не працює) → ✓ *He works **hard**.*
 - ✗ *The soup tastes well.* → ✓ *The soup tastes **good**.* (після taste — прикметник)
 - ✗ *She drives careful.* → ✓ *She drives **carefully**.*
+- ✗ *He drives very fastly.* → ✓ *He drives very **fast**.*
+- ✗ *I'm feeling badly today.* → ✓ *I'm feeling **bad** today.*
+- ✗ *This hotel is high recommended.* → ✓ *This hotel is **highly** recommended.*
+- ✗ *I haven't seen him lastly.* → ✓ *I haven't seen him **lately**.*

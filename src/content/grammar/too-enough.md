@@ -44,6 +44,19 @@ tags: [too, enough, too much, too many, not enough, too to, enough to, зана�
 
 У кінці речення `too` означає «також»: *I like it **too**.* Не плутайте з «занадто».
 
+## Ще кілька схем
+
+| Схема | Приклад |
+| --- | --- |
+| **too much / too many** + іменник + **to**-інфінітив | There's **too much** noise **to** sleep. |
+| **far / much / a bit** + **too** | It's **far too** expensive. / You're **a bit too** late. |
+| **not … enough** + іменник | We **don't** have **enough** chairs. |
+| **enough of** + the / my / them | I've had **enough of** your excuses. |
+| **too** + прикметник + **a** + іменник (книжно) | It's **too big a risk**. = The risk is too big. |
+| прикметник + **enough** + **for** + іменник | Is the room **big enough for** a party? |
+
+Після `too` / `enough` + to-інфінітив додаток не повторюємо: *The box is too heavy to lift* (не *to lift it*), бо підмет речення і є тим, що піднімають.
+
 ## Типові помилки
 
 - ✗ *He isn't enough old.* → ✓ *He isn't **old enough**.*
@@ -51,3 +64,6 @@ tags: [too, enough, too much, too many, not enough, too to, enough to, зана�
 - ✗ *It's too cold for swim.* → ✓ *It's too cold **to swim**.*
 - ✗ *This film is too good!* (у значенні «дуже») → ✓ *This film is **very / really** good!*
 - ✗ *We have money enough.* (застаріло) → ✓ *We have **enough money**.*
+- ✗ *The tea is too hot to drink it.* → ✓ *The tea is too hot to **drink**.*
+- ✗ *It's very too expensive.* → ✓ *It's **far** too expensive.*
+- ✗ *We don't have chairs enough.* → ✓ *We don't have **enough chairs**.*

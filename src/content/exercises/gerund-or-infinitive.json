@@ -272,6 +272,67 @@
    ],
    "why": "remember + to — не забудь зробити.",
    "hint": "Будь ласка, не забудь купити хліба."
+  },
+  {
+   "id": "gerund-or-infinitive-23",
+   "type": "choice",
+   "q": "Can you show me how ___ this machine?",
+   "options": [
+    "using",
+    "to use",
+    "use",
+    "used"
+   ],
+   "answer": 1,
+   "why": "Питальне слово + to-інфінітив."
+  },
+  {
+   "id": "gerund-or-infinitive-24",
+   "type": "choice",
+   "q": "The windows need ___.",
+   "options": [
+    "to clean",
+    "cleaning",
+    "clean",
+    "be cleaned to"
+   ],
+   "answer": 1,
+   "why": "need + -ing — пасивне значення."
+  },
+  {
+   "id": "gerund-or-infinitive-25",
+   "type": "choice",
+   "q": "It takes an hour ___ there by train.",
+   "options": [
+    "getting",
+    "to get",
+    "get",
+    "for get"
+   ],
+   "answer": 1,
+   "why": "It takes + час + to-інфінітив."
+  },
+  {
+   "id": "gerund-or-infinitive-26",
+   "type": "choice",
+   "q": "He went on ___ even when everyone had left.",
+   "options": [
+    "to talk",
+    "talking",
+    "talk",
+    "talked"
+   ],
+   "answer": 1,
+   "why": "go on + -ing — продовжувати те саме."
+  },
+  {
+   "id": "gerund-or-infinitive-27",
+   "type": "fill",
+   "q": "I didn't mean ___ (upset) you.",
+   "answer": [
+    "to upset"
+   ],
+   "why": "mean + to = мати намір."
   }
  ]
 }

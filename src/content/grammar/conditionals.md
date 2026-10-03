@@ -59,11 +59,44 @@ tags: [conditionals, if, first conditional, second conditional, third conditiona
 | **even if** | навіть якщо | I'll go **even if** it rains. |
 | **in case** | на випадок, якщо | Take an umbrella **in case** it rains. |
 
+## Модальні й наказовий спосіб в умовних реченнях
+
+Замість `will` / `would` можуть стояти інші модальні дієслова — вони додають відтінок:
+
+| Тип | Приклад | Відтінок |
+| --- | --- | --- |
+| First | If you finish early, you **can** go home. | дозвіл, можливість |
+| First | If it's sunny, we **might** go to the beach. | невпевнено |
+| First | If you see Anna, **tell** her to call me. | наказ, прохання |
+| First | If you feel ill, you **should** stay at home. | порада |
+| Second | If I had more money, I **could** buy a car. | можливість |
+| Third | If we had left earlier, we **might have caught** the train. | невпевнено про минуле |
+
+## If чи when?
+
+| if | when |
+| --- | --- |
+| може статися, а може й ні | точно станеться, питання лише коли |
+| ***If** I see Tom, I'll tell him.* (не знаю, чи побачу) | ***When** I see Tom, I'll tell him.* (побачу на роботі) |
+
+У zero conditional обидва слова означають «щоразу, коли»: ***If / When** you mix red and blue, you get purple.*
+
+## Порада: If I were you
+
+***If I were you**, I'd* + дієслово — найпоширеніший спосіб дати пораду: *If I were you, I'd talk to her.* Без умови: ***I'd** talk to her **if I were you**.* / ***I wouldn't** worry.*
+
+## Кома
+
+Коли `if`-частина стоїть **першою**, після неї ставимо кому: *If it rains**,** we'll stay in.* Коли **другою** — коми немає: *We'll stay in if it rains.*
+
 ## Типові помилки
 
 - ✗ *If it will rain, we will stay home.* → ✓ *If it **rains**, we will stay home.*
 - ✗ *If I would have time, I would help.* → ✓ *If I **had** time, I would help.*
 - ✗ *If I had known, I would told you.* → ✓ *…I **would have told** you.*
 - ✗ *If I was you…* (розм.) → ✓ *If I **were** you…* (нейтрально й письмово)
+- ✗ *If I would be rich, I would travel.* → ✓ *If I **were** rich, I would travel.*
+- ✗ *If you'll need help, call me.* → ✓ *If you **need** help, call me.*
+- ✗ *If I were you, I will talk to her.* → ✓ *If I were you, I **would** talk to her.*
 
 Про побажання — «Wish, if only, it's time».

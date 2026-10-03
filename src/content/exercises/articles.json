@@ -322,6 +322,45 @@
    ],
    "why": "Абстрактне поняття загалом — без артикля.",
    "hint": "Життя надто коротке."
+  },
+  {
+   "id": "articles-27",
+   "type": "choice",
+   "q": "We were born on ___ day.",
+   "options": [
+    "same",
+    "a same",
+    "the same",
+    "one same"
+   ],
+   "answer": 2,
+   "why": "the same."
+  },
+  {
+   "id": "articles-28",
+   "type": "choice",
+   "q": "I have only ___ sister.",
+   "options": [
+    "a",
+    "one",
+    "the",
+    "an"
+   ],
+   "answer": 1,
+   "why": "Підкреслюємо кількість — one."
+  },
+  {
+   "id": "articles-29",
+   "type": "choice",
+   "q": "It's ___ honest answer.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "—"
+   ],
+   "answer": 1,
+   "why": "honest — h німа, голосний звук: an."
   }
  ]
 }
