@@ -4,6 +4,7 @@ import { BarChart, Card, Kpi, Meter, StackedBar, type Bar } from '../components/
 import { exercises } from '../lib/exercises'
 import { topicStats, useExerciseLog, type LogRow } from '../lib/exerciseLog'
 import { articles, categories } from '../lib/grammar'
+import { topicStatus } from '../lib/learningPath'
 import { useProgress, useWords } from '../lib/queries'
 import { useReviewLog } from '../lib/reviewLog'
 import { tracks, unlocked } from '../lib/achievements'
@@ -264,7 +265,10 @@ export default function Stats() {
         </Card>
       )}
 
-      <Card title="Граматика" note={`опановано ${grammar.mastered} з ${grammar.total} запитань · тем розпочато ${grammar.started} з ${topics.length}`}>
+      <Card
+        title="Граматика"
+        note={`правильно ${grammar.mastered} з ${grammar.total} запитань · тем засвоєно ${topics.filter((t) => topicStatus(t) === 'done').length}, розпочато ${grammar.started} з ${topics.length}`}
+      >
         <Meter label="Загальний прогрес" value={grammar.mastered} max={grammar.total} right={`${percent(grammar.mastered, grammar.total)}%`} color="bg-accent-alt" />
 
         {grammar.weak.length > 0 && (
@@ -311,7 +315,7 @@ export default function Stats() {
                         }
                         value={t.mastered}
                         max={t.total}
-                        right={t.attempted === 0 ? 'не розпочато' : `${t.mastered} / ${t.total}`}
+                        right={t.attempted === 0 ? 'не розпочато' : topicStatus(t) === 'done' ? '✓ засвоєно' : `${t.mastered} / ${t.total}`}
                         color="bg-accent-alt"
                       />
                     </li>
@@ -321,7 +325,7 @@ export default function Stats() {
             )
           })}
         </div>
-        <p className="text-xs text-white/30">«Опановано» — питання, на яке остання відповідь була правильною.</p>
+        <p className="text-xs text-white/30">«Правильно» — запитання, на яке остання відповідь була правильною. Тема засвоєна, коли таких щонайменше 80% її запитань.</p>
       </Card>
 
       {!demo && stats.monthTotal === 0 && grammar.started === 0 && (

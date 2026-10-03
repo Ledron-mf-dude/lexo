@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { buildRoute, loadPlacement, resetPlacement, type TopicProgress, type TopicStatus } from '../lib/learningPath'
+import { buildRoute, resetPlacement, type Placement, type TopicProgress, type TopicStatus } from '../lib/learningPath'
 
 const DOT: Record<TopicStatus, string> = {
   new: 'border border-white/30',
@@ -11,15 +11,14 @@ const DOT: Record<TopicStatus, string> = {
 const PREVIEW = 4
 
 /** «Ваш маршрут» on the Grammar page: an invitation to the placement test, or the topics of the level to study. */
-export default function LearningPath({ progress }: { progress: Map<string, TopicProgress> }) {
-  const [placement, setPlacement] = useState(loadPlacement)
+export default function LearningPath({ progress, placement, onReset }: { progress: Map<string, TopicProgress>; placement: Placement | null; onReset: () => void }) {
   const [expanded, setExpanded] = useState(false)
   const route = useMemo(() => (placement ? buildRoute(placement, progress) : null), [placement, progress])
 
   function reset() {
     if (!window.confirm('Скинути маршрут і результат тесту рівня? Доведеться пройти тест заново.')) return
     resetPlacement()
-    setPlacement(null)
+    onReset()
   }
 
   if (!placement || !route) {
@@ -60,7 +59,7 @@ export default function LearningPath({ progress }: { progress: Map<string, Topic
           <div className="h-full bg-good transition-all" style={{ width: `${(route.done.length / Math.max(1, route.total)) * 100}%` }} />
         </div>
         <p className="text-xs text-white/40">
-          Засвоєно тем: {route.done.length} / {route.total}. Тема засвоєна, коли на 8+ її запитань більшість останніх відповідей правильні.
+          Засвоєно тем: {route.done.length} / {route.total}. Тема засвоєна, коли останні відповіді правильні щонайменше на 80% її запитань.
         </p>
       </div>
 

@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useRef } from 'react'
-import { Link, useNavigate, useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import LevelBadge from '../components/LevelBadge'
-import GrammarReview from '../components/GrammarReview'
-import LearningPath from '../components/LearningPath'
+import GrammarHub from '../components/GrammarHub'
 import SelectMenu from '../components/SelectMenu'
-import { exercises, fixCount, questionCount } from '../lib/exercises'
-import { allMistakes, topicStats, useExerciseLog } from '../lib/exerciseLog'
+import { exercises } from '../lib/exercises'
+import { allMistakes, useExerciseLog } from '../lib/exerciseLog'
 import { LEVELS, articles, categories, levelCounts, searchArticles, startLevel, type Article, type Hit, type Level } from '../lib/grammar'
+import { topicProgress, topicStatus } from '../lib/learningPath'
 import { ARTICLE, count } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
 
@@ -26,17 +26,9 @@ export default function Grammar() {
   const view: View = params.get('view') === 'level' ? 'level' : 'category'
   const searching = q.trim() !== ''
   const input = useRef<HTMLInputElement>(null)
-  const navigate = useNavigate()
   const log = useExerciseLog()
   const mistakes = allMistakes(log.data, exercises).length
-  const progress: Progress = useMemo(() => {
-    const map: Progress = new Map()
-    for (const [slug, qs] of exercises) {
-      const st = topicStats(log.data, slug, new Set(qs.map((q) => q.id)))
-      map.set(slug, { mastered: st.mastered, total: qs.length, attempted: st.attempted })
-    }
-    return map
-  }, [log.data])
+  const progress: Progress = useMemo(() => topicProgress(log.data), [log.data])
 
   /** Query string for mixed practice with the current level and topic filters. */
   const practiceQuery = (extra: Record<string, string>) =>
@@ -130,46 +122,8 @@ export default function Grammar() {
         />
       </div>
 
-      {!searching && <LearningPath progress={progress} />}
-
-      {!searching && <GrammarReview log={log.data} />}
-
       {!searching && (
-        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
-          <div className="min-w-0 flex-1">
-            <p className="font-medium">Тренер письма</p>
-            <p className="text-sm text-white/45">Напишіть кілька речень на тему: перевірка знайде помилки, а з них вийдуть ваші картки на повторення.</p>
-          </div>
-          <button onClick={() => navigate('/grammar/writing')} className="btn-ghost w-full sm:w-auto">
-            Писати
-          </button>
-        </div>
-      )}
-
-      {!searching && (
-        <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
-          <div className="min-w-0">
-            <p className="font-medium">Змішані вправи</p>
-            <p className="text-sm text-white/45">
-              {level || category ? `15 запитань з тем: ${[level, category].filter(Boolean).join(' · ')}` : `15 випадкових запитань з ${questionCount} у ${exercises.size} темах`}
-            </p>
-          </div>
-          <div className="flex w-full gap-2 *:flex-1 sm:w-auto sm:*:flex-none">
-            {mistakes > 0 && (
-              <button onClick={() => navigate('/grammar/practice?mistakes=1')} className="btn-ghost">
-                Помилки · {mistakes}
-              </button>
-            )}
-            {fixCount > 0 && (
-              <button onClick={() => navigate(`/grammar/practice?${practiceQuery({ type: 'fix' })}`)} className="btn-ghost" title={`${fixCount} речень із розділів «Типові помилки»`}>
-                Знайди помилку
-              </button>
-            )}
-            <button onClick={() => navigate(`/grammar/practice?${practiceQuery({})}`)} className="btn-primary">
-              Почати
-            </button>
-          </div>
-        </div>
+        <GrammarHub log={log.data} progress={progress} filterLabel={[level, category].filter(Boolean).join(' · ') || null} practiceQuery={practiceQuery} mistakes={mistakes} />
       )}
 
       {!searching && (
@@ -241,7 +195,8 @@ function Section({ title, count, muted, children }: { title: string; count: numb
 
 function ArticleRow({ hit, progress, showCategory }: { hit: Hit; progress?: { mastered: number; total: number; attempted: number }; showCategory?: boolean }) {
   const { article, snippet } = hit
-  const done = progress !== undefined && progress.total > 0 && progress.mastered === progress.total
+  const done = topicStatus(progress) === 'done'
+  const unseen = progress ? progress.total - progress.attempted : 0
   return (
     <li>
       <Link to={`/grammar/${article.slug}`} className="block px-4 py-3 transition-colors hover:bg-white/6">
@@ -256,11 +211,13 @@ function ArticleRow({ hit, progress, showCategory }: { hit: Hit; progress?: { ma
         {showCategory && <p className="text-xs text-white/35">{article.category}</p>}
         {snippet && <p className="mt-1 text-sm text-white/45">{snippet}</p>}
         {progress && progress.attempted > 0 && (
-          <div className="mt-2.5 flex items-center gap-2 text-xs text-white/40" title="Запитання, на які остання відповідь була правильною">
+          <div className="mt-2.5 flex items-center gap-2 text-xs text-white/40" title="Запитання, на які остання відповідь була правильною. Тема засвоєна від 80%.">
             <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/8">
               <div className={`h-full rounded-full ${done ? 'bg-good' : 'bg-accent-alt'}`} style={{ width: `${(progress.mastered / progress.total) * 100}%` }} />
             </div>
-            <span className={`tabular-nums ${done ? 'text-good' : ''}`}>{done ? '✓ опановано' : `${progress.mastered} / ${progress.total}`}</span>
+            {/* Unseen questions come first in the next round, so this shows where there is still something new. */}
+            {unseen > 0 && <span className="shrink-0 text-accent">нових {unseen}</span>}
+            <span className={`tabular-nums ${done ? 'text-good' : ''}`}>{done ? '✓ засвоєно' : `${progress.mastered} / ${progress.total}`}</span>
           </div>
         )}
       </Link>

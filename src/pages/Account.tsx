@@ -1,3 +1,4 @@
+import QuizSettings from '../components/QuizSettings'
 import PasswordForm from '../components/PasswordForm'
 import { useAuth } from '../lib/authContext'
 import { useTags, useWords } from '../lib/queries'
@@ -60,6 +61,12 @@ export default function Account() {
           </button>
         </div>
       )}
+
+      <div className="glass space-y-3 rounded-3xl p-6">
+        <h2 className="text-lg font-light">Граматичні вправи</h2>
+        <p className="text-sm text-white/50">Скільки запитань давати за одне коло теми і чи переходити далі самому після правильної відповіді. Налаштування діє на цьому пристрої.</p>
+        <QuizSettings deckSize />
+      </div>
 
       <div className="glass space-y-3 rounded-3xl p-6">
         <h2 className="text-lg font-light">Змінити пароль</h2>
