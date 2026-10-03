@@ -146,7 +146,16 @@ export default function GrammarArticle() {
           <div>
             <p className="font-medium">Вправи до теми: {count(bank.length, QUESTION)}</p>
             <p className="text-sm text-white/45">
-              {stats.attempted === 0 ? 'Ще не проходили' : `Опановано ${stats.mastered} з ${bank.length}${stats.mistakes.length > 0 ? ` · помилок ${stats.mistakes.length}` : ''}`}
+              {stats.attempted === 0
+                ? 'Ще не проходили'
+                : [
+                    `Опановано ${stats.mastered} з ${bank.length}`,
+                    stats.mistakes.length > 0 && `помилок ${stats.mistakes.length}`,
+                    // Unseen questions come first in the next round, so «21 of 22» is closed by simply going on.
+                    stats.attempted < bank.length && `ще не бачили ${bank.length - stats.attempted}`,
+                  ]
+                    .filter(Boolean)
+                    .join(' · ')}
             </p>
           </div>
           <div className="flex w-full gap-2 *:flex-1 sm:w-auto sm:*:flex-none">
@@ -156,7 +165,7 @@ export default function GrammarArticle() {
               </button>
             )}
             <button onClick={() => navigate(`/grammar/${slug}/exercises`)} className="btn-primary">
-              Пройти вправи
+              {stats.attempted === 0 || stats.attempted === bank.length ? 'Пройти вправи' : 'Продовжити'}
             </button>
           </div>
         </div>

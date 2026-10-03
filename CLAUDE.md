@@ -51,7 +51,8 @@ npm run lint     # oxlint
 - A fourth type, `fix` («Знайди помилку»), is not written in JSON. `mistakeQuestions` generates it from the article's `- ✗ *wrong* → ✓ *right*` lines; alternatives after ` / ` become extra accepted answers. Pairs with «…», a slash inside a span, a BrE/AmE/register note, or a punctuation-only change are skipped. The id is a hash of the wrong sentence, so editing that sentence resets its log history. In the quiz, about 30% of draws show the corrected sentence instead, and the learner can mark an unrecognised correction as right («Мій варіант теж правильний»), which logs a newer correct row.
 - Invalid questions are skipped with a console warning, not rejected at build time.
 - Text answers are compared ignoring case, extra spaces, curly apostrophes and punctuation (`canon`).
-- `drawDeck` interleaves the question types.
+- `drawDeck` picks questions through `prioritize`: never-answered first, then latest-wrong, then the rest by oldest answer (from `answerHistory` of `exercise_log`), so a topic is covered in full before anything repeats. It then interleaves the question types. Unseen questions are marked «нове» in the quiz.
+- `useLogAnswer` adds each answer to the cached log optimistically instead of refetching the whole log.
 - Answers go to `exercise_log`. The "mistakes" review ([src/lib/exerciseLog.ts](src/lib/exerciseLog.ts) `allMistakes`) picks the questions whose latest answer was wrong.
 - Question ids must stay stable, because the log references them.
 - Placement test and learning path ([src/lib/learningPath.ts](src/lib/learningPath.ts)):

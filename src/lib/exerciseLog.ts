@@ -38,7 +38,12 @@ export function useLogAnswer(userId: string) {
         .insert({ user_id: userId, article_slug: a.slug, question_id: a.questionId, correct: a.correct })
       if (error) throw error
     },
-    onSuccess: () => qc.invalidateQueries({ queryKey: ['exercise_log'] }),
+    // The answer goes into the cached log at once (newest first), so progress and «new» counts are right without refetching every page.
+    onMutate: (a) =>
+      qc.setQueryData<LogRow[]>(['exercise_log'], (old) =>
+        old && [{ article_slug: a.slug, question_id: a.questionId, correct: a.correct, answered_at: new Date().toISOString() }, ...old],
+      ),
+    onError: () => qc.invalidateQueries({ queryKey: ['exercise_log'] }),
   })
 }
 
@@ -59,6 +64,21 @@ export function topicStats(log: LogRow[] | undefined, slug: string, validIds: Se
   }
   const mistakes = [...latest].filter(([, ok]) => !ok).map(([id]) => id)
   return { mastered: latest.size - mistakes.length, attempted: latest.size, mistakes }
+}
+
+export interface LastAnswer {
+  at: number
+  correct: boolean
+}
+
+/** The latest answer to every question ever answered, keyed `slug/id`; a question missing from it was never shown. */
+export function answerHistory(log: LogRow[] | undefined): Map<string, LastAnswer> {
+  const out = new Map<string, LastAnswer>()
+  for (const row of log ?? []) {
+    const key = `${row.article_slug}/${row.question_id}`
+    if (!out.has(key)) out.set(key, { at: Date.parse(row.answered_at), correct: row.correct })
+  }
+  return out
 }
 
 /** Every question, across all topics, whose latest answer is wrong (newest mistakes first). */

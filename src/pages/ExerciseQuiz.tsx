@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react'
 import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
-import { correctAnswer, drawDeck, exercises, isCorrectText, itemsOf, promptOf, shuffle, withVariant, type Item, type Question } from '../lib/exercises'
-import { allMistakes, topicStats, useExerciseLog, useLogAnswer } from '../lib/exerciseLog'
+import { correctAnswer, drawDeck, exercises, isCorrectText, isUnseen, itemsOf, prioritize, promptOf, shuffle, withVariant, type Item, type Question } from '../lib/exercises'
+import { allMistakes, answerHistory, topicStats, useExerciseLog, useLogAnswer, type LogRow } from '../lib/exerciseLog'
 import { useFocusMode } from '../lib/focusMode'
 import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
+import { count, NEW_QUESTION } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
 import { cardItems, MY_WRITING } from '../lib/writingCards'
 import { reviewSchedule, reviewSummary, shortTitle } from '../lib/grammarReview'
@@ -55,7 +56,9 @@ export default function ExerciseQuiz() {
       key={attempt}
       title={article.title}
       pool={pool.length > 0 ? pool : all}
+      log={log}
       size={DECK_SIZE}
+      topic={slug}
       back={{ to: `/grammar/${slug}`, label: 'До статті' }}
       onRestart={() => setAttempt((n) => n + 1)}
     />
@@ -95,7 +98,8 @@ export function MixedQuiz() {
     title = 'Граматика на сьогодні'
   } else if (pair && pair.length === 2) {
     // Alternating topics, names hidden: which rule applies has to be recognised from the sentence itself.
-    const [a, b] = pair.map((s) => shuffle(itemsOf(s)))
+    const history = answerHistory(log)
+    const [a, b] = pair.map((s) => prioritize(itemsOf(s), history))
     pool = Array.from({ length: Math.max(a.length, b.length) }, (_, i) => [a[i], b[i]]).flat().filter(Boolean)
     ordered = true
     showTopic = false
@@ -130,6 +134,7 @@ export function MixedQuiz() {
       key={attempt}
       title={title}
       pool={pool}
+      log={log}
       size={pair ? 16 : MIXED_DECK_SIZE}
       ordered={ordered}
       showTopic={showTopic}
@@ -142,7 +147,11 @@ export function MixedQuiz() {
 interface QuizProps {
   title: string
   pool: Item[]
+  /** The answer log: unseen questions are drawn first and marked «нове». */
+  log: LogRow[] | undefined
   size: number
+  /** A single-topic quiz: the result screen shows how much of the topic is covered. */
+  topic?: string
   /** Mixed decks name the topic above each question, with a link to its article in the review. */
   showTopic?: boolean
   /** Take the pool in its order instead of drawing a type-interleaved deck. */
@@ -151,11 +160,13 @@ interface QuizProps {
   onRestart: () => void
 }
 
-function Quiz({ title, pool, size, showTopic, ordered, back, onRestart }: QuizProps) {
+function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onRestart }: QuizProps) {
   useTitle(`Вправи: ${title.split(/[:(—]/)[0].trim()}`)
   const { session } = useAuth()
   const { mutate: logAnswer } = useLogAnswer(session!.user.id)
-  const [deck] = useState(() => (ordered ? pool.slice(0, size) : drawDeck(pool, size)).map(withVariant))
+  // A snapshot from when the quiz opened (each «Ще раз» remounts it): the «нове» marks must not vanish as answers are logged.
+  const [history] = useState(() => answerHistory(log))
+  const [deck] = useState(() => (ordered ? pool.slice(0, size) : drawDeck(pool, size, history)).map(withVariant))
   const [index, setIndex] = useState(0)
   const [outcome, setOutcome] = useState<Outcome | null>(null)
   const [results, setResults] = useState<{ item: Item; outcome: Outcome }[]>([])
@@ -189,6 +200,10 @@ function Quiz({ title, pool, size, showTopic, ordered, back, onRestart }: QuizPr
     const score = results.filter((r) => r.outcome.correct).length
     const missed = results.filter((r) => !r.outcome.correct)
     const percent = Math.round((score / results.length) * 100)
+    // Coverage of the whole topic after this round: what is still unseen comes first in the next one.
+    const bank = topic ? exercises.get(topic) : undefined
+    const answered = new Set(results.map((r) => r.item.q.id))
+    const unseenLeft = bank ? bank.filter((q) => !answered.has(q.id) && !history.has(`${topic}/${q.id}`)).length : 0
     return (
       <section className="space-y-5">
         <div className="glass space-y-3 rounded-[2rem] p-8 text-center">
@@ -199,6 +214,11 @@ function Quiz({ title, pool, size, showTopic, ordered, back, onRestart }: QuizPr
           <p className={percent >= 80 ? 'text-good' : 'text-white/50'}>
             {score === results.length ? 'Без помилок!' : percent >= 80 ? `Чудово · помилок: ${missed.length}` : `Помилок: ${missed.length} — розберіть їх нижче`}
           </p>
+          {bank && (
+            <p className="text-sm text-white/45">
+              {unseenLeft > 0 ? `У темі ще ${count(unseenLeft, NEW_QUESTION)} — вони будуть першими в наступному колі.` : 'Усі запитання теми ви вже бачили.'}
+            </p>
+          )}
         </div>
         {missed.length > 0 && (
           <div className="space-y-2">
@@ -224,7 +244,7 @@ function Quiz({ title, pool, size, showTopic, ordered, back, onRestart }: QuizPr
             {back.label}
           </Link>
           <button onClick={onRestart} className="btn-primary">
-            Ще раз
+            {unseenLeft > 0 ? 'Нові запитання' : 'Ще раз'}
           </button>
         </div>
       </section>
@@ -246,7 +266,10 @@ function Quiz({ title, pool, size, showTopic, ordered, back, onRestart }: QuizPr
         </span>
       </div>
 
-      <p className="text-center text-xs text-white/40">{showTopic ? bySlug.get(item.slug)?.title : title.split(/[:(—]/)[0].trim()}</p>
+      <p className="text-center text-xs text-white/40">
+        {showTopic ? bySlug.get(item.slug)?.title : title.split(/[:(—]/)[0].trim()}
+        {isUnseen(item, history) && <span className="ml-2 rounded-full border border-accent/40 px-1.5 py-px text-accent">нове</span>}
+      </p>
 
       <div key={index}>
         <QuestionView q={q} outcome={outcome} onAnswer={answer} />
@@ -297,6 +320,9 @@ export function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps
               </p>
             ))}
           </div>
+        ) : solved(q) ? (
+          // The whole sentence with the right answer in place reads better than the answer alone.
+          <p className="mt-1 text-lg">{solved(q)}</p>
         ) : (
           !outcome.correct && <p className="mt-1 text-lg">{correctAnswer(q)}</p>
         )}
@@ -312,6 +338,19 @@ export function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps
         {last ? 'Результат' : 'Далі'}
       </button>
     </div>
+  )
+}
+
+/** A gap question as a complete sentence, the right answer highlighted; null when the question has no gap. */
+function solved(q: Question): ReactNode {
+  if ((q.type !== 'choice' && q.type !== 'fill') || !/_{2,}/.test(q.q)) return null
+  const [before, ...after] = q.q.split(/_{2,}/)
+  return (
+    <>
+      {before}
+      <span className="text-good">{correctAnswer(q)}</span>
+      {after.join('___')}
+    </>
   )
 }
 
@@ -396,6 +435,9 @@ function ChoiceQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'cho
 
 function FillQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'fill' }>>) {
   const [value, setValue] = useState('')
+  const input = useRef<HTMLInputElement>(null)
+  // Ready to type; preventScroll keeps the question in view (autoFocus scrolls to the field on phones).
+  useEffect(() => input.current?.focus({ preventScroll: true }), [])
   function submit(e: FormEvent) {
     e.preventDefault()
     if (!outcome && value.trim() !== '') onAnswer({ correct: isCorrectText(value, q.answer), given: value.trim() })
@@ -405,7 +447,7 @@ function FillQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'fill'
       <Prompt text={q.q} hint={q.hint} />
       <form onSubmit={submit} className="space-y-2">
         <input
-          autoFocus
+          ref={input}
           disabled={outcome !== null}
           autoComplete="off"
           autoCapitalize="off"
@@ -436,23 +478,40 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
   const [tiles] = useState(() => shuffle(q.words.map((w, i) => ({ w, i }))))
   const [picked, setPicked] = useState<number[]>([]) // indices into `tiles`
   const sentence = picked.map((t) => tiles[t].w).join(' ')
+  const complete = picked.length === tiles.length
 
-  function pick(t: number) {
-    if (outcome || picked.includes(t)) return
-    const next = [...picked, t]
-    setPicked(next)
-    if (next.length === tiles.length) {
-      const given = next.map((x) => tiles[x].w).join(' ')
-      onAnswer({ correct: isCorrectText(given, q.answer), given })
+  const pick = (t: number) => !outcome && !picked.includes(t) && setPicked([...picked, t])
+  // A word already placed goes back to the bank when tapped, so one wrong tap does not cost the whole sentence.
+  const unpick = (t: number) => !outcome && setPicked(picked.filter((x) => x !== t))
+  const check = () => onAnswer({ correct: isCorrectText(sentence, q.answer), given: sentence })
+
+  useEffect(() => {
+    if (outcome || !complete) return
+    function onKey(e: KeyboardEvent) {
+      if (e.key !== 'Enter') return
+      e.preventDefault()
+      onAnswer({ correct: isCorrectText(sentence, q.answer), given: sentence })
     }
-  }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [q, outcome, complete, sentence, onAnswer])
 
   return (
     <div className="space-y-3">
       <Prompt hint={q.hint}>
         <p className="text-xs tracking-widest text-white/35 uppercase">Складіть речення</p>
       </Prompt>
-      <div className="glass min-h-16 rounded-2xl p-4 text-center text-lg">{sentence || <span className="text-white/25">Торкайтеся слів по порядку</span>}</div>
+      <div className="glass flex min-h-16 flex-wrap items-center justify-center gap-1.5 rounded-2xl p-3 text-lg">
+        {picked.length === 0 ? (
+          <span className="text-white/25">Торкайтеся слів по порядку</span>
+        ) : (
+          picked.map((t) => (
+            <button key={t} onClick={() => unpick(t)} disabled={outcome !== null} className="rounded-lg px-1.5 py-0.5 transition-colors enabled:hover:bg-white/10" title="Повернути слово">
+              {tiles[t].w}
+            </button>
+          ))
+        )}
+      </div>
       {!outcome && (
         <>
           <div className="flex flex-wrap justify-center gap-2">
@@ -468,12 +527,18 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
             ))}
           </div>
           <div className="grid grid-cols-2 gap-2">
-            <button onClick={() => setPicked((p) => p.slice(0, -1))} disabled={picked.length === 0} className="btn-ghost">
-              ⌫ Стерти
-            </button>
             <button onClick={() => onAnswer({ correct: false, given: sentence })} className="btn-ghost">
               Не знаю
             </button>
+            {complete ? (
+              <button onClick={check} className="btn-primary">
+                Перевірити
+              </button>
+            ) : (
+              <button onClick={() => setPicked((p) => p.slice(0, -1))} disabled={picked.length === 0} className="btn-ghost">
+                ⌫ Стерти
+              </button>
+            )}
           </div>
         </>
       )}

@@ -129,17 +129,41 @@ export function shuffle<T>(items: T[]): T[] {
 // Choice questions are the most numerous; this rhythm mixes in typing and sentence building whenever the pool has them.
 const RHYTHM: Question['type'][] = ['choice', 'fill', 'fix', 'choice', 'order', 'fill']
 
-/** A deck of `size` questions with the exercise types interleaved rather than clumped. */
-export function drawDeck(pool: Item[], size: number): Item[] {
+/** The latest answer per `slug/id` (see `answerHistory`); a question absent from it was never shown. */
+export type History = Map<string, { at: number; correct: boolean }>
+
+export const isUnseen = (item: Item, history: History) => !history.has(`${item.slug}/${item.q.id}`)
+
+/**
+ * The pool in the order questions should be offered: never shown first (in random order), then those whose latest
+ * answer was wrong, then the rest, longest unseen first. A topic is thus covered in full before anything repeats,
+ * instead of a random draw that keeps missing the last unanswered question.
+ */
+export function prioritize(pool: Item[], history: History): Item[] {
+  const tier = (i: Item) => {
+    const last = history.get(`${i.slug}/${i.q.id}`)
+    return last === undefined ? 0 : last.correct ? 2 : 1
+  }
+  const at = (i: Item) => history.get(`${i.slug}/${i.q.id}`)?.at ?? 0
+  return shuffle(pool).sort((a, b) => tier(a) - tier(b) || (tier(a) === 2 ? at(a) - at(b) : 0))
+}
+
+/** The same questions with the exercise types interleaved rather than clumped. */
+function interleave(items: Item[]): Item[] {
   const buckets = new Map<Question['type'], Item[]>()
-  for (const item of shuffle(pool)) buckets.set(item.q.type, [...(buckets.get(item.q.type) ?? []), item])
+  for (const item of shuffle(items)) buckets.set(item.q.type, [...(buckets.get(item.q.type) ?? []), item])
   const deck: Item[] = []
-  for (let i = 0; deck.length < Math.min(size, pool.length); i++) {
+  for (let i = 0; deck.length < items.length; i++) {
     const wanted = buckets.get(RHYTHM[i % RHYTHM.length])
     const from = wanted?.length ? wanted : [...buckets.values()].find((b) => b.length > 0)!
     deck.push(from.shift()!)
   }
   return deck
+}
+
+/** A deck of `size` questions: chosen by `prioritize` (unseen first), then with the types interleaved. */
+export function drawDeck(pool: Item[], size: number, history: History = new Map()): Item[] {
+  return interleave(prioritize(pool, history).slice(0, size))
 }
 
 // «Знайди помилку» sometimes shows the corrected sentence, so «there is a mistake» is not always the answer.
