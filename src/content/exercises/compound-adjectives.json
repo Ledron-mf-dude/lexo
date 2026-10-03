@@ -250,6 +250,41 @@
    ],
    "why": "ten-minute — однина.",
    "hint": "Це була десятихвилинна прогулянка."
+  },
+  {
+   "id": "compound-adjectives-21",
+   "type": "choice",
+   "q": "She works ___ shifts at the hospital.",
+   "options": [
+    "twelve-hours",
+    "twelve-hour",
+    "twelve hours'",
+    "twelve-houred"
+   ],
+   "answer": 1,
+   "why": "Іменник у складному прикметнику — в однині."
+  },
+  {
+   "id": "compound-adjectives-22",
+   "type": "choice",
+   "q": "He always forgets his keys. He's so ___.",
+   "options": [
+    "absent-minded",
+    "open-minded",
+    "kind-hearted",
+    "left-handed"
+   ],
+   "answer": 0,
+   "why": "absent-minded — неуважний."
+  },
+  {
+   "id": "compound-adjectives-23",
+   "type": "fill",
+   "q": "It's a ___ (two / hour) flight.",
+   "answer": [
+    "two-hour"
+   ],
+   "why": "two-hour — через дефіс, однина."
   }
  ]
 }

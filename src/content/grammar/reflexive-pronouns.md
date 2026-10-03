@@ -49,11 +49,29 @@ tags: [reflexive pronouns, myself, yourself, themselves, each other, one another
 - **Behave yourself.** — Поводься добре.
 - **Make yourself at home.** — Почувайтеся як удома.
 
+## Дієслова, з якими reflexive потрібен
+
+На відміну від *wash, dress*, ці дієслова вимагають займенника: *enjoy yourself, hurt yourself, cut yourself, introduce yourself, blame yourself, teach yourself, behave yourself*:
+
+- *Did you **enjoy yourselves**?* (не *Did you enjoy?*)
+- *Let me **introduce myself**.*
+
+## Reflexive чи object pronoun після прийменника
+
+Після прийменника місця — звичайний займенник: *She put the bag **next to her**.* (не *herself*) Але коли дія спрямована на себе — reflexive: *She looked at **herself**.* / *Take care of **yourself**.*
+
+## Feel, relax, concentrate
+
+Без займенника: *I **feel** good* (не *feel myself*), ***relax***, ***concentrate***, ***worry***.
+
 ## Типові помилки
 
 - ✗ *I washed myself and dressed myself.* (зайве) → ✓ *I washed and dressed.*
 - ✗ *They love themselves.* (один одного) → ✓ *They love **each other**.*
 - ✗ *hisself, theirselves* → ✓ ***himself, themselves***
 - ✗ *We met ourselves at six.* → ✓ *We **met** at six.*
+- ✗ *Did you enjoy at the party?* → ✓ *Did you enjoy **yourselves** at the party?*
+- ✗ *I feel myself much better today.* → ✓ *I **feel** much better today.*
+- ✗ *She put the bag next to herself.* → ✓ *She put the bag next to **her**.*
 
 Див. «Займенники» (особові, присвійні).

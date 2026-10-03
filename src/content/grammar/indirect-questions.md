@@ -49,11 +49,29 @@ tags: [indirect questions, could you tell me, do you know, I wonder, embedded qu
 - Час **не змінюється** (це не reported speech): *Do you know where she **lives**?*
 - Питання до підмета вже мають прямий порядок: *Do you know **who called**?*
 
+## Непрямі питання в листах і на роботі
+
+| Пряме (різкувато) | Непряме (ввічливо) |
+| --- | --- |
+| When is the meeting? | **Could you let me know when** the meeting is? |
+| Why was my order cancelled? | **I'd like to know why** my order was cancelled. |
+| Is the room available? | **I was wondering if** the room is available. |
+
+## Відповідь непрямим питанням
+
+*"Where's the station?" — "**I'm not sure where it is**, sorry."* / *"**I have no idea what** he means."*
+
+## Питання з питанням усередині
+
+*What do you think…?* і *Where do you think…?* — особливі: питальне слово йде **на початок**, а далі прямий порядок: ***Where do you think** he lives?* (не *Do you think where he lives?*)
+
 ## Типові помилки
 
 - ✗ *Could you tell me where is the station?* → ✓ *…where **the station is**?*
 - ✗ *Do you know what time does it start?* → ✓ *…what time **it starts**?*
 - ✗ *I wonder did he call.* → ✓ *I wonder **if / whether** he called.*
 - ✗ *Can you tell me how much costs it?* → ✓ *…how much **it costs**?*
+- ✗ *Do you think where he lives?* → ✓ ***Where do you think** he lives?*
+- ✗ *I was wondering if is the room available.* → ✓ *I was wondering if **the room is** available.*
 
 Порівняйте: «Reported speech» (там — зсув часів) та «Питання в англійській».

@@ -58,9 +58,27 @@ Participle clause — скорочена підрядна частина: зам
 
 Participle clauses — переважно **письмова** мова: *Having reviewed the report, we decided…*
 
+## Причина і час
+
+| Повна форма | Participle clause | Значення |
+| --- | --- | --- |
+| **Because I didn't know** the way, I asked. | **Not knowing** the way, I asked. | причина |
+| **As she was** tired, she went to bed. | **Being** tired, she went to bed. | причина |
+| **When I opened** the box, I found a key. | **Opening** the box, I found a key. | час |
+| **Since he had lost** his keys, he couldn't get in. | **Having lost** his keys, he couldn't get in. | причина + раніше |
+
+Заперечення — **not** перед дієприкметником: ***Not having** a car, we took the bus.*
+
+## Після іменника: -ing чи -ed
+
+- *The woman **sitting** next to me* = who **was sitting** (активне).
+- *The car **parked** outside* = which **was parked** (пасивне).
+
 ## Типові помилки
 
 - ✗ *Walking home, the rain started.* → ✓ *Walking home, **I got caught** in the rain.* (дія — підмета головного речення)
 - ✗ *Having finish work, she left.* → ✓ ***Having finished** work…*
 - ✗ *The man stood there is my uncle.* → ✓ *The man **standing** there…*
 - ✗ *Writing in 1900, the book is old.* → ✓ ***Written** in 1900…* (книгу написали — пасив)
+- ✗ *Didn't knowing the way, I asked a policeman.* → ✓ ***Not knowing** the way, I asked a policeman.*
+- ✗ *The car parking outside is mine.* → ✓ *The car **parked** outside is mine.*

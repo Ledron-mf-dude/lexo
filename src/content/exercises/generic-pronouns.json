@@ -223,6 +223,41 @@
    ],
    "why": "people — загалом.",
    "hint": "Люди часто забувають паролі."
+  },
+  {
+   "id": "generic-pronouns-19",
+   "type": "choice",
+   "q": "Every student needs ___ own laptop.",
+   "options": [
+    "his",
+    "their",
+    "its",
+    "theirs"
+   ],
+   "answer": 1,
+   "why": "Стать невідома — their."
+  },
+  {
+   "id": "generic-pronouns-20",
+   "type": "choice",
+   "q": "___ say the new museum is amazing.",
+   "options": [
+    "One",
+    "They",
+    "It",
+    "There"
+   ],
+   "answer": 1,
+   "why": "They say — кажуть."
+  },
+  {
+   "id": "generic-pronouns-21",
+   "type": "fill",
+   "q": "How do ___ turn this machine on?",
+   "answer": [
+    "you"
+   ],
+   "why": "you — будь-хто."
   }
  ]
 }

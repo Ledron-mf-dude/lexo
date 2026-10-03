@@ -271,6 +271,41 @@
    ],
    "why": "be believed + to-інфінітив.",
    "hint": "Вважають, що він в Іспанії."
+  },
+  {
+   "id": "passive-reporting-have-something-done-22",
+   "type": "choice",
+   "q": "We're having the kitchen ___ next week.",
+   "options": [
+    "paint",
+    "painted",
+    "painting",
+    "to paint"
+   ],
+   "answer": 1,
+   "why": "have + предмет + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-23",
+   "type": "choice",
+   "q": "He is believed ___ the country last year.",
+   "options": [
+    "to leave",
+    "to have left",
+    "leaving",
+    "left"
+   ],
+   "answer": 1,
+   "why": "Про минуле — to have + V3."
+  },
+  {
+   "id": "passive-reporting-have-something-done-24",
+   "type": "fill",
+   "q": "I need to get my phone ___ (repair).",
+   "answer": [
+    "repaired"
+   ],
+   "why": "get + предмет + V3."
   }
  ]
 }

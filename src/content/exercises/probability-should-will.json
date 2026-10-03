@@ -228,6 +228,41 @@
    ],
    "why": "probably + won't.",
    "hint": "Він, мабуть, не прийде."
+  },
+  {
+   "id": "probability-should-will-20",
+   "type": "choice",
+   "q": "The meeting ___ finish by five, so I'll be home at six.",
+   "options": [
+    "should",
+    "must to",
+    "will to",
+    "shall"
+   ],
+   "answer": 0,
+   "why": "Скоріш за все — should."
+  },
+  {
+   "id": "probability-should-will-21",
+   "type": "choice",
+   "q": "Don't worry, there ___ be any problems.",
+   "options": [
+    "shouldn't",
+    "mustn't",
+    "won't to",
+    "don't"
+   ],
+   "answer": 0,
+   "why": "Навряд чи — shouldn't."
+  },
+  {
+   "id": "probability-should-will-22",
+   "type": "fill",
+   "q": "The parcel ought ___ arrive tomorrow.",
+   "answer": [
+    "to"
+   ],
+   "why": "ought to + V."
   }
  ]
 }

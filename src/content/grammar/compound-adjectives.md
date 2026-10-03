@@ -43,11 +43,31 @@ tags: [compound adjectives, a two-day trip, ten-year-old, well-known, part-time,
 - *It was a **hard-working** team.*
 - *I bought a **five-year-old** car.*
 
+## Риси характеру і зовнішність
+
+| Модель | Приклади |
+| --- | --- |
+| прикметник + **-minded** | open-minded, narrow-minded, absent-minded (неуважний) |
+| прикметник + **-hearted** | kind-hearted, warm-hearted, cold-hearted |
+| прикметник + **-tempered** | bad-tempered, even-tempered |
+| прикметник + **-looking** | good-looking, strange-looking |
+| частина тіла + **-ed** | left-handed, long-legged, blue-eyed |
+
+## Числа й дроби
+
+Складені числа від 21 до 99 пишуться через дефіс: *twenty-one, forty-five*. Дроби як прикметник — теж: *a **two-thirds** majority*.
+
+## Множина не з'являється
+
+У складному прикметнику іменник завжди в однині, навіть коли його багато: *a **three-year-old** child, a **ten-euro** ticket, a **twelve-hour** shift*.
+
 ## Типові помилки
 
 - ✗ *a two-days trip* → ✓ *a **two-day** trip* (іменник в однині)
 - ✗ *a ten years old boy* → ✓ *a **ten-year-old** boy*
 - ✗ *a five minutes walk* → ✓ *a **five-minute** walk*
 - ✗ *She is a well known actor.* → ✓ *She is a **well-known** actor.* (перед іменником — з дефісом)
+- ✗ *a three-years-old child* → ✓ *a **three-year-old** child*
+- ✗ *He's very absent minded.* → ✓ *He's very **absent-minded**.*
 
 Див. також «Adjective order».

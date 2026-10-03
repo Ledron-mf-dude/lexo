@@ -37,9 +37,25 @@ tags: [would like, i'd like, would you like, offers, requests, polite, ввіч�
 
 Див. також «Prefer, would prefer, would rather, would sooner» і «Would rather (краще б)».
 
+## Would like + особа + to
+
+Коли хочемо, щоб **інший** щось зробив: *I'**d like you to** meet my sister.* / *Would you **like me to** help?* (не *that I help*)
+
+## Would like to have + V3
+
+Про минуле, що не сталося: *I'**d like to have seen** the show.* — Хотілося б побачити (але не побачив).
+
+## Інші ввічливі способи
+
+- *Could I have…?* / *Can I get…?* (розм., у кафе)
+- *I'll have the soup, please.* — замовлення
+- *I was wondering if…* — дуже м'яко
+
 ## Типові помилки
 
 - ✗ *I would like go.* → ✓ *I would like **to go**.*
 - ✗ *Do you like a coffee?* (пропозиція) → ✓ ***Would** you like a coffee?*
 - ✗ *I want a coffee.* (у кафе звучить різко) → ✓ ***I'd like** a coffee, please.* / ***I'd like** a coffee.*
 - ✗ *Would you like dancing?* (запрошення) → ✓ *Would you like **to dance**?*
+- ✗ *I'd like that you meet my sister.* → ✓ *I'd like **you to meet** my sister.*
+- ✗ *Would you like me help you?* → ✓ *Would you like me **to help** you?*

@@ -255,6 +255,41 @@
    ],
    "why": "see + -ing — процес.",
    "hint": "Я бачив, як вона переходила вулицю."
+  },
+  {
+   "id": "gerund-infinitive-complex-21",
+   "type": "choice",
+   "q": "It's difficult ___ to understand him.",
+   "options": [
+    "for me",
+    "to me",
+    "that I",
+    "me"
+   ],
+   "answer": 0,
+   "why": "for + особа + to-інфінітив."
+  },
+  {
+   "id": "gerund-infinitive-complex-22",
+   "type": "choice",
+   "q": "The walls need ___.",
+   "options": [
+    "to paint",
+    "painting",
+    "paint",
+    "be painting"
+   ],
+   "answer": 1,
+   "why": "need + -ing — пасивне значення."
+  },
+  {
+   "id": "gerund-infinitive-complex-23",
+   "type": "fill",
+   "q": "I hate ___ (interrupt). Please let me finish.",
+   "answer": [
+    "being interrupted"
+   ],
+   "why": "Пасивний gerund: being + V3."
   }
  ]
 }

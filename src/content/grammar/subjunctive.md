@@ -52,9 +52,26 @@ tags: [subjunctive, suggest that, insist that, recommend that, it's essential th
 | **so be it** | хай буде так |
 | **if need be** | якщо буде потрібно |
 
+## Формальні вирази зі subjunctive
+
+- ***If need be**, we can work at the weekend.* — якщо буде потрібно.
+- ***Suffice it to say** that…* — досить сказати, що…
+- ***Far be it from me** to criticise, but…* — не мені критикувати, але…
+- ***Be that as it may**, …* — хай там як.
+
+## Lest
+
+Книжне **lest** = «щоб не»: *He wrote it down **lest** he **forget**.* У сучасній мові — *so that he wouldn't forget*.
+
+## Як упізнати subjunctive
+
+Дієслово виглядає «неправильно»: без `-s` після he/she, `be` замість `is`, `were` після `I`. Якщо це після *suggest, insist, demand, essential, important* або *if, wish* — найімовірніше, це subjunctive, а не помилка.
+
 ## Типові помилки
 
 - ✗ *I suggest him to see a doctor.* → ✓ *I suggest **that he see** a doctor.* / *I suggest **seeing** a doctor.*
 - ✗ *It's essential that he is there.* (формально) → ✓ *…that he **be** there.* / *…that he **should be** there.*
 - ✗ *We recommend that you don't use it.* → ✓ *…that you **not use** it.*
 - ✗ *She insisted that he paid.* (вимога) → ✓ *She insisted that he **pay**.*
+- ✗ *They demanded that he leaves the room.* → ✓ *They demanded that he **leave** the room.*
+- ✗ *It's vital that she is told immediately.* (формально) → ✓ *It's vital that she **be** told immediately.*

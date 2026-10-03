@@ -232,6 +232,41 @@
     "one"
    ],
    "why": "one замінює лічильний іменник в однині."
+  },
+  {
+   "id": "adjectives-without-noun-19",
+   "type": "choice",
+   "q": "The Swiss ___ famous for their watches.",
+   "options": [
+    "is",
+    "are",
+    "was",
+    "has"
+   ],
+   "answer": 1,
+   "why": "Народ — дієслово в множині."
+  },
+  {
+   "id": "adjectives-without-noun-20",
+   "type": "choice",
+   "q": "She's ___. (з Японії)",
+   "options": [
+    "a Japanese",
+    "Japanese",
+    "the Japanese",
+    "a Japan"
+   ],
+   "answer": 1,
+   "why": "Про одну людину — прикметник без артикля."
+  },
+  {
+   "id": "adjectives-without-noun-21",
+   "type": "fill",
+   "q": "We need to help ___ homeless.",
+   "answer": [
+    "the"
+   ],
+   "why": "the + прикметник = група людей."
   }
  ]
 }

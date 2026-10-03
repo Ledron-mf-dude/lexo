@@ -42,9 +42,24 @@ wordTags: [порівняння]
 
 Для найвищого ступеня — інші підсилювачі: *by far the best*, *easily the biggest*, *one of the most*.
 
+## Набагато менше: not nearly, nowhere near
+
+Через `as … as`: *It's **not nearly as** cold **as** yesterday.* / *It's **nowhere near as** good.* — зовсім не такий.
+
+## Більше й більше
+
+- *It's getting **colder and colder**.* / *Life is becoming **more and more expensive**.*
+- *There are **fewer and fewer** shops.* (лічильні) / *There's **less and less** time.* (нелічильні)
+
+## A lot чи a lot of?
+
+Перед порівняльним — **a lot**, без `of`: *a lot cheaper*. `A lot of` — перед іменником: *a lot of people*, *a lot more people*.
+
 ## Типові помилки
 
 - ✗ *It's very hotter today.* → ✓ *It's **much** hotter today.* (`very` — лише зі звичайною формою: *very hot*)
 - ✗ *This is more better.* → ✓ *This is **much better**.*
 - ✗ *a bit more cheap* → ✓ ***a bit cheaper***
 - ✗ *much more people* → ✓ ***many more** people* (people — лічильне)
+- ✗ *It's a lot of cheaper here.* → ✓ *It's **a lot** cheaper here.*
+- ✗ *There are less and less shops.* → ✓ *There are **fewer and fewer** shops.*

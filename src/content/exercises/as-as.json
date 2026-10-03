@@ -264,6 +264,41 @@
    ],
    "why": "twice as … as.",
    "hint": "Ця книжка вдвічі довша за ту."
+  },
+  {
+   "id": "as-as-21",
+   "type": "choice",
+   "q": "This exam wasn't ___ hard as I expected.",
+   "options": [
+    "nearly as",
+    "nearly so much",
+    "near as",
+    "nearly than"
+   ],
+   "answer": 0,
+   "why": "not nearly as … as — зовсім не такий."
+  },
+  {
+   "id": "as-as-22",
+   "type": "choice",
+   "q": "Please reply as soon as ___.",
+   "options": [
+    "possibly",
+    "possible",
+    "can",
+    "you possible"
+   ],
+   "answer": 1,
+   "why": "as soon as possible."
+  },
+  {
+   "id": "as-as-23",
+   "type": "fill",
+   "q": "She's just ___ talented as her brother.",
+   "answer": [
+    "as"
+   ],
+   "why": "just as … as."
   }
  ]
 }

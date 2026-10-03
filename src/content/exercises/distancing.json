@@ -228,6 +228,41 @@
    ],
    "why": "seem + to be + V-ing.",
    "hint": "Схоже, план працює."
+  },
+  {
+   "id": "distancing-19",
+   "type": "choice",
+   "q": "___ to be a problem with your order.",
+   "options": [
+    "It seems",
+    "There seems",
+    "It appears that",
+    "There seem that"
+   ],
+   "answer": 1,
+   "why": "There seems to be."
+  },
+  {
+   "id": "distancing-20",
+   "type": "choice",
+   "q": "I'm ___ we won't be able to come.",
+   "options": [
+    "sorry that",
+    "afraid",
+    "fear",
+    "afraid of"
+   ],
+   "answer": 1,
+   "why": "I'm afraid — м'яко повідомити неприємне."
+  },
+  {
+   "id": "distancing-21",
+   "type": "fill",
+   "q": "Would it be possible ___ (change) the date?",
+   "answer": [
+    "to change"
+   ],
+   "why": "Would it be possible + to-інфінітив."
   }
  ]
 }

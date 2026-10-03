@@ -56,9 +56,28 @@ tags: [adverb position, always, never, usually, just, also, already, probably, o
 
 Порядок: **спосіб → місце → час**: *She sang **beautifully at the party last night**.* Див. «Порядок слів у реченні».
 
+## У питаннях і запереченнях
+
+- Питання: прислівник частоти — **після підмета**: *Do you **often** go there?* / *Have you **ever** been there?*
+- Заперечення: зазвичай **після** `not`: *I don't **usually** eat breakfast.* Але `sometimes` і `probably` — перед: *I **sometimes** don't eat breakfast.* / *He **probably** won't come.*
+
+## Really і зміст
+
+| Порядок | Значення |
+| --- | --- |
+| I **really don't** like it. | зовсім не подобається (сильно) |
+| I **don't really** like it. | не дуже подобається (м'яко) |
+
+## Even, just
+
+- **even** — «навіть», перед словом, яке виділяє: *He **even** forgot my name.*
+- **just** — «щойно» (між допоміжним і V3), «просто, лише» (перед словом): *I've **just** arrived.* / *It's **just** a joke.*
+
 ## Типові помилки
 
 - ✗ *I like very much football.* → ✓ *I like football **very much**.*
 - ✗ *She always is late.* → ✓ *She **is always** late.*
 - ✗ *He will not probably come.* → ✓ *He **probably won't** come.*
 - ✗ *I have seen never it.* → ✓ *I have **never** seen it.*
+- ✗ *Do often you go to the gym?* → ✓ *Do you **often** go to the gym?*
+- ✗ *She drives always carefully.* → ✓ *She **always drives** carefully.*

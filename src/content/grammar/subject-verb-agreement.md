@@ -61,6 +61,22 @@ tags: [subject verb agreement, singular, plural, everyone is, the number of, a n
 
 Узгоджується з іменником **після** дієслова: *There **is** a problem.* / *There **are** two problems.* Див. «There is / there are».
 
+## Відсотки, частини, «багато з»
+
+Дієслово узгоджується з іменником **після of**:
+
+- *50% **of the money is** gone.* / *50% **of the students are** here.*
+- ***Half of the cake was** eaten.* / ***Half of the guests were** late.*
+- ***A lot of** people **are**…* / ***A lot of** time **is**…*
+
+## Назви і заголовки
+
+Назва книги, фільму, країни — **однина**: *"The Hunger Games" **is** a popular series.* / *The Netherlands **is** a small country.*
+
+## Who, which, that
+
+Дієслово після відносного слова узгоджується з іменником, до якого воно відноситься: *one of the **people who live** here* (live — бо people).
+
 ## Типові помилки
 
 - ✗ *Everyone are here.* → ✓ *Everyone **is** here.*
@@ -68,3 +84,5 @@ tags: [subject verb agreement, singular, plural, everyone is, the number of, a n
 - ✗ *The number of students have increased.* → ✓ *The number of students **has** increased.*
 - ✗ *The news are shocking.* → ✓ *The news **is** shocking.*
 - ✗ *The price of the tickets are high.* → ✓ *The price… **is** high.* (головне слово — price)
+- ✗ *Half of the students was late.* → ✓ *Half of the students **were** late.*
+- ✗ *The Netherlands are a small country.* → ✓ *The Netherlands **is** a small country.*

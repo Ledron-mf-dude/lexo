@@ -47,9 +47,23 @@ tags: [adjective order, opinion, size, age, shape, colour, origin, material, pur
 
 *a **five-year-old** boy*, *a **well-known** author* — Див. «Складні прикметники».
 
+## Іменник у ролі прикметника
+
+Матеріал або призначення часто передає **іменник**, і він стоїть останнім, впритул до головного слова: *a **coffee** cup, a **leather** bag, a **cotton** shirt, a **football** match*. Прикметники на **-en** (*wooden, woollen, golden*) — теж матеріал, але `golden` частіше переносно: *a golden opportunity*.
+
+## Числа й порядкові слова
+
+Порядок перед прикметниками: **визначник → порядкове → кількість → прикметники → іменник**.
+
+- ***the first two** days* (не *the two first days*)
+- ***my last three** holidays*
+- ***all the** other people*, ***both my** old friends*
+
 ## Типові помилки
 
 - ✗ *a red big car* → ✓ *a **big red** car* (розмір → колір)
 - ✗ *a wooden old table* → ✓ *an **old wooden** table* (вік → матеріал)
 - ✗ *an Italian beautiful bag* → ✓ *a **beautiful Italian** bag* (думка — завжди першою)
 - ✗ *a big, red ball* → ✓ *a **big red** ball* (різні категорії — без коми)
+- ✗ *the two first days* → ✓ *the **first two** days*
+- ✗ *a woollen black jumper* → ✓ *a **black woollen** jumper*

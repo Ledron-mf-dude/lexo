@@ -220,6 +220,41 @@
    ],
    "why": "nobody + однина.",
    "hint": "Нікого не було вдома."
+  },
+  {
+   "id": "subject-verb-agreement-19",
+   "type": "choice",
+   "q": "Two thirds of the money ___ already been spent.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ],
+   "answer": 1,
+   "why": "money — нелічильне: has."
+  },
+  {
+   "id": "subject-verb-agreement-20",
+   "type": "choice",
+   "q": "A lot of people ___ waiting outside.",
+   "options": [
+    "is",
+    "are",
+    "was",
+    "has"
+   ],
+   "answer": 1,
+   "why": "people — множина."
+  },
+  {
+   "id": "subject-verb-agreement-21",
+   "type": "fill",
+   "q": "The United States ___ (be) a federal republic.",
+   "answer": [
+    "is"
+   ],
+   "why": "Назва країни — однина."
   }
  ]
 }

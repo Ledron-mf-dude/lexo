@@ -247,6 +247,41 @@
    ],
    "why": "Прийменник у кінці.",
    "hint": "На кого ти чекаєш?"
+  },
+  {
+   "id": "subject-questions-21",
+   "type": "choice",
+   "q": "How many people ___ to the party?",
+   "options": [
+    "did come",
+    "came",
+    "did they come",
+    "come"
+   ],
+   "answer": 1,
+   "why": "Питання до підмета — без did."
+  },
+  {
+   "id": "subject-questions-22",
+   "type": "choice",
+   "q": "Who ___ you live with? (з ким)",
+   "options": [
+    "do",
+    "does",
+    "—",
+    "is"
+   ],
+   "answer": 0,
+   "why": "Питання до додатка — з do."
+  },
+  {
+   "id": "subject-questions-23",
+   "type": "fill",
+   "q": "Whose bag ___ (be) this?",
+   "answer": [
+    "is"
+   ],
+   "why": "Whose bag is this?"
   }
  ]
 }

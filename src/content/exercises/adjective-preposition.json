@@ -273,6 +273,41 @@
    ],
    "why": "worried about.",
    "hint": "Ми хвилюємося через тест."
+  },
+  {
+   "id": "adjective-preposition-23",
+   "type": "choice",
+   "q": "We're running short ___ time.",
+   "options": [
+    "with",
+    "of",
+    "on",
+    "in"
+   ],
+   "answer": 1,
+   "why": "short of — бракує."
+  },
+  {
+   "id": "adjective-preposition-24",
+   "type": "choice",
+   "q": "I'm sick ___ hearing the same excuses.",
+   "options": [
+    "with",
+    "from",
+    "of",
+    "about"
+   ],
+   "answer": 2,
+   "why": "sick of = набридло."
+  },
+  {
+   "id": "adjective-preposition-25",
+   "type": "fill",
+   "q": "That's so typical ___ him — always late!",
+   "answer": [
+    "of"
+   ],
+   "why": "typical of."
   }
  ]
 }

@@ -262,6 +262,41 @@
    ],
    "why": "at the end of.",
    "hint": "Ми зустрілися наприкінці травня."
+  },
+  {
+   "id": "on-time-in-time-21",
+   "type": "choice",
+   "q": "___ I didn't like the city, but now I love it.",
+   "options": [
+    "At first",
+    "Firstly",
+    "At the first",
+    "First of all"
+   ],
+   "answer": 0,
+   "why": "Спершу (потім змінилося) — at first."
+  },
+  {
+   "id": "on-time-in-time-22",
+   "type": "choice",
+   "q": "Can you move your car? It's ___.",
+   "options": [
+    "on the way",
+    "in the way",
+    "by the way",
+    "the way"
+   ],
+   "answer": 1,
+   "why": "in the way — заважає."
+  },
+  {
+   "id": "on-time-in-time-23",
+   "type": "fill",
+   "q": "We got to the station just ___ time to catch the train.",
+   "answer": [
+    "in"
+   ],
+   "why": "just in time — в останню мить."
   }
  ]
 }

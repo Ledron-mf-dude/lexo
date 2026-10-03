@@ -266,6 +266,41 @@
    ],
    "why": "each other — взаємно.",
    "hint": "Вони розмовляють одне з одним щодня."
+  },
+  {
+   "id": "reflexive-pronouns-22",
+   "type": "choice",
+   "q": "Let me introduce ___. My name is Olena.",
+   "options": [
+    "me",
+    "myself",
+    "I",
+    "mine"
+   ],
+   "answer": 1,
+   "why": "introduce yourself."
+  },
+  {
+   "id": "reflexive-pronouns-23",
+   "type": "choice",
+   "q": "Try to relax and ___.",
+   "options": [
+    "concentrate yourself",
+    "concentrate",
+    "concentrate you",
+    "yourself concentrate"
+   ],
+   "answer": 1,
+   "why": "concentrate — без займенника."
+  },
+  {
+   "id": "reflexive-pronouns-24",
+   "type": "fill",
+   "q": "Be careful with that knife. Don't cut ___ !",
+   "answer": [
+    "yourself"
+   ],
+   "why": "cut yourself."
   }
  ]
 }

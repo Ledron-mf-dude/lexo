@@ -51,6 +51,18 @@ tags: [future simple, will, won't, shall, offers, promises, predictions, про�
 
 *I'll call you **when I arrive**.* (не *when I will arrive*). Див. «Підрядні часу про майбутнє».
 
+## Will у поєднанні з думкою
+
+`Will` часто йде після *I think, I'm sure, I expect, I hope, probably, perhaps*: *I **think** it **will** be fine.* Заперечення зазвичай переносимо на `think`: *I **don't think** he'**ll** come* (природніше, ніж *I think he won't come*).
+
+## Will be able to, will have to
+
+Модальних форм для майбутнього немає, тому: *I **will be able to** help* (не *will can*), *We **will have to** wait* (не *will must*).
+
+## Will для фактів про майбутнє
+
+Те, що станеться незалежно від нас: *The sun **will** rise at 6.12.* / *She**'ll** be 30 in May.*
+
 ## Типові помилки
 
 - ✗ *I will to call you.* → ✓ *I will **call** you.* (без to)
@@ -58,3 +70,4 @@ tags: [future simple, will, won't, shall, offers, promises, predictions, про�
 - ✗ *I will help you when I will finish.* → ✓ *…when I **finish**.*
 - ✗ *Will I open the window?* (пропозиція) → ✓ ***Shall** I open the window?*
 - ✗ *I don't will go.* → ✓ *I **won't** go.*
+- ✗ *We will must wait.* → ✓ *We **will have to** wait.*

@@ -46,6 +46,20 @@ tags: [there is, there are, there was, there were, there will be, there has been
 - ***There used to be** a cinema here.* — Раніше тут було кіно.
 - ***There seems to be** a mistake.* — Здається, є помилка.
 
+## There's / there are + кількість
+
+- ***There are lots of** / **a lot of** shops.* / ***There's a lot of** traffic.*
+- ***How much** milk **is there**?* / ***How many** people **are there**?*
+- ***There's no** time.* = ***There isn't any** time.*
+
+## There + інші дієслова (книжно)
+
+У розповідях і новинах: ***There seems to be*** a problem. / ***There appears to be*** a mistake. / ***There remain*** several questions.
+
+## Have чи there is?
+
+Українське «у мене є» — **have**, а «є, існує десь» — **there is**: *I **have** a car.* / ***There is** a car outside.* Не *There is a car at me*.
+
 ## Типові помилки
 
 - ✗ *There are a book on the table.* → ✓ *There **is** a book…*
@@ -53,5 +67,8 @@ tags: [there is, there are, there was, there were, there will be, there has been
 - ✗ *Is there any questions?* → ✓ ***Are** there any questions?*
 - ✗ *In the room is a table.* (калька) → ✓ ***There is** a table in the room.*
 - ✗ *There will a meeting.* → ✓ *There will **be** a meeting.*
+- ✗ *There is a lot of people here.* → ✓ *There **are** a lot of people here.*
+- ✗ *How many people there are?* → ✓ *How many people **are there**?*
+- ✗ *At me there is a car.* → ✓ ***I have** a car.*
 
 Порівняйте з `it`: «There чи it».

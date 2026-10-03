@@ -251,6 +251,41 @@
    ],
    "why": "sound like + іменник.",
    "hint": "Звучить як гарна ідея."
+  },
+  {
+   "id": "verbs-of-the-senses-21",
+   "type": "choice",
+   "q": "I ___ someone knocking at the door.",
+   "options": [
+    "am hearing",
+    "can hear",
+    "hear to",
+    "am listening"
+   ],
+   "answer": 1,
+   "why": "Сприйняття зараз — can hear."
+  },
+  {
+   "id": "verbs-of-the-senses-22",
+   "type": "choice",
+   "q": "That ___ a great idea!",
+   "options": [
+    "sounds like",
+    "sounds",
+    "is sounding",
+    "sounds as"
+   ],
+   "answer": 0,
+   "why": "sound like + іменник."
+  },
+  {
+   "id": "verbs-of-the-senses-23",
+   "type": "fill",
+   "q": "What does your new boss look ___?",
+   "answer": [
+    "like"
+   ],
+   "why": "look like — зовнішність."
   }
  ]
 }

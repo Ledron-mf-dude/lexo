@@ -54,11 +54,25 @@ tags: [most, most of, the most, mostly, almost, majority, більшість, н
 | some (of) | деякі |
 | none (of) | жоден |
 
+## Most з нелічильними
+
+`Most` і `most of` працюють і з нелічильними: ***Most** information online is free.* / ***Most of the** money was spent.* Дієслово тоді в однині.
+
+## The majority of
+
+Формальний синонім `most of`: ***The majority of** students passed.* Дієслово зазвичай у множині, коли йдеться про людей.
+
+## A most… = дуже
+
+У книжному стилі ***a most** + прикметник* означає «дуже, надзвичайно», а не найвищий ступінь: *It was **a most** interesting talk.*
+
 ## Типові помилки
 
 - ✗ *Most of people like music.* → ✓ ***Most people** like music.* (загалом — без of)
 - ✗ *Most the students passed.* → ✓ ***Most of the** students passed.*
 - ✗ *Almost people agree.* → ✓ ***Most** people agree.* / ***Almost all** people agree.*
 - ✗ *the most of my friends* → ✓ ***most of** my friends*
+- ✗ *The most of the time I work from home.* → ✓ ***Most** of the time I work from home.*
+- ✗ *Most of information is free.* → ✓ *Most of **the** information is free.*
 
 Див. «Quantifiers».

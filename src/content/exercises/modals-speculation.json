@@ -279,6 +279,42 @@
    ],
    "why": "might + be + V-ing.",
    "hint": "Можливо, вони сплять."
+  },
+  {
+   "id": "modals-speculation-23",
+   "type": "choice",
+   "q": "___ it be true? I can't believe it.",
+   "options": [
+    "Must",
+    "Could",
+    "Should",
+    "Ought"
+   ],
+   "answer": 1,
+   "why": "Питання про можливість — could."
+  },
+  {
+   "id": "modals-speculation-24",
+   "type": "choice",
+   "q": "You've been travelling all day. You ___ be exhausted.",
+   "options": [
+    "can't",
+    "must",
+    "mustn't",
+    "should to"
+   ],
+   "answer": 1,
+   "why": "Висновок — must."
+  },
+  {
+   "id": "modals-speculation-25",
+   "type": "fill",
+   "q": "That ___ be Anna — she's in Paris this week.",
+   "answer": [
+    "can't",
+    "cannot"
+   ],
+   "why": "Упевнене «ні» — can't."
   }
  ]
 }

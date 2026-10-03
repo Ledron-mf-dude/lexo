@@ -265,6 +265,41 @@
    ],
    "why": "difference between.",
    "hint": "Я не бачу різниці між ними."
+  },
+  {
+   "id": "noun-preposition-22",
+   "type": "choice",
+   "q": "Who is in charge ___ this department?",
+   "options": [
+    "for",
+    "of",
+    "on",
+    "with"
+   ],
+   "answer": 1,
+   "why": "in charge of."
+  },
+  {
+   "id": "noun-preposition-23",
+   "type": "choice",
+   "q": "Sorry, I took your bag ___ mistake.",
+   "options": [
+    "on",
+    "by",
+    "for",
+    "in"
+   ],
+   "answer": 1,
+   "why": "by mistake — випадково."
+  },
+  {
+   "id": "noun-preposition-24",
+   "type": "fill",
+   "q": "The house is ___ sale. (продається)",
+   "answer": [
+    "for"
+   ],
+   "why": "for sale."
   }
  ]
 }

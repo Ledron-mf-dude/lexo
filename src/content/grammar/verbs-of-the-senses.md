@@ -34,9 +34,25 @@ tags: [verbs of the senses, look, sound, feel, smell, taste, look like, as if, a
 
 `Seem` і `appear` працюють подібно: *She **seems** happy.* Див. «Seem — здаватися».
 
+## See, hear, watch + дія
+
+Після дієслів сприйняття — **об'єкт + інфінітив без to** (уся дія) або **об'єкт + -ing** (процес): *I **saw her leave**.* / *I **heard them arguing**.* Див. «Gerund та infinitive: складні форми та об'єкт».
+
+## Can see, can hear
+
+Про сприйняття в моменті часто кажуть **can / could**, а не Continuous: *I **can hear** music.* (не *I'm hearing*) / *We **could see** the sea from our room.*
+
+## Look like, seem like, sound like
+
+- *It **looks like** rain.* — схоже на дощ.
+- *That **sounds like** a good plan.* — звучить як.
+- *What does it **taste like**?* — який на смак?
+
 ## Типові помилки
 
 - ✗ *It smells deliciously.* → ✓ *It smells **delicious**.*
 - ✗ *You look like tired.* → ✓ *You look **tired**.* (like — перед іменником)
 - ✗ *It sounds like great.* → ✓ *It sounds **great**.* (перед прикметником — без like)
 - ✗ *The soup is tasting salty.* → ✓ *The soup **tastes** salty.*
+- ✗ *I'm hearing a strange noise.* → ✓ *I **can hear** a strange noise.*
+- ✗ *What does it taste?* → ✓ *What does it taste **like**?*

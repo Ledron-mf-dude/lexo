@@ -36,9 +36,26 @@ tags: [infinitive, інфінітив, continuous infinitive, perfect infinitive
 
 Після **модальних дієслів** (`may`, `should`, `must`…) `to` не потрібне, після **seem** — потрібне. Див. також: «Модальні дієслова: припущення», «Seem — здаватися».
 
+## Пасивні форми інфінітива
+
+| Форма | Схема | Приклад |
+| --- | --- | --- |
+| Present passive | (to) be + V3 | The work must **be finished** today. |
+| Perfect passive | (to) have been + V3 | The letter seems **to have been opened**. |
+
+## Інфінітив без to
+
+Після модальних дієслів, `let`, `make`, `had better`, `would rather`, а також `help` (за бажанням): *You **must go**.* / ***Let** me **see**.* / *She **helped** me (**to**) **move**.*
+
+## Split infinitive
+
+Слово між `to` і дієсловом (*to **really** understand*) у сучасній англійській — нормально: *I want **to fully understand** it.*
+
 ## Типові помилки
 
 - ✗ *She should to work.* → ✓ *She should **work**.* (після модальних — без to)
 - ✗ *She seems be working.* → ✓ *She seems **to be working**.*
 - ✗ *He must have went.* → ✓ *He must have **gone**.* (have + V3)
 - ✗ *She seems to write a book last year.* → ✓ *She seems **to have written** a book last year.*
+- ✗ *The work must to be finished today.* → ✓ *The work must **be finished** today.*
+- ✗ *The door seems to have opened by someone.* → ✓ *The door seems to have **been opened** by someone.*

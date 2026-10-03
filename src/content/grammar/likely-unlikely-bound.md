@@ -48,11 +48,24 @@ tags: [likely, unlikely, bound to, definitely, probably, certainly, possibly, pe
 | **might** | I **might** go. (менш упевнено) |
 | **be bound to** | You're **bound to** like it. |
 
+## Certain і sure
+
+`be certain / sure to` — упевненість мовця: *She **is sure to** win.* Але `I'm sure that…` — моя впевненість: ***I'm sure** she'll win.* Порівняйте: *He**'s sure** he'll win* — це впевнений **він**, а не мовець.
+
+## Chance і possibility
+
+- *There's **a good chance** (that) it'll rain.* — цілком імовірно.
+- *There's **little chance** of finding it.* — малоймовірно.
+- *There's **no chance**!* — ні за що.
+- ***In all likelihood**, …* — найімовірніше (книжно).
+
 ## Типові помилки
 
 - ✗ *He is likely win.* → ✓ *He is likely **to win**.*
 - ✗ *It's likely to she'll agree.* → ✓ ***It's likely that** she'll agree.* / *She is **likely to** agree.*
 - ✗ *He won't probably come.* → ✓ *He **probably won't** come.*
 - ✗ *She will definitely to come.* → ✓ *She will definitely **come**.*
+- ✗ *There's a big chance to rain.* → ✓ *There's a **good chance** it'll rain.*
+- ✗ *She is sure win.* → ✓ *She is sure **to win**.*
 
 Пов'язані теми: «Probability — should і Future Simple», «Модальні дієслова: припущення».

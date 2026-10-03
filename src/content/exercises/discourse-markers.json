@@ -274,6 +274,41 @@
    ],
    "why": "In conclusion — підсумок.",
    "hint": "Отже, план надто ризикований."
+  },
+  {
+   "id": "discourse-markers-22",
+   "type": "choice",
+   "q": "___, did you remember to buy milk? (між іншим)",
+   "options": [
+    "Anyway",
+    "By the way",
+    "Actually",
+    "However"
+   ],
+   "answer": 1,
+   "why": "Нова тема між іншим — by the way."
+  },
+  {
+   "id": "discourse-markers-23",
+   "type": "choice",
+   "q": "This information is no longer ___.",
+   "options": [
+    "actual",
+    "relevant",
+    "actually",
+    "factual"
+   ],
+   "answer": 1,
+   "why": "Актуальний — relevant."
+  },
+  {
+   "id": "discourse-markers-24",
+   "type": "fill",
+   "q": "\"You're from Kyiv, right?\" — \"___, I'm from Lviv.\" (насправді)",
+   "answer": [
+    "Actually"
+   ],
+   "why": "Actually — уточнення, незгода."
   }
  ]
 }

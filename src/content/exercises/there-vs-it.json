@@ -266,6 +266,42 @@
    ],
    "why": "It takes + час.",
    "hint": "Туди їхати годину."
+  },
+  {
+   "id": "there-vs-it-22",
+   "type": "choice",
+   "q": "___ about two kilometres to the beach.",
+   "options": [
+    "There is",
+    "It's",
+    "There are",
+    "Is"
+   ],
+   "answer": 1,
+   "why": "Відстань — it."
+  },
+  {
+   "id": "there-vs-it-23",
+   "type": "choice",
+   "q": "___ a new café near my house.",
+   "options": [
+    "It's",
+    "There's",
+    "It has",
+    "Is"
+   ],
+   "answer": 1,
+   "why": "Нова інформація, що щось є — there."
+  },
+  {
+   "id": "there-vs-it-24",
+   "type": "fill",
+   "q": "___ no use arguing with him.",
+   "answer": [
+    "It's",
+    "It is"
+   ],
+   "why": "It's no use + -ing."
   }
  ]
 }

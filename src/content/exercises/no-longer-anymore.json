@@ -255,6 +255,41 @@
    ],
    "why": "is + no longer.",
    "hint": "Він більше не мій начальник."
+  },
+  {
+   "id": "no-longer-anymore-21",
+   "type": "choice",
+   "q": "We ___ live in that flat. We moved.",
+   "options": [
+    "no more",
+    "no longer",
+    "not longer",
+    "any longer"
+   ],
+   "answer": 1,
+   "why": "Уже не (у часі) — no longer."
+  },
+  {
+   "id": "no-longer-anymore-22",
+   "type": "choice",
+   "q": "Is there ___ milk? I'd like some more.",
+   "options": [
+    "any more",
+    "no longer",
+    "any longer",
+    "still"
+   ],
+   "answer": 0,
+   "why": "Кількість — any more."
+  },
+  {
+   "id": "no-longer-anymore-23",
+   "type": "fill",
+   "q": "I can't wait any ___. I'm leaving.",
+   "answer": [
+    "longer"
+   ],
+   "why": "not … any longer."
   }
  ]
 }

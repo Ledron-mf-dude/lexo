@@ -47,9 +47,25 @@ tags: [distancing, hedging, apparently, allegedly, it seems, it appears, is said
 
 Див. також «Seem — здаватися» і «Likely, unlikely, bound, definitely, probably».
 
+## Пом'якшення в діловому листуванні
+
+| Різко | М'якше |
+| --- | --- |
+| You made a mistake. | **There seems to be** a mistake. |
+| This is wrong. | This **might not be quite** right. |
+| We can't do it. | **I'm afraid** we **won't be able to** do it. |
+| Send it today. | **Would it be possible to** send it today? |
+| I disagree. | **I'm not sure I** agree. / **I see your point, but**… |
+
+## Слова-пом'якшувачі
+
+*slightly, a bit, somewhat, rather, quite, fairly, to some extent, in a way, sort of (розм.)*: *The results are **somewhat** disappointing.* / *I'm **a bit** worried.*
+
 ## Типові помилки
 
 - ✗ *He is said that he is rich.* → ✓ *He is said **to be** rich.* / ***It** is said that he is rich.*
 - ✗ *It seems that he to be busy.* → ✓ *It seems that he **is** busy.* / *He seems **to be** busy.*
 - ✗ *According to me, it's wrong.* → ✓ ***In my opinion**, it's wrong.* (according to — про джерело, не про себе)
 - ✗ *People tend using phones.* → ✓ *People tend **to use** phones.*
+- ✗ *It seems that there is a mistake to be.* → ✓ *There **seems to be** a mistake.*
+- ✗ *Would it be possible sending it today?* → ✓ *Would it be possible **to send** it today?*

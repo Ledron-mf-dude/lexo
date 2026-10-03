@@ -32,11 +32,29 @@ tags: [probability, should, will, definitely, probably, вірогідність
 
 > Зверніть увагу: `should have + V3` залежно від контексту може означати не «скоріш за все вже», а «слід було» (докір): *You should have called me.* Тут — за змістом речення.
 
+## Should і ought to
+
+`Ought to` в цьому значенні — синонім `should`, трохи формальніший: *The parcel **ought to** arrive tomorrow.*
+
+## Shouldn't — «навряд чи буде проблема»
+
+*It **shouldn't** take long.* — Це не мало б забрати багато часу. / *There **shouldn't** be any problems.*
+
+## Порівняння
+
+| Вираз | Впевненість |
+| --- | --- |
+| It **will** be fine. | майже напевно |
+| It **should** be fine. | скоріш за все |
+| It **may / might** be fine. | можливо |
+| It **won't** be fine. | майже напевно ні |
+
 ## Типові помилки
 
 - ✗ *Tom should to arrive tomorrow.* → ✓ *Tom should **arrive** tomorrow.*
 - ✗ *He will not probably come.* → ✓ *He **probably won't** come.*
 - ✗ *She will definitely comes.* → ✓ *She will definitely **come**.*
 - ✗ *He should arrived by now.* → ✓ *He should **have arrived** by now.*
+- ✗ *It shouldn't to take long.* → ✓ *It shouldn't **take** long.*
 
 Порівняйте також: «Модальні дієслова: припущення» та «Форми інфінітива».

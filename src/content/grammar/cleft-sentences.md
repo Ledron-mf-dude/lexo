@@ -55,11 +55,26 @@ tags: [cleft sentences, it was who, what I need is, wh-cleft, emphasis, all I wa
 - Щоб **підкреслити** важливе: ***What matters is** honesty.*
 - Щоб **пояснити**: ***What I mean is…***
 
+## Інші слова для виділення
+
+| Схема | Приклад |
+| --- | --- |
+| **The reason (why)** … **is that** … | **The reason** I'm late **is that** the bus broke down. |
+| **The place where** … **is** … | **The place where** we met **is** now a hotel. |
+| **The person who** … **is** … | **The person who** helped me **was** a stranger. |
+| **What** + **do** … **is** + інфінітив | **What** you should **do is** call her. |
+
+## Емфатичне do
+
+Без перебудови речення наголос дає допоміжне **do / does / did**: *I **do** like your new haircut!* / *She **did** call, but you were out.* Див. «Допоміжні дієслова: do, be, have».
+
 ## Типові помилки
 
 - ✗ *It was Tom which broke it.* → ✓ *It was Tom **who / that** broke it.*
 - ✗ *What I need it is a rest.* → ✓ *What I need **is** a rest.*
 - ✗ *It was in Paris where I met her.* → ✓ *It was in Paris **that** I met her.*
 - ✗ *All what I want is peace.* → ✓ ***All** I want is peace.* / ***All that** I want is peace.*
+- ✗ *The reason I'm late is because the bus broke down.* → ✓ *The reason I'm late is **that** the bus broke down.*
+- ✗ *What you should do is calling her.* → ✓ *What you should do is **call** her.*
 
 Див. також «Inversion (зворотний порядок слів)».

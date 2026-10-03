@@ -49,9 +49,25 @@ tags: [the rich, the poor, the young, the elderly, the unemployed, the British, 
 
 Щоб не повторювати іменник: *I like the **red** one.* / *the **big** ones*. Див. «Ellipsis and substitution».
 
+## Національності на -ese, -ss, -sh, -ch
+
+Ці назви однакові для людини й народу, тому як «народ загалом» — з **the** і дієсловом у множині:
+
+| Народ | Одна людина |
+| --- | --- |
+| **the Japanese, the Chinese, the Swiss** | a Japanese **person** / a Japanese **man** |
+| **the English, the French, the Dutch** | an **Englishman**, a **Frenchwoman** |
+| **Ukrainians, Germans, Americans** (без the) | a Ukrainian, a German |
+
+## Найвищий ступінь без іменника
+
+***The best** is yet to come.* / *She's **the oldest** in the family.* / *Of the three, this one is **the cheapest**.* Іменник зрозумілий з контексту.
+
 ## Типові помилки
 
 - ✗ *The rich is not always happy.* → ✓ *The rich **are**…* (група — множина)
 - ✗ *The poors need help.* → ✓ ***The poor** need help.* (без -s)
 - ✗ *He is a rich.* → ✓ *He is **a rich man**.* (про одну людину — з іменником)
 - ✗ *The Italian love pasta.* → ✓ ***Italians** love pasta.*
+- ✗ *The Japanese is very polite.* → ✓ *The Japanese **are** very polite.*
+- ✗ *He's a French.* → ✓ *He's **French**.* / *He's **a Frenchman**.*

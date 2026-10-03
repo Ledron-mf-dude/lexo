@@ -58,6 +58,25 @@ wordTags: [з прийменником]
 
 У дієслові з прийменником (`look at`, `wait for`) прийменник лише «прив'язаний» до дієслова й завжди стоїть **перед** додатком: *Look **at** it.* У фразовому дієслові частка змінює значення, і з займенником вона може стояти **після** нього: *Pick it **up**.* Різниця докладно — у статті «Фразові дієслова: що це і як користуватися».
 
+## Пари, де прийменник змінює зміст
+
+| Дієслово | Приклад |
+| --- | --- |
+| **hear about** — дізнатися про | Did you **hear about** the accident? |
+| **hear from** — отримати звістку від | I haven't **heard from** her for months. |
+| **hear of** — чути про існування | I've never **heard of** this band. |
+| **dream of / about** | мріяти про / бачити сон про |
+| **care about** — перейматися | I really **care about** you. |
+| **care for** — доглядати; любити (книжно) | She **cares for** her mother. |
+| **agree with** (особа, думка) / **agree to** (пропозиція) / **agree on** (рішення) | We **agreed on** a price. |
+
+## Дієслово + додаток + прийменник
+
+*accuse sb **of**, blame sb **for**, congratulate sb **on**, protect sb **from**, provide sb **with**, remind sb **of**, thank sb **for**, spend money **on**, translate **from … into***:
+
+- *They **provided us with** maps.*
+- *She **translated** the book **from** French **into** Ukrainian.*
+
 ## Типові помилки
 
 - ✗ *It depends of the weather.* → ✓ *It depends **on** the weather.*
@@ -65,5 +84,8 @@ wordTags: [з прийменником]
 - ✗ *Listen me!* → ✓ ***Listen to** me!*
 - ✗ *I'm waiting you.* → ✓ *I'm waiting **for** you.*
 - ✗ *She married with Tom.* → ✓ *She **married** Tom.*
+- ✗ *I haven't heard about her for months.* → ✓ *I haven't heard **from** her for months.*
+- ✗ *They provided us maps.* → ✓ *They provided us **with** maps.*
+- ✗ *We agreed with the price.* → ✓ *We agreed **on** the price.*
 
 Див. «Фразові дієслова: що це і як користуватися».

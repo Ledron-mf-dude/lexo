@@ -48,11 +48,30 @@ tags: [ed adjectives, ing adjectives, bored boring, interested interesting, exci
 
 Запитайте: «Про кого/що говорю? Що він **відчуває**» → **-ed**; «Що він **викликає**?» → **-ing**.
 
+## Ще пари
+
+| -ed | -ing |
+| --- | --- |
+| exhausted | exhausting |
+| terrified | terrifying |
+| fascinated | fascinating |
+| depressed | depressing |
+| satisfied | satisfying |
+| inspired | inspiring |
+| overwhelmed | overwhelming |
+| puzzled | puzzling |
+
+## З прийменником
+
+Прикметник на **-ed** часто йде з прийменником: *interested **in**, bored **with**, excited **about**, surprised **at / by**, disappointed **with / in**, worried **about**, scared **of***. Після прийменника — іменник або -ing: *I'm bored **with** waiting.* Див. «Прикметник + прийменник (afraid of, good at, interested in)».
+
 ## Типові помилки
 
 - ✗ *I am boring.* (= я нудний) → ✓ *I am **bored**.* (мені нудно)
 - ✗ *The film was bored.* → ✓ *The film was **boring**.*
 - ✗ *I'm very interesting in art.* → ✓ *I'm very **interested** in art.*
 - ✗ *She was exciting about the trip.* → ✓ *She was **excited** about the trip.*
+- ✗ *I was very disappointing with the result.* → ✓ *I was very **disappointed** with the result.*
+- ✗ *The news was shocked.* → ✓ *The news was **shocking**.*
 
 Див. також «Adjective order».

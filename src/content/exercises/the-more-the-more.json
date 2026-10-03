@@ -238,6 +238,41 @@
    ],
    "why": "comparative and comparative.",
    "hint": "Стає дедалі холодніше."
+  },
+  {
+   "id": "the-more-the-more-19",
+   "type": "choice",
+   "q": "The ___ you sleep, the more tired you feel.",
+   "options": [
+    "less",
+    "few",
+    "little",
+    "fewer"
+   ],
+   "answer": 0,
+   "why": "the less + дієслово."
+  },
+  {
+   "id": "the-more-the-more-20",
+   "type": "choice",
+   "q": "The more people come, ___.",
+   "options": [
+    "the merrier",
+    "merrier",
+    "the more merry",
+    "more merry"
+   ],
+   "answer": 0,
+   "why": "the more, the merrier."
+  },
+  {
+   "id": "the-more-the-more-21",
+   "type": "fill",
+   "q": "The ___ (early) we start, the sooner we'll finish.",
+   "answer": [
+    "earlier"
+   ],
+   "why": "the + порівняльний: earlier."
   }
  ]
 }

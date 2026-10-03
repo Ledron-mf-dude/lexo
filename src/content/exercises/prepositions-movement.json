@@ -253,6 +253,41 @@
    ],
    "why": "along — уздовж.",
    "hint": "Ми йшли вздовж річки."
+  },
+  {
+   "id": "prepositions-movement-21",
+   "type": "choice",
+   "q": "The horse jumped ___ the fence.",
+   "options": [
+    "over",
+    "across",
+    "through",
+    "along"
+   ],
+   "answer": 0,
+   "why": "Через щось зверху — over."
+  },
+  {
+   "id": "prepositions-movement-22",
+   "type": "choice",
+   "q": "Move ___ the edge! It's dangerous.",
+   "options": [
+    "out",
+    "away from",
+    "off to",
+    "back"
+   ],
+   "answer": 1,
+   "why": "away from — геть від."
+  },
+  {
+   "id": "prepositions-movement-23",
+   "type": "fill",
+   "q": "Please go back ___ your seats.",
+   "answer": [
+    "to"
+   ],
+   "why": "back to."
   }
  ]
 }

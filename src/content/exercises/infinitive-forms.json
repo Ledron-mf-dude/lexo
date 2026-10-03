@@ -251,6 +251,41 @@
    ],
    "why": "should + be + V-ing.",
    "hint": "Вони мають скоро прибути."
+  },
+  {
+   "id": "infinitive-forms-21",
+   "type": "choice",
+   "q": "The documents need to ___ by Friday.",
+   "options": [
+    "sign",
+    "be signed",
+    "have signed",
+    "signing"
+   ],
+   "answer": 1,
+   "why": "Пасивний інфінітив: to be + V3."
+  },
+  {
+   "id": "infinitive-forms-22",
+   "type": "choice",
+   "q": "The house seems ___ years ago.",
+   "options": [
+    "to abandon",
+    "to have been abandoned",
+    "to be abandoning",
+    "abandoned"
+   ],
+   "answer": 1,
+   "why": "Пасив про минуле: to have been + V3."
+  },
+  {
+   "id": "infinitive-forms-23",
+   "type": "fill",
+   "q": "Let me ___ (think) about it.",
+   "answer": [
+    "think"
+   ],
+   "why": "Після let — інфінітив без to."
   }
  ]
 }

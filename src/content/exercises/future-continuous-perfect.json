@@ -256,6 +256,41 @@
    ],
    "why": "Ввічливе питання — Future Continuous.",
    "hint": "Ти користуватимешся машиною ввечері?"
+  },
+  {
+   "id": "future-continuous-perfect-21",
+   "type": "choice",
+   "q": "Don't call at 8. We ___ dinner.",
+   "options": [
+    "will have",
+    "will be having",
+    "will have had",
+    "are have"
+   ],
+   "answer": 1,
+   "why": "Процес у момент майбутнього."
+  },
+  {
+   "id": "future-continuous-perfect-22",
+   "type": "choice",
+   "q": "She ___ home by now. Let's call her.",
+   "options": [
+    "will arrive",
+    "will have arrived",
+    "will be arrive",
+    "arrives"
+   ],
+   "answer": 1,
+   "why": "Припущення про вже завершене — will have + V3."
+  },
+  {
+   "id": "future-continuous-perfect-23",
+   "type": "fill",
+   "q": "By 2030 they ___ (build) the new bridge.",
+   "answer": [
+    "will have built"
+   ],
+   "why": "До моменту в майбутньому — Future Perfect."
   }
  ]
 }

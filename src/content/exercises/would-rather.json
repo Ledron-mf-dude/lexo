@@ -252,6 +252,41 @@
    ],
    "why": "would rather not + V.",
    "hint": "Вона б краще не йшла."
+  },
+  {
+   "id": "would-rather-21",
+   "type": "choice",
+   "q": "\"Do you mind if I open the window?\" — \"I'd rather you ___.\"",
+   "options": [
+    "don't",
+    "didn't",
+    "won't",
+    "not"
+   ],
+   "answer": 1,
+   "why": "would rather + інша особа + Past Simple."
+  },
+  {
+   "id": "would-rather-22",
+   "type": "choice",
+   "q": "It's late. You'd ___ go home.",
+   "options": [
+    "rather",
+    "better",
+    "prefer",
+    "like"
+   ],
+   "answer": 1,
+   "why": "Порада — had better."
+  },
+  {
+   "id": "would-rather-23",
+   "type": "fill",
+   "q": "\"Shall we watch a film?\" — \"I'd rather ___.\"",
+   "answer": [
+    "not"
+   ],
+   "why": "I'd rather not."
   }
  ]
 }

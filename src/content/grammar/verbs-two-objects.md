@@ -44,9 +44,25 @@ tags: [two objects, give, send, show, tell, buy, indirect object, direct object,
 
 Перший варіант (підмет — особа) частіше. Див. «Passive Voice».
 
+## Лише «кому» або лише «що»
+
+Деякі дієслова можуть мати один додаток: *She **told me**.* / *She **told the truth**.* Але `say` ніколи не має «кому» без `to`: *She **said to me**…*, не *She said me*.
+
+## Ще дієслова з двома додатками
+
+*bring, pass, hand, lend, owe, pay, promise, read, sell, show, teach, throw, wish, cost, ask*:
+
+- *Can you **pass me** the salt?*
+- *I **owe you** ten euros.*
+- *We **wish you** a happy New Year.*
+- *The mistake **cost him** his job.* — коштувала (тільки без to).
+- *Can I **ask you** a question?* — `ask` з `of` лише у сталих формальних виразах.
+
 ## Типові помилки
 
 - ✗ *She explained me the rule.* → ✓ *She explained the rule **to me**.*
 - ✗ *He gave to me a book.* → ✓ *He gave **me** a book.* / *He gave a book **to** me.*
 - ✗ *She bought a present to me.* → ✓ *…a present **for** me.*
 - ✗ *Can you say me the time?* → ✓ *Can you **tell** me the time?*
+- ✗ *Can you pass to me the salt?* → ✓ *Can you pass **me** the salt?*
+- ✗ *It cost to him a lot of money.* → ✓ *It cost **him** a lot of money.*

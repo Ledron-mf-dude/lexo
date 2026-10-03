@@ -38,8 +38,24 @@ tags: [could be, couldn't be better, could have been, comparative, warmer, cheap
 
 *It **could be a lot** cheaper.* / *It **could be a bit** warmer.* Див. «Порівняльний ступінь: a bit, a lot, much».
 
+## Ще схожі вирази
+
+| Вираз | Значення |
+| --- | --- |
+| **couldn't care less** | мені абсолютно байдуже |
+| **couldn't be happier / prouder** | щасливіший не буваю |
+| **could have been worse** | могло бути гірше |
+| **things could be better** | справи так собі |
+| **it couldn't be simpler** | простіше не буває |
+
+## Can't be better?
+
+Про теперішнє — **couldn't be**, а не *can't be*: *It **couldn't be** better.* `Can't be` означає «не може бути (неправда)»: *That **can't be** true.* Див. «Модальні дієслова: припущення (might, may, should, must, can't)».
+
 ## Типові помилки
 
 - ✗ *It could be more warm.* → ✓ *It could be **warmer**.*
 - ✗ *It could be better yesterday.* → ✓ *It **could have been** better yesterday.*
 - ✗ *"How are you?" — "It couldn't be good."* (потрібен порівняльний ступінь) → ✓ *"How are you?" — "It **couldn't be better**."*
+- ✗ *I couldn't care more what he thinks.* → ✓ *I couldn't care **less** what he thinks.*
+- ✗ *The weather can't be better today!* → ✓ *The weather **couldn't** be better today!*

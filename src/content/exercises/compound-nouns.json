@@ -250,6 +250,41 @@
    ],
    "why": "dishwasher — пишеться разом.",
    "hint": "Постав посуд у посудомийку."
+  },
+  {
+   "id": "compound-nouns-21",
+   "type": "choice",
+   "q": "I always keep my passport in a ___.",
+   "options": [
+    "passport's holder",
+    "passport holder",
+    "holder of passport",
+    "passports holder"
+   ],
+   "answer": 1,
+   "why": "Призначення — іменник + іменник в однині: passport holder."
+  },
+  {
+   "id": "compound-nouns-22",
+   "type": "choice",
+   "q": "Can I have a cup ___ tea, please?",
+   "options": [
+    "—",
+    "of",
+    "for",
+    "with"
+   ],
+   "answer": 1,
+   "why": "Чашка з чаєм — a cup of tea."
+  },
+  {
+   "id": "compound-nouns-23",
+   "type": "fill",
+   "q": "We parked in the multi-storey car ___.",
+   "answer": [
+    "park"
+   ],
+   "why": "car park — стоянка."
   }
  ]
 }

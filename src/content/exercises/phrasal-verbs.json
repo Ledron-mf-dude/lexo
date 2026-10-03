@@ -249,6 +249,41 @@
    ],
    "why": "put on — роздільне.",
    "hint": "Одягни пальто, будь ласка."
+  },
+  {
+   "id": "phrasal-verbs-21",
+   "type": "choice",
+   "q": "Can you slow ___? I can't follow you.",
+   "options": [
+    "up",
+    "down",
+    "out",
+    "off"
+   ],
+   "answer": 1,
+   "why": "slow down — сповільнитися."
+  },
+  {
+   "id": "phrasal-verbs-22",
+   "type": "choice",
+   "q": "The concert was ___ because of the rain.",
+   "options": [
+    "called off",
+    "called on",
+    "called up",
+    "called down"
+   ],
+   "answer": 0,
+   "why": "call off — скасувати."
+  },
+  {
+   "id": "phrasal-verbs-23",
+   "type": "fill",
+   "q": "We've run ___ of sugar. Can you buy some?",
+   "answer": [
+    "out"
+   ],
+   "why": "run out of — закінчитися."
   }
  ]
 }

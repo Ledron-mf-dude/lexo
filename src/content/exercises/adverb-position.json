@@ -268,6 +268,49 @@
    ],
    "why": "Спосіб → місце → час.",
    "hint": "Вони добре зіграли в матчі вчора."
+  },
+  {
+   "id": "adverb-position-21",
+   "type": "choice",
+   "q": "Have you ___ been to Japan?",
+   "options": [
+    "ever",
+    "never ever",
+    "already",
+    "yet"
+   ],
+   "answer": 0,
+   "why": "У питанні про досвід — ever після підмета."
+  },
+  {
+   "id": "adverb-position-22",
+   "type": "choice",
+   "q": "Which sentence is milder?",
+   "options": [
+    "I really don't like it.",
+    "I don't really like it.",
+    "I don't like really it.",
+    "Really I don't like it."
+   ],
+   "answer": 1,
+   "why": "don't really — м'якше."
+  },
+  {
+   "id": "adverb-position-23",
+   "type": "order",
+   "words": [
+    "He",
+    "has",
+    "just",
+    "finished",
+    "his",
+    "homework"
+   ],
+   "answer": [
+    "He has just finished his homework"
+   ],
+   "why": "just між has і V3.",
+   "hint": "Він щойно закінчив домашнє завдання."
   }
  ]
 }

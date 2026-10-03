@@ -253,6 +253,41 @@
    ],
    "why": "won't + V.",
    "hint": "Вона не запізниться."
+  },
+  {
+   "id": "future-simple-shall-will-21",
+   "type": "choice",
+   "q": "I ___ she'll like this present.",
+   "options": [
+    "don't think",
+    "not think",
+    "think not",
+    "won't think"
+   ],
+   "answer": 0,
+   "why": "Заперечення переносимо на think."
+  },
+  {
+   "id": "future-simple-shall-will-22",
+   "type": "choice",
+   "q": "___ we take a taxi? It's raining.",
+   "options": [
+    "Will",
+    "Shall",
+    "Do",
+    "Are"
+   ],
+   "answer": 1,
+   "why": "Пропозиція — Shall we…?"
+  },
+  {
+   "id": "future-simple-shall-will-23",
+   "type": "fill",
+   "q": "Next year I'll be ___ to drive.",
+   "answer": [
+    "able"
+   ],
+   "why": "will be able to."
   }
  ]
 }

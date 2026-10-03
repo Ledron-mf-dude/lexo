@@ -50,9 +50,26 @@ wordTags: [слова-зв'язки]
 
 Не перевантажуйте текст: 1–2 слова-зв'язки на абзац достатньо. Див. «Contrast, purpose, reason, result».
 
+## Маркери в розмові
+
+| Маркер | Функція | Приклад |
+| --- | --- | --- |
+| **anyway** | повернутися до теми, завершити | **Anyway**, I have to go. |
+| **by the way** | між іншим (нова тема) | **By the way**, did you call Tom? |
+| **actually** | насправді (уточнення, незгода) | **Actually**, I'm not sure. |
+| **I mean** | тобто (уточнити свої слова) | It's expensive. **I mean**, really expensive. |
+| **you know** | заповнення паузи, звернення до спільного знання | It was, **you know**, a bit strange. |
+| **well** | обдумую відповідь | **Well**, it depends. |
+| **as I was saying** | повернутися до перерваного | **As I was saying**, the plan is… |
+
+## Actually ≠ актуально
+
+**Actually** — «насправді, власне», а не «актуально, зараз». «Актуальний» — *relevant, current, up-to-date*: *This topic is very **relevant** now.*
+
 ## Типові помилки
 
 - ✗ *However he refused.* → ✓ ***However,** he refused.* (кома після маркера)
 - ✗ *He was ill, therefore he stayed home.* → ✓ *He was ill; **therefore,** he stayed home.* / *…ill, **so** he stayed home.*
 - ✗ *On the other side, it's expensive.* → ✓ ***On the other hand,** it's expensive.*
 - ✗ *Besides of that, it's cheap.* → ✓ ***Besides,** it's cheap.* / ***Apart from that,** it's cheap.*
+- ✗ *This problem is very actual now.* → ✓ *This problem is very **relevant** now.*

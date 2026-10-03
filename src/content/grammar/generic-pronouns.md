@@ -44,9 +44,25 @@ tags: [generic pronouns, you, one, they, people, we, impersonal, узагаль�
 
 Коли виконавець неважливий, частіше обирають пасив: ***It is said** that…*, *Smoking **is not allowed** here.* Див. «Passive Voice» і «Passive: it is said that…, have something done».
 
+## Someone's і their
+
+Коли стать невідома або неважлива, після `someone`, `anyone`, `a person`, `every student` вживають **they / their**: *If **anyone** calls, tell **them** I'm out.* / *Every student must bring **their** own book.* Це нормальна сучасна англійська.
+
+## Безособові українські речення
+
+| Українською | Англійською |
+| --- | --- |
+| Тут не можна палити. | **You** can't smoke here. / Smoking **isn't allowed** here. |
+| Кажуть, буде дощ. | **They** say it's going to rain. / **It's** said… |
+| Як туди дістатися? | How do **you** get there? |
+| Треба бути уважним. | **You** need to be careful. / **One** must be careful. |
+| Мене звати Оля. | **My name is** Olya. |
+
 ## Типові помилки
 
 - ✗ *Is not allowed to smoke here.* → ✓ ***You** aren't allowed to smoke here.* / *Smoking **is not allowed**.*
 - ✗ *Say that it will rain.* → ✓ ***They** say (that) it will rain.* / ***It is said**…*
 - ✗ *One should do his best.* → ✓ *One should do **one's** best.*
 - ✗ *Here can buy tickets.* → ✓ ***You** can buy tickets here.*
+- ✗ *If anyone calls, tell him I'm out.* (стать невідома) → ✓ *If anyone calls, tell **them** I'm out.*
+- ✗ *How to get to the station?* → ✓ *How **do you get** to the station?*

@@ -246,6 +246,41 @@
    ],
    "why": "make … for.",
    "hint": "Я спік торт для друга."
+  },
+  {
+   "id": "verbs-two-objects-21",
+   "type": "choice",
+   "q": "Could you ___ the bill, please?",
+   "options": [
+    "bring to us",
+    "bring us",
+    "bring for us",
+    "us bring"
+   ],
+   "answer": 1,
+   "why": "дієслово + кому + що."
+  },
+  {
+   "id": "verbs-two-objects-22",
+   "type": "choice",
+   "q": "I'll send ___ tomorrow.",
+   "options": [
+    "you it",
+    "it to you",
+    "to you it",
+    "it you"
+   ],
+   "answer": 1,
+   "why": "Два займенники — зі схемою з to."
+  },
+  {
+   "id": "verbs-two-objects-23",
+   "type": "fill",
+   "q": "My parents bought a new bike ___ me.",
+   "answer": [
+    "for"
+   ],
+   "why": "buy — схема з for."
   }
  ]
 }

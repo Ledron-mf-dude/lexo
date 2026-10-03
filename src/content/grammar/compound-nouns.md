@@ -49,9 +49,27 @@ tags: [compound nouns, bus stop, toothpaste, swimming pool, mother-in-law, plura
 
 's додаємо в **кінці**: *my **mother-in-law's** car*. Див. «Присвійна форма».
 
+## Іменник + іменник чи 's / of?
+
+| Тип | Приклад |
+| --- | --- |
+| **вид, призначення** — compound noun | a **coffee cup** (чашка для кави), a **bus driver** |
+| **належність людині чи тварині** — 's | **the driver's** seat, **a dog's** tail |
+| **частина цілого, вміст** — of | a cup **of** coffee (чашка з кавою), the top **of** the box |
+
+## Множина в перших словах
+
+Перший іменник зазвичай в **однині**, навіть коли значення множинне: *a **toothbrush*** (не *teethbrush*), *a **shoe** shop*, *a **car** park*. Винятки, де множина лишається: *sports car, clothes shop, savings account, sales manager, arms race*.
+
+## Довгі ланцюжки
+
+У новинах і технічних текстах трапляються ланцюжки з трьох-чотирьох іменників: *a **city centre parking** problem*. Читайте їх **з кінця**: проблема → з паркуванням → у центрі міста.
+
 ## Типові помилки
 
 - ✗ *buses stop* → ✓ *bus **stops*** (множину отримує головне, останнє слово)
 - ✗ *mother-in-laws* → ✓ *mother**s**-in-law*
 - ✗ *a shoes shop* → ✓ *a **shoe** shop*
 - ✗ *a black board* (чорна дошка) ≠ *a **blackboard*** (шкільна дошка) — різне значення
+- ✗ *I'd like a coffee's cup.* → ✓ *I'd like a **coffee cup**.*
+- ✗ *We need a teethbrush.* → ✓ *We need a **toothbrush**.*

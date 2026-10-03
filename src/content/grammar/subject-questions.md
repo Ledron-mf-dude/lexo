@@ -56,11 +56,27 @@ tags: [subject questions, object questions, who called, what happened, prepositi
 1. Питальне слово — **підмет** → просто дієслово: ***Who** phoned?*
 2. Питальне слово — **додаток** → допоміжне + підмет + дієслово: ***Who** did you phone?*
 
+## Which і whose до підмета
+
+- ***Which** team **won**?* (не *Which team did win?*)
+- ***Whose** phone **is ringing**?*
+- ***How many** people **came**?*
+
+## Питання з прийменником до підмета
+
+Якщо питаємо про підмет, а прийменник належить додатку: ***Who** lives **with** you?* — хто живе з тобою (підмет). ***Who** do you live **with**?* — з ким ти живеш (додаток).
+
+## Короткі питання-реакції
+
+*"Somebody called." — "**Who?**"* / *"Something happened." — "**What?**"* / *"I met someone." — "**Who did you meet?**"*
+
 ## Типові помилки
 
 - ✗ *Who did call you?* → ✓ ***Who called** you?*
 - ✗ *What did happen?* → ✓ ***What happened**?*
 - ✗ *Who know the answer?* → ✓ *Who **knows** the answer?*
 - ✗ *Who you are talking to?* → ✓ *Who **are you** talking to?*
+- ✗ *Which team did win the match?* → ✓ *Which team **won** the match?*
+- ✗ *Whose phone does ring?* → ✓ *Whose phone **is ringing**?*
 
 Див. «Питання в англійській: порядок слів».

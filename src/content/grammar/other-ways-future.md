@@ -25,11 +25,26 @@ tags: [be about to, be due to, be to, be bound to, be on the point of, be set to
 - **be to** — офіційні плани, новини, інструкції: *You **are to** report at 9.*
 - **be bound to** — висока впевненість мовця: *Prices **are bound to** go up.*
 
+## Be on the verge of, be on the brink of
+
+Обидва — «на межі», часто про великі зміни: *The company **is on the verge of** collapse.* / *Scientists **are on the brink of** a discovery.*
+
+## Be to у правилах і умовах
+
+- Наказ, інструкція: *You **are to** stay here until I return.*
+- В умовних реченнях — «якщо ми хочемо»: *If we **are to** win, we must train harder.*
+
+## Be due
+
+`be due` + **to**-інфінітив або іменник: *The train **is due to** arrive at 6.* / *The rent **is due** on Monday.* / *The baby **is due** in May.*
+
 ## Типові помилки
 
 - ✗ *The film is about starting.* → ✓ *The film is about **to start**.*
 - ✗ *The train is due arrive at 6.* → ✓ *…is due **to arrive**…*
 - ✗ *She is bound winning.* → ✓ *She is bound **to win**.*
 - ✗ *I'm about to leave tomorrow.* → ✓ *I'm **leaving** tomorrow.* (about to — лише «от-от»)
+- ✗ *The company is on the verge to collapse.* → ✓ *The company is on the verge **of collapse**.*
+- ✗ *If we are win, we must train harder.* → ✓ *If we **are to** win, we must train harder.*
 
 Порівняйте з ймовірністю: «likely, unlikely, bound, definitely, probably».

@@ -246,6 +246,41 @@
    ],
    "why": "be set to + V.",
    "hint": "Ціни ось-ось зростуть."
+  },
+  {
+   "id": "other-ways-future-20",
+   "type": "choice",
+   "q": "The flight is ___ to land at 10:40.",
+   "options": [
+    "about",
+    "due",
+    "bound",
+    "set"
+   ],
+   "answer": 1,
+   "why": "За розкладом — be due to."
+  },
+  {
+   "id": "other-ways-future-21",
+   "type": "choice",
+   "q": "Hurry! The film is ___ to start.",
+   "options": [
+    "due",
+    "about",
+    "on the point",
+    "verge"
+   ],
+   "answer": 1,
+   "why": "Ось-ось — be about to."
+  },
+  {
+   "id": "other-ways-future-22",
+   "type": "fill",
+   "q": "The rent is ___ on the first of the month.",
+   "answer": [
+    "due"
+   ],
+   "why": "be due — має бути сплачено."
   }
  ]
 }

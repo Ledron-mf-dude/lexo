@@ -246,6 +246,41 @@
    ],
    "why": "All + підмет + дієслово + was.",
    "hint": "Усе, чого вона хотіла, — це відпустка."
+  },
+  {
+   "id": "cleft-sentences-20",
+   "type": "choice",
+   "q": "What I need ___ a long holiday.",
+   "options": [
+    "are",
+    "is",
+    "it is",
+    "be"
+   ],
+   "answer": 1,
+   "why": "What … is + виділене."
+  },
+  {
+   "id": "cleft-sentences-21",
+   "type": "choice",
+   "q": "It was in 2010 ___ we first met.",
+   "options": [
+    "where",
+    "that",
+    "which",
+    "when that"
+   ],
+   "answer": 1,
+   "why": "It-cleft: It was … that."
+  },
+  {
+   "id": "cleft-sentences-22",
+   "type": "fill",
+   "q": "All I did ___ ask a question!",
+   "answer": [
+    "was"
+   ],
+   "why": "All I did was + інфінітив."
   }
  ]
 }

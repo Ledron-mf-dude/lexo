@@ -276,6 +276,41 @@
    ],
    "why": "Вона відчуває — surprised.",
    "hint": "Вона була здивована результатом."
+  },
+  {
+   "id": "ed-ing-adjectives-23",
+   "type": "choice",
+   "q": "The long flight was really ___.",
+   "options": [
+    "exhausted",
+    "exhausting",
+    "exhaust",
+    "exhaustion"
+   ],
+   "answer": 1,
+   "why": "Те, що втомлює, — -ing."
+  },
+  {
+   "id": "ed-ing-adjectives-24",
+   "type": "choice",
+   "q": "The children were ___ by the magic show.",
+   "options": [
+    "fascinating",
+    "fascinated",
+    "fascinate",
+    "fascination"
+   ],
+   "answer": 1,
+   "why": "Те, що відчувають, — -ed."
+  },
+  {
+   "id": "ed-ing-adjectives-25",
+   "type": "fill",
+   "q": "I'm ___ (bore) with this game. Let's play something else.",
+   "answer": [
+    "bored"
+   ],
+   "why": "Відчуття — bored."
   }
  ]
 }

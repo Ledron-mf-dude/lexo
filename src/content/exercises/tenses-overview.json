@@ -271,6 +271,41 @@
    ],
    "why": "Future Perfect.",
    "hint": "Вони закінчать до понеділка."
+  },
+  {
+   "id": "tenses-overview-23",
+   "type": "choice",
+   "q": "This time next week I ___ on a beach.",
+   "options": [
+    "will lie",
+    "will be lying",
+    "will have lain",
+    "am lying"
+   ],
+   "answer": 1,
+   "why": "Процес у момент майбутнього — Future Continuous."
+  },
+  {
+   "id": "tenses-overview-24",
+   "type": "choice",
+   "q": "She ___ here since 2018.",
+   "options": [
+    "works",
+    "is working",
+    "has worked",
+    "worked"
+   ],
+   "answer": 2,
+   "why": "Тривалість до тепер — Present Perfect."
+  },
+  {
+   "id": "tenses-overview-25",
+   "type": "fill",
+   "q": "When I arrived, the train ___ (already / leave).",
+   "answer": [
+    "had already left"
+   ],
+   "why": "Раніше за момент у минулому — Past Perfect."
   }
  ]
 }

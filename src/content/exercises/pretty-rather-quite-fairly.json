@@ -241,6 +241,42 @@
    ],
    "why": "pretty + adj.",
    "hint": "Я досить утомився."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-20",
+   "type": "choice",
+   "q": "I'm ___ ready. Give me five more minutes.",
+   "options": [
+    "quite",
+    "not quite",
+    "rather",
+    "pretty"
+   ],
+   "answer": 1,
+   "why": "not quite — не зовсім."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-21",
+   "type": "choice",
+   "q": "Let's walk ___ take a taxi.",
+   "options": [
+    "rather",
+    "rather than",
+    "quite than",
+    "would rather"
+   ],
+   "answer": 1,
+   "why": "rather than — замість."
+  },
+  {
+   "id": "pretty-rather-quite-fairly-22",
+   "type": "fill",
+   "q": "There were quite a ___ people at the meeting.",
+   "answer": [
+    "few",
+    "lot of"
+   ],
+   "why": "quite a few / quite a lot of — доволі багато."
   }
  ]
 }

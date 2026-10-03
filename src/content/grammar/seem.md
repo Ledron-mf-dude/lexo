@@ -56,6 +56,21 @@ tags: [seem, it seems, seem to, seem like, appear, there seems to be, здаєт
 
 *She **appears to be** upset.* / ***It appears (that)** the train is delayed.* — ті самі схеми, що й із `seem`.
 
+## Seem і look
+
+| seem | look |
+| --- | --- |
+| враження з будь-яких ознак | враження **на вигляд** |
+| *He **seems** nice.* (з розмови, поведінки) | *He **looks** tired.* (видно з обличчя) |
+
+## Seem to be з іменником
+
+*She **seems** (**to be**) **a** good teacher.* — з іменником `to be` бажано. *It **seems like** a good idea.* — розмовно.
+
+## Can't seem to
+
+Розмовне «ніяк не вдається»: *I **can't seem to** find my keys.* = *I seem to be unable to find…*
+
 ## Типові помилки
 
 - ✗ *She seems be tired.* → ✓ *She seems **to be** tired.* / *She seems **tired**.*
@@ -63,3 +78,5 @@ tags: [seem, it seems, seem to, seem like, appear, there seems to be, здаєт
 - ✗ *It seems like she has left yesterday.* → ✓ *She seems **to have left** yesterday.* / *It seems she **left** yesterday.*
 - ✗ *She is seeming happy.* → ✓ *She **seems** happy.*
 - ✗ *It seems me that…* → ✓ *It seems **to** me that…*
+- ✗ *I can't seem find my keys.* → ✓ *I can't seem **to find** my keys.*
+- ✗ *She seems a good teacher to be.* → ✓ *She seems **to be** a good teacher.*

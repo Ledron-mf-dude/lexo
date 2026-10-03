@@ -47,6 +47,25 @@ tags: [do, make, do vs make, collocations, homework, mistake, decision, роби
 
 Інші дієслова з широким значенням — «Дієслово get: значення та вирази» і «Дієслово go: конструкції та сталі вирази».
 
+## Ще поширені вирази
+
+| do | make |
+| --- | --- |
+| do the cooking / the cleaning / the ironing | make the bed |
+| do damage | make a difference |
+| do well / badly (у справах, на іспиті) | make a complaint |
+| do someone good | make an appointment |
+| do without (обходитися без) | make an excuse |
+| do your duty | make a fortune |
+| do a degree / a course | make a speech, make a point |
+| do the maths (порахувати) | make sure (переконатися) |
+
+## Make + особа + дієслово
+
+**make** + особа + інфінітив **без to** — «змусити, викликати»: *She **made me laugh**.* / *Don't **make** him **wait**.* У пасиві — з `to`: *I **was made to** wait.*
+
+**make** + особа + прикметник — «робити якимось»: *The news **made her happy**.*
+
 ## Типові помилки
 
 - ✗ *make homework* → ✓ ***do** homework*
@@ -54,3 +73,6 @@ tags: [do, make, do vs make, collocations, homework, mistake, decision, роби
 - ✗ *do a decision* → ✓ ***make** a decision*
 - ✗ *make sport* → ✓ ***do** sport* / ***play** football*
 - ✗ *make a favour* → ✓ ***do** me a favour*
+- ✗ *Can I do an appointment?* → ✓ *Can I **make** an appointment?*
+- ✗ *She made me to wait.* → ✓ *She made me **wait**.*
+- ✗ *Please do sure the door is locked.* → ✓ *Please **make** sure the door is locked.*

@@ -45,11 +45,26 @@ tags: [prefer, would prefer, would rather, would sooner, preference, перев�
 | I **prefer** cats **to** dogs. | I'd **prefer** to have a cat. |
 | I **like** walking **more than** driving. | I'd **rather walk** today. |
 
+## Would prefer + особа
+
+- *I'd prefer **you to** stay.* (= *I'd rather you stayed.*)
+- *I'd prefer it **if** you **didn't** smoke.* — м'яке прохання.
+
+## Короткі відповіді
+
+*"Tea or coffee?" — "I'd **prefer** coffee, thanks."* / *"Shall we sit outside?" — "I'd **prefer not** to."*
+
+## Prefer у минулому
+
+*I **preferred** walking to driving when I lived there.* — `prefer` як звичайне дієслово змінюється за часами; `would prefer` — лише про теперішню чи майбутню ситуацію.
+
 ## Типові помилки
 
 - ✗ *I prefer tea than coffee.* → ✓ *I prefer tea **to** coffee.*
 - ✗ *I'd prefer stay home.* → ✓ *I'd prefer **to stay** home.*
 - ✗ *I'd rather to stay home.* → ✓ *I'd rather **stay** home.*
 - ✗ *I prefer walk to drive.* → ✓ *I prefer **walking to driving**.*
+- ✗ *I'd prefer that you stay.* → ✓ *I'd prefer **you to stay**.*
+- ✗ *I'd prefer not go.* → ✓ *I'd prefer not **to go**.*
 
 Див. також «Would rather (краще б)» і «Wish, if only, it's time».

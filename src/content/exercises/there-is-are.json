@@ -269,6 +269,41 @@
    ],
    "why": "there was + nobody.",
    "hint": "Удома нікого не було."
+  },
+  {
+   "id": "there-is-are-22",
+   "type": "choice",
+   "q": "___ a lot of traffic this morning.",
+   "options": [
+    "There are",
+    "There's",
+    "It's",
+    "It has"
+   ],
+   "answer": 1,
+   "why": "traffic — нелічильний: there's."
+  },
+  {
+   "id": "there-is-are-23",
+   "type": "choice",
+   "q": "How many students ___ in your group?",
+   "options": [
+    "there are",
+    "are there",
+    "is there",
+    "are they"
+   ],
+   "answer": 1,
+   "why": "Питання: How many + are there."
+  },
+  {
+   "id": "there-is-are-24",
+   "type": "fill",
+   "q": "There ___ to be a problem with the printer. (здається)",
+   "answer": [
+    "seems"
+   ],
+   "why": "There seems to be."
   }
  ]
 }

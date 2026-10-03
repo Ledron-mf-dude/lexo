@@ -256,6 +256,41 @@
    ],
    "why": "will + probably + V.",
    "hint": "Я, мабуть, залишуся вдома."
+  },
+  {
+   "id": "likely-unlikely-bound-21",
+   "type": "choice",
+   "q": "There's a good ___ that we'll be late.",
+   "options": [
+    "possibility to",
+    "chance",
+    "likely",
+    "bound"
+   ],
+   "answer": 1,
+   "why": "a good chance (that)."
+  },
+  {
+   "id": "likely-unlikely-bound-22",
+   "type": "choice",
+   "q": "He's ___ to forget — he always does.",
+   "options": [
+    "likely not",
+    "bound",
+    "sure not",
+    "unlikely"
+   ],
+   "answer": 1,
+   "why": "Упевненість мовця — bound to."
+  },
+  {
+   "id": "likely-unlikely-bound-23",
+   "type": "fill",
+   "q": "It's ___ (likely) to snow. It's too warm.",
+   "answer": [
+    "unlikely"
+   ],
+   "why": "Малоймовірно — unlikely."
   }
  ]
 }

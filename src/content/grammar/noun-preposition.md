@@ -44,11 +44,36 @@ wordTags: [з прийменником]
 
 Далі — іменник, займенник або gerund: *reason **for being** late*, *idea **of moving***. Див. «Gerund».
 
+## Зв'язок із дієсловом і прикметником
+
+Іменник часто бере той самий прийменник, що й споріднене дієслово чи прикметник — так легше запам'ятати:
+
+| Дієслово / прикметник | Іменник |
+| --- | --- |
+| depend **on** | dependence **on** |
+| interested **in** | interest **in** |
+| succeed **in** | success **in** |
+| afraid **of** | fear **of** |
+| respond **to** | response **to** |
+
+Але не завжди: *to discuss sth* (без прийменника) — *a discussion **about** sth*; *to need sth* — *a need **for** sth*.
+
+## Сталі вирази з прийменником попереду
+
+*by mistake, by chance, on purpose, on time, in time, in danger, in charge (of), in favour (of), out of order, under pressure, at risk, for sale, on sale*:
+
+- *I deleted it **by mistake**.* — випадково.
+- *He did it **on purpose**.* — навмисно.
+- *The lift is **out of order**.* — не працює.
+
 ## Типові помилки
 
 - ✗ *the reason of the delay* → ✓ *the reason **for** the delay*
 - ✗ *an increase of prices* → ✓ *an increase **in** prices* (але *an increase **of** 5%*)
 - ✗ *the solution of the problem* → ✓ *the solution **to** the problem*
 - ✗ *the difference of them* → ✓ *the difference **between** them*
+- ✗ *We had a discussion of the plan.* → ✓ *We had a discussion **about** the plan.*
+- ✗ *I deleted it on mistake.* → ✓ *I deleted it **by** mistake.*
+- ✗ *She broke it by purpose.* → ✓ *She broke it **on** purpose.*
 
 Про дієслова й прикметники з прийменниками: «Дієслово + прийменник», «Прикметник + прийменник».

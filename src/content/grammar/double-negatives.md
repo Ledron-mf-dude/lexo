@@ -48,6 +48,18 @@ tags: [double negatives, nothing, anything, nobody, anybody, never, ever, hardly
 
 Див. «Something, anything, nobody, everyone…» і «Quantifiers».
 
+## Neither / nor і either / or
+
+`Neither … nor` уже заперечні: *Neither Tom nor Anna **came**.* (не *didn't come*). У запереченні — **either … or**: *I **don't** like either tea or coffee.*
+
+## Without і заперечні слова
+
+Після `without` — **any-**: *He left **without** saying **anything**.* (не *nothing*)
+
+## Never ever, no way
+
+Для емоційного підсилення: *I'll **never ever** do that again!* / ***No way!*** — це не подвійне заперечення, а підсилення одного.
+
 ## Типові помилки
 
 - ✗ *I don't know nothing.* → ✓ *I don't know **anything**.* / *I know **nothing**.*
@@ -55,3 +67,5 @@ tags: [double negatives, nothing, anything, nobody, anybody, never, ever, hardly
 - ✗ *I never do nothing wrong.* → ✓ *I never do **anything** wrong.*
 - ✗ *I can't hardly see.* → ✓ *I can **hardly** see.*
 - ✗ *We haven't got no time.* → ✓ *We haven't got **any** time.* / *We've got **no** time.*
+- ✗ *He left without saying nothing.* → ✓ *He left without saying **anything**.*
+- ✗ *Neither Tom nor Anna didn't come.* → ✓ *Neither Tom nor Anna **came**.*
