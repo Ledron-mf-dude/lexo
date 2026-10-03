@@ -11,7 +11,7 @@
     "bores"
    ],
    "answer": 1,
-   "why": "-ing — те, що викликає почуття."
+   "why": "Прикметник на *-ing* описує те, що викликає почуття: фільм наганяє нудьгу — *boring*. *bored* — про того, хто нудьгує."
   },
   {
    "id": "ed-ing-adjectives-2",
@@ -24,7 +24,7 @@
     "bores"
    ],
    "answer": 0,
-   "why": "-ed — те, що я відчуваю."
+   "why": "Прикметник на *-ed* описує те, що людина відчуває: *I am bored* — мені нудно. *I am boring* — я нудна людина."
   },
   {
    "id": "ed-ing-adjectives-3",
@@ -37,7 +37,7 @@
     "surprises"
    ],
    "answer": 1,
-   "why": "Новина викликає — surprising."
+   "why": "Новина викликає здивування — *surprising*."
   },
   {
    "id": "ed-ing-adjectives-4",
@@ -50,7 +50,7 @@
     "surprises"
    ],
    "answer": 0,
-   "why": "Вона відчуває — surprised."
+   "why": "Вона відчуває здивування — *surprised*."
   },
   {
    "id": "ed-ing-adjectives-5",
@@ -63,7 +63,7 @@
     "confusion"
    ],
    "answer": 1,
-   "why": "confusing."
+   "why": "Інструкції спантеличують — *confusing*."
   },
   {
    "id": "ed-ing-adjectives-6",
@@ -76,7 +76,7 @@
     "confusion"
    ],
    "answer": 0,
-   "why": "confused."
+   "why": "Він спантеличений — *confused*."
   },
   {
    "id": "ed-ing-adjectives-7",
@@ -89,7 +89,7 @@
     "tires"
    ],
    "answer": 1,
-   "why": "tiring."
+   "why": "Подорож втомлює — *tiring*. Люди після неї — *tired*."
   },
   {
    "id": "ed-ing-adjectives-8",
@@ -102,7 +102,7 @@
     "interests"
    ],
    "answer": 0,
-   "why": "interested in."
+   "why": "Мене цікавить — *interested in*."
   },
   {
    "id": "ed-ing-adjectives-9",
@@ -115,7 +115,7 @@
     "bores"
    ],
    "answer": 1,
-   "why": "boring — викликає нудьгу."
+   "why": "Він наганяє нудьгу на інших — *boring*."
   },
   {
    "id": "ed-ing-adjectives-10",
@@ -128,7 +128,7 @@
     "annoyance"
    ],
    "answer": 1,
-   "why": "annoyed — роздратована."
+   "why": "Вона відчуває роздратування — *annoyed*."
   },
   {
    "id": "ed-ing-adjectives-11",
@@ -137,7 +137,7 @@
    "answer": [
     "exciting"
    ],
-   "why": "Матч викликає емоції — -ing."
+   "why": "Матч викликає хвилювання — *exciting*."
   },
   {
    "id": "ed-ing-adjectives-12",
@@ -146,7 +146,7 @@
    "answer": [
     "frightened"
    ],
-   "why": "Я відчуваю страх — -ed."
+   "why": "Я відчуваю страх — *frightened*."
   },
   {
    "id": "ed-ing-adjectives-13",
@@ -155,7 +155,7 @@
    "answer": [
     "amazing"
    ],
-   "why": "Досвід, що вражає, — -ing."
+   "why": "Досвід вражає — *amazing*."
   },
   {
    "id": "ed-ing-adjectives-14",
@@ -164,7 +164,7 @@
    "answer": [
     "exhausted"
    ],
-   "why": "Люди відчувають — -ed."
+   "why": "Люди відчувають виснаження — *exhausted*."
   },
   {
    "id": "ed-ing-adjectives-15",
@@ -173,7 +173,7 @@
    "answer": [
     "disappointing"
    ],
-   "why": "Промова викликає розчарування — -ing."
+   "why": "Промова розчаровує — *disappointing*."
   },
   {
    "id": "ed-ing-adjectives-16",
@@ -186,7 +186,7 @@
     "embarrassment"
    ],
    "answer": 0,
-   "why": "Я відчуваю — -ed."
+   "why": "Я відчуваю сором — *embarrassed*. Ситуація була б *embarrassing*."
   },
   {
    "id": "ed-ing-adjectives-17",
@@ -199,7 +199,7 @@
     "interestingly"
    ],
    "answer": 0,
-   "why": "Книжка викликає цікавість — -ing."
+   "why": "Книжка викликає цікавість — *interesting*."
   },
   {
    "id": "ed-ing-adjectives-18",
@@ -212,7 +212,7 @@
     "excitedly"
    ],
    "answer": 0,
-   "why": "Людина відчуває — -ed."
+   "why": "Людина відчуває радісне хвилювання — *excited*."
   },
   {
    "id": "ed-ing-adjectives-19",
@@ -225,7 +225,7 @@
     "disappointedly"
    ],
    "answer": 0,
-   "why": "Результати викликають розчарування — -ing."
+   "why": "Результати розчаровують — *disappointing*."
   },
   {
    "id": "ed-ing-adjectives-20",
@@ -241,7 +241,7 @@
    "answer": [
     "I am bored with this film"
    ],
-   "why": "Я відчуваю — bored.",
+   "why": "Я відчуваю нудьгу — *bored with*.",
    "hint": "Мені нудно від цього фільму."
   },
   {
@@ -257,7 +257,7 @@
    "answer": [
     "The lecture was really boring"
    ],
-   "why": "Лекція викликає — boring.",
+   "why": "Лекція наганяє нудьгу — *boring*.",
    "hint": "Лекція була дуже нудною."
   },
   {
@@ -274,7 +274,7 @@
    "answer": [
     "She was surprised by the result"
    ],
-   "why": "Вона відчуває — surprised.",
+   "why": "Вона відчуває — *surprised by*.",
    "hint": "Вона була здивована результатом."
   },
   {
@@ -288,7 +288,7 @@
     "exhaustion"
    ],
    "answer": 1,
-   "why": "Те, що втомлює, — -ing."
+   "why": "Переліт виснажує — *exhausting*."
   },
   {
    "id": "ed-ing-adjectives-24",
@@ -301,7 +301,7 @@
     "fascination"
    ],
    "answer": 1,
-   "why": "Те, що відчувають, — -ed."
+   "why": "Діти зачаровані — *fascinated*."
   },
   {
    "id": "ed-ing-adjectives-25",
@@ -310,7 +310,7 @@
    "answer": [
     "bored"
    ],
-   "why": "Відчуття — bored."
+   "why": "Мені нудно — *bored*."
   }
  ]
 }

@@ -11,20 +11,20 @@
     "has been leaving"
    ],
    "answer": 1,
-   "why": "Потяг пішов ще до того, як ми прийшли, — Past Perfect."
+   "why": "Потяг пішов ще до того, як ми дійшли до платформи, — дія раніша за інший момент у минулому: Past Perfect *had left*."
   },
   {
    "id": "past-perfect-2",
    "type": "choice",
    "q": "By the age of twenty she ___ three novels.",
    "options": [
-    "wrote",
+    "writes",
     "has written",
     "had written",
     "had been writing"
    ],
    "answer": 2,
-   "why": "By + момент у минулому, завершений результат (кількість) — had written."
+   "why": "*By the age of twenty* — до моменту в минулому вже написала три романи (результат, кількість): *had written*."
   },
   {
    "id": "past-perfect-3",
@@ -33,11 +33,11 @@
    "options": [
     "had been working",
     "has worked",
-    "worked",
-    "had worked"
+    "is working",
+    "have been working"
    ],
    "answer": 0,
-   "why": "Тривала дія пояснює стан у минулому — Past Perfect Continuous."
+   "why": "Тривала дія до моменту в минулому пояснює стан (брудні руки): *had been working*."
   },
   {
    "id": "past-perfect-4",
@@ -50,20 +50,20 @@
     "have known"
    ],
    "answer": 1,
-   "why": "Know — дієслово стану, Continuous не вживається: had known."
+   "why": "*know* — дієслово стану, Continuous не вживається: *had known*."
   },
   {
    "id": "past-perfect-5",
    "type": "choice",
    "q": "It was the first time I ___ snow.",
    "options": [
-    "saw",
+    "see",
     "have seen",
     "had seen",
     "had been seeing"
    ],
    "answer": 2,
-   "why": "It was the first time… — Past Perfect (досвід до того моменту)."
+   "why": "*It was the first time* + Past Perfect: *I had seen snow.*"
   },
   {
    "id": "past-perfect-6",
@@ -76,7 +76,7 @@
     "had been leaving"
    ],
    "answer": 1,
-   "why": "Події одна за одною: спершу я прийшов, тоді вона пішла — Past Simple."
+   "why": "Спершу я прийшов, тоді вона пішла (одна за одною) — обидві в Past Simple: *she left*."
   },
   {
    "id": "past-perfect-7",
@@ -89,7 +89,7 @@
     "were waiting"
    ],
    "answer": 2,
-   "why": "Тривалість до минулого моменту (for two hours) — had been waiting."
+   "why": "Тривалість до моменту в минулому (*for two hours before…*) — *had been waiting*."
   },
   {
    "id": "past-perfect-8",
@@ -102,7 +102,7 @@
     "Had / ate"
    ],
    "answer": 1,
-   "why": "Досвід до моменту в минулому: Had + підмет + V3."
+   "why": "Досвід до моменту в минулому — *Had you ever eaten…?*"
   },
   {
    "id": "past-perfect-9",
@@ -115,7 +115,7 @@
     "had been losing"
    ],
    "answer": 2,
-   "why": "Непряма мова: «I lost it yesterday» → had lost … the day before."
+   "why": "Непряма мова: «I lost it yesterday» → *had lost … the day before*."
   },
   {
    "id": "past-perfect-10",
@@ -125,7 +125,7 @@
     "had escaped",
     "had already escaped"
    ],
-   "why": "By the time + Past Simple, у головній — Past Perfect: had escaped."
+   "why": "*By the time* + Past Simple, у головній — Past Perfect: *had escaped*."
   },
   {
    "id": "past-perfect-11",
@@ -135,7 +135,7 @@
     "hadn't slept",
     "had not slept"
    ],
-   "why": "Заперечення з тривалістю «не спав два дні» — hadn't slept (результат, а не процес)."
+   "why": "Заперечення з тривалістю до моменту в минулому: *hadn't slept for two days*."
   },
   {
    "id": "past-perfect-12",
@@ -145,7 +145,7 @@
     "had been living",
     "had lived"
    ],
-   "why": "Тривалість до моменту в минулому: had been living (або had lived)."
+   "why": "Тривалість до моменту в минулому: *had been living* / *had lived*."
   },
   {
    "id": "past-perfect-13",
@@ -155,7 +155,7 @@
     "had been cooking",
     "had cooked"
    ],
-   "why": "Слід недавньої тривалої дії — had been cooking."
+   "why": "Запах диму — слід недавньої тривалої дії: *had been cooking*."
   },
   {
    "id": "past-perfect-14",
@@ -165,7 +165,7 @@
     "had finished",
     "finished"
    ],
-   "why": "Після after обидва варіанти правильні: порядок і так зрозумілий."
+   "why": "Після *after* порядок і так зрозумілий, тому підходять і *had finished*, і *finished*."
   },
   {
    "id": "past-perfect-15",
@@ -174,7 +174,7 @@
    "answer": [
     "had changed"
    ],
-   "why": "Зміна сталася раніше за момент «не впізнав» — had changed."
+   "why": "Зміна сталася раніше за момент «не впізнав»: *had changed*."
   },
   {
    "id": "past-perfect-16",
@@ -183,7 +183,7 @@
    "answer": [
     "had"
    ],
-   "why": "Питання в Past Perfect Continuous: How long + had + підмет + been + V-ing."
+   "why": "*How long had they been waiting?* — Past Perfect Continuous."
   },
   {
    "id": "past-perfect-17",
@@ -198,7 +198,7 @@
    "answer": [
     "She had already gone home"
    ],
-   "why": "already між had і V3.",
+   "why": "*already* між *had* і третьою формою.",
    "hint": "Вона вже пішла додому."
   },
   {
@@ -216,7 +216,7 @@
    "answer": [
     "I had been driving for six hours"
    ],
-   "why": "had been + V-ing + for — тривалість до минулого моменту.",
+   "why": "*had been driving for six hours*.",
    "hint": "Я був за кермом шість годин (до того моменту)."
   },
   {
@@ -233,7 +233,7 @@
    "answer": [
     "Had you seen the film before"
    ],
-   "why": "Питання: Had + підмет + V3.",
+   "why": "*Had you seen…?*",
    "hint": "Ти бачив цей фільм раніше (до того)?"
   },
   {
@@ -252,7 +252,7 @@
     "They hadn't finished dinner when we arrived",
     "When we arrived they hadn't finished dinner"
    ],
-   "why": "Заперечення hadn't + V3; when + Past Simple.",
+   "why": "*hadn't finished* + *when we arrived*.",
    "hint": "Вони ще не повечеряли, коли ми прийшли."
   }
  ]

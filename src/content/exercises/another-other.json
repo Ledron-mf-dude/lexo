@@ -11,7 +11,7 @@
     "the others"
    ],
    "answer": 1,
-   "why": "another (an + other) — ще одна, однина."
+   "why": "*another* (= *an* + *other*) — «ще один» з іменником в однині: *another cup of tea*."
   },
   {
    "id": "another-other-2",
@@ -24,7 +24,7 @@
     "others"
    ],
    "answer": 2,
-   "why": "the other — другий із двох."
+   "why": "Друга з двох — *the other*: *One is red, the other is blue.*"
   },
   {
    "id": "another-other-3",
@@ -37,7 +37,7 @@
     "the other"
    ],
    "answer": 1,
-   "why": "others — займенник у множині без іменника."
+   "why": "*others* — займенник у множині без іменника: *others prefer coffee*."
   },
   {
    "id": "another-other-4",
@@ -47,10 +47,10 @@
     "Another",
     "Other",
     "Others",
-    "The other"
+    "An other"
    ],
    "answer": 1,
-   "why": "other + іменник у множині."
+   "why": "*other* + іменник у множині: *Other people came later.* *Others* не стоїть перед іменником."
   },
   {
    "id": "another-other-5",
@@ -63,7 +63,7 @@
     "other"
    ],
    "answer": 0,
-   "why": "the others — решта певної групи."
+   "why": "Решта певної групи — *the others*."
   },
   {
    "id": "another-other-6",
@@ -76,7 +76,7 @@
     "the others"
    ],
    "answer": 1,
-   "why": "another + іменник в однині."
+   "why": "*another* + іменник в однині: *another matter*."
   },
   {
    "id": "another-other-7",
@@ -85,7 +85,7 @@
    "answer": [
     "the other"
    ],
-   "why": "the other — друга з двох."
+   "why": "Друга з двох — *the other*."
   },
   {
    "id": "another-other-8",
@@ -98,7 +98,7 @@
     "The others people came."
    ],
    "answer": 1,
-   "why": "Others не вживається перед іменником; other people."
+   "why": "*others* не стоїть перед іменником: *Other people came.*"
   },
   {
    "id": "another-other-9",
@@ -107,7 +107,7 @@
    "answer": [
     "another"
    ],
-   "why": "another — ще один (однина).",
+   "why": "«Ще шматок» — *another piece*.",
    "hint": "(ще один)"
   },
   {
@@ -117,7 +117,7 @@
    "answer": [
     "the other"
    ],
-   "why": "the other — другий із двох."
+   "why": "Другий із двох — *the other*."
   },
   {
    "id": "another-other-11",
@@ -127,7 +127,7 @@
     "others",
     "the others"
    ],
-   "why": "others — інші (без іменника)."
+   "why": "*others* — інші (не названі); *the others* — решта цієї групи."
   },
   {
    "id": "another-other-12",
@@ -136,7 +136,7 @@
    "answer": [
     "the other"
    ],
-   "why": "the other + множина — решта певних дітей.",
+   "why": "Решта певних дітей — *the other kids*.",
    "hint": "(інші)"
   },
   {
@@ -150,7 +150,7 @@
     "the others"
    ],
    "answer": 0,
-   "why": "another + число: ще два стільці."
+   "why": "*another* + число: *another two chairs* (ще два)."
   },
   {
    "id": "another-other-14",
@@ -163,7 +163,7 @@
     "an other"
    ],
    "answer": 0,
-   "why": "another one — ще / інший один."
+   "why": "*another one* — ще один / інший."
   },
   {
    "id": "another-other-15",
@@ -176,7 +176,7 @@
     "another"
    ],
    "answer": 0,
-   "why": "each other — один одному."
+   "why": "*each other* — один одному."
   },
   {
    "id": "another-other-16",
@@ -193,7 +193,7 @@
    "answer": [
     "Can I have another cup of coffee"
    ],
-   "why": "another + однина.",
+   "why": "*another cup*.",
    "hint": "Можна мені ще одну чашку кави?"
   },
   {
@@ -212,7 +212,7 @@
    "answer": [
     "Some people like cats and others like dogs"
    ],
-   "why": "others — без іменника.",
+   "why": "*others* без іменника.",
    "hint": "Деякі люблять котів, а інші — собак."
   },
   {
@@ -231,7 +231,7 @@
    "answer": [
     "I'll call you back in another ten minutes"
    ],
-   "why": "another + число хвилин.",
+   "why": "*another ten minutes* — ще десять хвилин.",
    "hint": "Я передзвоню ще через десять хвилин."
   },
   {
@@ -245,7 +245,7 @@
     "the others"
    ],
    "answer": 0,
-   "why": "other + множина."
+   "why": "*other* + множина: *other countries*."
   },
   {
    "id": "another-other-20",
@@ -258,7 +258,7 @@
     "the other"
    ],
    "answer": 1,
-   "why": "another + число + множина."
+   "why": "*another two nights*."
   },
   {
    "id": "another-other-21",
@@ -271,7 +271,7 @@
     "the other"
    ],
    "answer": 1,
-   "why": "every other day — через день."
+   "why": "*every other day* — через день."
   },
   {
    "id": "another-other-22",
@@ -280,7 +280,7 @@
    "answer": [
     "other"
    ],
-   "why": "the other day — днями."
+   "why": "*the other day* — нещодавно, днями."
   }
  ]
 }

@@ -11,7 +11,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "afraid of — боятися чогось."
+   "why": "*afraid of* — боятися. Українське «боятися когось» без прийменника, але в англійській *of* обов'язкове."
   },
   {
    "id": "adjective-preposition-2",
@@ -24,7 +24,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "good at — вмілий у чомусь (good at maths, good at cooking)."
+   "why": "*good at* — вмілий у чомусь: *good at maths*. *good in* — калька з «добрий у»."
   },
   {
    "id": "adjective-preposition-3",
@@ -37,7 +37,7 @@
     "for"
    ],
    "answer": 2,
-   "why": "interested in — цікавитися чимось."
+   "why": "*interested in* — цікавитися."
   },
   {
    "id": "adjective-preposition-4",
@@ -50,7 +50,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "worried about — хвилюватися через щось."
+   "why": "*worried about* — хвилюватися через щось."
   },
   {
    "id": "adjective-preposition-5",
@@ -63,7 +63,7 @@
     "from"
    ],
    "answer": 0,
-   "why": "angry with + людина."
+   "why": "*angry with* + людина; *angry about* + ситуація."
   },
   {
    "id": "adjective-preposition-6",
@@ -76,7 +76,7 @@
     "for"
    ],
    "answer": 1,
-   "why": "married to — одружений з кимось (не with)."
+   "why": "*married to* — одружений з. *married with* — калька з «одружений з»."
   },
   {
    "id": "adjective-preposition-7",
@@ -89,7 +89,7 @@
     "about"
    ],
    "answer": 0,
-   "why": "famous for — відомий чимось."
+   "why": "*famous for* — відомий чимось."
   },
   {
    "id": "adjective-preposition-8",
@@ -102,7 +102,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "proud of — пишатися кимось / чимось."
+   "why": "*proud of* — пишатися."
   },
   {
    "id": "adjective-preposition-9",
@@ -115,7 +115,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "kind of + людина + to-інфінітив."
+   "why": "*It was kind of you to…* — «мило з твого боку»."
   },
   {
    "id": "adjective-preposition-10",
@@ -124,7 +124,7 @@
    "answer": [
     "at"
    ],
-   "why": "good at + -ing: good at drawing."
+   "why": "*good at* + *-ing*."
   },
   {
    "id": "adjective-preposition-11",
@@ -133,7 +133,7 @@
    "answer": [
     "of"
    ],
-   "why": "tired of — набридло щось."
+   "why": "*tired of* — набридло."
   },
   {
    "id": "adjective-preposition-12",
@@ -142,7 +142,7 @@
    "answer": [
     "for"
    ],
-   "why": "famous for — відомий чимось."
+   "why": "*famous for*."
   },
   {
    "id": "adjective-preposition-13",
@@ -151,7 +151,7 @@
    "answer": [
     "for"
    ],
-   "why": "responsible for — відповідальний за щось."
+   "why": "*responsible for* — відповідальний за."
   },
   {
    "id": "adjective-preposition-14",
@@ -160,7 +160,7 @@
    "answer": [
     "to"
    ],
-   "why": "similar to — схожий на."
+   "why": "*similar to* — схожий на."
   },
   {
    "id": "adjective-preposition-15",
@@ -169,7 +169,7 @@
    "answer": [
     "on"
    ],
-   "why": "keen on — захоплюватися чимось."
+   "why": "*keen on* — захоплюватися."
   },
   {
    "id": "adjective-preposition-16",
@@ -182,7 +182,7 @@
     "from"
    ],
    "answer": 0,
-   "why": "allergic to — алергія на щось."
+   "why": "*allergic to* — алергія на."
   },
   {
    "id": "adjective-preposition-17",
@@ -195,7 +195,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "sorry about + ситуація."
+   "why": "*sorry about* + ситуація."
   },
   {
    "id": "adjective-preposition-18",
@@ -208,7 +208,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "capable of + -ing."
+   "why": "*capable of* + *-ing*."
   },
   {
    "id": "adjective-preposition-19",
@@ -221,7 +221,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "ready for — готовий до чогось."
+   "why": "*ready for* — готовий до."
   },
   {
    "id": "adjective-preposition-20",
@@ -237,7 +237,7 @@
    "answer": [
     "I am interested in learning Spanish"
    ],
-   "why": "interested in + -ing.",
+   "why": "*interested in* + *-ing*.",
    "hint": "Мене цікавить вивчення іспанської."
   },
   {
@@ -254,7 +254,7 @@
    "answer": [
     "She is proud of her son"
    ],
-   "why": "proud of + людина.",
+   "why": "*proud of*.",
    "hint": "Вона пишається своїм сином."
   },
   {
@@ -271,7 +271,7 @@
    "answer": [
     "We are worried about the test"
    ],
-   "why": "worried about.",
+   "why": "*worried about*.",
    "hint": "Ми хвилюємося через тест."
   },
   {
@@ -285,7 +285,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "short of — бракує."
+   "why": "*short of* — бракує."
   },
   {
    "id": "adjective-preposition-24",
@@ -298,7 +298,7 @@
     "about"
    ],
    "answer": 2,
-   "why": "sick of = набридло."
+   "why": "*sick of* — набридло."
   },
   {
    "id": "adjective-preposition-25",
@@ -307,7 +307,7 @@
    "answer": [
     "of"
    ],
-   "why": "typical of."
+   "why": "*typical of* — характерно для."
   }
  ]
 }

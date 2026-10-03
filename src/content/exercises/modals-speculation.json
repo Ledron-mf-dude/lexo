@@ -11,7 +11,7 @@
     "can't"
    ],
    "answer": 2,
-   "why": "must — логічний висновок."
+   "why": "Упевнений висновок («я певен, що так») — *must*: *She must know about that.*"
   },
   {
    "id": "modals-speculation-2",
@@ -24,7 +24,7 @@
     "should"
    ],
    "answer": 1,
-   "why": "can’t — «не може бути»."
+   "why": "Упевнене «ні» — *can't*: *He can't be at home.* *mustn't* — заборона, а не висновок."
   },
   {
    "id": "modals-speculation-3",
@@ -37,7 +37,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "might — мала впевненість."
+   "why": "Невелика впевненість — *might*."
   },
   {
    "id": "modals-speculation-4",
@@ -50,7 +50,7 @@
     "needn't"
    ],
    "answer": 0,
-   "why": "must + have + V3."
+   "why": "Упевнений висновок про минуле — *must have* + третя форма."
   },
   {
    "id": "modals-speculation-5",
@@ -63,7 +63,7 @@
     "should"
    ],
    "answer": 1,
-   "why": "can’t + have + V3."
+   "why": "Упевнене «ні» про минуле — *can't have* + третя форма."
   },
   {
    "id": "modals-speculation-6",
@@ -76,7 +76,7 @@
     "to be"
    ],
    "answer": 0,
-   "why": "must be + V-ing — зараз."
+   "why": "Висновок про дію зараз — *must be* + *-ing*."
   },
   {
    "id": "modals-speculation-7",
@@ -89,7 +89,7 @@
     "be"
    ],
    "answer": 0,
-   "why": "might + have + V3."
+   "why": "Можливість у минулому — *might have* + третя форма."
   },
   {
    "id": "modals-speculation-8",
@@ -102,7 +102,7 @@
     "must"
    ],
    "answer": 3,
-   "why": "must — найвища впевненість."
+   "why": "Найсильніший висновок — *must*."
   },
   {
    "id": "modals-speculation-9",
@@ -115,7 +115,7 @@
     "shouldn't"
    ],
    "answer": 1,
-   "why": "can’t — заперечний висновок."
+   "why": "Заперечний висновок — *can't*."
   },
   {
    "id": "modals-speculation-10",
@@ -130,7 +130,7 @@
    "answer": [
     "She must have forgotten it"
    ],
-   "why": "must + have + V3."
+   "why": "*must have forgotten*."
   },
   {
    "id": "modals-speculation-11",
@@ -139,7 +139,7 @@
    "answer": [
     "must"
    ],
-   "why": "must — упевнений висновок."
+   "why": "Світла немає — упевнений висновок: *They must be out.*"
   },
   {
    "id": "modals-speculation-12",
@@ -150,7 +150,7 @@
     "cannot",
     "couldn't"
    ],
-   "why": "can't — упевнене «ні»."
+   "why": "Неможливо — *can't* (або *couldn't*)."
   },
   {
    "id": "modals-speculation-13",
@@ -161,7 +161,7 @@
     "may",
     "could"
    ],
-   "why": "might / may / could — можливо."
+   "why": "Невпевненість — *might / may / could*."
   },
   {
    "id": "modals-speculation-14",
@@ -170,7 +170,7 @@
    "answer": [
     "must"
    ],
-   "why": "must + have + V3 — упевнений висновок про минуле.",
+   "why": "Пальта немає — упевнений висновок: *He must have left.*",
    "hint": "(я впевнений)"
   },
   {
@@ -181,7 +181,7 @@
     "can't",
     "couldn't"
    ],
-   "why": "can't / couldn't have + V3 — не може бути."
+   "why": "Вона дивилася в інший бік — *can't / couldn't have seen us*."
   },
   {
    "id": "modals-speculation-16",
@@ -194,7 +194,7 @@
     "should to"
    ],
    "answer": 0,
-   "why": "Висновок із фактів — must."
+   "why": "Вона завжди дзвонить о шостій — висновок *must*."
   },
   {
    "id": "modals-speculation-17",
@@ -207,7 +207,7 @@
     "might not to"
    ],
    "answer": 0,
-   "why": "must — логічний висновок."
+   "why": "Після довгої поїздки — логічний висновок *must*."
   },
   {
    "id": "modals-speculation-18",
@@ -220,7 +220,7 @@
     "should to"
    ],
    "answer": 0,
-   "why": "may have + V3 — можливо."
+   "why": "Можливе пояснення — *may have got lost*."
   },
   {
    "id": "modals-speculation-19",
@@ -233,7 +233,7 @@
     "shouldn't to"
    ],
    "answer": 0,
-   "why": "must be + V-ing — висновок про процес."
+   "why": "Світло о другій ночі — *must be working*."
   },
   {
    "id": "modals-speculation-20",
@@ -248,7 +248,7 @@
    "answer": [
     "She must be very happy"
    ],
-   "why": "must + be.",
+   "why": "*must be very happy*.",
    "hint": "Вона, мабуть, дуже щаслива."
   },
   {
@@ -264,7 +264,7 @@
    "answer": [
     "He can't have finished already"
    ],
-   "why": "can't + have + V3.",
+   "why": "*can't have finished* — не може бути.",
    "hint": "Не може бути, що він уже закінчив."
   },
   {
@@ -279,7 +279,7 @@
    "answer": [
     "They might be sleeping"
    ],
-   "why": "might + be + V-ing.",
+   "why": "*might be sleeping* — можливо.",
    "hint": "Можливо, вони сплять."
   },
   {
@@ -293,7 +293,7 @@
     "Ought"
    ],
    "answer": 1,
-   "why": "Питання про можливість — could."
+   "why": "Питання про можливість — *Could it be true?*"
   },
   {
    "id": "modals-speculation-24",
@@ -306,7 +306,7 @@
     "should to"
    ],
    "answer": 1,
-   "why": "Висновок — must."
+   "why": "Висновок — *must be exhausted*."
   },
   {
    "id": "modals-speculation-25",
@@ -317,7 +317,7 @@
     "cannot",
     "couldn't"
    ],
-   "why": "Упевнене «ні» — can't."
+   "why": "Вона в Парижі — тому *can't be Anna*."
   }
  ]
 }
