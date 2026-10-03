@@ -11,7 +11,7 @@
     "more tall"
    ],
    "answer": 1,
-   "why": "Між as … as — звичайна форма."
+   "why": "Між *as … as* стоїть звичайна форма прикметника: *as tall as*. *taller* — для порівняння з *than*."
   },
   {
    "id": "as-as-2",
@@ -24,7 +24,7 @@
     "too"
    ],
    "answer": 0,
-   "why": "not as … as."
+   "why": "Заперечне порівняння — *not as … as*: *He isn't as strong as me.*"
   },
   {
    "id": "as-as-3",
@@ -37,7 +37,7 @@
     "more fast"
    ],
    "answer": 1,
-   "why": "Між as … as — звичайна форма прикметника: fast."
+   "why": "Між *as … as* — звичайна форма: *as fast as*."
   },
   {
    "id": "as-as-4",
@@ -50,7 +50,7 @@
     "She is same tall as me."
    ],
    "answer": 1,
-   "why": "as … as."
+   "why": "Конструкція — *as … as*: *as tall as me*. *as … than* — помилка змішування."
   },
   {
    "id": "as-as-5",
@@ -63,7 +63,7 @@
     "don't as tall as"
    ],
    "answer": 0,
-   "why": "not as … as."
+   "why": "Заперечення — *not as tall as*."
   },
   {
    "id": "as-as-6",
@@ -76,7 +76,7 @@
     "an adverb only"
    ],
    "answer": 0,
-   "why": "Між двома as — звичайна форма, без -er і more."
+   "why": "Між двома *as* — звичайна форма прикметника, без *-er* і *more*."
   },
   {
    "id": "as-as-7",
@@ -89,7 +89,7 @@
     "more heavy"
    ],
    "answer": 0,
-   "why": "Base form: heavy."
+   "why": "Звичайна форма: *as heavy as*."
   },
   {
    "id": "as-as-8",
@@ -105,7 +105,7 @@
    "answer": [
     "He is as strong as me"
    ],
-   "why": "as + adj + as."
+   "why": "*as* + прикметник + *as*."
   },
   {
    "id": "as-as-9",
@@ -114,7 +114,7 @@
    "answer": [
     "expensive"
    ],
-   "why": "not as + звичайна форма + as.",
+   "why": "*not as expensive as* — звичайна форма між *as … as*.",
    "hint": "(expensive)"
   },
   {
@@ -124,7 +124,7 @@
    "answer": [
     "fast"
    ],
-   "why": "as + прислівник + as.",
+   "why": "*as fast as* — тут *fast* прислівник, теж у звичайній формі.",
    "hint": "(fast)"
   },
   {
@@ -134,7 +134,7 @@
    "answer": [
     "big"
    ],
-   "why": "twice as + adj + as — удвічі більший.",
+   "why": "*twice as big as* — удвічі більший.",
    "hint": "(big)"
   },
   {
@@ -144,7 +144,7 @@
    "answer": [
     "much"
    ],
-   "why": "Нелічильне time — as much."
+   "why": "*time* — нелічильне, тому *as much free time as*."
   },
   {
    "id": "as-as-13",
@@ -153,7 +153,7 @@
    "answer": [
     "as"
    ],
-   "why": "the same as (не like)."
+   "why": "*the same as* — «такий самий, як». *the same like* — помилка."
   },
   {
    "id": "as-as-14",
@@ -166,7 +166,7 @@
     "more old"
    ],
    "answer": 0,
-   "why": "Між as … as — звичайна форма."
+   "why": "Звичайна форма: *as old as he looks*."
   },
   {
    "id": "as-as-15",
@@ -179,7 +179,7 @@
     "lot"
    ],
    "answer": 0,
-   "why": "people — лічильне: as many."
+   "why": "*people* — лічильне, тому *as many people as*."
   },
   {
    "id": "as-as-16",
@@ -192,7 +192,7 @@
     "early as"
    ],
    "answer": 0,
-   "why": "as soon as possible — якнайшвидше."
+   "why": "*as soon as possible* — сталий вираз «якнайшвидше»."
   },
   {
    "id": "as-as-17",
@@ -205,7 +205,7 @@
     "myself"
    ],
    "answer": 0,
-   "why": "У розмові після as — об'єктний займенник: me."
+   "why": "У розмові після *as* — об'єктний займенник *me*. Формальніше — *as clever as I am*."
   },
   {
    "id": "as-as-18",
@@ -224,7 +224,7 @@
    "answer": [
     "The bus is not as fast as the train"
    ],
-   "why": "not as … as.",
+   "why": "*not as fast as*.",
    "hint": "Автобус не такий швидкий, як потяг."
   },
   {
@@ -242,7 +242,7 @@
    "answer": [
     "She is as tall as her mother"
    ],
-   "why": "as + adj + as.",
+   "why": "*as tall as her mother*.",
    "hint": "Вона така ж висока, як її мама."
   },
   {
@@ -262,7 +262,7 @@
    "answer": [
     "This book is twice as long as that one"
    ],
-   "why": "twice as … as.",
+   "why": "*twice as long as*.",
    "hint": "Ця книжка вдвічі довша за ту."
   },
   {
@@ -276,7 +276,7 @@
     "nearly than"
    ],
    "answer": 0,
-   "why": "not nearly as … as — зовсім не такий."
+   "why": "*not nearly as … as* — «зовсім не такий, як»."
   },
   {
    "id": "as-as-22",
@@ -289,7 +289,7 @@
     "you possible"
    ],
    "answer": 1,
-   "why": "as soon as possible."
+   "why": "*as soon as possible* — *possible*, прикметник, а не прислівник."
   },
   {
    "id": "as-as-23",
@@ -298,7 +298,7 @@
    "answer": [
     "as"
    ],
-   "why": "just as … as."
+   "why": "*just as … as* — «так само, як»."
   }
  ]
 }

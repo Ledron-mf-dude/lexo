@@ -11,7 +11,7 @@
     "knowed"
    ],
    "answer": 1,
-   "why": "know — стан, не Continuous."
+   "why": "*know* — дієслово стану (знання), у Continuous не вживається: *I know the answer.*"
   },
   {
    "id": "stative-verbs-2",
@@ -24,7 +24,7 @@
     "having"
    ],
    "answer": 1,
-   "why": "have = мати — стан."
+   "why": "*have* у значенні «мати, володіти» — стан, тому *She has a car.* *is having* можливе лише в діях (*having lunch*)."
   },
   {
    "id": "stative-verbs-3",
@@ -37,7 +37,7 @@
     "having"
    ],
    "answer": 1,
-   "why": "have lunch — дія, Continuous можливий."
+   "why": "*have lunch* — дія (обідати), тому Continuous можливий і потрібен для «зараз»: *She is having lunch now.*"
   },
   {
    "id": "stative-verbs-4",
@@ -50,7 +50,7 @@
     "thought"
    ],
    "answer": 1,
-   "why": "think = вважати — стан."
+   "why": "*think* у значенні «вважати» (думка) — стан: *I think it is a good idea.*"
   },
   {
    "id": "stative-verbs-5",
@@ -63,7 +63,7 @@
     "thought"
    ],
    "answer": 1,
-   "why": "think = міркувати — дія."
+   "why": "*think about* у значенні «обмірковувати» — дія, тому Continuous: *I am thinking about my holiday.*"
   },
   {
    "id": "stative-verbs-6",
@@ -76,7 +76,7 @@
     "taste"
    ],
    "answer": 1,
-   "why": "taste (на смак) — стан."
+   "why": "*taste* у значенні «мати смак» — стан: *The soup tastes great.*"
   },
   {
    "id": "stative-verbs-7",
@@ -89,7 +89,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "be being — поводиться."
+   "why": "*be being* + прикметник — тимчасова поведінка: *He is being silly today* (сьогодні поводиться по-дурному)."
   },
   {
    "id": "stative-verbs-8",
@@ -102,7 +102,7 @@
     "swim"
    ],
    "answer": 1,
-   "why": "love — почуття, стан."
+   "why": "*love* — почуття, стан. *run, write, swim* — дії."
   },
   {
    "id": "stative-verbs-9",
@@ -115,7 +115,7 @@
     "sees"
    ],
    "answer": 1,
-   "why": "see = розуміти — стан."
+   "why": "*see* у значенні «розуміти» — стан: *I see what you mean.*"
   },
   {
    "id": "stative-verbs-10",
@@ -124,7 +124,7 @@
    "answer": [
     "belongs"
    ],
-   "why": "belong — стан."
+   "why": "*belong* — стан (належати): *This book belongs to my brother.*"
   },
   {
    "id": "stative-verbs-11",
@@ -134,7 +134,7 @@
     "don't believe",
     "do not believe"
    ],
-   "why": "believe — стан."
+   "why": "*believe* — стан (віра, думка): *I don't believe you.*"
   },
   {
    "id": "stative-verbs-12",
@@ -144,7 +144,7 @@
     "are",
     "were"
    ],
-   "why": "think about = міркувати — дія, Continuous."
+   "why": "*think about* = обмірковувати — дія, тому Continuous: *What are you thinking about?* (або *were* про минуле)."
   },
   {
    "id": "stative-verbs-13",
@@ -154,7 +154,7 @@
     "wants",
     "wanted"
    ],
-   "why": "want — стан."
+   "why": "*want* — стан (бажання): *She wants a new phone.*"
   },
   {
    "id": "stative-verbs-14",
@@ -164,7 +164,7 @@
     "are having",
     "'re having"
    ],
-   "why": "have dinner — дія."
+   "why": "*have dinner* — дія, *at the moment* — зараз: *We are having dinner.*"
   },
   {
    "id": "stative-verbs-15",
@@ -172,12 +172,12 @@
    "q": "I ___ this song!",
    "options": [
     "love",
-    "am loving",
+    "am love",
     "loving",
-    "am love"
+    "loves"
    ],
    "answer": 0,
-   "why": "love — стан (нейтрально)."
+   "why": "*love* — стан, тому Present Simple: *I love this song!* (Рекламне *I'm loving it* — свідоме порушення правила.)"
   },
   {
    "id": "stative-verbs-16",
@@ -190,7 +190,7 @@
     "containing"
    ],
    "answer": 0,
-   "why": "contain — стан."
+   "why": "*contain* — стан: *The box contains old photos.*"
   },
   {
    "id": "stative-verbs-17",
@@ -203,7 +203,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "smell (нюхати) — дія, Continuous."
+   "why": "*smell* у значенні «нюхати» — дія, тому Continuous: *Why are you smelling the milk?*"
   },
   {
    "id": "stative-verbs-18",
@@ -216,7 +216,7 @@
     "am think"
    ],
    "answer": 0,
-   "why": "think = вважаю — стан."
+   "why": "*think* = вважати — стан: *I think you're right.*"
   },
   {
    "id": "stative-verbs-19",
@@ -231,7 +231,7 @@
    "answer": [
     "I don't understand the question"
    ],
-   "why": "understand — стан.",
+   "why": "*understand* — стан, тому Present Simple навіть «зараз».",
    "hint": "Я не розумію запитання."
   },
   {
@@ -247,7 +247,7 @@
    "answer": [
     "She is having a shower"
    ],
-   "why": "have a shower — дія.",
+   "why": "*have a shower* — дія, Continuous можливий.",
    "hint": "Вона приймає душ."
   },
   {
@@ -263,7 +263,7 @@
    "answer": [
     "This coat belongs to me"
    ],
-   "why": "belong — стан.",
+   "why": "*belong* — стан: *This coat belongs to me.*",
    "hint": "Це пальто належить мені."
   },
   {
@@ -277,7 +277,7 @@
     "has weighed"
    ],
    "answer": 1,
-   "why": "weigh (важить) — стан: Present Simple."
+   "why": "*weigh* у значенні «важити» (мати вагу) — стан: *This bag weighs more than 20 kilos.* Про дію «зважувати» — *She is weighing the bag.*"
   },
   {
    "id": "stative-verbs-23",
@@ -290,7 +290,7 @@
     "smell you"
    ],
    "answer": 1,
-   "why": "smell = нюхати (дія зараз) — Continuous."
+   "why": "*smell* = нюхати (дія зараз) — Continuous: *Why are you smelling the milk?*"
   },
   {
    "id": "stative-verbs-24",
@@ -303,7 +303,7 @@
     "have expected"
    ],
    "answer": 1,
-   "why": "expect = чекати (дитину, гостей) — дія: are expecting."
+   "why": "*be expecting a baby* — сталий вираз «чекати дитину» в Continuous."
   },
   {
    "id": "stative-verbs-25",
@@ -312,7 +312,7 @@
    "answer": [
     "depends"
    ],
-   "why": "depend — дієслово стану: depends."
+   "why": "*depend* — стан: *It depends on the price.*"
   },
   {
    "id": "stative-verbs-26",
@@ -321,7 +321,7 @@
    "answer": [
     "look"
    ],
-   "why": "look = виглядати — стан: Present Simple."
+   "why": "*look* = виглядати — стан: *You look tired.*"
   }
  ]
 }

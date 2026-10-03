@@ -11,7 +11,7 @@
     "in home"
    ],
    "answer": 1,
-   "why": "go home — без to."
+   "why": "*go home* — без *to*: *home* тут прислівник «додому»."
   },
   {
    "id": "verb-go-2",
@@ -24,7 +24,7 @@
     "play"
    ],
    "answer": 0,
-   "why": "go + -ing (активності)."
+   "why": "Дозвілля й спорт — *go* + *-ing*: *go swimming*."
   },
   {
    "id": "verb-go-3",
@@ -37,7 +37,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "go for a walk."
+   "why": "*go for a walk* — піти на прогулянку."
   },
   {
    "id": "verb-go-4",
@@ -50,7 +50,7 @@
     "to bad"
    ],
    "answer": 0,
-   "why": "go + прикметник."
+   "why": "*go* + прикметник = «зіпсуватися, стати»: *The milk went bad.*"
   },
   {
    "id": "verb-go-5",
@@ -63,7 +63,7 @@
     "she hates London"
    ],
    "answer": 0,
-   "why": "has gone — досі там."
+   "why": "*has gone to* — пішла й досі там."
   },
   {
    "id": "verb-go-6",
@@ -76,7 +76,7 @@
     "she hates London"
    ],
    "answer": 0,
-   "why": "has been — була й повернулася."
+   "why": "*has been to* — побувала й повернулася."
   },
   {
    "id": "verb-go-7",
@@ -89,7 +89,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "go by train."
+   "why": "Транспорт — *by* без артикля: *by train*."
   },
   {
    "id": "verb-go-8",
@@ -102,7 +102,7 @@
     "refuse"
    ],
    "answer": 0,
-   "why": "go on — продовжувати."
+   "why": "*go on* — продовжувати."
   },
   {
    "id": "verb-go-9",
@@ -111,7 +111,7 @@
    "answer": [
     "on"
    ],
-   "why": "go on holiday."
+   "why": "*go on holiday* — поїхати у відпустку."
   },
   {
    "id": "verb-go-10",
@@ -120,7 +120,7 @@
    "answer": [
     "skiing"
    ],
-   "why": "go + -ing — активності."
+   "why": "*go skiing* — *go* + *-ing*."
   },
   {
    "id": "verb-go-11",
@@ -129,7 +129,7 @@
    "answer": [
     "gone"
    ],
-   "why": "has gone — ще не повернувся."
+   "why": "*has gone* — пішов і ще не повернувся."
   },
   {
    "id": "verb-go-12",
@@ -138,7 +138,7 @@
    "answer": [
     "wrong"
    ],
-   "why": "go wrong — піти не так."
+   "why": "*go wrong* — піти не так."
   },
   {
    "id": "verb-go-13",
@@ -147,7 +147,7 @@
    "answer": [
     "up"
    ],
-   "why": "go up — зростати."
+   "why": "*go up* — зростати."
   },
   {
    "id": "verb-go-14",
@@ -160,7 +160,7 @@
     "in"
    ],
    "answer": 0,
-   "why": "on foot — пішки."
+   "why": "*on foot* — пішки (не *by foot*)."
   },
   {
    "id": "verb-go-15",
@@ -173,7 +173,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "go for a drink."
+   "why": "*go for a drink* — піти випити чогось."
   },
   {
    "id": "verb-go-16",
@@ -181,12 +181,12 @@
    "q": "Have you ever ___ to Paris?",
    "options": [
     "been",
-    "gone",
+    "going",
     "went",
     "go"
    ],
    "answer": 0,
-   "why": "have been to — досвід (побував)."
+   "why": "Досвід «побував» — *have been to*: *Have you ever been to Paris?*"
   },
   {
    "id": "verb-go-17",
@@ -199,7 +199,7 @@
     "away"
    ],
    "answer": 0,
-   "why": "go on — продовжуй."
+   "why": "*go on* — продовжуй."
   },
   {
    "id": "verb-go-18",
@@ -215,7 +215,7 @@
     "We went shopping on Saturday",
     "On Saturday we went shopping"
    ],
-   "why": "go shopping.",
+   "why": "*go shopping*.",
    "hint": "У суботу ми ходили по магазинах."
   },
   {
@@ -231,7 +231,7 @@
    "answer": [
     "Let's go for a walk"
    ],
-   "why": "go for a walk.",
+   "why": "*go for a walk*.",
    "hint": "Ходімо на прогулянку."
   },
   {
@@ -247,7 +247,7 @@
    "answer": [
     "She has gone to work"
    ],
-   "why": "has gone — ще там.",
+   "why": "*has gone to work* — пішла й ще там.",
    "hint": "Вона пішла на роботу."
   },
   {
@@ -261,7 +261,7 @@
     "come"
    ],
    "answer": 1,
-   "why": "Рух до співрозмовника — coming."
+   "why": "Рух до того, хто кличе, — *come*: *I'm coming!* *going* означало б «я йду геть»."
   },
   {
    "id": "verb-go-22",
@@ -274,7 +274,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "go with — пасувати до."
+   "why": "*go with* — пасувати до."
   },
   {
    "id": "verb-go-23",
@@ -283,7 +283,7 @@
    "answer": [
     "bald"
    ],
-   "why": "go bald — лисіти."
+   "why": "*go bald* — облисіти."
   }
  ]
 }

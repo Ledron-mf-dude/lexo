@@ -11,7 +11,7 @@
     "is speaking"
    ],
    "answer": 1,
-   "why": "Present Simple Passive: is/are + V3."
+   "why": "Англійською розмовляють (хто саме — неважливо) — пасив Present Simple: *is spoken*. *speaks* означало б, що англійська сама говорить."
   },
   {
    "id": "passive-voice-2",
@@ -24,7 +24,7 @@
     "has built"
    ],
    "answer": 1,
-   "why": "Past Simple Passive: was/were + V3."
+   "why": "*in 1990* — минуле; міст збудували, тому пасив Past Simple: *was built*."
   },
   {
    "id": "passive-voice-3",
@@ -33,7 +33,7 @@
    "answer": [
     "is being cleaned"
    ],
-   "why": "Present Continuous Passive: is being + V3."
+   "why": "*at the moment* — процес зараз, пасив Present Continuous: *is being cleaned*."
   },
   {
    "id": "passive-voice-4",
@@ -46,7 +46,7 @@
     "finishes"
    ],
    "answer": 1,
-   "why": "Future Simple Passive: will be + V3."
+   "why": "Звіт закінчать до п'ятниці — пасив майбутнього: *will be finished*. *will finish* означало б, що звіт сам закінчить."
   },
   {
    "id": "passive-voice-5",
@@ -58,7 +58,7 @@
     "were built",
     "will be built"
    ],
-   "why": "Present Perfect Passive: have been + V3."
+   "why": "*this year* ще триває — Present Perfect Passive: *have been built*. Залежно від змісту підходять і *are being built*, *were built*, *will be built*."
   },
   {
    "id": "passive-voice-6",
@@ -71,7 +71,7 @@
     "is being repaired"
    ],
    "answer": 1,
-   "why": "Past Continuous Passive: was being + V3."
+   "why": "Коли я приїхав, дорогу саме ремонтували — пасив Past Continuous: *was being repaired*."
   },
   {
    "id": "passive-voice-7",
@@ -81,7 +81,7 @@
     "is made",
     "was made"
    ],
-   "why": "Present Simple Passive: is made."
+   "why": "Пасив Present Simple: *is made in China* (або *was made* про конкретний телефон)."
   },
   {
    "id": "passive-voice-8",
@@ -94,7 +94,7 @@
     "are built"
    ],
    "answer": 0,
-   "why": "Future Perfect Passive: will have been + V3."
+   "why": "*By 2030* — до моменту в майбутньому, Future Perfect Passive: *will have been built*."
   },
   {
    "id": "passive-voice-9",
@@ -110,7 +110,7 @@
    "answer": [
     "The letter was written by Tom"
    ],
-   "why": "was + V3 + by + виконавець."
+   "why": "Пасив: *was* + третя форма + *by* + виконавець: *The letter was written by Tom.*"
   },
   {
    "id": "passive-voice-10",
@@ -123,7 +123,7 @@
     "has broken"
    ],
    "answer": 1,
-   "why": "Минулий час, пасив: was broken."
+   "why": "*last night* — Past Simple Passive: *was broken by someone*."
   },
   {
    "id": "passive-voice-11",
@@ -132,7 +132,7 @@
    "answer": [
     "is visited"
    ],
-   "why": "Present Simple Passive."
+   "why": "*every year* — Present Simple Passive: *is visited*."
   },
   {
    "id": "passive-voice-12",
@@ -141,7 +141,7 @@
    "answer": [
     "was stolen"
    ],
-   "why": "Past Simple Passive."
+   "why": "*yesterday* — Past Simple Passive: *was stolen*."
   },
   {
    "id": "passive-voice-13",
@@ -151,7 +151,7 @@
     "will be announced",
     "are going to be announced"
    ],
-   "why": "Future Passive."
+   "why": "*tomorrow* — майбутнє в пасиві: *will be announced* (або *are going to be announced*)."
   },
   {
    "id": "passive-voice-14",
@@ -160,7 +160,7 @@
    "answer": [
     "be signed"
    ],
-   "why": "Модальне + be + V3."
+   "why": "Після модального дієслова пасив — *be* + третя форма: *must be signed*."
   },
   {
    "id": "passive-voice-15",
@@ -170,7 +170,7 @@
     "hasn't been finished",
     "has not been finished"
    ],
-   "why": "Present Perfect Passive."
+   "why": "*yet* — Present Perfect Passive: *hasn't been finished*."
   },
   {
    "id": "passive-voice-16",
@@ -178,12 +178,12 @@
    "q": "Coffee ___ in Brazil.",
    "options": [
     "is grown",
-    "grows",
+    "is grow",
     "is growing",
     "has grown by"
    ],
    "answer": 0,
-   "why": "Пасив — хто вирощує, неважливо."
+   "why": "Каву вирощують (хто — неважливо) — пасив: *Coffee is grown in Brazil.*"
   },
   {
    "id": "passive-voice-17",
@@ -196,7 +196,7 @@
     "has been happened"
    ],
    "answer": 0,
-   "why": "happen не має пасиву."
+   "why": "*happen* — неперехідне дієслово (без додатка), тому пасиву не має: *happened*, а не *was happened*."
   },
   {
    "id": "passive-voice-18",
@@ -209,7 +209,7 @@
     "is built now"
    ],
    "answer": 0,
-   "why": "Present Continuous Passive."
+   "why": "*at the moment* — процес зараз, Present Continuous Passive: *is being built*."
   },
   {
    "id": "passive-voice-19",
@@ -222,7 +222,7 @@
     "haven't invited"
    ],
    "answer": 0,
-   "why": "Мене не запросили — пасив."
+   "why": "Мене не запросили — дію виконав хтось інший, тому пасив: *I wasn't invited.*"
   },
   {
    "id": "passive-voice-20",
@@ -238,7 +238,7 @@
    "answer": [
     "The house was built in 1920"
    ],
-   "why": "was + V3.",
+   "why": "*was built in 1920* — пасив Past Simple.",
    "hint": "Будинок збудували 1920 року."
   },
   {
@@ -255,7 +255,7 @@
    "answer": [
     "English is spoken in many countries"
    ],
-   "why": "is + V3.",
+   "why": "*is spoken* — пасив Present Simple.",
    "hint": "Англійською розмовляють у багатьох країнах."
   },
   {
@@ -271,7 +271,7 @@
    "answer": [
     "The car is being repaired"
    ],
-   "why": "is being + V3.",
+   "why": "*is being repaired* — пасив Present Continuous: ремонтують зараз.",
    "hint": "Машину зараз ремонтують."
   },
   {
@@ -285,7 +285,7 @@
     "of"
    ],
    "answer": 1,
-   "why": "Інструмент — with."
+   "why": "Інструмент у пасиві — *with* (*with a knife*), виконавець — *by* (*by Tom*)."
   },
   {
    "id": "passive-voice-24",
@@ -298,12 +298,12 @@
     "of"
    ],
    "answer": 2,
-   "why": "Питання про виконавця: Who … by?"
+   "why": "Питання про виконавця: *Who … by?* — прийменник *by* стоїть у кінці."
   },
   {
    "id": "passive-voice-25",
    "type": "choice",
-   "q": "I ___ a free ticket.",
+   "q": "I ___ a free ticket by the organisers.",
    "options": [
     "gave",
     "was given",
@@ -311,7 +311,7 @@
     "have given"
    ],
    "answer": 1,
-   "why": "Пасив з двома додатками: підмет — людина."
+   "why": "Квиток дали мені організатори — пасив з людиною як підметом: *I was given a free ticket.*"
   },
   {
    "id": "passive-voice-26",
@@ -320,7 +320,7 @@
    "answer": [
     "was"
    ],
-   "why": "Пасив у Past Simple: was + V3."
+   "why": "Пасив у Past Simple: *When was this bridge built?*"
   },
   {
    "id": "passive-voice-27",
@@ -329,7 +329,7 @@
    "answer": [
     "after"
    ],
-   "why": "Прийменник залишається після дієслова: looked after."
+   "why": "У пасиві прийменник фразового дієслова лишається після нього: *were looked after*."
   },
   {
    "id": "passive-voice-28",
@@ -338,7 +338,7 @@
    "answer": [
     "been"
    ],
-   "why": "Модальне про минуле в пасиві: should have been + V3."
+   "why": "Модальне про минуле в пасиві: *should have been sent*."
   }
  ]
 }

@@ -11,7 +11,7 @@
     "mine"
    ],
    "answer": 1,
-   "why": "Після дієслова — додаток me."
+   "why": "Після дієслова стоїть додаток в об'єктній формі: *She gave me a book.* *I* — підмет, *my / mine* — присвійні."
   },
   {
    "id": "verbs-two-objects-2",
@@ -24,7 +24,7 @@
     "—"
    ],
    "answer": 1,
-   "why": "send … to."
+   "why": "Коли людина стоїть після речі, з *send* вживаємо *to*: *He sent the letter to her.* (Або без прийменника: *He sent her the letter.*)"
   },
   {
    "id": "verbs-two-objects-3",
@@ -37,7 +37,7 @@
     "—"
    ],
    "answer": 1,
-   "why": "make … for."
+   "why": "*make* (зробити для когось) — з *for*: *She made a cake for me.* Дієслова передачі (*give, send*) — з *to*, дієслова «зробити / дістати для» (*make, buy, cook*) — з *for*."
   },
   {
    "id": "verbs-two-objects-4",
@@ -50,7 +50,7 @@
     "She explained the me rule."
    ],
    "answer": 1,
-   "why": "explain — лише зі схемою to."
+   "why": "*explain* не дозволяє ставити людину одразу після себе: лише *explain the rule to me*. *explained me the rule* — типова калька з «пояснила мені»."
   },
   {
    "id": "verbs-two-objects-5",
@@ -59,7 +59,7 @@
    "answer": [
     "for"
    ],
-   "why": "buy … for."
+   "why": "*buy* (купити для когось) — з *for*: *a gift for him*."
   },
   {
    "id": "verbs-two-objects-6",
@@ -68,7 +68,7 @@
    "answer": [
     "to"
    ],
-   "why": "show … to."
+   "why": "*show* (показати комусь) — з *to*: *showed his passport to the officer*."
   },
   {
    "id": "verbs-two-objects-7",
@@ -81,7 +81,7 @@
     "have give"
    ],
    "answer": 1,
-   "why": "Пасив: I was given a book."
+   "why": "У пасиві підметом зазвичай стає людина: *I was given a book.*"
   },
   {
    "id": "verbs-two-objects-8",
@@ -96,7 +96,7 @@
    "answer": [
     "She told me a story"
    ],
-   "why": "tell + кому + що."
+   "why": "*tell* + кому + що: *She told me a story.*"
   },
   {
    "id": "verbs-two-objects-9",
@@ -105,7 +105,7 @@
    "answer": [
     "me"
    ],
-   "why": "lend + кому + що."
+   "why": "*lend* + кому + що: *lend me some money*."
   },
   {
    "id": "verbs-two-objects-10",
@@ -114,7 +114,7 @@
    "answer": [
     "to"
    ],
-   "why": "send … to."
+   "why": "Річ перед людиною — *send … to*: *send the photos to you*."
   },
   {
    "id": "verbs-two-objects-11",
@@ -123,7 +123,7 @@
    "answer": [
     "for"
    ],
-   "why": "cook … for."
+   "why": "*cook* (для когось) — з *for*: *cooked dinner for us*."
   },
   {
    "id": "verbs-two-objects-12",
@@ -133,7 +133,7 @@
     "the",
     "some"
    ],
-   "why": "pass me the salt — кому + що."
+   "why": "*pass me the salt* — конкретна сіль на столі, тому *the*. *some salt* теж природно."
   },
   {
    "id": "verbs-two-objects-13",
@@ -142,7 +142,7 @@
    "answer": [
     "us"
    ],
-   "why": "tell + кому + що."
+   "why": "*tell* + кому + що: *She told us the truth.*"
   },
   {
    "id": "verbs-two-objects-14",
@@ -155,7 +155,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "describe … to (не describe me)."
+   "why": "*describe* вимагає *to* перед людиною: *described the man to the police*. *described the police the man* — помилка."
   },
   {
    "id": "verbs-two-objects-15",
@@ -168,7 +168,7 @@
     "flowers some my mum"
    ],
    "answer": 0,
-   "why": "buy + кому + що."
+   "why": "*buy* + кому + що без прийменника: *I bought my mum some flowers.* (Або *some flowers for my mum*.)"
   },
   {
    "id": "verbs-two-objects-16",
@@ -181,7 +181,7 @@
     "me to the way"
    ],
    "answer": 0,
-   "why": "show + кому + що."
+   "why": "*show* + кому + що: *Can you show me the way?*"
   },
   {
    "id": "verbs-two-objects-17",
@@ -194,7 +194,7 @@
     "it her to"
    ],
    "answer": 0,
-   "why": "Два займенники — it to her."
+   "why": "Якщо обидва додатки — займенники, вживаємо схему з *to*: *He gave it to her.*"
   },
   {
    "id": "verbs-two-objects-18",
@@ -209,7 +209,7 @@
    "answer": [
     "She gave me a present"
    ],
-   "why": "give + кому + що.",
+   "why": "*give* + кому + що: *She gave me a present.*",
    "hint": "Вона подарувала мені подарунок."
   },
   {
@@ -227,7 +227,7 @@
    "answer": [
     "Can you explain this word to me"
    ],
-   "why": "explain + що + to + кому.",
+   "why": "*explain* + що + *to* + кому: *explain this word to me*.",
    "hint": "Можеш пояснити мені це слово?"
   },
   {
@@ -245,7 +245,7 @@
    "answer": [
     "I made a cake for my friend"
    ],
-   "why": "make … for.",
+   "why": "*make* … *for*: *a cake for my friend*.",
    "hint": "Я спік торт для друга."
   },
   {
@@ -259,7 +259,7 @@
     "us bring"
    ],
    "answer": 1,
-   "why": "дієслово + кому + що."
+   "why": "*bring* + кому + що: *Could you bring us the bill?*"
   },
   {
    "id": "verbs-two-objects-22",
@@ -272,7 +272,7 @@
     "it you"
    ],
    "answer": 1,
-   "why": "Два займенники — зі схемою з to."
+   "why": "Два займенники — схема з *to*: *I'll send it to you.*"
   },
   {
    "id": "verbs-two-objects-23",
@@ -281,7 +281,7 @@
    "answer": [
     "for"
    ],
-   "why": "buy — схема з for."
+   "why": "*buy* — схема з *for*: *bought a new bike for me*."
   }
  ]
 }

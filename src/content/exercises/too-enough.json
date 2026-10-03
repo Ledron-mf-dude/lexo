@@ -11,7 +11,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "too + прикметник + to — надто, щоб."
+   "why": "*too* + прикметник + *to* — «надто…, щоб»: *too hot to drink*. *very* не має значення «надто»."
   },
   {
    "id": "too-enough-2",
@@ -24,7 +24,7 @@
     "old too"
    ],
    "answer": 0,
-   "why": "Прикметник + enough."
+   "why": "*enough* стоїть після прикметника: *old enough to vote*."
   },
   {
    "id": "too-enough-3",
@@ -37,7 +37,7 @@
     "too"
    ],
    "answer": 0,
-   "why": "people — лічильне: too many."
+   "why": "*people* — лічильне, тому *too many*."
   },
   {
    "id": "too-enough-4",
@@ -50,7 +50,7 @@
     "enough of time"
    ],
    "answer": 0,
-   "why": "enough + іменник."
+   "why": "*enough* стоїть перед іменником: *enough time*."
   },
   {
    "id": "too-enough-5",
@@ -63,7 +63,7 @@
     "very much of"
    ],
    "answer": 0,
-   "why": "coffee — нелічильне: too much."
+   "why": "*coffee* — нелічильне, тому *too much*."
   },
   {
    "id": "too-enough-6",
@@ -76,7 +76,7 @@
     "by"
    ],
    "answer": 0,
-   "why": "too … for + особа + to."
+   "why": "*too* … *for* + особа + *to*: *too heavy for me to carry*."
   },
   {
    "id": "too-enough-7",
@@ -89,7 +89,7 @@
     "too much"
    ],
    "answer": 0,
-   "why": "very — «дуже» без негативу."
+   "why": "*very* — «дуже» без проблеми; *too* означало б «надто, аж погано»."
   },
   {
    "id": "too-enough-8",
@@ -102,7 +102,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "прикметник + enough + to."
+   "why": "Прикметник + *enough* + *to*: *warm enough to swim*."
   },
   {
    "id": "too-enough-9",
@@ -115,7 +115,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "too в кінці — «теж»."
+   "why": "*too* в кінці — «теж»: *I like it too.*"
   },
   {
    "id": "too-enough-10",
@@ -124,7 +124,7 @@
    "answer": [
     "too"
    ],
-   "why": "too + прислівник — надто.",
+   "why": "*too fast* — надто швидко.",
    "hint": "(надто)"
   },
   {
@@ -134,7 +134,7 @@
    "answer": [
     "enough"
    ],
-   "why": "прислівник + enough."
+   "why": "Прислівник + *enough*: *hard enough*."
   },
   {
    "id": "too-enough-12",
@@ -143,7 +143,7 @@
    "answer": [
     "too"
    ],
-   "why": "too much + нелічильне.",
+   "why": "*too much* + нелічильне: *too much sugar*.",
    "hint": "(надто)"
   },
   {
@@ -153,7 +153,7 @@
    "answer": [
     "enough"
    ],
-   "why": "enough + іменник.",
+   "why": "*enough* + іменник: *enough money*.",
    "hint": "(достатньо)"
   },
   {
@@ -163,7 +163,7 @@
    "answer": [
     "to call"
    ],
-   "why": "too + adj + to-інфінітив."
+   "why": "*too late to call* — надто пізно, щоб дзвонити."
   },
   {
    "id": "too-enough-15",
@@ -172,7 +172,7 @@
    "answer": [
     "enough"
    ],
-   "why": "not + adj + enough."
+   "why": "*not big enough*."
   },
   {
    "id": "too-enough-16",
@@ -189,7 +189,7 @@
    "answer": [
     "The shoes are too small for me"
    ],
-   "why": "too + adj + for.",
+   "why": "*too small for me*.",
    "hint": "Черевики мені замалі."
   },
   {
@@ -208,7 +208,7 @@
    "answer": [
     "She is not tall enough to reach it"
    ],
-   "why": "adj + enough + to.",
+   "why": "*tall enough to reach it*.",
    "hint": "Вона недостатньо висока, щоб дістати."
   },
   {
@@ -225,7 +225,7 @@
    "answer": [
     "We have enough chairs for everyone"
    ],
-   "why": "enough + іменник.",
+   "why": "*enough chairs for everyone*.",
    "hint": "У нас достатньо стільців для всіх."
   },
   {
@@ -243,7 +243,7 @@
    "answer": [
     "It is too cold to go out"
    ],
-   "why": "too + adj + to.",
+   "why": "*too cold to go out*.",
    "hint": "Надто холодно, щоб виходити."
   },
   {
@@ -257,7 +257,7 @@
     "be eaten it"
    ],
    "answer": 1,
-   "why": "Додаток не повторюємо: too hot to eat."
+   "why": "Після *too … to* додаток не повторюємо: *too hot to eat* (не *to eat it*)."
   },
   {
    "id": "too-enough-21",
@@ -270,7 +270,7 @@
     "enough"
    ],
    "answer": 1,
-   "why": "Підсилення too — far / much."
+   "why": "*too* підсилюємо через *far* або *much*: *far too expensive*. *very too* — помилка."
   },
   {
    "id": "too-enough-22",
@@ -279,7 +279,7 @@
    "answer": [
     "of"
    ],
-   "why": "enough of + the / your…"
+   "why": "*had enough of* — «набридло»: *I've had enough of your excuses!*"
   }
  ]
 }

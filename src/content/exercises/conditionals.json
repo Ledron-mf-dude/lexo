@@ -11,7 +11,7 @@
     "stayed"
    ],
    "answer": 1,
-   "why": "First conditional: if + Present Simple, will + V."
+   "why": "Реальна умова в майбутньому (first conditional): *if* + Present Simple, *will* + дієслово: *If it rains, we will stay at home.*"
   },
   {
    "id": "conditionals-2",
@@ -24,7 +24,7 @@
     "would have"
    ],
    "answer": 1,
-   "why": "Second conditional: if + Past Simple, would + V."
+   "why": "Уявна ситуація зараз (second conditional): *if* + Past Simple, *would* + дієслово: *If I had more time, I would learn French.*"
   },
   {
    "id": "conditionals-3",
@@ -37,7 +37,7 @@
     "studies"
    ],
    "answer": 1,
-   "why": "Third conditional: if + Past Perfect, would have + V3."
+   "why": "Уявна ситуація в минулому (third conditional): *if* + Past Perfect, *would have* + третя форма: *If she had studied harder…*"
   },
   {
    "id": "conditionals-4",
@@ -46,7 +46,7 @@
    "answer": [
     "melts"
    ],
-   "why": "Zero conditional: Present Simple в обох частинах."
+   "why": "Загальна істина (zero conditional): Present Simple в обох частинах: *If you heat ice, it melts.*"
   },
   {
    "id": "conditionals-5",
@@ -59,7 +59,7 @@
     "got"
    ],
    "answer": 1,
-   "why": "Після when про майбутнє — Present Simple, не will."
+   "why": "Після *when* у значенні майбутнього — Present Simple: *when I get home*, не *when I will get*."
   },
   {
    "id": "conditionals-6",
@@ -69,7 +69,7 @@
     "were",
     "was"
    ],
-   "why": "У другому умовному зазвичай were для всіх осіб."
+   "why": "У другому умовному *were* вживають для всіх осіб: *If I were you…* У розмові часто *was*, тому приймаємо обидва."
   },
   {
    "id": "conditionals-7",
@@ -82,7 +82,7 @@
     "Although"
    ],
    "answer": 1,
-   "why": "unless = if … not: якщо не поспішиш."
+   "why": "*Unless* = *if … not*: *Unless you hurry* = якщо не поспішиш, запізнишся."
   },
   {
    "id": "conditionals-8",
@@ -95,7 +95,7 @@
     "would know"
    ],
    "answer": 2,
-   "why": "Third conditional про минуле: had known."
+   "why": "Про минуле, якого не змінити, — третій тип: *If I had known that, I wouldn't have said it.*"
   },
   {
    "id": "conditionals-9",
@@ -106,7 +106,7 @@
     "'ll go",
     "are going to go"
    ],
-   "why": "First conditional: will + V."
+   "why": "First conditional: *will go* у головній частині. *are going to go* теж правильно."
   },
   {
    "id": "conditionals-10",
@@ -124,7 +124,7 @@
     "If I were rich, I would travel",
     "I would travel if I were rich"
    ],
-   "why": "Second conditional: if I were …, I would …"
+   "why": "Second conditional: *If I were rich, I would travel.* Частини можна поміняти місцями."
   },
   {
    "id": "conditionals-11",
@@ -133,7 +133,7 @@
    "answer": [
     "had"
    ],
-   "why": "Second conditional: if + Past Simple."
+   "why": "Second conditional: *if* + Past Simple: *If I had a car…*"
   },
   {
    "id": "conditionals-12",
@@ -143,7 +143,7 @@
     "don't hurry",
     "do not hurry"
    ],
-   "why": "First conditional: if + Present Simple."
+   "why": "First conditional: *if* + Present Simple, заперечення *don't hurry*."
   },
   {
    "id": "conditionals-13",
@@ -154,7 +154,7 @@
     "could have caught",
     "might have caught"
    ],
-   "why": "Third conditional: would have + V3."
+   "why": "Third conditional: *would have caught*. *could / might have caught* (могли б встигнути) теж правильні."
   },
   {
    "id": "conditionals-14",
@@ -165,7 +165,7 @@
     "could be",
     "might be"
    ],
-   "why": "Mixed: минула умова → теперішній наслідок."
+   "why": "Змішаний тип: минула умова (*had taken that job*) → теперішній наслідок (*now*): *would be rich now*. Підходять і *could / might be*."
   },
   {
    "id": "conditionals-15",
@@ -178,7 +178,7 @@
     "would reach"
    ],
    "answer": 0,
-   "why": "Zero conditional: Present Simple."
+   "why": "Загальна істина — Present Simple в обох частинах: *If water reaches 100°C, it boils.*"
   },
   {
    "id": "conditionals-16",
@@ -188,10 +188,10 @@
     "won",
     "win",
     "will win",
-    "had won"
+    "would won"
    ],
    "answer": 0,
-   "why": "Уявна ситуація — Past Simple."
+   "why": "Уявна ситуація зараз: *if* + Past Simple: *if you won a million*."
   },
   {
    "id": "conditionals-17",
@@ -204,7 +204,7 @@
     "had been"
    ],
    "answer": 0,
-   "why": "If I were you — порада."
+   "why": "Порада: *If I were you, I wouldn't do that.*"
   },
   {
    "id": "conditionals-18",
@@ -217,7 +217,7 @@
     "have invited"
    ],
    "answer": 0,
-   "why": "Third conditional: had + V3."
+   "why": "Third conditional: *if* + Past Perfect: *if you had invited her*."
   },
   {
    "id": "conditionals-19",
@@ -230,7 +230,7 @@
     "would be"
    ],
    "answer": 0,
-   "why": "First conditional: Present Simple після if."
+   "why": "First conditional: після *if* — Present Simple, навіть про майбутнє: *if you are careful*."
   },
   {
    "id": "conditionals-20",
@@ -250,7 +250,7 @@
     "If it rains, we will stay at home",
     "We will stay at home if it rains"
    ],
-   "why": "First conditional.",
+   "why": "First conditional; частини можна міняти місцями (без коми, якщо *if* у середині).",
    "hint": "Якщо піде дощ, ми залишимося вдома."
   },
   {
@@ -270,7 +270,7 @@
     "I would help you if I had time",
     "If I had time I would help you"
    ],
-   "why": "Second conditional.",
+   "why": "Second conditional: *I would help you if I had time.*",
    "hint": "Я б допоміг, якби мав час."
   },
   {
@@ -290,7 +290,7 @@
     "If I had known I would have come",
     "I would have come if I had known"
    ],
-   "why": "Third conditional.",
+   "why": "Third conditional: *If I had known, I would have come.*",
    "hint": "Якби я знав, я б прийшов."
   },
   {
@@ -304,7 +304,7 @@
     "told"
    ],
    "answer": 1,
-   "why": "Наказовий спосіб у першому умовному."
+   "why": "У головній частині першого типу може бути наказ: *If you see Tom, tell him to call me.*"
   },
   {
    "id": "conditionals-24",
@@ -317,7 +317,7 @@
     "had taken"
    ],
    "answer": 1,
-   "why": "If I were you, I'd… — порада."
+   "why": "Порада через другий тип: *If I were you, I would take the job.*"
   },
   {
    "id": "conditionals-25",
@@ -330,7 +330,7 @@
     "had"
    ],
    "answer": 0,
-   "why": "Дозвіл у першому умовному — can."
+   "why": "У першому типі в головній частині можливе модальне: *you can go home* (дозвіл)."
   },
   {
    "id": "conditionals-26",
@@ -340,7 +340,7 @@
     "were",
     "was"
    ],
-   "why": "Second conditional: were (у розмові was)."
+   "why": "Second conditional: *were* (у розмові *was*)."
   }
  ]
 }

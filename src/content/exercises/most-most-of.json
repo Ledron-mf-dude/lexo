@@ -11,7 +11,7 @@
     "Mostly"
    ],
    "answer": 0,
-   "why": "Most + іменник — загалом."
+   "why": "Про людей загалом — *Most* + іменник без артикля: *Most people like music.*"
   },
   {
    "id": "most-most-of-2",
@@ -24,7 +24,7 @@
     "The most"
    ],
    "answer": 1,
-   "why": "Most of + the + іменник — конкретна група."
+   "why": "Про конкретну групу (*the students*) — *Most of the*: *Most of the students passed.*"
   },
   {
    "id": "most-most-of-3",
@@ -37,7 +37,7 @@
     "most of"
    ],
    "answer": 1,
-   "why": "Найвищий ступінь — the most."
+   "why": "Найвищий ступінь — *the most talented*."
   },
   {
    "id": "most-most-of-4",
@@ -50,7 +50,7 @@
     "almost"
    ],
    "answer": 1,
-   "why": "mostly — переважно."
+   "why": "*mostly* — прислівник «переважно»: *The audience was mostly young people.*"
   },
   {
    "id": "most-most-of-5",
@@ -63,7 +63,7 @@
     "most of"
    ],
    "answer": 2,
-   "why": "almost all — майже всі."
+   "why": "«Майже всі» — *almost all*: *I like almost all films.*"
   },
   {
    "id": "most-most-of-6",
@@ -76,7 +76,7 @@
     "The most"
    ],
    "answer": 0,
-   "why": "Most of them — більшість із них."
+   "why": "*Most of them* — більшість із них. Перед займенником *of* обов'язкове."
   },
   {
    "id": "most-most-of-7",
@@ -89,7 +89,7 @@
     "Mostly people like it."
    ],
    "answer": 1,
-   "why": "Загальне твердження: Most + іменник."
+   "why": "Загальне твердження — *Most people*, без *of* і без *the*."
   },
   {
    "id": "most-most-of-8",
@@ -102,7 +102,7 @@
     "—"
    ],
    "answer": 0,
-   "why": "Most of + займенник / the / my."
+   "why": "*Most of* + присвійне (*my*): *Most of my friends*."
   },
   {
    "id": "most-most-of-9",
@@ -111,7 +111,7 @@
    "answer": [
     "Most"
    ],
-   "why": "Most + іменник — загалом."
+   "why": "Загалом — *Most children love sweets.*"
   },
   {
    "id": "most-most-of-10",
@@ -120,7 +120,7 @@
    "answer": [
     "of"
    ],
-   "why": "Most of + the — конкретна група."
+   "why": "Конкретна група — *Most of the rooms*."
   },
   {
    "id": "most-most-of-11",
@@ -131,7 +131,7 @@
     "mainly",
     "largely"
    ],
-   "why": "mostly — переважно."
+   "why": "*mostly* (здебільшого) — прислівник. *mainly, largely* — синоніми."
   },
   {
    "id": "most-most-of-12",
@@ -140,7 +140,7 @@
    "answer": [
     "the most"
    ],
-   "why": "Найвищий ступінь — the most."
+   "why": "Найвищий ступінь — *the most intelligent*."
   },
   {
    "id": "most-most-of-13",
@@ -152,7 +152,7 @@
     "Practically",
     "Virtually"
    ],
-   "why": "almost / nearly everyone — майже всі."
+   "why": "«Майже всі» — *Almost / Nearly everyone*. *Most everyone* — розмовна американська форма."
   },
   {
    "id": "most-most-of-14",
@@ -165,7 +165,7 @@
     "The most"
    ],
    "answer": 0,
-   "why": "Most of us — більшість із нас."
+   "why": "*Most of us* — більшість із нас."
   },
   {
    "id": "most-most-of-15",
@@ -178,7 +178,7 @@
     "the most"
    ],
    "answer": 0,
-   "why": "most of + my."
+   "why": "*most of my money*."
   },
   {
    "id": "most-most-of-16",
@@ -191,7 +191,7 @@
     "Mostly British people drink tea."
    ],
    "answer": 0,
-   "why": "Загально — Most + іменник без of."
+   "why": "Загально — *Most British people*, без *of*."
   },
   {
    "id": "most-most-of-17",
@@ -204,7 +204,7 @@
     "most of"
    ],
    "answer": 0,
-   "why": "mostly — здебільшого."
+   "why": "*mostly sunny* — здебільшого сонячно."
   },
   {
    "id": "most-most-of-18",
@@ -220,7 +220,7 @@
    "answer": [
     "Most people have a mobile phone"
    ],
-   "why": "Most + іменник — загалом.",
+   "why": "*Most people* — загалом.",
    "hint": "Більшість людей мають мобільний телефон."
   },
   {
@@ -237,7 +237,7 @@
    "answer": [
     "Most of my friends are students"
    ],
-   "why": "Most of + my.",
+   "why": "*Most of my friends* — конкретна група.",
    "hint": "Більшість моїх друзів — студенти."
   },
   {
@@ -253,7 +253,7 @@
    "answer": [
     "I mostly listen to jazz"
    ],
-   "why": "mostly — прислівник.",
+   "why": "*mostly* — прислівник перед дієсловом.",
    "hint": "Я здебільшого слухаю джаз."
   },
   {
@@ -267,7 +267,7 @@
     "Almost"
    ],
    "answer": 1,
-   "why": "Most of the time."
+   "why": "*Most of the time* — сталий вираз «здебільшого»."
   },
   {
    "id": "most-most-of-22",
@@ -280,7 +280,7 @@
     "Mostly"
    ],
    "answer": 0,
-   "why": "the majority of = most of."
+   "why": "*The majority of* — формальний синонім *most*."
   },
   {
    "id": "most-most-of-23",
@@ -289,7 +289,7 @@
    "answer": [
     "of"
    ],
-   "why": "Most of + my."
+   "why": "*Most of my friends*."
   }
  ]
 }

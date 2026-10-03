@@ -11,7 +11,7 @@
     "none"
    ],
    "answer": 0,
-   "why": "not + any-."
+   "why": "В англійській одне заперечення: *don't* уже є, тому далі *anything*. *I don't know nothing* — подвійне заперечення, у стандартній мові помилка."
   },
   {
    "id": "double-negatives-2",
@@ -24,7 +24,7 @@
     "doesn't called"
    ],
    "answer": 0,
-   "why": "nobody + ствердне дієслово."
+   "why": "*Nobody* уже заперечне, тому дієслово ствердне: *Nobody called.*"
   },
   {
    "id": "double-negatives-3",
@@ -37,7 +37,7 @@
     "some"
    ],
    "answer": 0,
-   "why": "haven't + any."
+   "why": "*haven't* — заперечення, тому *any*: *We haven't got any money.*"
   },
   {
    "id": "double-negatives-4",
@@ -50,7 +50,7 @@
     "no hardly"
    ],
    "answer": 0,
-   "why": "hardly — уже заперечне."
+   "why": "*hardly* (ледве) уже має заперечний зміст, тому *not* не додаємо: *I can hardly hear you.*"
   },
   {
    "id": "double-negatives-5",
@@ -63,7 +63,7 @@
     "none"
    ],
    "answer": 0,
-   "why": "never + any-."
+   "why": "*never* — заперечне слово, тому далі *anything*."
   },
   {
    "id": "double-negatives-6",
@@ -76,7 +76,7 @@
     "I didn't saw nobody."
    ],
    "answer": 0,
-   "why": "Одне заперечення."
+   "why": "Одне заперечення: *I didn't see anyone.* *didn't see no one* — подвійне."
   },
   {
    "id": "double-negatives-7",
@@ -89,7 +89,7 @@
     "Nothing didn't"
    ],
    "answer": 0,
-   "why": "nothing + ствердне дієслово."
+   "why": "*Nothing* + ствердне дієслово: *Nothing happened.*"
   },
   {
    "id": "double-negatives-8",
@@ -102,7 +102,7 @@
     "nothing"
    ],
    "answer": 0,
-   "why": "isn't + any."
+   "why": "*isn't* + *any*: *There isn't any milk left.*"
   },
   {
    "id": "double-negatives-9",
@@ -115,7 +115,7 @@
     "ever"
    ],
    "answer": 0,
-   "why": "never + anywhere."
+   "why": "*never* + *anywhere*: *He never goes anywhere.*"
   },
   {
    "id": "double-negatives-10",
@@ -124,7 +124,7 @@
    "answer": [
     "anything"
    ],
-   "why": "didn't + anything."
+   "why": "Є *didn't* — тому *anything*."
   },
   {
    "id": "double-negatives-11",
@@ -133,7 +133,7 @@
    "answer": [
     "nothing"
    ],
-   "why": "Ствердне дієслово + nothing."
+   "why": "Дієслово ствердне (*bought*) — тому заперечення в займеннику: *I bought nothing.*"
   },
   {
    "id": "double-negatives-12",
@@ -143,7 +143,7 @@
     "anybody",
     "anyone"
    ],
-   "why": "doesn't + anybody."
+   "why": "Є *doesn't* — тому *anybody / anyone*."
   },
   {
    "id": "double-negatives-13",
@@ -153,7 +153,7 @@
     "Nobody",
     "No one"
    ],
-   "why": "nobody + ствердне дієслово."
+   "why": "*Nobody / No one* + ствердне дієслово."
   },
   {
    "id": "double-negatives-14",
@@ -162,7 +162,7 @@
    "answer": [
     "any"
    ],
-   "why": "barely + any."
+   "why": "*barely* (ледве) — заперечне за змістом, тому *any*."
   },
   {
    "id": "double-negatives-15",
@@ -171,7 +171,7 @@
    "answer": [
     "ever"
    ],
-   "why": "don't ever = never."
+   "why": "*don't ever* = *never*: *I don't ever want to see him again.*"
   },
   {
    "id": "double-negatives-16",
@@ -186,7 +186,7 @@
    "answer": [
     "I don't have any questions"
    ],
-   "why": "not + any.",
+   "why": "*don't* + *any*.",
    "hint": "У мене немає запитань."
   },
   {
@@ -201,7 +201,7 @@
    "answer": [
     "Nobody told me anything"
    ],
-   "why": "nobody + ствердне дієслово + anything.",
+   "why": "*Nobody* + ствердне дієслово + *anything*: *Nobody told me anything.*",
    "hint": "Ніхто мені нічого не сказав."
   },
   {
@@ -216,7 +216,7 @@
    "answer": [
     "We didn't go anywhere"
    ],
-   "why": "didn't + anywhere.",
+   "why": "*didn't* + *anywhere*.",
    "hint": "Ми нікуди не ходили."
   },
   {
@@ -230,7 +230,7 @@
     "none"
    ],
    "answer": 1,
-   "why": "Після without — any-."
+   "why": "*without* має заперечний зміст, тому *anything*: *without saying anything*."
   },
   {
    "id": "double-negatives-20",
@@ -243,7 +243,7 @@
     "no"
    ],
    "answer": 1,
-   "why": "У запереченні — either."
+   "why": "У запереченні про один із двох — *either*: *I don't like either of them.* (= *I like neither of them.*)"
   },
   {
    "id": "double-negatives-21",
@@ -254,7 +254,7 @@
     "barely",
     "scarcely"
    ],
-   "why": "hardly — уже заперечне."
+   "why": "*hardly / barely / scarcely* — «ледве», без *not*."
   }
  ]
 }

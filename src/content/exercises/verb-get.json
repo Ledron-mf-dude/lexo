@@ -11,7 +11,7 @@
     "to dark"
    ],
    "answer": 0,
-   "why": "get + прикметник = ставати."
+   "why": "*get* + прикметник = «ставати»: *It's getting dark.* *darkly* — прислівник."
   },
   {
    "id": "verb-get-2",
@@ -24,7 +24,7 @@
     "understood"
    ],
    "answer": 0,
-   "why": "get = отримати."
+   "why": "*get a letter* = отримати лист."
   },
   {
    "id": "verb-get-3",
@@ -37,7 +37,7 @@
     "go to"
    ],
    "answer": 0,
-   "why": "get home — дістатися додому."
+   "why": "*get home* — дістатися додому, без *to* перед *home*. *arrive to* — помилка."
   },
   {
    "id": "verb-get-4",
@@ -50,7 +50,7 @@
     "do"
    ],
    "answer": 0,
-   "why": "get it — розуміти."
+   "why": "*I don't get it* — розмовне «не розумію»."
   },
   {
    "id": "verb-get-5",
@@ -63,7 +63,7 @@
     "went"
    ],
    "answer": 0,
-   "why": "get + предмет + V3."
+   "why": "*get something done* — хтось зробив це для неї: *She got her hair cut.*"
   },
   {
    "id": "verb-get-6",
@@ -76,7 +76,7 @@
     "gets"
    ],
    "answer": 0,
-   "why": "get + V3 — пасив."
+   "why": "*get* + третя форма — розмовний пасив: *He got fired.*"
   },
   {
    "id": "verb-get-7",
@@ -89,7 +89,7 @@
     "recover"
    ],
    "answer": 0,
-   "why": "get up — вставати."
+   "why": "*get up* — вставати з ліжка."
   },
   {
    "id": "verb-get-8",
@@ -102,7 +102,7 @@
     "wake"
    ],
    "answer": 0,
-   "why": "get over — оговтатися."
+   "why": "*get over* — оговтатися, одужати."
   },
   {
    "id": "verb-get-9",
@@ -115,7 +115,7 @@
     "continue"
    ],
    "answer": 0,
-   "why": "get on with — ладнати."
+   "why": "*get on with someone* — ладнати з кимось."
   },
   {
    "id": "verb-get-10",
@@ -124,7 +124,7 @@
    "answer": [
     "late"
    ],
-   "why": "get + прикметник = ставати."
+   "why": "*get late* — ставати пізно: *It's getting late.*"
   },
   {
    "id": "verb-get-11",
@@ -134,7 +134,7 @@
     "off",
     "out"
    ],
-   "why": "get off — вийти (з транспорту)."
+   "why": "З потяга — *get off*. *get out* теж кажуть."
   },
   {
    "id": "verb-get-12",
@@ -143,7 +143,7 @@
    "answer": [
     "married"
    ],
-   "why": "get married — одружитися."
+   "why": "*get married* — одружитися."
   },
   {
    "id": "verb-get-13",
@@ -152,7 +152,7 @@
    "answer": [
     "fixed"
    ],
-   "why": "get + предмет + V3."
+   "why": "*get something fixed* — віддати полагодити."
   },
   {
    "id": "verb-get-14",
@@ -161,7 +161,7 @@
    "answer": [
     "over"
    ],
-   "why": "get over — одужати, оговтатися."
+   "why": "*get over the flu* — одужати від грипу."
   },
   {
    "id": "verb-get-15",
@@ -174,7 +174,7 @@
     "do"
    ],
    "answer": 0,
-   "why": "get = купити, принести."
+   "why": "*get* = купити / взяти: *get some bread*."
   },
   {
    "id": "verb-get-16",
@@ -187,7 +187,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "get = зрозуміти."
+   "why": "*get the joke* — зрозуміти жарт."
   },
   {
    "id": "verb-get-17",
@@ -200,7 +200,7 @@
     "made"
    ],
    "answer": 0,
-   "why": "get lost — заблукати."
+   "why": "*get lost* — заблукати."
   },
   {
    "id": "verb-get-18",
@@ -213,7 +213,7 @@
     "off"
    ],
    "answer": 0,
-   "why": "get on (well) — ладнати."
+   "why": "*get on (well)* — ладнати."
   },
   {
    "id": "verb-get-19",
@@ -227,7 +227,7 @@
    "answer": [
     "It is getting cold"
    ],
-   "why": "get + прикметник.",
+   "why": "*get* + прикметник = ставати.",
    "hint": "Стає холодно."
   },
   {
@@ -244,7 +244,7 @@
    "answer": [
     "What time did you get home"
    ],
-   "why": "get home — без to.",
+   "why": "*get home* — без *to*.",
    "hint": "О котрій ти дістався додому?"
   },
   {
@@ -261,7 +261,7 @@
    "answer": [
     "I got a message from her"
    ],
-   "why": "get = отримати.",
+   "why": "*get a message* — отримати.",
    "hint": "Я отримав від неї повідомлення."
   },
   {
@@ -275,7 +275,7 @@
     "to dress"
    ],
    "answer": 1,
-   "why": "get dressed — одягнутися."
+   "why": "*get dressed* — одягнутися."
   },
   {
    "id": "verb-get-23",
@@ -288,7 +288,7 @@
     "lent"
    ],
    "answer": 1,
-   "why": "get + особа + to + V."
+   "why": "*get somebody to do something* — домогтися, щоб хтось зробив: *got my brother to lend me his car*."
   },
   {
    "id": "verb-get-24",
@@ -297,7 +297,7 @@
    "answer": [
     "rid"
    ],
-   "why": "get rid of — позбутися."
+   "why": "*get rid of* — позбутися."
   }
  ]
 }

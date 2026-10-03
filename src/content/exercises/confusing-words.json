@@ -11,7 +11,7 @@
     "talked"
    ],
    "answer": 1,
-   "why": "З особою без to — tell: told me."
+   "why": "*tell* вимагає особи одразу після себе: *She told me…* *said* без особи (*She said that…*) або з *to* (*said to me*)."
   },
   {
    "id": "confusing-words-2",
@@ -24,7 +24,7 @@
     "talk"
    ],
    "answer": 0,
-   "why": "say something to somebody."
+   "why": "*say* + що + *to* + кому: *What did he say to you?* *tell* потребувало б особи без *to*."
   },
   {
    "id": "confusing-words-3",
@@ -37,7 +37,7 @@
     "keep"
    ],
    "answer": 1,
-   "why": "Дати в борг — lend somebody something."
+   "why": "*lend* — дати в борг: *lend me your car*. *borrow* — взяти в борг."
   },
   {
    "id": "confusing-words-4",
@@ -50,7 +50,7 @@
     "bring"
    ],
    "answer": 1,
-   "why": "Взяти в борг — borrow."
+   "why": "*borrow* — взяти в когось на час: *Can I borrow your charger?*"
   },
   {
    "id": "confusing-words-5",
@@ -63,7 +63,7 @@
     "Memorise"
    ],
    "answer": 1,
-   "why": "Нагадати комусь — remind somebody to do."
+   "why": "*remind somebody to do* — нагадати комусь. *remember* — пам'ятати самому."
   },
   {
    "id": "confusing-words-6",
@@ -76,7 +76,7 @@
     "pass"
    ],
    "answer": 1,
-   "why": "Не встигнути — miss."
+   "why": "Не встигнути на транспорт — *miss the train*. *lose* — загубити."
   },
   {
    "id": "confusing-words-7",
@@ -89,7 +89,7 @@
     "took off"
    ],
    "answer": 1,
-   "why": "Пограбувати місце — rob."
+   "why": "*rob* + місце чи людина (пограбувати), *steal* + річ (вкрасти): *robbed the shop*, *stole the jewellery*."
   },
   {
    "id": "confusing-words-8",
@@ -102,7 +102,7 @@
     "gained"
    ],
    "answer": 1,
-   "why": "Перемогти суперника — beat."
+   "why": "*beat* + суперник (перемогти когось), *win* + гра чи приз: *beat them*, *won the match*."
   },
   {
    "id": "confusing-words-9",
@@ -115,7 +115,7 @@
     "beat"
    ],
    "answer": 1,
-   "why": "Заробити працею — earn."
+   "why": "*earn* — заробляти працею. *win* — вигравати."
   },
   {
    "id": "confusing-words-10",
@@ -128,7 +128,7 @@
     "looked at"
    ],
    "answer": 1,
-   "why": "Дивитися телевізор, фільм удома — watch."
+   "why": "Фільм по телевізору — *watch*."
   },
   {
    "id": "confusing-words-11",
@@ -141,7 +141,7 @@
     "Look"
    ],
    "answer": 1,
-   "why": "Без додатка — просто Listen!"
+   "why": "Без додатка — *Listen!* *Listen to* вимагає продовження (*listen to me*)."
   },
   {
    "id": "confusing-words-12",
@@ -154,7 +154,7 @@
     "fan"
    ],
    "answer": 1,
-   "why": "Весело, приємно — fun (іменник): great fun."
+   "why": "*fun* — весело, приємно: *great fun*. *funny* — смішний."
   },
   {
    "id": "confusing-words-13",
@@ -167,7 +167,7 @@
     "arisen"
    ],
    "answer": 1,
-   "why": "Підніматися саме — rise, V3 risen."
+   "why": "*rise – rose – risen* — підніматися самому (без додатка). *raise* — піднімати щось."
   },
   {
    "id": "confusing-words-14",
@@ -177,7 +177,7 @@
     "raise",
     "put up"
    ],
-   "why": "Піднімати щось — raise."
+   "why": "*raise your hand* — піднімати щось (з додатком). *put up your hand* — те саме."
   },
   {
    "id": "confusing-words-15",
@@ -186,7 +186,7 @@
    "answer": [
     "take"
    ],
-   "why": "Від мовця, туди — take.",
+   "why": "Взяти з собою, коли йдеш звідси, — *take*. *bring* — принести сюди, до мовця.",
    "hint": "(з собою — звідси туди)"
   },
   {
@@ -198,7 +198,7 @@
     "fetch",
     "get"
    ],
-   "why": "До мовця, сюди — bring.",
+   "why": "Принести до мовця — *bring*. *fetch* і *get* — сходити й принести.",
    "hint": "(принести)"
   },
   {
@@ -208,7 +208,7 @@
    "answer": [
     "speak"
    ],
-   "why": "Мовами говорять — speak.",
+   "why": "Мовами говорять — *speak Spanish*.",
    "hint": "(розмовляти)"
   },
   {
@@ -219,7 +219,7 @@
     "lost",
     "misplaced"
    ],
-   "why": "Загубити — lose, lost.",
+   "why": "Загубити — *lose – lost*. *misplaced* — поклав не туди.",
    "hint": "(загубити)"
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "You remind me of my brother"
    ],
-   "why": "remind somebody of somebody — нагадувати когось, бути схожим.",
+   "why": "*remind somebody of somebody* — бути схожим, нагадувати когось.",
    "hint": "Ти нагадуєш мені мого брата."
   },
   {
@@ -253,7 +253,7 @@
    "answer": [
     "She told us a funny story"
    ],
-   "why": "tell a story; funny — смішний.",
+   "why": "*tell a story*; *funny* — смішний.",
    "hint": "Вона розповіла нам смішну історію."
   }
  ]

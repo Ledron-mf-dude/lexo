@@ -11,7 +11,7 @@
     "of"
    ],
    "answer": 0,
-   "why": "pick up."
+   "why": "*pick up the phone* — взяти слухавку."
   },
   {
    "id": "phrasal-verbs-2",
@@ -24,7 +24,7 @@
     "I it picked up."
    ],
    "answer": 1,
-   "why": "Займенник — всередині."
+   "why": "Якщо додаток — займенник, він стоїть між дієсловом і часткою: *I picked it up.*"
   },
   {
    "id": "phrasal-verbs-3",
@@ -37,7 +37,7 @@
     "put on"
    ],
    "answer": 2,
-   "why": "look after — нероздільне."
+   "why": "*look after* — нероздільне: додаток завжди після *after* (*look after her*)."
   },
   {
    "id": "phrasal-verbs-4",
@@ -50,7 +50,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "look after — доглядати."
+   "why": "*look after* — доглядати."
   },
   {
    "id": "phrasal-verbs-5",
@@ -63,7 +63,7 @@
     "prepositional"
    ],
    "answer": 0,
-   "why": "Без додатка."
+   "why": "*took off* (злетів) — без додатка, тобто неперехідне."
   },
   {
    "id": "phrasal-verbs-6",
@@ -76,7 +76,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "look forward to."
+   "why": "*look forward to* — з прийменником *to*."
   },
   {
    "id": "phrasal-verbs-7",
@@ -89,7 +89,7 @@
     "She down turned the offer."
    ],
    "answer": 0,
-   "why": "turn down — роздільне."
+   "why": "*turn down* — роздільне, іменник може стояти всередині або після частки."
   },
   {
    "id": "phrasal-verbs-8",
@@ -102,7 +102,7 @@
     "none of these"
    ],
    "answer": 0,
-   "why": "Значення часто ідіоматичне."
+   "why": "Значення фразового дієслова часто не виводиться з частин."
   },
   {
    "id": "phrasal-verbs-9",
@@ -111,7 +111,7 @@
    "answer": [
     "down"
    ],
-   "why": "turn down — зменшити гучність."
+   "why": "*turn down* — зменшити гучність."
   },
   {
    "id": "phrasal-verbs-10",
@@ -120,7 +120,7 @@
    "answer": [
     "up"
    ],
-   "why": "pick up — заїхати, забрати."
+   "why": "*pick you up* — заїхати за тобою."
   },
   {
    "id": "phrasal-verbs-11",
@@ -129,7 +129,7 @@
    "answer": [
     "after"
    ],
-   "why": "take after — бути схожим (на родича)."
+   "why": "*take after* — бути схожим на родича."
   },
   {
    "id": "phrasal-verbs-12",
@@ -139,7 +139,7 @@
     "off",
     "out"
    ],
-   "why": "turn off — вимкнути."
+   "why": "*turn off / turn out the lights* — вимкнути світло."
   },
   {
    "id": "phrasal-verbs-13",
@@ -148,7 +148,7 @@
    "answer": [
     "up"
    ],
-   "why": "put up with — терпіти."
+   "why": "*put up with* — терпіти."
   },
   {
    "id": "phrasal-verbs-14",
@@ -161,7 +161,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "fill in — заповнити."
+   "why": "*fill in* — заповнити (форму). *fill out* — американський варіант."
   },
   {
    "id": "phrasal-verbs-15",
@@ -174,7 +174,7 @@
     "Off turn it."
    ],
    "answer": 0,
-   "why": "Займенник — всередині роздільного дієслова."
+   "why": "Займенник — всередині: *Turn it off.*"
   },
   {
    "id": "phrasal-verbs-16",
@@ -187,7 +187,7 @@
     "visit"
    ],
    "answer": 0,
-   "why": "look up — знайти в довіднику."
+   "why": "*look up a word* — знайти слово в словнику."
   },
   {
    "id": "phrasal-verbs-17",
@@ -200,7 +200,7 @@
     "down"
    ],
    "answer": 0,
-   "why": "run out of — закінчитися."
+   "why": "*run out of* — закінчитися."
   },
   {
    "id": "phrasal-verbs-18",
@@ -216,7 +216,7 @@
    "answer": [
     "I will look after your cat"
    ],
-   "why": "look after — нероздільне.",
+   "why": "*look after* — нероздільне.",
    "hint": "Я доглядатиму твого кота."
   },
   {
@@ -233,7 +233,7 @@
     "She turned the job down",
     "She turned down the job"
    ],
-   "why": "turn down — роздільне.",
+   "why": "*turn down* — роздільне: обидва порядки правильні.",
    "hint": "Вона відмовилася від роботи."
   },
   {
@@ -252,7 +252,7 @@
     "Put your coat on please",
     "Put on your coat please"
    ],
-   "why": "put on — роздільне.",
+   "why": "*put on* — роздільне.",
    "hint": "Одягни пальто, будь ласка."
   },
   {
@@ -266,7 +266,7 @@
     "off"
    ],
    "answer": 1,
-   "why": "slow down — сповільнитися."
+   "why": "*slow down* — сповільнитися."
   },
   {
    "id": "phrasal-verbs-22",
@@ -279,7 +279,7 @@
     "called down"
    ],
    "answer": 0,
-   "why": "call off — скасувати."
+   "why": "*call off* — скасувати."
   },
   {
    "id": "phrasal-verbs-23",
@@ -288,7 +288,7 @@
    "answer": [
     "out"
    ],
-   "why": "run out of — закінчитися."
+   "why": "*run out of* — закінчитися."
   }
  ]
 }

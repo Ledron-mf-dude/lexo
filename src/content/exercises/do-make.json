@@ -11,7 +11,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "do homework — завдання, робота: do."
+   "why": "*do homework* — завдання й робота поєднуються з *do*."
   },
   {
    "id": "do-make-2",
@@ -24,7 +24,7 @@
     "had"
    ],
    "answer": 1,
-   "why": "make a mistake — помилку «роблять» з make."
+   "why": "*make a mistake* — сталий вираз."
   },
   {
    "id": "do-make-3",
@@ -37,7 +37,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "do a favour — зробити послугу."
+   "why": "*do somebody a favour* — зробити послугу."
   },
   {
    "id": "do-make-4",
@@ -50,7 +50,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "make a plan — створити план."
+   "why": "*make a plan* — створити, скласти."
   },
   {
    "id": "do-make-5",
@@ -63,7 +63,7 @@
     "gets"
    ],
    "answer": 1,
-   "why": "make money — заробляти гроші."
+   "why": "*make money* — заробляти гроші."
   },
   {
    "id": "do-make-6",
@@ -76,7 +76,7 @@
     "Put"
    ],
    "answer": 1,
-   "why": "do the dishes — мити посуд (хатня робота — do)."
+   "why": "Хатня робота — *do*: *do the dishes*."
   },
   {
    "id": "do-make-7",
@@ -89,7 +89,7 @@
     "set"
    ],
    "answer": 1,
-   "why": "make a (phone) call — телефонувати."
+   "why": "*make a call* — подзвонити. *take a call* — відповісти на дзвінок."
   },
   {
    "id": "do-make-8",
@@ -102,7 +102,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "make sense — мати сенс."
+   "why": "*make sense* — мати сенс."
   },
   {
    "id": "do-make-9",
@@ -115,7 +115,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Друге do — професія."
+   "why": "*What do you do?* — друге *do* означає роботу, професію."
   },
   {
    "id": "do-make-10",
@@ -124,7 +124,7 @@
    "answer": [
     "make"
    ],
-   "why": "make a decision.",
+   "why": "*make a decision*. (Британці кажуть і *take a decision*.)",
    "hint": "(do / make)"
   },
   {
@@ -134,7 +134,7 @@
    "answer": [
     "do"
    ],
-   "why": "do the shopping — хатні справи.",
+   "why": "*do the shopping* — хатні справи.",
    "hint": "(do / make)"
   },
   {
@@ -144,7 +144,7 @@
    "answer": [
     "does"
    ],
-   "why": "do your best — старатися з усіх сил.",
+   "why": "*do your best* — старатися з усіх сил.",
    "hint": "(do / make)"
   },
   {
@@ -154,7 +154,7 @@
    "answer": [
     "make"
    ],
-   "why": "make a noise.",
+   "why": "*make a noise*.",
    "hint": "(do / make)"
   },
   {
@@ -164,7 +164,7 @@
    "answer": [
     "do"
    ],
-   "why": "do yoga / exercise / sport.",
+   "why": "*do yoga / exercise / sport*.",
    "hint": "(do / make)"
   },
   {
@@ -174,7 +174,7 @@
    "answer": [
     "made"
    ],
-   "why": "make friends — подружитися.",
+   "why": "*make friends* — подружитися.",
    "hint": "(do / make)"
   },
   {
@@ -188,7 +188,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "make tea / coffee — приготувати."
+   "why": "*make tea* — приготувати."
   },
   {
    "id": "do-make-17",
@@ -201,7 +201,7 @@
     "gets"
    ],
    "answer": 0,
-   "why": "do research."
+   "why": "*do research*."
   },
   {
    "id": "do-make-18",
@@ -214,7 +214,7 @@
     "taking"
    ],
    "answer": 0,
-   "why": "make progress."
+   "why": "*make progress*."
   },
   {
    "id": "do-make-19",
@@ -227,7 +227,7 @@
     "write on"
    ],
    "answer": 0,
-   "why": "do / take an exam (BrE)."
+   "why": "*do / take an exam* — складати іспит."
   },
   {
    "id": "do-make-20",
@@ -243,7 +243,7 @@
    "answer": [
     "Could you do me a favour"
    ],
-   "why": "do a favour.",
+   "why": "*do a favour*.",
    "hint": "Можеш зробити мені послугу?"
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "I made a lot of mistakes"
    ],
-   "why": "make a mistake.",
+   "why": "*make a mistake*.",
    "hint": "Я зробив багато помилок."
   },
   {
@@ -277,7 +277,7 @@
    "answer": [
     "She does the laundry on Sundays"
    ],
-   "why": "do the laundry.",
+   "why": "*do the laundry*.",
    "hint": "Вона пере білизну по неділях."
   },
   {
@@ -291,7 +291,7 @@
     "get"
    ],
    "answer": 1,
-   "why": "Домашні справи на -ing — do."
+   "why": "Хатні справи на *-ing* — *do*: *do the cooking*."
   },
   {
    "id": "do-make-24",
@@ -304,7 +304,7 @@
     "lets"
    ],
    "answer": 1,
-   "why": "make + особа + інфінітив без to."
+   "why": "*make* + особа + дієслово без *to*: *makes me cry*."
   },
   {
    "id": "do-make-25",
@@ -313,7 +313,7 @@
    "answer": [
     "make"
    ],
-   "why": "make a complaint.",
+   "why": "*make a complaint*.",
    "hint": "(do / make)"
   }
  ]

@@ -11,7 +11,7 @@
     "am used to"
    ],
    "answer": 1,
-   "why": "used to + V — колись було, тепер ні."
+   "why": "*used to* + дієслово — звичка в минулому, якої вже немає: *I used to smoke.* *am used to* означало б «звик»."
   },
   {
    "id": "used-to-2",
@@ -24,7 +24,7 @@
     "being used"
    ],
    "answer": 0,
-   "why": "be used to + -ing — звикла."
+   "why": "*be used to* + *-ing* — «звикла до»: *She's used to getting up early.*"
   },
   {
    "id": "used-to-3",
@@ -33,7 +33,7 @@
    "answer": [
     "use"
    ],
-   "why": "У питаннях і запереченнях — use to (без -d)."
+   "why": "У питанні після *Did* — *use to* без *-d* (минуле вже показує *did*): *Did you use to play chess?*"
   },
   {
    "id": "used-to-4",
@@ -46,7 +46,7 @@
     "using to"
    ],
    "answer": 2,
-   "why": "get used to + іменник/-ing."
+   "why": "*get used to* + іменник або *-ing* — процес звикання: *get used to a new job*."
   },
   {
    "id": "used-to-5",
@@ -59,7 +59,7 @@
     "have used to"
    ],
    "answer": 0,
-   "why": "would — повторювані дії в минулому."
+   "why": "*would* + дієслово — повторювані дії в минулому (як *used to*): *we would play outside all day*."
   },
   {
    "id": "used-to-6",
@@ -72,7 +72,7 @@
     "I use to have a dog."
    ],
    "answer": 1,
-   "why": "Про стан у минулому — лише used to, не would."
+   "why": "Про стан у минулому (мати собаку) — лише *used to*. *would* вживають тільки для повторюваних дій."
   },
   {
    "id": "used-to-7",
@@ -81,7 +81,7 @@
    "answer": [
     "living"
    ],
-   "why": "be used to + -ing."
+   "why": "*be used to* + *-ing*: *He is used to living alone.*"
   },
   {
    "id": "used-to-8",
@@ -94,7 +94,7 @@
     "get used to"
    ],
    "answer": 1,
-   "why": "У запереченні — didn’t use to."
+   "why": "У запереченні — *didn't use to* (без *-d*)."
   },
   {
    "id": "used-to-9",
@@ -107,7 +107,7 @@
     "use to"
    ],
    "answer": 0,
-   "why": "get used to — процес звикання."
+   "why": "*get used to* — процес звикання в майбутньому: *You'll get used to the noise.*"
   },
   {
    "id": "used-to-10",
@@ -123,7 +123,7 @@
    "answer": [
     "She used to live in Paris"
    ],
-   "why": "used to + інфінітив."
+   "why": "*used to* + інфінітив — колишній стан: *She used to live in Paris.*"
   },
   {
    "id": "used-to-11",
@@ -132,7 +132,7 @@
    "answer": [
     "used"
    ],
-   "why": "used to + V — минула звичка."
+   "why": "*used to* + дієслово — минула звичка."
   },
   {
    "id": "used-to-12",
@@ -142,7 +142,7 @@
     "used",
     "accustomed"
    ],
-   "why": "be used to + -ing."
+   "why": "*be used to* + *-ing* — звикнути до. *accustomed* — синонім (трохи формальніший)."
   },
   {
    "id": "used-to-13",
@@ -152,7 +152,7 @@
     "didn't use to",
     "did not use to"
    ],
-   "why": "didn't use to."
+   "why": "Заперечення: *didn't use to*."
   },
   {
    "id": "used-to-14",
@@ -161,7 +161,7 @@
    "answer": [
     "working"
    ],
-   "why": "get used to + -ing."
+   "why": "*get used to* + *-ing*: *getting used to working at night*."
   },
   {
    "id": "used-to-15",
@@ -171,7 +171,7 @@
     "would",
     "used to"
    ],
-   "why": "would — повторювані дії в минулому."
+   "why": "Повторювані дії в минулому — *would* або *used to*."
   },
   {
    "id": "used-to-16",
@@ -184,7 +184,7 @@
     "use to be"
    ],
    "answer": 0,
-   "why": "Стан у минулому — used to."
+   "why": "Стан у минулому (кінотеатр був) — *used to be*. *would be* для стану не підходить."
   },
   {
    "id": "used-to-17",
@@ -197,7 +197,7 @@
     "get up"
    ],
    "answer": 0,
-   "why": "get used to + -ing."
+   "why": "*get used to* + *-ing*: *get used to getting up early*. Тут *to* — прийменник, а не частина інфінітива."
   },
   {
    "id": "used-to-18",
@@ -210,7 +210,7 @@
     "Have"
    ],
    "answer": 0,
-   "why": "Did + підмет + use to."
+   "why": "Питання: *Did* + підмет + *use to*."
   },
   {
    "id": "used-to-19",
@@ -223,7 +223,7 @@
     "uses to"
    ],
    "answer": 0,
-   "why": "Стан — used to, не would."
+   "why": "Стан (довге волосся) — *used to*. *would* — лише для дій."
   },
   {
    "id": "used-to-20",
@@ -239,7 +239,7 @@
    "answer": [
     "I used to play the piano"
    ],
-   "why": "used to + V.",
+   "why": "*used to* + дієслово.",
    "hint": "Раніше я грав на піаніно."
   },
   {
@@ -256,7 +256,7 @@
    "answer": [
     "She is used to working late"
    ],
-   "why": "be used to + -ing.",
+   "why": "*be used to* + *-ing*.",
    "hint": "Вона звикла працювати допізна."
   },
   {
@@ -273,7 +273,7 @@
    "answer": [
     "I didn't use to like fish"
    ],
-   "why": "didn't use to + V.",
+   "why": "Заперечення: *didn't use to like*.",
    "hint": "Раніше я не любив рибу."
   },
   {
@@ -287,7 +287,7 @@
     "am used"
    ],
    "answer": 1,
-   "why": "Звичка зараз — Present Simple з usually."
+   "why": "Теперішня звичка — Present Simple з *usually*. *used to* — лише про минуле."
   },
   {
    "id": "used-to-24",
@@ -300,7 +300,7 @@
     "be drive"
    ],
    "answer": 1,
-   "why": "get used to + -ing."
+   "why": "*get used to* + *-ing*: *driving*."
   },
   {
    "id": "used-to-25",
@@ -309,7 +309,7 @@
    "answer": [
     "Did"
    ],
-   "why": "Питання: Did + підмет + use to."
+   "why": "Питання: *Did you use to…?*"
   },
   {
    "id": "used-to-26",
@@ -318,7 +318,7 @@
    "answer": [
     "used"
    ],
-   "why": "never used to — без did."
+   "why": "*never used to* — без *did*, тому *used* з *-d*."
   }
  ]
 }

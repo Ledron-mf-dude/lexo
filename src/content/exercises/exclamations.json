@@ -11,7 +11,7 @@
     "How a"
    ],
    "answer": 1,
-   "why": "Лічильний іменник в однині — What a."
+   "why": "*garden* — лічильний іменник в однині, тому *What a*: *What a lovely garden!* *How* вживаємо з прикметником без іменника."
   },
   {
    "id": "exclamations-2",
@@ -24,7 +24,7 @@
     "Such"
    ],
    "answer": 1,
-   "why": "Weather — нелічильний, без артикля: What awful weather!"
+   "why": "*weather* — нелічильний, тому *What* без артикля: *What awful weather!*"
   },
   {
    "id": "exclamations-3",
@@ -37,7 +37,7 @@
     "So a"
    ],
    "answer": 2,
-   "why": "Прикметник без іменника — How."
+   "why": "Прикметник без іменника — *How*: *How kind of you!*"
   },
   {
    "id": "exclamations-4",
@@ -50,7 +50,7 @@
     "How a"
    ],
    "answer": 1,
-   "why": "Множина — What без артикля."
+   "why": "*shoes* — множина, тому *What* без артикля: *What beautiful shoes!*"
   },
   {
    "id": "exclamations-5",
@@ -63,7 +63,7 @@
     "she does dance?"
    ],
    "answer": 1,
-   "why": "Окличне речення — прямий порядок слів: підмет + дієслово."
+   "why": "В окличних реченнях з *How* — прямий порядок слів: *How well she dances!* Інверсія (*does she dance*) — це питання."
   },
   {
    "id": "exclamations-6",
@@ -76,7 +76,7 @@
     "what a"
    ],
    "answer": 2,
-   "why": "Such a + прикметник + лічильний іменник в однині."
+   "why": "*such a* + прикметник + лічильний іменник в однині: *such a boring lecture*. *so* — без іменника."
   },
   {
    "id": "exclamations-7",
@@ -89,7 +89,7 @@
     "how"
    ],
    "answer": 1,
-   "why": "Множина — such без артикля."
+   "why": "Множина — *such* без артикля: *such friendly people*."
   },
   {
    "id": "exclamations-8",
@@ -102,7 +102,7 @@
     "what"
    ],
    "answer": 2,
-   "why": "Прикметник без іменника — so."
+   "why": "Прикметник без іменника — *so*: *The tea is so hot!*"
   },
   {
    "id": "exclamations-9",
@@ -115,7 +115,7 @@
     "Such a"
    ],
    "answer": 1,
-   "why": "Advice — нелічильний: What useful advice!"
+   "why": "*advice* — нелічильний, тому *What* без *a*: *What useful advice!*"
   },
   {
    "id": "exclamations-10",
@@ -128,7 +128,7 @@
     "So"
    ],
    "answer": 1,
-   "why": "What a relief! — стала окличка з лічильним іменником."
+   "why": "*What a relief!* — сталий вигук («яке полегшення!»)."
   },
   {
    "id": "exclamations-11",
@@ -137,7 +137,7 @@
    "answer": [
     "What"
    ],
-   "why": "What a + іменник: What a mess!"
+   "why": "*What a* + іменник: *What a mess you've made!*"
   },
   {
    "id": "exclamations-12",
@@ -146,7 +146,7 @@
    "answer": [
     "How"
    ],
-   "why": "How + прикметник + підмет + дієслово."
+   "why": "*How* + прикметник + підмет + дієслово: *How tall you've grown!*"
   },
   {
    "id": "exclamations-13",
@@ -155,7 +155,7 @@
    "answer": [
     "What"
    ],
-   "why": "News — нелічильний: What terrible news!"
+   "why": "*news* — нелічильний: *What terrible news!*"
   },
   {
    "id": "exclamations-14",
@@ -164,7 +164,7 @@
    "answer": [
     "an"
    ],
-   "why": "Перед голосним звуком — an."
+   "why": "*amazing* починається з голосного звуку — *an*."
   },
   {
    "id": "exclamations-15",
@@ -173,7 +173,7 @@
    "answer": [
     "such"
    ],
-   "why": "Such a + іменник: such a pity."
+   "why": "*such a pity* — «як шкода»."
   },
   {
    "id": "exclamations-16",
@@ -182,7 +182,7 @@
    "answer": [
     "so"
    ],
-   "why": "Прислівник без іменника — so.",
+   "why": "Прислівник без іменника — *so*: *You speak so quickly!*",
    "hint": "(так)"
   },
   {
@@ -197,7 +197,7 @@
    "answer": [
     "What a strange question"
    ],
-   "why": "What a + прикметник + іменник.",
+   "why": "*What a* + прикметник + іменник в однині.",
    "hint": "Яке дивне запитання!"
   },
   {
@@ -213,7 +213,7 @@
    "answer": [
     "How fast the time goes"
    ],
-   "why": "How + прислівник + підмет + дієслово, без інверсії.",
+   "why": "*How* + прислівник + підмет + дієслово, без інверсії.",
    "hint": "Як швидко минає час!"
   },
   {
@@ -229,7 +229,7 @@
    "answer": [
     "What nice people they are"
    ],
-   "why": "Множина: What + прикметник + іменник + підмет + дієслово.",
+   "why": "Множина — *What* без артикля, потім підмет і дієслово: *What nice people they are!*",
    "hint": "Які вони приємні люди!"
   },
   {
@@ -246,7 +246,7 @@
    "answer": [
     "It was such a good party"
    ],
-   "why": "such a + прикметник + іменник в однині.",
+   "why": "*such a* + прикметник + іменник в однині.",
    "hint": "Це була така класна вечірка!"
   }
  ]

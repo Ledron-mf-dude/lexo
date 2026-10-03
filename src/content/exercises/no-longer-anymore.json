@@ -11,7 +11,7 @@
     "any longer"
    ],
    "answer": 0,
-   "why": "no longer — більше не."
+   "why": "*no longer* — «більше не», стоїть перед основним дієсловом і вже заперечне: *She no longer works here.*"
   },
   {
    "id": "no-longer-anymore-2",
@@ -24,7 +24,7 @@
     "not longer"
    ],
    "answer": 0,
-   "why": "not … any more."
+   "why": "*not … any more* — заперечення в дієслові, *any more* у кінці: *I don't need it any more.*"
   },
   {
    "id": "no-longer-anymore-3",
@@ -37,7 +37,7 @@
     "no longer be"
    ],
    "answer": 0,
-   "why": "no longer — після be."
+   "why": "З *to be* *no longer* стоїть після нього: *He is no longer my friend.*"
   },
   {
    "id": "no-longer-anymore-4",
@@ -50,7 +50,7 @@
     "not longer"
    ],
    "answer": 0,
-   "why": "not … any longer."
+   "why": "*not … any longer* (тривалість): *I can't wait any longer.*"
   },
   {
    "id": "no-longer-anymore-5",
@@ -63,7 +63,7 @@
     "anymore"
    ],
    "answer": 1,
-   "why": "no more + іменник."
+   "why": "Про кількість (молока не лишилося) — *no more* + іменник: *There's no more milk.*"
   },
   {
    "id": "no-longer-anymore-6",
@@ -76,7 +76,7 @@
     "ago"
    ],
    "answer": 0,
-   "why": "no longer."
+   "why": "*still* — «досі», протилежне — *no longer* (уже не)."
   },
   {
    "id": "no-longer-anymore-7",
@@ -89,7 +89,7 @@
     "after the object"
    ],
    "answer": 0,
-   "why": "Середня позиція."
+   "why": "*no longer* — у середині речення: перед основним дієсловом або після *be*."
   },
   {
    "id": "no-longer-anymore-8",
@@ -100,7 +100,7 @@
     "any more",
     "any longer"
    ],
-   "why": "not … anymore / any longer — у кінці."
+   "why": "Є *doesn't*, тому в кінці — *anymore / any more / any longer*."
   },
   {
    "id": "no-longer-anymore-9",
@@ -109,7 +109,7 @@
    "answer": [
     "no longer"
    ],
-   "why": "no longer — перед основним дієсловом."
+   "why": "Формальне «більше не» — *no longer* перед дієсловом."
   },
   {
    "id": "no-longer-anymore-10",
@@ -119,7 +119,7 @@
     "longer",
     "more"
    ],
-   "why": "not … any longer / any more."
+   "why": "*can't* + *any longer / any more*."
   },
   {
    "id": "no-longer-anymore-11",
@@ -128,7 +128,7 @@
    "answer": [
     "more"
    ],
-   "why": "no more + іменник — більше немає."
+   "why": "Кількість — *no more coffee*."
   },
   {
    "id": "no-longer-anymore-12",
@@ -137,7 +137,7 @@
    "answer": [
     "no"
    ],
-   "why": "is no longer — після be."
+   "why": "*is no longer*."
   },
   {
    "id": "no-longer-anymore-13",
@@ -150,7 +150,7 @@
     "any longer"
    ],
    "answer": 0,
-   "why": "no longer — перед основним дієсловом."
+   "why": "*no longer* перед основним дієсловом: *They no longer sell this model.*"
   },
   {
    "id": "no-longer-anymore-14",
@@ -163,7 +163,7 @@
     "longer"
    ],
    "answer": 0,
-   "why": "not … anymore — у кінці речення."
+   "why": "*don't* + *anymore* у кінці речення."
   },
   {
    "id": "no-longer-anymore-15",
@@ -176,7 +176,7 @@
     "not … anymore"
    ],
    "answer": 0,
-   "why": "Одне заперечення: doesn't … anymore."
+   "why": "Одне заперечення: *doesn't … anymore*. *doesn't … no longer* — подвійне."
   },
   {
    "id": "no-longer-anymore-16",
@@ -189,7 +189,7 @@
     "no more longer"
    ],
    "answer": 0,
-   "why": "can + no longer + V."
+   "why": "*can no longer walk* — *no longer* після модального."
   },
   {
    "id": "no-longer-anymore-17",
@@ -204,7 +204,7 @@
    "answer": [
     "She no longer works here"
    ],
-   "why": "no longer + V.",
+   "why": "*no longer* + дієслово.",
    "hint": "Вона тут більше не працює."
   },
   {
@@ -220,7 +220,7 @@
    "answer": [
     "I don't need it anymore"
    ],
-   "why": "not … anymore.",
+   "why": "*don't … anymore*.",
    "hint": "Мені це більше не потрібно."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "We can't wait any longer"
    ],
-   "why": "not … any longer.",
+   "why": "*can't … any longer*.",
    "hint": "Ми не можемо більше чекати."
   },
   {
@@ -253,7 +253,7 @@
    "answer": [
     "He is no longer my boss"
    ],
-   "why": "is + no longer.",
+   "why": "*is no longer*.",
    "hint": "Він більше не мій начальник."
   },
   {
@@ -267,7 +267,7 @@
     "any longer"
    ],
    "answer": 1,
-   "why": "Уже не (у часі) — no longer."
+   "why": "«Уже не» в часі — *no longer*: *We no longer live in that flat.*"
   },
   {
    "id": "no-longer-anymore-22",
@@ -280,7 +280,7 @@
     "still"
    ],
    "answer": 0,
-   "why": "Кількість — any more."
+   "why": "Кількість у питанні — *any more milk*."
   },
   {
    "id": "no-longer-anymore-23",
@@ -290,7 +290,7 @@
     "longer",
     "more"
    ],
-   "why": "not … any longer."
+   "why": "*can't wait any longer / any more*."
   }
  ]
 }
