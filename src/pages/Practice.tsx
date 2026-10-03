@@ -6,7 +6,7 @@ import Session from '../components/practice/Session'
 import TagPicker from '../components/TagPicker'
 import WordOfDay from '../components/WordOfDay'
 import { useAuth } from '../lib/authContext'
-import { useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
+import { REVIEW_KEY, useProgress, useTags, useWords, type WordWithTags } from '../lib/queries'
 import { canRecognize } from '../lib/recognition'
 import { canSpeak } from '../lib/speech'
 import { EXERCISES as ALL_EXERCISES, countSources, pickWords, type Exercise, type SessionConfig, type Source } from '../lib/session'
@@ -128,6 +128,8 @@ export default function Practice() {
         modes={config.modes}
         onFinish={() => {
           setRunning(null)
+          // While answers are still queued (offline), the cache already holds them and the queue refetches when it is done.
+          if (qc.isMutating({ mutationKey: REVIEW_KEY }) > 0) return
           qc.invalidateQueries({ queryKey: ['progress'] })
           qc.invalidateQueries({ queryKey: ['review_log'] })
         }}

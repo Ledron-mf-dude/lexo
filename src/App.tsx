@@ -1,4 +1,4 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
 import { Suspense } from 'react'
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import ErrorBoundary from './components/ErrorBoundary'
@@ -6,6 +6,7 @@ import Layout from './components/Layout'
 import { AuthProvider } from './lib/auth'
 import { useAuth } from './lib/authContext'
 import { lazyPage } from './lib/lazyPage'
+import { persistOptions, queryClient } from './lib/offline'
 import { isSupabaseConfigured } from './lib/supabase'
 import Account from './pages/Account'
 import Login from './pages/Login'
@@ -23,8 +24,6 @@ const Stats = lazyPage(() => import('./pages/Stats'))
 const Placement = lazyPage(() => import('./pages/Placement'))
 const Writing = lazyPage(() => import('./pages/Writing'))
 
-const queryClient = new QueryClient()
-
 // Shown while a lazily loaded section (grammar, statistics) downloads.
 const loading = <p className="animate-pulse text-white/55">Завантаження…</p>
 
@@ -41,7 +40,8 @@ function Gate() {
 export default function App() {
   return (
     <ErrorBoundary>
-    <QueryClientProvider client={queryClient}>
+    {/* The last copy of the user's data comes back from IndexedDB; answers queued offline are then sent. */}
+    <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions} onSuccess={() => queryClient.resumePausedMutations()}>
       <AuthProvider>
         <HashRouter>
           <Routes>
@@ -63,7 +63,7 @@ export default function App() {
           </Routes>
         </HashRouter>
       </AuthProvider>
-    </QueryClientProvider>
+    </PersistQueryClientProvider>
     </ErrorBoundary>
   )
 }

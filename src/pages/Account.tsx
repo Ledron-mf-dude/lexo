@@ -7,9 +7,18 @@ import { downloadText, wordsToText } from '../lib/wordsExport'
 import { canSpeak, setAutoSpeak, speak, useAutoSpeak } from '../lib/speech'
 import { useTitle } from '../lib/useTitle'
 import { setAccent, useAccent } from '../lib/accent'
+import { usePendingAnswers } from '../lib/offline'
+import { ANSWER, count } from '../lib/plural'
 
 export default function Account() {
   useTitle('Акаунт')
+  const pending = usePendingAnswers()
+
+  // Signing out forgets the offline copy, including answers that have not reached the server yet.
+  function signOut() {
+    if (pending > 0 && !window.confirm(`${count(pending, ANSWER)} ще не надіслано (немає мережі). Після виходу вони пропадуть. Вийти все одно?`)) return
+    void supabase.auth.signOut()
+  }
   const { session } = useAuth()
   const words = useWords()
   const tags = useTags()
@@ -84,7 +93,7 @@ export default function Account() {
         </button>
       </div>
 
-      <button onClick={() => supabase.auth.signOut()} className="btn-ghost w-full">
+      <button onClick={signOut} className="btn-ghost w-full">
         Вийти
       </button>
     </section>

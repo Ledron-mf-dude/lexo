@@ -1,5 +1,7 @@
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQuery, useQueryClient, type QueryClient } from '@tanstack/react-query'
 import type { PracticeMode, Progress, Tag, Word } from '../types'
+import type { ReviewRow } from './stats'
+import { ANSWER_SCOPE } from './exerciseLog'
 import { setRecordings } from './speech'
 import { supabase } from './supabase'
 import { builtInColor } from './tagTaxonomy'
@@ -267,42 +269,92 @@ export interface ReviewInput {
   log?: boolean
 }
 
-/** Persists one answer: appends a review_log row and, unless `next` is omitted, updates the word's schedule. */
-export function useReviewWord(userId: string) {
-  return useMutation({
-    mutationFn: async (r: ReviewInput) => {
-      const now = new Date().toISOString()
-      if (r.next || r.recall) {
-        const base = {
-          ...(r.next && {
-            ease_factor: r.next.ease_factor,
-            interval_days: r.next.interval_days,
-            repetitions: r.next.repetitions,
-            due_at: r.next.due_at.toISOString(),
-          }),
-          // last_reviewed marks the word as started, whichever direction was practised.
-          last_reviewed: now,
-          error_count: r.errorCount,
-        }
-        const recall = r.recall && {
-          recall_ease_factor: r.recall.ease_factor,
-          recall_interval_days: r.recall.interval_days,
-          recall_repetitions: r.recall.repetitions,
-          recall_due_at: r.recall.due_at.toISOString(),
-          recall_last_reviewed: now,
-        }
-        let { error } = await supabase.from('progress').update({ ...base, ...recall }).eq('word_id', r.wordId)
-        // Before migration 0005 there are no recall columns: keep the recognition schedule only.
-        if (error && recall && isMissingColumn(error)) ({ error } = await supabase.from('progress').update(base).eq('word_id', r.wordId))
-        if (error) throw error
-      }
-      if (r.log === false) return
-      const row: Record<string, unknown> = { word_id: r.wordId, user_id: userId, mode: r.mode, correct: r.correct, reviewed_at: now }
-      let { error: logError } = await supabase.from('review_log').insert(r.given ? { ...row, given: r.given } : row)
-      if (logError && r.given && isMissingColumn(logError)) ({ error: logError } = await supabase.from('review_log').insert(row))
-      if (logError) throw logError
+/** An answer queued for saving: the time it was given travels with it, so a reply sent later keeps its own time. */
+export type QueuedReview = ReviewInput & { userId: string; at: string }
+
+/** Key of the review mutation; its defaults (registered in lib/offline.ts) let a queued answer be sent after a reload. */
+export const REVIEW_KEY = ['review'] as const
+
+// Variables come back from IndexedDB as JSON, so a queued `due_at` may be a string rather than a Date.
+const iso = (d: Date | string) => new Date(d).toISOString()
+
+/** Writes one answer: updates the word's schedule (unless `next` and `recall` are omitted) and appends a review_log row. */
+async function saveReview(r: QueuedReview) {
+  if (r.next || r.recall) {
+    const base = {
+      ...(r.next && {
+        ease_factor: r.next.ease_factor,
+        interval_days: r.next.interval_days,
+        repetitions: r.next.repetitions,
+        due_at: iso(r.next.due_at),
+      }),
+      // last_reviewed marks the word as started, whichever direction was practised.
+      last_reviewed: r.at,
+      error_count: r.errorCount,
+    }
+    const recall = r.recall && {
+      recall_ease_factor: r.recall.ease_factor,
+      recall_interval_days: r.recall.interval_days,
+      recall_repetitions: r.recall.repetitions,
+      recall_due_at: iso(r.recall.due_at),
+      recall_last_reviewed: r.at,
+    }
+    let { error } = await supabase.from('progress').update({ ...base, ...recall }).eq('word_id', r.wordId)
+    // Before migration 0005 there are no recall columns: keep the recognition schedule only.
+    if (error && recall && isMissingColumn(error)) ({ error } = await supabase.from('progress').update(base).eq('word_id', r.wordId))
+    if (error) throw error
+  }
+  if (r.log === false) return
+  const row: Record<string, unknown> = { word_id: r.wordId, user_id: r.userId, mode: r.mode, correct: r.correct, reviewed_at: r.at }
+  let { error: logError } = await supabase.from('review_log').insert(r.given ? { ...row, given: r.given } : row)
+  if (logError && r.given && isMissingColumn(logError)) ({ error: logError } = await supabase.from('review_log').insert(row))
+  if (logError) throw logError
+}
+
+/**
+ * Options of the review mutation. The cached progress and log change at once, so the Practice page is right
+ * while the answers wait offline; the server copy is refetched once the last queued answer has been saved.
+ */
+export function reviewMutationDefaults(qc: QueryClient) {
+  return {
+    mutationFn: saveReview,
+    scope: { id: ANSWER_SCOPE },
+    retry: 2,
+    onMutate: (r: QueuedReview) => {
+      if (r.next || r.recall)
+        qc.setQueryData<Progress[]>(['progress'], (old) =>
+          old?.map((p) =>
+            p.word_id !== r.wordId
+              ? p
+              : {
+                  ...p,
+                  ...(r.next && { ease_factor: r.next.ease_factor, interval_days: r.next.interval_days, repetitions: r.next.repetitions, due_at: iso(r.next.due_at) }),
+                  ...(r.recall && {
+                    recall_ease_factor: r.recall.ease_factor,
+                    recall_interval_days: r.recall.interval_days,
+                    recall_repetitions: r.recall.repetitions,
+                    recall_due_at: iso(r.recall.due_at),
+                    recall_last_reviewed: r.at,
+                  }),
+                  last_reviewed: r.at,
+                  error_count: r.errorCount,
+                },
+          ),
+        )
+      if (r.log !== false) qc.setQueryData<ReviewRow[]>(['review_log'], (old) => old && [{ reviewed_at: r.at, mode: r.mode, correct: r.correct }, ...old])
     },
-  })
+    onSettled: () => {
+      if (qc.isMutating({ mutationKey: REVIEW_KEY }) > 1) return
+      qc.invalidateQueries({ queryKey: ['progress'] })
+      qc.invalidateQueries({ queryKey: ['review_log'] })
+    },
+  }
+}
+
+/** Saves answers. Offline they wait in a queue that survives closing the app and are sent when the connection is back. */
+export function useReviewWord(userId: string) {
+  const m = useMutation<void, Error, QueuedReview>({ mutationKey: REVIEW_KEY })
+  return { mutate: (r: ReviewInput) => m.mutate({ ...r, userId, at: new Date().toISOString() }) }
 }
 
 export const TAG_COLORS = ['#7c9bff', '#5eead4', '#6ee7b7', '#fbbf24', '#fb7185', '#c4b5fd', '#f9a8d4', '#94a3b8']

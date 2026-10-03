@@ -1,4 +1,4 @@
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQuery, type QueryClient } from '@tanstack/react-query'
 import { supabase } from './supabase'
 
 export interface LogRow {
@@ -29,22 +29,42 @@ export function useExerciseLog() {
   return useQuery({ queryKey: ['exercise_log'], queryFn: fetchLog, retry: false, refetchOnWindowFocus: false })
 }
 
-export function useLogAnswer(userId: string) {
-  const qc = useQueryClient()
-  return useMutation({
-    mutationFn: async (a: { slug: string; questionId: string; correct: boolean }) => {
+/** A grammar answer queued for saving, with the time it was given. */
+export interface QueuedAnswer {
+  slug: string
+  questionId: string
+  correct: boolean
+  userId: string
+  at: string
+}
+
+/** Scope shared by word reviews and grammar answers: one queue, sent in the order the answers were given. */
+export const ANSWER_SCOPE = 'lexo-answers'
+
+/** Key of the answer mutation; its defaults are registered in lib/offline.ts so a queued answer survives a reload. */
+export const ANSWER_KEY = ['exercise_answer'] as const
+
+export function answerMutationDefaults(qc: QueryClient) {
+  return {
+    mutationFn: async (a: QueuedAnswer) => {
       const { error } = await supabase
         .from('exercise_log')
-        .insert({ user_id: userId, article_slug: a.slug, question_id: a.questionId, correct: a.correct })
+        .insert({ user_id: a.userId, article_slug: a.slug, question_id: a.questionId, correct: a.correct, answered_at: a.at })
       if (error) throw error
     },
+    scope: { id: ANSWER_SCOPE },
+    retry: 2,
     // The answer goes into the cached log at once (newest first), so progress and «new» counts are right without refetching every page.
-    onMutate: (a) =>
-      qc.setQueryData<LogRow[]>(['exercise_log'], (old) =>
-        old && [{ article_slug: a.slug, question_id: a.questionId, correct: a.correct, answered_at: new Date().toISOString() }, ...old],
-      ),
+    onMutate: (a: QueuedAnswer) =>
+      qc.setQueryData<LogRow[]>(['exercise_log'], (old) => old && [{ article_slug: a.slug, question_id: a.questionId, correct: a.correct, answered_at: a.at }, ...old]),
     onError: () => qc.invalidateQueries({ queryKey: ['exercise_log'] }),
-  })
+  }
+}
+
+/** Logs grammar answers; offline they wait in the queue (see useReviewWord). */
+export function useLogAnswer(userId: string) {
+  const m = useMutation<void, Error, QueuedAnswer>({ mutationKey: ANSWER_KEY })
+  return { mutate: (a: { slug: string; questionId: string; correct: boolean }) => m.mutate({ ...a, userId, at: new Date().toISOString() }) }
 }
 
 export interface TopicStats {
