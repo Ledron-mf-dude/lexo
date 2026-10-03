@@ -70,6 +70,20 @@ tags: [subject questions, object questions, who called, what happened, prepositi
 
 *"Somebody called." — "**Who?**"* / *"Something happened." — "**What?**"* / *"I met someone." — "**Who did you meet?**"*
 
+## Як вибрати
+
+1. Питаєте про **підмет** (хто? що? зробив) — без *do / does / did*, дієслово як у ствердженні: *Who called you?*
+2. Питаєте про **додаток** (кого? що? зробив він) — з допоміжним: *Who did you call?*
+3. Щоб розрізнити, дайте відповідь: *Tom called me* → питання до *Tom* (підмет) — *Who called?*
+4. Прийменник у питанні до додатка — у кінці: *Who did you go with?*
+
+## Пастки перекладу
+
+- «Хто тобі дзвонив?» — *Who called you?*, а не *Who did call you?*
+- «Що сталося?» — *What happened?*, без *did*.
+- «Скільки людей прийшло?» — *How many people came?*
+- «З ким ти живеш?» — *Who do you live with?*
+
 ## Типові помилки
 
 - ✗ *Who did call you?* → ✓ ***Who called** you?*

@@ -60,6 +60,21 @@ tags: [used to, would, be used to, get used to, past habits, звичка, ко�
 
 Щоб підкреслити зміну, `used to` часто поєднують із **any more / no longer**: *I used to live in Kharkiv, but I **don't** live there **any more**.* Див. «No longer, any longer, anymore».
 
+## Як вибрати
+
+1. Колишня звичка чи стан, яких уже немає, — *used to* + дієслово: *I used to smoke.*
+2. Повторювані дії в минулому (не стан) — також *would*: *We would play outside.*
+3. Звик / звикла до (стан) — *be used to* + іменник / *-ing*.
+4. Процес звикання — *get used to* + іменник / *-ing*.
+5. Питання й заперечення — *did … use to* (без *-d*).
+
+## Пастки перекладу
+
+- «Раніше я курив» — *I used to smoke*; «я звик рано вставати» — *I'm used to getting up early*: після *be used to* — *-ing*.
+- «Ти раніше грав у шахи?» — *Did you use to play chess?*, без *-d*.
+- «У мене раніше був собака» — *I used to have a dog*, а не *I would have a dog* (це стан).
+- Зараз щось роблю зазвичай — *I usually…*, а не *I use to*.
+
 ## Типові помилки
 
 - ✗ *I use to smoke.* (у минулому) → ✓ *I **used to** smoke.*

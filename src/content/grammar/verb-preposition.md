@@ -77,6 +77,20 @@ wordTags: [з прийменником]
 - *They **provided us with** maps.*
 - *She **translated** the book **from** French **into** Ukrainian.*
 
+## Як вибрати
+
+1. Прийменник після дієслова — частина сталого поєднання, його не перекладаємо з української: *depend **on***, *listen **to***, *wait **for***.
+2. Деякі дієслова **без** прийменника, хоча в українській він є: *discuss the problem*, *enter the room*, *marry Tom*, *answer the question*.
+3. Інший прийменник — інше значення: *look at* (дивитися), *look for* (шукати), *look after* (доглядати); *agree with* (людина) / *agree to* (пропозиція) / *agree on* (ціна).
+4. Після прийменника дієслово — *-ing*: *succeed in passing*.
+
+## Пастки перекладу
+
+- «Залежить від» — *depends on*, а не *depends of / from*.
+- «Обговорювати проблему» — *discuss the problem*, а не *discuss about*.
+- «Слухати музику» — *listen to music*.
+- «Вийшла заміж за Тома» — *married Tom*, без *with*.
+
 ## Типові помилки
 
 - ✗ *It depends of the weather.* → ✓ *It depends **on** the weather.*

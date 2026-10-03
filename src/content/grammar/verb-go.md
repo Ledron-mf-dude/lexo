@@ -72,6 +72,22 @@ tags: [go, go to, go home, go swimming, go for a walk, go on, gone, been, go by 
 - *Does this tie **go with** my shirt?* — Пасує до.
 - *What's **going on**?* — Що відбувається?
 
+## Як вибрати
+
+1. Рух кудись — *go to* + місце; додому — *go home* (без *to*).
+2. Дозвілля, спорт — *go* + *-ing*: *go swimming, go shopping*.
+3. *go for a walk / a drink / a run*; *go on holiday*; транспорт — *by train*, пішки — *on foot*.
+4. *go* + прикметник — «ставати» (часто погано): *go bad, go bald, go wrong*.
+5. *has gone to* — пішов і досі там; *has been to* — побував і повернувся.
+6. До співрозмовника — *come*, а не *go*: *I'm coming!*
+
+## Пастки перекладу
+
+- «Іду!» у відповідь на «Обід готовий!» — *I'm coming!*, а не *I'm going*.
+- «Піти поплавати» — *go swimming*, а не *go to swim*.
+- «Пішки» — *on foot*, а не *by foot*.
+- «Щось пішло не так» — *Something went wrong*.
+
 ## Типові помилки
 
 - ✗ *go to home* → ✓ ***go home***

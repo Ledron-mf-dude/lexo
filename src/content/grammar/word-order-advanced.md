@@ -75,6 +75,21 @@ tags: [fronting, винесення на початок, end weight, end focus, 
 
 Прислівник між *to* і дієсловом (*to **really** understand*) колись вважали помилкою, але сьогодні це звичайна, природна англійська.
 
+## Як вибрати
+
+1. Хочете протиставити чи зв'язати з попереднім — винесіть додаток на початок (без інверсії): *That I can't accept.*
+2. Обставина місця + дієслово руху на початку — інверсія з іменником: *Here comes the bus*; з займенником — без інверсії: *Here it comes*.
+3. Поступка — прикметник / *Much* / *Try* + *as* + підмет + дієслово, без *but*: *Tired as she was, …*
+4. Довгий підмет переносимо в кінець через *it*: *It surprised everyone that…*; *find / make it* + прикметник + *to*.
+5. Нове й важливе — наприкінці речення.
+
+## Пастки перекладу
+
+- «Хоч він мені й подобається, але…» — *Much as I like him, …*, без *but*.
+- «Мені важко зосередитися» — *I find it difficult to concentrate*: *it* обов'язкове.
+- «Ось і автобус!» — *Here comes the bus!*
+- Вільний український порядок слів не переноситься в англійську: перестановка завжди має причину.
+
 ## Типові помилки
 
 - ✗ *Much as I like him, but I can't lend him money.* → ✓ *Much as I like him, I can't lend him money.* / *I like him, but I can't lend him money.* / *Although I like him, I can't lend him money.*

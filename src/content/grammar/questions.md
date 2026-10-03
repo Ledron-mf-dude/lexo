@@ -81,6 +81,21 @@ tags: [questions, question words, what, who, where, when, why, how, which, whose
 
 Повторюємо допоміжне: *Do you like tea? — Yes, I **do**. / No, I **don't**.* Див. «Auxiliary verbs».
 
+## Як вибрати
+
+1. Є *be*, модальне чи інше допоміжне? — ставимо його перед підметом: *Are you…? Can she…? Have they…?*
+2. Немає — додаємо *do / does / did*: *Where do you live?*
+3. Питальне слово — на початку: *What, Where, When, Why, Who, Whose, Which, How + much / many / long / often / far*.
+4. Питаєте про підмет (хто? що?) — без *do*: *Who called?*
+5. Прийменник — зазвичай у кінці: *Who are you talking to?*
+
+## Пастки перекладу
+
+- «Де ти живеш?» — *Where do you live?*: інтонацією, як в українській, питання не утворюють.
+- «Скільки людей?» — *How many people?*; «скільки часу?» — *How much time?* або *How long?* (тривалість).
+- «Ким він працює?» — *What does he do?*
+- «Яка вона?» — *What is she like?*; «Як вона виглядає?» — *What does she look like?*
+
 ## Типові помилки
 
 - ✗ *Where you live?* → ✓ *Where **do you** live?*

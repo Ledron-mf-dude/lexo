@@ -61,6 +61,21 @@ tags: [relative clauses, who, which, that, where, whose, defining, non-defining,
 
 - *He passed the exam, **which** surprised everyone.* — Він склав іспит, і це всіх здивувало.
 
+## Як вибрати
+
+1. Про людей — *who* (або *that*); про речі — *which* (або *that*); про місце — *where*; про час — *when*; належність — *whose*.
+2. Підрядне уточнює, **про кого саме** (без ком)? — можна *that*, а якщо слово — додаток, його можна пропустити: *the book (that) I read*.
+3. Додаткова інформація **в комах**? — лише *who / which*, без *that*, і пропустити не можна.
+4. Після прийменника формально — *whom / which*: *to whom, in which*.
+5. *what* = «те, що», без іменника перед ним.
+
+## Пастки перекладу
+
+- Українське «який» перекладається по-різному: *who* для людей, *which* для речей.
+- «Чоловік, машину якого вкрали» — *the man whose car was stolen*.
+- «Кафе, де ми зустрілися, закрилося» — *The café where we met has closed*, без зайвого *there*.
+- «Усе, що вона сказала» — *everything (that) she said*, а не *everything what*.
+
 ## Типові помилки
 
 - ✗ *The man which called is my boss.* → ✓ *The man **who / that** called…*

@@ -111,6 +111,25 @@ tags: [word formation, prefixes, suffixes, un-, dis-, im-, in-, ir-, il-, mis-, 
 - Подвоєння приголосної: *begin → beginner*, *forget → forgettable*.
 - Деякі корені змінюються: *explain → explanation*, *pronounce → pronunciation*, *deep → depth*, *high → height*.
 
+## Як вибрати
+
+1. Визначте, яка частина мови потрібна в цьому місці:
+   - після артикля чи прикметника — іменник;
+   - після *be* чи *very* — прикметник;
+   - біля дієслова — прислівник;
+   - після *to* чи модального — дієслово.
+2. Іменник: *-tion, -ment, -ness, -ity, -ance, -ship*; людина — *-er, -or, -ist, -ee*.
+3. Прикметник: *-ful, -less, -ous, -able, -ive, -al, -y*.
+4. Дієслово: *-ify, -ise / -ize, -en*; прислівник — *-ly*.
+5. Заперечні префікси: *un-, in- (im- перед p / m, il- перед l, ir- перед r), dis-, mis-*.
+
+## Пастки перекладу
+
+- «Неможливий» — *impossible*, не *unpossible*: перед *p* — *im-*.
+- «Порада» (іменник) — *advice*, «радити» (дієслово) — *advise*.
+- «Роботодавець» — *employer*, «працівник» — *employee*.
+- «Вимова» — *pronunciation*, без *-o-* після *n*, хоча дієслово *pronounce*.
+
 ## Типові помилки
 
 - ✗ *He gave me a good advise.* → ✓ *He gave me some good **advice**.* (advise — дієслово, advice — іменник)

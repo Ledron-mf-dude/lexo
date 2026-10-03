@@ -115,6 +115,22 @@ tags: [subject verb agreement, singular, plural, everyone is, the number of, a n
 
 У розмові *there's* часто вживають і з множиною (*There's two letters*), але в письмі — *there are*.
 
+## Як вибрати
+
+1. Знайдіть **головне слово** підмета й узгодьте дієслово з ним: *The price of the tickets is…*
+2. Однина: *everyone, each (of), every, nobody*; *news, physics*; суми грошей; назви країн; герундій-підмет.
+3. Множина: *police, people*; *both*; *a number of*.
+4. *The number of* — однина; *a number of* — множина.
+5. *neither … nor / either … or* — за найближчим іменником.
+6. Підмет після дієслова (*There are…, On the table were…*) — узгоджуємо з ним.
+
+## Пастки перекладу
+
+- «Кожен готовий» — *Everyone is ready*, а не *are*.
+- «Поліція розслідує» — *The police are investigating*: множина.
+- «Новини шокують» — *The news is shocking*: однина.
+- «Десять доларів — це забагато» — *Ten dollars is too much*: сума як одне ціле.
+
 ## Типові помилки
 
 - ✗ *Everyone are here.* → ✓ *Everyone **is** here.*

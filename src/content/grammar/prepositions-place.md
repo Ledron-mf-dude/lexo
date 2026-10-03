@@ -81,6 +81,21 @@ tags: [prepositions of place, at, in, on, next to, under, between, behind, in fr
 
 *in bed, in hospital (BrE), in prison, at home, at work, at school, at university, at sea, on holiday, on business*.
 
+## Як вибрати
+
+1. Точка, місце зустрічі, адреса з номером — *at*: *at the bus stop, at 25 Park Road*.
+2. Усередині простору, міста, країни — *in*: *in the drawer, in Paris*.
+3. На поверхні (зокрема на стіні, поверсі, в транспорті) — *on*: *on the table, on the third floor, on the bus*.
+4. Поруч і взаємне розташування — *next to, opposite, behind, in front of, between* (двоє), *among* (багато), *above / below*, *under*.
+5. Сталі вирази: *at home, at work, in bed, in hospital, on the left*.
+
+## Пастки перекладу
+
+- «В автобусі» — *on the bus*, а не *in the bus*; але «в машині» — *in the car*.
+- «На фото» — *in the photo*, не *on the photo*.
+- «На третьому поверсі» — *on the third floor*.
+- «Вдома» — *at home*, без артикля.
+
 ## Типові помилки
 
 - ✗ *in the bus* → ✓ ***on** the bus* (але *in a car*)

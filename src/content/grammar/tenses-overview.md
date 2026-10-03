@@ -59,6 +59,20 @@ tags: [tenses, all tenses, present, past, future, simple, continuous, perfect, p
 - **Past Continuous** — тло;
 - **Past Perfect** — те, що сталося раніше. Див. «Past Perfect Simple і Past Perfect Continuous».
 
+## Як вибрати
+
+1. **Коли?** Теперішнє, минуле чи майбутнє — визначає форму *be / have / will*.
+2. **Який аспект?** Факт, звичка, послідовні події — Simple; процес у момент — Continuous; результат до моменту — Perfect; тривалість до моменту — Perfect Continuous.
+3. Підказки: *every day* — Simple; *now, at 6 yesterday* — Continuous; *already, since, by Friday* — Perfect; *for two hours* (до моменту) — Perfect Continuous.
+4. Дієслова стану — без Continuous.
+
+## Пастки перекладу
+
+- В українській три часи, в англійській — дванадцять комбінацій часу й аспекту; вирішує не лише «коли», а й «як».
+- «Я працюю тут з 2020 року» — *I have been working here since 2020*.
+- «Вчора я зустрів Тома» — *Yesterday I met Tom*: з *yesterday* — Past Simple.
+- «До наступного року я закінчу» — *By next year I'll have finished*.
+
 ## Типові помилки
 
 - ✗ *I am working here since 2020.* → ✓ *I **have been working** here since 2020.*

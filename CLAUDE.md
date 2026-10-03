@@ -39,6 +39,7 @@ npm run lint     # oxlint
 - The front matter parser is hand-rolled, with one `key: value` per line. List values are split on commas, so an alias must not contain a comma.
 - Cross-references are written as `«Article title»` in the body and resolved to links through titles, title variants and aliases. An unresolved reference stays plain text.
 - The search index is MiniSearch, ranked by title and topic first.
+- Before it, every article has `## Як вибрати` (numbered steps for choosing the form) and `## Пастки перекладу` (where Ukrainian leads to a wrong English form). `ruleFinder` gives these two summary sections and `## Типові помилки` a lower weight, so «Правило» opens the section that explains the rule.
 - Each article ends with a `## Типові помилки` section of lines in the form `- ✗ *wrong* → ✓ *right*`. [src/pages/GrammarArticle.tsx](src/pages/GrammarArticle.tsx) styles lines that start with ✗ as mistake cards.
 - **Markdown pitfall:** bold markers directly between a letter and an apostrophe do not render (`I**'ll**`). Bold the whole word instead (`**I'll**`).
 
@@ -49,6 +50,7 @@ npm run lint     # oxlint
   - `fill`: `q` containing `___`, and `answer`, which is a list of accepted strings;
   - `order`: `words`, and `answer`, which is a list of accepted sentences.
 - A fourth type, `fix` («Знайди помилку»), is not written in JSON. `mistakeQuestions` generates it from the article's `- ✗ *wrong* → ✓ *right*` lines; alternatives after ` / ` become extra accepted answers. Pairs with «…», a slash inside a span, a BrE/AmE/register note, or a punctuation-only change are skipped. The id is a hash of the wrong sentence, so editing that sentence resets its log history. In the quiz, about 30% of draws show the corrected sentence instead, and the learner can mark an unrecognised correction as right («Мій варіант теж правильний»), which logs a newer correct row.
+- **Explanations (`why`)** state the rule, why the answer fits this sentence and, for choice questions, why the tempting wrong option fails; accepted alternatives are mentioned. English goes in `*italics*`, which the quiz renders (`RichText`). In find-the-mistake feedback the changed words are highlighted (`lib/wordDiff.ts`).
 - **One right answer, or all of them.**
   - A `choice` question must have exactly one option that is right in context. The distractors must be wrong, not just less typical: a train that «will leave» at 9:15 is not a mistake.
   - A `fill` gap where several words fit (would / could / might, just / already, a time-clause tense) either lists them all in `answer` or narrows the gap with a cue: a base verb in brackets in `q`, or a `hint` such as «(досі)» or «(do / make)».

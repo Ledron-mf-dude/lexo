@@ -71,6 +71,22 @@ tags: [get, get up, get on, get over, get used to, get + adjective, get done, о
 
 `Have got` = «мати» (теперішній час); `got` — минуле від `get` («отримав»): *I'**ve got** a car* (маю) — *I **got** a car last year* (купив).
 
+## Як вибрати
+
+1. *get* + прикметник — «ставати»: *get dark, get married, get lost, get dressed*.
+2. *get* + іменник — «отримати, купити, принести»: *get a letter, get some bread*.
+3. *get* + місце — «дістатися»: *get home, get to work* (з *home* — без *to*).
+4. *get* + V3 — розмовний пасив: *get fired*.
+5. *get* + річ + V3 — послуга: *get my car repaired*; *get* + особа + *to* — домогтися: *got him to help*.
+6. Фразові: *get up, get on (with), get over, get rid of*.
+
+## Пастки перекладу
+
+- *get* — одне з найуживаніших дієслів, і в українській йому відповідає багато різних слів: отримати, стати, дістатися, зрозуміти.
+- «Дістатися додому» — *get home*, а не *get to home*.
+- «Вийти з потяга» — *get off the train*; «вийти з машини» — *get out of the car*.
+- «Позбутися» — *get rid of*.
+
 ## Типові помилки
 
 - ✗ *It's getting darkly.* (після get — прикметник) → ✓ *It's getting **dark**.*

@@ -65,6 +65,20 @@ tags: [unreal past, as if, as though, suppose, supposing, it's time, it's high t
 
 Минулий час віддаляє прохання від «тут і зараз» і робить його м'якшим: *I **wanted** to ask you something.* / *I **was hoping** you could help.* / *Did you **want** some tea?*
 
+## Як вибрати
+
+1. Після *It's (high) time*, *I'd rather* + особа, *as if / as though* (нереально), *Suppose / What if* (уявно) — **Past Simple** про теперішнє.
+2. Те саме про минуле — **Past Perfect**: *as if she had seen a ghost*.
+3. *as if* про реально можливе — звичайний час: *It looks as if it's going to rain.*
+4. *were* для всіх осіб у формальному стилі: *as if he were rich*.
+
+## Пастки перекладу
+
+- «Пора нам іти» — *It's time we went*: Past Simple, хоча мова про зараз.
+- «Він говорить так, ніби все знає» — *as if he knew everything*.
+- «Я б волів, щоб ти не казав їй» — *I'd rather you didn't tell her*.
+- Минулий час тут — знак нереальності, а не минулого.
+
 ## Типові помилки
 
 - ✗ *It's time we go home.* → ✓ *It's time we **went** home.*

@@ -26,9 +26,12 @@ function clues(q: Question): { word: string; weight: number }[] {
 }
 
 /**
- * The article section that most likely explains this question: the one sharing the most clue words with its explanation and answer.
- * «Типові помилки» counts for little, since «find the mistake» pairs come from it but it does not explain the rule.
+ * Sections every article has. They touch on all of the topic, so they would match almost any question;
+ * the section that explains the rule itself should win. «Типові помилки» is where «find the mistake» pairs come from, not an explanation.
  */
+const SECTION_WEIGHT: Record<string, number> = { 'Типові помилки': 0.3, 'Пастки перекладу': 0.5, 'Як вибрати': 0.7 }
+
+/** The article section that most likely explains this question: the one sharing the most clue words with its explanation and answer. */
 export function ruleSectionIndex(sections: { title: string; body: string }[], q: Question): number {
   const cl = clues(q)
   let best = 0
@@ -38,7 +41,7 @@ export function ruleSectionIndex(sections: { title: string; body: string }[], q:
     const title = new Set(words(s.title))
     // A clue in the heading itself («Past Simple», «Since + момент») says the most about what the section explains.
     const hits = cl.reduce((sum, c) => sum + (text.has(c.word) ? c.weight : 0) + (title.has(c.word) ? 2 * c.weight : 0), 0)
-    const score = hits * (s.title.startsWith('Типові помилки') ? 0.3 : 1)
+    const score = hits * (SECTION_WEIGHT[s.title] ?? 1)
     if (score > bestScore) {
       best = i
       bestScore = score

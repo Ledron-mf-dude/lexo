@@ -71,6 +71,21 @@ tags: [seem, it seems, seem to, seem like, appear, there seems to be, здаєт
 
 Розмовне «ніяк не вдається»: *I **can't seem to** find my keys.* = *I seem to be unable to find…*
 
+## Як вибрати
+
+1. Враження зараз — *seem* + прикметник: *She seems happy.*
+2. *seem to* + інфінітив у потрібній формі: загальне — *to live*; зараз — *to be living*; раніше — *to have lived*.
+3. Повне речення — *It seems (that)…*; «мені здається» — *It seems to me that…*
+4. Здається, щось є — *There seems to be…*
+5. Про зовнішній вигляд конкретно — *look*: *You look tired.*
+
+## Пастки перекладу
+
+- «Здається, вона пішла» — *She seems to have left*.
+- «Схоже, він хороший хлопець» — *He seems (like) a nice guy*.
+- «Ніяк не можу знайти ключі» — *I can't seem to find my keys*.
+- *seem* у Continuous зазвичай не вживають: *She seems happy*, а не *is seeming*.
+
 ## Типові помилки
 
 - ✗ *She seems be tired.* → ✓ *She seems **to be** tired.* / *She seems **tired**.*

@@ -103,6 +103,21 @@ Continuous робить прохання чи намір обережнішим:
 
 Рекламне *I'm loving it* — свідоме порушення правила, у звичайному мовленні краще *I love it*.
 
+## Як вибрати
+
+1. Жива розповідь, анекдот, переказ сюжету — Present Simple (фон — Continuous).
+2. Заголовки: подія — Present Simple, план — *to* + інфінітив, пасив — V3.
+3. Інструкції, рецепти, коментар — Present Simple.
+4. Роздратування, тенденції, м'які прохання — Present Continuous: *always complaining*, *more people are…*, *I'm hoping…*
+5. *I hear / I gather / I see* — «мені стало відомо».
+
+## Пастки перекладу
+
+- «Чув, ти переїжджаєш» — *I hear you're moving*, не *I'm hearing*.
+- «Він вічно скаржиться» — *He's always complaining*.
+- «Спершу береш яйця» — *First you take two eggs*: інструкції в Present Simple.
+- «Обіцяю» — *I promise*, а не *I'm promising*.
+
 ## Типові помилки
 
 - ✗ *He always is complaining about the weather.* → ✓ *He **is always complaining** about the weather.* / *He always complains about the weather.*
