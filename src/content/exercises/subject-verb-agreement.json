@@ -270,8 +270,8 @@
    "q": "Fish and chips ___ my favourite meal.",
    "options": [
     "is",
-    "are",
-    "were",
+    "be",
+    "being",
     "have been"
    ],
    "answer": 0,

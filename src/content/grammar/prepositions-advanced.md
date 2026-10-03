@@ -29,7 +29,7 @@ tags: [preposition at the end, preposition stranding, in which, to whom, worth l
 - *the person **to whom** I spoke* = *the person (who) I spoke to*
 - ***With whom** did you travel?* — дуже формально.
 
-Перед **that** і **who** прийменник не ставлять: *in that*, *to who* — помилка. Див. «Relative clauses (означальні підрядні): who, which, that, where, whose».
+Перед **that** прийменник не ставлять: *in that* — помилка. Після прийменника в підрядному — **whom**, а не *who*: *to whom*. Див. «Relative clauses (означальні підрядні): who, which, that, where, whose».
 
 Частку фразового дієслова не переносять уперед: *the problem we came **up with*** — не *with which we came up*.
 

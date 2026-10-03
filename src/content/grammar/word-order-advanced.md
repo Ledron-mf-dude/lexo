@@ -77,9 +77,9 @@ tags: [fronting, винесення на початок, end weight, end focus, 
 
 ## Типові помилки
 
-- ✗ *Much as I like him, but I can't lend him money.* → ✓ *Much as I like him, I can't lend him money.*
-- ✗ *Tired as was she, she kept working.* → ✓ *Tired as **she was**, she kept working.*
+- ✗ *Much as I like him, but I can't lend him money.* → ✓ *Much as I like him, I can't lend him money.* / *I like him, but I can't lend him money.* / *Although I like him, I can't lend him money.*
+- ✗ *Tired as was she, she kept working.* → ✓ *Tired as **she was**, she kept working.* / *Although she was tired, she kept working.*
 - ✗ *Here comes it.* → ✓ *Here **it comes**.*
 - ✗ *I find difficult to concentrate in the morning.* → ✓ *I find **it** difficult to concentrate in the morning.*
 - ✗ *Try as he might, but he couldn't open the door.* → ✓ *Try as he might, he couldn't open the door.*
-- ✗ *I would appreciate if you could reply soon.* → ✓ *I would appreciate **it** if you could reply soon.*
+- ✗ *Strange though seems it, it's true.* → ✓ *Strange though **it seems**, it's true.* / *Strange though it may seem, it's true.*
