@@ -11,7 +11,7 @@
     "may to"
    ],
    "answer": 0,
-   "why": "can — те, що іноді буває."
+   "why": "*can* — «буває»: *It can get very windy here.*"
   },
   {
    "id": "modals-can-may-advanced-2",
@@ -24,7 +24,7 @@
     "be able"
    ],
    "answer": 0,
-   "why": "Після have — been able to."
+   "why": "Після *have* *can* не вживається — *have been able to*."
   },
   {
    "id": "modals-can-may-advanced-3",
@@ -37,7 +37,7 @@
     "be able"
    ],
    "answer": 0,
-   "why": "Інфінітив від can — to be able to."
+   "why": "Інфінітив від *can* — *to be able to*."
   },
   {
    "id": "modals-can-may-advanced-4",
@@ -50,7 +50,7 @@
     "may well to"
    ],
    "answer": 0,
-   "why": "might as well — нічого кращого не лишається."
+   "why": "*might as well* + дієслово — нічого кращого не лишається."
   },
   {
    "id": "modals-can-may-advanced-5",
@@ -63,7 +63,7 @@
     "may good"
    ],
    "answer": 0,
-   "why": "may well — цілком імовірно."
+   "why": "*may well* — цілком імовірно."
   },
   {
    "id": "modals-can-may-advanced-6",
@@ -76,7 +76,7 @@
     "could had"
    ],
    "answer": 0,
-   "why": "could have + V3 — докір."
+   "why": "*could have* + третя форма — докір."
   },
   {
    "id": "modals-can-may-advanced-7",
@@ -89,7 +89,7 @@
     "laughed"
    ],
    "answer": 0,
-   "why": "can't help + V-ing."
+   "why": "*can't help* + *-ing*."
   },
   {
    "id": "modals-can-may-advanced-8",
@@ -102,7 +102,7 @@
     "can to"
    ],
    "answer": 0,
-   "why": "may …, but — поступка."
+   "why": "*may …, but* — поступка: визнаю, але…"
   },
   {
    "id": "modals-can-may-advanced-9",
@@ -115,7 +115,7 @@
     "Shall"
    ],
    "answer": 0,
-   "why": "May you… — урочисте побажання."
+   "why": "*May you…* — урочисте побажання."
   },
   {
    "id": "modals-can-may-advanced-10",
@@ -128,7 +128,7 @@
     "could have"
    ],
    "answer": 0,
-   "why": "Одне конкретне досягнення — managed to."
+   "why": "Одне досягнення в минулому — *managed to*."
   },
   {
    "id": "modals-can-may-advanced-11",
@@ -137,7 +137,7 @@
    "answer": [
     "Try"
    ],
-   "why": "Try as he might — як він не намагався."
+   "why": "*Try as he might* — як він не намагався."
   },
   {
    "id": "modals-can-may-advanced-12",
@@ -147,7 +147,7 @@
     "might",
     "could"
    ],
-   "why": "might / could have + V3 — докір."
+   "why": "*might / could have* + третя форма — докір."
   },
   {
    "id": "modals-can-may-advanced-13",
@@ -157,7 +157,7 @@
     "may",
     "must"
    ],
-   "why": "may not — офіційна заборона."
+   "why": "Офіційна заборона — *may not* (або *must not*)."
   },
   {
    "id": "modals-can-may-advanced-14",
@@ -166,7 +166,7 @@
    "answer": [
     "able"
    ],
-   "why": "will be able to — майбутнє від can."
+   "why": "Майбутнє — *will be able to*."
   },
   {
    "id": "modals-can-may-advanced-15",
@@ -183,7 +183,7 @@
     "It can get very cold here",
     "Here it can get very cold"
    ],
-   "why": "can — буває.",
+   "why": "*It can get very cold here.*",
    "hint": "Тут буває дуже холодно."
   },
   {
@@ -200,7 +200,7 @@
    "answer": [
     "We might as well go home"
    ],
-   "why": "might as well + V.",
+   "why": "*We might as well go home.*",
    "hint": "Можемо й піти додому."
   },
   {
@@ -216,7 +216,7 @@
    "answer": [
     "She may well be right"
    ],
-   "why": "may well — цілком імовірно.",
+   "why": "*She may well be right.*",
    "hint": "Цілком можливо, що вона має рацію."
   },
   {
@@ -234,7 +234,7 @@
    "answer": [
     "I have never been able to swim"
    ],
-   "why": "have been able to.",
+   "why": "*have never been able to*.",
    "hint": "Я ніколи не вмів плавати."
   }
  ]

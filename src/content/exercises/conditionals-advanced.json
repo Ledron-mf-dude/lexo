@@ -11,7 +11,7 @@
     "Although"
    ],
    "answer": 0,
-   "why": "unless = if … not."
+   "why": "*Unless* = *if … not*: якщо не поспішиш, запізнишся."
   },
   {
    "id": "conditionals-advanced-2",
@@ -24,7 +24,7 @@
     "because"
    ],
    "answer": 0,
-   "why": "provided that — за умови."
+   "why": "*provided that* — «за умови, що»."
   },
   {
    "id": "conditionals-advanced-3",
@@ -37,7 +37,7 @@
     "so that"
    ],
    "answer": 0,
-   "why": "as long as — за умови."
+   "why": "*as long as* — «за умови, що, аби тільки»."
   },
   {
    "id": "conditionals-advanced-4",
@@ -50,7 +50,7 @@
     "Unless"
    ],
    "answer": 0,
-   "why": "But for + іменник = If it weren't for — «якби не»."
+   "why": "*But for* + іменник = *If it weren't for* — «якби не»."
   },
   {
    "id": "conditionals-advanced-5",
@@ -63,7 +63,7 @@
     "Did"
    ],
    "answer": 1,
-   "why": "Інверсія: Had I known…"
+   "why": "Інверсія замість *if*: *Had I known* = *If I had known*."
   },
   {
    "id": "conditionals-advanced-6",
@@ -76,7 +76,7 @@
     "Are"
    ],
    "answer": 0,
-   "why": "Should you need…"
+   "why": "Формальна умова: *Should you need help* = *If you need help*."
   },
   {
    "id": "conditionals-advanced-7",
@@ -89,7 +89,7 @@
     "as long"
    ],
    "answer": 0,
-   "why": "in case — на випадок."
+   "why": "*in case* — на випадок, якщо."
   },
   {
    "id": "conditionals-advanced-8",
@@ -102,7 +102,7 @@
     "provided"
    ],
    "answer": 0,
-   "why": "otherwise — інакше."
+   "why": "*otherwise* — «інакше»."
   },
   {
    "id": "conditionals-advanced-9",
@@ -115,7 +115,7 @@
     "If were"
    ],
    "answer": 0,
-   "why": "Were I you…"
+   "why": "Інверсія: *Were I you* = *If I were you*."
   },
   {
    "id": "conditionals-advanced-10",
@@ -128,7 +128,7 @@
     "so long as",
     "provided that"
    ],
-   "why": "as long as / provided — за умови."
+   "why": "*as long as / provided (that) / providing* — за умови."
   },
   {
    "id": "conditionals-advanced-11",
@@ -137,7 +137,7 @@
    "answer": [
     "Had"
    ],
-   "why": "Had I known = If I had known.",
+   "why": "*Had I known* — інверсія без *if*.",
    "hint": "Інверсія без if"
   },
   {
@@ -147,7 +147,7 @@
    "answer": [
     "Should"
    ],
-   "why": "Should you need = If you should need.",
+   "why": "*Should you need* — формально.",
    "hint": "Інверсія без if"
   },
   {
@@ -157,7 +157,7 @@
    "answer": [
     "in case"
    ],
-   "why": "in case — на випадок, якщо.",
+   "why": "*in case* — на випадок, якщо знадобиться таксі.",
    "hint": "(на випадок, якщо)"
   },
   {
@@ -167,7 +167,7 @@
    "answer": [
     "even if"
    ],
-   "why": "even if — навіть якщо."
+   "why": "*even if* — навіть якщо."
   },
   {
    "id": "conditionals-advanced-15",
@@ -180,7 +180,7 @@
     "Did"
    ],
    "answer": 0,
-   "why": "Were it not for = If it weren't for."
+   "why": "*Were it not for* = *If it weren't for*."
   },
   {
    "id": "conditionals-advanced-16",
@@ -193,7 +193,7 @@
     "provided"
    ],
    "answer": 0,
-   "why": "unless = if … not."
+   "why": "*unless you study* — якщо не вчитимешся."
   },
   {
    "id": "conditionals-advanced-17",
@@ -206,7 +206,7 @@
     "In case"
    ],
    "answer": 0,
-   "why": "Supposing — припустімо."
+   "why": "*Supposing* — «припустімо»."
   },
   {
    "id": "conditionals-advanced-18",
@@ -219,7 +219,7 @@
     "isn't"
    ],
    "answer": 0,
-   "why": "Минуле: If it hadn't been for…"
+   "why": "Минуле — *If it hadn't been for the rain…*"
   },
   {
    "id": "conditionals-advanced-19",
@@ -238,7 +238,7 @@
     "Had I known I would have told you",
     "I would have told you had I known"
    ],
-   "why": "Інверсія: Had I known.",
+   "why": "*Had I known* — інверсія.",
    "hint": "Якби я знав, я б тобі сказав."
   },
   {
@@ -262,7 +262,7 @@
     "You can go out as long as you are back by ten",
     "As long as you are back by ten you can go out"
    ],
-   "why": "as long as — за умови.",
+   "why": "*as long as* — за умови.",
    "hint": "Можеш погуляти, якщо повернешся до десятої."
   },
   {
@@ -281,7 +281,7 @@
     "Take an umbrella in case it rains",
     "In case it rains take an umbrella"
    ],
-   "why": "in case + Present Simple.",
+   "why": "*in case* + Present Simple.",
    "hint": "Візьми парасольку на випадок дощу."
   },
   {
@@ -295,7 +295,7 @@
     "Provided"
    ],
    "answer": 1,
-   "why": "Without = якби не."
+   "why": "*Without your advice* — якби не твоя порада."
   },
   {
    "id": "conditionals-advanced-23",
@@ -308,7 +308,7 @@
     "in case"
    ],
    "answer": 1,
-   "why": "otherwise = інакше."
+   "why": "*otherwise* — інакше."
   },
   {
    "id": "conditionals-advanced-24",
@@ -317,7 +317,7 @@
    "answer": [
     "if"
    ],
-   "why": "What if… — а що, як."
+   "why": "*What if…?* — а що, як…?"
   }
  ]
 }

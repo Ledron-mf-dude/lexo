@@ -11,7 +11,7 @@
     "None"
    ],
    "answer": 0,
-   "why": "Never have I… — інверсія."
+   "why": "Після заперечного прислівника на початку (*Never*) — інверсія: допоміжне перед підметом: *Never have I seen such a thing.*"
   },
   {
    "id": "inversion-2",
@@ -24,7 +24,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "Rarely does she…"
+   "why": "*Rarely* на початку — інверсія з *does*: *Rarely does she go out.*"
   },
   {
    "id": "inversion-3",
@@ -37,7 +37,7 @@
     "was"
    ],
    "answer": 1,
-   "why": "Hardly had … when."
+   "why": "*Hardly had* + підмет + третя форма + *when*: *Hardly had I arrived when it started to rain.*"
   },
   {
    "id": "inversion-4",
@@ -50,7 +50,7 @@
     "as"
    ],
    "answer": 1,
-   "why": "No sooner … than."
+   "why": "*No sooner … than* — сталий парний зв'язок: *No sooner had she left than he called.*"
   },
   {
    "id": "inversion-5",
@@ -63,7 +63,7 @@
     "was"
    ],
    "answer": 0,
-   "why": "Not only did he…"
+   "why": "*Not only did he win, but he also…* — інверсія з *did*."
   },
   {
    "id": "inversion-6",
@@ -76,7 +76,7 @@
     "was"
    ],
    "answer": 1,
-   "why": "Only then did I…"
+   "why": "*Only then did I understand…* — інверсія в минулому."
   },
   {
    "id": "inversion-7",
@@ -89,7 +89,7 @@
     "Have never I seen it."
    ],
    "answer": 1,
-   "why": "Допоміжне дієслово перед підметом."
+   "why": "Допоміжне перед підметом: *Never have I seen it.*"
   },
   {
    "id": "inversion-8",
@@ -102,7 +102,7 @@
     "did"
    ],
    "answer": 1,
-   "why": "So beautiful was the view…"
+   "why": "*So beautiful was the view that…* — інверсія після *so* + прикметник."
   },
   {
    "id": "inversion-9",
@@ -115,7 +115,7 @@
     "did"
    ],
    "answer": 0,
-   "why": "Under no circumstances should you…"
+   "why": "*Under no circumstances should you open it.*"
   },
   {
    "id": "inversion-10",
@@ -125,7 +125,7 @@
     "have",
     "had"
    ],
-   "why": "Never + have + підмет + V3."
+   "why": "*Never have / had I heard…*"
   },
   {
    "id": "inversion-11",
@@ -135,7 +135,7 @@
     "does",
     "did"
    ],
-   "why": "Seldom + does + підмет + V."
+   "why": "*Seldom does / did he complain.*"
   },
   {
    "id": "inversion-12",
@@ -144,7 +144,7 @@
    "answer": [
     "did"
    ],
-   "why": "Little did we know — інверсія з did."
+   "why": "*Little did we know* — ми й гадки не мали."
   },
   {
    "id": "inversion-13",
@@ -153,12 +153,12 @@
    "answer": [
     "did"
    ],
-   "why": "Not until … did + підмет + V."
+   "why": "*Not until midnight did they arrive.*"
   },
   {
    "id": "inversion-14",
    "type": "choice",
-   "q": "___ had I sat down when the phone rang.",
+   "q": "___ had I sat down than the phone rang.",
    "options": [
     "No sooner",
     "Never",
@@ -166,7 +166,7 @@
     "Not until"
    ],
    "answer": 0,
-   "why": "No sooner … than… (тут — when вживають у розмові, але правильніше than)."
+   "why": "Пара *No sooner … than*: *No sooner had I sat down than the phone rang.*"
   },
   {
    "id": "inversion-15",
@@ -179,7 +179,7 @@
     "did"
    ],
    "answer": 0,
-   "why": "Only after … + did + підмет + V."
+   "why": "*Only after the exam did I relax.*"
   },
   {
    "id": "inversion-16",
@@ -192,7 +192,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "At no time + was + підмет."
+   "why": "*At no time was the manager informed.*"
   },
   {
    "id": "inversion-17",
@@ -205,7 +205,7 @@
     "it comes the"
    ],
    "answer": 0,
-   "why": "Here + дієслово + іменник: Here comes the bus."
+   "why": "*Here comes the bus!* — дієслово перед іменником-підметом."
   },
   {
    "id": "inversion-18",
@@ -222,7 +222,7 @@
    "answer": [
     "Never have I seen such a mess"
    ],
-   "why": "Never + have + I + V3.",
+   "why": "*Never have I seen…*",
    "hint": "Ніколи я не бачив такого безладу."
   },
   {
@@ -238,7 +238,7 @@
    "answer": [
     "Rarely do we eat out"
    ],
-   "why": "Rarely + do + підмет + V.",
+   "why": "*Rarely do we eat out.*",
    "hint": "Ми рідко їмо поза домом."
   },
   {
@@ -258,7 +258,7 @@
    "answer": [
     "Not only did she sing but she also danced"
    ],
-   "why": "Not only did + підмет + V.",
+   "why": "*Not only did she sing…*",
    "hint": "Вона не тільки співала, а й танцювала."
   },
   {
@@ -272,7 +272,7 @@
     "realised we"
    ],
    "answer": 1,
-   "why": "Not until … — інверсія в головній частині."
+   "why": "Після *Not until …* інверсія стоїть у головній частині: *did we realise*."
   },
   {
    "id": "inversion-22",
@@ -285,7 +285,7 @@
     "do you"
    ],
    "answer": 1,
-   "why": "Only if … — інверсія після умовної частини."
+   "why": "*Only if …* — інверсія в головній частині: *will you improve*."
   },
   {
    "id": "inversion-23",
@@ -295,7 +295,7 @@
     "when",
     "before"
    ],
-   "why": "hardly … when."
+   "why": "*hardly … when* (або *before*)."
   }
  ]
 }

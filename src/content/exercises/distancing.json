@@ -11,7 +11,7 @@
     "Obviously"
    ],
    "answer": 0,
-   "why": "Apparently — як кажуть, схоже."
+   "why": "*Apparently* — «як я чув, схоже» — дистанція від інформації."
   },
   {
    "id": "distancing-2",
@@ -24,7 +24,7 @@
     "that he is"
    ],
    "answer": 0,
-   "why": "be said + to-інфінітив."
+   "why": "*is said to be* — кажуть, що він."
   },
   {
    "id": "distancing-3",
@@ -37,7 +37,7 @@
     "Apparently"
    ],
    "answer": 0,
-   "why": "According to + джерело."
+   "why": "*According to* + джерело інформації."
   },
   {
    "id": "distancing-4",
@@ -50,7 +50,7 @@
     "that was"
    ],
    "answer": 0,
-   "why": "Про минуле — to have been + V3."
+   "why": "Картину вкрали в минулому — *to have been stolen*."
   },
   {
    "id": "distancing-5",
@@ -63,7 +63,7 @@
     "tends to"
    ],
    "answer": 0,
-   "why": "tend to + V — мають тенденцію."
+   "why": "*tend to* + дієслово — «мають тенденцію»: *Young people tend to spend…*"
   },
   {
    "id": "distancing-6",
@@ -76,7 +76,7 @@
     "Appears"
    ],
    "answer": 0,
-   "why": "It appears that…"
+   "why": "*It appears that…* — схоже, що."
   },
   {
    "id": "distancing-7",
@@ -89,7 +89,7 @@
     "seemingly to"
    ],
    "answer": 0,
-   "why": "allegedly — нібито (новини, юристи)."
+   "why": "*allegedly* — «нібито» (провина не доведена)."
   },
   {
    "id": "distancing-8",
@@ -102,7 +102,7 @@
     "This is bad."
    ],
    "answer": 0,
-   "why": "Обережне формулювання — seem."
+   "why": "Обережне формулювання з *seem* звучить тактовно."
   },
   {
    "id": "distancing-9",
@@ -115,7 +115,7 @@
     "reported"
    ],
    "answer": 0,
-   "why": "It is reported that…"
+   "why": "*It is reported that…* — повідомляють."
   },
   {
    "id": "distancing-10",
@@ -124,7 +124,7 @@
    "answer": [
     "to be"
    ],
-   "why": "be thought + to-інфінітив."
+   "why": "*is thought to be*."
   },
   {
    "id": "distancing-11",
@@ -140,7 +140,7 @@
     "is rumoured",
     "is rumored"
    ],
-   "why": "It is said that…"
+   "why": "*It is said / reported / believed that…* (або *It seems / appears*)."
   },
   {
    "id": "distancing-12",
@@ -149,7 +149,7 @@
    "answer": [
     "According"
    ],
-   "why": "According to — за даними."
+   "why": "*According to the forecast*."
   },
   {
    "id": "distancing-13",
@@ -159,7 +159,7 @@
     "to be working",
     "to work"
    ],
-   "why": "seem + to-інфінітив."
+   "why": "*seems to be working* (або *to work*)."
   },
   {
    "id": "distancing-14",
@@ -168,7 +168,7 @@
    "answer": [
     "to have resigned"
    ],
-   "why": "Про минуле — to have + V3."
+   "why": "Учора — *to have resigned*."
   },
   {
    "id": "distancing-15",
@@ -177,7 +177,7 @@
    "answer": [
     "tend"
    ],
-   "why": "tend to + V.",
+   "why": "*tend to buy*.",
    "hint": "(мають схильність)"
   },
   {
@@ -195,7 +195,7 @@
     "He is apparently leaving",
     "He is leaving apparently"
    ],
-   "why": "Apparently — як кажуть.",
+   "why": "*Apparently* — як кажуть.",
    "hint": "Кажуть, він іде (з роботи)."
   },
   {
@@ -215,7 +215,7 @@
    "answer": [
     "It is believed that the fire started at night"
    ],
-   "why": "It is believed that…",
+   "why": "*It is believed that…*",
    "hint": "Вважають, що пожежа почалася вночі."
   },
   {
@@ -232,7 +232,7 @@
    "answer": [
     "The plan seems to be working"
    ],
-   "why": "seem + to be + V-ing.",
+   "why": "*seems to be working*.",
    "hint": "Схоже, план працює."
   },
   {
@@ -246,20 +246,20 @@
     "There seem that"
    ],
    "answer": 1,
-   "why": "There seems to be."
+   "why": "*There seems to be a problem.*"
   },
   {
    "id": "distancing-20",
    "type": "choice",
    "q": "I'm ___ we won't be able to come.",
    "options": [
-    "sorry that",
+    "afraid to",
     "afraid",
     "fear",
     "afraid of"
    ],
    "answer": 1,
-   "why": "I'm afraid — м'яко повідомити неприємне."
+   "why": "*I'm afraid (that)…* — м'яко повідомляємо неприємне."
   },
   {
    "id": "distancing-21",
@@ -268,7 +268,7 @@
    "answer": [
     "to change"
    ],
-   "why": "Would it be possible + to-інфінітив."
+   "why": "*Would it be possible to change…?*"
   }
  ]
 }

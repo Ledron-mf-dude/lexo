@@ -11,7 +11,7 @@
     "would been"
    ],
    "answer": 0,
-   "why": "will be — упевнене припущення про теперішнє."
+   "why": "*will be* — упевнене припущення про теперішнє з досвіду: *That'll be the postman.*"
   },
   {
    "id": "modals-will-would-should-2",
@@ -24,7 +24,7 @@
     "would gone"
    ],
    "answer": 0,
-   "why": "will have + V3 — припущення про вже зроблене."
+   "why": "*will have* + третя форма — припущення про вже зроблене: *She'll have gone to bed.*"
   },
   {
    "id": "modals-will-would-should-3",
@@ -37,7 +37,7 @@
     "not will"
    ],
    "answer": 0,
-   "why": "won't — річ «відмовляється» працювати."
+   "why": "*won't* — річ «відмовляється» працювати: *The door won't open.*"
   },
   {
    "id": "modals-will-would-should-4",
@@ -50,7 +50,7 @@
     "won't"
    ],
    "answer": 0,
-   "why": "wouldn't — відмова в минулому."
+   "why": "*wouldn't* — відмова в минулому: *The car wouldn't start.*"
   },
   {
    "id": "modals-will-would-should-5",
@@ -63,7 +63,7 @@
     "shall"
    ],
    "answer": 0,
-   "why": "Putative should після оцінки."
+   "why": "*should* після оцінки (*strange, surprised*) передає саму думку про подію: *It's strange that she should say that.*"
   },
   {
    "id": "modals-will-would-should-6",
@@ -76,7 +76,7 @@
     "Shall"
    ],
    "answer": 0,
-   "why": "Should you… = If you… (формально)."
+   "why": "*Should you need…* = *If you need…* (формально)."
   },
   {
    "id": "modals-will-would-should-7",
@@ -89,7 +89,7 @@
     "would to"
    ],
    "answer": 0,
-   "why": "I'd say — м'яке, обережне твердження."
+   "why": "*I'd say…* — обережна, м'яка думка."
   },
   {
    "id": "modals-will-would-should-8",
@@ -102,7 +102,7 @@
     "Why should to"
    ],
    "answer": 0,
-   "why": "Why should…? — роздратоване заперечення."
+   "why": "*Why should I…?* — роздратоване заперечення."
   },
   {
    "id": "modals-will-would-should-9",
@@ -115,7 +115,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "would — звичка в минулому."
+   "why": "*would* — звичка в минулому."
   },
   {
    "id": "modals-will-would-should-10",
@@ -127,7 +127,7 @@
     "do",
     "may"
    ],
-   "why": "will — так буває, типова поведінка."
+   "why": "*Accidents will happen* — так уже буває (також *can / do / may*)."
   },
   {
    "id": "modals-will-would-should-11",
@@ -136,7 +136,7 @@
    "answer": [
     "should"
    ],
-   "why": "in case … should — ще менш імовірно."
+   "why": "*in case it should rain* — ще менш імовірно."
   },
   {
    "id": "modals-will-would-should-12",
@@ -148,7 +148,7 @@
     "can",
     "would"
    ],
-   "why": "will — характерна поведінка."
+   "why": "*will* — характерна поведінка (*can, would* теж підходять за змістом)."
   },
   {
    "id": "modals-will-would-should-13",
@@ -158,7 +158,7 @@
     "should",
     "would"
    ],
-   "why": "How should I know? — звідки мені знати."
+   "why": "*How should I know?* (або *How would I know?*) — звідки мені знати."
   },
   {
    "id": "modals-will-would-should-14",
@@ -169,7 +169,7 @@
     "'d",
     "can"
    ],
-   "why": "I would imagine — обережна думка."
+   "why": "*I would imagine* — обережна думка (*I can imagine* теж правильно)."
   },
   {
    "id": "modals-will-would-should-15",
@@ -184,7 +184,7 @@
    "answer": [
     "That will be the postman"
    ],
-   "why": "will be — упевнене припущення.",
+   "why": "*That will be the postman.*",
    "hint": "Це, мабуть, листоноша."
   },
   {
@@ -204,7 +204,7 @@
     "Should you have any questions please contact us",
     "Please contact us should you have any questions"
    ],
-   "why": "Should you… — формальна умова.",
+   "why": "*Should you have any questions…* — формальна умова.",
    "hint": "Якщо у вас виникнуть запитання, звертайтеся."
   },
   {
@@ -219,7 +219,7 @@
    "answer": [
     "The window won't close"
    ],
-   "why": "won't — відмова працювати.",
+   "why": "*won't close*.",
    "hint": "Вікно не зачиняється."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "I would think they will agree"
    ],
-   "why": "I would think — обережно.",
+   "why": "*I would think…* — обережно.",
    "hint": "Гадаю, вони погодяться."
   }
  ]

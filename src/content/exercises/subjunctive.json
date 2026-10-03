@@ -11,7 +11,7 @@
     "will take"
    ],
    "answer": 0,
-   "why": "suggest that + базова форма."
+   "why": "Після *suggest that* у формальній англійській — базова форма для всіх осіб (subjunctive): *that he take*, без *-s*. *to take* і *taking* не стоять після *that*."
   },
   {
    "id": "subjunctive-2",
@@ -24,7 +24,7 @@
     "will arrive"
    ],
    "answer": 0,
-   "why": "It's essential that + базова форма."
+   "why": "*It's essential that* + базова форма: *everyone arrive* (без *-s*)."
   },
   {
    "id": "subjunctive-3",
@@ -37,7 +37,7 @@
     "will be"
    ],
    "answer": 0,
-   "why": "insist that + be."
+   "why": "*insist that* + *be* для будь-якої особи: *that she be present*."
   },
   {
    "id": "subjunctive-4",
@@ -50,7 +50,7 @@
     "didn't use"
    ],
    "answer": 0,
-   "why": "Заперечення: not + базова форма."
+   "why": "Заперечення в subjunctive — *not* + базова форма, без *do*: *that you not use*."
   },
   {
    "id": "subjunctive-5",
@@ -63,7 +63,7 @@
     "we taking"
    ],
    "answer": 0,
-   "why": "suggest + -ing — теж можливо."
+   "why": "Після *suggest* можна й *-ing*: *I suggest taking a break.*"
   },
   {
    "id": "subjunctive-6",
@@ -76,7 +76,7 @@
     "will be"
    ],
    "answer": 0,
-   "why": "Past subjunctive — were."
+   "why": "Past subjunctive — *were* для всіх осіб: *If I were you…*"
   },
   {
    "id": "subjunctive-7",
@@ -89,7 +89,7 @@
     "will pays"
    ],
    "answer": 0,
-   "why": "order that + базова форма."
+   "why": "*order that* + базова форма: *that the company pay*."
   },
   {
    "id": "subjunctive-8",
@@ -102,7 +102,7 @@
     "no be"
    ],
    "answer": 0,
-   "why": "not + be."
+   "why": "Заперечення: *that he not be late*."
   },
   {
    "id": "subjunctive-9",
@@ -115,7 +115,7 @@
     "shall to"
    ],
    "answer": 0,
-   "why": "Британський варіант — should + V."
+   "why": "Британці часто кажуть *should* + дієслово: *I suggest that he should see a doctor.*"
   },
   {
    "id": "subjunctive-10",
@@ -125,7 +125,7 @@
     "be",
     "should be"
    ],
-   "why": "demand that + be."
+   "why": "*demand that* + *be* (або *should be*)."
   },
   {
    "id": "subjunctive-11",
@@ -135,7 +135,7 @@
     "start",
     "should start"
    ],
-   "why": "propose that + базова форма."
+   "why": "*propose that we start* (або *should start*)."
   },
   {
    "id": "subjunctive-12",
@@ -145,7 +145,7 @@
     "not miss",
     "should not miss"
    ],
-   "why": "not + базова форма."
+   "why": "*that she not miss* (або *should not miss*)."
   },
   {
    "id": "subjunctive-13",
@@ -155,7 +155,7 @@
     "be postponed",
     "should be postponed"
    ],
-   "why": "Пасив у subjunctive: be + V3."
+   "why": "Пасив у subjunctive — *be* + третя форма: *that the meeting be postponed*."
   },
   {
    "id": "subjunctive-14",
@@ -164,7 +164,7 @@
    "answer": [
     "Be"
    ],
-   "why": "Be that as it may — хай там як."
+   "why": "*Be that as it may* — сталий вираз «хай там як»."
   },
   {
    "id": "subjunctive-15",
@@ -173,7 +173,7 @@
    "answer": [
     "may"
    ],
-   "why": "Come what may — хоч би що сталося."
+   "why": "*Come what may* — «хоч би що сталося»."
   },
   {
    "id": "subjunctive-16",
@@ -190,7 +190,7 @@
    "answer": [
     "I suggest that he see a doctor"
    ],
-   "why": "suggest that + базова форма.",
+   "why": "*I suggest that he see a doctor* — без *-s*.",
    "hint": "Пропоную, щоб він звернувся до лікаря."
   },
   {
@@ -208,7 +208,7 @@
    "answer": [
     "It is essential that she be there"
    ],
-   "why": "essential that + be.",
+   "why": "*essential that she be there*.",
    "hint": "Важливо, щоб вона була там."
   },
   {
@@ -224,7 +224,7 @@
    "answer": [
     "They insisted that we stay"
    ],
-   "why": "insist that + базова форма.",
+   "why": "*insisted that we stay*.",
    "hint": "Вони наполягли, щоб ми залишилися."
   },
   {
@@ -238,7 +238,7 @@
     "will take"
    ],
    "answer": 1,
-   "why": "Subjunctive — базова форма."
+   "why": "*recommended that he take* — базова форма."
   },
   {
    "id": "subjunctive-20",
@@ -251,7 +251,7 @@
     "being"
    ],
    "answer": 1,
-   "why": "Сталий вираз: if need be."
+   "why": "*if need be* — «якщо буде потрібно»."
   },
   {
    "id": "subjunctive-21",
@@ -261,7 +261,7 @@
     "be",
     "should be"
    ],
-   "why": "Після essential that — be або should be."
+   "why": "*be* або *should be*."
   },
   {
    "id": "subjunctive-22",
@@ -274,7 +274,7 @@
     "were close"
    ],
    "answer": 0,
-   "why": "were to + V — уявне майбутнє."
+   "why": "*were to* + дієслово — дуже малоймовірна, уявна подія в майбутньому."
   },
   {
    "id": "subjunctive-23",
@@ -287,7 +287,7 @@
     "If"
    ],
    "answer": 0,
-   "why": "Were it not for… — якби не (зараз)."
+   "why": "*Were it not for…* — «якби не…» про теперішнє. *Was* в інверсії не вживають."
   },
   {
    "id": "subjunctive-24",
@@ -296,7 +296,7 @@
    "answer": [
     "been"
    ],
-   "why": "Had it not been for… — якби не (у минулому)."
+   "why": "*Had it not been for…* — «якби не…» про минуле."
   }
  ]
 }
