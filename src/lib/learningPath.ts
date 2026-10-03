@@ -15,9 +15,9 @@ import placementIds from '../content/placement.json'
 
 // The test ends at C1, the highest level of the knowledge base: passing it means «C1 and higher».
 export const PLACEMENT_LEVELS: Level[] = ['A1', 'A2', 'B1', 'B1+', 'B2', 'C1']
-export const BLOCK_SIZE = 4
+export const BLOCK_SIZE = 6
 /** Correct answers out of BLOCK_SIZE needed to pass a level. */
-export const PASS_MARK = 3
+export const PASS_MARK = 5
 
 export interface Placement {
   /** Highest level whose score met PASS_MARK; null if none did. Earlier levels may have failed silently. */

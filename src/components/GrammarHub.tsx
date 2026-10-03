@@ -52,7 +52,7 @@ export default function GrammarHub({ log, progress, filterLabel, practiceQuery, 
     if (!placement)
       return {
         title: 'Почніть із тесту рівня',
-        text: '5–10 хвилин: тест визначить рівень, а маршрут покаже теми по порядку, першими — ті, де були помилки.',
+        text: '10–15 хвилин: тест визначить рівень, а маршрут покаже теми по порядку, першими — ті, де були помилки.',
         label: 'Пройти тест',
         to: '/grammar/placement',
       }

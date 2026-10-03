@@ -139,7 +139,7 @@ export default function Placement() {
           <h1 className="text-2xl font-light tracking-tight">Тест рівня граматики</h1>
           <ul className="list-disc space-y-1.5 pl-5 text-white/60">
             <li>
-              Запитання йдуть блоками по {BLOCK_SIZE} від A1 до C1, до {BLOCK_SIZE * PLACEMENT_LEVELS.length} запитань, 5–10 хвилин.
+              Запитання йдуть блоками по {BLOCK_SIZE} від A1 до C1, до {BLOCK_SIZE * PLACEMENT_LEVELS.length} запитань, 10–15 хвилин.
             </li>
             <li>
               Одна помилка не зупиняє тест: він іде далі до наступного рівня, а тема з помилкою просто потрапить у маршрут. Тест зупиниться сам, лише якщо цілий блок вийде невірним — це знак, що рівень явно зарано. Натиснувши «✕», можна завершити раніше й подивитись результат.
