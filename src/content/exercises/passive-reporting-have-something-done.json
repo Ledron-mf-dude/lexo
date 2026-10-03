@@ -11,7 +11,7 @@
     "is saying"
    ],
    "answer": 1,
-   "why": "It is said that…"
+   "why": "*It is said that…* — «кажуть, що…»: пасив від *say*."
   },
   {
    "id": "passive-reporting-have-something-done-2",
@@ -24,20 +24,20 @@
     "left"
    ],
    "answer": 1,
-   "why": "Про минуле — to have + V3."
+   "why": "Подія в минулому — *to have left*: *He is said to have left last year.*"
   },
   {
    "id": "passive-reporting-have-something-done-3",
    "type": "choice",
    "q": "She is believed ___ abroad now.",
    "options": [
-    "to work",
+    "to working",
     "to be working",
     "to have worked",
     "working"
    ],
    "answer": 1,
-   "why": "Зараз — Continuous Infinitive."
+   "why": "Дія триває зараз — *to be working*."
   },
   {
    "id": "passive-reporting-have-something-done-4",
@@ -50,7 +50,7 @@
     "did"
    ],
    "answer": 0,
-   "why": "have something done: had my hair cut."
+   "why": "*have something done* — послуга: *I had my hair cut.*"
   },
   {
    "id": "passive-reporting-have-something-done-5",
@@ -63,7 +63,7 @@
     "making"
    ],
    "answer": 0,
-   "why": "have + предмет + V3."
+   "why": "*be having* + річ + третя форма — послугу роблять: *We're having the kitchen painted.*"
   },
   {
    "id": "passive-reporting-have-something-done-6",
@@ -76,7 +76,7 @@
     "I was cutting my hair."
    ],
    "answer": 1,
-   "why": "have something done — послуга."
+   "why": "*I had my hair cut* — це зробив перукар."
   },
   {
    "id": "passive-reporting-have-something-done-7",
@@ -89,7 +89,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "have something done може описувати неприємну подію."
+   "why": "*have something done* описує й неприємності: *He had his bag stolen.*"
   },
   {
    "id": "passive-reporting-have-something-done-8",
@@ -98,7 +98,7 @@
    "answer": [
     "repaired"
    ],
-   "why": "get + предмет + V3."
+   "why": "*get my car repaired* — розмовний варіант *have something done*."
   },
   {
    "id": "passive-reporting-have-something-done-9",
@@ -116,7 +116,7 @@
    "answer": [
     "They are thought to have stolen the painting"
    ],
-   "why": "Passive reporting: are thought to have + V3."
+   "why": "*are thought to have stolen*."
   },
   {
    "id": "passive-reporting-have-something-done-10",
@@ -125,7 +125,7 @@
    "answer": [
     "tested"
    ],
-   "why": "have + предмет + V3."
+   "why": "*have my eyes tested*."
   },
   {
    "id": "passive-reporting-have-something-done-11",
@@ -139,7 +139,7 @@
     "reported",
     "feared"
    ],
-   "why": "It is thought / believed that…"
+   "why": "*It is thought / believed / said / expected that…*"
   },
   {
    "id": "passive-reporting-have-something-done-12",
@@ -148,7 +148,7 @@
    "answer": [
     "to be"
    ],
-   "why": "be said + to-інфінітив."
+   "why": "*is said to be*."
   },
   {
    "id": "passive-reporting-have-something-done-13",
@@ -157,7 +157,7 @@
    "answer": [
     "stolen"
    ],
-   "why": "have something done — неприємна подія."
+   "why": "*had our car stolen*."
   },
   {
    "id": "passive-reporting-have-something-done-14",
@@ -166,7 +166,7 @@
    "answer": [
     "to have resigned"
    ],
-   "why": "Про минуле — to have + V3."
+   "why": "Уже — *to have resigned*."
   },
   {
    "id": "passive-reporting-have-something-done-15",
@@ -179,7 +179,7 @@
     "took"
    ],
    "answer": 0,
-   "why": "get + предмет + V3 — розмовно."
+   "why": "*got my phone fixed*."
   },
   {
    "id": "passive-reporting-have-something-done-16",
@@ -192,7 +192,7 @@
     "is"
    ],
    "answer": 0,
-   "why": "have something done — регулярна послуга."
+   "why": "Регулярна послуга — *has her nails done*."
   },
   {
    "id": "passive-reporting-have-something-done-17",
@@ -205,7 +205,7 @@
     "to be stealing"
    ],
    "answer": 0,
-   "why": "Пасивний перфектний інфінітив."
+   "why": "Картину вкрали в минулому — *to have been stolen*."
   },
   {
    "id": "passive-reporting-have-something-done-18",
@@ -218,7 +218,7 @@
     "has claimed"
    ],
    "answer": 0,
-   "why": "It is claimed that…"
+   "why": "*It is claimed that…*"
   },
   {
    "id": "passive-reporting-have-something-done-19",
@@ -234,7 +234,7 @@
    "answer": [
     "I had my hair cut yesterday"
    ],
-   "why": "have + предмет + V3.",
+   "why": "*had my hair cut*.",
    "hint": "Учора я підстригся (у перукаря)."
   },
   {
@@ -253,7 +253,7 @@
    "answer": [
     "It is said that he is very rich"
    ],
-   "why": "It is said that…",
+   "why": "*It is said that…*",
    "hint": "Кажуть, що він дуже багатий."
   },
   {
@@ -271,7 +271,7 @@
    "answer": [
     "He is believed to be in Spain"
    ],
-   "why": "be believed + to-інфінітив.",
+   "why": "*is believed to be*.",
    "hint": "Вважають, що він в Іспанії."
   },
   {
@@ -285,7 +285,7 @@
     "to paint"
    ],
    "answer": 1,
-   "why": "have + предмет + V3."
+   "why": "*having the kitchen painted*."
   },
   {
    "id": "passive-reporting-have-something-done-23",
@@ -298,7 +298,7 @@
     "left"
    ],
    "answer": 1,
-   "why": "Про минуле — to have + V3."
+   "why": "Минуле — *to have left*."
   },
   {
    "id": "passive-reporting-have-something-done-24",
@@ -307,7 +307,7 @@
    "answer": [
     "repaired"
    ],
-   "why": "get + предмет + V3."
+   "why": "*get my phone repaired*."
   }
  ]
 }

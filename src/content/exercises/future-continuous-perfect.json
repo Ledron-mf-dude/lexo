@@ -5,13 +5,13 @@
    "type": "choice",
    "q": "This time tomorrow I ___ on a beach.",
    "options": [
-    "will lie",
+    "will lying",
     "will be lying",
     "will have lain",
     "lie"
    ],
    "answer": 1,
-   "why": "Процес у певний момент майбутнього — Future Continuous."
+   "why": "Процес у певний момент майбутнього (*This time tomorrow*) — Future Continuous: *I will be lying on a beach.*"
   },
   {
    "id": "future-continuous-perfect-2",
@@ -24,7 +24,7 @@
     "would do"
    ],
    "answer": 2,
-   "why": "by + момент: завершиться до нього — Future Perfect."
+   "why": "*By 8 pm* — до моменту вже буде зроблено: Future Perfect *will have done*."
   },
   {
    "id": "future-continuous-perfect-3",
@@ -33,7 +33,7 @@
    "answer": [
     "will be having"
    ],
-   "why": "Процес у певний момент — will be + V-ing."
+   "why": "Опівдні ми будемо в процесі обіду — *will be having lunch*."
   },
   {
    "id": "future-continuous-perfect-4",
@@ -42,7 +42,7 @@
    "answer": [
     "will have left"
    ],
-   "why": "Завершиться до моменту — will have + V3."
+   "why": "*By the time you arrive* — вони вже підуть: *will have left*."
   },
   {
    "id": "future-continuous-perfect-5",
@@ -55,7 +55,7 @@
     "is working"
    ],
    "answer": 1,
-   "why": "Тривалість до майбутнього моменту — Future Perfect Continuous."
+   "why": "Тривалість до моменту в майбутньому (*In July … for ten years*) — *will have been working*."
   },
   {
    "id": "future-continuous-perfect-6",
@@ -68,7 +68,7 @@
     "Are / using"
    ],
    "answer": 0,
-   "why": "Ввічливе питання про плани — Future Continuous."
+   "why": "*Will you be using…?* — ввічливе питання про плани (не прохання напряму)."
   },
   {
    "id": "future-continuous-perfect-7",
@@ -81,7 +81,7 @@
     "By the time she arrives, I will be finish."
    ],
    "answer": 1,
-   "why": "Після by the time — Present Simple, у головній частині — Future Perfect."
+   "why": "Після *by the time* — Present Simple, у головній — Future Perfect."
   },
   {
    "id": "future-continuous-perfect-8",
@@ -91,7 +91,7 @@
     "will be travelling",
     "will be traveling"
    ],
-   "why": "Future Continuous: will be + V-ing."
+   "why": "*This time next week* — процес: *will be travelling*."
   },
   {
    "id": "future-continuous-perfect-9",
@@ -109,7 +109,7 @@
    "answer": [
     "By Friday I will have finished the project"
    ],
-   "why": "Future Perfect: will have + V3."
+   "why": "*By Friday* — Future Perfect."
   },
   {
    "id": "future-continuous-perfect-10",
@@ -118,7 +118,7 @@
    "answer": [
     "will have saved"
    ],
-   "why": "До моменту в майбутньому — will have + V3."
+   "why": "*By next year* — *will have saved*."
   },
   {
    "id": "future-continuous-perfect-11",
@@ -127,7 +127,7 @@
    "answer": [
     "will be sitting"
    ],
-   "why": "Процес у момент — will be + V-ing."
+   "why": "Процес о 10-й — *will be sitting*."
   },
   {
    "id": "future-continuous-perfect-12",
@@ -136,7 +136,7 @@
    "answer": [
     "will have started"
    ],
-   "why": "Завершиться раніше — Future Perfect."
+   "why": "Фільм почнеться раніше — *will have started*."
   },
   {
    "id": "future-continuous-perfect-13",
@@ -146,7 +146,7 @@
     "will have been living",
     "will have lived"
    ],
-   "why": "Тривалість до моменту — Future Perfect (Continuous)."
+   "why": "Тривалість до моменту — *will have been living* / *will have lived*."
   },
   {
    "id": "future-continuous-perfect-14",
@@ -159,7 +159,7 @@
     "Would have"
    ],
    "answer": 0,
-   "why": "Future Continuous — ввічливе питання про плани."
+   "why": "*Will you be passing…?* — ввічливо про плани."
   },
   {
    "id": "future-continuous-perfect-15",
@@ -172,7 +172,7 @@
     "drive"
    ],
    "answer": 0,
-   "why": "Процес у момент — Future Continuous."
+   "why": "О восьмій я буду в дорозі — *will be driving*."
   },
   {
    "id": "future-continuous-perfect-16",
@@ -185,7 +185,7 @@
     "found"
    ],
    "answer": 0,
-   "why": "Завершиться до 2030 — Future Perfect."
+   "why": "До 2030 знайдуть — *will have found*."
   },
   {
    "id": "future-continuous-perfect-17",
@@ -198,7 +198,7 @@
     "cook"
    ],
    "answer": 0,
-   "why": "Готово до вашого приходу — Future Perfect."
+   "why": "Вечеря буде готова до вашого приходу — *will have cooked*."
   },
   {
    "id": "future-continuous-perfect-18",
@@ -219,7 +219,7 @@
    "answer": [
     "This time next week I will be lying on a beach"
    ],
-   "why": "Future Continuous.",
+   "why": "*will be lying*.",
    "hint": "Цієї пори наступного тижня я лежатиму на пляжі."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "They will have finished by six"
    ],
-   "why": "Future Perfect + by.",
+   "why": "*will have finished by six*.",
    "hint": "Вони закінчать до шостої."
   },
   {
@@ -254,7 +254,7 @@
    "answer": [
     "Will you be using the car tonight"
    ],
-   "why": "Ввічливе питання — Future Continuous.",
+   "why": "*Will you be using the car?*",
    "hint": "Ти користуватимешся машиною ввечері?"
   },
   {
@@ -262,13 +262,13 @@
    "type": "choice",
    "q": "Don't call at 8. We ___ dinner.",
    "options": [
-    "will have",
+    "will having",
     "will be having",
     "will have had",
     "are have"
    ],
    "answer": 1,
-   "why": "Процес у момент майбутнього."
+   "why": "О восьмій ми будемо в процесі вечері — *will be having dinner*."
   },
   {
    "id": "future-continuous-perfect-22",
@@ -281,7 +281,7 @@
     "arrives"
    ],
    "answer": 1,
-   "why": "Припущення про вже завершене — will have + V3."
+   "why": "Припущення про вже завершене — *will have arrived*."
   },
   {
    "id": "future-continuous-perfect-23",
@@ -290,7 +290,7 @@
    "answer": [
     "will have built"
    ],
-   "why": "До моменту в майбутньому — Future Perfect."
+   "why": "*will have built*."
   }
  ]
 }

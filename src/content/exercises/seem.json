@@ -11,7 +11,7 @@
     "to happy"
    ],
    "answer": 1,
-   "why": "seem + прикметник."
+   "why": "Після *seem* — прикметник (як після *be*): *She seems happy.*"
   },
   {
    "id": "seem-2",
@@ -24,7 +24,7 @@
     "live"
    ],
    "answer": 0,
-   "why": "Present Simple → to + V (to live)."
+   "why": "Present Simple → простий інфінітив: *She seems to live in Bonn.*"
   },
   {
    "id": "seem-3",
@@ -37,7 +37,7 @@
     "living"
    ],
    "answer": 1,
-   "why": "Present Perfect → perfect infinitive (to have lived)."
+   "why": "Present Perfect → перфектний інфінітив: *to have lived*."
   },
   {
    "id": "seem-4",
@@ -50,7 +50,7 @@
     "living"
    ],
    "answer": 2,
-   "why": "Present Continuous → continuous infinitive (to be living)."
+   "why": "Present Continuous → тривалий інфінітив: *to be living*."
   },
   {
    "id": "seem-5",
@@ -63,7 +63,7 @@
     "to live"
    ],
    "answer": 0,
-   "why": "Past Continuous → perfect continuous infinitive."
+   "why": "Past Continuous → *to have been living*."
   },
   {
    "id": "seem-6",
@@ -76,7 +76,7 @@
     "singing"
    ],
    "answer": 0,
-   "why": "Загалом — full infinitive."
+   "why": "Загальне вміння — *to sing*."
   },
   {
    "id": "seem-7",
@@ -89,7 +89,7 @@
     "sung"
    ],
    "answer": 1,
-   "why": "Зараз — continuous infinitive."
+   "why": "Саме зараз — *to be singing*."
   },
   {
    "id": "seem-8",
@@ -102,7 +102,7 @@
     "singing"
    ],
    "answer": 2,
-   "why": "Минуле — perfect infinitive."
+   "why": "Минуле (*yesterday*) — *to have sung*."
   },
   {
    "id": "seem-9",
@@ -119,7 +119,7 @@
    "answer": [
     "It seems that she lives in Bonn"
    ],
-   "why": "It seems that + повне речення."
+   "why": "*It seems that* + повне речення."
   },
   {
    "id": "seem-10",
@@ -128,7 +128,7 @@
    "answer": [
     "to"
    ],
-   "why": "It seems to me — мені здається."
+   "why": "*It seems to me that…* — мені здається."
   },
   {
    "id": "seem-11",
@@ -137,7 +137,7 @@
    "answer": [
     "to understand"
    ],
-   "why": "doesn't seem + to-інфінітив."
+   "why": "*doesn't seem to understand*."
   },
   {
    "id": "seem-12",
@@ -146,7 +146,7 @@
    "answer": [
     "to have forgotten"
    ],
-   "why": "Минуле — perfect infinitive."
+   "why": "Уже забули — *to have forgotten*."
   },
   {
    "id": "seem-13",
@@ -156,7 +156,7 @@
     "seems",
     "appears"
    ],
-   "why": "There seems to be — здається, є.",
+   "why": "*There seems to be* — здається, є (*appears* — синонім).",
    "hint": "(seem)"
   },
   {
@@ -170,7 +170,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "seem like + іменник."
+   "why": "*seem like* + іменник: *He seems like a nice guy.* (Британці кажуть і *seems a nice guy*.)"
   },
   {
    "id": "seem-15",
@@ -183,7 +183,7 @@
     "seems to"
    ],
    "answer": 0,
-   "why": "It seems that + речення."
+   "why": "*It seems that…* — без *-ing* і без *to*."
   },
   {
    "id": "seem-16",
@@ -196,7 +196,7 @@
     "to have worked"
    ],
    "answer": 0,
-   "why": "Процес зараз — to be + V-ing."
+   "why": "Процес зараз — *to be working*."
   },
   {
    "id": "seem-17",
@@ -209,7 +209,7 @@
     "getting"
    ],
    "answer": 0,
-   "why": "Про майбутнє — seem likely to."
+   "why": "Ймовірне майбутнє — *seems likely to get*."
   },
   {
    "id": "seem-18",
@@ -225,7 +225,7 @@
    "answer": [
     "She seems to be very busy"
    ],
-   "why": "seem + to be.",
+   "why": "*seems to be very busy*.",
    "hint": "Здається, вона дуже зайнята."
   },
   {
@@ -244,7 +244,7 @@
    "answer": [
     "It seems to me that he is right"
    ],
-   "why": "It seems to me that…",
+   "why": "*It seems to me that…*",
    "hint": "Мені здається, що він має рацію."
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "They seem to have left"
    ],
-   "why": "seem + perfect infinitive.",
+   "why": "*seem to have left*.",
    "hint": "Схоже, вони пішли."
   },
   {
@@ -274,7 +274,7 @@
     "to solving"
    ],
    "answer": 1,
-   "why": "can't seem to + V."
+   "why": "*can't seem to* + дієслово — «ніяк не можу»."
   },
   {
    "id": "seem-22",
@@ -287,7 +287,7 @@
     "look like"
    ],
    "answer": 1,
-   "why": "На вигляд — look + прикметник."
+   "why": "Про зовнішній вигляд — *look* + прикметник: *You look tired.*"
   },
   {
    "id": "seem-23",
@@ -296,7 +296,7 @@
    "answer": [
     "to"
    ],
-   "why": "There seem to be."
+   "why": "*There seem to be* + множина (*mistakes*)."
   }
  ]
 }

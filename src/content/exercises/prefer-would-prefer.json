@@ -11,7 +11,7 @@
     "of"
    ],
    "answer": 1,
-   "why": "prefer X to Y."
+   "why": "*prefer X to Y*: *I prefer tea to coffee.* *than* з *prefer* не вживають."
   },
   {
    "id": "prefer-would-prefer-2",
@@ -24,7 +24,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "prefer -ing to -ing."
+   "why": "*prefer* + *-ing* + *to* + *-ing*: *prefers walking to driving*."
   },
   {
    "id": "prefer-would-prefer-3",
@@ -37,7 +37,7 @@
     "stayed"
    ],
    "answer": 1,
-   "why": "would prefer + to + V."
+   "why": "*would prefer* + *to* + дієслово: *I'd prefer to stay home.*"
   },
   {
    "id": "prefer-would-prefer-4",
@@ -50,20 +50,20 @@
     "stayed"
    ],
    "answer": 0,
-   "why": "would rather + V без to."
+   "why": "*would rather* + дієслово без *to*: *I'd rather stay home.*"
   },
   {
    "id": "prefer-would-prefer-5",
    "type": "choice",
    "q": "I'd rather you ___ here. (I want you to)",
    "options": [
-    "stay",
+    "will stay",
     "stayed",
     "staying",
     "to stay"
    ],
    "answer": 1,
-   "why": "would rather + підмет + Past Simple."
+   "why": "*would rather* + інша особа + Past Simple: *I'd rather you stayed here.*"
   },
   {
    "id": "prefer-would-prefer-6",
@@ -76,7 +76,7 @@
     "to not"
    ],
    "answer": 0,
-   "why": "would prefer not to + V."
+   "why": "*would prefer not to* + дієслово."
   },
   {
    "id": "prefer-would-prefer-7",
@@ -89,7 +89,7 @@
     "I would rather goes home."
    ],
    "answer": 1,
-   "why": "Після would rather — інфінітив без to."
+   "why": "Після *would rather* — без *to*."
   },
   {
    "id": "prefer-would-prefer-8",
@@ -102,7 +102,7 @@
     "went"
    ],
    "answer": 0,
-   "why": "would rather not + V."
+   "why": "*would rather not go*."
   },
   {
    "id": "prefer-would-prefer-9",
@@ -115,7 +115,7 @@
     "waited"
    ],
    "answer": 1,
-   "why": "would prefer + особа + to + V."
+   "why": "*would prefer* + особа + *to*: *I'd prefer you to wait outside.*"
   },
   {
    "id": "prefer-would-prefer-10",
@@ -125,7 +125,7 @@
     "to",
     "over"
    ],
-   "why": "prefer X to Y."
+   "why": "*prefer summer to winter* (у розмові й *over*)."
   },
   {
    "id": "prefer-would-prefer-11",
@@ -134,7 +134,7 @@
    "answer": [
     "not to go"
    ],
-   "why": "would prefer not to + V."
+   "why": "*would prefer not to go*."
   },
   {
    "id": "prefer-would-prefer-12",
@@ -143,7 +143,7 @@
    "answer": [
     "walk"
    ],
-   "why": "would rather + V без to."
+   "why": "*would rather walk*."
   },
   {
    "id": "prefer-would-prefer-13",
@@ -152,7 +152,7 @@
    "answer": [
     "rather"
    ],
-   "why": "prefer to V rather than V."
+   "why": "*prefer to* + дієслово + *rather than* + дієслово."
   },
   {
    "id": "prefer-would-prefer-14",
@@ -161,7 +161,7 @@
    "answer": [
     "or"
    ],
-   "why": "Would you prefer X or Y? — вибір зараз."
+   "why": "Вибір зараз — *Would you prefer tea or coffee?*"
   },
   {
    "id": "prefer-would-prefer-15",
@@ -174,7 +174,7 @@
     "to travelling"
    ],
    "answer": 0,
-   "why": "would prefer + to + V."
+   "why": "*would prefer to travel*."
   },
   {
    "id": "prefer-would-prefer-16",
@@ -187,7 +187,7 @@
     "reads"
    ],
    "answer": 0,
-   "why": "prefer -ing to -ing."
+   "why": "*prefers reading to watching TV*."
   },
   {
    "id": "prefer-would-prefer-17",
@@ -195,12 +195,12 @@
    "q": "I'd rather you ___ tell anyone.",
    "options": [
     "didn't",
-    "don't",
+    "doesn't",
     "not",
     "won't"
    ],
    "answer": 0,
-   "why": "would rather + особа + Past Simple."
+   "why": "*would rather* + особа + Past Simple: *I'd rather you didn't tell anyone.*"
   },
   {
    "id": "prefer-would-prefer-18",
@@ -213,7 +213,7 @@
     "like to"
    ],
    "answer": 0,
-   "why": "I'd rather have… — краще…"
+   "why": "*I'd rather have tea*."
   },
   {
    "id": "prefer-would-prefer-19",
@@ -228,7 +228,7 @@
    "answer": [
     "I prefer coffee to tea"
    ],
-   "why": "prefer X to Y.",
+   "why": "*prefer coffee to tea*.",
    "hint": "Я віддаю перевагу каві перед чаєм."
   },
   {
@@ -245,7 +245,7 @@
    "answer": [
     "I would rather stay at home"
    ],
-   "why": "would rather + V.",
+   "why": "*would rather stay*.",
    "hint": "Я б краще залишився вдома."
   },
   {
@@ -261,7 +261,7 @@
    "answer": [
     "She would prefer to wait"
    ],
-   "why": "would prefer to + V.",
+   "why": "*would prefer to wait*.",
    "hint": "Вона воліла б почекати."
   },
   {
@@ -269,26 +269,26 @@
    "type": "choice",
    "q": "I'd prefer ___ here.",
    "options": [
-    "you stay",
+    "you stays",
     "you to stay",
     "that you staying",
     "you staying"
    ],
    "answer": 1,
-   "why": "would prefer + особа + to."
+   "why": "*would prefer you to stay*."
   },
   {
    "id": "prefer-would-prefer-23",
    "type": "choice",
    "q": "I'd prefer it if you ___ smoke here.",
    "options": [
-    "don't",
+    "doesn't",
     "didn't",
     "won't",
     "wouldn't to"
    ],
    "answer": 1,
-   "why": "would prefer it if + Past Simple."
+   "why": "*would prefer it if* + Past Simple: *if you didn't smoke*."
   },
   {
    "id": "prefer-would-prefer-24",
@@ -297,7 +297,7 @@
    "answer": [
     "to"
    ],
-   "why": "I'd prefer not to."
+   "why": "*I'd prefer not to.*"
   }
  ]
 }

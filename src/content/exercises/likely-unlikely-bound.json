@@ -11,7 +11,7 @@
     "due to"
    ],
    "answer": 0,
-   "why": "be bound to — напевно."
+   "why": "*be bound to* — «неодмінно, напевно»: вона завжди запізнюється."
   },
   {
    "id": "likely-unlikely-bound-2",
@@ -24,7 +24,7 @@
     "certain"
    ],
    "answer": 1,
-   "why": "unlikely to — малоймовірно."
+   "why": "Він надто повільний — *unlikely to win*."
   },
   {
    "id": "likely-unlikely-bound-3",
@@ -37,7 +37,7 @@
     "sure to"
    ],
    "answer": 0,
-   "why": "It is likely that + речення."
+   "why": "*It is likely that* + речення. *bound* і *sure* так не вживаються."
   },
   {
    "id": "likely-unlikely-bound-4",
@@ -50,7 +50,7 @@
     "defined"
    ],
    "answer": 0,
-   "why": "definitely стоїть між will і дієсловом."
+   "why": "*definitely* стоїть між *will* і дієсловом."
   },
   {
    "id": "likely-unlikely-bound-5",
@@ -63,7 +63,7 @@
     "He won't come probably not."
    ],
    "answer": 0,
-   "why": "У запереченні probably — перед won’t."
+   "why": "У запереченні *probably* стоїть перед *won't*."
   },
   {
    "id": "likely-unlikely-bound-6",
@@ -76,7 +76,7 @@
     "Perhaps to"
    ],
    "answer": 0,
-   "why": "Maybe — на початку речення."
+   "why": "*Maybe* — на початку речення («можливо»). *May be* — дієслово."
   },
   {
    "id": "likely-unlikely-bound-7",
@@ -89,7 +89,7 @@
     "bound to"
    ],
    "answer": 2,
-   "why": "unlikely — малоймовірно."
+   "why": "Найменша ймовірність — *unlikely*."
   },
   {
    "id": "likely-unlikely-bound-8",
@@ -102,7 +102,7 @@
     "possibly to"
    ],
    "answer": 0,
-   "why": "Прислівник possibly — у середині."
+   "why": "*possibly* — у середині речення після модального."
   },
   {
    "id": "likely-unlikely-bound-9",
@@ -115,7 +115,7 @@
     "She is right perhaps to."
    ],
    "answer": 0,
-   "why": "Perhaps — на початку."
+   "why": "*Perhaps* — на початку."
   },
   {
    "id": "likely-unlikely-bound-10",
@@ -128,7 +128,7 @@
     "sure",
     "certain"
    ],
-   "why": "be likely to — ймовірно."
+   "why": "*be likely to* — ймовірно; *going / bound / sure / certain to* теж підходять."
   },
   {
    "id": "likely-unlikely-bound-11",
@@ -139,7 +139,7 @@
     "sure",
     "certain"
    ],
-   "why": "be bound to — неодмінно."
+   "why": "Завжди так буває — *bound / sure / certain to*."
   },
   {
    "id": "likely-unlikely-bound-12",
@@ -149,7 +149,7 @@
     "definitely",
     "certainly"
    ],
-   "why": "will + definitely + V."
+   "why": "*will definitely* / *will certainly*."
   },
   {
    "id": "likely-unlikely-bound-13",
@@ -158,7 +158,7 @@
    "answer": [
     "unlikely"
    ],
-   "why": "be unlikely to — малоймовірно."
+   "why": "Без досвіду — *unlikely to get*."
   },
   {
    "id": "likely-unlikely-bound-14",
@@ -171,7 +171,7 @@
     "probably will not to"
    ],
    "answer": 0,
-   "why": "У запереченні probably — перед won't."
+   "why": "*probably won't*."
   },
   {
    "id": "likely-unlikely-bound-15",
@@ -184,7 +184,7 @@
     "bound that"
    ],
    "answer": 0,
-   "why": "There is bound to be… — напевно буде."
+   "why": "*There is bound to be* — напевно буде."
   },
   {
    "id": "likely-unlikely-bound-16",
@@ -197,7 +197,7 @@
     "We're unlikely to win."
    ],
    "answer": 0,
-   "why": "perhaps / maybe — середня ймовірність."
+   "why": "*Perhaps* — середня ймовірність."
   },
   {
    "id": "likely-unlikely-bound-17",
@@ -210,7 +210,7 @@
     "likely to"
    ],
    "answer": 0,
-   "why": "It is likely that + речення."
+   "why": "*It is likely that…*"
   },
   {
    "id": "likely-unlikely-bound-18",
@@ -226,7 +226,7 @@
    "answer": [
     "She is likely to be late"
    ],
-   "why": "be likely to + V.",
+   "why": "*is likely to be late*.",
    "hint": "Вона, ймовірно, запізниться."
   },
   {
@@ -243,7 +243,7 @@
    "answer": [
     "You are bound to like it"
    ],
-   "why": "be bound to + V.",
+   "why": "*bound to like it*.",
    "hint": "Тобі це неодмінно сподобається."
   },
   {
@@ -260,7 +260,7 @@
    "answer": [
     "I will probably stay at home"
    ],
-   "why": "will + probably + V.",
+   "why": "*will probably stay*.",
    "hint": "Я, мабуть, залишуся вдома."
   },
   {
@@ -274,7 +274,7 @@
     "bound"
    ],
    "answer": 1,
-   "why": "a good chance (that)."
+   "why": "*a good chance (that)* — добрий шанс."
   },
   {
    "id": "likely-unlikely-bound-22",
@@ -287,7 +287,7 @@
     "unlikely"
    ],
    "answer": 1,
-   "why": "Упевненість мовця — bound to."
+   "why": "Він завжди забуває — *bound to forget*."
   },
   {
    "id": "likely-unlikely-bound-23",
@@ -296,7 +296,7 @@
    "answer": [
     "unlikely"
    ],
-   "why": "Малоймовірно — unlikely."
+   "why": "Надто тепло — *unlikely to snow*."
   }
  ]
 }

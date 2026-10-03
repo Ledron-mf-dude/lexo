@@ -11,7 +11,7 @@
     "more better"
    ],
    "answer": 0,
-   "why": "the + comparative."
+   "why": "Конструкція «чим …, тим …»: *The* + порівняльний ступінь у кожній частині: *The more you practise, the better you become.*"
   },
   {
    "id": "the-more-the-more-2",
@@ -24,7 +24,7 @@
     "A"
    ],
    "answer": 0,
-   "why": "The … the …"
+   "why": "Обидві частини починаються з *The*: *The older he gets, the wiser he becomes.*"
   },
   {
    "id": "the-more-the-more-3",
@@ -37,7 +37,7 @@
     "more better"
    ],
    "answer": 0,
-   "why": "The sooner, the better."
+   "why": "Скорочений сталий вираз: *The sooner, the better.*"
   },
   {
    "id": "the-more-the-more-4",
@@ -50,7 +50,7 @@
     "difficult and difficult"
    ],
    "answer": 0,
-   "why": "more and more + adj."
+   "why": "«Дедалі складніше» — *more and more* + довгий прикметник."
   },
   {
    "id": "the-more-the-more-5",
@@ -63,7 +63,7 @@
     "most hungry"
    ],
    "answer": 0,
-   "why": "the + comparative."
+   "why": "*the* + порівняльний: *the hungrier I am*."
   },
   {
    "id": "the-more-the-more-6",
@@ -76,7 +76,7 @@
     "The most you read, the most you know."
    ],
    "answer": 0,
-   "why": "The more …, the more …"
+   "why": "*The more …, the more …* — артикль в обох частинах обов'язковий."
   },
   {
    "id": "the-more-the-more-7",
@@ -94,7 +94,7 @@
    "answer": [
     "The more you practise, the better you become"
    ],
-   "why": "The + comparative, the + comparative."
+   "why": "*The more you practise, the better you become.*"
   },
   {
    "id": "the-more-the-more-8",
@@ -103,7 +103,7 @@
    "answer": [
     "less"
    ],
-   "why": "The less …, the more …"
+   "why": "*The less you sleep, the more tired you feel.*"
   },
   {
    "id": "the-more-the-more-9",
@@ -112,7 +112,7 @@
    "answer": [
     "more"
    ],
-   "why": "The more …, the more …"
+   "why": "*The more I learn, the more I realise…*"
   },
   {
    "id": "the-more-the-more-10",
@@ -121,7 +121,7 @@
    "answer": [
     "bigger"
    ],
-   "why": "The + порівняльний."
+   "why": "*The bigger the car, the more expensive it is.*"
   },
   {
    "id": "the-more-the-more-11",
@@ -130,7 +130,7 @@
    "answer": [
     "merrier"
    ],
-   "why": "The more, the merrier — чим більше, тим веселіше."
+   "why": "*The more, the merrier* — чим більше, тим веселіше."
   },
   {
    "id": "the-more-the-more-12",
@@ -143,7 +143,7 @@
     "much more"
    ],
    "answer": 0,
-   "why": "The + порівняльний."
+   "why": "*the more you will earn*."
   },
   {
    "id": "the-more-the-more-13",
@@ -156,7 +156,7 @@
     "more early"
    ],
    "answer": 0,
-   "why": "early → earlier."
+   "why": "*The earlier you start…* — *early → earlier*."
   },
   {
    "id": "the-more-the-more-14",
@@ -169,7 +169,7 @@
     "the most and most"
    ],
    "answer": 0,
-   "why": "more and more — постійне зростання."
+   "why": "Постійне зростання — *more and more*."
   },
   {
    "id": "the-more-the-more-15",
@@ -182,7 +182,7 @@
     "Most"
    ],
    "answer": 0,
-   "why": "The more …, the less …"
+   "why": "*The more I see him, the less I like him.*"
   },
   {
    "id": "the-more-the-more-16",
@@ -199,7 +199,7 @@
     "The sooner we leave the better",
     "The sooner we leave, the better"
    ],
-   "why": "The + порівняльний.",
+   "why": "*The sooner we leave, the better.*",
    "hint": "Чим раніше вирушимо, тим краще."
   },
   {
@@ -219,7 +219,7 @@
     "The older I get the happier I am",
     "The older I get, the happier I am"
    ],
-   "why": "The older …, the happier …",
+   "why": "*The older I get, the happier I am.*",
    "hint": "Чим старшим я стаю, тим щасливіший."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "It is getting colder and colder"
    ],
-   "why": "comparative and comparative.",
+   "why": "Дедалі холодніше — *colder and colder*.",
    "hint": "Стає дедалі холодніше."
   },
   {
@@ -250,7 +250,7 @@
     "fewer"
    ],
    "answer": 0,
-   "why": "the less + дієслово."
+   "why": "*The less you sleep…*"
   },
   {
    "id": "the-more-the-more-20",
@@ -263,7 +263,7 @@
     "more merry"
    ],
    "answer": 0,
-   "why": "the more, the merrier."
+   "why": "*the merrier*."
   },
   {
    "id": "the-more-the-more-21",
@@ -272,7 +272,7 @@
    "answer": [
     "earlier"
    ],
-   "why": "the + порівняльний: earlier."
+   "why": "*The earlier we start…*"
   }
  ]
 }

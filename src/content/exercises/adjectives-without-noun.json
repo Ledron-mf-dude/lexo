@@ -11,7 +11,7 @@
     "The rich man"
    ],
    "answer": 0,
-   "why": "the + прикметник = група людей."
+   "why": "*the* + прикметник = група людей: *The rich* (багаті люди)."
   },
   {
    "id": "adjectives-without-noun-2",
@@ -24,7 +24,7 @@
     "needing"
    ],
    "answer": 1,
-   "why": "Група — дієслово у множині."
+   "why": "Така група — множина: *The young need support.*"
   },
   {
    "id": "adjectives-without-noun-3",
@@ -37,7 +37,7 @@
     "Britishes"
    ],
    "answer": 0,
-   "why": "the British — національність як група."
+   "why": "*the British* — британці як народ."
   },
   {
    "id": "adjectives-without-noun-4",
@@ -50,7 +50,7 @@
     "the sick"
    ],
    "answer": 1,
-   "why": "Для однієї особи потрібен іменник."
+   "why": "Про одну людину потрібен іменник: *a poor man*."
   },
   {
    "id": "adjectives-without-noun-5",
@@ -63,7 +63,7 @@
     "a place"
    ],
    "answer": 0,
-   "why": "the + adj також може означати явище."
+   "why": "*the unknown* в однині — явище («невідоме»)."
   },
   {
    "id": "adjectives-without-noun-6",
@@ -76,7 +76,7 @@
     "impossibles"
    ],
    "answer": 0,
-   "why": "the impossible."
+   "why": "*the impossible* — неможливе."
   },
   {
    "id": "adjectives-without-noun-7",
@@ -89,7 +89,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "the unemployed — множина."
+   "why": "*the unemployed* — множина: *are*."
   },
   {
    "id": "adjectives-without-noun-8",
@@ -99,7 +99,7 @@
     "The rich",
     "the rich"
    ],
-   "why": "the + прикметник = група людей.",
+   "why": "*The rich* — багаті.",
    "hint": "(rich)"
   },
   {
@@ -110,7 +110,7 @@
     "The young",
     "the young"
    ],
-   "why": "the young — молоді люди загалом.",
+   "why": "*The young* — молодь.",
    "hint": "(young)"
   },
   {
@@ -120,7 +120,7 @@
    "answer": [
     "the homeless"
    ],
-   "why": "the homeless — бездомні.",
+   "why": "*the homeless* — бездомні.",
    "hint": "(homeless)"
   },
   {
@@ -134,7 +134,7 @@
     "has need"
    ],
    "answer": 0,
-   "why": "Група людей — дієслово у множині."
+   "why": "Група — дієслово в множині: *need*."
   },
   {
    "id": "adjectives-without-noun-12",
@@ -147,7 +147,7 @@
     "Italian"
    ],
    "answer": 0,
-   "why": "Italian має форму іменника: Italians."
+   "why": "*Italian* має іменник *Italians*, тому без *the*: *Italians love football.*"
   },
   {
    "id": "adjectives-without-noun-13",
@@ -160,7 +160,7 @@
     "A British"
    ],
    "answer": 0,
-   "why": "the British — група, без -s."
+   "why": "*The British* — без *-s*."
   },
   {
    "id": "adjectives-without-noun-14",
@@ -173,7 +173,7 @@
     "An injured were taken to hospital."
    ],
    "answer": 0,
-   "why": "the injured — множина, без -s."
+   "why": "*the injured* — множина, без *-s*."
   },
   {
    "id": "adjectives-without-noun-15",
@@ -188,7 +188,7 @@
    "answer": [
     "The rich pay more taxes"
    ],
-   "why": "the + adj + дієслово у множині.",
+   "why": "*The rich pay* — множина.",
    "hint": "Багаті платять більше податків."
   },
   {
@@ -204,7 +204,7 @@
    "answer": [
     "We should help the unemployed"
    ],
-   "why": "the unemployed — безробітні.",
+   "why": "*the unemployed*.",
    "hint": "Ми маємо допомагати безробітним."
   },
   {
@@ -221,7 +221,7 @@
    "answer": [
     "The best is yet to come"
    ],
-   "why": "the best — абстрактне поняття, однина.",
+   "why": "*the best* — абстрактне, однина: *is*.",
    "hint": "Найкраще ще попереду."
   },
   {
@@ -231,7 +231,7 @@
    "answer": [
     "one"
    ],
-   "why": "one замінює лічильний іменник в однині."
+   "why": "*one* замінює іменник в однині: *the red one*."
   },
   {
    "id": "adjectives-without-noun-19",
@@ -244,7 +244,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "Народ — дієслово в множині."
+   "why": "*The Swiss* — народ, множина."
   },
   {
    "id": "adjectives-without-noun-20",
@@ -257,7 +257,7 @@
     "a Japan"
    ],
    "answer": 1,
-   "why": "Про одну людину — прикметник без артикля."
+   "why": "Про одну людину — прикметник: *She's Japanese.*"
   },
   {
    "id": "adjectives-without-noun-21",
@@ -266,7 +266,7 @@
    "answer": [
     "the"
    ],
-   "why": "the + прикметник = група людей."
+   "why": "*the homeless*."
   }
  ]
 }

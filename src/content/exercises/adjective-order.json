@@ -11,7 +11,7 @@
     "a lovely red old car"
    ],
    "answer": 0,
-   "why": "Порядок: думка (lovely) → вік (old) → колір (red)."
+   "why": "Порядок прикметників: думка (*lovely*) → вік (*old*) → колір (*red*)."
   },
   {
    "id": "adjective-order-2",
@@ -24,7 +24,7 @@
     "a wooden big round table"
    ],
    "answer": 0,
-   "why": "Порядок: розмір (big) → форма (round) → матеріал (wooden)."
+   "why": "Розмір (*big*) → форма (*round*) → матеріал (*wooden*)."
   },
   {
    "id": "adjective-order-3",
@@ -37,7 +37,7 @@
     "a beautiful Italian small bag"
    ],
    "answer": 0,
-   "why": "Порядок: думка (beautiful) → розмір (small) → походження (Italian)."
+   "why": "Думка → розмір → походження: *a beautiful small Italian bag*."
   },
   {
    "id": "adjective-order-4",
@@ -50,7 +50,7 @@
     "my new running black shoes"
    ],
    "answer": 0,
-   "why": "Порядок: вік (new) → колір (black) → призначення (running)."
+   "why": "Вік → колір → призначення (*running*): *new black running shoes*."
   },
   {
    "id": "adjective-order-5",
@@ -63,7 +63,7 @@
     "a big; red ball"
    ],
    "answer": 0,
-   "why": "Різні категорії — без ком."
+   "why": "Прикметники різних категорій перед іменником пишемо без ком і без *and*."
   },
   {
    "id": "adjective-order-6",
@@ -76,7 +76,7 @@
     "long, and dark"
    ],
    "answer": 0,
-   "why": "Після дієслова два прикметники з and."
+   "why": "Після дієслова два прикметники з'єднуємо *and*: *long and dark*."
   },
   {
    "id": "adjective-order-7",
@@ -89,7 +89,7 @@
     "age"
    ],
    "answer": 0,
-   "why": "Спершу — думка."
+   "why": "Першим стоїть прикметник-думка (*lovely, nice*)."
   },
   {
    "id": "adjective-order-8",
@@ -102,7 +102,7 @@
     "age"
    ],
    "answer": 1,
-   "why": "Призначення — найближче до іменника."
+   "why": "Найближче до іменника — призначення (*running shoes*)."
   },
   {
    "id": "adjective-order-9",
@@ -115,7 +115,7 @@
     "a beautiful silk long"
    ],
    "answer": 0,
-   "why": "Думка (beautiful) → розмір (long) → матеріал (silk)."
+   "why": "Думка → розмір → матеріал: *a beautiful long silk dress*."
   },
   {
    "id": "adjective-order-10",
@@ -128,7 +128,7 @@
     "a lovely stone old"
    ],
    "answer": 0,
-   "why": "Думка → вік → матеріал (stone)."
+   "why": "Думка → вік → матеріал: *a lovely old stone house*."
   },
   {
    "id": "adjective-order-11",
@@ -141,7 +141,7 @@
     "a fast German new"
    ],
    "answer": 0,
-   "why": "Думка (fast) → вік (new) → походження (German)."
+   "why": "Думка → вік → походження: *a fast new German car*."
   },
   {
    "id": "adjective-order-12",
@@ -154,7 +154,7 @@
     "a small metal square"
    ],
    "answer": 0,
-   "why": "Розмір → форма → матеріал."
+   "why": "Розмір → форма → матеріал: *a small square metal box*."
   },
   {
    "id": "adjective-order-13",
@@ -167,7 +167,7 @@
     "a nice French little"
    ],
    "answer": 0,
-   "why": "Думка → розмір → походження."
+   "why": "Думка → розмір → походження: *a nice little French hotel*."
   },
   {
    "id": "adjective-order-14",
@@ -176,7 +176,7 @@
    "answer": [
     "cold"
    ],
-   "why": "Однієї категорії (опис) — через кому, перед останнім and.",
+   "why": "Однієї категорії — через кому, останній після *and*.",
    "hint": "(cold) — поставте прикметник у кінець переліку"
   },
   {
@@ -192,7 +192,7 @@
    "answer": [
     "She has long black hair"
    ],
-   "why": "Розмір/довжина (long) → колір (black).",
+   "why": "Довжина → колір: *long black hair*.",
    "hint": "У неї довге чорне волосся."
   },
   {
@@ -209,7 +209,7 @@
    "answer": [
     "I need a big plastic bag"
    ],
-   "why": "Розмір (big) → матеріал (plastic).",
+   "why": "Розмір → матеріал: *a big plastic bag*.",
    "hint": "Мені потрібен великий пластиковий пакет."
   },
   {
@@ -226,7 +226,7 @@
    "answer": [
     "He wore an old leather jacket"
    ],
-   "why": "Вік (old) → матеріал (leather); an — бо old починається з голосного.",
+   "why": "Вік → матеріал; *an* перед голосним звуком.",
    "hint": "Він був у старій шкіряній куртці."
   },
   {
@@ -243,7 +243,7 @@
    "answer": [
     "They have a lovely little garden"
    ],
-   "why": "Думка (lovely) → розмір (little).",
+   "why": "Думка → розмір: *a lovely little garden*.",
    "hint": "У них чудовий маленький сад."
   },
   {
@@ -257,7 +257,7 @@
     "a cotton shirt white"
    ],
    "answer": 1,
-   "why": "Колір → матеріал → іменник."
+   "why": "Колір → матеріал: *a white cotton shirt*."
   },
   {
    "id": "adjective-order-20",
@@ -270,7 +270,7 @@
     "first the two"
    ],
    "answer": 1,
-   "why": "Порядкове перед кількістю: the first two."
+   "why": "Порядкове числівник перед кількісним: *the first two days*."
   },
   {
    "id": "adjective-order-21",

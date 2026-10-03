@@ -11,7 +11,7 @@
     "could"
    ],
    "answer": 0,
-   "why": "should have + V3 — докір."
+   "why": "Докір за те, що не зробили в минулому, — *should have* + третя форма: *You should have told me.*"
   },
   {
    "id": "past-modals-2",
@@ -24,7 +24,7 @@
     "would"
    ],
    "answer": 0,
-   "why": "must have + V3 — упевнений висновок."
+   "why": "Земля мокра — упевнений висновок про минуле: *must have rained*."
   },
   {
    "id": "past-modals-3",
@@ -37,7 +37,7 @@
     "wouldn't"
    ],
    "answer": 0,
-   "why": "can't have + V3 — не може бути."
+   "why": "Вона спала — упевнене «ні»: *can't have seen me*. *mustn't have* для висновків не вживають."
   },
   {
    "id": "past-modals-4",
@@ -50,7 +50,7 @@
     "can't have"
    ],
    "answer": 0,
-   "why": "might have + V3 — можливо."
+   "why": "Невпевнене припущення — *might have missed*."
   },
   {
    "id": "past-modals-5",
@@ -63,7 +63,7 @@
     "can have"
    ],
    "answer": 0,
-   "why": "could have + V3 — була можливість."
+   "why": "Була можливість, але не скористалися: *could have won*."
   },
   {
    "id": "past-modals-6",
@@ -76,7 +76,7 @@
     "shouldn't"
    ],
    "answer": 0,
-   "why": "needn't have + V3 — не треба було (а зробили)."
+   "why": "Зробили, хоча не треба було: *needn't have brought*."
   },
   {
    "id": "past-modals-7",
@@ -89,7 +89,7 @@
     "mustn't have"
    ],
    "answer": 0,
-   "why": "shouldn't have + V3 — жаль."
+   "why": "Шкода, що зробив: *shouldn't have eaten*."
   },
   {
    "id": "past-modals-8",
@@ -102,7 +102,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "would have + V3 — третє умовне."
+   "why": "Третій умовний тип: *would have helped*."
   },
   {
    "id": "past-modals-9",
@@ -115,7 +115,7 @@
     "I shouldn't"
    ],
    "answer": 0,
-   "why": "should've = should have."
+   "why": "*should've* = *should have*. *should of* — помилка через однакову вимову."
   },
   {
    "id": "past-modals-10",
@@ -124,7 +124,7 @@
    "answer": [
     "have asked"
    ],
-   "why": "should have + V3."
+   "why": "*should have asked*."
   },
   {
    "id": "past-modals-11",
@@ -133,7 +133,7 @@
    "answer": [
     "have forgotten"
    ],
-   "why": "must have + V3."
+   "why": "*must have forgotten*."
   },
   {
    "id": "past-modals-12",
@@ -142,7 +142,7 @@
    "answer": [
     "have finished"
    ],
-   "why": "can't have + V3."
+   "why": "*can't have finished*."
   },
   {
    "id": "past-modals-13",
@@ -151,7 +151,7 @@
    "answer": [
     "have taken"
    ],
-   "why": "might have + V3."
+   "why": "*might have taken*."
   },
   {
    "id": "past-modals-14",
@@ -160,7 +160,7 @@
    "answer": [
     "have done"
    ],
-   "why": "couldn't have + V3."
+   "why": "*couldn't have done it without you*."
   },
   {
    "id": "past-modals-15",
@@ -170,7 +170,7 @@
     "needn't",
     "need not"
    ],
-   "why": "needn't have + V3."
+   "why": "*needn't have hurried* — поспішали дарма."
   },
   {
    "id": "past-modals-16",
@@ -185,7 +185,7 @@
    "answer": [
     "You should have called me"
    ],
-   "why": "should have + V3.",
+   "why": "*should have called*.",
    "hint": "Тобі слід було мені зателефонувати."
   },
   {
@@ -201,7 +201,7 @@
    "answer": [
     "She must have left early"
    ],
-   "why": "must have + V3.",
+   "why": "*must have left*.",
    "hint": "Вона, мабуть, пішла рано."
   },
   {
@@ -217,7 +217,7 @@
    "answer": [
     "I could have helped you"
    ],
-   "why": "could have + V3.",
+   "why": "*could have helped*.",
    "hint": "Я міг би тобі допомогти."
   },
   {
@@ -233,7 +233,7 @@
    "answer": [
     "He can't have seen us"
    ],
-   "why": "can't have + V3.",
+   "why": "*can't have seen*.",
    "hint": "Він не міг нас бачити."
   },
   {
@@ -247,7 +247,7 @@
     "can rain"
    ],
    "answer": 1,
-   "why": "Висновок про минуле — must have + V3."
+   "why": "Висновок про минуле — *must have rained*."
   },
   {
    "id": "past-modals-21",
@@ -260,7 +260,7 @@
     "should send"
    ],
    "answer": 1,
-   "why": "Пасив про минуле — should have been + V3."
+   "why": "Звіт мали відправити (пасив) — *should have been sent*."
   },
   {
    "id": "past-modals-22",
@@ -272,7 +272,7 @@
     "may",
     "could"
    ],
-   "why": "Припущення про процес у минулому."
+   "why": "Процес у минулому — *must / might / may / could have been sleeping*."
   }
  ]
 }
