@@ -51,6 +51,20 @@ tags: [whatever, whenever, wherever, whoever, whichever, however, no matter, б�
 
 Після заперечення — «зовсім ніякий»: *I have **no** idea **whatever**.* / *There's **no** reason **whatsoever**.*
 
+## Як вибрати
+
+1. *whatever* — що завгодно / що б не; *whoever* — хто завгодно / хто б не; *wherever* — де / куди завгодно; *whenever* — коли завгодно / щоразу коли.
+2. *whichever* — будь-який з обмеженого набору (з кількох названих).
+3. *however* + прикметник / прислівник — «як би не»: *however hard I try*.
+4. Синонім — *no matter* + *what / who / where / how*: *no matter what happens*.
+
+## Пастки перекладу
+
+- «Хоч би що сталося» — *whatever happens* або *no matter what happens*, але не *no matter whatever*.
+- «Як би я не старався» — *However hard I try*, а не *However I try hard*.
+- «Сідай, де хочеш» — *Sit wherever you like*, без *do you*.
+- «Піца чи паста?» — «Однаково» — *Whichever.*
+
 ## Типові помилки
 
 - ✗ *Whatever you will say, I won't change my mind.* → ✓ *Whatever you **say**…*

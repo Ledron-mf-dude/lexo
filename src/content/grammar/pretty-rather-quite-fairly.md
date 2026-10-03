@@ -64,6 +64,21 @@ tags: [pretty, rather, quite, fairly, very, extremely, degree adverbs, modifiers
 
 **rather than** — «замість, а не»: *I'll walk **rather than** take the bus.* **would rather** — «волів би»: *I'd **rather** stay in.* Див. «Would rather (краще б; віддавати перевагу)».
 
+## Як вибрати
+
+1. Помірно, «нормально» — *fairly*.
+2. Досить (розмовно, часто позитивно) — *pretty*.
+3. Досить, «більше, ніж чекали» (часто про недоліки) — *rather*.
+4. *quite*: зі звичайним прикметником — «досить»; з абсолютним (*right, impossible, sure*) — «цілком».
+5. Порядок з артиклем: *quite a / rather a* + прикметник + іменник; *a fairly / a pretty* + прикметник + іменник.
+
+## Пастки перекладу
+
+- «Досить гарний день» — *quite a nice day*, а не *a quite nice day*.
+- «Ти цілком правий» — *You're quite right*.
+- *quite a few* — «чимало», а не «кілька».
+- *not quite* — «не зовсім»: *I'm not quite ready.*
+
 ## Типові помилки
 
 - ✗ *a quite nice day* → ✓ ***quite a** nice day*

@@ -70,6 +70,21 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 - "Could you help me?" → He **asked me to help** him.
 - Пропозиції `Let's…` / `Shall we…?` → **suggested + -ing** або **suggested that**: *"Let's go out."* → *She **suggested going** out.*
 
+## Як вибрати
+
+1. Головне дієслово в минулому (*said, told, asked*)? — зсуваємо час на крок назад: *am → was*, *will → would*, *have done → had done*.
+2. Головне дієслово в теперішньому (*says*) або це загальна істина — зсуву немає.
+3. Питання — прямий порядок слів; «так / ні» — через *if / whether*.
+4. Наказ і прохання — *tell / ask* + особа + *to* (*not to*).
+5. Слова часу й місця: *tomorrow → the next day*, *yesterday → the day before*, *here → there*.
+
+## Пастки перекладу
+
+- В українській час не змінюється («сказав, що втомився»), а в англійській — так: *He said he **was** tired.*
+- «Він спитав, де я живу» — *He asked where I lived*, без *did*.
+- «Вона сказала мені не запізнюватися» — *She told me not to be late*.
+- *say* — без особи (*said that*), *tell* — з особою (*told me that*).
+
 ## Типові помилки
 
 - ✗ *She said me that she was tired.* → ✓ *She **told** me / She **said** (that)…*

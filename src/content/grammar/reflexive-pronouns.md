@@ -64,6 +64,21 @@ tags: [reflexive pronouns, myself, yourself, themselves, each other, one another
 
 Без займенника: *I **feel** good* (не *feel myself*), ***relax***, ***concentrate***, ***worry***.
 
+## Як вибрати
+
+1. Підмет і додаток — та сама людина? — зворотний займенник: *I cut myself.*
+2. Наголос «сам, особисто» — *himself* після підмета чи в кінці: *The manager himself called.*
+3. «Сам, без допомоги / на самоті» — *by myself* (= *on my own*).
+4. Двоє чи більше роблять щось одне одному — *each other / one another*.
+5. *wash, dress, shave, relax, concentrate, feel, meet* зазвичай без *-self*.
+
+## Пастки перекладу
+
+- Українське «-ся» не завжди дає *-self*: «одягнувся» — *got dressed*, «зустрілися» — *met*, «почуваюся» — *feel*.
+- «Вони кохають одне одного» — *They love each other*; *themselves* — кожен себе.
+- «Пригощайтеся!» — *Help yourself!*
+- *hisself, theirselves* — помилки: правильно *himself, themselves*.
+
 ## Типові помилки
 
 - ✗ *I shaved me and got dressed.* → ✓ *I **shaved** and got dressed.* / *I **shaved myself** and got dressed.*

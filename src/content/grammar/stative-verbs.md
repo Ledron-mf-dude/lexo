@@ -62,6 +62,20 @@ tags: [stative verbs, dynamic verbs, love, know, want, think, have, see, look, f
 
 Порівняння часів — у статті «Present Simple і Present Continuous».
 
+## Як вибрати
+
+1. Дієслово описує стан: думку (*know, believe, think* = вважати), почуття (*like, love, want*), володіння (*have, own, belong*), сприйняття (*see, hear*), стан речей (*contain, depend, weigh*)? — Present Simple навіть «зараз».
+2. Те саме дієслово означає дію? — Continuous можливий: *I'm thinking about it* (обмірковую), *I'm having lunch*, *She's tasting the soup*.
+3. Тимчасова поведінка — *be being* + прикметник: *He's being rude.*
+4. Сумніваєтеся — спробуйте Simple: для дієслів стану він майже завжди правильний.
+
+## Пастки перекладу
+
+- «Я знаю відповідь» — *I know*, а не *I'm knowing*.
+- «Я думаю, це гарна ідея» — *I think* (думка); «я думаю про відпустку» — *I'm thinking about*.
+- «Суп смачний» — *The soup tastes good*, не *is tasting*.
+- Рекламне *I'm loving it* — свідоме порушення, у звичайній мові — *I love it*.
+
 ## Типові помилки
 
 - ✗ *I'm knowing the answer.* → ✓ *I **know** the answer.*

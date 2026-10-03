@@ -91,6 +91,21 @@ tags: [to be, am is are, describing people, possessions, whose, possessive, be, 
 
 У коротких відповідях **«так»** не скорочуємо: *Yes, I **am**.* (не *Yes, I'm*).
 
+## Як вибрати
+
+1. Теперішній час: *I am*, *he / she / it is*, *you / we / they are*.
+2. Минулий: *I / he / she / it was*, *you / we / they were*.
+3. Заперечення — *not* після *be*; питання — *be* перед підметом. Без *do*!
+4. Вік, почуття, стани (голодний, холодно, втомлений) — *be*: *I'm 25. I'm hungry.*
+5. Коротка відповідь повторює *be*: *Are you ready?* — *Yes, I am.*
+
+## Пастки перекладу
+
+- В українській «я студент» без дієслова, в англійській *be* обов'язкове: *I am a student.*
+- «Мені 25 років» — *I'm 25*, а не *I have 25 years*.
+- «Мені холодно» — *I'm cold*, не *I have cold* (це «у мене застуда» — *I have a cold*).
+- «Я згоден» — *I agree*: *agree* — дієслово, тому без *am*.
+
 ## Типові помилки
 
 - ✗ *She a doctor.* → ✓ *She **is** a doctor.*

@@ -57,6 +57,21 @@ tags: [too, enough, too much, too many, not enough, too to, enough to, зана�
 
 Після `too` / `enough` + to-інфінітив додаток не повторюємо: *The box is too heavy to lift* (не *to lift it*), бо підмет речення і є тим, що піднімають.
 
+## Як вибрати
+
+1. «Надто, більше, ніж треба» — *too* + прикметник / прислівник: *too hot*.
+2. «Досить, достатньо» — прикметник / прислівник + *enough* (після!): *old enough*; *enough* + іменник (перед!): *enough time*.
+3. Кількість: *too much* (нелічильне), *too many* (лічильне).
+4. Для кого — *for* + особа; що зробити — *to* + дієслово: *too heavy for me to carry*.
+5. Просто «дуже», без проблеми — *very*.
+
+## Пастки перекладу
+
+- «Достатньо дорослий» — *old enough*, а не *enough old*.
+- «Надто холодно, щоб плавати» — *too cold to swim*, а не *for swim*.
+- «Надто дорого» з підсиленням — *far / much too expensive*, а не *very too*.
+- *too* в кінці речення означає «теж»: *I like it too.*
+
 ## Типові помилки
 
 - ✗ *He isn't enough old.* → ✓ *He isn't **old enough**.*

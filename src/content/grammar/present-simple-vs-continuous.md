@@ -113,6 +113,21 @@ tags: [present simple, present continuous, do does, am is are + ing, тепер�
 
 Слова-підказки для всіх часів — у статті «Time markers».
 
+## Як вибрати
+
+1. Постійне, регулярне, загальна правда, розклад — **Present Simple**.
+2. Саме зараз або тимчасово (цього тижня, поки що) — **Present Continuous**.
+3. Слова-підказки: *always, usually, every day* — Simple; *now, at the moment, Look!, these days* — Continuous.
+4. Дієслова стану (*know, like, want, believe*) — Simple навіть «зараз».
+5. *always* + Continuous — роздратування повторюваною дією.
+
+## Пастки перекладу
+
+- В українській одна форма «я працюю», а в англійській дві: *I work* (взагалі) / *I'm working* (зараз).
+- «Я не розумію» — *I don't understand*, а не *I'm not understanding*.
+- «Вона працює в банку» — *She works*, з *-s*.
+- «Що ти робиш?» (зараз) — *What are you doing?*; «Ким ти працюєш?» — *What do you do?*
+
 ## Типові помилки
 
 - ✗ *She work in a bank.* → ✓ *She **works** in a bank.*

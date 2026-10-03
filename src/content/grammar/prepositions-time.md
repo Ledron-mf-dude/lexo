@@ -75,6 +75,21 @@ tags: [prepositions of time, at, in, on, by, until, before, after, at night, in 
 
 **In** + період — «через стільки часу від тепер»: *I'll be back **in** ten minutes.* **After** — «після події»: *I'll call you **after** the meeting.* Про майбутнє не кажемо *after two hours* у значенні «через дві години».
 
+## Як вибрати
+
+1. Точний час, *night, noon, the weekend* (BrE) — *at*: *at 7, at night*.
+2. Дні, дати, конкретні свята — *on*: *on Monday, on 5 May, on Christmas Day*.
+3. Довші періоди: частини дня, місяці, роки, пори року, століття — *in*: *in the morning, in May, in 2020*.
+4. Перед *next, last, this, every* прийменника немає: *next week*.
+5. Дедлайн — *by*; тривалість аж до — *until*; через стільки-то часу від тепер — *in*.
+
+## Пастки перекладу
+
+- «У понеділок» — *on Monday*, не *in Monday*.
+- «Уночі» — *at night*, але «вранці» — *in the morning*.
+- «Наступного тижня» — *next week*, без *on* і без *in*.
+- «Закінчи до п'ятниці» — *by Friday* (дедлайн), а не *until Friday*.
+
 ## Типові помилки
 
 - ✗ *in Monday* → ✓ ***on** Monday*

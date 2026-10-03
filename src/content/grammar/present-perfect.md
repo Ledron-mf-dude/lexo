@@ -105,6 +105,21 @@ V3 — третя форма: *work → worked*, *go → gone*, *write → writt
 
 Дієслова стану (`know`, `like`, `have` = «мати») в Continuous не вживаються: *I've **known** him for years.* Див. «Stative verbs і dynamic verbs».
 
+## Як вибрати
+
+1. Досвід за життя без часу (*ever, never, three times*) — Present Perfect.
+2. Результат минулої дії важливий зараз — Present Perfect: *I've lost my keys.*
+3. Дія почалася в минулому й триває досі (*for, since*) — Present Perfect (Continuous).
+4. Названо завершений момент (*yesterday, in 2010, ago, when*) — Past Simple.
+5. Процес, тривалість, сліди — Continuous; результат, кількість — Simple.
+
+## Пастки перекладу
+
+- «Я живу тут з 2015 року» — *I have lived here since 2015*, а не *I live here since*.
+- «Я бачив його вчора» — *I saw him yesterday*: з *yesterday* перфект не вживають.
+- «Вона пішла» (і досі там) — *She has gone*; «вона була» (і повернулася) — *She has been*.
+- «Скільки ти вже чекаєш?» — *How long have you been waiting?*
+
 ## Типові помилки
 
 - ✗ *I have seen him yesterday.* → ✓ *I **saw** him yesterday.*

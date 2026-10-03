@@ -67,6 +67,21 @@ tags: [there, it, preparatory subject, it is important to, it takes, dummy subje
 | ***There's no** milk left.* — немає | ***It's no use** crying.* — марно |
 | ***There's no point in** waiting.* | ***It's no good** complaining.* |
 
+## Як вибрати
+
+1. Повідомляєте, що щось **є**? — *There is / are*: *There's a café near here.*
+2. Говорите про **вже відоме**? — *It*: *I bought a car. It's red.*
+3. Погода, час, дата, відстань — *It*: *It's raining, It's Monday, It's 5 km.*
+4. Підмет-інфінітив чи речення переносимо в кінець — *It is* + прикметник + *to*: *It's important to sleep.*
+5. Тривалість — *It takes* + час.
+
+## Пастки перекладу
+
+- Українська допускає речення без підмета («Холодно», «Вже пізно»), англійська — ні: *It's cold*, *It's late*.
+- «Важко вивчити мову» — *It is difficult to learn a language*, а не *There is difficult*.
+- «Туди дві години їзди» — *It takes two hours to get there*.
+- «Немає потреби поспішати» — *There's no need to hurry*.
+
 ## Типові помилки
 
 - ✗ *Is raining.* → ✓ ***It** is raining.* (підмет обов'язковий)

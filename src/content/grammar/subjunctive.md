@@ -90,6 +90,21 @@ tags: [subjunctive, suggest that, insist that, recommend that, it's essential th
 - **as it were** — «так би мовити»: *He became, **as it were**, a stranger in his own home.*
 - **if I were you** — стала порада; *if I was you* трапляється в розмові, але в письмі — *were*.
 
+## Як вибрати
+
+1. Після *suggest, recommend, insist, demand, require* + *that* — базова форма для всіх осіб: *that he go*.
+2. Після *essential, important, vital, necessary* + *that* — теж базова форма: *that she be*.
+3. Британський варіант — *should* + дієслово; у розмові британці кажуть і звичайний час.
+4. Нереальне — *were* для всіх осіб: *If I were you*, *Were it not for…*
+5. Сталі вирази: *Be that as it may, Come what may, if need be*.
+
+## Пастки перекладу
+
+- «Пропоную, щоб він пішов до лікаря» — *I suggest that he see a doctor*, а не *I suggest him to see*.
+- «Важливо, щоб він не запізнився» — *It's important that he not be late*: *not* без *do*.
+- Subjunctive схожий на помилку (*he see*), але це правильна форма.
+- «Якби не твоя допомога» — *Were it not for your help* (формально) / *If it weren't for your help*.
+
 ## Типові помилки
 
 - ✗ *I suggest him to see a doctor.* → ✓ *I suggest **that he see** a doctor.* / *I suggest **seeing** a doctor.* / *I suggest that he should see a doctor.* / *I suggest he sees a doctor.*

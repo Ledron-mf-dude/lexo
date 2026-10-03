@@ -75,6 +75,21 @@ tags: [wish, if only, it's time, regrets, побажання, шкодую, як
 | минуле | wish + Past Perfect | I wish I **hadn't eaten** so much. |
 | чужа поведінка, бажана зміна | wish + would | I wish you **would** listen. |
 
+## Як вибрати
+
+1. Шкода, що зараз не так — *wish / If only* + **Past Simple**: *I wish I had more time.*
+2. Шкода про минуле — *wish / If only* + **Past Perfect**: *I wish I had listened.*
+3. Хочете, щоб інший змінив поведінку або ситуація змінилася — *wish* + **would**: *I wish you would stop.*
+4. Уміння — *wish* + *could*: *I wish I could swim.*
+5. Реальне побажання на майбутнє — *hope*, не *wish*: *I hope you pass.*
+
+## Пастки перекладу
+
+- «Шкода, що я не знаю» — *I wish I knew*: заперечення в українській, ствердження в англійській.
+- «Хотів би я бути вищим» — *I wish I were taller*, а не *would be*.
+- «Сподіваюся, ти складеш іспит» — *I hope you pass*, а не *I wish you pass*.
+- Про себе *wish … would* не вживають: *I wish I could win*, не *I wish I would win*.
+
 ## Типові помилки
 
 - ✗ *I wish I have more time.* → ✓ *I wish I **had** more time.*

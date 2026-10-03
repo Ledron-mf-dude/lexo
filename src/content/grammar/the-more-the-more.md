@@ -50,6 +50,20 @@ tags: [the more the merrier, the sooner the better, double comparative, more and
 
 У першій частині майбутнє передаємо теперішнім часом, у другій — `will`: ***The sooner** we **leave**, **the earlier** we'**ll** get there.*
 
+## Як вибрати
+
+1. «Чим…, тим…» — *The* + порівняльний у кожній частині: *The more you read, the more you know.*
+2. Після порівняльного — підмет і дієслово: *the older **I get***.
+3. Скорочені сталі вирази без дієслова: *The sooner, the better. The more, the merrier.*
+4. «Дедалі…» (поступова зміна) — порівняльний + *and* + порівняльний: *colder and colder*, *more and more difficult*.
+
+## Пастки перекладу
+
+- «Чим більше…, тим краще» — *The more…, the better*: обидва *the* обов'язкові.
+- «Дедалі холодніше» — *It's getting colder and colder*, а не *cold and cold*.
+- Довгий прикметник: *more and more expensive*, а не *expensiver and expensiver*.
+- Після *The …er* не ставимо *will* у першій частині: *The sooner we leave, the earlier we'll arrive.*
+
 ## Типові помилки
 
 - ✗ *More you practise, better you become.* → ✓ ***The** more you practise, **the** better you become.*

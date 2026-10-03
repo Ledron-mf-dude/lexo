@@ -68,6 +68,22 @@ tags: [time markers, always, usually, often, now, at the moment, every day, yest
 - ***Always*** — звичка (*He always helps*) або роздратування з Continuous (*He's always complaining*).
 - ***Now*** — дія зараз (*I'm working now*) або стан (*I live in Kyiv now*).
 
+## Як вибрати
+
+1. *always, usually, often, every day, twice a week* — Present Simple.
+2. *now, at the moment, Look!, these days* — Present Continuous.
+3. *yesterday, last week, ago, in 2010* — Past Simple.
+4. *ever, never, already, yet, just, since, for, so far* — Present Perfect.
+5. *at 6 pm yesterday, while* — Past Continuous; *by the time, before* (у минулому) — Past Perfect.
+6. *tomorrow, next week* — майбутні форми; *by + момент* — Future Perfect; *this time tomorrow* — Future Continuous.
+
+## Пастки перекладу
+
+- Маркер підказує час, але вирішує зміст: *already* зазвичай з Present Perfect, але в американській трапляється й з Past Simple.
+- «Два роки тому» — *ago*, лише з Past Simple.
+- «Я бачив його з понеділка» неприродне й українською; англійською — *I haven't seen him since Monday*.
+- «Наступного тижня» — *next week*, без прийменника.
+
 ## Типові помилки
 
 - ✗ *I have seen him yesterday.* → ✓ *I **saw** him yesterday.*

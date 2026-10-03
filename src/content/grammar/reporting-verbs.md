@@ -58,6 +58,21 @@ tags: [reporting verbs, admit, deny, refuse, promise, suggest, advise, warn, apo
 
 У розмові частіше просто *said / told / asked*; точні дієслова (*admitted, denied, insisted*) — у письмових переказах, новинах, на іспитах.
 
+## Як вибрати
+
+1. Після дієслова — *to* + дієслово: *agree, offer, promise, refuse, threaten, claim*.
+2. Після дієслова + особа + *to*: *tell, ask, advise, warn, remind, invite, encourage, beg*.
+3. Після дієслова — *-ing*: *admit, deny, suggest, recommend*.
+4. Дієслово + прийменник + *-ing*: *apologise for, insist on, accuse sb of, blame sb for, congratulate sb on, thank sb for*.
+5. *suggest* — ніколи не *suggest sb to do*: або *suggest -ing*, або *suggest that…*
+
+## Пастки перекладу
+
+- «Він запропонував мені піти» — *He suggested that I go / He suggested going*, а не *suggested me to go*.
+- «Вибачився за запізнення» — *apologised for being late*.
+- «Звинуватив її в крадіжці» — *accused her of stealing*.
+- «Пояснив мені» — *explained to me*, а не *explained me*.
+
 ## Типові помилки
 
 - ✗ *She suggested me to go.* → ✓ *She suggested **going** / **that I go**.*

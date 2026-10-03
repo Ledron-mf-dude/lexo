@@ -70,6 +70,21 @@ tags: [word order, subject verb object, SVO, manner place time, порядок �
 - **also** — перед основним дієсловом, після `be`: *I **also** speak French.* / *She **is also** a teacher.*
 - **only** — перед словом, яке обмежує: *I **only** have five euros.* Див. «Position of adverbs (місце прислівників)».
 
+## Як вибрати
+
+1. Базовий порядок: підмет → дієслово → додаток → місце → час: *We visited our friends in London last summer.*
+2. Прислівник частоти — перед основним дієсловом, після *be*: *She often plays*, *She is never late*.
+3. Прислівник способу — після додатка: *speaks English well*.
+4. Питання — допоміжне перед підметом; непряме питання — прямий порядок.
+5. Підмет обов'язковий: *It's raining. He says he's busy.*
+
+## Пастки перекладу
+
+- «Я дуже люблю це» — *I like it very much*, а не *I very like it*.
+- «Каже, що зайнятий» — *He says he's busy*: без підмета англійське речення неповне.
+- «Де ти живеш?» — *Where do you live?*, а не *Where you live?*
+- «Я теж розмовляю німецькою» — *I also speak German*, а не *I speak also German*.
+
 ## Типові помилки
 
 - ✗ *I very like it.* → ✓ *I like it **very much**.*

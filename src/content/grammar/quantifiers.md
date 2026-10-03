@@ -102,6 +102,21 @@ tags: [quantifiers, much, many, a lot of, lots of, plenty of, few, a few, little
 
 Докладніше: «Too і enough (занадто, достатньо)».
 
+## Як вибрати
+
+1. Лічильні: *many, few, a few*; нелічильні: *much, little, a little*; обидва: *a lot of, some, any, enough, plenty of*.
+2. *a few / a little* — «кілька, трохи (і досить)»; *few / little* — «мало, майже немає».
+3. Про двох — *both, either, neither*; про трьох і більше — *all, any, none*.
+4. *each / every* + іменник в однині; *each of* + множина, але дієслово в однині.
+5. *too much / too many* — надто багато; *enough* після прикметника, перед іменником.
+
+## Пастки перекладу
+
+- «Скільки грошей?» — *How much money?*: *money* нелічильне.
+- «Трохи грошей» — *a little money*, а не *a few money*.
+- «Обидва правильні» — *Both are correct*; «жоден із двох» — *neither*.
+- «Цілий день» — *the whole day* або *all day*, не *whole the day*.
+
 ## Типові помилки
 
 - ✗ *I have much friends.* → ✓ *I have **a lot of / many** friends.*

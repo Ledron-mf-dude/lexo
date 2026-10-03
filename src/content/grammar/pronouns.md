@@ -84,6 +84,21 @@ tags: [pronouns, subject pronouns, object pronouns, possessive adjectives, posse
 | **there** | там; there is / are | Put it **there**. / **There** is a problem. |
 | **they're** | they are | **They're** late again. |
 
+## Як вибрати
+
+1. Хто робить дію (підмет) — *I, you, he, she, it, we, they*.
+2. Кого / кому (після дієслова чи прийменника) — *me, you, him, her, it, us, them*.
+3. Чий + іменник — *my, your, his, her, its, our, their*.
+4. Чий без іменника — *mine, yours, his, hers, ours, theirs*.
+5. Перевірте пару: приберіть іншу людину — *She and I went* (→ *I went*), *between you and me* (→ *between me*).
+
+## Пастки перекладу
+
+- «Я і Том» як підмет — *Tom and I*, а не *Me and Tom* (у розмові трапляється, але в нормі — *I*).
+- «Між нами» — *between you and me*, не *between you and I*.
+- *its* (його / її, присвійне) ≠ *it's* (*it is*).
+- *their* (їхній) ≠ *there* (там) ≠ *they're* (вони є).
+
 ## Типові помилки
 
 - ✗ *Me and Tom went home.* → ✓ ***Tom and I** went home.*

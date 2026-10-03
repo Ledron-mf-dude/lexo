@@ -60,6 +60,21 @@ tags: [there is, there are, there was, there were, there will be, there has been
 
 Українське «у мене є» — **have**, а «є, існує десь» — **there is**: *I **have** a car.* / ***There is** a car outside.* Не *There is a car at me*.
 
+## Як вибрати
+
+1. Повідомляєте, що щось **є / існує** десь (нова інформація)? — *There is* (однина, нелічильне) / *There are* (множина).
+2. Перелік — дієслово за першим іменником: *There is a book and two pens.*
+3. Час — у *be*: *There was / were*, *There will be*, *There has been*.
+4. Питання — *Is there…? / Are there…?*; *How many … are there?*
+5. Модальне — *There might be*; «здається, є» — *There seems to be*.
+
+## Пастки перекладу
+
+- «На столі книжка» — *There is a book on the table*: українське речення без дієслова англійською потребує *there is*.
+- «У мене є машина» — *I have a car*, а не *At me there is a car*.
+- «Є питання?» — *Are there any questions?*
+- *There is* не замінює *it*: «Тут холодно» — *It's cold here*.
+
 ## Типові помилки
 
 - ✗ *There are a book on the table.* → ✓ *There **is** a book…*

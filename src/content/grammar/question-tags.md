@@ -69,6 +69,21 @@ tags: [question tags, isn't it, don't you, so do I, neither do I, me too, me nei
 
 Відповідаємо за фактами, повторюючи допоміжне: *"You're from Lviv, aren't you?" — "Yes, I **am**." / "No, I'**m not**. I'm from Kyiv."*
 
+## Як вибрати
+
+1. Ствердне речення — заперечний тег; заперечне — ствердний.
+2. Повторюємо те саме допоміжне чи модальне; якщо його немає — *do / does / did*.
+3. Підмет тегу — займенник: *Tom → he*, *everybody / nobody → they*, *nothing → it*.
+4. Слова *never, nobody, nothing, hardly* роблять речення заперечним — тег ствердний.
+5. Особливі: *I am → aren't I?*, *Let's → shall we?*, наказ → *will you?*
+
+## Пастки перекладу
+
+- Українське «так?», «правда?» англійською залежить від дієслова: *You live here, don't you?*, *She's late, isn't she?*
+- *isn't it?* — не універсальний тег, як «правда?»: *You like it, don't you?*
+- «Я правий, так?» — *I'm right, aren't I?*
+- «І я теж» — *So do I / So am I*; «і я теж ні» — *Neither do I*.
+
 ## Типові помилки
 
 - ✗ *She is late, is she?* → ✓ *She is late, **isn't she**?*
