@@ -20,7 +20,18 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 | may: "I **may** come." | might: She said she **might** come. |
 | must: "I **must** go." | had to: She said she **had to** go. |
 
-**Не змінюються:** `would`, `could`, `should`, `might`, `Past Perfect`. Якщо повідомлення **досі актуальне** або головне дієслово в теперішньому (*She says…*), зсуву не буде.
+**Не змінюються:** `would`, `could`, `should`, `might`, `ought to`, `Past Perfect`. `Must` може залишитися або стати `had to`.
+
+## Коли час не зсувається
+
+| Ситуація | Приклад |
+| --- | --- |
+| Головне дієслово в теперішньому чи майбутньому | *She **says** she **is** tired.* / *I'll tell him you **are** here.* |
+| Загальна істина, факт | *The teacher said the Earth **goes** round the Sun.* |
+| Ситуація досі така сама | *He told me he **lives** in Lviv.* (і досі там живе) — зсув теж можливий: *lived* |
+| Past Simple у складних реченнях з часом | *She said she **was** at home when it **happened**.* (Past Perfect необов'язковий) |
+
+Займенники змінюються за змістом: *"**I** love **your** idea," he said **to me**.* → *He told me **he** loved **my** idea.*
 
 ## Слова часу та місця
 
@@ -36,8 +47,10 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 
 ## Say і tell
 
-- **say** (без особи): *She **said** (that) she was tired.*
+- **say** (без особи): *She **said** (that) she was tired.* З особою — через `to`: *She said **to me**…*
 - **tell** (з особою): *She **told me** (that) she was tired.*
+
+`That` після `say` і `tell` у розмові часто пропускають. Інші дієслова замість `said` (*admit, promise, refuse, warn…*) — у статті «Reporting verbs: admit doing, refuse to do, suggest…». Різниця між `say` і `tell` докладніше — у статті «Слова, які часто плутають: say і tell, lend і borrow…».
 
 ## Запитання
 
@@ -45,6 +58,8 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 
 - "Where **do you live**?" → He asked me **where I lived**.
 - Питання так/ні → **if / whether**: "Are you ready?" → She asked **if I was ready**.
+- Знак питання в кінці **не ставимо**: *He asked where I lived.*
+- Крім `ask`, вводять словами *wanted to know*, *wondered*: *She **wanted to know** what time it was.*
 
 ## Накази та прохання
 
@@ -52,6 +67,8 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 
 - "Close the door." → She **told me to close** the door.
 - "Don't be late." → She **told me not to be** late.
+- "Could you help me?" → He **asked me to help** him.
+- Пропозиції `Let's…` / `Shall we…?` → **suggested + -ing** або **suggested that**: *"Let's go out."* → *She **suggested going** out.*
 
 ## Типові помилки
 
@@ -59,3 +76,7 @@ tags: [reported speech, indirect speech, said, told, asked, backshift, непр�
 - ✗ *He asked where did I live.* → ✓ *He asked where **I lived**.*
 - ✗ *She told me don't be late.* → ✓ *She told me **not to be** late.*
 - ✗ *He said he will call tomorrow.* (повідомлення вже неактуальне) → ✓ *He said he **would** call the next day.*
+- ✗ *She asked me if I am ready.* → ✓ *She asked me if I **was** ready.*
+- ✗ *He asked me do I like coffee.* → ✓ *He asked me **if I liked** coffee.*
+- ✗ *She told to me to wait.* → ✓ *She told **me** to wait.*
+- ✗ *He asked where was the station.* → ✓ *He asked where **the station was**.*

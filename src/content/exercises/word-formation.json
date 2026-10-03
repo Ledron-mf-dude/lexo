@@ -1,0 +1,243 @@
+{
+ "questions": [
+  {
+   "id": "word-formation-1",
+   "type": "choice",
+   "q": "It was a difficult ___ to make.",
+   "options": [
+    "decide",
+    "decision",
+    "decisive",
+    "decisively"
+   ],
+   "answer": 1,
+   "why": "Після прикметника difficult — іменник: decision."
+  },
+  {
+   "id": "word-formation-2",
+   "type": "choice",
+   "q": "Please drive ___. The road is icy.",
+   "options": [
+    "careful",
+    "care",
+    "carefully",
+    "careless"
+   ],
+   "answer": 2,
+   "why": "Біля дієслова drive — прислівник: carefully."
+  },
+  {
+   "id": "word-formation-3",
+   "type": "choice",
+   "q": "Parking here is ___. You'll get a fine.",
+   "options": [
+    "unlegal",
+    "illegal",
+    "inlegal",
+    "dislegal"
+   ],
+   "answer": 1,
+   "why": "Перед l — префікс il-: illegal."
+  },
+  {
+   "id": "word-formation-4",
+   "type": "choice",
+   "q": "I'm sorry, I ___ what you said.",
+   "options": [
+    "disunderstood",
+    "ununderstood",
+    "misunderstood",
+    "overunderstood"
+   ],
+   "answer": 2,
+   "why": "mis- = неправильно: misunderstood."
+  },
+  {
+   "id": "word-formation-5",
+   "type": "choice",
+   "q": "The new ___ starts work on Monday. The company hired her last week.",
+   "options": [
+    "employer",
+    "employee",
+    "employment",
+    "employ"
+   ],
+   "answer": 1,
+   "why": "Найнята людина — employee (-ee); той, хто наймає, — employer."
+  },
+  {
+   "id": "word-formation-6",
+   "type": "choice",
+   "q": "This knife is ___. It doesn't cut anything.",
+   "options": [
+    "useful",
+    "useless",
+    "usage",
+    "user"
+   ],
+   "answer": 1,
+   "why": "-less = без: useless."
+  },
+  {
+   "id": "word-formation-7",
+   "type": "choice",
+   "q": "Can you ___ the instructions? They're too complicated.",
+   "options": [
+    "simple",
+    "simplicity",
+    "simplify",
+    "simply"
+   ],
+   "answer": 2,
+   "why": "Після can — дієслово: simplify (-ify)."
+  },
+  {
+   "id": "word-formation-8",
+   "type": "choice",
+   "q": "He's very ___. He always tells the truth.",
+   "options": [
+    "honesty",
+    "dishonest",
+    "honest",
+    "honestly"
+   ],
+   "answer": 2,
+   "why": "Після very — прикметник: honest."
+  },
+  {
+   "id": "word-formation-9",
+   "type": "choice",
+   "q": "They want to ___ the road because of the traffic.",
+   "options": [
+    "wide",
+    "width",
+    "widen",
+    "widely"
+   ],
+   "answer": 2,
+   "why": "Після to — дієслово: widen (-en)."
+  },
+  {
+   "id": "word-formation-10",
+   "type": "choice",
+   "q": "Her ___ in the final was amazing.",
+   "options": [
+    "perform",
+    "performer",
+    "performance",
+    "performing"
+   ],
+   "answer": 2,
+   "why": "Після her — іменник-подія: performance."
+  },
+  {
+   "id": "word-formation-11",
+   "type": "fill",
+   "q": "I have no ___ (patient) with people who are always late.",
+   "answer": [
+    "patience"
+   ],
+   "why": "Після no — іменник: patient → patience."
+  },
+  {
+   "id": "word-formation-12",
+   "type": "fill",
+   "q": "She's a famous ___ (science).",
+   "answer": [
+    "scientist"
+   ],
+   "why": "Людина-фахівець: science → scientist (-ist)."
+  },
+  {
+   "id": "word-formation-13",
+   "type": "fill",
+   "q": "It's ___ (possible) to finish this by tomorrow. We need more time.",
+   "answer": [
+    "impossible"
+   ],
+   "why": "Перед p — префікс im-: impossible."
+  },
+  {
+   "id": "word-formation-14",
+   "type": "fill",
+   "q": "The ___ (long) of the bridge is two kilometres.",
+   "answer": [
+    "length"
+   ],
+   "why": "Від long — іменник length (-th)."
+  },
+  {
+   "id": "word-formation-15",
+   "type": "fill",
+   "q": "Thank you, you've been very ___ (help).",
+   "answer": [
+    "helpful"
+   ],
+   "why": "Після very — прикметник: helpful (-ful)."
+  },
+  {
+   "id": "word-formation-16",
+   "type": "fill",
+   "q": "We need to ___ (write) this paragraph. It's not clear.",
+   "answer": [
+    "rewrite"
+   ],
+   "why": "re- = знову: rewrite."
+  },
+  {
+   "id": "word-formation-17",
+   "type": "fill",
+   "q": "Our ___ (friend) started at school.",
+   "answer": [
+    "friendship"
+   ],
+   "why": "Стосунок — friendship (-ship)."
+  },
+  {
+   "id": "word-formation-18",
+   "type": "fill",
+   "q": "The weather was ___ (sun), so we went to the beach.",
+   "answer": [
+    "sunny"
+   ],
+   "why": "Прикметник на -y з подвоєнням: sunny."
+  },
+  {
+   "id": "word-formation-19",
+   "type": "order",
+   "words": [
+    "His",
+    "explanation",
+    "was",
+    "not",
+    "very",
+    "clear"
+   ],
+   "answer": [
+    "His explanation was not very clear"
+   ],
+   "why": "explain → explanation: у іменнику корінь змінюється.",
+   "hint": "Його пояснення було не дуже зрозумілим."
+  },
+  {
+   "id": "word-formation-20",
+   "type": "order",
+   "words": [
+    "Most",
+    "of",
+    "the",
+    "players",
+    "were",
+    "unhappy",
+    "with",
+    "the",
+    "decision"
+   ],
+   "answer": [
+    "Most of the players were unhappy with the decision"
+   ],
+   "why": "un- + happy; decide → decision.",
+   "hint": "Більшість гравців були незадоволені рішенням."
+  }
+ ]
+}

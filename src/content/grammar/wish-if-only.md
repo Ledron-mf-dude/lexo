@@ -47,7 +47,7 @@ tags: [wish, if only, it's time, regrets, побажання, шкодую, як
 ## Типові помилки
 
 - ✗ *I wish I have more time.* → ✓ *I wish I **had** more time.*
-- ✗ *I wish I didn't say it yesterday.* → ✓ *I wish I **hadn't said** it.*
+- ✗ *I wish I didn't say it yesterday.* → ✓ *I wish I **hadn't said** it yesterday.*
 - ✗ *I wish I would be taller.* → ✓ *I wish I **were** taller.*
 - ✗ *It's time we go home.* → ✓ *It's time we **went** home.*
 

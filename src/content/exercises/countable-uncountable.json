@@ -288,6 +288,76 @@
    ],
    "why": "much + нелічильне в запереченні.",
    "hint": "У нас небагато часу."
+  },
+  {
+   "id": "countable-uncountable-24",
+   "type": "choice",
+   "q": "She has beautiful long ___.",
+   "options": [
+    "hairs",
+    "hair",
+    "a hair",
+    "the hairs"
+   ],
+   "answer": 1,
+   "why": "Волосся загалом — нелічильне hair."
+  },
+  {
+   "id": "countable-uncountable-25",
+   "type": "choice",
+   "q": "I've been to Paris three ___.",
+   "options": [
+    "time",
+    "times",
+    "timing",
+    "a time"
+   ],
+   "answer": 1,
+   "why": "time = раз — лічильне: three times."
+  },
+  {
+   "id": "countable-uncountable-26",
+   "type": "choice",
+   "q": "Can I have two ___, please? (дві чашки кави)",
+   "options": [
+    "coffee",
+    "coffees",
+    "cups coffee",
+    "coffee cups of"
+   ],
+   "answer": 1,
+   "why": "a coffee — чашка кави, тому two coffees."
+  },
+  {
+   "id": "countable-uncountable-27",
+   "type": "choice",
+   "q": "Is there ___ for one more person in the car?",
+   "options": [
+    "a room",
+    "room",
+    "rooms",
+    "the rooms"
+   ],
+   "answer": 1,
+   "why": "room = місце, простір — нелічильне."
+  },
+  {
+   "id": "countable-uncountable-28",
+   "type": "fill",
+   "q": "He has a lot of ___ (experience) in marketing.",
+   "answer": [
+    "experience"
+   ],
+   "why": "Досвід-знання — нелічильне, без -s."
+  },
+  {
+   "id": "countable-uncountable-29",
+   "type": "fill",
+   "q": "We need some new ___ (furniture) for the office.",
+   "answer": [
+    "furniture"
+   ],
+   "why": "furniture — нелічильне, без -s."
   }
  ]
 }

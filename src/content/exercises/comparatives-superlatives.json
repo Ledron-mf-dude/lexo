@@ -303,6 +303,54 @@
    ],
    "why": "the most + довгий прикметник.",
    "hint": "Це найцікавіша книжка, яку я прочитав."
+  },
+  {
+   "id": "comparatives-superlatives-25",
+   "type": "choice",
+   "q": "My ___ sister lives in Canada. (старша)",
+   "options": [
+    "more old",
+    "elder",
+    "eldest",
+    "most old"
+   ],
+   "answer": 1,
+   "why": "Член родини перед іменником — elder (або older)."
+  },
+  {
+   "id": "comparatives-superlatives-26",
+   "type": "choice",
+   "q": "Please call us for ___ information.",
+   "options": [
+    "farther",
+    "further",
+    "furthest",
+    "more far"
+   ],
+   "answer": 1,
+   "why": "Додатковий — further."
+  },
+  {
+   "id": "comparatives-superlatives-27",
+   "type": "choice",
+   "q": "It's the ___ day of the year.",
+   "options": [
+    "hotter",
+    "most hot",
+    "hottest",
+    "more hot"
+   ],
+   "answer": 2,
+   "why": "Найвищий ступінь: the hottest."
+  },
+  {
+   "id": "comparatives-superlatives-28",
+   "type": "fill",
+   "q": "This exam was ___ (bad) than the last one.",
+   "answer": [
+    "worse"
+   ],
+   "why": "bad → worse."
   }
  ]
 }

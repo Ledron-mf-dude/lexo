@@ -276,6 +276,77 @@
    ],
    "why": "just + Present Perfect.",
    "hint": "Вона щойно зателефонувала."
+  },
+  {
+   "id": "present-perfect-23",
+   "type": "choice",
+   "q": "Anna isn't here. She ___ to the dentist.",
+   "options": [
+    "has been",
+    "has gone",
+    "went",
+    "is been"
+   ],
+   "answer": 1,
+   "why": "Пішла і ще там — has gone."
+  },
+  {
+   "id": "present-perfect-24",
+   "type": "choice",
+   "q": "I ___ to London three times.",
+   "options": [
+    "have gone",
+    "have been",
+    "went",
+    "was"
+   ],
+   "answer": 1,
+   "why": "Досвід «побував і повернувся» — have been."
+  },
+  {
+   "id": "present-perfect-25",
+   "type": "choice",
+   "q": "This is the first time I ___ oysters.",
+   "options": [
+    "eat",
+    "ate",
+    "have eaten",
+    "am eating"
+   ],
+   "answer": 2,
+   "why": "It's the first time… — Present Perfect."
+  },
+  {
+   "id": "present-perfect-26",
+   "type": "choice",
+   "q": "I've known her ___ we were at school.",
+   "options": [
+    "for",
+    "since",
+    "from",
+    "during"
+   ],
+   "answer": 1,
+   "why": "since + речення в Past Simple."
+  },
+  {
+   "id": "present-perfect-27",
+   "type": "fill",
+   "q": "Your hands are dirty. What ___ you been doing?",
+   "answer": [
+    "have"
+   ],
+   "why": "Слід недавньої дії — Present Perfect Continuous: have you been doing."
+  },
+  {
+   "id": "present-perfect-28",
+   "type": "fill",
+   "q": "I ___ (paint) the kitchen. It looks great now!",
+   "answer": [
+    "have painted",
+    "'ve painted"
+   ],
+   "why": "Готовий результат — Present Perfect Simple."
   }
  ]
 }

@@ -257,6 +257,64 @@
    ],
    "why": "Past Simple — названий час.",
    "hint": "Ми познайомилися в Парижі 2019 року."
+  },
+  {
+   "id": "past-tenses-22",
+   "type": "choice",
+   "q": "___ I was walking home, I met an old friend.",
+   "options": [
+    "During",
+    "While",
+    "For",
+    "Since"
+   ],
+   "answer": 1,
+   "why": "Тривала дія (Continuous) — while."
+  },
+  {
+   "id": "past-tenses-23",
+   "type": "choice",
+   "q": "When she arrived, we ___ dinner. (вечеря вже йшла)",
+   "options": [
+    "had",
+    "were having",
+    "had had",
+    "have"
+   ],
+   "answer": 1,
+   "why": "Вона прийшла посеред вечері — Past Continuous."
+  },
+  {
+   "id": "past-tenses-24",
+   "type": "choice",
+   "q": "When she arrived, we ___ dinner. (повечеряли до її приходу)",
+   "options": [
+    "had",
+    "were having",
+    "had had",
+    "have had"
+   ],
+   "answer": 2,
+   "why": "Дія раніше за інший момент — Past Perfect: had had."
+  },
+  {
+   "id": "past-tenses-25",
+   "type": "fill",
+   "q": "What ___ you doing at 10 last night?",
+   "answer": [
+    "were"
+   ],
+   "why": "Past Continuous: were + підмет + V-ing."
+  },
+  {
+   "id": "past-tenses-26",
+   "type": "fill",
+   "q": "I ___ (not / hear) the phone because I was in the shower.",
+   "answer": [
+    "didn't hear",
+    "did not hear"
+   ],
+   "why": "Коротка подія — Past Simple, заперечення didn't + V."
   }
  ]
 }

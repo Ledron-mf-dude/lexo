@@ -268,6 +268,63 @@
    ],
    "why": "Прямий порядок слів.",
    "hint": "Вона запитала, де я живу."
+  },
+  {
+   "id": "reported-speech-23",
+   "type": "choice",
+   "q": "She says she ___ tired. (каже зараз)",
+   "options": [
+    "was",
+    "is",
+    "had been",
+    "would be"
+   ],
+   "answer": 1,
+   "why": "Головне дієслово в теперішньому — без зсуву."
+  },
+  {
+   "id": "reported-speech-24",
+   "type": "choice",
+   "q": "The teacher said that water ___ at 100°C.",
+   "options": [
+    "boil",
+    "boils",
+    "had boiled",
+    "is boiling"
+   ],
+   "answer": 1,
+   "why": "Загальна істина — можна без зсуву: boils."
+  },
+  {
+   "id": "reported-speech-25",
+   "type": "choice",
+   "q": "He asked me where ___.",
+   "options": [
+    "did I live",
+    "I lived",
+    "do I live",
+    "lived I"
+   ],
+   "answer": 1,
+   "why": "Непряме питання — прямий порядок слів, зсув часу."
+  },
+  {
+   "id": "reported-speech-26",
+   "type": "fill",
+   "q": "\"Let's eat out.\" → She suggested ___ out.",
+   "answer": [
+    "eating"
+   ],
+   "why": "suggest + -ing."
+  },
+  {
+   "id": "reported-speech-27",
+   "type": "fill",
+   "q": "\"Could you help me?\" → He asked me ___ help him.",
+   "answer": [
+    "to"
+   ],
+   "why": "ask somebody to + V."
   }
  ]
 }

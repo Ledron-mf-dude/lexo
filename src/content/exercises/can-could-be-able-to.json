@@ -264,6 +264,63 @@
    ],
    "why": "Present Perfect — have been able to.",
    "hint": "Я ніколи не вмів готувати."
+  },
+  {
+   "id": "can-could-be-able-to-21",
+   "type": "choice",
+   "q": "\"Could I use your phone?\" — \"Yes, of course you ___.\"",
+   "options": [
+    "could",
+    "can",
+    "may to",
+    "would"
+   ],
+   "answer": 1,
+   "why": "Дозвіл даємо через can."
+  },
+  {
+   "id": "can-could-be-able-to-22",
+   "type": "choice",
+   "q": "Last year we ___ leave work early on Fridays. (дозвіл)",
+   "options": [
+    "could to",
+    "were allowed to",
+    "must",
+    "can"
+   ],
+   "answer": 1,
+   "why": "Дозвіл у минулому — were allowed to (або could)."
+  },
+  {
+   "id": "can-could-be-able-to-23",
+   "type": "choice",
+   "q": "Would you mind ___ the door?",
+   "options": [
+    "to close",
+    "closing",
+    "close",
+    "closed"
+   ],
+   "answer": 1,
+   "why": "Would you mind + -ing."
+  },
+  {
+   "id": "can-could-be-able-to-24",
+   "type": "fill",
+   "q": "It ___ be really hot here in July. (буває)",
+   "answer": [
+    "can"
+   ],
+   "why": "Загальна можливість — can."
+  },
+  {
+   "id": "can-could-be-able-to-25",
+   "type": "fill",
+   "q": "The box was heavy, but I managed ___ lift it.",
+   "answer": [
+    "to"
+   ],
+   "why": "managed to + V."
   }
  ]
 }

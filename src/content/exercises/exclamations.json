@@ -1,0 +1,252 @@
+{
+ "questions": [
+  {
+   "id": "exclamations-1",
+   "type": "choice",
+   "q": "___ lovely garden!",
+   "options": [
+    "What",
+    "What a",
+    "How",
+    "How a"
+   ],
+   "answer": 1,
+   "why": "Лічильний іменник в однині — What a."
+  },
+  {
+   "id": "exclamations-2",
+   "type": "choice",
+   "q": "___ awful weather!",
+   "options": [
+    "What an",
+    "What",
+    "How",
+    "Such"
+   ],
+   "answer": 1,
+   "why": "Weather — нелічильний, без артикля: What awful weather!"
+  },
+  {
+   "id": "exclamations-3",
+   "type": "choice",
+   "q": "___ kind of you!",
+   "options": [
+    "What",
+    "What a",
+    "How",
+    "So a"
+   ],
+   "answer": 2,
+   "why": "Прикметник без іменника — How."
+  },
+  {
+   "id": "exclamations-4",
+   "type": "choice",
+   "q": "___ beautiful shoes!",
+   "options": [
+    "What a",
+    "What",
+    "How",
+    "How a"
+   ],
+   "answer": 1,
+   "why": "Множина — What без артикля."
+  },
+  {
+   "id": "exclamations-5",
+   "type": "choice",
+   "q": "How well ___!",
+   "options": [
+    "does she dance",
+    "she dances",
+    "dances she",
+    "she does dance?"
+   ],
+   "answer": 1,
+   "why": "Окличне речення — прямий порядок слів: підмет + дієслово."
+  },
+  {
+   "id": "exclamations-6",
+   "type": "choice",
+   "q": "It was ___ boring lecture!",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "what a"
+   ],
+   "answer": 2,
+   "why": "Such a + прикметник + лічильний іменник в однині."
+  },
+  {
+   "id": "exclamations-7",
+   "type": "choice",
+   "q": "They are ___ friendly people!",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "how"
+   ],
+   "answer": 1,
+   "why": "Множина — such без артикля."
+  },
+  {
+   "id": "exclamations-8",
+   "type": "choice",
+   "q": "The tea is ___ hot!",
+   "options": [
+    "such",
+    "such a",
+    "so",
+    "what"
+   ],
+   "answer": 2,
+   "why": "Прикметник без іменника — so."
+  },
+  {
+   "id": "exclamations-9",
+   "type": "choice",
+   "q": "___ useful advice!",
+   "options": [
+    "What a",
+    "What",
+    "How",
+    "Such a"
+   ],
+   "answer": 1,
+   "why": "Advice — нелічильний: What useful advice!"
+  },
+  {
+   "id": "exclamations-10",
+   "type": "choice",
+   "q": "\"I passed the exam!\" — \"___ relief!\"",
+   "options": [
+    "How",
+    "What a",
+    "How a",
+    "So"
+   ],
+   "answer": 1,
+   "why": "What a relief! — стала окличка з лічильним іменником."
+  },
+  {
+   "id": "exclamations-11",
+   "type": "fill",
+   "q": "___ a mess you've made!",
+   "answer": [
+    "What"
+   ],
+   "why": "What a + іменник: What a mess!"
+  },
+  {
+   "id": "exclamations-12",
+   "type": "fill",
+   "q": "___ tall you've grown!",
+   "answer": [
+    "How"
+   ],
+   "why": "How + прикметник + підмет + дієслово."
+  },
+  {
+   "id": "exclamations-13",
+   "type": "fill",
+   "q": "___ terrible news!",
+   "answer": [
+    "What"
+   ],
+   "why": "News — нелічильний: What terrible news!"
+  },
+  {
+   "id": "exclamations-14",
+   "type": "fill",
+   "q": "What ___ amazing idea!",
+   "answer": [
+    "an"
+   ],
+   "why": "Перед голосним звуком — an."
+  },
+  {
+   "id": "exclamations-15",
+   "type": "fill",
+   "q": "It's ___ a pity you can't come!",
+   "answer": [
+    "such"
+   ],
+   "why": "Such a + іменник: such a pity."
+  },
+  {
+   "id": "exclamations-16",
+   "type": "fill",
+   "q": "You speak ___ quickly! I can't follow.",
+   "answer": [
+    "so"
+   ],
+   "why": "Прислівник без іменника — so."
+  },
+  {
+   "id": "exclamations-17",
+   "type": "order",
+   "words": [
+    "What",
+    "a",
+    "strange",
+    "question"
+   ],
+   "answer": [
+    "What a strange question"
+   ],
+   "why": "What a + прикметник + іменник.",
+   "hint": "Яке дивне запитання!"
+  },
+  {
+   "id": "exclamations-18",
+   "type": "order",
+   "words": [
+    "How",
+    "fast",
+    "the",
+    "time",
+    "goes"
+   ],
+   "answer": [
+    "How fast the time goes"
+   ],
+   "why": "How + прислівник + підмет + дієслово, без інверсії.",
+   "hint": "Як швидко минає час!"
+  },
+  {
+   "id": "exclamations-19",
+   "type": "order",
+   "words": [
+    "What",
+    "nice",
+    "people",
+    "they",
+    "are"
+   ],
+   "answer": [
+    "What nice people they are"
+   ],
+   "why": "Множина: What + прикметник + іменник + підмет + дієслово.",
+   "hint": "Які вони приємні люди!"
+  },
+  {
+   "id": "exclamations-20",
+   "type": "order",
+   "words": [
+    "It",
+    "was",
+    "such",
+    "a",
+    "good",
+    "party"
+   ],
+   "answer": [
+    "It was such a good party"
+   ],
+   "why": "such a + прикметник + іменник в однині.",
+   "hint": "Це була така класна вечірка!"
+  }
+ ]
+}

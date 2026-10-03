@@ -52,7 +52,7 @@ tags: [modals, might, may, should, must, can't, possibility, probability, logica
 
 ## Типові помилки
 
-- ✗ *He mustn't be at home — the lights are off.* → ✓ *He **can't** be at home.* (упевнене «ні» — can't)
+- ✗ *He mustn't be at home — the lights are off.* (упевнене «ні» — can't) → ✓ *He **can't** be at home — the lights are off.*
 - ✗ *She must be sleep.* → ✓ *She must **be sleeping**.*
 - ✗ *He might forgot.* → ✓ *He might **have forgotten**.*
 - ✗ *They can have missed the bus.* → ✓ *They **could / may / might** have missed the bus.*

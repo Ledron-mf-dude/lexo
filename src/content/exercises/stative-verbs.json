@@ -263,6 +263,63 @@
    ],
    "why": "belong — стан.",
    "hint": "Це пальто належить мені."
+  },
+  {
+   "id": "stative-verbs-22",
+   "type": "choice",
+   "q": "This bag ___ more than 20 kilos.",
+   "options": [
+    "is weighing",
+    "weighs",
+    "weigh",
+    "has weighed"
+   ],
+   "answer": 1,
+   "why": "weigh (важить) — стан: Present Simple."
+  },
+  {
+   "id": "stative-verbs-23",
+   "type": "choice",
+   "q": "Why ___ the milk? Is it off?",
+   "options": [
+    "do you smell",
+    "are you smelling",
+    "you smell",
+    "smell you"
+   ],
+   "answer": 1,
+   "why": "smell = нюхати (дія зараз) — Continuous."
+  },
+  {
+   "id": "stative-verbs-24",
+   "type": "choice",
+   "q": "We ___ a baby in May!",
+   "options": [
+    "expect",
+    "are expecting",
+    "expecting",
+    "have expected"
+   ],
+   "answer": 1,
+   "why": "expect = чекати (дитину, гостей) — дія: are expecting."
+  },
+  {
+   "id": "stative-verbs-25",
+   "type": "fill",
+   "q": "It ___ (depend) on the price.",
+   "answer": [
+    "depends"
+   ],
+   "why": "depend — дієслово стану: depends."
+  },
+  {
+   "id": "stative-verbs-26",
+   "type": "fill",
+   "q": "You ___ (look) tired. Are you OK?",
+   "answer": [
+    "look"
+   ],
+   "why": "look = виглядати — стан: Present Simple."
   }
  ]
 }

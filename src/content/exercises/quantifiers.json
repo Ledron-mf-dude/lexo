@@ -274,6 +274,76 @@
    ],
    "why": "neither + однина.",
    "hint": "Жодна з двох відповідей не правильна."
+  },
+  {
+   "id": "quantifiers-23",
+   "type": "choice",
+   "q": "___ student received a certificate.",
+   "options": [
+    "All",
+    "Each",
+    "Both",
+    "Many"
+   ],
+   "answer": 1,
+   "why": "З одниною — each або every."
+  },
+  {
+   "id": "quantifiers-24",
+   "type": "choice",
+   "q": "I spent ___ day cleaning the flat.",
+   "options": [
+    "whole the",
+    "the whole",
+    "all of",
+    "the all"
+   ],
+   "answer": 1,
+   "why": "the whole + однина: the whole day."
+  },
+  {
+   "id": "quantifiers-25",
+   "type": "choice",
+   "q": "Don't worry, we've got ___ time.",
+   "options": [
+    "plenty of",
+    "much of",
+    "a few",
+    "many"
+   ],
+   "answer": 0,
+   "why": "plenty of — більш ніж достатньо."
+  },
+  {
+   "id": "quantifiers-26",
+   "type": "choice",
+   "q": "___ of my friends could come. I was alone.",
+   "options": [
+    "Each",
+    "None",
+    "Every",
+    "Both"
+   ],
+   "answer": 1,
+   "why": "None of — жоден із багатьох."
+  },
+  {
+   "id": "quantifiers-27",
+   "type": "fill",
+   "q": "The tickets cost ten euros ___.",
+   "answer": [
+    "each"
+   ],
+   "why": "Без іменника в кінці — each."
+  },
+  {
+   "id": "quantifiers-28",
+   "type": "fill",
+   "q": "Quite a ___ people came to the party — more than I expected.",
+   "answer": [
+    "few"
+   ],
+   "why": "quite a few — доволі багато."
   }
  ]
 }

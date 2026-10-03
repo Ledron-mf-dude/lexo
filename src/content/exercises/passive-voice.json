@@ -268,6 +268,72 @@
    ],
    "why": "is being + V3.",
    "hint": "Машину зараз ремонтують."
+  },
+  {
+   "id": "passive-voice-23",
+   "type": "choice",
+   "q": "The letter was opened ___ a knife.",
+   "options": [
+    "by",
+    "with",
+    "from",
+    "of"
+   ],
+   "answer": 1,
+   "why": "Інструмент — with."
+  },
+  {
+   "id": "passive-voice-24",
+   "type": "choice",
+   "q": "Who was the Mona Lisa painted ___?",
+   "options": [
+    "from",
+    "with",
+    "by",
+    "of"
+   ],
+   "answer": 2,
+   "why": "Питання про виконавця: Who … by?"
+  },
+  {
+   "id": "passive-voice-25",
+   "type": "choice",
+   "q": "I ___ a free ticket.",
+   "options": [
+    "gave",
+    "was given",
+    "was giving",
+    "have given"
+   ],
+   "answer": 1,
+   "why": "Пасив з двома додатками: підмет — людина."
+  },
+  {
+   "id": "passive-voice-26",
+   "type": "fill",
+   "q": "When ___ this bridge built?",
+   "answer": [
+    "was"
+   ],
+   "why": "Пасив у Past Simple: was + V3."
+  },
+  {
+   "id": "passive-voice-27",
+   "type": "fill",
+   "q": "The children were looked ___ by their grandmother.",
+   "answer": [
+    "after"
+   ],
+   "why": "Прийменник залишається після дієслова: looked after."
+  },
+  {
+   "id": "passive-voice-28",
+   "type": "fill",
+   "q": "The report should have ___ sent yesterday.",
+   "answer": [
+    "been"
+   ],
+   "why": "Модальне про минуле в пасиві: should have been + V3."
   }
  ]
 }
