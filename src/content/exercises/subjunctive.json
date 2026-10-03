@@ -6,8 +6,8 @@
    "q": "The doctor suggested that he ___ more exercise.",
    "options": [
     "take",
-    "takes",
-    "took",
+    "to take",
+    "taking",
     "will take"
    ],
    "answer": 0,
@@ -19,8 +19,8 @@
    "q": "It's essential that everyone ___ on time.",
    "options": [
     "arrive",
-    "arrives",
-    "arrived",
+    "to arrive",
+    "arriving",
     "will arrive"
    ],
    "answer": 0,
@@ -32,8 +32,8 @@
    "q": "They insisted that she ___ present.",
    "options": [
     "be",
-    "is",
-    "was",
+    "to be",
+    "being",
     "will be"
    ],
    "answer": 0,
@@ -45,8 +45,8 @@
    "q": "We recommend that you ___ this app.",
    "options": [
     "not use",
-    "don't use",
     "not to use",
+    "no use",
     "didn't use"
    ],
    "answer": 0,
@@ -84,9 +84,9 @@
    "q": "The court ordered that the company ___ a fine.",
    "options": [
     "pay",
-    "pays",
-    "paid",
-    "to pay"
+    "to pay",
+    "paying",
+    "will pays"
    ],
    "answer": 0,
    "why": "order that + базова форма."
@@ -97,9 +97,9 @@
    "q": "It is important that he ___ late.",
    "options": [
     "not be",
-    "isn't",
-    "won't be",
-    "doesn't be"
+    "not to be",
+    "doesn't be",
+    "no be"
    ],
    "answer": 0,
    "why": "not + be."
@@ -122,7 +122,8 @@
    "type": "fill",
    "q": "The manager demanded that the report ___ (be) finished today.",
    "answer": [
-    "be"
+    "be",
+    "should be"
    ],
    "why": "demand that + be."
   },
@@ -231,10 +232,10 @@
    "type": "choice",
    "q": "The doctor recommended that he ___ more exercise.",
    "options": [
-    "takes",
+    "to take",
     "take",
-    "took",
-    "taking"
+    "taking",
+    "will take"
    ],
    "answer": 1,
    "why": "Subjunctive — базова форма."
@@ -261,6 +262,41 @@
     "should be"
    ],
    "why": "Після essential that — be або should be."
+  },
+  {
+   "id": "subjunctive-22",
+   "type": "choice",
+   "q": "If the factory ___ close, many people would lose their jobs. (дуже малоймовірно)",
+   "options": [
+    "were to",
+    "was to will",
+    "would",
+    "were close"
+   ],
+   "answer": 0,
+   "why": "were to + V — уявне майбутнє."
+  },
+  {
+   "id": "subjunctive-23",
+   "type": "choice",
+   "q": "___ it not for your help, I would be lost.",
+   "options": [
+    "Were",
+    "Was",
+    "Had",
+    "If"
+   ],
+   "answer": 0,
+   "why": "Were it not for… — якби не (зараз)."
+  },
+  {
+   "id": "subjunctive-24",
+   "type": "fill",
+   "q": "Had it not ___ for the rain, we would have won.",
+   "answer": [
+    "been"
+   ],
+   "why": "Had it not been for… — якби не (у минулому)."
   }
  ]
 }

@@ -1,0 +1,239 @@
+{
+ "questions": [
+  {
+   "id": "prepositions-advanced-1",
+   "type": "choice",
+   "q": "Who are you talking ___?",
+   "options": [
+    "to",
+    "—",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "why": "Прийменник у кінці питання — звичайна норма."
+  },
+  {
+   "id": "prepositions-advanced-2",
+   "type": "choice",
+   "q": "That's the house I grew up ___.",
+   "options": [
+    "in",
+    "—",
+    "at which",
+    "where"
+   ],
+   "answer": 0,
+   "why": "grow up in — прийменник у кінці підрядного."
+  },
+  {
+   "id": "prepositions-advanced-3",
+   "type": "choice",
+   "q": "the house ___ I grew up (формально)",
+   "options": [
+    "in which",
+    "in that",
+    "which in",
+    "in where"
+   ],
+   "answer": 0,
+   "why": "Формально: прийменник + which."
+  },
+  {
+   "id": "prepositions-advanced-4",
+   "type": "choice",
+   "q": "the person ___ I spoke (формально)",
+   "options": [
+    "to whom",
+    "to who",
+    "to that",
+    "whom to"
+   ],
+   "answer": 0,
+   "why": "Формально: to whom."
+  },
+  {
+   "id": "prepositions-advanced-5",
+   "type": "choice",
+   "q": "There's nothing to worry ___.",
+   "options": [
+    "about",
+    "—",
+    "for",
+    "of"
+   ],
+   "answer": 0,
+   "why": "worry about — прийменник лишається в кінці."
+  },
+  {
+   "id": "prepositions-advanced-6",
+   "type": "choice",
+   "q": "I need a chair to sit ___.",
+   "options": [
+    "on",
+    "—",
+    "at",
+    "to"
+   ],
+   "answer": 0,
+   "why": "sit on a chair — прийменник потрібен."
+  },
+  {
+   "id": "prepositions-advanced-7",
+   "type": "choice",
+   "q": "___ at the hotel, we had dinner.",
+   "options": [
+    "On arriving",
+    "On arrive",
+    "On arrived",
+    "In arrive"
+   ],
+   "answer": 0,
+   "why": "On + V-ing — щойно…"
+  },
+  {
+   "id": "prepositions-advanced-8",
+   "type": "choice",
+   "q": "I'm aware ___ he is busy.",
+   "options": [
+    "that",
+    "of that",
+    "about that",
+    "of"
+   ],
+   "answer": 0,
+   "why": "Перед that-реченням прийменник не ставимо."
+  },
+  {
+   "id": "prepositions-advanced-9",
+   "type": "choice",
+   "q": "It depends on ___ you mean.",
+   "options": [
+    "what",
+    "that",
+    "—",
+    "which that"
+   ],
+   "answer": 0,
+   "why": "Прийменник + wh-слово."
+  },
+  {
+   "id": "prepositions-advanced-10",
+   "type": "choice",
+   "q": "I'm writing ___ my company. (від імені)",
+   "options": [
+    "on behalf of",
+    "in behalf for",
+    "by behalf of",
+    "on behalf to"
+   ],
+   "answer": 0,
+   "why": "on behalf of — від імені."
+  },
+  {
+   "id": "prepositions-advanced-11",
+   "type": "fill",
+   "q": "I look forward to ___ (hear) from you.",
+   "answer": [
+    "hearing"
+   ],
+   "why": "to тут прийменник — після нього -ing."
+  },
+  {
+   "id": "prepositions-advanced-12",
+   "type": "fill",
+   "q": "She left without ___ (say) goodbye.",
+   "answer": [
+    "saying"
+   ],
+   "why": "Прийменник + V-ing."
+  },
+  {
+   "id": "prepositions-advanced-13",
+   "type": "fill",
+   "q": "In ___ of price, this is the best option. (з погляду)",
+   "answer": [
+    "terms"
+   ],
+   "why": "in terms of — з погляду."
+  },
+  {
+   "id": "prepositions-advanced-14",
+   "type": "fill",
+   "q": "It's worth looking ___. (варто розібратися)",
+   "answer": [
+    "into"
+   ],
+   "why": "look into — розібратися; прийменник у кінці."
+  },
+  {
+   "id": "prepositions-advanced-15",
+   "type": "order",
+   "words": [
+    "Who",
+    "did",
+    "you",
+    "go",
+    "with"
+   ],
+   "answer": [
+    "Who did you go with"
+   ],
+   "why": "Прийменник у кінці питання.",
+   "hint": "З ким ти ходив?"
+  },
+  {
+   "id": "prepositions-advanced-16",
+   "type": "order",
+   "words": [
+    "That",
+    "is",
+    "not",
+    "what",
+    "I",
+    "asked",
+    "for"
+   ],
+   "answer": [
+    "That is not what I asked for"
+   ],
+   "why": "what … for.",
+   "hint": "Це не те, що я просив."
+  },
+  {
+   "id": "prepositions-advanced-17",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "easy",
+    "to",
+    "talk",
+    "to"
+   ],
+   "answer": [
+    "She is easy to talk to"
+   ],
+   "why": "Прийменник після інфінітива.",
+   "hint": "З нею легко говорити."
+  },
+  {
+   "id": "prepositions-advanced-18",
+   "type": "order",
+   "words": [
+    "There",
+    "is",
+    "nothing",
+    "to",
+    "be",
+    "afraid",
+    "of"
+   ],
+   "answer": [
+    "There is nothing to be afraid of"
+   ],
+   "why": "afraid of у кінці.",
+   "hint": "Нема чого боятися."
+  }
+ ]
+}

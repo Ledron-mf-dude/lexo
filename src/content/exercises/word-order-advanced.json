@@ -1,0 +1,243 @@
+{
+ "questions": [
+  {
+   "id": "word-order-advanced-1",
+   "type": "choice",
+   "q": "___ I like him, I can't lend him any more money.",
+   "options": [
+    "Much as",
+    "Much",
+    "As much",
+    "Very much as"
+   ],
+   "answer": 0,
+   "why": "Much as = хоч і."
+  },
+  {
+   "id": "word-order-advanced-2",
+   "type": "choice",
+   "q": "Tired as ___, she kept working.",
+   "options": [
+    "she was",
+    "was she",
+    "she",
+    "was"
+   ],
+   "answer": 0,
+   "why": "Adj + as + підмет + дієслово."
+  },
+  {
+   "id": "word-order-advanced-3",
+   "type": "choice",
+   "q": "Here ___!",
+   "options": [
+    "comes the bus",
+    "the bus come",
+    "come the bus",
+    "does the bus come"
+   ],
+   "answer": 0,
+   "why": "Here + дієслово + іменник-підмет."
+  },
+  {
+   "id": "word-order-advanced-4",
+   "type": "choice",
+   "q": "Here ___! (займенник)",
+   "options": [
+    "it comes",
+    "comes it",
+    "come it",
+    "it come"
+   ],
+   "answer": 0,
+   "why": "З займенником інверсії немає."
+  },
+  {
+   "id": "word-order-advanced-5",
+   "type": "choice",
+   "q": "I find ___ difficult to concentrate in the morning.",
+   "options": [
+    "it",
+    "—",
+    "that",
+    "this to"
+   ],
+   "answer": 0,
+   "why": "find it + adj + to V."
+  },
+  {
+   "id": "word-order-advanced-6",
+   "type": "choice",
+   "q": "___ he might, he couldn't open the door.",
+   "options": [
+    "Try as",
+    "As try",
+    "Trying as",
+    "Try though"
+   ],
+   "answer": 0,
+   "why": "Try as he might — як він не намагався."
+  },
+  {
+   "id": "word-order-advanced-7",
+   "type": "choice",
+   "q": "I'd appreciate ___ if you could reply soon.",
+   "options": [
+    "it",
+    "—",
+    "that",
+    "this to"
+   ],
+   "answer": 0,
+   "why": "appreciate it if…"
+  },
+  {
+   "id": "word-order-advanced-8",
+   "type": "choice",
+   "q": "On the hill ___ an old castle.",
+   "options": [
+    "stood",
+    "it stood",
+    "did stand",
+    "standing"
+   ],
+   "answer": 0,
+   "why": "Обставина місця + дієслово + підмет."
+  },
+  {
+   "id": "word-order-advanced-9",
+   "type": "choice",
+   "q": "Strange ___ it may seem, it's true.",
+   "options": [
+    "though",
+    "but",
+    "as if",
+    "so"
+   ],
+   "answer": 0,
+   "why": "Adj + though + підмет — поступка."
+  },
+  {
+   "id": "word-order-advanced-10",
+   "type": "choice",
+   "q": "She turned down ___.",
+   "options": [
+    "the offer we made last week",
+    "it the offer",
+    "the offer we made last week down",
+    "down the offer it"
+   ],
+   "answer": 0,
+   "why": "Довгий додаток — після частки."
+  },
+  {
+   "id": "word-order-advanced-11",
+   "type": "fill",
+   "q": "___ surprised everyone that he resigned.",
+   "answer": [
+    "It"
+   ],
+   "why": "Формальне it, довге підрядне — у кінець."
+  },
+  {
+   "id": "word-order-advanced-12",
+   "type": "fill",
+   "q": "Much ___ I admire her, I don't agree with her.",
+   "answer": [
+    "as"
+   ],
+   "why": "Much as = хоч і."
+  },
+  {
+   "id": "word-order-advanced-13",
+   "type": "fill",
+   "q": "The noise made ___ impossible to sleep.",
+   "answer": [
+    "it"
+   ],
+   "why": "make it + adj + to V."
+  },
+  {
+   "id": "word-order-advanced-14",
+   "type": "fill",
+   "q": "___ goes my train! I've missed it.",
+   "answer": [
+    "There"
+   ],
+   "why": "There goes… — інверсія після there."
+  },
+  {
+   "id": "word-order-advanced-15",
+   "type": "order",
+   "words": [
+    "Much",
+    "as",
+    "I",
+    "like",
+    "her",
+    "I",
+    "can't",
+    "agree"
+   ],
+   "answer": [
+    "Much as I like her I can't agree",
+    "Much as I like her, I can't agree",
+    "I can't agree much as I like her"
+   ],
+   "why": "Much as + підмет + дієслово, без but.",
+   "hint": "Хоч вона мені й подобається, я не можу погодитися."
+  },
+  {
+   "id": "word-order-advanced-16",
+   "type": "order",
+   "words": [
+    "I",
+    "find",
+    "it",
+    "hard",
+    "to",
+    "believe"
+   ],
+   "answer": [
+    "I find it hard to believe"
+   ],
+   "why": "find it + adj + to V.",
+   "hint": "Мені важко в це повірити."
+  },
+  {
+   "id": "word-order-advanced-17",
+   "type": "order",
+   "words": [
+    "Here",
+    "comes",
+    "the",
+    "bus"
+   ],
+   "answer": [
+    "Here comes the bus"
+   ],
+   "why": "Інверсія після here.",
+   "hint": "Ось і автобус."
+  },
+  {
+   "id": "word-order-advanced-18",
+   "type": "order",
+   "words": [
+    "Tired",
+    "as",
+    "he",
+    "was",
+    "he",
+    "finished",
+    "the",
+    "job"
+   ],
+   "answer": [
+    "Tired as he was he finished the job",
+    "Tired as he was, he finished the job"
+   ],
+   "why": "Adj + as + S + V.",
+   "hint": "Хоч він і втомився, він закінчив роботу."
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "questions": [
+  {
+   "id": "modals-will-would-should-1",
+   "type": "choice",
+   "q": "Someone's at the door. — That ___ the postman. He always comes at ten.",
+   "options": [
+    "'ll be",
+    "will to be",
+    "is being",
+    "would been"
+   ],
+   "answer": 0,
+   "why": "will be — упевнене припущення про теперішнє."
+  },
+  {
+   "id": "modals-will-would-should-2",
+   "type": "choice",
+   "q": "Don't call her now. She ___ to bed.",
+   "options": [
+    "'ll have gone",
+    "will go to",
+    "'ll have go",
+    "would gone"
+   ],
+   "answer": 0,
+   "why": "will have + V3 — припущення про вже зроблене."
+  },
+  {
+   "id": "modals-will-would-should-3",
+   "type": "choice",
+   "q": "The door ___ open. I think it's locked.",
+   "options": [
+    "won't",
+    "doesn't will",
+    "willn't",
+    "not will"
+   ],
+   "answer": 0,
+   "why": "won't — річ «відмовляється» працювати."
+  },
+  {
+   "id": "modals-will-would-should-4",
+   "type": "choice",
+   "q": "The car ___ start this morning, so I took a bus.",
+   "options": [
+    "wouldn't",
+    "didn't would",
+    "wouldn't to",
+    "won't"
+   ],
+   "answer": 0,
+   "why": "wouldn't — відмова в минулому."
+  },
+  {
+   "id": "modals-will-would-should-5",
+   "type": "choice",
+   "q": "It's strange that she ___ say that. (дивно, що)",
+   "options": [
+    "should",
+    "should to",
+    "would to",
+    "shall"
+   ],
+   "answer": 0,
+   "why": "Putative should після оцінки."
+  },
+  {
+   "id": "modals-will-would-should-6",
+   "type": "choice",
+   "q": "___ you need any help, just call me.",
+   "options": [
+    "Should",
+    "Would",
+    "Will",
+    "Shall"
+   ],
+   "answer": 0,
+   "why": "Should you… = If you… (формально)."
+  },
+  {
+   "id": "modals-will-would-should-7",
+   "type": "choice",
+   "q": "I ___ say it's about forty kilometres. (обережна думка)",
+   "options": [
+    "'d",
+    "will to",
+    "should to",
+    "shall"
+   ],
+   "answer": 0,
+   "why": "I'd say — м'яке, обережне твердження."
+  },
+  {
+   "id": "modals-will-would-should-8",
+   "type": "choice",
+   "q": "___ I apologise? I did nothing wrong!",
+   "options": [
+    "Why should",
+    "Why shall",
+    "Why would to",
+    "Why should to"
+   ],
+   "answer": 0,
+   "why": "Why should…? — роздратоване заперечення."
+  },
+  {
+   "id": "modals-will-would-should-9",
+   "type": "choice",
+   "q": "Every evening my grandfather ___ sit by the fire and tell stories.",
+   "options": [
+    "would",
+    "would to",
+    "will to",
+    "should"
+   ],
+   "answer": 0,
+   "why": "would — звичка в минулому."
+  },
+  {
+   "id": "modals-will-would-should-10",
+   "type": "fill",
+   "q": "Accidents ___ happen. Don't worry about it.",
+   "answer": [
+    "will",
+    "can",
+    "do",
+    "may"
+   ],
+   "why": "will — так буває, типова поведінка."
+  },
+  {
+   "id": "modals-will-would-should-11",
+   "type": "fill",
+   "q": "Take a coat in case it ___ rain. (малоймовірно)",
+   "answer": [
+    "should"
+   ],
+   "why": "in case … should — ще менш імовірно."
+  },
+  {
+   "id": "modals-will-would-should-12",
+   "type": "fill",
+   "q": "She ___ talk for hours if you let her. (типово для неї, зараз)",
+   "answer": [
+    "will",
+    "'ll",
+    "can",
+    "would"
+   ],
+   "why": "will — характерна поведінка."
+  },
+  {
+   "id": "modals-will-would-should-13",
+   "type": "fill",
+   "q": "How ___ I know? I wasn't there!",
+   "answer": [
+    "should",
+    "would"
+   ],
+   "why": "How should I know? — звідки мені знати."
+  },
+  {
+   "id": "modals-will-would-should-14",
+   "type": "fill",
+   "q": "I ___ imagine it's quite expensive. (обережно)",
+   "answer": [
+    "would",
+    "'d",
+    "can"
+   ],
+   "why": "I would imagine — обережна думка."
+  },
+  {
+   "id": "modals-will-would-should-15",
+   "type": "order",
+   "words": [
+    "That",
+    "will",
+    "be",
+    "the",
+    "postman"
+   ],
+   "answer": [
+    "That will be the postman"
+   ],
+   "why": "will be — упевнене припущення.",
+   "hint": "Це, мабуть, листоноша."
+  },
+  {
+   "id": "modals-will-would-should-16",
+   "type": "order",
+   "words": [
+    "Should",
+    "you",
+    "have",
+    "any",
+    "questions",
+    "please",
+    "contact",
+    "us"
+   ],
+   "answer": [
+    "Should you have any questions please contact us",
+    "Please contact us should you have any questions"
+   ],
+   "why": "Should you… — формальна умова.",
+   "hint": "Якщо у вас виникнуть запитання, звертайтеся."
+  },
+  {
+   "id": "modals-will-would-should-17",
+   "type": "order",
+   "words": [
+    "The",
+    "window",
+    "won't",
+    "close"
+   ],
+   "answer": [
+    "The window won't close"
+   ],
+   "why": "won't — відмова працювати.",
+   "hint": "Вікно не зачиняється."
+  },
+  {
+   "id": "modals-will-would-should-18",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "think",
+    "they",
+    "will",
+    "agree"
+   ],
+   "answer": [
+    "I would think they will agree"
+   ],
+   "why": "I would think — обережно.",
+   "hint": "Гадаю, вони погодяться."
+  }
+ ]
+}

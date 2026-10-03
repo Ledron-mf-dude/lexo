@@ -1,7 +1,7 @@
 ---
 title: Participle clauses (дієприкметникові звороти)
 category: Складні речення
-levels: [B2]
+levels: [B2, C1]
 tags: [participle clauses, present participle, past participle, perfect participle, having done, walking home, dangling participle, дієприкметникові звороти]
 ---
 
@@ -74,6 +74,40 @@ Participle clauses — переважно **письмова** мова: *Having
 - *The woman **sitting** next to me* = who **was sitting** (активне).
 - *The car **parked** outside* = which **was parked** (пасивне).
 
+## Абсолютні звороти: with prices rising
+
+Зворот може мати **власний підмет**, відмінний від підмета речення. Часто з **with**:
+
+- ***With prices rising**, people are spending less.* — оскільки ціни ростуть.
+- ***With the work done**, they went home.*
+- *She sat there, **her eyes closed**.* — без *with*, книжно.
+- ***Weather permitting**, we'll eat outside.* — якщо дозволить погода.
+
+## Сталі звороти без «правильного» підмета
+
+Деякі звороти стали сталими виразами, і правило одного підмета до них не застосовують:
+
+| Зворот | Значення |
+| --- | --- |
+| *Generally speaking, …* | загалом |
+| *Judging by / from …* | судячи з |
+| *Considering …* | зважаючи на |
+| *Given (that) …* | з огляду на те, що |
+| *Assuming (that) …* | якщо припустити |
+| *Strictly speaking, …* | строго кажучи |
+
+- ***Judging by** his accent, he's from Scotland.*
+- ***Given** the circumstances, you did well.*
+
+## Після сполучників: once opened, if asked
+
+Після *once, if, unless, until, when, while, though* можна пропустити підмет і *be*, залишивши V3 або -ing:
+
+- ***Once opened**, keep refrigerated.* — щойно відкриєте.
+- ***If asked**, say you don't know.*
+- ***Unless told** otherwise, start at nine.*
+- ***While waiting** for the bus, I read the news.*
+
 ## Типові помилки
 
 - ✗ *Walking home, the rain started.* → ✓ *Walking home, **I got caught** in the rain.* (дія — підмета головного речення)
@@ -82,3 +116,6 @@ Participle clauses — переважно **письмова** мова: *Having
 - ✗ *Writing in 1900, the book is old.* → ✓ ***Written** in 1900…* (книгу написали — пасив)
 - ✗ *Didn't knowing the way, I asked a policeman.* → ✓ ***Not knowing** the way, I asked a policeman.*
 - ✗ *The car parking outside is mine.* → ✓ *The car **parked** outside is mine.*
+- ✗ *With the prices rise, people are spending less.* → ✓ *With prices **rising**, people are spending less.* / *With the prices rising, people are spending less.*
+- ✗ *Generally speak, the service is good.* → ✓ *Generally **speaking**, the service is good.*
+- ✗ *If asking, say you don't know.* → ✓ *If **asked**, say you don't know.*

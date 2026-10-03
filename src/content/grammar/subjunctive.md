@@ -67,6 +67,29 @@ tags: [subjunctive, suggest that, insist that, recommend that, it's essential th
 
 Дієслово виглядає «неправильно»: без `-s` після he/she, `be` замість `is`, `were` після `I`. Якщо це після *suggest, insist, demand, essential, important* або *if, wish* — найімовірніше, це subjunctive, а не помилка.
 
+## Were to: гіпотетичне майбутнє
+
+**If + підмет + were to + V** — дуже малоймовірна або суто уявна подія в майбутньому. Звучить формальніше й «далі від реальності», ніж *if + Past Simple*.
+
+- *If the company **were to** close, hundreds of people would lose their jobs.*
+- *If you **were to** win the lottery, what would you do first?*
+
+Формальна інверсія без *if*: ***Were** the company **to** close, …* (див. «Умовні речення: unless, provided, otherwise, інверсія»).
+
+## Were it not for, had it not been for
+
+**Were it not for + іменник** = «якби не…» (зараз), **Had it not been for + іменник** = «якби не…» (у минулому):
+
+- ***Were it not for** your help, I would be lost.* = *If it weren't for your help…*
+- ***Had it not been for** the rain, we would have won.* = *If it hadn't been for the rain…*
+
+У розмові частіше *if it weren't / wasn't for*, *if it hadn't been for* або просто *without*: ***Without** your help, I'd be lost.*
+
+## As it were, if I were you
+
+- **as it were** — «так би мовити»: *He became, **as it were**, a stranger in his own home.*
+- **if I were you** — стала порада; *if I was you* трапляється в розмові, але в письмі — *were*.
+
 ## Типові помилки
 
 - ✗ *I suggest him to see a doctor.* → ✓ *I suggest **that he see** a doctor.* / *I suggest **seeing** a doctor.* / *I suggest that he should see a doctor.* / *I suggest he sees a doctor.*
@@ -75,3 +98,6 @@ tags: [subjunctive, suggest that, insist that, recommend that, it's essential th
 - ✗ *She insisted that he pays.* (вимога) → ✓ *She insisted that he **pay**.* / *She insisted that he **should pay**.*
 - ✗ *They demanded that he leaves the room.* → ✓ *They demanded that he **leave** the room.* / *They demanded that he should leave the room.*
 - ✗ *It's vital that she is told immediately.* (формально) → ✓ *It's vital that she **be** told immediately.*
+- ✗ *Was it not for your help, I would be lost.* → ✓ ***Were** it not for your help, I would be lost.* / *If it weren't for your help, I would be lost.* / *If it wasn't for your help, I would be lost.* / *Without your help, I would be lost.*
+- ✗ *If he were to will refuse, we would need a new plan.* → ✓ *If he were to **refuse**, we would need a new plan.*
+- ✗ *Had it not been for the rain, we would win the match yesterday.* → ✓ *Had it not been for the rain, we **would have won** the match yesterday.*

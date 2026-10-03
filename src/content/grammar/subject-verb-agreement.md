@@ -77,6 +77,44 @@ tags: [subject verb agreement, singular, plural, everyone is, the number of, a n
 
 Дієслово після відносного слова узгоджується з іменником, до якого воно відноситься: *one of the **people who live** here* (live — бо people).
 
+## Два слова — одне ціле
+
+Якщо підмет із *and* означає **одну річ або одне поняття**, дієслово — в однині:
+
+- ***Fish and chips is** my favourite meal.*
+- ***Bread and butter is** all I need.*
+- *The **bed and breakfast** we stayed at **was** lovely.*
+
+**each / every + іменник and іменник** — однина: ***Every boy and girl was** given a book.*
+
+## More than one, one in five
+
+Узгодження йде за найближчим іменником, а не за змістом:
+
+- ***More than one** student **has** complained.* — однина після *one*.
+- ***More than two** students **have** complained.*
+- ***One in five** people **lives** / **live** alone.* — у розмові частіше множина.
+
+## Підрядне речення чи інфінітив як підмет
+
+Цілі підрядні речення, інфінітиви й герундії — однина:
+
+- ***What we need is** more time.*
+- ***That he lied is** obvious.*
+- ***Learning languages takes** time.*
+
+Після *what*-речення перед іменником у множині трапляється й множина: *What we need **are** new ideas.* Обидва варіанти прийнятні.
+
+## Підмет після дієслова
+
+Коли речення починається з обставини місця чи *here / there*, дієслово узгоджуємо з підметом, що стоїть **після** нього:
+
+- *On the table **were** two letters.*
+- *Here **are** the keys.*
+- *Among the guests **was** a famous actor.*
+
+У розмові *there's* часто вживають і з множиною (*There's two letters*), але в письмі — *there are*.
+
 ## Типові помилки
 
 - ✗ *Everyone are here.* → ✓ *Everyone **is** here.*
@@ -86,3 +124,6 @@ tags: [subject verb agreement, singular, plural, everyone is, the number of, a n
 - ✗ *The price of the tickets are high.* → ✓ *The price… **is** high.* (головне слово — price)
 - ✗ *Half of the students was late.* → ✓ *Half of the students **were** late.*
 - ✗ *The Netherlands are a small country.* → ✓ *The Netherlands **is** a small country.*
+- ✗ *More than one student have complained.* → ✓ *More than one student **has** complained.*
+- ✗ *Every boy and girl were given a book.* → ✓ *Every boy and girl **was** given a book.*
+- ✗ *On the table was two letters.* → ✓ *On the table **were** two letters.*

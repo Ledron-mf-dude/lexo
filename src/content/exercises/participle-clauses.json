@@ -296,6 +296,41 @@
     "Having finished"
    ],
    "why": "Раніше за головну дію — having + V3."
+  },
+  {
+   "id": "participle-clauses-24",
+   "type": "choice",
+   "q": "___ prices rising, people are spending less.",
+   "options": [
+    "With",
+    "By",
+    "As",
+    "For"
+   ],
+   "answer": 0,
+   "why": "with + іменник + -ing — абсолютний зворот."
+  },
+  {
+   "id": "participle-clauses-25",
+   "type": "choice",
+   "q": "___ by his accent, he's from Scotland.",
+   "options": [
+    "Judging",
+    "Judged",
+    "To judge by",
+    "Judge"
+   ],
+   "answer": 0,
+   "why": "Judging by — судячи з."
+  },
+  {
+   "id": "participle-clauses-26",
+   "type": "fill",
+   "q": "If ___ (ask), say you don't know.",
+   "answer": [
+    "asked"
+   ],
+   "why": "If asked = if you are asked."
   }
  ]
 }

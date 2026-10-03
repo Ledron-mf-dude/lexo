@@ -1,0 +1,241 @@
+{
+ "questions": [
+  {
+   "id": "modals-can-may-advanced-1",
+   "type": "choice",
+   "q": "It ___ get very windy here in autumn. (буває)",
+   "options": [
+    "can",
+    "can to",
+    "is able",
+    "may to"
+   ],
+   "answer": 0,
+   "why": "can — те, що іноді буває."
+  },
+  {
+   "id": "modals-can-may-advanced-2",
+   "type": "choice",
+   "q": "I've never ___ to dance well.",
+   "options": [
+    "been able",
+    "could",
+    "can",
+    "be able"
+   ],
+   "answer": 0,
+   "why": "Після have — been able to."
+  },
+  {
+   "id": "modals-can-may-advanced-3",
+   "type": "choice",
+   "q": "I'd love ___ play the piano.",
+   "options": [
+    "to be able to",
+    "to can",
+    "can",
+    "be able"
+   ],
+   "answer": 0,
+   "why": "Інфінітив від can — to be able to."
+  },
+  {
+   "id": "modals-can-may-advanced-4",
+   "type": "choice",
+   "q": "The last bus has gone. We ___ walk.",
+   "options": [
+    "might as well",
+    "might as well to",
+    "might well to",
+    "may well to"
+   ],
+   "answer": 0,
+   "why": "might as well — нічого кращого не лишається."
+  },
+  {
+   "id": "modals-can-may-advanced-5",
+   "type": "choice",
+   "q": "She ___ be right, you know. (дуже ймовірно)",
+   "options": [
+    "may well",
+    "may well to",
+    "may as",
+    "may good"
+   ],
+   "answer": 0,
+   "why": "may well — цілком імовірно."
+  },
+  {
+   "id": "modals-can-may-advanced-6",
+   "type": "choice",
+   "q": "You ___ told me you were coming! I'd have cooked dinner.",
+   "options": [
+    "could have",
+    "could",
+    "can have",
+    "could had"
+   ],
+   "answer": 0,
+   "why": "could have + V3 — докір."
+  },
+  {
+   "id": "modals-can-may-advanced-7",
+   "type": "choice",
+   "q": "I can't help ___ when he tells that story.",
+   "options": [
+    "laughing",
+    "to laugh",
+    "laugh",
+    "laughed"
+   ],
+   "answer": 0,
+   "why": "can't help + V-ing."
+  },
+  {
+   "id": "modals-can-may-advanced-8",
+   "type": "choice",
+   "q": "He ___ be clever, but he's very lazy. (визнаю, але…)",
+   "options": [
+    "may",
+    "may to",
+    "mays",
+    "can to"
+   ],
+   "answer": 0,
+   "why": "may …, but — поступка."
+  },
+  {
+   "id": "modals-can-may-advanced-9",
+   "type": "choice",
+   "q": "___ you both be very happy!",
+   "options": [
+    "May",
+    "Might to",
+    "Can",
+    "Shall"
+   ],
+   "answer": 0,
+   "why": "May you… — урочисте побажання."
+  },
+  {
+   "id": "modals-can-may-advanced-10",
+   "type": "choice",
+   "q": "After hours of searching, we ___ find the hotel.",
+   "options": [
+    "managed to",
+    "could to",
+    "can",
+    "could have"
+   ],
+   "answer": 0,
+   "why": "Одне конкретне досягнення — managed to."
+  },
+  {
+   "id": "modals-can-may-advanced-11",
+   "type": "fill",
+   "q": "___ as he might, he couldn't open the jar.",
+   "answer": [
+    "Try"
+   ],
+   "why": "Try as he might — як він не намагався."
+  },
+  {
+   "id": "modals-can-may-advanced-12",
+   "type": "fill",
+   "q": "You ___ have warned me! (докір)",
+   "answer": [
+    "might",
+    "could"
+   ],
+   "why": "might / could have + V3 — докір."
+  },
+  {
+   "id": "modals-can-may-advanced-13",
+   "type": "fill",
+   "q": "Visitors ___ not take photographs in the museum. (офіційно заборонено)",
+   "answer": [
+    "may",
+    "must"
+   ],
+   "why": "may not — офіційна заборона."
+  },
+  {
+   "id": "modals-can-may-advanced-14",
+   "type": "fill",
+   "q": "Will you be ___ to come on Saturday?",
+   "answer": [
+    "able"
+   ],
+   "why": "will be able to — майбутнє від can."
+  },
+  {
+   "id": "modals-can-may-advanced-15",
+   "type": "order",
+   "words": [
+    "It",
+    "can",
+    "get",
+    "very",
+    "cold",
+    "here"
+   ],
+   "answer": [
+    "It can get very cold here",
+    "Here it can get very cold"
+   ],
+   "why": "can — буває.",
+   "hint": "Тут буває дуже холодно."
+  },
+  {
+   "id": "modals-can-may-advanced-16",
+   "type": "order",
+   "words": [
+    "We",
+    "might",
+    "as",
+    "well",
+    "go",
+    "home"
+   ],
+   "answer": [
+    "We might as well go home"
+   ],
+   "why": "might as well + V.",
+   "hint": "Можемо й піти додому."
+  },
+  {
+   "id": "modals-can-may-advanced-17",
+   "type": "order",
+   "words": [
+    "She",
+    "may",
+    "well",
+    "be",
+    "right"
+   ],
+   "answer": [
+    "She may well be right"
+   ],
+   "why": "may well — цілком імовірно.",
+   "hint": "Цілком можливо, що вона має рацію."
+  },
+  {
+   "id": "modals-can-may-advanced-18",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "never",
+    "been",
+    "able",
+    "to",
+    "swim"
+   ],
+   "answer": [
+    "I have never been able to swim"
+   ],
+   "why": "have been able to.",
+   "hint": "Я ніколи не вмів плавати."
+  }
+ ]
+}

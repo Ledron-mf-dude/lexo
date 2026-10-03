@@ -263,6 +263,45 @@
     "was"
    ],
    "why": "Назва країни — однина."
+  },
+  {
+   "id": "subject-verb-agreement-22",
+   "type": "choice",
+   "q": "Fish and chips ___ my favourite meal.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have been"
+   ],
+   "answer": 0,
+   "why": "Одне ціле — однина."
+  },
+  {
+   "id": "subject-verb-agreement-23",
+   "type": "choice",
+   "q": "More than one student ___ complained.",
+   "options": [
+    "has",
+    "have",
+    "are",
+    "were"
+   ],
+   "answer": 0,
+   "why": "more than one + однина."
+  },
+  {
+   "id": "subject-verb-agreement-24",
+   "type": "choice",
+   "q": "On the table ___ two letters.",
+   "options": [
+    "were",
+    "was",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "why": "Підмет після дієслова — two letters, множина."
   }
  ]
 }

@@ -1,0 +1,245 @@
+{
+ "questions": [
+  {
+   "id": "perfect-aspect-1",
+   "type": "choice",
+   "q": "It was the first time she ___ abroad.",
+   "options": [
+    "had been",
+    "has been",
+    "has gone",
+    "is"
+   ],
+   "answer": 0,
+   "why": "It was the first time + Past Perfect."
+  },
+  {
+   "id": "perfect-aspect-2",
+   "type": "choice",
+   "q": "This is the best book I ___.",
+   "options": [
+    "have ever read",
+    "ever read before",
+    "had ever read",
+    "am ever reading"
+   ],
+   "answer": 0,
+   "why": "Найвищий ступінь + Present Perfect."
+  },
+  {
+   "id": "perfect-aspect-3",
+   "type": "choice",
+   "q": "I'll call you when I ___. (після того, як закінчу)",
+   "options": [
+    "have finished",
+    "will have finished",
+    "will finish",
+    "had finished"
+   ],
+   "answer": 0,
+   "why": "У підрядному часу — Present Perfect, без will."
+  },
+  {
+   "id": "perfect-aspect-4",
+   "type": "choice",
+   "q": "She seems ___ already.",
+   "options": [
+    "to have left",
+    "to leave",
+    "having left",
+    "to have leave"
+   ],
+   "answer": 0,
+   "why": "to have + V3 — дія раніше."
+  },
+  {
+   "id": "perfect-aspect-5",
+   "type": "choice",
+   "q": "He denied ___ the money.",
+   "options": [
+    "having taken",
+    "to have taken",
+    "have taken",
+    "to take"
+   ],
+   "answer": 0,
+   "why": "deny + (perfect) gerund."
+  },
+  {
+   "id": "perfect-aspect-6",
+   "type": "choice",
+   "q": "___ the report, she went home.",
+   "options": [
+    "Having finished",
+    "Have finished",
+    "To have finished",
+    "Had finished"
+   ],
+   "answer": 0,
+   "why": "Perfect participle — спершу одне, потім інше."
+  },
+  {
+   "id": "perfect-aspect-7",
+   "type": "choice",
+   "q": "By 2030 they ___ the new airport.",
+   "options": [
+    "will have built",
+    "will built",
+    "have built",
+    "will have build"
+   ],
+   "answer": 0,
+   "why": "Future Perfect — до моменту в майбутньому."
+  },
+  {
+   "id": "perfect-aspect-8",
+   "type": "choice",
+   "q": "When ___ the report?",
+   "options": [
+    "did you finish",
+    "have you finished",
+    "you have finished",
+    "you finished"
+   ],
+   "answer": 0,
+   "why": "When питає про конкретний момент — Past Simple."
+  },
+  {
+   "id": "perfect-aspect-9",
+   "type": "choice",
+   "q": "Your hands are dirty! What ___?",
+   "options": [
+    "have you been doing",
+    "you have been doing",
+    "did you been doing",
+    "are you doing done"
+   ],
+   "answer": 0,
+   "why": "Сліди процесу — Present Perfect Continuous."
+  },
+  {
+   "id": "perfect-aspect-10",
+   "type": "fill",
+   "q": "By the time we arrived, the film ___ (start).",
+   "answer": [
+    "had started",
+    "had already started"
+   ],
+   "why": "Past Perfect — до моменту в минулому."
+  },
+  {
+   "id": "perfect-aspect-11",
+   "type": "fill",
+   "q": "I regret not ___ (study) harder at school.",
+   "answer": [
+    "having studied",
+    "studying"
+   ],
+   "why": "regret not having studied / not studying."
+  },
+  {
+   "id": "perfect-aspect-12",
+   "type": "fill",
+   "q": "By June I'll ___ (work) here for ten years.",
+   "answer": [
+    "have been working",
+    "have worked"
+   ],
+   "why": "Future Perfect Continuous / Simple з for."
+  },
+  {
+   "id": "perfect-aspect-13",
+   "type": "fill",
+   "q": "He is said to ___ (earn) millions last year.",
+   "answer": [
+    "have earned"
+   ],
+   "why": "to have + V3 — дія раніше."
+  },
+  {
+   "id": "perfect-aspect-14",
+   "type": "fill",
+   "q": "Once you ___ (read) the contract, sign it.",
+   "answer": [
+    "have read",
+    "'ve read",
+    "read"
+   ],
+   "why": "Once + Present Perfect / Present Simple."
+  },
+  {
+   "id": "perfect-aspect-15",
+   "type": "order",
+   "words": [
+    "It",
+    "was",
+    "the",
+    "first",
+    "time",
+    "I",
+    "had",
+    "seen",
+    "the",
+    "sea"
+   ],
+   "answer": [
+    "It was the first time I had seen the sea"
+   ],
+   "why": "first time + Past Perfect.",
+   "hint": "Тоді я вперше побачив море."
+  },
+  {
+   "id": "perfect-aspect-16",
+   "type": "order",
+   "words": [
+    "She",
+    "seems",
+    "to",
+    "have",
+    "forgotten"
+   ],
+   "answer": [
+    "She seems to have forgotten"
+   ],
+   "why": "to have + V3.",
+   "hint": "Здається, вона забула."
+  },
+  {
+   "id": "perfect-aspect-17",
+   "type": "order",
+   "words": [
+    "By",
+    "noon",
+    "we",
+    "will",
+    "have",
+    "finished"
+   ],
+   "answer": [
+    "By noon we will have finished",
+    "We will have finished by noon"
+   ],
+   "why": "Future Perfect.",
+   "hint": "До полудня ми закінчимо."
+  },
+  {
+   "id": "perfect-aspect-18",
+   "type": "order",
+   "words": [
+    "Having",
+    "lived",
+    "abroad",
+    "she",
+    "speaks",
+    "three",
+    "languages"
+   ],
+   "answer": [
+    "Having lived abroad she speaks three languages",
+    "Having lived abroad, she speaks three languages"
+   ],
+   "why": "Perfect participle.",
+   "hint": "Поживши за кордоном, вона говорить трьома мовами."
+  }
+ ]
+}

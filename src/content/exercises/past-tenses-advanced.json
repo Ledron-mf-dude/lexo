@@ -1,0 +1,239 @@
+{
+ "questions": [
+  {
+   "id": "past-tenses-advanced-1",
+   "type": "choice",
+   "q": "I ___ if you could give me a lift.",
+   "options": [
+    "was wondering",
+    "wondered do",
+    "was wonder",
+    "am wondered"
+   ],
+   "answer": 0,
+   "why": "I was wondering if… — ввічливе прохання."
+  },
+  {
+   "id": "past-tenses-advanced-2",
+   "type": "choice",
+   "q": "Her eyes were red. She ___.",
+   "options": [
+    "had been crying",
+    "has been crying",
+    "cries",
+    "is crying"
+   ],
+   "answer": 0,
+   "why": "Сліди дії до моменту в минулому — Past Perfect Continuous."
+  },
+  {
+   "id": "past-tenses-advanced-3",
+   "type": "choice",
+   "q": "When I arrived, she ___. (її вже не було)",
+   "options": [
+    "had left",
+    "has left",
+    "leaves",
+    "is leaving"
+   ],
+   "answer": 0,
+   "why": "Дія раніше за інший момент у минулому — Past Perfect."
+  },
+  {
+   "id": "past-tenses-advanced-4",
+   "type": "choice",
+   "q": "We ___ to meet at six, but he never came.",
+   "options": [
+    "were supposed",
+    "supposed",
+    "had suppose",
+    "were supposing"
+   ],
+   "answer": 0,
+   "why": "was / were supposed to — так домовилися."
+  },
+  {
+   "id": "past-tenses-advanced-5",
+   "type": "choice",
+   "q": "I ___ to finish by Friday, but I got ill.",
+   "options": [
+    "had hoped",
+    "have hoped",
+    "hope",
+    "had hope"
+   ],
+   "answer": 0,
+   "why": "had hoped to — план, що не здійснився."
+  },
+  {
+   "id": "past-tenses-advanced-6",
+   "type": "choice",
+   "q": "It ___ hard, and the streets were empty. Suddenly a car stopped. (фон розповіді)",
+   "options": [
+    "was raining",
+    "rained suddenly",
+    "has rained",
+    "rains"
+   ],
+   "answer": 0,
+   "why": "Фон розповіді — Past Continuous."
+  },
+  {
+   "id": "past-tenses-advanced-7",
+   "type": "choice",
+   "q": "___ you want a coffee? (ввічливо, офіціант)",
+   "options": [
+    "Did",
+    "Had",
+    "Were",
+    "Have"
+   ],
+   "answer": 0,
+   "why": "Did you want…? — м'якша форма за Do you want."
+  },
+  {
+   "id": "past-tenses-advanced-8",
+   "type": "choice",
+   "q": "I ___ call you, but I forgot.",
+   "options": [
+    "was going to",
+    "am going to",
+    "go to",
+    "had going to"
+   ],
+   "answer": 0,
+   "why": "was going to — намір, який не виконали."
+  },
+  {
+   "id": "past-tenses-advanced-9",
+   "type": "choice",
+   "q": "He was always ___ my things without asking. (дратувало)",
+   "options": [
+    "borrowing",
+    "borrow",
+    "borrowed",
+    "to borrow"
+   ],
+   "answer": 0,
+   "why": "was always + V-ing — роздратування в минулому."
+  },
+  {
+   "id": "past-tenses-advanced-10",
+   "type": "fill",
+   "q": "I ___ (want) to ask you something, if you have a minute. (м'якше, минулий час)",
+   "answer": [
+    "wanted"
+   ],
+   "why": "I wanted to ask — ввічливіше за I want."
+  },
+  {
+   "id": "past-tenses-advanced-11",
+   "type": "fill",
+   "q": "We had ___ walking for hours when we found the village.",
+   "answer": [
+    "been"
+   ],
+   "why": "had been + V-ing — тривалість до моменту в минулому."
+  },
+  {
+   "id": "past-tenses-advanced-12",
+   "type": "fill",
+   "q": "I was ___ to leave when the phone rang. (якраз збирався)",
+   "answer": [
+    "about"
+   ],
+   "why": "was about to — ось-ось."
+  },
+  {
+   "id": "past-tenses-advanced-13",
+   "type": "fill",
+   "q": "I was ___ you could help me with my CV.",
+   "answer": [
+    "hoping"
+   ],
+   "why": "I was hoping — м'яке прохання.",
+   "hint": "(сподівався)"
+  },
+  {
+   "id": "past-tenses-advanced-14",
+   "type": "fill",
+   "q": "The ground was wet. It had ___ (rain) all night.",
+   "answer": [
+    "been raining"
+   ],
+   "why": "Сліди — Past Perfect Continuous."
+  },
+  {
+   "id": "past-tenses-advanced-15",
+   "type": "order",
+   "words": [
+    "I",
+    "was",
+    "wondering",
+    "if",
+    "you",
+    "could",
+    "help",
+    "me"
+   ],
+   "answer": [
+    "I was wondering if you could help me"
+   ],
+   "why": "if + прямий порядок слів.",
+   "hint": "Я хотів спитати, чи не могли б ви мені допомогти."
+  },
+  {
+   "id": "past-tenses-advanced-16",
+   "type": "order",
+   "words": [
+    "We",
+    "were",
+    "supposed",
+    "to",
+    "meet",
+    "at",
+    "six"
+   ],
+   "answer": [
+    "We were supposed to meet at six"
+   ],
+   "why": "were supposed to + V.",
+   "hint": "Ми мали зустрітися о шостій."
+  },
+  {
+   "id": "past-tenses-advanced-17",
+   "type": "order",
+   "words": [
+    "She",
+    "had",
+    "been",
+    "working",
+    "all",
+    "day"
+   ],
+   "answer": [
+    "She had been working all day"
+   ],
+   "why": "Past Perfect Continuous.",
+   "hint": "Вона працювала весь день (до того моменту)."
+  },
+  {
+   "id": "past-tenses-advanced-18",
+   "type": "order",
+   "words": [
+    "I",
+    "had",
+    "hoped",
+    "to",
+    "see",
+    "you",
+    "there"
+   ],
+   "answer": [
+    "I had hoped to see you there"
+   ],
+   "why": "had hoped to — не вийшло.",
+   "hint": "Я сподівався побачити тебе там."
+  }
+ ]
+}

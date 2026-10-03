@@ -1,0 +1,238 @@
+{
+ "questions": [
+  {
+   "id": "present-tenses-advanced-1",
+   "type": "choice",
+   "q": "He ___ his dirty cups on my desk! It drives me mad.",
+   "options": [
+    "'s always leaving",
+    "always is leaving",
+    "is always leave",
+    "always leaving"
+   ],
+   "answer": 0,
+   "why": "always + Present Continuous — дія, що дратує."
+  },
+  {
+   "id": "present-tenses-advanced-2",
+   "type": "choice",
+   "q": "Headline: 'Minister ___' (вона щойно пішла у відставку)",
+   "options": [
+    "resigns",
+    "resigning yesterday",
+    "to resigned",
+    "has resign"
+   ],
+   "answer": 0,
+   "why": "У заголовках Present Simple — про подію, що щойно сталася."
+  },
+  {
+   "id": "present-tenses-advanced-3",
+   "type": "choice",
+   "q": "Headline: 'President ___ Kyiv next week'",
+   "options": [
+    "to visit",
+    "visited",
+    "visits yesterday",
+    "to visited"
+   ],
+   "answer": 0,
+   "why": "to + інфінітив у заголовку — запланована подія."
+  },
+  {
+   "id": "present-tenses-advanced-4",
+   "type": "choice",
+   "q": "A recipe: 'First you ___ the onions, then you add the garlic.'",
+   "options": [
+    "chop",
+    "are chopping",
+    "chopped",
+    "have chopped"
+   ],
+   "answer": 0,
+   "why": "Інструкції й рецепти — Present Simple."
+  },
+  {
+   "id": "present-tenses-advanced-5",
+   "type": "choice",
+   "q": "___ you're moving to Lviv. Is it true?",
+   "options": [
+    "I hear",
+    "I'm hearing to",
+    "I heard that is",
+    "I'm hear"
+   ],
+   "answer": 0,
+   "why": "I hear = мені сказали."
+  },
+  {
+   "id": "present-tenses-advanced-6",
+   "type": "choice",
+   "q": "He ___ very rude today. He isn't usually like this.",
+   "options": [
+    "is being",
+    "is been",
+    "being",
+    "does be"
+   ],
+   "answer": 0,
+   "why": "be being — тимчасова поведінка."
+  },
+  {
+   "id": "present-tenses-advanced-7",
+   "type": "choice",
+   "q": "More and more people ___ electric cars these days.",
+   "options": [
+    "are buying",
+    "buys",
+    "are buy",
+    "is buying"
+   ],
+   "answer": 0,
+   "why": "Тенденція, що триває, — Present Continuous."
+  },
+  {
+   "id": "present-tenses-advanced-8",
+   "type": "choice",
+   "q": "I ___ for the delay. It won't happen again.",
+   "options": [
+    "apologise",
+    "am apologise",
+    "apologising",
+    "am apologised"
+   ],
+   "answer": 0,
+   "why": "Дієслово-дія (вибачення) — Present Simple."
+  },
+  {
+   "id": "present-tenses-advanced-9",
+   "type": "choice",
+   "q": "Football commentary: 'Smith ___ the ball to Jones — and it's a goal!'",
+   "options": [
+    "passes",
+    "is pass",
+    "passing",
+    "has pass"
+   ],
+   "answer": 0,
+   "why": "Короткі швидкі дії в коментарі — Present Simple."
+  },
+  {
+   "id": "present-tenses-advanced-10",
+   "type": "fill",
+   "q": "I ___ (hope) you can help me with this. (м'якше за I hope)",
+   "answer": [
+    "am hoping",
+    "'m hoping"
+   ],
+   "why": "Continuous робить прохання м'якшим."
+  },
+  {
+   "id": "present-tenses-advanced-11",
+   "type": "fill",
+   "q": "She's forever ___ (lose) her phone!",
+   "answer": [
+    "losing"
+   ],
+   "why": "forever + V-ing — дія, що дратує."
+  },
+  {
+   "id": "present-tenses-advanced-12",
+   "type": "fill",
+   "q": "I ___ (gather) the meeting has been cancelled.",
+   "answer": [
+    "gather"
+   ],
+   "why": "I gather = як я зрозумів."
+  },
+  {
+   "id": "present-tenses-advanced-13",
+   "type": "fill",
+   "q": "We ___ (think) of moving to the country. We haven't decided yet.",
+   "answer": [
+    "are thinking",
+    "'re thinking"
+   ],
+   "why": "think of = обмірковувати — дія, Continuous."
+  },
+  {
+   "id": "present-tenses-advanced-14",
+   "type": "fill",
+   "q": "I ___ (promise) I won't tell anyone.",
+   "answer": [
+    "promise"
+   ],
+   "why": "Сама обіцянка — Present Simple."
+  },
+  {
+   "id": "present-tenses-advanced-15",
+   "type": "order",
+   "words": [
+    "He",
+    "is",
+    "always",
+    "complaining",
+    "about",
+    "his",
+    "job"
+   ],
+   "answer": [
+    "He is always complaining about his job"
+   ],
+   "why": "always між is і V-ing.",
+   "hint": "Він вічно скаржиться на роботу."
+  },
+  {
+   "id": "present-tenses-advanced-16",
+   "type": "order",
+   "words": [
+    "I",
+    "am",
+    "hoping",
+    "you",
+    "can",
+    "come"
+   ],
+   "answer": [
+    "I am hoping you can come"
+   ],
+   "why": "Continuous для м'якості.",
+   "hint": "Я сподіваюся, що ти зможеш прийти."
+  },
+  {
+   "id": "present-tenses-advanced-17",
+   "type": "order",
+   "words": [
+    "I",
+    "hear",
+    "you",
+    "are",
+    "moving",
+    "to",
+    "London"
+   ],
+   "answer": [
+    "I hear you are moving to London"
+   ],
+   "why": "I hear = мені сказали.",
+   "hint": "Я чув, ти переїжджаєш до Лондона."
+  },
+  {
+   "id": "present-tenses-advanced-18",
+   "type": "order",
+   "words": [
+    "Prices",
+    "are",
+    "going",
+    "up",
+    "again"
+   ],
+   "answer": [
+    "Prices are going up again",
+    "Again prices are going up"
+   ],
+   "why": "Тенденція — Present Continuous.",
+   "hint": "Ціни знову ростуть."
+  }
+ ]
+}
