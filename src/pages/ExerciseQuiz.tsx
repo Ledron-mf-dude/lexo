@@ -1,17 +1,26 @@
-import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react'
 import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
 import { correctAnswer, drawDeck, exercises, isCorrectText, isUnseen, itemsOf, prioritize, promptOf, shuffle, withVariant, type Item, type Question } from '../lib/exercises'
 import { allMistakes, answerHistory, topicStats, useExerciseLog, useLogAnswer, type LogRow } from '../lib/exerciseLog'
 import { useFocusMode } from '../lib/focusMode'
+import { buildRoute, loadPlacement, topicProgress, topicStatus } from '../lib/learningPath'
 import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
 import { count, NEW_QUESTION } from '../lib/plural'
+import { autoNextPref, deckSizePref } from '../lib/prefs'
 import { useTitle } from '../lib/useTitle'
+import QuizSettings from '../components/QuizSettings'
+import RuleSheet from '../components/RuleSheet'
 import { cardItems, MY_WRITING } from '../lib/writingCards'
 import { reviewSchedule, reviewSummary, shortTitle } from '../lib/grammarReview'
 
-const DECK_SIZE = 10
 const MIXED_DECK_SIZE = 15
+
+/** Questions in a round of one topic, from the per-device setting (10, 20 or the whole topic). */
+const topicDeckSize = (bankSize: number) => {
+  const pref = deckSizePref.get()
+  return pref === 'all' ? bankSize : Number(pref)
+}
 
 export interface Outcome {
   correct: boolean
@@ -57,7 +66,7 @@ export default function ExerciseQuiz() {
       title={article.title}
       pool={pool.length > 0 ? pool : all}
       log={log}
-      size={DECK_SIZE}
+      size={topicDeckSize(pool.length > 0 ? pool.length : all.length)}
       topic={slug}
       back={{ to: `/grammar/${slug}`, label: 'До статті' }}
       onRestart={() => setAttempt((n) => n + 1)}
@@ -239,6 +248,7 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
             ))}
           </div>
         )}
+        {topic && <NextTopic topic={topic} />}
         <div className="flex flex-wrap gap-2">
           <Link to={back.to} className="btn-ghost">
             {back.label}
@@ -247,13 +257,15 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
             {unseenLeft > 0 ? 'Нові запитання' : 'Ще раз'}
           </button>
         </div>
+        <QuizSettings deckSize={topic !== undefined} />
       </section>
     )
   }
 
   const { q } = item
   return (
-    <section className="space-y-5">
+    // On a phone the quiz fills the screen and the answers sit low, near the thumb; the verdict comes up as a bottom sheet.
+    <section className={`flex flex-col gap-5 max-md:min-h-[calc(100dvh-2.5rem)] ${outcome ? 'max-md:pb-72' : ''}`}>
       <div className="flex items-center gap-3 text-sm text-white/50">
         <Link to={back.to} aria-label="Вийти з вправ" className="hover:text-white">
           ✕
@@ -271,12 +283,44 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
         {isUnseen(item, history) && <span className="ml-2 rounded-full border border-accent/40 px-1.5 py-px text-accent">нове</span>}
       </p>
 
-      <div key={index}>
+      <div key={index} className="flex flex-1 flex-col">
         <QuestionView q={q} outcome={outcome} onAnswer={answer} />
       </div>
 
-      {outcome && <Feedback q={q} outcome={outcome} last={index + 1 === deck.length} onNext={next} onOverride={override} />}
+      {outcome && <Feedback q={q} outcome={outcome} last={index + 1 === deck.length} onNext={next} onOverride={override} slug={item.slug} />}
     </section>
+  )
+}
+
+/** After a topic round: whether the topic now counts as learned, and the next topic of the learning route. */
+function NextTopic({ topic }: { topic: string }) {
+  // The cached log already holds this round's answers (they are added optimistically).
+  const { data: log } = useExerciseLog()
+  const progress = useMemo(() => topicProgress(log), [log])
+  const [placement] = useState(loadPlacement)
+  const done = topicStatus(progress.get(topic)) === 'done'
+  const next = placement ? buildRoute(placement, progress).todo.find((t) => t.article.slug !== topic)?.article : undefined
+  if (!done && !next) return null
+  return (
+    <div className="glass space-y-3 rounded-2xl p-4">
+      {done && <p className="text-good">✓ Тему засвоєно: правильні відповіді на 80%+ її запитань.</p>}
+      {next && (
+        <div className="flex flex-wrap items-center gap-3">
+          <div className="min-w-0 flex-1">
+            <p className="text-xs text-white/40">Наступна тема маршруту</p>
+            <p className="truncate">{next.title}</p>
+          </div>
+          <div className="flex w-full gap-2 *:flex-1 sm:w-auto sm:*:flex-none">
+            <Link to={`/grammar/${next.slug}`} className="btn-ghost text-center">
+              Читати
+            </Link>
+            <Link to={`/grammar/${next.slug}/exercises`} className="btn-primary text-center">
+              Вправи
+            </Link>
+          </div>
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -286,12 +330,23 @@ interface FeedbackProps {
   last: boolean
   onNext: () => void
   onOverride: () => void
+  /** The question's topic: «Правило» opens the matching part of its article. */
+  slug?: string
 }
 
-export function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps) {
+// How long a right answer stays on screen before the quiz moves on by itself (when that is switched on).
+const AUTO_NEXT_MS = 1500
+
+/** The verdict after an answer. On a phone it is a sheet at the bottom of the screen, with «Далі» under the thumb. */
+export function Feedback({ q, outcome, last, onNext, onOverride, slug }: FeedbackProps) {
+  const [rule, setRule] = useState(false)
+  const auto = autoNextPref.use() === 'on' && outcome.correct && !rule
+  const [armed, setArmed] = useState(false)
+  const hasRule = slug !== undefined && bySlug.has(slug)
+
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (e.key === 'Enter') {
+      if (e.key === 'Enter' && !rule) {
         e.preventDefault()
         onNext()
       }
@@ -302,12 +357,31 @@ export function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps
       clearTimeout(t)
       window.removeEventListener('keydown', onKey)
     }
-  }, [onNext])
+  }, [onNext, rule])
+
+  // Auto-advance after a right answer; a wrong one always waits, so the explanation can be read.
+  useEffect(() => {
+    if (!auto) return
+    const start = requestAnimationFrame(() => setArmed(true))
+    const t = setTimeout(onNext, AUTO_NEXT_MS)
+    return () => {
+      cancelAnimationFrame(start)
+      clearTimeout(t)
+      setArmed(false)
+    }
+  }, [auto, onNext])
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 max-md:fixed max-md:inset-x-0 max-md:bottom-0 max-md:z-20 max-md:max-h-[70dvh] max-md:overflow-y-auto max-md:rounded-t-3xl max-md:border-t max-md:border-white/10 max-md:bg-[#12151d] max-md:p-4 max-md:pb-[max(1rem,env(safe-area-inset-bottom))] max-md:shadow-[0_-12px_40px_rgb(0_0_0/0.5)]">
       <div className={`glass rounded-2xl p-4 ${outcome.correct ? 'border-good/40!' : 'border-bad/40!'}`}>
-        <p className={`text-sm ${outcome.correct ? 'text-good' : 'text-bad'}`}>{outcome.correct ? 'Правильно' : 'Неправильно'}</p>
+        <div className="flex items-baseline justify-between gap-3">
+          <p className={`text-sm ${outcome.correct ? 'text-good' : 'text-bad'}`}>{outcome.correct ? 'Правильно' : 'Неправильно'}</p>
+          {hasRule && (
+            <button onClick={() => setRule(true)} className="text-sm text-accent hover:underline">
+              Правило
+            </button>
+          )}
+        </div>
         {q.type === 'fix' ? (
           <div className="mt-1 space-y-0.5">
             {q.showRight && <p className="text-sm text-white/60">Речення було без помилки. Типова помилка в ньому:</p>}
@@ -334,22 +408,45 @@ export function Feedback({ q, outcome, last, onNext, onOverride }: FeedbackProps
           Мій варіант теж правильний
         </button>
       )}
-      <button onClick={onNext} className="btn-primary w-full">
-        {last ? 'Результат' : 'Далі'}
+      <button onClick={onNext} className="btn-primary relative w-full overflow-hidden">
+        {auto && (
+          <span
+            aria-hidden="true"
+            className="absolute inset-y-0 left-0 bg-white/20 transition-[width] ease-linear"
+            style={{ width: armed ? '100%' : '0%', transitionDuration: `${AUTO_NEXT_MS}ms` }}
+          />
+        )}
+        <span className="relative">{last ? 'Результат' : 'Далі'}</span>
       </button>
+      {rule && slug && <RuleSheet slug={slug} q={q} onClose={() => setRule(false)} />}
     </div>
   )
 }
 
-/** A gap question as a complete sentence, the right answer highlighted; null when the question has no gap. */
+/**
+ * A gap question as a complete sentence, the right answer highlighted; null when the question has no gap.
+ * With several gaps an answer written «had / gone» fills them in turn; otherwise it all goes into the first gap.
+ */
 function solved(q: Question): ReactNode {
   if ((q.type !== 'choice' && q.type !== 'fill') || !/_{2,}/.test(q.q)) return null
-  const [before, ...after] = q.q.split(/_{2,}/)
+  const parts = q.q.split(/_{2,}/)
+  const answer = correctAnswer(q)
+  const pieces = answer.split(' / ')
+  const fills = pieces.length === parts.length - 1 ? pieces : [answer]
+  // «(без артикля)», «—»: the right answer is to leave the gap empty, so the sentence is shown without it.
+  const empty = (fill: string) => /^\(.*\)$|^[—–-]$/.test(fill.trim())
   return (
     <>
-      {before}
-      <span className="text-good">{correctAnswer(q)}</span>
-      {after.join('___')}
+      {parts.map((text, i) => {
+        const fill = fills[i]
+        const gap = i >= parts.length - 1 ? null : fill === undefined ? '___' : empty(fill) ? null : <span className="text-good">{fill}</span>
+        return (
+          <span key={i}>
+            {gap === null && fill !== undefined ? text.replace(/\s+$/, '') + (parts[i + 1]?.startsWith(' ') ? '' : ' ') : text}
+            {gap}
+          </span>
+        )
+      })}
     </>
   )
 }
@@ -414,9 +511,9 @@ function ChoiceQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'cho
     return 'opacity-40'
   }
   return (
-    <div className="space-y-3">
+    <div className="flex flex-1 flex-col gap-3">
       <Prompt text={q.q} hint={q.hint} />
-      <div className="grid gap-2">
+      <div className="mt-auto grid gap-2">
         {q.options.map((option, i) => (
           <button
             key={option}
@@ -437,7 +534,9 @@ function FillQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'fill'
   const [value, setValue] = useState('')
   const input = useRef<HTMLInputElement>(null)
   // Ready to type; preventScroll keeps the question in view (autoFocus scrolls to the field on phones).
-  useEffect(() => input.current?.focus({ preventScroll: true }), [])
+  useEffect(() => {
+    input.current?.focus({ preventScroll: true })
+  }, [])
   function submit(e: FormEvent) {
     e.preventDefault()
     if (!outcome && value.trim() !== '') onAnswer({ correct: isCorrectText(value, q.answer), given: value.trim() })
@@ -497,7 +596,7 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
   }, [q, outcome, complete, sentence, onAnswer])
 
   return (
-    <div className="space-y-3">
+    <div className="flex flex-1 flex-col gap-3">
       <Prompt hint={q.hint}>
         <p className="text-xs tracking-widest text-white/35 uppercase">Складіть речення</p>
       </Prompt>
@@ -513,7 +612,7 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
         )}
       </div>
       {!outcome && (
-        <>
+        <div className="mt-auto space-y-3">
           <div className="flex flex-wrap justify-center gap-2">
             {tiles.map((t, i) => (
               <button
@@ -540,7 +639,7 @@ function OrderQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'orde
               </button>
             )}
           </div>
-        </>
+        </div>
       )}
     </div>
   )
@@ -580,14 +679,14 @@ function FixQ({ q, outcome, onAnswer }: QProps<Extract<Question, { type: 'fix' }
   }
 
   return (
-    <div className="space-y-3">
+    <div className="flex flex-1 flex-col gap-3">
       <Prompt hint={q.hint}>
         <p className="text-xs tracking-widest text-white/35 uppercase">Чи є тут помилка?</p>
         <p className={`font-light tracking-tight ${shown.length > 70 ? 'text-xl' : 'text-2xl'}`}>{shown}</p>
       </Prompt>
       {!editing ? (
         !outcome && (
-          <div className="grid grid-cols-2 gap-2">
+          <div className="mt-auto grid grid-cols-2 gap-2">
             <button onClick={judgeRight} className="glass rounded-2xl px-4 py-3 transition-colors hover:bg-white/15">
               <span className="mr-2 hidden text-xs text-white/30 md:inline">1</span>Правильно
             </button>

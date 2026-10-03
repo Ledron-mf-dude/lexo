@@ -1,5 +1,8 @@
-import type { LogRow } from './exerciseLog'
+import { useMemo } from 'react'
+import { topicStats, type LogRow } from './exerciseLog'
+import { exercises } from './exercises'
 import { bySlug } from './grammar'
+import { loadCards, MY_WRITING } from './writingCards'
 
 /**
  * Spaced repetition for grammar, computed from the answer log (no extra table): a question answered wrongly comes back
@@ -99,4 +102,15 @@ export function personalPairs(mistakesBySlug: Map<string, number>): { pair: [str
     const [a, b] = pair.map((s) => mistakesBySlug.get(s) ?? 0)
     return { pair, mistakes: a + b, both: a > 0 && b > 0 }
   }).sort((x, y) => Number(y.both) - Number(x.both) || y.mistakes - x.mistakes)
+}
+
+/** Grammar spaced repetition from the answer log: how many questions are due now, when the next ones come, and the contrast pairs. */
+export function useGrammarReview(log: LogRow[] | undefined) {
+  return useMemo(() => {
+    const cards = new Set(loadCards().map((c) => c.id))
+    const valid = (slug: string, id: string) => (slug === MY_WRITING ? cards.has(id) : Boolean(exercises.get(slug)?.some((q) => q.id === id)))
+    const { due, next } = reviewSummary(reviewSchedule(log, valid))
+    const mistakes = new Map([...exercises].map(([slug, qs]) => [slug, topicStats(log, slug, new Set(qs.map((q) => q.id))).mistakes.length]))
+    return { due: due.length, next, pairs: personalPairs(mistakes) }
+  }, [log])
 }

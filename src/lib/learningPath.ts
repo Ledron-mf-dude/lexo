@@ -1,4 +1,5 @@
-import { shuffle, itemsOf, type Item } from './exercises'
+import { topicStats, type LogRow } from './exerciseLog'
+import { exercises, shuffle, itemsOf, type Item } from './exercises'
 import { articles, LEVELS, startLevel, type Article, type Level } from './grammar'
 
 /**
@@ -88,11 +89,30 @@ export interface TopicProgress {
   attempted: number
 }
 
-/** A topic counts as learned once enough of it was answered and most of the latest answers are right. */
+/** Share of a topic's questions whose latest answer must be right for the topic to count as learned. */
+export const MASTERY = 0.8
+
+/**
+ * The one definition of «засвоєно» used everywhere (topic list, article, route): the latest answer is right
+ * for at least 80% of all the topic's questions. Unseen questions come first in a round, so this is reached by going on.
+ */
 export function topicStatus(p: TopicProgress | undefined): TopicStatus {
   if (!p || p.attempted === 0) return 'new'
-  return p.attempted >= 8 && p.mastered / p.attempted >= 0.8 ? 'done' : 'progress'
+  return p.total > 0 && p.mastered / p.total >= MASTERY ? 'done' : 'progress'
 }
+
+/** Progress of every topic with exercises, from the answer log. */
+export function topicProgress(log: LogRow[] | undefined): Map<string, TopicProgress> {
+  const map = new Map<string, TopicProgress>()
+  for (const [slug, qs] of exercises) {
+    const st = topicStats(log, slug, new Set(qs.map((q) => q.id)))
+    map.set(slug, { mastered: st.mastered, total: qs.length, attempted: st.attempted })
+  }
+  return map
+}
+
+/** Right answers still needed for the topic to count as learned. */
+export const toMastery = (p: TopicProgress) => Math.max(0, Math.ceil(p.total * MASTERY) - p.mastered)
 
 export interface Route {
   level: Level

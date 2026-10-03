@@ -1,70 +1,15 @@
-import { Children, isValidElement, type ComponentProps, type ReactNode } from 'react'
-import Markdown from 'react-markdown'
-import rehypeRaw from 'rehype-raw'
-import remarkGfm from 'remark-gfm'
 import { Link, useNavigate, useParams } from 'react-router-dom'
+import ArticleMarkdown from '../components/ArticleMarkdown'
 import LevelBadge from '../components/LevelBadge'
 import { MIN_WORDS, wordsForArticle } from '../lib/articleWords'
 import { exercises } from '../lib/exercises'
 import { topicStats, useExerciseLog } from '../lib/exerciseLog'
 import { bySlug } from '../lib/grammar'
+import { topicStatus } from '../lib/learningPath'
 import { useTags, useWords } from '../lib/queries'
 import { count, QUESTION } from '../lib/plural'
+import { headingId } from '../lib/articleText'
 import { useTitle } from '../lib/useTitle'
-
-// Links to other articles are app-internal routes; everything else opens normally.
-function ArticleLink({ href = '', children }: ComponentProps<'a'>) {
-  return href.startsWith('/grammar/') ? (
-    <Link to={href} className="text-accent no-underline hover:underline">
-      {children}
-    </Link>
-  ) : (
-    <a href={href} target="_blank" rel="noreferrer">
-      {children}
-    </a>
-  )
-}
-
-const headingId = (text: string) => 'h-' + text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '')
-
-const textOf = (node: ReactNode): string =>
-  typeof node === 'string' || typeof node === 'number' ? String(node) : Array.isArray(node) ? node.map(textOf).join('') : isValidElement(node) ? textOf((node.props as { children?: ReactNode }).children) : ''
-
-// Section headings get ids so the table of contents can scroll to them (HashRouter owns the URL hash, so no #anchors).
-function Heading({ children }: ComponentProps<'h2'>) {
-  return (
-    <h2 id={headingId(textOf(children))} className="scroll-mt-4">
-      {children}
-    </h2>
-  )
-}
-
-// A "Типові помилки" list item: "✗ wrong → ✓ right" gets coloured marks.
-function ListItem({ children }: ComponentProps<'li'>) {
-  if (!textOf(children).startsWith('✗')) return <li>{children}</li>
-  const mark = (node: ReactNode, key: number): ReactNode =>
-    typeof node === 'string'
-      ? node.split(/([✗✓])/).map((part, i) =>
-          part === '✗' ? (
-            <span key={`${key}-${i}`} className="font-medium text-bad">✗</span>
-          ) : part === '✓' ? (
-            <span key={`${key}-${i}`} className="font-medium text-good">✓</span>
-          ) : (
-            part
-          ),
-        )
-      : node
-  return <li className="mistake list-none">{Children.toArray(children).map(mark)}</li>
-}
-
-// Wide tables scroll inside the card on a phone instead of stretching the whole page.
-function ScrollTable({ children }: ComponentProps<'table'>) {
-  return (
-    <div className="-mx-1 overflow-x-auto px-1">
-      <table>{children}</table>
-    </div>
-  )
-}
 
 export default function GrammarArticle() {
   const { slug = '' } = useParams()
@@ -135,11 +80,7 @@ export default function GrammarArticle() {
           ))}
         </nav>
       )}
-      <div className="glass prose prose-invert max-w-none rounded-3xl p-4 break-words sm:p-6 prose-headings:font-normal prose-strong:text-white prose-code:text-accent-alt prose-code:before:content-none prose-code:after:content-none prose-th:text-left">
-        <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={{ a: ArticleLink, table: ScrollTable, h2: Heading, li: ListItem }}>
-          {article.body}
-        </Markdown>
-      </div>
+      <ArticleMarkdown body={article.body} />
 
       {bank && stats && (
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-4 sm:p-5">
@@ -149,7 +90,7 @@ export default function GrammarArticle() {
               {stats.attempted === 0
                 ? 'Ще не проходили'
                 : [
-                    `Опановано ${stats.mastered} з ${bank.length}`,
+                    topicStatus({ mastered: stats.mastered, attempted: stats.attempted, total: bank.length }) === 'done' ? '✓ Тему засвоєно' : `Правильно ${stats.mastered} з ${bank.length}`,
                     stats.mistakes.length > 0 && `помилок ${stats.mistakes.length}`,
                     // Unseen questions come first in the next round, so «21 of 22» is closed by simply going on.
                     stats.attempted < bank.length && `ще не бачили ${bank.length - stats.attempted}`,

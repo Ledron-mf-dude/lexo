@@ -60,8 +60,14 @@ npm run lint     # oxlint
   - It asks blocks of 4 choice/fill questions per level, A1 → A2 → B1 → B1+ → B2 (C1 has one topic), taken from topics whose starting level is that level. It stops at the first block with fewer than 3 right.
   - Answers go to `exercise_log`. The result (passed level, scores, weak topics) is kept in `localStorage` under `lexo.placement`.
   - [src/components/LearningPath.tsx](src/components/LearningPath.tsx) on the Grammar page builds the route with `buildRoute`: weak topics first, then topics of the study level.
-  - A topic counts as learned after 8+ attempted questions with at least 80% of the latest answers right. The study level moves up once 80% of its topics are learned.
+  - A topic counts as learned (`topicStatus`, «засвоєно») when the latest answer is right for at least 80% of all its questions. The same rule is used by the topic list, the article, Stats and the route. Question-level wording is «правильно». The study level moves up once 80% of its topics are learned.
   - `QuestionView` and `Feedback` are exported from ExerciseQuiz for reuse.
+- Quiz screen ([src/pages/ExerciseQuiz.tsx](src/pages/ExerciseQuiz.tsx)):
+  - On phones the answers sit at the bottom (flex + `mt-auto`) and `Feedback` is a fixed bottom sheet with «Далі».
+  - «Правило» opens [src/components/RuleSheet.tsx](src/components/RuleSheet.tsx): the article section picked by `ruleSectionIndex` ([src/lib/ruleFinder.ts](src/lib/ruleFinder.ts), clue words from `why` and the answer), with chips for the other sections. Article markdown is rendered by [src/components/ArticleMarkdown.tsx](src/components/ArticleMarkdown.tsx).
+  - Per-device settings live in [src/lib/prefs.ts](src/lib/prefs.ts) (`createPref`): round length of a topic quiz (10 / 20 / whole topic) and auto-advance after a right answer. They are edited in `QuizSettings` under the result and on the Account page.
+  - After a topic round the result shows whether the topic is now learned and the next route topic.
+- Grammar page top ([src/components/GrammarHub.tsx](src/components/GrammarHub.tsx)): one «Сьогодні» card with the next step (due review → placement test → next route topic → mixed practice), then a chip row of tools. Route and contrast pairs open as panels (`grammarPanelPref`).
 - Grammar review ([src/lib/grammarReview.ts](src/lib/grammarReview.ts), [src/components/GrammarReview.tsx](src/components/GrammarReview.tsx)):
   - `reviewSchedule` derives spaced repetition from `exercise_log`, with no extra table. A question answered wrongly returns after 1 → 3 → 7 → 14 days. A right answer counts as a step only after at least 80% of the interval.
   - `CONTRAST_PAIRS` lists topics that are easy to confuse. `personalPairs` orders them by the user's current mistakes.
