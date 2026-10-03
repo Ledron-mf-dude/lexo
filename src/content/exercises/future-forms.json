@@ -31,9 +31,9 @@
    "type": "choice",
    "q": "The train ___ at 9:15 tomorrow.",
    "options": [
-    "will leave",
+    "leaving",
     "leaves",
-    "is going to leave",
+    "is leave",
     "leave"
    ],
    "answer": 1,
@@ -125,7 +125,8 @@
     "tomorrow"
    ],
    "answer": [
-    "He is going to have a day off tomorrow"
+    "He is going to have a day off tomorrow",
+    "Tomorrow he is going to have a day off"
    ],
    "why": "Особистий план — be going to."
   },
@@ -136,7 +137,8 @@
    "answer": [
     "starts"
    ],
-   "why": "Розклад — Present Simple."
+   "why": "Розклад — Present Simple.",
+   "hint": "За розкладом"
   },
   {
    "id": "future-forms-12",
@@ -144,7 +146,8 @@
    "q": "I ___ (meet) Anna for lunch tomorrow. We've booked a table.",
    "answer": [
     "am meeting",
-    "'m meeting"
+    "'m meeting",
+    "am going to meet"
    ],
    "why": "Домовленість — Present Continuous."
   },
@@ -154,7 +157,8 @@
    "q": "Watch out! You ___ (fall)!",
    "answer": [
     "are going to fall",
-    "'re going to fall"
+    "'re going to fall",
+    "will fall"
    ],
    "why": "Бачимо ознаки — be going to."
   },
@@ -164,7 +168,9 @@
    "q": "I think it ___ (be) a great party.",
    "answer": [
     "will be",
-    "'ll be"
+    "'ll be",
+    "is going to be",
+    "'s going to be"
    ],
    "why": "Прогноз-думка з I think — will."
   },
@@ -243,7 +249,8 @@
     "Friday"
    ],
    "answer": [
-    "We are flying to Rome on Friday"
+    "We are flying to Rome on Friday",
+    "On Friday we are flying to Rome"
    ],
    "why": "Домовленість — Present Continuous.",
    "hint": "У п'ятницю ми летимо до Рима."
@@ -276,7 +283,8 @@
     "soon"
    ],
    "answer": [
-    "It is going to rain soon"
+    "It is going to rain soon",
+    "Soon it is going to rain"
    ],
    "why": "Ознаки — be going to.",
    "hint": "Скоро піде дощ."

@@ -137,7 +137,8 @@
    "type": "fill",
    "q": "He's a very ___ person. (works hard)",
    "answer": [
-    "hard-working"
+    "hard-working",
+    "hardworking"
    ],
    "why": "прикметник + -ing: hard-working."
   },

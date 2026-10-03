@@ -131,7 +131,9 @@
    "type": "fill",
    "q": "___ you like coffee?",
    "answer": [
-    "Do"
+    "Do",
+    "Would",
+    "Did"
    ],
    "why": "Питання: Do + підмет + V."
   },
@@ -210,7 +212,9 @@
     "morning"
    ],
    "answer": [
-    "I usually drink coffee in the morning"
+    "I usually drink coffee in the morning",
+    "In the morning I usually drink coffee",
+    "Usually I drink coffee in the morning"
    ],
    "why": "Частота — перед дієсловом; час — у кінці.",
    "hint": "Зазвичай я п'ю каву зранку."
@@ -227,7 +231,8 @@
     "yesterday"
    ],
    "answer": [
-    "She sent me a message yesterday"
+    "She sent me a message yesterday",
+    "Yesterday she sent me a message"
    ],
    "why": "S + V + кому + що + час.",
    "hint": "Учора вона надіслала мені повідомлення."
@@ -262,7 +267,8 @@
     "late"
    ],
    "answer": [
-    "They arrived at the station late"
+    "They arrived at the station late",
+    "They arrived late at the station"
    ],
    "why": "Місце → час.",
    "hint": "Вони прибули на вокзал пізно."

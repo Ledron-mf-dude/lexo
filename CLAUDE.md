@@ -49,6 +49,11 @@ npm run lint     # oxlint
   - `fill`: `q` containing `___`, and `answer`, which is a list of accepted strings;
   - `order`: `words`, and `answer`, which is a list of accepted sentences.
 - A fourth type, `fix` («Знайди помилку»), is not written in JSON. `mistakeQuestions` generates it from the article's `- ✗ *wrong* → ✓ *right*` lines; alternatives after ` / ` become extra accepted answers. Pairs with «…», a slash inside a span, a BrE/AmE/register note, or a punctuation-only change are skipped. The id is a hash of the wrong sentence, so editing that sentence resets its log history. In the quiz, about 30% of draws show the corrected sentence instead, and the learner can mark an unrecognised correction as right («Мій варіант теж правильний»), which logs a newer correct row.
+- **One right answer, or all of them.**
+  - A `choice` question must have exactly one option that is right in context. The distractors must be wrong, not just less typical: a train that «will leave» at 9:15 is not a mistake.
+  - A `fill` gap where several words fit (would / could / might, just / already, a time-clause tense) either lists them all in `answer` or narrows the gap with a cue: a base verb in brackets in `q`, or a `hint` such as «(досі)» or «(do / make)».
+  - An `order` sentence lists every natural word order, for example a clause or a time phrase moved to the front, or a separable phrasal verb.
+  - After an answer the quiz shows the other accepted answers («Також правильно»). A typed or built answer that was not recognised can be counted with «Мій варіант теж правильний»; the placement test does not offer this.
 - Invalid questions are skipped with a console warning, not rejected at build time.
 - Text answers are compared ignoring case, extra spaces, curly apostrophes, punctuation and contractions (`canon` spells out `n't`, `'re`, `'m`, `'ll`, `'ve`, `'d` as «would», and `'s` after pronouns).
 - `drawDeck` picks questions through `prioritize`: never-answered first, then latest-wrong, then the rest by oldest answer (from `answerHistory` of `exercise_log`), so a topic is covered in full before anything repeats. It then interleaves the question types. Unseen questions are marked «нове» in the quiz.

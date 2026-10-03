@@ -85,8 +85,8 @@
    "options": [
     "did",
     "made",
-    "took",
-    "put"
+    "put",
+    "set"
    ],
    "answer": 1,
    "why": "make a (phone) call — телефонувати."
@@ -124,7 +124,8 @@
    "answer": [
     "make"
    ],
-   "why": "make a decision."
+   "why": "make a decision.",
+   "hint": "(do / make)"
   },
   {
    "id": "do-make-11",
@@ -133,7 +134,8 @@
    "answer": [
     "do"
    ],
-   "why": "do the shopping — хатні справи."
+   "why": "do the shopping — хатні справи.",
+   "hint": "(do / make)"
   },
   {
    "id": "do-make-12",
@@ -142,7 +144,8 @@
    "answer": [
     "does"
    ],
-   "why": "do your best — старатися з усіх сил."
+   "why": "do your best — старатися з усіх сил.",
+   "hint": "(do / make)"
   },
   {
    "id": "do-make-13",
@@ -151,7 +154,8 @@
    "answer": [
     "make"
    ],
-   "why": "make a noise."
+   "why": "make a noise.",
+   "hint": "(do / make)"
   },
   {
    "id": "do-make-14",
@@ -160,7 +164,8 @@
    "answer": [
     "do"
    ],
-   "why": "do yoga / exercise / sport."
+   "why": "do yoga / exercise / sport.",
+   "hint": "(do / make)"
   },
   {
    "id": "do-make-15",
@@ -169,7 +174,8 @@
    "answer": [
     "made"
    ],
-   "why": "make friends — подружитися."
+   "why": "make friends — подружитися.",
+   "hint": "(do / make)"
   },
   {
    "id": "do-make-16",
@@ -307,7 +313,8 @@
    "answer": [
     "make"
    ],
-   "why": "make a complaint."
+   "why": "make a complaint.",
+   "hint": "(do / make)"
   }
  ]
 }

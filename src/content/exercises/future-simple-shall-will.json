@@ -58,7 +58,9 @@
    "q": "I ___ (see) him tomorrow.",
    "answer": [
     "will see",
-    "'ll see"
+    "'ll see",
+    "am seeing",
+    "am going to see"
    ],
    "why": "Просте майбутнє: will + V."
   },
@@ -122,7 +124,7 @@
     "Shall"
    ],
    "why": "Shall I…? — пропоную допомогу.",
-   "hint": "Пропозиція допомоги"
+   "hint": "Пропозиція допомоги (shall / will)"
   },
   {
    "id": "future-simple-shall-will-11",
@@ -130,7 +132,9 @@
    "q": "I think it ___ (snow) tonight.",
    "answer": [
     "will snow",
-    "'ll snow"
+    "'ll snow",
+    "is going to snow",
+    "'s going to snow"
    ],
    "why": "Прогноз-думка — will."
   },
@@ -153,7 +157,7 @@
     "shall"
    ],
    "why": "What shall we…? — що робитимемо?",
-   "hint": "Пропозиція"
+   "hint": "Пропозиція (shall / will)"
   },
   {
    "id": "future-simple-shall-will-14",

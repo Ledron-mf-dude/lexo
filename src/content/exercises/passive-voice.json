@@ -53,7 +53,10 @@
    "type": "fill",
    "q": "Many houses ___ (build) this year.",
    "answer": [
-    "have been built"
+    "have been built",
+    "are being built",
+    "were built",
+    "will be built"
    ],
    "why": "Present Perfect Passive: have been + V3."
   },
@@ -75,7 +78,8 @@
    "type": "fill",
    "q": "This phone ___ (make) in China.",
    "answer": [
-    "is made"
+    "is made",
+    "was made"
    ],
    "why": "Present Simple Passive: is made."
   },
@@ -144,7 +148,8 @@
    "type": "fill",
    "q": "The results ___ (announce) tomorrow.",
    "answer": [
-    "will be announced"
+    "will be announced",
+    "are going to be announced"
    ],
    "why": "Future Passive."
   },

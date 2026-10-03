@@ -59,7 +59,7 @@
    "options": [
     "There",
     "It",
-    "This",
+    "They",
     "He"
    ],
    "answer": 1,
@@ -299,7 +299,8 @@
    "q": "___ no use arguing with him.",
    "answer": [
     "It's",
-    "It is"
+    "It is",
+    "There's"
    ],
    "why": "It's no use + -ing."
   }

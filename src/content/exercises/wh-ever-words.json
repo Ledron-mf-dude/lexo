@@ -132,7 +132,8 @@
    "type": "fill",
    "q": "Pick ___ colour you like — red or blue.",
    "answer": [
-    "whichever"
+    "whichever",
+    "whatever"
    ],
    "why": "whichever — будь-який з кількох."
   },
@@ -235,7 +236,8 @@
    ],
    "answer": [
     "Wherever you go I will follow you",
-    "Wherever you go, I will follow you"
+    "Wherever you go, I will follow you",
+    "I will follow you wherever you go"
    ],
    "why": "wherever — куди б не.",
    "hint": "Куди б ти не пішов, я піду за тобою."

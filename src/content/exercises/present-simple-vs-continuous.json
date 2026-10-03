@@ -102,7 +102,8 @@
    "type": "fill",
    "q": "My brother ___ (study) at university now.",
    "answer": [
-    "is studying"
+    "is studying",
+    "studies"
    ],
    "why": "now — Present Continuous."
   },
@@ -118,7 +119,8 @@
     "today"
    ],
    "answer": [
-    "She is working from home today"
+    "She is working from home today",
+    "Today she is working from home"
    ],
    "why": "today — тимчасова ситуація."
   },
@@ -137,7 +139,9 @@
    "type": "fill",
    "q": "My sister ___ (live) in Canada.",
    "answer": [
-    "lives"
+    "lives",
+    "is living",
+    "'s living"
    ],
    "why": "Постійна ситуація — Present Simple."
   },
@@ -166,7 +170,8 @@
    "q": "He ___ (always / lose) his keys! It's so annoying.",
    "answer": [
     "is always losing",
-    "'s always losing"
+    "'s always losing",
+    "always loses"
    ],
    "why": "always + Continuous — роздратування."
   },
@@ -253,7 +258,8 @@
     "moment"
    ],
    "answer": [
-    "I am reading a great book at the moment"
+    "I am reading a great book at the moment",
+    "At the moment I am reading a great book"
    ],
    "why": "at the moment — Continuous.",
    "hint": "Зараз я читаю чудову книжку."
@@ -330,7 +336,8 @@
    "type": "fill",
    "q": "The climate ___ (get) warmer every year.",
    "answer": [
-    "is getting"
+    "is getting",
+    "gets"
    ],
    "why": "Зміни, тенденції — Present Continuous."
   },

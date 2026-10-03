@@ -16,7 +16,7 @@
   {
    "id": "future-in-the-past-2",
    "type": "choice",
-   "q": "He said he ___ come later.",
+   "q": "He said he ___ come later, but he never came.",
    "options": [
     "will",
     "would",
@@ -156,7 +156,7 @@
   {
    "id": "future-in-the-past-14",
    "type": "choice",
-   "q": "They said the train ___ late.",
+   "q": "They said the train ___ late, but it arrived on time.",
    "options": [
     "would be",
     "will be",
@@ -257,7 +257,7 @@
   {
    "id": "future-in-the-past-21",
    "type": "choice",
-   "q": "He promised he ___ help us.",
+   "q": "He promised he ___ help us, but he didn't.",
    "options": [
     "will",
     "would",

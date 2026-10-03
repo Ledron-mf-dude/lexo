@@ -124,7 +124,12 @@
    "answer": [
     "However",
     "Nevertheless",
-    "Still"
+    "Still",
+    "But",
+    "Yet",
+    "Even so",
+    "Nonetheless",
+    "On the other hand"
    ],
    "why": "However — контраст, окреме речення."
   },
@@ -163,7 +168,10 @@
     "Consequently",
     "As a result",
     "Therefore",
-    "So"
+    "So",
+    "Thus",
+    "Hence",
+    "As a consequence"
    ],
    "why": "Consequently / As a result — наслідок."
   },
@@ -232,7 +240,8 @@
    ],
    "answer": [
     "However the price is too high",
-    "However, the price is too high"
+    "However, the price is too high",
+    "The price however is too high"
    ],
    "why": "However + кома.",
    "hint": "Однак ціна надто висока."
@@ -251,7 +260,9 @@
    ],
    "answer": [
     "For example many people work from home",
-    "For example, many people work from home"
+    "For example, many people work from home",
+    "Many people for example work from home",
+    "Many people work from home for example"
    ],
    "why": "For example — приклад.",
    "hint": "Наприклад, багато людей працюють з дому."
@@ -306,7 +317,8 @@
    "type": "fill",
    "q": "\"You're from Kyiv, right?\" — \"___, I'm from Lviv.\" (насправді)",
    "answer": [
-    "Actually"
+    "Actually",
+    "In fact"
    ],
    "why": "Actually — уточнення, незгода."
   }

@@ -71,7 +71,7 @@
    "q": "___ all make mistakes.",
    "options": [
     "We",
-    "They",
+    "Each",
     "One",
     "It"
    ],
@@ -161,9 +161,11 @@
    "type": "fill",
    "q": "___ have to be 18 to vote here.",
    "answer": [
-    "You"
+    "You",
+    "People"
    ],
-   "why": "You have to… — узагальнено."
+   "why": "You have to… — узагальнено.",
+   "hint": "(узагальнено — будь-хто)"
   },
   {
    "id": "generic-pronouns-15",
@@ -235,7 +237,8 @@
     "theirs"
    ],
    "answer": 1,
-   "why": "Стать невідома — their."
+   "why": "Стать невідома — their.",
+   "hint": "(у групі і хлопці, і дівчата)"
   },
   {
    "id": "generic-pronouns-20",
@@ -255,9 +258,11 @@
    "type": "fill",
    "q": "How do ___ turn this machine on?",
    "answer": [
-    "you"
+    "you",
+    "one"
    ],
-   "why": "you — будь-хто."
+   "why": "you — будь-хто.",
+   "hint": "(узагальнено — будь-хто)"
   }
  ]
 }

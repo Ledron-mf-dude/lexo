@@ -157,7 +157,8 @@
    "answer": [
     "in case"
    ],
-   "why": "in case — на випадок, якщо."
+   "why": "in case — на випадок, якщо.",
+   "hint": "(на випадок, якщо)"
   },
   {
    "id": "conditionals-advanced-14",
@@ -234,7 +235,8 @@
     "you"
    ],
    "answer": [
-    "Had I known I would have told you"
+    "Had I known I would have told you",
+    "I would have told you had I known"
    ],
    "why": "Інверсія: Had I known.",
    "hint": "Якби я знав, я б тобі сказав."
@@ -257,7 +259,8 @@
     "ten"
    ],
    "answer": [
-    "You can go out as long as you are back by ten"
+    "You can go out as long as you are back by ten",
+    "As long as you are back by ten you can go out"
    ],
    "why": "as long as — за умови.",
    "hint": "Можеш погуляти, якщо повернешся до десятої."
@@ -275,7 +278,8 @@
     "rains"
    ],
    "answer": [
-    "Take an umbrella in case it rains"
+    "Take an umbrella in case it rains",
+    "In case it rains take an umbrella"
    ],
    "why": "in case + Present Simple.",
    "hint": "Візьми парасольку на випадок дощу."

@@ -153,7 +153,8 @@
    "type": "fill",
    "q": "I've never seen ___ many birds.",
    "answer": [
-    "so"
+    "so",
+    "that"
    ],
    "why": "so many + лічильне."
   },
@@ -172,9 +173,11 @@
    "type": "fill",
    "q": "Why are you walking ___ fast?",
    "answer": [
-    "so"
+    "so",
+    "that"
    ],
-   "why": "so + прислівник."
+   "why": "so + прислівник.",
+   "hint": "(так)"
   },
   {
    "id": "so-such-16",

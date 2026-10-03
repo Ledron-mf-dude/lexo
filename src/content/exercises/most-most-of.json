@@ -127,7 +127,9 @@
    "type": "fill",
    "q": "I ___ work from home. (здебільшого)",
    "answer": [
-    "mostly"
+    "mostly",
+    "mainly",
+    "largely"
    ],
    "why": "mostly — переважно."
   },
@@ -146,7 +148,9 @@
    "q": "___ everyone came to the party. (майже всі)",
    "answer": [
     "Almost",
-    "Nearly"
+    "Nearly",
+    "Practically",
+    "Virtually"
    ],
    "why": "almost / nearly everyone — майже всі."
   },

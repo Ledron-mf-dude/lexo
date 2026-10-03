@@ -119,7 +119,11 @@
    "type": "fill",
    "q": "Her flight is ___ to land at 10:30.",
    "answer": [
-    "due"
+    "due",
+    "scheduled",
+    "expected",
+    "set",
+    "supposed"
    ],
    "why": "be due to — за розкладом."
   },
@@ -130,7 +134,8 @@
    "answer": [
     "bound",
     "sure",
-    "certain"
+    "certain",
+    "likely"
    ],
    "why": "be bound / sure to — напевно."
   },
@@ -139,7 +144,11 @@
    "type": "fill",
    "q": "The company is ___ to open a new office. (у новинах: заплановано)",
    "answer": [
-    "set"
+    "set",
+    "due",
+    "expected",
+    "scheduled",
+    "going"
    ],
    "why": "be set to — заплановано."
   },
@@ -255,7 +264,7 @@
     "about",
     "due",
     "bound",
-    "set"
+    "on"
    ],
    "answer": 1,
    "why": "За розкладом — be due to."
@@ -278,7 +287,8 @@
    "type": "fill",
    "q": "The rent is ___ on the first of the month.",
    "answer": [
-    "due"
+    "due",
+    "payable"
    ],
    "why": "be due — має бути сплачено."
   }

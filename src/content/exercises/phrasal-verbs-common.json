@@ -180,7 +180,8 @@
    "type": "fill",
    "q": "I came ___ an old photo in the drawer.",
    "answer": [
-    "across"
+    "across",
+    "upon"
    ],
    "why": "come across — натрапити."
   },
@@ -263,7 +264,8 @@
     "year"
    ],
    "answer": [
-    "They broke up last year"
+    "They broke up last year",
+    "Last year they broke up"
    ],
    "why": "break up — розійтися.",
    "hint": "Вони розійшлися минулого року."
@@ -279,7 +281,8 @@
     "meeting"
    ],
    "answer": [
-    "Let's put off the meeting"
+    "Let's put off the meeting",
+    "Let's put the meeting off"
    ],
    "why": "put off — відкласти.",
    "hint": "Давай відкладемо зустріч."

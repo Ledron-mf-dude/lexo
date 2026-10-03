@@ -68,7 +68,7 @@
   {
    "id": "inversion-6",
    "type": "choice",
-   "q": "Only then ___ I understand.",
+   "q": "Only then ___ I understand what had happened.",
    "options": [
     "do",
     "did",
@@ -122,7 +122,8 @@
    "type": "fill",
    "q": "Never ___ I heard such nonsense.",
    "answer": [
-    "have"
+    "have",
+    "had"
    ],
    "why": "Never + have + підмет + V3."
   },
@@ -131,7 +132,8 @@
    "type": "fill",
    "q": "Seldom ___ he complain.",
    "answer": [
-    "does"
+    "does",
+    "did"
    ],
    "why": "Seldom + does + підмет + V."
   },
@@ -290,7 +292,8 @@
    "type": "fill",
    "q": "I had hardly closed my eyes ___ the alarm went off.",
    "answer": [
-    "when"
+    "when",
+    "before"
    ],
    "why": "hardly … when."
   }

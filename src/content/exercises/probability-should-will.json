@@ -111,7 +111,9 @@
    "type": "fill",
    "q": "The parcel ___ arrive tomorrow. (скоріш за все)",
    "answer": [
-    "should"
+    "should",
+    "will probably",
+    "ought to"
    ],
    "why": "should — висока ймовірність."
   },
@@ -120,7 +122,8 @@
    "type": "fill",
    "q": "He will ___ be late. (ймовірно)",
    "answer": [
-    "probably"
+    "probably",
+    "likely"
    ],
    "why": "will probably + V."
   },

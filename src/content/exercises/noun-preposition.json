@@ -3,7 +3,7 @@
   {
    "id": "noun-preposition-1",
    "type": "choice",
-   "q": "There's no reason ___ panic.",
+   "q": "There's no reason ___ the delay.",
    "options": [
     "of",
     "for",
@@ -44,12 +44,12 @@
    "type": "choice",
    "q": "The solution ___ the problem is simple.",
    "options": [
-    "of",
-    "for",
     "to",
-    "at"
+    "at",
+    "on",
+    "with"
    ],
-   "answer": 2,
+   "answer": 0,
    "why": "solution to — розв'язання (проблеми)."
   },
   {
@@ -127,7 +127,9 @@
    "type": "fill",
    "q": "I have no experience ___ marketing.",
    "answer": [
-    "in"
+    "in",
+    "of",
+    "with"
    ],
    "why": "experience in — досвід у сфері."
   },

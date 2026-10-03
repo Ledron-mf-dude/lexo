@@ -120,7 +120,9 @@
    "type": "fill",
    "q": "Would you like ___ milk in your tea?",
    "answer": [
-    "some"
+    "some",
+    "any",
+    "more"
    ],
    "why": "some — у пропозиціях."
   },
@@ -129,7 +131,8 @@
    "type": "fill",
    "q": "\"Would you like to join us?\" — \"I'd ___ to!\"",
    "answer": [
-    "love"
+    "love",
+    "like"
    ],
    "why": "I'd love to — із задоволенням."
   },

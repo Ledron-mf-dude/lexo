@@ -162,7 +162,10 @@
    "type": "fill",
    "q": "Is there ___ coffee left?",
    "answer": [
-    "any"
+    "any",
+    "some",
+    "much",
+    "enough"
    ],
    "why": "У питанні — any."
   },

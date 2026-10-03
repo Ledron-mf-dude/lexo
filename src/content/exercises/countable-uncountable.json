@@ -44,7 +44,8 @@
    "type": "fill",
    "q": "Can you give me a ___ of advice? (one word)",
    "answer": [
-    "piece"
+    "piece",
+    "bit"
    ],
    "why": "a piece of advice."
   },
@@ -168,7 +169,8 @@
    "type": "fill",
    "q": "I have two ___ of luggage.",
    "answer": [
-    "pieces"
+    "pieces",
+    "items"
    ],
    "why": "luggage — нелічильне: pieces of luggage."
   },

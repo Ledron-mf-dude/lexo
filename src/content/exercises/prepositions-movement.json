@@ -5,12 +5,12 @@
    "type": "choice",
    "q": "He walked ___ the room.",
    "options": [
-    "in",
     "into",
     "at",
-    "on"
+    "onto",
+    "off"
    ],
-   "answer": 1,
+   "answer": 0,
    "why": "into — всередину."
   },
   {
@@ -83,9 +83,9 @@
    "type": "choice",
    "q": "He walked ___ the bank without stopping.",
    "options": [
-    "to",
+    "off",
     "past",
-    "into",
+    "onto",
     "at"
    ],
    "answer": 1,
@@ -110,7 +110,8 @@
    "q": "The cat jumped ___ the table. (на поверхню)",
    "answer": [
     "onto",
-    "on to"
+    "on to",
+    "on"
    ],
    "why": "onto — рух на поверхню."
   },

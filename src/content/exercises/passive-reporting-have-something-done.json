@@ -135,7 +135,9 @@
     "thought",
     "believed",
     "said",
-    "expected"
+    "expected",
+    "reported",
+    "feared"
    ],
    "why": "It is thought / believed that…"
   },

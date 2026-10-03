@@ -158,7 +158,8 @@
    "answer": [
     "turning"
    ],
-   "why": "try + -ing — спробуй як експеримент."
+   "why": "try + -ing — спробуй як експеримент.",
+   "hint": "(як експеримент: спробуй і подивись)"
   },
   {
    "id": "gerund-or-infinitive-15",
@@ -251,7 +252,8 @@
     "in"
    ],
    "answer": [
-    "She stopped talking when I came in"
+    "She stopped talking when I came in",
+    "When I came in she stopped talking"
    ],
    "why": "stop + -ing — припинити.",
    "hint": "Вона замовкла, коли я зайшов."

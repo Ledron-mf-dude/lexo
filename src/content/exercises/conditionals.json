@@ -103,7 +103,8 @@
    "q": "We ___ (go) to the beach if the weather is nice tomorrow.",
    "answer": [
     "will go",
-    "'ll go"
+    "'ll go",
+    "are going to go"
    ],
    "why": "First conditional: will + V."
   },
@@ -120,7 +121,8 @@
     "travel"
    ],
    "answer": [
-    "If I were rich, I would travel"
+    "If I were rich, I would travel",
+    "I would travel if I were rich"
    ],
    "why": "Second conditional: if I were …, I would …"
   },
@@ -148,7 +150,9 @@
    "type": "fill",
    "q": "If they had left earlier, they ___ (catch) the train.",
    "answer": [
-    "would have caught"
+    "would have caught",
+    "could have caught",
+    "might have caught"
    ],
    "why": "Third conditional: would have + V3."
   },
@@ -157,7 +161,9 @@
    "type": "fill",
    "q": "If I had taken that job, I ___ (be) rich now.",
    "answer": [
-    "would be"
+    "would be",
+    "could be",
+    "might be"
    ],
    "why": "Mixed: минула умова → теперішній наслідок."
   },
@@ -241,7 +247,8 @@
    ],
    "answer": [
     "If it rains we will stay at home",
-    "If it rains, we will stay at home"
+    "If it rains, we will stay at home",
+    "We will stay at home if it rains"
    ],
    "why": "First conditional.",
    "hint": "Якщо піде дощ, ми залишимося вдома."
@@ -260,7 +267,8 @@
     "time"
    ],
    "answer": [
-    "I would help you if I had time"
+    "I would help you if I had time",
+    "If I had time I would help you"
    ],
    "why": "Second conditional.",
    "hint": "Я б допоміг, якби мав час."
@@ -279,7 +287,8 @@
     "come"
    ],
    "answer": [
-    "If I had known I would have come"
+    "If I had known I would have come",
+    "I would have come if I had known"
    ],
    "why": "Third conditional.",
    "hint": "Якби я знав, я б прийшов."
