@@ -47,3 +47,6 @@ export const autoNextPref = createPref('autoNext', ['on', 'off'] as const, 'off'
 
 /** Which tool panel is open under «Сьогодні» on the Grammar page. */
 export const grammarPanelPref = createPref('grammarPanel', ['none', 'route', 'pairs'] as const, 'none')
+
+/** Whether the session settings (word count, level, tags, exercises) are open on the Practice page. */
+export const practiceSettingsPref = createPref('practiceSettings', ['open', 'closed'] as const, 'closed')

@@ -86,6 +86,7 @@ npm run lint     # oxlint
 - `match`, `matchdef` and `cloze` use group cards: several words per card, with `commitFor` deciding when each word's result is recorded.
 - Scheduling is SM-2 ([src/lib/sm2.ts](src/lib/sm2.ts)). Within a complex, a word's grades are combined with `complexGrade`, and `progress` is updated once per word per session. Every answer also goes to `review_log` for stats and streaks.
 - [src/components/practice/Session.tsx](src/components/practice/Session.tsx) drives the flow.
+- The Practice page shows the source tiles and «Почати» first; word count, level, tags and exercises are folded under «Налаштування» (`practiceSettingsPref`) with a one-line summary. The daily-goal chips appear only after tapping the goal.
 
 **Tags and import:**
 - [src/lib/tagTaxonomy.ts](src/lib/tagTaxonomy.ts) defines the built-in tags in two groups: «Теми» (meaning) and «Мова» (kind of expression). Any other tag name counts as the user's own («Мої теги»). The UI groups tags with `groupTags`.
