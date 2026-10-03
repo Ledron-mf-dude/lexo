@@ -105,9 +105,9 @@ Continuous робить прохання чи намір обережнішим:
 
 ## Типові помилки
 
-- ✗ *He always is complaining about the weather.* → ✓ *He **is always complaining** about the weather.*
-- ✗ *I'm constantly lose my glasses.* → ✓ *I'm constantly **losing** my glasses.*
-- ✗ *She is being a doctor.* → ✓ *She **is** a doctor.*
-- ✗ *First you are taking two eggs, then you are beating them.* (інструкція) → ✓ *First you **take** two eggs, then you **beat** them.*
+- ✗ *He always is complaining about the weather.* → ✓ *He **is always complaining** about the weather.* / *He always complains about the weather.*
+- ✗ *I'm constantly lose my glasses.* → ✓ *I'm constantly **losing** my glasses.* / *I constantly lose my glasses.*
+- ✗ *This bag is belonging to my sister.* → ✓ *This bag **belongs** to my sister.*
+- ✗ *First you are taking two eggs, then you are beating them.* (інструкція) → ✓ *First you **take** two eggs, then you **beat** them.* / *First take two eggs, then beat them.*
 - ✗ *I'm wondering do you have a free table.* → ✓ *I'm wondering **if you have** a free table.* / *I'm wondering whether you have a free table.*
-- ✗ *I am promising I will be there.* (сама обіцянка) → ✓ *I **promise** I will be there.*
+- ✗ *I'm understanding you're unhappy with the service.* → ✓ *I **understand** you're unhappy with the service.*
