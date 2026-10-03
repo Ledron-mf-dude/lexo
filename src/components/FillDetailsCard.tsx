@@ -34,7 +34,7 @@ export default function FillDetailsCard({ words }: { words: WordWithTags[] }) {
     <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
       <div className="min-w-0 flex-1">
         <p className="font-medium">Доповнити пояснення й приклади</p>
-        <p className="text-sm text-white/45">
+        <p className="text-sm text-white/60">
           {withoutBoth > 0 ? `У ${count(withoutBoth, WORD_GEN)} немає ні пояснення, ні прикладу. ` : ''}Для {count(fills.length, WORD_GEN)} є пояснення простою англійською і приклад. Заповнюються тільки порожні поля. Після цього запрацюють вправи «Слово в реченні» і «Слово ↔ пояснення».
         </p>
         {fill.error && <p className="mt-1 text-sm text-bad">{(fill.error as Error).message}</p>}

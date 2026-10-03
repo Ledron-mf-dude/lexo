@@ -82,11 +82,11 @@ export default function GrammarHub({ log, progress, filterLabel, practiceQuery, 
     <div className="space-y-3">
       <div className="glass space-y-3 rounded-2xl p-4">
         <div className="min-w-0">
-          <p className="text-xs tracking-widest text-white/40 uppercase">Сьогодні</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Сьогодні</p>
           <p className="mt-1 font-medium">{action.title}</p>
-          <p className="text-sm text-white/45">{action.text}</p>
+          <p className="text-sm text-white/60">{action.text}</p>
           {due === 0 && next && (
-            <p className="mt-1 text-xs text-white/35">
+            <p className="mt-1 text-xs text-white/55">
               Повторення: {next.days === 1 ? 'завтра' : `через ${next.days} дн.`}
               {next.count > 0 && ` · ${count(next.count, QUESTION)}`}
             </p>
@@ -129,7 +129,7 @@ export default function GrammarHub({ log, progress, filterLabel, practiceQuery, 
         </button>
       </div>
 
-      {panel === 'route' && <LearningPath progress={progress} placement={placement} onReset={() => setPlacement(null)} />}
+      {panel === 'route' && <LearningPath progress={progress} placement={placement} onChange={setPlacement} />}
       {panel === 'pairs' && <ContrastPairs pairs={pairs} />}
     </div>
   )

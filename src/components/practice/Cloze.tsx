@@ -55,7 +55,7 @@ export default function Cloze({ card, onGrade }: Props) {
     <div className="space-y-4">
       <div className="glass grid min-h-56 place-items-center rounded-[2rem] p-6 text-center">
         <div className="space-y-3">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Вставте потрібне слово</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Вставте потрібне слово</p>
           <p className="text-2xl leading-snug font-light break-words">
             {blank?.before}
             {answered ? (
@@ -65,7 +65,7 @@ export default function Cloze({ card, onGrade }: Props) {
             )}
             {blank?.after}
           </p>
-          <p className="text-sm text-white/40">підказка: {word.translation}</p>
+          <p className="text-sm text-white/55">підказка: {word.translation}</p>
           {answered && <SpeakButton text={full} />}
         </div>
       </div>
@@ -77,7 +77,7 @@ export default function Cloze({ card, onGrade }: Props) {
             onClick={() => !answered && setPicked(option)}
             className={`glass flex items-center gap-3 rounded-2xl px-4 py-3 text-left transition-colors ${style(option)}`}
           >
-            <span className="hidden w-4 text-xs text-white/30 md:block">{i + 1}</span>
+            <span className="hidden w-4 text-xs text-white/50 md:block">{i + 1}</span>
             <span className="break-words">{option}</span>
           </button>
         ))}

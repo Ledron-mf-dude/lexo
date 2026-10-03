@@ -62,7 +62,7 @@ export default function DailyGoal() {
 
       <div className="min-w-0 flex-1 space-y-1.5">
         <p className="font-medium">{reached ? 'Ціль на сьогодні виконано' : 'Щоденна ціль'}</p>
-        <p className="flex flex-wrap gap-x-3 text-sm text-white/45">
+        <p className="flex flex-wrap gap-x-3 text-sm text-white/60">
           <button onClick={() => setEditing((e) => !e)} aria-expanded={editing} title="Змінити щоденну ціль" className="hover:text-white">
             {today} з <span className="underline decoration-white/25 decoration-dotted underline-offset-4">{goal}</span> {plural(goal, CARD)}
           </button>
@@ -84,7 +84,7 @@ export default function DailyGoal() {
                 key={n}
                 onClick={() => pick(n)}
                 aria-pressed={goal === n}
-                className={`rounded-full border px-2.5 py-0.5 text-xs transition-colors ${goal === n ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/45 hover:text-white'}`}
+                className={`rounded-full border px-2.5 py-0.5 text-xs transition-colors ${goal === n ? 'border-accent bg-accent/20 text-accent' : 'border-white/12 text-white/60 hover:text-white'}`}
               >
                 {n}
               </button>

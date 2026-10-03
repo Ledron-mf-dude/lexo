@@ -60,16 +60,16 @@ export default function Speak({ card, onGrade, onSkip }: Props) {
     <div className="space-y-4">
       <div className="glass grid min-h-56 place-items-center rounded-[2rem] p-8 text-center">
         <div className="space-y-3">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Скажіть англійською</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Скажіть англійською</p>
           <p className="text-3xl font-light tracking-tight break-words">{word.translation}</p>
-          {word.definition && <p className="text-sm text-white/40">{word.definition}</p>}
+          {word.definition && <p className="text-sm text-white/55">{word.definition}</p>}
         </div>
       </div>
 
       {result !== null ? (
         <>
-          {heard && result !== 'exact' && <p className="text-center text-sm text-white/45">Почули: «{heard}»</p>}
-          <Verdict result={result} expected={word.term} onGrade={onGrade} typoLabel="Майже — звучить трохи інакше" />
+          {heard && result !== 'exact' && <p className="text-center text-sm text-white/60">Почули: «{heard}»</p>}
+          <Verdict result={result} expected={word.term} word={word} onGrade={onGrade} typoLabel="Майже — звучить трохи інакше" />
         </>
       ) : (
         <div className="space-y-4">
@@ -100,7 +100,7 @@ export default function Speak({ card, onGrade, onSkip }: Props) {
               Пропустити
             </button>
           </div>
-          <button type="button" onClick={() => onSkip(true)} className="w-full text-center text-sm text-white/40 hover:text-white">
+          <button type="button" onClick={() => onSkip(true)} className="w-full text-center text-sm text-white/55 hover:text-white">
             Не можу говорити зараз — пропустити всі такі картки
           </button>
         </div>

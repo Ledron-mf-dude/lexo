@@ -52,19 +52,19 @@ export default function Flashcard({ card, state, onGrade }: Props) {
         className="glass grid min-h-72 w-full place-items-center rounded-[2rem] p-8 text-center"
       >
         <div className="space-y-4">
-          <p className="text-xs tracking-widest text-white/35 uppercase">{reverse ? 'Переклад → слово' : 'Слово → переклад'}</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">{reverse ? 'Переклад → слово' : 'Слово → переклад'}</p>
           <p className="text-4xl font-light tracking-tight break-words">{front}</p>
-          {!reverse && word.ipa && <p className="-mt-2 font-mono text-sm text-white/45">{word.ipa}</p>}
+          {!reverse && word.ipa && <p className="-mt-2 font-mono text-sm text-white/60">{word.ipa}</p>}
           {revealed ? (
             <div className="space-y-2 border-t border-white/10 pt-4">
               <p className="text-2xl text-accent break-words">{back}</p>
-              {reverse && word.ipa && <p className="font-mono text-sm text-white/45">{word.ipa}</p>}
+              {reverse && word.ipa && <p className="font-mono text-sm text-white/60">{word.ipa}</p>}
               {word.definition && <p className="text-sm text-white/50">{word.definition}</p>}
-              {word.example && <p className="text-sm text-white/40 italic">{word.example}</p>}
+              {word.example && <p className="text-sm text-white/55 italic">{word.example}</p>}
               {word.note && <p className="text-sm text-accent/80">💡 {word.note}</p>}
             </div>
           ) : (
-            <p className="text-sm text-white/30">Натисніть, щоб показати відповідь</p>
+            <p className="text-sm text-white/50">Натисніть, щоб показати відповідь</p>
           )}
         </div>
       </button>
@@ -74,8 +74,8 @@ export default function Flashcard({ card, state, onGrade }: Props) {
           {grades.map((g, i) => (
             <button key={g.grade} onClick={() => onGrade(g.grade)} className="glass rounded-2xl px-2 py-3 transition-colors hover:bg-white/15">
               <span className={`block text-sm ${g.style}`}>{g.label}</span>
-              <span className="block text-xs text-white/40">{intervalLabel(state, g.grade)}</span>
-              <span className="hidden text-[10px] text-white/25 md:block">{i + 1}</span>
+              <span className="block text-xs text-white/55">{intervalLabel(state, g.grade)}</span>
+              <span className="hidden text-[10px] text-white/50 md:block">{i + 1}</span>
             </button>
           ))}
         </div>

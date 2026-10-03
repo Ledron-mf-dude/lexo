@@ -49,7 +49,7 @@ export default function GrammarArticle() {
         <div className="flex flex-wrap items-center gap-2">
           <Link
             to={`/grammar?cat=${encodeURIComponent(article.category)}`}
-            className="text-xs tracking-widest text-white/40 uppercase hover:text-white"
+            className="text-xs tracking-widest text-white/55 uppercase hover:text-white"
           >
             {article.category}
           </Link>
@@ -86,7 +86,7 @@ export default function GrammarArticle() {
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-4 sm:p-5">
           <div>
             <p className="font-medium">Вправи до теми: {count(bank.length, QUESTION)}</p>
-            <p className="text-sm text-white/45">
+            <p className="text-sm text-white/60">
               {stats.attempted === 0
                 ? 'Ще не проходили'
                 : [
@@ -116,7 +116,7 @@ export default function GrammarArticle() {
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-4 sm:p-5">
           <div>
             <p className="font-medium">Слова за темою у вашому словнику: {topicWords.length}</p>
-            <p className="text-sm text-white/45">
+            <p className="text-sm text-white/60">
               {topicWords
                 .slice(0, 6)
                 .map((w) => w.term)
@@ -135,7 +135,7 @@ export default function GrammarArticle() {
 
       {related.length > 0 && (
         <div className="space-y-2">
-          <h2 className="text-sm tracking-widest text-white/40 uppercase">Пов'язані статті</h2>
+          <h2 className="text-sm tracking-widest text-white/55 uppercase">Пов'язані статті</h2>
           <div className="flex flex-wrap gap-2">
             {related.map((r) => (
               <Link key={r.slug} to={`/grammar/${r.slug}`} className="glass rounded-full px-3 py-1.5 text-sm text-white/70 transition-colors hover:bg-white/10 hover:text-white">

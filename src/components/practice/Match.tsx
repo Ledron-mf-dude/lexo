@@ -89,8 +89,8 @@ export default function Match({ card, onDone }: Props) {
   return (
     <div className="space-y-4">
       <div className="text-center">
-        <p className="text-xs tracking-widest text-white/35 uppercase">Знайдіть пари</p>
-        <p className="mt-1 text-sm text-white/45">Торкніться слова, а потім {byDefinition ? 'його пояснення' : 'його перекладу'}</p>
+        <p className="text-xs tracking-widest text-white/55 uppercase">Знайдіть пари</p>
+        <p className="mt-1 text-sm text-white/60">Торкніться слова, а потім {byDefinition ? 'його пояснення' : 'його перекладу'}</p>
       </div>
       <div className="grid grid-cols-2 gap-3">
         <div className="grid content-start gap-2">

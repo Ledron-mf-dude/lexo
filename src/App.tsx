@@ -26,7 +26,7 @@ const Writing = lazyPage(() => import('./pages/Writing'))
 const queryClient = new QueryClient()
 
 // Shown while a lazily loaded section (grammar, statistics) downloads.
-const loading = <p className="animate-pulse text-white/40">Завантаження…</p>
+const loading = <p className="animate-pulse text-white/55">Завантаження…</p>
 
 function Gate() {
   const { session, loading, mustSetPassword } = useAuth()

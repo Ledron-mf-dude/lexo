@@ -26,7 +26,7 @@ export default function SelectMenu<T extends string>({ label, value, options, on
       width={width}
       label={() => (
         <>
-          <span className="text-white/45">{label}:</span>
+          <span className="text-white/60">{label}:</span>
           <span className="max-w-[12rem] truncate">{current.label}</span>
         </>
       )}
@@ -45,7 +45,7 @@ export default function SelectMenu<T extends string>({ label, value, options, on
               className={`flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm transition-colors ${o.value === value ? 'bg-accent/15 text-accent' : 'text-white/75 hover:bg-white/8'}`}
             >
               <span className="min-w-0">{o.label}</span>
-              {o.count !== undefined && <span className="shrink-0 text-xs text-white/35 tabular-nums">{o.count}</span>}
+              {o.count !== undefined && <span className="shrink-0 text-xs text-white/55 tabular-nums">{o.count}</span>}
             </button>
           ))}
           {footer}

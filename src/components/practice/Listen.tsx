@@ -29,7 +29,7 @@ export default function Listen({ card, onGrade }: Props) {
     <div className="space-y-4">
       <div className="glass grid min-h-56 place-items-center rounded-[2rem] p-8 text-center">
         <div className="space-y-4">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Послухайте й введіть слово</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Послухайте й введіть слово</p>
           <div className="flex justify-center gap-3">
             <button type="button" onClick={() => speak(word.term)} aria-label="Прослухати ще раз" className="grid size-20 place-items-center rounded-full bg-accent/20 text-accent transition-colors hover:bg-accent/30">
               <svg viewBox="0 0 24 24" className="size-9" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -41,7 +41,7 @@ export default function Listen({ card, onGrade }: Props) {
               Повільно
             </button>
           </div>
-          <p className="text-xs text-white/30">
+          <p className="text-xs text-white/50">
             {word.term.length} символів · переклад: {word.translation}
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function Listen({ card, onGrade }: Props) {
           </div>
         </form>
       ) : (
-        <Verdict result={result} expected={word.term} onGrade={onGrade} />
+        <Verdict result={result} expected={word.term} word={word} onGrade={onGrade} />
       )}
     </div>
   )

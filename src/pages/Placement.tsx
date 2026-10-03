@@ -66,7 +66,7 @@ export default function Placement() {
     return (
       <section className="space-y-5">
         <div className="glass space-y-3 rounded-[2rem] p-8 text-center">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Ваш рівень граматики</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Ваш рівень граматики</p>
           <p className="text-5xl font-light">{result.passed ?? 'A1'}{allPassed ? '+' : ''}</p>
           <p className="text-white/55">
             {result.passed === null
@@ -85,7 +85,7 @@ export default function Placement() {
                 <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10">
                   <div className={`h-full ${s >= PASS_MARK ? 'bg-good' : 'bg-bad/70'}`} style={{ width: `${(s / BLOCK_SIZE) * 100}%` }} />
                 </div>
-                <span className="w-10 text-right text-white/45 tabular-nums">
+                <span className="w-10 text-right text-white/60 tabular-nums">
                   {s} / {BLOCK_SIZE}
                 </span>
               </div>
@@ -94,7 +94,7 @@ export default function Placement() {
         </div>
         {result.weak.length > 0 && (
           <div className="space-y-2">
-            <h2 className="text-sm tracking-widest text-white/40 uppercase">Теми з помилками</h2>
+            <h2 className="text-sm tracking-widest text-white/55 uppercase">Теми з помилками</h2>
             <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl text-sm">
               {result.weak.map((slug) => (
                 <li key={slug}>

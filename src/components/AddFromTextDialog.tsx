@@ -220,7 +220,7 @@ export default function AddFromTextDialog({ userId, words, onClose }: Props) {
           </div>
         ) : (
           <div className="space-y-4">
-            <div className="flex flex-wrap items-baseline justify-between gap-2 text-sm text-white/45">
+            <div className="flex flex-wrap items-baseline justify-between gap-2 text-sm text-white/60">
               <span>
                 Нових слів: {stats.fresh} · у словнику: <span className="text-good/80">{stats.known}</span>
               </span>
@@ -252,14 +252,14 @@ export default function AddFromTextDialog({ userId, words, onClose }: Props) {
                     key={i}
                     type="button"
                     onClick={() => toggle(i)}
-                    className={`rounded-md px-0.5 transition-colors ${selected ? 'bg-accent/25 text-accent' : stop ? 'text-white/35 hover:bg-white/10' : 'hover:bg-white/10'}`}
+                    className={`rounded-md px-0.5 transition-colors ${selected ? 'bg-accent/25 text-accent' : stop ? 'text-white/55 hover:bg-white/10' : 'hover:bg-white/10'}`}
                   >
                     {t.text}
                   </button>
                 )
               })}
             </p>
-            <p className="text-xs text-white/35">
+            <p className="text-xs text-white/55">
               Торкніться нового слова, щоб додати; ще раз — щоб прибрати. Фразу зберете кнопками ‹+ і +› біля слова. Зелені слова вже є у словнику.
             </p>
 
@@ -280,19 +280,19 @@ export default function AddFromTextDialog({ userId, words, onClose }: Props) {
                       <button type="button" onClick={() => extend(it, 1)} title="Додати слово праворуч" className="rounded-lg px-2 py-1 text-sm text-white/50 hover:bg-white/10 hover:text-white">
                         +›
                       </button>
-                      <button type="button" onClick={() => setItems((list) => list.filter((x) => x !== it))} aria-label="Прибрати" className="rounded-lg px-2 py-1 text-white/40 hover:bg-bad/10 hover:text-bad">
+                      <button type="button" onClick={() => setItems((list) => list.filter((x) => x !== it))} aria-label="Прибрати" className="rounded-lg px-2 py-1 text-white/55 hover:bg-bad/10 hover:text-bad">
                         ✕
                       </button>
                     </div>
                     {(it.ipa || it.audio) && (
-                      <p className="flex items-center gap-2 text-sm text-white/45">
+                      <p className="flex items-center gap-2 text-sm text-white/60">
                         {it.ipa && <span className="font-mono">{it.ipa}</span>}
                         <button type="button" onClick={() => (it.audio ? playRecording(it.audio, it.term) : speak(it.term))} className="text-accent hover:underline">
                           ▶
                         </button>
                       </p>
                     )}
-                    {mine.has(clean(it.term)) && <p className="text-xs text-white/40">Уже є у словнику — буде пропущено.</p>}
+                    {mine.has(clean(it.term)) && <p className="text-xs text-white/55">Уже є у словнику — буде пропущено.</p>}
                     <input
                       value={it.translation}
                       onChange={(e) => update(it.id, { translation: e.target.value })}
@@ -308,7 +308,7 @@ export default function AddFromTextDialog({ userId, words, onClose }: Props) {
                         ))}
                       </div>
                     )}
-                    {it.example && <p className="text-sm text-white/45 italic">{it.example}</p>}
+                    {it.example && <p className="text-sm text-white/60 italic">{it.example}</p>}
                   </li>
                 ))}
               </ul>
@@ -316,7 +316,7 @@ export default function AddFromTextDialog({ userId, words, onClose }: Props) {
 
             {importWords.error && <p className="text-sm text-bad">{(importWords.error as Error).message}</p>}
             <div className="flex flex-wrap items-center justify-end gap-2">
-              <p className="mr-auto text-xs text-white/30">Переклад-чернетка — MyMemory, вимова — Wiktionary. Надсилаються лише вибрані слова, не весь текст.</p>
+              <p className="mr-auto text-xs text-white/50">Переклад-чернетка — MyMemory, вимова — Wiktionary. Надсилаються лише вибрані слова, не весь текст.</p>
               <button onClick={onClose} className="btn-ghost" disabled={importWords.isPending}>
                 Скасувати
               </button>

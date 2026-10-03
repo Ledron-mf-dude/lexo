@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { buildRoute, resetPlacement, type Placement, type TopicProgress, type TopicStatus } from '../lib/learningPath'
+import { buildRoute, PLACEMENT_LEVELS, resetPlacement, savePlacement, type Placement, type TopicProgress, type TopicStatus } from '../lib/learningPath'
 
 const DOT: Record<TopicStatus, string> = {
   new: 'border border-white/30',
@@ -10,27 +10,44 @@ const DOT: Record<TopicStatus, string> = {
 
 const PREVIEW = 4
 
-/** «Ваш маршрут» on the Grammar page: an invitation to the placement test, or the topics of the level to study. */
-export default function LearningPath({ progress, placement, onReset }: { progress: Map<string, TopicProgress>; placement: Placement | null; onReset: () => void }) {
+/**
+ * «Ваш маршрут» on the Grammar page: the topics of the level to study, or, before the placement test, a manual level choice.
+ * The test itself is offered by the «Сьогодні» card above, so it is not repeated here.
+ */
+export default function LearningPath({ progress, placement, onChange }: { progress: Map<string, TopicProgress>; placement: Placement | null; onChange: (p: Placement | null) => void }) {
   const [expanded, setExpanded] = useState(false)
   const route = useMemo(() => (placement ? buildRoute(placement, progress) : null), [placement, progress])
 
   function reset() {
-    if (!window.confirm('Скинути маршрут і результат тесту рівня? Доведеться пройти тест заново.')) return
+    if (!window.confirm('Скинути маршрут і результат тесту рівня? Рівень можна буде обрати знову або пройти тест.')) return
     resetPlacement()
-    onReset()
+    onChange(null)
+  }
+
+  // A level picked by hand is stored like a test result that passed the level below it, with no scores.
+  function chooseLevel(i: number) {
+    const p: Placement = { passed: i === 0 ? null : PLACEMENT_LEVELS[i - 1], scores: {}, weak: [], date: new Date().toISOString() }
+    savePlacement(p)
+    onChange(p)
   }
 
   if (!placement || !route) {
     return (
-      <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
-        <div className="min-w-0 flex-1">
+      <div className="glass space-y-3 rounded-2xl p-4">
+        <div>
           <p className="font-medium">Ваш маршрут</p>
-          <p className="text-sm text-white/45">Короткий тест на 10–15 хвилин визначить рівень, а маршрут покаже теми по порядку, першими — ті, де були помилки.</p>
+          <p className="text-sm text-white/60">
+            Найточніше маршрут складе <Link to="/grammar/placement" className="text-accent hover:underline">тест рівня</Link>. Якщо рівень ви знаєте, оберіть його самі: маршрут
+            почнеться з тем цього рівня.
+          </p>
         </div>
-        <Link to="/grammar/placement" className="btn-primary w-full text-center sm:w-auto">
-          Пройти тест
-        </Link>
+        <div className="chip-row" role="group" aria-label="Рівень маршруту">
+          {PLACEMENT_LEVELS.map((l, i) => (
+            <button key={l} onClick={() => chooseLevel(i)} className="chip">
+              {l}
+            </button>
+          ))}
+        </div>
       </div>
     )
   }
@@ -41,11 +58,11 @@ export default function LearningPath({ progress, placement, onReset }: { progres
     <div className="glass space-y-3 rounded-2xl p-4">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <p className="font-medium">
-          Ваш маршрут <span className="text-white/45">· {route.level}</span>
+          Ваш маршрут <span className="text-white/60">· {route.level}</span>
         </p>
-        <div className="flex items-center gap-2 text-xs text-white/40">
+        <div className="flex items-center gap-2 text-xs text-white/55">
           <Link to="/grammar/placement" className="hover:text-white">
-            тест: {placement.passed ?? 'A1'} · пройти ще раз
+            {Object.keys(placement.scores).length > 0 ? `тест: ${placement.passed ?? 'A1'} · пройти ще раз` : 'рівень обрано вручну · пройти тест'}
           </Link>
           <span aria-hidden="true">·</span>
           <button onClick={reset} className="hover:text-white">
@@ -58,7 +75,7 @@ export default function LearningPath({ progress, placement, onReset }: { progres
         <div className="h-1.5 overflow-hidden rounded-full bg-white/10">
           <div className="h-full bg-good transition-all" style={{ width: `${(route.done.length / Math.max(1, route.total)) * 100}%` }} />
         </div>
-        <p className="text-xs text-white/40">
+        <p className="text-xs text-white/55">
           Засвоєно тем: {route.done.length} / {route.total}. Тема засвоєна, коли останні відповіді правильні щонайменше на 80% її запитань.
         </p>
       </div>
@@ -66,7 +83,7 @@ export default function LearningPath({ progress, placement, onReset }: { progres
       {first ? (
         <div className="flex flex-wrap items-center gap-3 rounded-xl bg-white/5 p-3">
           <div className="min-w-0 flex-1">
-            <p className="text-xs text-white/40">Наступна тема{first.weak ? ' · була помилка в тесті' : ''}</p>
+            <p className="text-xs text-white/55">Наступна тема{first.weak ? ' · була помилка в тесті' : ''}</p>
             <p className="truncate">{first.article.title}</p>
           </div>
           <div className="flex w-full gap-2 *:flex-1 sm:w-auto sm:*:flex-none">

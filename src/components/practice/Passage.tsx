@@ -82,7 +82,7 @@ export default function Passage({ card, onDone }: Props) {
           : 'border-white/25 border-dashed'
     return (
       <button type="button" onClick={() => takeBack(i)} className={`mx-0.5 inline-block min-w-16 rounded-lg border px-2 py-0.5 align-baseline transition-colors ${style}`}>
-        {id ? textOf(id) : <span className="text-white/30">{i + 1}</span>}
+        {id ? textOf(id) : <span className="text-white/50">{i + 1}</span>}
       </button>
     )
   }
@@ -90,18 +90,18 @@ export default function Passage({ card, onDone }: Props) {
   return (
     <div className="space-y-4">
       <div className="glass space-y-3 rounded-[2rem] p-5 sm:p-7">
-        <p className="text-xs tracking-widest text-white/35 uppercase">Вставте слова в текст</p>
+        <p className="text-xs tracking-widest text-white/55 uppercase">Вставте слова в текст</p>
         <ol className="space-y-3 text-lg leading-9">
           {items.map((it, i) => (
             <li key={it.word.id} className="flex gap-2">
-              <span className="w-5 shrink-0 text-sm leading-9 text-white/30">{i + 1}.</span>
+              <span className="w-5 shrink-0 text-sm leading-9 text-white/50">{i + 1}.</span>
               <span>
                 {it.blank.before}
                 {gap(i)}
                 {it.blank.after}
                 {checked && !isRight(i) && (
                   <span className="ml-2 text-sm text-good">
-                    ✓ {it.blank.found} <span className="text-white/40">— {it.word.translation}</span>
+                    ✓ {it.blank.found} <span className="text-white/55">— {it.word.translation}</span>
                   </span>
                 )}
               </span>

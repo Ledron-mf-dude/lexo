@@ -58,12 +58,12 @@ export default function Choice({ card, onGrade }: Props) {
     <div className="space-y-4">
       <div className="glass grid min-h-56 place-items-center rounded-[2rem] p-8 text-center">
         <div className="space-y-3">
-          <p className="text-xs tracking-widest text-white/35 uppercase">Оберіть переклад</p>
+          <p className="text-xs tracking-widest text-white/55 uppercase">Оберіть переклад</p>
           <p className="flex items-center justify-center gap-2 text-4xl font-light tracking-tight break-words">
             {card.word.term}
             <SpeakButton text={card.word.term} />
           </p>
-          {answered && card.word.example && <p className="text-sm text-white/40 italic">{card.word.example}</p>}
+          {answered && card.word.example && <p className="text-sm text-white/55 italic">{card.word.example}</p>}
         </div>
       </div>
 
@@ -74,7 +74,7 @@ export default function Choice({ card, onGrade }: Props) {
             onClick={() => pick(option)}
             className={`glass flex items-center gap-3 rounded-2xl px-4 py-3 text-left transition-colors ${style(option)}`}
           >
-            <span className="hidden w-4 text-xs text-white/30 md:block">{i + 1}</span>
+            <span className="hidden w-4 text-xs text-white/50 md:block">{i + 1}</span>
             <span className="break-words">{option}</span>
           </button>
         ))}
