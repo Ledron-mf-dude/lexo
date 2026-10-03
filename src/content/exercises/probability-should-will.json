@@ -11,7 +11,7 @@
     "can't"
    ],
    "answer": 0,
-   "why": "should — «скоріш за все» (≈ 80–90%)."
+   "why": "*should* — «скоріш за все» (висока ймовірність): *Tom should know the address.*"
   },
   {
    "id": "probability-should-will-2",
@@ -24,7 +24,7 @@
     "mustn't"
    ],
    "answer": 1,
-   "why": "should + інфінітив без to — висока ймовірність."
+   "why": "Близько 90% — *should arrive*."
   },
   {
    "id": "probability-should-will-3",
@@ -37,7 +37,7 @@
     "surely"
    ],
    "answer": 1,
-   "why": "will probably — ймовірно, але не напевно."
+   "why": "*will probably* — ймовірно, але не напевно."
   },
   {
    "id": "probability-should-will-5",
@@ -50,7 +50,7 @@
     "would"
    ],
    "answer": 0,
-   "why": "should + have + V3."
+   "why": "Мало б уже статися — *should have arrived*."
   },
   {
    "id": "probability-should-will-6",
@@ -63,7 +63,7 @@
     "spoke"
    ],
    "answer": 1,
-   "why": "should + be + V-ing."
+   "why": "Процес зараз — *should be speaking*."
   },
   {
    "id": "probability-should-will-7",
@@ -76,7 +76,7 @@
     "ability"
    ],
    "answer": 1,
-   "why": "Залежно від контексту — докір."
+   "why": "*should have* + третя форма часто означає докір: мав би, але не подзвонив."
   },
   {
    "id": "probability-should-will-8",
@@ -91,7 +91,7 @@
    "answer": [
     "Tom should know the address"
    ],
-   "why": "should + інфінітив."
+   "why": "*should know*."
   },
   {
    "id": "probability-should-will-9",
@@ -104,7 +104,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "will definitely — найвища впевненість."
+   "why": "Абсолютна впевненість — *will definitely*."
   },
   {
    "id": "probability-should-will-10",
@@ -115,7 +115,7 @@
     "will probably",
     "ought to"
    ],
-   "why": "should — висока ймовірність."
+   "why": "Скоріш за все — *should* (або *will probably*, *ought to*)."
   },
   {
    "id": "probability-should-will-11",
@@ -125,7 +125,7 @@
     "probably",
     "likely"
    ],
-   "why": "will probably + V."
+   "why": "*will probably* (американці кажуть і *will likely*)."
   },
   {
    "id": "probability-should-will-12",
@@ -134,7 +134,7 @@
    "answer": [
     "have finished"
    ],
-   "why": "should + have + V3 — мало б уже статися."
+   "why": "*should have finished*."
   },
   {
    "id": "probability-should-will-13",
@@ -144,7 +144,7 @@
     "won't",
     "will not"
    ],
-   "why": "probably won't — ймовірно, ні."
+   "why": "*probably won't*."
   },
   {
    "id": "probability-should-will-14",
@@ -157,7 +157,7 @@
     "shall to"
    ],
    "answer": 0,
-   "why": "should — очікування."
+   "why": "Очікування — *should be over*."
   },
   {
    "id": "probability-should-will-15",
@@ -170,7 +170,7 @@
     "would"
    ],
    "answer": 0,
-   "why": "will + definitely + V."
+   "why": "*will definitely*."
   },
   {
    "id": "probability-should-will-16",
@@ -183,7 +183,7 @@
     "She might win."
    ],
    "answer": 0,
-   "why": "will definitely — найвища впевненість."
+   "why": "Найвища впевненість — *will definitely*."
   },
   {
    "id": "probability-should-will-17",
@@ -198,7 +198,7 @@
    "answer": [
     "The train should arrive soon"
    ],
-   "why": "should + V.",
+   "why": "*should arrive soon*.",
    "hint": "Потяг має скоро прибути."
   },
   {
@@ -214,7 +214,7 @@
    "answer": [
     "She will probably call tonight"
    ],
-   "why": "will + probably + V.",
+   "why": "*will probably call*.",
    "hint": "Вона, ймовірно, зателефонує ввечері."
   },
   {
@@ -229,7 +229,7 @@
    "answer": [
     "He probably won't come"
    ],
-   "why": "probably + won't.",
+   "why": "*probably won't*.",
    "hint": "Він, мабуть, не прийде."
   },
   {
@@ -243,7 +243,7 @@
     "shall"
    ],
    "answer": 0,
-   "why": "Скоріш за все — should."
+   "why": "*should finish by five*."
   },
   {
    "id": "probability-should-will-21",
@@ -256,7 +256,7 @@
     "don't"
    ],
    "answer": 0,
-   "why": "Навряд чи — shouldn't."
+   "why": "Навряд чи — *shouldn't be any problems*."
   },
   {
    "id": "probability-should-will-22",
@@ -265,7 +265,7 @@
    "answer": [
     "to"
    ],
-   "why": "ought to + V."
+   "why": "*ought to* + дієслово."
   }
  ]
 }

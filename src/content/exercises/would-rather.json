@@ -184,7 +184,7 @@
    "q": "I'd rather you ___ me the truth.",
    "options": [
     "told",
-    "tell",
+    "telling",
     "to tell",
     "will tell"
    ],
@@ -258,7 +258,7 @@
    "type": "choice",
    "q": "\"Do you mind if I open the window?\" — \"I'd rather you ___.\"",
    "options": [
-    "don't",
+    "doesn't",
     "didn't",
     "won't",
     "not"

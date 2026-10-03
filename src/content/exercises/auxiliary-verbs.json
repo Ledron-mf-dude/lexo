@@ -11,7 +11,7 @@
     "Has"
    ],
    "answer": 1,
-   "why": "Present Simple, she → Does."
+   "why": "Питання в Present Simple з *she* — допоміжне *Does*: *Does she like tea?* *Is* — лише з *-ing* чи прикметником."
   },
   {
    "id": "auxiliary-verbs-2",
@@ -24,7 +24,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Емфаза: do + інфінітив — «справді подобається»."
+   "why": "Наголошене *do* перед дієсловом підсилює ствердження: *I do like this film!* — «мені справді подобається»."
   },
   {
    "id": "auxiliary-verbs-3",
@@ -37,7 +37,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "do замінює повтор дієслова works."
+   "why": "Щоб не повторювати *work*, ставимо допоміжне *do*: *He works harder than I do.*"
   },
   {
    "id": "auxiliary-verbs-4",
@@ -50,7 +50,7 @@
     "Did"
    ],
    "answer": 2,
-   "why": "have — допоміжне Present Perfect."
+   "why": "Present Perfect: *have* + третя форма (*seen*): *Have you seen my keys?*"
   },
   {
    "id": "auxiliary-verbs-5",
@@ -63,20 +63,20 @@
     "does"
    ],
    "answer": 1,
-   "why": "be — допоміжне пасиву."
+   "why": "Пасив: *be* + третя форма: *The house was built.*"
   },
   {
    "id": "auxiliary-verbs-6",
    "type": "choice",
    "q": "I ___ have a car. (main verb, negative)",
    "options": [
-    "haven't",
+    "hasn't",
     "don't",
     "am not",
     "doesn't"
    ],
    "answer": 1,
-   "why": "З have як основним дієсловом заперечення — don’t have."
+   "why": "*have* як основне дієслово заперечуємо через *do*: *I don't have a car.*"
   },
   {
    "id": "auxiliary-verbs-7",
@@ -89,7 +89,7 @@
     "did"
    ],
    "answer": 1,
-   "why": "Коротка відповідь повторює допоміжне: Yes, I do."
+   "why": "Коротка відповідь повторює допоміжне з питання: *Do you…?* → *Yes, I do.*"
   },
   {
    "id": "auxiliary-verbs-8",
@@ -102,7 +102,7 @@
     "Did you goes?"
    ],
    "answer": 1,
-   "why": "Після did — початкова форма."
+   "why": "Після *did* — початкова форма: *Did you go?*"
   },
   {
    "id": "auxiliary-verbs-9",
@@ -112,7 +112,7 @@
     "didn't work",
     "did not work"
    ],
-   "why": "Past Simple: didn’t + V."
+   "why": "Past Simple, заперечення: *didn't work*."
   },
   {
    "id": "auxiliary-verbs-10",
@@ -122,7 +122,7 @@
     "Do",
     "Did"
    ],
-   "why": "Present Simple, they → Do."
+   "why": "Present Simple з *they* — *Do they live…?* (*Did* — про минуле)."
   },
   {
    "id": "auxiliary-verbs-11",
@@ -132,7 +132,7 @@
     "is",
     "isn't"
    ],
-   "why": "Continuous — be + -ing."
+   "why": "Continuous: *be* + *-ing*: *She is working.*"
   },
   {
    "id": "auxiliary-verbs-12",
@@ -142,7 +142,7 @@
     "have",
     "had"
    ],
-   "why": "Perfect — have + V3."
+   "why": "Perfect: *have* + третя форма: *We have already eaten.*"
   },
   {
    "id": "auxiliary-verbs-13",
@@ -152,7 +152,7 @@
     "were",
     "weren't"
    ],
-   "why": "Пасив минулого: were + V3."
+   "why": "Пасив минулого з множиною — *were sent*."
   },
   {
    "id": "auxiliary-verbs-14",
@@ -162,7 +162,7 @@
     "didn't",
     "did not"
    ],
-   "why": "Past Simple: didn't + V.",
+   "why": "Past Simple, заперечення — *didn't go*.",
    "hint": "Заперечення в Past Simple"
   },
   {
@@ -176,7 +176,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Коротка відповідь повторює допоміжне: am."
+   "why": "Коротка відповідь на питання з *Are you* — *Yes, I am.*"
   },
   {
    "id": "auxiliary-verbs-16",
@@ -189,7 +189,7 @@
     "haven't"
    ],
    "answer": 0,
-   "why": "Present Simple, I → don't."
+   "why": "Present Simple з *I* — *don't like*."
   },
   {
    "id": "auxiliary-verbs-17",
@@ -202,7 +202,7 @@
     "speaks it does"
    ],
    "answer": 0,
-   "why": "does замінює повтор дієслова speaks."
+   "why": "*does* замінює *speaks*: *than he does*."
   },
   {
    "id": "auxiliary-verbs-18",
@@ -215,7 +215,7 @@
     "Does"
    ],
    "answer": 0,
-   "why": "Present Perfect — has."
+   "why": "Present Perfect з *he* — *Has he been…?*"
   },
   {
    "id": "auxiliary-verbs-19",
@@ -230,7 +230,7 @@
    "answer": [
     "Does your sister work here"
    ],
-   "why": "Does + підмет + V.",
+   "why": "*Does* + підмет + дієслово.",
    "hint": "Твоя сестра тут працює?"
   },
   {
@@ -246,7 +246,7 @@
    "answer": [
     "They didn't see the film"
    ],
-   "why": "didn't + V (без -ed).",
+   "why": "*didn't* + початкова форма.",
    "hint": "Вони не бачили фільм."
   },
   {
@@ -263,7 +263,7 @@
    "answer": [
     "Have you ever been to London"
    ],
-   "why": "Have + підмет + been.",
+   "why": "*Have you ever been…?*",
    "hint": "Ти колись був у Лондоні?"
   },
   {
@@ -277,7 +277,7 @@
     "seen"
    ],
    "answer": 1,
-   "why": "Коротка відповідь — допоміжне з питання."
+   "why": "Відповідь повторює допоміжне з питання: *Have you…?* → *Yes, I have.*"
   },
   {
    "id": "auxiliary-verbs-23",
@@ -290,7 +290,7 @@
     "was"
    ],
    "answer": 1,
-   "why": "Наголос на минулому — did + V."
+   "why": "Наголошене *did* — «я ж казав!»: *I did tell you!*"
   },
   {
    "id": "auxiliary-verbs-24",
@@ -299,7 +299,7 @@
    "answer": [
     "can"
    ],
-   "why": "neither + допоміжне з речення."
+   "why": "*neither* + те саме допоміжне (*can*) + підмет: *neither can I*."
   }
  ]
 }

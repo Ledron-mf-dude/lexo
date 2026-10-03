@@ -11,7 +11,7 @@
     "the station does"
    ],
    "answer": 1,
-   "why": "У непрямому питанні прямий порядок слів."
+   "why": "У непрямому питанні (після *Could you tell me…*) порядок слів як у ствердженні: підмет + дієслово: *where the station is*. *where is the station* — порядок прямого питання."
   },
   {
    "id": "indirect-questions-2",
@@ -24,7 +24,7 @@
     "starts it"
    ],
    "answer": 1,
-   "why": "Без do/does у вбудованій частині."
+   "why": "У вбудованій частині немає *do / does*: *what time it starts*."
   },
   {
    "id": "indirect-questions-3",
@@ -37,7 +37,7 @@
     "which"
    ],
    "answer": 1,
-   "why": "Питання «так/ні» → if."
+   "why": "Питання «так / ні» вбудовуємо через *if* (або *whether*): *I wonder if she is at home.*"
   },
   {
    "id": "indirect-questions-4",
@@ -50,7 +50,7 @@
     "left he"
    ],
    "answer": 0,
-   "why": "Прямий порядок слів."
+   "why": "Прямий порядок і без *did*: *why he left*."
   },
   {
    "id": "indirect-questions-5",
@@ -63,7 +63,7 @@
     "Can you tell me how it costs much?"
    ],
    "answer": 1,
-   "why": "Без допоміжного do."
+   "why": "Без допоміжного *does*: *how much it costs*."
   },
   {
    "id": "indirect-questions-6",
@@ -76,7 +76,7 @@
     "called she"
    ],
    "answer": 0,
-   "why": "whether + прямий порядок слів."
+   "why": "*whether* + підмет + дієслово: *whether she called*."
   },
   {
    "id": "indirect-questions-7",
@@ -89,7 +89,7 @@
     ","
    ],
    "answer": 1,
-   "why": "Головне речення — розповідне: крапка."
+   "why": "*I wonder…* — розповідне речення, тому в кінці крапка."
   },
   {
    "id": "indirect-questions-8",
@@ -102,7 +102,7 @@
     ";"
    ],
    "answer": 1,
-   "why": "Головне речення — питання."
+   "why": "*Could you tell me…?* — саме прохання є питанням, тому знак питання."
   },
   {
    "id": "indirect-questions-9",
@@ -111,7 +111,7 @@
    "answer": [
     "the"
    ],
-   "why": "Прямий порядок: where the bank is.",
+   "why": "*where the bank is* — конкретний банк, тому *the*, і прямий порядок слів.",
    "hint": "(артикль)"
   },
   {
@@ -122,7 +122,7 @@
     "if",
     "whether"
    ],
-   "why": "Питання так/ні → if / whether."
+   "why": "Питання «так / ні» → *if / whether*."
   },
   {
    "id": "indirect-questions-11",
@@ -131,7 +131,7 @@
    "answer": [
     "this word"
    ],
-   "why": "Прямий порядок: what this word means.",
+   "why": "Прямий порядок: *what this word means* (без *does*).",
    "hint": "Вставте підмет"
   },
   {
@@ -141,7 +141,7 @@
    "answer": [
     "it costs"
    ],
-   "why": "Без does: how much it costs."
+   "why": "*how much it costs* — без *does*, з *-s* у дієслові."
   },
   {
    "id": "indirect-questions-13",
@@ -154,7 +154,7 @@
     "she does live"
    ],
    "answer": 0,
-   "why": "Без допоміжного, прямий порядок."
+   "why": "*where she lives* — прямий порядок."
   },
   {
    "id": "indirect-questions-14",
@@ -167,7 +167,7 @@
     "the train does leave"
    ],
    "answer": 0,
-   "why": "Прямий порядок слів."
+   "why": "*what time the train leaves*."
   },
   {
    "id": "indirect-questions-15",
@@ -180,7 +180,7 @@
     "whether will he come"
    ],
    "answer": 0,
-   "why": "whether or not — частіше з whether."
+   "why": "*whether … or not* — *whether he'll come or not*."
   },
   {
    "id": "indirect-questions-16",
@@ -193,7 +193,7 @@
     "called who"
    ],
    "answer": 0,
-   "why": "Питання до підмета — прямий порядок уже є."
+   "why": "*who called* — питання до підмета, порядок уже прямий."
   },
   {
    "id": "indirect-questions-17",
@@ -210,7 +210,7 @@
    "answer": [
     "Do you know where the station is"
    ],
-   "why": "Прямий порядок: the station is.",
+   "why": "*where the station is*.",
    "hint": "Ви не знаєте, де вокзал?"
   },
   {
@@ -229,7 +229,7 @@
    "answer": [
     "Can you tell me what time it is"
    ],
-   "why": "what time it is.",
+   "why": "*what time it is*.",
    "hint": "Можете сказати, котра година?"
   },
   {
@@ -245,7 +245,7 @@
    "answer": [
     "I wonder why she left"
    ],
-   "why": "why + she left (без did).",
+   "why": "*why she left* — без *did*.",
    "hint": "Цікаво, чому вона пішла."
   },
   {
@@ -265,7 +265,7 @@
    "answer": [
     "Could you tell me if the shop is open"
    ],
-   "why": "if + прямий порядок.",
+   "why": "*if the shop is open*.",
    "hint": "Скажіть, будь ласка, чи відкритий магазин?"
   },
   {
@@ -279,7 +279,7 @@
     "Do you think that what"
    ],
    "answer": 1,
-   "why": "What do you think + прямий порядок."
+   "why": "Питальне слово виносимо перед *do you think*: *What do you think she will say?*"
   },
   {
    "id": "indirect-questions-22",
@@ -292,7 +292,7 @@
     "the meeting is it"
    ],
    "answer": 1,
-   "why": "Непряме питання — прямий порядок."
+   "why": "*when the meeting is* — прямий порядок."
   },
   {
    "id": "indirect-questions-23",
@@ -310,7 +310,7 @@
    "answer": [
     "I was wondering if you could help me"
    ],
-   "why": "I was wondering if + прямий порядок — дуже ввічливо.",
+   "why": "*I was wondering if…* — дуже ввічливе прохання з прямим порядком.",
    "hint": "Я хотів спитати, чи не могли б ви мені допомогти."
   }
  ]

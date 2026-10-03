@@ -11,7 +11,7 @@
     "I like football much very."
    ],
    "answer": 1,
-   "why": "Прислівник не стоїть між дієсловом і прямим додатком."
+   "why": "Прислівник не ставимо між дієсловом і прямим додатком: *I like football very much.*"
   },
   {
    "id": "adverb-position-2",
@@ -24,7 +24,7 @@
     "arrives"
    ],
    "answer": 0,
-   "why": "Прислівник частоти — перед основним дієсловом."
+   "why": "Прислівник частоти — перед основним дієсловом: *She always arrives on time.*"
   },
   {
    "id": "adverb-position-3",
@@ -37,7 +37,7 @@
     "always late is"
    ],
    "answer": 1,
-   "why": "Після to be."
+   "why": "З *to be* прислівник частоти стоїть після дієслова: *She is always late.*"
   },
   {
    "id": "adverb-position-4",
@@ -50,7 +50,7 @@
     "ever never"
    ],
    "answer": 0,
-   "why": "Після першого допоміжного дієслова."
+   "why": "Прислівник — після першого допоміжного: *I have never seen it.*"
   },
   {
    "id": "adverb-position-5",
@@ -63,7 +63,7 @@
     "degree"
    ],
    "answer": 0,
-   "why": "Ставлення говорячого — на початку."
+   "why": "*Unfortunately* виражає ставлення мовця й стоїть на початку."
   },
   {
    "id": "adverb-position-6",
@@ -76,7 +76,7 @@
     "She beautifully last night sang at the party."
    ],
    "answer": 0,
-   "why": "Порядок: спосіб → місце → час."
+   "why": "Порядок обставин: спосіб → місце → час."
   },
   {
    "id": "adverb-position-7",
@@ -89,7 +89,7 @@
     "Tom kissed Anna once"
    ],
    "answer": 0,
-   "why": "only перед Tom — ніхто інший."
+   "why": "*Only* перед *Tom* стосується Тома: ніхто інший не поцілував Анну."
   },
   {
    "id": "adverb-position-8",
@@ -102,7 +102,7 @@
     "He goes there often to."
    ],
    "answer": 1,
-   "why": "often — перед основним дієсловом."
+   "why": "*often* — перед основним дієсловом: *He often goes there.*"
   },
   {
    "id": "adverb-position-9",
@@ -116,7 +116,7 @@
    "answer": [
     "She has just left"
    ],
-   "why": "just — після has."
+   "why": "*just* — між *has* і третьою формою."
   },
   {
    "id": "adverb-position-10",
@@ -125,7 +125,7 @@
    "answer": [
     "is always"
    ],
-   "why": "Прислівник частоти — після be.",
+   "why": "Прислівник частоти після *be*: *is always*.",
    "hint": "Поставте слова в правильному порядку"
   },
   {
@@ -135,7 +135,7 @@
    "answer": [
     "have never seen"
    ],
-   "why": "Після першого допоміжного.",
+   "why": "Після першого допоміжного: *have never seen*.",
    "hint": "Поставте слова в правильному порядку"
   },
   {
@@ -145,7 +145,7 @@
    "answer": [
     "probably won't come"
    ],
-   "why": "probably — перед won't.",
+   "why": "У запереченні *probably* стоїть перед *won't*.",
    "hint": "Поставте слова в правильному порядку"
   },
   {
@@ -159,7 +159,7 @@
     "Fluently she English speaks."
    ],
    "answer": 0,
-   "why": "Прислівник — після додатка."
+   "why": "Прислівник способу — після додатка: *speaks English fluently*."
   },
   {
    "id": "adverb-position-14",
@@ -172,7 +172,7 @@
     "Usually we dinner have at seven."
    ],
    "answer": 0,
-   "why": "Частота — перед основним дієсловом."
+   "why": "Частота — перед основним дієсловом: *usually have dinner*."
   },
   {
    "id": "adverb-position-15",
@@ -180,12 +180,12 @@
    "q": "Which is correct?",
    "options": [
     "He will probably call later.",
-    "He probably will call later.",
+    "He will probably calls later.",
     "He will call probably later.",
     "Probably he call will later."
    ],
    "answer": 0,
-   "why": "У ствердженні probably — після will."
+   "why": "У ствердженні *probably* — після *will*: *He will probably call later.*"
   },
   {
    "id": "adverb-position-16",
@@ -193,12 +193,12 @@
    "q": "Which is correct?",
    "options": [
     "They have already left.",
-    "They already have left.",
+    "They have already leave.",
     "They have left already yet.",
     "Already they left have."
    ],
    "answer": 0,
-   "why": "already — після have."
+   "why": "*already* — між *have* і третьою формою: *have already left*."
   },
   {
    "id": "adverb-position-17",
@@ -214,7 +214,7 @@
    "answer": [
     "I often go to the gym"
    ],
-   "why": "often — перед основним дієсловом.",
+   "why": "*often* — перед основним дієсловом.",
    "hint": "Я часто ходжу в спортзал."
   },
   {
@@ -231,7 +231,7 @@
    "answer": [
     "She is never late for work"
    ],
-   "why": "never — після is.",
+   "why": "*never* — після *is*.",
    "hint": "Вона ніколи не запізнюється на роботу."
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "He has just finished his homework"
    ],
-   "why": "just — після has.",
+   "why": "*just* — після *has*.",
    "hint": "Він щойно закінчив домашнє завдання."
   },
   {
@@ -266,7 +266,7 @@
    "answer": [
     "They played well in the match yesterday"
    ],
-   "why": "Спосіб → місце → час.",
+   "why": "Спосіб (*well*) → місце (*in the match*) → час (*yesterday*).",
    "hint": "Вони добре зіграли в матчі вчора."
   },
   {
@@ -280,7 +280,7 @@
     "yet"
    ],
    "answer": 0,
-   "why": "У питанні про досвід — ever після підмета."
+   "why": "Питання про досвід — *Have you ever been…?*"
   },
   {
    "id": "adverb-position-22",
@@ -293,7 +293,7 @@
     "Really I don't like it."
    ],
    "answer": 1,
-   "why": "don't really — м'якше."
+   "why": "*don't really like* — пом'якшення («не дуже подобається»). *really don't like* — підсилення («зовсім не подобається»)."
   },
   {
    "id": "adverb-position-23",
@@ -309,7 +309,7 @@
    "answer": [
     "He has just finished his homework"
    ],
-   "why": "just між has і V3.",
+   "why": "*just* між *has* і третьою формою.",
    "hint": "Він щойно закінчив домашнє завдання."
   }
  ]

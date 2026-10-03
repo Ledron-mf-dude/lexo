@@ -11,7 +11,7 @@
     "decisively"
    ],
    "answer": 1,
-   "why": "Після прикметника difficult — іменник: decision."
+   "why": "Після прикметника (*a difficult*) потрібен іменник: *decide → decision*."
   },
   {
    "id": "word-formation-2",
@@ -24,7 +24,7 @@
     "careless"
    ],
    "answer": 2,
-   "why": "Біля дієслова drive — прислівник: carefully."
+   "why": "Спосіб дії (*drive*) описує прислівник: *carefully*."
   },
   {
    "id": "word-formation-3",
@@ -37,7 +37,7 @@
     "dislegal"
    ],
    "answer": 1,
-   "why": "Перед l — префікс il-: illegal."
+   "why": "Перед *l* заперечний префікс — *il-*: *illegal*. (Перед *p, m* — *im-*, перед *r* — *ir-*.)"
   },
   {
    "id": "word-formation-4",
@@ -50,7 +50,7 @@
     "overunderstood"
    ],
    "answer": 2,
-   "why": "mis- = неправильно: misunderstood."
+   "why": "*mis-* — «неправильно»: *misunderstood*."
   },
   {
    "id": "word-formation-5",
@@ -63,7 +63,7 @@
     "employ"
    ],
    "answer": 1,
-   "why": "Найнята людина — employee (-ee); той, хто наймає, — employer."
+   "why": "*-ee* — той, кого наймають (*employee*); *-er* — той, хто наймає (*employer*)."
   },
   {
    "id": "word-formation-6",
@@ -76,7 +76,7 @@
     "user"
    ],
    "answer": 1,
-   "why": "-less = без: useless."
+   "why": "*-less* — «без»: *useless*."
   },
   {
    "id": "word-formation-7",
@@ -89,7 +89,7 @@
     "simply"
    ],
    "answer": 2,
-   "why": "Після can — дієслово: simplify (-ify)."
+   "why": "Після *can* — дієслово: *simplify* (суфікс *-ify*)."
   },
   {
    "id": "word-formation-8",
@@ -102,7 +102,7 @@
     "honestly"
    ],
    "answer": 2,
-   "why": "Після very — прикметник: honest."
+   "why": "Після *very* — прикметник: *honest*."
   },
   {
    "id": "word-formation-9",
@@ -115,7 +115,7 @@
     "widely"
    ],
    "answer": 2,
-   "why": "Після to — дієслово: widen (-en)."
+   "why": "Після *to* — дієслово: *widen* (суфікс *-en*)."
   },
   {
    "id": "word-formation-10",
@@ -128,7 +128,7 @@
     "performing"
    ],
    "answer": 2,
-   "why": "Після her — іменник-подія: performance."
+   "why": "Після *her* — іменник: *performance*."
   },
   {
    "id": "word-formation-11",
@@ -137,7 +137,7 @@
    "answer": [
     "patience"
    ],
-   "why": "Після no — іменник: patient → patience."
+   "why": "Після *no* — іменник: *patient → patience*."
   },
   {
    "id": "word-formation-12",
@@ -146,7 +146,7 @@
    "answer": [
     "scientist"
    ],
-   "why": "Людина-фахівець: science → scientist (-ist)."
+   "why": "Людина-фахівець — *-ist*: *scientist*."
   },
   {
    "id": "word-formation-13",
@@ -155,7 +155,7 @@
    "answer": [
     "impossible"
    ],
-   "why": "Перед p — префікс im-: impossible."
+   "why": "Перед *p* — *im-*: *impossible*."
   },
   {
    "id": "word-formation-14",
@@ -164,7 +164,7 @@
    "answer": [
     "length"
    ],
-   "why": "Від long — іменник length (-th)."
+   "why": "Іменник від *long* — *length*."
   },
   {
    "id": "word-formation-15",
@@ -173,7 +173,7 @@
    "answer": [
     "helpful"
    ],
-   "why": "Після very — прикметник: helpful (-ful)."
+   "why": "*-ful* — «повний чогось»: *helpful*."
   },
   {
    "id": "word-formation-16",
@@ -182,7 +182,7 @@
    "answer": [
     "rewrite"
    ],
-   "why": "re- = знову: rewrite."
+   "why": "*re-* — знову: *rewrite*."
   },
   {
    "id": "word-formation-17",
@@ -191,7 +191,7 @@
    "answer": [
     "friendship"
    ],
-   "why": "Стосунок — friendship (-ship)."
+   "why": "Стосунки — *-ship*: *friendship*."
   },
   {
    "id": "word-formation-18",
@@ -200,7 +200,7 @@
    "answer": [
     "sunny"
    ],
-   "why": "Прикметник на -y з подвоєнням: sunny."
+   "why": "*sun → sunny*: подвоєння *n* і *-y*."
   },
   {
    "id": "word-formation-19",
@@ -216,7 +216,7 @@
    "answer": [
     "His explanation was not very clear"
    ],
-   "why": "explain → explanation: у іменнику корінь змінюється.",
+   "why": "*explain → explanation* (корінь змінюється).",
    "hint": "Його пояснення було не дуже зрозумілим."
   },
   {
@@ -236,7 +236,7 @@
    "answer": [
     "Most of the players were unhappy with the decision"
    ],
-   "why": "un- + happy; decide → decision.",
+   "why": "*un-* + *happy*; *decide → decision*.",
    "hint": "Більшість гравців були незадоволені рішенням."
   }
  ]

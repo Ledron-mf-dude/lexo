@@ -11,7 +11,7 @@
     "fairly"
    ],
    "answer": 0,
-   "why": "rather — доволі, часто негативно."
+   "why": "*rather* — «доволі», часто з відтінком неприємного чи несподіваного."
   },
   {
    "id": "pretty-rather-quite-fairly-2",
@@ -24,7 +24,7 @@
     "absolutely"
    ],
    "answer": 0,
-   "why": "fairly — помірно."
+   "why": "*fairly* — помірно, «нормально»: не чудовий, просто непоганий."
   },
   {
    "id": "pretty-rather-quite-fairly-3",
@@ -37,7 +37,7 @@
     "fairly a"
    ],
    "answer": 0,
-   "why": "quite / rather — перед a."
+   "why": "*quite* стоїть перед *a*: *quite a good film*."
   },
   {
    "id": "pretty-rather-quite-fairly-4",
@@ -50,7 +50,7 @@
     "fairly the"
    ],
    "answer": 0,
-   "why": "fairly / pretty / very — після a."
+   "why": "*fairly* стоїть після *a*: *a fairly good film*."
   },
   {
    "id": "pretty-rather-quite-fairly-5",
@@ -63,7 +63,7 @@
     "pretty"
    ],
    "answer": 0,
-   "why": "quite з абсолютним словом — цілком."
+   "why": "*quite* з «абсолютними» словами (*impossible, right*) означає «цілком»."
   },
   {
    "id": "pretty-rather-quite-fairly-6",
@@ -76,7 +76,7 @@
     "rather"
    ],
    "answer": 2,
-   "why": "pretty — розмовне."
+   "why": "*pretty* — найрозмовніше."
   },
   {
    "id": "pretty-rather-quite-fairly-7",
@@ -89,7 +89,7 @@
     "exactly three"
    ],
    "answer": 0,
-   "why": "quite a few — чимало."
+   "why": "*quite a few* — чимало."
   },
   {
    "id": "pretty-rather-quite-fairly-8",
@@ -103,7 +103,7 @@
    "answer": [
     "It was pretty good"
    ],
-   "why": "pretty + adj."
+   "why": "*pretty good*."
   },
   {
    "id": "pretty-rather-quite-fairly-9",
@@ -113,7 +113,7 @@
     "quite",
     "pretty"
    ],
-   "why": "quite / pretty sure — цілком упевнений."
+   "why": "*quite / pretty sure*."
   },
   {
    "id": "pretty-rather-quite-fairly-10",
@@ -122,7 +122,7 @@
    "answer": [
     "rather"
    ],
-   "why": "rather — часто з відтінком недоліку."
+   "why": "*rather small* — недолік."
   },
   {
    "id": "pretty-rather-quite-fairly-11",
@@ -131,7 +131,7 @@
    "answer": [
     "quite"
    ],
-   "why": "quite a few — чимало."
+   "why": "*quite a few*."
   },
   {
    "id": "pretty-rather-quite-fairly-12",
@@ -140,7 +140,7 @@
    "answer": [
     "pretty"
    ],
-   "why": "pretty — розмовне «досить»."
+   "why": "*a pretty good restaurant* — розмовне."
   },
   {
    "id": "pretty-rather-quite-fairly-13",
@@ -150,10 +150,10 @@
     "rather a",
     "a rather long a",
     "rather",
-    "a rather"
+    "rather an"
    ],
    "answer": 0,
-   "why": "rather a + adj + noun (або a rather)."
+   "why": "*rather a long film* (або *a rather long film*)."
   },
   {
    "id": "pretty-rather-quite-fairly-14",
@@ -166,7 +166,7 @@
     "fairly an"
    ],
    "answer": 0,
-   "why": "fairly — помірно."
+   "why": "*fairly easy*."
   },
   {
    "id": "pretty-rather-quite-fairly-15",
@@ -179,7 +179,7 @@
     "pretty much a"
    ],
    "answer": 0,
-   "why": "quite + абсолютне слово — цілком."
+   "why": "*quite right* — цілком правий."
   },
   {
    "id": "pretty-rather-quite-fairly-16",
@@ -192,7 +192,7 @@
     "rather a"
    ],
    "answer": 0,
-   "why": "quite like — досить подобається."
+   "why": "*quite like* — досить подобається."
   },
   {
    "id": "pretty-rather-quite-fairly-17",
@@ -208,7 +208,7 @@
    "answer": [
     "It is quite a nice day"
    ],
-   "why": "quite a + adj + noun.",
+   "why": "*quite a nice day*.",
    "hint": "Сьогодні досить гарний день."
   },
   {
@@ -224,7 +224,7 @@
    "answer": [
     "The test was fairly easy"
    ],
-   "why": "fairly + adj.",
+   "why": "*fairly easy*.",
    "hint": "Тест був досить легким."
   },
   {
@@ -239,7 +239,7 @@
    "answer": [
     "I am pretty tired"
    ],
-   "why": "pretty + adj.",
+   "why": "*pretty tired*.",
    "hint": "Я досить утомився."
   },
   {
@@ -253,7 +253,7 @@
     "pretty"
    ],
    "answer": 1,
-   "why": "not quite — не зовсім."
+   "why": "*not quite ready* — не зовсім готовий."
   },
   {
    "id": "pretty-rather-quite-fairly-21",
@@ -266,7 +266,7 @@
     "would rather"
    ],
    "answer": 1,
-   "why": "rather than — замість."
+   "why": "*rather than* — замість."
   },
   {
    "id": "pretty-rather-quite-fairly-22",
@@ -276,7 +276,7 @@
     "few",
     "lot of"
    ],
-   "why": "quite a few / quite a lot of — доволі багато."
+   "why": "*quite a few / quite a lot of* — доволі багато."
   }
  ]
 }

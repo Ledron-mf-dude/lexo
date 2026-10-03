@@ -11,7 +11,7 @@
     "will have"
    ],
    "answer": 1,
-   "why": "wish + Past Simple — про теперішнє."
+   "why": "Бажання про теперішнє, яке не відповідає дійсності, — *wish* + Past Simple: *I wish I had more time* (а часу немає)."
   },
   {
    "id": "wish-if-only-2",
@@ -24,7 +24,7 @@
     "study"
    ],
    "answer": 1,
-   "why": "wish + Past Perfect — про минуле."
+   "why": "Жаль про минуле — *wish* + Past Perfect: *I wish I had studied harder.*"
   },
   {
    "id": "wish-if-only-3",
@@ -37,7 +37,7 @@
     "can"
    ],
    "answer": 0,
-   "why": "wish + would — роздратування."
+   "why": "*wish* + *would* — хочемо, щоб хтось змінив поведінку (роздратування): *I wish you would stop interrupting me.*"
   },
   {
    "id": "wish-if-only-4",
@@ -50,7 +50,7 @@
     "are going"
    ],
    "answer": 1,
-   "why": "It’s time + Past Simple."
+   "why": "*It's time* + Past Simple: *It's time we went home.*"
   },
   {
    "id": "wish-if-only-5",
@@ -63,7 +63,7 @@
     "had known"
    ],
    "answer": 1,
-   "why": "If only + Past Simple."
+   "why": "*If only* + Past Simple — про теперішнє: *If only I knew the answer!*"
   },
   {
    "id": "wish-if-only-6",
@@ -76,7 +76,7 @@
     "will be"
    ],
    "answer": 1,
-   "why": "wish I were."
+   "why": "*wish I were* — *were* для всіх осіб (у розмові й *was*)."
   },
   {
    "id": "wish-if-only-7",
@@ -89,20 +89,20 @@
     "I wish I had won."
    ],
    "answer": 0,
-   "why": "would не вживається про себе: I wish I could."
+   "why": "Про себе *wish* + *would* не вживають: *I wish I could win*, а не *I wish I would win*."
   },
   {
    "id": "wish-if-only-8",
    "type": "choice",
    "q": "I'd rather you ___ here.",
    "options": [
-    "stay",
+    "will stay",
     "stayed",
     "staying",
     "to stay"
    ],
    "answer": 1,
-   "why": "would rather + підмет + Past Simple."
+   "why": "*would rather* + інша особа + Past Simple: *I'd rather you stayed here.*"
   },
   {
    "id": "wish-if-only-9",
@@ -115,7 +115,7 @@
     "doesn't"
    ],
    "answer": 0,
-   "why": "If only + Past Perfect."
+   "why": "Жаль про минуле — *If only* + Past Perfect: *If only she hadn't left!*"
   },
   {
    "id": "wish-if-only-10",
@@ -124,7 +124,7 @@
    "answer": [
     "could"
    ],
-   "why": "wish + could — про вміння."
+   "why": "Уміння — *wish* + *could*: *I wish I could speak Chinese.*"
   },
   {
    "id": "wish-if-only-11",
@@ -133,7 +133,7 @@
    "answer": [
     "would stop"
    ],
-   "why": "wish + would — хочемо змін."
+   "why": "Хочемо зміни ситуації — *wish* + *would*: *I wish it would stop raining.*"
   },
   {
    "id": "wish-if-only-12",
@@ -143,7 +143,7 @@
     "hadn't eaten",
     "had not eaten"
    ],
-   "why": "Жаль про минуле — Past Perfect."
+   "why": "Жаль про вчора — *hadn't eaten*."
   },
   {
    "id": "wish-if-only-13",
@@ -152,7 +152,7 @@
    "answer": [
     "lived"
    ],
-   "why": "If only + Past Simple — теперішнє."
+   "why": "*If only I lived closer*."
   },
   {
    "id": "wish-if-only-14",
@@ -161,7 +161,7 @@
    "answer": [
     "started"
    ],
-   "why": "It's high time + Past Simple."
+   "why": "*It's high time* + Past Simple."
   },
   {
    "id": "wish-if-only-15",
@@ -174,7 +174,7 @@
     "didn't be"
    ],
    "answer": 0,
-   "why": "Минуле — Past Perfect."
+   "why": "Вчора — Past Perfect: *I wish I hadn't been so rude.*"
   },
   {
    "id": "wish-if-only-16",
@@ -187,7 +187,7 @@
     "will have"
    ],
    "answer": 0,
-   "why": "wish + Past Simple."
+   "why": "*wishes she had a bigger flat*."
   },
   {
    "id": "wish-if-only-17",
@@ -200,7 +200,7 @@
     "stop"
    ],
    "answer": 0,
-   "why": "wish + would — роздратування."
+   "why": "Роздратування — *wish you would stop*."
   },
   {
    "id": "wish-if-only-18",
@@ -213,7 +213,7 @@
     "will have"
    ],
    "answer": 0,
-   "why": "If only + Past Simple."
+   "why": "*If only we had more time*."
   },
   {
    "id": "wish-if-only-19",
@@ -229,7 +229,7 @@
    "answer": [
     "I wish I knew the answer"
    ],
-   "why": "wish + Past Simple.",
+   "why": "*I wish I knew* — про теперішнє.",
    "hint": "Шкода, що я не знаю відповіді."
   },
   {
@@ -247,7 +247,7 @@
    "answer": [
     "I wish I had listened to you"
    ],
-   "why": "wish + Past Perfect.",
+   "why": "*I wish I had listened* — про минуле.",
    "hint": "Шкодую, що не послухав тебе."
   },
   {
@@ -264,7 +264,7 @@
    "answer": [
     "It is time we went home"
    ],
-   "why": "It's time + Past Simple.",
+   "why": "*It is time we went home.*",
    "hint": "Нам час додому."
   },
   {
@@ -278,7 +278,7 @@
     "will"
    ],
    "answer": 1,
-   "why": "Уміння — wish + could."
+   "why": "Уміння — *could*."
   },
   {
    "id": "wish-if-only-23",
@@ -291,7 +291,7 @@
     "want"
    ],
    "answer": 1,
-   "why": "Реальне побажання — hope."
+   "why": "Реальне побажання на майбутнє — *hope*: *I hope you have a great holiday!* *wish* + речення — для нереального."
   },
   {
    "id": "wish-if-only-24",
@@ -304,7 +304,7 @@
     "hasn't"
    ],
    "answer": 1,
-   "why": "Дія зараз — wish + Past Continuous."
+   "why": "Дощ іде зараз — *wish* + Past Continuous: *I wish it wasn't raining.*"
   },
   {
    "id": "wish-if-only-25",
@@ -314,7 +314,7 @@
     "hadn't eaten",
     "had not eaten"
    ],
-   "why": "Минуле — wish + Past Perfect."
+   "why": "Учора — Past Perfect."
   }
  ]
 }

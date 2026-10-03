@@ -11,7 +11,7 @@
     "admitted"
    ],
    "answer": 1,
-   "why": "offer + to-інфінітив."
+   "why": "«Я заплачу» — пропозиція, тому *offered to pay*. Після *offer* — *to* + дієслово."
   },
   {
    "id": "reporting-verbs-2",
@@ -24,7 +24,7 @@
     "offered"
    ],
    "answer": 1,
-   "why": "deny + -ing."
+   "why": "«Я не брав» — заперечення провини: *denied taking it*. Після *deny* — *-ing*."
   },
   {
    "id": "reporting-verbs-3",
@@ -37,7 +37,7 @@
     "apologised"
    ],
    "answer": 0,
-   "why": "warn + особа + not to."
+   "why": "Застереження — *warn* + особа + *not to*: *She warned me not to go alone.*"
   },
   {
    "id": "reporting-verbs-4",
@@ -50,7 +50,7 @@
     "of being"
    ],
    "answer": 0,
-   "why": "apologise for + -ing."
+   "why": "*apologise for* + *-ing*: *apologised for being late*."
   },
   {
    "id": "reporting-verbs-5",
@@ -63,7 +63,7 @@
     "went"
    ],
    "answer": 1,
-   "why": "suggest + -ing."
+   "why": "*suggest* + *-ing*: *He suggested going out.*"
   },
   {
    "id": "reporting-verbs-6",
@@ -76,7 +76,7 @@
     "about"
    ],
    "answer": 1,
-   "why": "accuse sb of + -ing."
+   "why": "*accuse somebody of* + *-ing*: *accused her of stealing*."
   },
   {
    "id": "reporting-verbs-7",
@@ -89,7 +89,7 @@
     "of"
    ],
    "answer": 1,
-   "why": "congratulate sb on + -ing."
+   "why": "*congratulate somebody on* + *-ing*."
   },
   {
    "id": "reporting-verbs-8",
@@ -102,7 +102,7 @@
     "She suggested we should go."
    ],
    "answer": 2,
-   "why": "suggest не вживається зі схемою sb + to-infinitive."
+   "why": "*suggest* не вживається зі схемою «особа + *to*»: *suggested me to go* — помилка. Правильно *suggested going* / *suggested that we go*."
   },
   {
    "id": "reporting-verbs-9",
@@ -115,7 +115,7 @@
     "accused"
    ],
    "answer": 0,
-   "why": "promise + to-інфінітив."
+   "why": "*promise* + *to*: *He promised to call.*"
   },
   {
    "id": "reporting-verbs-10",
@@ -124,7 +124,7 @@
    "answer": [
     "to sign"
    ],
-   "why": "refuse + to-інфінітив."
+   "why": "*refuse* + *to*: *refused to sign it*."
   },
   {
    "id": "reporting-verbs-11",
@@ -135,7 +135,7 @@
     "to bring",
     "not to forget"
    ],
-   "why": "remind + особа + to-інфінітив."
+   "why": "*remind* + особа + *to*: *reminded me to take my keys*."
   },
   {
    "id": "reporting-verbs-12",
@@ -145,7 +145,7 @@
     "breaking",
     "having broken"
    ],
-   "why": "admit + -ing."
+   "why": "*admit* + *-ing* (або *having* + третя форма)."
   },
   {
    "id": "reporting-verbs-13",
@@ -154,7 +154,7 @@
    "answer": [
     "for"
    ],
-   "why": "thank sb for + -ing."
+   "why": "*thank somebody for* + *-ing*."
   },
   {
    "id": "reporting-verbs-14",
@@ -163,7 +163,7 @@
    "answer": [
     "to rest"
    ],
-   "why": "advise + особа + to-інфінітив."
+   "why": "*advise* + особа + *to*: *advised me to rest*."
   },
   {
    "id": "reporting-verbs-15",
@@ -176,7 +176,7 @@
     "agreed"
    ],
    "answer": 0,
-   "why": "suggest + -ing."
+   "why": "«Давай візьмемо таксі» — пропозиція: *suggested taking a taxi*."
   },
   {
    "id": "reporting-verbs-16",
@@ -189,7 +189,7 @@
     "denied"
    ],
    "answer": 0,
-   "why": "promise + to-інфінітив."
+   "why": "Обіцянка — *promised to help*."
   },
   {
    "id": "reporting-verbs-17",
@@ -202,7 +202,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "blame sb for + -ing."
+   "why": "*blame somebody for* + *-ing*."
   },
   {
    "id": "reporting-verbs-18",
@@ -215,7 +215,7 @@
     "apologised"
    ],
    "answer": 0,
-   "why": "invite + особа + to."
+   "why": "*invite somebody to* + подія."
   },
   {
    "id": "reporting-verbs-19",
@@ -230,7 +230,7 @@
    "answer": [
     "He apologised for being late"
    ],
-   "why": "apologise for + -ing.",
+   "why": "*apologised for being late*.",
    "hint": "Він вибачився за запізнення."
   },
   {
@@ -248,7 +248,7 @@
    "answer": [
     "She advised me to see a doctor"
    ],
-   "why": "advise + особа + to.",
+   "why": "*advised me to see a doctor*.",
    "hint": "Вона порадила мені звернутися до лікаря."
   },
   {
@@ -265,7 +265,7 @@
    "answer": [
     "They agreed to meet at six"
    ],
-   "why": "agree + to-інфінітив.",
+   "why": "*agree* + *to*: *agreed to meet*.",
    "hint": "Вони домовилися зустрітися о шостій."
   },
   {
@@ -279,7 +279,7 @@
     "that he stays"
    ],
    "answer": 1,
-   "why": "beg + особа + to."
+   "why": "*beg* + особа + *to*: *begged him to stay*."
   },
   {
    "id": "reporting-verbs-23",
@@ -292,7 +292,7 @@
     "that knowing"
    ],
    "answer": 1,
-   "why": "claim + to-інфінітив."
+   "why": "*claim* + *to*: *claims to know the president*."
   },
   {
    "id": "reporting-verbs-24",
@@ -301,7 +301,7 @@
    "answer": [
     "on"
    ],
-   "why": "insist on + -ing."
+   "why": "*insist on* + *-ing*."
   }
  ]
 }

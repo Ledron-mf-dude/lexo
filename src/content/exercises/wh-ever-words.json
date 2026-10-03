@@ -11,7 +11,7 @@
     "whoever"
    ],
    "answer": 0,
-   "why": "whatever — що завгодно."
+   "why": "*whatever* — «що завгодно, будь-що»: *You can eat whatever you like.*"
   },
   {
    "id": "wh-ever-words-2",
@@ -24,7 +24,7 @@
     "whoever"
    ],
    "answer": 1,
-   "why": "whenever — коли завгодно."
+   "why": "*whenever* — «коли завгодно, щоразу коли»: *Call me whenever you need help.*"
   },
   {
    "id": "wh-ever-words-3",
@@ -37,7 +37,7 @@
     "Whoever"
    ],
    "answer": 2,
-   "why": "wherever — куди б не."
+   "why": "*Wherever* — «куди б не»: *Wherever I go, she follows me.*"
   },
   {
    "id": "wh-ever-words-4",
@@ -50,7 +50,7 @@
     "Whoever"
    ],
    "answer": 3,
-   "why": "whoever — хто б не."
+   "why": "*Whoever* — «хто б не, той хто»: *Whoever did this must apologise.*"
   },
   {
    "id": "wh-ever-words-5",
@@ -63,7 +63,7 @@
     "Whenever"
    ],
    "answer": 0,
-   "why": "however + прикметник."
+   "why": "*However* + прикметник / прислівник — «як би не»: *However hard I try…*"
   },
   {
    "id": "wh-ever-words-6",
@@ -76,7 +76,7 @@
     "Whichever"
    ],
    "answer": 0,
-   "why": "Whenever — коли завгодно."
+   "why": "*Whenever* — «коли завгодно, мені однаково»."
   },
   {
    "id": "wh-ever-words-7",
@@ -89,7 +89,7 @@
     "whyever"
    ],
    "answer": 0,
-   "why": "whichever — з обмеженого набору."
+   "why": "*whichever* — будь-який з обмеженого набору: *whichever seat you want*."
   },
   {
    "id": "wh-ever-words-8",
@@ -98,7 +98,7 @@
    "answer": [
     "Whatever"
    ],
-   "why": "Whatever — що б не."
+   "why": "*Whatever you do* — що б ти не робив."
   },
   {
    "id": "wh-ever-words-9",
@@ -107,7 +107,7 @@
    "answer": [
     "wherever"
    ],
-   "why": "wherever — де завгодно."
+   "why": "*wherever you like* — де завгодно."
   },
   {
    "id": "wh-ever-words-10",
@@ -116,7 +116,7 @@
    "answer": [
     "Whoever"
    ],
-   "why": "Whoever — хто б не."
+   "why": "*Whoever comes first* — той, хто прийде першим."
   },
   {
    "id": "wh-ever-words-11",
@@ -125,7 +125,7 @@
    "answer": [
     "However"
    ],
-   "why": "However + прикметник — наскільки б не."
+   "why": "*However tired you are* — яким би втомленим ти не був."
   },
   {
    "id": "wh-ever-words-12",
@@ -135,7 +135,7 @@
     "whichever",
     "whatever"
    ],
-   "why": "whichever — будь-який з кількох."
+   "why": "Вибір з двох названих — *whichever* (у розмові й *whatever*)."
   },
   {
    "id": "wh-ever-words-13",
@@ -148,7 +148,7 @@
     "However"
    ],
    "answer": 0,
-   "why": "Whenever — щоразу, коли."
+   "why": "*Whenever I see him* — щоразу, коли."
   },
   {
    "id": "wh-ever-words-14",
@@ -161,7 +161,7 @@
     "whoever"
    ],
    "answer": 0,
-   "why": "whatever happens — що б не сталося."
+   "why": "*whatever happens* — що б не сталося."
   },
   {
    "id": "wh-ever-words-15",
@@ -174,7 +174,7 @@
     "Whenever"
    ],
    "answer": 0,
-   "why": "However much — скільки б не."
+   "why": "*However much it costs* — скільки б не коштувало."
   },
   {
    "id": "wh-ever-words-16",
@@ -187,7 +187,7 @@
     "However"
    ],
    "answer": 0,
-   "why": "Whichever — будь-що з двох."
+   "why": "Будь-що з двох — *Whichever*."
   },
   {
    "id": "wh-ever-words-17",
@@ -203,7 +203,7 @@
    "answer": [
     "You can eat whatever you want"
    ],
-   "why": "whatever — що завгодно.",
+   "why": "*whatever you want*.",
    "hint": "Можеш їсти що завгодно."
   },
   {
@@ -219,7 +219,7 @@
    "answer": [
     "Call me whenever you like"
    ],
-   "why": "whenever — коли завгодно.",
+   "why": "*whenever you like*.",
    "hint": "Телефонуй мені, коли захочеш."
   },
   {
@@ -239,7 +239,7 @@
     "Wherever you go, I will follow you",
     "I will follow you wherever you go"
    ],
-   "why": "wherever — куди б не.",
+   "why": "*Wherever you go…*",
    "hint": "Куди б ти не пішов, я піду за тобою."
   },
   {
@@ -253,7 +253,7 @@
     "Whichever"
    ],
    "answer": 1,
-   "why": "Куди б не — wherever."
+   "why": "*Wherever you go, I'll find you.*"
   },
   {
    "id": "wh-ever-words-21",
@@ -266,7 +266,7 @@
     "which"
    ],
    "answer": 1,
-   "why": "no matter what."
+   "why": "*No matter what* — що б не. *No matter whatever* — подвоєння."
   },
   {
    "id": "wh-ever-words-22",
@@ -275,7 +275,7 @@
    "answer": [
     "Whoever"
    ],
-   "why": "Хто б не — whoever."
+   "why": "*Whoever broke the window…*"
   }
  ]
 }

@@ -11,7 +11,7 @@
     "tirely"
    ],
    "answer": 0,
-   "why": "Після look — прикметник."
+   "why": "Після *look* (виглядати) — прикметник: *She looks tired.*"
   },
   {
    "id": "verbs-of-the-senses-2",
@@ -24,7 +24,7 @@
     "goodness"
    ],
    "answer": 0,
-   "why": "Після taste — прикметник good."
+   "why": "Після *taste* — прикметник: *tastes good*. *well* — прислівник."
   },
   {
    "id": "verbs-of-the-senses-3",
@@ -37,7 +37,7 @@
     "similar"
    ],
    "answer": 1,
-   "why": "look like + іменник."
+   "why": "*look like* + іменник: *looks like a dog*."
   },
   {
    "id": "verbs-of-the-senses-4",
@@ -50,7 +50,7 @@
     "similar"
    ],
    "answer": 0,
-   "why": "sound like + іменник."
+   "why": "*sound like* + іменник: *sounds like his father*."
   },
   {
    "id": "verbs-of-the-senses-5",
@@ -63,7 +63,7 @@
     "delight"
    ],
    "answer": 0,
-   "why": "Після smell — прикметник."
+   "why": "Після *smell* — прикметник: *smells delicious*."
   },
   {
    "id": "verbs-of-the-senses-6",
@@ -76,7 +76,7 @@
     "seem"
    ],
    "answer": 0,
-   "why": "look at — навмисно."
+   "why": "*look at* — навмисна дія; *see, hear* — сприйняття."
   },
   {
    "id": "verbs-of-the-senses-7",
@@ -89,7 +89,7 @@
     "Look"
    ],
    "answer": 1,
-   "why": "listen to — навмисно слухати."
+   "why": "*Listen to* — навмисно слухати."
   },
   {
    "id": "verbs-of-the-senses-8",
@@ -102,7 +102,7 @@
     "watch"
    ],
    "answer": 1,
-   "why": "hear — сприймати без наміру."
+   "why": "*can hear* — сприймати мимоволі."
   },
   {
    "id": "verbs-of-the-senses-9",
@@ -111,7 +111,7 @@
    "answer": [
     "tired"
    ],
-   "why": "Після look — прикметник."
+   "why": "*look tired*."
   },
   {
    "id": "verbs-of-the-senses-10",
@@ -120,7 +120,7 @@
    "answer": [
     "like"
    ],
-   "why": "sound like + іменник."
+   "why": "*sounds like a great plan*."
   },
   {
    "id": "verbs-of-the-senses-11",
@@ -129,7 +129,7 @@
    "answer": [
     "soft"
    ],
-   "why": "feel + прикметник."
+   "why": "*feels soft*."
   },
   {
    "id": "verbs-of-the-senses-12",
@@ -139,7 +139,7 @@
     "if",
     "though"
    ],
-   "why": "look as if / as though + речення."
+   "why": "*look as if / as though* + речення."
   },
   {
    "id": "verbs-of-the-senses-13",
@@ -150,7 +150,7 @@
     "off",
     "sour"
    ],
-   "why": "smell + прикметник."
+   "why": "*smells bad / off / sour*."
   },
   {
    "id": "verbs-of-the-senses-14",
@@ -163,7 +163,7 @@
     "as interesting"
    ],
    "answer": 0,
-   "why": "sound + прикметник."
+   "why": "*sounds interesting* — прикметник."
   },
   {
    "id": "verbs-of-the-senses-15",
@@ -176,7 +176,7 @@
     "likes"
    ],
    "answer": 0,
-   "why": "look like — схожа на."
+   "why": "*looks like her mother* — схожа."
   },
   {
    "id": "verbs-of-the-senses-16",
@@ -189,7 +189,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "can + smell — сприймаємо."
+   "why": "*can smell* — сприйняття зараз."
   },
   {
    "id": "verbs-of-the-senses-17",
@@ -202,7 +202,7 @@
     "tasted it"
    ],
    "answer": 0,
-   "why": "taste (куштувати) — дія, Continuous."
+   "why": "*taste* у значенні «куштувати» — дія, Continuous можливий."
   },
   {
    "id": "verbs-of-the-senses-18",
@@ -216,7 +216,7 @@
    "answer": [
     "This cake tastes delicious"
    ],
-   "why": "taste + прикметник.",
+   "why": "*tastes delicious*.",
    "hint": "Цей торт смачний."
   },
   {
@@ -232,7 +232,7 @@
    "answer": [
     "You look like your father"
    ],
-   "why": "look like + іменник.",
+   "why": "*look like your father*.",
    "hint": "Ти схожий на свого батька."
   },
   {
@@ -249,7 +249,7 @@
    "answer": [
     "It sounds like a good idea"
    ],
-   "why": "sound like + іменник.",
+   "why": "*sounds like a good idea*.",
    "hint": "Звучить як гарна ідея."
   },
   {
@@ -263,7 +263,7 @@
     "am listening"
    ],
    "answer": 1,
-   "why": "Сприйняття зараз — can hear."
+   "why": "Сприйняття зараз — *can hear*."
   },
   {
    "id": "verbs-of-the-senses-22",
@@ -276,7 +276,7 @@
     "sounds as"
    ],
    "answer": 0,
-   "why": "sound like + іменник."
+   "why": "*sounds like* + іменник."
   },
   {
    "id": "verbs-of-the-senses-23",
@@ -285,7 +285,7 @@
    "answer": [
     "like"
    ],
-   "why": "look like — зовнішність."
+   "why": "*What does he look like?* — зовнішність."
   }
  ]
 }
