@@ -239,6 +239,41 @@
    ],
    "why": "wherever — куди б не.",
    "hint": "Куди б ти не пішов, я піду за тобою."
+  },
+  {
+   "id": "wh-ever-words-20",
+   "type": "choice",
+   "q": "___ you go, I'll find you.",
+   "options": [
+    "Whatever",
+    "Wherever",
+    "Whoever",
+    "Whichever"
+   ],
+   "answer": 1,
+   "why": "Куди б не — wherever."
+  },
+  {
+   "id": "wh-ever-words-21",
+   "type": "choice",
+   "q": "No matter ___ you say, I won't change my mind.",
+   "options": [
+    "that",
+    "what",
+    "whatever",
+    "which"
+   ],
+   "answer": 1,
+   "why": "no matter what."
+  },
+  {
+   "id": "wh-ever-words-22",
+   "type": "fill",
+   "q": "___ broke the window must pay for it.",
+   "answer": [
+    "Whoever"
+   ],
+   "why": "Хто б не — whoever."
   }
  ]
 }

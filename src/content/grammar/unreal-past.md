@@ -52,6 +52,19 @@ tags: [unreal past, as if, as though, suppose, supposing, it's time, it's high t
 
 Минулий час ніби «віддаляє» дію: від реальності (нереальне) або від співрозмовника (ввічливість). Тому також: *I **was wondering** if you could help me.* — ввічливе прохання про теперішнє.
 
+## Would rather і had better — порівняння
+
+*I'd rather you **went*** (хочу, щоб ти пішов) — нереальне минуле. *You'd better **go*** (раджу) — звичайний інфінітив. Див. «Would rather (краще б; віддавати перевагу)».
+
+## If only і as if у минулому
+
+- *If only I **had known**!* — Якби ж я знав!
+- *He talks about Paris **as if** he **had lived** there.* — наче жив (а насправді ні).
+
+## Ввічливий минулий час
+
+Минулий час віддаляє прохання від «тут і зараз» і робить його м'якшим: *I **wanted** to ask you something.* / *I **was hoping** you could help.* / *Did you **want** some tea?*
+
 ## Типові помилки
 
 - ✗ *It's time we go home.* → ✓ *It's time we **went** home.*
@@ -59,3 +72,5 @@ tags: [unreal past, as if, as though, suppose, supposing, it's time, it's high t
 - ✗ *I'd rather you don't smoke here.* → ✓ *I'd rather you **didn't** smoke here.*
 - ✗ *Suppose you would win…* → ✓ *Suppose you **won**…*
 - ✗ *She looked as if she saw a ghost.* (раніше) → ✓ *…as if she **had seen** a ghost.*
+- ✗ *It's high time we leave.* → ✓ *It's high time we **left**.*
+- ✗ *He talks as if he lived there for years.* (насправді не жив) → ✓ *He talks as if he **had lived** there for years.*

@@ -245,6 +245,50 @@
    ],
    "why": "Думка (lovely) → розмір (little).",
    "hint": "У них чудовий маленький сад."
+  },
+  {
+   "id": "adjective-order-19",
+   "type": "choice",
+   "q": "Choose the correct order:",
+   "options": [
+    "a cotton white shirt",
+    "a white cotton shirt",
+    "a shirt white cotton",
+    "a cotton shirt white"
+   ],
+   "answer": 1,
+   "why": "Колір → матеріал → іменник."
+  },
+  {
+   "id": "adjective-order-20",
+   "type": "choice",
+   "q": "We spent ___ days of the trip in Rome.",
+   "options": [
+    "the two first",
+    "the first two",
+    "two the first",
+    "first the two"
+   ],
+   "answer": 1,
+   "why": "Порядкове перед кількістю: the first two."
+  },
+  {
+   "id": "adjective-order-21",
+   "type": "order",
+   "words": [
+    "She",
+    "bought",
+    "a",
+    "lovely",
+    "old",
+    "wooden",
+    "table"
+   ],
+   "answer": [
+    "She bought a lovely old wooden table"
+   ],
+   "why": "Думка → вік → матеріал.",
+   "hint": "Вона купила гарний старий дерев'яний стіл."
   }
  ]
 }

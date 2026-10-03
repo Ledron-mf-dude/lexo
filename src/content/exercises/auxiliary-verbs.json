@@ -261,6 +261,41 @@
    ],
    "why": "Have + підмет + been.",
    "hint": "Ти колись був у Лондоні?"
+  },
+  {
+   "id": "auxiliary-verbs-22",
+   "type": "choice",
+   "q": "\"Have you seen this film?\" — \"Yes, I ___.\"",
+   "options": [
+    "did",
+    "have",
+    "saw",
+    "seen"
+   ],
+   "answer": 1,
+   "why": "Коротка відповідь — допоміжне з питання."
+  },
+  {
+   "id": "auxiliary-verbs-23",
+   "type": "choice",
+   "q": "I ___ tell you about the meeting! You forgot.",
+   "options": [
+    "do",
+    "did",
+    "have",
+    "was"
+   ],
+   "answer": 1,
+   "why": "Наголос на минулому — did + V."
+  },
+  {
+   "id": "auxiliary-verbs-24",
+   "type": "fill",
+   "q": "She can't swim, and neither ___ I.",
+   "answer": [
+    "can"
+   ],
+   "why": "neither + допоміжне з речення."
   }
  ]
 }

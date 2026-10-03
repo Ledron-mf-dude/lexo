@@ -254,6 +254,41 @@
    ],
    "why": "What would you like to…?",
    "hint": "Що б ти хотів робити?"
+  },
+  {
+   "id": "would-like-21",
+   "type": "choice",
+   "q": "I'd like ___ to my party.",
+   "options": [
+    "that you come",
+    "you to come",
+    "you come",
+    "you coming"
+   ],
+   "answer": 1,
+   "why": "would like + особа + to."
+  },
+  {
+   "id": "would-like-22",
+   "type": "choice",
+   "q": "\"What would you like?\" — \"I'll ___ the chicken, please.\"",
+   "options": [
+    "like",
+    "have",
+    "want to",
+    "take to"
+   ],
+   "answer": 1,
+   "why": "Замовлення — I'll have…"
+  },
+  {
+   "id": "would-like-23",
+   "type": "fill",
+   "q": "Would you like me ___ (open) the window?",
+   "answer": [
+    "to open"
+   ],
+   "why": "would like + особа + to."
   }
  ]
 }

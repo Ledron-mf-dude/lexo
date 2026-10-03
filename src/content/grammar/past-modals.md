@@ -57,6 +57,18 @@ tags: [past modals, should have, could have, must have, might have, can't have, 
 
 Див. також «Модальні дієслова: припущення», «Модальні дієслова: обов'язок, заборона, порада» та «Умовні речення».
 
+## Пасивні форми
+
+**modal + have been + V3**: *The letter **should have been sent** yesterday.* / *The window **must have been broken** by the wind.*
+
+## Continuous: must have been + -ing
+
+Про процес у минулому: *She **must have been sleeping** — she didn't answer.* / *You **can't have been listening**.*
+
+## Could have чи was able to?
+
+*I **could have** won* — міг, але не виграв. *I **was able to** win* — зміг і виграв. Див. «Can, could, be able to (вміння, можливість, дозвіл)».
+
 ## Типові помилки
 
 - ✗ *You should told me.* → ✓ *You should **have told** me.*
@@ -64,3 +76,5 @@ tags: [past modals, should have, could have, must have, might have, can't have, 
 - ✗ *She mustn't have seen me.* (висновок) → ✓ *She **can't have** seen me.*
 - ✗ *I should of known.* → ✓ *I should **have** known.*
 - ✗ *We could win yesterday, but we didn't.* → ✓ *We **could have won**…*
+- ✗ *The letter should have sent yesterday.* → ✓ *The letter should have **been sent** yesterday.*
+- ✗ *She must have sleeping.* → ✓ *She must have **been sleeping**.*

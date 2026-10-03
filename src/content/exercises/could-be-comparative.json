@@ -242,6 +242,41 @@
    ],
    "why": "couldn't be + порівняльний.",
    "hint": "Гіршого моменту не придумаєш."
+  },
+  {
+   "id": "could-be-comparative-20",
+   "type": "choice",
+   "q": "\"Do you mind if we go?\" — \"I couldn't care ___.\" (байдуже)",
+   "options": [
+    "more",
+    "less",
+    "better",
+    "worse"
+   ],
+   "answer": 1,
+   "why": "couldn't care less — байдуже."
+  },
+  {
+   "id": "could-be-comparative-21",
+   "type": "choice",
+   "q": "The service ___ better. We waited an hour.",
+   "options": [
+    "couldn't be",
+    "could be",
+    "can't be",
+    "could have"
+   ],
+   "answer": 1,
+   "why": "could be better — є куди покращувати."
+  },
+  {
+   "id": "could-be-comparative-22",
+   "type": "fill",
+   "q": "It was easy. It couldn't have been ___ (easy).",
+   "answer": [
+    "easier"
+   ],
+   "why": "Потрібен порівняльний ступінь."
   }
  ]
 }

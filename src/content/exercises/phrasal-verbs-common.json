@@ -283,6 +283,41 @@
    ],
    "why": "put off — відкласти.",
    "hint": "Давай відкладемо зустріч."
+  },
+  {
+   "id": "phrasal-verbs-common-24",
+   "type": "choice",
+   "q": "We ___ at 6 am to avoid the traffic.",
+   "options": [
+    "set off",
+    "set up",
+    "took off",
+    "got off"
+   ],
+   "answer": 0,
+   "why": "set off — вирушити."
+  },
+  {
+   "id": "phrasal-verbs-common-25",
+   "type": "choice",
+   "q": "It ___ that the restaurant was closed.",
+   "options": [
+    "turned up",
+    "turned out",
+    "found out",
+    "came out"
+   ],
+   "answer": 1,
+   "why": "turn out — виявитися."
+  },
+  {
+   "id": "phrasal-verbs-common-26",
+   "type": "fill",
+   "q": "My friends came to the station to see me ___.",
+   "answer": [
+    "off"
+   ],
+   "why": "see off — проводжати."
   }
  ]
 }

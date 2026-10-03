@@ -53,6 +53,31 @@ wordTags: [з прийменником]
 
 *She is **good at** tennis* (уміє) — *She is **good for** you* (корисно) — *She is **good to** me* (добра до мене).
 
+## Почуття: -ed + прийменник
+
+| Прикметник | Прийменник | Приклад |
+| --- | --- | --- |
+| bored, fed up, satisfied | **with** | I'm **fed up with** this weather. |
+| excited, worried, nervous | **about** | She's **excited about** the trip. |
+| shocked, surprised, amazed | **at / by** | We were **shocked by** the news. |
+| interested, involved | **in** | He's **involved in** the project. |
+| tired, sick | **of** (набридло) | I'm **tired of** waiting. |
+
+`Tired from` — втомлений від фізичного зусилля: *tired **from** the long walk*. `Tired of` — набридло.
+
+## Ще поширені
+
+*aware **of**, capable **of**, full **of**, short **of** (бракує), typical **of**, responsible **for**, famous **for**, similar **to**, used **to**, keen **on**, crazy **about**, good / bad **at**, polite / rude **to***.
+
+## Прийменник чи to-інфінітив?
+
+Деякі прикметники мають обидві схеми з різним змістом:
+
+| + прийменник + -ing | + to-інфінітив |
+| --- | --- |
+| *I'm **afraid of** flying.* — боюся літати загалом | *I'm **afraid to** ask.* — боюся (зараз) спитати |
+| *He's **sorry for** shouting.* — шкодує, що кричав | *I'm **sorry to** hear that.* — прикро чути |
+
 ## Типові помилки
 
 - ✗ *I'm interested about history.* → ✓ *I'm interested **in** history.*
@@ -60,5 +85,8 @@ wordTags: [з прийменником]
 - ✗ *He is married with Anna.* → ✓ *He is married **to** Anna.*
 - ✗ *I'm afraid from dogs.* → ✓ *I'm afraid **of** dogs.*
 - ✗ *different than* (BrE вважає розмовним) → ✓ *different **from***
+- ✗ *She is fond with animals.* → ✓ *She is fond **of** animals.*
+- ✗ *He is capable to do it.* → ✓ *He is capable **of doing** it.*
+- ✗ *I'm fed up of this weather.* → ✓ *I'm fed up **with** this weather.*
 
 Див. «Дієслово + прийменник» і «Gerund».

@@ -47,11 +47,26 @@ tags: [on time, in time, at the end, in the end, punctual, finally, вчасно
 - *He waited for hours and **at last** she came.*
 - *I couldn't decide, but **in the end** I bought it.*
 
+## Ще схожі пари
+
+| Пара | Різниця | Приклад |
+| --- | --- | --- |
+| **in the beginning** / **at the beginning of** | спочатку / на початку чогось | **In the beginning** I hated it. / **at the beginning of** May |
+| **at last** / **lastly** | нарешті (довго чекали) / і насамкінець (останній пункт переліку) | **At last** you're here! / **Lastly**, thank you all. |
+| **at first** / **first(ly)** | спершу (потім змінилося) / по-перше | **At first** I was nervous. / **First**, open the box. |
+| **in the way** / **on the way** | заважає / по дорозі | Your bag is **in the way**. / I'll buy milk **on the way** home. |
+
+## Just in time, right on time
+
+Підсилення: ***just in time*** — в останню мить; ***right on time*** — секунда в секунду.
+
 ## Типові помилки
 
 - ✗ *The train arrived in time, at exactly 9:00.* → ✓ *…arrived **on time**…* (за розкладом)
 - ✗ *At the end, we decided to stay.* (зрештою) → ✓ ***In the end,** we decided to stay.*
 - ✗ *in the end of the film* → ✓ ***at the end of** the film*
 - ✗ *I arrived on time to catch the train.* → ✓ *…**in time** to catch the train.*
+- ✗ *At last, I'd like to thank my family.* → ✓ ***Lastly**, I'd like to thank my family.*
+- ✗ *I'll buy bread in the way home.* → ✓ *I'll buy bread **on** the way home.*
 
 Див. також «Прийменники часу».

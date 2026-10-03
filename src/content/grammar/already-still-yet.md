@@ -52,11 +52,32 @@ tags: [already, still, yet, just, so far, ще, вже, все ще, ще не]
 | **Вже (так)** | I've **already** seen it. |
 | **Ще (так)** | I **still** live in Lviv. |
 
+## З іншими часами
+
+- **still** з Continuous — дія триває довше, ніж чекали: *Are you **still** waiting?*
+- **already** і **yet** в американській англійській часто з Past Simple: *Did you eat **yet**?* (BrE: *Have you eaten yet?*)
+- **already** з майбутнім: *By Friday I'll **already** have left.*
+
+## Yet як «але»
+
+Як сполучник `yet` = *but*, часто з відтінком несподіванки: *The plan is simple, **yet** effective.*
+
+## Ще / вже не: шкала
+
+| Ситуація | Слово |
+| --- | --- |
+| усе ще так | **still**: *She **still** lives here.* |
+| ще не сталося | **not … yet**: *He hasn't arrived **yet**.* |
+| уже сталося | **already**: *I've **already** paid.* |
+| уже не так | **not … any more / no longer**: *She doesn't live here **any more**.* Див. «No longer, any longer, anymore» |
+
 ## Типові помилки
 
 - ✗ *I have finished it yet.* → ✓ *I have **already** finished it.* (yet — у запереченні й питаннях)
 - ✗ *She yet lives here.* → ✓ *She **still** lives here.*
 - ✗ *I didn't finish yet.* (BrE) → ✓ *I **haven't finished** yet.*
 - ✗ *He hasn't still called.* → ✓ *He **still hasn't** called.*
+- ✗ *I'm already not hungry.* → ✓ *I'm not hungry **any more**.*
+- ✗ *Are you yet waiting?* → ✓ *Are you **still** waiting?*
 
 Див. «No longer, any longer, anymore».

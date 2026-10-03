@@ -38,11 +38,25 @@ tags: [the more the merrier, the sooner the better, double comparative, more and
 
 `The` тут — не артикль, а частина конструкції: вона стоїть перед **обома** порівняльними. Порівняльний ступінь утворюється як зазвичай (*better*, *more interesting*).
 
+## З іменником
+
+Після `the more / the less / the fewer` може стояти іменник: ***The more money** you earn, **the more** you spend.* / ***The fewer mistakes** you make, **the better** your mark.*
+
+## Порядок: що на що впливає
+
+Перша частина — **причина**, друга — **наслідок**. Перевірка: *If you practise more, you become better* → ***The more** you practise, **the better** you become.*
+
+## Майбутнє
+
+У першій частині майбутнє передаємо теперішнім часом, у другій — `will`: ***The sooner** we **leave**, **the earlier** we'**ll** get there.*
+
 ## Типові помилки
 
 - ✗ *More you practise, better you become.* → ✓ ***The** more you practise, **the** better you become.*
 - ✗ *The more you practise, the more better you become.* → ✓ *…the **better**…*
 - ✗ *The more is the better.* → ✓ ***The more, the better.***
 - ✗ *The more I know him, more I like him.* → ✓ *…**the more** I like him.*
+- ✗ *The more money you have, more problems you get.* → ✓ *The more money you have, **the more** problems you get.*
+- ✗ *The sooner we will leave, the earlier we'll arrive.* → ✓ *The sooner we **leave**, the earlier we'll arrive.*
 
 Див. «Ступені порівняння прикметників і прислівників».

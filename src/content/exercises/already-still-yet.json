@@ -253,6 +253,42 @@
    ],
    "why": "still — після підмета в питанні з be.",
    "hint": "На вулиці досі йде дощ?"
+  },
+  {
+   "id": "already-still-yet-21",
+   "type": "choice",
+   "q": "It's 10 pm and she's ___ working.",
+   "options": [
+    "yet",
+    "still",
+    "already",
+    "any more"
+   ],
+   "answer": 1,
+   "why": "Триває довше, ніж чекали — still."
+  },
+  {
+   "id": "already-still-yet-22",
+   "type": "choice",
+   "q": "I don't live there ___.",
+   "options": [
+    "still",
+    "yet",
+    "any more",
+    "already"
+   ],
+   "answer": 2,
+   "why": "Уже не так — not … any more."
+  },
+  {
+   "id": "already-still-yet-23",
+   "type": "fill",
+   "q": "The hotel was cheap, ___ very comfortable. (але)",
+   "answer": [
+    "yet",
+    "but"
+   ],
+   "why": "yet = but."
   }
  ]
 }

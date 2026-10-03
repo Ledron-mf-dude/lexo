@@ -41,6 +41,23 @@ tags: [reporting verbs, admit, deny, refuse, promise, suggest, advise, warn, apo
 
 `not` ставимо перед інфінітивом: *He **told me not to worry**.* / *She **promised not to tell**.*
 
+## Ще дієслова
+
+| Дієслово | Схема | Приклад |
+| --- | --- | --- |
+| **beg** | + особа + to | She **begged** him **to stay**. |
+| **urge** | + особа + to | They **urged** us **to leave**. |
+| **object to** | + -ing | He **objected to paying**. |
+| **boast about / of** | + -ing | She **boasted about winning**. |
+| **explain** | + (to особа) + that / wh- | He **explained** (to me) **why** he was late. |
+| **announce** | + that | They **announced that** the shop would close. |
+| **claim** | + to / that | He **claims to know** her. |
+| **forbid** | + особа + to | They **forbade** us **to enter**. |
+
+## Звичайна мова чи reporting verb?
+
+У розмові частіше просто *said / told / asked*; точні дієслова (*admitted, denied, insisted*) — у письмових переказах, новинах, на іспитах.
+
 ## Типові помилки
 
 - ✗ *She suggested me to go.* → ✓ *She suggested **going** / **that I go**.*
@@ -48,5 +65,7 @@ tags: [reporting verbs, admit, deny, refuse, promise, suggest, advise, warn, apo
 - ✗ *She apologised to be late.* → ✓ *She apologised **for being** late.*
 - ✗ *He accused her in stealing.* → ✓ *He accused her **of** stealing.*
 - ✗ *They explained me the rule.* → ✓ *They explained the rule **to me**.*
+- ✗ *He objected to pay.* → ✓ *He objected to **paying**.*
+- ✗ *He explained me why he was late.* → ✓ *He explained **to me** why he was late.*
 
 Про основні правила зсуву часів — «Reported speech».

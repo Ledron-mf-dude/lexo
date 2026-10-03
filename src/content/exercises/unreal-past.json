@@ -222,6 +222,41 @@
    ],
    "why": "would rather + Past Simple.",
    "hint": "Я б волів, щоб ти залишився."
+  },
+  {
+   "id": "unreal-past-19",
+   "type": "choice",
+   "q": "It's high time you ___ a decision.",
+   "options": [
+    "make",
+    "made",
+    "will make",
+    "have made"
+   ],
+   "answer": 1,
+   "why": "It's high time + Past Simple."
+  },
+  {
+   "id": "unreal-past-20",
+   "type": "choice",
+   "q": "I ___ if you could help me with this.",
+   "options": [
+    "wonder",
+    "was wondering",
+    "am wondering to",
+    "wondered if"
+   ],
+   "answer": 1,
+   "why": "Ввічливо — I was wondering if…"
+  },
+  {
+   "id": "unreal-past-21",
+   "type": "fill",
+   "q": "Suppose you ___ (lose) your job. What would you do?",
+   "answer": [
+    "lost"
+   ],
+   "why": "Уявна ситуація — Past Simple."
   }
  ]
 }

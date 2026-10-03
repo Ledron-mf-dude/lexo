@@ -218,6 +218,42 @@
    ],
    "why": "didn't + anywhere.",
    "hint": "Ми нікуди не ходили."
+  },
+  {
+   "id": "double-negatives-19",
+   "type": "choice",
+   "q": "She left without saying ___.",
+   "options": [
+    "nothing",
+    "anything",
+    "something not",
+    "none"
+   ],
+   "answer": 1,
+   "why": "Після without — any-."
+  },
+  {
+   "id": "double-negatives-20",
+   "type": "choice",
+   "q": "I don't like ___ of them.",
+   "options": [
+    "neither",
+    "either",
+    "none",
+    "no"
+   ],
+   "answer": 1,
+   "why": "У запереченні — either."
+  },
+  {
+   "id": "double-negatives-21",
+   "type": "fill",
+   "q": "I can ___ see anything without my glasses. (ледве)",
+   "answer": [
+    "hardly",
+    "barely"
+   ],
+   "why": "hardly — уже заперечне."
   }
  ]
 }

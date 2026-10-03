@@ -43,6 +43,19 @@ tags: [would rather, 'd rather, would rather than, would rather you did, would r
 
 Детальніше: «Prefer, would prefer, would rather, would sooner».
 
+## Would rather чи had better?
+
+| would rather | had better |
+| --- | --- |
+| перевага | порада з попередженням |
+| *I'd rather stay in.* | *You'd better stay in — it's freezing.* |
+
+Обидва скорочуються до **'d**, і після обох — інфінітив **без to**.
+
+## Короткі відповіді
+
+*"Shall we go out?" — "I'**d rather not**."* / *"Do you mind if I smoke?" — "I'**d rather you didn't**."* — ввічлива відмова.
+
 ## Типові помилки
 
 - ✗ *I'd rather to stay.* → ✓ *I'd rather **stay**.*
@@ -50,3 +63,5 @@ tags: [would rather, 'd rather, would rather than, would rather you did, would r
 - ✗ *I'd rather you stay here.* → ✓ *I'd rather you **stayed** here.* (інша особа — Past Simple)
 - ✗ *She'd rather goes.* → ✓ *She'd rather **go**.*
 - ✗ *I'd rather walk that drive.* → ✓ *…walk **than** drive.*
+- ✗ *I'd rather not to go.* → ✓ *I'd rather not **go**.*
+- ✗ *I'd rather you don't tell anyone.* → ✓ *I'd rather you **didn't** tell anyone.*

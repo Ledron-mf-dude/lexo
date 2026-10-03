@@ -47,9 +47,27 @@ tags: [unless, provided that, as long as, supposing, otherwise, but for, if it w
 
 Інверсія в запереченні: **Had I not** known…, **Were I not** busy… Див. також «Inversion».
 
+## But for, without, otherwise
+
+- ***Without** your help, I would have failed.* = *If you hadn't helped me…*
+- *I took a taxi; **otherwise** I'd have been late.*
+- ***But for** the rain, we would have won.* (книжно)
+
+## Imagine, assuming, what if
+
+- ***Imagine** you won the lottery — what would you do?*
+- ***Assuming** the weather is fine, we'll go.* — якщо (припускаючи)
+- ***What if** we miss the train?* — а що, як…
+
+## Змішані умовні з модальними
+
+*If I **had studied** medicine, I **could be** a doctor now.* / *If she **weren't** so shy, she **might have** asked him.* Див. «Умовні речення (conditionals): zero, first, second, third, mixed».
+
 ## Типові помилки
 
 - ✗ *Unless you don't hurry, you'll be late.* → ✓ ***Unless** you hurry…* (unless вже містить заперечення)
 - ✗ *In case it will rain, take an umbrella.* → ✓ *…in case it **rains**.*
 - ✗ *If I would have known…* → ✓ ***Had I known…*** / *If I **had** known…*
 - ✗ *Should you will need help…* → ✓ ***Should you need** help…*
+- ✗ *Without your help, I would fail yesterday.* → ✓ *Without your help, I **would have failed** yesterday.*
+- ✗ *Assuming the weather will be fine, we'll go.* → ✓ *Assuming the weather **is** fine, we'll go.*

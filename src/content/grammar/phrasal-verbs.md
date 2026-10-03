@@ -44,11 +44,34 @@ wordTags: [фразові дієслова]
 | **Phrasal verb** | give up, turn on | частка змінює значення |
 | **Prepositional verb** | look at, listen to, depend on | прийменник просто вимагається дієсловом |
 
+## Як здогадатися про значення
+
+Частки мають типові значення, які допомагають:
+
+| Частка | Типове значення | Приклади |
+| --- | --- | --- |
+| **up** | завершення, збільшення, вгору | eat **up**, use **up**, speed **up**, turn **up** |
+| **down** | зменшення, запис, вниз | slow **down**, write **down**, cut **down** |
+| **out** | назовні, до кінця, зникнення | find **out**, run **out**, sell **out**, work **out** |
+| **off** | від'єднання, скасування, старт | turn **off**, call **off**, take **off**, set **off** |
+| **on** | продовження, увімкнення | go **on**, carry **on**, turn **on**, put **on** |
+| **back** | повернення | call **back**, give **back**, pay **back** |
+
+## Стиль
+
+Фразові дієслова — природна розмовна мова; в офіційному тексті їх часто замінюють одним словом: *find out → discover*, *put off → postpone*, *go up → increase*, *look into → investigate*.
+
+## Пасив
+
+Частка лишається з дієсловом: *The meeting **was called off**.* / *The children **were looked after** by a nanny.*
+
 ## Типові помилки
 
 - ✗ *Pick up it.* → ✓ *Pick **it up**.* (займенник — всередині)
 - ✗ *She looks her after.* → ✓ *She **looks after** her.* (нероздільне)
 - ✗ *I can't put up noise.* → ✓ *I can't put up **with** noise.*
 - ✗ *The plane took off the ground at 6.* → ✓ *The plane **took off** at 6.* (take off = злетіти, без додатка)
+- ✗ *Can you pick up me at six?* → ✓ *Can you pick **me up** at six?*
+- ✗ *She gave up to smoke.* → ✓ *She gave up **smoking**.*
 
 Перелік найуживаніших — у статті «Поширені фразові дієслова».

@@ -42,9 +42,24 @@ tags: [have got, has got, have, possession, володіння, мати, haven'
 - `Have got` = **мати**. Але `have` у виразах *have breakfast, have a shower, have a good time* **не замінюється** на `have got`.
 - *I've got to go.* = *I have to go.* (треба йти, розмовно). Див. «Модальні дієслова: обов'язок, заборона, порада».
 
+## Have got to = have to
+
+Розмовне британське `have got to` означає обов'язок: *I'**ve got to** finish this today.* У минулому — лише *had to*. Див. «Модальні дієслова: обов'язок, заборона, порада».
+
+## Короткі відповіді й теги
+
+- *"Have you got a car?" — "Yes, I **have**." / "No, I **haven't**."* (без *got*)
+- *You've got a dog, **haven't you**?*
+
+## Американський варіант
+
+В американській англійській частіше **have** з `do`: *Do you have a car?* Форма *have got* теж зрозуміла, але звучить більш британською. Минуле *gotten* — це інше значення («отримав, став»): *She's **gotten** better.*
+
 ## Типові помилки
 
 - ✗ *Do you have got a car?* → ✓ ***Have** you **got** a car?* / *Do you **have** a car?*
 - ✗ *I had got a dog as a child.* → ✓ *I **had** a dog as a child.* (have got — лише теперішнє)
 - ✗ *She have got two sisters.* → ✓ *She **has** got two sisters.*
 - ✗ *I've got breakfast at 8.* → ✓ *I **have** breakfast at 8.* (have у виразах не замінюємо)
+- ✗ *Yes, I have got.* → ✓ *Yes, I **have**.*
+- ✗ *I've got to went home early yesterday.* → ✓ *I **had to** go home early yesterday.*

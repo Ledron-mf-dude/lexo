@@ -53,11 +53,24 @@ tags: [pretty, rather, quite, fairly, very, extremely, degree adverbs, modifiers
 
 > В американській англійській `quite` частіше означає «дуже»: *quite good* там звучить сильніше, ніж у британській.
 
+## Quite у сталих виразах
+
+- **quite a lot / quite a few / quite a bit** — доволі багато: *She has **quite a few** friends here.*
+- **not quite** — не зовсім: *I'm **not quite** ready.* / *That's **not quite** right.*
+- **quite right / quite sure / quite enough** — цілком.
+- ***Quite!*** — британське «саме так, згоден».
+
+## Rather than і would rather
+
+**rather than** — «замість, а не»: *I'll walk **rather than** take the bus.* **would rather** — «волів би»: *I'd **rather** stay in.* Див. «Would rather (краще б; віддавати перевагу)».
+
 ## Типові помилки
 
 - ✗ *a quite nice day* → ✓ ***quite a** nice day*
 - ✗ *It's rather good weather, I love it!* (rather часто з відтінком небажаного) → ✓ *It's **pretty / really** good weather!*
 - ✗ *very perfect* → ✓ ***quite / absolutely** perfect* (абсолютні прикметники не градуються)
 - ✗ *fairly a good film* → ✓ *a **fairly** good film* (fairly і pretty — після a)
+- ✗ *I'm not quite agree.* → ✓ *I **don't quite** agree.*
+- ✗ *She has quite few friends.* → ✓ *She has **quite a few** friends.*
 
 Див. «Порівняльний ступінь: a bit, a lot, much».

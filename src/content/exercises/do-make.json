@@ -273,6 +273,41 @@
    ],
    "why": "do the laundry.",
    "hint": "Вона пере білизну по неділях."
+  },
+  {
+   "id": "do-make-23",
+   "type": "choice",
+   "q": "Who's going to ___ the cooking tonight?",
+   "options": [
+    "make",
+    "do",
+    "have",
+    "get"
+   ],
+   "answer": 1,
+   "why": "Домашні справи на -ing — do."
+  },
+  {
+   "id": "do-make-24",
+   "type": "choice",
+   "q": "This film always ___ me cry.",
+   "options": [
+    "does",
+    "makes",
+    "gets",
+    "lets"
+   ],
+   "answer": 1,
+   "why": "make + особа + інфінітив без to."
+  },
+  {
+   "id": "do-make-25",
+   "type": "fill",
+   "q": "I'd like to ___ a complaint about the room.",
+   "answer": [
+    "make"
+   ],
+   "why": "make a complaint."
   }
  ]
 }

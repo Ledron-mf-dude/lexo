@@ -287,6 +287,41 @@
    ],
    "why": "ask for — просити щось.",
    "hint": "Вона попросила склянку води."
+  },
+  {
+   "id": "verb-preposition-24",
+   "type": "choice",
+   "q": "I've never heard ___ this writer.",
+   "options": [
+    "about",
+    "of",
+    "from",
+    "for"
+   ],
+   "answer": 1,
+   "why": "hear of — знати про існування."
+  },
+  {
+   "id": "verb-preposition-25",
+   "type": "choice",
+   "q": "The hotel provided us ___ towels.",
+   "options": [
+    "for",
+    "with",
+    "of",
+    "by"
+   ],
+   "answer": 1,
+   "why": "provide sb with sth."
+  },
+  {
+   "id": "verb-preposition-26",
+   "type": "fill",
+   "q": "Can you translate this ___ English?",
+   "answer": [
+    "into"
+   ],
+   "why": "translate into."
   }
  ]
 }

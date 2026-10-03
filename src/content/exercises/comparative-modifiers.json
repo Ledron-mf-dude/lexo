@@ -272,6 +272,41 @@
    ],
    "why": "even + порівняльний.",
    "hint": "Сьогодні ще холодніше."
+  },
+  {
+   "id": "comparative-modifiers-22",
+   "type": "choice",
+   "q": "The new phone is ___ faster than the old one.",
+   "options": [
+    "very",
+    "a lot",
+    "a lot of",
+    "too"
+   ],
+   "answer": 1,
+   "why": "Перед порівняльним — a lot."
+  },
+  {
+   "id": "comparative-modifiers-23",
+   "type": "choice",
+   "q": "It's getting ___ to find a flat.",
+   "options": [
+    "hard and hard",
+    "harder and harder",
+    "more and harder",
+    "hardest and hardest"
+   ],
+   "answer": 1,
+   "why": "Постійне зростання: harder and harder."
+  },
+  {
+   "id": "comparative-modifiers-24",
+   "type": "fill",
+   "q": "There are fewer and ___ cinemas in small towns.",
+   "answer": [
+    "fewer"
+   ],
+   "why": "Лічильні — fewer and fewer."
   }
  ]
 }

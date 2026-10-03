@@ -51,9 +51,28 @@ tags: [time markers, always, usually, often, now, at the moment, every day, yest
 | **for** | *I've lived here **for** years* (досі) — *I lived there **for** years* (уже ні) |
 | **when** | *When **did** you arrive?* — Past Simple (не Present Perfect) |
 
+## Маркери Perfect Continuous і Future Perfect
+
+| Час | Маркери |
+| --- | --- |
+| **Present Perfect Continuous** | for, since, how long, all day, lately, recently |
+| **Past Perfect Continuous** | for … when, how long … before |
+| **Future Continuous** | this time tomorrow, at 8 tomorrow |
+| **Future Perfect** | by, by then, by the time, by the end of |
+
+## Маркер — не закон
+
+Той самий маркер буває в різних часах, рішення залежить від змісту:
+
+- ***Just*** — Present Perfect у BrE, Past Simple в AmE: *I've just eaten / I just ate.*
+- ***Always*** — звичка (*He always helps*) або роздратування з Continuous (*He's always complaining*).
+- ***Now*** — дія зараз (*I'm working now*) або стан (*I live in Kyiv now*).
+
 ## Типові помилки
 
 - ✗ *I have seen him yesterday.* → ✓ *I **saw** him yesterday.*
 - ✗ *I am knowing him since 2010.* → ✓ *I **have known** him since 2010.*
 - ✗ *She works now.* (дія саме зараз) → ✓ *She **is working** now.*
 - ✗ *When have you arrived?* → ✓ *When **did** you arrive?*
+- ✗ *This time tomorrow I will fly to Rome.* → ✓ *This time tomorrow I **will be flying** to Rome.*
+- ✗ *By the end of the month I will finish.* → ✓ *By the end of the month I **will have finished**.*

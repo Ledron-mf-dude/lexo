@@ -65,11 +65,35 @@ wordTags: [фразові дієслова]
 | **get on with** | ладнати; продовжувати | Let's **get on with** work. |
 | **deal with** I | мати справу | I'll **deal with** it. |
 
+## Робота й навчання
+
+| Дієслово | Значення | Приклад |
+| --- | --- | --- |
+| **hand in** T | здати (роботу) | **Hand in** your essays on Friday. |
+| **catch up (with)** | наздогнати | I need to **catch up with** my work. |
+| **drop out (of)** | кинути (навчання) | He **dropped out of** university. |
+| **take over** T | перебрати керування | A new manager **took over** the team. |
+| **turn out** | виявитися | It **turned out** that he was right. |
+| **point out** T | вказати, зауважити | She **pointed out** a mistake. |
+| **look into** I | розглянути, дослідити | We'll **look into** the problem. |
+| **put forward** T | запропонувати | He **put forward** a new idea. |
+
+## Подорожі
+
+| Дієслово | Значення | Приклад |
+| --- | --- | --- |
+| **set off / set out** | вирушити | We **set off** at dawn. |
+| **see off** T | проводжати | They **saw** me **off** at the airport. |
+| **get away** | вирватися відпочити | We need to **get away** for a weekend. |
+| **stop over** | зробити зупинку | We **stopped over** in Dubai. |
+
 ## Типові помилки
 
 - ✗ *Turn off it.* → ✓ *Turn **it off**.*
 - ✗ *I look forward to see you.* → ✓ *I look forward to **seeing** you.*
 - ✗ *We ran out milk.* → ✓ *We ran out **of** milk.*
 - ✗ *She looks her grandmother after.* → ✓ *She **looks after** her grandmother.*
+- ✗ *It turned that he was right.* → ✓ *It **turned out** that he was right.*
+- ✗ *Please hand your essays.* → ✓ *Please hand **in** your essays.*
 
 Правила розташування додатка — у статті «Фразові дієслова: що це і як користуватися».

@@ -50,9 +50,29 @@ tags: [modals, might, may, should, must, can't, possibility, probability, logica
 - **can't** — «це неможливо» (для заперечення використовуємо саме `can't`, а не `mustn't`).
 - `should have + V3` частіше означає докір (*You should have told me* — слід було сказати), а не припущення. Для припущень про минуле надійніше `must / may / might have + V3`.
 
+## Питання
+
+Про можливість питаємо через **could, might** або *Do you think…?*, а не `must` / `may`:
+
+- ***Could** it be a mistake?*
+- ***Might** she be at home?* (книжно)
+- ***Do you think** he's lost?* (найприродніше)
+
+## Can't чи couldn't про минуле
+
+Обидва правильні: *She **can't have** / **couldn't have** seen me.*
+
+## Must — обов'язок чи висновок?
+
+| Обов'язок | Висновок |
+| --- | --- |
+| *You **must** wear a helmet.* | *You **must** be tired after the trip.* |
+| заперечення: **mustn't** (не можна) | заперечення: **can't** (не може бути) |
+
 ## Типові помилки
 
 - ✗ *He mustn't be at home — the lights are off.* (упевнене «ні» — can't) → ✓ *He **can't** be at home — the lights are off.*
 - ✗ *She must be sleep.* → ✓ *She must **be sleeping**.*
 - ✗ *He might forgot.* → ✓ *He might **have forgotten**.*
 - ✗ *They can have missed the bus.* → ✓ *They **could / may / might** have missed the bus.*
+- ✗ *She mustn't be serious!* → ✓ *She **can't** be serious!*

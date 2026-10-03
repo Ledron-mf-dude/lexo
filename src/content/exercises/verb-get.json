@@ -262,6 +262,41 @@
    ],
    "why": "get = отримати.",
    "hint": "Я отримав від неї повідомлення."
+  },
+  {
+   "id": "verb-get-22",
+   "type": "choice",
+   "q": "Hurry up and get ___. We're leaving in five minutes.",
+   "options": [
+    "dressing",
+    "dressed",
+    "dress",
+    "to dress"
+   ],
+   "answer": 1,
+   "why": "get dressed — одягнутися."
+  },
+  {
+   "id": "verb-get-23",
+   "type": "choice",
+   "q": "I finally got my brother ___ me his car.",
+   "options": [
+    "lend",
+    "to lend",
+    "lending",
+    "lent"
+   ],
+   "answer": 1,
+   "why": "get + особа + to + V."
+  },
+  {
+   "id": "verb-get-24",
+   "type": "fill",
+   "q": "It's time to get ___ of all this old furniture.",
+   "answer": [
+    "rid"
+   ],
+   "why": "get rid of — позбутися."
   }
  ]
 }

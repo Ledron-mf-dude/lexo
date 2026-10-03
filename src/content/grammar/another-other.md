@@ -43,9 +43,29 @@ tags: [another, other, others, the other, the others, one more, else, інший
 
 Див. також «Зворотні займенники: myself, yourself, each other» і «Quantifiers».
 
+## Another + число
+
+**another** + число + множина — «ще (стільки)»: *I need **another three** days.* / *Wait **another ten** minutes.*
+
+## The other day, every other day
+
+| Вираз | Значення |
+| --- | --- |
+| **the other day** | днями, нещодавно |
+| **every other** day / week | через день / тиждень |
+| **on the other hand** | з іншого боку |
+| **other than** | крім |
+| **otherwise** | інакше |
+
+## Each other чи one another?
+
+Обидва — «один одного». `One another` трохи формальніше й частіше про групу з кількох людей, але в розмові їх вживають однаково.
+
 ## Типові помилки
 
 - ✗ *Can I have other coffee?* → ✓ *Can I have **another** coffee?*
 - ✗ *another books* → ✓ ***other** books* (another — лише з одниною)
 - ✗ *others people* → ✓ ***other** people*
 - ✗ *One is red, other is blue.* → ✓ *…**the other** is blue.*
+- ✗ *I need other three days.* → ✓ *I need **another** three days.*
+- ✗ *I saw him the another day.* → ✓ *I saw him **the other** day.*

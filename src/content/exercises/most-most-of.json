@@ -251,6 +251,41 @@
    ],
    "why": "mostly — прислівник.",
    "hint": "Я здебільшого слухаю джаз."
+  },
+  {
+   "id": "most-most-of-21",
+   "type": "choice",
+   "q": "___ of the time I work from home.",
+   "options": [
+    "The most",
+    "Most",
+    "Mostly",
+    "Almost"
+   ],
+   "answer": 1,
+   "why": "Most of the time."
+  },
+  {
+   "id": "most-most-of-22",
+   "type": "choice",
+   "q": "___ students passed the exam. (формально)",
+   "options": [
+    "The majority of",
+    "The most of",
+    "Almost",
+    "Mostly"
+   ],
+   "answer": 0,
+   "why": "the majority of = most of."
+  },
+  {
+   "id": "most-most-of-23",
+   "type": "fill",
+   "q": "Most ___ my friends live abroad.",
+   "answer": [
+    "of"
+   ],
+   "why": "Most of + my."
   }
  ]
 }

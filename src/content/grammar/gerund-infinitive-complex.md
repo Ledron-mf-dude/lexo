@@ -44,11 +44,25 @@ Perfect gerund підкреслює, що дія була **раніше**: *He 
 - *I'm happy **to have met** you.* — радий, що зустрів (тепер).
 - *I'm proud of **having won**.* — пишаюся тим, що виграв.
 
+## Присвійне перед -ing
+
+Виконавця дії перед gerund можна назвати **об'єктним** займенником (розмовно) або **присвійним** (формально): *Do you mind **me / my** opening the window?* / *I don't like **him / his** coming late.*
+
+## Інфінітив мети з for + особа
+
+**for** + особа + **to**-інфінітив: *It's important **for you to** rest.* / *The plan is **for us to** meet at six.*
+
+## Need + -ing і want + -ing (BrE)
+
+Пасивне значення без пасивної форми: *The car **needs washing**.* = *The car needs **to be washed**.*
+
 ## Типові помилки
 
 - ✗ *She wants that I come.* → ✓ *She wants **me to come**.*
 - ✗ *They made me to wait.* → ✓ *They made me **wait**.*
 - ✗ *Let him to go.* → ✓ *Let him **go**.*
 - ✗ *He seems to leave.* (уже пішов) → ✓ *He seems **to have left**.*
+- ✗ *It's important that you to rest.* → ✓ *It's important **for you to** rest.*
+- ✗ *Do you mind I open the window?* → ✓ *Do you mind **if I open** the window?* / *Do you mind **my opening** the window?*
 
 Основи — у статтях «Gerund» і «Gerund чи infinitive: verb patterns».

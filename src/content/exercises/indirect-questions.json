@@ -267,6 +267,51 @@
    ],
    "why": "if + прямий порядок.",
    "hint": "Скажіть, будь ласка, чи відкритий магазин?"
+  },
+  {
+   "id": "indirect-questions-21",
+   "type": "choice",
+   "q": "___ she will say?",
+   "options": [
+    "Do you think what",
+    "What do you think",
+    "What you think",
+    "Do you think that what"
+   ],
+   "answer": 1,
+   "why": "What do you think + прямий порядок."
+  },
+  {
+   "id": "indirect-questions-22",
+   "type": "choice",
+   "q": "Could you let me know when ___?",
+   "options": [
+    "is the meeting",
+    "the meeting is",
+    "does the meeting start",
+    "the meeting is it"
+   ],
+   "answer": 1,
+   "why": "Непряме питання — прямий порядок."
+  },
+  {
+   "id": "indirect-questions-23",
+   "type": "order",
+   "words": [
+    "I",
+    "was",
+    "wondering",
+    "if",
+    "you",
+    "could",
+    "help",
+    "me"
+   ],
+   "answer": [
+    "I was wondering if you could help me"
+   ],
+   "why": "I was wondering if + прямий порядок — дуже ввічливо.",
+   "hint": "Я хотів спитати, чи не могли б ви мені допомогти."
   }
  ]
 }

@@ -240,6 +240,41 @@
    ],
    "why": "would — майбутнє з погляду минулого.",
    "hint": "Він пообіцяв, що зателефонує."
+  },
+  {
+   "id": "future-in-the-past-20",
+   "type": "choice",
+   "q": "I ___ leave when the phone rang.",
+   "options": [
+    "was going",
+    "was about to",
+    "will",
+    "would to"
+   ],
+   "answer": 1,
+   "why": "От-от — was about to."
+  },
+  {
+   "id": "future-in-the-past-21",
+   "type": "choice",
+   "q": "He promised he ___ help us.",
+   "options": [
+    "will",
+    "would",
+    "is going",
+    "shall"
+   ],
+   "answer": 1,
+   "why": "Майбутнє в минулому — would."
+  },
+  {
+   "id": "future-in-the-past-22",
+   "type": "fill",
+   "q": "We ___ going to go camping, but it rained.",
+   "answer": [
+    "were"
+   ],
+   "why": "План, що не здійснився, — were going to."
   }
  ]
 }

@@ -248,6 +248,41 @@
    ],
    "why": "has gone — ще там.",
    "hint": "Вона пішла на роботу."
+  },
+  {
+   "id": "verb-go-21",
+   "type": "choice",
+   "q": "\"Dinner's ready!\" — \"I'm ___!\"",
+   "options": [
+    "going",
+    "coming",
+    "go",
+    "come"
+   ],
+   "answer": 1,
+   "why": "Рух до співрозмовника — coming."
+  },
+  {
+   "id": "verb-go-22",
+   "type": "choice",
+   "q": "This jacket doesn't go ___ these trousers.",
+   "options": [
+    "for",
+    "with",
+    "to",
+    "on"
+   ],
+   "answer": 1,
+   "why": "go with — пасувати до."
+  },
+  {
+   "id": "verb-go-23",
+   "type": "fill",
+   "q": "My dad started to go ___ when he was 40. (лисіти)",
+   "answer": [
+    "bald"
+   ],
+   "why": "go bald — лисіти."
   }
  ]
 }

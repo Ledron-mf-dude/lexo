@@ -262,6 +262,41 @@
    ],
    "why": "would prefer to + V.",
    "hint": "Вона воліла б почекати."
+  },
+  {
+   "id": "prefer-would-prefer-22",
+   "type": "choice",
+   "q": "I'd prefer ___ here.",
+   "options": [
+    "you stay",
+    "you to stay",
+    "that you staying",
+    "you staying"
+   ],
+   "answer": 1,
+   "why": "would prefer + особа + to."
+  },
+  {
+   "id": "prefer-would-prefer-23",
+   "type": "choice",
+   "q": "I'd prefer it if you ___ smoke here.",
+   "options": [
+    "don't",
+    "didn't",
+    "won't",
+    "wouldn't to"
+   ],
+   "answer": 1,
+   "why": "would prefer it if + Past Simple."
+  },
+  {
+   "id": "prefer-would-prefer-24",
+   "type": "fill",
+   "q": "\"Shall we take the bus?\" — \"I'd prefer not ___.\"",
+   "answer": [
+    "to"
+   ],
+   "why": "I'd prefer not to."
   }
  ]
 }

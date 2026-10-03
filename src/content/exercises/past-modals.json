@@ -235,6 +235,43 @@
    ],
    "why": "can't have + V3.",
    "hint": "Він не міг нас бачити."
+  },
+  {
+   "id": "past-modals-20",
+   "type": "choice",
+   "q": "The road is wet. It ___ in the night.",
+   "options": [
+    "must rain",
+    "must have rained",
+    "should rain",
+    "can rain"
+   ],
+   "answer": 1,
+   "why": "Висновок про минуле — must have + V3."
+  },
+  {
+   "id": "past-modals-21",
+   "type": "choice",
+   "q": "The report ___ yesterday, but nobody did it.",
+   "options": [
+    "should have sent",
+    "should have been sent",
+    "should be sent",
+    "should send"
+   ],
+   "answer": 1,
+   "why": "Пасив про минуле — should have been + V3."
+  },
+  {
+   "id": "past-modals-22",
+   "type": "fill",
+   "q": "He didn't answer. He ___ have been sleeping.",
+   "answer": [
+    "must",
+    "might",
+    "may"
+   ],
+   "why": "Припущення про процес у минулому."
   }
  ]
 }

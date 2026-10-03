@@ -261,6 +261,41 @@
    ],
    "why": "V3 — пасив.",
    "hint": "Зроблені в Італії, ці черевики дорогі."
+  },
+  {
+   "id": "participle-clauses-21",
+   "type": "choice",
+   "q": "___ a car, we had to walk.",
+   "options": [
+    "Not having",
+    "Having not",
+    "Didn't have",
+    "No having"
+   ],
+   "answer": 0,
+   "why": "Заперечення: not + -ing."
+  },
+  {
+   "id": "participle-clauses-22",
+   "type": "choice",
+   "q": "The letters ___ yesterday arrived today.",
+   "options": [
+    "sending",
+    "sent",
+    "having sent",
+    "send"
+   ],
+   "answer": 1,
+   "why": "Пасивне значення — V3."
+  },
+  {
+   "id": "participle-clauses-23",
+   "type": "fill",
+   "q": "___ (finish) the report, she went home.",
+   "answer": [
+    "Having finished"
+   ],
+   "why": "Раніше за головну дію — having + V3."
   }
  ]
 }

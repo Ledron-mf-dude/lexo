@@ -272,6 +272,41 @@
    ],
    "why": "now — Present Continuous.",
    "hint": "Ми зараз обідаємо."
+  },
+  {
+   "id": "time-markers-23",
+   "type": "choice",
+   "q": "How long ___ for this company?",
+   "options": [
+    "do you work",
+    "have you been working",
+    "are you working",
+    "did you work"
+   ],
+   "answer": 1,
+   "why": "How long + тривалість до тепер — Present Perfect Continuous."
+  },
+  {
+   "id": "time-markers-24",
+   "type": "choice",
+   "q": "By the end of the year we ___ the project.",
+   "options": [
+    "finish",
+    "will have finished",
+    "will finish",
+    "are finishing"
+   ],
+   "answer": 1,
+   "why": "By the end of — Future Perfect."
+  },
+  {
+   "id": "time-markers-25",
+   "type": "fill",
+   "q": "This time tomorrow we ___ (fly) over the Atlantic.",
+   "answer": [
+    "will be flying"
+   ],
+   "why": "this time tomorrow — Future Continuous."
   }
  ]
 }

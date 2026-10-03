@@ -39,9 +39,23 @@ tags: [whatever, whenever, wherever, whoever, whichever, however, no matter, б�
 - ***Whatever!*** — Мені байдуже / як хочеш.
 - *"When shall we meet?" — "**Whenever**."* — Коли завгодно.
 
+## No matter + питальне слово
+
+`No matter what / where / who / how` — те саме, що `whatever / wherever / whoever / however`, але трохи розмовніше: ***No matter how** hard I try, I can't do it.* Після `no matter` — **теперішній** час, не `will`.
+
+## Ever у питаннях
+
+`Ever` після питального слова підсилює здивування — пишеться **окремо**: ***What ever** happened to him?* / ***Why ever** did you do that?* Порівняйте: *whatever* (що завгодно) — разом.
+
+## Whatever як «будь-який»
+
+Після заперечення — «зовсім ніякий»: *I have **no** idea **whatever**.* / *There's **no** reason **whatsoever**.*
+
 ## Типові помилки
 
 - ✗ *Whatever you will say, I won't change my mind.* → ✓ *Whatever you **say**…*
 - ✗ *However I try hard, I fail.* → ✓ ***However hard** I try, I fail.*
 - ✗ *Call me whenever you will need.* → ✓ *…whenever you **need** (me).*
 - ✗ *Who ever did this…* → ✓ ***Whoever** did this…* (разом)
+- ✗ *No matter how hard I will try, I fail.* → ✓ *No matter how hard I **try**, I fail.*
+- ✗ *You can sit wherever do you like.* → ✓ *You can sit wherever **you like**.*

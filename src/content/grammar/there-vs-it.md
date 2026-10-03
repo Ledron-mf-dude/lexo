@@ -50,9 +50,28 @@ tags: [there, it, preparatory subject, it is important to, it takes, dummy subje
 
 - *This is my phone. **It** is new.* Див. «This, that, these, those».
 
+## It + час і відстань
+
+- ***It's** a long way to the station.* / ***It's** ten minutes' walk.*
+- ***It's** been a long time since we met.* — Давно не бачились.
+- ***It's** time to go.*
+
+## It is said, it seems
+
+`It` у ролі «порожнього» підмета вводить думку чи повідомлення: ***It seems that** he's left.* / ***It is said that**…* Див. «Distancing: apparently, it seems, is said to (обережні твердження)».
+
+## There's no … / It's no …
+
+| There's no + іменник | It's no + use / good |
+| --- | --- |
+| ***There's no** milk left.* — немає | ***It's no use** crying.* — марно |
+| ***There's no point in** waiting.* | ***It's no good** complaining.* |
+
 ## Типові помилки
 
 - ✗ *Is raining.* → ✓ ***It** is raining.* (підмет обов'язковий)
 - ✗ *There is difficult to learn English.* → ✓ ***It** is difficult to learn English.*
 - ✗ *It is a problem with the printer.* (нова інформація) → ✓ ***There is** a problem…*
 - ✗ *Takes two hours.* → ✓ ***It takes** two hours.*
+- ✗ *There is a long way to the station.* → ✓ ***It** is a long way to the station.*
+- ✗ *Is been a long time.* → ✓ ***It's** been a long time.*

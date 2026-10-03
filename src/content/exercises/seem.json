@@ -260,6 +260,41 @@
    ],
    "why": "seem + perfect infinitive.",
    "hint": "Схоже, вони пішли."
+  },
+  {
+   "id": "seem-21",
+   "type": "choice",
+   "q": "I can't seem ___ this problem.",
+   "options": [
+    "solve",
+    "to solve",
+    "solving",
+    "to solving"
+   ],
+   "answer": 1,
+   "why": "can't seem to + V."
+  },
+  {
+   "id": "seem-22",
+   "type": "choice",
+   "q": "You ___ tired. Did you sleep badly?",
+   "options": [
+    "seem to",
+    "look",
+    "seem like",
+    "look like"
+   ],
+   "answer": 1,
+   "why": "На вигляд — look + прикметник."
+  },
+  {
+   "id": "seem-23",
+   "type": "fill",
+   "q": "There seem ___ be some mistakes in the text.",
+   "answer": [
+    "to"
+   ],
+   "why": "There seem to be."
   }
  ]
 }

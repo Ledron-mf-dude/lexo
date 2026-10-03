@@ -42,11 +42,27 @@ tags: [future continuous, future perfect, future perfect continuous, will be doi
 
 Після `when`, `before`, `by the time`, `as soon as` — **теперішній час**, не `will`: *By the time you **arrive**, I'**ll have gone**.*
 
+## Future Continuous для звичайних подій
+
+Подія, яка станеться **сама собою**, як частина розпорядку: *I'**ll be seeing** Tom at work tomorrow, so I can give him the book.* Не план і не рішення — просто так складеться.
+
+## Future Perfect: заперечення й питання
+
+- *I **won't have finished** by six.*
+- ***Will** you **have finished** by then?*
+- ***How long will** you **have been working** here by June?*
+
+## Припущення про теперішнє
+
+`Will be + -ing` і `will have + V3` іноді — упевнене припущення: *Don't call now — they**'ll be having** dinner.* / *She**'ll have arrived** by now.*
+
 ## Типові помилки
 
 - ✗ *By 6 pm I will finish the report.* (наголос «до») → ✓ *By 6 pm I **will have finished** the report.*
 - ✗ *This time tomorrow I will fly to Rome.* → ✓ *…I **will be flying** to Rome.*
 - ✗ *By the time you will arrive…* → ✓ *By the time you **arrive**…*
 - ✗ *I will have been knowing him for ten years.* → ✓ *I **will have known** him…* (know — дієслово стану)
+- ✗ *Will you have finish by six?* → ✓ *Will you have **finished** by six?*
+- ✗ *By June I will be working here for ten years.* → ✓ *By June I **will have been working** here for ten years.*
 
 Огляд форм майбутнього — у статті «Майбутнє: Present Continuous, be going to, Present Simple, Future Simple».

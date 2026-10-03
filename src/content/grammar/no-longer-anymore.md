@@ -40,11 +40,26 @@ tags: [no longer, any longer, anymore, not any more, no more, still, вже не
 - *He **still** works here.* — Він досі тут працює.
 - *He **doesn't** work here **anymore**.* — Він тут більше не працює.
 
+## Any more чи anymore?
+
+Обидва написання правильні: **any more** — традиційне британське, **anymore** — американське й дедалі частіше британське. У значенні кількості (*ще*) — лише окремо: *Is there **any more** coffee?*
+
+## No more і not any more з іменником
+
+- *I don't have **any more** money.* = *I have **no more** money.* — більше немає (кількість).
+- *She **no longer** has a car.* — більше не має (у часі).
+
+## На початку речення
+
+У формальному стилі `no longer` може стояти першим, тоді — інверсія: ***No longer** do we accept cash.* Див. «Inversion (зворотний порядок слів): never have I…».
+
 ## Типові помилки
 
 - ✗ *She doesn't no longer work here.* → ✓ *She **no longer** works here.* (no longer вже заперечне)
 - ✗ *She works here anymore.* → ✓ *She **doesn't** work here anymore.*
 - ✗ *He no longer is my friend.* → ✓ *He **is no longer** my friend.*
 - ✗ *There's no longer milk.* (кількість) → ✓ *There's **no more** milk.*
+- ✗ *I don't work there no more.* → ✓ *I don't work there **any more**.*
+- ✗ *Is there no longer coffee?* → ✓ *Is there **any more** coffee?*
 
 Див. «Already, still, yet».

@@ -280,6 +280,41 @@
    ],
    "why": "so many + лічильне.",
    "hint": "Тут так багато людей."
+  },
+  {
+   "id": "so-such-23",
+   "type": "choice",
+   "q": "There were ___ cars that we couldn't park.",
+   "options": [
+    "so much",
+    "so many",
+    "such many",
+    "such much"
+   ],
+   "answer": 1,
+   "why": "Лічильні — so many."
+  },
+  {
+   "id": "so-such-24",
+   "type": "choice",
+   "q": "We had ___ fun at the party!",
+   "options": [
+    "so",
+    "such",
+    "such a",
+    "so a"
+   ],
+   "answer": 1,
+   "why": "fun — нелічильне: such fun."
+  },
+  {
+   "id": "so-such-25",
+   "type": "fill",
+   "q": "I like sports ___ as tennis and swimming. (наприклад)",
+   "answer": [
+    "such"
+   ],
+   "why": "such as — наприклад."
   }
  ]
 }

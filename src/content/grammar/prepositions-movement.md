@@ -52,9 +52,30 @@ tags: [prepositions of movement, to, from, into, out of, through, across, along,
 
 Без `to`: *go **home**, come **home**, get **home***. Див. «Дієслово go».
 
+## Ще прийменники руху
+
+| Прийменник | Значення | Приклад |
+| --- | --- | --- |
+| **over** | через (зверху) | He jumped **over** the fence. |
+| **under** | під (рух) | The cat ran **under** the bed. |
+| **away from** | геть від | Move **away from** the door. |
+| **back to** | назад до | Go **back to** your seat. |
+| **out of** | з, із | Get **out of** the water! |
+| **up / down** | угору / вниз | Walk **up** the hill. |
+
+## Into чи in, onto чи on?
+
+Після дієслів руху (*go, walk, run, jump, put*) зазвичай **into / onto**: *She jumped **into** the pool.* Але після `put`, `throw`, `fall` у розмові часто просто **in / on**: *Put it **in** the box.* Для місця без руху — лише **in / on**: *She's swimming **in** the pool.*
+
+## Дієслова без прийменника
+
+*enter* (не *enter into* про приміщення), *reach*, *leave* (покинути), *approach*: *We **reached** the top.* / *She **left** the room.*
+
 ## Типові помилки
 
 - ✗ *I arrived to London.* → ✓ *I arrived **in** London.* (**at** the station)
 - ✗ *go to home* → ✓ *go **home***
 - ✗ *He went in the room.* (рух) → ✓ *He went **into** the room.*
 - ✗ *get off the car* → ✓ *get **out of** the car* (але *get off the bus*)
+- ✗ *She jumped in the pool from the side.* → ✓ *She jumped **into** the pool from the side.*
+- ✗ *We reached to the station at six.* → ✓ *We **reached** the station at six.*

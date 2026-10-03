@@ -244,6 +244,41 @@
    ],
    "answer": 0,
    "why": "other + множина."
+  },
+  {
+   "id": "another-other-20",
+   "type": "choice",
+   "q": "Can I stay ___ two nights?",
+   "options": [
+    "other",
+    "another",
+    "others",
+    "the other"
+   ],
+   "answer": 1,
+   "why": "another + число + множина."
+  },
+  {
+   "id": "another-other-21",
+   "type": "choice",
+   "q": "I go to the gym every ___ day.",
+   "options": [
+    "another",
+    "other",
+    "others",
+    "the other"
+   ],
+   "answer": 1,
+   "why": "every other day — через день."
+  },
+  {
+   "id": "another-other-22",
+   "type": "fill",
+   "q": "I met her the ___ day at the supermarket. (нещодавно)",
+   "answer": [
+    "other"
+   ],
+   "why": "the other day — днями."
   }
  ]
 }

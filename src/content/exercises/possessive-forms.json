@@ -262,6 +262,41 @@
    ],
    "why": "a friend of mine.",
    "hint": "Вона — моя подруга (одна з подруг)."
+  },
+  {
+   "id": "possessive-forms-22",
+   "type": "choice",
+   "q": "I need to go to the ___ to buy some medicine.",
+   "options": [
+    "chemist",
+    "chemist's",
+    "chemists'",
+    "chemist of"
+   ],
+   "answer": 1,
+   "why": "Заклад — 's без іменника."
+  },
+  {
+   "id": "possessive-forms-23",
+   "type": "choice",
+   "q": "This is ___ car. (спільна машина Тома й Анни)",
+   "options": [
+    "Tom's and Anna's",
+    "Tom and Anna's",
+    "Tom's and Anna",
+    "of Tom and Anna"
+   ],
+   "answer": 1,
+   "why": "Спільне — 's лише в кінці."
+  },
+  {
+   "id": "possessive-forms-24",
+   "type": "fill",
+   "q": "We stayed at my grandmother___ for a week.",
+   "answer": [
+    "'s"
+   ],
+   "why": "at my grandmother's (house)."
   }
  ]
 }

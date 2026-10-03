@@ -222,6 +222,42 @@
    ],
    "why": "insist that + базова форма.",
    "hint": "Вони наполягли, щоб ми залишилися."
+  },
+  {
+   "id": "subjunctive-19",
+   "type": "choice",
+   "q": "The doctor recommended that he ___ more exercise.",
+   "options": [
+    "takes",
+    "take",
+    "took",
+    "taking"
+   ],
+   "answer": 1,
+   "why": "Subjunctive — базова форма."
+  },
+  {
+   "id": "subjunctive-20",
+   "type": "choice",
+   "q": "If need ___, we can stay late.",
+   "options": [
+    "is",
+    "be",
+    "was",
+    "being"
+   ],
+   "answer": 1,
+   "why": "Сталий вираз: if need be."
+  },
+  {
+   "id": "subjunctive-21",
+   "type": "fill",
+   "q": "It's essential that everyone ___ (be) on time.",
+   "answer": [
+    "be",
+    "should be"
+   ],
+   "why": "Після essential that — be або should be."
   }
  ]
 }

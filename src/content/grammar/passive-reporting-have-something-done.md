@@ -42,9 +42,23 @@ tags: [passive, reporting verbs, it is said that, is said to, have something don
 
 `Have something done` також описує неприємну подію, що трапилася з вами: *He **had his bag stolen**.*
 
+## Have something done у різних часах
+
+`Have` змінюється за часами, а V3 лишається: *I'**m having** my car **serviced** tomorrow.* / *We'**ve just had** the house **painted**.* / *You should **have** your eyes **tested**.* Питання: ***Did** you **have** your hair **cut**?*
+
+## Get somebody to do / have somebody do
+
+Коли називаємо виконавця: *I **got** a mechanic **to check** the brakes.* / *I **had** the mechanic **check** the brakes.* (AmE, без to)
+
+## Reporting passive з минулим
+
+*People say he **was** rich* → *He **is said to have been** rich.* / *It **was thought** that the ship had sunk* → *The ship **was thought to have sunk**.*
+
 ## Типові помилки
 
 - ✗ *I cut my hair at the hairdresser's.* → ✓ *I **had my hair cut** at the hairdresser's.*
 - ✗ *He is said that he is rich.* → ✓ ***It** is said that he is rich.* / *He is said **to be** rich.*
 - ✗ *She had repaired her car.* (послуга) → ✓ *She **had her car repaired**.*
 - ✗ *They are thought to steal it.* (раніше) → ✓ *…to **have stolen** it.*
+- ✗ *I had cut my hair yesterday.* (у перукаря) → ✓ *I **had my hair cut** yesterday.*
+- ✗ *I got a mechanic check the brakes.* → ✓ *I got a mechanic **to check** the brakes.*

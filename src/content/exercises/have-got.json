@@ -250,6 +250,41 @@
    ],
    "why": "has got — третя особа.",
    "hint": "Мій брат отримав нову роботу / має нову роботу."
+  },
+  {
+   "id": "have-got-21",
+   "type": "choice",
+   "q": "\"Has she got any brothers?\" — \"Yes, she ___.\"",
+   "options": [
+    "has got",
+    "has",
+    "does",
+    "is"
+   ],
+   "answer": 1,
+   "why": "Коротка відповідь без got."
+  },
+  {
+   "id": "have-got-22",
+   "type": "choice",
+   "q": "I'm sorry, I ___ go now.",
+   "options": [
+    "have got",
+    "'ve got to",
+    "got",
+    "have get to"
+   ],
+   "answer": 1,
+   "why": "have got to — треба."
+  },
+  {
+   "id": "have-got-23",
+   "type": "fill",
+   "q": "You've got a new phone, ___ you?",
+   "answer": [
+    "haven't"
+   ],
+   "why": "Тег до have got — haven't."
   }
  ]
 }

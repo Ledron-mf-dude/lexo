@@ -267,6 +267,41 @@
    ],
    "why": "agree + to-інфінітив.",
    "hint": "Вони домовилися зустрітися о шостій."
+  },
+  {
+   "id": "reporting-verbs-22",
+   "type": "choice",
+   "q": "She begged him ___.",
+   "options": [
+    "stay",
+    "to stay",
+    "staying",
+    "that he stays"
+   ],
+   "answer": 1,
+   "why": "beg + особа + to."
+  },
+  {
+   "id": "reporting-verbs-23",
+   "type": "choice",
+   "q": "He claims ___ the president.",
+   "options": [
+    "knowing",
+    "to know",
+    "know",
+    "that knowing"
+   ],
+   "answer": 1,
+   "why": "claim + to-інфінітив."
+  },
+  {
+   "id": "reporting-verbs-24",
+   "type": "fill",
+   "q": "They insisted ___ paying for dinner.",
+   "answer": [
+    "on"
+   ],
+   "why": "insist on + -ing."
   }
  ]
 }
