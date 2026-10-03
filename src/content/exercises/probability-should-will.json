@@ -42,11 +42,11 @@
   {
    "id": "probability-should-will-5",
    "type": "choice",
-   "q": "Tom ___ arrive in Spain by now. (past probability)",
+   "q": "Tom ___ arrived in Spain by now. (очікуване, але не перевірене)",
    "options": [
     "should have",
     "should",
-    "will have",
+    "should has",
     "would"
    ],
    "answer": 0,
