@@ -23,3 +23,4 @@ export const EXERCISE = ['вправа', 'вправи', 'вправ'] as const
 export const EXERCISE_GEN = ['вправи', 'вправ', 'вправ'] as const
 export const ARTICLE = ['стаття', 'статті', 'статей'] as const
 export const TAG = ['тег', 'теги', 'тегів'] as const
+export const ANSWER = ['відповідь', 'відповіді', 'відповідей'] as const

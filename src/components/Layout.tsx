@@ -2,6 +2,7 @@ import { useEffect, useLayoutEffect, useRef } from 'react'
 import { NavLink, Outlet, useLocation, useNavigationType } from 'react-router-dom'
 import { isSupabaseConfigured } from '../lib/supabase'
 import ErrorBoundary from './ErrorBoundary'
+import OfflineBanner from './OfflineBanner'
 
 const navItems = [
   { to: '/practice', label: 'Практика', icon: '◐' },
@@ -95,6 +96,7 @@ export default function Layout() {
         {isSupabaseConfigured ? (
           // Keyed by page: a crash in one page does not stay on screen after navigating to another.
           <ErrorBoundary key={pathname}>
+            <OfflineBanner />
             <Outlet />
           </ErrorBoundary>
         ) : (

@@ -129,6 +129,12 @@ npm run lint     # oxlint
 - Scroll position is managed by the app, not the browser. `ScrollRestoration` in [src/components/Layout.tsx](src/components/Layout.tsx) opens each new page at the top and restores the position on Back. Do not use `autoFocus` on pages: it scrolls to the input. Call `focus({ preventScroll: true })` instead.
 - The static route `grammar/practice` (mixed quiz) must be declared before `grammar/:slug`.
 - Server state goes through TanStack Query hooks in [src/lib/queries.ts](src/lib/queries.ts).
+- Offline ([src/lib/offline.ts](src/lib/offline.ts)):
+  - The query cache is persisted to IndexedDB (`idb-keyval`, key `lexo.cache`, `lexo.cache.mock` in mock mode) for a week, so words, progress and logs show without a connection. Bump `buster` when the shape of cached rows changes.
+  - Word reviews (`REVIEW_KEY`) and grammar answers (`ANSWER_KEY`) are mutations with defaults registered on the client (`reviewMutationDefaults`, `answerMutationDefaults`). Offline they pause, are persisted, and are sent in order (scope `ANSWER_SCOPE`) when the connection is back, even after a reload. Their variables carry the answer time (`at`), which is written to `reviewed_at` / `answered_at` / `last_reviewed`. Variables come back as JSON, so dates may be strings.
+  - The review mutation updates the cached `progress` and `review_log` optimistically and refetches only after the last queued answer.
+  - Offline, supabase-js cannot refresh an expired token and reports no session; `AuthProvider` then keeps the stored one (`storedSession`). Signing out clears the cache and the queue (`clearOfflineData`); Account warns if answers are still unsent.
+  - `OfflineBanner` in Layout shows the offline state and the queue. In dev, `__lexoOnline(false)` switches the app offline and `__lexoQueryClient` exposes the client. TanStack resumes queued work only on a visible page.
 - Auth works as follows:
   - `AuthProvider` is in [src/lib/auth.tsx](src/lib/auth.tsx), and `useAuth` and the context are in [src/lib/authContext.ts](src/lib/authContext.ts). They are split to satisfy oxlint's `only-export-components`.
   - [src/lib/authHash.ts](src/lib/authHash.ts) must be imported before supabase-js initialises. It reads the password-recovery hash before supabase-js clears it.
