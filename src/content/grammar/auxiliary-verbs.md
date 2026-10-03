@@ -76,6 +76,21 @@ tags: [auxiliary verbs, do, does, did, be, have, main verb, short answers, до�
 
 `Do` буває й допоміжним, і основним в одному реченні: *What **do** you **do**?* / *I **didn't do** it.* Див. «Do чи make: словосполучення».
 
+## Як вибрати
+
+1. У реченні є *be* (Continuous, пасив) або *have* (Perfect)? — їх і виносимо в питання, до них додаємо *not*.
+2. Є модальне (*can, must, will*)? — воно працює як допоміжне: *Can you…?*, *I can't*.
+3. Нічого з цього немає (Present чи Past Simple)? — допомагає ***do / does / did***.
+4. Коротка відповідь і розділове питання повторюють те саме допоміжне: *You've finished, haven't you?* — *Yes, I have.*
+5. Щоб не повторювати дієслово, ставимо лише допоміжне: *She works harder than I do.*
+
+## Пастки перекладу
+
+- «Ти бачив?» — *Did you see?*: після *did* — початкова форма, не *Did you saw*.
+- «Він не любить» — *He doesn't like*, не *He don't like*.
+- «І я теж ні» — *Neither do I*, а не *I too not*.
+- Наголошене *do* підсилює: *I **do** like it!* — «мені справді подобається».
+
 ## Типові помилки
 
 - ✗ *Does she can swim?* → ✓ ***Can** she swim?* (модальне — без do)

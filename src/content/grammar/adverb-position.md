@@ -73,6 +73,21 @@ tags: [adverb position, always, never, usually, just, also, already, probably, o
 - **even** — «навіть», перед словом, яке виділяє: *He **even** forgot my name.*
 - **just** — «щойно» (між допоміжним і V3), «просто, лише» (перед словом): *I've **just** arrived.* / *It's **just** a joke.*
 
+## Як вибрати
+
+1. Прислівник частоти (*always, usually, never*) — **перед основним дієсловом**, але **після** *be* та першого допоміжного: *I often go*, *She is never late*, *I have never seen*.
+2. Прислівник способу (*well, carefully*) — після дієслова й додатка: *She speaks English well.*
+3. Обставини в кінці — спосіб → місце → час.
+4. Коментар мовця (*Unfortunately, Luckily*) — на початку.
+5. Ніколи не ставимо прислівник між дієсловом і прямим додатком.
+
+## Пастки перекладу
+
+- «Я дуже люблю футбол» — *I like football very much*, а не *I very like football* і не *I like very much football*.
+- «Вона завжди запізнюється» — *She is always late* (після *be*).
+- «Він, мабуть, не прийде» — *He probably won't come*.
+- *really* перед запереченням підсилює, після — пом'якшує: *I really don't like it* / *I don't really like it*.
+
 ## Типові помилки
 
 - ✗ *I like very much football.* → ✓ *I like football **very much**.*

@@ -78,6 +78,21 @@ wordTags: [модальні дієслова]
 
 `Can't` — упевненість, що щось **неможливо**: *That **can't** be true!* `Could` — що щось **можливо**: *She **could** be at work.* Докладніше: «Модальні дієслова: припущення (might, may, should, must, can't)».
 
+## Як вибрати
+
+1. Вміння зараз? — ***can***. Загальне вміння в минулому — ***could***.
+2. Одна конкретна вдала дія в минулому? — ***was able to / managed to*** (не *could*).
+3. Потрібна форма, якої в *can* немає (майбутнє, перфект, після модального чи *to*)? — ***be able to***: *will be able to*, *have been able to*, *I'd like to be able to*.
+4. Дозвіл — *can* (розмовно), *may* (формально); прохання — *Can / Could you…?*
+5. «Буває» — *can*: *It can get cold here.*
+
+## Пастки перекладу
+
+- «Я зможу допомогти» — *I'll be able to help*, а не *I will can*.
+- «Нам вдалося знайти готель» — *We managed to / were able to find it*, а не *could find*.
+- «Не можу не сміятися» — *I can't help laughing*.
+- Після *can* — дієслово без *to* і без *-s*: *She can swim.*
+
 ## Типові помилки
 
 - ✗ *I will can help you.* → ✓ *I **will be able to** help you.*

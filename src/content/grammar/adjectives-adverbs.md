@@ -88,6 +88,20 @@ tags: [adjectives, adverbs, adverbs of manner, slowly, fast, hard, hardly, well,
 
 `very, really, extremely, quite, rather, pretty, a bit, too, so` стоять **перед** прикметником або прислівником: *really fast, a bit late*. `Enough` — **після**: *fast enough*. Див. «Pretty, rather, quite, fairly: ступінь якості» і «Too і enough (занадто, достатньо)».
 
+## Як вибрати
+
+1. Що описуєте? **Іменник** (який?) — прикметник: *a careful driver*. **Дію** (як?) — прислівник: *drives carefully*.
+2. Після *be, look, seem, feel, sound, taste, smell, become, get* — прикметник, бо описуємо підмет: *She looks happy.*
+3. Перед прикметником чи іншим прислівником (ступінь) — прислівник: *extremely happy*, *very quickly*.
+4. Перевірте винятки: *good → well*, *fast → fast*, *hard → hard* (а *hardly* = «ледве»), *late → late* (а *lately* = «останнім часом»).
+
+## Пастки перекладу
+
+- «Вона добре розмовляє» — *She speaks well*, не *good*.
+- «Почуваюся погано» — *I feel bad* (прикметник після *feel*).
+- «Він важко працює» — *He works hard*; *He hardly works* означає «він майже не працює».
+- *friendly, lovely, lonely* — прикметники, хоч і на *-ly*: «по-дружньому» — *in a friendly way*.
+
 ## Типові помилки
 
 - ✗ *She speaks English very good.* → ✓ *She speaks English very **well**.*

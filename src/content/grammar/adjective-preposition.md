@@ -78,6 +78,19 @@ wordTags: [з прийменником]
 | *I'm **afraid of** flying.* — боюся літати загалом | *I'm **afraid to** ask.* — боюся (зараз) спитати |
 | *He's **sorry for** shouting.* — шкодує, що кричав | *I'm **sorry to** hear that.* — прикро чути |
 
+## Як вибрати
+
+1. Прийменник після прикметника не перекладаємо з української — його треба запам'ятати разом зі словом: *afraid **of***, *good **at***, *interested **in***.
+2. Після прийменника дієслово стоїть у формі *-ing*: *good at drawing*, *tired of waiting*.
+3. Деякі прикметники змінюють прийменник залежно від змісту: *angry **with** a person* / *angry **about** a situation*; *sorry **about** the mess* / *sorry **for** being late*.
+
+## Пастки перекладу
+
+- «Боятися собак» — *afraid **of** dogs*, не *afraid from*.
+- «Добре вмію математику» — *good **at** maths*, не *good in*.
+- «Одружений з Анною» — *married **to** Anna*, не *with*.
+- «Схожий на» — *similar **to***; «відрізняється від» — *different **from***.
+
 ## Типові помилки
 
 - ✗ *I'm interested about history.* → ✓ *I'm interested **in** history.*

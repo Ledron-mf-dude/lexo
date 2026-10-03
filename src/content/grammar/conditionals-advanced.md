@@ -63,6 +63,23 @@ tags: [unless, provided that, as long as, supposing, otherwise, but for, if it w
 
 *If I **had studied** medicine, I **could be** a doctor now.* / *If she **weren't** so shy, she **might have** asked him.* Див. «Умовні речення (conditionals): zero, first, second, third, mixed».
 
+## Як вибрати
+
+1. «Якщо не…» — ***unless*** (= *if … not*).
+2. «За умови, що, аби тільки» — ***as long as / provided (that) / providing***.
+3. «На випадок, якщо» — ***in case*** (запобіжно).
+4. «Навіть якщо» — ***even if***.
+5. «Інакше» — ***otherwise*** (окрема частина речення).
+6. «Якби не…» — *If it weren't for / Without / But for* (зараз), *If it hadn't been for* (у минулому).
+7. Формально, без *if* — інверсія: *Had I known…*, *Should you need…*, *Were I you…*
+
+## Пастки перекладу
+
+- *unless* вже містить заперечення: *Unless you hurry* (а не *Unless you don't hurry*).
+- «Візьми гроші на випадок, якщо знадобиться таксі» — *in case you need a taxi*: після *in case* — теперішній час, не *will*.
+- «Якби не твоя допомога» — *Without your help* або *If it weren't for your help*.
+- Інверсія звучить формально: у розмові частіше звичайне *If I had known…*
+
 ## Типові помилки
 
 - ✗ *Unless you don't hurry, you'll be late.* → ✓ ***Unless** you hurry…* (unless вже містить заперечення)

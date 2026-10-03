@@ -74,6 +74,21 @@ tags: [ellipsis, substitution, one, ones, do so, so, not, I think so, I hope not
 
 Щоб не повторювати дієслово, залишаємо лише **to**: *"Do you want to come?" — "I'd love **to**."* / *I didn't call him, but I meant **to**.*
 
+## Як вибрати
+
+1. Не хочете повторювати іменник? — *one* (однина) / *ones* (множина): *the red one*.
+2. Не хочете повторювати ціле речення? — *so* (так) / *not* (ні): *I think so*, *I hope not*.
+3. Не хочете повторювати дієслово? — лише допоміжне: *She works harder than I do*, *He said he'd help, and he did*.
+4. Згода: *So do I* (ствердження), *Neither do I* (заперечення).
+5. Після *to* дієслово можна опустити: *I'd love to.*
+
+## Пастки перекладу
+
+- «Думаю, що так» — *I think so*, не *I think yes*.
+- «Сподіваюся, що ні» — *I hope not*, не *I don't hope so*.
+- «Я теж ні» — *Me neither / Neither can I*, а не *Me too*.
+- «Так, люблю» — *Yes, I do*, а не *Yes, I like*.
+
 ## Типові помилки
 
 - ✗ *I think yes.* → ✓ *I think **so**.*

@@ -66,6 +66,22 @@ wordTags: [слова-зв'язки]
 
 **Actually** — «насправді, власне», а не «актуально, зараз». «Актуальний» — *relevant, current, up-to-date*: *This topic is very **relevant** now.*
 
+## Як вибрати
+
+1. Додаєте ще аргумент — *also, moreover, furthermore, in addition, what's more*.
+2. Протиставляєте — *however, nevertheless, on the other hand*; заперечуєте сказане — *on the contrary*.
+3. Наслідок — *as a result, therefore, consequently, so*.
+4. Приклад — *for example, for instance*; у середині речення — *such as*.
+5. Послідовність — *first of all, firstly, then, finally*; підсумок — *in conclusion, to sum up*.
+6. Розмова: *by the way* (до речі), *actually* (насправді), *anyway* (так от, хай там як).
+
+## Пастки перекладу
+
+- «Актуальний» — *relevant / topical*, а не *actual* (це «справжній»). *actually* — «насправді», а не «актуально».
+- «З іншого боку» — *on the other hand*, не *on the other side*.
+- *on the contrary* — «навпаки» (заперечуємо), *on the other hand* — «з іншого боку» (зважуємо).
+- *However* на початку речення відокремлюємо комою: *However, it's expensive.*
+
 ## Типові помилки
 
 - ✗ *However he refused.* → ✓ ***However,** he refused.* (кома після маркера)

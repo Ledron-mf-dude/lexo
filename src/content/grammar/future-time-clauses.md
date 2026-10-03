@@ -76,6 +76,20 @@ tags: [future time clauses, when, as soon as, before, after, until, by the time,
 
 Перша дія — Past Perfect, друга — Past Simple. Форма з інверсією (*No sooner had she left…*) — у статті «Inversion (зворотний порядок слів): never have I…».
 
+## Як вибрати
+
+1. У частині з *when, as soon as, until, before, after, by the time, once* про майбутнє — **Present Simple** (або Present Perfect для завершення).
+2. *will* — лише в головній частині: *I'll call you when I get home.*
+3. Хочете підкреслити, що дія спершу закінчиться? — Present Perfect: *when I've finished*.
+4. Але якщо *when* — питальне слово (непряме питання «коли?»), *will* потрібне: *I don't know when he will come.*
+
+## Пастки перекладу
+
+- «Коли я приїду, подзвоню» — *When I arrive, I'll call*: українське «приїду» (майбутнє) англійською — теперішній час.
+- «Почекаю, доки ти закінчиш» — *until you finish*, не *until you will finish*.
+- «Не знаю, коли він прийде» — *when he will come*: це не підрядне часу, а питання.
+- *no sooner … than* — «щойно…, як»: *No sooner had I sat down than the phone rang.*
+
 ## Типові помилки
 
 - ✗ *I'll call you when I will arrive.* → ✓ *…when I **arrive**.*

@@ -61,6 +61,21 @@ tags: [compound adjectives, a two-day trip, ten-year-old, well-known, part-time,
 
 У складному прикметнику іменник завжди в однині, навіть коли його багато: *a **three-year-old** child, a **ten-euro** ticket, a **twelve-hour** shift*.
 
+## Як вибрати
+
+1. Число + іменник **перед іменником** — через дефіс і в однині: *a ten-year-old boy*, *a two-hour drive*.
+2. Те саме **після** дієслова — окремо й у множині: *The boy is ten years old.*
+3. Прикметник / прислівник + дієприкметник: *well-known, hard-working, good-looking*.
+4. Прикметник + іменник + *-ed*: *blue-eyed, absent-minded, left-handed*.
+5. Перед іменником — з дефісом, після дієслова дефіс часто опускають: *a well-known author* / *The author is well known.*
+
+## Пастки перекладу
+
+- «Дводенна поїздка» — *a two-day trip*, не *a two-days trip*.
+- «Десятирічний хлопчик» — *a ten-year-old boy*, а не *a ten years old boy*.
+- «Купюра в десять фунтів» — *a ten-pound note*.
+- Українське одне слово часто відповідає англійському складному прикметнику: «працьовитий» — *hard-working*, «неуважний» — *absent-minded*.
+
 ## Типові помилки
 
 - ✗ *a two-days trip* → ✓ *a **two-day** trip* (іменник в однині)

@@ -72,6 +72,20 @@ tags: [exclamations, what a, what, how, so, such, окличні речення,
 - **Підсилювачі:** *That's **really** amazing!* / *It was **absolutely** fantastic!*
 - **Вигуки:** *Wow!*, *Oh no!*, *Ouch!* (біль), *Oops!* (помилка), *Yuck!* (гидота), *Phew!* (полегшення).
 
+## Як вибрати
+
+1. Далі іменник? — ***What***: з лічильним в однині — *What a…!*, з множиною чи нелічильним — *What…!* без *a*.
+2. Далі лише прикметник чи прислівник? — ***How***: *How beautiful!*, *How fast you run!*
+3. У звичайному реченні: *so* + прикметник; *such (a)* + іменник.
+4. Після *How / What* — прямий порядок слів: *How tall you've grown!*
+
+## Пастки перекладу
+
+- «Яка погода!» — *What weather!* (нелічильне, без *a*), а не *What a weather*.
+- «Який гарний день!» — *What a beautiful day!*: тут *a* обов'язковий.
+- «Як вона гарно співає!» — *How beautifully she sings!*, без інверсії.
+- «Так холодно!» — *It's so cold!*, а не *such cold*.
+
 ## Типові помилки
 
 - ✗ *What beautiful day!* → ✓ *What **a** beautiful day!*

@@ -71,6 +71,21 @@ tags: [this, that, these, those, demonstratives, this or it, вказівні з
 - Відповідь на слова співрозмовника: *"I passed!" — "**That's** great!"* (не *This is great*)
 - Посилання на щойно сказане: ***That's** why I left.* / ***That's** what I mean.*
 
+## Як вибрати
+
+1. Близько — ***this*** (однина) / ***these*** (множина).
+2. Далеко — ***that*** / ***those***.
+3. Час: теперішній період — *this week*; минулий момент — *that day*, *in those days*.
+4. Знайомлячи, кажемо *This is…*; реагуючи на почуте — *That's great!*
+5. По телефону британці кажуть *This is Tom* про себе й *Who is that?* про співрозмовника.
+
+## Пастки перекладу
+
+- Українське «це» перекладається по-різному: *this / that / it* — залежно від відстані й того, чи річ уже згадана.
+- «Ці черевики» — *these shoes*, не *this shoes*.
+- «Це чудово!» у відповідь на новину — *That's great!*
+- Про погоду й час — *It*: *It's raining*, а не *This is raining*.
+
 ## Типові помилки
 
 - ✗ *This books are mine.* → ✓ ***These** books are mine.*

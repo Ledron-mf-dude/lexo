@@ -71,6 +71,21 @@ tags: [already, still, yet, just, so far, ще, вже, все ще, ще не]
 | уже сталося | **already**: *I've **already** paid.* |
 | уже не так | **not … any more / no longer**: *She doesn't live here **any more**.* Див. «No longer, any longer, anymore» |
 
+## Як вибрати
+
+1. Щось сталося, може, раніше, ніж чекали? — ***already*** (між допоміжним і V3 або в кінці).
+2. Щось триває довше, ніж чекали? — ***still*** (перед основним дієсловом, після *be*).
+3. Питаєте «вже?» або кажете «ще не»? — ***yet*** у кінці.
+4. Щось перестало бути? — *not … any more / no longer*.
+5. Досі не сталося, і це дратує? — ***still*** + заперечення: *He still hasn't called.*
+
+## Пастки перекладу
+
+- «Я вже не голодний» — *I'm not hungry any more*, а не *I'm already not hungry*.
+- «Ти вже закінчив?» — *Have you finished yet?* (*already* у питанні — здивування, що так швидко).
+- «Я ще не обідав» — *I haven't had lunch yet*, не *still*.
+- *yet* — ще й сполучник «проте»: *cheap yet comfortable*.
+
 ## Типові помилки
 
 - ✗ *I have finished it yet.* → ✓ *I have **already** finished it.* / *I have finished it already.* / *I haven't finished it yet.* (yet — у запереченні й питаннях)

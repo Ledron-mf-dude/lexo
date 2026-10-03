@@ -68,6 +68,21 @@ wordTags: [слова-зв'язки]
 
 Сполучники часу з'єднують дві частини речення: *Call me **when** you arrive.* Про майбутнє після них — теперішній час. Див. «Підрядні часу про майбутнє: when, as soon as, before, until».
 
+## Як вибрати
+
+1. Додаєте — ***and***; протиставляєте — ***but***; пропонуєте вибір — ***or***.
+2. Причина — ***because*** (+ речення) / *because of* (+ іменник); наслідок — ***so***.
+3. Парні сполучники: *both … and* (і…, і), *either … or* (або…, або), *neither … nor* (ні…, ні), *not only … but also*.
+4. В одному реченні — один сполучник причини чи наслідку: або *because*, або *so*.
+5. «Теж не» в кінці заперечного речення — *either*, а не *too*.
+
+## Пастки перекладу
+
+- «Оскільки я втомився, то пішов додому» — *Because I was tired, I went home*: українське «то» не перекладаємо як *so*.
+- «Хоча йшов дощ, але ми пішли» — *Although it rained, we went*: без *but*.
+- «Ні Том, ні Анна не прийшли» — *Neither Tom nor Anna came*: дієслово ствердне.
+- «Я теж не люблю» — *I don't like it either*.
+
 ## Типові помилки
 
 - ✗ *Because I was tired, so I went home.* → ✓ *Because I was tired, I went home.* / *I was tired, **so** I went home.*

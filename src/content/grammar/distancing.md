@@ -61,6 +61,21 @@ tags: [distancing, hedging, apparently, allegedly, it seems, it appears, is said
 
 *slightly, a bit, somewhat, rather, quite, fairly, to some extent, in a way, sort of (розм.)*: *The results are **somewhat** disappointing.* / *I'm **a bit** worried.*
 
+## Як вибрати
+
+1. Хочете не брати відповідальність за інформацію? — *apparently, allegedly, it seems / appears that…*
+2. Посилаєтеся на джерело? — *according to* + джерело (не про себе).
+3. Пишете новину чи звіт? — пасив: *It is said / reported / believed that…* або *He is said to be…*
+4. Подія в минулому в такій конструкції — перфектний інфінітив: *is reported to have resigned*.
+5. Хочете м'яко сказати неприємне — *There seems to be a problem*, *I'm afraid…*, *tend to*.
+
+## Пастки перекладу
+
+- «На мою думку» — *In my opinion*, не *According to me*.
+- «Кажуть, що він багатий» — *He is said to be rich* або *It is said that he is rich*; *He is said that* — помилка.
+- «Здається, є помилка» — *There seems to be a mistake*.
+- Українське «нібито» у новинах — *allegedly*.
+
 ## Типові помилки
 
 - ✗ *He is said that he is rich.* → ✓ *He is said **to be** rich.* / ***It** is said that he is rich.*
