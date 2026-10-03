@@ -66,6 +66,20 @@ wordTags: [з прийменником]
 - *He did it **on purpose**.* — навмисно.
 - *The lift is **out of order**.* — не працює.
 
+## Як вибрати
+
+1. Прийменник після іменника — частина сталого поєднання, його запам'ятовуємо: *reason **for***, *increase **in***, *solution **to***.
+2. Зміна чогось — *increase / rise / fall **in*** + те, що змінилося; розмір зміни — ***of*** + число.
+3. Ставлення й почуття — *attitude **to***, *respect **for***, *interest **in***.
+4. Зв'язок між — *difference / relationship **between***; з людиною — *relationship **with***.
+
+## Пастки перекладу
+
+- «Причина затримки» — *the reason for the delay*, а не *reason of*.
+- «Зростання цін» — *an increase in prices*; «зростання на 5%» — *an increase of 5%*.
+- «Вирішення проблеми» — *the solution to the problem*.
+- «Випадково» — *by mistake*, «навмисно» — *on purpose*.
+
 ## Типові помилки
 
 - ✗ *the reason of the delay* → ✓ *the reason **for** the delay*

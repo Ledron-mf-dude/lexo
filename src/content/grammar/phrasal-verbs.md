@@ -65,6 +65,20 @@ wordTags: [фразові дієслова]
 
 Частка лишається з дієсловом: *The meeting **was called off**.* / *The children **were looked after** by a nanny.*
 
+## Як вибрати
+
+1. Чи є додаток? Без додатка — *The plane took off.* З додатком — *pick up the phone*.
+2. Роздільне дієслово: іменник можна поставити до або після частки (*turn the music down / turn down the music*), **займенник — лише всередині** (*turn it down*).
+3. Нероздільне (*look after, look into, get over*): додаток завжди після частки.
+4. Довгий додаток краще ставити після частки: *turn down the offer we got last week*.
+
+## Пастки перекладу
+
+- «Візьми його» — *Pick it up*, а не *Pick up it*.
+- «Доглядає бабусю» — *looks after her grandmother*, не *looks her grandmother after*.
+- «Терпіти шум» — *put up with the noise*: три частини, жодну не пропускаємо.
+- Одне фразове дієслово може мати кілька значень: *pick up* — підняти, забрати когось, вивчити між іншим.
+
 ## Типові помилки
 
 - ✗ *Pick up it.* → ✓ *Pick **it up**.* (займенник — всередині)

@@ -56,6 +56,21 @@ Perfect gerund підкреслює, що дія була **раніше**: *He 
 
 Пасивне значення без пасивної форми: *The car **needs washing**.* = *The car needs **to be washed**.*
 
+## Як вибрати
+
+1. Хтось хоче / просить, щоб **інший** щось зробив? — дієслово + особа + *to*: *She wants me to come.*
+2. *make, let* + особа + дієслово **без to**: *They made him wait.*
+3. *see, hear, watch* + особа + без *to* (уся дія) або *-ing* (процес).
+4. Дія раніша за основну? — перфектна форма: *to have done*, *having done*.
+5. Дію виконує хтось інший над підметом? — пасивна форма: *to be invited*, *being told*.
+
+## Пастки перекладу
+
+- «Вона хоче, щоб я прийшов» — *She wants me to come*, а не *She wants that I come*.
+- «Мене змусили чекати» — *They made me wait*; але в пасиві *to* з'являється: *I was made to wait*.
+- «Не люблю, коли мені вказують» — *I hate being told what to do*.
+- «Важко мені його зрозуміти» — *It's difficult **for me** to understand him*.
+
 ## Типові помилки
 
 - ✗ *She wants that I come.* → ✓ *She wants **me to come**.*

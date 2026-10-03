@@ -108,6 +108,22 @@ Participle clauses — переважно **письмова** мова: *Having
 - ***Unless told** otherwise, start at nine.*
 - ***While waiting** for the bus, I read the news.*
 
+## Як вибрати
+
+1. Дії одночасні, той самий підмет — *-ing*: *Walking home, I met Tom.*
+2. Одна дія раніше за іншу — *having* + V3: *Having finished, she left.*
+3. Пасивне значення — V3: *Built in 1900, the house…*
+4. Скорочене означальне — *-ing* (активне) / V3 (пасивне): *the man standing there*, *the car parked outside*.
+5. Свій підмет — *with* + іменник + *-ing / V3*: *With prices rising, …*
+6. Перевірте: підмет звороту має бути тим самим, що в головному реченні.
+
+## Пастки перекладу
+
+- Українські дієприслівники («ідучи», «закінчивши») відповідають *-ing* і *having done*: *Walking…*, *Having finished…*
+- «Ідучи додому, почався дощ» — помилка і в англійській: *Walking home, it started to rain* означає, що дощ ішов додому.
+- «Повечерявши, ми вийшли» — *Having had dinner, we went out*.
+- Такі звороти типові для письма; у розмові частіше *When I was walking home, …*
+
 ## Типові помилки
 
 - ✗ *Walking home, the rain started.* → ✓ *Walking home, **I got caught** in the rain.* (дія — підмета головного речення)

@@ -91,6 +91,21 @@ tags: [past simple, past continuous, past perfect, narrative tenses, was were, h
 
 `used to` і `would` — для регулярних дій, яких уже немає: *We **used to** / **would** spend every summer at the lake.* Стани — лише `used to`. Див. «Used to, would, be used to, get used to».
 
+## Як вибрати
+
+1. Завершена дія в минулому з відомим часом — **Past Simple**: *I saw him yesterday.*
+2. Дія в процесі в певний момент або фон — **Past Continuous**: *I was watching TV.*
+3. Процес перервала коротка подія — Continuous + Simple з *when*.
+4. Дія раніше за іншу минулу — **Past Perfect**.
+5. Звички в минулому — *used to* / *would*.
+
+## Пастки перекладу
+
+- «Я дивився телевізор, коли подзвонив телефон» — *I was watching TV when the phone rang*: український недоконаний вид часто відповідає Past Continuous.
+- «Ти бачив?» — *Did you see?*, а не *Did you saw*.
+- «Я бачив його два дні тому» — *I saw him two days ago*, не *have seen*.
+- «Ми не були вдома» — *We weren't at home*: з *we* — *were*.
+
 ## Типові помилки
 
 - ✗ *When I arrived, the film started.* (почався раніше) → ✓ *…the film **had started**.*

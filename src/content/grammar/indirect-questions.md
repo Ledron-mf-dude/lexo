@@ -65,6 +65,21 @@ tags: [indirect questions, could you tell me, do you know, I wonder, embedded qu
 
 *What do you think…?* і *Where do you think…?* — особливі: питальне слово йде **на початок**, а далі прямий порядок: ***Where do you think** he lives?* (не *Do you think where he lives?*)
 
+## Як вибрати
+
+1. Почніть із ввічливої фрази: *Could you tell me…?*, *Do you know…?*, *I wonder…*, *I was wondering…*
+2. Після неї — **прямий порядок слів**: підмет + дієслово: *where the station **is***.
+3. *do / does / did* у вбудованій частині зникають: *what time it starts*.
+4. Питання «так / ні» вводимо через *if / whether*.
+5. Знак у кінці залежить від головної фрази: *Could you tell me…?* — питання; *I wonder…* — крапка.
+
+## Пастки перекладу
+
+- «Скажіть, де вокзал?» — *Could you tell me where the station is?*, а не *where is the station*.
+- «Не знаєте, скільки це коштує?» — *Do you know how much it costs?*, без *does*.
+- «Як ви думаєте, що вона скаже?» — *What do you think she will say?*: питальне слово виносимо на початок.
+- Непряме питання звучить значно ввічливіше за пряме — у магазині чи на вулиці краще саме так.
+
 ## Типові помилки
 
 - ✗ *Could you tell me where is the station?* → ✓ *…where **the station is**?*

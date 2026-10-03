@@ -69,6 +69,21 @@ tags: [modals, might, may, should, must, can't, possibility, probability, logica
 | *You **must** wear a helmet.* | *You **must** be tired after the trip.* |
 | заперечення: **mustn't** (не можна) | заперечення: **can't** (не може бути) |
 
+## Як вибрати
+
+1. Упевнені, що так (логічний висновок) — *must*: *She must be tired.*
+2. Упевнені, що ні — *can't* (не *mustn't*): *He can't be at home.*
+3. Можливо — *might / may / could*.
+4. Про минуле — модальне + *have* + V3: *must have left, can't have seen, might have missed*.
+5. Про процес зараз — модальне + *be* + *-ing*: *must be working*.
+
+## Пастки перекладу
+
+- «Не може бути, що він удома» — *He can't be at home*; *mustn't be* означає заборону.
+- «Вона, мабуть, забула» — *She must have forgotten*: українське «мабуть» тут = упевнений висновок.
+- «Можливо, він спізнився на автобус» — *He might have missed the bus*.
+- *must* у значенні обов'язку й висновку пишеться однаково — розрізняйте за змістом.
+
 ## Типові помилки
 
 - ✗ *He mustn't be at home — the lights are off.* (упевнене «ні» — can't) → ✓ *He **can't** be at home — the lights are off.*

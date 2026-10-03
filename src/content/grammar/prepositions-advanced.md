@@ -75,6 +75,21 @@ tags: [preposition at the end, preposition stranding, in which, to whom, worth l
 - *Where are you going (**to**)?* — у розмові *to* часто пропускають; *Where is it **at**?* — діалектне, у нейтральній мові просто *Where is it?*
 - *discuss **about**, enter **into** the room, reach **to** the station* — зайвий прийменник (див. «Дієслово + прийменник (depend on, listen to, wait for)»).
 
+## Як вибрати
+
+1. У питаннях і розмові прийменник природно лишається в кінці: *Who are you talking to?*
+2. У формальному тексті — перед *which / whom*: *the house in which…*, *the person to whom…* (не перед *that* і *who*).
+3. Після прийменника — *-ing*: *on arriving*, *without saying*.
+4. Перед *that*-реченням прийменник прибираємо або додаємо *the fact*: *aware that…* / *aware of the fact that…*
+5. Перед *wh*-словом прийменник лишається: *It depends on what you mean.*
+
+## Пастки перекладу
+
+- В українській прийменник не може стояти в кінці, а в англійській це норма: *the house I grew up in*.
+- «Чекаю на відповідь» з *to* — *I look forward to hearing*, а не *to hear*.
+- «Від імені компанії» — *on behalf of the company*.
+- «Нема чого боятися» — *There's nothing to be afraid of*.
+
 ## Типові помилки
 
 - ✗ *The house in that I grew up has been sold.* → ✓ *The house **in which** I grew up has been sold.* / *The house that I grew up in has been sold.* / *The house I grew up in has been sold.*

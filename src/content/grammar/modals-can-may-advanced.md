@@ -79,6 +79,21 @@ tags: [can, could, be able to, may, might, may well, might as well, could have, 
 
 **could** — м'яка порада чи ідея: *You **could** try calling him at home.* / *We **could** always take a taxi.*
 
+## Як вибрати
+
+1. «Буває, іноді трапляється» — *can*: *It can get cold.*
+2. Потрібна форма, якої немає в *can* — *be able to*; одне досягнення в минулому — *managed to*.
+3. Докір або втрачена можливість у минулому — *could / might have* + V3.
+4. Дуже ймовірно — *may / might well*; кращого варіанту нема — *might / may as well*.
+5. Поступка «хоч і…» — *may …, but*; урочисте побажання — *May you…!*
+
+## Пастки перекладу
+
+- «Ти міг би сказати!» (докір) — *You could have told me!*, з *have*.
+- «Можна й піти додому» — *We might as well go home*, без *to*.
+- «Цілком можливо, що вона права» — *She may well be right*.
+- «Не можу не сміятися» — *I can't help laughing*, а не *can't help to laugh*.
+
 ## Типові помилки
 
 - ✗ *I've never could swim well.* → ✓ *I've never **been able to** swim well.*

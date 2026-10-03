@@ -99,6 +99,21 @@ tags: [passive, passive voice, пасив, пасивний стан, be + V3, �
 
 > Не плутайте: після `be` у пасиві — **третя форма**, а не -ing. *The road is being repaired* — тут `being` — частина форми Continuous.
 
+## Як вибрати
+
+1. Важливо, **що сталося**, а не хто зробив, або виконавець невідомий — пасив: *My car was stolen.*
+2. Форма: *be* у потрібному часі + V3: *is made, was built, has been finished, will be announced*.
+3. Виконавця, якщо він важливий, додаємо через *by*; інструмент — через *with*.
+4. З модальними — *modal + be + V3*: *must be signed*.
+5. Неперехідні дієслова (*happen, arrive, die, seem*) пасиву не мають.
+
+## Пастки перекладу
+
+- Українське безособове «будинок збудували», «тут розмовляють англійською» часто перекладаємо пасивом: *The house was built*, *English is spoken here*.
+- «Мені дали квиток» — *I was given a ticket*.
+- «Аварія сталася» — *The accident happened*, а не *was happened*.
+- «Відчинили ключем» — *opened **with** a key*, не *by a key*.
+
 ## Типові помилки
 
 - ✗ *The house was build in 1990.* → ✓ *…was **built**…* (V3)

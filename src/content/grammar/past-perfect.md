@@ -86,6 +86,21 @@ Past Simple веде сюжет, Past Continuous малює тло, а Past Perf
 
 Загальну картину минулих часів див. у статті «Минулі часи: Past Simple, Continuous, Perfect».
 
+## Як вибрати
+
+1. Дві минулі дії, і одна відбулася **раніше** — для ранішої Past Perfect: *When I arrived, she had left.*
+2. Порядок і так ясний з *after / before*? — Past Perfect можна не вживати.
+3. Тривалість до моменту в минулому або сліди дії — Past Perfect Continuous: *Her eyes were red — she had been crying.*
+4. *It was the first time…* — Past Perfect.
+5. Дієслова стану (*know, believe*) — лише Simple: *had known*.
+
+## Пастки перекладу
+
+- В українській часто достатньо одного минулого часу, але англійська вимагає показати, що сталося раніше: «Коли я прийшов, вона вже пішла» — *she had already left*.
+- *When I arrived, she left* (пішла після мого приходу) ≠ *she had left* (уже не було).
+- «Я знав її роки» — *I had known her for years*, не *had been knowing*.
+- «Ти бував там раніше?» (у минулому) — *Had you been there before?*
+
 ## Типові помилки
 
 - ✗ *When I arrived, the film already started.* → ✓ *When I arrived, the film **had already started**.*

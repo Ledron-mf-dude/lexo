@@ -60,6 +60,21 @@ tags: [on time, in time, at the end, in the end, punctual, finally, вчасно
 
 Підсилення: ***just in time*** — в останню мить; ***right on time*** — секунда в секунду.
 
+## Як вибрати
+
+1. Точно за розкладом, пунктуально — *on time*.
+2. Встигли до чогось, не запізнилися — *in time (for / to)*.
+3. Наприкінці чогось конкретного — *at the end of* + що.
+4. Зрештою, після всього — *in the end* (без *of*).
+5. Нарешті, після довгого чекання — *at last*; останнім пунктом у переліку — *lastly*.
+
+## Пастки перекладу
+
+- «Вчасно» має два відповідники: *on time* (за розкладом) і *in time* (встигнути).
+- «Наприкінці фільму» — *at the end of the film*, не *in the end of*.
+- «Зрештою ми погодилися» — *In the end, we agreed*.
+- «І насамкінець хочу подякувати…» — *Lastly / Finally*, а не *At last*.
+
 ## Типові помилки
 
 - ✗ *The train arrived in time, at exactly 9:00.* → ✓ *…arrived **on time**…* (за розкладом)

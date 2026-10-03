@@ -58,6 +58,22 @@ tags: [generic pronouns, you, one, they, people, we, impersonal, узагаль�
 | Треба бути уважним. | **You** need to be careful. / **One** must be careful. |
 | Мене звати Оля. | **My name is** Olya. |
 
+## Як вибрати
+
+1. «Будь-хто, зокрема ти й я» в розмові — ***you***: *You can't smoke here.*
+2. Формально, у правилах і прислів'ях — ***one***: *One should be careful.* (далі *one's, oneself*)
+3. Невизначені люди, влада, «кажуть» — ***they***: *They say…, They're building a new road.*
+4. Усі люди загалом, включно з мовцем — ***we***: *We all make mistakes.*
+5. Люди загалом нейтрально — ***people***.
+6. Безособово — пасив: *Smoking is not allowed.*
+
+## Пастки перекладу
+
+- Українське безособове «тут не можна курити», «кажуть» не має підмета, а англійському реченню підмет потрібен: *You can't smoke here*, *They say…*
+- «Як пройти до вокзалу?» — *How do you get to the station?*, а не *How to get…?*
+- Про людину невідомої статі — *they / their*: *Every student needs their laptop.*
+- *one* у розмові звучить книжно; частіше кажуть *you*.
+
 ## Типові помилки
 
 - ✗ *Is not allowed to smoke here.* → ✓ ***You** aren't allowed to smoke here.* / *Smoking **is not allowed**.*

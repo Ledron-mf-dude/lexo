@@ -53,6 +53,19 @@ tags: [no longer, any longer, anymore, not any more, no more, still, вже не
 
 У формальному стилі `no longer` може стояти першим, тоді — інверсія: ***No longer** do we accept cash.* Див. «Inversion (зворотний порядок слів): never have I…».
 
+## Як вибрати
+
+1. «Більше не» з **ствердним** дієсловом — *no longer* у середині речення: *She no longer works here.*
+2. «Більше не» з **заперечним** дієсловом — *anymore / any more / any longer* у кінці: *She doesn't work here anymore.*
+3. Про **кількість** (більше не залишилось) — *no more* + іменник: *There's no more milk.*
+4. *no longer* формальніше, *not … anymore* — розмовніше.
+
+## Пастки перекладу
+
+- «Вона більше тут не працює» — *She doesn't work here anymore* або *She no longer works here*, але не *She doesn't no longer work*.
+- «Молока більше немає» — *There's no more milk*, а не *There's no longer milk*.
+- *anymore* разом чи *any more* окремо — обидва написання прийнятні.
+
 ## Типові помилки
 
 - ✗ *She doesn't no longer work here.* → ✓ *She **no longer** works here.* (no longer вже заперечне)

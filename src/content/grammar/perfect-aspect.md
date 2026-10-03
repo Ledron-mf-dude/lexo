@@ -78,6 +78,21 @@ tags: [perfect aspect, present perfect, past perfect, future perfect, perfect in
 | *so far, up to now, ever, yet, already, just* | *by then, by the time, before, already* | *by then, by the time, by + дата* |
 | *since 2020, for years* | *since, for* | *for, by next year* |
 
+## Як вибрати
+
+1. Визначте момент, до якого відбулася дія: зараз → Present Perfect; момент у минулому → Past Perfect; момент у майбутньому → Future Perfect.
+2. Результат, кількість — Simple; процес, тривалість, сліди — Continuous.
+3. Названо завершений час у минулому (*yesterday, in 2010*) — не перфект, а Past Simple.
+4. Після *seem, be said*, модальних — перфектний інфінітив для ранішої дії: *to have done*, *must have done*.
+5. Раніша дія як герундій чи дієприкметник — *having done*.
+
+## Пастки перекладу
+
+- В українській перфекта немає, тож корисне питання: чи важливий зв'язок дії з певним моментом?
+- «Я закінчив» (і це важливо зараз) — *I've finished*; «Я закінчив учора» — *I finished yesterday*.
+- «Це вперше, коли я…» — *It's the first time I've…*
+- «Коли закінчу, подзвоню» — *when I've finished*: без *will*.
+
 ## Типові помилки
 
 - ✗ *It was the first time she has flown.* → ✓ *It was the first time she **had flown**.*
