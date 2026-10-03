@@ -26,7 +26,7 @@ export default function LearningPath({ progress, placement, onReset }: { progres
       <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-2xl p-4">
         <div className="min-w-0 flex-1">
           <p className="font-medium">Ваш маршрут</p>
-          <p className="text-sm text-white/45">Короткий тест на 5–10 хвилин визначить рівень, а маршрут покаже теми по порядку, першими — ті, де були помилки.</p>
+          <p className="text-sm text-white/45">Короткий тест на 10–15 хвилин визначить рівень, а маршрут покаже теми по порядку, першими — ті, де були помилки.</p>
         </div>
         <Link to="/grammar/placement" className="btn-primary w-full text-center sm:w-auto">
           Пройти тест
