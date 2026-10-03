@@ -48,11 +48,33 @@ wordTags: [слова-зв'язки]
 
 У переліку `and` — перед останнім елементом: *apples, oranges, **and** bananas.*
 
+## Також і крім того
+
+| Слово | Позиція | Приклад |
+| --- | --- | --- |
+| **also** | перед дієсловом | She **also** speaks Italian. |
+| **too / as well** | у кінці | She speaks Italian **too / as well**. |
+| **as well as** + іменник / -ing | між частинами | She speaks Italian **as well as** French. |
+| **besides / apart from** + іменник / -ing | на початку або в кінці | **Apart from** English, she speaks French. |
+| **in addition (to)** | формально | **In addition to** the salary, you get a car. |
+
+`Either` замість `too` — у запереченні: *I don't like it **either**.*
+
+## Then, after that, finally
+
+Для послідовності подій у розповіді: ***First**, … **Then** … **After that** … **Finally** …* Після `after that` і `finally` на початку речення — кома. Більше слів-зв'язок — у статті «Discourse markers (слова-зв'язки)».
+
+## When, while, before, after, until
+
+Сполучники часу з'єднують дві частини речення: *Call me **when** you arrive.* Про майбутнє після них — теперішній час. Див. «Підрядні часу про майбутнє: when, as soon as, before, until».
+
 ## Типові помилки
 
 - ✗ *Because I was tired, so I went home.* → ✓ *Because I was tired, I went home.* / *I was tired, **so** I went home.*
 - ✗ *Although it rained, but we went out.* → ✓ *Although it rained, we went out.*
 - ✗ *because of it was late* → ✓ *because **it was** late* / *because of **the time***
 - ✗ *Neither Tom nor Anna didn't come.* → ✓ *Neither Tom nor Anna **came**.*
+- ✗ *I don't like it too.* → ✓ *I don't like it **either**.*
+- ✗ *She speaks Italian as well as speaks French.* → ✓ *She speaks Italian as well as **French**.*
 
 Докладніше про контраст, мету, причину — «Contrast, purpose, reason, result».

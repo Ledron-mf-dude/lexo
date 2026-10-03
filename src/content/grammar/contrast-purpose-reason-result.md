@@ -46,6 +46,40 @@ tags: [although, though, even though, despite, in spite of, however, while, wher
 | **as a result / consequently** | **As a result,** prices rose. |
 | **so / such … that** | It was **so** cold **that** we stayed home. |
 
+## In case і so as not to
+
+- **in case** + речення — «на випадок, якщо», запобіжно: *Take a map **in case** you **get** lost.* Після `in case` — теперішній час, не `will`.
+- **so as not to / in order not to** + V — щоб не: *She left early **so as not to** miss the bus.* Просто *not to* без *so as* звучить неприродно.
+
+## Although, even though, even if
+
+| Слово | Значення | Приклад |
+| --- | --- | --- |
+| **although / though** | хоча (факт) | **Although** he's rich, he isn't happy. |
+| **even though** | хоча (факт, сильніше) | **Even though** he's rich, he isn't happy. |
+| **even if** | навіть якщо (умова, невідомо) | I'll go **even if** it rains. |
+
+`Though` ще й у кінці речення, після коми: *It was expensive. I bought it, **though**.* — Втім, я його купив.
+
+## Despite і in spite of
+
+Після них — іменник, займенник або **-ing**: ***Despite** being tired, she kept working.* / ***In spite of** the rain…* Перед реченням — ***despite the fact that***.
+
+## Спосіб дії: as if, like, as
+
+| Слово | Приклад |
+| --- | --- |
+| **as if / as though** + речення | He looks **as if** he hasn't slept. |
+| **like** + іменник | She sings **like** a professional. (схоже на) |
+| **as** + іменник | She works **as** a teacher. (у ролі) |
+| **as** + речення | Do it **as** I showed you. |
+
+Нереальне з `as if` — у статті «Нереальний минулий час: as if, suppose, it's time, I'd rather you».
+
+## So that
+
+**so that** + can / could / will / would — мета з іншим підметом: *I'll write it down **so that** you **don't** forget.* / *She spoke slowly **so that** everyone **could** understand.*
+
 ## Типові помилки
 
 - ✗ *Despite it was raining…* → ✓ *Despite **the rain**…* / ***Although** it was raining…*
@@ -53,5 +87,9 @@ tags: [although, though, even though, despite, in spite of, however, while, wher
 - ✗ *However it was late, we stayed.* (контраст) → ✓ *It was late. **However,** we stayed.*
 - ✗ *in order to not be late* → ✓ *in order **not to** be late*
 - ✗ *because of he was ill* → ✓ *because **he was ill*** / *because of **his illness***
+- ✗ *Take a map in case you will get lost.* → ✓ *Take a map in case you **get** lost.*
+- ✗ *Even if he is rich, he isn't happy.* → ✓ ***Even though** he is rich, he isn't happy.*
+- ✗ *Despite of the rain, we went out.* → ✓ ***Despite** the rain, we went out.*
+- ✗ *She works like a teacher.* → ✓ *She works **as** a teacher.*
 
 Докладніше про `so … that`: «So, such, such a, so much, so many». Слова-зв'язки для тексту: «Discourse markers».

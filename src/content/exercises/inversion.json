@@ -258,6 +258,41 @@
    ],
    "why": "Not only did + підмет + V.",
    "hint": "Вона не тільки співала, а й танцювала."
+  },
+  {
+   "id": "inversion-21",
+   "type": "choice",
+   "q": "Not until the end of the film ___ who the killer was.",
+   "options": [
+    "we realised",
+    "did we realise",
+    "we did realise",
+    "realised we"
+   ],
+   "answer": 1,
+   "why": "Not until … — інверсія в головній частині."
+  },
+  {
+   "id": "inversion-22",
+   "type": "choice",
+   "q": "Only if you practise every day ___ improve.",
+   "options": [
+    "you will",
+    "will you",
+    "you'll",
+    "do you"
+   ],
+   "answer": 1,
+   "why": "Only if … — інверсія після умовної частини."
+  },
+  {
+   "id": "inversion-23",
+   "type": "fill",
+   "q": "I had hardly closed my eyes ___ the alarm went off.",
+   "answer": [
+    "when"
+   ],
+   "why": "hardly … when."
   }
  ]
 }

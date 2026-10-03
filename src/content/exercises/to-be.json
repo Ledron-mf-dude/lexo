@@ -268,6 +268,64 @@
    ],
    "why": "are not.",
    "hint": "Їх немає вдома."
+  },
+  {
+   "id": "to-be-23",
+   "type": "choice",
+   "q": "I ___ hungry. Let's eat.",
+   "options": [
+    "have",
+    "am",
+    "feel me",
+    "do"
+   ],
+   "answer": 1,
+   "why": "Мені голодно — I am hungry (з be)."
+  },
+  {
+   "id": "to-be-24",
+   "type": "choice",
+   "q": "How much ___ these shoes?",
+   "options": [
+    "is",
+    "are",
+    "do",
+    "does"
+   ],
+   "answer": 1,
+   "why": "Shoes — множина: How much are…?"
+  },
+  {
+   "id": "to-be-25",
+   "type": "choice",
+   "q": "\"Are you a student?\" — \"Yes, I ___.\"",
+   "options": [
+    "'m",
+    "am",
+    "do",
+    "are"
+   ],
+   "answer": 1,
+   "why": "У короткій відповіді «так» не скорочуємо: Yes, I am."
+  },
+  {
+   "id": "to-be-26",
+   "type": "fill",
+   "q": "___ you at home yesterday evening?",
+   "answer": [
+    "Were"
+   ],
+   "why": "Минуле від be з you — were."
+  },
+  {
+   "id": "to-be-27",
+   "type": "fill",
+   "q": "It ___ very cold today. Take a coat.",
+   "answer": [
+    "is",
+    "'s"
+   ],
+   "why": "Погода — It is cold."
   }
  ]
 }

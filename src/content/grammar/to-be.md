@@ -53,6 +53,44 @@ tags: [to be, am is are, describing people, possessions, whose, possessive, be, 
 
 Див. також «Займенники: особові, присвійні, me чи I» і «Питання в англійській».
 
+## Коли українською без «бути», а англійською з be
+
+Англійське речення не обходиться без дієслова, тому `be` з'являється там, де українською його немає:
+
+| Українською | Англійською |
+| --- | --- |
+| Мені холодно. / Мені 25. | I **am** cold. / I **am** 25. |
+| Я голодний. / Я спраглий. | I**'m** hungry. / I**'m** thirsty. |
+| Вона лікарка. | She **is** a doctor. |
+| Я з Києва. | I**'m** from Kyiv. |
+| Сьогодні холодно. | **It's** cold today. |
+| Скільки це коштує? — 5 фунтів. | How much **is** it? — It**'s** £5. |
+| Ти маєш рацію. / Я запізнююся. | You**'re** right. / I**'m** late. |
+| Мені страшно. / Мені цікаво. | I**'m** scared. / I**'m** interested. |
+
+## Was і were
+
+Минулий час від `be`: **was** для I / he / she / it, **were** для you / we / they.
+
+| | Приклад |
+| --- | --- |
+| Ствердження | I **was** tired. / They **were** at home. |
+| Заперечення | She **wasn't** there. / We **weren't** ready. |
+| Питання | **Was** it expensive? — Yes, it **was**. / **Where were** you? |
+
+Детальніше — «Past Simple: форми, was/were і неправильні дієслова».
+
+## Скорочення
+
+| Повна форма | Скорочено | Заперечення (два варіанти) |
+| --- | --- | --- |
+| I am | I'm | I'm not (без *amn't*) |
+| you are | you're | you aren't / you're not |
+| he is | he's | he isn't / he's not |
+| they are | they're | they aren't / they're not |
+
+У коротких відповідях **«так»** не скорочуємо: *Yes, I **am**.* (не *Yes, I'm*).
+
 ## Типові помилки
 
 - ✗ *She a doctor.* → ✓ *She **is** a doctor.*
@@ -60,3 +98,8 @@ tags: [to be, am is are, describing people, possessions, whose, possessive, be, 
 - ✗ *Do you are ready?* → ✓ ***Are** you ready?*
 - ✗ *Where you are from?* → ✓ *Where **are you** from?*
 - ✗ *I am agree.* → ✓ *I **agree**.* (agree — дієслово)
+- ✗ *I have cold.* → ✓ *I **am** cold.*
+- ✗ *She is 30 years.* → ✓ *She is 30 **years old**.*
+- ✗ *Is cold today.* → ✓ ***It is** cold today.*
+- ✗ *Where are you come from?* → ✓ *Where **are you** from?* / *Where **do you come** from?*
+- ✗ *Yes, I'm.* → ✓ *Yes, I **am**.*

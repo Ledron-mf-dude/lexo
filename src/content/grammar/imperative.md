@@ -33,11 +33,27 @@ tags: [imperative, sit down, don't, let's, please, наказовий спосі
 - **Заперечення з be:** *Don't be silly!* (не *Be not silly*).
 - Ввічливий тон залежить від інтонації та слова `please`.
 
+## Інші форми
+
+| Форма | Значення | Приклад |
+| --- | --- | --- |
+| **Always / Never** + дієслово | правило, порада | **Never** leave your bag unattended. / **Always** check the date. |
+| **Let me / let him** + дієслово | пропозиція, дозвіл | **Let me** help you. / **Let him** finish. |
+| наказ + **will you? / would you? / could you?** | м'якше прохання | Close the door, **will you**? |
+| **Don't** + **you** + дієслово | емоційна заборона | **Don't you** dare touch it! |
+| **Do** + дієслово | наполегливо, тепло | **Do** come in! |
+
+## Наказ і непряма мова
+
+У переказі наказ стає **told / asked + особа + to-інфінітив**: *"Sit down."* → *She **told me to sit** down.* Див. «Reported speech (непряма мова)».
+
 ## Типові помилки
 
 - ✗ *Not talk!* → ✓ ***Don't** talk!*
 - ✗ *Be not late!* → ✓ ***Don't be** late!*
 - ✗ *Let's to go!* → ✓ *Let's **go**!*
 - ✗ *Let's don't argue.* (розмовне AmE) → ✓ *Let's **not** argue.*
+- ✗ *Never to leave the door open.* → ✓ ***Never leave** the door open.*
+- ✗ *Let me to help you.* → ✓ *Let me **help** you.*
 
 Порівняйте з проханнями через модальні: *Could you close the door?* — м'якше. Див. «Can, could, be able to».

@@ -260,6 +260,63 @@
    ],
    "why": "jeans — множина.",
    "hint": "Мої джинси затісні."
+  },
+  {
+   "id": "plural-nouns-23",
+   "type": "choice",
+   "q": "Two ___ people came to the concert.",
+   "options": [
+    "hundreds",
+    "hundred",
+    "hundreds of",
+    "hundred of"
+   ],
+   "answer": 1,
+   "why": "Після числа — hundred без -s."
+  },
+  {
+   "id": "plural-nouns-24",
+   "type": "choice",
+   "q": "The ___ of these houses are red.",
+   "options": [
+    "rooves",
+    "roofs",
+    "roofes",
+    "roof"
+   ],
+   "answer": 1,
+   "why": "Виняток: roof → roofs."
+  },
+  {
+   "id": "plural-nouns-25",
+   "type": "choice",
+   "q": "We saw some ___ on the farm.",
+   "options": [
+    "sheeps",
+    "sheep",
+    "sheepes",
+    "a sheep"
+   ],
+   "answer": 1,
+   "why": "sheep — множина без змін."
+  },
+  {
+   "id": "plural-nouns-26",
+   "type": "fill",
+   "q": "There are three ___ (crisis) in the region.",
+   "answer": [
+    "crises"
+   ],
+   "why": "-is → -es: crisis → crises."
+  },
+  {
+   "id": "plural-nouns-27",
+   "type": "fill",
+   "q": "___ of people watched the match on TV. (тисячі)",
+   "answer": [
+    "Thousands"
+   ],
+   "why": "Без числа, «дуже багато» — thousands of."
   }
  ]
 }

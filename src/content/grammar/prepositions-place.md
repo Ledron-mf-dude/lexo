@@ -52,9 +52,42 @@ tags: [prepositions of place, at, in, on, next to, under, between, behind, in fr
 
 Див. також «Прийменники руху: to, into, through, across, along, past» і «Прийменники часу: at, in, on, by, until, before, after».
 
+## Адреси
+
+| Що | Прийменник | Приклад |
+| --- | --- | --- |
+| місто, країна, район | **in** | She lives **in** Lviv / **in** Poland. |
+| вулиця | **on** (BrE також **in**) | They live **on** Green Street. |
+| точна адреса з номером | **at** | We live **at** 15 Green Street. |
+| поверх | **on** | My flat is **on** the third floor. |
+
+## Будівлі: at чи in?
+
+- **at** — місце як точка, де щось відбувається: *I'm **at** the cinema / **at** the bank / **at** a friend's.*
+- **in** — усередині саме будівлі: *It's cold **in** the cinema.* / *There are 200 seats **in** the theatre.*
+
+## Кут, верх, середина
+
+| Вираз | Значення |
+| --- | --- |
+| **in** the corner **of** the room | у кутку (всередині) |
+| **on / at** the corner **of** the street | на розі вулиці |
+| **at** the top / bottom **of** the page | вгорі / внизу сторінки |
+| **in** the middle **of** the room | посередині |
+| **on** the left / right | ліворуч / праворуч |
+| **at** the front / back **of** the bus | спереду / ззаду |
+
+## Сталі вирази без артикля
+
+*in bed, in hospital (BrE), in prison, at home, at work, at school, at university, at sea, on holiday, on business*.
+
 ## Типові помилки
 
 - ✗ *in the bus* → ✓ ***on** the bus* (але *in a car*)
 - ✗ *at the Paris* → ✓ ***in** Paris*
 - ✗ *on the picture* → ✓ ***in** the picture*
 - ✗ *between many people* → ✓ ***among** many people* (between — з двома)
+- ✗ *She is at the bed.* → ✓ *She is **in bed**.*
+- ✗ *The title is on the top of the page.* → ✓ *The title is **at** the top of the page.*
+- ✗ *We live in 15 Green Street.* → ✓ *We live **at** 15 Green Street.*
+- ✗ *My flat is in the third floor.* → ✓ *My flat is **on** the third floor.*

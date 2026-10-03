@@ -275,6 +275,54 @@
    ],
    "why": "them — додаток.",
    "hint": "Ми запросили їх на нашу вечірку."
+  },
+  {
+   "id": "pronouns-23",
+   "type": "choice",
+   "q": "This umbrella isn't ___. Mine is black.",
+   "options": [
+    "my",
+    "mine",
+    "me",
+    "I"
+   ],
+   "answer": 1,
+   "why": "Замість іменника — присвійний займенник mine."
+  },
+  {
+   "id": "pronouns-24",
+   "type": "choice",
+   "q": "___ late again! The film has already started.",
+   "options": [
+    "Their",
+    "There",
+    "They're",
+    "Them"
+   ],
+   "answer": 2,
+   "why": "They are → they're."
+  },
+  {
+   "id": "pronouns-25",
+   "type": "choice",
+   "q": "Can you help ___? We're lost.",
+   "options": [
+    "we",
+    "our",
+    "us",
+    "ours"
+   ],
+   "answer": 2,
+   "why": "Після дієслова — об'єктний займенник us."
+  },
+  {
+   "id": "pronouns-26",
+   "type": "fill",
+   "q": "Is this coat ___ (you)?",
+   "answer": [
+    "yours"
+   ],
+   "why": "Присвійний займенник без апострофа: yours."
   }
  ]
 }

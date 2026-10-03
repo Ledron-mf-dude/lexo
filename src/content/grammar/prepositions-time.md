@@ -50,6 +50,31 @@ tags: [prepositions of time, at, in, on, by, until, before, after, at night, in 
 | **for** | протягом | **for** two hours |
 | **during** | під час | **during** the meeting |
 
+## Свята і частини дня
+
+| Прийменник | Що | Приклад |
+| --- | --- | --- |
+| **at** | свято як період | **at** Christmas, **at** Easter |
+| **on** | конкретний день свята | **on** Christmas Day, **on** Easter Sunday, **on** my birthday |
+| **in** | частина дня загалом | **in** the morning, **in** the evening |
+| **on** | частина конкретного дня | **on** Monday morning, **on** the evening of 5 May |
+
+## Десятиліття, століття, періоди
+
+- ***in** the 1990s* (у дев'яностих), ***in** the 19th century*, ***in** the Middle Ages*.
+- ***at** the moment / at present* (зараз), ***at** the same time* (водночас).
+- ***at** the beginning **of** the film* — на початку; ***in** the beginning* — спершу, з самого початку (без `of`).
+
+## Through, within, till
+
+- ***within** a week* — протягом тижня, не пізніше ніж за тиждень.
+- ***(all) through** the night* — усю ніч, без перерви.
+- *from 9 **till** 5* — розмовний варіант `until`.
+
+## In чи after?
+
+**In** + період — «через стільки часу від тепер»: *I'll be back **in** ten minutes.* **After** — «після події»: *I'll call you **after** the meeting.* Про майбутнє не кажемо *after two hours* у значенні «через дві години».
+
 ## Типові помилки
 
 - ✗ *in Monday* → ✓ ***on** Monday*
@@ -57,5 +82,9 @@ tags: [prepositions of time, at, in, on, by, until, before, after, at night, in 
 - ✗ *on next week* → ✓ ***next week*** (без прийменника)
 - ✗ *Finish it until Friday.* (дедлайн) → ✓ *Finish it **by** Friday.*
 - ✗ *in 5 o'clock* → ✓ ***at** 5 o'clock*
+- ✗ *at Christmas Day* → ✓ ***on** Christmas Day*
+- ✗ *I'll be back after two hours.* → ✓ *I'll be back **in** two hours.*
+- ✗ *on the morning* → ✓ ***in** the morning*
+- ✗ *in the beginning of the film* → ✓ ***at** the beginning of the film*
 
 Про `for / since / during / while`: «For, since, from, during, while». Про `on time / in time`: «On time чи in time».

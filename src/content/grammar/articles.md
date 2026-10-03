@@ -77,6 +77,18 @@ tags: [articles, a, an, the, zero article, артиклі, артикль]
 - ***Life** is short.* — ***The life** of a soldier is hard.*
 - ***People** are friendly here.* — ***The people** I met were friendly.*
 
+## A / an чи one?
+
+`A / an` — просто «якийсь»; **one** — підкреслює кількість, «один, а не два»: *I have **a** brother* (є брат) — *I have only **one** brother* (лише один). Також *one day* (одного разу), *one of my friends*.
+
+## The same, the first, the only
+
+Перед `same`, порядковими числівниками, `only`, `next / last` у значенні «наступний / останній із ряду» — **the**: ***the same** day*, ***the first** time*, ***the only** person*, ***the last** chapter*. Але *next week, last year* (від тепер) — **без** артикля.
+
+## Артикль із прикметником
+
+Артикль стоїть **перед** прикметником, а `a / an` обирається за звуком прикметника: ***an** old car*, ***a** useful book*, ***an** honest man*.
+
 ## Типові помилки
 
 - ✗ *She is doctor.* → ✓ *She is **a** doctor.* (професія — з a/an)
@@ -85,3 +97,5 @@ tags: [articles, a, an, the, zero article, артиклі, артикль]
 - ✗ *I have a good news.* → ✓ *I have **some** good news.* (news — нелічильне)
 - ✗ *He plays the football.* → ✓ *He plays **football**.* (але *plays **the** guitar*)
 - ✗ *an university* → ✓ ***a** university* (звук /j/, не голосний)
+- ✗ *We met at same day.* → ✓ *We met on **the same** day.*
+- ✗ *I have only a brother.* → ✓ *I have only **one** brother.*

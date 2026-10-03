@@ -266,6 +266,53 @@
    ],
    "why": "Місце → час.",
    "hint": "Вони прибули на вокзал пізно."
+  },
+  {
+   "id": "word-order-21",
+   "type": "choice",
+   "q": "Which is correct?",
+   "options": [
+    "I speak also German.",
+    "I also speak German.",
+    "Also I speak German.",
+    "I speak German also too."
+   ],
+   "answer": 1,
+   "why": "also — перед основним дієсловом."
+  },
+  {
+   "id": "word-order-22",
+   "type": "order",
+   "words": [
+    "Do",
+    "you",
+    "know",
+    "where",
+    "she",
+    "lives"
+   ],
+   "answer": [
+    "Do you know where she lives"
+   ],
+   "why": "Непряме питання — прямий порядок слів.",
+   "hint": "Ти знаєш, де вона живе?"
+  },
+  {
+   "id": "word-order-23",
+   "type": "order",
+   "words": [
+    "He",
+    "says",
+    "he",
+    "is",
+    "too",
+    "busy"
+   ],
+   "answer": [
+    "He says he is too busy"
+   ],
+   "why": "Підмет обов'язковий.",
+   "hint": "Він каже, що надто зайнятий."
   }
  ]
 }

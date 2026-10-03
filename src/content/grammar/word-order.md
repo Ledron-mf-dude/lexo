@@ -51,6 +51,25 @@ tags: [word order, subject verb object, SVO, manner place time, порядок �
 
 *a **red** car*, не *a car red*. Порядок кількох прикметників — «Adjective order».
 
+## Питання з прийменником і непрямі питання
+
+- Прийменник зазвичай іде **в кінець**: ***Who** are you waiting **for**?* Див. «Subject questions і питання з прийменником».
+- У непрямому питанні — **прямий** порядок: *Do you know where **she lives**?* (не *where does she live*). Див. «Indirect questions (ввічливі непрямі запитання)».
+
+## Підмет обов'язковий
+
+Українською підмет часто пропускають, англійською — ні: *Is raining* ✗ → ***It** is raining* ✓; *Says he is busy* ✗ → ***He** says he is busy* ✓.
+
+## Довгий додаток наприкінці
+
+Коротке йде раніше за довге: *She gave **me** a big box of chocolates.* Порівняйте з двома займенниками — «Дієслова з двома додатками: give, send, show, buy».
+
+## Enough, also, only
+
+- **enough** — **після** прикметника, **перед** іменником: *old enough*, *enough money*.
+- **also** — перед основним дієсловом, після `be`: *I **also** speak French.* / *She **is also** a teacher.*
+- **only** — перед словом, яке обмежує: *I **only** have five euros.* Див. «Position of adverbs (місце прислівників)».
+
 ## Типові помилки
 
 - ✗ *I very like it.* → ✓ *I like it **very much**.*
@@ -58,5 +77,7 @@ tags: [word order, subject verb object, SVO, manner place time, порядок �
 - ✗ *I like very much football.* → ✓ *I like **football very much**.* (не розриваємо дієслово й додаток)
 - ✗ *Every day I am going to work by bus.* → ✓ *I **go** to work by bus every day.*
 - ✗ *Where you live?* → ✓ *Where **do you** live?*
+- ✗ *Says he is busy.* → ✓ ***He** says he is busy.*
+- ✗ *I speak also French.* → ✓ *I **also** speak French.*
 
 Див. також «Питання в англійській».

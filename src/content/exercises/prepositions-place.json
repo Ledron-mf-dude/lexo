@@ -264,6 +264,54 @@
    ],
    "why": "opposite — навпроти.",
    "hint": "Ми живемо навпроти парку."
+  },
+  {
+   "id": "prepositions-place-22",
+   "type": "choice",
+   "q": "We live ___ 25 Park Road.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "by"
+   ],
+   "answer": 2,
+   "why": "Адреса з номером — at."
+  },
+  {
+   "id": "prepositions-place-23",
+   "type": "choice",
+   "q": "Her office is ___ the fifth floor.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "by"
+   ],
+   "answer": 1,
+   "why": "Поверх — on."
+  },
+  {
+   "id": "prepositions-place-24",
+   "type": "choice",
+   "q": "Sign your name ___ the bottom of the page.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "under"
+   ],
+   "answer": 2,
+   "why": "at the top / bottom of."
+  },
+  {
+   "id": "prepositions-place-25",
+   "type": "fill",
+   "q": "He's not at work. He's ill ___ bed.",
+   "answer": [
+    "in"
+   ],
+   "why": "Сталий вираз — in bed."
   }
  ]
 }

@@ -274,6 +274,50 @@
    ],
    "why": "didn't use to + V.",
    "hint": "Раніше я не любив рибу."
+  },
+  {
+   "id": "used-to-23",
+   "type": "choice",
+   "q": "I ___ get up at 6 these days.",
+   "options": [
+    "use to",
+    "usually",
+    "used to",
+    "am used"
+   ],
+   "answer": 1,
+   "why": "Звичка зараз — Present Simple з usually."
+  },
+  {
+   "id": "used-to-24",
+   "type": "choice",
+   "q": "Don't worry, you'll get used to ___ on the left.",
+   "options": [
+    "drive",
+    "driving",
+    "drove",
+    "be drive"
+   ],
+   "answer": 1,
+   "why": "get used to + -ing."
+  },
+  {
+   "id": "used-to-25",
+   "type": "fill",
+   "q": "___ you use to play football at school?",
+   "answer": [
+    "Did"
+   ],
+   "why": "Питання: Did + підмет + use to."
+  },
+  {
+   "id": "used-to-26",
+   "type": "fill",
+   "q": "I never ___ to like vegetables.",
+   "answer": [
+    "used"
+   ],
+   "why": "never used to — без did."
   }
  ]
 }

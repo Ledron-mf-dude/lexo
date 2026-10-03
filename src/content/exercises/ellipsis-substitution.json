@@ -248,6 +248,41 @@
    ],
    "why": "do замінює works.",
    "hint": "Вона працює старанніше, ніж я."
+  },
+  {
+   "id": "ellipsis-substitution-21",
+   "type": "choice",
+   "q": "\"I can't stand horror films.\" — \"___\"",
+   "options": [
+    "Me too.",
+    "Neither can I.",
+    "So can I.",
+    "I can't too."
+   ],
+   "answer": 1,
+   "why": "Згода із запереченням — Neither can I."
+  },
+  {
+   "id": "ellipsis-substitution-22",
+   "type": "choice",
+   "q": "\"Have you finished?\" — \"Yes, I ___.\"",
+   "options": [
+    "finished",
+    "have",
+    "did",
+    "am"
+   ],
+   "answer": 1,
+   "why": "Коротка відповідь — допоміжне з питання."
+  },
+  {
+   "id": "ellipsis-substitution-23",
+   "type": "fill",
+   "q": "\"Do you want to come with us?\" — \"I'd love ___.\"",
+   "answer": [
+    "to"
+   ],
+   "why": "Після to дієслово можна пропустити."
   }
  ]
 }

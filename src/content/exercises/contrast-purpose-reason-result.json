@@ -301,6 +301,67 @@
    ],
    "why": "because of + іменник.",
    "hint": "Ми залишилися всередині через спеку."
+  },
+  {
+   "id": "contrast-purpose-reason-result-24",
+   "type": "choice",
+   "q": "Take an umbrella ___ it rains.",
+   "options": [
+    "in case",
+    "so that",
+    "because of",
+    "despite"
+   ],
+   "answer": 0,
+   "why": "На випадок — in case + теперішній час."
+  },
+  {
+   "id": "contrast-purpose-reason-result-25",
+   "type": "choice",
+   "q": "___ being tired, she finished the report.",
+   "options": [
+    "Although",
+    "Despite",
+    "Even though",
+    "However"
+   ],
+   "answer": 1,
+   "why": "Despite + -ing."
+  },
+  {
+   "id": "contrast-purpose-reason-result-26",
+   "type": "choice",
+   "q": "I'll go to the party ___ you don't come.",
+   "options": [
+    "even though",
+    "even if",
+    "although",
+    "in spite"
+   ],
+   "answer": 1,
+   "why": "Умова (невідомо) — even if."
+  },
+  {
+   "id": "contrast-purpose-reason-result-27",
+   "type": "choice",
+   "q": "He works ___ a waiter at weekends.",
+   "options": [
+    "like",
+    "as",
+    "as if",
+    "such as"
+   ],
+   "answer": 1,
+   "why": "У ролі — as."
+  },
+  {
+   "id": "contrast-purpose-reason-result-28",
+   "type": "fill",
+   "q": "She left early so as ___ to miss the train.",
+   "answer": [
+    "not"
+   ],
+   "why": "so as not to + V."
   }
  ]
 }

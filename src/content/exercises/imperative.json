@@ -254,6 +254,41 @@
    ],
    "why": "Інструкція — наказовий спосіб.",
    "hint": "На світлофорі поверніть ліворуч."
+  },
+  {
+   "id": "imperative-21",
+   "type": "choice",
+   "q": "___ leave your bag unattended at the airport.",
+   "options": [
+    "Don't never",
+    "Never",
+    "Not",
+    "No"
+   ],
+   "answer": 1,
+   "why": "Never + дієслово — правило, без don't."
+  },
+  {
+   "id": "imperative-22",
+   "type": "choice",
+   "q": "Close the window, ___?",
+   "options": [
+    "do you",
+    "will you",
+    "won't it",
+    "shall I"
+   ],
+   "answer": 1,
+   "why": "Наказ + will you? — м'якше прохання."
+  },
+  {
+   "id": "imperative-23",
+   "type": "fill",
+   "q": "Let me ___ (help) you with that bag.",
+   "answer": [
+    "help"
+   ],
+   "why": "Let me + інфінітив без to."
   }
  ]
 }

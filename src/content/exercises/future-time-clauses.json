@@ -259,6 +259,68 @@
    ],
    "why": "until + Present Simple.",
    "hint": "Чекай тут, поки я не повернуся."
+  },
+  {
+   "id": "future-time-clauses-21",
+   "type": "choice",
+   "q": "I don't know when he ___ back.",
+   "options": [
+    "comes",
+    "will come",
+    "came",
+    "is coming to"
+   ],
+   "answer": 1,
+   "why": "when — питальне слово (непряме питання), тут will можна."
+  },
+  {
+   "id": "future-time-clauses-22",
+   "type": "choice",
+   "q": "I'll call you when I ___ the results.",
+   "options": [
+    "will get",
+    "get",
+    "got",
+    "am going to get"
+   ],
+   "answer": 1,
+   "why": "when — сполучник часу, про майбутнє — Present Simple."
+  },
+  {
+   "id": "future-time-clauses-23",
+   "type": "choice",
+   "q": "By the time you ___, we'll have eaten.",
+   "options": [
+    "will arrive",
+    "arrive",
+    "arrived",
+    "are arriving to"
+   ],
+   "answer": 1,
+   "why": "Після by the time — теперішній час."
+  },
+  {
+   "id": "future-time-clauses-24",
+   "type": "choice",
+   "q": "She had no sooner sat down ___ the phone rang.",
+   "options": [
+    "when",
+    "than",
+    "then",
+    "that"
+   ],
+   "answer": 1,
+   "why": "no sooner … than."
+  },
+  {
+   "id": "future-time-clauses-25",
+   "type": "fill",
+   "q": "I won't sign it ___ I've read it carefully.",
+   "answer": [
+    "until",
+    "till"
+   ],
+   "why": "not … until — не раніше ніж."
   }
  ]
 }

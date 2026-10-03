@@ -50,6 +50,25 @@ tags: [question tags, isn't it, don't you, so do I, neither do I, me too, me nei
 
 Після `so` і `neither` — **допоміжне дієслово + підмет**. З `neither` дієслово в ствердній формі: не *Neither don't I*.
 
+## Складніші випадки
+
+| Речення | Тег | Чому |
+| --- | --- | --- |
+| You've **never** been there, | **have you?** | never, hardly, nobody — заперечні, тег ствердний |
+| He can **hardly** swim, | **can he?** | hardly — заперечне |
+| **Everybody** is here, | **aren't they?** | everybody, somebody, nobody → they |
+| **Nothing** happened, | **did it?** | nothing, everything → it |
+| **That's** your car, | **isn't it?** | this / that → it |
+| You **used to** live here, | **didn't you?** | used to → did |
+| You**'d better** go, | **hadn't you?** | had better → had |
+| You**'d rather** stay, | **wouldn't you?** | 'd rather → would |
+| She **has** a car, | **doesn't she?** | have = мати → do (BrE також *hasn't she?*) |
+| Don't be late, | **will you?** | заперечний наказ → will you? |
+
+## Короткі відповіді на тег
+
+Відповідаємо за фактами, повторюючи допоміжне: *"You're from Lviv, aren't you?" — "Yes, I **am**." / "No, I'**m not**. I'm from Kyiv."*
+
 ## Типові помилки
 
 - ✗ *She is late, is she?* → ✓ *She is late, **isn't she**?*
@@ -57,3 +76,7 @@ tags: [question tags, isn't it, don't you, so do I, neither do I, me too, me nei
 - ✗ *I am right, amn't I?* → ✓ *I am right, **aren't I**?*
 - ✗ *Neither don't I.* → ✓ ***Neither do I.***
 - ✗ *So I do.* (згода) → ✓ ***So do I.***
+- ✗ *You've never been there, haven't you?* → ✓ *You've never been there, **have you**?*
+- ✗ *Everybody's here, isn't he?* → ✓ *Everybody's here, **aren't they**?*
+- ✗ *That's your car, isn't that?* → ✓ *That's your car, **isn't it**?*
+- ✗ *You used to smoke, usedn't you?* → ✓ *You used to smoke, **didn't you**?*

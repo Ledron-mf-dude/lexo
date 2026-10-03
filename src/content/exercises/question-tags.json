@@ -275,6 +275,54 @@
    ],
    "why": "So + допоміжне + підмет.",
    "hint": "І я теж. (згода з «I love music»)"
+  },
+  {
+   "id": "question-tags-23",
+   "type": "choice",
+   "q": "You've never been to Paris, ___?",
+   "options": [
+    "haven't you",
+    "have you",
+    "did you",
+    "don't you"
+   ],
+   "answer": 1,
+   "why": "never — заперечне, тег ствердний."
+  },
+  {
+   "id": "question-tags-24",
+   "type": "choice",
+   "q": "Everybody liked the film, ___?",
+   "options": [
+    "didn't he",
+    "didn't they",
+    "did they",
+    "wasn't it"
+   ],
+   "answer": 1,
+   "why": "everybody → they."
+  },
+  {
+   "id": "question-tags-25",
+   "type": "choice",
+   "q": "You used to live here, ___?",
+   "options": [
+    "usedn't you",
+    "didn't you",
+    "don't you",
+    "weren't you"
+   ],
+   "answer": 1,
+   "why": "used to → did."
+  },
+  {
+   "id": "question-tags-26",
+   "type": "fill",
+   "q": "Nothing happened, ___ it?",
+   "answer": [
+    "did"
+   ],
+   "why": "nothing — заперечне, тег ствердний: did it?"
   }
  ]
 }

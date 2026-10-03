@@ -125,6 +125,22 @@ tags: [past simple, irregular verbs, regular verbs, -ed, was were, v2, v3, не�
 
 Що далі: «Минулі часи: Past Simple, Continuous, Perfect» і «Present Perfect: simple, continuous і різниця з Past Simple» (там потрібна третя форма).
 
+## Як запам'ятати: групи за схемою
+
+Неправильні дієслова легше вчити групами, у яких форми змінюються однаково:
+
+| Схема | Приклади |
+| --- | --- |
+| **A – A – A** (усі однакові) | cut, put, let, set, shut, hit, cost, hurt |
+| **A – B – B** (друга й третя однакові) | buy – bought – bought, teach – taught, think – thought, bring – brought, catch – caught |
+| **A – B – B** з -t | sleep – slept, keep – kept, feel – felt, leave – left, meet – met |
+| **A – B – A** (третя як перша) | come – came – come, become – became – become, run – ran – run |
+| **A – B – C** з -n | write – wrote – written, drive – drove – driven, speak – spoke – spoken, take – took – taken |
+| **i – a – u** | begin – began – begun, drink – drank – drunk, sing – sang – sung, swim – swam – swum, ring – rang – rung |
+| **-ew – -own** | know – knew – known, grow – grew – grown, throw – threw – thrown, fly – flew – flown |
+
+Дві форми, які часто плутають: **lie – lay – lain** (лежати) і **lay – laid – laid** (класти). Див. «Слова, які часто плутають: say і tell, lend і borrow…».
+
 ## Типові помилки
 
 - ✗ *Did you went?* → ✓ *Did you **go**?*
@@ -132,3 +148,6 @@ tags: [past simple, irregular verbs, regular verbs, -ed, was were, v2, v3, не�
 - ✗ *She didn't came.* → ✓ *She didn't **come**.*
 - ✗ *They was at home.* → ✓ *They **were** at home.*
 - ✗ *I have wrote* → ✓ *I have **written*** (після have — V3, а не V2)
+- ✗ *She teached us English.* → ✓ *She **taught** us English.*
+- ✗ *I have drank too much coffee.* → ✓ *I have **drunk** too much coffee.*
+- ✗ *He thinked about it.* → ✓ *He **thought** about it.*

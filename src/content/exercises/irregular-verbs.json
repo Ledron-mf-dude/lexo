@@ -258,6 +258,50 @@
    ],
    "why": "go – went.",
    "hint": "Минулого літа ми їздили на море."
+  },
+  {
+   "id": "irregular-verbs-24",
+   "type": "choice",
+   "q": "She ___ us maths last year.",
+   "options": [
+    "teached",
+    "taught",
+    "teach",
+    "tought"
+   ],
+   "answer": 1,
+   "why": "teach – taught – taught."
+  },
+  {
+   "id": "irregular-verbs-25",
+   "type": "choice",
+   "q": "I have ___ two litres of water today.",
+   "options": [
+    "drank",
+    "drunk",
+    "drinked",
+    "drink"
+   ],
+   "answer": 1,
+   "why": "drink – drank – drunk; після have — V3."
+  },
+  {
+   "id": "irregular-verbs-26",
+   "type": "fill",
+   "q": "He ___ (lie) on the sofa all afternoon.",
+   "answer": [
+    "lay"
+   ],
+   "why": "lie (лежати) – lay – lain."
+  },
+  {
+   "id": "irregular-verbs-27",
+   "type": "fill",
+   "q": "Who ___ (bring) this cake?",
+   "answer": [
+    "brought"
+   ],
+   "why": "bring – brought – brought."
   }
  ]
 }

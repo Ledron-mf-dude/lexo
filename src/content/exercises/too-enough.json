@@ -242,6 +242,41 @@
    ],
    "why": "too + adj + to.",
    "hint": "Надто холодно, щоб виходити."
+  },
+  {
+   "id": "too-enough-20",
+   "type": "choice",
+   "q": "The soup is too hot to ___.",
+   "options": [
+    "eat it",
+    "eat",
+    "eating",
+    "be eaten it"
+   ],
+   "answer": 1,
+   "why": "Додаток не повторюємо: too hot to eat."
+  },
+  {
+   "id": "too-enough-21",
+   "type": "choice",
+   "q": "It's ___ too expensive for me.",
+   "options": [
+    "very",
+    "far",
+    "so",
+    "enough"
+   ],
+   "answer": 1,
+   "why": "Підсилення too — far / much."
+  },
+  {
+   "id": "too-enough-22",
+   "type": "fill",
+   "q": "I've had enough ___ your excuses!",
+   "answer": [
+    "of"
+   ],
+   "why": "enough of + the / your…"
   }
  ]
 }

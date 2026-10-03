@@ -47,11 +47,28 @@ tags: [something, anything, nothing, everything, someone, anyone, nobody, everyb
 - ***Somebody** left **their** umbrella.*
 - ***Everyone** did **their** best.*
 
+## Any- у ствердженні
+
+У ствердному реченні `any-` означає «будь-хто, будь-що, неважливо хто»: ***Anyone** can learn this.* / *Sit **anywhere** you like.* / *I'll do **anything** for you.*
+
+## Every one чи everyone?
+
+- **everyone / everybody** — усі люди: ***Everyone** was happy.*
+- **every one** — кожен (з групи), часто з `of`: *I've read **every one of** his books.*
+
+Так само **anyone** (будь-хто) — **any one** (будь-який один): *Choose **any one** of these.*
+
+## Else
+
+Після займенників на `some- / any- / no- / every-` і питальних слів: *someone **else**, nothing **else**, everywhere **else**, who **else**, what **else***. Присвійне — *someone **else's** bag*.
+
 ## Типові помилки
 
 - ✗ *I didn't see nobody.* → ✓ *I didn't see **anybody**.* / *I saw **nobody**.*
 - ✗ *Everybody are here.* → ✓ *Everybody **is** here.*
 - ✗ *interesting something* → ✓ *something **interesting***
 - ✗ *Somebody left his umbrella.* (стать невідома) → ✓ *Somebody left **their** umbrella.*
+- ✗ *Do you want something other?* → ✓ *Do you want something **else**?*
+- ✗ *Every of them was late.* → ✓ ***Every one** of them was late.*
 
 Див. «Займенники», «Quantifiers».

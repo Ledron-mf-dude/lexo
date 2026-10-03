@@ -48,9 +48,34 @@ tags: [this, that, these, those, demonstratives, this or it, вказівні з
 - *This week / this year* — цього тижня / цього року.
 - ***That's** right. / **That's** all.*
 
+## This one, those ones
+
+Щоб не повторювати лічильний іменник, після `this / that` ставлять **one**, після `these / those` у розмові — **ones** (або нічого):
+
+- *Which bag do you like? — **This one**.*
+- *I don't like these shoes. I prefer **those (ones)**.*
+
+З нелічильними `one` не вживаємо: *I'll have **this** coffee, not **that**.*
+
+## Час: this, that, these days
+
+| Вираз | Значення |
+| --- | --- |
+| **this** morning / week / year | цього (поточного) періоду |
+| **that** day / evening | того дня (у розповіді про минуле) |
+| **these days** | нині, останнім часом |
+| **in those days** | у ті часи |
+
+## That у розмові
+
+- Відповідь на слова співрозмовника: *"I passed!" — "**That's** great!"* (не *This is great*)
+- Посилання на щойно сказане: ***That's** why I left.* / ***That's** what I mean.*
+
 ## Типові помилки
 
 - ✗ *This books are mine.* → ✓ ***These** books are mine.*
 - ✗ *Those is my car.* → ✓ ***That** is my car.*
 - ✗ *I'm busy that week.* (про поточний) → ✓ *I'm busy **this** week.*
 - ✗ *This is raining.* → ✓ ***It** is raining.* (погода — it)
+- ✗ *I like this ones.* → ✓ *I like **these** ones.*
+- ✗ *In these days people didn't have phones.* → ✓ *In **those** days people didn't have phones.*

@@ -274,6 +274,42 @@
    ],
    "why": "there is nothing.",
    "hint": "У холодильнику нічого немає."
+  },
+  {
+   "id": "indefinite-pronouns-23",
+   "type": "choice",
+   "q": "Would you like anything ___?",
+   "options": [
+    "other",
+    "else",
+    "more other",
+    "another"
+   ],
+   "answer": 1,
+   "why": "anything else."
+  },
+  {
+   "id": "indefinite-pronouns-24",
+   "type": "choice",
+   "q": "I've read ___ of her novels.",
+   "options": [
+    "every",
+    "every one",
+    "everyone",
+    "all one"
+   ],
+   "answer": 1,
+   "why": "every one of — кожен із."
+  },
+  {
+   "id": "indefinite-pronouns-25",
+   "type": "fill",
+   "q": "___ can learn to swim. It's not difficult. (будь-хто)",
+   "answer": [
+    "Anyone",
+    "Anybody"
+   ],
+   "why": "Any- у ствердженні — будь-хто."
   }
  ]
 }

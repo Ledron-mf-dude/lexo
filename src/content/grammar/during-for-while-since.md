@@ -54,11 +54,26 @@ tags: [for, since, from, during, while, ago, how long, prepositions of time, п�
 3. I met her (during / while) I was travelling. → **while**
 4. She called (during / for) the meeting. → **during**
 
+## Ago чи before?
+
+| ago | before |
+| --- | --- |
+| назад **від тепер** | раніше **від іншого моменту в минулому** |
+| з Past Simple | часто з Past Perfect |
+| *She left two years **ago**.* (два роки тому) | *She had left two years **before**.* (за два роки до того) |
+
+`Before` без числа — просто «раніше»: *I've seen this film **before**.*
+
+## Since як «тому що»
+
+`Since` на початку речення ще й означає причину: ***Since** it's late, let's go home.* Див. «Contrast, purpose, reason, result (although, so that, because of, therefore)».
+
 ## Типові помилки
 
 - ✗ *I've lived here since ten years.* → ✓ *…**for** ten years.*
 - ✗ *I fell asleep during I was watching TV.* → ✓ *…**while** I was watching TV.* / *…**during** the film.*
 - ✗ *I have moved here two years ago.* → ✓ *I **moved** here two years ago.*
 - ✗ *I slept during eight hours.* → ✓ *I slept **for** eight hours.*
+- ✗ *She had left the company two years ago.* → ✓ *She had left the company two years **before**.*
 
 Див. «Present Perfect», «Прийменники часу».
