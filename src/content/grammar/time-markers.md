@@ -72,7 +72,7 @@ tags: [time markers, always, usually, often, now, at the moment, every day, yest
 
 - ✗ *I have seen him yesterday.* → ✓ *I **saw** him yesterday.*
 - ✗ *I am knowing him since 2010.* → ✓ *I **have known** him since 2010.*
-- ✗ *She works now.* (дія саме зараз) → ✓ *She **is working** now.*
+- ✗ *Look! She works in the garden now.* (дія саме зараз) → ✓ *Look! She **is working** in the garden now.*
 - ✗ *When have you arrived?* → ✓ *When **did** you arrive?*
 - ✗ *This time tomorrow I will fly to Rome.* → ✓ *This time tomorrow I **will be flying** to Rome.*
-- ✗ *By the end of the month I will finish.* → ✓ *By the end of the month I **will have finished**.*
+- ✗ *By the end of the month I will finished.* → ✓ *By the end of the month I **will have finished**.*

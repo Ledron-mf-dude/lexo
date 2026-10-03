@@ -73,11 +73,11 @@ tags: [already, still, yet, just, so far, ще, вже, все ще, ще не]
 
 ## Типові помилки
 
-- ✗ *I have finished it yet.* → ✓ *I have **already** finished it.* (yet — у запереченні й питаннях)
+- ✗ *I have finished it yet.* → ✓ *I have **already** finished it.* / *I have finished it already.* / *I haven't finished it yet.* (yet — у запереченні й питаннях)
 - ✗ *She yet lives here.* → ✓ *She **still** lives here.*
 - ✗ *I didn't finish yet.* (BrE) → ✓ *I **haven't finished** yet.*
 - ✗ *He hasn't still called.* → ✓ *He **still hasn't** called.*
-- ✗ *I'm already not hungry.* → ✓ *I'm not hungry **any more**.*
+- ✗ *I'm already not hungry.* → ✓ *I'm not hungry **any more**.* / *I'm not hungry anymore.* / *I'm no longer hungry.*
 - ✗ *Are you yet waiting?* → ✓ *Are you **still** waiting?*
 
 Див. «No longer, any longer, anymore».

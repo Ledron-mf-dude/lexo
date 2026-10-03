@@ -75,7 +75,7 @@ tags: [this, that, these, those, demonstratives, this or it, вказівні з
 
 - ✗ *This books are mine.* → ✓ ***These** books are mine.*
 - ✗ *Those is my car.* → ✓ ***That** is my car.*
-- ✗ *I'm busy that week.* (про поточний) → ✓ *I'm busy **this** week.*
+- ✗ *That are my keys.* → ✓ ***Those** are my keys.*
 - ✗ *This is raining.* → ✓ ***It** is raining.* (погода — it)
-- ✗ *I like this ones.* → ✓ *I like **these** ones.*
+- ✗ *I like this ones.* → ✓ *I like **these** ones.* / *I like this one.*
 - ✗ *In these days people didn't have phones.* → ✓ *In **those** days people didn't have phones.*

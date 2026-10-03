@@ -67,7 +67,7 @@ tags: [ed adjectives, ing adjectives, bored boring, interested interesting, exci
 
 ## Типові помилки
 
-- ✗ *I am boring.* (= я нудний) → ✓ *I am **bored**.* (мені нудно)
+- ✗ *I am boring. Let's do something!* (= я нудний; «мені нудно» — bored) → ✓ *I am **bored**. Let's do something!*
 - ✗ *The film was bored.* → ✓ *The film was **boring**.*
 - ✗ *I'm very interesting in art.* → ✓ *I'm very **interested** in art.*
 - ✗ *She was exciting about the trip.* → ✓ *She was **excited** about the trip.*

@@ -86,7 +86,7 @@ wordTags: [з прийменником]
 - ✗ *I'm afraid from dogs.* → ✓ *I'm afraid **of** dogs.*
 - ✗ *different than* (BrE вважає розмовним) → ✓ *different **from***
 - ✗ *She is fond with animals.* → ✓ *She is fond **of** animals.*
-- ✗ *He is capable to do it.* → ✓ *He is capable **of doing** it.*
-- ✗ *I'm fed up of this weather.* → ✓ *I'm fed up **with** this weather.*
+- ✗ *He is capable to do it.* → ✓ *He is capable **of doing** it.* / *He is able to do it.*
+- ✗ *I'm fed up of this weather.* (of — BrE, розмовне) → ✓ *I'm fed up **with** this weather.*
 
 Див. «Дієслово + прийменник» і «Gerund».

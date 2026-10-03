@@ -52,6 +52,7 @@ npm run lint     # oxlint
 - **One right answer, or all of them.**
   - A `choice` question must have exactly one option that is right in context. The distractors must be wrong, not just less typical: a train that «will leave» at 9:15 is not a mistake.
   - A `fill` gap where several words fit (would / could / might, just / already, a time-clause tense) either lists them all in `answer` or narrows the gap with a cue: a base verb in brackets in `q`, or a `hint` such as «(досі)» or «(do / make)».
+  - A `- ✗ … → ✓ …` pair must be wrong in any context, so add the words that rule out the right reading (*I drink the coffee every morning*, not *I like the coffee*). Other natural corrections go after ` / `. A form that is only informal or regional gets a BrE/AmE/розмовне note, which keeps it out of the quiz.
   - An `order` sentence lists every natural word order, for example a clause or a time phrase moved to the front, or a separable phrasal verb.
   - After an answer the quiz shows the other accepted answers («Також правильно»). A typed or built answer that was not recognised can be counted with «Мій варіант теж правильний»; the placement test does not offer this.
 - Invalid questions are skipped with a console warning, not rejected at build time.

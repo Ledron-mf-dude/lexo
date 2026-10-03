@@ -65,7 +65,7 @@ tags: [likely, unlikely, bound to, definitely, probably, certainly, possibly, pe
 - ✗ *It's likely to she'll agree.* → ✓ ***It's likely that** she'll agree.* / *She is **likely to** agree.*
 - ✗ *He won't probably come.* → ✓ *He **probably won't** come.*
 - ✗ *She will definitely to come.* → ✓ *She will definitely **come**.*
-- ✗ *There's a big chance to rain.* → ✓ *There's a **good chance** it'll rain.*
+- ✗ *There's a big chance to rain.* → ✓ *There's a **good chance** it'll rain.* / *There's a good chance of rain.* / *It's likely to rain.*
 - ✗ *She is sure win.* → ✓ *She is sure **to win**.*
 
 Пов'язані теми: «Probability — should і Future Simple», «Модальні дієслова: припущення».

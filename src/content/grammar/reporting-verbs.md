@@ -66,6 +66,6 @@ tags: [reporting verbs, admit, deny, refuse, promise, suggest, advise, warn, apo
 - ✗ *He accused her in stealing.* → ✓ *He accused her **of** stealing.*
 - ✗ *They explained me the rule.* → ✓ *They explained the rule **to me**.*
 - ✗ *He objected to pay.* → ✓ *He objected to **paying**.*
-- ✗ *He explained me why he was late.* → ✓ *He explained **to me** why he was late.*
+- ✗ *He explained me why he was late.* → ✓ *He explained **to me** why he was late.* / *He explained why he was late.*
 
 Про основні правила зсуву часів — «Reported speech».

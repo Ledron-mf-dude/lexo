@@ -72,7 +72,7 @@ tags: [do, make, do vs make, collocations, homework, mistake, decision, роби
 - ✗ *do a mistake* → ✓ ***make** a mistake*
 - ✗ *do a decision* → ✓ ***make** a decision*
 - ✗ *make sport* → ✓ ***do** sport* / ***play** football*
-- ✗ *make a favour* → ✓ ***do** me a favour*
+- ✗ *make a favour* → ✓ ***do** me a favour* / *do a favour*
 - ✗ *Can I do an appointment?* → ✓ *Can I **make** an appointment?*
 - ✗ *She made me to wait.* → ✓ *She made me **wait**.*
 - ✗ *Please do sure the door is locked.* → ✓ *Please **make** sure the door is locked.*

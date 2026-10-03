@@ -69,9 +69,9 @@ tags: [subjunctive, suggest that, insist that, recommend that, it's essential th
 
 ## Типові помилки
 
-- ✗ *I suggest him to see a doctor.* → ✓ *I suggest **that he see** a doctor.* / *I suggest **seeing** a doctor.*
+- ✗ *I suggest him to see a doctor.* → ✓ *I suggest **that he see** a doctor.* / *I suggest **seeing** a doctor.* / *I suggest that he should see a doctor.* / *I suggest he sees a doctor.*
 - ✗ *It's essential that he is there.* (формально) → ✓ *…that he **be** there.* / *…that he **should be** there.*
 - ✗ *We recommend that you don't use it.* → ✓ *…that you **not use** it.*
-- ✗ *She insisted that he paid.* (вимога) → ✓ *She insisted that he **pay**.*
-- ✗ *They demanded that he leaves the room.* → ✓ *They demanded that he **leave** the room.*
+- ✗ *She insisted that he pays.* (вимога) → ✓ *She insisted that he **pay**.* / *She insisted that he **should pay**.*
+- ✗ *They demanded that he leaves the room.* → ✓ *They demanded that he **leave** the room.* / *They demanded that he should leave the room.*
 - ✗ *It's vital that she is told immediately.* (формально) → ✓ *It's vital that she **be** told immediately.*

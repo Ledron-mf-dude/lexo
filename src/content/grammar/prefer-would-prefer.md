@@ -63,8 +63,8 @@ tags: [prefer, would prefer, would rather, would sooner, preference, перев�
 - ✗ *I prefer tea than coffee.* → ✓ *I prefer tea **to** coffee.*
 - ✗ *I'd prefer stay home.* → ✓ *I'd prefer **to stay** home.*
 - ✗ *I'd rather to stay home.* → ✓ *I'd rather **stay** home.*
-- ✗ *I prefer walk to drive.* → ✓ *I prefer **walking to driving**.*
-- ✗ *I'd prefer that you stay.* → ✓ *I'd prefer **you to stay**.*
+- ✗ *I prefer walk to drive.* → ✓ *I prefer **walking to driving**.* / *I prefer to walk rather than drive.*
+- ✗ *I'd prefer that you stay.* (that you stay — AmE, формальне) → ✓ *I'd prefer **you to stay**.*
 - ✗ *I'd prefer not go.* → ✓ *I'd prefer not **to go**.*
 
 Див. також «Would rather (краще б)» і «Wish, if only, it's time».

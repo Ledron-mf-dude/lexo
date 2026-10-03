@@ -75,7 +75,7 @@ tags: [question tags, isn't it, don't you, so do I, neither do I, me too, me nei
 - ✗ *You live here, isn't it?* → ✓ *You live here, **don't you**?*
 - ✗ *I am right, amn't I?* → ✓ *I am right, **aren't I**?*
 - ✗ *Neither don't I.* → ✓ ***Neither do I.***
-- ✗ *So I do.* (згода) → ✓ ***So do I.***
+- ✗ *I like jazz. — So I do.* (згода) → ✓ *I like jazz. — **So do I**.*
 - ✗ *You've never been there, haven't you?* → ✓ *You've never been there, **have you**?*
 - ✗ *Everybody's here, isn't he?* → ✓ *Everybody's here, **aren't they**?*
 - ✗ *That's your car, isn't that?* → ✓ *That's your car, **isn't it**?*

@@ -77,7 +77,7 @@ tags: [adverb position, always, never, usually, just, also, already, probably, o
 
 - ✗ *I like very much football.* → ✓ *I like football **very much**.*
 - ✗ *She always is late.* → ✓ *She **is always** late.*
-- ✗ *He will not probably come.* → ✓ *He **probably won't** come.*
+- ✗ *He will not probably come.* → ✓ *He **probably won't** come.* / *He will probably not come.*
 - ✗ *I have seen never it.* → ✓ *I have **never** seen it.*
 - ✗ *Do often you go to the gym?* → ✓ *Do you **often** go to the gym?*
 - ✗ *She drives always carefully.* → ✓ *She **always drives** carefully.*

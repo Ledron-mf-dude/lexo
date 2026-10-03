@@ -80,7 +80,7 @@ tags: [plural, plural nouns, singular, a an, -s, -es, irregular plurals, childre
 - ✗ *childs, mans, foots* → ✓ ***children, men, feet***
 - ✗ *peoples* (люди) → ✓ ***people*** (*peoples* = народи)
 - ✗ *The police is coming.* → ✓ *The police **are** coming.*
-- ✗ *a trousers* → ✓ ***a pair of** trousers*
+- ✗ *a trousers* → ✓ ***a pair of** trousers* / *trousers* / *some trousers*
 - ✗ *photoes* → ✓ ***photos*** (також *pianos, radios*)
 - ✗ *two hundreds people* → ✓ *two **hundred** people*
 - ✗ *She has two childrens.* → ✓ *She has two **children**.*

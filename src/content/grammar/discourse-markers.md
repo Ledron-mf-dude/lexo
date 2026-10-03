@@ -72,4 +72,4 @@ wordTags: [слова-зв'язки]
 - ✗ *He was ill, therefore he stayed home.* → ✓ *He was ill; **therefore,** he stayed home.* / *…ill, **so** he stayed home.*
 - ✗ *On the other side, it's expensive.* → ✓ ***On the other hand,** it's expensive.*
 - ✗ *Besides of that, it's cheap.* → ✓ ***Besides,** it's cheap.* / ***Apart from that,** it's cheap.*
-- ✗ *This problem is very actual now.* → ✓ *This problem is very **relevant** now.*
+- ✗ *This problem is very actual now.* → ✓ *This problem is very **relevant** now.* / *This problem is very topical now.* / *This problem is very urgent now.*

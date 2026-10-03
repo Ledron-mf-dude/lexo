@@ -48,7 +48,7 @@ tags: [future in the past, was going to, would, was about to, was to, were going
 
 ## Типові помилки
 
-- ✗ *He said he will call.* → ✓ *He said he **would** call.*
+- ✗ *He said he will call me the next day.* → ✓ *He said he **would** call me the next day.*
 - ✗ *I was going to calling you.* → ✓ *I was going to **call** you.*
 - ✗ *I was about leaving.* → ✓ *I was about **to leave**.*
 - ✗ *We were going to travel, but it rains.* → ✓ *…but it **rained**.*

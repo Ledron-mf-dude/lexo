@@ -90,7 +90,7 @@ Past Simple веде сюжет, Past Continuous малює тло, а Past Perf
 
 - ✗ *When I arrived, the film already started.* → ✓ *When I arrived, the film **had already started**.*
 - ✗ *I had been knowing her for years.* → ✓ *I **had known** her for years.* (know — стан)
-- ✗ *She was tired because she ran all day.* → ✓ *She was tired because she **had been running** all day.*
+- ✗ *She was tired because she has been running all day.* → ✓ *She was tired because she **had been running** all day.*
 - ✗ *It was the first time I saw the sea.* → ✓ *It was the first time I **had seen** the sea.*
 - ✗ *Had you went there before?* → ✓ *Had you **gone** there before?* (після had — V3)
 - ✗ *I had been waiting since two hours.* → ✓ *I had been waiting **for** two hours.*

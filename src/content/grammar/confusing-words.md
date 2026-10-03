@@ -135,5 +135,5 @@ tags: [say tell, speak talk, lend borrow, bring take, remember remind, lose miss
 - ✗ *She wins a lot of money at work.* → ✓ *She **earns** a lot of money at work.*
 - ✗ *We won them easily.* → ✓ *We **beat** them easily.*
 - ✗ *I'm listening music.* → ✓ *I'm listening **to** music.*
-- ✗ *The party was very funny.* (весело) → ✓ *The party was **great fun**.* / *The party was **fun**.*
+- ✗ *We had very funny at the party.* (весело — fun) → ✓ *We had **great fun** at the party.* / *We had **a lot of fun** at the party.*
 - ✗ *Prices raised last year.* → ✓ *Prices **rose** last year.*

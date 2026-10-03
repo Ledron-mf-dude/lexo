@@ -86,7 +86,7 @@ tags: [countable, uncountable, some, any, a piece of, advice, information, furni
 - ✗ *She has long hairs.* → ✓ *She has long **hair**.*
 - ✗ *I have a lot of homeworks.* → ✓ *I have a lot of **homework**.*
 - ✗ *We had a terrible weather.* → ✓ *We had **terrible weather**.*
-- ✗ *I need an information about the course.* → ✓ *I need **some information** about the course.*
-- ✗ *He has a big experience in sales.* → ✓ *He has **a lot of experience** in sales.*
+- ✗ *I need an information about the course.* → ✓ *I need **some information** about the course.* / *I need information about the course.* / *I need a piece of information about the course.*
+- ✗ *He has a big experience in sales.* → ✓ *He has **a lot of experience** in sales.* / *He has great experience in sales.*
 
 Див. «Quantifiers» і «Артиклі: a / an / the / без артикля».

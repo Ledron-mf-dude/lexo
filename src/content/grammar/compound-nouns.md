@@ -71,5 +71,5 @@ tags: [compound nouns, bus stop, toothpaste, swimming pool, mother-in-law, plura
 - ✗ *mother-in-laws* → ✓ *mother**s**-in-law*
 - ✗ *a shoes shop* → ✓ *a **shoe** shop*
 - ✗ *a black board* (чорна дошка) ≠ *a **blackboard*** (шкільна дошка) — різне значення
-- ✗ *I'd like a coffee's cup.* → ✓ *I'd like a **coffee cup**.*
+- ✗ *I'd like a coffee's cup.* → ✓ *I'd like a **coffee cup**.* / *I'd like a cup of coffee.*
 - ✗ *We need a teethbrush.* → ✓ *We need a **toothbrush**.*

@@ -67,8 +67,8 @@ tags: [something, anything, nothing, everything, someone, anyone, nobody, everyb
 - ✗ *I didn't see nobody.* → ✓ *I didn't see **anybody**.* / *I saw **nobody**.*
 - ✗ *Everybody are here.* → ✓ *Everybody **is** here.*
 - ✗ *interesting something* → ✓ *something **interesting***
-- ✗ *Somebody left his umbrella.* (стать невідома) → ✓ *Somebody left **their** umbrella.*
+- ✗ *Somebody left his umbrella.* (his — застаріле; стать невідома — their) → ✓ *Somebody left **their** umbrella.*
 - ✗ *Do you want something other?* → ✓ *Do you want something **else**?*
-- ✗ *Every of them was late.* → ✓ ***Every one** of them was late.*
+- ✗ *Every of them was late.* → ✓ ***Every one** of them was late.* / *Each of them was late.* / *All of them were late.*
 
 Див. «Займенники», «Quantifiers».

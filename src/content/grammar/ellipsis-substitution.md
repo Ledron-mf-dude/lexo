@@ -81,7 +81,7 @@ tags: [ellipsis, substitution, one, ones, do so, so, not, I think so, I hope not
 - ✗ *I like the red shirt and the blue.* (про річ) → ✓ *…and the blue **one**.*
 - ✗ *She speaks French better than I speak.* (зайвий повтор) → ✓ *…better than I **do**.*
 - ✗ *"Do you like it?" — "Yes, I like."* → ✓ *"Do you like it?" — "Yes, I **do**."*
-- ✗ *I can't swim. — Me too.* → ✓ *I can't swim. — **Me neither**.*
-- ✗ *I'd love to come, but I'm not able.* → ✓ *I'd love to come, but I'm not able **to**.*
+- ✗ *I can't swim. — Me too.* → ✓ *I can't swim. — **Me neither**.* / *I can't swim. — Neither can I.* / *I can't swim. — Nor can I.*
+- ✗ *I'd love to come, but I'm not able.* → ✓ *I'd love to come, but I'm not able **to**.* / *I'd love to come, but I can't.*
 
 Див. «Auxiliary verbs», «Question tags, so am I, neither do I».

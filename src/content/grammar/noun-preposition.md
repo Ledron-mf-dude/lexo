@@ -72,7 +72,7 @@ wordTags: [з прийменником]
 - ✗ *an increase of prices* → ✓ *an increase **in** prices* (але *an increase **of** 5%*)
 - ✗ *the solution of the problem* → ✓ *the solution **to** the problem*
 - ✗ *the difference of them* → ✓ *the difference **between** them*
-- ✗ *We had a discussion of the plan.* → ✓ *We had a discussion **about** the plan.*
+- ✗ *We discussed about the plan.* → ✓ *We **discussed** the plan.*
 - ✗ *I deleted it on mistake.* → ✓ *I deleted it **by** mistake.*
 - ✗ *She broke it by purpose.* → ✓ *She broke it **on** purpose.*
 

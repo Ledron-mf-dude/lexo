@@ -75,7 +75,7 @@ tags: [word order, subject verb object, SVO, manner place time, порядок �
 - ✗ *I very like it.* → ✓ *I like it **very much**.*
 - ✗ *She always is late.* → ✓ *She **is always** late.* (`always` — після `be`)
 - ✗ *I like very much football.* → ✓ *I like **football very much**.* (не розриваємо дієслово й додаток)
-- ✗ *Every day I am going to work by bus.* → ✓ *I **go** to work by bus every day.*
+- ✗ *Every day I am going to work by bus.* → ✓ *I **go** to work by bus every day.* / *Every day I go to work by bus.*
 - ✗ *Where you live?* → ✓ *Where **do you** live?*
 - ✗ *Says he is busy.* → ✓ ***He** says he is busy.*
 - ✗ *I speak also French.* → ✓ *I **also** speak French.*

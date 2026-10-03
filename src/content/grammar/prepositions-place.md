@@ -87,7 +87,7 @@ tags: [prepositions of place, at, in, on, next to, under, between, behind, in fr
 - ✗ *at the Paris* → ✓ ***in** Paris*
 - ✗ *on the picture* → ✓ ***in** the picture*
 - ✗ *between many people* → ✓ ***among** many people* (between — з двома)
-- ✗ *She is at the bed.* → ✓ *She is **in bed**.*
+- ✗ *She is ill at bed.* → ✓ *She is ill **in bed**.*
 - ✗ *The title is on the top of the page.* → ✓ *The title is **at** the top of the page.*
 - ✗ *We live in 15 Green Street.* → ✓ *We live **at** 15 Green Street.*
 - ✗ *My flat is in the third floor.* → ✓ *My flat is **on** the third floor.*

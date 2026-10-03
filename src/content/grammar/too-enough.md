@@ -65,5 +65,5 @@ tags: [too, enough, too much, too many, not enough, too to, enough to, зана�
 - ✗ *This film is too good!* (у значенні «дуже») → ✓ *This film is **very / really** good!*
 - ✗ *We have money enough.* (застаріло) → ✓ *We have **enough money**.*
 - ✗ *The tea is too hot to drink it.* → ✓ *The tea is too hot to **drink**.*
-- ✗ *It's very too expensive.* → ✓ *It's **far** too expensive.*
+- ✗ *It's very too expensive.* → ✓ *It's **far** too expensive.* / *It's much too expensive.* / *It's way too expensive.*
 - ✗ *We don't have chairs enough.* → ✓ *We don't have **enough chairs**.*

@@ -61,7 +61,7 @@ Perfect gerund підкреслює, що дія була **раніше**: *He 
 - ✗ *She wants that I come.* → ✓ *She wants **me to come**.*
 - ✗ *They made me to wait.* → ✓ *They made me **wait**.*
 - ✗ *Let him to go.* → ✓ *Let him **go**.*
-- ✗ *He seems to leave.* (уже пішов) → ✓ *He seems **to have left**.*
+- ✗ *He seems to leave an hour ago.* (уже пішов) → ✓ *He seems **to have left** an hour ago.*
 - ✗ *It's important that you to rest.* → ✓ *It's important **for you to** rest.*
 - ✗ *Do you mind I open the window?* → ✓ *Do you mind **if I open** the window?* / *Do you mind **my opening** the window?*
 

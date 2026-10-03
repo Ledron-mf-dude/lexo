@@ -71,10 +71,10 @@ tags: [future, future forms, be going to, present continuous for future, will, �
 
 ## Типові помилки
 
-- ✗ *I will meet Tom at 6. We agreed yesterday.* (домовленість) → ✓ ***I'm meeting** Tom at 6. We agreed yesterday.*
+- ✗ *I meet Tom at 6 tonight. We agreed yesterday.* (домовленість) → ✓ ***I'm meeting** Tom at 6 tonight. We agreed yesterday.* / ***I'm going to meet** Tom at 6 tonight. We agreed yesterday.*
 - ✗ *Look at those clouds! It will rain.* → ✓ *…**It's going to** rain.* (є ознаки)
-- ✗ *The phone's ringing. I'm going to answer it.* (рішення зараз) → ✓ *The phone's ringing. **I'll** answer it.*
-- ✗ *The train will leave at 9.* (розклад) → ✓ *The train **leaves** at 9.*
+- ✗ *The phone's ringing. I answer it.* (рішення зараз) → ✓ *The phone's ringing. **I'll answer** it.*
+- ✗ *The train is leaving at 9 every day.* (розклад) → ✓ *The train **leaves** at 9 every day.*
 - ✗ *I'm going to will travel.* → ✓ *I'm going to **travel**.*
 - ✗ *She going to buy a car.* → ✓ *She **is** going to buy a car.*
 - ✗ *I'll call you when I will get home.* → ✓ *I'll call you when I **get** home.*
