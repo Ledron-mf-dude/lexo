@@ -120,6 +120,21 @@ tags: [gerund, -ing, verb + -ing, герундій, дієслова, прийм
 | **sit / stand / lie** + місце + -ing | He **sat** on the sofa **reading**. |
 | **there's no point (in)** + -ing | **There's no point** waiting. |
 
+## Як вибрати
+
+1. Після дієслів *enjoy, mind, avoid, finish, keep, suggest, admit, deny, consider, miss, practise, can't stand / help* — **-ing**.
+2. Після **будь-якого прийменника** — *-ing*: *interested in learning*, *thank you for helping*.
+3. *to* як прийменник у *look forward to, be used to, object to* — теж *-ing*.
+4. Герундій як підмет — *Reading is my hobby.*
+5. *go* + *-ing* — дозвілля й спорт: *go swimming, go shopping*.
+
+## Пастки перекладу
+
+- «Мені подобається читати» — *I enjoy reading*, а не *enjoy to read*.
+- «Чекаю на зустріч» — *I'm looking forward to seeing you*: після *to* тут *-ing*.
+- «Він запропонував піти» — *He suggested going*, не *suggested to go*.
+- «Немає сенсу хвилюватися» — *There's no point in worrying*.
+
 ## Типові помилки
 
 - ✗ *I enjoy to read.* → ✓ *I enjoy **reading**.*

@@ -69,6 +69,22 @@ tags: [past modals, should have, could have, must have, might have, can't have, 
 
 *I **could have** won* — міг, але не виграв. *I **was able to** win* — зміг і виграв. Див. «Can, could, be able to (вміння, можливість, дозвіл)».
 
+## Як вибрати
+
+1. Шкода / докір, що зробили чи не зробили — *should(n't) have* + V3.
+2. Була можливість, але не скористалися — *could have* + V3.
+3. Упевнений висновок про минуле — *must have* + V3; упевнене «ні» — *can't / couldn't have* + V3.
+4. Можливо, сталося — *may / might / could have* + V3.
+5. Зробили, хоча не треба було — *needn't have* + V3.
+6. Уявний результат у третьому умовному — *would have* + V3.
+
+## Пастки перекладу
+
+- «Тобі слід було сказати» — *You should have told me*, а не *should told*.
+- «Він, мабуть, пішов» — *He must have gone*; після *have* — третя форма (*gone*, не *went*).
+- *should've* звучить як «шудов», але пишеться *should have*, а не *should of*.
+- «Не могла вона мене бачити» — *She can't have seen me*, а не *mustn't have*.
+
 ## Типові помилки
 
 - ✗ *You should told me.* → ✓ *You should **have told** me.*

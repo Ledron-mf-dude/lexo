@@ -82,6 +82,21 @@ Past Simple після *if, wish, it's time, I'd rather, as if* описує **�
 
 Для звичайних минулих звичок — *used to* і *would* (див. «Used to, would, be used to, get used to»).
 
+## Як вибрати
+
+1. Фон розповіді, що вже тривав — Past Continuous; події по черзі — Past Simple; раніші події — Past Perfect.
+2. Хочете пом'якшити прохання — минулий час: *I was wondering…*, *I wanted to ask…*, *Did you want…?*
+3. План не здійснився — *was going to / was supposed to / had hoped to*.
+4. Ось-ось мало статися — *was about to*.
+5. Повторювана дія, що дратувала, — *was always + -ing*.
+
+## Пастки перекладу
+
+- «Я хотів спитати» (ввічливо, зараз) — *I wanted to ask* / *I was wondering if…*, і це не про минуле.
+- «Я хотів спитати, чи не могли б ви…» — *I was wondering if you could…*, без інверсії.
+- «Ми мали зустрітися» — *We were supposed to meet*.
+- «Я сподівався закінчити» — *I had hoped to finish*.
+
 ## Типові помилки
 
 - ✗ *I was wondering could you help me.* → ✓ *I was wondering **if you could** help me.* / *I was wondering whether you could help me.*

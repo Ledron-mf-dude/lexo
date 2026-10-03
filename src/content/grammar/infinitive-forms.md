@@ -51,6 +51,22 @@ tags: [infinitive, інфінітив, continuous infinitive, perfect infinitive
 
 Слово між `to` і дієсловом (*to **really** understand*) у сучасній англійській — нормально: *I want **to fully understand** it.*
 
+## Як вибрати
+
+1. Дія одночасна або загальна? — простий інфінітив: *to work*.
+2. Дія триває саме зараз? — тривалий: *to be working*.
+3. Дія відбулася раніше? — перфектний: *to have worked*.
+4. Тривала дія до моменту в минулому? — перфектний тривалий: *to have been working*.
+5. Дію виконують над підметом? — пасивний: *to be done*, *to have been done*.
+6. Після модальних — ті самі форми без *to*: *must be sleeping*, *should have told*.
+
+## Пастки перекладу
+
+- «Здається, вона пішла» — *She seems to have left* (перфектний інфінітив передає минуле).
+- «Він, мабуть, спить» — *He must be sleeping*, а не *must sleep* (це обов'язок).
+- «Тобі слід було сказати раніше» — *You should have told me*.
+- Після модального — без *to*: *should work*, не *should to work*.
+
 ## Типові помилки
 
 - ✗ *She should to work.* → ✓ *She should **work**.* (після модальних — без to)

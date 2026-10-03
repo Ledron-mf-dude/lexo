@@ -141,6 +141,20 @@ tags: [past simple, irregular verbs, regular verbs, -ed, was were, v2, v3, не�
 
 Дві форми, які часто плутають: **lie – lay – lain** (лежати) і **lay – laid – laid** (класти). Див. «Слова, які часто плутають: say і tell, lend і borrow…».
 
+## Як вибрати
+
+1. Past Simple (вчора, минулого року) — друга форма: *I went, I saw*.
+2. Після *have / has / had* і в пасиві — третя форма: *have gone, was written*.
+3. Після *did, didn't, will, can* — початкова форма: *Did you go?*
+4. Групи для запам'ятовування: однакові (*put – put – put*), дві однакові (*buy – bought – bought*), усі різні (*go – went – gone*).
+
+## Пастки перекладу
+
+- «Ти ходив?» — *Did you go?*, а не *Did you went?*: минуле показує *did*.
+- «Я написав» з *have* — *I have written*, не *I have wrote*.
+- *lie* (лежати) – *lay* – *lain* і *lay* (класти) – *laid* – *laid* часто плутають навіть носії.
+- *think – thought* і *teach – taught* звучать схоже, але це різні слова.
+
 ## Типові помилки
 
 - ✗ *Did you went?* → ✓ *Did you **go**?*

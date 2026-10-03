@@ -70,6 +70,22 @@ wordTags: [модальні дієслова]
 
 `can`, `may`, `be allowed to`: *You **can** park here.* / *We **weren't allowed to** enter.*
 
+## Як вибрати
+
+1. Обов'язок, який відчуваєте самі, або правило на табличці — *must*.
+2. Обов'язок ззовні (правила, графік, закон) — *have to* (і в усіх часах: *had to, will have to*).
+3. Заборона — *mustn't* (або *can't*).
+4. Немає потреби — *don't have to / don't need to / needn't*.
+5. Порада — *should / ought to*; сильна порада з попередженням — *had better*.
+6. Зробили, хоча не треба було — *needn't have* + V3; докір — *should have* + V3.
+
+## Пастки перекладу
+
+- *mustn't* ≠ *don't have to*: «не можна» — *mustn't*, «не обов'язково» — *don't have to*.
+- «Вчора мені довелося працювати» — *I had to work*: у *must* немає минулої форми.
+- «Тобі краще піти» — *You'd better go*, без *to*.
+- «Мені доведеться» — *I'll have to*, а не *I will must*.
+
 ## Типові помилки
 
 - ✗ *You mustn't come, it's optional.* (mustn't = заборонено) → ✓ *You **don't have to** come, it's optional.*

@@ -75,6 +75,22 @@ tags: [plural, plural nouns, singular, a an, -s, -es, irregular plurals, childre
 
 `family, team, staff, class, government, audience` у британській англійській часто вживають із дієсловом у **множині**, коли думають про людей: *My family **are** all doctors.* Як про одне ціле — в однині: *The family **is** a small one.* Див. «Узгодження підмета й дієслова (subject–verb agreement)».
 
+## Як вибрати
+
+1. Звичайне правило — *-s*: *cats, books*.
+2. Після *-s, -ss, -sh, -ch, -x* (і в деяких на *-o*) — *-es*: *boxes, potatoes*.
+3. Приголосна + *y* — *-ies*: *city → cities*; голосна + *y* — *-s*: *days*.
+4. Більшість на *-f / -fe* — *-ves*: *knives*; винятки — *roofs, chiefs*.
+5. Неправильні форми запам'ятайте: *man – men, child – children, foot – feet, mouse – mice, sheep – sheep*.
+6. Лише множина: *trousers, jeans, glasses, police*; однина, хоч і на *-s*: *news, physics*.
+
+## Пастки перекладу
+
+- «Двоє дітей» — *two children*, а не *two childrens*.
+- «Поліція їде» — *The police are coming*: множина.
+- «Одні штани» — *a pair of trousers*, а не *a trousers*.
+- «Двісті людей» — *two hundred people*, без *-s* у *hundred*.
+
 ## Типові помилки
 
 - ✗ *childs, mans, foots* → ✓ ***children, men, feet***

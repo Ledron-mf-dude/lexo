@@ -55,6 +55,21 @@ tags: [have got, has got, have, possession, володіння, мати, haven'
 
 В американській англійській частіше **have** з `do`: *Do you have a car?* Форма *have got* теж зрозуміла, але звучить більш британською. Минуле *gotten* — це інше значення («отримав, став»): *She's **gotten** better.*
 
+## Як вибрати
+
+1. Володіння, родина, зовнішність, хвороби **зараз** — *have got* (британське, розмовне) або *have*.
+2. Про **минуле** — лише *had*: *I had a dog.*
+3. Дії й вирази (*have lunch, have a shower, have a good time*) — лише *have*, без *got*.
+4. Питання й заперечення: з *have got* — *Have you got…? / haven't got*; з *have* — *Do you have…? / don't have*.
+5. *have got to* = *have to* — «треба».
+
+## Пастки перекладу
+
+- «У мене є машина» — *I've got a car* / *I have a car*; конструкції «у мене є» в англійській немає.
+- «У тебе є ручка?» — *Have you got a pen?* або *Do you have a pen?*, але не *Do you have got*.
+- «У дитинстві в мене був собака» — *I had a dog*, не *I had got*.
+- Коротка відповідь — без *got*: *Yes, I have.*
+
 ## Типові помилки
 
 - ✗ *Do you have got a car?* → ✓ ***Have** you **got** a car?* / *Do you **have** a car?*

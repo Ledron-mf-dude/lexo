@@ -61,6 +61,21 @@ tags: [may, might, may not, might not, possibility, permission, можливо, 
 - у питаннях про можливість частіше `might` чи `could` або *Do you think…?*: ***Might** he be lost?* (книжно) → ***Do you think** he's lost?*
 - `can` для конкретної можливості не годиться: *It **might** rain* (не *It can rain tomorrow*). `Can` — про загальну можливість: *It **can** rain a lot here in spring.*
 
+## Як вибрати
+
+1. Можливість, у якій не впевнені? — *may / might* (у розмові однаково; *might* трохи менш упевнено).
+2. Формальний дозвіл чи прохання? — *May I…?*, *You may leave.* (*might* для дозволу — дуже формально).
+3. Можливість у минулому? — *may / might have* + V3.
+4. Можливо, триває зараз? — *may / might be* + *-ing*.
+5. «Можна й…», кращого нема? — *might as well*.
+
+## Пастки перекладу
+
+- «Можливо, він правий» — *He may be right* або *Maybe he's right*; *May be he's right* — помилка.
+- «Може піти дощ» — *It may / might rain*, а не *It can rain* (для конкретного прогнозу).
+- Після *may / might* — дієслово без *to* і без *-s*: *She might come.*
+- «Мабуть, вона забула» — *She may have forgotten*.
+
 ## Типові помилки
 
 - ✗ *It may rains.* → ✓ *It may **rain**.*

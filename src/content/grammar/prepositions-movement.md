@@ -71,6 +71,21 @@ tags: [prepositions of movement, to, from, into, out of, through, across, along,
 
 *enter* (не *enter into* про приміщення), *reach*, *leave* (покинути), *approach*: *We **reached** the top.* / *She **left** the room.*
 
+## Як вибрати
+
+1. Рух усередину — *into*; назовні — *out of*; на поверхню — *onto*; з поверхні — *off*.
+2. Уздовж — *along*; поперек — *across*; крізь — *through*; повз — *past*; навколо — *around*; через щось зверху — *over*.
+3. Напрямок до — *to / towards*; геть від — *away from*.
+4. Прибуття: *arrive in* + місто чи країна, *arrive at* + будівля чи точка; ніколи *arrive to*.
+5. Транспорт: *get on / off* (автобус, потяг), *get in / out of* (авто, таксі).
+
+## Пастки перекладу
+
+- «Приїхав до Лондона» — *arrived in London*, не *arrived to*.
+- «Іти додому» — *go home*, без *to*.
+- «Вийти з таксі» — *get out of the taxi*; «вийти з автобуса» — *get off the bus*.
+- «Зайшов у кімнату» — *went into the room*: *in* описує місце, *into* — рух усередину.
+
 ## Типові помилки
 
 - ✗ *I arrived to London.* → ✓ *I arrived **in** London.* (**at** the station)

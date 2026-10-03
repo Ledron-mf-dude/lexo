@@ -71,6 +71,21 @@ tags: [inversion, never have I, hardly, no sooner, not only, seldom, rarely, lit
 
 Після них теж інверсія, і це вже звичайна розмова: *I can't swim, and **neither can** my brother.* / *She loves jazz, and **so do** I.* Див. «Question tags, so am I, neither do I».
 
+## Як вибрати
+
+1. Речення починається із заперечного чи обмежувального слова (*Never, Rarely, Seldom, Hardly, No sooner, Not only, Little, Under no circumstances, At no time*)? — допоміжне перед підметом: *Never have I seen…*
+2. Немає допоміжного (Present / Past Simple)? — додаємо *do / does / did*: *Rarely does she go out.*
+3. *Only + час / умова* — інверсія в **головній** частині: *Only then did I understand.*
+4. *So / Such … that* на початку — інверсія: *So beautiful was the view that…*
+5. Інверсія — це стиль (книжний, урочистий); у розмові кажуть звичайно: *I've never seen…*
+
+## Пастки перекладу
+
+- Українська не міняє порядок після «ніколи», тож легко сказати *Never I have seen* — це помилка.
+- «Ледве я прийшов, як пішов дощ» — *Hardly had I arrived when…*; *No sooner* — у парі з *than*.
+- «Ми й гадки не мали» — *Little did we know*.
+- *Here comes the bus* — інверсія після *here / there* з іменником, але з займенником — *Here it comes*.
+
 ## Типові помилки
 
 - ✗ *Never I have seen such a thing.* → ✓ ***Never have I** seen…*

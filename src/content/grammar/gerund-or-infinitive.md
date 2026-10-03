@@ -70,6 +70,21 @@ tags: [gerund, infinitive, to do, doing, verb patterns, stop, remember, try, for
 
 `Would like / love / prefer / hate` — завжди з **to**: *I'd **like to** come.*
 
+## Як вибрати
+
+1. Дієслова рішень, намірів, планів (*decide, plan, hope, want, promise, refuse, agree, manage, afford*) — ***to*** + дієслово.
+2. Дієслова на кшталт *enjoy, avoid, mind, finish* — ***-ing***.
+3. Обидві форми зі **зміною змісту**: *remember / forget* (*to* — не забути зробити, *-ing* — пам'ятати зроблене), *stop* (*to* — зупинитися, щоб; *-ing* — припинити), *try* (*to* — намагатися, *-ing* — спробувати як експеримент), *regret*.
+4. Обидві форми без різниці: *start, begin, continue, like, love, hate*.
+5. *make, let* + особа — без *to*.
+
+## Пастки перекладу
+
+- «Він кинув курити» — *He stopped smoking*; *stopped to smoke* — «зупинився, щоб покурити».
+- «Не забудь зачинити двері» — *Remember to lock the door*.
+- «Спробуй перезавантажити» (як варіант) — *Try restarting it*.
+- «Вирішив піти» — *decided to go*, а не *decided going*.
+
 ## Типові помилки
 
 - ✗ *I decided going.* → ✓ *I decided **to go**.*

@@ -83,6 +83,22 @@ tags: [will, would, should, assumptions, припущення, characteristic be
 | *should* | оцінка події | *It's odd that he should ask.* |
 | *Should you…* | формальна умова | *Should you have questions, …* |
 
+## Як вибрати
+
+1. Упевнене припущення про теперішнє з досвіду — *will*: *That'll be the postman.*
+2. Типова поведінка — *will* (зараз) / *would* (у минулому); з наголосом — роздратування.
+3. Річ «не хоче» працювати — *won't* / *wouldn't*.
+4. Обережна думка — *I'd say / I would think / I'd imagine*.
+5. Оцінка події після *strange, surprised, a pity* — *should* + дієслово.
+6. Формальна умова — *Should you need…*; риторичне — *Why should I…?*
+
+## Пастки перекладу
+
+- «Двері не відчиняються» — *The door won't open*: *won't* тут не про майбутнє.
+- «Звідки мені знати?» — *How should I know?* (або *How would I know?*).
+- «Дивно, що вона так сказала» — *It's strange that she should say that*: *should* не означає обов'язок.
+- *I'd say* — м'якше за *I think*, корисно для пом'якшення думки.
+
 ## Типові помилки
 
 - ✗ *Should you will need any help, call me.* → ✓ *Should you **need** any help, call me.*

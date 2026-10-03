@@ -87,6 +87,20 @@ wordTags: [фразові дієслова]
 | **get away** | вирватися відпочити | We need to **get away** for a weekend. |
 | **stop over** | зробити зупинку | We **stopped over** in Dubai. |
 
+## Як вибрати
+
+1. Значення фразового дієслова часто не виводиться з частин: *give up* — не «дати вгору», а «кинути».
+2. Вчіть разом зі значенням і прикладом: *find out* (дізнатися), *put off* (відкласти), *turn down* (відхилити).
+3. Перевірте, чи дієслово роздільне: *put the meeting off* / *put off the meeting*; з займенником — лише всередині: *put it off*.
+4. Нероздільні (*look after, get on with, come across*) — додаток після частки.
+
+## Пастки перекладу
+
+- «Скасувати матч» — *call off the match*, а не *cancel off*.
+- «Приміряти джинси» — *try on the jeans*.
+- «Проводжати друга» — *see a friend off*.
+- Фразове дієслово звучить розмовно; у формальному тексті часто є синонім: *put off* = *postpone*.
+
 ## Типові помилки
 
 - ✗ *Turn off it.* → ✓ *Turn **it off**.*

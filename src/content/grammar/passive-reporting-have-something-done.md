@@ -54,6 +54,21 @@ tags: [passive, reporting verbs, it is said that, is said to, have something don
 
 *People say he **was** rich* → *He **is said to have been** rich.* / *It **was thought** that the ship had sunk* → *The ship **was thought to have sunk**.*
 
+## Як вибрати
+
+1. Хочете передати чужу думку чи чутки — *It is said / believed / reported that…* або *He is said to be…*
+2. Подія раніша за момент повідомлення — *to have* + V3: *is said to have left*.
+3. Послугу для вас зробив хтось інший — *have / get* + річ + V3: *I had my hair cut.*
+4. З вами сталося щось неприємне — та сама схема: *He had his bag stolen.*
+5. Хочете, щоб хтось щось зробив, — *get somebody to do* / *have somebody do*.
+
+## Пастки перекладу
+
+- «Я підстригся» (у перукаря) — *I had my hair cut*; *I cut my hair* — сам собі.
+- «Мені відремонтували машину» — *I had / got my car repaired*.
+- «Кажуть, він багатий» — *He is said to be rich* або *It is said that he is rich*, але не *He is said that…*
+- «У нього вкрали гаманець» — *He had his wallet stolen*.
+
 ## Типові помилки
 
 - ✗ *I cut my hair at the hairdresser's.* → ✓ *I **had my hair cut** at the hairdresser's.*
