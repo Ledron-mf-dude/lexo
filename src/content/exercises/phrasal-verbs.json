@@ -136,7 +136,8 @@
    "type": "fill",
    "q": "Please turn ___ the lights when you leave.",
    "answer": [
-    "off"
+    "off",
+    "out"
    ],
    "why": "turn off — вимкнути."
   },
@@ -229,7 +230,8 @@
     "down"
    ],
    "answer": [
-    "She turned the job down"
+    "She turned the job down",
+    "She turned down the job"
    ],
    "why": "turn down — роздільне.",
    "hint": "Вона відмовилася від роботи."
@@ -245,7 +247,10 @@
     "on"
    ],
    "answer": [
-    "Please put your coat on"
+    "Please put your coat on",
+    "Please put on your coat",
+    "Put your coat on please",
+    "Put on your coat please"
    ],
    "why": "put on — роздільне.",
    "hint": "Одягни пальто, будь ласка."

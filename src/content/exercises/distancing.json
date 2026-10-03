@@ -135,7 +135,10 @@
     "is reported",
     "is believed",
     "seems",
-    "appears"
+    "appears",
+    "is thought",
+    "is rumoured",
+    "is rumored"
    ],
    "why": "It is said that…"
   },
@@ -174,7 +177,8 @@
    "answer": [
     "tend"
    ],
-   "why": "tend to + V."
+   "why": "tend to + V.",
+   "hint": "(мають схильність)"
   },
   {
    "id": "distancing-16",
@@ -187,7 +191,9 @@
    ],
    "answer": [
     "Apparently he is leaving",
-    "Apparently, he is leaving"
+    "Apparently, he is leaving",
+    "He is apparently leaving",
+    "He is leaving apparently"
    ],
    "why": "Apparently — як кажуть.",
    "hint": "Кажуть, він іде (з роботи)."

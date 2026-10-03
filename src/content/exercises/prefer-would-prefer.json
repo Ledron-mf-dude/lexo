@@ -122,7 +122,8 @@
    "type": "fill",
    "q": "I prefer summer ___ winter.",
    "answer": [
-    "to"
+    "to",
+    "over"
    ],
    "why": "prefer X to Y."
   },

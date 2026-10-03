@@ -119,7 +119,8 @@
    "type": "fill",
    "q": "___ they live near here?",
    "answer": [
-    "Do"
+    "Do",
+    "Did"
    ],
    "why": "Present Simple, they → Do."
   },
@@ -128,7 +129,8 @@
    "type": "fill",
    "q": "She ___ working at the moment.",
    "answer": [
-    "is"
+    "is",
+    "isn't"
    ],
    "why": "Continuous — be + -ing."
   },
@@ -137,7 +139,8 @@
    "type": "fill",
    "q": "We ___ already eaten.",
    "answer": [
-    "have"
+    "have",
+    "had"
    ],
    "why": "Perfect — have + V3."
   },
@@ -146,7 +149,8 @@
    "type": "fill",
    "q": "The letters ___ sent yesterday.",
    "answer": [
-    "were"
+    "were",
+    "weren't"
    ],
    "why": "Пасив минулого: were + V3."
   },
@@ -159,7 +163,7 @@
     "did not"
    ],
    "why": "Past Simple: didn't + V.",
-   "hint": "Заперечення"
+   "hint": "Заперечення в Past Simple"
   },
   {
    "id": "auxiliary-verbs-15",

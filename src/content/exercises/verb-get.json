@@ -32,7 +32,7 @@
    "q": "When did you ___ home?",
    "options": [
     "get",
-    "arrive",
+    "arrive to",
     "reach to",
     "go to"
    ],
@@ -131,7 +131,8 @@
    "type": "fill",
    "q": "I got ___ at the wrong station. (вийшов із потяга)",
    "answer": [
-    "off"
+    "off",
+    "out"
    ],
    "why": "get off — вийти (з транспорту)."
   },

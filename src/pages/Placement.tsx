@@ -9,7 +9,6 @@ import { BLOCK_SIZE, drawBlock, PASS_MARK, passedLevel, PLACEMENT_LEVELS, savePl
 import { useTitle } from '../lib/useTitle'
 import { Feedback, QuestionView, type Outcome } from './ExerciseQuiz'
 
-const noop = () => {}
 
 /**
  * Placement test: `/grammar/placement`. Blocks of questions from A1 up; a failed block does not end the test,
@@ -174,7 +173,7 @@ export default function Placement() {
       <div key={`${level}-${index}`}>
         <QuestionView q={item.q} outcome={outcome} onAnswer={answer} />
       </div>
-      {outcome && <Feedback q={item.q} outcome={outcome} last={false} onNext={next} onOverride={noop} />}
+      {outcome && <Feedback q={item.q} outcome={outcome} last={false} onNext={next} />}
     </section>
   )
 }

@@ -127,7 +127,8 @@
    "answer": [
     "took"
    ],
-   "why": "take – took – taken."
+   "why": "take – took – taken.",
+   "hint": "Past Simple"
   },
   {
    "id": "irregular-verbs-14",
@@ -221,7 +222,8 @@
     "yesterday"
    ],
    "answer": [
-    "I bought a new jacket yesterday"
+    "I bought a new jacket yesterday",
+    "Yesterday I bought a new jacket"
    ],
    "why": "buy – bought.",
    "hint": "Учора я купив нову куртку."
@@ -254,7 +256,8 @@
     "summer"
    ],
    "answer": [
-    "We went to the sea last summer"
+    "We went to the sea last summer",
+    "Last summer we went to the sea"
    ],
    "why": "go – went.",
    "hint": "Минулого літа ми їздили на море."
@@ -290,7 +293,9 @@
    "type": "fill",
    "q": "He ___ (lie) on the sofa all afternoon.",
    "answer": [
-    "lay"
+    "lay",
+    "was lying",
+    "has been lying"
    ],
    "why": "lie (лежати) – lay – lain."
   },
@@ -299,7 +304,8 @@
    "type": "fill",
    "q": "Who ___ (bring) this cake?",
    "answer": [
-    "brought"
+    "brought",
+    "has brought"
    ],
    "why": "bring – brought – brought."
   }

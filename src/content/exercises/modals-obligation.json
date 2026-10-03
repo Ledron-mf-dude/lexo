@@ -130,7 +130,8 @@
    "q": "You ___ park here. It's a hospital entrance.",
    "answer": [
     "mustn't",
-    "must not"
+    "must not",
+    "can't"
    ],
    "why": "mustn't — заборона."
   },
@@ -139,9 +140,11 @@
    "type": "fill",
    "q": "I ___ to wear glasses for reading.",
    "answer": [
-    "have"
+    "have",
+    "need"
    ],
-   "why": "have to — необхідність."
+   "why": "have to — необхідність.",
+   "hint": "(have to)"
   },
   {
    "id": "modals-obligation-13",
@@ -168,7 +171,9 @@
    "type": "fill",
    "q": "You ___ to apologise. It was your fault.",
    "answer": [
-    "ought"
+    "ought",
+    "need",
+    "have"
    ],
    "why": "ought to — слід."
   },
@@ -318,7 +323,8 @@
    "type": "fill",
    "q": "We'll ___ to leave early tomorrow.",
    "answer": [
-    "have"
+    "have",
+    "need"
    ],
    "why": "Майбутнє від must — will have to."
   },

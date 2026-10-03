@@ -34,7 +34,7 @@
     "borrow",
     "lend",
     "take",
-    "rent"
+    "keep"
    ],
    "answer": 1,
    "why": "Дати в борг — lend somebody something."
@@ -174,7 +174,8 @@
    "type": "fill",
    "q": "Please ___ your hand if you have a question.",
    "answer": [
-    "raise"
+    "raise",
+    "put up"
    ],
    "why": "Піднімати щось — raise."
   },
@@ -185,16 +186,20 @@
    "answer": [
     "take"
    ],
-   "why": "Від мовця, туди — take."
+   "why": "Від мовця, туди — take.",
+   "hint": "(з собою — звідси туди)"
   },
   {
    "id": "confusing-words-16",
    "type": "fill",
    "q": "Can you ___ me a glass of water, please? I'm in the kitchen.",
    "answer": [
-    "bring"
+    "bring",
+    "fetch",
+    "get"
    ],
-   "why": "До мовця, сюди — bring."
+   "why": "До мовця, сюди — bring.",
+   "hint": "(принести)"
   },
   {
    "id": "confusing-words-17",
@@ -203,16 +208,19 @@
    "answer": [
     "speak"
    ],
-   "why": "Мовами говорять — speak."
+   "why": "Мовами говорять — speak.",
+   "hint": "(розмовляти)"
   },
   {
    "id": "confusing-words-18",
    "type": "fill",
    "q": "I've ___ my wallet. Have you seen it?",
    "answer": [
-    "lost"
+    "lost",
+    "misplaced"
    ],
-   "why": "Загубити — lose, lost."
+   "why": "Загубити — lose, lost.",
+   "hint": "(загубити)"
   },
   {
    "id": "confusing-words-19",

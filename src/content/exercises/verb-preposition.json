@@ -122,7 +122,7 @@
    "type": "choice",
    "q": "She suffers ___ headaches.",
    "options": [
-    "with",
+    "by",
     "from",
     "of",
     "at"
@@ -319,7 +319,8 @@
    "type": "fill",
    "q": "Can you translate this ___ English?",
    "answer": [
-    "into"
+    "into",
+    "to"
    ],
    "why": "translate into."
   }

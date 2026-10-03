@@ -153,9 +153,11 @@
    "type": "fill",
    "q": "There ___ to be a mistake in the bill.",
    "answer": [
-    "seems"
+    "seems",
+    "appears"
    ],
-   "why": "There seems to be — здається, є."
+   "why": "There seems to be — здається, є.",
+   "hint": "(seem)"
   },
   {
    "id": "seem-14",

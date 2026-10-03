@@ -122,7 +122,11 @@
    "type": "fill",
    "q": "It's ___ to rain later, so take an umbrella.",
    "answer": [
-    "likely"
+    "likely",
+    "going",
+    "bound",
+    "sure",
+    "certain"
    ],
    "why": "be likely to — ймовірно."
   },
@@ -131,7 +135,9 @@
    "type": "fill",
    "q": "Prices are ___ to go up. They always do.",
    "answer": [
-    "bound"
+    "bound",
+    "sure",
+    "certain"
    ],
    "why": "be bound to — неодмінно."
   },

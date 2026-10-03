@@ -109,7 +109,8 @@
    "type": "fill",
    "q": "I called her, ___ she didn't answer.",
    "answer": [
-    "but"
+    "but",
+    "yet"
    ],
    "why": "but — контраст."
   },
@@ -120,7 +121,8 @@
    "answer": [
     "so"
    ],
-   "why": "so — наслідок."
+   "why": "so — наслідок.",
+   "hint": "(тому)"
   },
   {
    "id": "conjunctions-11",
@@ -129,7 +131,8 @@
    "answer": [
     "or"
    ],
-   "why": "or — вибір."
+   "why": "or — вибір.",
+   "hint": "(або)"
   },
   {
    "id": "conjunctions-12",
@@ -235,7 +238,8 @@
     "ill"
    ],
    "answer": [
-    "She stayed at home because she was ill"
+    "She stayed at home because she was ill",
+    "Because she was ill she stayed at home"
    ],
    "why": "because + причина.",
    "hint": "Вона залишилася вдома, бо захворіла."

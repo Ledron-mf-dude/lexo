@@ -260,7 +260,8 @@
    ],
    "answer": [
     "Although it was raining we went for a walk",
-    "Although it was raining, we went for a walk"
+    "Although it was raining, we went for a walk",
+    "We went for a walk although it was raining"
    ],
    "why": "although + речення.",
    "hint": "Хоч і йшов дощ, ми пішли гуляти."
@@ -279,7 +280,8 @@
     "understand"
    ],
    "answer": [
-    "I spoke slowly so that she could understand"
+    "I spoke slowly so that she could understand",
+    "So that she could understand I spoke slowly"
    ],
    "why": "so that + could.",
    "hint": "Я говорив повільно, щоб вона зрозуміла."
@@ -297,7 +299,8 @@
     "heat"
    ],
    "answer": [
-    "We stayed inside because of the heat"
+    "We stayed inside because of the heat",
+    "Because of the heat we stayed inside"
    ],
    "why": "because of + іменник.",
    "hint": "Ми залишилися всередині через спеку."
@@ -339,7 +342,8 @@
     "in spite"
    ],
    "answer": 1,
-   "why": "Умова (невідомо) — even if."
+   "why": "Умова (невідомо) — even if.",
+   "hint": "(ще невідомо, чи ти прийдеш)"
   },
   {
    "id": "contrast-purpose-reason-result-27",

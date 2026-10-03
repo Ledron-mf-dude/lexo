@@ -137,7 +137,9 @@
    "q": "Don't leave until I ___ (come) back.",
    "answer": [
     "come",
-    "have come"
+    "have come",
+    "get back",
+    "have got back"
    ],
    "why": "until + Present Simple / Perfect."
   },
@@ -217,7 +219,8 @@
     "arrive"
    ],
    "answer": [
-    "I will call you when I arrive"
+    "I will call you when I arrive",
+    "When I arrive I will call you"
    ],
    "why": "when + Present Simple.",
    "hint": "Я зателефоную, коли приїду."
@@ -238,7 +241,8 @@
    ],
    "answer": [
     "As soon as I get home I will cook",
-    "As soon as I get home, I will cook"
+    "As soon as I get home, I will cook",
+    "I will cook as soon as I get home"
    ],
    "why": "as soon as + Present Simple.",
    "hint": "Щойно прийду додому, приготую їсти."
@@ -267,11 +271,11 @@
    "options": [
     "comes",
     "will come",
-    "came",
+    "coming",
     "is coming to"
    ],
    "answer": 1,
-   "why": "when — питальне слово (непряме питання), тут will можна."
+   "why": "Тут when — питальне слово (непряме питання), а не сполучник часу, тому майбутнє — will."
   },
   {
    "id": "future-time-clauses-22",
@@ -318,7 +322,9 @@
    "q": "I won't sign it ___ I've read it carefully.",
    "answer": [
     "until",
-    "till"
+    "till",
+    "before",
+    "unless"
    ],
    "why": "not … until — не раніше ніж."
   }

@@ -164,7 +164,8 @@
    "type": "fill",
    "q": "___ colour do you prefer, red or blue?",
    "answer": [
-    "Which"
+    "Which",
+    "What"
    ],
    "why": "Which — вибір з обмеженого набору."
   },
@@ -282,7 +283,7 @@
    "type": "choice",
    "q": "___ colour do you prefer, black or white?",
    "options": [
-    "What",
+    "Who",
     "Which",
     "How",
     "Whose"

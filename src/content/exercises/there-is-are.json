@@ -143,7 +143,8 @@
    "type": "fill",
    "q": "There ___ been an accident on the motorway.",
    "answer": [
-    "has"
+    "has",
+    "had"
    ],
    "why": "Present Perfect — has been."
   },
@@ -301,7 +302,8 @@
    "type": "fill",
    "q": "There ___ to be a problem with the printer. (здається)",
    "answer": [
-    "seems"
+    "seems",
+    "appears"
    ],
    "why": "There seems to be."
   }

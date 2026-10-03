@@ -130,7 +130,8 @@
    "type": "fill",
    "q": "Could you pass me ___ salt, please?",
    "answer": [
-    "the"
+    "the",
+    "some"
    ],
    "why": "pass me the salt — кому + що."
   },

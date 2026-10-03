@@ -153,7 +153,8 @@
    "type": "fill",
    "q": "Somebody called ___ you were out.",
    "answer": [
-    "while"
+    "while",
+    "when"
    ],
    "why": "while + речення."
   },
@@ -162,7 +163,8 @@
    "type": "fill",
    "q": "Please don't talk ___ the exam.",
    "answer": [
-    "during"
+    "during",
+    "in"
    ],
    "why": "during + іменник."
   },
@@ -253,7 +255,8 @@
     "years"
    ],
    "answer": [
-    "I have lived here for five years"
+    "I have lived here for five years",
+    "For five years I have lived here"
    ],
    "why": "for + тривалість, Present Perfect.",
    "hint": "Я живу тут п'ять років."
@@ -270,7 +273,8 @@
     "lesson"
    ],
    "answer": [
-    "She fell asleep during the lesson"
+    "She fell asleep during the lesson",
+    "During the lesson she fell asleep"
    ],
    "why": "during + іменник.",
    "hint": "Вона заснула під час уроку."
@@ -287,7 +291,8 @@
     "cooking"
    ],
    "answer": [
-    "He called while I was cooking"
+    "He called while I was cooking",
+    "While I was cooking he called"
    ],
    "why": "while + речення.",
    "hint": "Він зателефонував, поки я готував."
@@ -324,7 +329,8 @@
    "q": "___ it's late, let's take a taxi.",
    "answer": [
     "Since",
-    "As"
+    "As",
+    "Because"
    ],
    "why": "since / as = тому що."
   }

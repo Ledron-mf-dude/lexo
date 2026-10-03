@@ -45,7 +45,7 @@
    "q": "___ I want is peace.",
    "options": [
     "All",
-    "Everything",
+    "Which",
     "It",
     "There"
    ],
@@ -131,7 +131,8 @@
    "type": "fill",
    "q": "___ he did was complain.",
    "answer": [
-    "All"
+    "All",
+    "What"
    ],
    "why": "All + підмет + дієслово + was."
   },

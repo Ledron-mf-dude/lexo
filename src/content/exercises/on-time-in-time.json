@@ -127,7 +127,8 @@
    "type": "fill",
    "q": "___ the end of the day, I was exhausted.",
    "answer": [
-    "At"
+    "At",
+    "By"
    ],
    "why": "at the end of + період."
   },
@@ -146,7 +147,7 @@
    "q": "Please hand in your homework ___. The deadline is 9 am.",
    "options": [
     "on time",
-    "in time",
+    "in the time",
     "at time",
     "at the end"
    ],
@@ -240,7 +241,8 @@
    ],
    "answer": [
     "In the end we stayed at home",
-    "In the end, we stayed at home"
+    "In the end, we stayed at home",
+    "We stayed at home in the end"
    ],
    "why": "in the end — зрештою.",
    "hint": "Зрештою ми залишилися вдома."

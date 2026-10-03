@@ -240,7 +240,9 @@
     "midnight"
    ],
    "answer": [
-    "I usually go to bed at midnight"
+    "I usually go to bed at midnight",
+    "Usually I go to bed at midnight",
+    "At midnight I usually go to bed"
    ],
    "why": "at midnight.",
    "hint": "Зазвичай я лягаю спати опівночі."
@@ -257,7 +259,8 @@
     "August"
    ],
    "answer": [
-    "We go on holiday in August"
+    "We go on holiday in August",
+    "In August we go on holiday"
    ],
    "why": "in + місяць.",
    "hint": "Ми їдемо у відпустку в серпні."
@@ -274,7 +277,8 @@
     "minutes"
    ],
    "answer": [
-    "The film starts in ten minutes"
+    "The film starts in ten minutes",
+    "In ten minutes the film starts"
    ],
    "why": "in + проміжок — через.",
    "hint": "Фільм почнеться через десять хвилин."
@@ -323,7 +327,8 @@
    "type": "fill",
    "q": "The film was boring ___ the beginning, but then it got better.",
    "answer": [
-    "at"
+    "at",
+    "in"
    ],
    "why": "На початку чогось — at the beginning."
   }

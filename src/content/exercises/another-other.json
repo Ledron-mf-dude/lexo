@@ -107,7 +107,8 @@
    "answer": [
     "another"
    ],
-   "why": "another — ще один (однина)."
+   "why": "another — ще один (однина).",
+   "hint": "(ще один)"
   },
   {
    "id": "another-other-10",
@@ -135,7 +136,8 @@
    "answer": [
     "the other"
    ],
-   "why": "the other + множина — решта певних дітей."
+   "why": "the other + множина — решта певних дітей.",
+   "hint": "(інші)"
   },
   {
    "id": "another-other-13",

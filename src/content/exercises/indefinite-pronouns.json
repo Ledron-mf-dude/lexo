@@ -3,7 +3,7 @@
   {
    "id": "indefinite-pronouns-1",
    "type": "choice",
-   "q": "I didn't see ___.",
+   "q": "I didn't see ___. (нікого)",
    "options": [
     "somebody",
     "anybody",
@@ -18,10 +18,10 @@
    "type": "choice",
    "q": "Would you like ___ to eat?",
    "options": [
-    "anything",
-    "something",
     "nothing",
-    "everything"
+    "something",
+    "somewhere",
+    "nobody"
    ],
    "answer": 1,
    "why": "У пропозиції — some-."
@@ -135,7 +135,8 @@
    "type": "fill",
    "q": "Is there ___ I can do to help?",
    "answer": [
-    "anything"
+    "anything",
+    "something"
    ],
    "why": "У питанні — any-: anything."
   },
@@ -155,7 +156,8 @@
    "answer": [
     "Nobody",
     "No one",
-    "Noone"
+    "Noone",
+    "No-one"
    ],
    "why": "nobody + ствердне дієслово."
   },
@@ -173,7 +175,8 @@
    "type": "fill",
    "q": "Let's go ___ quiet.",
    "answer": [
-    "somewhere"
+    "somewhere",
+    "anywhere"
    ],
    "why": "somewhere + прикметник: somewhere quiet."
   },

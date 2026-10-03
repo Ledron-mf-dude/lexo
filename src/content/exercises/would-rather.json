@@ -271,7 +271,7 @@
    "type": "choice",
    "q": "It's late. You'd ___ go home.",
    "options": [
-    "rather",
+    "rather to",
     "better",
     "prefer",
     "like"

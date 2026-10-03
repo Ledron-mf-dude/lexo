@@ -109,7 +109,8 @@
    "type": "fill",
    "q": "Who ___ (break) the window?",
    "answer": [
-    "broke"
+    "broke",
+    "has broken"
    ],
    "why": "Питання до підмета — без did."
   },
@@ -128,7 +129,8 @@
    "type": "fill",
    "q": "Who ___ you talking to?",
    "answer": [
-    "are"
+    "are",
+    "were"
    ],
    "why": "Питання до додатка з прийменником у кінці."
   },
@@ -137,7 +139,8 @@
    "type": "fill",
    "q": "Who ___ Anna marry? (питання до додатка)",
    "answer": [
-    "did"
+    "did",
+    "will"
    ],
    "why": "Питання до додатка — did."
   },

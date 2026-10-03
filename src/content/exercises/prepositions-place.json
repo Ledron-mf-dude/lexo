@@ -140,7 +140,10 @@
    "type": "fill",
    "q": "I'll wait for you ___ the entrance.",
    "answer": [
-    "at"
+    "at",
+    "by",
+    "near",
+    "outside"
    ],
    "why": "at — точка, місце зустрічі."
   },
@@ -244,7 +247,8 @@
     "Anna"
    ],
    "answer": [
-    "She is sitting between Tom and Anna"
+    "She is sitting between Tom and Anna",
+    "She is sitting between Anna and Tom"
    ],
    "why": "between — між двома.",
    "hint": "Вона сидить між Томом та Анною."

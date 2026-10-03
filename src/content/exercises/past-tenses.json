@@ -3,11 +3,11 @@
   {
    "id": "past-tenses-1",
    "type": "choice",
-   "q": "When I arrived, the film ___.",
+   "q": "When I arrived, the film ___. (я пропустив початок)",
    "options": [
-    "started",
+    "starts",
     "had started",
-    "was starting",
+    "has been starting",
     "has started"
    ],
    "answer": 1,
@@ -73,7 +73,7 @@
    "options": [
     "went",
     "had gone",
-    "were going",
+    "are going",
     "have gone"
    ],
    "answer": 1,
@@ -113,7 +113,8 @@
     "called"
    ],
    "answer": [
-    "I was reading when she called"
+    "I was reading when she called",
+    "When she called I was reading"
    ],
    "why": "Процес (Continuous) + подія (Simple)."
   },
@@ -219,7 +220,8 @@
     "home"
    ],
    "answer": [
-    "She was sleeping when I got home"
+    "She was sleeping when I got home",
+    "When I got home she was sleeping"
    ],
    "why": "Процес + подія.",
    "hint": "Вона спала, коли я прийшов додому."
@@ -253,7 +255,8 @@
     "2019"
    ],
    "answer": [
-    "We met in Paris in 2019"
+    "We met in Paris in 2019",
+    "In 2019 we met in Paris"
    ],
    "why": "Past Simple — названий час.",
    "hint": "Ми познайомилися в Парижі 2019 року."

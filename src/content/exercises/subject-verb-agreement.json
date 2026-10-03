@@ -122,7 +122,8 @@
    "type": "fill",
    "q": "Each of the students ___ (have) a laptop.",
    "answer": [
-    "has"
+    "has",
+    "had"
    ],
    "why": "each — однина."
   },
@@ -131,7 +132,8 @@
    "type": "fill",
    "q": "The police ___ (be) investigating the case.",
    "answer": [
-    "are"
+    "are",
+    "were"
    ],
    "why": "police — множина."
   },
@@ -140,7 +142,9 @@
    "type": "fill",
    "q": "Reading books ___ (help) you relax.",
    "answer": [
-    "helps"
+    "helps",
+    "helped",
+    "can help"
    ],
    "why": "Герундій-підмет — однина."
   },
@@ -149,7 +153,8 @@
    "type": "fill",
    "q": "The manager, as well as his team, ___ (be) here.",
    "answer": [
-    "is"
+    "is",
+    "was"
    ],
    "why": "as well as не робить підмет множиною."
   },
@@ -158,7 +163,8 @@
    "type": "fill",
    "q": "Physics ___ (be) my favourite subject.",
    "answer": [
-    "is"
+    "is",
+    "was"
    ],
    "why": "physics — однина."
   },
@@ -167,7 +173,8 @@
    "type": "fill",
    "q": "Both answers ___ (be) correct.",
    "answer": [
-    "are"
+    "are",
+    "were"
    ],
    "why": "both — множина."
   },
@@ -252,7 +259,8 @@
    "type": "fill",
    "q": "The United States ___ (be) a federal republic.",
    "answer": [
-    "is"
+    "is",
+    "was"
    ],
    "why": "Назва країни — однина."
   }

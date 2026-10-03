@@ -329,9 +329,32 @@ interface FeedbackProps {
   outcome: Outcome
   last: boolean
   onNext: () => void
-  onOverride: () => void
+  /** «Мій варіант теж правильний»; left out where the answer must not be self-graded (the placement test). */
+  onOverride?: () => void
   /** The question's topic: «Правило» opens the matching part of its article. */
   slug?: string
+}
+
+/** Only a typed or built answer can be «also right»; a choice, a blank, or the unchanged wrong sentence cannot. */
+function canOverride(q: Question, outcome: Outcome) {
+  if (outcome.correct || outcome.given === '') return false
+  if (q.type === 'fix') return !q.showRight && outcome.given !== q.wrong
+  return q.type === 'fill' || q.type === 'order'
+}
+
+/**
+ * The other accepted answers of a typed or built question (another modal, another word order), so the learner sees that more than one is right.
+ * Spelling variants of the answer already shown (contractions, «-» for no word) are left out.
+ */
+function otherAnswers(q: Question, outcome: Outcome): string[] {
+  if (q.type !== 'fill' && q.type !== 'order') return []
+  const shown = outcome.correct ? outcome.given : q.answer[0]
+  const out: string[] = []
+  for (const a of q.answer) {
+    if (/^\(.*\)$|^[—–-]$|^no article$/i.test(a.trim()) || isCorrectText(a, [shown, ...out])) continue
+    out.push(a)
+  }
+  return out
 }
 
 // How long a right answer stays on screen before the quiz moves on by itself (when that is switched on).
@@ -343,6 +366,7 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
   const auto = autoNextPref.use() === 'on' && outcome.correct && !rule
   const [armed, setArmed] = useState(false)
   const hasRule = slug !== undefined && bySlug.has(slug)
+  const others = otherAnswers(q, outcome)
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -395,15 +419,16 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
             ))}
           </div>
         ) : solved(q) ? (
-          // The whole sentence with the right answer in place reads better than the answer alone.
-          <p className="mt-1 text-lg">{solved(q)}</p>
+          // The whole sentence with the right answer in place reads better than the answer alone; a right typed answer is shown as typed.
+          <p className="mt-1 text-lg">{solved(q, outcome.correct && q.type === 'fill' ? outcome.given : undefined)}</p>
         ) : (
           !outcome.correct && <p className="mt-1 text-lg">{correctAnswer(q)}</p>
         )}
+        {others.length > 0 && <p className="mt-1 text-sm text-white/50">Також правильно: {others.join(' · ')}</p>}
         {q.why && <p className="mt-2 text-sm text-white/60">{q.why}</p>}
       </div>
-      {/* A typed correction the checker did not recognise may still be right: let the learner count it. */}
-      {q.type === 'fix' && !outcome.correct && !q.showRight && outcome.given !== '' && outcome.given !== q.wrong && (
+      {/* A typed answer the checker did not recognise may still be right (another modal, another word order): let the learner count it. */}
+      {onOverride && canOverride(q, outcome) && (
         <button onClick={onOverride} className="w-full text-center text-sm text-white/40 hover:text-white">
           Мій варіант теж правильний
         </button>
@@ -427,10 +452,10 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
  * A gap question as a complete sentence, the right answer highlighted; null when the question has no gap.
  * With several gaps an answer written «had / gone» fills them in turn; otherwise it all goes into the first gap.
  */
-function solved(q: Question): ReactNode {
+function solved(q: Question, given?: string): ReactNode {
   if ((q.type !== 'choice' && q.type !== 'fill') || !/_{2,}/.test(q.q)) return null
   const parts = q.q.split(/_{2,}/)
-  const answer = correctAnswer(q)
+  const answer = given ?? correctAnswer(q)
   const pieces = answer.split(' / ')
   const fills = pieces.length === parts.length - 1 ? pieces : [answer]
   // «(без артикля)», «—»: the right answer is to leave the gap empty, so the sentence is shown without it.

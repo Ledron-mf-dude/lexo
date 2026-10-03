@@ -44,10 +44,10 @@
    "type": "choice",
    "q": "He said he ___ come. (\"I may come\")",
    "options": [
-    "may",
+    "mights",
     "might",
-    "will",
-    "must"
+    "will to",
+    "must to"
    ],
    "answer": 1,
    "why": "may → might у непрямій мові."
@@ -111,7 +111,8 @@
    "q": "Take a coat. It ___ get cold later.",
    "answer": [
     "may",
-    "might"
+    "might",
+    "could"
    ],
    "why": "may / might — можливість."
   },
@@ -132,7 +133,9 @@
    "q": "She ___ have missed the train. That's why she's late.",
    "answer": [
     "may",
-    "might"
+    "might",
+    "could",
+    "must"
    ],
    "why": "may / might + have + V3 — можливо, у минулому."
   },

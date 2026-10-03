@@ -44,7 +44,8 @@
    "type": "fill",
    "q": "Present Perfect: 'I ___ (live) here since 2015.'",
    "answer": [
-    "have lived"
+    "have lived",
+    "have been living"
    ],
    "why": "have + V3."
   },
@@ -250,7 +251,8 @@
     "in"
    ],
    "answer": [
-    "She was reading when I came in"
+    "She was reading when I came in",
+    "When I came in she was reading"
    ],
    "why": "Past Continuous + Past Simple.",
    "hint": "Вона читала, коли я зайшов."
@@ -267,7 +269,8 @@
     "Monday"
    ],
    "answer": [
-    "They will have finished by Monday"
+    "They will have finished by Monday",
+    "By Monday they will have finished"
    ],
    "why": "Future Perfect.",
    "hint": "Вони закінчать до понеділка."

@@ -235,10 +235,13 @@
    "type": "fill",
    "q": "I need ___ advice.",
    "answer": [
-    "some"
+    "some",
+    "-",
+    "no article",
+    "(без артикля)"
    ],
    "why": "advice — нелічильне: some advice.",
-   "hint": "Нелічильне: не a"
+   "hint": "Нелічильне: не a. Якщо слово не потрібне, напишіть «-»"
   },
   {
    "id": "articles-21",

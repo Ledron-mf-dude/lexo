@@ -133,7 +133,8 @@
    "type": "fill",
    "q": "Tom is tall, but his brother is ___ taller. (ще вищий)",
    "answer": [
-    "even"
+    "even",
+    "still"
    ],
    "why": "even — «ще більше»: обидва високі."
   },
@@ -151,7 +152,9 @@
    "type": "fill",
    "q": "This option is ___ cheaper. (трохи, формально)",
    "answer": [
-    "slightly"
+    "slightly",
+    "somewhat",
+    "marginally"
    ],
    "why": "slightly — трохи, нейтрально-формально."
   },

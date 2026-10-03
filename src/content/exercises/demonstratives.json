@@ -57,10 +57,10 @@
    "type": "choice",
    "q": "On the phone you ask: 'Who is ___?'",
    "options": [
-    "this",
+    "they",
     "that",
     "these",
-    "it"
+    "those"
    ],
    "answer": 1,
    "why": "Про співрозмовника — Who is that?"
@@ -122,7 +122,8 @@
    "answer": [
     "that"
    ],
-   "why": "that — однина, далеко."
+   "why": "that — однина, далеко.",
+   "hint": "(той — далеко)"
   },
   {
    "id": "demonstratives-11",
@@ -131,7 +132,8 @@
    "answer": [
     "those"
    ],
-   "why": "those — множина, далеко."
+   "why": "those — множина, далеко.",
+   "hint": "(ті — далеко)"
   },
   {
    "id": "demonstratives-12",
@@ -170,9 +172,9 @@
    "q": "I love ___ song! It's on the radio now.",
    "options": [
     "this",
-    "that",
     "these",
-    "those"
+    "those",
+    "them"
    ],
    "answer": 0,
    "why": "Те, що відбувається зараз, — this."

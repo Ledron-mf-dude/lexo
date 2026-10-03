@@ -98,7 +98,7 @@
    "type": "choice",
    "q": "He ___ his keys, so he can't get in.",
    "options": [
-    "lost",
+    "is lose",
     "has lost",
     "was losing",
     "loses"
@@ -119,7 +119,8 @@
     "years"
    ],
    "answer": [
-    "I have lived here for ten years"
+    "I have lived here for ten years",
+    "For ten years I have lived here"
    ],
    "why": "for + період: Present Perfect."
   },
@@ -257,7 +258,8 @@
     "years"
    ],
    "answer": [
-    "I have been learning English for two years"
+    "I have been learning English for two years",
+    "For two years I have been learning English"
    ],
    "why": "Present Perfect Continuous + for.",
    "hint": "Я вивчаю англійську вже два роки."
@@ -344,7 +346,8 @@
    "q": "I ___ (paint) the kitchen. It looks great now!",
    "answer": [
     "have painted",
-    "'ve painted"
+    "'ve painted",
+    "have just painted"
    ],
    "why": "Готовий результат — Present Perfect Simple."
   }

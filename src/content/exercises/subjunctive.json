@@ -131,7 +131,8 @@
    "type": "fill",
    "q": "I propose that we ___ (start) now.",
    "answer": [
-    "start"
+    "start",
+    "should start"
    ],
    "why": "propose that + базова форма."
   },
@@ -140,7 +141,8 @@
    "type": "fill",
    "q": "It's vital that she ___ (not / miss) the deadline.",
    "answer": [
-    "not miss"
+    "not miss",
+    "should not miss"
    ],
    "why": "not + базова форма."
   },
@@ -149,7 +151,8 @@
    "type": "fill",
    "q": "He requested that the meeting ___ (postpone).",
    "answer": [
-    "be postponed"
+    "be postponed",
+    "should be postponed"
    ],
    "why": "Пасив у subjunctive: be + V3."
   },

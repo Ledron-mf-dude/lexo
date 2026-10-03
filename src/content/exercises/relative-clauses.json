@@ -97,7 +97,8 @@
    "q": "I remember the day ___ we met. (when / that)",
    "answer": [
     "when",
-    "that"
+    "that",
+    "-"
    ],
    "why": "Про час — when (або that)."
   },
@@ -160,8 +161,8 @@
    "q": "That's the hotel ___ we stayed last summer.",
    "answer": [
     "where",
-    "that",
-    "which"
+    "in which",
+    "at which"
    ],
    "why": "where — про місце."
   },
@@ -336,9 +337,11 @@
    "q": "This is the house ___ I grew up in.",
    "answer": [
     "that",
-    "which"
+    "which",
+    "-"
    ],
-   "why": "Об'єкт із прийменником у кінці — that або which (або без слова)."
+   "why": "Об'єкт із прийменником у кінці — that або which (або без слова).",
+   "hint": "Якщо слово можна пропустити, напишіть «-»"
   },
   {
    "id": "relative-clauses-27",
@@ -346,7 +349,8 @@
    "q": "That's the reason ___ I called you.",
    "answer": [
     "why",
-    "that"
+    "that",
+    "-"
    ],
    "why": "the reason why."
   }

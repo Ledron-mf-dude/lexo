@@ -109,7 +109,8 @@
    "type": "fill",
    "q": "Have you finished ___?",
    "answer": [
-    "yet"
+    "yet",
+    "already"
    ],
    "why": "yet — у питанні, в кінці."
   },
@@ -120,14 +121,16 @@
    "answer": [
     "still"
    ],
-   "why": "still — дія все ще триває."
+   "why": "still — дія все ще триває.",
+   "hint": "(досі)"
   },
   {
    "id": "already-still-yet-11",
    "type": "fill",
    "q": "She has ___ left. You've missed her.",
    "answer": [
-    "already"
+    "already",
+    "just"
    ],
    "why": "already — вже (раніше, ніж очікували)."
   },

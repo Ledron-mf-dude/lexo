@@ -124,7 +124,8 @@
    "q": "I'm sorry, I ___ come to your party tomorrow.",
    "answer": [
     "can't",
-    "cannot"
+    "cannot",
+    "won't be able to"
    ],
    "why": "Заперечення: can't + V.",
    "hint": "(can)"
@@ -144,9 +145,11 @@
    "q": "I ___ find my keys anywhere yesterday.",
    "answer": [
     "couldn't",
-    "could not"
+    "could not",
+    "wasn't able to"
    ],
-   "why": "Заперечення в минулому — couldn't."
+   "why": "Заперечення в минулому — couldn't.",
+   "hint": "(can) — заперечення в минулому"
   },
   {
    "id": "can-could-be-able-to-13",
@@ -154,7 +157,9 @@
    "q": "___ you help me with this box, please?",
    "answer": [
     "Could",
-    "Can"
+    "Can",
+    "Would",
+    "Will"
    ],
    "why": "Could you…? — ввічливе прохання.",
    "hint": "Ввічливе прохання"
@@ -224,7 +229,8 @@
     "six"
    ],
    "answer": [
-    "I could swim when I was six"
+    "I could swim when I was six",
+    "When I was six I could swim"
    ],
    "why": "Загальне вміння в минулому — could.",
    "hint": "Я вмів плавати, коли мені було шість."

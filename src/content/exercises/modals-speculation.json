@@ -147,7 +147,8 @@
    "q": "That ___ be true! It's impossible!",
    "answer": [
     "can't",
-    "cannot"
+    "cannot",
+    "couldn't"
    ],
    "why": "can't — упевнене «ні»."
   },
@@ -169,7 +170,8 @@
    "answer": [
     "must"
    ],
-   "why": "must + have + V3 — упевнений висновок про минуле."
+   "why": "must + have + V3 — упевнений висновок про минуле.",
+   "hint": "(я впевнений)"
   },
   {
    "id": "modals-speculation-15",
@@ -312,7 +314,8 @@
    "q": "That ___ be Anna — she's in Paris this week.",
    "answer": [
     "can't",
-    "cannot"
+    "cannot",
+    "couldn't"
    ],
    "why": "Упевнене «ні» — can't."
   }

@@ -3,12 +3,12 @@
   {
    "id": "past-perfect-1",
    "type": "choice",
-   "q": "When we reached the platform, the train ___.",
+   "q": "When we reached the platform, the train ___. (його вже не було)",
    "options": [
     "left",
     "had left",
     "has left",
-    "was leaving"
+    "has been leaving"
    ],
    "answer": 1,
    "why": "Потяг пішов ще до того, як ми прийшли, — Past Perfect."
@@ -83,7 +83,7 @@
    "type": "choice",
    "q": "They ___ for two hours before the bus finally came.",
    "options": [
-    "waited",
+    "are waiting",
     "have been waiting",
     "had been waiting",
     "were waiting"
@@ -107,22 +107,23 @@
   {
    "id": "past-perfect-9",
    "type": "choice",
-   "q": "She said she ___ her phone.",
+   "q": "She said she ___ her phone the day before.",
    "options": [
-    "lost",
-    "has lost",
+    "loses",
+    "is losing",
     "had lost",
     "had been losing"
    ],
    "answer": 2,
-   "why": "Непряма мова: \"I've lost\" → had lost."
+   "why": "Непряма мова: «I lost it yesterday» → had lost … the day before."
   },
   {
    "id": "past-perfect-10",
    "type": "fill",
    "q": "By the time the police arrived, the thief ___ (escape).",
    "answer": [
-    "had escaped"
+    "had escaped",
+    "had already escaped"
    ],
    "why": "By the time + Past Simple, у головній — Past Perfect: had escaped."
   },
@@ -151,7 +152,8 @@
    "type": "fill",
    "q": "The kitchen smelled of smoke. Someone ___ (cook) fish.",
    "answer": [
-    "had been cooking"
+    "had been cooking",
+    "had cooked"
    ],
    "why": "Слід недавньої тривалої дії — had been cooking."
   },
@@ -247,7 +249,8 @@
     "arrived"
    ],
    "answer": [
-    "They hadn't finished dinner when we arrived"
+    "They hadn't finished dinner when we arrived",
+    "When we arrived they hadn't finished dinner"
    ],
    "why": "Заперечення hadn't + V3; when + Past Simple.",
    "hint": "Вони ще не повечеряли, коли ми прийшли."
