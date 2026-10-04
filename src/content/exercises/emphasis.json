@@ -1,0 +1,228 @@
+{
+ "questions": [
+  {
+   "id": "emphasis-1",
+   "type": "choice",
+   "q": "\"You never listen to me!\" — \"That's not true. I ___ listen!\"",
+   "options": [
+    "do",
+    "am",
+    "did to",
+    "does"
+   ],
+   "answer": 0,
+   "why": "Наголошене *do* + початкова форма заперечує закид: *I do listen*. *I am listen* — неграматично; *did to* — зайве *to*; *does* — для *he / she / it*."
+  },
+  {
+   "id": "emphasis-2",
+   "type": "choice",
+   "q": "She ___ seem a bit nervous, doesn't she?",
+   "options": [
+    "does",
+    "do",
+    "is",
+    "did to"
+   ],
+   "answer": 0,
+   "why": "Емфатичне *does* для *she* + початкова форма *seem*. *do* — для *I / you / we / they*; *is seem* — неграматично; *did to* — зайве *to*."
+  },
+  {
+   "id": "emphasis-3",
+   "type": "choice",
+   "q": "I ___ tell you about the party — you've just forgotten.",
+   "options": [
+    "did",
+    "do",
+    "was",
+    "did told"
+   ],
+   "answer": 0,
+   "why": "Минуле з наголосом — *did tell*. *do tell* — теперішній; *was tell* — неграматично; *did told* — після *did* потрібна початкова форма."
+  },
+  {
+   "id": "emphasis-4",
+   "type": "choice",
+   "q": "That's ___ dress I wore at my wedding!",
+   "options": [
+    "the very",
+    "very",
+    "the much",
+    "a very"
+   ],
+   "answer": 0,
+   "why": "«Саме та» — *the very dress*. *very* без *the* — «дуже»; *the much* і *a very dress* — неграматично."
+  },
+  {
+   "id": "emphasis-5",
+   "type": "choice",
+   "q": "I don't like horror films ___.",
+   "options": [
+    "at all",
+    "whatsoever of",
+    "in all",
+    "by all"
+   ],
+   "answer": 0,
+   "why": "Підсилене заперечення в кінці — *at all*. *whatsoever of* — неграматично; *in all* — «загалом»; *by all* — неповне."
+  },
+  {
+   "id": "emphasis-6",
+   "type": "choice",
+   "q": "What ___ have you done to your hair?",
+   "options": [
+    "on earth",
+    "in earth",
+    "at earth",
+    "on the earth"
+   ],
+   "answer": 0,
+   "why": "Здивоване питання — *What on earth…?* *in earth*, *at earth*, *on the earth* так не кажуть."
+  },
+  {
+   "id": "emphasis-7",
+   "type": "choice",
+   "q": "There is no reason ___ to be worried.",
+   "options": [
+    "whatsoever",
+    "at all of",
+    "ever",
+    "on earth of"
+   ],
+   "answer": 0,
+   "why": "Після *no* + іменник — *whatsoever*. *at all of* — неграматично; *ever* — з дієсловами; *on earth of* — неграматично."
+  },
+  {
+   "id": "emphasis-8",
+   "type": "choice",
+   "q": "___ come in and have a seat!",
+   "options": [
+    "Do",
+    "Does",
+    "Did",
+    "To do"
+   ],
+   "answer": 0,
+   "why": "Ввічливе запрошення — *Do come in!* *Does* і *Did* так не вживають у наказовому; *To do* — неграматично."
+  },
+  {
+   "id": "emphasis-9",
+   "type": "choice",
+   "q": "The director ___ phoned to apologise.",
+   "options": [
+    "himself",
+    "itself",
+    "him",
+    "his own"
+   ],
+   "answer": 0,
+   "why": "«Сам, особисто» — *The director himself*. *itself* — про речі; *him* — додаток; *his own* потребує іменника."
+  },
+  {
+   "id": "emphasis-10",
+   "type": "choice",
+   "q": "We arrived at ___ end of the film.",
+   "options": [
+    "the very",
+    "very",
+    "the much",
+    "a very"
+   ],
+   "answer": 0,
+   "why": "«У самому кінці» — *the very end*. *very end* без *the* — неграматично; *the much* і *a very* — неграматично."
+  },
+  {
+   "id": "emphasis-11",
+   "type": "choice",
+   "q": "Why ___ did you tell her the truth?",
+   "options": [
+    "ever",
+    "on",
+    "at all",
+    "whatsoever"
+   ],
+   "answer": 0,
+   "why": "*Why ever…?* — здивування. *Why on…* — бракує *earth*; *at all* і *whatsoever* — не підсилюють питальні слова."
+  },
+  {
+   "id": "emphasis-12",
+   "type": "choice",
+   "q": "I ___ appreciate all your help.",
+   "options": [
+    "really do",
+    "do really to",
+    "am really",
+    "does really"
+   ],
+   "answer": 0,
+   "why": "*I really do appreciate* — подвійне підсилення. *do really to* — зайве *to*; *am really appreciate* — неграматично; *does* — для *he / she / it*."
+  },
+  {
+   "id": "emphasis-13",
+   "type": "fill",
+   "q": "He ___ (do / look) tired, so let him rest.",
+   "answer": [
+    "does look"
+   ],
+   "why": "Емфатичне *does* + початкова форма: *does look*."
+  },
+  {
+   "id": "emphasis-14",
+   "type": "fill",
+   "q": "Have you got any money ___ all?",
+   "answer": [
+    "at"
+   ],
+   "why": "Підсилене питання — *at all*."
+  },
+  {
+   "id": "emphasis-15",
+   "type": "fill",
+   "q": "Who ___ earth told you that?",
+   "answer": [
+    "on"
+   ],
+   "why": "*Who on earth…?*"
+  },
+  {
+   "id": "emphasis-16",
+   "type": "fill",
+   "q": "I built this table ___.",
+   "answer": [
+    "myself",
+    "by myself"
+   ],
+   "why": "«Сам, власноруч» — *myself*."
+  },
+  {
+   "id": "emphasis-17",
+   "type": "order",
+   "words": [
+    "I",
+    "do",
+    "like",
+    "your",
+    "new",
+    "jacket"
+   ],
+   "answer": [
+    "I do like your new jacket"
+   ],
+   "why": "Емфатичне *do* + початкова форма *like*."
+  },
+  {
+   "id": "emphasis-18",
+   "type": "order",
+   "words": [
+    "She",
+    "did",
+    "call",
+    "you",
+    "yesterday"
+   ],
+   "answer": [
+    "She did call you yesterday"
+   ],
+   "why": "Емфатичне *did* + початкова форма *call*."
+  }
+ ]
+}

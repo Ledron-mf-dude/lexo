@@ -235,6 +235,87 @@
    ],
    "why": "*had hoped to* — сподівався, але не вийшло.",
    "hint": "Я сподівався побачити тебе там."
+  },
+  {
+   "id": "past-tenses-advanced-19",
+   "type": "choice",
+   "q": "Breaking news: an earthquake ___ the north of the country.",
+   "options": [
+    "has hit",
+    "hit yesterday has",
+    "hits had",
+    "was hit by"
+   ],
+   "answer": 0,
+   "why": "Новину оголошують Present Perfect: *has hit*. Інші варіанти неграматичні або пасив без змісту."
+  },
+  {
+   "id": "past-tenses-advanced-20",
+   "type": "choice",
+   "q": "The Prime Minister has resigned. She ___ her decision at a press conference this morning.",
+   "options": [
+    "announced",
+    "has announced",
+    "announces",
+    "had announced"
+   ],
+   "answer": 0,
+   "why": "Подробиці з часом (*this morning*) — Past Simple: *announced*. *has announced* — не з конкретним часом у переказі деталей; *announces* — теперішній; *had announced* — передминуле без причини."
+  },
+  {
+   "id": "past-tenses-advanced-21",
+   "type": "choice",
+   "q": "Police ___ two men in connection with the robbery.",
+   "options": [
+    "have arrested",
+    "arrested yesterday have",
+    "had arrested",
+    "are arrest"
+   ],
+   "answer": 0,
+   "why": "Перше речення новини, без часу — Present Perfect: *have arrested*. Інші варіанти неграматичні або передминулий час без відліку."
+  },
+  {
+   "id": "past-tenses-advanced-22",
+   "type": "choice",
+   "q": "The arrests ___ place early on Friday morning.",
+   "options": [
+    "took",
+    "have taken",
+    "take",
+    "had took"
+   ],
+   "answer": 0,
+   "why": "Подробиця з часом — Past Simple: *took place on Friday*. *have taken* — не з *on Friday*; *take* — теперішній; *had took* — неправильна форма."
+  },
+  {
+   "id": "past-tenses-advanced-23",
+   "type": "choice",
+   "q": "Scientists ___ a new species of frog in the Amazon.",
+   "options": [
+    "have discovered",
+    "discovered last week have",
+    "had discover",
+    "are discovered"
+   ],
+   "answer": 0,
+   "why": "Новина без часу — Present Perfect: *have discovered*. Інші варіанти неграматичні."
+  },
+  {
+   "id": "past-tenses-advanced-24",
+   "type": "order",
+   "words": [
+    "The",
+    "President",
+    "has",
+    "arrived",
+    "in",
+    "Kyiv"
+   ],
+   "answer": [
+    "The President has arrived in Kyiv"
+   ],
+   "why": "Новину оголошують Present Perfect."
   }
  ]
 }

@@ -1,0 +1,230 @@
+{
+ "questions": [
+  {
+   "id": "quantifiers-advanced-1",
+   "type": "choice",
+   "q": "She spent ___ money on a new sofa.",
+   "options": [
+    "all the",
+    "the whole",
+    "whole the",
+    "the all"
+   ],
+   "answer": 0,
+   "why": "Нелічильне *money* — *all the money*. *the whole* — з лічильною одниною; *whole the* і *the all* — неправильний порядок."
+  },
+  {
+   "id": "quantifiers-advanced-2",
+   "type": "choice",
+   "q": "I've been waiting for you ___ morning!",
+   "options": [
+    "the whole",
+    "all the whole",
+    "whole",
+    "the all"
+   ],
+   "answer": 0,
+   "why": "«Увесь ранок» — *the whole morning* (також *all morning*). *all the whole* — подвоєння; *whole* без артикля і *the all* — неграматично."
+  },
+  {
+   "id": "quantifiers-advanced-3",
+   "type": "choice",
+   "q": "There's ___ reason to panic.",
+   "options": [
+    "no",
+    "none",
+    "no any",
+    "not"
+   ],
+   "answer": 0,
+   "why": "Перед іменником — *no reason*. *none* — без іменника; *no any* — подвійне; *not reason* — неграматично."
+  },
+  {
+   "id": "quantifiers-advanced-4",
+   "type": "choice",
+   "q": "___ of my friends could come to the party.",
+   "options": [
+    "None",
+    "No",
+    "Neither any",
+    "Nothing"
+   ],
+   "answer": 0,
+   "why": "*None of* + *my friends*. *No of* — неграматично; *Neither any* — неграматично; *Nothing of* — не про людей."
+  },
+  {
+   "id": "quantifiers-advanced-5",
+   "type": "choice",
+   "q": "I asked my two brothers, but ___ of them could help.",
+   "options": [
+    "neither",
+    "none",
+    "both",
+    "either"
+   ],
+   "answer": 0,
+   "why": "Двоє і жоден — *neither of them*. *none* — для трьох і більше; *both … could help* суперечить *but*; *either* — у запереченнях з *not*."
+  },
+  {
+   "id": "quantifiers-advanced-6",
+   "type": "choice",
+   "q": "The project took a great ___ of time.",
+   "options": [
+    "deal",
+    "many",
+    "number",
+    "lot of"
+   ],
+   "answer": 0,
+   "why": "Нелічильне *time* — *a great deal of*. *a great many of* — для множини і без *of*; *a great number of time* — для множини; *a great lot of* — неграматично."
+  },
+  {
+   "id": "quantifiers-advanced-7",
+   "type": "choice",
+   "q": "A great ___ people have complained about the noise.",
+   "options": [
+    "many",
+    "deal of",
+    "much",
+    "amount of"
+   ],
+   "answer": 0,
+   "why": "Множина *people* — *a great many people*. *a great deal of* і *a great amount of* — для нелічильних; *a great much* — неграматично."
+  },
+  {
+   "id": "quantifiers-advanced-8",
+   "type": "choice",
+   "q": "Neither the manager nor the employees ___ happy with the decision.",
+   "options": [
+    "were",
+    "was",
+    "is",
+    "has been"
+   ],
+   "answer": 0,
+   "why": "*neither … nor* — дієслово за найближчим підметом *the employees* (множина): *were*. *was*, *is*, *has been* — однина."
+  },
+  {
+   "id": "quantifiers-advanced-9",
+   "type": "choice",
+   "q": "I go swimming every ___ day — Mondays, Wednesdays and Fridays.",
+   "options": [
+    "other",
+    "second of",
+    "another",
+    "each"
+   ],
+   "answer": 0,
+   "why": "Через день — *every other day*. *every second of day* — неграматично; *every another* і *every each* — неграматично."
+  },
+  {
+   "id": "quantifiers-advanced-10",
+   "type": "choice",
+   "q": "The majority of residents ___ against the new road.",
+   "options": [
+    "are",
+    "is",
+    "has",
+    "was being"
+   ],
+   "answer": 0,
+   "why": "*The majority of* + множина — дієслово в множині: *are*. *is*, *has*, *was being* — однина."
+  },
+  {
+   "id": "quantifiers-advanced-11",
+   "type": "choice",
+   "q": "The game was all ___ over when we arrived.",
+   "options": [
+    "but",
+    "except",
+    "only",
+    "nearly"
+   ],
+   "answer": 0,
+   "why": "*all but* = майже. *all except*, *all only*, *all nearly* у цьому значенні не вживають."
+  },
+  {
+   "id": "quantifiers-advanced-12",
+   "type": "choice",
+   "q": "___ students passed — about a third failed.",
+   "options": [
+    "Not all",
+    "All didn't",
+    "No",
+    "None"
+   ],
+   "answer": 0,
+   "why": "«Не всі» — *Not all students*. *All didn't pass* — двозначно; *No students* і *None students* — «жоден», суперечить змісту."
+  },
+  {
+   "id": "quantifiers-advanced-13",
+   "type": "fill",
+   "q": "It only takes half ___ hour by train.",
+   "answer": [
+    "an"
+   ],
+   "why": "*half an hour* — без *of*."
+  },
+  {
+   "id": "quantifiers-advanced-14",
+   "type": "fill",
+   "q": "He's ___ expert, so don't trust his advice.",
+   "answer": [
+    "no"
+   ],
+   "why": "*no* + іменник — різка оцінка: «ніякий він не експерт»."
+  },
+  {
+   "id": "quantifiers-advanced-15",
+   "type": "fill",
+   "q": "There's ___ of time, so don't hurry.",
+   "answer": [
+    "plenty"
+   ],
+   "why": "*plenty of* — досить, з надлишком."
+  },
+  {
+   "id": "quantifiers-advanced-16",
+   "type": "fill",
+   "q": "___ of the two answers is correct. Try again.",
+   "answer": [
+    "Neither"
+   ],
+   "why": "Обидві неправильні — *Neither of the two*."
+  },
+  {
+   "id": "quantifiers-advanced-17",
+   "type": "order",
+   "words": [
+    "I",
+    "spent",
+    "the",
+    "whole",
+    "day",
+    "in",
+    "the",
+    "library"
+   ],
+   "answer": [
+    "I spent the whole day in the library"
+   ],
+   "why": "*the whole* + лічильна однина."
+  },
+  {
+   "id": "quantifiers-advanced-18",
+   "type": "order",
+   "words": [
+    "None",
+    "of",
+    "my",
+    "colleagues",
+    "speak",
+    "Japanese"
+   ],
+   "answer": [
+    "None of my colleagues speak Japanese"
+   ],
+   "why": "*None of* + множина; дієслово можливе в обох числах, тут — *speak*."
+  }
+ ]
+}

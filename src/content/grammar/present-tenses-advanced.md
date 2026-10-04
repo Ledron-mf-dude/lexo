@@ -103,6 +103,17 @@ Continuous робить прохання чи намір обережнішим:
 
 Рекламне *I'm loving it* — свідоме порушення правила, у звичайному мовленні краще *I love it*.
 
+## Хроніки, підписи, ремарки
+
+Present Simple робить минулі події «живими» в стислих жанрах:
+
+- **Хронології й таймлайни**: *1969 — Apollo 11 **lands** on the Moon.* / *1991 — Ukraine **declares** independence.*
+- **Підписи до фото**: *The President **greets** students in Lviv.*
+- **Ремарки в п'єсах і сценаріях**: *Anna **enters** and **sits** by the window.*
+- **Перекази сюжету** книжок і фільмів: *In the novel, a young man **leaves** home and **travels** to Paris.*
+
+У звичайній розповіді про минуле — Past Simple: *Ukraine **declared** independence in 1991.*
+
 ## Як вибрати
 
 1. Жива розповідь, анекдот, переказ сюжету — Present Simple (фон — Continuous).
@@ -126,3 +137,4 @@ Continuous робить прохання чи намір обережнішим:
 - ✗ *First you are taking two eggs, then you are beating them.* (інструкція) → ✓ *First you **take** two eggs, then you **beat** them.* / *First take two eggs, then beat them.*
 - ✗ *I'm wondering do you have a free table.* → ✓ *I'm wondering **if you have** a free table.* / *I'm wondering whether you have a free table.*
 - ✗ *I'm understanding you're unhappy with the service.* → ✓ *I **understand** you're unhappy with the service.*
+- ✗ *In the film, the hero lost his memory and tries to find his family.* → ✓ *In the film, the hero **loses** his memory and tries to find his family.*

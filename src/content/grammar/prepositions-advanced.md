@@ -75,6 +75,16 @@ tags: [preposition at the end, preposition stranding, in which, to whom, worth l
 - *Where are you going (**to**)?* — у розмові *to* часто пропускають; *Where is it **at**?* — діалектне, у нейтральній мові просто *Where is it?*
 - *discuss **about**, enter **into** the room, reach **to** the station* — зайвий прийменник (див. «Дієслово + прийменник (depend on, listen to, wait for)»).
 
+## Прийменник після інфінітива й у пасиві
+
+Прийменник залишається **в кінці**, навіть коли його іменник стоїть далеко попереду:
+
+- Після інфінітива: *She's easy **to talk to**.* / *He needs a friend **to rely on**.* / *There's nothing **to worry about**.*
+- Місце, де щось роблять: *a nice place **to stay in*** (можна й *a nice place to stay*), *a chair **to sit on***.
+- У пасиві: *He hates **being laughed at**.* / *The issue **was dealt with** quickly.*
+
+Без прийменника зміст ламається: ~~*She's easy to talk.*~~ означало б, що легко «говорити її». Див. «Пасив: складні випадки».
+
 ## Як вибрати
 
 1. У питаннях і розмові прийменник природно лишається в кінці: *Who are you talking to?*
@@ -98,3 +108,4 @@ tags: [preposition at the end, preposition stranding, in which, to whom, worth l
 - ✗ *On arrive at the hotel, we had dinner.* → ✓ *On **arriving** at the hotel, we had dinner.*
 - ✗ *It depends on that you mean.* → ✓ *It depends on **what** you mean.*
 - ✗ *She is the person to who I spoke.* → ✓ *She is the person **to whom** I spoke.* / *She is the person who I spoke to.* / *She is the person I spoke to.*
+- ✗ *Don't worry, there's nothing to be afraid.* → ✓ *Don't worry, there's nothing to be afraid **of**.*

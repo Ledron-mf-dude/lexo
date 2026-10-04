@@ -1,0 +1,241 @@
+{
+ "questions": [
+  {
+   "id": "linking-advanced-1",
+   "type": "choice",
+   "q": "___ he had no experience, he did surprisingly well.",
+   "options": [
+    "Given that",
+    "Given",
+    "Despite",
+    "In spite"
+   ],
+   "answer": 0,
+   "why": "Причина + речення — *Given that*. *Given* без *that* — перед іменником; *Despite* і *In spite (of)* — перед іменником і означають протиставлення."
+  },
+  {
+   "id": "linking-advanced-2",
+   "type": "choice",
+   "q": "You can borrow my bike ___ you bring it back by Friday.",
+   "options": [
+    "provided",
+    "unless",
+    "in case of",
+    "so as"
+   ],
+   "answer": 0,
+   "why": "«За умови, що» — *provided*. *unless* — «якщо не», суперечить змісту; *in case of* — перед іменником; *so as* — мета з інфінітивом."
+  },
+  {
+   "id": "linking-advanced-3",
+   "type": "choice",
+   "q": "It was a useful, ___ expensive, course.",
+   "options": [
+    "albeit",
+    "although it",
+    "despite",
+    "however"
+   ],
+   "answer": 0,
+   "why": "«Хоча й» перед прикметником — *albeit expensive*. *although it expensive* — бракує дієслова; *despite* — перед іменником; *however expensive* — «хоч яким дорогим»."
+  },
+  {
+   "id": "linking-advanced-4",
+   "type": "choice",
+   "q": "___ I admire his talent, I can't stand his behaviour.",
+   "options": [
+    "Much as",
+    "Much",
+    "As much",
+    "So much as"
+   ],
+   "answer": 0,
+   "why": "«Хоч як (сильно)» + речення — *Much as*. *Much I admire* — неграматично; *As much as* — можна, але *As much* без другого *as* — ні; *So much as* — інший зміст."
+  },
+  {
+   "id": "linking-advanced-5",
+   "type": "choice",
+   "q": "I set two alarms so as ___ oversleep.",
+   "options": [
+    "not to",
+    "to not",
+    "not",
+    "don't"
+   ],
+   "answer": 0,
+   "why": "Мета із запереченням — *so as not to*. *so as to not* — розмовне, у старанному стилі не вживають; *so as not oversleep* — бракує *to*; *so as don't* — неграматично."
+  },
+  {
+   "id": "linking-advanced-6",
+   "type": "choice",
+   "q": "He didn't say a word for fear ___ her.",
+   "options": [
+    "of upsetting",
+    "to upset",
+    "upsetting",
+    "of upset"
+   ],
+   "answer": 0,
+   "why": "*for fear of* + *-ing*. *to upset* — неправильна конструкція; *upsetting* без *of*; *of upset* — після прийменника потрібне *-ing*."
+  },
+  {
+   "id": "linking-advanced-7",
+   "type": "choice",
+   "q": "___ his wealth, he lives in a tiny flat.",
+   "options": [
+    "For all",
+    "Albeit",
+    "Much as",
+    "Although"
+   ],
+   "answer": 0,
+   "why": "«Попри весь» + іменник — *For all his wealth*. *Albeit his wealth* — неграматично; *Much as* і *Although* — потребують речення."
+  },
+  {
+   "id": "linking-advanced-8",
+   "type": "choice",
+   "q": "The roads were blocked by snow, ___ the delay.",
+   "options": [
+    "hence",
+    "therefore",
+    "thus it",
+    "so that"
+   ],
+   "answer": 0,
+   "why": "«Звідси» + іменник — *hence the delay*. *therefore the delay* — бракує дієслова; *thus it the delay* — неграматично; *so that* — мета."
+  },
+  {
+   "id": "linking-advanced-9",
+   "type": "choice",
+   "q": "___ fire, do not use the lifts.",
+   "options": [
+    "In the event of",
+    "In the event that",
+    "Provided",
+    "In case"
+   ],
+   "answer": 0,
+   "why": "«У разі» + іменник — *In the event of fire*. *In the event that* — перед реченням; *Provided* — умова-дозвіл; *In case fire* — бракує *of*."
+  },
+  {
+   "id": "linking-advanced-10",
+   "type": "choice",
+   "q": "The plan is risky ___ it depends on a single supplier.",
+   "options": [
+    "in that",
+    "in which",
+    "so that",
+    "that"
+   ],
+   "answer": 0,
+   "why": "«Тим, що» — *in that*. *in which* — означальне; *so that* — мета; *that* без *in* — неграматично тут."
+  },
+  {
+   "id": "linking-advanced-11",
+   "type": "choice",
+   "q": "___ you're here, could you help me move this table?",
+   "options": [
+    "Seeing as",
+    "Seeing",
+    "As far as",
+    "Insofar"
+   ],
+   "answer": 0,
+   "why": "Розмовне «оскільки» — *Seeing as*. *Seeing you're here* — неповне; *As far as* — «наскільки»; *Insofar* без *as* — неграматично."
+  },
+  {
+   "id": "linking-advanced-12",
+   "type": "choice",
+   "q": "___ we have a bigger flat, we can invite more friends.",
+   "options": [
+    "Now that",
+    "Now when",
+    "Since when",
+    "Now then"
+   ],
+   "answer": 0,
+   "why": "«Тепер, коли» — *Now that*. *Now when* — калька; *Since when* — «відколи»; *Now then* — вигук."
+  },
+  {
+   "id": "linking-advanced-13",
+   "type": "fill",
+   "q": "___ money is concerned, we have nothing to worry about.",
+   "answer": [
+    "As far as",
+    "Insofar as"
+   ],
+   "why": "*As far as … is concerned* — що стосується."
+  },
+  {
+   "id": "linking-advanced-14",
+   "type": "fill",
+   "q": "She agreed to help, ___ reluctantly.",
+   "answer": [
+    "albeit",
+    "although"
+   ],
+   "why": "«Хоча й» перед прислівником — *albeit reluctantly*."
+  },
+  {
+   "id": "linking-advanced-15",
+   "type": "fill",
+   "q": "I'll help you ___ long as you help me.",
+   "answer": [
+    "as",
+    "so"
+   ],
+   "why": "*as long as* — за умови, що (рідше *so long as*)."
+  },
+  {
+   "id": "linking-advanced-16",
+   "type": "fill",
+   "q": "He spoke slowly in order ___ everyone could understand.",
+   "answer": [
+    "that"
+   ],
+   "why": "*in order that* + речення з *could*."
+  },
+  {
+   "id": "linking-advanced-17",
+   "type": "order",
+   "words": [
+    "Assuming",
+    "the",
+    "train",
+    "is",
+    "on",
+    "time",
+    "we",
+    "will",
+    "arrive",
+    "at",
+    "six"
+   ],
+   "answer": [
+    "Assuming the train is on time we will arrive at six",
+    "Assuming the train is on time, we will arrive at six"
+   ],
+   "why": "*Assuming* + речення — «припустімо, що»."
+  },
+  {
+   "id": "linking-advanced-18",
+   "type": "order",
+   "words": [
+    "I",
+    "left",
+    "early",
+    "so",
+    "as",
+    "not",
+    "to",
+    "miss",
+    "the",
+    "train"
+   ],
+   "answer": [
+    "I left early so as not to miss the train"
+   ],
+   "why": "Мета із запереченням — *so as not to*."
+  }
+ ]
+}

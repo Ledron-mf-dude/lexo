@@ -79,6 +79,17 @@ tags: [can, could, be able to, may, might, may well, might as well, could have, 
 
 **could** — м'яка порада чи ідея: *You **could** try calling him at home.* / *We **could** always take a taxi.*
 
+## Can і could у здивованих питаннях
+
+У питаннях *can* і *could* виражають здивування, сумнів, нетерпіння:
+
+- ***Can** it really **be** true?* — невже це правда?
+- *Who **can** that **be** at this time of night?* — хто б це міг бути?
+- *Where **could / can** she **have gone**?* — куди вона могла подітися? (про минуле — *could / can have* + V3; у питаннях і запереченнях можливі обидва)
+- *How **could** you **forget** my birthday?* — як ти міг?
+
+У ствердженні про конкретну ситуацію замість *can* — *may / might / could*: *She **might** be at home.* (не ~~*She can be at home*~~ у значенні «можливо, вона вдома»).
+
 ## Як вибрати
 
 1. «Буває, іноді трапляється» — *can*: *It can get cold.*
@@ -102,3 +113,4 @@ tags: [can, could, be able to, may, might, may well, might as well, could have, 
 - ✗ *I can't help to laugh at his jokes.* → ✓ *I can't help **laughing** at his jokes.*
 - ✗ *You could told me earlier!* → ✓ *You could **have told** me earlier!*
 - ✗ *It can gets very cold here in winter.* → ✓ *It can **get** very cold here in winter.*
+- ✗ *Don't call her office now. She can be at home already.* → ✓ *Don't call her office now. She **may** be at home already.* / *Don't call her office now. She **might** be at home already.* / *Don't call her office now. She **could** be at home already.*

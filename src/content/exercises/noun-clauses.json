@@ -1,0 +1,239 @@
+{
+ "questions": [
+  {
+   "id": "noun-clauses-1",
+   "type": "choice",
+   "q": "___ you told me yesterday was very helpful.",
+   "options": [
+    "What",
+    "That",
+    "Which",
+    "It"
+   ],
+   "answer": 0,
+   "why": "«Те, що» — *What*. *That* не означає «те, що» на початку; *Which* потребує іменника, до якого відноситься; *It you told me* — неграматично."
+  },
+  {
+   "id": "noun-clauses-2",
+   "type": "choice",
+   "q": "It's obvious ___ she doesn't like her job.",
+   "options": [
+    "that",
+    "what",
+    "which",
+    "whether"
+   ],
+   "answer": 0,
+   "why": "*It is obvious that* — факт. *what* — «те, що» (бракує додатка в реченні); *which* — для означальних; *whether* — «чи»."
+  },
+  {
+   "id": "noun-clauses-3",
+   "type": "choice",
+   "q": "Despite ___ he had little experience, he got the job.",
+   "options": [
+    "the fact that",
+    "that",
+    "of that",
+    "what"
+   ],
+   "answer": 0,
+   "why": "Після прийменника — *the fact that*. *despite that* + речення — помилка; *of that* і *what* — неграматично тут."
+  },
+  {
+   "id": "noun-clauses-4",
+   "type": "choice",
+   "q": "I can't remember where ___.",
+   "options": [
+    "I put my keys",
+    "did I put my keys",
+    "I did put my keys",
+    "put I my keys"
+   ],
+   "answer": 0,
+   "why": "У підрядному з питальним словом — прямий порядок: *where I put my keys*. *did I put* — питальний порядок; *I did put* — емфатичне, неприродне тут; *put I* — неграматично."
+  },
+  {
+   "id": "noun-clauses-5",
+   "type": "choice",
+   "q": "___ we go by train or by car doesn't matter.",
+   "options": [
+    "Whether",
+    "If",
+    "That",
+    "What"
+   ],
+   "answer": 0,
+   "why": "На початку речення як підмет — тільки *Whether*. *If* тут не вживають; *That* і *What* — не означають «чи»."
+  },
+  {
+   "id": "noun-clauses-6",
+   "type": "choice",
+   "q": "It depends ___ much it costs.",
+   "options": [
+    "on how",
+    "on that how",
+    "how",
+    "on what how"
+   ],
+   "answer": 0,
+   "why": "Після *depend* — *on*, далі *how much*: *depends on how much*. *on that how* і *on what how* — зайві слова; без *on* у письмі — неповне."
+  },
+  {
+   "id": "noun-clauses-7",
+   "type": "choice",
+   "q": "I like the idea ___ we could work from home on Fridays.",
+   "options": [
+    "that",
+    "what",
+    "which",
+    "of what"
+   ],
+   "answer": 0,
+   "why": "*that* розкриває зміст іменника *idea*. *what* — «те, що»; *which* — означальне (бракувало б додатка); *of what* — неграматично."
+  },
+  {
+   "id": "noun-clauses-8",
+   "type": "choice",
+   "q": "___ surprised me that nobody complained.",
+   "options": [
+    "It",
+    "What",
+    "That",
+    "This"
+   ],
+   "answer": 0,
+   "why": "Підмет перенесено в кінець, на його місці *It*: *It surprised me that…* *What surprised me that…* — неграматично; *That* і *This* — неправильна конструкція."
+  },
+  {
+   "id": "noun-clauses-9",
+   "type": "choice",
+   "q": "The problem is ___ we don't have enough staff.",
+   "options": [
+    "that",
+    "what",
+    "which",
+    "because of"
+   ],
+   "answer": 0,
+   "why": "Частина присудка — *The problem is that…* *what* — «те, що» (неповне); *which* — означальне; *because of* — перед іменником."
+  },
+  {
+   "id": "noun-clauses-10",
+   "type": "choice",
+   "q": "___ wants to come is welcome.",
+   "options": [
+    "Whoever",
+    "Who that",
+    "Anyone what",
+    "That who"
+   ],
+   "answer": 0,
+   "why": "«Будь-хто, хто» — *Whoever*. Інші варіанти неграматичні."
+  },
+  {
+   "id": "noun-clauses-11",
+   "type": "choice",
+   "q": "The report is useful ___ it gives clear figures.",
+   "options": [
+    "in that",
+    "in which",
+    "in what",
+    "on that"
+   ],
+   "answer": 0,
+   "why": "Сталий сполучник *in that* — «тим, що». *in which* — означальне; *in what* і *on that* — неграматично."
+  },
+  {
+   "id": "noun-clauses-12",
+   "type": "choice",
+   "q": "I'm worried about ___ we will pay the rent.",
+   "options": [
+    "how",
+    "that",
+    "that how",
+    "what how"
+   ],
+   "answer": 0,
+   "why": "Після прийменника *about* — питальне слово: *about how*. *about that* + речення — помилка; *that how* і *what how* — неграматично."
+  },
+  {
+   "id": "noun-clauses-13",
+   "type": "fill",
+   "q": "___ I really need is a long holiday.",
+   "answer": [
+    "What",
+    "All"
+   ],
+   "why": "«Те, що (мені треба)» — *What I really need* (також *All I need*)."
+  },
+  {
+   "id": "noun-clauses-14",
+   "type": "fill",
+   "q": "It is essential ___ everyone arrives on time.",
+   "answer": [
+    "that"
+   ],
+   "why": "*It is essential that…* — *that*-речення."
+  },
+  {
+   "id": "noun-clauses-15",
+   "type": "fill",
+   "q": "I'm not sure ___ he will accept the offer.",
+   "answer": [
+    "whether",
+    "if"
+   ],
+   "why": "«Чи» — *whether* або *if*."
+  },
+  {
+   "id": "noun-clauses-16",
+   "type": "fill",
+   "q": "I don't understand ___ she is so angry.",
+   "answer": [
+    "why"
+   ],
+   "why": "Питальне слово «чому» — *why*, прямий порядок *she is*."
+  },
+  {
+   "id": "noun-clauses-17",
+   "type": "fill",
+   "q": "She was annoyed by the fact ___ nobody had told her.",
+   "answer": [
+    "that"
+   ],
+   "why": "*the fact that* — розкриває зміст іменника."
+  },
+  {
+   "id": "noun-clauses-18",
+   "type": "order",
+   "words": [
+    "What",
+    "she",
+    "said",
+    "was",
+    "not",
+    "true"
+   ],
+   "answer": [
+    "What she said was not true"
+   ],
+   "why": "*What she said* — підмет «те, що вона сказала»."
+  },
+  {
+   "id": "noun-clauses-19",
+   "type": "order",
+   "words": [
+    "I",
+    "don't",
+    "know",
+    "where",
+    "he",
+    "lives"
+   ],
+   "answer": [
+    "I don't know where he lives"
+   ],
+   "why": "Прямий порядок у підрядному: *where he lives*."
+  }
+ ]
+}

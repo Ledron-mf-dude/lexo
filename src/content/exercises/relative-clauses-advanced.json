@@ -1,0 +1,246 @@
+{
+ "questions": [
+  {
+   "id": "relative-clauses-advanced-1",
+   "type": "choice",
+   "q": "The colleague to ___ I sent the report has left the company.",
+   "options": [
+    "whom",
+    "who",
+    "that",
+    "which"
+   ],
+   "answer": 0,
+   "why": "Після прийменника про людину — *to whom*. *to who* і *to that* — неграматично; *which* — про речі."
+  },
+  {
+   "id": "relative-clauses-advanced-2",
+   "type": "choice",
+   "q": "This is the flat in ___ I lived as a student.",
+   "options": [
+    "which",
+    "that",
+    "where",
+    "what"
+   ],
+   "answer": 0,
+   "why": "Після прийменника про місце-річ — *in which*. *in that* — неграматично; *in where* — подвійне; *in what* — «у тому, що»."
+  },
+  {
+   "id": "relative-clauses-advanced-3",
+   "type": "choice",
+   "q": "I have four cousins, two of ___ live in Canada.",
+   "options": [
+    "whom",
+    "them",
+    "who",
+    "which"
+   ],
+   "answer": 0,
+   "why": "Частина групи людей після коми — *two of whom*. *two of them* після коми без сполучника — два речення; *of who* — неграматично; *which* — про речі."
+  },
+  {
+   "id": "relative-clauses-advanced-4",
+   "type": "choice",
+   "q": "He passed his driving test at the first attempt, ___ surprised everyone.",
+   "options": [
+    "which",
+    "what",
+    "that",
+    "who"
+   ],
+   "answer": 0,
+   "why": "Коментар до цілої думки — *, which*. *what* так не вживають; *that* не стоїть після коми; *who* — про людей."
+  },
+  {
+   "id": "relative-clauses-advanced-5",
+   "type": "choice",
+   "q": "She has written six books, most of ___ have been translated.",
+   "options": [
+    "which",
+    "them",
+    "whom",
+    "that"
+   ],
+   "answer": 0,
+   "why": "Частина групи речей — *most of which*. *most of them* — два речення без сполучника; *whom* — про людей; *of that* — неграматично."
+  },
+  {
+   "id": "relative-clauses-advanced-6",
+   "type": "choice",
+   "q": "He was the last person ___ the building.",
+   "options": [
+    "to leave",
+    "leaving",
+    "left",
+    "who leave"
+   ],
+   "answer": 0,
+   "why": "Після *the last* — *to*-інфінітив: *the last person to leave*. *leaving* — неприродно після *the last person*; *left* — пасивне значення; *who leave* — неузгоджений час."
+  },
+  {
+   "id": "relative-clauses-advanced-7",
+   "type": "choice",
+   "q": "The students ___ in the library are preparing for exams.",
+   "options": [
+    "working",
+    "worked",
+    "work",
+    "are working"
+   ],
+   "answer": 0,
+   "why": "Скорочене означальне з активним значенням — *working* (= *who are working*). *worked* — пасивне; *work* і *are working* — друге особове дієслово без *who*."
+  },
+  {
+   "id": "relative-clauses-advanced-8",
+   "type": "choice",
+   "q": "The bridge ___ in 1890 is still in use.",
+   "options": [
+    "built",
+    "building",
+    "was built",
+    "which built"
+   ],
+   "answer": 0,
+   "why": "Скорочене означальне з пасивним значенням — *built* (= *which was built*). *building* — «що будує»; *was built* без *which* — два присудки; *which built* — активне, міст сам не будував."
+  },
+  {
+   "id": "relative-clauses-advanced-9",
+   "type": "choice",
+   "q": "They introduced a scheme ___ employees can buy shares cheaply.",
+   "options": [
+    "whereby",
+    "whereas",
+    "which",
+    "what"
+   ],
+   "answer": 0,
+   "why": "«За якою» (формально) — *whereby*. *whereas* — протиставлення; *which* вимагав би прийменника (*under which*); *what* — «те, що»."
+  },
+  {
+   "id": "relative-clauses-advanced-10",
+   "type": "choice",
+   "q": "That's the reason ___ I didn't call you.",
+   "options": [
+    "why",
+    "because",
+    "for",
+    "what"
+   ],
+   "answer": 0,
+   "why": "*the reason why* — причина, через яку. *the reason because* — помилка; *the reason for* потребує іменника; *what* — неграматично."
+  },
+  {
+   "id": "relative-clauses-advanced-11",
+   "type": "choice",
+   "q": "The guests, none of ___ I had met before, were very friendly.",
+   "options": [
+    "whom",
+    "who",
+    "them",
+    "which"
+   ],
+   "answer": 0,
+   "why": "Після *none of* про людей — *whom*. *of who* — неграматично; *of them* — без сполучника; *which* — про речі."
+  },
+  {
+   "id": "relative-clauses-advanced-12",
+   "type": "choice",
+   "q": "It's a company ___ products are sold all over the world.",
+   "options": [
+    "whose",
+    "which",
+    "who's",
+    "that's"
+   ],
+   "answer": 0,
+   "why": "Присвійність, навіть про компанію — *whose products*. *which products* — неграматично в означальному; *who's* = *who is*; *that's* = *that is*."
+  },
+  {
+   "id": "relative-clauses-advanced-13",
+   "type": "fill",
+   "q": "The person to ___ this letter is addressed no longer lives here.",
+   "answer": [
+    "whom"
+   ],
+   "why": "Після прийменника про людину — *whom*."
+  },
+  {
+   "id": "relative-clauses-advanced-14",
+   "type": "fill",
+   "q": "She was the only one ___ (notice) the mistake.",
+   "answer": [
+    "to notice"
+   ],
+   "why": "Після *the only one* — *to*-інфінітив."
+  },
+  {
+   "id": "relative-clauses-advanced-15",
+   "type": "fill",
+   "q": "The paintings ___ (steal) from the museum have been found.",
+   "answer": [
+    "stolen",
+    "which were stolen",
+    "that were stolen"
+   ],
+   "why": "Пасивне значення — скорочене *stolen* (= *which were stolen*)."
+  },
+  {
+   "id": "relative-clauses-advanced-16",
+   "type": "fill",
+   "q": "I failed the exam, ___ meant I had to retake it in August.",
+   "answer": [
+    "which"
+   ],
+   "why": "Коментар до цілої думки — *, which*."
+  },
+  {
+   "id": "relative-clauses-advanced-17",
+   "type": "fill",
+   "q": "The hotel at ___ we stayed was excellent.",
+   "answer": [
+    "which"
+   ],
+   "why": "Після прийменника про річ — *at which*."
+  },
+  {
+   "id": "relative-clauses-advanced-18",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "two",
+    "brothers",
+    "both",
+    "of",
+    "whom",
+    "are",
+    "doctors"
+   ],
+   "answer": [
+    "I have two brothers both of whom are doctors",
+    "I have two brothers, both of whom are doctors"
+   ],
+   "why": "Частина групи після коми — *both of whom*."
+  },
+  {
+   "id": "relative-clauses-advanced-19",
+   "type": "order",
+   "words": [
+    "The",
+    "woman",
+    "to",
+    "whom",
+    "I",
+    "spoke",
+    "was",
+    "very",
+    "kind"
+   ],
+   "answer": [
+    "The woman to whom I spoke was very kind"
+   ],
+   "why": "Формальний стиль — прийменник перед *whom*."
+  }
+ ]
+}

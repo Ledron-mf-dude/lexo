@@ -1,0 +1,239 @@
+{
+ "questions": [
+  {
+   "id": "passive-advanced-1",
+   "type": "choice",
+   "q": "The elderly patients are well ___ by the staff.",
+   "options": [
+    "looked after",
+    "looked",
+    "after looked",
+    "look after"
+   ],
+   "answer": 0,
+   "why": "Дієслово з прийменником — прийменник залишається: *are looked after*. *looked* без *after* — інший зміст; *after looked* — неправильний порядок; *look after* — не V3."
+  },
+  {
+   "id": "passive-advanced-2",
+   "type": "choice",
+   "q": "She ___ a scholarship to study in Oxford.",
+   "options": [
+    "was offered",
+    "offered",
+    "was offering",
+    "has offer"
+   ],
+   "answer": 0,
+   "why": "Два додатки, підмет — людина: *was offered a scholarship*. *offered* — актив («вона запропонувала»); *was offering* — Continuous актив; *has offer* — неграматично."
+  },
+  {
+   "id": "passive-advanced-3",
+   "type": "choice",
+   "q": "The new rules ___ to us at the meeting.",
+   "options": [
+    "were explained",
+    "explained",
+    "were explaining",
+    "explained us"
+   ],
+   "answer": 0,
+   "why": "*explain* у пасиві — предмет підметом, людина з *to*: *were explained to us*. *I was explained* так не кажуть; *explained* — актив; *were explaining* — Continuous; *explained us* — неграматично."
+  },
+  {
+   "id": "passive-advanced-4",
+   "type": "choice",
+   "q": "I hate ___ what to do.",
+   "options": [
+    "being told",
+    "to tell",
+    "telling",
+    "be told"
+   ],
+   "answer": 0,
+   "why": "Після *hate* про пасивну дію — *being told*: «коли мені кажуть». *to tell* і *telling* — актив; *be told* — без *being* неграматично після *hate*."
+  },
+  {
+   "id": "passive-advanced-5",
+   "type": "choice",
+   "q": "He was made ___ the form again.",
+   "options": [
+    "to fill in",
+    "fill in",
+    "filling in",
+    "filled in"
+   ],
+   "answer": 0,
+   "why": "*make* у пасиві — з *to*: *was made to fill in*. Без *to* — лише в активі; *filling* і *filled* — неграматично."
+  },
+  {
+   "id": "passive-advanced-6",
+   "type": "choice",
+   "q": "My wallet ___ on the train yesterday.",
+   "options": [
+    "got stolen",
+    "got steal",
+    "has stolen",
+    "stole"
+   ],
+   "answer": 0,
+   "why": "Розмовний пасив про неприємне — *got stolen*. *got steal* — потрібна V3; *has stolen* і *stole* — актив: гаманець сам украв."
+  },
+  {
+   "id": "passive-advanced-7",
+   "type": "choice",
+   "q": "The kitchen really needs ___.",
+   "options": [
+    "cleaning",
+    "clean",
+    "cleaned",
+    "to clean"
+   ],
+   "answer": 0,
+   "why": "*need* + *-ing* із пасивним значенням (BrE): *needs cleaning* = *needs to be cleaned*. *clean* — неграматично; *cleaned* — бракує *to be*; *to clean* — актив, кухня сама не прибирає."
+  },
+  {
+   "id": "passive-advanced-8",
+   "type": "choice",
+   "q": "I expect ___ about the results next week.",
+   "options": [
+    "to be informed",
+    "being informed",
+    "to inform",
+    "informed"
+   ],
+   "answer": 0,
+   "why": "Після *expect* — *to*-інфінітив, пасив: *to be informed*. *being informed* — після *expect* не вживають; *to inform* — актив; *informed* — бракує *to be*."
+  },
+  {
+   "id": "passive-advanced-9",
+   "type": "choice",
+   "q": "The children ___ go to the party alone.",
+   "options": [
+    "weren't allowed to",
+    "weren't let",
+    "weren't let to",
+    "didn't let"
+   ],
+   "answer": 0,
+   "why": "*let* у пасиві не вживають — *weren't allowed to*. *weren't let* і *weren't let to* — помилка; *didn't let* — актив без додатка."
+  },
+  {
+   "id": "passive-advanced-10",
+   "type": "choice",
+   "q": "This problem must ___ immediately.",
+   "options": [
+    "be dealt with",
+    "be dealt",
+    "deal with",
+    "dealt with"
+   ],
+   "answer": 0,
+   "why": "Пасив дієслова з прийменником після модального — *be dealt with*. *be dealt* — бракує *with*; *deal with* — актив; *dealt with* — бракує *be*."
+  },
+  {
+   "id": "passive-advanced-11",
+   "type": "choice",
+   "q": "The suspect was seen ___ the building at midnight.",
+   "options": [
+    "to enter",
+    "enter",
+    "entered",
+    "to entering"
+   ],
+   "answer": 0,
+   "why": "*see* у пасиві — з *to*: *was seen to enter*. *enter* без *to* — лише в активі; *entered* і *to entering* — неграматично."
+  },
+  {
+   "id": "passive-advanced-12",
+   "type": "choice",
+   "q": "The accident ___ on the motorway early this morning.",
+   "options": [
+    "happened",
+    "was happened",
+    "has been happened",
+    "was happening by"
+   ],
+   "answer": 0,
+   "why": "*happen* не має додатка й не утворює пасиву — *happened*. *was happened* і *has been happened* — помилки; *was happening by* — неграматично."
+  },
+  {
+   "id": "passive-advanced-13",
+   "type": "fill",
+   "q": "The meeting is going to ___ until next week.",
+   "answer": [
+    "be put off",
+    "be postponed"
+   ],
+   "why": "Пасив фразового дієслова — *be put off* (або *be postponed*).",
+   "hint": "(put off)"
+  },
+  {
+   "id": "passive-advanced-14",
+   "type": "fill",
+   "q": "I don't like ___ (interrupt) when I'm working.",
+   "answer": [
+    "being interrupted"
+   ],
+   "why": "Після *like* у пасивному значенні — *being interrupted*."
+  },
+  {
+   "id": "passive-advanced-15",
+   "type": "fill",
+   "q": "They ___ (get) married last summer.",
+   "answer": [
+    "got"
+   ],
+   "why": "*get married* — розмовна пасивна форма зміни стану."
+  },
+  {
+   "id": "passive-advanced-16",
+   "type": "fill",
+   "q": "Her speech was listened ___ in complete silence.",
+   "answer": [
+    "to"
+   ],
+   "why": "Прийменник залишається в пасиві — *was listened to*."
+  },
+  {
+   "id": "passive-advanced-17",
+   "type": "fill",
+   "q": "He is said to ___ (see) in Paris last week.",
+   "answer": [
+    "have been seen"
+   ],
+   "why": "Минула пасивна дія після *is said* — *to have been seen*."
+  },
+  {
+   "id": "passive-advanced-18",
+   "type": "order",
+   "words": [
+    "She",
+    "was",
+    "given",
+    "a",
+    "prize",
+    "for",
+    "her",
+    "work"
+   ],
+   "answer": [
+    "She was given a prize for her work"
+   ],
+   "why": "Два додатки — підметом людина: *She was given*."
+  },
+  {
+   "id": "passive-advanced-19",
+   "type": "order",
+   "words": [
+    "The",
+    "car",
+    "needs",
+    "washing"
+   ],
+   "answer": [
+    "The car needs washing"
+   ],
+   "why": "*need* + *-ing* у пасивному значенні."
+  }
+ ]
+}

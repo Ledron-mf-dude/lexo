@@ -238,6 +238,88 @@
    ],
    "why": "*I would think…* — обережна, м'яка думка, менш категорична за *I think*.",
    "hint": "Гадаю, вони погодяться."
+  },
+  {
+   "id": "modals-will-would-should-19",
+   "type": "choice",
+   "q": "If you ___ follow me, I'll show you to your room.",
+   "options": [
+    "would",
+    "will be",
+    "are going",
+    "would to"
+   ],
+   "answer": 0,
+   "why": "Ввічливе прохання — *If you would follow me*. *will be follow* і *are going follow* — неграматично; *would to* — зайве *to*."
+  },
+  {
+   "id": "modals-will-would-should-20",
+   "type": "choice",
+   "q": "If it ___ tomorrow, we'll cancel the picnic.",
+   "options": [
+    "rains",
+    "will rain",
+    "would rain",
+    "is going rain"
+   ],
+   "answer": 0,
+   "why": "Звичайна умова про майбутнє — Present Simple після *if*: *rains*. *will rain* — лише в значенні волі; *would rain* — нереальна умова; *is going rain* — бракує *to*."
+  },
+  {
+   "id": "modals-will-would-should-21",
+   "type": "choice",
+   "q": "If you ___ stay up so late, of course you're tired in the morning.",
+   "options": [
+    "will",
+    "would to",
+    "are going to will",
+    "shall"
+   ],
+   "answer": 0,
+   "why": "Докір за вперту поведінку — *If you will stay up so late…* *would to* — зайве *to*; *are going to will* — неграматично; *shall* так не вживають."
+  },
+  {
+   "id": "modals-will-would-should-22",
+   "type": "choice",
+   "q": "I'd be grateful if you ___ send me the documents by Friday.",
+   "options": [
+    "could",
+    "can to",
+    "will to",
+    "are able"
+   ],
+   "answer": 0,
+   "why": "Ввічливе прохання в листі — *if you could / would send*. *can to* і *will to* — зайве *to*; *are able send* — бракує *to*."
+  },
+  {
+   "id": "modals-will-would-should-23",
+   "type": "choice",
+   "q": "If you'll ___ here a moment, I'll get the manager.",
+   "options": [
+    "wait",
+    "to wait",
+    "waiting",
+    "waited"
+   ],
+   "answer": 0,
+   "why": "*If you'll* (ввічливе прохання) + початкова форма: *wait*. *to wait*, *waiting*, *waited* — неграматично після *will*."
+  },
+  {
+   "id": "modals-will-would-should-24",
+   "type": "order",
+   "words": [
+    "If",
+    "you",
+    "would",
+    "sign",
+    "here",
+    "please"
+   ],
+   "answer": [
+    "If you would sign here please",
+    "If you would sign here, please"
+   ],
+   "why": "Ввічливе прохання — *If you would* + початкова форма."
   }
  ]
 }

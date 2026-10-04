@@ -240,6 +240,87 @@
    ],
    "why": "*Having lived abroad* — спершу пожила, тому знає мови.",
    "hint": "Поживши за кордоном, вона говорить трьома мовами."
+  },
+  {
+   "id": "perfect-aspect-19",
+   "type": "choice",
+   "q": "The old bridge ___ — it's open again.",
+   "options": [
+    "has been repaired",
+    "has repaired",
+    "has been repairing",
+    "is repaired by"
+   ],
+   "answer": 0,
+   "why": "Результат зараз, пасив — *has been repaired*. *has repaired* — актив: міст сам ремонтував; *has been repairing* — Continuous актив; *is repaired by* — бракує виконавця і результату."
+  },
+  {
+   "id": "perfect-aspect-20",
+   "type": "choice",
+   "q": "When we arrived, the room ___.",
+   "options": [
+    "had already been cleaned",
+    "had already cleaned",
+    "has already been cleaned",
+    "was already cleaning"
+   ],
+   "answer": 0,
+   "why": "Дія до моменту в минулому, пасив — *had been cleaned*. *had cleaned* — актив; *has been cleaned* — теперішній відлік; *was cleaning* — кімната сама прибирала."
+  },
+  {
+   "id": "perfect-aspect-21",
+   "type": "choice",
+   "q": "By next May, the new school ___.",
+   "options": [
+    "will have been built",
+    "will have built",
+    "will be building",
+    "has been built"
+   ],
+   "answer": 0,
+   "why": "До моменту в майбутньому, пасив — *will have been built*. *will have built* — актив; *will be building* — процес, актив; *has been built* — теперішній відлік."
+  },
+  {
+   "id": "perfect-aspect-22",
+   "type": "choice",
+   "q": "The painting is believed ___ in the 15th century.",
+   "options": [
+    "to have been painted",
+    "to have painted",
+    "to be painting",
+    "having been painted"
+   ],
+   "answer": 0,
+   "why": "Минула пасивна дія після *is believed* — *to have been painted*. *to have painted* — актив; *to be painting* — процес; *having been painted* — після *believed* потрібен інфінітив."
+  },
+  {
+   "id": "perfect-aspect-23",
+   "type": "choice",
+   "q": "___ twice, he finally passed his driving test.",
+   "options": [
+    "Having failed",
+    "Having been failed",
+    "Being failed",
+    "Have failed"
+   ],
+   "answer": 0,
+   "why": "Активна передуюча дія — *Having failed*. *Having been failed* — пасив, неприродний тут; *Being failed* — процес у пасиві; *Have failed* — бракує підмета."
+  },
+  {
+   "id": "perfect-aspect-24",
+   "type": "order",
+   "words": [
+    "All",
+    "the",
+    "tickets",
+    "have",
+    "been",
+    "sold"
+   ],
+   "answer": [
+    "All the tickets have been sold"
+   ],
+   "why": "Результат зараз, пасив — *have been sold*."
   }
  ]
 }

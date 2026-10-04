@@ -1,0 +1,229 @@
+{
+ "questions": [
+  {
+   "id": "phrasal-verbs-particles-1",
+   "type": "choice",
+   "q": "We've run ___ of coffee. Can you buy some?",
+   "options": [
+    "out",
+    "off",
+    "down",
+    "over"
+   ],
+   "answer": 0,
+   "why": "Закінчилося — *run out of*. *run off* — втекти; *run down* — розрядитися, принижувати; *run over* — переїхати."
+  },
+  {
+   "id": "phrasal-verbs-particles-2",
+   "type": "choice",
+   "q": "The meeting has been called ___ because the director is ill.",
+   "options": [
+    "off",
+    "out",
+    "up",
+    "down"
+   ],
+   "answer": 0,
+   "why": "Скасувати — *call off*. *call out* — вигукнути; *call up* — подзвонити, призвати; *call down* — не вживається в цьому значенні."
+  },
+  {
+   "id": "phrasal-verbs-particles-3",
+   "type": "choice",
+   "q": "Could you slow ___? I can't follow you.",
+   "options": [
+    "down",
+    "over",
+    "off",
+    "out"
+   ],
+   "answer": 0,
+   "why": "Зменшення швидкості — *slow down*. *slow over*, *slow off*, *slow out* — неграматично."
+  },
+  {
+   "id": "phrasal-verbs-particles-4",
+   "type": "choice",
+   "q": "Finish your soup — eat it ___!",
+   "options": [
+    "up",
+    "down",
+    "out",
+    "over"
+   ],
+   "answer": 0,
+   "why": "Повністю, до кінця — *eat up*. *eat down* і *eat over* — неграматично; *eat out* — їсти в ресторані."
+  },
+  {
+   "id": "phrasal-verbs-particles-5",
+   "type": "choice",
+   "q": "Let me think it ___ and I'll give you an answer tomorrow.",
+   "options": [
+    "over",
+    "out",
+    "up",
+    "off"
+   ],
+   "answer": 0,
+   "why": "Ретельно обміркувати — *think over*. *think out* — продумати план; *think up* — вигадати; *think off* — неграматично."
+  },
+  {
+   "id": "phrasal-verbs-particles-6",
+   "type": "choice",
+   "q": "Tickets for the concert sold ___ in ten minutes.",
+   "options": [
+    "out",
+    "off",
+    "up",
+    "down"
+   ],
+   "answer": 0,
+   "why": "Закінчилися — *sell out*. *sell off* — розпродати дешево; *sell up* — продати все майно; *sell down* — неграматично."
+  },
+  {
+   "id": "phrasal-verbs-particles-7",
+   "type": "choice",
+   "q": "Please carry ___ with your work while I make a call.",
+   "options": [
+    "on",
+    "out",
+    "off",
+    "up"
+   ],
+   "answer": 0,
+   "why": "Продовжувати — *carry on*. *carry out* — виконати; *carry off* — успішно впоратися; *carry up* — віднести нагору."
+  },
+  {
+   "id": "phrasal-verbs-particles-8",
+   "type": "choice",
+   "q": "The music's too loud. Could you turn it ___?",
+   "options": [
+    "down",
+    "up",
+    "off to",
+    "out"
+   ],
+   "answer": 0,
+   "why": "Зменшити гучність — *turn down*. *turn up* — збільшити; *off to* — неграматично; *turn out* — виявитися."
+  },
+  {
+   "id": "phrasal-verbs-particles-9",
+   "type": "choice",
+   "q": "We set ___ at dawn to avoid the traffic.",
+   "options": [
+    "off",
+    "out of",
+    "up",
+    "down"
+   ],
+   "answer": 0,
+   "why": "Вирушити — *set off*. *set out of* — неграматично; *set up* — заснувати; *set down* — поставити, записати."
+  },
+  {
+   "id": "phrasal-verbs-particles-10",
+   "type": "choice",
+   "q": "The dinosaurs died ___ millions of years ago.",
+   "options": [
+    "out",
+    "up",
+    "down",
+    "away"
+   ],
+   "answer": 0,
+   "why": "Вид зник повністю — *die out* (також *die off*, якого тут немає). *die up* — неграматично; *die down* — стихати; *die away* — затихати (про звук)."
+  },
+  {
+   "id": "phrasal-verbs-particles-11",
+   "type": "choice",
+   "q": "Can you look ___ my essay before I hand it in?",
+   "options": [
+    "over",
+    "after",
+    "out",
+    "up"
+   ],
+   "answer": 0,
+   "why": "Переглянути — *look over*. *look after* — доглядати; *look out* — остерігатися; *look up* — знайти в довіднику."
+  },
+  {
+   "id": "phrasal-verbs-particles-12",
+   "type": "choice",
+   "q": "Write ___ the phone number before you forget it.",
+   "options": [
+    "down",
+    "up",
+    "out of",
+    "off"
+   ],
+   "answer": 0,
+   "why": "Записати — *write down*. *write up* — оформити (звіт); *out of* — неграматично; *write off* — списати."
+  },
+  {
+   "id": "phrasal-verbs-particles-13",
+   "type": "fill",
+   "q": "Don't worry, I'll pay you ___ next week.",
+   "answer": [
+    "back"
+   ],
+   "why": "Повернути гроші — *pay back*."
+  },
+  {
+   "id": "phrasal-verbs-particles-14",
+   "type": "fill",
+   "q": "He's trying to cut ___ on sugar.",
+   "answer": [
+    "down"
+   ],
+   "why": "Зменшити — *cut down on*."
+  },
+  {
+   "id": "phrasal-verbs-particles-15",
+   "type": "fill",
+   "q": "The plane took ___ an hour late.",
+   "answer": [
+    "off"
+   ],
+   "why": "Злетіти, відокремитися — *take off*."
+  },
+  {
+   "id": "phrasal-verbs-particles-16",
+   "type": "fill",
+   "q": "Fill ___ the tank before the long drive.",
+   "answer": [
+    "up"
+   ],
+   "why": "Повністю наповнити — *fill up*."
+  },
+  {
+   "id": "phrasal-verbs-particles-17",
+   "type": "order",
+   "words": [
+    "Can",
+    "you",
+    "turn",
+    "it",
+    "down",
+    "a",
+    "little"
+   ],
+   "answer": [
+    "Can you turn it down a little"
+   ],
+   "why": "Займенник між дієсловом і частинкою: *turn it down*."
+  },
+  {
+   "id": "phrasal-verbs-particles-18",
+   "type": "order",
+   "words": [
+    "We",
+    "have",
+    "run",
+    "out",
+    "of",
+    "milk"
+   ],
+   "answer": [
+    "We have run out of milk"
+   ],
+   "why": "*run out of* — закінчитися."
+  }
+ ]
+}

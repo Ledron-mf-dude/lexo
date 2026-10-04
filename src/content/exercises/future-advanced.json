@@ -1,0 +1,232 @@
+{
+ "questions": [
+  {
+   "id": "future-advanced-1",
+   "type": "choice",
+   "q": "(The doorbell rings.) \"That ___ be Anna. She said she'd come at six.\"",
+   "options": [
+    "will",
+    "is going to",
+    "shall",
+    "is to"
+   ],
+   "answer": 0,
+   "why": "Припущення про теперішнє — *That will be Anna*. *is going to* — план чи прогноз за ознаками; *shall* — пропозиція; *is to* — офіційний план."
+  },
+  {
+   "id": "future-advanced-2",
+   "type": "choice",
+   "q": "___ you be using the printer this afternoon? I need to print something.",
+   "options": [
+    "Will",
+    "Are",
+    "Shall",
+    "Do"
+   ],
+   "answer": 0,
+   "why": "Ввічливе питання про чужі плани — *Will you be using*. *Are you be using* і *Do you be using* — неграматично; *Shall you* — не вживають так."
+  },
+  {
+   "id": "future-advanced-3",
+   "type": "choice",
+   "q": "You ___ heard the news about the merger, I suppose.",
+   "options": [
+    "will have",
+    "will",
+    "are going to have",
+    "shall be"
+   ],
+   "answer": 0,
+   "why": "Припущення про вже відоме — *will have heard*. *will heard* — потрібна початкова форма; *are going to have heard* — неприродно; *shall be heard* — пасив, інший зміст."
+  },
+  {
+   "id": "future-advanced-4",
+   "type": "choice",
+   "q": "The Prime Minister ___ meet the Polish president on Monday.",
+   "options": [
+    "is to",
+    "is about",
+    "is on the verge",
+    "shall to"
+   ],
+   "answer": 0,
+   "why": "Офіційний план — *is to meet*. *is about* і *is on the verge* — бракує *to* / *of*; *shall to* — зайве *to*."
+  },
+  {
+   "id": "future-advanced-5",
+   "type": "choice",
+   "q": "Electricity prices ___ rise by 10% next year, experts say.",
+   "options": [
+    "are set to",
+    "are setting to",
+    "set to be",
+    "are set for to"
+   ],
+   "answer": 0,
+   "why": "Прогноз у новинах — *are set to rise*. *are setting to*, *set to be rise*, *are set for to* — неграматично."
+  },
+  {
+   "id": "future-advanced-6",
+   "type": "choice",
+   "q": "The company is on the verge ___ bankrupt.",
+   "options": [
+    "of going",
+    "to go",
+    "going",
+    "of go"
+   ],
+   "answer": 0,
+   "why": "*on the verge of* + *-ing* — «ось-ось». *to go* — неправильна конструкція; *going* без *of*; *of go* — після прийменника потрібне *-ing*."
+  },
+  {
+   "id": "future-advanced-7",
+   "type": "choice",
+   "q": "I ___ call you last night, but I fell asleep.",
+   "options": [
+    "was going to",
+    "will",
+    "am going to",
+    "would to"
+   ],
+   "answer": 0,
+   "why": "Збирався, але не зробив — *was going to*. *will* і *am going to* — теперішній відлік; *would to* — зайве *to*."
+  },
+  {
+   "id": "future-advanced-8",
+   "type": "choice",
+   "q": "___ I carry your bag for you?",
+   "options": [
+    "Shall",
+    "Will",
+    "Am",
+    "Do"
+   ],
+   "answer": 0,
+   "why": "Пропозиція (BrE) — *Shall I…?* *Will I* — питання про майбутнє, не пропозиція; *Am I carry* і *Do I carry* — інше значення."
+  },
+  {
+   "id": "future-advanced-9",
+   "type": "choice",
+   "q": "Don't phone them now. They ___ having dinner.",
+   "options": [
+    "will be",
+    "are going to",
+    "shall be",
+    "be"
+   ],
+   "answer": 0,
+   "why": "Припущення про те, що відбувається зараз, — *will be having*. *are going to having* — неграматично; *shall be* — не для припущень про інших; *be* — без допоміжного."
+  },
+  {
+   "id": "future-advanced-10",
+   "type": "choice",
+   "q": "The ceremony was to ___ place in the old castle, but it rained.",
+   "options": [
+    "have taken",
+    "be take",
+    "taking",
+    "took"
+   ],
+   "answer": 0,
+   "why": "Мало відбутися, але не відбулося — *was to have taken place* (можна й простіше: *was to take place*). *be take*, *taking*, *took* після *was to* — неграматично."
+  },
+  {
+   "id": "future-advanced-11",
+   "type": "choice",
+   "q": "Don't worry. They ___ arrived by now.",
+   "options": [
+    "will have",
+    "will",
+    "have will",
+    "are"
+   ],
+   "answer": 0,
+   "why": "Припущення про вже зроблене — *will have arrived*. *will arrived* — неграматично; *have will* — неправильний порядок; *are arrived* — неграматично."
+  },
+  {
+   "id": "future-advanced-12",
+   "type": "choice",
+   "q": "You ___ report to reception on arrival.",
+   "options": [
+    "are to",
+    "will to",
+    "are about to",
+    "shall to"
+   ],
+   "answer": 0,
+   "why": "Інструкція, розпорядження — *are to report*. *will to* і *shall to* — зайве *to*; *are about to* — «ось-ось»."
+  },
+  {
+   "id": "future-advanced-13",
+   "type": "fill",
+   "q": "I'll ___ (see) Mark tomorrow anyway, so I can give him your message.",
+   "answer": [
+    "be seeing"
+   ],
+   "why": "Те, що станеться саме собою, — *will be seeing*."
+  },
+  {
+   "id": "future-advanced-14",
+   "type": "fill",
+   "q": "___ we start? Everyone is here.",
+   "answer": [
+    "Shall"
+   ],
+   "why": "Пропозиція — *Shall we…?*"
+  },
+  {
+   "id": "future-advanced-15",
+   "type": "fill",
+   "q": "I was ___ to leave when the phone rang.",
+   "answer": [
+    "about"
+   ],
+   "why": "Саме збирався — *was about to*."
+  },
+  {
+   "id": "future-advanced-16",
+   "type": "fill",
+   "q": "He's not answering. He'll ___ (be) asleep by now.",
+   "answer": [
+    "be"
+   ],
+   "why": "Припущення про теперішнє — *He'll be asleep*."
+  },
+  {
+   "id": "future-advanced-17",
+   "type": "order",
+   "words": [
+    "Will",
+    "you",
+    "be",
+    "staying",
+    "for",
+    "dinner"
+   ],
+   "answer": [
+    "Will you be staying for dinner"
+   ],
+   "why": "Ввічливе питання про плани — *Will you be + -ing*."
+  },
+  {
+   "id": "future-advanced-18",
+   "type": "order",
+   "words": [
+    "The",
+    "new",
+    "bridge",
+    "is",
+    "to",
+    "be",
+    "opened",
+    "next",
+    "spring"
+   ],
+   "answer": [
+    "The new bridge is to be opened next spring",
+    "Next spring the new bridge is to be opened"
+   ],
+   "why": "Офіційний план, пасив — *is to be opened*."
+  }
+ ]
+}

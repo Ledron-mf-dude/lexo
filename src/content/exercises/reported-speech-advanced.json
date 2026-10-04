@@ -1,0 +1,234 @@
+{
+ "questions": [
+  {
+   "id": "reported-speech-advanced-1",
+   "type": "choice",
+   "q": "\"Where do you live?\" → She asked me where ___.",
+   "options": [
+    "I lived",
+    "did I live",
+    "do I live",
+    "I did live"
+   ],
+   "answer": 0,
+   "why": "У непрямому питанні — розповідний порядок і зсув часу: *where I lived*. *did I live* і *do I live* — питальний порядок; *I did live* — емфатичне."
+  },
+  {
+   "id": "reported-speech-advanced-2",
+   "type": "choice",
+   "q": "\"Are you coming?\" → He asked ___ I was coming.",
+   "options": [
+    "whether",
+    "that",
+    "what",
+    "do"
+   ],
+   "answer": 0,
+   "why": "Питання «так / ні» — *whether* (або *if*). *that* — для повідомлень; *what* — для питань з питальним словом; *do* — неграматично."
+  },
+  {
+   "id": "reported-speech-advanced-3",
+   "type": "choice",
+   "q": "\"Don't touch the paintings.\" → The guard told us ___ the paintings.",
+   "options": [
+    "not to touch",
+    "don't touch",
+    "to not touching",
+    "not touch"
+   ],
+   "answer": 0,
+   "why": "Заборона — *told us not to touch*. *don't touch* — пряма форма; *to not touching* і *not touch* — неграматично."
+  },
+  {
+   "id": "reported-speech-advanced-4",
+   "type": "choice",
+   "q": "\"You should rest.\" → The doctor ___ me to rest.",
+   "options": [
+    "advised",
+    "suggested",
+    "said",
+    "insisted"
+   ],
+   "answer": 0,
+   "why": "*advise somebody to do* — порадити. *suggested me to* — помилка; *said me* — неграматично; *insisted me* — неграматично."
+  },
+  {
+   "id": "reported-speech-advanced-5",
+   "type": "choice",
+   "q": "My colleague suggested ___ a break.",
+   "options": [
+    "taking",
+    "to take",
+    "us to take",
+    "that we taking"
+   ],
+   "answer": 0,
+   "why": "*suggest* + *-ing* (або *that we (should) take*). *to take* і *us to take* — після *suggest* не вживають; *that we taking* — бракує особової форми."
+  },
+  {
+   "id": "reported-speech-advanced-6",
+   "type": "choice",
+   "q": "\"Water boils at 100 degrees.\" → The teacher explained that water ___ at 100 degrees.",
+   "options": [
+    "boils",
+    "boiled to",
+    "has boil",
+    "boiling"
+   ],
+   "answer": 0,
+   "why": "Наукова істина — час можна не зсувати: *boils* (також *boiled*, якого тут немає). *boiled to*, *has boil*, *boiling* — неграматично."
+  },
+  {
+   "id": "reported-speech-advanced-7",
+   "type": "choice",
+   "q": "The singer ___ to be planning a world tour.",
+   "options": [
+    "is said",
+    "says",
+    "is saying",
+    "said it"
+   ],
+   "answer": 0,
+   "why": "Безособовий пасив — *is said to be planning*. *says to be* — неграматично; *is saying* — Continuous актив; *said it to be* — неграматично."
+  },
+  {
+   "id": "reported-speech-advanced-8",
+   "type": "choice",
+   "q": "\"I'm sorry I broke the vase.\" → She apologised ___ the vase.",
+   "options": [
+    "for breaking",
+    "to break",
+    "that breaking",
+    "for to break"
+   ],
+   "answer": 0,
+   "why": "*apologise for* + *-ing*. *to break* — неправильна конструкція; *that breaking* і *for to break* — неграматично."
+  },
+  {
+   "id": "reported-speech-advanced-9",
+   "type": "choice",
+   "q": "He insisted ___ for the meal.",
+   "options": [
+    "on paying",
+    "to pay",
+    "paying",
+    "that paying"
+   ],
+   "answer": 0,
+   "why": "*insist on* + *-ing* (або *insist that he pay*). *to pay* і *paying* без *on* — неграматично; *that paying* — бракує підмета й дієслова."
+  },
+  {
+   "id": "reported-speech-advanced-10",
+   "type": "choice",
+   "q": "\"What should I wear?\" → She wondered what ___.",
+   "options": [
+    "to wear",
+    "should wear",
+    "wearing",
+    "for wear"
+   ],
+   "answer": 0,
+   "why": "Питання з *should* можна передати *what to wear*. *should wear* — бракує підмета; *wearing* і *for wear* — неграматично."
+  },
+  {
+   "id": "reported-speech-advanced-11",
+   "type": "choice",
+   "q": "The suspect is believed ___ the country last week.",
+   "options": [
+    "to have left",
+    "to leave",
+    "leaving",
+    "having left"
+   ],
+   "answer": 0,
+   "why": "Минула дія після *is believed* — *to have left*. *to leave* — теперішнє чи майбутнє; *leaving* і *having left* — після *is believed* потрібен інфінітив."
+  },
+  {
+   "id": "reported-speech-advanced-12",
+   "type": "choice",
+   "q": "\"I'll definitely be there.\" → He ___ to be there.",
+   "options": [
+    "promised",
+    "suggested",
+    "advised",
+    "insisted"
+   ],
+   "answer": 0,
+   "why": "Обіцянка — *promised to be*. *suggested to*, *advised to* без людини, *insisted to* — неправильні конструкції."
+  },
+  {
+   "id": "reported-speech-advanced-13",
+   "type": "fill",
+   "q": "\"Can you help me?\" → She asked me ___ help her.",
+   "answer": [
+    "to"
+   ],
+   "why": "Прохання — *asked me to help*."
+  },
+  {
+   "id": "reported-speech-advanced-14",
+   "type": "fill",
+   "q": "\"I live in Kyiv.\" (She still does.) → She told me she ___ in Kyiv.",
+   "answer": [
+    "lives",
+    "lived"
+   ],
+   "why": "Досі правда — можна *lives*; зсув *lived* теж правильний."
+  },
+  {
+   "id": "reported-speech-advanced-15",
+   "type": "fill",
+   "q": "It ___ reported that the talks have failed.",
+   "answer": [
+    "is",
+    "was",
+    "has been"
+   ],
+   "why": "Безособовий зворот — *It is reported that…*"
+  },
+  {
+   "id": "reported-speech-advanced-16",
+   "type": "fill",
+   "q": "\"OK, I took your pen.\" → He admitted ___ (take) my pen.",
+   "answer": [
+    "taking",
+    "having taken"
+   ],
+   "why": "*admit* + *-ing* (або *having taken*)."
+  },
+  {
+   "id": "reported-speech-advanced-17",
+   "type": "order",
+   "words": [
+    "She",
+    "asked",
+    "me",
+    "what",
+    "time",
+    "it",
+    "was"
+   ],
+   "answer": [
+    "She asked me what time it was"
+   ],
+   "why": "Непряме питання — розповідний порядок: *what time it was*."
+  },
+  {
+   "id": "reported-speech-advanced-18",
+   "type": "order",
+   "words": [
+    "He",
+    "told",
+    "us",
+    "not",
+    "to",
+    "be",
+    "late"
+   ],
+   "answer": [
+    "He told us not to be late"
+   ],
+   "why": "Заборона — *told us not to be late*."
+  }
+ ]
+}

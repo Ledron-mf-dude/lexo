@@ -82,6 +82,15 @@ Past Simple після *if, wish, it's time, I'd rather, as if* описує **�
 
 Для звичайних минулих звичок — *used to* і *would* (див. «Used to, would, be used to, get used to»).
 
+## Новини: Present Perfect, потім Past Simple
+
+Новину зазвичай **оголошують** Present Perfect, а **подробиці** розповідають Past Simple:
+
+- *The Prime Minister **has resigned**. She **announced** her decision at a press conference this morning and **thanked** her colleagues.*
+- *Police **have arrested** two men. The arrests **took** place on Friday.*
+
+Щойно з'являється час чи місце події (*this morning, on Friday, in Kyiv*), — Past Simple. Див. «Present Perfect: simple, continuous і різниця з Past Simple».
+
 ## Як вибрати
 
 1. Фон розповіді, що вже тривав — Past Continuous; події по черзі — Past Simple; раніші події — Past Perfect.
@@ -105,3 +114,4 @@ Past Simple після *if, wish, it's time, I'd rather, as if* описує **�
 - ✗ *We were supposed meeting at six.* → ✓ *We were supposed **to meet** at six.*
 - ✗ *When I got to the station, the train has already left.* → ✓ *When I got to the station, the train **had** already **left**.*
 - ✗ *He was always borrow money from me.* → ✓ *He was always **borrowing** money from me.*
+- ✗ *The minister has resigned yesterday after the scandal.* → ✓ *The minister **resigned** yesterday after the scandal.*
