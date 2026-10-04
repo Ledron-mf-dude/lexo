@@ -2,6 +2,7 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
+import { lexoContent } from './vite/lexoContent.ts'
 
 // GitHub Pages serves the site from /<repo-name>/
 const base = process.env.VITE_BASE ?? '/lexo/'
@@ -10,8 +11,6 @@ const base = process.env.VITE_BASE ?? '/lexo/'
 export default defineConfig({
   base,
   build: {
-    // The grammar chunk is all 100+ articles and 2000+ exercises as text; it loads only with the grammar section.
-    chunkSizeWarningLimit: 800,
     rolldownOptions: {
       output: {
         // Libraries change rarely: keeping them in their own chunks means a deploy re-downloads only the app code.
@@ -26,6 +25,8 @@ export default defineConfig({
     },
   },
   plugins: [
+    // Grammar articles and exercise banks: a small index in the bundle, each article and bank in its own chunk.
+    lexoContent(),
     react(),
     tailwindcss(),
     VitePWA({

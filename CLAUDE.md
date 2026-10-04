@@ -29,7 +29,7 @@ npm run lint     # oxlint
 ## Architecture
 
 **Static content vs. user data.**
-- Grammar articles and exercises are files in the repo. They are bundled at build time through `import.meta.glob`, so they work offline and search is instant.
+- Grammar articles and exercises are files in the repo. The content plugin [vite/lexoContent.ts](vite/lexoContent.ts) prepares them at build time as virtual modules (see «Grammar content»), and the service worker precaches every chunk, so they work offline.
 - Supabase holds only per-user data: `words`, `tags`, `word_tags`, `progress`, `review_log` and `exercise_log`.
 - Every table has RLS `user_id = auth.uid()`.
 - Schema changes go in a new `supabase/migrations/NNNN_*.sql` file. The owner runs it by hand in the Supabase SQL editor, since there is no migration tooling. Say so explicitly whenever a change needs one.
@@ -38,7 +38,13 @@ npm run lint     # oxlint
 - Articles live in `src/content/grammar/<slug>.md`. The front matter has `title`, `category`, `levels` (CEFR, from `LEVELS`), `aliases`, `tags`, and an optional `wordTags`.
 - The front matter parser is hand-rolled, with one `key: value` per line. List values are split on commas, so an alias must not contain a comma.
 - Cross-references are written as `«Article title»` in the body and resolved to links through titles, title variants and aliases. An unresolved reference stays plain text.
+- Loading ([vite/lexoContent.ts](vite/lexoContent.ts)): parsing lives in pure modules ([src/lib/content/articles.ts](src/lib/content/articles.ts), [src/lib/content/questions.ts](src/lib/content/questions.ts)) that the plugin runs in Node. They must not use browser or Vite APIs and import each other with `.ts` extensions.
+  - `virtual:lexo/grammar` holds the article metadata (`articles`, always in the bundle) and loaders. An article's body and terms come from `loadArticle(slug)`; pages read it with `use(loadArticle(slug))` inside Suspense (the route's, or their own as `RuleSheet` does). Full-text search loads on the first query (`loadTextSearch`); title and topic matches need no load.
+  - `virtual:lexo/exercises` holds the question ids per topic (`exerciseIds`; progress, statuses and Stats need only these) and a loader per bank. A page that draws questions calls `use(loadQuestions(slugs))` for every topic it draws from; `itemsOf` / `bankOf` read the loaded banks only.
+  - Editing a file in `src/content/grammar` or `src/content/exercises` rebuilds the content and reloads the page in dev. Types of the virtual modules are in [src/virtual-lexo.d.ts](src/virtual-lexo.d.ts).
 - The search index is MiniSearch, ranked by title and topic first.
+- The article page shows `## Як вибрати` at the top as a «Коротко: як вибрати» block (open or closed per device, `articleSummaryPref`) and leaves it out of the body below.
+- The article list folds its groups (category or level); the opened ones are remembered in `localStorage` (`lexo.grammarOpen`). A level or topic filter unfolds everything. In «За рівнями» the study level of the route comes first and is open by default.
 - Before it, every article has `## Як вибрати` (numbered steps for choosing the form) and `## Пастки перекладу` (where Ukrainian leads to a wrong English form). `ruleFinder` gives these two summary sections and `## Типові помилки` a lower weight, so «Правило» opens the section that explains the rule.
 - Each article ends with a `## Типові помилки` section of lines in the form `- ✗ *wrong* → ✓ *right*`. [src/pages/GrammarArticle.tsx](src/pages/GrammarArticle.tsx) styles lines that start with ✗ as mistake cards.
 - **Markdown pitfall:** bold markers directly between a letter and an apostrophe do not render (`I**'ll**`). Bold the whole word instead (`**I'll**`).
@@ -57,7 +63,7 @@ npm run lint     # oxlint
   - A `- ✗ … → ✓ …` pair must be wrong in any context, so add the words that rule out the right reading (*I drink the coffee every morning*, not *I like the coffee*). Other natural corrections go after ` / `. A form that is only informal or regional gets a BrE/AmE/розмовне note, which keeps it out of the quiz.
   - An `order` sentence lists every natural word order, for example a clause or a time phrase moved to the front, or a separable phrasal verb.
   - After an answer the quiz shows the other accepted answers («Також правильно»). A typed or built answer that was not recognised can be counted with «Мій варіант теж правильний»; the placement test does not offer this.
-- Invalid questions are skipped with a console warning, not rejected at build time.
+- Invalid questions are skipped with a build warning from the content plugin, not rejected.
 - Text answers are compared ignoring case, extra spaces, curly apostrophes, punctuation and contractions (`canon` spells out `n't`, `'re`, `'m`, `'ll`, `'ve`, `'d` as «would», and `'s` after pronouns).
 - `drawDeck` picks questions through `prioritize`: never-answered first, then latest-wrong, then the rest by oldest answer (from `answerHistory` of `exercise_log`), so a topic is covered in full before anything repeats. It then interleaves the question types. Unseen questions are marked «нове» in the quiz.
 - `useLogAnswer` adds each answer to the cached log optimistically instead of refetching the whole log.
@@ -69,6 +75,7 @@ npm run lint     # oxlint
   - The questions come from a hand-picked list per level, [src/content/placement.json](src/content/placement.json), of question ids. Whole banks are not used because they also hold harder and theory questions, and the test has no «Мій варіант теж правильний». A listed question must have a gap, be of that level, and have exactly one right answer.
   - Answers go to `exercise_log`. The result (passed level, scores, weak topics) is kept in `localStorage` under `lexo.placement`.
   - [src/components/LearningPath.tsx](src/components/LearningPath.tsx) on the Grammar page builds the route with `buildRoute`: weak topics first, then topics of the study level.
+  - Before the test, the route panel offers a level picked by hand (the test itself is the «Сьогодні» card's button). It is saved as a placement with no scores and `passed` set to the level below.
   - A topic counts as learned (`topicStatus`, «засвоєно») when the latest answer is right for at least 80% of all its questions. The same rule is used by the topic list, the article, Stats and the route. Question-level wording is «правильно». The study level moves up once 80% of its topics are learned.
   - `QuestionView` and `Feedback` are exported from ExerciseQuiz for reuse.
 - Quiz screen ([src/pages/ExerciseQuiz.tsx](src/pages/ExerciseQuiz.tsx)):

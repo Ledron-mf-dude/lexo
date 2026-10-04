@@ -1,11 +1,11 @@
-import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react'
+import { Suspense, use, useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react'
 import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
-import { correctAnswer, drawDeck, exercises, isCorrectText, isUnseen, itemsOf, prioritize, promptOf, shuffle, withVariant, type Item, type Question } from '../lib/exercises'
+import { bankOf, correctAnswer, drawDeck, exerciseIds, isCorrectText, isUnseen, itemsOf, prioritize, promptOf, shuffle, loadQuestions, withVariant, type Item, type Question } from '../lib/exercises'
 import { allMistakes, answerHistory, topicStats, useExerciseLog, useLogAnswer, type LogRow } from '../lib/exerciseLog'
 import { useFocusMode } from '../lib/focusMode'
 import { buildRoute, loadPlacement, topicProgress, topicStatus } from '../lib/learningPath'
-import { LEVELS, articles, bySlug, type Level } from '../lib/grammar'
+import { LEVELS, articles, bySlug, loadArticle, type Level } from '../lib/grammar'
 import { count, NEW_QUESTION } from '../lib/plural'
 import { autoNextPref, deckSizePref } from '../lib/prefs'
 import { useTitle } from '../lib/useTitle'
@@ -14,7 +14,7 @@ import RichText from '../components/RichText'
 import RuleSheet from '../components/RuleSheet'
 import { diffWords, type DiffPart } from '../lib/wordDiff'
 import { cardItems, MY_WRITING } from '../lib/writingCards'
-import { reviewSchedule, reviewSummary, shortTitle } from '../lib/grammarReview'
+import { pairTitle, reviewSchedule, reviewSummary } from '../lib/grammarReview'
 
 const MIXED_DECK_SIZE = 15
 
@@ -41,12 +41,12 @@ function useSettledLog() {
 export default function ExerciseQuiz() {
   const { slug = '' } = useParams()
   const article = bySlug.get(slug)
-  const bank = exercises.get(slug)
+  const bankIds = exerciseIds.get(slug)
   const mistakesOnly = (useLocation().state as { mistakes?: boolean } | null)?.mistakes === true
   const { log, settled } = useSettledLog()
   const [attempt, setAttempt] = useState(0)
 
-  if (!article || !bank) {
+  if (!article || !bankIds) {
     return (
       <section className="space-y-4">
         <Link to="/grammar" className="text-sm text-white/50 hover:text-white">
@@ -57,9 +57,11 @@ export default function ExerciseQuiz() {
     )
   }
   if (!settled) return <p className="text-white/50">Завантаження…</p>
+  // The topic's questions load on first use (the route's Suspense shows «Завантаження…»).
+  use(loadQuestions([slug]))
 
   // The deck is drawn once, after the log is known, so "repeat mistakes" can pick the right questions.
-  const wrong = new Set(topicStats(log, slug, new Set(bank.map((q) => q.id))).mistakes)
+  const wrong = new Set(topicStats(log, slug, new Set(bankIds)).mistakes)
   const all = itemsOf(slug)
   const pool = mistakesOnly ? all.filter((i) => wrong.has(i.q.id)) : all
   return (
@@ -86,7 +88,7 @@ export function MixedQuiz() {
   const fixOnly = params.get('type') === 'fix'
   const mine = params.get('type') === 'mine'
   const review = params.get('review') === '1'
-  const pair = params.get('pair')?.split(',').filter((s) => exercises.has(s))
+  const pair = params.get('pair')?.split(',').filter((s) => exerciseIds.has(s))
   const { log, settled } = useSettledLog()
   const [attempt, setAttempt] = useState(0)
 
@@ -97,33 +99,39 @@ export function MixedQuiz() {
   // Review and pair decks come in a set order (most overdue first; topics alternating), not re-drawn by type.
   let ordered = false
   let showTopic = true
+  // Each branch loads the banks of the topics it draws from before building the pool (`use` may run conditionally).
   if (review) {
     const cards = new Map(cardItems().map((i) => [i.q.id, i]))
+    const due = reviewSummary(reviewSchedule(log, (slug, id) => (slug === MY_WRITING ? cards.has(id) : Boolean(exerciseIds.get(slug)?.includes(id))))).due
+    use(loadQuestions(due.filter((e) => e.slug !== MY_WRITING).map((e) => e.slug)))
     const find = (slug: string, id: string): Item | undefined =>
       slug === MY_WRITING ? cards.get(id) : (() => {
-        const q = exercises.get(slug)?.find((x) => x.id === id)
+        const q = bankOf(slug).find((x) => x.id === id)
         return q && { slug, q }
       })()
-    pool = reviewSummary(reviewSchedule(log, (slug, id) => find(slug, id) !== undefined)).due.map((e) => find(e.slug, e.id)!)
+    pool = due.map((e) => find(e.slug, e.id)).filter((i) => i !== undefined)
     ordered = true
     title = 'Граматика на сьогодні'
   } else if (pair && pair.length === 2) {
     // Alternating topics, names hidden: which rule applies has to be recognised from the sentence itself.
+    use(loadQuestions(pair))
     const history = answerHistory(log)
     const [a, b] = pair.map((s) => prioritize(itemsOf(s), history))
     pool = Array.from({ length: Math.max(a.length, b.length) }, (_, i) => [a[i], b[i]]).flat().filter(Boolean)
     ordered = true
     showTopic = false
-    title = `${shortTitle(pair[0])} / ${shortTitle(pair[1])}`
+    title = pairTitle(pair)
   } else if (mine) {
     pool = cardItems()
     title = 'Мої помилки з письма'
   } else if (mistakes) {
-    const byId = new Map([...exercises].flatMap(([slug, qs]) => qs.map((q): [string, Item] => [`${slug}/${q.id}`, { slug, q }])))
-    pool = allMistakes(log, exercises).map((m) => byId.get(`${m.slug}/${m.id}`)!)
+    const wrong = allMistakes(log, exerciseIds)
+    use(loadQuestions(wrong.map((m) => m.slug)))
+    pool = wrong.map((m) => ({ slug: m.slug, q: bankOf(m.slug).find((q) => q.id === m.id) })).filter((i): i is Item => i.q !== undefined)
     title = 'Робота над помилками'
   } else {
-    const topics = articles.filter((a) => (!level || a.levels.includes(level)) && (!category || a.category === category))
+    const topics = articles.filter((a) => exerciseIds.has(a.slug) && (!level || a.levels.includes(level)) && (!category || a.category === category))
+    use(loadQuestions(topics.map((a) => a.slug)))
     pool = topics.flatMap((a) => itemsOf(a.slug)).filter((i) => !fixOnly || i.q.type === 'fix')
     title = [fixOnly ? 'Знайди помилку' : 'Змішані вправи', level, category].filter(Boolean).join(' · ')
   }
@@ -142,7 +150,7 @@ export function MixedQuiz() {
   }
   return (
     <Quiz
-      key={attempt}
+      key={`${attempt}?${params}`}
       title={title}
       pool={pool}
       log={log}
@@ -212,7 +220,7 @@ function Quiz({ title, pool, log, size, topic, showTopic, ordered, back, onResta
     const missed = results.filter((r) => !r.outcome.correct)
     const percent = Math.round((score / results.length) * 100)
     // Coverage of the whole topic after this round: what is still unseen comes first in the next one.
-    const bank = topic ? exercises.get(topic) : undefined
+    const bank = topic ? bankOf(topic) : undefined
     const answered = new Set(results.map((r) => r.item.q.id))
     const unseenLeft = bank ? bank.filter((q) => !answered.has(q.id) && !history.has(`${topic}/${q.id}`)).length : 0
     return (
@@ -382,6 +390,11 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
   const hasRule = slug !== undefined && bySlug.has(slug)
   const others = otherAnswers(q, outcome)
 
+  // The article behind «Правило» starts loading with the verdict, so the sheet opens at once.
+  useEffect(() => {
+    if (hasRule && slug) loadArticle(slug).catch(() => {})
+  }, [hasRule, slug])
+
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (e.key === 'Enter' && !rule) {
@@ -462,7 +475,11 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
         )}
         <span className="relative">{last ? 'Результат' : 'Далі'}</span>
       </button>
-      {rule && slug && <RuleSheet slug={slug} q={q} onClose={() => setRule(false)} />}
+      {rule && slug && (
+        <Suspense fallback={null}>
+          <RuleSheet slug={slug} q={q} onClose={() => setRule(false)} />
+        </Suspense>
+      )}
     </div>
   )
 }
