@@ -24,7 +24,7 @@
     "nobody"
    ],
    "answer": 1,
-   "why": "У пропозиції (чекаємо «так») — *some-*: *Would you like something to eat?*"
+   "why": "У пропозиції (чекаємо «так») — *some-*: *Would you like something to eat?* *nothing* — «нічого», у пропозиції безглуздо; *somewhere* — місце, а не річ; *nobody* — людина."
   },
   {
    "id": "indefinite-pronouns-3",
@@ -37,7 +37,7 @@
     "everything"
    ],
    "answer": 0,
-   "why": "Коробка порожня — *nothing* (нічого) зі ствердним дієсловом: *There is nothing in the box.*"
+   "why": "Коробка порожня — *nothing* (нічого) зі ствердним дієсловом: *There is nothing in the box.* *anything* у ствердженні — «будь-що»; *something* — «щось», а коробка порожня; *everything* — «усе»."
   },
   {
    "id": "indefinite-pronouns-4",
@@ -50,7 +50,7 @@
     "Anybody"
    ],
    "answer": 2,
-   "why": "Усі прийшли — *Everybody is here.* (дієслово в однині)"
+   "why": "Усі прийшли — *Everybody is here.* (дієслово в однині) *Nobody* — ніхто, *Somebody* — хтось один, *Anybody is here* — неприродне ствердження; *Everyone came* означає «усі»."
   },
   {
    "id": "indefinite-pronouns-5",
@@ -63,7 +63,7 @@
     "I didn't saw anybody."
    ],
    "answer": 1,
-   "why": "В англійській одне заперечення в реченні: *I didn't see anybody.*"
+   "why": "В англійській одне заперечення в реченні: *I didn't see anybody.* *didn't see nobody* — подвійне заперечення; *saw not nobody* — неграматично; *didn't saw* — після *didn't* потрібна початкова форма."
   },
   {
    "id": "indefinite-pronouns-6",
@@ -76,7 +76,7 @@
     "anything to interesting"
    ],
    "answer": 1,
-   "why": "Прикметник стоїть після *something*: *something interesting*."
+   "why": "Прикметник стоїть після *something*: *something interesting*. *interesting something* — прикметник перед *something*; *interesting anything* — те саме і *any-* у ствердженні; *anything to interesting* — неграматично."
   },
   {
    "id": "indefinite-pronouns-7",
@@ -89,7 +89,7 @@
     "everywhere"
    ],
    "answer": 0,
-   "why": "У запереченні — *anywhere*: *I can't find my keys anywhere.*"
+   "why": "У запереченні — *anywhere*: *I can't find my keys anywhere.* *somewhere* — у запереченні замість нього *anywhere*; *nowhere* — подвійне заперечення з *can't*; *everywhere* — «усюди», зміст інший."
   },
   {
    "id": "indefinite-pronouns-8",
@@ -115,7 +115,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "Слова з *every-* узгоджуються з дієсловом в однині: *Everybody is here.*"
+   "why": "Слова з *every-* узгоджуються з дієсловом в однині: *Everybody is here.* *are* і *were* — множина, а *everybody* узгоджується з однинною; *be* — початкова форма."
   },
   {
    "id": "indefinite-pronouns-10",
@@ -128,7 +128,7 @@
     "nothing"
    ],
    "answer": 0,
-   "why": "*anywhere* у ствердженні — «де завгодно»: *You can put it anywhere.*"
+   "why": "*anywhere* у ствердженні — «де завгодно»: *You can put it anywhere.* *nowhere* — «ніде», суперечить *I don't mind where*; *everywhere* — «усюди», одну річ так не покладеш; *nothing* — річ, а не місце."
   },
   {
    "id": "indefinite-pronouns-11",
@@ -191,7 +191,7 @@
     "everyone are"
    ],
    "answer": 0,
-   "why": "У питанні — *anyone*: *Did anyone call me?*"
+   "why": "У питанні — *anyone*: *Did anyone call me?* *someone's* — скорочення *someone is* або присвійна форма; *no one* — подвійне заперечення змісту в питанні; *everyone are* — множина з *everyone*."
   },
   {
    "id": "indefinite-pronouns-17",
@@ -204,7 +204,7 @@
     "everyone"
    ],
    "answer": 0,
-   "why": "Ствердження — *someone*: *There's someone at the door.*"
+   "why": "Ствердження — *someone*: *There's someone at the door.* *anyone* у ствердженні — «будь-хто»; *no one* — «нікого», тоді немає кому стояти; *everyone* — «усі», неприродно."
   },
   {
    "id": "indefinite-pronouns-18",
@@ -217,7 +217,7 @@
     "none"
    ],
    "answer": 0,
-   "why": "*nothing* + ствердне дієслово: *I have nothing to wear!*"
+   "why": "*nothing* + ствердне дієслово: *I have nothing to wear!* *anything* у ствердженні — «будь-що»; *something not* — неграматично; *none* — займенник «жоден із», не «нічого»."
   },
   {
    "id": "indefinite-pronouns-19",
@@ -230,7 +230,7 @@
     "anywhere"
    ],
    "answer": 0,
-   "why": "*anything else* — «ще щось» у питанні."
+   "why": "*anything else* — «ще щось» у питанні. *nothing* — «нічого», у пропозиції безглуздо; *nobody* — людина; *anywhere* — місце."
   },
   {
    "id": "indefinite-pronouns-20",
@@ -289,7 +289,7 @@
     "another"
    ],
    "answer": 1,
-   "why": "«Щось ще» — *anything else*."
+   "why": "«Щось ще» — *anything else*. *other*, *more other*, *another* після *anything* не вживають: «ще щось» — лише *else*."
   },
   {
    "id": "indefinite-pronouns-24",

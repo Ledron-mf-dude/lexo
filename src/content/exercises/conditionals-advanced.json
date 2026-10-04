@@ -24,7 +24,7 @@
     "because"
    ],
    "answer": 0,
-   "why": "*provided that* — «за умови, що»: піду, якщо безкоштовно."
+   "why": "*provided that* — «за умови, що»: піду, якщо безкоштовно. *unless* — «якщо не»: піду, якщо не безкоштовно — нелогічно; *although* — протиставлення; *because* — причина, а не умова."
   },
   {
    "id": "conditionals-advanced-3",
@@ -37,7 +37,7 @@
     "so that"
    ],
    "answer": 0,
-   "why": "*as long as* — «за умови, що, аби тільки»."
+   "why": "*as long as* — «за умови, що, аби тільки». *unless* — «якщо не»; *despite* — перед іменником; *so that* — мета."
   },
   {
    "id": "conditionals-advanced-4",
@@ -50,7 +50,7 @@
     "Unless"
    ],
    "answer": 0,
-   "why": "*But for* + іменник = *If it weren't for* — «якби не»."
+   "why": "*But for* + іменник = *If it weren't for* — «якби не». *Because for* — неграматично; *Despite your help* — «попри допомогу», протилежний зміст; *Unless* — перед реченням, а не іменником."
   },
   {
    "id": "conditionals-advanced-5",
@@ -76,7 +76,7 @@
     "Are"
    ],
    "answer": 0,
-   "why": "Формальна умова: *Should you need help* = *If you need help*."
+   "why": "Формальна умова: *Should you need help* = *If you need help*. *Would you need* — питання; *Did you need* — минуле; *Are you need* — неграматично."
   },
   {
    "id": "conditionals-advanced-7",
@@ -89,7 +89,7 @@
     "as long"
    ],
    "answer": 0,
-   "why": "*in case* — на випадок, якщо (запобіжно взяти пальто)."
+   "why": "*in case* — на випадок, якщо (запобіжно взяти пальто). *unless* — «якщо не»; *if not* — неповна умова; *as long* — бракує другого *as*."
   },
   {
    "id": "conditionals-advanced-8",
@@ -102,7 +102,7 @@
     "provided"
    ],
    "answer": 0,
-   "why": "*otherwise* — «інакше»: виходь зараз, інакше запізнишся."
+   "why": "*otherwise* — «інакше»: виходь зараз, інакше запізнишся. *because* і *although* — причина й протиставлення; *provided* — «за умови», а тут погроза наслідком."
   },
   {
    "id": "conditionals-advanced-9",
@@ -115,7 +115,7 @@
     "If were"
    ],
    "answer": 0,
-   "why": "Інверсія: *Were I you* = *If I were you*."
+   "why": "Інверсія: *Were I you* = *If I were you*. *Was I you* — в інверсії вживають *Were*; *Am I you* — теперішній час; *If were I* — *if* з інверсією не поєднують."
   },
   {
    "id": "conditionals-advanced-10",
@@ -180,7 +180,7 @@
     "Did"
    ],
    "answer": 0,
-   "why": "*Were it not for* = *If it weren't for*."
+   "why": "*Were it not for* = *If it weren't for*. *Had it not for* — бракує *been* і це вже про минуле; *Should it not for* і *Did it not for* — неграматично."
   },
   {
    "id": "conditionals-advanced-16",
@@ -193,7 +193,7 @@
     "provided"
    ],
    "answer": 0,
-   "why": "*unless you study* — якщо не вчитимешся."
+   "why": "*unless you study* — якщо не вчитимешся. *if you study* — «якщо вчитимешся», тоді не складеш — нелогічно; *in case* — «на випадок»; *provided* — «за умови»."
   },
   {
    "id": "conditionals-advanced-17",
@@ -206,7 +206,7 @@
     "In case"
    ],
    "answer": 0,
-   "why": "*Supposing* — «припустімо»: вводить уявну ситуацію з Past Simple (*won*)."
+   "why": "*Supposing* — «припустімо»: вводить уявну ситуацію з Past Simple (*won*). *Unless*, *Provided* і *In case* не вводять уявних ситуацій з *would*."
   },
   {
    "id": "conditionals-advanced-18",
@@ -219,7 +219,7 @@
     "isn't"
    ],
    "answer": 0,
-   "why": "Минуле — *If it hadn't been for the rain…*"
+   "why": "Минуле — *If it hadn't been for the rain…* *wasn't* і *weren't* — про теперішнє, а тут минуле (*would have gone*); *isn't* — теперішній час."
   },
   {
    "id": "conditionals-advanced-19",
@@ -295,7 +295,7 @@
     "Provided"
    ],
    "answer": 1,
-   "why": "*Without your advice* — якби не твоя порада."
+   "why": "*Without your advice* — якби не твоя порада. *Unless your advice* — після *unless* потрібне речення; *Otherwise* — «інакше», не перед іменником; *Provided your advice* — «за умови», зміст інший."
   },
   {
    "id": "conditionals-advanced-23",

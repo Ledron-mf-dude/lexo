@@ -11,7 +11,7 @@
     "is raining"
    ],
    "answer": 1,
-   "why": "Прогноз за тим, що бачимо зараз (хмари), — *be going to*: *It is going to rain.*"
+   "why": "Прогноз за тим, що бачимо зараз (хмари), — *be going to*: *It is going to rain.* *will to* — після *will* немає *to*; *rains* — звичка, *is raining* — уже йде, а ми лише передбачаємо за хмарами."
   },
   {
    "id": "future-forms-2",
@@ -108,7 +108,7 @@
     "Are"
    ],
    "answer": 1,
-   "why": "Пропозиція зробити щось разом — *Shall we…?*: *Shall we go to the cinema?*"
+   "why": "Пропозиція зробити щось разом — *Shall we…?*: *Shall we go to the cinema?* *Will we…?* — питання про майбутнє, а не пропозиція; *Do we go* — питання про звичку; *Are we go* — неграматично."
   },
   {
    "id": "future-forms-10",
@@ -208,7 +208,7 @@
     "am learning to"
    ],
    "answer": 0,
-   "why": "Рішення, прийняте раніше (*I've decided*), — *be going to*: *I am going to learn to drive.*"
+   "why": "Рішення, прийняте раніше (*I've decided*), — *be going to*: *I am going to learn to drive.* *will be* дає неграматичне *will be learn*; *shall to* — після *shall* немає *to*; *am learning to learn* — «вчуся вчитися», тавтологія. Рішення, ухвалене заздалегідь, передає *going to*."
   },
   {
    "id": "future-forms-18",
@@ -234,7 +234,7 @@
     "you are doing"
    ],
    "answer": 0,
-   "why": "Питання про плани на сьогодні — Present Continuous: *What are you doing this evening?*"
+   "why": "Питання про плани на сьогодні — Present Continuous: *What are you doing this evening?* *will you doing* неграматично; *do you do* — питання про звичку або професію; *you are doing* — порядок слів розповідного речення."
   },
   {
    "id": "future-forms-20",
@@ -313,7 +313,7 @@
     "are going like"
    ],
    "answer": 1,
-   "why": "Прогноз-думка з *I think* — *will*: *I think you'll like this book.* *like* у Continuous не вживають."
+   "why": "Прогноз-думка з *I think* — *will*: *I think you'll like this book.* *like* у Continuous не вживають. *are liking* — *like* не вживають у Continuous; *liking* — немає допоміжного дієслова; *are going like* — пропущено *to*."
   },
   {
    "id": "future-forms-25",
@@ -326,7 +326,7 @@
     "not going"
    ],
    "answer": 0,
-   "why": "Заперечення — *isn't going to* + дієслово: *She isn't going to sell her car.*"
+   "why": "Заперечення — *isn't going to* + дієслово: *She isn't going to sell her car.* *doesn't going* і *won't going* — допоміжні дієслова не поєднуються з *going*; *not going* — пропущено *is*."
   },
   {
    "id": "future-forms-26",

@@ -24,7 +24,7 @@
     "outside"
    ],
    "answer": 0,
-   "why": "*out of* — рух назовні з чогось: *took the book out of the bag*."
+   "why": "*out of* — рух назовні з чогось: *took the book out of the bag*. *from of* — зайве *of*; *off* — з поверхні, а сумка — це простір; *outside* — «поза», не рух назовні."
   },
   {
    "id": "prepositions-movement-3",
@@ -37,7 +37,7 @@
     "along"
    ],
    "answer": 0,
-   "why": "*off* — рух із поверхні: *fell off the shelf*."
+   "why": "*off* — рух із поверхні: *fell off the shelf*. *into* — у щось; *across* — через; *along* — уздовж; падіння з поверхні — *off*."
   },
   {
    "id": "prepositions-movement-4",
@@ -50,7 +50,7 @@
     "off"
    ],
    "answer": 0,
-   "why": "*along* — уздовж чогось довгого: *along the beach*."
+   "why": "*along* — уздовж чогось довгого: *along the beach*. *at* — точка, не рух; *into* — усередину; *off* — з поверхні."
   },
   {
    "id": "prepositions-movement-5",
@@ -63,7 +63,7 @@
     "past"
    ],
    "answer": 0,
-   "why": "*across* — з одного боку на інший: *swam across the river*."
+   "why": "*across* — з одного боку на інший: *swam across the river*. *along* — уздовж річки; *through* — крізь щось об'ємне; *past* — повз."
   },
   {
    "id": "prepositions-movement-6",
@@ -76,7 +76,7 @@
     "past"
    ],
    "answer": 0,
-   "why": "*through* — крізь, усередині чогось: *through a tunnel*."
+   "why": "*through* — крізь, усередині чогось: *through a tunnel*. *across* — з одного боку на інший поверхнею; *along* — уздовж; *past* — повз, не всередині."
   },
   {
    "id": "prepositions-movement-7",
@@ -89,7 +89,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "*past* — повз, не зупиняючись: *walked past the bank*."
+   "why": "*past* — повз, не зупиняючись: *walked past the bank*. *off* — з поверхні; *onto* — на поверхню; *at* — до точки; повз, не зупиняючись — *past*."
   },
   {
    "id": "prepositions-movement-8",
@@ -165,7 +165,7 @@
     "past"
    ],
    "answer": 0,
-   "why": "*up the stairs* — угору сходами."
+   "why": "*up the stairs* — угору сходами. *down* — униз, а він біг на верхній поверх; *along* — уздовж; *past* — повз."
   },
   {
    "id": "prepositions-movement-15",
@@ -178,7 +178,7 @@
     "onto"
    ],
    "answer": 0,
-   "why": "*towards* — у бік чогось: *walked towards the door*."
+   "why": "*towards* — у бік чогось: *walked towards the door*. *into the door* — «врізався в двері»; *off* і *onto* — з поверхні / на поверхню."
   },
   {
    "id": "prepositions-movement-16",
@@ -191,7 +191,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "*arrive at* + будівля чи точка: *arrived at the airport*."
+   "why": "*arrive at* + будівля чи точка: *arrived at the airport*. *in* — з містами й країнами (*arrive in Kyiv*); *to* після *arrive* не вживають; *on* — не для будівель."
   },
   {
    "id": "prepositions-movement-17",
@@ -204,7 +204,7 @@
     "down to"
    ],
    "answer": 0,
-   "why": "*fall off* — впасти з чогось: *fell off his bike*."
+   "why": "*fall off* — впасти з чогось: *fell off his bike*. *out of* — з чогось закритого (машини, вікна); *from off* — подвійний прийменник; *down to* — «донизу до»."
   },
   {
    "id": "prepositions-movement-18",
@@ -266,7 +266,7 @@
     "along"
    ],
    "answer": 0,
-   "why": "Стрибок через перешкоду зверху — *over the fence*."
+   "why": "Стрибок через перешкоду зверху — *over the fence*. *across* — поверхнею з боку на бік; *through* — крізь паркан; *along* — уздовж."
   },
   {
    "id": "prepositions-movement-22",
@@ -279,7 +279,7 @@
     "back"
    ],
    "answer": 1,
-   "why": "*away from* — геть від: *Move away from the edge!*"
+   "why": "*away from* — геть від: *Move away from the edge!* *out* і *back* без *from* не показують, від чого відійти; *off to* — «рушити кудись»."
   },
   {
    "id": "prepositions-movement-23",

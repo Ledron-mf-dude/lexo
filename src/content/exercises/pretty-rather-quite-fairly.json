@@ -11,7 +11,7 @@
     "fairly"
    ],
    "answer": 0,
-   "why": "*rather* — «доволі», часто з відтінком неприємного чи несподіваного."
+   "why": "*rather* — «доволі», часто з відтінком неприємного чи несподіваного. *extremely* і *absolutely* — дуже сильно, без відтінку «несподівано»; *fairly* — помірно й нейтрально."
   },
   {
    "id": "pretty-rather-quite-fairly-2",
@@ -24,7 +24,7 @@
     "absolutely"
    ],
    "answer": 0,
-   "why": "*fairly* — помірно, «нормально»: не чудовий, просто непоганий."
+   "why": "*fairly* — помірно, «нормально»: не чудовий, просто непоганий. *very*, *extremely*, *absolutely* — сильна оцінка, а фільм лише непоганий."
   },
   {
    "id": "pretty-rather-quite-fairly-3",
@@ -50,7 +50,7 @@
     "fairly the"
    ],
    "answer": 0,
-   "why": "*fairly* стоїть після *a*: *a fairly good film*."
+   "why": "*fairly* стоїть після *a*: *a fairly good film*. *fairly a* — *fairly* стоїть після артикля; *a quite* — *quite* стоїть перед артиклем (*quite a good film*); *fairly the* — неграматично."
   },
   {
    "id": "pretty-rather-quite-fairly-5",
@@ -63,7 +63,7 @@
     "pretty"
    ],
    "answer": 0,
-   "why": "*quite* з «абсолютними» словами (*impossible, right*) означає «цілком»."
+   "why": "*quite* з «абсолютними» словами (*impossible, right*) означає «цілком». *fairly*, *rather*, *pretty* з «абсолютними» словами означають «досить», що нелогічно: неможливе не буває «досить»."
   },
   {
    "id": "pretty-rather-quite-fairly-6",
@@ -76,7 +76,7 @@
     "rather"
    ],
    "answer": 2,
-   "why": "*pretty* — найрозмовніше з цих слів."
+   "why": "*pretty* — найрозмовніше з цих слів. *fairly*, *quite*, *rather* — нейтральні або навіть книжні."
   },
   {
    "id": "pretty-rather-quite-fairly-7",
@@ -89,7 +89,7 @@
     "exactly three"
    ],
    "answer": 0,
-   "why": "*quite a few* — «чимало», а не «кілька»."
+   "why": "*quite a few* — «чимало», а не «кілька». *quite a few* не означає «мало», «жодного» чи точне число: це «чимало»."
   },
   {
    "id": "pretty-rather-quite-fairly-8",
@@ -179,7 +179,7 @@
     "pretty much a"
    ],
    "answer": 0,
-   "why": "*quite* з «абсолютним» словом — «цілком»."
+   "why": "*quite* з «абсолютним» словом — «цілком». *fairly right* і *rather right* — «досить правий» звучить нелогічно; *pretty much a* — неграматично."
   },
   {
    "id": "pretty-rather-quite-fairly-16",
@@ -192,7 +192,7 @@
     "rather a"
    ],
    "answer": 0,
-   "why": "*quite like* — досить подобається."
+   "why": "*quite like* — досить подобається. *fairly a*, *rather a* — зайвий артикль; *pretty much of* — зайве *of*."
   },
   {
    "id": "pretty-rather-quite-fairly-17",

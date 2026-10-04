@@ -24,7 +24,7 @@
     "will"
    ],
    "answer": 0,
-   "why": "Ввічливе бажання — *I would like to…*: *I would like to book a table.* (*I'd like…*)"
+   "why": "Ввічливе бажання — *I would like to…*: *I would like to book a table.* (*I'd like…*) *am like* і *will like* — неграматичні або означають інше («сподобається»); *do like* — підсилене «справді люблю», а не ввічливе бажання."
   },
   {
    "id": "would-like-3",
@@ -37,7 +37,7 @@
     "Yes, I would to."
    ],
    "answer": 0,
-   "why": "На пропозицію природно відповісти *Yes, please.* *Yes, I like* — неповна відповідь, *Yes, I would to* — помилка."
+   "why": "На пропозицію природно відповісти *Yes, please.* *Yes, I like* — неповна відповідь, *Yes, I would to* — помилка. *Yes, I am* — відповідь на питання з *be*, а тут *would*."
   },
   {
    "id": "would-like-4",
@@ -50,7 +50,7 @@
     "Would you like to swim?"
    ],
    "answer": 0,
-   "why": "*I like swimming* — загальне вподобання. *I'd like…* — бажання зараз чи в конкретній ситуації."
+   "why": "*I like swimming* — загальне вподобання. *I'd like…* — бажання зараз чи в конкретній ситуації. *I'd like a swim now*, *I'd like to swim later* і *Would you like to swim?* — бажання або пропозиція в конкретній ситуації, а не загальне вподобання."
   },
   {
    "id": "would-like-5",
@@ -76,7 +76,7 @@
     "Fish!"
    ],
    "answer": 1,
-   "why": "*I'd like the fish, please* — ввічливе замовлення. *I want…* і наказ звучать різко."
+   "why": "*I'd like the fish, please* — ввічливе замовлення. *I want…* і наказ звучать різко. *Give me fish* і *Fish!* — накази; *I want the fish* — граматично, але звучить вимогливо."
   },
   {
    "id": "would-like-7",

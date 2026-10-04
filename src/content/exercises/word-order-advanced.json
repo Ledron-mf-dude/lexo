@@ -37,7 +37,7 @@
     "does the bus come"
    ],
    "answer": 0,
-   "why": "*Here comes the bus!* — дієслово перед іменником-підметом."
+   "why": "*Here comes the bus!* — дієслово перед іменником-підметом. *the bus come* — бракує *-s*; *come the bus* — дієслово без *-s*; *does the bus come* — питання."
   },
   {
    "id": "word-order-advanced-4",
@@ -76,7 +76,7 @@
     "Try though"
    ],
    "answer": 0,
-   "why": "*Try as he might* — як він не намагався."
+   "why": "*Try as he might* — як він не намагався. *As try*, *Trying as*, *Try though* — у цьому звороті порядок саме *Try as* + підмет + *might*."
   },
   {
    "id": "word-order-advanced-7",
@@ -102,7 +102,7 @@
     "standing"
    ],
    "answer": 0,
-   "why": "Обставина місця на початку — дієслово перед підметом: *On the hill stood an old castle.*"
+   "why": "Обставина місця на початку — дієслово перед підметом: *On the hill stood an old castle.* *it stood* — зайвий підмет *it*; *did stand* — інверсія з *did* тут не вживається; *standing* — немає особової форми."
   },
   {
    "id": "word-order-advanced-9",
@@ -115,7 +115,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "Прикметник + *though* + підмет: *Strange though it may seem*."
+   "why": "Прикметник + *though* + підмет: *Strange though it may seem*. *but*, *as if*, *so* не утворюють поступки «хоч як дивно»."
   },
   {
    "id": "word-order-advanced-10",
@@ -128,7 +128,7 @@
     "down the offer it"
    ],
    "answer": 0,
-   "why": "Довгий додаток стоїть після частки: *turned down the offer we made last week*."
+   "why": "Довгий додаток стоїть після частки: *turned down the offer we made last week*. *it the offer* — подвійний додаток; *the offer we made last week down* — довгий додаток не ставлять перед часткою; *down the offer it* — подвійний додаток."
   },
   {
    "id": "word-order-advanced-11",

@@ -24,7 +24,7 @@
     "writing"
    ],
    "answer": 2,
-   "why": "Дія в минулому (*last year*) — Perfect Infinitive: *to have written*."
+   "why": "Дія в минулому (*last year*) — Perfect Infinitive: *to have written*. *to write* — теперішня чи загальна дія, а *last year* — минуле; *to be writing* — процес зараз; *writing* — після *seem* потрібен інфінітив."
   },
   {
    "id": "infinitive-forms-3",
@@ -37,7 +37,7 @@
     "to work"
    ],
    "answer": 0,
-   "why": "Звичка після модального — інфінітив без *to*: *should work*."
+   "why": "Звичка після модального — інфінітив без *to*: *should work*. *be working* — процес зараз, а не звичка; *have worked* — минуле; *to work* — після *should* немає *to*."
   },
   {
    "id": "infinitive-forms-4",
@@ -63,7 +63,7 @@
     "to write"
    ],
    "answer": 0,
-   "why": "Процес у минулому — Perfect Continuous Infinitive: *to have been writing*."
+   "why": "Процес у минулому — Perfect Continuous Infinitive: *to have been writing*. *to be writing* — процес зараз; *to have written* — завершена дія, без процесу; *to write* — загальна дія."
   },
   {
    "id": "infinitive-forms-6",
@@ -76,7 +76,7 @@
     "Perfect Continuous"
    ],
    "answer": 2,
-   "why": "Минулу дію після *seem* чи модального передає Perfect Infinitive (*to have done*)."
+   "why": "Минулу дію після *seem* чи модального передає Perfect Infinitive (*to have done*). Простий інфінітив стосується теперішнього, Continuous — процесу зараз, Perfect Continuous — процесу в минулому."
   },
   {
    "id": "infinitive-forms-7",
@@ -175,7 +175,7 @@
     "to have known"
    ],
    "answer": 0,
-   "why": "*know* — дієслово стану, тому простий інфінітив: *to know*."
+   "why": "*know* — дієслово стану, тому простий інфінітив: *to know*. *to be knowing* — *know* у Continuous не вживають; *knowing* — після *appear* потрібен інфінітив; *to have known* — минуле, а він знає зараз."
   },
   {
    "id": "infinitive-forms-16",
@@ -201,7 +201,7 @@
     "a finished action"
    ],
    "answer": 0,
-   "why": "Простий інфінітив після *seem* — загальний або теперішній факт."
+   "why": "Простий інфінітив після *seem* — загальний або теперішній факт. Минуле передає *to have done*, майбутнє — контекст або *to be going to*, завершену дію — Perfect Infinitive."
   },
   {
    "id": "infinitive-forms-18",

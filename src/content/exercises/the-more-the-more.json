@@ -24,7 +24,7 @@
     "A"
    ],
    "answer": 0,
-   "why": "Обидві частини починаються з *The*: *The older he gets, the wiser he becomes.*"
+   "why": "Обидві частини починаються з *The*: *The older he gets, the wiser he becomes.* *More*, *Most* і *A* — у цій конструкції обидві частини починаються з *The* + порівняльний ступінь."
   },
   {
    "id": "the-more-the-more-3",
@@ -37,7 +37,7 @@
     "more better"
    ],
    "answer": 0,
-   "why": "Скорочений сталий вираз: *The sooner, the better.*"
+   "why": "Скорочений сталий вираз: *The sooner, the better.* *best* — найвищий ступінь без *the*; *better than* — неповне порівняння; *more better* — подвійне порівняння."
   },
   {
    "id": "the-more-the-more-4",
@@ -50,7 +50,7 @@
     "difficult and difficult"
    ],
    "answer": 0,
-   "why": "«Дедалі складніше» — *more and more* + довгий прикметник."
+   "why": "«Дедалі складніше» — *more and more* + довгий прикметник. *difficulter* — довгий прикметник не бере *-er*; *most difficult* — найвищий ступінь; *difficult and difficult* — без порівняльного ступеня."
   },
   {
    "id": "the-more-the-more-5",
@@ -76,7 +76,7 @@
     "The most you read, the most you know."
    ],
    "answer": 0,
-   "why": "*The more …, the more …* — артикль в обох частинах обов'язковий."
+   "why": "*The more …, the more …* — артикль в обох частинах обов'язковий. *More you read, more you know* — бракує *the* в обох частинах; *more you know* — бракує *the* у другій; *The most* — найвищий ступінь замість порівняльного."
   },
   {
    "id": "the-more-the-more-7",
@@ -169,7 +169,7 @@
     "the most and most"
    ],
    "answer": 0,
-   "why": "Постійне зростання — *more and more*."
+   "why": "Постійне зростання — *more and more*. *the more* — потребує другої частини (*the more …, the more …*); *most and most* і *the most and most* — найвищий ступінь не передає «дедалі»."
   },
   {
    "id": "the-more-the-more-15",

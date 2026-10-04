@@ -24,7 +24,7 @@
     "—"
    ],
    "answer": 1,
-   "why": "Коли людина стоїть після речі, з *send* вживаємо *to*: *He sent the letter to her.* (Або без прийменника: *He sent her the letter.*)"
+   "why": "Коли людина стоїть після речі, з *send* вживаємо *to*: *He sent the letter to her.* (Або без прийменника: *He sent her the letter.*) *for her* — «для неї», зміст інший; *at her* — «у неї» як у мішень; без прийменника людина має стояти перед річчю (*sent her the letter*)."
   },
   {
    "id": "verbs-two-objects-3",
@@ -50,7 +50,7 @@
     "She explained the me rule."
    ],
    "answer": 1,
-   "why": "*explain* не дозволяє ставити людину одразу після себе: лише *explain the rule to me*. *explained me the rule* — типова калька з «пояснила мені»."
+   "why": "*explain* не дозволяє ставити людину одразу після себе: лише *explain the rule to me*. *explained me the rule* — типова калька з «пояснила мені». *explained to the rule me* і *explained the me rule* — неправильний порядок."
   },
   {
    "id": "verbs-two-objects-5",
@@ -81,7 +81,7 @@
     "have give"
    ],
    "answer": 1,
-   "why": "У пасиві підметом зазвичай стає людина: *I was given a book.*"
+   "why": "У пасиві підметом зазвичай стає людина: *I was given a book.* *gave* — активний стан: тоді я дав книжку; *am giving* — я даю; *have give* — потрібна третя форма і зміст активний."
   },
   {
    "id": "verbs-two-objects-8",
@@ -155,7 +155,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*describe* вимагає *to* перед людиною: *described the man to the police*. *described the police the man* — помилка."
+   "why": "*describe* вимагає *to* перед людиною: *described the man to the police*. *described the police the man* — помилка. *for the police* — «для поліції», а не «поліції»; без прийменника людину після *describe* не ставлять; *at* — неграматично."
   },
   {
    "id": "verbs-two-objects-15",
@@ -168,7 +168,7 @@
     "flowers some my mum"
    ],
    "answer": 0,
-   "why": "*buy* + кому + що без прийменника: *I bought my mum some flowers.* (Або *some flowers for my mum*.)"
+   "why": "*buy* + кому + що без прийменника: *I bought my mum some flowers.* (Або *some flowers for my mum*.) *some flowers my mum* — без прийменника людина стоїть перед річчю; *to my mum some flowers* — із *buy* вживають *for*, і річ іде першою; *flowers some my mum* — неграматично."
   },
   {
    "id": "verbs-two-objects-16",
@@ -181,7 +181,7 @@
     "me to the way"
    ],
    "answer": 0,
-   "why": "*show* + кому + що: *Can you show me the way?*"
+   "why": "*show* + кому + що: *Can you show me the way?* *the way me* — без прийменника людина стоїть перед річчю; *to me the way* — з *to* річ іде першою; *me to the way* — зайве *to*."
   },
   {
    "id": "verbs-two-objects-17",
@@ -194,7 +194,7 @@
     "it her to"
    ],
    "answer": 0,
-   "why": "Якщо обидва додатки — займенники, вживаємо схему з *to*: *He gave it to her.*"
+   "why": "Якщо обидва додатки — займенники, вживаємо схему з *to*: *He gave it to her.* *her it to*, *to her it*, *it her to* — неправильний порядок: схема — що + *to* + кому."
   },
   {
    "id": "verbs-two-objects-18",
@@ -259,7 +259,7 @@
     "us bring"
    ],
    "answer": 1,
-   "why": "*bring* + кому + що: *Could you bring us the bill?*"
+   "why": "*bring* + кому + що: *Could you bring us the bill?* *bring to us the bill* — з *to* річ іде першою; *bring for us* — «принести для нас» звучить неприродно; *us bring* — займенник перед дієсловом."
   },
   {
    "id": "verbs-two-objects-22",
@@ -272,7 +272,7 @@
     "it you"
    ],
    "answer": 1,
-   "why": "Два займенники — схема з *to*: *I'll send it to you.*"
+   "why": "Два займенники — схема з *to*: *I'll send it to you.* *you it* і *it you* — два займенники без *to* звучать неприродно; *to you it* — з *to* річ іде першою."
   },
   {
    "id": "verbs-two-objects-23",

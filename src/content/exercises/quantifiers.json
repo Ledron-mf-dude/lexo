@@ -228,7 +228,7 @@
     "a little"
    ],
    "answer": 0,
-   "why": "*enough* стоїть перед іменником: *enough chairs*. Після прикметника — навпаки: *big enough*."
+   "why": "*enough* стоїть перед іменником: *enough chairs*. Після прикметника — навпаки: *big enough*. *too* стоїть перед прикметником, а не іменником (*too many chairs*); *too much* — для нелічильних і означає «забагато»; *a little* — для нелічильних."
   },
   {
    "id": "quantifiers-20",
@@ -315,7 +315,7 @@
     "many"
    ],
    "answer": 0,
-   "why": "*plenty of* — «більш ніж досить», і з лічильними, і з нелічильними: *plenty of time*."
+   "why": "*plenty of* — «більш ніж досить», і з лічильними, і з нелічильними: *plenty of time*. *much of* — лише перед означеним іменником (*much of the time*); *a few* і *many* — для лічильних, а *time* нелічильне."
   },
   {
    "id": "quantifiers-26",
@@ -328,7 +328,7 @@
     "Both"
    ],
    "answer": 1,
-   "why": "*None of* — «жоден із» (більше двох). *I was alone* підтверджує: ніхто не прийшов."
+   "why": "*None of* — «жоден із» (більше двох). *I was alone* підтверджує: ніхто не прийшов. *Each of* і *Every* означали б, що прийшли всі, а *I was alone*; *Both* — про двох і теж «прийшли»."
   },
   {
    "id": "quantifiers-27",

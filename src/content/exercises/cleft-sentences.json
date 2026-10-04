@@ -24,7 +24,7 @@
     "Which"
    ],
    "answer": 2,
-   "why": "*What* + підмет + дієслово + *is* … — «те, що мені треба, — це…»: *What I need is a rest.*"
+   "why": "*What* + підмет + дієслово + *is* … — «те, що мені треба, — це…»: *What I need is a rest.* *It I need is* і *That I need is* — без *what* речення не має підмета; *Which* не вводить таку конструкцію без попереднього слова."
   },
   {
    "id": "cleft-sentences-3",
@@ -37,7 +37,7 @@
     "which"
    ],
    "answer": 1,
-   "why": "Виділяємо обставину: *It was* + обставина + *that*: *It was in Paris that I met her.*"
+   "why": "Виділяємо обставину: *It was* + обставина + *that*: *It was in Paris that I met her.* *who* — про людей, а виділена обставина місця; *what* — «те, що»; *which* — не після обставини в *It was … that*."
   },
   {
    "id": "cleft-sentences-4",
@@ -63,7 +63,7 @@
     "conditional"
    ],
    "answer": 0,
-   "why": "*A rest is what I need* — те саме, що *What I need is a rest*, але в зворотному порядку."
+   "why": "*A rest is what I need* — те саме, що *What I need is a rest*, але в зворотному порядку. Це не питання, не пасив і не умовне речення, а виділення частини речення (*cleft*) у зворотному порядку."
   },
   {
    "id": "cleft-sentences-6",
@@ -76,7 +76,7 @@
     "Was yesterday when she called."
    ],
    "answer": 0,
-   "why": "Виділяємо час: *It was yesterday that she called.*"
+   "why": "Виділяємо час: *It was yesterday that she called.* *Yesterday was she called* і *It yesterday was that* — неправильний порядок; *Was yesterday when* — бракує *It*."
   },
   {
    "id": "cleft-sentences-7",
@@ -156,7 +156,7 @@
     "Which"
    ],
    "answer": 0,
-   "why": "*What matters is…* — «важливо (те, що) — це…»."
+   "why": "*What matters is…* — «важливо (те, що) — це…». *It matters is* і *That matters is* — два присудки без зв'язку; *Which matters* — без попереднього слова не вживають."
   },
   {
    "id": "cleft-sentences-14",
@@ -169,7 +169,7 @@
     "when"
    ],
    "answer": 0,
-   "why": "*It was the noise that kept me awake* — саме шум."
+   "why": "*It was the noise that kept me awake* — саме шум. *what* — «те, що», після іменника не стоїть; *where* і *when* — про місце й час, а шум — річ."
   },
   {
    "id": "cleft-sentences-15",
@@ -182,7 +182,7 @@
     "which it"
    ],
    "answer": 0,
-   "why": "Про місце — *where*: *the place where we met*."
+   "why": "Про місце — *where*: *the place where we met*. *what* після іменника не стоїть; *who* — про людей; *which it* — зайвий займенник і бракує прийменника."
   },
   {
    "id": "cleft-sentences-16",
@@ -195,7 +195,7 @@
     "where"
    ],
    "answer": 0,
-   "why": "Виправляємо: *It wasn't Anna who called — it was Kate.*"
+   "why": "Виправляємо: *It wasn't Anna who called — it was Kate.* *which* — про речі; *what* — «те, що»; *where* — про місце, а виділяємо людину."
   },
   {
    "id": "cleft-sentences-17",
@@ -259,7 +259,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "Після *What*-частини — *is*: *What I need is a long holiday.*"
+   "why": "Після *What*-частини — *is*: *What I need is a long holiday.* *are* — підмет *What I need* в однині; *it is* — зайвий підмет; *be* — немає особової форми."
   },
   {
    "id": "cleft-sentences-21",

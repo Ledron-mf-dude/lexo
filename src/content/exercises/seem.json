@@ -11,7 +11,7 @@
     "to happy"
    ],
    "answer": 1,
-   "why": "Після *seem* — прикметник (як після *be*): *She seems happy.*"
+   "why": "Після *seem* — прикметник (як після *be*): *She seems happy.* *happily* — прислівник, а *seem* — дієслово-зв'язка; *happiness* — іменник; *to happy* — *to* перед прикметником без *be*."
   },
   {
    "id": "seem-2",
@@ -37,7 +37,7 @@
     "living"
    ],
    "answer": 1,
-   "why": "Present Perfect → перфектний інфінітив: *to have lived*."
+   "why": "Present Perfect → перфектний інфінітив: *to have lived*. *to live* — загальний факт зараз; *to be living* — процес зараз; *living* — після *seem* потрібен інфінітив."
   },
   {
    "id": "seem-4",
@@ -63,7 +63,7 @@
     "to live"
    ],
    "answer": 0,
-   "why": "Past Continuous → *to have been living*."
+   "why": "Past Continuous → *to have been living*. *to be living* — процес зараз; *to have lived* — без значення тривалого процесу; *to live* — загальний факт."
   },
   {
    "id": "seem-6",
@@ -76,7 +76,7 @@
     "singing"
    ],
    "answer": 0,
-   "why": "Загальне вміння (взагалі гарно співає) — простий інфінітив *to sing*."
+   "why": "Загальне вміння (взагалі гарно співає) — простий інфінітив *to sing*. *to be singing* — саме зараз; *to have sung* — минуле; *singing* — після *seem* потрібен інфінітив."
   },
   {
    "id": "seem-7",
@@ -89,7 +89,7 @@
     "sung"
    ],
    "answer": 1,
-   "why": "Саме зараз — тривалий інфінітив *to be singing*."
+   "why": "Саме зараз — тривалий інфінітив *to be singing*. *to sing* — загальне вміння, а не «зараз»; *to have sung* — минуле; *sung* — дієприкметник."
   },
   {
    "id": "seem-8",
@@ -102,7 +102,7 @@
     "singing"
    ],
    "answer": 2,
-   "why": "Минуле (*yesterday*) — *to have sung*."
+   "why": "Минуле (*yesterday*) — *to have sung*. *to sing* — загальне вміння; *to be singing* — зараз; *singing* — після *seem* потрібен інфінітив."
   },
   {
    "id": "seem-9",
@@ -170,7 +170,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "*seem like* + іменник: *He seems like a nice guy.* (Британці кажуть і *seems a nice guy*.)"
+   "why": "*seem like* + іменник: *He seems like a nice guy.* (Британці кажуть і *seems a nice guy*.) *as* і *so* після *seem* не вживають; *to a nice guy* — бракує *be* (*seems to be a nice guy*)."
   },
   {
    "id": "seem-15",
@@ -209,7 +209,7 @@
     "getting"
    ],
    "answer": 0,
-   "why": "Ймовірне майбутнє — *seems likely to get*."
+   "why": "Ймовірне майбутнє — *seems likely to get*. *to get tomorrow* — зміниться зміст і бракує «ймовірно»; *to be going get* — бракує *to*; *getting* — після *seem* потрібен інфінітив."
   },
   {
    "id": "seem-18",
@@ -274,7 +274,7 @@
     "to solving"
    ],
    "answer": 1,
-   "why": "*can't seem to* + дієслово — «ніяк не можу»."
+   "why": "*can't seem to* + дієслово — «ніяк не можу». *solve* — після *seem* потрібне *to*; *solving* і *to solving* — не інфінітив."
   },
   {
    "id": "seem-22",
@@ -287,7 +287,7 @@
     "look like"
    ],
    "answer": 1,
-   "why": "Про зовнішній вигляд — *look* + прикметник: *You look tired.*"
+   "why": "Про зовнішній вигляд — *look* + прикметник: *You look tired.* *seem to tired* — *to* перед прикметником без *be*; *seem like tired* і *look like tired* — *like* ставлять перед іменником, а не прикметником."
   },
   {
    "id": "seem-23",

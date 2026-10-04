@@ -37,7 +37,7 @@
     "idea"
    ],
    "answer": 1,
-   "why": "*information* — нелічильне: не буває *an information* чи *informations*. Одиниця — *a piece of information*."
+   "why": "*information* — нелічильне: не буває *an information* чи *informations*. Одиниця — *a piece of information*. *book*, *car*, *idea* — лічильні: *a book, two cars, many ideas*."
   },
   {
    "id": "countable-uncountable-4",
@@ -60,7 +60,7 @@
     "A news is bad."
    ],
    "answer": 1,
-   "why": "*news* закінчується на *-s*, але це нелічильне слово в однині: *The news is bad.*"
+   "why": "*news* закінчується на *-s*, але це нелічильне слово в однині: *The news is bad.* *are* — дієслово множини, а *news* в однині; *newses* не існує; *a news* — нелічильне не бере *a*."
   },
   {
    "id": "countable-uncountable-6",
@@ -86,7 +86,7 @@
     "She gave me many advices."
    ],
    "answer": 1,
-   "why": "*advice* — нелічильне: без *a* і без *-s*: *She gave me good advice.*"
+   "why": "*advice* — нелічильне: без *a* і без *-s*: *She gave me good advice.* *a good advice* — нелічильне не бере *a*; *advices* не існує; *many* вживають лише з лічильними."
   },
   {
    "id": "countable-uncountable-8",
@@ -185,7 +185,7 @@
     "much"
    ],
    "answer": 0,
-   "why": "*glass* у значенні «склянка» — лічильне, тому *a glass of water*."
+   "why": "*glass* у значенні «склянка» — лічильне, тому *a glass of water*. *some*, *any*, *much* не ставлять перед лічильним іменником в однині: склянка одна, тому *a*."
   },
   {
    "id": "countable-uncountable-17",
@@ -237,7 +237,7 @@
     "I have a work."
    ],
    "answer": 0,
-   "why": "*work* у значенні «робота, справи» — нелічильне: *a lot of work*. *works* — це «твори» (*the works of Shevchenko*) або «завод»."
+   "why": "*work* у значенні «робота, справи» — нелічильне: *a lot of work*. *works* — це «твори» (*the works of Shevchenko*) або «завод». *works* — це «твори» або «завод», не «справи»; *many* — лише з лічильними; *a work* у значенні «робота» не вживають."
   },
   {
    "id": "countable-uncountable-21",

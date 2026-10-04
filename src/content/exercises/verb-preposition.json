@@ -24,7 +24,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "*listen to* — слухати когось: прийменник обов'язковий, якщо є додаток."
+   "why": "*listen to* — слухати когось: прийменник обов'язковий, якщо є додаток. *listen at*, *listen for* («прислухатися, чи не…»), *listen on* у значенні «слухати когось» не вживають."
   },
   {
    "id": "verb-preposition-3",
@@ -37,7 +37,7 @@
     "on"
    ],
    "answer": 2,
-   "why": "*wait for* — чекати на."
+   "why": "*wait for* — чекати на. *wait to the bus* — *to* перед дієсловом (*wait to see*), не перед іменником; *wait at* — місце (*at the stop*); *wait on* — обслуговувати."
   },
   {
    "id": "verb-preposition-4",
@@ -50,7 +50,7 @@
     "about"
    ],
    "answer": 0,
-   "why": "*apologise for* — вибачатися за щось."
+   "why": "*apologise for* — вибачатися за щось. *of*, *at* і *about* після *apologise* не вживають: за що — *for*."
   },
   {
    "id": "verb-preposition-5",
@@ -63,7 +63,7 @@
     "to"
    ],
    "answer": 1,
-   "why": "*believe in* — вірити в когось (довіряти, підтримувати). *believe you* без прийменника — вірити твоїм словам."
+   "why": "*believe in* — вірити в когось (довіряти, підтримувати). *believe you* без прийменника — вірити твоїм словам. *believe on*, *believe at*, *believe to* так не кажуть."
   },
   {
    "id": "verb-preposition-6",
@@ -76,7 +76,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "*look for* — шукати."
+   "why": "*look for* — шукати. *look at* — дивитися; *look after* — доглядати; *look to* — покладатися."
   },
   {
    "id": "verb-preposition-7",
@@ -89,7 +89,7 @@
     "up"
    ],
    "answer": 1,
-   "why": "*look after* — доглядати."
+   "why": "*look after* — доглядати. *look for* — шукати; *look at* — дивитися; *look up* — шукати в довіднику."
   },
   {
    "id": "verb-preposition-8",
@@ -128,7 +128,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "*suffer from* — страждати від."
+   "why": "*suffer from* — страждати від. *by*, *of* і *at* після *suffer* у цьому значенні не вживають."
   },
   {
    "id": "verb-preposition-11",
@@ -209,7 +209,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*hear of* — знати про існування: *I've never heard of him.*"
+   "why": "*hear of* — знати про існування: *I've never heard of him.* *about him of* — подвійний додаток; *for* і *at* після *hear* не вживають."
   },
   {
    "id": "verb-preposition-19",
@@ -222,7 +222,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "*succeed in* + *-ing*."
+   "why": "*succeed in* + *-ing*. *at*, *on* і *to* після *succeed* не вживають; *succeed to* — «успадкувати», зміст інший."
   },
   {
    "id": "verb-preposition-20",
@@ -235,7 +235,7 @@
     "to"
    ],
    "answer": 0,
-   "why": "*enter* — без прийменника: *entered the room*."
+   "why": "*enter* — без прийменника: *entered the room*. *into*, *in*, *to* після *enter* — зайвий прийменник: *enter* уже означає «увійти в»."
   },
   {
    "id": "verb-preposition-21",
@@ -299,7 +299,7 @@
     "for"
    ],
    "answer": 1,
-   "why": "*hear of* — знати про існування: *I've never heard of this writer.*"
+   "why": "*hear of* — знати про існування: *I've never heard of this writer.* *at* і *for* після *hear* не вживають; *hear from* — отримати звістку від людини, з якою знайомий."
   },
   {
    "id": "verb-preposition-25",
@@ -312,7 +312,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "*provide somebody with something*."
+   "why": "*provide somebody with something*. *for* — коли річ іде перед людиною (*provided towels for us*); *of* і *by* після *provide* так не вживають."
   },
   {
    "id": "verb-preposition-26",

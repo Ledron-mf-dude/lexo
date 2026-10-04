@@ -24,7 +24,7 @@
     "while"
    ],
    "answer": 1,
-   "why": "*since* + момент, коли почалося: *since 2015*."
+   "why": "*since* + момент, коли почалося: *since 2015*. *for* — з тривалістю (*for ten years*); *during* — з подією; *while* — з реченням."
   },
   {
    "id": "during-for-while-since-3",
@@ -37,7 +37,7 @@
     "since"
    ],
    "answer": 1,
-   "why": "*during* + іменник (*the film*) — під час."
+   "why": "*during* + іменник (*the film*) — під час. *while* — з реченням (*while I was watching*); *for* — з тривалістю; *since* — з моментом початку."
   },
   {
    "id": "during-for-while-since-4",
@@ -89,7 +89,7 @@
     "for"
    ],
    "answer": 1,
-   "why": "*ago* — «тому» від теперішнього моменту, з Past Simple."
+   "why": "*ago* — «тому» від теперішнього моменту, з Past Simple. *before* — «раніше» щодо іншого моменту, а не від тепер; *since* і *for* з Past Simple в такому значенні не вживають."
   },
   {
    "id": "during-for-while-since-8",
@@ -102,7 +102,7 @@
     "ago"
    ],
    "answer": 1,
-   "why": "*since* + момент, коли почалося: *since Monday*."
+   "why": "*since* + момент, коли почалося: *since Monday*. *for* — з тривалістю (*for three days*); *during* — з подією; *ago* — з Past Simple."
   },
   {
    "id": "during-for-while-since-9",
@@ -115,7 +115,7 @@
     "at / at"
    ],
    "answer": 0,
-   "why": "*from … to* — «з … до»: *from 9 to 5*."
+   "why": "*from … to* — «з … до»: *from 9 to 5*. *since / to* і *for / to* — не пара «з … до»; *at / at* — дві окремі точки."
   },
   {
    "id": "during-for-while-since-10",
@@ -128,7 +128,7 @@
     "do"
    ],
    "answer": 1,
-   "why": "*How long have you lived here?* — Present Perfect."
+   "why": "*How long have you lived here?* — Present Perfect. *did* — Past Simple, а людина живе тут досі; *are you lived* і *do you lived* — неграматично."
   },
   {
    "id": "during-for-while-since-11",
@@ -188,7 +188,7 @@
     "ago"
    ],
    "answer": 0,
-   "why": "*for five years* — тривалість у минулому."
+   "why": "*for five years* — тривалість у минулому. *since five years* — *since* вимагає моменту початку; *during* — з подією; *ago* — «тому», а не тривалість."
   },
   {
    "id": "during-for-while-since-17",
@@ -201,7 +201,7 @@
     "during"
    ],
    "answer": 0,
-   "why": "*since* + рік початку з Present Perfect: *She's been a teacher since 2018.*"
+   "why": "*since* + рік початку з Present Perfect: *She's been a teacher since 2018.* *for 2018* — *for* вимагає тривалості; *from 2018* з Present Perfect не вживають; *during 2018* — лише протягом того року."
   },
   {
    "id": "during-for-while-since-18",
@@ -227,7 +227,7 @@
     "since"
    ],
    "answer": 0,
-   "why": "*while* + речення з дієсловом: *while I was waiting*."
+   "why": "*while* + речення з дієсловом: *while I was waiting*. *during* — з іменником, а тут речення; *for* — з тривалістю; *since* — з моментом початку."
   },
   {
    "id": "during-for-while-since-20",
@@ -240,7 +240,7 @@
     "during / to"
    ],
    "answer": 0,
-   "why": "*from … to*: *from 8 am to 9 pm*."
+   "why": "*from … to*: *from 8 am to 9 pm*. *since / to* — *since* з Present Perfect, не з розкладом; *for / until* — *for* вимагає тривалості; *during / to* — *during* з подією."
   },
   {
    "id": "during-for-while-since-21",
@@ -308,7 +308,7 @@
     "for"
    ],
    "answer": 1,
-   "why": "Від теперішнього моменту назад — *ago*: *three years ago*."
+   "why": "Від теперішнього моменту назад — *ago*: *three years ago*. *before* — «раніше» щодо іншого моменту в минулому; *since* і *for* з Past Simple в такому значенні не вживають."
   },
   {
    "id": "during-for-while-since-25",

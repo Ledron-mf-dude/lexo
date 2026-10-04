@@ -11,7 +11,7 @@
     "lie"
    ],
    "answer": 1,
-   "why": "Процес у певний момент майбутнього (*This time tomorrow*) — Future Continuous: *I will be lying on a beach.*"
+   "why": "Процес у певний момент майбутнього (*This time tomorrow*) — Future Continuous: *I will be lying on a beach.* *will lying* — бракує *be*; *will have lain* — завершено до того моменту; *lie* — теперішній час."
   },
   {
    "id": "future-continuous-perfect-2",
@@ -24,7 +24,7 @@
     "would do"
    ],
    "answer": 2,
-   "why": "*By 8 pm* — до моменту вже буде зроблено: Future Perfect *will have done*."
+   "why": "*By 8 pm* — до моменту вже буде зроблено: Future Perfect *will have done*. *am doing* — зараз; *will be doing* — ще в процесі о 20:00; *would do* — умовний спосіб."
   },
   {
    "id": "future-continuous-perfect-3",
@@ -55,7 +55,7 @@
     "is working"
    ],
    "answer": 1,
-   "why": "Тривалість до моменту в майбутньому (*In July … for ten years*) — *will have been working*."
+   "why": "Тривалість до моменту в майбутньому (*In July … for ten years*) — *will have been working*. *will work* і *works* не передають тривалості до моменту; *is working* — лише зараз."
   },
   {
    "id": "future-continuous-perfect-6",
@@ -65,10 +65,10 @@
     "Will / be using",
     "Will / have used",
     "Do / use",
-    "Are / using"
+    "Are / use"
    ],
    "answer": 0,
-   "why": "*Will you be using…?* — ввічливе питання про плани (не прохання напряму)."
+   "why": "*Will you be using…?* — ввічливе питання про плани (не прохання напряму). *Will … have used* — «чи вже скористаєшся»; *Do … use* — звичка; *Are … use* — *are* не поєднується з початковою формою."
   },
   {
    "id": "future-continuous-perfect-7",
@@ -81,7 +81,7 @@
     "By the time she arrives, I will be finish."
    ],
    "answer": 1,
-   "why": "Після *by the time* — Present Simple, у головній — Future Perfect."
+   "why": "Після *by the time* — Present Simple, у головній — Future Perfect. *I will finish* — не каже, що до її приходу вже буде готово; *By the time she will arrive* — майбутнє після *by the time*; *will be finish* — неграматично."
   },
   {
    "id": "future-continuous-perfect-8",
@@ -159,7 +159,7 @@
     "Would have"
    ],
    "answer": 0,
-   "why": "*Will you be passing…?* — ввічливо про плани."
+   "why": "*Will you be passing…?* — ввічливо про плани. *Are you be passing* — *are* і *be* разом; *Have you be passing* — неграматично; *Would have you be* — неграматично."
   },
   {
    "id": "future-continuous-perfect-15",
@@ -172,7 +172,7 @@
     "drive"
    ],
    "answer": 0,
-   "why": "О восьмій я буду в дорозі — *will be driving*."
+   "why": "О восьмій я буду в дорозі — *will be driving*. *will drive* — рішення поїхати, а не процес о восьмій; *will have driven* — уже доїду; *drive* — теперішній час."
   },
   {
    "id": "future-continuous-perfect-16",
@@ -268,7 +268,7 @@
     "are have"
    ],
    "answer": 1,
-   "why": "О восьмій ми будемо в процесі вечері — *will be having dinner*."
+   "why": "О восьмій ми будемо в процесі вечері — *will be having dinner*. *will having* — бракує *be*; *will have had* — вечеря вже закінчиться; *are have* — неграматично."
   },
   {
    "id": "future-continuous-perfect-22",
@@ -281,7 +281,7 @@
     "arrives"
    ],
    "answer": 1,
-   "why": "Припущення про вже завершене — *will have arrived*."
+   "why": "Припущення про вже завершене — *will have arrived*. *will arrive* — подія в майбутньому, а *by now* — уже мала прийти; *will be arrive* — неграматично; *arrives* — розклад або звичка."
   },
   {
    "id": "future-continuous-perfect-23",

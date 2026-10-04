@@ -24,7 +24,7 @@
     "Shall"
    ],
    "answer": 0,
-   "why": "Формальне прохання про дозвіл — *May I…?*: *May I come in?*"
+   "why": "Формальне прохання про дозвіл — *May I…?*: *May I come in?* *Must I…?* — «я мушу?»; *Will I…?* — питання про майбутнє; *Shall I…?* — пропозиція, а не прохання про дозвіл."
   },
   {
    "id": "may-might-3",
@@ -37,7 +37,7 @@
     "does"
    ],
    "answer": 0,
-   "why": "*may not* — «можливо, ні»: *She may not come.*"
+   "why": "*may not* — «можливо, ні»: *She may not come.* *mays* — модальне не бере *-s*; *is not come* і *does not come* — неграматично або без значення можливості."
   },
   {
    "id": "may-might-4",
@@ -50,7 +50,7 @@
     "must to"
    ],
    "answer": 1,
-   "why": "У непрямій мові *may* часто змінюється на *might*: *He said he might come.*"
+   "why": "У непрямій мові *may* часто змінюється на *might*: *He said he might come.* *mights* — модальне не бере *-s*; *will to* і *must to* — після модального немає *to*."
   },
   {
    "id": "may-might-5",
@@ -89,7 +89,7 @@
     "She may has forgotten."
    ],
    "answer": 1,
-   "why": "Можливість у минулому — *may have* + третя форма: *She may have forgotten.*"
+   "why": "Можливість у минулому — *may have* + третя форма: *She may have forgotten.* *may forgot* і *may forgotten* — після *may* потрібно *have* + третя форма; *may has* — модальне не змінює *have* на *has*."
   },
   {
    "id": "may-might-8",
@@ -160,7 +160,7 @@
     "mights"
    ],
    "answer": 0,
-   "why": "*may* + інфінітив без *to*, без закінчень."
+   "why": "*may* + інфінітив без *to*, без закінчень. *mays* і *mights* — модальне не бере *-s*; *may to* — після *may* немає *to*."
   },
   {
    "id": "may-might-14",
@@ -173,7 +173,7 @@
     "may to"
    ],
    "answer": 0,
-   "why": "Коротка відповідь — лише модальне: *He might.*"
+   "why": "Коротка відповідь — лише модальне: *He might.* *might come to* — зайве *to*; *mights* — модальне не бере *-s*; *may to* — після *may* немає *to*."
   },
   {
    "id": "may-might-15",
@@ -186,7 +186,7 @@
     "must"
    ],
    "answer": 0,
-   "why": "*may* — формальний дозвіл: *You may leave your bags here.*"
+   "why": "*may* — формальний дозвіл: *You may leave your bags here.* *might* для дозволу звучить надто невпевнено; *mightn't* — заборона; *must* — обов'язок, а не дозвіл."
   },
   {
    "id": "may-might-16",
@@ -199,7 +199,7 @@
     "mights"
    ],
    "answer": 0,
-   "why": "У непрямій мові *may* → *might*."
+   "why": "У непрямій мові *may* → *might*. *may to* — після *may* немає *to*; *will* — пряма мова була про можливість, а не впевненість; *mights* — модальне не бере *-s*."
   },
   {
    "id": "may-might-17",
@@ -270,7 +270,7 @@
     "walked"
    ],
    "answer": 1,
-   "why": "*might as well* + інфінітив без *to*: *We might as well walk.*"
+   "why": "*might as well* + інфінітив без *to*: *We might as well walk.* *to walk* — після *might as well* немає *to*; *walking* і *walked* — не початкова форма."
   },
   {
    "id": "may-might-22",

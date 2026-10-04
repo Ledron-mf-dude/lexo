@@ -11,7 +11,7 @@
     "will to"
    ],
    "answer": 0,
-   "why": "*be about to* — «ось-ось»: фільм от-от почнеться."
+   "why": "*be about to* — «ось-ось»: фільм от-от почнеться. *is due* і *is bound* без *to* неповні; *will to* — зайве *to*."
   },
   {
    "id": "other-ways-future-2",
@@ -24,7 +24,7 @@
     "is to be"
    ],
    "answer": 0,
-   "why": "За розкладом — *be due to*: *The train is due to arrive at 6:30.*"
+   "why": "За розкладом — *be due to*: *The train is due to arrive at 6:30.* *is about* і *is bound* без *to* неповні; *is to be arrive* — неграматично."
   },
   {
    "id": "other-ways-future-3",
@@ -37,7 +37,7 @@
     "on the point"
    ],
    "answer": 2,
-   "why": "*be bound to* — «напевно, неодмінно»."
+   "why": "*be bound to* — «напевно, неодмінно». *about to* — «ось-ось», *due to* — за розкладом, *on the point win* — бракує *of* + *-ing*."
   },
   {
    "id": "other-ways-future-4",
@@ -50,7 +50,7 @@
     "is on the point"
    ],
    "answer": 0,
-   "why": "*be to* — офіційні плани й домовленості."
+   "why": "*be to* — офіційні плани й домовленості. *is about to* — ось-ось; *is bound to* — неодмінно; *is on the point visit* — бракує *of* + *-ing*."
   },
   {
    "id": "other-ways-future-5",
@@ -63,7 +63,7 @@
     "on"
    ],
    "answer": 0,
-   "why": "*be bound to* — так завжди буває."
+   "why": "*be bound to* — так завжди буває. *due go*, *about go*, *on go* — без *to* неповні й мають інший зміст."
   },
   {
    "id": "other-ways-future-6",
@@ -85,7 +85,7 @@
     "might"
    ],
    "answer": 2,
-   "why": "Найвища впевненість — *is bound to*."
+   "why": "Найвища впевненість — *is bound to*. *may*, *might* — лише можливість; *is likely to* — ймовірно, але не напевно."
   },
   {
    "id": "other-ways-future-8",
@@ -163,7 +163,7 @@
     "are bound"
    ],
    "answer": 0,
-   "why": "Офіційна вимога — *are to attend*."
+   "why": "Офіційна вимога — *are to attend*. *are about to* — ось-ось; *are due attend* і *are bound attend* — бракує *to*."
   },
   {
    "id": "other-ways-future-14",
@@ -176,7 +176,7 @@
     "left"
    ],
    "answer": 0,
-   "why": "*be on the point of* + *-ing* — «якраз збирався»."
+   "why": "*be on the point of* + *-ing* — «якраз збирався». *to leave*, *leave*, *left* — після прийменника *of* потрібне *-ing*."
   },
   {
    "id": "other-ways-future-15",
@@ -189,7 +189,7 @@
     "is set"
    ],
    "answer": 0,
-   "why": "От-от — *is about to leave*."
+   "why": "От-от — *is about to leave*. *is due*, *is bound*, *is set* без *to* неповні."
   },
   {
    "id": "other-ways-future-16",
@@ -202,7 +202,7 @@
     "on the point"
    ],
    "answer": 0,
-   "why": "Ймовірно — *is likely to rain*."
+   "why": "Ймовірно — *is likely to rain*. *about to* — ось-ось, а не «ймовірно»; *due to* — за розкладом; *on the point* — потребує *of* + *-ing*."
   },
   {
    "id": "other-ways-future-17",
@@ -267,7 +267,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "За розкладом — *due to land*."
+   "why": "За розкладом — *due to land*. *about to* — ось-ось; *bound to* — неодмінно; *on to* — неграматично."
   },
   {
    "id": "other-ways-future-21",
@@ -280,7 +280,7 @@
     "verge"
    ],
    "answer": 1,
-   "why": "Ось-ось — *about to start*."
+   "why": "Ось-ось — *about to start*. *due to* — за розкладом; *on the point to* — потрібне *of* + *-ing*; *verge to* — потрібне *on the verge of*."
   },
   {
    "id": "other-ways-future-22",

@@ -11,7 +11,7 @@
     "have gone"
    ],
    "answer": 0,
-   "why": "*It's time* + Past Simple — «давно пора»: *It's time we went home.* Минулий час тут не про минуле, а про нереальність."
+   "why": "*It's time* + Past Simple — «давно пора»: *It's time we went home.* Минулий час тут не про минуле, а про нереальність. *going* — немає особової форми; *will go* і *have gone* — після *It's time* потрібен Past Simple."
   },
   {
    "id": "unreal-past-2",
@@ -24,7 +24,7 @@
     "has known"
    ],
    "answer": 0,
-   "why": "*as if* + Past Simple — нереально (насправді не знає): *as if he knew everything*."
+   "why": "*as if* + Past Simple — нереально (насправді не знає): *as if he knew everything*. *knows* — реальний факт, а він не знає; *will know* — майбутнє; *has known* — реальний результат."
   },
   {
    "id": "unreal-past-3",
@@ -34,10 +34,10 @@
     "didn't",
     "doesn't",
     "won't",
-    "not"
+    "haven't"
    ],
    "answer": 0,
-   "why": "*would rather* + інша особа + Past Simple: *I'd rather you didn't tell her.*"
+   "why": "*would rather* + інша особа + Past Simple: *I'd rather you didn't tell her.* *doesn't* — для *he / she / it*; *won't* і *haven't* — після *would rather you* потрібен Past Simple."
   },
   {
    "id": "unreal-past-4",
@@ -50,7 +50,7 @@
     "has seen"
    ],
    "answer": 0,
-   "why": "Привида бачила раніше за момент «виглядала» — *as if she had seen a ghost*."
+   "why": "Привида бачила раніше за момент «виглядала» — *as if she had seen a ghost*. *saw now* — суперечність часу; *sees* і *has seen* — теперішні форми після *looked*."
   },
   {
    "id": "unreal-past-5",
@@ -63,7 +63,7 @@
     "would win"
    ],
    "answer": 0,
-   "why": "Уявна ситуація — *Suppose* + Past Simple: *Suppose you won a million.*"
+   "why": "Уявна ситуація — *Suppose* + Past Simple: *Suppose you won a million.* *win* і *will win* — реальна умова, а питання з *would*; *would win* — *would* не стоїть після *suppose*."
   },
   {
    "id": "unreal-past-6",
@@ -76,7 +76,7 @@
     "had"
    ],
    "answer": 0,
-   "why": "Реально можливий дощ — звичайний час: *It looks as if it is going to rain.*"
+   "why": "Реально можливий дощ — звичайний час: *It looks as if it is going to rain.* *would* і *was going* — нереальний або неповний зворот (*was going to*), а дощ цілком можливий; *had rain* — неграматично."
   },
   {
    "id": "unreal-past-7",
@@ -89,7 +89,7 @@
     "has done"
    ],
    "answer": 0,
-   "why": "*It's high time* + Past Simple: давно пора щось зробити."
+   "why": "*It's high time* + Past Simple: давно пора щось зробити. *does*, *will do*, *has done* — після *It's high time* потрібен Past Simple."
   },
   {
    "id": "unreal-past-8",
@@ -102,7 +102,7 @@
     "wouldn't"
    ],
    "answer": 0,
-   "why": "Про минуле — *would rather you hadn't told him*."
+   "why": "Про минуле — *would rather you hadn't told him*. *didn't* — про теперішнє, а розповів він уже раніше; *don't* — теперішній час; *wouldn't* — після *would rather* не вживають."
   },
   {
    "id": "unreal-past-9",
@@ -115,7 +115,7 @@
     "be"
    ],
    "answer": 0,
-   "why": "*What if* + Past Simple / *were* — уявна ситуація: *What if the plane were late?*"
+   "why": "*What if* + Past Simple / *were* — уявна ситуація: *What if the plane were late?* *is being* — процес зараз; *will be* — майбутнє після *what if* у такій уявній ситуації не вживають; *be* — немає особової форми."
   },
   {
    "id": "unreal-past-10",
@@ -234,7 +234,7 @@
     "have made"
    ],
    "answer": 1,
-   "why": "*It's high time you made a decision.*"
+   "why": "*It's high time you made a decision.* *make*, *will make*, *have made* — після *It's high time* потрібен Past Simple."
   },
   {
    "id": "unreal-past-20",

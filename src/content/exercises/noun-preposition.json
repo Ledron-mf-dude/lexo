@@ -11,7 +11,7 @@
     "at"
    ],
    "answer": 1,
-   "why": "*reason for* — причина чогось: *the reason for the delay*."
+   "why": "*reason for* — причина чогось: *the reason for the delay*. *of*, *to* і *at* після *reason* у значенні «причина чогось» не вживають."
   },
   {
    "id": "noun-preposition-2",
@@ -37,7 +37,7 @@
     "in"
    ],
    "answer": 2,
-   "why": "*difference between* — різниця між."
+   "why": "*difference between* — різниця між. *of*, *from* і *in* — після *difference* між двома речами потрібне *between* (*difference in* — «різниця в чомусь»)."
   },
   {
    "id": "noun-preposition-4",
@@ -63,7 +63,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*demand for* — попит на щось."
+   "why": "*demand for* — попит на щось. *of*, *in* і *at* після *demand* у значенні «попит на» не вживають."
   },
   {
    "id": "noun-preposition-6",
@@ -76,7 +76,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "*cause of* — причина (чогось поганого)."
+   "why": "*cause of* — причина (чогось поганого). *for* — з *reason*, а з *cause* — *of*; *to* і *in* не вживають."
   },
   {
    "id": "noun-preposition-7",
@@ -89,7 +89,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "*trouble with* — труднощі з чимось."
+   "why": "*trouble with* — труднощі з чимось. *in*, *at* і *on* після *trouble* у значенні «труднощі з» не вживають."
   },
   {
    "id": "noun-preposition-8",
@@ -102,7 +102,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "*attitude to / towards* — ставлення до."
+   "why": "*attitude to / towards* — ставлення до. *for*, *with* і *on* після *attitude* не вживають."
   },
   {
    "id": "noun-preposition-9",
@@ -199,7 +199,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "*lack of* — брак чогось."
+   "why": "*lack of* — брак чогось. *in*, *for*, *with* після *lack* не вживають (*lack* без прийменника — дієслово)."
   },
   {
    "id": "noun-preposition-18",
@@ -212,7 +212,7 @@
     "for"
    ],
    "answer": 0,
-   "why": "*relationship with* — стосунки з кимось."
+   "why": "*relationship with* — стосунки з кимось. *to*, *for* — після *relationship* з людьми вживають *with*; *between* — між двома сторонами (*between him and his colleagues*)."
   },
   {
    "id": "noun-preposition-19",
@@ -279,7 +279,7 @@
     "with"
    ],
    "answer": 1,
-   "why": "*in charge of* — відповідальний за."
+   "why": "*in charge of* — відповідальний за. *for*, *on*, *with* — у звороті *in charge* лише *of*."
   },
   {
    "id": "noun-preposition-23",
@@ -292,7 +292,7 @@
     "in"
    ],
    "answer": 1,
-   "why": "*by mistake* — випадково, помилково."
+   "why": "*by mistake* — випадково, помилково. *on mistake*, *for mistake*, *in mistake* так не кажуть."
   },
   {
    "id": "noun-preposition-24",

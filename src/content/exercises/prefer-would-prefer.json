@@ -24,7 +24,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*prefer* + *-ing* + *to* + *-ing*: *prefers walking to driving*."
+   "why": "*prefer* + *-ing* + *to* + *-ing*: *prefers walking to driving*. *than* — у конструкції *prefer* + *-ing* порівняння вводить *to*; *from* і *at* не вживають."
   },
   {
    "id": "prefer-would-prefer-3",
@@ -50,7 +50,7 @@
     "stayed"
    ],
    "answer": 0,
-   "why": "*would rather* + дієслово без *to*: *I'd rather stay home.*"
+   "why": "*would rather* + дієслово без *to*: *I'd rather stay home.* *to stay* — зайве *to*; *staying* і *stayed* — після *would rather* потрібна початкова форма."
   },
   {
    "id": "prefer-would-prefer-5",
@@ -63,7 +63,7 @@
     "to stay"
    ],
    "answer": 1,
-   "why": "*would rather* + інша особа + Past Simple: *I'd rather you stayed here.*"
+   "why": "*would rather* + інша особа + Past Simple: *I'd rather you stayed here.* *will stay* — майбутнє тут не вживають; *staying* і *to stay* — після *would rather you* потрібна особова форма в минулому."
   },
   {
    "id": "prefer-would-prefer-6",
@@ -89,7 +89,7 @@
     "I would rather goes home."
    ],
    "answer": 1,
-   "why": "Після *would rather* — інфінітив без *to*: *I would rather go home.*"
+   "why": "Після *would rather* — інфінітив без *to*: *I would rather go home.* *rather to go* — зайве *to*; *rather going* — не вживають *-ing*; *rather goes* — без закінчень."
   },
   {
    "id": "prefer-would-prefer-8",
@@ -102,7 +102,7 @@
     "went"
    ],
    "answer": 0,
-   "why": "*would rather not* + дієслово без *to*."
+   "why": "*would rather not* + дієслово без *to*. *to go* — зайве *to*; *going* і *went* — потрібна початкова форма."
   },
   {
    "id": "prefer-would-prefer-9",
@@ -174,7 +174,7 @@
     "to travelling"
    ],
    "answer": 0,
-   "why": "*would prefer* + *to* + дієслово."
+   "why": "*would prefer* + *to* + дієслово. *travel* — після *would prefer* потрібне *to*; *travelling to* і *to travelling* — змішані форми."
   },
   {
    "id": "prefer-would-prefer-16",
@@ -196,11 +196,11 @@
    "options": [
     "didn't",
     "doesn't",
-    "not",
+    "haven't",
     "won't"
    ],
    "answer": 0,
-   "why": "*would rather* + особа + Past Simple: *I'd rather you didn't tell anyone.*"
+   "why": "*would rather* + особа + Past Simple: *I'd rather you didn't tell anyone.* *doesn't* — для *he / she / it*; *won't* і *haven't* — після *would rather you* потрібен Past Simple."
   },
   {
    "id": "prefer-would-prefer-18",
@@ -213,7 +213,7 @@
     "like to"
    ],
    "answer": 0,
-   "why": "*I'd rather have…* — «я б краще…»."
+   "why": "*I'd rather have…* — «я б краще…». *prefer have* — після *prefer* потрібне *to*; *better have* — порада; *like to have* — дає «я хотів би випити», але без порівняння «краще»."
   },
   {
    "id": "prefer-would-prefer-19",
@@ -275,7 +275,7 @@
     "you staying"
    ],
    "answer": 1,
-   "why": "*would prefer* + особа + *to*: *I'd prefer you to stay.*"
+   "why": "*would prefer* + особа + *to*: *I'd prefer you to stay.* *you stays* — неграматично; *that you staying* — бракує особової форми; *you staying* — після *would prefer* особа + *to*."
   },
   {
    "id": "prefer-would-prefer-23",
@@ -288,7 +288,7 @@
     "wouldn't to"
    ],
    "answer": 1,
-   "why": "*would prefer it if* + Past Simple: *if you didn't smoke*."
+   "why": "*would prefer it if* + Past Simple: *if you didn't smoke*. *doesn't* — для *he / she / it*; *won't* — майбутнє; *wouldn't to* — зайве *to*."
   },
   {
    "id": "prefer-would-prefer-24",

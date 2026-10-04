@@ -24,7 +24,7 @@
     "will arrive"
    ],
    "answer": 0,
-   "why": "*It's essential that* + базова форма: *everyone arrive* (без *-s*)."
+   "why": "*It's essential that* + базова форма: *everyone arrive* (без *-s*). *to arrive* і *arriving* — після *that* потрібна особова (базова) форма; *will arrive* — у формальному стилі після *essential that* не вживають."
   },
   {
    "id": "subjunctive-3",
@@ -37,7 +37,7 @@
     "will be"
    ],
    "answer": 0,
-   "why": "*insist that* + *be* для будь-якої особи: *that she be present*."
+   "why": "*insist that* + *be* для будь-якої особи: *that she be present*. *to be* і *being* — після *that* потрібна базова форма; *will be* — після *insist that* не вживають у цьому значенні."
   },
   {
    "id": "subjunctive-4",
@@ -50,7 +50,7 @@
     "didn't use"
    ],
    "answer": 0,
-   "why": "Заперечення в subjunctive — *not* + базова форма, без *do*: *that you not use*."
+   "why": "Заперечення в subjunctive — *not* + базова форма, без *do*: *that you not use*. *not to use* — після *that* *to* не ставлять; *no use* — неграматично; *didn't use* — минуле, а рекомендація стосується майбутнього."
   },
   {
    "id": "subjunctive-5",
@@ -63,7 +63,7 @@
     "we taking"
    ],
    "answer": 0,
-   "why": "Після *suggest* можна й *-ing*: *I suggest taking a break.*"
+   "why": "Після *suggest* можна й *-ing*: *I suggest taking a break.* *to take* — після *suggest* не вживають; *take* — без підмета неграматично; *we taking* — бракує особової форми."
   },
   {
    "id": "subjunctive-6",
@@ -76,7 +76,7 @@
     "will be"
    ],
    "answer": 0,
-   "why": "Past subjunctive — *were* для всіх осіб: *If I were you…*"
+   "why": "Past subjunctive — *were* для всіх осіб: *If I were you…* *am* — реальна умова, а я не ти; *be* — розмовно-діалектне; *will be* — після *if* майбутнє не вживають."
   },
   {
    "id": "subjunctive-7",
@@ -89,7 +89,7 @@
     "will pays"
    ],
    "answer": 0,
-   "why": "*order that* + базова форма: *that the company pay*."
+   "why": "*order that* + базова форма: *that the company pay*. *to pay* і *paying* — після *that* потрібна базова форма; *will pays* — неграматично."
   },
   {
    "id": "subjunctive-8",
@@ -102,7 +102,7 @@
     "no be"
    ],
    "answer": 0,
-   "why": "Заперечення: *that he not be late*."
+   "why": "Заперечення: *that he not be late*. *not to be* — після *that* *to* не ставлять; *doesn't be* і *no be* — неграматично."
   },
   {
    "id": "subjunctive-9",
@@ -115,7 +115,7 @@
     "shall to"
    ],
    "answer": 0,
-   "why": "Британці часто кажуть *should* + дієслово: *I suggest that he should see a doctor.*"
+   "why": "Британці часто кажуть *should* + дієслово: *I suggest that he should see a doctor.* *would* — не британська альтернатива після *suggest*; *must to* і *shall to* — зайве *to*."
   },
   {
    "id": "subjunctive-10",
@@ -238,7 +238,7 @@
     "will take"
    ],
    "answer": 1,
-   "why": "*recommended that he take* — базова форма."
+   "why": "*recommended that he take* — базова форма. *to take* і *taking* — після *that* потрібна базова форма; *will take* — у такій конструкції не вживають."
   },
   {
    "id": "subjunctive-20",
@@ -251,7 +251,7 @@
     "being"
    ],
    "answer": 1,
-   "why": "*if need be* — «якщо буде потрібно»."
+   "why": "*if need be* — «якщо буде потрібно». *is*, *was*, *being* — у сталому виразі лише *if need be*."
   },
   {
    "id": "subjunctive-21",
@@ -274,7 +274,7 @@
     "were close"
    ],
    "answer": 0,
-   "why": "*were to* + дієслово — дуже малоймовірна, уявна подія в майбутньому."
+   "why": "*were to* + дієслово — дуже малоймовірна, уявна подія в майбутньому. *was to will* — неграматично; *would close* — *would* стоїть у головній частині; *were close* — бракує *to*."
   },
   {
    "id": "subjunctive-23",

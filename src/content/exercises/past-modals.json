@@ -24,7 +24,7 @@
     "would"
    ],
    "answer": 0,
-   "why": "Земля мокра — упевнений висновок про минуле: *must have rained*."
+   "why": "Земля мокра — упевнений висновок про минуле: *must have rained*. *should have* — «мало б», докір або очікування; *can't have* — упевнене «ні», а земля мокра; *would rained* — неграматично."
   },
   {
    "id": "past-modals-3",
@@ -50,7 +50,7 @@
     "can't have"
    ],
    "answer": 0,
-   "why": "Невпевнене припущення — *might have missed*."
+   "why": "Невпевнене припущення — *might have missed*. *must missed* — після *must* потрібно *have* + V3; *should have* — «варто було», не припущення; *can't have* — упевнене «ні»."
   },
   {
    "id": "past-modals-5",
@@ -63,7 +63,7 @@
     "can have"
    ],
    "answer": 0,
-   "why": "Була можливість, але не скористалися: *could have won*."
+   "why": "Була можливість, але не скористалися: *could have won*. *must have won* — упевненість, що виграли, а ми програли; *should won* — бракує *have*; *can have won* у ствердженні не вживають."
   },
   {
    "id": "past-modals-6",
@@ -76,7 +76,7 @@
     "shouldn't"
    ],
    "answer": 0,
-   "why": "Зробили, хоча не треба було: *needn't have brought*."
+   "why": "Зробили, хоча не треба було: *needn't have brought*. *mustn't have* у значенні «не треба було» не вживають; *couldn't have* — «не міг»; *shouldn't brought* — бракує *have*."
   },
   {
    "id": "past-modals-7",
@@ -89,7 +89,7 @@
     "mustn't have"
    ],
    "answer": 0,
-   "why": "Шкода, що зробив: *shouldn't have eaten*."
+   "why": "Шкода, що зробив: *shouldn't have eaten*. *couldn't have* — «не міг би»; *needn't eaten* — бракує *have*; *mustn't have* у значенні жалю не вживають."
   },
   {
    "id": "past-modals-8",
@@ -115,7 +115,7 @@
     "I shouldn't"
    ],
    "answer": 0,
-   "why": "*should've* = *should have*. *should of* — помилка через однакову вимову."
+   "why": "*should've* = *should have*. *should of* — помилка через однакову вимову. *should off* — теж помилка написання; *shouldn't* — заперечення, а в *should've* його немає."
   },
   {
    "id": "past-modals-10",
@@ -247,7 +247,7 @@
     "can rain"
    ],
    "answer": 1,
-   "why": "Висновок про минуле — *must have rained*."
+   "why": "Висновок про минуле — *must have rained*. *must rain*, *should rain*, *can rain* — про теперішнє чи загальне, а дощ був уночі."
   },
   {
    "id": "past-modals-21",
@@ -260,7 +260,7 @@
     "should send"
    ],
    "answer": 1,
-   "why": "Звіт мали відправити (пасив) — *should have been sent*."
+   "why": "Звіт мали відправити (пасив) — *should have been sent*. *should have sent* — звіт сам нічого не відправляє; *should be sent* — про теперішнє; *should send* — активна форма й теперішній час."
   },
   {
    "id": "past-modals-22",

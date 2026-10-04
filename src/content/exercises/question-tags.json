@@ -11,7 +11,7 @@
     "does she"
    ],
    "answer": 1,
-   "why": "Ствердне речення — заперечний тег з тим самим допоміжним: *She is late, isn't she?*"
+   "why": "Ствердне речення — заперечний тег з тим самим допоміжним: *She is late, isn't she?* *is she* — ствердний тег після ствердного речення; *doesn't she* / *does she* — у реченні допоміжне *is*, а не *does*."
   },
   {
    "id": "question-tags-2",
@@ -24,7 +24,7 @@
     "did you"
    ],
    "answer": 1,
-   "why": "Заперечне речення — ствердний тег: *You don't like it, do you?*"
+   "why": "Заперечне речення — ствердний тег: *You don't like it, do you?* *don't you* — заперечний тег після заперечного речення; *aren't you* — інше допоміжне; *did you* — інший час."
   },
   {
    "id": "question-tags-3",
@@ -37,7 +37,7 @@
     "didn't they"
    ],
    "answer": 1,
-   "why": "У тегу повторюємо те саме допоміжне (*have*): *They have left, haven't they?*"
+   "why": "У тегу повторюємо те саме допоміжне (*have*): *They have left, haven't they?* *don't they* і *didn't they* — інше допоміжне, ніж *have*; *aren't they* — так само."
   },
   {
    "id": "question-tags-4",
@@ -50,7 +50,7 @@
     "doesn't he"
    ],
    "answer": 1,
-   "why": "Модальне *can* повторюється в тегу: *He can swim, can't he?*"
+   "why": "Модальне *can* повторюється в тегу: *He can swim, can't he?* *can he* — ствердний тег після ствердного речення; *isn't he* / *doesn't he* — інше допоміжне, ніж *can*."
   },
   {
    "id": "question-tags-5",
@@ -63,7 +63,7 @@
     "live you"
    ],
    "answer": 0,
-   "why": "Present Simple без допоміжного — у тегу *do / don't*: *You live here, don't you?*"
+   "why": "Present Simple без допоміжного — у тегу *do / don't*: *You live here, don't you?* *aren't you* — у реченні немає *be*; *do you* — ствердний тег після ствердного речення; *live you* — тег будують з допоміжним."
   },
   {
    "id": "question-tags-6",
@@ -89,7 +89,7 @@
     "let we"
    ],
    "answer": 1,
-   "why": "Після *Let's* тег — *shall we?*: *Let's go, shall we?*"
+   "why": "Після *Let's* тег — *shall we?*: *Let's go, shall we?* *will we* і *do we* після *Let's* не вживають; *let we* — неграматично."
   },
   {
    "id": "question-tags-8",
@@ -102,7 +102,7 @@
     "shall we"
    ],
    "answer": 0,
-   "why": "Після наказу тег *will you?* робить його проханням."
+   "why": "Після наказу тег *will you?* робить його проханням. *do you* і *are you* — після наказу не вживають; *shall we* — для *Let's*, а не для прохання."
   },
   {
    "id": "question-tags-9",
@@ -186,7 +186,7 @@
     "aren't you"
    ],
    "answer": 0,
-   "why": "Ствердне *will* — заперечний тег *won't you?*"
+   "why": "Ствердне *will* — заперечний тег *won't you?* *will you* — ствердний тег після ствердного речення; *don't you* / *aren't you* — інше допоміжне, ніж *will*."
   },
   {
    "id": "question-tags-17",
@@ -199,7 +199,7 @@
     "didn't anyone"
    ],
    "answer": 0,
-   "why": "*Nobody* — заперечне слово, тому тег ствердний; про людей невідомої статі — *they*: *did they?*"
+   "why": "*Nobody* — заперечне слово, тому тег ствердний; про людей невідомої статі — *they*: *did they?* *didn't they* — заперечний тег після заперечного *Nobody*; *did he* — стать невідома; *didn't anyone* — у тегу ставлять займенник, а не *anyone*."
   },
   {
    "id": "question-tags-18",
@@ -212,7 +212,7 @@
     "So can I."
    ],
    "answer": 0,
-   "why": "Згода із запереченням (*can't*): *Neither can I.*"
+   "why": "Згода із запереченням (*can't*): *Neither can I.* *So can't I* і *Neither can't I* — подвійне заперечення; *So can I* — згода зі ствердженням (я теж умію)."
   },
   {
    "id": "question-tags-19",
@@ -225,7 +225,7 @@
     "isn't he"
    ],
    "answer": 0,
-   "why": "*never* робить речення заперечним, тому тег ствердний: *has he?*"
+   "why": "*never* робить речення заперечним, тому тег ствердний: *has he?* *hasn't he* — заперечний тег після заперечного речення; *is he* / *isn't he* — *'s* тут скорочення від *has*, не *is*."
   },
   {
    "id": "question-tags-20",
@@ -287,7 +287,7 @@
     "don't you"
    ],
    "answer": 1,
-   "why": "*never* — заперечне, тому тег ствердний: *have you?*"
+   "why": "*never* — заперечне, тому тег ствердний: *have you?* *haven't you* — заперечний тег після *never*; *did you* і *don't you* — інше допоміжне, ніж *have*."
   },
   {
    "id": "question-tags-24",
@@ -300,7 +300,7 @@
     "wasn't it"
    ],
    "answer": 1,
-   "why": "*Everybody* у тегу — *they*: *Everybody liked the film, didn't they?*"
+   "why": "*Everybody* у тегу — *they*: *Everybody liked the film, didn't they?* *didn't he* — про *everybody* у тегу кажуть *they*; *did they* — ствердний тег після ствердного речення; *wasn't it* — тег не про фільм, а про тих, кому сподобалось."
   },
   {
    "id": "question-tags-25",
@@ -313,7 +313,7 @@
     "weren't you"
    ],
    "answer": 1,
-   "why": "*used to* у тегу — *didn't*: *You used to live here, didn't you?*"
+   "why": "*used to* у тегу — *didn't*: *You used to live here, didn't you?* *usedn't you* — застаріла рідкісна форма; *don't you* — теперішній час; *weren't you* — у реченні немає *be*."
   },
   {
    "id": "question-tags-26",

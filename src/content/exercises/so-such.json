@@ -37,7 +37,7 @@
     "so much"
    ],
    "answer": 1,
-   "why": "Множина — *such* без артикля: *such kind people*."
+   "why": "Множина — *such* без артикля: *such kind people*. *so* — перед прикметником без іменника; *such a* — лише з однинною; *so much* — перед нелічильним без прикметника."
   },
   {
    "id": "so-such-4",
@@ -50,7 +50,7 @@
     "very"
    ],
    "answer": 0,
-   "why": "*so much* + нелічильне: *so much work*."
+   "why": "*so much* + нелічильне: *so much work*. *such much*, *such a much* — неграматично; *very much work* — не вигук і звучить нейтрально."
   },
   {
    "id": "so-such-5",
@@ -63,7 +63,7 @@
     "much"
    ],
    "answer": 0,
-   "why": "*so many* + лічильне: *so many people*."
+   "why": "*so many* + лічильне: *so many people*. *such many*, *such a many* — неграматично; *much* — для нелічильних."
   },
   {
    "id": "so-such-6",
@@ -76,7 +76,7 @@
     "very"
    ],
    "answer": 0,
-   "why": "*so* + прикметник + *that*: *so cold that…*"
+   "why": "*so* + прикметник + *that*: *so cold that…* *such cold* і *such a cold* — *such* перед прикметником без іменника не вживають; *very cold that* — *very* не поєднується з *that*."
   },
   {
    "id": "so-such-7",
@@ -89,7 +89,7 @@
     "very"
    ],
    "answer": 1,
-   "why": "*such a* + прикметник + іменник + *that*."
+   "why": "*such a* + прикметник + іменник + *that*. *so a cold day* — неправильний порядок (*so cold a day* — книжне); *very a cold day* — неграматично."
   },
   {
    "id": "so-such-8",
@@ -102,7 +102,7 @@
     "She is such a tall."
    ],
    "answer": 1,
-   "why": "*so* + прикметник: *She is so tall.*"
+   "why": "*so* + прикметник: *She is so tall.* *such tall* — без іменника потрібне *so*; *so a tall girl* — неправильний порядок; *such a tall* — бракує іменника."
   },
   {
    "id": "so-such-9",
@@ -115,7 +115,7 @@
     "very much"
    ],
    "answer": 0,
-   "why": "*so* + прислівник + *that*: *so fast that…*"
+   "why": "*so* + прислівник + *that*: *so fast that…* *such* і *such a* не стоять перед прислівником; *very much fast* — неграматично."
   },
   {
    "id": "so-such-10",
@@ -128,7 +128,7 @@
     "so much"
    ],
    "answer": 1,
-   "why": "*news* — нелічильне: *such good news* (без *a*)."
+   "why": "*news* — нелічильне: *such good news* (без *a*). *so good news* — перед прикметником з іменником потрібне *such*; *such a* — артикль із нелічильним *news*; *so much good news* — інший зміст (багато новин)."
   },
   {
    "id": "so-such-11",
@@ -190,7 +190,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "Множина — *such friendly people*."
+   "why": "Множина — *such friendly people*. *so friendly people* — перед прикметником з іменником потрібне *such*; *such a* — лише з однинною; *so much* — перед нелічильним."
   },
   {
    "id": "so-such-17",
@@ -216,7 +216,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "*so little* + нелічильне: *so little time*."
+   "why": "*so little* + нелічильне: *so little time*. *such little* — *little* після *such* не ставлять у цьому значенні; *such a little time* — артикль із нелічильним; *so much little* — подвоєння."
   },
   {
    "id": "so-such-19",
@@ -229,7 +229,7 @@
     "so much"
    ],
    "answer": 0,
-   "why": "*so* + прикметник без іменника: *so happy*."
+   "why": "*so* + прикметник без іменника: *so happy*. *such* і *such a* потребують іменника; *so much happy* — *much* не підсилює прикметник у звичайній формі."
   },
   {
    "id": "so-such-20",
@@ -308,7 +308,7 @@
     "so a"
    ],
    "answer": 1,
-   "why": "*fun* — нелічильне, тому *such fun* без *a*."
+   "why": "*fun* — нелічильне, тому *such fun* без *a*. *so fun* — розмовне американське, не нейтральне; *such a fun* — артикль із нелічильним; *so a* — неграматично."
   },
   {
    "id": "so-such-25",

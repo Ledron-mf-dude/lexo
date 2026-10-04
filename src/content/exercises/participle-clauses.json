@@ -11,7 +11,7 @@
     "Walks"
    ],
    "answer": 0,
-   "why": "Дія відбувається одночасно з головною й підмет той самий (я йшов і зустрів) — *-ing*: *Walking home, I met Tom.*"
+   "why": "Дія відбувається одночасно з головною й підмет той самий (я йшов і зустрів) — *-ing*: *Walking home, I met Tom.* *Walked* — пасивне значення; *To walk* — мета; *Walks* — особова форма."
   },
   {
    "id": "participle-clauses-2",
@@ -37,7 +37,7 @@
     "To build"
    ],
    "answer": 1,
-   "why": "Будинок збудували (пасив) — третя форма: *Built in 1900, the house is old.*"
+   "why": "Будинок збудували (пасив) — третя форма: *Built in 1900, the house is old.* *Building* — активне: «будуючи»; *Having build* — потрібна третя форма; *To build* — мета."
   },
   {
    "id": "participle-clauses-4",
@@ -50,7 +50,7 @@
     "Having eaten, we left."
    ],
    "answer": 0,
-   "why": "У звороті має бути той самий підмет, що в головному реченні. *Walking home, it started to rain* означає, що дощ ішов додому, — це помилка."
+   "why": "У звороті має бути той самий підмет, що в головному реченні. *Walking home, it started to rain* означає, що дощ ішов додому, — це помилка. *Walking home, I met Tom*, *Tired, he slept* і *Having eaten, we left* — підмет звороту й речення збігаються, тому вони правильні."
   },
   {
    "id": "participle-clauses-5",
@@ -76,7 +76,7 @@
     "write"
    ],
    "answer": 1,
-   "why": "Пасивне значення — третя форма: *The letter written by Tom…*"
+   "why": "Пасивне значення — третя форма: *The letter written by Tom…* *writing* — активне: лист сам пише; *wrote* — минулий час, не дієприкметник; *write* — початкова форма."
   },
   {
    "id": "participle-clauses-7",
@@ -89,7 +89,7 @@
     "After finished work, she left."
    ],
    "answer": 0,
-   "why": "Після сполучника (*After*) — *-ing*: *After finishing work…*"
+   "why": "Після сполучника (*After*) — *-ing*: *After finishing work…* *After finish* — після *after* як прийменника потрібне *-ing*; *After to finish* — зайве *to*; *After finished* — потрібне *-ing*."
   },
   {
    "id": "participle-clauses-8",
@@ -102,7 +102,7 @@
     "he left before being warned"
    ],
    "answer": 0,
-   "why": "*Having been warned* — його попередили раніше, ніж він пішов."
+   "why": "*Having been warned* — його попередили раніше, ніж він пішов. Активне значення («попередив когось») дало б *Having warned*; майбутнього тут немає; порядок подій протилежний — спершу попередили."
   },
   {
    "id": "participle-clauses-9",
@@ -115,7 +115,7 @@
     "questions only"
    ],
    "answer": 0,
-   "why": "Такі звороти частіше трапляються в письмовій мові."
+   "why": "Такі звороти частіше трапляються в письмовій мові. У розмові їх уживають рідше, а пісні й питання не є основною сферою."
   },
   {
    "id": "participle-clauses-10",
@@ -177,7 +177,7 @@
     "who sitting"
    ],
    "answer": 0,
-   "why": "Скорочене означальне: *The girl (who is) sitting next to Anna*."
+   "why": "Скорочене означальне: *The girl (who is) sitting next to Anna*. *sat to* — зайве *to*; *sits* — особова форма без *who*; *who sitting* — бракує *is*."
   },
   {
    "id": "participle-clauses-16",
@@ -273,7 +273,7 @@
     "No having"
    ],
    "answer": 0,
-   "why": "Заперечення — *Not* перед зворотом: *Not having a car, we had to walk.*"
+   "why": "Заперечення — *Not* перед зворотом: *Not having a car, we had to walk.* *Having not* — *not* ставлять перед дієприкметником; *Didn't have* — особова форма, а не зворот; *No having* — неграматично."
   },
   {
    "id": "participle-clauses-22",
@@ -286,7 +286,7 @@
     "send"
    ],
    "answer": 1,
-   "why": "Листи надіслали (пасив) — *sent*."
+   "why": "Листи надіслали (пасив) — *sent*. *sending* — активне: листи самі надсилають; *having sent* — активне; *send* — початкова форма."
   },
   {
    "id": "participle-clauses-23",
@@ -308,7 +308,7 @@
     "For"
    ],
    "answer": 0,
-   "why": "*With* + іменник + *-ing* — абсолютний зворот зі своїм підметом: *With prices rising…*"
+   "why": "*With* + іменник + *-ing* — абсолютний зворот зі своїм підметом: *With prices rising…* *By*, *As*, *For* не утворюють звороту «іменник + *-ing*» зі значенням обставини."
   },
   {
    "id": "participle-clauses-25",
@@ -317,11 +317,11 @@
    "options": [
     "Judging",
     "Judged",
-    "To judge by",
+    "Judges",
     "Judge"
    ],
    "answer": 0,
-   "why": "*Judging by* — сталий вираз «судячи з»."
+   "why": "*Judging by* — сталий вираз «судячи з». *Judged by* — пасив, «будучи оціненим»; *Judges* — особова форма або «судді»; *Judge* — наказ."
   },
   {
    "id": "participle-clauses-26",

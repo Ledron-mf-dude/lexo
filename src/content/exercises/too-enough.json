@@ -24,7 +24,7 @@
     "old too"
    ],
    "answer": 0,
-   "why": "*enough* стоїть після прикметника: *old enough to vote*."
+   "why": "*enough* стоїть після прикметника: *old enough to vote*. *enough old* — *enough* після прикметника, не перед ним; *too old* — «надто старий», зміст протилежний; *old too* — «теж старий»."
   },
   {
    "id": "too-enough-3",
@@ -50,7 +50,7 @@
     "enough of time"
    ],
    "answer": 0,
-   "why": "*enough* стоїть перед іменником: *enough time*."
+   "why": "*enough* стоїть перед іменником: *enough time*. *time enough to* — застаріло й з зайвим *to*; *too time* — *too* перед іменником не ставлять; *enough of time* — зайве *of*."
   },
   {
    "id": "too-enough-5",
@@ -63,7 +63,7 @@
     "very much of"
    ],
    "answer": 0,
-   "why": "*coffee* — нелічильне, тому *too much*."
+   "why": "*coffee* — нелічильне, тому *too much*. *too many* — для лічильних; *enough much* і *very much of* — неграматично."
   },
   {
    "id": "too-enough-6",
@@ -102,7 +102,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "Прикметник + *enough* + *to*: *warm enough to swim*."
+   "why": "Прикметник + *enough* + *to*: *warm enough to swim*. *too warm to swim* — надто тепла, щоб плавати (нелогічно); *very* і *so* не поєднуються з *to* + дієслово в такому значенні."
   },
   {
    "id": "too-enough-9",
@@ -115,7 +115,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "*too* в кінці — «теж»: *I like it too.*"
+   "why": "*too* в кінці — «теж»: *I like it too.* *enough*, *very* і *so* в кінці речення не означають «теж»."
   },
   {
    "id": "too-enough-10",

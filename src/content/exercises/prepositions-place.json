@@ -24,7 +24,7 @@
     "to"
    ],
    "answer": 2,
-   "why": "З містами й країнами — *in*: *in Paris, in Ukraine*."
+   "why": "З містами й країнами — *in*: *in Paris, in Ukraine*. *at* — для точки (*at the station*), а місто — це територія; *on* — для поверхні; *to* — для руху, а *live* — стан."
   },
   {
    "id": "prepositions-place-3",
@@ -63,7 +63,7 @@
     "into"
    ],
    "answer": 0,
-   "why": "*above* — вище, без дотику: *above the sofa*. *on* означало б, що картина лежить на дивані."
+   "why": "*above* — вище, без дотику: *above the sofa*. *on* означало б, що картина лежить на дивані. *at* — точка, а не «над»; *in* — усередині; *into* — рух усередину."
   },
   {
    "id": "prepositions-place-6",
@@ -76,7 +76,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*under* — під: *under the chair*."
+   "why": "*under* — під: *under the chair*. *between* — між двома предметами; *into* — рух усередину; *at* — біля, а не під."
   },
   {
    "id": "prepositions-place-7",
@@ -115,7 +115,7 @@
     "to"
    ],
    "answer": 1,
-   "why": "*at home* — сталий вираз «удома» (без артикля)."
+   "why": "*at home* — сталий вираз «удома» (без артикля). *in home* так не кажуть; *on home* — неграматично; *to home* — рух, а *works* — місце, і навіть із рухом кажуть *go home* без прийменника."
   },
   {
    "id": "prepositions-place-10",
@@ -189,7 +189,7 @@
     "by"
    ],
    "answer": 0,
-   "why": "З поверхами — *on*: *on the third floor*."
+   "why": "З поверхами — *on*: *on the third floor*. *in the third floor* і *at the third floor* — помилки: поверх вважається поверхнею, тому *on*; *by* — «біля»."
   },
   {
    "id": "prepositions-place-17",
@@ -215,7 +215,7 @@
     "beyond of"
    ],
    "answer": 0,
-   "why": "*behind* — позаду: *behind the house*."
+   "why": "*behind* — позаду: *behind the house*. *back* — прислівник або іменник (*at the back of*), а не прийменник; *after* — про час або порядок; *beyond of* — зайве *of*."
   },
   {
    "id": "prepositions-place-19",
@@ -293,7 +293,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "Поверх — *on*: *on the fifth floor*."
+   "why": "Поверх — *on*: *on the fifth floor*. *in* і *at* з поверхами не вживають; *by* — «біля»."
   },
   {
    "id": "prepositions-place-24",
@@ -306,7 +306,7 @@
     "under"
    ],
    "answer": 2,
-   "why": "*at the top / bottom of* — угорі / внизу сторінки."
+   "why": "*at the top / bottom of* — угорі / внизу сторінки. *on the bottom* — «на дні», а не «внизу сторінки»; *in the bottom* — усередині; *under the bottom* — під сторінкою."
   },
   {
    "id": "prepositions-place-25",

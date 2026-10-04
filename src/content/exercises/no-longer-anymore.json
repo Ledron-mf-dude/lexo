@@ -11,7 +11,7 @@
     "any longer"
    ],
    "answer": 0,
-   "why": "*no longer* — «більше не», стоїть перед основним дієсловом і вже заперечне: *She no longer works here.*"
+   "why": "*no longer* — «більше не», стоїть перед основним дієсловом і вже заперечне: *She no longer works here.* *not longer* — без *any*; *no more* стосується кількості, а не часу (*no more milk*); *any longer* без заперечення не працює."
   },
   {
    "id": "no-longer-anymore-2",
@@ -24,7 +24,7 @@
     "not longer"
    ],
    "answer": 0,
-   "why": "*not … any more* — заперечення в дієслові, *any more* у кінці: *I don't need it any more.*"
+   "why": "*not … any more* — заперечення в дієслові, *any more* у кінці: *I don't need it any more.* *no longer* і *no more* — друге заперечення після *don't*; *not longer* — бракує *any*."
   },
   {
    "id": "no-longer-anymore-3",
@@ -37,7 +37,7 @@
     "no longer be"
    ],
    "answer": 0,
-   "why": "З *to be* *no longer* стоїть після нього: *He is no longer my friend.*"
+   "why": "З *to be* *no longer* стоїть після нього: *He is no longer my friend.* *no longer is* — з *be* частка стоїть після дієслова; *is not longer* — бракує *any*; *no longer be* — немає особової форми дієслова."
   },
   {
    "id": "no-longer-anymore-4",
@@ -50,7 +50,7 @@
     "not longer"
    ],
    "answer": 0,
-   "why": "*not … any longer* (тривалість): *I can't wait any longer.*"
+   "why": "*not … any longer* (тривалість): *I can't wait any longer.* *no longer* і *no more* — друге заперечення після *can't*; *not longer* — бракує *any*."
   },
   {
    "id": "no-longer-anymore-5",
@@ -63,7 +63,7 @@
     "anymore"
    ],
    "answer": 1,
-   "why": "Про кількість (молока не лишилося) — *no more* + іменник: *There's no more milk.*"
+   "why": "Про кількість (молока не лишилося) — *no more* + іменник: *There's no more milk.* *no longer milk* — *no longer* стосується часу, а не кількості; *any longer* і *anymore* потребують заперечення в дієслові й стоять у кінці."
   },
   {
    "id": "no-longer-anymore-6",
@@ -76,7 +76,7 @@
     "ago"
    ],
    "answer": 0,
-   "why": "*still* — «досі», протилежне — *no longer* (уже не)."
+   "why": "*still* — «досі», протилежне — *no longer* (уже не). *yet* — «ще не / вже» в питаннях; *already* — «уже»; *ago* — «тому»; протилежність «досі» — «уже не»."
   },
   {
    "id": "no-longer-anymore-7",
@@ -89,7 +89,7 @@
     "after the object"
    ],
    "answer": 0,
-   "why": "*no longer* — у середині речення: перед основним дієсловом або після *be*."
+   "why": "*no longer* — у середині речення: перед основним дієсловом або після *be*. *no longer* не ставлять у кінець речення (там *any more*), на початок (лише в книжній інверсії) чи після додатка."
   },
   {
    "id": "no-longer-anymore-8",
@@ -150,7 +150,7 @@
     "any longer"
    ],
    "answer": 0,
-   "why": "*no longer* перед основним дієсловом: *They no longer sell this model.*"
+   "why": "*no longer* перед основним дієсловом: *They no longer sell this model.* *not longer* — бракує *any*; *no more longer* — два слова з одним значенням; *any longer* без заперечення не працює."
   },
   {
    "id": "no-longer-anymore-14",
@@ -163,7 +163,7 @@
     "longer"
    ],
    "answer": 0,
-   "why": "*don't* + *anymore* у кінці речення."
+   "why": "*don't* + *anymore* у кінці речення. *no longer* і *no more* — друге заперечення після *don't*; *longer* без *any* не працює."
   },
   {
    "id": "no-longer-anymore-15",
@@ -189,7 +189,7 @@
     "no more longer"
    ],
    "answer": 0,
-   "why": "*can no longer walk* — *no longer* після модального."
+   "why": "*can no longer walk* — *no longer* після модального. *not longer* — бракує *any*; *anymore* стоїть у кінці речення і потребує *can't*; *no more longer* — подвоєння."
   },
   {
    "id": "no-longer-anymore-17",
@@ -267,7 +267,7 @@
     "any longer"
    ],
    "answer": 1,
-   "why": "«Уже не» в часі — *no longer*: *We no longer live in that flat.*"
+   "why": "«Уже не» в часі — *no longer*: *We no longer live in that flat.* *no more* стосується кількості; *not longer* — бракує *any*; *any longer* без заперечення не працює."
   },
   {
    "id": "no-longer-anymore-22",
@@ -280,7 +280,7 @@
     "still"
    ],
    "answer": 0,
-   "why": "Кількість у питанні — *any more milk*."
+   "why": "Кількість у питанні — *any more milk*. *no longer* і *any longer* стосуються часу, а не кількості; *still milk* — неграматично."
   },
   {
    "id": "no-longer-anymore-23",

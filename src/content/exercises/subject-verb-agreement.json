@@ -11,7 +11,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Слова з *every-* (*everyone, everybody*) — однина: *Everyone is ready.*"
+   "why": "Слова з *every-* (*everyone, everybody*) — однина: *Everyone is ready.* *are* і *were* — множина, а *everyone* — однина; *have ready* — неграматично."
   },
   {
    "id": "subject-verb-agreement-2",
@@ -37,7 +37,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "*The number of* — «кількість», однина: *has increased*."
+   "why": "*The number of* — «кількість», однина: *has increased*. *have*, *are*, *were* — множина, а підмет тут *the number* (однина)."
   },
   {
    "id": "subject-verb-agreement-4",
@@ -50,7 +50,7 @@
     "was"
    ],
    "answer": 0,
-   "why": "*A number of* — «багато», множина: *have complained*."
+   "why": "*A number of* — «багато», множина: *have complained*. *has*, *is*, *was* — однина, а *a number of people* означає «багато людей»."
   },
   {
    "id": "subject-verb-agreement-5",
@@ -63,7 +63,7 @@
     "have been"
    ],
    "answer": 0,
-   "why": "*news* — нелічильне слово в однині, попри *-s*: *was*."
+   "why": "*news* — нелічильне слово в однині, попри *-s*: *was*. *were*, *are*, *have been* — множина, а *news* узгоджується як однина."
   },
   {
    "id": "subject-verb-agreement-6",
@@ -76,7 +76,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "*glasses* (окуляри) — лише множина: *are*."
+   "why": "*glasses* (окуляри) — лише множина: *are*. *is*, *was*, *has* — однина, а *glasses* у значенні «окуляри» завжди множина."
   },
   {
    "id": "subject-verb-agreement-7",
@@ -89,7 +89,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "З *neither … nor* дієслово узгоджуємо з найближчим підметом (*the students*): *were*."
+   "why": "З *neither … nor* дієслово узгоджуємо з найближчим підметом (*the students*): *were*. *was*, *is*, *has* — однина, а найближчий підмет *the students* — множина."
   },
   {
    "id": "subject-verb-agreement-8",
@@ -102,7 +102,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Головне слово — *price*, а не *tickets*: *is*."
+   "why": "Головне слово — *price*, а не *tickets*: *is*. *are*, *were*, *have* — дієслово узгоджуємо з *price*, а не з *tickets* усередині звороту."
   },
   {
    "id": "subject-verb-agreement-9",
@@ -115,7 +115,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Сума грошей як одне ціле — однина: *Ten dollars is too much.*"
+   "why": "Сума грошей як одне ціле — однина: *Ten dollars is too much.* *are*, *were*, *have* — множина, а сума як одне ціле узгоджується з однинною."
   },
   {
    "id": "subject-verb-agreement-10",
@@ -239,7 +239,7 @@
     "were"
    ],
    "answer": 1,
-   "why": "Частина + *of* + нелічильне (*money*) — однина: *has*."
+   "why": "Частина + *of* + нелічильне (*money*) — однина: *has*. *have*, *are*, *were* — множина, а частка від нелічильного *money* — однина."
   },
   {
    "id": "subject-verb-agreement-20",
@@ -252,7 +252,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "*A lot of people* — множина: *are*."
+   "why": "*A lot of people* — множина: *are*. *is*, *was*, *has* — однина, а *people* — множина."
   },
   {
    "id": "subject-verb-agreement-21",
@@ -275,7 +275,7 @@
     "have been"
    ],
    "answer": 0,
-   "why": "*Fish and chips* — одна страва, однина: *is*."
+   "why": "*Fish and chips* — одна страва, однина: *is*. *be*, *being*, *have been* — немає особової форми, потрібної для присудка з цим підметом."
   },
   {
    "id": "subject-verb-agreement-23",
@@ -288,7 +288,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "*More than one* + іменник в однині + дієслово в однині: *has complained*."
+   "why": "*More than one* + іменник в однині + дієслово в однині: *has complained*. *have*, *are*, *were* — множина, а *more than one student* узгоджується з однинною."
   },
   {
    "id": "subject-verb-agreement-24",
@@ -301,7 +301,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "Підмет після дієслова — *two letters*, множина: *were*."
+   "why": "Підмет після дієслова — *two letters*, множина: *were*. *was*, *is*, *has* — однина, а підмет *two letters* — множина."
   }
  ]
 }

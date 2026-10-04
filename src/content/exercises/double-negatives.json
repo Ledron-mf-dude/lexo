@@ -24,7 +24,7 @@
     "doesn't called"
    ],
    "answer": 0,
-   "why": "*Nobody* уже заперечне, тому дієслово ствердне: *Nobody called.*"
+   "why": "*Nobody* уже заперечне, тому дієслово ствердне: *Nobody called.* *didn't call* і *doesn't called* — друге заперечення поруч із *Nobody*; *not called* — без допоміжного дієслова."
   },
   {
    "id": "double-negatives-3",
@@ -37,7 +37,7 @@
     "some"
    ],
    "answer": 0,
-   "why": "*haven't* — заперечення, тому *any*: *We haven't got any money.*"
+   "why": "*haven't* — заперечення, тому *any*: *We haven't got any money.* *no money* — друге заперечення після *haven't*; *none* — займенник, перед іменником не стоїть; *some* — у запереченні замість нього *any*."
   },
   {
    "id": "double-negatives-4",
@@ -50,7 +50,7 @@
     "no hardly"
    ],
    "answer": 0,
-   "why": "*hardly* (ледве) уже має заперечний зміст, тому *not* не додаємо: *I can hardly hear you.*"
+   "why": "*hardly* (ледве) уже має заперечний зміст, тому *not* не додаємо: *I can hardly hear you.* *not hardly*, *hardly not*, *no hardly* — подвійне заперечення."
   },
   {
    "id": "double-negatives-5",
@@ -63,7 +63,7 @@
     "none"
    ],
    "answer": 0,
-   "why": "*never* — заперечне слово, тому далі *anything*."
+   "why": "*never* — заперечне слово, тому далі *anything*. *nothing* — друге заперечення після *never*; *something not* — неграматично; *none* — «жоден із», а не «нічого»."
   },
   {
    "id": "double-negatives-6",
@@ -76,7 +76,7 @@
     "I didn't saw nobody."
    ],
    "answer": 0,
-   "why": "Одне заперечення: *I didn't see anyone.* *didn't see no one* — подвійне."
+   "why": "Одне заперечення: *I didn't see anyone.* *didn't see no one* — подвійне. *I not saw* — без допоміжного *did*; *didn't saw nobody* — і подвійне заперечення, і *saw* після *didn't*."
   },
   {
    "id": "double-negatives-7",
@@ -89,7 +89,7 @@
     "Nothing didn't"
    ],
    "answer": 0,
-   "why": "*Nothing* + ствердне дієслово: *Nothing happened.*"
+   "why": "*Nothing* + ствердне дієслово: *Nothing happened.* *Anything happened* — *anything* у ствердженні означає «будь-що», не «нічого»; *Not nothing* і *Nothing didn't* — подвійне заперечення."
   },
   {
    "id": "double-negatives-8",
@@ -102,7 +102,7 @@
     "nothing"
    ],
    "answer": 0,
-   "why": "*isn't* + *any*: *There isn't any milk left.*"
+   "why": "*isn't* + *any*: *There isn't any milk left.* *no* і *nothing* — друге заперечення після *isn't*; *none* — займенник, перед іменником не стоїть."
   },
   {
    "id": "double-negatives-9",
@@ -230,7 +230,7 @@
     "none"
    ],
    "answer": 1,
-   "why": "*without* має заперечний зміст, тому *anything*: *without saying anything*."
+   "why": "*without* має заперечний зміст, тому *anything*: *without saying anything*. *nothing* і *none* — друге заперечення після *without*; *something not* — неграматично."
   },
   {
    "id": "double-negatives-20",

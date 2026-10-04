@@ -11,7 +11,7 @@
     "In conclusion"
    ],
    "answer": 1,
-   "why": "Додаємо ще одну перевагу — *Moreover* (крім того)."
+   "why": "Додаємо ще одну перевагу — *Moreover* (крім того). *However* — протиставлення, а дешевизна і швидкість — дві переваги; *Therefore* — наслідок; *In conclusion* — підсумок."
   },
   {
    "id": "discourse-markers-2",
@@ -24,7 +24,7 @@
     "For example"
    ],
    "answer": 1,
-   "why": "Квартира подобається, але дорога — протиставлення: *However*."
+   "why": "Квартира подобається, але дорога — протиставлення: *However*. *Moreover* — додає, а не протиставляє; *Therefore* — наслідок; *For example* — приклад."
   },
   {
    "id": "discourse-markers-3",
@@ -37,7 +37,7 @@
     "For instance"
    ],
    "answer": 0,
-   "why": "Не вчився — отже, провалив: наслідок *As a result*."
+   "why": "Не вчився — отже, провалив: наслідок *As a result*. *Moreover* — додає; *However* — протиставляє; *For instance* — приклад."
   },
   {
    "id": "discourse-markers-4",
@@ -50,7 +50,7 @@
     "Besides"
    ],
    "answer": 0,
-   "why": "*First of all* — «насамперед, спершу»."
+   "why": "*First of all* — «насамперед, спершу». *Finally of all* — «насамкінець»; *Moreover of all* і *Besides of all* — неграматично."
   },
   {
    "id": "discourse-markers-5",
@@ -63,7 +63,7 @@
     "therefore"
    ],
    "answer": 0,
-   "why": "Приклади в середині речення — *such as*."
+   "why": "Приклади в середині речення — *such as*. *however*, *moreover*, *therefore* — сполучні слова між реченнями, не вводять приклади."
   },
   {
    "id": "discourse-markers-6",
@@ -76,7 +76,7 @@
     "Furthermore"
    ],
    "answer": 0,
-   "why": "Особиста думка — *In my opinion*."
+   "why": "Особиста думка — *In my opinion*. *As a result* — наслідок; *However* — протиставлення; *Furthermore* — додавання."
   },
   {
    "id": "discourse-markers-7",
@@ -89,7 +89,7 @@
     "Moreover"
    ],
    "answer": 0,
-   "why": "Підсумовуємо — *In conclusion*."
+   "why": "Підсумовуємо — *In conclusion*. *Firstly* — початок; *For example* — приклад; *Moreover* — додавання."
   },
   {
    "id": "discourse-markers-8",
@@ -115,7 +115,7 @@
     "a result"
    ],
    "answer": 0,
-   "why": "*In other words* — «іншими словами», пояснення."
+   "why": "*In other words* — «іншими словами», пояснення. Протиставлення — *however*; приклад — *for example*; наслідок — *as a result*."
   },
   {
    "id": "discourse-markers-10",
@@ -186,7 +186,7 @@
     "Firstly of all"
    ],
    "answer": 0,
-   "why": "*Personally* — «особисто я», вводить власну думку."
+   "why": "*Personally* — «особисто я», вводить власну думку. *Moreover* і *Therefore* — додавання й наслідок, а не власна думка; *Firstly of all* — змішані *Firstly* і *First of all*."
   },
   {
    "id": "discourse-markers-16",
@@ -199,7 +199,7 @@
     "In conclusion"
    ],
    "answer": 0,
-   "why": "*What's more* — більше того (додаємо ще гірше)."
+   "why": "*What's more* — більше того (додаємо ще гірше). *However* — протиставлення, а бруд і грубість — обидві вади; *For example* — приклад; *In conclusion* — підсумок."
   },
   {
    "id": "discourse-markers-17",
@@ -225,7 +225,7 @@
     "However"
    ],
    "answer": 0,
-   "why": "*First of all* — спочатку, перш за все."
+   "why": "*First of all* — спочатку, перш за все. *Finally* і *In conclusion* — наприкінці, а представляються на початку; *However* — протиставлення."
   },
   {
    "id": "discourse-markers-19",
@@ -297,7 +297,7 @@
     "However"
    ],
    "answer": 1,
-   "why": "Нова тема «між іншим» — *By the way*."
+   "why": "Нова тема «між іншим» — *By the way*. *Anyway* — повернення до теми або завершення розмови; *Actually* — «насправді»; *However* — протиставлення."
   },
   {
    "id": "discourse-markers-23",

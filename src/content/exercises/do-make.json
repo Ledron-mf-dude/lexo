@@ -11,7 +11,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*do homework* — завдання й робота поєднуються з *do*."
+   "why": "*do homework* — завдання й робота поєднуються з *do*. *make homework* — поширена калька; *take* і *have homework* означають інше («мати домашнє»)."
   },
   {
    "id": "do-make-2",
@@ -24,7 +24,7 @@
     "had"
    ],
    "answer": 1,
-   "why": "*make a mistake* — помилку в англійській «роблять» з *make*, не з *do*."
+   "why": "*make a mistake* — помилку в англійській «роблять» з *make*, не з *do*. *did a mistake* — калька з української; *took* / *had a mistake* так не кажуть."
   },
   {
    "id": "do-make-3",
@@ -37,7 +37,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "*do somebody a favour* — зробити послугу."
+   "why": "*do somebody a favour* — зробити послугу. *make a favour* — калька; *take* / *have a favour* не мають значення «зробити послугу»."
   },
   {
    "id": "do-make-4",
@@ -50,7 +50,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "*make a plan* — скласти план (створити щось нове — *make*)."
+   "why": "*make a plan* — скласти план (створити щось нове — *make*). *do a plan* — калька: створення плану передає *make*; *take a plan* і *be a plan* мають інше значення."
   },
   {
    "id": "do-make-5",
@@ -63,7 +63,7 @@
     "gets"
    ],
    "answer": 1,
-   "why": "*make money* — заробляти гроші."
+   "why": "*make money* — заробляти гроші. *does money* так не кажуть; *takes money* — «бере гроші»; *gets money* — «отримує», без ідеї заробітку."
   },
   {
    "id": "do-make-6",
@@ -76,7 +76,7 @@
     "Put"
    ],
    "answer": 1,
-   "why": "Хатня робота — *do*: *do the dishes*."
+   "why": "Хатня робота — *do*: *do the dishes*. *Make the dishes* — «приготувати страви», а не помити посуд; *Take* / *Put the dishes* — «взяти / поставити посуд»."
   },
   {
    "id": "do-make-7",
@@ -89,7 +89,7 @@
     "set"
    ],
    "answer": 1,
-   "why": "*make a call* — подзвонити. *take a call* — відповісти на дзвінок."
+   "why": "*make a call* — подзвонити. *take a call* — відповісти на дзвінок. *did a call* — калька; *put* / *set a call* так не кажуть."
   },
   {
    "id": "do-make-8",
@@ -102,7 +102,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "*make sense* — мати сенс."
+   "why": "*make sense* — мати сенс. *do sense* — калька; *have sense* — «мати здоровий глузд» про людину; *be sense* — неграматично."
   },
   {
    "id": "do-make-9",
@@ -115,7 +115,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*What do you do?* — друге *do* означає роботу, професію."
+   "why": "*What do you do?* — друге *do* означає роботу, професію. Перше *do* — допоміжне; друге — основне дієслово «займатися», і все питання означає «ким ви працюєте?», а не *make*, *be* чи *have*."
   },
   {
    "id": "do-make-10",
@@ -188,7 +188,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*make tea / coffee* — приготувати (створити)."
+   "why": "*make tea / coffee* — приготувати (створити). *do me a cup of tea* — розмовне британське, не нейтральне; *take* / *have a cup of tea* — «взяти / випити», а не «приготувати»."
   },
   {
    "id": "do-make-17",
@@ -201,7 +201,7 @@
     "gets"
    ],
    "answer": 0,
-   "why": "*do research* — проводити дослідження."
+   "why": "*do research* — проводити дослідження. *makes research* — калька; *takes* / *gets research* так не кажуть."
   },
   {
    "id": "do-make-18",
@@ -214,7 +214,7 @@
     "taking"
    ],
    "answer": 0,
-   "why": "*make progress* — робити поступ."
+   "why": "*make progress* — робити поступ. *doing progress* — калька; *having* / *taking progress* так не кажуть."
   },
   {
    "id": "do-make-19",
@@ -227,7 +227,7 @@
     "write on"
    ],
    "answer": 0,
-   "why": "*do / take an exam* — складати іспит."
+   "why": "*do / take an exam* — складати іспит. *make an exam* — «скласти завдання для іспиту» (про вчителя); *pass on* і *write on* — зайвий прийменник."
   },
   {
    "id": "do-make-20",
@@ -291,7 +291,7 @@
     "get"
    ],
    "answer": 1,
-   "why": "Хатні справи на *-ing* — *do*: *do the cooking*."
+   "why": "Хатні справи на *-ing* — *do*: *do the cooking*. *make the cooking* — калька; *have* / *get the cooking* так не кажуть."
   },
   {
    "id": "do-make-24",
@@ -304,7 +304,7 @@
     "lets"
    ],
    "answer": 1,
-   "why": "*make* + особа + дієслово без *to*: *makes me cry*."
+   "why": "*make* + особа + дієслово без *to*: *makes me cry*. *does me cry* — неграматично; *gets me cry* — після *get* потрібне *to* (*gets me to cry*); *lets me cry* — «дозволяє плакати»."
   },
   {
    "id": "do-make-25",

@@ -11,7 +11,7 @@
     "can't"
    ],
    "answer": 0,
-   "why": "*should* — «скоріш за все» (висока ймовірність): *Tom should know the address.*"
+   "why": "*should* — «скоріш за все» (висока ймовірність): *Tom should know the address.* *will definitely* — повна впевненість, а за умовою лише «скоріш за все»; *might not* — сумнів; *can't* — упевнене «ні»."
   },
   {
    "id": "probability-should-will-2",
@@ -24,7 +24,7 @@
     "mustn't"
    ],
    "answer": 1,
-   "why": "Висока ймовірність (~90%) — *should*."
+   "why": "Висока ймовірність (~90%) — *should*. *will definitely* — 100%; *might* — близько 50%; *mustn't* — заборона."
   },
   {
    "id": "probability-should-will-3",
@@ -37,7 +37,7 @@
     "surely"
    ],
    "answer": 1,
-   "why": "*will probably* — ймовірно, але не напевно."
+   "why": "*will probably* — ймовірно, але не напевно. *definitely*, *certainly*, *surely* — повна впевненість, а 90% — «ймовірно»."
   },
   {
    "id": "probability-should-will-5",
@@ -76,7 +76,7 @@
     "ability"
    ],
    "answer": 1,
-   "why": "*should have* + третя форма часто означає докір: мав би, але не подзвонив."
+   "why": "*should have* + третя форма часто означає докір: мав би, але не подзвонив. Ймовірність про минуле передав би контекст на зразок *should have arrived by now*; майбутнє й уміння — не про *should have*."
   },
   {
    "id": "probability-should-will-8",
@@ -104,7 +104,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "Абсолютна впевненість — *will definitely*."
+   "why": "Абсолютна впевненість — *will definitely*. *probably* — 90%; *maybe* — близько 50%; *will should* — два модальні поспіль."
   },
   {
    "id": "probability-should-will-10",
@@ -157,7 +157,7 @@
     "shall to"
    ],
    "answer": 0,
-   "why": "Очікування — *should be over*."
+   "why": "Очікування — *should be over*. *must to*, *would to*, *shall to* — після модального немає *to*."
   },
   {
    "id": "probability-should-will-15",
@@ -170,7 +170,7 @@
     "would"
    ],
    "answer": 0,
-   "why": "*will definitely* — точно."
+   "why": "*will definitely* — точно. *should definitely* — порада, а не обіцянка; *shall to* — зайве *to*; *would* — умовний спосіб."
   },
   {
    "id": "probability-should-will-16",
@@ -183,7 +183,7 @@
     "She might win."
    ],
    "answer": 0,
-   "why": "Найвища впевненість — *will definitely*."
+   "why": "Найвища впевненість — *will definitely*. *should* і *will probably* — висока ймовірність, *might* — лише можливість."
   },
   {
    "id": "probability-should-will-17",
@@ -243,7 +243,7 @@
     "shall"
    ],
    "answer": 0,
-   "why": "Скоріш за все — *should finish*."
+   "why": "Скоріш за все — *should finish*. *must to* і *will to* — зайве *to*; *shall* у значенні ймовірності не вживають."
   },
   {
    "id": "probability-should-will-21",
@@ -256,7 +256,7 @@
     "don't"
    ],
    "answer": 0,
-   "why": "Навряд чи — *shouldn't be any problems*."
+   "why": "Навряд чи — *shouldn't be any problems*. *mustn't* — заборона; *won't to* — зайве *to*; *don't* — з *there be* не поєднується."
   },
   {
    "id": "probability-should-will-22",

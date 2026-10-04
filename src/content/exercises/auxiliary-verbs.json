@@ -24,7 +24,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Наголошене *do* перед дієсловом підсилює ствердження: *I do like this film!* — «мені справді подобається»."
+   "why": "Наголошене *do* перед дієсловом підсилює ствердження: *I do like this film!* — «мені справді подобається». *does* — для *he / she / it*; *am like* і *have like* — неграматично."
   },
   {
    "id": "auxiliary-verbs-3",
@@ -37,7 +37,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "Щоб не повторювати *work*, ставимо допоміжне *do*: *He works harder than I do.*"
+   "why": "Щоб не повторювати *work*, ставимо допоміжне *do*: *He works harder than I do.* *am* і *have* — інші допоміжні, а *works* — Present Simple; *does* — для *he / she / it*, а не *I*."
   },
   {
    "id": "auxiliary-verbs-4",
@@ -50,7 +50,7 @@
     "Did"
    ],
    "answer": 2,
-   "why": "Present Perfect: *have* + третя форма (*seen*): *Have you seen my keys?*"
+   "why": "Present Perfect: *have* + третя форма (*seen*): *Have you seen my keys?* *Do*, *Are* і *Did* не поєднуються з третьою формою *seen*."
   },
   {
    "id": "auxiliary-verbs-5",
@@ -63,7 +63,7 @@
     "does"
    ],
    "answer": 1,
-   "why": "Пасив: *be* + третя форма: *The house was built.*"
+   "why": "Пасив: *be* + третя форма: *The house was built.* *did built* і *does built* — неграматично; *had built* — активний Past Perfect, «дім побудував»."
   },
   {
    "id": "auxiliary-verbs-6",
@@ -76,7 +76,7 @@
     "doesn't"
    ],
    "answer": 1,
-   "why": "*have* як основне дієслово заперечуємо через *do*: *I don't have a car.*"
+   "why": "*have* як основне дієслово заперечуємо через *do*: *I don't have a car.* *hasn't* — для *he / she / it*, і з *have* як основним дієсловом у нейтральному стилі не вживають; *am not have* — неграматично; *doesn't* — для *he / she / it*."
   },
   {
    "id": "auxiliary-verbs-7",
@@ -89,7 +89,7 @@
     "did"
    ],
    "answer": 1,
-   "why": "Коротка відповідь повторює допоміжне з питання: *Do you…?* → *Yes, I do.*"
+   "why": "Коротка відповідь повторює допоміжне з питання: *Do you…?* → *Yes, I do.* *have* — питання було з *do*; *am* — з *be*; *did* — інший час."
   },
   {
    "id": "auxiliary-verbs-8",
@@ -102,7 +102,7 @@
     "Did you goes?"
    ],
    "answer": 1,
-   "why": "Минуле вже показує *did*, тому основне дієслово в початковій формі: *Did you go?*"
+   "why": "Минуле вже показує *did*, тому основне дієслово в початковій формі: *Did you go?* *Did you went* і *Did you goes* — після *did* потрібна початкова форма; *Do you went* — теперішнє допоміжне з минулою формою."
   },
   {
    "id": "auxiliary-verbs-9",
@@ -189,7 +189,7 @@
     "haven't"
    ],
    "answer": 0,
-   "why": "Present Simple з *I* — *don't like*."
+   "why": "Present Simple з *I* — *don't like*. *doesn't* — для *he / she / it*; *am not like* і *haven't like* — неграматично."
   },
   {
    "id": "auxiliary-verbs-17",
@@ -215,7 +215,7 @@
     "Does"
    ],
    "answer": 0,
-   "why": "*been* — третя форма, отже Present Perfect: *Has he been…?*"
+   "why": "*been* — третя форма, отже Present Perfect: *Has he been…?* *Did*, *Is*, *Does* не поєднуються з третьою формою *been*."
   },
   {
    "id": "auxiliary-verbs-19",
@@ -277,7 +277,7 @@
     "seen"
    ],
    "answer": 1,
-   "why": "Відповідь повторює допоміжне з питання: *Have you…?* → *Yes, I have.*"
+   "why": "Відповідь повторює допоміжне з питання: *Have you…?* → *Yes, I have.* *did* — питання було з *have*; *saw* і *seen* — коротка відповідь повторює допоміжне, а не основне дієслово."
   },
   {
    "id": "auxiliary-verbs-23",
@@ -290,7 +290,7 @@
     "was"
    ],
    "answer": 1,
-   "why": "Наголошене *did* — «я ж казав!»: *I did tell you!*"
+   "why": "Наголошене *did* — «я ж казав!»: *I did tell you!* *do tell* — теперішній час, а розмова була в минулому; *have tell* — потрібна третя форма; *was tell* — неграматично."
   },
   {
    "id": "auxiliary-verbs-24",

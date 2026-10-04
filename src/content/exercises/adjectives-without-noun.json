@@ -11,7 +11,7 @@
     "The rich man"
    ],
    "answer": 0,
-   "why": "*the* + прикметник = група людей: *The rich* (багаті люди)."
+   "why": "*the* + прикметник = група людей: *The rich* (багаті люди). *A rich* — з артиклем *a* прикметник не означає групу; *Rich man* — бракує артикля і це одна людина; *The rich man* — один конкретний багач, а дієслово *are*."
   },
   {
    "id": "adjectives-without-noun-2",
@@ -24,7 +24,7 @@
     "needing"
    ],
    "answer": 1,
-   "why": "Така група — множина: *The young need support.*"
+   "why": "Така група — множина: *The young need support.* *needs* — однина, а група узгоджується як множина; *is needing* — однина і Continuous зі станом; *needing* — немає особової форми."
   },
   {
    "id": "adjectives-without-noun-3",
@@ -50,7 +50,7 @@
     "the sick"
    ],
    "answer": 1,
-   "why": "Про одну людину потрібен іменник: *a poor man*."
+   "why": "Про одну людину потрібен іменник: *a poor man*. *the poor*, *the elderly*, *the sick* — групи людей, а не одна людина."
   },
   {
    "id": "adjectives-without-noun-5",
@@ -63,7 +63,7 @@
     "a place"
    ],
    "answer": 0,
-   "why": "*the* + прикметник в однині може означати абстрактне явище: *the unknown* — «невідоме»."
+   "why": "*the* + прикметник в однині може означати абстрактне явище: *the unknown* — «невідоме». *the unknown* в однині — поняття; групу людей позначають через множину (*the unemployed are*); для людини й місця потрібен іменник."
   },
   {
    "id": "adjectives-without-noun-6",
@@ -76,7 +76,7 @@
     "impossibles"
    ],
    "answer": 0,
-   "why": "*the impossible* — «неможливе»: *the* + прикметник як іменник-поняття."
+   "why": "*the impossible* — «неможливе»: *the* + прикметник як іменник-поняття. *impossibly* — прислівник; *impossibility* — «неможливість», інший зміст; *impossibles* — прикметник у ролі іменника не бере *-s*."
   },
   {
    "id": "adjectives-without-noun-7",
@@ -89,7 +89,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "*the unemployed* = безробітні люди, множина, тому *are*."
+   "why": "*the unemployed* = безробітні люди, множина, тому *are*. *is* і *has* — однина, а група — множина; *be* — немає особової форми."
   },
   {
    "id": "adjectives-without-noun-8",
@@ -134,7 +134,7 @@
     "has need"
    ],
    "answer": 0,
-   "why": "*the elderly* — група людей, тому дієслово в множині: *need*."
+   "why": "*the elderly* — група людей, тому дієслово в множині: *need*. *needs* і *is needing* — однина, а група — множина; *has need* — застаріло й теж однина."
   },
   {
    "id": "adjectives-without-noun-12",
@@ -160,7 +160,7 @@
     "A British"
    ],
    "answer": 0,
-   "why": "*the British* — без *-s*: прикметник у ролі іменника множини не змінюється."
+   "why": "*the British* — без *-s*: прикметник у ролі іменника множини не змінюється. *The Britishes* — прикметник у ролі іменника не бере *-s*; *British people is* — *people* — множина; *A British* — про одну людину кажуть *a British person*."
   },
   {
    "id": "adjectives-without-noun-14",
@@ -173,7 +173,7 @@
     "An injured were taken to hospital."
    ],
    "answer": 0,
-   "why": "*the injured* — поранені (множина), без *-s* і з дієсловом *were*."
+   "why": "*the injured* — поранені (множина), без *-s* і з дієсловом *were*. *The injureds* — без *-s*; *was* — однина, а йдеться про групу; *An injured* — з *a / an* прикметник не означає людину."
   },
   {
    "id": "adjectives-without-noun-15",
@@ -257,7 +257,7 @@
     "a Japan"
    ],
    "answer": 1,
-   "why": "Про одну людину — прикметник: *She's Japanese.*"
+   "why": "Про одну людину — прикметник: *She's Japanese.* *a Japanese* — про людину так не кажуть, лише *Japanese* або *a Japanese woman*; *the Japanese* — увесь народ; *a Japan* — назва країни."
   },
   {
    "id": "adjectives-without-noun-21",

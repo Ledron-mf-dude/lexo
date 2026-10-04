@@ -98,7 +98,7 @@
     "The others people came."
    ],
    "answer": 1,
-   "why": "*others* не стоїть перед іменником: *Other people came.*"
+   "why": "*others* не стоїть перед іменником: *Other people came.* *Others people* — *others* не стоїть перед іменником; *Another people* — *another* лише з однинною; *The others people* — те саме, що перший варіант."
   },
   {
    "id": "another-other-9",
@@ -176,7 +176,7 @@
     "another"
    ],
    "answer": 0,
-   "why": "Взаємна дія — *each other*: допомагають один одному."
+   "why": "Взаємна дія — *each other*: допомагають один одному. *each others* — без *-s*; *the other* — «інший із двох», а не «один одного»; *another* — «ще один»."
   },
   {
    "id": "another-other-16",
@@ -245,7 +245,7 @@
     "the others"
    ],
    "answer": 0,
-   "why": "*other* + іменник у множині: *other countries*."
+   "why": "*other* + іменник у множині: *other countries*. *another countries* — *another* лише з однинною; *others* і *the others* не стоять перед іменником."
   },
   {
    "id": "another-other-20",

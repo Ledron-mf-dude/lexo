@@ -24,7 +24,7 @@
     "has"
    ],
    "answer": 1,
-   "why": "*two people* — множина, тому *There are*. *people* вже множина від *person*."
+   "why": "*two people* — множина, тому *There are*. *people* вже множина від *person*. *is* — однина, а *two people* — множина; *be* — початкова форма; *There has* неграматично."
   },
   {
    "id": "there-is-are-3",
@@ -37,7 +37,7 @@
     "Do there"
    ],
    "answer": 1,
-   "why": "*questions* — множина, тому *Are there…?* У питанні *there* і дієслово міняються місцями: *There are* → *Are there*."
+   "why": "*questions* — множина, тому *Are there…?* У питанні *there* і дієслово міняються місцями: *There are* → *Are there*. *Is there* — однина, а *questions* — множина; *Have there* і *Do there* — питання з *there* будують через *be*."
   },
   {
    "id": "there-is-are-4",
@@ -50,7 +50,7 @@
     "were"
    ],
    "answer": 2,
-   "why": "*yesterday* — минуле, *a storm* — однина, тому *There was*."
+   "why": "*yesterday* — минуле, *a storm* — однина, тому *There was*. *is* і *are* — теперішній час, а *yesterday* — минуле; *were* — множина, а *a storm* — однина."
   },
   {
    "id": "there-is-are-5",
@@ -63,7 +63,7 @@
     "is being"
    ],
    "answer": 0,
-   "why": "*tomorrow* — майбутнє: *There will be a meeting tomorrow.* Після *will* — завжди *be*, незалежно від числа."
+   "why": "*tomorrow* — майбутнє: *There will be a meeting tomorrow.* Після *will* — завжди *be*, незалежно від числа. *was* — минуле, а *tomorrow* — майбутнє; *has been* — Present Perfect; *is being* — про подію в розкладі так не кажуть."
   },
   {
    "id": "there-is-are-6",
@@ -179,7 +179,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "*milk* — нелічильне, а нелічильні узгоджуються як однина: *There is some milk.*"
+   "why": "*milk* — нелічильне, а нелічильні узгоджуються як однина: *There is some milk.* *are* — множина, а *milk* нелічильне; *have* / *has* — з *there* вживають *be*."
   },
   {
    "id": "there-is-are-16",
@@ -192,7 +192,7 @@
     "hasn't"
    ],
    "answer": 0,
-   "why": "*tickets* — множина, тому *There aren't any tickets left.*"
+   "why": "*tickets* — множина, тому *There aren't any tickets left.* *isn't* і *wasn't* — однина, а *tickets* — множина; *hasn't* — з *there* вживають *be*."
   },
   {
    "id": "there-is-are-17",
@@ -282,7 +282,7 @@
     "It has"
    ],
    "answer": 1,
-   "why": "*traffic* — нелічильне, тому *There's a lot of traffic* (однина), хоча *a lot of* звучить як «багато»."
+   "why": "*traffic* — нелічильне, тому *There's a lot of traffic* (однина), хоча *a lot of* звучить як «багато». *There are* — множина, а *traffic* нелічильне; *It's* / *It has* — не повідомляють про наявність чогось."
   },
   {
    "id": "there-is-are-23",

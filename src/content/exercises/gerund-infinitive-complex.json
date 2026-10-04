@@ -24,7 +24,7 @@
     "waited"
    ],
    "answer": 0,
-   "why": "*make* + особа + дієслово без *to*: *They made him wait.*"
+   "why": "*make* + особа + дієслово без *to*: *They made him wait.* *to wait* — після *make* + особа в активі немає *to*; *waiting* і *waited* — не початкова форма."
   },
   {
    "id": "gerund-infinitive-complex-3",
@@ -37,7 +37,7 @@
     "crosses"
    ],
    "answer": 0,
-   "why": "*see* + особа + інфінітив без *to* — бачив усю дію від початку до кінця: *I saw him cross the road.*"
+   "why": "*see* + особа + інфінітив без *to* — бачив усю дію від початку до кінця: *I saw him cross the road.* *to cross* — після *see* + особа *to* не ставлять; *crossed* — дієприкметник, «бачив його перейденим»; *crosses* — особова форма."
   },
   {
    "id": "gerund-infinitive-complex-4",
@@ -63,7 +63,7 @@
     "having left"
    ],
    "answer": 1,
-   "why": "Дія вже відбулася — перфектний інфінітив: *He seems to have left the country.*"
+   "why": "Дія вже відбулася — перфектний інфінітив: *He seems to have left the country.* *to leave* — загальний або майбутній зміст; *leaving* і *having left* — після *seem* потрібен інфінітив."
   },
   {
    "id": "gerund-infinitive-complex-6",
@@ -76,7 +76,7 @@
     "to saying"
    ],
    "answer": 0,
-   "why": "Жаль про те, що сказав раніше, — *regret having said* (перфектний герундій)."
+   "why": "Жаль про те, що сказав раніше, — *regret having said* (перфектний герундій). *to say* — «з жалем повідомляю»; *say* і *to saying* — неграматично після *regret*."
   },
   {
    "id": "gerund-infinitive-complex-7",
@@ -89,7 +89,7 @@
     "having tell"
    ],
    "answer": 0,
-   "why": "Пасивний герундій — *being told*: він не любить, коли йому вказують."
+   "why": "Пасивний герундій — *being told*: він не любить, коли йому вказують. *to tell* і *telling* — активні: «він не любить казати»; *having tell* — потрібна третя форма."
   },
   {
    "id": "gerund-infinitive-complex-8",
@@ -102,7 +102,7 @@
     "being invited"
    ],
    "answer": 1,
-   "why": "Пасивний інфінітив — *to be invited*: вона хоче, щоб її запросили."
+   "why": "Пасивний інфінітив — *to be invited*: вона хоче, щоб її запросили. *to invite* — активне: «хоче запросити менеджера»; *inviting* і *being invited* — після *want* потрібен інфінітив."
   },
   {
    "id": "gerund-infinitive-complex-9",
@@ -115,7 +115,7 @@
     "gone"
    ],
    "answer": 1,
-   "why": "*let* + інфінітив без *to*: *Let me go.*"
+   "why": "*let* + інфінітив без *to*: *Let me go.* *to go* — після *let* немає *to*; *going* і *gone* — не початкова форма."
   },
   {
    "id": "gerund-infinitive-complex-10",
@@ -165,7 +165,7 @@
     "calls"
    ],
    "answer": 0,
-   "why": "*hear* + особа + інфінітив без *to* — почув усю дію: *heard someone call my name*."
+   "why": "*hear* + особа + інфінітив без *to* — почув усю дію: *heard someone call my name*. *to call* — після *hear* + особа *to* не ставлять; *called* — «почув, як моє ім'я назвали», без підмета-дії; *calls* — особова форма."
   },
   {
    "id": "gerund-infinitive-complex-15",
@@ -191,7 +191,7 @@
     "meet"
    ],
    "answer": 0,
-   "why": "Щойно сталося — *happy to have met you*."
+   "why": "Щойно сталося — *happy to have met you*. *having meet* — потрібна третя форма; *to meet having* — неграматично; *meet* — після *happy* потрібне *to*."
   },
   {
    "id": "gerund-infinitive-complex-17",
@@ -204,7 +204,7 @@
     "reads"
    ],
    "answer": 0,
-   "why": "*make* + особа + без *to*: *made the students read*."
+   "why": "*make* + особа + без *to*: *made the students read*. *to read* — після *make* + особа в активі немає *to*; *reading* і *reads* — не початкова форма."
   },
   {
    "id": "gerund-infinitive-complex-18",
@@ -281,7 +281,7 @@
     "be painting"
    ],
    "answer": 1,
-   "why": "*need* + *-ing* — пасивне значення: стіни треба пофарбувати."
+   "why": "*need* + *-ing* — пасивне значення: стіни треба пофарбувати. *to paint* — активне: «стіни мають фарбувати»; *paint* — бракує *to*; *be painting* — неграматично."
   },
   {
    "id": "gerund-infinitive-complex-23",

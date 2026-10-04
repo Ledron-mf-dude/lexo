@@ -3,7 +3,7 @@
   {
    "id": "reported-speech-1",
    "type": "choice",
-   "q": "\"I am tired.\" (said yesterday) → She said she ___ tired.",
+   "q": "\"I am tired.\" (said yesterday; she's fine now) → She said she ___ tired.",
    "options": [
     "is",
     "was",
@@ -11,12 +11,12 @@
     "has been"
    ],
    "answer": 1,
-   "why": "Коли переказуємо вчорашні слова, час зсуваємо на крок назад: *am* → *was*: *She said she was tired.*"
+   "why": "Коли переказуємо вчорашні слова, час зсуваємо на крок назад: *am* → *was*: *She said she was tired.* *is* можливе, лише якщо стан досі триває, а сьогодні вона вже бадьора; *were* — з *she* потрібне *was*; *has been* — інший зміст (була втомлена якийсь час)."
   },
   {
    "id": "reported-speech-2",
    "type": "choice",
-   "q": "\"I will call you.\" (said last week) → He said he ___ me.",
+   "q": "\"I will call you.\" (said last week; he never did) → He said he ___ me.",
    "options": [
     "will call",
     "would call",
@@ -24,7 +24,7 @@
     "called"
    ],
    "answer": 1,
-   "why": "*will* у непрямій мові → *would*: *He said he would call me.*"
+   "why": "*will* у непрямій мові → *would*: *He said he would call me.* *will call* звучить так, ніби дзвінок ще попереду, а він так і не подзвонив; *calls* — звичка; *called* — повідомляє, що дзвінок відбувся."
   },
   {
    "id": "reported-speech-3",
@@ -47,7 +47,7 @@
     "did I live"
    ],
    "answer": 1,
-   "why": "Непряме питання має прямий порядок слів (без *do*) і зсув часу: *He asked me where I lived.*"
+   "why": "Непряме питання має прямий порядок слів (без *do*) і зсув часу: *He asked me where I lived.* *I am living* — без зсуву часу; *do I live* і *did I live* — порядок слів прямого питання."
   },
   {
    "id": "reported-speech-5",
@@ -60,7 +60,7 @@
     "which"
    ],
    "answer": 1,
-   "why": "Питання «так / ні» в непрямій мові вводимо через *if* (або *whether*): *She asked if I was ready.*"
+   "why": "Питання «так / ні» в непрямій мові вводимо через *if* (або *whether*): *She asked if I was ready.* *that* вводить твердження, а не питання; *what* і *which* — питальні слова, а питання «так / ні»."
   },
   {
    "id": "reported-speech-6",
@@ -95,7 +95,7 @@
     "don't be late"
    ],
    "answer": 2,
-   "why": "Заперечний наказ → *not to* + дієслово: *She told us not to be late.*"
+   "why": "Заперечний наказ → *not to* + дієслово: *She told us not to be late.* *not be late* — бракує *to*; *to not be late* — розщеплений інфінітив, у нормі *not to*; *don't be late* — пряма мова."
   },
   {
    "id": "reported-speech-9",
@@ -193,7 +193,7 @@
     "did I do"
    ],
    "answer": 0,
-   "why": "Непряме питання — прямий порядок: *what I was doing*."
+   "why": "Непряме питання — прямий порядок: *what I was doing*. *was I doing* — порядок прямого питання; *I am doing now* — без зсуву часу і з *now*; *did I do* — порядок прямого питання."
   },
   {
    "id": "reported-speech-18",
@@ -206,7 +206,7 @@
     "has to go"
    ],
    "answer": 0,
-   "why": "*must* (обов'язок) → *had to*: *She said she had to go.*"
+   "why": "*must* (обов'язок) → *had to*: *She said she had to go.* *musts* — модальне не бере *-s*; *must to* — після *must* немає *to*; *has to go* дає *has to go go* і без зсуву часу."
   },
   {
    "id": "reported-speech-19",
@@ -283,7 +283,7 @@
     "would be"
    ],
    "answer": 1,
-   "why": "Якщо головне дієслово в теперішньому (*says*), зсуву часу немає: *She says she is tired.*"
+   "why": "Якщо головне дієслово в теперішньому (*says*), зсуву часу немає: *She says she is tired.* *was*, *had been*, *would be* — зсув часу потрібен лише після минулого *said*, а тут *says*."
   },
   {
    "id": "reported-speech-24",
@@ -309,7 +309,7 @@
     "lived I"
    ],
    "answer": 1,
-   "why": "Непряме питання — прямий порядок: *where I lived*."
+   "why": "Непряме питання — прямий порядок: *where I lived*. *did I live* і *do I live* — порядок прямого питання; *lived I* — інверсія без допоміжного."
   },
   {
    "id": "reported-speech-26",

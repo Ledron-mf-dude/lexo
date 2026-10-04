@@ -24,7 +24,7 @@
     "had been writing"
    ],
    "answer": 2,
-   "why": "*By the age of twenty* — до моменту в минулому вже написала три романи (результат, кількість): *had written*."
+   "why": "*By the age of twenty* — до моменту в минулому вже написала три романи (результат, кількість): *had written*. *writes* — теперішній час; *has written* — Present Perfect, а відлік у минулому; *had been writing* — процес, а не кількість написаного."
   },
   {
    "id": "past-perfect-3",
@@ -37,7 +37,7 @@
     "have been working"
    ],
    "answer": 0,
-   "why": "Тривала дія до моменту в минулому пояснює стан (брудні руки): *had been working*."
+   "why": "Тривала дія до моменту в минулому пояснює стан (брудні руки): *had been working*. *has worked* і *have been working* — Present Perfect, а відлік у минулому (*were dirty*); *is working* — теперішній час."
   },
   {
    "id": "past-perfect-4",
@@ -50,7 +50,7 @@
     "have known"
    ],
    "answer": 1,
-   "why": "*know* — дієслово стану, Continuous не вживається: *had known*."
+   "why": "*know* — дієслово стану, Continuous не вживається: *had known*. *had been knowing* — *know* у Continuous не вживають; *knew* не передає тривалості «до того моменту»; *have known* — відлік у минулому."
   },
   {
    "id": "past-perfect-5",
@@ -76,7 +76,7 @@
     "had been leaving"
    ],
    "answer": 1,
-   "why": "Спершу я прийшов, тоді вона пішла (одна за одною) — обидві в Past Simple: *she left*."
+   "why": "Спершу я прийшов, тоді вона пішла (одна за одною) — обидві в Past Simple: *she left*. *had left* означало б, що вона пішла ще до мого приходу; *has left* — Present Perfect; *had been leaving* — неприродно для короткої дії."
   },
   {
    "id": "past-perfect-7",
@@ -89,7 +89,7 @@
     "were waiting"
    ],
    "answer": 2,
-   "why": "Тривалість до моменту в минулому (*for two hours before…*) — *had been waiting*."
+   "why": "Тривалість до моменту в минулому (*for two hours before…*) — *had been waiting*. *are waiting* і *have been waiting* — теперішній відлік, а автобус приїхав у минулому; *were waiting* не передає тривалості «до того моменту»."
   },
   {
    "id": "past-perfect-8",
@@ -102,7 +102,7 @@
     "Had / ate"
    ],
    "answer": 1,
-   "why": "Досвід до моменту в минулому — *Had you ever eaten…?*"
+   "why": "Досвід до моменту в минулому — *Had you ever eaten…?* *Have … eaten* — відлік у минулому (*before that trip*); *Did … eat* не передає «до того моменту»; *Had … ate* — потрібна третя форма *eaten*."
   },
   {
    "id": "past-perfect-9",
@@ -115,7 +115,7 @@
     "had been losing"
    ],
    "answer": 2,
-   "why": "Непряма мова: «I lost it yesterday» → *had lost … the day before*."
+   "why": "Непряма мова: «I lost it yesterday» → *had lost … the day before*. *loses* і *is losing* — теперішній час; *had been losing* — процес, а телефон загубили один раз."
   },
   {
    "id": "past-perfect-10",

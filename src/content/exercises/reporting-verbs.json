@@ -11,7 +11,7 @@
     "admitted"
    ],
    "answer": 1,
-   "why": "«Я заплачу» — пропозиція, тому *offered to pay*. Після *offer* — *to* + дієслово."
+   "why": "«Я заплачу» — пропозиція, тому *offered to pay*. Після *offer* — *to* + дієслово. *said to pay* — після *say* не вживають *to* + дієслово; *denied* — заперечення; *admitted* — визнання провини."
   },
   {
    "id": "reporting-verbs-2",
@@ -24,7 +24,7 @@
     "offered"
    ],
    "answer": 1,
-   "why": "«Я не брав» — заперечення провини: *denied taking it*. Після *deny* — *-ing*."
+   "why": "«Я не брав» — заперечення провини: *denied taking it*. Після *deny* — *-ing*. *refused* — відмовився щось робити (і з *to*); *promised* і *offered* — з *to*, і зміст інший."
   },
   {
    "id": "reporting-verbs-3",
@@ -37,7 +37,7 @@
     "apologised"
    ],
    "answer": 0,
-   "why": "Застереження — *warn* + особа + *not to*: *She warned me not to go alone.*"
+   "why": "Застереження — *warn* + особа + *not to*: *She warned me not to go alone.* *suggested me not to* — після *suggest* не вживають особу + *to*; *admitted* — визнав; *apologised* — вибачився."
   },
   {
    "id": "reporting-verbs-4",
@@ -50,7 +50,7 @@
     "of being"
    ],
    "answer": 0,
-   "why": "*apologise for* + *-ing*: *apologised for being late*."
+   "why": "*apologise for* + *-ing*: *apologised for being late*. *to be* — після *apologise* потрібне *for* + *-ing*; *that being* — неграматично; *of being* — інший прийменник."
   },
   {
    "id": "reporting-verbs-5",
@@ -76,7 +76,7 @@
     "about"
    ],
    "answer": 1,
-   "why": "*accuse somebody of* + *-ing*: *accused her of stealing*."
+   "why": "*accuse somebody of* + *-ing*: *accused her of stealing*. *for* — з *blame* (*blame her for*), а з *accuse* — лише *of*; *from* і *about* не вживають."
   },
   {
    "id": "reporting-verbs-7",
@@ -89,7 +89,7 @@
     "of"
    ],
    "answer": 1,
-   "why": "*congratulate somebody on* + *-ing*."
+   "why": "*congratulate somebody on* + *-ing*. *for* — розмовна помилка (кальку дає «привітали за»); *with* і *of* після *congratulate* не вживають."
   },
   {
    "id": "reporting-verbs-8",
@@ -102,7 +102,7 @@
     "She suggested we should go."
    ],
    "answer": 2,
-   "why": "*suggest* не вживається зі схемою «особа + *to*»: *suggested me to go* — помилка. Правильно *suggested going* / *suggested that we go*."
+   "why": "*suggest* не вживається зі схемою «особа + *to*»: *suggested me to go* — помилка. Правильно *suggested going* / *suggested that we go*. *suggested going*, *suggested that we go*, *suggested we should go* — усі три правильні, тому неправильне лише *suggested me to go*."
   },
   {
    "id": "reporting-verbs-9",
@@ -115,7 +115,7 @@
     "accused"
    ],
    "answer": 0,
-   "why": "*promise* + *to*: *He promised to call.*"
+   "why": "*promise* + *to*: *He promised to call.* *denied* — заперечив; *insisted to call* — після *insist* потрібне *on* + *-ing*; *accused* — звинуватив, і з *of*."
   },
   {
    "id": "reporting-verbs-10",
@@ -176,7 +176,7 @@
     "agreed"
    ],
    "answer": 0,
-   "why": "«Давай візьмемо таксі» — пропозиція: *suggested taking a taxi*."
+   "why": "«Давай візьмемо таксі» — пропозиція: *suggested taking a taxi*. *offered* — запропонував щось зробити сам (і з *to*); *promised* — пообіцяв (з *to*); *agreed* — погодився (з *to*)."
   },
   {
    "id": "reporting-verbs-16",
@@ -189,7 +189,7 @@
     "denied"
    ],
    "answer": 0,
-   "why": "«Я допоможу, обіцяю» — *promised to help*."
+   "why": "«Я допоможу, обіцяю» — *promised to help*. *suggested to help* — після *suggest* не вживають *to*; *admitted* — визнав; *denied* — заперечив."
   },
   {
    "id": "reporting-verbs-17",
@@ -202,7 +202,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "*blame somebody for* + *-ing* — звинуватити в чомусь."
+   "why": "*blame somebody for* + *-ing* — звинуватити в чомусь. *of* — з *accuse*, а з *blame* — *for*; *on* — у *blame it on somebody*; *with* не вживають."
   },
   {
    "id": "reporting-verbs-18",
@@ -215,7 +215,7 @@
     "apologised"
    ],
    "answer": 0,
-   "why": "Запрошення — *invited me to her party*."
+   "why": "Запрошення — *invited me to her party*. *suggested me* і *offered me to her party* — неграматично; *apologised* — вибачилася."
   },
   {
    "id": "reporting-verbs-19",

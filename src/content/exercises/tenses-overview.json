@@ -24,7 +24,7 @@
     "Present Continuous"
    ],
    "answer": 1,
-   "why": "*was sleeping* = *was / were* + *-ing* — Past Continuous."
+   "why": "*was sleeping* = *was / were* + *-ing* — Past Continuous. Past Simple — *slept*; Past Perfect — *had slept*; Present Continuous — *am sleeping*; *was sleeping* — лише Past Continuous."
   },
   {
    "id": "tenses-overview-3",
@@ -37,7 +37,7 @@
     "Present Perfect"
    ],
    "answer": 2,
-   "why": "*will have moved* = *will have* + третя форма — Future Perfect."
+   "why": "*will have moved* = *will have* + третя форма — Future Perfect. Future Simple — *will move*; Future Continuous — *will be moving*; Present Perfect — *have moved*; *will have* + V3 — Future Perfect."
   },
   {
    "id": "tenses-overview-4",
@@ -69,7 +69,7 @@
     "Future Perfect"
    ],
    "answer": 0,
-   "why": "*had* + третя форма — Past Perfect."
+   "why": "*had* + третя форма — Past Perfect. Present Perfect — *have / has* + V3; Past Simple — V2; Future Perfect — *will have* + V3."
   },
   {
    "id": "tenses-overview-7",
@@ -82,7 +82,7 @@
     "Future Perfect"
    ],
    "answer": 0,
-   "why": "Звички й регулярні дії — Present Simple."
+   "why": "Звички й регулярні дії — Present Simple. Present Continuous — дія зараз; Past Perfect і Future Perfect — дія до моменту в минулому чи майбутньому."
   },
   {
    "id": "tenses-overview-8",
@@ -193,7 +193,7 @@
     "went every"
    ],
    "answer": 0,
-   "why": "*every day* — звичка, Present Simple."
+   "why": "*every day* — звичка, Present Simple. *is going* — дія зараз або план; *has gone* — результат; *went every* — дає *every every day* і минулий час."
   },
   {
    "id": "tenses-overview-18",
@@ -206,7 +206,7 @@
     "are waiting"
    ],
    "answer": 0,
-   "why": "Тривалість до моменту в минулому — *had been waiting*."
+   "why": "Тривалість до моменту в минулому — *had been waiting*. *have waited* — Present Perfect, а відлік у минулому; *were waited* — пасив; *are waiting* — теперішній час."
   },
   {
    "id": "tenses-overview-19",
@@ -219,7 +219,7 @@
     "am lying on"
    ],
    "answer": 0,
-   "why": "*This time tomorrow* — Future Continuous."
+   "why": "*This time tomorrow* — Future Continuous. *will lie* — разова дія, а не процес у той момент; *lie* — теперішній час; *am lying on* — зайвий прийменник."
   },
   {
    "id": "tenses-overview-20",
@@ -286,7 +286,7 @@
     "am lying"
    ],
    "answer": 1,
-   "why": "Процес у момент майбутнього — *will be lying*."
+   "why": "Процес у момент майбутнього — *will be lying*. *will lie* — разова дія; *will have lain* — дія, завершена до того моменту; *am lying* — зараз, а не через тиждень."
   },
   {
    "id": "tenses-overview-24",
