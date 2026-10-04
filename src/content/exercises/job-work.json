@@ -1,0 +1,152 @@
+{
+ "questions": [
+  {
+   "id": "job-work-1",
+   "type": "choice",
+   "q": "She's just got a new ___ as a nurse.",
+   "options": [
+    "job",
+    "work",
+    "works",
+    "working"
+   ],
+   "answer": 0,
+   "why": "Посада, лічильне з *a* — *a new job*. *a new work* — *work* нелічильне; *works* — «твори» або «завод»; *working* — не іменник тут."
+  },
+  {
+   "id": "job-work-2",
+   "type": "choice",
+   "q": "I have a lot of ___ to do this weekend.",
+   "options": [
+    "work",
+    "jobs of",
+    "works",
+    "job"
+   ],
+   "answer": 0,
+   "why": "Обсяг праці, нелічильне — *a lot of work*. *jobs of* — неграматично; *works* — «твори»; *a lot of job* — *job* лічильне."
+  },
+  {
+   "id": "job-work-3",
+   "type": "choice",
+   "q": "What time do you usually get home from ___?",
+   "options": [
+    "work",
+    "the job",
+    "job",
+    "a work"
+   ],
+   "answer": 0,
+   "why": "Місце роботи — *from work*, без артикля. *the job* і *job* так не вживають про місце; *a work* — *work* нелічильне."
+  },
+  {
+   "id": "job-work-4",
+   "type": "choice",
+   "q": "He has two part-time ___.",
+   "options": [
+    "jobs",
+    "works",
+    "work",
+    "workings"
+   ],
+   "answer": 0,
+   "why": "Дві посади — *two jobs*. *works* — «твори»; *work* — нелічильне; *workings* — «механізм»."
+  },
+  {
+   "id": "job-work-5",
+   "type": "choice",
+   "q": "I'm looking for ___ in the IT industry.",
+   "options": [
+    "work",
+    "a work",
+    "works",
+    "job"
+   ],
+   "answer": 0,
+   "why": "Зайнятість, без артикля — *looking for work* (або *a job*). *a work* — *work* нелічильне; *works* — «твори»; *job* без артикля — помилка."
+  },
+  {
+   "id": "job-work-6",
+   "type": "choice",
+   "q": "You did a great ___ with the garden!",
+   "options": [
+    "job",
+    "work",
+    "works",
+    "working"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз *do a great job* — добре впоратися. *a great work* — *work* нелічильне; *works* і *working* — не підходять."
+  },
+  {
+   "id": "job-work-7",
+   "type": "choice",
+   "q": "I'm sorry, I can't talk now — I'm at ___.",
+   "options": [
+    "work",
+    "the job",
+    "job",
+    "a job"
+   ],
+   "answer": 0,
+   "why": "Місце, без артикля — *at work*. *at the job*, *at job*, *at a job* так не кажуть."
+  },
+  {
+   "id": "job-work-8",
+   "type": "choice",
+   "q": "The museum has ___ by Picasso and Dalí.",
+   "options": [
+    "works",
+    "jobs",
+    "work of",
+    "job"
+   ],
+   "answer": 0,
+   "why": "Твори мистецтва — *works*. *jobs* — посади; *work of* — неповне; *job* — посада."
+  },
+  {
+   "id": "job-work-9",
+   "type": "fill",
+   "q": "My brother lost his ___ last month.",
+   "answer": [
+    "job"
+   ],
+   "why": "Посада — *his job*."
+  },
+  {
+   "id": "job-work-10",
+   "type": "fill",
+   "q": "I go to ___ by train.",
+   "answer": [
+    "work"
+   ],
+   "why": "Місце роботи, без артикля — *go to work*."
+  },
+  {
+   "id": "job-work-11",
+   "type": "fill",
+   "q": "There isn't much ___ in this town.",
+   "answer": [
+    "work"
+   ],
+   "why": "Зайнятість, нелічильне — *not much work*.",
+   "hint": "(праці, вакансій)"
+  },
+  {
+   "id": "job-work-12",
+   "type": "order",
+   "words": [
+    "She",
+    "has",
+    "a",
+    "very",
+    "interesting",
+    "job"
+   ],
+   "answer": [
+    "She has a very interesting job"
+   ],
+   "why": "Посада — *a job*, з артиклем."
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "almost-most-1",
+   "type": "choice",
+   "q": "___ people in my office drive to work.",
+   "options": [
+    "Most",
+    "Almost",
+    "Most of",
+    "The most of"
+   ],
+   "answer": 0,
+   "why": "«Більшість людей» — *Most people*. *Almost* не стоїть сам перед іменником; *Most of* — потрібне *the / my* після *of*; *The most of* — неграматично."
+  },
+  {
+   "id": "almost-most-2",
+   "type": "choice",
+   "q": "___ all the students passed the exam.",
+   "options": [
+    "Almost",
+    "Most",
+    "Mostly of",
+    "The most"
+   ],
+   "answer": 0,
+   "why": "«Майже всі» — *Almost all*. *Most all* — розмовне AmE; *Mostly of* і *The most* — неграматично."
+  },
+  {
+   "id": "almost-most-3",
+   "type": "choice",
+   "q": "___ of my friends live in the city centre.",
+   "options": [
+    "Most",
+    "Almost",
+    "Mostly",
+    "The most"
+   ],
+   "answer": 0,
+   "why": "«Більшість із» — *Most of my friends*. *Almost of* — неграматично; *Mostly of* — неграматично; *The most of* — неграматично."
+  },
+  {
+   "id": "almost-most-4",
+   "type": "choice",
+   "q": "I ___ missed my flight because of the traffic.",
+   "options": [
+    "almost",
+    "most",
+    "mostly",
+    "the most"
+   ],
+   "answer": 0,
+   "why": "«Ледь не» з дієсловом — *almost missed*. *most*, *mostly*, *the most* так не вживають."
+  },
+  {
+   "id": "almost-most-5",
+   "type": "choice",
+   "q": "___ everyone came to the meeting.",
+   "options": [
+    "Almost",
+    "Most",
+    "Mostly",
+    "The most"
+   ],
+   "answer": 0,
+   "why": "«Майже всі» перед *everyone* — *Almost*. *Most everyone* — розмовне AmE; *Mostly* і *The most* — неграматично."
+  },
+  {
+   "id": "almost-most-6",
+   "type": "choice",
+   "q": "It's ___ midnight. We should go home.",
+   "options": [
+    "almost",
+    "most",
+    "mostly",
+    "the most"
+   ],
+   "answer": 0,
+   "why": "«Майже» з часом — *almost midnight*. Інші варіанти неграматичні."
+  },
+  {
+   "id": "almost-most-7",
+   "type": "choice",
+   "q": "___ children like sweets.",
+   "options": [
+    "Most",
+    "Almost",
+    "Most of",
+    "Mostly"
+   ],
+   "answer": 0,
+   "why": "«Більшість дітей» — *Most children*. *Almost children* — бракує *all*; *Most of children* — бракує *the*; *Mostly children* — «переважно діти», інший зміст."
+  },
+  {
+   "id": "almost-most-8",
+   "type": "choice",
+   "q": "There's ___ no milk left.",
+   "options": [
+    "almost",
+    "most",
+    "mostly",
+    "the most"
+   ],
+   "answer": 0,
+   "why": "«Майже не залишилося» — *almost no*. *most no*, *mostly no*, *the most no* — неграматично."
+  },
+  {
+   "id": "almost-most-9",
+   "type": "fill",
+   "q": "I've read ___ of his books.",
+   "answer": [
+    "most",
+    "almost all"
+   ],
+   "why": "«Більшість його книжок» — *most of his books* (або *almost all of*)."
+  },
+  {
+   "id": "almost-most-10",
+   "type": "fill",
+   "q": "We ___ always eat at home.",
+   "answer": [
+    "almost",
+    "nearly"
+   ],
+   "why": "«Майже завжди» — *almost always* (також *nearly*)."
+  },
+  {
+   "id": "almost-most-11",
+   "type": "fill",
+   "q": "___ people prefer summer to winter.",
+   "answer": [
+    "Most"
+   ],
+   "why": "«Більшість людей» — *Most people*."
+  },
+  {
+   "id": "almost-most-12",
+   "type": "order",
+   "words": [
+    "Almost",
+    "all",
+    "my",
+    "friends",
+    "have",
+    "a",
+    "dog"
+   ],
+   "answer": [
+    "Almost all my friends have a dog"
+   ],
+   "why": "«Майже всі» — *almost all*."
+  }
+ ]
+}

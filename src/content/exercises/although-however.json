@@ -1,0 +1,160 @@
+{
+ "questions": [
+  {
+   "id": "although-however-1",
+   "type": "choice",
+   "q": "___ he was tired, he finished the report before going to bed.",
+   "options": [
+    "Although",
+    "However",
+    "Despite",
+    "In spite"
+   ],
+   "answer": 0,
+   "why": "Дві частини одного речення — *Although* + речення. *However* потребує окремого речення й коми; *Despite* і *In spite (of)* — перед іменником, а не реченням."
+  },
+  {
+   "id": "although-however-2",
+   "type": "choice",
+   "q": "The flight was cheap. ___, the seats were very uncomfortable.",
+   "options": [
+    "However",
+    "Although",
+    "Despite",
+    "Even though"
+   ],
+   "answer": 0,
+   "why": "Друге речення відсилає до попереднього — *However,* з комою. *Although* і *Even though* не стоять окремо перед комою; *Despite* потребує іменника."
+  },
+  {
+   "id": "although-however-3",
+   "type": "choice",
+   "q": "___ hard she tried, she couldn't open the jar.",
+   "options": [
+    "However",
+    "Although",
+    "Though",
+    "Despite"
+   ],
+   "answer": 0,
+   "why": "«Хоч як» + прислівник — *However hard*. *Although hard* і *Though hard* — неграматично; *Despite* — перед іменником."
+  },
+  {
+   "id": "although-however-4",
+   "type": "choice",
+   "q": "I liked the film. The ending was a bit weak, ___.",
+   "options": [
+    "though",
+    "although",
+    "however that",
+    "despite"
+   ],
+   "answer": 0,
+   "why": "У кінці речення в розмові — *though*. *although* у кінці не ставиться; *however that* — неграматично; *despite* — потребує іменника."
+  },
+  {
+   "id": "although-however-5",
+   "type": "choice",
+   "q": "We enjoyed the trip ___ it rained every day.",
+   "options": [
+    "although",
+    "however",
+    "despite",
+    "in spite of"
+   ],
+   "answer": 0,
+   "why": "Друга частина того самого речення з підметом і дієсловом — *although*. *however* не з'єднує частини без крапки чи крапки з комою; *despite* і *in spite of* — перед іменником."
+  },
+  {
+   "id": "although-however-6",
+   "type": "choice",
+   "q": "The museum is free. The special exhibition, ___, costs £10.",
+   "options": [
+    "however",
+    "although",
+    "even though",
+    "despite"
+   ],
+   "answer": 0,
+   "why": "Вставне *however* у середині речення, між комами. *although*, *even though* потребують речення після себе; *despite* — іменника."
+  },
+  {
+   "id": "although-however-7",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "Although it was late, we stayed.",
+    "However it was late, we stayed.",
+    "Although it was late, but we stayed.",
+    "It was late however we stayed."
+   ],
+   "answer": 0,
+   "why": "*Although* + речення без коми після сполучника. *However it was late* — так кажуть лише в значенні «хоч як»; *Although … but* — два сполучники на одне протиставлення; *however* без розділових знаків — помилка."
+  },
+  {
+   "id": "although-however-8",
+   "type": "choice",
+   "q": "Prices rose sharply; ___, sales continued to grow.",
+   "options": [
+    "however",
+    "although",
+    "even though",
+    "despite"
+   ],
+   "answer": 0,
+   "why": "Після крапки з комою — *however,* з комою. *although* і *even though* не стоять окремо перед комою; *despite* потребує іменника."
+  },
+  {
+   "id": "although-however-9",
+   "type": "fill",
+   "q": "___ it was expensive, we bought the bigger flat.",
+   "answer": [
+    "Although",
+    "Though",
+    "Even though"
+   ],
+   "why": "Дві частини одного речення — *Although* (також *Though*, *Even though*)."
+  },
+  {
+   "id": "although-however-10",
+   "type": "fill",
+   "q": "The test was difficult. ___, most students passed.",
+   "answer": [
+    "However",
+    "Nevertheless",
+    "Still"
+   ],
+   "why": "Окреме речення з протиставленням — *However,* (також *Nevertheless,*, *Still,*)."
+  },
+  {
+   "id": "although-however-11",
+   "type": "fill",
+   "q": "___ much money he earns, he never seems happy.",
+   "answer": [
+    "However",
+    "No matter how"
+   ],
+   "why": "«Скільки б не» — *However much* або *No matter how much*."
+  },
+  {
+   "id": "although-however-12",
+   "type": "order",
+   "words": [
+    "Although",
+    "the",
+    "shop",
+    "was",
+    "busy",
+    "we",
+    "were",
+    "served",
+    "quickly"
+   ],
+   "answer": [
+    "Although the shop was busy, we were served quickly",
+    "We were served quickly although the shop was busy"
+   ],
+   "why": "*Although* + речення може стояти першим (з комою) або другим."
+  }
+ ]
+}

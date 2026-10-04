@@ -1,0 +1,155 @@
+{
+ "questions": [
+  {
+   "id": "alone-lonely-1",
+   "type": "choice",
+   "q": "My grandfather has lived ___ since my grandmother died.",
+   "options": [
+    "alone",
+    "lonely",
+    "lonelily",
+    "alonely"
+   ],
+   "answer": 0,
+   "why": "Живе сам, факт — *alone*. *lonely* — прикметник-почуття, після *lived* так не вживають; *lonelily* і *alonely* — таких слів немає."
+  },
+  {
+   "id": "alone-lonely-2",
+   "type": "choice",
+   "q": "She felt very ___ in her first weeks at university.",
+   "options": [
+    "lonely",
+    "alone of",
+    "alonely",
+    "lonesome of"
+   ],
+   "answer": 0,
+   "why": "Почуття самотності — *felt lonely*. *alone of*, *alonely*, *lonesome of* — неграматично."
+  },
+  {
+   "id": "alone-lonely-3",
+   "type": "choice",
+   "q": "He's a ___ old man who rarely talks to anyone.",
+   "options": [
+    "lonely",
+    "alone",
+    "on his own",
+    "by himself"
+   ],
+   "answer": 0,
+   "why": "Перед іменником — тільки *lonely*. *alone*, *on his own*, *by himself* не стоять перед іменником."
+  },
+  {
+   "id": "alone-lonely-4",
+   "type": "choice",
+   "q": "Please leave me ___. I need to think.",
+   "options": [
+    "alone",
+    "lonely",
+    "lonelily",
+    "only"
+   ],
+   "answer": 0,
+   "why": "«Дай мені спокій» — *leave me alone*. *lonely* — почуття; *lonelily* — такого слова немає; *only* — «лише»."
+  },
+  {
+   "id": "alone-lonely-5",
+   "type": "choice",
+   "q": "I like travelling ___. I can go wherever I want.",
+   "options": [
+    "alone",
+    "lonely",
+    "lonelily",
+    "alone of"
+   ],
+   "answer": 0,
+   "why": "Подорожувати самому, факт без суму — *alone*. *lonely* — почуття, і після дієслова як «самотньо» не вживається; інші варіанти неграматичні."
+  },
+  {
+   "id": "alone-lonely-6",
+   "type": "choice",
+   "q": "It was a long, ___ road with no houses for miles.",
+   "options": [
+    "lonely",
+    "alone",
+    "on its own",
+    "by itself"
+   ],
+   "answer": 0,
+   "why": "Безлюдне місце, перед іменником — *lonely road*. *alone*, *on its own*, *by itself* не стоять перед іменником."
+  },
+  {
+   "id": "alone-lonely-7",
+   "type": "choice",
+   "q": "I did all the work on my ___.",
+   "options": [
+    "own",
+    "alone",
+    "lonely",
+    "self"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз *on my own* = сам. *on my alone*, *on my lonely*, *on my self* — неграматично."
+  },
+  {
+   "id": "alone-lonely-8",
+   "type": "choice",
+   "q": "She was ___ in the house, but she didn't feel lonely.",
+   "options": [
+    "alone",
+    "lonely",
+    "lonelier",
+    "loneliness"
+   ],
+   "answer": 0,
+   "why": "Фізично сама — *alone*; далі сказано, що самотньо їй не було. *lonely* суперечить *didn't feel lonely*; *lonelier* і *loneliness* — інші форми."
+  },
+  {
+   "id": "alone-lonely-9",
+   "type": "fill",
+   "q": "I live ___ in a small flat.",
+   "answer": [
+    "alone",
+    "on my own",
+    "by myself"
+   ],
+   "why": "Сам, факт — *alone* (також *on my own*, *by myself*)."
+  },
+  {
+   "id": "alone-lonely-10",
+   "type": "fill",
+   "q": "Without his friends, the boy felt sad and ___.",
+   "answer": [
+    "lonely"
+   ],
+   "why": "Почуття — *lonely*."
+  },
+  {
+   "id": "alone-lonely-11",
+   "type": "fill",
+   "q": "She finished the puzzle by ___.",
+   "answer": [
+    "herself"
+   ],
+   "why": "Сама — *by herself*."
+  },
+  {
+   "id": "alone-lonely-12",
+   "type": "order",
+   "words": [
+    "I",
+    "was",
+    "alone",
+    "but",
+    "I",
+    "wasn't",
+    "lonely"
+   ],
+   "answer": [
+    "I was alone but I wasn't lonely",
+    "I was alone, but I wasn't lonely"
+   ],
+   "why": "*alone* — факт, *lonely* — почуття."
+  }
+ ]
+}

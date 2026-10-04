@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "its-it-s-1",
+   "type": "choice",
+   "q": "The tree has lost all ___ leaves.",
+   "options": [
+    "its",
+    "it's",
+    "its'",
+    "it is"
+   ],
+   "answer": 0,
+   "why": "«Його листя» про дерево — присвійне *its*, без апострофа. *it's* = *it is / it has*; *its'* не існує; *it is leaves* — безглуздо."
+  },
+  {
+   "id": "its-it-s-2",
+   "type": "choice",
+   "q": "___ been raining since this morning.",
+   "options": [
+    "It's",
+    "Its",
+    "Its'",
+    "It"
+   ],
+   "answer": 0,
+   "why": "*It's been* = *It has been* — скорочення. *Its* — присвійне; *Its'* не існує; *It been* — бракує *has*."
+  },
+  {
+   "id": "its-it-s-3",
+   "type": "choice",
+   "q": "___ car is parked outside my house?",
+   "options": [
+    "Whose",
+    "Who's",
+    "Who",
+    "Whom"
+   ],
+   "answer": 0,
+   "why": "«Чия машина» — *Whose*. *Who's* = *who is / who has*; *Who* і *Whom* не означають «чий»."
+  },
+  {
+   "id": "its-it-s-4",
+   "type": "choice",
+   "q": "___ coming to the cinema with us tonight?",
+   "options": [
+    "Who's",
+    "Whose",
+    "Whos",
+    "Whose is"
+   ],
+   "answer": 0,
+   "why": "*Who's coming* = *Who is coming*. *Whose* і *Whose is* — «чий»; *Whos* без апострофа — помилка."
+  },
+  {
+   "id": "its-it-s-5",
+   "type": "choice",
+   "q": "I think ___ going to love this restaurant.",
+   "options": [
+    "you're",
+    "your",
+    "you",
+    "yours"
+   ],
+   "answer": 0,
+   "why": "*you're* = *you are*: *you are going to*. *your* — «твій»; *you going* — бракує *are*; *yours* — «твій» без іменника."
+  },
+  {
+   "id": "its-it-s-6",
+   "type": "choice",
+   "q": "The children put on ___ coats and went outside.",
+   "options": [
+    "their",
+    "they're",
+    "there",
+    "theirs"
+   ],
+   "answer": 0,
+   "why": "«Свої (їхні) пальта» — *their*. *they're* = *they are*; *there* — «там»; *theirs* — без іменника."
+  },
+  {
+   "id": "its-it-s-7",
+   "type": "choice",
+   "q": "___ a lovely day today, isn't it?",
+   "options": [
+    "It's",
+    "Its",
+    "Its'",
+    "It"
+   ],
+   "answer": 0,
+   "why": "*It's* = *It is*. *Its* — присвійне; *Its'* не існує; *It a lovely day* — бракує дієслова."
+  },
+  {
+   "id": "its-it-s-8",
+   "type": "choice",
+   "q": "Every country has ___ own traditions.",
+   "options": [
+    "its",
+    "it's",
+    "his",
+    "their's"
+   ],
+   "answer": 0,
+   "why": "Про країну як річ — *its own*. *it's* = *it is*; *his* — про чоловіка; *their's* — неграматична форма."
+  },
+  {
+   "id": "its-it-s-9",
+   "type": "fill",
+   "q": "That's the woman ___ son plays for the national team.",
+   "answer": [
+    "whose"
+   ],
+   "why": "«Чий син» — *whose son*."
+  },
+  {
+   "id": "its-it-s-10",
+   "type": "fill",
+   "q": "___ (it / have) been a really long week.",
+   "answer": [
+    "It's",
+    "It has"
+   ],
+   "why": "*It's been* = *It has been*."
+  },
+  {
+   "id": "its-it-s-11",
+   "type": "fill",
+   "q": "I don't know ___ left the door open.",
+   "answer": [
+    "who's",
+    "who has",
+    "who"
+   ],
+   "why": "*who's left* = *who has left* (також просто *who left*)."
+  },
+  {
+   "id": "its-it-s-12",
+   "type": "order",
+   "words": [
+    "The",
+    "company",
+    "has",
+    "changed",
+    "its",
+    "name"
+   ],
+   "answer": [
+    "The company has changed its name"
+   ],
+   "why": "Присвійне *its* без апострофа: «свою назву»."
+  }
+ ]
+}

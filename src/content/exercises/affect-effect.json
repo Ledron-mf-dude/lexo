@@ -1,0 +1,152 @@
+{
+ "questions": [
+  {
+   "id": "affect-effect-1",
+   "type": "choice",
+   "q": "Lack of sleep can ___ your concentration.",
+   "options": [
+    "affect",
+    "effect",
+    "affect on",
+    "effect on"
+   ],
+   "answer": 0,
+   "why": "Дієслово «впливати» без прийменника — *affect your concentration*. *effect* — іменник; *affect on* — зайве *on*; *effect on* — іменник із прийменником, а тут потрібне дієслово."
+  },
+  {
+   "id": "affect-effect-2",
+   "type": "choice",
+   "q": "The new law will have a big ___ on small shops.",
+   "options": [
+    "effect",
+    "affect",
+    "affection",
+    "effective"
+   ],
+   "answer": 0,
+   "why": "Після *a big* — іменник: *effect on*. *affect* — дієслово; *affection* — «прихильність»; *effective* — прикметник."
+  },
+  {
+   "id": "affect-effect-3",
+   "type": "choice",
+   "q": "Thousands of people were ___ by the storm.",
+   "options": [
+    "affected",
+    "effected",
+    "effect",
+    "affect on"
+   ],
+   "answer": 0,
+   "why": "Пасив від *affect* — *were affected*. *effected* — «здійснені», інший зміст; *effect* — іменник; *affect on* — неграматично."
+  },
+  {
+   "id": "affect-effect-4",
+   "type": "choice",
+   "q": "Does this medicine have any side ___?",
+   "options": [
+    "effects",
+    "affects",
+    "effect on",
+    "affections"
+   ],
+   "answer": 0,
+   "why": "Побічні ефекти — *side effects*. *affects* — дієслово; *effect on* — потребує об'єкта; *affections* — «почуття»."
+  },
+  {
+   "id": "affect-effect-5",
+   "type": "choice",
+   "q": "How does climate change ___ wildlife?",
+   "options": [
+    "affect",
+    "effect",
+    "effect on",
+    "affect on"
+   ],
+   "answer": 0,
+   "why": "Дієслово після *does* — *affect*. *effect* — іменник; *effect on* і *affect on* — зайвий прийменник."
+  },
+  {
+   "id": "affect-effect-6",
+   "type": "choice",
+   "q": "The new rules come into ___ next month.",
+   "options": [
+    "effect",
+    "affect",
+    "effective",
+    "affection"
+   ],
+   "answer": 0,
+   "why": "Набрати чинності — *come into effect*. *affect* — дієслово; *effective* — прикметник; *affection* — «прихильність»."
+  },
+  {
+   "id": "affect-effect-7",
+   "type": "choice",
+   "q": "His words had no ___ on her decision.",
+   "options": [
+    "effect",
+    "affect",
+    "effects of",
+    "affected"
+   ],
+   "answer": 0,
+   "why": "Після *no* — іменник: *no effect on*. *affect* — дієслово; *effects of* — неправильний прийменник; *affected* — дієприкметник."
+  },
+  {
+   "id": "affect-effect-8",
+   "type": "choice",
+   "q": "The film used amazing special ___.",
+   "options": [
+    "effects",
+    "affects",
+    "affections",
+    "effect on"
+   ],
+   "answer": 0,
+   "why": "Спецефекти — *special effects*. Інші варіанти — дієслово, «почуття» або неповний вираз."
+  },
+  {
+   "id": "affect-effect-9",
+   "type": "fill",
+   "q": "Music can ___ the way we feel.",
+   "answer": [
+    "affect",
+    "influence",
+    "change"
+   ],
+   "why": "Дієслово «впливати» — *affect* (також *influence*, *change*)."
+  },
+  {
+   "id": "affect-effect-10",
+   "type": "fill",
+   "q": "Coffee has a strong ___ on me.",
+   "answer": [
+    "effect"
+   ],
+   "why": "Після *a strong* — іменник *effect*."
+  },
+  {
+   "id": "affect-effect-11",
+   "type": "fill",
+   "q": "Her illness ___ (affect) her memory last year.",
+   "answer": [
+    "affected"
+   ],
+   "why": "Дієслово в минулому — *affected*."
+  },
+  {
+   "id": "affect-effect-12",
+   "type": "order",
+   "words": [
+    "The",
+    "noise",
+    "affected",
+    "my",
+    "sleep"
+   ],
+   "answer": [
+    "The noise affected my sleep"
+   ],
+   "why": "*affect* — дієслово, без прийменника."
+  }
+ ]
+}

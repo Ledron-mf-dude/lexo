@@ -1,0 +1,153 @@
+{
+ "questions": [
+  {
+   "id": "wish-hope-expect-1",
+   "type": "choice",
+   "q": "I ___ you get the job. You really deserve it.",
+   "options": [
+    "hope",
+    "wish",
+    "expect to",
+    "look forward"
+   ],
+   "answer": 0,
+   "why": "Хочу, і це можливо — *hope* + теперішній час. *wish you get* — неграматично; *expect to you* і *look forward you* — неграматично."
+  },
+  {
+   "id": "wish-hope-expect-2",
+   "type": "choice",
+   "q": "I ___ I could speak Chinese, but I can't.",
+   "options": [
+    "wish",
+    "hope",
+    "expect",
+    "look forward"
+   ],
+   "answer": 0,
+   "why": "Нереальне бажання — *wish* + *could*. *hope I could* — суперечить *but I can't*; *expect* — прогноз; *look forward* — потребує *to*."
+  },
+  {
+   "id": "wish-hope-expect-3",
+   "type": "choice",
+   "q": "We ___ you a merry Christmas!",
+   "options": [
+    "wish",
+    "hope",
+    "expect",
+    "look forward"
+   ],
+   "answer": 0,
+   "why": "Побажання людині з іменником — *wish you a merry Christmas*. *hope you a…* — неграматично; *expect* і *look forward* — інший зміст."
+  },
+  {
+   "id": "wish-hope-expect-4",
+   "type": "choice",
+   "q": "Take an umbrella. I ___ it'll rain this afternoon.",
+   "options": [
+    "expect",
+    "wish",
+    "look forward",
+    "wish that"
+   ],
+   "answer": 0,
+   "why": "Прогноз, а не бажання — *expect*. *wish it'll rain* — неграматично; *look forward* потребує *to*; *wish that it'll* — неграматично."
+  },
+  {
+   "id": "wish-hope-expect-5",
+   "type": "choice",
+   "q": "I'm really looking forward to ___ you next month.",
+   "options": [
+    "seeing",
+    "see",
+    "have seen",
+    "saw"
+   ],
+   "answer": 0,
+   "why": "*look forward to* + *-ing*: *to seeing*. *to see* — помилка, бо *to* тут прийменник; *have seen* і *saw* — неграматично."
+  },
+  {
+   "id": "wish-hope-expect-6",
+   "type": "choice",
+   "q": "I ___ I hadn't eaten so much. I feel sick.",
+   "options": [
+    "wish",
+    "hope",
+    "expect",
+    "look forward"
+   ],
+   "answer": 0,
+   "why": "Жаль про минуле — *wish* + Past Perfect. *hope* не поєднується з Past Perfect у такому значенні; *expect* — прогноз; *look forward* — потребує *to*."
+  },
+  {
+   "id": "wish-hope-expect-7",
+   "type": "choice",
+   "q": "\"Will it be sunny tomorrow?\" — \"I ___ so.\"",
+   "options": [
+    "hope",
+    "wish",
+    "look forward",
+    "wish it"
+   ],
+   "answer": 0,
+   "why": "Коротка відповідь «сподіваюся» — *I hope so*. *I wish so* так не кажуть; *I look forward so* і *I wish it so* — неграматично."
+  },
+  {
+   "id": "wish-hope-expect-8",
+   "type": "choice",
+   "q": "We're ___ about 100 guests at the wedding.",
+   "options": [
+    "expecting",
+    "hoping",
+    "wishing",
+    "looking forward"
+   ],
+   "answer": 0,
+   "why": "Очікуємо, що буде, — *expecting 100 guests*. *hoping 100 guests* — неграматично без *for*; *wishing* — побажання; *looking forward* — потребує *to*."
+  },
+  {
+   "id": "wish-hope-expect-9",
+   "type": "fill",
+   "q": "I ___ you have a safe journey home.",
+   "answer": [
+    "hope"
+   ],
+   "why": "Хочу, і це можливо — *I hope you have*."
+  },
+  {
+   "id": "wish-hope-expect-10",
+   "type": "fill",
+   "q": "I ___ I lived closer to the sea.",
+   "answer": [
+    "wish"
+   ],
+   "why": "Нереальне — *I wish I lived*."
+  },
+  {
+   "id": "wish-hope-expect-11",
+   "type": "fill",
+   "q": "She ___ to finish her degree next year.",
+   "answer": [
+    "expects"
+   ],
+   "why": "*expect to do* — думаю, що так буде (також *hopes to*).",
+   "hint": "(розраховує, що так буде)"
+  },
+  {
+   "id": "wish-hope-expect-12",
+   "type": "order",
+   "words": [
+    "I",
+    "wish",
+    "I",
+    "had",
+    "more",
+    "free",
+    "time"
+   ],
+   "answer": [
+    "I wish I had more free time"
+   ],
+   "why": "Нереальне бажання про теперішнє — *wish* + Past Simple."
+  }
+ ]
+}

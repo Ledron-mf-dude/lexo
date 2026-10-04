@@ -1,0 +1,152 @@
+{
+ "questions": [
+  {
+   "id": "less-fewer-1",
+   "type": "choice",
+   "q": "There were ___ people at the match than last week.",
+   "options": [
+    "fewer",
+    "less",
+    "least",
+    "fewest"
+   ],
+   "answer": 0,
+   "why": "*people* — лічильний у множині: *fewer*. *less* з множиною — розмовне, у письмі неправильне; *least* і *fewest* — найвищий ступінь, а тут порівняння з *than*."
+  },
+  {
+   "id": "less-fewer-2",
+   "type": "choice",
+   "q": "You should put ___ salt in the soup next time.",
+   "options": [
+    "less",
+    "fewer",
+    "little than",
+    "fewest"
+   ],
+   "answer": 0,
+   "why": "*salt* — нелічильне: *less*. *fewer* — для множини; *little than* — неграматично; *fewest* — для множини й найвищого ступеня."
+  },
+  {
+   "id": "less-fewer-3",
+   "type": "choice",
+   "q": "It costs ___ than £10.",
+   "options": [
+    "less",
+    "fewer",
+    "lesser",
+    "few"
+   ],
+   "answer": 0,
+   "why": "Сума грошей як одна величина — *less than £10*. *fewer than £10* неприродне; *lesser* — «менш важливий»; *few than* — неграматично."
+  },
+  {
+   "id": "less-fewer-4",
+   "type": "choice",
+   "q": "Our team made the ___ mistakes and won.",
+   "options": [
+    "fewest",
+    "least",
+    "less",
+    "fewer"
+   ],
+   "answer": 0,
+   "why": "Найменше з лічильних — *the fewest mistakes*. *the least* — для нелічильних; *the less* і *the fewer* — не найвищий ступінь."
+  },
+  {
+   "id": "less-fewer-5",
+   "type": "choice",
+   "q": "I have ___ free time than I used to.",
+   "options": [
+    "less",
+    "fewer",
+    "fewest",
+    "least of"
+   ],
+   "answer": 0,
+   "why": "*time* — нелічильне: *less free time*. *fewer* і *fewest* — для множини; *least of* — неграматично тут."
+  },
+  {
+   "id": "less-fewer-6",
+   "type": "choice",
+   "q": "___ than twenty students passed the exam.",
+   "options": [
+    "Fewer",
+    "Less of",
+    "Least",
+    "Few"
+   ],
+   "answer": 0,
+   "why": "Студентів рахуємо — *Fewer than twenty*. *Less of* — неграматично; *Least* — найвищий ступінь; *Few than* — неграматично."
+  },
+  {
+   "id": "less-fewer-7",
+   "type": "choice",
+   "q": "Which of these jobs needs the ___ experience?",
+   "options": [
+    "least",
+    "fewest",
+    "less",
+    "fewer"
+   ],
+   "answer": 0,
+   "why": "*experience* тут нелічильне: *the least*. *fewest* — для множини; *less* і *fewer* — не найвищий ступінь."
+  },
+  {
+   "id": "less-fewer-8",
+   "type": "choice",
+   "q": "We live ___ than two miles from the station.",
+   "options": [
+    "less",
+    "fewer",
+    "lesser",
+    "least"
+   ],
+   "answer": 0,
+   "why": "Відстань як одна величина — *less than two miles*. *fewer* — про окремі предмети; *lesser* — «менш значний»; *least* — найвищий ступінь."
+  },
+  {
+   "id": "less-fewer-9",
+   "type": "fill",
+   "q": "I'm trying to drink ___ coffee.",
+   "answer": [
+    "less"
+   ],
+   "why": "*coffee* — нелічильне: *less*."
+  },
+  {
+   "id": "less-fewer-10",
+   "type": "fill",
+   "q": "There are ___ cars on the roads at night.",
+   "answer": [
+    "fewer"
+   ],
+   "why": "*cars* — лічильний у множині: *fewer*."
+  },
+  {
+   "id": "less-fewer-11",
+   "type": "fill",
+   "q": "She got the ___ votes of all the candidates.",
+   "answer": [
+    "fewest"
+   ],
+   "why": "Найменше голосів (лічильні) — *the fewest votes*."
+  },
+  {
+   "id": "less-fewer-12",
+   "type": "order",
+   "words": [
+    "We",
+    "need",
+    "fewer",
+    "meetings",
+    "and",
+    "less",
+    "paperwork"
+   ],
+   "answer": [
+    "We need fewer meetings and less paperwork"
+   ],
+   "why": "*meetings* — множина: *fewer*; *paperwork* — нелічильне: *less*."
+  }
+ ]
+}

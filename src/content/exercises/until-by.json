@@ -1,0 +1,156 @@
+{
+ "questions": [
+  {
+   "id": "until-by-1",
+   "type": "choice",
+   "q": "You need to return the library books ___ Friday.",
+   "options": [
+    "by",
+    "until",
+    "till",
+    "since"
+   ],
+   "answer": 0,
+   "why": "Дедлайн, не пізніше — *by Friday*. *until* і *till* — дія триває весь час до п'ятниці, а повернути книжки — одна дія; *since* — «відтоді»."
+  },
+  {
+   "id": "until-by-2",
+   "type": "choice",
+   "q": "I'll stay here ___ you come back.",
+   "options": [
+    "until",
+    "by",
+    "by the time that",
+    "since"
+   ],
+   "answer": 0,
+   "why": "Стан триває аж до моменту — *until you come back*. *by* — дедлайн, а *stay* триває; *by the time that* — про завершене до моменту; *since* — «відтоді»."
+  },
+  {
+   "id": "until-by-3",
+   "type": "choice",
+   "q": "The museum is open ___ six o'clock.",
+   "options": [
+    "until",
+    "by",
+    "before of",
+    "since"
+   ],
+   "answer": 0,
+   "why": "Стан триває до шостої — *until*. *by six* — «не пізніше шостої», а музей відкритий весь час; *before of* — неграматично; *since* — «відтоді»."
+  },
+  {
+   "id": "until-by-4",
+   "type": "choice",
+   "q": "Can you finish the translation ___ tomorrow morning?",
+   "options": [
+    "by",
+    "until",
+    "till",
+    "during"
+   ],
+   "answer": 0,
+   "why": "Завершити не пізніше — *by tomorrow morning*. *until* і *till* — для тривалих дій; *during* — «протягом»."
+  },
+  {
+   "id": "until-by-5",
+   "type": "choice",
+   "q": "The party started at eight, but Sam didn't arrive ___ ten, two hours after everyone else.",
+   "options": [
+    "until",
+    "by",
+    "since",
+    "for"
+   ],
+   "answer": 0,
+   "why": "*not … until* — прийшов аж о десятій. *didn't arrive by ten* означало б, що о десятій його ще не було, а він прийшов саме тоді; *since* і *for* тут неграматичні."
+  },
+  {
+   "id": "until-by-6",
+   "type": "choice",
+   "q": "___ the time the ambulance arrived, he was feeling better.",
+   "options": [
+    "By",
+    "Until",
+    "Till",
+    "Since"
+   ],
+   "answer": 0,
+   "why": "*By the time* + речення — на момент, коли. *Until the time* так не кажуть; *Till* і *Since* — інші значення."
+  },
+  {
+   "id": "until-by-7",
+   "type": "choice",
+   "q": "We waited at the station ___ midnight, but nobody came.",
+   "options": [
+    "until",
+    "by",
+    "on",
+    "since"
+   ],
+   "answer": 0,
+   "why": "Чекали весь час до півночі — *until*. *by* — дедлайн; *on* — для днів; *since* — «відтоді»."
+  },
+  {
+   "id": "until-by-8",
+   "type": "choice",
+   "q": "I'll have the report ready ___ Monday at the latest.",
+   "options": [
+    "by",
+    "until",
+    "till",
+    "from"
+   ],
+   "answer": 0,
+   "why": "Не пізніше — *by Monday*, особливо з *at the latest*. *until* і *till* — тривалість; *from* — «з»."
+  },
+  {
+   "id": "until-by-9",
+   "type": "fill",
+   "q": "I work from nine ___ five.",
+   "answer": [
+    "until",
+    "till",
+    "to"
+   ],
+   "why": "Триває до п'ятої — *from nine until five* (також *till*, *to*)."
+  },
+  {
+   "id": "until-by-10",
+   "type": "fill",
+   "q": "Please reply ___ the end of the week.",
+   "answer": [
+    "by"
+   ],
+   "why": "Дедлайн — *by the end of the week*."
+  },
+  {
+   "id": "until-by-11",
+   "type": "fill",
+   "q": "Come at eight. I'll have finished ___ then.",
+   "answer": [
+    "by"
+   ],
+   "why": "На той момент — *by then*."
+  },
+  {
+   "id": "until-by-12",
+   "type": "order",
+   "words": [
+    "The",
+    "shop",
+    "doesn't",
+    "open",
+    "until",
+    "ten",
+    "on",
+    "Sundays"
+   ],
+   "answer": [
+    "The shop doesn't open until ten on Sundays",
+    "On Sundays the shop doesn't open until ten"
+   ],
+   "why": "*not … until* — лише о десятій."
+  }
+ ]
+}

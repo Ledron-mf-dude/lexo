@@ -1,0 +1,157 @@
+{
+ "questions": [
+  {
+   "id": "amount-number-quantity-1",
+   "type": "choice",
+   "q": "A large ___ of tourists visit the castle every summer.",
+   "options": [
+    "number",
+    "amount",
+    "deal",
+    "much"
+   ],
+   "answer": 0,
+   "why": "*tourists* — лічильний іменник у множині, тому *a large number of*. *amount* і *a great deal of* — для нелічильних; *much* не вживають з *a large … of*."
+  },
+  {
+   "id": "amount-number-quantity-2",
+   "type": "choice",
+   "q": "It takes a huge ___ of time to learn a language well.",
+   "options": [
+    "amount",
+    "number",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "why": "*time* — нелічильне, тому *amount of*. *number of* — для множини; *many* і *few* не поєднуються з *a huge … of*."
+  },
+  {
+   "id": "amount-number-quantity-3",
+   "type": "choice",
+   "q": "The number of cars in the city ___ doubled.",
+   "options": [
+    "has",
+    "have",
+    "are",
+    "were"
+   ],
+   "answer": 0,
+   "why": "*The number of* — це одне число, дієслово в однині: *has doubled*. *have*, *are*, *were* — множина."
+  },
+  {
+   "id": "amount-number-quantity-4",
+   "type": "choice",
+   "q": "A number of my colleagues ___ working from home today.",
+   "options": [
+    "are",
+    "is",
+    "has",
+    "was"
+   ],
+   "answer": 0,
+   "why": "*A number of* = «кілька, багато» → дієслово в множині: *are*. *is*, *has*, *was* — однина."
+  },
+  {
+   "id": "amount-number-quantity-5",
+   "type": "choice",
+   "q": "The factory produces large ___ of plastic bottles.",
+   "options": [
+    "quantities",
+    "amount",
+    "number",
+    "amounts of the"
+   ],
+   "answer": 0,
+   "why": "Товари, партії — *large quantities of*. *large amount* без артикля й однини — неграматично; *large number* потребує *a*; *amounts of the* — зайве *the*."
+  },
+  {
+   "id": "amount-number-quantity-6",
+   "type": "choice",
+   "q": "You only need a small ___ of salt in this recipe.",
+   "options": [
+    "amount",
+    "number",
+    "few",
+    "many"
+   ],
+   "answer": 0,
+   "why": "*salt* — нелічильне: *a small amount of*. *number of* — для множини; *few* і *many* не стоять після *a small*."
+  },
+  {
+   "id": "amount-number-quantity-7",
+   "type": "choice",
+   "q": "The ___ of people who use public transport has fallen.",
+   "options": [
+    "number",
+    "amount",
+    "much",
+    "plenty"
+   ],
+   "answer": 0,
+   "why": "Люди — лічильні: *the number of people*. *amount of people* — помилка в старанному мовленні; *much* і *plenty* тут неграматичні."
+  },
+  {
+   "id": "amount-number-quantity-8",
+   "type": "choice",
+   "q": "We received an enormous ___ of information.",
+   "options": [
+    "amount",
+    "number",
+    "many",
+    "several"
+   ],
+   "answer": 0,
+   "why": "*information* — нелічильне: *amount of information*. *number of* — для множини; *many* і *several* — для лічильних і не стоять після *an enormous*."
+  },
+  {
+   "id": "amount-number-quantity-9",
+   "type": "fill",
+   "q": "A small ___ of students stayed after the lecture.",
+   "answer": [
+    "number"
+   ],
+   "why": "*students* — множина лічильного іменника: *a small number of*."
+  },
+  {
+   "id": "amount-number-quantity-10",
+   "type": "fill",
+   "q": "The ___ of energy we use at home has gone down.",
+   "answer": [
+    "amount"
+   ],
+   "why": "*energy* — нелічильне: *the amount of energy*."
+  },
+  {
+   "id": "amount-number-quantity-11",
+   "type": "fill",
+   "q": "The number of applications ___ (grow) every year.",
+   "answer": [
+    "grows",
+    "is growing",
+    "has grown"
+   ],
+   "why": "*The number of* — однина: *grows* (також *is growing*, *has grown*)."
+  },
+  {
+   "id": "amount-number-quantity-12",
+   "type": "order",
+   "words": [
+    "A",
+    "number",
+    "of",
+    "problems",
+    "were",
+    "discussed",
+    "at",
+    "the",
+    "meeting"
+   ],
+   "answer": [
+    "A number of problems were discussed at the meeting",
+    "At the meeting a number of problems were discussed"
+   ],
+   "why": "*A number of problems* = «кілька проблем», дієслово в множині: *were discussed*."
+  }
+ ]
+}

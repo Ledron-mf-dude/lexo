@@ -1,0 +1,153 @@
+{
+ "questions": [
+  {
+   "id": "especially-specially-1",
+   "type": "choice",
+   "q": "I love Italian food, ___ pizza.",
+   "options": [
+    "especially",
+    "specially made",
+    "special",
+    "specialty"
+   ],
+   "answer": 0,
+   "why": "«Особливо, найбільше» — *especially*. *specially made* — «спеціально зроблену», тут не про мету; *special* і *specialty* — прикметник та іменник, не прислівник."
+  },
+  {
+   "id": "especially-specially-2",
+   "type": "choice",
+   "q": "This software was ___ designed for small businesses.",
+   "options": [
+    "specially",
+    "special",
+    "speciality",
+    "specialised in"
+   ],
+   "answer": 0,
+   "why": "«Спеціально, з метою» — *specially designed*. *special* — прикметник; *speciality* — іменник; *specialised in designed* — неграматично."
+  },
+  {
+   "id": "especially-specially-3",
+   "type": "choice",
+   "q": "It's always crowded here, ___ at weekends.",
+   "options": [
+    "especially",
+    "specially for",
+    "special",
+    "specially made"
+   ],
+   "answer": 0,
+   "why": "«Особливо» перед обставиною — *especially at weekends*. *specially for* — «спеціально для»; *special* — прикметник; *specially made* — не за змістом."
+  },
+  {
+   "id": "especially-specially-4",
+   "type": "choice",
+   "q": "I made this soup ___ for you.",
+   "options": [
+    "specially",
+    "especial",
+    "special",
+    "speciality"
+   ],
+   "answer": 0,
+   "why": "«Саме для тебе» — *specially for you* (у розмові трапляється й *especially for you*). *especial*, *special*, *speciality* — не прислівники."
+  },
+  {
+   "id": "especially-specially-5",
+   "type": "choice",
+   "q": "I ___ liked the part about the history of the city.",
+   "options": [
+    "especially",
+    "special",
+    "specially for",
+    "speciality"
+   ],
+   "answer": 0,
+   "why": "«Особливо» перед дієсловом — *especially liked*. *special* — прикметник; *specially for* — «спеціально для»; *speciality* — іменник."
+  },
+  {
+   "id": "especially-specially-6",
+   "type": "choice",
+   "q": "Drink plenty of water, ___ when it's hot.",
+   "options": [
+    "especially",
+    "special",
+    "specially made",
+    "specialised"
+   ],
+   "answer": 0,
+   "why": "«Особливо коли» — *especially when*. Інші варіанти — прикметники або інший зміст."
+  },
+  {
+   "id": "especially-specially-7",
+   "type": "choice",
+   "q": "These shoes are ___ made for people with back problems.",
+   "options": [
+    "specially",
+    "special",
+    "speciality",
+    "specialise"
+   ],
+   "answer": 0,
+   "why": "«Спеціально зроблені» — *specially made*. *special*, *speciality*, *specialise* — не прислівники."
+  },
+  {
+   "id": "especially-specially-8",
+   "type": "choice",
+   "q": "This exercise is ___ useful for beginners.",
+   "options": [
+    "especially",
+    "special",
+    "specially for",
+    "speciality"
+   ],
+   "answer": 0,
+   "why": "«Особливо корисна» — *especially useful*. *special useful* — два прикметники поспіль; *specially for useful* — неграматично; *speciality* — іменник."
+  },
+  {
+   "id": "especially-specially-9",
+   "type": "fill",
+   "q": "I don't like sweets, ___ chocolate.",
+   "answer": [
+    "especially",
+    "particularly"
+   ],
+   "why": "«Особливо» — *especially* (також *particularly*)."
+  },
+  {
+   "id": "especially-specially-10",
+   "type": "fill",
+   "q": "The hall was ___ built for concerts.",
+   "answer": [
+    "specially"
+   ],
+   "why": "«Спеціально, з метою» — *specially built*."
+  },
+  {
+   "id": "especially-specially-11",
+   "type": "fill",
+   "q": "The roads are dangerous, ___ in winter.",
+   "answer": [
+    "especially",
+    "particularly"
+   ],
+   "why": "«Особливо взимку» — *especially in winter*."
+  },
+  {
+   "id": "especially-specially-12",
+   "type": "order",
+   "words": [
+    "I",
+    "especially",
+    "enjoyed",
+    "the",
+    "last",
+    "chapter"
+   ],
+   "answer": [
+    "I especially enjoyed the last chapter"
+   ],
+   "why": "*especially* стоїть перед дієсловом, а не на початку речення."
+  }
+ ]
+}

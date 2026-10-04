@@ -1,0 +1,157 @@
+{
+ "questions": [
+  {
+   "id": "last-the-last-1",
+   "type": "choice",
+   "q": "I went to a great concert ___ Saturday.",
+   "options": [
+    "last",
+    "the last",
+    "in last",
+    "on the last"
+   ],
+   "answer": 0,
+   "why": "Минула субота від сьогодні — *last Saturday*, без артикля й прийменника. *the last Saturday* — «остання субота (місяця)»; *in last* і *on the last* — зайві прийменники."
+  },
+  {
+   "id": "last-the-last-2",
+   "type": "choice",
+   "q": "It has rained a lot ___ few days.",
+   "options": [
+    "in the last",
+    "last",
+    "on last",
+    "the next"
+   ],
+   "answer": 0,
+   "why": "Період до сьогодні включно — *in the last few days* (з Present Perfect). *last few days* без *the* і прийменника — неграматично; *on last* — зайвий прийменник; *the next* — майбутнє."
+  },
+  {
+   "id": "last-the-last-3",
+   "type": "choice",
+   "q": "We'll be on holiday for ___ two weeks, starting tomorrow.",
+   "options": [
+    "the next",
+    "next",
+    "the last",
+    "last"
+   ],
+   "answer": 0,
+   "why": "Період, що починається зараз, із числом — *the next two weeks*. *next two weeks* без *the* — неграматично; *the last* і *last* — минуле."
+  },
+  {
+   "id": "last-the-last-4",
+   "type": "choice",
+   "q": "We arrived in Rome on Monday, and ___ day we visited the Colosseum.",
+   "options": [
+    "the next",
+    "next",
+    "last",
+    "the last"
+   ],
+   "answer": 0,
+   "why": "У розповіді про минуле «наступного дня» — *the next day*. *next day* без артикля — неграматично тут; *last* і *the last* — інший зміст."
+  },
+  {
+   "id": "last-the-last-5",
+   "type": "choice",
+   "q": "This is ___ time I'm lending you money!",
+   "options": [
+    "the last",
+    "last",
+    "a last",
+    "next"
+   ],
+   "answer": 0,
+   "why": "«Останній раз, більше не буде» — *the last time*. *last time* без артикля — «минулого разу»; *a last time* — неприродно; *next* — «наступного разу»."
+  },
+  {
+   "id": "last-the-last-6",
+   "type": "choice",
+   "q": "See you ___ week!",
+   "options": [
+    "next",
+    "the next",
+    "on next",
+    "in next"
+   ],
+   "answer": 0,
+   "why": "Наступний тиждень від сьогодні — *next week*. *the next week* — «наступного тижня після того моменту» або «найближчий тиждень»; *on next* і *in next* — зайві прийменники."
+  },
+  {
+   "id": "last-the-last-7",
+   "type": "choice",
+   "q": "Is this ___ train to London tonight?",
+   "options": [
+    "the last",
+    "last",
+    "a last",
+    "the latest of"
+   ],
+   "answer": 0,
+   "why": "Останній у ряду — *the last train*. *last train* без артикля — неграматично тут; *a last* — неприродно; *the latest of* — «найновіший»."
+  },
+  {
+   "id": "last-the-last-8",
+   "type": "choice",
+   "q": "I met her for the first time ___ year.",
+   "options": [
+    "last",
+    "the last",
+    "in the last",
+    "on last"
+   ],
+   "answer": 0,
+   "why": "Минулий рік від сьогодні — *last year*. *the last year* — «останні 12 місяців»; *in the last* потребує періоду; *on last* — зайвий прийменник."
+  },
+  {
+   "id": "last-the-last-9",
+   "type": "fill",
+   "q": "She moved to Canada ___ year.",
+   "answer": [
+    "last"
+   ],
+   "why": "Від сьогодні — *last year*, без артикля.",
+   "hint": "(минулого року)"
+  },
+  {
+   "id": "last-the-last-10",
+   "type": "fill",
+   "q": "I've been really busy for ___ three weeks.",
+   "answer": [
+    "the last",
+    "the past"
+   ],
+   "why": "Період до сьогодні — *the last three weeks* (також *the past*).",
+   "hint": "(останні)"
+  },
+  {
+   "id": "last-the-last-11",
+   "type": "fill",
+   "q": "He fell ill on Tuesday and died ___ week.",
+   "answer": [
+    "the next",
+    "the following"
+   ],
+   "why": "Від іншого моменту в минулому — *the next week* (*the following week*)."
+  },
+  {
+   "id": "last-the-last-12",
+   "type": "order",
+   "words": [
+    "I'm",
+    "going",
+    "to",
+    "visit",
+    "my",
+    "aunt",
+    "next",
+    "month"
+   ],
+   "answer": [
+    "I'm going to visit my aunt next month"
+   ],
+   "why": "Від сьогодні — *next month*, без *the* і прийменника."
+  }
+ ]
+}

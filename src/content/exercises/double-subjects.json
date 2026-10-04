@@ -1,0 +1,158 @@
+{
+ "questions": [
+  {
+   "id": "double-subjects-1",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "My uncle works in a hospital.",
+    "My uncle he works in a hospital.",
+    "My uncle, he is working in a hospital always.",
+    "He my uncle works in a hospital."
+   ],
+   "answer": 0,
+   "why": "Один підмет — *My uncle works…*. *My uncle he* — повтор підмета займенником; *he is working always* — ще й неправильний час; *He my uncle* — подвійний підмет."
+  },
+  {
+   "id": "double-subjects-2",
+   "type": "choice",
+   "q": "The man who ___ next door is a famous chef.",
+   "options": [
+    "lives",
+    "he lives",
+    "is he living",
+    "his lives"
+   ],
+   "answer": 0,
+   "why": "*who* уже є підметом: *who lives*. *he lives* — зайвий займенник; *is he living* — питальний порядок; *his lives* — неграматично."
+  },
+  {
+   "id": "double-subjects-3",
+   "type": "choice",
+   "q": "That's the phone ___ last week.",
+   "options": [
+    "I bought",
+    "I bought it",
+    "that I bought it",
+    "which I bought him"
+   ],
+   "answer": 0,
+   "why": "Додаток уже замінено (тут він пропущений): *the phone I bought*. *I bought it* і *that I bought it* — зайве *it*; *him* — ще й про людину."
+  },
+  {
+   "id": "double-subjects-4",
+   "type": "choice",
+   "q": "The city where I was born ___ very small.",
+   "options": [
+    "is",
+    "it is",
+    "there is",
+    "is it"
+   ],
+   "answer": 0,
+   "why": "Підмет — *The city where I was born*, далі одразу дієслово: *is*. *it is* — повтор підмета; *there is* — інша конструкція; *is it* — питання."
+  },
+  {
+   "id": "double-subjects-5",
+   "type": "choice",
+   "q": "Everything she said ___ true.",
+   "options": [
+    "was",
+    "it was",
+    "that was",
+    "was it"
+   ],
+   "answer": 0,
+   "why": "Підмет *Everything she said*, потім дієслово *was*. *it was* і *that was* повторюють підмет; *was it* — питальний порядок."
+  },
+  {
+   "id": "double-subjects-6",
+   "type": "choice",
+   "q": "___ important to drink enough water.",
+   "options": [
+    "It is",
+    "Is",
+    "This is it",
+    "There is"
+   ],
+   "answer": 0,
+   "why": "Формальний підмет *It* обов'язковий: *It is important to…* Без підмета (*Is*) речення неграматичне; *This is it* — «ось воно»; *There is important* — неграматично."
+  },
+  {
+   "id": "double-subjects-7",
+   "type": "choice",
+   "q": "The children in my class ___ very friendly.",
+   "options": [
+    "are",
+    "they are",
+    "is",
+    "they is"
+   ],
+   "answer": 0,
+   "why": "Підмет *The children in my class* — множина, дієслово *are*. *they are* — повтор підмета; *is* — однина."
+  },
+  {
+   "id": "double-subjects-8",
+   "type": "choice",
+   "q": "The restaurant ___ we had lunch was closed.",
+   "options": [
+    "where",
+    "where there",
+    "which there",
+    "where it"
+   ],
+   "answer": 0,
+   "why": "*where* замінює *there*: *the restaurant where we had lunch*. *where there* і *where it* — зайві слова; *which there* — неграматично."
+  },
+  {
+   "id": "double-subjects-9",
+   "type": "fill",
+   "q": "The woman ___ opened the door was very kind.",
+   "answer": [
+    "who",
+    "that"
+   ],
+   "why": "*who / that* — підмет означального речення, займенник *she* не додаємо."
+  },
+  {
+   "id": "double-subjects-10",
+   "type": "fill",
+   "q": "The song ___ played at the party was by my favourite band.",
+   "answer": [
+    "they",
+    "that they",
+    "which they"
+   ],
+   "why": "*the song they played* — *song* уже додаток, тому *it* після *played* не повторюємо. Можна й *that they*, *which they*.",
+   "hint": "(вони зіграли)"
+  },
+  {
+   "id": "double-subjects-11",
+   "type": "fill",
+   "q": "My parents ___ (live) in the same house for forty years.",
+   "answer": [
+    "have lived",
+    "have been living"
+   ],
+   "why": "Підмет *My parents*, одразу дієслово: *have lived* (або *have been living*), без *they*."
+  },
+  {
+   "id": "double-subjects-12",
+   "type": "order",
+   "words": [
+    "The",
+    "book",
+    "you",
+    "gave",
+    "me",
+    "was",
+    "really",
+    "interesting"
+   ],
+   "answer": [
+    "The book you gave me was really interesting"
+   ],
+   "why": "*the book you gave me* — без зайвого *it*, а далі одразу *was*, без *it was*."
+  }
+ ]
+}

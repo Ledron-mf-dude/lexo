@@ -5,7 +5,7 @@ import GrammarHub from '../components/GrammarHub'
 import SelectMenu from '../components/SelectMenu'
 import { exerciseIds } from '../lib/exercises'
 import { allMistakes, useExerciseLog } from '../lib/exerciseLog'
-import { LEVELS, articles, categories, levelCounts, loadTextSearch, searchArticles, startLevel, textSearchReady, type Article, type Hit, type Level } from '../lib/grammar'
+import { LEVELS, SHORTS, articles, categories, levelCounts, loadTextSearch, searchArticles, startLevel, textSearchReady, type Article, type Hit, type Level } from '../lib/grammar'
 import { buildRoute, loadPlacement, topicProgress, topicStatus } from '../lib/learningPath'
 import { ARTICLE, count } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
@@ -108,13 +108,14 @@ export default function Grammar() {
   const shown = primary.length + textHits.length
   const filtered = level !== null || category !== null
 
-  const keyOf = (a: Article) => (view === 'level' ? startLevel(a) : a.category)
+  // Short topics have no level: in «За рівнями» they form their own group after C2.
+  const keyOf = (a: Article) => (view === 'level' ? (startLevel(a) ?? SHORTS) : a.category)
   const groups = (() => {
     const map = new Map<string, Hit[]>()
     for (const hit of primary) map.set(keyOf(hit.article), [...(map.get(keyOf(hit.article)) ?? []), hit])
     const entries = [...map]
     if (view === 'level') {
-      const rank = (l: string) => (l === studyLevel ? -1 : LEVELS.indexOf(l as Level))
+      const rank = (l: string) => (l === studyLevel ? -1 : l === SHORTS ? LEVELS.length : LEVELS.indexOf(l as Level))
       entries.sort((a, b) => rank(a[0]) - rank(b[0]))
     }
     return entries
@@ -168,7 +169,15 @@ export default function Grammar() {
       </div>
 
       {!searching && (
-        <GrammarHub log={log.data} progress={progress} filterLabel={[level, category].filter(Boolean).join(' · ') || null} practiceQuery={practiceQuery} mistakes={mistakes} />
+        <GrammarHub
+          log={log.data}
+          progress={progress}
+          filterLabel={[level, category].filter(Boolean).join(' · ') || null}
+          practiceQuery={practiceQuery}
+          mistakes={mistakes}
+          shortsOn={category === SHORTS}
+          onShorts={() => update({ cat: category === SHORTS ? null : SHORTS, level: null })}
+        />
       )}
 
       {!searching && (
@@ -218,7 +227,7 @@ export default function Grammar() {
         groups.map(([name, items]) => (
           <Section
             key={name}
-            title={view === 'level' ? `Рівень ${name}${name === studyLevel ? ' · ваш' : ''}` : name}
+            title={view !== 'level' ? name : name === SHORTS ? `${SHORTS} · поза рівнями` : `Рівень ${name}${name === studyLevel ? ' · ваш' : ''}`}
             count={items.length}
             learned={items.filter((h) => topicStatus(progress.get(h.article.slug)) === 'done').length}
             open={isOpen(name)}

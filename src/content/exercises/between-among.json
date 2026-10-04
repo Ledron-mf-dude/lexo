@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "between-among-1",
+   "type": "choice",
+   "q": "Is there much difference ___ British and American spelling?",
+   "options": [
+    "between",
+    "among",
+    "amongst",
+    "in between of"
+   ],
+   "answer": 0,
+   "why": "Дві сторони порівняння — *difference between*. *among* і *amongst* — про групу без розрізнення; *in between of* — неграматично."
+  },
+  {
+   "id": "between-among-2",
+   "type": "choice",
+   "q": "I found my old diary ___ the books in the attic.",
+   "options": [
+    "among",
+    "between",
+    "along",
+    "beneath of"
+   ],
+   "answer": 0,
+   "why": "Серед маси речей — *among the books*. *between* — між окремими двома; *along* — «уздовж»; *beneath of* — неграматично."
+  },
+  {
+   "id": "between-among-3",
+   "type": "choice",
+   "q": "She was ___ the first students to finish the exam.",
+   "options": [
+    "among",
+    "between",
+    "through",
+    "across"
+   ],
+   "answer": 0,
+   "why": "«Одна з» — *among the first*. *between* — між двома чи окремими сторонами; *through* і *across* не означають «одна з групи»."
+  },
+  {
+   "id": "between-among-4",
+   "type": "choice",
+   "q": "The shop is closed ___ 1 and 2 p.m.",
+   "options": [
+    "between",
+    "among",
+    "from",
+    "during"
+   ],
+   "answer": 0,
+   "why": "Проміжок «від… до…» з *and* — *between 1 and 2*. *among* — про групу; *from* потребує *to*; *during* не поєднується з *and*."
+  },
+  {
+   "id": "between-among-5",
+   "type": "choice",
+   "q": "Belgium lies ___ France, Germany, Luxembourg and the Netherlands.",
+   "options": [
+    "between",
+    "among",
+    "amid",
+    "around of"
+   ],
+   "answer": 0,
+   "why": "Кожна країна — окрема сторона, тому *between* навіть із чотирма. *among* і *amid* — серед маси; *around of* — неграматично."
+  },
+  {
+   "id": "between-among-6",
+   "type": "choice",
+   "q": "This app is very popular ___ teenagers.",
+   "options": [
+    "among",
+    "between",
+    "with between",
+    "amid of"
+   ],
+   "answer": 0,
+   "why": "Поширене в групі — *popular among teenagers* (також *with teenagers*). *between* — не про групу; *with between* і *amid of* — неграматично."
+  },
+  {
+   "id": "between-among-7",
+   "type": "choice",
+   "q": "We shared the pizza ___ the two of us.",
+   "options": [
+    "between",
+    "among",
+    "amongst",
+    "across"
+   ],
+   "answer": 0,
+   "why": "Двоє учасників — *between*. *among* і *amongst* — у групі; *across* — «через»."
+  },
+  {
+   "id": "between-among-8",
+   "type": "choice",
+   "q": "The little cottage stood ___ tall pine trees.",
+   "options": [
+    "among",
+    "between",
+    "along",
+    "within of"
+   ],
+   "answer": 0,
+   "why": "Серед багатьох дерев — *among*. *between* — між двома (двома деревами); *along* — «уздовж»; *within of* — неграматично."
+  },
+  {
+   "id": "between-among-9",
+   "type": "fill",
+   "q": "I can't choose ___ the red dress and the blue one.",
+   "answer": [
+    "between"
+   ],
+   "why": "Вибір між двома — *choose between … and …*."
+  },
+  {
+   "id": "between-among-10",
+   "type": "fill",
+   "q": "There was a feeling of panic ___ the passengers.",
+   "answer": [
+    "among",
+    "amongst"
+   ],
+   "why": "У групі людей — *among / amongst the passengers*."
+  },
+  {
+   "id": "between-among-11",
+   "type": "fill",
+   "q": "The meeting will last ___ two and three hours.",
+   "answer": [
+    "between"
+   ],
+   "why": "Числа «від… до…» — *between two and three hours*."
+  },
+  {
+   "id": "between-among-12",
+   "type": "order",
+   "words": [
+    "The",
+    "money",
+    "was",
+    "divided",
+    "among",
+    "all",
+    "the",
+    "volunteers"
+   ],
+   "answer": [
+    "The money was divided among all the volunteers"
+   ],
+   "why": "Розподіл у групі — *divided among*."
+  }
+ ]
+}

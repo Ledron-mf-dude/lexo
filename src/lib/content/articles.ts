@@ -1,7 +1,7 @@
 // Parsing of grammar articles. Pure functions with no browser or Vite APIs: the content plugin
 // (vite/lexoContent.ts) runs them at build time, so the app ships ready metadata and loads bodies lazily.
 
-export const LEVELS = ['A1', 'A2', 'B1', 'B1+', 'B2', 'C1'] as const
+export const LEVELS = ['A1', 'A2', 'B1', 'B1+', 'B2', 'C1', 'C2'] as const
 export type Level = (typeof LEVELS)[number]
 
 /** Article metadata, always in the bundle. The body is loaded on demand (`loadArticleBody` in lib/grammar.ts). */
@@ -10,7 +10,7 @@ export interface Article {
   title: string
   category: string
   tags: string[]
-  /** CEFR levels the topic is taught at (a topic often spans several). */
+  /** CEFR levels the topic is taught at (a topic often spans several). Empty for «Короткі теми», which belong to no level. */
   levels: Level[]
   /** Other names the topic can be referred to by, used to resolve «Title» references. */
   aliases: string[]
@@ -132,7 +132,7 @@ export function parseArticles(files: [slug: string, raw: string][]): ParsedArtic
       title: meta['title'] || slug,
       category: meta['category'] || 'Інше',
       tags: parseList(meta['tags']),
-      levels: levels.length > 0 ? levels : ['B1'],
+      levels,
       aliases: parseList(meta['aliases']),
       wordTags: parseList(meta['wordTags']),
       body,

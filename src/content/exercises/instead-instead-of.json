@@ -1,0 +1,153 @@
+{
+ "questions": [
+  {
+   "id": "instead-instead-of-1",
+   "type": "choice",
+   "q": "Let's walk ___ taking a taxi. It's a nice evening.",
+   "options": [
+    "instead of",
+    "instead",
+    "instead to",
+    "rather"
+   ],
+   "answer": 0,
+   "why": "Після слова йде те, що замінюємо, — *instead of* + *-ing*. *instead* без *of* не має додатка; *instead to* — неграматично; *rather* без *than* тут неповне."
+  },
+  {
+   "id": "instead-instead-of-2",
+   "type": "choice",
+   "q": "There was no milk, so I had black coffee ___.",
+   "options": [
+    "instead",
+    "instead of",
+    "instead of it of",
+    "rather than"
+   ],
+   "answer": 0,
+   "why": "Те, що замінили (молоко), вже назване — *instead* у кінці. *instead of* без додатка — помилка; *instead of it of* — неграматично; *rather than* потребує продовження."
+  },
+  {
+   "id": "instead-instead-of-3",
+   "type": "choice",
+   "q": "Sue can't come to the meeting, so Mark will go instead of ___.",
+   "options": [
+    "her",
+    "she",
+    "hers",
+    "herself"
+   ],
+   "answer": 0,
+   "why": "Після прийменника *of* — об'єктна форма: *instead of her*. *she* — підмет; *hers* — «її» без іменника; *herself* — зворотний займенник."
+  },
+  {
+   "id": "instead-instead-of-4",
+   "type": "choice",
+   "q": "___ watching TV all evening, why don't you read a book?",
+   "options": [
+    "Instead of",
+    "Instead",
+    "Instead to",
+    "Rather"
+   ],
+   "answer": 0,
+   "why": "*Instead of* + *-ing* на початку. *Instead* без *of* не поєднується з *watching*; *Instead to* і *Rather* — неграматично."
+  },
+  {
+   "id": "instead-instead-of-5",
+   "type": "choice",
+   "q": "The train was cancelled. ___, we took a coach.",
+   "options": [
+    "Instead",
+    "Instead of",
+    "Instead of that of",
+    "Rather of"
+   ],
+   "answer": 0,
+   "why": "Окремо на початку речення, з комою — *Instead,*. *Instead of* потребує додатка; інші варіанти неграматичні."
+  },
+  {
+   "id": "instead-instead-of-6",
+   "type": "choice",
+   "q": "I'd rather stay at home ___ go to the party.",
+   "options": [
+    "than",
+    "instead of",
+    "instead",
+    "of"
+   ],
+   "answer": 0,
+   "why": "*would rather … than* + початкова форма: *rather stay … than go*. *instead of go* — після *of* потрібне *-ing*; *instead* і *of* тут неграматичні."
+  },
+  {
+   "id": "instead-instead-of-7",
+   "type": "choice",
+   "q": "Can I pay by card ___ cash?",
+   "options": [
+    "instead of",
+    "instead",
+    "instead to",
+    "in place"
+   ],
+   "answer": 0,
+   "why": "Перед іменником — *instead of cash*. *instead cash* — бракує *of*; *instead to* — неграматично; *in place* без *of* неповне."
+  },
+  {
+   "id": "instead-instead-of-8",
+   "type": "choice",
+   "q": "Use olive oil ___ butter — it's healthier.",
+   "options": [
+    "instead of",
+    "instead",
+    "rather",
+    "in spite of"
+   ],
+   "answer": 0,
+   "why": "Перед іменником — *instead of butter*. *instead butter* — бракує *of*; *rather* без *than* неповне; *in spite of* — «попри»."
+  },
+  {
+   "id": "instead-instead-of-9",
+   "type": "fill",
+   "q": "Instead of ___ (complain), let's try to fix it.",
+   "answer": [
+    "complaining"
+   ],
+   "why": "Після *instead of* — *-ing*: *complaining*."
+  },
+  {
+   "id": "instead-instead-of-10",
+   "type": "fill",
+   "q": "I didn't go to the gym. I went swimming ___.",
+   "answer": [
+    "instead"
+   ],
+   "why": "Те, що замінили, вже назване — *instead* у кінці речення."
+  },
+  {
+   "id": "instead-instead-of-11",
+   "type": "fill",
+   "q": "He went to the conference instead of ___ (I).",
+   "answer": [
+    "me"
+   ],
+   "why": "Після *of* — об'єктна форма: *me*."
+  },
+  {
+   "id": "instead-instead-of-12",
+   "type": "order",
+   "words": [
+    "Instead",
+    "of",
+    "driving",
+    "to",
+    "work",
+    "she",
+    "cycles"
+   ],
+   "answer": [
+    "Instead of driving to work she cycles",
+    "She cycles to work instead of driving"
+   ],
+   "why": "*instead of* + *-ing* може стояти на початку або в кінці речення."
+  }
+ ]
+}

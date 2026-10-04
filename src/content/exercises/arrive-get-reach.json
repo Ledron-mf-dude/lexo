@@ -1,0 +1,155 @@
+{
+ "questions": [
+  {
+   "id": "arrive-get-reach-1",
+   "type": "choice",
+   "q": "We arrived ___ Madrid late in the evening.",
+   "options": [
+    "in",
+    "at",
+    "to",
+    "on"
+   ],
+   "answer": 0,
+   "why": "Місто — *arrive in*. *arrive at* — будівля, станція; *arrive to* — завжди помилка; *on* — не з містом."
+  },
+  {
+   "id": "arrive-get-reach-2",
+   "type": "choice",
+   "q": "What time does the train arrive ___ the station?",
+   "options": [
+    "at",
+    "in",
+    "to",
+    "into"
+   ],
+   "answer": 0,
+   "why": "Конкретне місце, станція — *arrive at*. *in* — для міст і країн; *to* — помилка з *arrive*; *into* — рух усередину."
+  },
+  {
+   "id": "arrive-get-reach-3",
+   "type": "choice",
+   "q": "After six hours of climbing, they finally ___ the top.",
+   "options": [
+    "reached",
+    "reached to",
+    "arrived",
+    "got"
+   ],
+   "answer": 0,
+   "why": "*reach* — без прийменника: *reached the top*. *reached to* — зайве *to*; *arrived the top* — бракує *at*; *got the top* — бракує *to*."
+  },
+  {
+   "id": "arrive-get-reach-4",
+   "type": "choice",
+   "q": "How do I ___ the city centre from here?",
+   "options": [
+    "get to",
+    "get",
+    "arrive",
+    "reach to"
+   ],
+   "answer": 0,
+   "why": "Розмовне «дістатися» — *get to*. *get the city centre* — бракує *to*; *arrive the* — бракує *in / at*; *reach to* — зайве *to*."
+  },
+  {
+   "id": "arrive-get-reach-5",
+   "type": "choice",
+   "q": "I usually get ___ at about seven.",
+   "options": [
+    "home",
+    "to home",
+    "at home",
+    "in home"
+   ],
+   "answer": 0,
+   "why": "З *home* прийменника немає — *get home*. *to home*, *at home*, *in home* — помилки після *get*."
+  },
+  {
+   "id": "arrive-get-reach-6",
+   "type": "choice",
+   "q": "They couldn't ___ an agreement.",
+   "options": [
+    "reach",
+    "arrive",
+    "get to",
+    "arrive at to"
+   ],
+   "answer": 0,
+   "why": "Досягти згоди — *reach an agreement* (також *arrive at an agreement*, якого тут немає). *arrive an agreement* — бракує *at*; *get to an agreement* — неприродно; *arrive at to* — неграматично."
+  },
+  {
+   "id": "arrive-get-reach-7",
+   "type": "choice",
+   "q": "We arrived ___ the party just after nine.",
+   "options": [
+    "at",
+    "in",
+    "to",
+    "on"
+   ],
+   "answer": 0,
+   "why": "Подія — *arrive at the party*. *in* — для міст і країн; *to* — помилка з *arrive*; *on* — не з подіями."
+  },
+  {
+   "id": "arrive-get-reach-8",
+   "type": "choice",
+   "q": "Call me when you ___ there.",
+   "options": [
+    "get",
+    "get to",
+    "arrive to",
+    "reach to"
+   ],
+   "answer": 0,
+   "why": "З *there* прийменника немає — *get there*. *get to there*, *arrive to there*, *reach to there* — помилки."
+  },
+  {
+   "id": "arrive-get-reach-9",
+   "type": "fill",
+   "q": "Our plane arrived ___ Kyiv two hours late.",
+   "answer": [
+    "in"
+   ],
+   "why": "Місто — *arrive in*."
+  },
+  {
+   "id": "arrive-get-reach-10",
+   "type": "fill",
+   "q": "What time did you ___ home last night?",
+   "answer": [
+    "get",
+    "arrive",
+    "come"
+   ],
+   "why": "З *home* без прийменника — *get home* (також *arrive*, *come*)."
+  },
+  {
+   "id": "arrive-get-reach-11",
+   "type": "fill",
+   "q": "The letter ___ me yesterday.",
+   "answer": [
+    "reached"
+   ],
+   "why": "*reach* без прийменника — *reached me*.",
+   "hint": "(дійшов до)"
+  },
+  {
+   "id": "arrive-get-reach-12",
+   "type": "order",
+   "words": [
+    "We",
+    "got",
+    "to",
+    "the",
+    "hotel",
+    "at",
+    "midnight"
+   ],
+   "answer": [
+    "We got to the hotel at midnight"
+   ],
+   "why": "*get to* + місце — розмовне «дісталися»."
+  }
+ ]
+}

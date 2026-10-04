@@ -1,0 +1,152 @@
+{
+ "questions": [
+  {
+   "id": "try-to-doing-1",
+   "type": "choice",
+   "q": "I tried ___ the lid, but it was stuck and wouldn't move.",
+   "options": [
+    "to open",
+    "opening",
+    "open",
+    "opened"
+   ],
+   "answer": 0,
+   "why": "Зусилля, яке не вдалося, — *try to open*. *tried opening* — експеримент «спробував, чи допоможе відкрити», а тут саму дію не вдалося зробити; *open* і *opened* — неграматично після *tried*."
+  },
+  {
+   "id": "try-to-doing-2",
+   "type": "choice",
+   "q": "If you can't sleep, try ___ a hot bath before bed. It might help.",
+   "options": [
+    "having",
+    "to having",
+    "have",
+    "had"
+   ],
+   "answer": 0,
+   "why": "Порада-експеримент «спробуй, може, допоможе» — *try having*. *to having* — неграматично; *have* і *had* — неграматично після *try*."
+  },
+  {
+   "id": "try-to-doing-3",
+   "type": "choice",
+   "q": "She's trying ___ more patient with her children.",
+   "options": [
+    "to be",
+    "being",
+    "be",
+    "been"
+   ],
+   "answer": 0,
+   "why": "Постійне зусилля, важко — *trying to be*. *trying being* — неприродно для зусилля; *be* і *been* — неграматично після *trying*."
+  },
+  {
+   "id": "try-to-doing-4",
+   "type": "choice",
+   "q": "\"The printer isn't working.\" — \"Try ___ the cable. Maybe it's loose.\"",
+   "options": [
+    "checking",
+    "to checking",
+    "check to",
+    "checked"
+   ],
+   "answer": 0,
+   "why": "Порада, спосіб розв'язати проблему — *try checking*. *to checking* і *check to* — неграматично; *checked* — минулий час."
+  },
+  {
+   "id": "try-to-doing-5",
+   "type": "choice",
+   "q": "Please try ___ late for the meeting tomorrow.",
+   "options": [
+    "not to be",
+    "not being",
+    "to not being",
+    "no to be"
+   ],
+   "answer": 0,
+   "why": "Прохання докласти зусиль — *try not to be late*. *not being* — неприродно в проханні; *to not being* і *no to be* — неграматично."
+  },
+  {
+   "id": "try-to-doing-6",
+   "type": "choice",
+   "q": "He tried hard ___ the exam, but he failed.",
+   "options": [
+    "to pass",
+    "passing",
+    "pass",
+    "passed"
+   ],
+   "answer": 0,
+   "why": "Зусилля з невдалим результатом — *tried hard to pass*. *tried passing* — експеримент, а скласти іспит — не спосіб, а мета; *pass* і *passed* — неграматично."
+  },
+  {
+   "id": "try-to-doing-7",
+   "type": "choice",
+   "q": "My plants weren't growing, so I tried ___ them some fertiliser. Now they look great.",
+   "options": [
+    "giving",
+    "to giving",
+    "give",
+    "gave"
+   ],
+   "answer": 0,
+   "why": "Експеримент, що допоміг — *tried giving*. *to giving* — неграматично; *give* і *gave* — неграматично після *tried*."
+  },
+  {
+   "id": "try-to-doing-8",
+   "type": "choice",
+   "q": "I'll try ___ you back in ten minutes.",
+   "options": [
+    "to call",
+    "to calling",
+    "call to",
+    "called"
+   ],
+   "answer": 0,
+   "why": "Обіцянка постаратися — *try to call* (розмовне *try and call*). *to calling* і *call to* — неграматично; *called* — минулий час."
+  },
+  {
+   "id": "try-to-doing-9",
+   "type": "fill",
+   "q": "I'm trying ___ (learn) Japanese, but it's really hard.",
+   "answer": [
+    "to learn"
+   ],
+   "why": "Зусилля, складна справа — *trying to learn*."
+  },
+  {
+   "id": "try-to-doing-10",
+   "type": "fill",
+   "q": "If the soup is too salty, try ___ (add) some potatoes.",
+   "answer": [
+    "adding"
+   ],
+   "why": "Порада-експеримент — *try adding*."
+  },
+  {
+   "id": "try-to-doing-11",
+   "type": "fill",
+   "q": "Try ___ (not / worry) so much.",
+   "answer": [
+    "not to worry"
+   ],
+   "why": "Порада докласти зусиль — *try not to worry*."
+  },
+  {
+   "id": "try-to-doing-12",
+   "type": "order",
+   "words": [
+    "Try",
+    "turning",
+    "it",
+    "off",
+    "and",
+    "on",
+    "again"
+   ],
+   "answer": [
+    "Try turning it off and on again"
+   ],
+   "why": "Порада-експеримент — *try turning*."
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "little-a-little-1",
+   "type": "choice",
+   "q": "I've got ___ questions about the contract. Do you have a minute?",
+   "options": [
+    "a few",
+    "a little",
+    "little",
+    "much"
+   ],
+   "answer": 0,
+   "why": "*questions* — лічильні, є кілька — *a few*. *a little* і *little* — для нелічильних; *much* — для нелічильних і в запереченнях."
+  },
+  {
+   "id": "little-a-little-2",
+   "type": "choice",
+   "q": "Hurry up! We have very ___ time.",
+   "options": [
+    "little",
+    "few",
+    "a few",
+    "many"
+   ],
+   "answer": 0,
+   "why": "*time* — нелічильне, «дуже мало» — *very little*. *few* і *a few* — для лічильних; *many* — для лічильних."
+  },
+  {
+   "id": "little-a-little-3",
+   "type": "choice",
+   "q": "Could I have ___ sugar in my tea, please?",
+   "options": [
+    "a little",
+    "a few",
+    "few",
+    "many"
+   ],
+   "answer": 0,
+   "why": "*sugar* — нелічильне, «трохи» — *a little*. *a few*, *few*, *many* — для лічильних."
+  },
+  {
+   "id": "little-a-little-4",
+   "type": "choice",
+   "q": "___ people believed his story — it was too strange.",
+   "options": [
+    "Few",
+    "A few",
+    "Little",
+    "A little"
+   ],
+   "answer": 0,
+   "why": "«Мало хто», майже ніхто — *Few* без артикля. *A few* — «кілька», без негативного відтінку, а *too strange* показує, що повірили мало; *Little* і *A little* — для нелічильних."
+  },
+  {
+   "id": "little-a-little-5",
+   "type": "choice",
+   "q": "There's ___ hope of finding survivors now.",
+   "options": [
+    "little",
+    "few",
+    "a few",
+    "many"
+   ],
+   "answer": 0,
+   "why": "«Майже немає надії» — *little hope*. *few*, *a few*, *many* — для лічильних."
+  },
+  {
+   "id": "little-a-little-6",
+   "type": "choice",
+   "q": "I can only stay for ___ minutes.",
+   "options": [
+    "a few",
+    "few",
+    "a little",
+    "little"
+   ],
+   "answer": 0,
+   "why": "«Лише кілька» — *only a few*, з артиклем. *only few* — неприродно; *a little* і *little* — для нелічильних."
+  },
+  {
+   "id": "little-a-little-7",
+   "type": "choice",
+   "q": "We've had quite ___ problems with the new software.",
+   "options": [
+    "a few",
+    "few",
+    "a little",
+    "little"
+   ],
+   "answer": 0,
+   "why": "«Досить багато» — сталий вираз *quite a few*. *quite few* — неграматично; *a little* і *little* — для нелічильних."
+  },
+  {
+   "id": "little-a-little-8",
+   "type": "choice",
+   "q": "I feel ___ better today, thanks.",
+   "options": [
+    "a little",
+    "a few",
+    "few",
+    "little of"
+   ],
+   "answer": 0,
+   "why": "*a little* + порівняльний ступінь — «трохи краще». *a few* і *few* — для лічильних іменників; *little of* — неграматично тут."
+  },
+  {
+   "id": "little-a-little-9",
+   "type": "fill",
+   "q": "Don't worry, we still have ___ money left.",
+   "answer": [
+    "a little",
+    "some"
+   ],
+   "why": "Є трохи, і цього досить — *a little money* (також *some*)."
+  },
+  {
+   "id": "little-a-little-10",
+   "type": "fill",
+   "q": "Very ___ students chose that course, so it was cancelled.",
+   "answer": [
+    "few"
+   ],
+   "why": "Лічильні, «дуже мало» — *very few*."
+  },
+  {
+   "id": "little-a-little-11",
+   "type": "fill",
+   "q": "I speak ___ Spanish — enough to order food.",
+   "answer": [
+    "a little",
+    "some"
+   ],
+   "why": "Трохи є, досить для замовлення — *a little Spanish*."
+  },
+  {
+   "id": "little-a-little-12",
+   "type": "order",
+   "words": [
+    "I've",
+    "invited",
+    "a",
+    "few",
+    "friends",
+    "for",
+    "dinner"
+   ],
+   "answer": [
+    "I've invited a few friends for dinner"
+   ],
+   "why": "Лічильні, «кілька» — *a few friends*."
+  }
+ ]
+}

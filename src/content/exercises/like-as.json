@@ -1,0 +1,155 @@
+{
+ "questions": [
+  {
+   "id": "like-as-1",
+   "type": "choice",
+   "q": "She works ___ a translator for the European Commission.",
+   "options": [
+    "as",
+    "like",
+    "such as",
+    "as if"
+   ],
+   "answer": 0,
+   "why": "Професія, роль — *as a translator*. *like a translator* — «схоже на перекладача»; *such as* — перед прикладами; *as if* — перед реченням."
+  },
+  {
+   "id": "like-as-2",
+   "type": "choice",
+   "q": "He eats ___ a horse!",
+   "options": [
+    "like",
+    "as",
+    "as if",
+    "such as"
+   ],
+   "answer": 0,
+   "why": "Порівняння, схожість — *like a horse*. *as a horse* — «у ролі коня»; *as if* — перед реченням; *such as* — перед прикладами."
+  },
+  {
+   "id": "like-as-3",
+   "type": "choice",
+   "q": "___ I told you yesterday, the office is closed on Friday.",
+   "options": [
+    "As",
+    "Like as",
+    "Such as",
+    "As like"
+   ],
+   "answer": 0,
+   "why": "Перед реченням у письмі — *As I told you*. *Like* у цьому значенні розмовне, а *Like as* і *As like* — неграматичні; *Such as* — перед прикладами."
+  },
+  {
+   "id": "like-as-4",
+   "type": "choice",
+   "q": "You look ___ you've seen a ghost.",
+   "options": [
+    "as if",
+    "as",
+    "such as",
+    "like as"
+   ],
+   "answer": 0,
+   "why": "«Наче» перед реченням — *as if* (розмовне *like*). *as* без *if* тут має інший зміст; *such as* — перед прикладами; *like as* — неграматично."
+  },
+  {
+   "id": "like-as-5",
+   "type": "choice",
+   "q": "Your sister looks just ___ you.",
+   "options": [
+    "like",
+    "as",
+    "as if",
+    "such as"
+   ],
+   "answer": 0,
+   "why": "Схожість зовнішності — *look like*. *look as you* — неграматично; *as if* — перед реченням; *such as* — перед прикладами."
+  },
+  {
+   "id": "like-as-6",
+   "type": "choice",
+   "q": "___ a doctor, I must advise you to stop smoking.",
+   "options": [
+    "As",
+    "Like",
+    "Such as",
+    "As if"
+   ],
+   "answer": 0,
+   "why": "Я лікар, говорю в цій ролі — *As a doctor*. *Like a doctor* — «схоже на лікаря», а я ним є; *Such as* — приклади; *As if* — перед реченням."
+  },
+  {
+   "id": "like-as-7",
+   "type": "choice",
+   "q": "We used an old blanket ___ a curtain.",
+   "options": [
+    "as",
+    "like",
+    "as if",
+    "such"
+   ],
+   "answer": 0,
+   "why": "Функція, «у ролі» — *as a curtain*. *like a curtain* — «схоже на штору»; *as if* — перед реченням; *such* — неграматично."
+  },
+  {
+   "id": "like-as-8",
+   "type": "choice",
+   "q": "Please leave the room ___ you found it.",
+   "options": [
+    "as",
+    "like a",
+    "such as",
+    "as like"
+   ],
+   "answer": 0,
+   "why": "Перед реченням «так, як» — *as you found it*. *like a* — неграматично перед реченням; *such as* — перед прикладами; *as like* — неграматично."
+  },
+  {
+   "id": "like-as-9",
+   "type": "fill",
+   "q": "He's been working ___ a waiter for two years.",
+   "answer": [
+    "as"
+   ],
+   "why": "Професія — *as a waiter*."
+  },
+  {
+   "id": "like-as-10",
+   "type": "fill",
+   "q": "It smells ___ fresh bread in here.",
+   "answer": [
+    "like"
+   ],
+   "why": "Схожість запаху — *smell like*."
+  },
+  {
+   "id": "like-as-11",
+   "type": "fill",
+   "q": "She behaves ___ though she owns the place.",
+   "answer": [
+    "as"
+   ],
+   "why": "«Наче» — *as though*."
+  },
+  {
+   "id": "like-as-12",
+   "type": "order",
+   "words": [
+    "My",
+    "grandfather",
+    "worked",
+    "as",
+    "an",
+    "engineer",
+    "for",
+    "forty",
+    "years"
+   ],
+   "answer": [
+    "My grandfather worked as an engineer for forty years",
+    "For forty years my grandfather worked as an engineer"
+   ],
+   "why": "Професія — *worked as an engineer*."
+  }
+ ]
+}

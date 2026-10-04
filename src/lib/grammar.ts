@@ -27,8 +27,11 @@ export function loadArticle(slug: string): Promise<ArticleContent> {
 // ---- Levels and categories ------------------------------------------------------------------
 
 export const levelIndex = (level: Level) => LEVELS.indexOf(level)
-/** The level a learner first meets the topic at. */
-export const startLevel = (a: Article): Level => [...a.levels].sort((x, y) => levelIndex(x) - levelIndex(y))[0]
+/** The level a learner first meets the topic at; undefined for a short topic, which has no level. */
+export const startLevel = (a: Article): Level | undefined => [...a.levels].sort((x, y) => levelIndex(x) - levelIndex(y))[0]
+
+/** Category of the short «X or Y» topics: useful at any level, so they have no level and stay out of the route. */
+export const SHORTS = 'Короткі теми'
 
 export const categories: { name: string; count: number }[] = [...new Set(articles.map((a) => a.category))]
   .sort((a, b) => a.localeCompare(b, 'uk'))

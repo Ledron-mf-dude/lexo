@@ -1,0 +1,157 @@
+{
+ "questions": [
+  {
+   "id": "clean-wash-1",
+   "type": "choice",
+   "q": "I spent the whole morning ___ the house with a vacuum cleaner.",
+   "options": [
+    "cleaning",
+    "washing",
+    "brushing up",
+    "washing up"
+   ],
+   "answer": 0,
+   "why": "Прибирати пилососом — *clean*. *wash* — водою; *brush up* — «освіжити знання»; *wash up* — мити посуд."
+  },
+  {
+   "id": "clean-wash-2",
+   "type": "choice",
+   "q": "Always ___ your hands before you eat.",
+   "options": [
+    "wash",
+    "clean up",
+    "brush",
+    "wipe up"
+   ],
+   "answer": 0,
+   "why": "Руки миємо водою з милом — *wash your hands*. *clean up* — прибирати безлад; *brush* — щіткою; *wipe up* — витирати розлите."
+  },
+  {
+   "id": "clean-wash-3",
+   "type": "choice",
+   "q": "Don't forget to ___ your teeth before bed.",
+   "options": [
+    "brush",
+    "wash",
+    "wash up",
+    "rinse up"
+   ],
+   "answer": 0,
+   "why": "Зуби — *brush your teeth*. *wash your teeth* так не кажуть; *wash up* — посуд; *rinse up* — неграматично."
+  },
+  {
+   "id": "clean-wash-4",
+   "type": "choice",
+   "q": "This coat can't go in the washing machine — it has to be ___.",
+   "options": [
+    "dry-cleaned",
+    "washed",
+    "washed up",
+    "cleaned up"
+   ],
+   "answer": 0,
+   "why": "Хімчистка — *dry-cleaned*. *washed* суперечить «не можна в пральну машину»; *washed up* — про посуд; *cleaned up* — прибраний."
+  },
+  {
+   "id": "clean-wash-5",
+   "type": "choice",
+   "q": "I'll ___ the dishes if you cook.",
+   "options": [
+    "wash",
+    "clean up with",
+    "brush",
+    "dust"
+   ],
+   "answer": 0,
+   "why": "Посуд миємо водою — *wash the dishes* (також *do the dishes*). *clean up with* — неграматично тут; *brush* — щіткою; *dust* — витирати пил."
+  },
+  {
+   "id": "clean-wash-6",
+   "type": "choice",
+   "q": "My son has to ___ his room every Saturday.",
+   "options": [
+    "clean",
+    "wash",
+    "wash up",
+    "rinse"
+   ],
+   "answer": 0,
+   "why": "Прибирати кімнату — *clean*. *wash the room* так не кажуть; *wash up* — посуд; *rinse* — споліскувати."
+  },
+  {
+   "id": "clean-wash-7",
+   "type": "choice",
+   "q": "She ___ her hair every morning.",
+   "options": [
+    "washes",
+    "cleans",
+    "brushes up",
+    "washes up"
+   ],
+   "answer": 0,
+   "why": "Голову миємо водою — *wash her hair*. *cleans her hair* — неприродно; *brushes up* — «освіжає знання»; *washes up* — миє посуд."
+  },
+  {
+   "id": "clean-wash-8",
+   "type": "choice",
+   "q": "Can you help me ___ the windows? They're full of fingerprints.",
+   "options": [
+    "clean",
+    "wash up",
+    "brush",
+    "clean up with"
+   ],
+   "answer": 0,
+   "why": "Вікна чистимо — *clean the windows* (*wash the windows* теж можливе, але його немає серед варіантів). *wash up* — посуд; *brush* — щіткою; *clean up with* — неграматично."
+  },
+  {
+   "id": "clean-wash-9",
+   "type": "fill",
+   "q": "Who's going to ___ up after dinner tonight?",
+   "answer": [
+    "wash"
+   ],
+   "why": "Британське *wash up* — мити посуд.",
+   "hint": "(помити посуд, BrE)"
+  },
+  {
+   "id": "clean-wash-10",
+   "type": "fill",
+   "q": "I need to ___ the car. It's covered in mud.",
+   "answer": [
+    "wash",
+    "clean"
+   ],
+   "why": "Машину миємо водою — *wash the car*; *clean the car* теж можливе."
+  },
+  {
+   "id": "clean-wash-11",
+   "type": "fill",
+   "q": "I need to ___ my shoes. They're really dirty.",
+   "answer": [
+    "clean",
+    "polish",
+    "brush"
+   ],
+   "why": "Взуття чистимо, а не миємо: *clean my shoes* (також *polish*, *brush*)."
+  },
+  {
+   "id": "clean-wash-12",
+   "type": "order",
+   "words": [
+    "I",
+    "washed",
+    "my",
+    "shirt",
+    "and",
+    "cleaned",
+    "the",
+    "kitchen"
+   ],
+   "answer": [
+    "I washed my shirt and cleaned the kitchen"
+   ],
+   "why": "Сорочку перуть водою — *washed*; кухню прибирають — *cleaned*."
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "questions": [
+  {
+   "id": "maybe-may-be-1",
+   "type": "choice",
+   "q": "___ we could go to the cinema tonight.",
+   "options": [
+    "Maybe",
+    "May be",
+    "Might be",
+    "May"
+   ],
+   "answer": 0,
+   "why": "На початку речення, = *perhaps* — *Maybe*. *May be* і *Might be* — дієслова, а дієслово тут *could go*; *May we could* — неграматично."
+  },
+  {
+   "id": "maybe-may-be-2",
+   "type": "choice",
+   "q": "The shop ___ closed now. It's after eight.",
+   "options": [
+    "may be",
+    "maybe",
+    "may",
+    "maybe be"
+   ],
+   "answer": 0,
+   "why": "Після підмета, на місці дієслова, = *might be* — *may be*. *maybe closed* — бракує дієслова; *may closed* — бракує *be*; *maybe be* — неграматично."
+  },
+  {
+   "id": "maybe-may-be-3",
+   "type": "choice",
+   "q": "\"Will you come to the party?\" — \"___. I'm not sure yet.\"",
+   "options": [
+    "Maybe",
+    "May be",
+    "May",
+    "Be maybe"
+   ],
+   "answer": 0,
+   "why": "Окрема відповідь «можливо» — *Maybe*. *May be* і *May* — дієслова без підмета; *Be maybe* — неграматично."
+  },
+  {
+   "id": "maybe-may-be-4",
+   "type": "choice",
+   "q": "He ___ right, but I'd like a second opinion.",
+   "options": [
+    "may be",
+    "maybe",
+    "is maybe be",
+    "may"
+   ],
+   "answer": 0,
+   "why": "*may be right* = *might be right*. *maybe right* — бракує дієслова; *is maybe be* — неграматично; *may right* — бракує *be*."
+  },
+  {
+   "id": "maybe-may-be-5",
+   "type": "choice",
+   "q": "___ she missed the train.",
+   "options": [
+    "Maybe",
+    "May be",
+    "Might be",
+    "Can be"
+   ],
+   "answer": 0,
+   "why": "= *Perhaps* на початку, а дієслово вже є (*missed*) — *Maybe*. *May be*, *Might be*, *Can be* — зайве дієслово."
+  },
+  {
+   "id": "maybe-may-be-6",
+   "type": "choice",
+   "q": "There ___ a problem with the engine.",
+   "options": [
+    "may be",
+    "maybe",
+    "may",
+    "be maybe"
+   ],
+   "answer": 0,
+   "why": "*There may be* = *There might be*. *There maybe* — бракує дієслова; *There may a problem* — бракує *be*; *be maybe* — неграматично."
+  },
+  {
+   "id": "maybe-may-be-7",
+   "type": "choice",
+   "q": "___ it's time to look for a new job.",
+   "options": [
+    "Maybe",
+    "May be",
+    "May",
+    "Could be it"
+   ],
+   "answer": 0,
+   "why": "= *Perhaps*, дієслово *is* уже є — *Maybe*. *May be it's* — два дієслова; *May it's* — неграматично; *Could be it* — неграматично."
+  },
+  {
+   "id": "maybe-may-be-8",
+   "type": "choice",
+   "q": "These figures ___ wrong. Let's check them again.",
+   "options": [
+    "may be",
+    "maybe",
+    "maybe are be",
+    "may"
+   ],
+   "answer": 0,
+   "why": "*may be wrong* = *might be wrong*. *maybe wrong* — бракує дієслова; *may wrong* — бракує *be*."
+  },
+  {
+   "id": "maybe-may-be-9",
+   "type": "fill",
+   "q": "___ I'm wrong, but I think he's lying.",
+   "answer": [
+    "Maybe",
+    "Perhaps"
+   ],
+   "why": "На початку, = *perhaps*, дієслово *am* уже є — *Maybe*."
+  },
+  {
+   "id": "maybe-may-be-10",
+   "type": "fill",
+   "q": "The answer ___ in the second chapter.",
+   "answer": [
+    "may be",
+    "might be",
+    "could be"
+   ],
+   "why": "На місці дієслова — *may be* (= *might be*)."
+  },
+  {
+   "id": "maybe-may-be-11",
+   "type": "fill",
+   "q": "It ___ too late to call him now.",
+   "answer": [
+    "may be",
+    "might be",
+    "could be"
+   ],
+   "why": "*It may be too late* = *It might be too late*."
+  },
+  {
+   "id": "maybe-may-be-12",
+   "type": "order",
+   "words": [
+    "Maybe",
+    "the",
+    "meeting",
+    "will",
+    "be",
+    "cancelled"
+   ],
+   "answer": [
+    "Maybe the meeting will be cancelled"
+   ],
+   "why": "*Maybe* на початку — прислівник, дієслово окремо: *will be cancelled*."
+  }
+ ]
+}

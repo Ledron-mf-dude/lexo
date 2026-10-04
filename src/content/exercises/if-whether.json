@@ -1,0 +1,155 @@
+{
+ "questions": [
+  {
+   "id": "if-whether-1",
+   "type": "choice",
+   "q": "I can't decide ___ to buy the black jacket or the brown one.",
+   "options": [
+    "whether",
+    "if",
+    "that",
+    "what"
+   ],
+   "answer": 0,
+   "why": "Перед *to*-інфінітивом — тільки *whether to*. *if to* — неграматично; *that* і *what* не вводять вибір «чи»."
+  },
+  {
+   "id": "if-whether-2",
+   "type": "choice",
+   "q": "___ it snows tomorrow, the schools will close.",
+   "options": [
+    "If",
+    "Whether",
+    "That",
+    "Unless whether"
+   ],
+   "answer": 0,
+   "why": "Умова «якщо» — тільки *If*. *Whether* — «чи», не умова; *That* і *Unless whether* — неграматично."
+  },
+  {
+   "id": "if-whether-3",
+   "type": "choice",
+   "q": "We had a long discussion about ___ we should change banks.",
+   "options": [
+    "whether",
+    "if",
+    "that",
+    "what if"
+   ],
+   "answer": 0,
+   "why": "Після прийменника *about* — тільки *whether*. *about if* — помилка; *about that* + речення не вживають; *what if* — «а що, якщо»."
+  },
+  {
+   "id": "if-whether-4",
+   "type": "choice",
+   "q": "___ you like it or not, the meeting is at eight.",
+   "options": [
+    "Whether",
+    "If",
+    "That",
+    "Either"
+   ],
+   "answer": 0,
+   "why": "«Незалежно від того, чи» — *Whether … or not*. *If you like it or not* на початку в цьому значенні не вживають; *That* і *Either* — неграматично."
+  },
+  {
+   "id": "if-whether-5",
+   "type": "choice",
+   "q": "Can you tell me ___ the train has left yet?",
+   "options": [
+    "if",
+    "what",
+    "that",
+    "which"
+   ],
+   "answer": 0,
+   "why": "Непряме питання «так / ні» — *if* (або *whether*, якого тут немає). *what* і *which* — для питань з питальним словом; *that* — не вводить питання."
+  },
+  {
+   "id": "if-whether-6",
+   "type": "choice",
+   "q": "___ he will accept the job is still unclear.",
+   "options": [
+    "Whether",
+    "If",
+    "That if",
+    "What whether"
+   ],
+   "answer": 0,
+   "why": "На початку речення, як підмет, — тільки *Whether*. *If* тут не вживають; *That if* і *What whether* — неграматично."
+  },
+  {
+   "id": "if-whether-7",
+   "type": "choice",
+   "q": "I'll go for a run ___ it's raining or not.",
+   "options": [
+    "whether",
+    "if",
+    "unless",
+    "in case"
+   ],
+   "answer": 0,
+   "why": "«Незалежно від того, чи» — *whether … or not*. *if … or not* у цьому значенні не вживають; *unless* — «якщо не»; *in case* — «на випадок»."
+  },
+  {
+   "id": "if-whether-8",
+   "type": "choice",
+   "q": "She asked me ___ I had ever been to Japan.",
+   "options": [
+    "if",
+    "what",
+    "that",
+    "did"
+   ],
+   "answer": 0,
+   "why": "Непряме питання «так / ні» — *if* (або *whether*). *what* — для питання з питальним словом; *that* — не питання; *did* — прямий порядок питання."
+  },
+  {
+   "id": "if-whether-9",
+   "type": "fill",
+   "q": "I wonder ___ or not they'll come.",
+   "answer": [
+    "whether"
+   ],
+   "why": "Одразу перед *or not* — тільки *whether*."
+  },
+  {
+   "id": "if-whether-10",
+   "type": "fill",
+   "q": "Call me ___ you need anything.",
+   "answer": [
+    "if"
+   ],
+   "why": "Умова «якщо» — тільки *if*."
+  },
+  {
+   "id": "if-whether-11",
+   "type": "fill",
+   "q": "They haven't decided ___ to sell the house.",
+   "answer": [
+    "whether"
+   ],
+   "why": "Перед *to*-інфінітивом — тільки *whether*."
+  },
+  {
+   "id": "if-whether-12",
+   "type": "order",
+   "words": [
+    "Do",
+    "you",
+    "know",
+    "if",
+    "the",
+    "museum",
+    "is",
+    "open",
+    "on",
+    "Mondays"
+   ],
+   "answer": [
+    "Do you know if the museum is open on Mondays"
+   ],
+   "why": "Непряме питання: *if* (або *whether*) і прямий порядок слів *the museum is open*."
+  }
+ ]
+}

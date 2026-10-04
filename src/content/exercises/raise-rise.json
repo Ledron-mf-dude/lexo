@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "raise-rise-1",
+   "type": "choice",
+   "q": "The sun ___ at about 5 a.m. in June.",
+   "options": [
+    "rises",
+    "raises",
+    "rise",
+    "raise"
+   ],
+   "answer": 0,
+   "why": "Сонце піднімається саме, без додатка — *rises*. *raises* — «піднімає щось»; *rise* і *raise* — без *-s* для *the sun*."
+  },
+  {
+   "id": "raise-rise-2",
+   "type": "choice",
+   "q": "The government has ___ taxes again.",
+   "options": [
+    "raised",
+    "risen",
+    "rose",
+    "rised"
+   ],
+   "answer": 0,
+   "why": "Підвищили щось (додаток *taxes*) — *raise – raised – raised*. *risen* і *rose* — від *rise*, без додатка; *rised* — такої форми немає."
+  },
+  {
+   "id": "raise-rise-3",
+   "type": "choice",
+   "q": "Prices ___ by 5% last year.",
+   "options": [
+    "rose",
+    "raised",
+    "risen",
+    "rised"
+   ],
+   "answer": 0,
+   "why": "Ціни зросли самі, минулий час — *rose*. *raised* потребує додатка; *risen* — третя форма, без *have*; *rised* — такої форми немає."
+  },
+  {
+   "id": "raise-rise-4",
+   "type": "choice",
+   "q": "If you know the answer, ___ your hand.",
+   "options": [
+    "raise",
+    "rise",
+    "arise",
+    "rose"
+   ],
+   "answer": 0,
+   "why": "Підняти щось (руку) — *raise*. *rise* і *arise* — без додатка; *rose* — минулий час."
+  },
+  {
+   "id": "raise-rise-5",
+   "type": "choice",
+   "q": "The number of students has ___ steadily.",
+   "options": [
+    "risen",
+    "raised",
+    "rose",
+    "rised"
+   ],
+   "answer": 0,
+   "why": "Кількість зросла сама, Present Perfect — *has risen*. *raised* потребує додатка; *rose* — не третя форма; *rised* — такої форми немає."
+  },
+  {
+   "id": "raise-rise-6",
+   "type": "choice",
+   "q": "They're trying to ___ money for the new hospital.",
+   "options": [
+    "raise",
+    "rise",
+    "arise",
+    "rising"
+   ],
+   "answer": 0,
+   "why": "Збирати гроші — *raise money*. *rise* і *arise* — без додатка; *rising* — не після *to*."
+  },
+  {
+   "id": "raise-rise-7",
+   "type": "choice",
+   "q": "If any problems ___, please contact me.",
+   "options": [
+    "arise",
+    "raise",
+    "rise up to",
+    "arose"
+   ],
+   "answer": 0,
+   "why": "Виникати (про проблеми) — *arise*. *raise* потребує додатка; *rise up to* — неграматично тут; *arose* — минулий час після *if*."
+  },
+  {
+   "id": "raise-rise-8",
+   "type": "choice",
+   "q": "She was ___ by her grandparents in a small village.",
+   "options": [
+    "raised",
+    "risen",
+    "rose",
+    "arisen"
+   ],
+   "answer": 0,
+   "why": "Виховувати — *raise*, у пасиві *was raised*. *risen*, *rose*, *arisen* — без додатка, пасиву не утворюють."
+  },
+  {
+   "id": "raise-rise-9",
+   "type": "fill",
+   "q": "The river ___ (rise) after the heavy rain last night.",
+   "answer": [
+    "rose"
+   ],
+   "why": "Піднялася сама, минулий час — *rose*."
+  },
+  {
+   "id": "raise-rise-10",
+   "type": "fill",
+   "q": "The landlord wants to ___ the rent.",
+   "answer": [
+    "raise",
+    "increase"
+   ],
+   "why": "Підвищити щось — *raise the rent* (також *increase*)."
+  },
+  {
+   "id": "raise-rise-11",
+   "type": "fill",
+   "q": "I asked my boss for a pay ___.",
+   "answer": [
+    "rise",
+    "raise"
+   ],
+   "why": "Підвищення зарплати — британське *a pay rise* (американське *a raise*)."
+  },
+  {
+   "id": "raise-rise-12",
+   "type": "order",
+   "words": [
+    "The",
+    "temperature",
+    "has",
+    "risen",
+    "to",
+    "thirty",
+    "degrees"
+   ],
+   "answer": [
+    "The temperature has risen to thirty degrees"
+   ],
+   "why": "Температура піднялася сама — *has risen*."
+  }
+ ]
+}
