@@ -1,0 +1,152 @@
+{
+ "questions": [
+  {
+   "id": "also-too-as-well-1",
+   "type": "choice",
+   "q": "I don't like horror films, and my wife doesn't like them ___.",
+   "options": [
+    "either",
+    "too",
+    "also",
+    "as well"
+   ],
+   "answer": 0,
+   "why": "Кінець заперечного речення — *either*. *too*, *also*, *as well* — у стверджувальних реченнях."
+  },
+  {
+   "id": "also-too-as-well-2",
+   "type": "choice",
+   "q": "She is a singer, and she ___ writes her own songs.",
+   "options": [
+    "also",
+    "too",
+    "either",
+    "as well"
+   ],
+   "answer": 0,
+   "why": "Перед смисловим дієсловом у середині речення — *also*. *too* і *as well* стоять у кінці; *either* — для заперечень."
+  },
+  {
+   "id": "also-too-as-well-3",
+   "type": "choice",
+   "q": "\"I love this song.\" — \"Me ___!\"",
+   "options": [
+    "too",
+    "either",
+    "also",
+    "neither"
+   ],
+   "answer": 0,
+   "why": "Згода зі стверджувальною реплікою — *Me too*. *Me either* і *Me neither* — на заперечну репліку; *Me also* — неприродно."
+  },
+  {
+   "id": "also-too-as-well-4",
+   "type": "choice",
+   "q": "\"I can't come tomorrow.\" — \"I can't ___.\"",
+   "options": [
+    "either",
+    "too",
+    "also",
+    "as well"
+   ],
+   "answer": 0,
+   "why": "Заперечне речення — *I can't either* (або *Me neither*). *too*, *also*, *as well* — для стверджувальних."
+  },
+  {
+   "id": "also-too-as-well-5",
+   "type": "choice",
+   "q": "He has ___ been to Japan and Korea.",
+   "options": [
+    "also",
+    "too",
+    "either",
+    "as well"
+   ],
+   "answer": 0,
+   "why": "Після допоміжного *has* — *also*. *too* і *as well* — у кінці речення; *either* — у запереченні."
+  },
+  {
+   "id": "also-too-as-well-6",
+   "type": "choice",
+   "q": "We visited the castle, and we went to the museum ___.",
+   "options": [
+    "as well",
+    "either",
+    "also of",
+    "neither"
+   ],
+   "answer": 0,
+   "why": "Кінець стверджувального речення — *as well* (або *too*). *either* і *neither* — для заперечень; *also of* — неграматично."
+  },
+  {
+   "id": "also-too-as-well-7",
+   "type": "choice",
+   "q": "Tom isn't coming, and Sarah isn't coming ___.",
+   "options": [
+    "either",
+    "too",
+    "also",
+    "neither"
+   ],
+   "answer": 0,
+   "why": "Кінець заперечного речення — *either*. *too* і *also* — для стверджувальних; *isn't … neither* — подвійне заперечення."
+  },
+  {
+   "id": "also-too-as-well-8",
+   "type": "choice",
+   "q": "The hotel was expensive. ___, the rooms were small.",
+   "options": [
+    "Also",
+    "Too",
+    "Either",
+    "As well"
+   ],
+   "answer": 0,
+   "why": "На початку речення як зв'язка — *Also,*. *Too*, *Either*, *As well* на початку так не вживають."
+  },
+  {
+   "id": "also-too-as-well-9",
+   "type": "fill",
+   "q": "I'm tired, and I'm hungry ___.",
+   "answer": [
+    "too",
+    "as well"
+   ],
+   "why": "Кінець стверджувального речення — *too* або *as well*."
+  },
+  {
+   "id": "also-too-as-well-10",
+   "type": "fill",
+   "q": "My brother doesn't eat fish, and I don't ___.",
+   "answer": [
+    "either"
+   ],
+   "why": "Кінець заперечного речення — *either*."
+  },
+  {
+   "id": "also-too-as-well-11",
+   "type": "fill",
+   "q": "She speaks Spanish, and she ___ speaks a little Italian.",
+   "answer": [
+    "also"
+   ],
+   "why": "Перед смисловим дієсловом — *also*."
+  },
+  {
+   "id": "also-too-as-well-12",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "also",
+    "finished",
+    "my",
+    "homework"
+   ],
+   "answer": [
+    "I have also finished my homework"
+   ],
+   "why": "*also* — після допоміжного *have*."
+  }
+ ]
+}

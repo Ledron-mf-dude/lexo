@@ -1,0 +1,155 @@
+{
+ "questions": [
+  {
+   "id": "say-tell-1",
+   "type": "choice",
+   "q": "Can you ___ me what time the film starts?",
+   "options": [
+    "tell",
+    "say",
+    "speak",
+    "talk"
+   ],
+   "answer": 0,
+   "why": "Одразу після дієслова людина (*me*) — *tell*. *say me* — помилка; *speak* і *talk* не беруть такого додатка."
+  },
+  {
+   "id": "say-tell-2",
+   "type": "choice",
+   "q": "She ___ goodbye and left the room.",
+   "options": [
+    "said",
+    "told",
+    "spoke",
+    "talked"
+   ],
+   "answer": 0,
+   "why": "*say goodbye* — сталий вираз, далі слова, а не людина. *told goodbye* — неграматично; *spoke* і *talked* так не вживають."
+  },
+  {
+   "id": "say-tell-3",
+   "type": "choice",
+   "q": "He ___ that he was feeling ill.",
+   "options": [
+    "said",
+    "told",
+    "talked",
+    "spoke"
+   ],
+   "answer": 0,
+   "why": "Без людини, одразу *that* — *said*. *told* потребує людини (*told me that*); *talked* і *spoke* не вводять *that*-речення."
+  },
+  {
+   "id": "say-tell-4",
+   "type": "choice",
+   "q": "My dad loves ___ jokes at dinner.",
+   "options": [
+    "telling",
+    "saying",
+    "speaking",
+    "talking"
+   ],
+   "answer": 0,
+   "why": "*tell a joke* — сталий вираз. *saying jokes*, *speaking jokes*, *talking jokes* так не кажуть."
+  },
+  {
+   "id": "say-tell-5",
+   "type": "choice",
+   "q": "What did she ___ to you?",
+   "options": [
+    "say",
+    "tell",
+    "speak",
+    "talk"
+   ],
+   "answer": 0,
+   "why": "Людина з *to* — *say to you*. *tell to you* — неграматично; *speak to* і *talk to* без *what* як додатка тут не підходять."
+  },
+  {
+   "id": "say-tell-6",
+   "type": "choice",
+   "q": "The police officer ___ us to move our car.",
+   "options": [
+    "told",
+    "said",
+    "spoke",
+    "asked to"
+   ],
+   "answer": 0,
+   "why": "Наказ: *tell somebody to do* — *told us to move*. *said us* — неграматично; *spoke us* — неграматично; *asked to us* — зайве *to*."
+  },
+  {
+   "id": "say-tell-7",
+   "type": "choice",
+   "q": "Always ___ the truth, even when it's difficult.",
+   "options": [
+    "tell",
+    "say",
+    "speak",
+    "talk"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз *tell the truth*. *say the truth* — неприродно; *speak the truth* — книжне, у сучасному мовленні рідкісне; *talk the truth* — неграматично."
+  },
+  {
+   "id": "say-tell-8",
+   "type": "choice",
+   "q": "\"I'm hungry,\" she ___.",
+   "options": [
+    "said",
+    "told",
+    "talked",
+    "spoke to"
+   ],
+   "answer": 0,
+   "why": "Пряма мова — *said*. *told* потребує людини; *talked* і *spoke to* не вводять пряму мову."
+  },
+  {
+   "id": "say-tell-9",
+   "type": "fill",
+   "q": "Did he ___ you about his new job?",
+   "answer": [
+    "tell"
+   ],
+   "why": "Одразу людина (*you*) — *tell*."
+  },
+  {
+   "id": "say-tell-10",
+   "type": "fill",
+   "q": "I'm sorry, could you ___ that again?",
+   "answer": [
+    "say",
+    "repeat"
+   ],
+   "why": "Повторити слова — *say that again* (також *repeat*)."
+  },
+  {
+   "id": "say-tell-11",
+   "type": "fill",
+   "q": "You should ___ sorry to your brother.",
+   "answer": [
+    "say"
+   ],
+   "why": "Сталий вираз — *say sorry*."
+  },
+  {
+   "id": "say-tell-12",
+   "type": "order",
+   "words": [
+    "She",
+    "told",
+    "me",
+    "that",
+    "she",
+    "was",
+    "moving",
+    "to",
+    "Berlin"
+   ],
+   "answer": [
+    "She told me that she was moving to Berlin"
+   ],
+   "why": "*told* + людина (*me*) + *that*."
+  }
+ ]
+}

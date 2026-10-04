@@ -1,0 +1,243 @@
+{
+ "questions": [
+  {
+   "id": "comparison-advanced-1",
+   "type": "choice",
+   "q": "The second book is ___ as exciting as the first one. I almost stopped reading.",
+   "options": [
+    "nowhere near",
+    "not near",
+    "nowhere nearly",
+    "no near"
+   ],
+   "answer": 0,
+   "why": "«Далеко не такий» — *nowhere near as … as*. *not near*, *nowhere nearly*, *no near* — неправильні вирази (правильно ще *not nearly*)."
+  },
+  {
+   "id": "comparison-advanced-2",
+   "type": "choice",
+   "q": "Their new house is ___ big as their old one — it has eight bedrooms!",
+   "options": [
+    "twice as",
+    "twice",
+    "two times more as",
+    "double as"
+   ],
+   "answer": 0,
+   "why": "У скільки разів — *twice as big as*. *twice big* — бракує *as*; *two times more as* — змішані конструкції; *double as* — неграматично."
+  },
+  {
+   "id": "comparison-advanced-3",
+   "type": "choice",
+   "q": "This laptop is ___ faster than my old one.",
+   "options": [
+    "far",
+    "very",
+    "too",
+    "so"
+   ],
+   "answer": 0,
+   "why": "Підсилення порівняльного ступеня — *far faster*. *very faster* — помилка; *too faster* і *so faster* — неграматично."
+  },
+  {
+   "id": "comparison-advanced-4",
+   "type": "choice",
+   "q": "She is ___ the best student in the class.",
+   "options": [
+    "by far",
+    "far",
+    "much more",
+    "very"
+   ],
+   "answer": 0,
+   "why": "Підсилення найвищого ступеня — *by far the best*. *far the best* без *by* — неграматично; *much more the best* і *very the best* — неграматично."
+  },
+  {
+   "id": "comparison-advanced-5",
+   "type": "choice",
+   "q": "It wasn't so much a meeting ___ a friendly chat.",
+   "options": [
+    "as",
+    "than",
+    "like",
+    "that"
+   ],
+   "answer": 0,
+   "why": "*not so much X as Y* — «не стільки…, скільки…». *than*, *like*, *that* у цій конструкції не вживають."
+  },
+  {
+   "id": "comparison-advanced-6",
+   "type": "choice",
+   "q": "Of the two candidates, Maria is ___.",
+   "options": [
+    "the better qualified",
+    "the best qualified",
+    "better qualified than",
+    "most qualified"
+   ],
+   "answer": 0,
+   "why": "Із двох — *the* + порівняльний: *the better qualified*. *the best* — із трьох і більше; *better qualified than* — бракує другого члена; *most qualified* — найвищий ступінь без *the*."
+  },
+  {
+   "id": "comparison-advanced-7",
+   "type": "choice",
+   "q": "Are you feeling ___ better today?",
+   "options": [
+    "any",
+    "some",
+    "more",
+    "very"
+   ],
+   "answer": 0,
+   "why": "У питанні з порівняльним — *any better*. *some better*, *more better*, *very better* — неграматично."
+  },
+  {
+   "id": "comparison-advanced-8",
+   "type": "choice",
+   "q": "He's ___ a manager than an engineer these days.",
+   "options": [
+    "more of",
+    "more",
+    "most of",
+    "much of"
+   ],
+   "answer": 0,
+   "why": "«Скоріше» — *more of a … than*. *more a manager* — без *of* неприродно; *most of* і *much of* — неграматично тут."
+  },
+  {
+   "id": "comparison-advanced-9",
+   "type": "choice",
+   "q": "The new version is no ___ than the old one, so don't buy it.",
+   "options": [
+    "better",
+    "good",
+    "best",
+    "more good"
+   ],
+   "answer": 0,
+   "why": "*no better than* — «не краще, ніж». *no good than*, *no best than*, *no more good than* — неграматично."
+  },
+  {
+   "id": "comparison-advanced-10",
+   "type": "choice",
+   "q": "It's getting ___ to find a cheap flat in the city.",
+   "options": [
+    "harder and harder",
+    "hard and harder",
+    "more hard and hard",
+    "the harder"
+   ],
+   "answer": 0,
+   "why": "Зміна з часом — *harder and harder*. *hard and harder* і *more hard and hard* — неправильні форми; *the harder* — потребує другої частини *the …*."
+  },
+  {
+   "id": "comparison-advanced-11",
+   "type": "choice",
+   "q": "The test was ___ easier than I expected — I finished in ten minutes.",
+   "options": [
+    "considerably",
+    "very",
+    "too much",
+    "so"
+   ],
+   "answer": 0,
+   "why": "Підсилення порівняльного — *considerably easier*. *very easier* — помилка; *too much easier* — неприродно; *so easier* — неграматично."
+  },
+  {
+   "id": "comparison-advanced-12",
+   "type": "choice",
+   "q": "It's ___ like as cold as it was last winter.",
+   "options": [
+    "nothing",
+    "not",
+    "nowhere",
+    "none"
+   ],
+   "answer": 0,
+   "why": "*nothing like as … as* — «зовсім не такий». *not like as*, *nowhere like as*, *none like as* — неграматично."
+  },
+  {
+   "id": "comparison-advanced-13",
+   "type": "fill",
+   "q": "This hotel costs half ___ much as the one in the centre.",
+   "answer": [
+    "as"
+   ],
+   "why": "*half as much as* — удвічі менше."
+  },
+  {
+   "id": "comparison-advanced-14",
+   "type": "fill",
+   "q": "I can't run any ___ (fast).",
+   "answer": [
+    "faster"
+   ],
+   "why": "У запереченні з *any* — порівняльний: *any faster*."
+  },
+  {
+   "id": "comparison-advanced-15",
+   "type": "fill",
+   "q": "He's as stubborn as ___.",
+   "answer": [
+    "ever"
+   ],
+   "why": "*as … as ever* — як завжди."
+  },
+  {
+   "id": "comparison-advanced-16",
+   "type": "fill",
+   "q": "If you can come early, all the ___.",
+   "answer": [
+    "better"
+   ],
+   "why": "*all the better* — тим краще."
+  },
+  {
+   "id": "comparison-advanced-17",
+   "type": "fill",
+   "q": "Prices are slightly ___ (high) this year than last year.",
+   "answer": [
+    "higher"
+   ],
+   "why": "*slightly* + порівняльний — *slightly higher*."
+  },
+  {
+   "id": "comparison-advanced-18",
+   "type": "order",
+   "words": [
+    "The",
+    "film",
+    "was",
+    "nowhere",
+    "near",
+    "as",
+    "good",
+    "as",
+    "the",
+    "book"
+   ],
+   "answer": [
+    "The film was nowhere near as good as the book"
+   ],
+   "why": "*nowhere near as … as* — далеко не такий."
+  },
+  {
+   "id": "comparison-advanced-19",
+   "type": "order",
+   "words": [
+    "Our",
+    "flat",
+    "is",
+    "twice",
+    "as",
+    "big",
+    "as",
+    "theirs"
+   ],
+   "answer": [
+    "Our flat is twice as big as theirs"
+   ],
+   "why": "У скільки разів — *twice as big as*."
+  }
+ ]
+}

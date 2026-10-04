@@ -234,6 +234,94 @@
    ],
    "why": "Тенденція — Present Continuous.",
    "hint": "Ціни знову ростуть."
+  },
+  {
+   "id": "present-tenses-advanced-19",
+   "type": "choice",
+   "q": "(timeline) 1989 — The Berlin Wall ___.",
+   "options": [
+    "falls",
+    "is falling",
+    "has fallen",
+    "will fall"
+   ],
+   "answer": 0,
+   "why": "У хронологіях — Present Simple: *The Berlin Wall falls*. *is falling* — процес; *has fallen* — результат зараз; *will fall* — майбутнє."
+  },
+  {
+   "id": "present-tenses-advanced-20",
+   "type": "choice",
+   "q": "(photo caption) The Prime Minister ___ hands with farmers in Poltava.",
+   "options": [
+    "shakes",
+    "shook",
+    "is shaken",
+    "has shake"
+   ],
+   "answer": 0,
+   "why": "Підпис до фото — Present Simple: *shakes hands*. *shook* — звичайна розповідь; *is shaken* — пасив; *has shake* — неграматично."
+  },
+  {
+   "id": "present-tenses-advanced-21",
+   "type": "choice",
+   "q": "In the novel, the hero ___ his memory and slowly rebuilds his life.",
+   "options": [
+    "loses",
+    "lost",
+    "has lost",
+    "was losing"
+   ],
+   "answer": 0,
+   "why": "Переказ сюжету — Present Simple, як і *rebuilds*: *loses*. *lost*, *has lost*, *was losing* розходяться з часом другої дії."
+  },
+  {
+   "id": "present-tenses-advanced-22",
+   "type": "choice",
+   "q": "(stage direction) Maria ___ the room and sits by the fire.",
+   "options": [
+    "enters",
+    "entered",
+    "is entering",
+    "has entered"
+   ],
+   "answer": 0,
+   "why": "Ремарки — Present Simple: *enters … sits*. Інші форми розходяться з *sits* і жанром."
+  },
+  {
+   "id": "present-tenses-advanced-23",
+   "type": "choice",
+   "q": "In everyday storytelling: Ukraine ___ independence in 1991.",
+   "options": [
+    "declared",
+    "declares",
+    "has declared",
+    "is declaring"
+   ],
+   "answer": 0,
+   "why": "Звичайна розповідь з датою — Past Simple: *declared*. Present Simple — лише в хроніках і заголовках; *has declared* — не з датою; *is declaring* — процес."
+  },
+  {
+   "id": "present-tenses-advanced-24",
+   "type": "order",
+   "words": [
+    "In",
+    "the",
+    "film",
+    "a",
+    "young",
+    "woman",
+    "leaves",
+    "home",
+    "and",
+    "travels",
+    "to",
+    "Paris"
+   ],
+   "answer": [
+    "In the film a young woman leaves home and travels to Paris",
+    "In the film, a young woman leaves home and travels to Paris"
+   ],
+   "why": "Переказ сюжету — Present Simple."
   }
  ]
 }

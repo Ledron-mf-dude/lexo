@@ -238,6 +238,90 @@
    ],
    "why": "Прикметник + *as* + підмет + дієслово.",
    "hint": "Хоч він і втомився, він закінчив роботу."
+  },
+  {
+   "id": "word-order-advanced-19",
+   "type": "choice",
+   "q": "Which word order is the most natural?",
+   "options": [
+    "She played brilliantly in the final last year.",
+    "She played last year brilliantly in the final.",
+    "She played in the final last year brilliantly.",
+    "She brilliantly last year played in the final."
+   ],
+   "answer": 0,
+   "why": "Обставини в кінці: спосіб → місце → час: *brilliantly in the final last year*. В інших варіантах порядок порушено."
+  },
+  {
+   "id": "word-order-advanced-20",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "I met an old friend in town yesterday.",
+    "I yesterday met an old friend in town.",
+    "I met yesterday an old friend in town.",
+    "I met an old friend yesterday in town at."
+   ],
+   "answer": 0,
+   "why": "Час — у кінці (або на початку). *I yesterday met* і *met yesterday an old friend* — обставина розриває підмет і дієслово чи дієслово й додаток; останній варіант — зайве *at*."
+  },
+  {
+   "id": "word-order-advanced-21",
+   "type": "choice",
+   "q": "We went ___ last summer.",
+   "options": [
+    "to Rome by plane",
+    "by plane last to Rome",
+    "last to Rome by plane",
+    "to by plane Rome"
+   ],
+   "answer": 0,
+   "why": "Із дієсловом руху місце йде одразу після дієслова: *went to Rome by plane last summer*. Інші варіанти неграматичні."
+  },
+  {
+   "id": "word-order-advanced-22",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He speaks English fluently.",
+    "He speaks fluently English.",
+    "He fluently English speaks.",
+    "He speaks English fluent."
+   ],
+   "answer": 0,
+   "why": "Прислівник способу не ставлять між дієсловом і додатком: *speaks English fluently*. *fluent* — прикметник."
+  },
+  {
+   "id": "word-order-advanced-23",
+   "type": "choice",
+   "q": "___, the team worked hard to finish the project.",
+   "options": [
+    "Last month",
+    "Last month ago",
+    "In last month",
+    "On last month"
+   ],
+   "answer": 0,
+   "why": "Час можна винести на початок: *Last month, …* *Last month ago* — подвоєння; *In last month* і *On last month* — зайвий прийменник."
+  },
+  {
+   "id": "word-order-advanced-24",
+   "type": "order",
+   "words": [
+    "She",
+    "sang",
+    "beautifully",
+    "at",
+    "the",
+    "concert",
+    "last",
+    "night"
+   ],
+   "answer": [
+    "She sang beautifully at the concert last night",
+    "Last night she sang beautifully at the concert"
+   ],
+   "why": "Спосіб → місце → час, або час на початку."
   }
  ]
 }

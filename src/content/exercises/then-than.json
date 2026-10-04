@@ -1,0 +1,152 @@
+{
+ "questions": [
+  {
+   "id": "then-than-1",
+   "type": "choice",
+   "q": "This flat is bigger ___ our old one.",
+   "options": [
+    "than",
+    "then",
+    "that",
+    "as"
+   ],
+   "answer": 0,
+   "why": "Порівняння після *bigger* — *than*. *then* — «потім»; *that* — не для порівняння; *as* — з *as … as*."
+  },
+  {
+   "id": "then-than-2",
+   "type": "choice",
+   "q": "First mix the flour and eggs, ___ add the milk.",
+   "options": [
+    "then",
+    "than",
+    "that",
+    "so than"
+   ],
+   "answer": 0,
+   "why": "Наступна дія — *then*. *than* — для порівнянь; *that* і *so than* — неграматично."
+  },
+  {
+   "id": "then-than-3",
+   "type": "choice",
+   "q": "I'd rather walk ___ take the bus.",
+   "options": [
+    "than",
+    "then",
+    "that",
+    "as"
+   ],
+   "answer": 0,
+   "why": "*would rather … than* — *than*. *then* — «потім»; *that* і *as* тут неграматичні."
+  },
+  {
+   "id": "then-than-4",
+   "type": "choice",
+   "q": "We met in 2010. I was a student ___.",
+   "options": [
+    "then",
+    "than",
+    "that time",
+    "since"
+   ],
+   "answer": 0,
+   "why": "«Тоді, на той час» — *then*. *than* — для порівняння; *that time* без *at* — неграматично; *since* потребує Present Perfect."
+  },
+  {
+   "id": "then-than-5",
+   "type": "choice",
+   "q": "It took more time ___ we expected.",
+   "options": [
+    "than",
+    "then",
+    "that",
+    "as"
+   ],
+   "answer": 0,
+   "why": "Порівняння з *more* — *than*. *then* — «потім»; *that* і *as* тут неграматичні."
+  },
+  {
+   "id": "then-than-6",
+   "type": "choice",
+   "q": "\"I'm busy now.\" — \"OK, ___ I'll call you tomorrow.\"",
+   "options": [
+    "then",
+    "than",
+    "that",
+    "as"
+   ],
+   "answer": 0,
+   "why": "«У такому разі, тоді» — *then*. *than* — для порівнянь; *that* і *as* — неграматично."
+  },
+  {
+   "id": "then-than-7",
+   "type": "choice",
+   "q": "Nobody other ___ Tom knew the answer.",
+   "options": [
+    "than",
+    "then",
+    "that",
+    "as"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз *other than* — «крім». *then*, *that*, *as* тут неграматичні."
+  },
+  {
+   "id": "then-than-8",
+   "type": "choice",
+   "q": "I haven't heard from her since ___.",
+   "options": [
+    "then",
+    "than",
+    "that",
+    "when"
+   ],
+   "answer": 0,
+   "why": "«Відтоді» — *since then*. *since than* — неграматично; *since that* потребує іменника; *since when* — питання."
+  },
+  {
+   "id": "then-than-9",
+   "type": "fill",
+   "q": "My sister is three years older ___ me.",
+   "answer": [
+    "than"
+   ],
+   "why": "Порівняння — *older than*."
+  },
+  {
+   "id": "then-than-10",
+   "type": "fill",
+   "q": "We had dinner and ___ watched a film.",
+   "answer": [
+    "then"
+   ],
+   "why": "Наступна дія — *then*."
+  },
+  {
+   "id": "then-than-11",
+   "type": "fill",
+   "q": "Come back at six. I'll be ready by ___.",
+   "answer": [
+    "then"
+   ],
+   "why": "*by then* — на той час."
+  },
+  {
+   "id": "then-than-12",
+   "type": "order",
+   "words": [
+    "The",
+    "test",
+    "was",
+    "easier",
+    "than",
+    "I",
+    "thought"
+   ],
+   "answer": [
+    "The test was easier than I thought"
+   ],
+   "why": "Порівняння — *easier than*."
+  }
+ ]
+}

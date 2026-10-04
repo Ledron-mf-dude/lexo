@@ -1,0 +1,229 @@
+{
+ "questions": [
+  {
+   "id": "questions-advanced-1",
+   "type": "choice",
+   "q": "___ a wonderful view? I could look at it for hours.",
+   "options": [
+    "Isn't it",
+    "Is it",
+    "It isn't",
+    "Doesn't it"
+   ],
+   "answer": 0,
+   "why": "Заперечне питання, що просить погодитися, — *Isn't it a wonderful view?* *Is it…?* — справжнє питання, суперечить захопленню; *It isn't* — твердження; *Doesn't it* — неправильне допоміжне."
+  },
+  {
+   "id": "questions-advanced-2",
+   "type": "choice",
+   "q": "\"Didn't you get my email?\" — \"___. I've just read it.\"",
+   "options": [
+    "Yes, I did",
+    "No, I did",
+    "No, I didn't",
+    "Yes, I didn't"
+   ],
+   "answer": 0,
+   "why": "Відповідь за фактом: лист отримав — *Yes, I did*. *No, I did* і *Yes, I didn't* — суперечливі; *No, I didn't* — «не отримав», а він щойно прочитав."
+  },
+  {
+   "id": "questions-advanced-3",
+   "type": "choice",
+   "q": "How come ___ late again?",
+   "options": [
+    "you are",
+    "are you",
+    "do you",
+    "you do be"
+   ],
+   "answer": 0,
+   "why": "*How come* + розповідний порядок: *How come you are late?* *are you* — питальний порядок; *do you* і *you do be* — неграматично."
+  },
+  {
+   "id": "questions-advanced-4",
+   "type": "choice",
+   "q": "Why not ___ the manager for advice?",
+   "options": [
+    "ask",
+    "to ask",
+    "asking",
+    "you ask"
+   ],
+   "answer": 0,
+   "why": "*Why not* + початкова форма без *to*. *to ask* і *asking* — неграматично; *you ask* — бракує *don't*."
+  },
+  {
+   "id": "questions-advanced-5",
+   "type": "choice",
+   "q": "\"What's your new teacher ___?\" — \"She's strict but very fair.\"",
+   "options": [
+    "like",
+    "look like",
+    "liking",
+    "as"
+   ],
+   "answer": 0,
+   "why": "Про характер — *What's … like?* *look like* — про зовнішність і з *does*; *liking* і *as* — неграматично."
+  },
+  {
+   "id": "questions-advanced-6",
+   "type": "choice",
+   "q": "\"Tom has bought a castle in Scotland.\" — \"He's bought ___?\"",
+   "options": [
+    "what",
+    "which",
+    "that",
+    "it"
+   ],
+   "answer": 0,
+   "why": "Перепитування — питальне слово на місці незрозумілого: *He's bought what?* *which* потребує іменника; *that* і *it* — не питання."
+  },
+  {
+   "id": "questions-advanced-7",
+   "type": "choice",
+   "q": "Who are you waiting ___?",
+   "options": [
+    "for",
+    "to",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "why": "*wait for* — прийменник у кінці питання. *to*, *at*, *on* з *wait* у цьому значенні не вживають."
+  },
+  {
+   "id": "questions-advanced-8",
+   "type": "choice",
+   "q": "___ we try the new Thai restaurant tonight?",
+   "options": [
+    "Why don't",
+    "Why not",
+    "Why aren't",
+    "Why we don't"
+   ],
+   "answer": 0,
+   "why": "Пропозиція — *Why don't we…?* *Why not we try* — після *Why not* — початкова форма без підмета; *Why aren't we try* — неграматично; *Why we don't* — розповідний порядок."
+  },
+  {
+   "id": "questions-advanced-9",
+   "type": "choice",
+   "q": "\"He failed the exam again.\" — \"___? He studied so hard!\"",
+   "options": [
+    "Did he",
+    "Didn't he",
+    "Has he",
+    "Does he"
+   ],
+   "answer": 0,
+   "why": "Коротке перепитування-здивування на стверджувальну репліку в минулому — *Did he?* *Didn't he?* — для заперечних реплік; *Has he* і *Does he* — неправильний час."
+  },
+  {
+   "id": "questions-advanced-10",
+   "type": "choice",
+   "q": "\"I'm going to quit my job.\" — \"You're going to ___?\"",
+   "options": [
+    "do what",
+    "what do",
+    "doing what",
+    "what"
+   ],
+   "answer": 0,
+   "why": "Перепитування дії — *You're going to do what?* *what do* — неправильний порядок; *doing what* — неграматично після *going to*; *going to what* — бракує дієслова."
+  },
+  {
+   "id": "questions-advanced-11",
+   "type": "choice",
+   "q": "To ___ should I address the letter?",
+   "options": [
+    "whom",
+    "who",
+    "which",
+    "what"
+   ],
+   "answer": 0,
+   "why": "Після прийменника про людину — *To whom*. *To who* — неграматично; *which* і *what* — не про людину тут."
+  },
+  {
+   "id": "questions-advanced-12",
+   "type": "choice",
+   "q": "___ you sit down? You must be tired after the journey.",
+   "options": [
+    "Won't",
+    "Don't",
+    "Aren't",
+    "Haven't"
+   ],
+   "answer": 0,
+   "why": "Ввічливе запрошення — *Won't you sit down?* *Don't you sit down?* так не запрошують; *Aren't you sit* і *Haven't you sit* — неграматично."
+  },
+  {
+   "id": "questions-advanced-13",
+   "type": "fill",
+   "q": "What is this article ___?",
+   "answer": [
+    "about"
+   ],
+   "why": "*be about* — прийменник у кінці питання."
+  },
+  {
+   "id": "questions-advanced-14",
+   "type": "fill",
+   "q": "How ___ you didn't tell me?",
+   "answer": [
+    "come"
+   ],
+   "why": "*How come* + розповідний порядок."
+  },
+  {
+   "id": "questions-advanced-15",
+   "type": "fill",
+   "q": "Who ___? I'm not going to change my plans for him.",
+   "answer": [
+    "cares"
+   ],
+   "why": "Риторичне *Who cares?* — кому яке діло."
+  },
+  {
+   "id": "questions-advanced-16",
+   "type": "fill",
+   "q": "Why not ___ (take) a taxi?",
+   "answer": [
+    "take"
+   ],
+   "why": "*Why not* + початкова форма."
+  },
+  {
+   "id": "questions-advanced-17",
+   "type": "order",
+   "words": [
+    "How",
+    "come",
+    "you",
+    "are",
+    "still",
+    "awake"
+   ],
+   "answer": [
+    "How come you are still awake"
+   ],
+   "why": "*How come* + розповідний порядок."
+  },
+  {
+   "id": "questions-advanced-18",
+   "type": "order",
+   "words": [
+    "Who",
+    "did",
+    "you",
+    "give",
+    "the",
+    "money",
+    "to"
+   ],
+   "answer": [
+    "Who did you give the money to"
+   ],
+   "why": "Прийменник у кінці питання: *give … to*."
+  }
+ ]
+}

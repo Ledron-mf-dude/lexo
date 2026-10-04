@@ -1,0 +1,243 @@
+{
+ "questions": [
+  {
+   "id": "articles-advanced-1",
+   "type": "choice",
+   "q": "___ is the largest animal that has ever lived.",
+   "options": [
+    "The blue whale",
+    "Blue whale",
+    "A blue whales",
+    "Blue whales is"
+   ],
+   "answer": 0,
+   "why": "Вид як ціле в науковому твердженні — *the* + однина: *The blue whale*. *Blue whale* без артикля — лічильна однина не стоїть без артикля; *A blue whales* — артикль з множиною; *Blue whales is* — множина з однинним дієсловом."
+  },
+  {
+   "id": "articles-advanced-2",
+   "type": "choice",
+   "q": "___ is more important than money.",
+   "options": [
+    "Health",
+    "The health",
+    "A health",
+    "Healths"
+   ],
+   "answer": 0,
+   "why": "Абстрактне поняття взагалі — без артикля: *Health*. *The health* — лише з уточненням (*the health of children*); *a health* і *healths* — неграматично."
+  },
+  {
+   "id": "articles-advanced-3",
+   "type": "choice",
+   "q": "My grandfather has ___ wonderful sense of humour.",
+   "options": [
+    "a",
+    "the",
+    "—",
+    "an"
+   ],
+   "answer": 0,
+   "why": "*sense of humour* з прикметником — *a wonderful sense of humour*. *the* — для вже відомого; без артикля лічильне *sense* не стоїть; *an* — перед приголосним звуком."
+  },
+  {
+   "id": "articles-advanced-4",
+   "type": "choice",
+   "q": "My uncle is in ___ after the accident, but he's getting better.",
+   "options": [
+    "hospital",
+    "the hospitals",
+    "a hospitals",
+    "hospitals"
+   ],
+   "answer": 0,
+   "why": "Установа за призначенням (лікується), британське — *in hospital* (американське *in the hospital*). Множина *hospitals* — неграматично тут."
+  },
+  {
+   "id": "articles-advanced-5",
+   "type": "choice",
+   "q": "We sailed down ___ Danube from Vienna to Budapest.",
+   "options": [
+    "the",
+    "—",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "why": "Річки — з *the*: *the Danube*. Без артикля, з *a* чи *an* назви річок не вживають."
+  },
+  {
+   "id": "articles-advanced-6",
+   "type": "choice",
+   "q": "They climbed ___ Mount Kilimanjaro last year.",
+   "options": [
+    "—",
+    "the",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "why": "Окрема гора з *Mount* — без артикля: *Mount Kilimanjaro*. *the* — для хребтів (*the Andes*); *a* і *an* — неграматично."
+  },
+  {
+   "id": "articles-advanced-7",
+   "type": "choice",
+   "q": "___ Swiss are famous for their watches and chocolate.",
+   "options": [
+    "The",
+    "—",
+    "A",
+    "Some of"
+   ],
+   "answer": 0,
+   "why": "Увесь народ через прикметник на *-ss* — *The Swiss*. Без артикля *Swiss are* — неграматично; *A Swiss* — одна людина, а дієслово *are*; *Some of Swiss* — бракує *the*."
+  },
+  {
+   "id": "articles-advanced-8",
+   "type": "choice",
+   "q": "Do you play ___ violin?",
+   "options": [
+    "the",
+    "—",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "why": "Інструменти — з *the*: *play the violin*. Без артикля — так про ігри (*play chess*); *a* і *an* — «якусь скрипку»."
+  },
+  {
+   "id": "articles-advanced-9",
+   "type": "choice",
+   "q": "I've lived in ___ United Kingdom for ten years.",
+   "options": [
+    "the",
+    "—",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "why": "Назви з *Kingdom, States, Republic* — з *the*: *the United Kingdom*. Без артикля чи з *a* / *an* — неграматично."
+  },
+  {
+   "id": "articles-advanced-10",
+   "type": "choice",
+   "q": "Mum went to ___ school yesterday to talk to my teacher.",
+   "options": [
+    "the",
+    "—",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "why": "Мама не вчиться там, вона прийшла в будівлю — *the school*. *go to school* без артикля — ходити вчитися; *a school* — якусь школу, а мова про мою; *an* — перед приголосним."
+  },
+  {
+   "id": "articles-advanced-11",
+   "type": "choice",
+   "q": "I'm exhausted. I'm going to ___ bed.",
+   "options": [
+    "—",
+    "the",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "why": "*go to bed* — лягати спати, за призначенням, без артикля. *to the bed* — до ліжка як меблів; *a bed* і *an bed* — неграматично в цьому значенні."
+  },
+  {
+   "id": "articles-advanced-12",
+   "type": "choice",
+   "q": "___ Smiths have invited us to dinner on Saturday.",
+   "options": [
+    "The",
+    "—",
+    "A",
+    "Some"
+   ],
+   "answer": 0,
+   "why": "Родина — *the* + прізвище в множині: *The Smiths*. Інші варіанти неграматичні в цьому значенні."
+  },
+  {
+   "id": "articles-advanced-13",
+   "type": "choice",
+   "q": "___ Lake Baikal is the deepest lake in the world.",
+   "options": [
+    "—",
+    "The",
+    "A",
+    "An"
+   ],
+   "answer": 0,
+   "why": "Озеро з *Lake* — без артикля: *Lake Baikal*. *The Lake Baikal*, *A*, *An* — неграматично."
+  },
+  {
+   "id": "articles-advanced-14",
+   "type": "fill",
+   "q": "We spent our honeymoon in ___ Maldives.",
+   "answer": [
+    "the"
+   ],
+   "why": "Групи островів — з *the*: *the Maldives*."
+  },
+  {
+   "id": "articles-advanced-15",
+   "type": "fill",
+   "q": "The museum is open twice ___ week in winter.",
+   "answer": [
+    "a"
+   ],
+   "why": "Частота — *twice a week*."
+  },
+  {
+   "id": "articles-advanced-16",
+   "type": "fill",
+   "q": "He studies ___ history of medieval Europe.",
+   "answer": [
+    "the"
+   ],
+   "why": "Абстрактне поняття, уточнене *of*-фразою — *the history of*."
+  },
+  {
+   "id": "articles-advanced-17",
+   "type": "fill",
+   "q": "We crossed ___ Sahara by jeep.",
+   "answer": [
+    "the"
+   ],
+   "why": "Пустелі — з *the*: *the Sahara*."
+  },
+  {
+   "id": "articles-advanced-18",
+   "type": "order",
+   "words": [
+    "The",
+    "French",
+    "are",
+    "proud",
+    "of",
+    "their",
+    "cuisine"
+   ],
+   "answer": [
+    "The French are proud of their cuisine"
+   ],
+   "why": "Увесь народ — *The French*, дієслово в множині."
+  },
+  {
+   "id": "articles-advanced-19",
+   "type": "order",
+   "words": [
+    "Life",
+    "is",
+    "too",
+    "short",
+    "to",
+    "waste",
+    "time"
+   ],
+   "answer": [
+    "Life is too short to waste time"
+   ],
+   "why": "Абстрактне поняття взагалі — *Life* без артикля."
+  }
+ ]
+}

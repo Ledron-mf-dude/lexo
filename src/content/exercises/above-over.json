@@ -1,0 +1,155 @@
+{
+ "questions": [
+  {
+   "id": "above-over-1",
+   "type": "choice",
+   "q": "The temperature fell to five degrees ___ zero, then dropped below it at night.",
+   "options": [
+    "above",
+    "over",
+    "on",
+    "across"
+   ],
+   "answer": 0,
+   "why": "Рівень на шкалі — *above zero*. *over zero* так не кажуть; *on* і *across* не означають «вище за рівнем»."
+  },
+  {
+   "id": "above-over-2",
+   "type": "choice",
+   "q": "The horse jumped ___ the fence and ran into the field.",
+   "options": [
+    "over",
+    "above",
+    "on",
+    "up"
+   ],
+   "answer": 0,
+   "why": "Рух через перешкоду — *jump over*. *above* означає положення вище без руху через; *on* — «на»; *up* — «угору», а не «через»."
+  },
+  {
+   "id": "above-over-3",
+   "type": "choice",
+   "q": "You have to be ___ 18 to buy a lottery ticket here.",
+   "options": [
+    "over",
+    "above",
+    "up",
+    "across"
+   ],
+   "answer": 0,
+   "why": "«Старший за» з віком — *over 18*. *above 18* про вік не вживають; *up* і *across* тут не мають значення «більше ніж»."
+  },
+  {
+   "id": "above-over-4",
+   "type": "choice",
+   "q": "Her marks have been ___ average all year.",
+   "options": [
+    "above",
+    "over the",
+    "on",
+    "upon"
+   ],
+   "answer": 0,
+   "why": "Середній рівень як шкала — *above average*, без артикля. *over the average* звучить неприродно; *on* і *upon average* мають інший зміст («у середньому»)."
+  },
+  {
+   "id": "above-over-5",
+   "type": "choice",
+   "q": "What are you doing ___ the weekend?",
+   "options": [
+    "over",
+    "above",
+    "across",
+    "upon"
+   ],
+   "answer": 0,
+   "why": "«Протягом» — *over the weekend* (також *at / on the weekend*). *above*, *across*, *upon* не означають «протягом»."
+  },
+  {
+   "id": "above-over-6",
+   "type": "choice",
+   "q": "There was mud ___ the kitchen floor after the dogs came in.",
+   "options": [
+    "all over",
+    "all above",
+    "over all of",
+    "above"
+   ],
+   "answer": 0,
+   "why": "«По всій поверхні» — *all over the floor*. *all above* і *above* — не про покриття; *over all of* — неприродний порядок."
+  },
+  {
+   "id": "above-over-7",
+   "type": "choice",
+   "q": "Please read the instructions ___ before you start.",
+   "options": [
+    "above",
+    "over",
+    "overhead",
+    "up"
+   ],
+   "answer": 0,
+   "why": "«Вище в тексті» — *the instructions above*. *over* у цьому значенні не вживають (*read over* — «перечитати»); *overhead* — «над головою»; *up* — «угору»."
+  },
+  {
+   "id": "above-over-8",
+   "type": "choice",
+   "q": "In the army, a major is ___ a captain.",
+   "options": [
+    "above",
+    "over to",
+    "on",
+    "upper"
+   ],
+   "answer": 0,
+   "why": "Ранг — *above*. *over to* — рух «до»; *on* — «на»; *upper* — прикметник «верхній», а не прийменник."
+  },
+  {
+   "id": "above-over-9",
+   "type": "fill",
+   "q": "___ 2,000 people came to the concert.",
+   "answer": [
+    "Over",
+    "More than"
+   ],
+   "why": "«Понад» із кількістю людей — *Over 2,000 people*; так само *More than 2,000 people*. *Above* з кількістю людей звучить неприродно."
+  },
+  {
+   "id": "above-over-10",
+   "type": "fill",
+   "q": "She held the umbrella ___ both of us so we wouldn't get wet.",
+   "answer": [
+    "over"
+   ],
+   "why": "Накривати, захищати — *over*: парасолька накриває обох."
+  },
+  {
+   "id": "above-over-11",
+   "type": "fill",
+   "q": "The village is 1,500 metres ___ sea level.",
+   "answer": [
+    "above"
+   ],
+   "why": "Висота над рівнем моря — *above sea level*: це шкала."
+  },
+  {
+   "id": "above-over-12",
+   "type": "order",
+   "words": [
+    "We",
+    "walked",
+    "over",
+    "the",
+    "bridge",
+    "into",
+    "the",
+    "old",
+    "town"
+   ],
+   "answer": [
+    "We walked over the bridge into the old town"
+   ],
+   "why": "Міст ми перетинаємо — *walk over the bridge*."
+  }
+ ]
+}

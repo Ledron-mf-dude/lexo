@@ -1,0 +1,231 @@
+{
+ "questions": [
+  {
+   "id": "focus-adverbs-1",
+   "type": "choice",
+   "q": "Talent ___ won't make you a champion — you need hard work too.",
+   "options": [
+    "alone",
+    "lonely",
+    "only alone",
+    "solely of"
+   ],
+   "answer": 0,
+   "why": "«Сам по собі» після іменника — *Talent alone*. *lonely* — «самотній»; *only alone* — подвоєння; *solely of* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-2",
+   "type": "choice",
+   "q": "He didn't ___ say goodbye before he left.",
+   "options": [
+    "even",
+    "even not",
+    "not even",
+    "ever"
+   ],
+   "answer": 0,
+   "why": "*didn't even say* — навіть не. *even not* і *not even* після *didn't* — подвійне заперечення; *ever* — «колись»."
+  },
+  {
+   "id": "focus-adverbs-3",
+   "type": "choice",
+   "q": "___ my best friend knew about the surprise party.",
+   "options": [
+    "Not even",
+    "Even not",
+    "Not even didn't",
+    "No even"
+   ],
+   "answer": 0,
+   "why": "*Not even* на початку — «навіть … не», дієслово стверджувальне. *Even not* — неправильний порядок; *Not even … didn't* — подвійне заперечення; *No even* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-4",
+   "type": "choice",
+   "q": "I ___ caught the train — the doors were closing as I jumped on.",
+   "options": [
+    "only just",
+    "just only",
+    "alone just",
+    "merely only"
+   ],
+   "answer": 0,
+   "why": "«Ледь устиг» — *only just*. *just only*, *alone just*, *merely only* — неправильні звороти."
+  },
+  {
+   "id": "focus-adverbs-5",
+   "type": "choice",
+   "q": "She is ___ a child — don't expect too much from her.",
+   "options": [
+    "merely",
+    "mere",
+    "alone",
+    "solely of"
+   ],
+   "answer": 0,
+   "why": "«Лише» після *is* — *merely*. *mere* — прикметник, потребує артикля (*a mere child*); *alone* — після іменника; *solely of* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-6",
+   "type": "choice",
+   "q": "You ___ can make this decision. Nobody else can do it for you.",
+   "options": [
+    "alone",
+    "lonely",
+    "only alone",
+    "merely"
+   ],
+   "answer": 0,
+   "why": "«Тільки ти» — *You alone*. *lonely* — «самотній»; *only alone* — подвоєння; *You merely can* — неправильне місце й зміст."
+  },
+  {
+   "id": "focus-adverbs-7",
+   "type": "choice",
+   "q": "We meet ___, never during the week.",
+   "options": [
+    "only on Sundays",
+    "on only Sundays",
+    "Sundays only on",
+    "only Sundays on"
+   ],
+   "answer": 0,
+   "why": "*only* — поруч зі словом, яке обмежуємо: *only on Sundays*. Інші варіанти — неправильний порядок."
+  },
+  {
+   "id": "focus-adverbs-8",
+   "type": "choice",
+   "q": "It was very expensive. ___, we decided to buy it.",
+   "options": [
+    "Even so",
+    "Even though",
+    "Even if",
+    "Even then so"
+   ],
+   "answer": 0,
+   "why": "«Проте, все ж» між реченнями — *Even so*. *Even though* і *Even if* — сполучники, потребують речення в тій самій частині; *Even then so* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-9",
+   "type": "choice",
+   "q": "The ticket ___ cost me £150, without the hotel.",
+   "options": [
+    "alone",
+    "lonely",
+    "solely of",
+    "just only"
+   ],
+   "answer": 0,
+   "why": "«Сам квиток» — *The ticket alone*. *lonely* — «самотній»; *solely of* і *just only* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-10",
+   "type": "choice",
+   "q": "He is ___ responsible for the mistake.",
+   "options": [
+    "solely",
+    "sole",
+    "alone of",
+    "merely of"
+   ],
+   "answer": 0,
+   "why": "«Виключно» — *solely responsible*. *sole* — прикметник (*the sole person*); *alone of* і *merely of* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-11",
+   "type": "choice",
+   "q": "Prices went up everywhere, ___ in large cities.",
+   "options": [
+    "particularly",
+    "particular",
+    "specially of",
+    "notably of"
+   ],
+   "answer": 0,
+   "why": "Виділити найважливіше — *particularly in large cities*. *particular* — прикметник; *specially of* і *notably of* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-12",
+   "type": "choice",
+   "q": "I was ___ wondering if you needed any help.",
+   "options": [
+    "just",
+    "only just",
+    "alone",
+    "even not"
+   ],
+   "answer": 0,
+   "why": "«Просто» після *was* — *just wondering*. *only just* — «ледь-ледь»; *alone* — після іменника; *even not* — неграматично."
+  },
+  {
+   "id": "focus-adverbs-13",
+   "type": "fill",
+   "q": "Money ___ can't buy happiness.",
+   "answer": [
+    "alone"
+   ],
+   "why": "Після іменника «сам по собі» — *alone*."
+  },
+  {
+   "id": "focus-adverbs-14",
+   "type": "fill",
+   "q": "She didn't ___ look at me when I said hello.",
+   "answer": [
+    "even"
+   ],
+   "why": "*didn't even look* — навіть не глянула."
+  },
+  {
+   "id": "focus-adverbs-15",
+   "type": "fill",
+   "q": "I've ___ just arrived, so give me a minute.",
+   "answer": [
+    "only"
+   ],
+   "why": "*only just* — щойно."
+  },
+  {
+   "id": "focus-adverbs-16",
+   "type": "fill",
+   "q": "It's ___ not true!",
+   "answer": [
+    "simply",
+    "just"
+   ],
+   "why": "*simply / just not true* — просто неправда."
+  },
+  {
+   "id": "focus-adverbs-17",
+   "type": "order",
+   "words": [
+    "Money",
+    "alone",
+    "will",
+    "not",
+    "make",
+    "you",
+    "happy"
+   ],
+   "answer": [
+    "Money alone will not make you happy"
+   ],
+   "why": "*alone* після іменника — «сам по собі»."
+  },
+  {
+   "id": "focus-adverbs-18",
+   "type": "order",
+   "words": [
+    "He",
+    "did",
+    "not",
+    "even",
+    "say",
+    "thank",
+    "you"
+   ],
+   "answer": [
+    "He did not even say thank you"
+   ],
+   "why": "*even* — між допоміжним і дієсловом."
+  }
+ ]
+}

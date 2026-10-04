@@ -1,0 +1,240 @@
+{
+ "questions": [
+  {
+   "id": "non-finite-c2-1",
+   "type": "choice",
+   "q": "It's essential ___ to understand the risks.",
+   "options": [
+    "for investors",
+    "that investors",
+    "investors",
+    "of investors"
+   ],
+   "answer": 0,
+   "why": "Свій підмет інфінітива — *for* + об'єкт + *to*: *for investors to understand*. *that investors to understand* — після *that* потрібна особова форма; без *for* — неграматично; *of investors* — інше значення."
+  },
+  {
+   "id": "non-finite-c2-2",
+   "type": "choice",
+   "q": "We're waiting ___ to stop before we go out.",
+   "options": [
+    "for the rain",
+    "the rain",
+    "to the rain",
+    "on the rain for"
+   ],
+   "answer": 0,
+   "why": "*wait for* + об'єкт + *to*: *waiting for the rain to stop*. Без *for* — неграматично; *to the rain* і *on the rain for* — неправильні прийменники."
+  },
+  {
+   "id": "non-finite-c2-3",
+   "type": "choice",
+   "q": "There's no need ___ to bring anything.",
+   "options": [
+    "for you",
+    "you",
+    "to you",
+    "that you"
+   ],
+   "answer": 0,
+   "why": "*no need for* + об'єкт + *to*. *no need you to* — бракує *for*; *to you to* — неграматично; *that you to* — після *that* потрібна особова форма."
+  },
+  {
+   "id": "non-finite-c2-4",
+   "type": "choice",
+   "q": "She ran all the way to the cinema, only ___ that the film had already started.",
+   "options": [
+    "to find",
+    "finding",
+    "found",
+    "for finding"
+   ],
+   "answer": 0,
+   "why": "Несподіваний, прикрий результат — *only to find*. *only finding*, *only found*, *only for finding* — неправильні конструкції."
+  },
+  {
+   "id": "non-finite-c2-5",
+   "type": "choice",
+   "q": "___ resigning so suddenly shocked everyone.",
+   "options": [
+    "His",
+    "Him",
+    "He",
+    "Himself"
+   ],
+   "answer": 0,
+   "why": "Герундій у ролі підмета на початку — присвійна форма: *His resigning*. *Him* — розмовне, на початку в письмі не вживають; *He resigning* і *Himself* — неграматично."
+  },
+  {
+   "id": "non-finite-c2-6",
+   "type": "choice",
+   "q": "Do you mind ___ the window? It's very hot.",
+   "options": [
+    "my opening",
+    "I open",
+    "me to open",
+    "my open"
+   ],
+   "answer": 0,
+   "why": "Ввічливо з власним виконавцем — *my opening* (у розмові *me opening*). *I open* — особова форма після *mind* — неграматично; *me to open* — *mind* не бере *to*; *my open* — бракує *-ing*."
+  },
+  {
+   "id": "non-finite-c2-7",
+   "type": "choice",
+   "q": "He woke up ___ himself alone in a strange room.",
+   "options": [
+    "to find",
+    "finding that",
+    "for finding",
+    "found"
+   ],
+   "answer": 0,
+   "why": "Несподівана подія після дії — *woke up to find*. Інші варіанти — неправильні конструкції."
+  },
+  {
+   "id": "non-finite-c2-8",
+   "type": "choice",
+   "q": "It's too late ___ his mind now.",
+   "options": [
+    "for him to change",
+    "that he changes",
+    "him to change",
+    "for he to change"
+   ],
+   "answer": 0,
+   "why": "*too late for* + об'єкт + *to*: *for him to change*. *that he changes* — після *too late* неприродно; *him to change* — бракує *for*; *for he* — потрібна об'єктна форма."
+  },
+  {
+   "id": "non-finite-c2-9",
+   "type": "choice",
+   "q": "The plan is ___ meet at the station at nine.",
+   "options": [
+    "for us to",
+    "that us",
+    "us to",
+    "for we to"
+   ],
+   "answer": 0,
+   "why": "*The plan is for* + об'єкт + *to*. *that us* — неграматично; *us to* — бракує *for*; *for we* — потрібна об'єктна форма."
+  },
+  {
+   "id": "non-finite-c2-10",
+   "type": "choice",
+   "q": "They came back from holiday ___ that their flat had been flooded.",
+   "options": [
+    "to discover",
+    "discovering that",
+    "for discovering",
+    "discovered"
+   ],
+   "answer": 0,
+   "why": "Несподіваний результат — *came back to discover*. Інші варіанти — неправильні конструкції."
+  },
+  {
+   "id": "non-finite-c2-11",
+   "type": "choice",
+   "q": "I don't like ___ phoning me so late at night.",
+   "options": [
+    "people",
+    "people's to",
+    "for people",
+    "people to"
+   ],
+   "answer": 0,
+   "why": "*like* + об'єкт + *-ing*: *people phoning* (формально *people's phoning* рідкісне). *people's to* і *people to phoning* — неграматично; *for people phoning* — неправильна модель."
+  },
+  {
+   "id": "non-finite-c2-12",
+   "type": "choice",
+   "q": "___ is human; to forgive, divine.",
+   "options": [
+    "To err",
+    "Erring to",
+    "To erring",
+    "Err"
+   ],
+   "answer": 0,
+   "why": "Книжний афоризм з інфінітивом-підметом — *To err is human*. *Erring to*, *To erring*, *Err* — неправильні форми."
+  },
+  {
+   "id": "non-finite-c2-13",
+   "type": "fill",
+   "q": "It's important ___ (children / get) enough sleep.",
+   "answer": [
+    "for children to get"
+   ],
+   "why": "*for* + об'єкт + *to*-інфінітив."
+  },
+  {
+   "id": "non-finite-c2-14",
+   "type": "fill",
+   "q": "She opened the box, only ___ (find) it was empty.",
+   "answer": [
+    "to find"
+   ],
+   "why": "Несподіваний результат — *only to find*."
+  },
+  {
+   "id": "non-finite-c2-15",
+   "type": "fill",
+   "q": "We were surprised at ___ (Anna) leaving so early.",
+   "answer": [
+    "Anna's",
+    "Anna"
+   ],
+   "why": "Виконавець герундія — *Anna's leaving* (розмовно *Anna leaving*)."
+  },
+  {
+   "id": "non-finite-c2-16",
+   "type": "fill",
+   "q": "I'm waiting ___ the shop to open.",
+   "answer": [
+    "for"
+   ],
+   "why": "*wait for* + об'єкт + *to*."
+  },
+  {
+   "id": "non-finite-c2-17",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "important",
+    "for",
+    "children",
+    "to",
+    "read",
+    "every",
+    "day"
+   ],
+   "answer": [
+    "It is important for children to read every day"
+   ],
+   "why": "*for* + об'єкт + *to*-інфінітив."
+  },
+  {
+   "id": "non-finite-c2-18",
+   "type": "order",
+   "words": [
+    "He",
+    "hurried",
+    "to",
+    "the",
+    "station",
+    "only",
+    "to",
+    "find",
+    "that",
+    "the",
+    "train",
+    "had",
+    "left"
+   ],
+   "answer": [
+    "He hurried to the station only to find that the train had left",
+    "He hurried to the station, only to find that the train had left"
+   ],
+   "why": "*only to find* — несподіваний результат."
+  }
+ ]
+}

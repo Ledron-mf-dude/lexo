@@ -1,0 +1,233 @@
+{
+ "questions": [
+  {
+   "id": "need-dare-1",
+   "type": "choice",
+   "q": "You ___ worry about the money. I'll pay.",
+   "options": [
+    "needn't",
+    "needn't to",
+    "don't need",
+    "needs not"
+   ],
+   "answer": 0,
+   "why": "Модальне *needn't* + початкова форма без *to*. *needn't to* — зайве *to*; *don't need worry* — бракує *to*; *needs not* — неграматично."
+  },
+  {
+   "id": "need-dare-2",
+   "type": "choice",
+   "q": "You needn't ___ a taxi — I could have picked you up.",
+   "options": [
+    "have taken",
+    "take",
+    "to have taken",
+    "had taken"
+   ],
+   "answer": 0,
+   "why": "Зробив, але це було зайве — *needn't have taken*. *needn't take* — про теперішнє чи майбутнє; *to have taken* — зайве *to*; *had taken* — неграматично."
+  },
+  {
+   "id": "need-dare-3",
+   "type": "choice",
+   "q": "I ___ go to the bank, so I stayed at home.",
+   "options": [
+    "didn't need to",
+    "needn't have",
+    "needn't",
+    "don't need"
+   ],
+   "answer": 0,
+   "why": "Не було потреби, і не пішов — *didn't need to*. *needn't have* + V3 — пішов дарма; *needn't go* — теперішній; *don't need* — теперішній і бракує *to*."
+  },
+  {
+   "id": "need-dare-4",
+   "type": "choice",
+   "q": "She ___ to finish the project by Friday.",
+   "options": [
+    "needs",
+    "need",
+    "needn't",
+    "need not"
+   ],
+   "answer": 0,
+   "why": "Звичайне дієслово в стверджувальному реченні — *needs to*. *need* — бракує *-s*; *needn't* і *need not* — заперечення, суперечить змісту."
+  },
+  {
+   "id": "need-dare-5",
+   "type": "choice",
+   "q": "How ___ you read my diary!",
+   "options": [
+    "dare",
+    "dared to",
+    "dares",
+    "do you dare"
+   ],
+   "answer": 0,
+   "why": "Обурення — *How dare you* + початкова форма. *dared to*, *dares*, *do you dare* — неправильні форми цього звороту."
+  },
+  {
+   "id": "need-dare-6",
+   "type": "choice",
+   "q": "I ___ tell my parents I'd failed the exam.",
+   "options": [
+    "didn't dare",
+    "dared not to",
+    "dare not to",
+    "didn't dared"
+   ],
+   "answer": 0,
+   "why": "Не наважився — *didn't dare (to) tell*. *dared not to* і *dare not to* — зайве *to* з модальною формою; *didn't dared* — після *didn't* — початкова форма."
+  },
+  {
+   "id": "need-dare-7",
+   "type": "choice",
+   "q": "These shoes need ___.",
+   "options": [
+    "polishing",
+    "polish",
+    "to polish",
+    "polished"
+   ],
+   "answer": 0,
+   "why": "*need* + *-ing* з пасивним значенням — *need polishing* (= *need to be polished*). *polish* — неграматично; *to polish* — актив; *polished* — бракує *to be*."
+  },
+  {
+   "id": "need-dare-8",
+   "type": "choice",
+   "q": "___ I remind you that the deadline is tomorrow?",
+   "options": [
+    "Need",
+    "Do I need",
+    "Needs",
+    "Am I need"
+   ],
+   "answer": 0,
+   "why": "Книжне модальне питання — *Need I remind you…?* *Do I need remind* — бракує *to*; *Needs* і *Am I need* — неграматично."
+  },
+  {
+   "id": "need-dare-9",
+   "type": "choice",
+   "q": "They dared him ___ off the bridge.",
+   "options": [
+    "to jump",
+    "jump",
+    "jumping",
+    "jumped"
+   ],
+   "answer": 0,
+   "why": "Підбити когось — *dare somebody to do*. Без *to* з додатком — неграматично; *jumping* і *jumped* — неправильні форми."
+  },
+  {
+   "id": "need-dare-10",
+   "type": "choice",
+   "q": "\"I'll tell your mum!\" — \"Don't you ___!\"",
+   "options": [
+    "dare",
+    "dare to",
+    "dares",
+    "dared"
+   ],
+   "answer": 0,
+   "why": "Погроза «тільки спробуй» — *Don't you dare!* *dare to*, *dares*, *dared* — неправильні форми цього звороту."
+  },
+  {
+   "id": "need-dare-11",
+   "type": "choice",
+   "q": "You ___ have cooked so much food. Only three people came.",
+   "options": [
+    "needn't",
+    "didn't need",
+    "don't need",
+    "mustn't"
+   ],
+   "answer": 0,
+   "why": "Зробив зайве — *needn't have cooked*. *didn't need have* — неграматично; *don't need have* — неграматично; *mustn't have* — неправильна форма."
+  },
+  {
+   "id": "need-dare-12",
+   "type": "choice",
+   "q": "I dare ___ you're hungry after the long walk.",
+   "options": [
+    "say",
+    "to say",
+    "saying",
+    "said"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз *I dare say* — «мабуть». *to say*, *saying*, *said* — неправильні форми."
+  },
+  {
+   "id": "need-dare-13",
+   "type": "fill",
+   "q": "You ___ (not / need) to bring anything. We have everything.",
+   "answer": [
+    "don't need",
+    "do not need"
+   ],
+   "why": "Звичайне дієслово із запереченням — *don't need to*."
+  },
+  {
+   "id": "need-dare-14",
+   "type": "fill",
+   "q": "You needn't ___ (come) early tomorrow.",
+   "answer": [
+    "come"
+   ],
+   "why": "*needn't* + початкова форма без *to*."
+  },
+  {
+   "id": "need-dare-15",
+   "type": "fill",
+   "q": "I daren't ___ (ask) him for more money.",
+   "answer": [
+    "ask"
+   ],
+   "why": "Модальне *daren't* + початкова форма без *to*."
+  },
+  {
+   "id": "need-dare-16",
+   "type": "fill",
+   "q": "The grass needs ___ (cut).",
+   "answer": [
+    "cutting",
+    "to be cut"
+   ],
+   "why": "Пасивне значення — *needs cutting* (або *needs to be cut*)."
+  },
+  {
+   "id": "need-dare-17",
+   "type": "order",
+   "words": [
+    "You",
+    "needn't",
+    "have",
+    "bought",
+    "me",
+    "a",
+    "present"
+   ],
+   "answer": [
+    "You needn't have bought me a present"
+   ],
+   "why": "Зроблено зайве — *needn't have* + V3."
+  },
+  {
+   "id": "need-dare-18",
+   "type": "order",
+   "words": [
+    "How",
+    "dare",
+    "you",
+    "speak",
+    "to",
+    "me",
+    "like",
+    "that"
+   ],
+   "answer": [
+    "How dare you speak to me like that"
+   ],
+   "why": "*How dare you* + початкова форма."
+  }
+ ]
+}

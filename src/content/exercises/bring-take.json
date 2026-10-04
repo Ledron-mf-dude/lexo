@@ -1,0 +1,157 @@
+{
+ "questions": [
+  {
+   "id": "bring-take-1",
+   "type": "choice",
+   "q": "It's cold outside, so ___ a warm coat when you go out.",
+   "options": [
+    "take",
+    "bring",
+    "brought",
+    "took"
+   ],
+   "answer": 0,
+   "why": "Річ іде з вами геть звідси — *take*. *bring* — до мовця; *brought* і *took* — минулий час, а тут порада."
+  },
+  {
+   "id": "bring-take-2",
+   "type": "choice",
+   "q": "Could you ___ me the salt, please? It's next to you.",
+   "options": [
+    "bring",
+    "take",
+    "fetch to",
+    "took"
+   ],
+   "answer": 0,
+   "why": "Сіль має опинитися біля мене — *bring me*. *take me the salt* — «віднеси мені» звідси, неприродно; *fetch to* — неграматично; *took* — минулий час."
+  },
+  {
+   "id": "bring-take-3",
+   "type": "choice",
+   "q": "I ___ my daughter to the dentist yesterday.",
+   "options": [
+    "took",
+    "brought",
+    "bringed",
+    "taked"
+   ],
+   "answer": 0,
+   "why": "Відвезла звідси до дантиста — *took* (take – took – taken). *brought* — до мовця; *bringed* і *taked* — таких форм немає."
+  },
+  {
+   "id": "bring-take-4",
+   "type": "choice",
+   "q": "When you come to my place tonight, can you ___ some music?",
+   "options": [
+    "bring",
+    "take",
+    "took",
+    "taking"
+   ],
+   "answer": 0,
+   "why": "До співрозмовника, туди, де буде мовець, — *bring*. *take* — геть від мовця; *took* і *taking* — не та форма після *can*."
+  },
+  {
+   "id": "bring-take-5",
+   "type": "choice",
+   "q": "Please ___ these empty bottles to the recycling bin outside.",
+   "options": [
+    "take",
+    "bring",
+    "brought",
+    "to bring"
+   ],
+   "answer": 0,
+   "why": "Геть звідси, до контейнера надворі — *take*. *bring* — до мовця; *brought* — минулий час; *to bring* — після *please* потрібна початкова форма без *to*."
+  },
+  {
+   "id": "bring-take-6",
+   "type": "choice",
+   "q": "My grandmother always ___ us sweets when she visits.",
+   "options": [
+    "brings",
+    "takes",
+    "bringing",
+    "brought to"
+   ],
+   "answer": 0,
+   "why": "Бабуся приходить до нас і приносить — *brings*. *takes* — геть від нас; *bringing* — немає особової форми; *brought to* — зайве *to* перед *us*."
+  },
+  {
+   "id": "bring-take-7",
+   "type": "choice",
+   "q": "Can I ___ my dog with me when I come to your house?",
+   "options": [
+    "bring",
+    "take away",
+    "took",
+    "brings"
+   ],
+   "answer": 0,
+   "why": "До співрозмовника — *bring* (разом із *come*). *take away* — «забрати»; *took* — минулий час; *brings* — не після *can*."
+  },
+  {
+   "id": "bring-take-8",
+   "type": "choice",
+   "q": "Don't forget to ___ your sunglasses to the beach tomorrow.",
+   "options": [
+    "take",
+    "bring here",
+    "brought",
+    "took"
+   ],
+   "answer": 0,
+   "why": "З собою на пляж, геть звідси — *take*. *bring here* — «принести сюди»; *brought* і *took* — минулий час."
+  },
+  {
+   "id": "bring-take-9",
+   "type": "fill",
+   "q": "She ___ (bring) a cake to our party last night.",
+   "answer": [
+    "brought"
+   ],
+   "why": "Принесла до нас — *bring*, минула форма *brought*."
+  },
+  {
+   "id": "bring-take-10",
+   "type": "fill",
+   "q": "Shall I ___ you to the airport tomorrow morning?",
+   "answer": [
+    "take",
+    "drive"
+   ],
+   "why": "Відвезти звідси до аеропорту — *take* (або *drive*)."
+  },
+  {
+   "id": "bring-take-11",
+   "type": "fill",
+   "q": "Go upstairs and ___ my glasses from the bedroom, please.",
+   "answer": [
+    "fetch",
+    "get",
+    "bring"
+   ],
+   "why": "Піти, взяти й принести назад — *fetch* (також *get*, *bring*).",
+   "hint": "(сходи й принеси)"
+  },
+  {
+   "id": "bring-take-12",
+   "type": "order",
+   "words": [
+    "Come",
+    "here",
+    "and",
+    "bring",
+    "your",
+    "notebook",
+    "with",
+    "you"
+   ],
+   "answer": [
+    "Come here and bring your notebook with you"
+   ],
+   "why": "*come* іде в парі з *bring*: рух до мовця."
+  }
+ ]
+}

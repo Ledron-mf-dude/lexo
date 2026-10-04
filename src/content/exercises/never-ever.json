@@ -1,0 +1,153 @@
+{
+ "questions": [
+  {
+   "id": "never-ever-1",
+   "type": "choice",
+   "q": "I don't think I've ___ met him before.",
+   "options": [
+    "ever",
+    "never",
+    "not",
+    "no"
+   ],
+   "answer": 0,
+   "why": "Уже є заперечення *don't think* — *ever*. *never* дало б подвійне заперечення; *not* і *no* тут неграматичні."
+  },
+  {
+   "id": "never-ever-2",
+   "type": "choice",
+   "q": "I've ___ seen such a beautiful sunset.",
+   "options": [
+    "never",
+    "ever",
+    "not ever never",
+    "no"
+   ],
+   "answer": 0,
+   "why": "Стверджувальне дієслово зі значенням «ніколи» — *never*. *I've ever seen* без заперечення — помилка; *not ever never* — подвійне заперечення; *no* не стоїть перед дієсловом."
+  },
+  {
+   "id": "never-ever-3",
+   "type": "choice",
+   "q": "That's the funniest joke I've ___ heard.",
+   "options": [
+    "ever",
+    "never",
+    "yet",
+    "already"
+   ],
+   "answer": 0,
+   "why": "Після найвищого ступеня — *ever*. *never* суперечить змісту (почув же); *yet* і *already* — інше значення."
+  },
+  {
+   "id": "never-ever-4",
+   "type": "choice",
+   "q": "I don't ___ go to the gym on Sundays.",
+   "options": [
+    "ever",
+    "never",
+    "no",
+    "none"
+   ],
+   "answer": 0,
+   "why": "Після *don't* — *ever*. *don't never* — подвійне заперечення; *no* і *none* — неграматично перед дієсловом."
+  },
+  {
+   "id": "never-ever-5",
+   "type": "choice",
+   "q": "If you ___ need help, just call me.",
+   "options": [
+    "ever",
+    "never",
+    "yet",
+    "still"
+   ],
+   "answer": 0,
+   "why": "Після *if* «якщо колись» — *ever*. *if you never need* — суперечить змісту; *yet* і *still* — інше значення."
+  },
+  {
+   "id": "never-ever-6",
+   "type": "choice",
+   "q": "Nobody ___ remembers my birthday.",
+   "options": [
+    "ever",
+    "never",
+    "not",
+    "no"
+   ],
+   "answer": 0,
+   "why": "Уже є заперечне *Nobody* — *ever*. *Nobody never* — подвійне заперечення; *not* і *no* — неграматично тут."
+  },
+  {
+   "id": "never-ever-7",
+   "type": "choice",
+   "q": "I hardly ___ drink coffee in the evening.",
+   "options": [
+    "ever",
+    "never",
+    "not",
+    "no"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз *hardly ever* — майже ніколи. *hardly never* — подвійне заперечення; *hardly not* і *hardly no* — неграматично."
+  },
+  {
+   "id": "never-ever-8",
+   "type": "choice",
+   "q": "She ___ arrives on time. It's so annoying!",
+   "options": [
+    "never",
+    "ever",
+    "not ever",
+    "don't ever"
+   ],
+   "answer": 0,
+   "why": "Стверджувальне речення зі значенням «ніколи» — *never*. *ever* без заперечення — помилка; *not ever* — бракує допоміжного; *don't ever* — для *she* потрібне *doesn't*."
+  },
+  {
+   "id": "never-ever-9",
+   "type": "fill",
+   "q": "It's the worst film I have ___ seen.",
+   "answer": [
+    "ever"
+   ],
+   "why": "Після найвищого ступеня — *ever*."
+  },
+  {
+   "id": "never-ever-10",
+   "type": "fill",
+   "q": "My grandmother has ___ used a computer.",
+   "answer": [
+    "never"
+   ],
+   "why": "Стверджувальне дієслово, «ніколи» — *never*."
+  },
+  {
+   "id": "never-ever-11",
+   "type": "fill",
+   "q": "Has anyone ___ told you that you look like a film star?",
+   "answer": [
+    "ever"
+   ],
+   "why": "Питання «чи колись» — *ever*."
+  },
+  {
+   "id": "never-ever-12",
+   "type": "order",
+   "words": [
+    "I",
+    "have",
+    "never",
+    "been",
+    "to",
+    "a",
+    "football",
+    "match"
+   ],
+   "answer": [
+    "I have never been to a football match"
+   ],
+   "why": "*never* стоїть між *have* і третьою формою."
+  }
+ ]
+}

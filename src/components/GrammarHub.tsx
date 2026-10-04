@@ -16,6 +16,9 @@ interface Props {
   filterLabel: string | null
   practiceQuery: (extra: Record<string, string>) => string
   mistakes: number
+  /** The list shows only the short «X or Y» topics; the chip toggles that filter. */
+  shortsOn: boolean
+  onShorts: () => void
 }
 
 interface Action {
@@ -31,7 +34,7 @@ interface Action {
  * The top of the Grammar page: one «Сьогодні» card with the single next step, then a row of chips for the other tools.
  * Route and contrast pairs open as panels under the chips, so the article list starts right below on a phone.
  */
-export default function GrammarHub({ log, progress, filterLabel, practiceQuery, mistakes }: Props) {
+export default function GrammarHub({ log, progress, filterLabel, practiceQuery, mistakes, shortsOn, onShorts }: Props) {
   const navigate = useNavigate()
   const [placement, setPlacement] = useState(loadPlacement)
   const { due, next, pairs } = useGrammarReview(log)
@@ -52,7 +55,7 @@ export default function GrammarHub({ log, progress, filterLabel, practiceQuery, 
     if (!placement)
       return {
         title: 'Почніть із тесту рівня',
-        text: '10–15 хвилин: тест визначить рівень, а маршрут покаже теми по порядку, першими — ті, де були помилки.',
+        text: '15–20 хвилин: тест визначить рівень, а маршрут покаже теми по порядку, першими — ті, де були помилки.',
         label: 'Пройти тест',
         to: '/grammar/placement',
       }
@@ -124,6 +127,9 @@ export default function GrammarHub({ log, progress, filterLabel, practiceQuery, 
             Помилки · {mistakes}
           </button>
         )}
+        <button onClick={onShorts} data-on={shortsOn} aria-pressed={shortsOn} className="chip" title="Короткі теми «що обрати»: say чи tell, lie чи lay, until чи by… Корисні на будь-якому рівні">
+          Короткі теми
+        </button>
         <button onClick={() => navigate('/grammar/writing')} className="chip" title="Напишіть кілька речень: перевірка знайде помилки, а з них вийдуть ваші картки">
           Тренер письма
         </button>

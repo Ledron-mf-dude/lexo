@@ -83,6 +83,16 @@ tags: [will, would, should, assumptions, припущення, characteristic be
 | *should* | оцінка події | *It's odd that he should ask.* |
 | *Should you…* | формальна умова | *Should you have questions, …* |
 
+## If you will / if you would
+
+*will* і *would* після *if* — не майбутнє, а **воля** чи **ввічливість**:
+
+- Ввічливе прохання: ***If you would** follow me, please.* / ***If you'll** wait here, I'll get the manager.*
+- Наполягання, докір: ***If you will** eat so much junk food, of course you feel ill.* — якщо вже ти вперто їси…
+- Готовність: *I'd be grateful **if you would** reply soon.*
+
+У звичайній умові про майбутнє *will* після *if* не ставлять: ~~*If it will rain, we'll stay in.*~~ → *If it **rains**…* Див. «Умовні речення (conditionals): zero, first, second, third, mixed».
+
 ## Як вибрати
 
 1. Упевнене припущення про теперішнє з досвіду — *will*: *That'll be the postman.*
@@ -107,3 +117,4 @@ tags: [will, would, should, assumptions, припущення, characteristic be
 - ✗ *How I should know?* → ✓ *How **should I** know?*
 - ✗ *She'll have leave by now.* → ✓ *She'll have **left** by now.*
 - ✗ *He would to sit for hours by the window.* → ✓ *He would **sit** for hours by the window.*
+- ✗ *If it will be sunny tomorrow, we'll go to the beach.* → ✓ *If it **is** sunny tomorrow, we'll go to the beach.*

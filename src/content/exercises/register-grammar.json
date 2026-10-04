@@ -1,0 +1,233 @@
+{
+ "questions": [
+  {
+   "id": "register-grammar-1",
+   "type": "choice",
+   "q": "(formal letter) ___ it may concern,",
+   "options": [
+    "To whom",
+    "To who",
+    "Whom to",
+    "For who"
+   ],
+   "answer": 0,
+   "why": "Формальна стала фраза — *To whom it may concern*. *To who* — неформально й неприйнятно тут; *Whom to* і *For who* — неграматично."
+  },
+  {
+   "id": "register-grammar-2",
+   "type": "choice",
+   "q": "___ is calling, please?",
+   "options": [
+    "Who",
+    "Whom",
+    "To whom",
+    "Whose"
+   ],
+   "answer": 0,
+   "why": "Підмет — завжди *who*, навіть у формальному стилі. *Whom* — лише додаток; *To whom* — з прийменником; *Whose* — «чий»."
+  },
+  {
+   "id": "register-grammar-3",
+   "type": "choice",
+   "q": "She is the person ___ we believe can solve the problem.",
+   "options": [
+    "who",
+    "whom",
+    "which",
+    "whose"
+   ],
+   "answer": 0,
+   "why": "*who* — підмет до *can solve* (*we believe* вставлене): *who we believe can solve*. *whom* — помилка «надмірної правильності»; *which* — про речі; *whose* — «чий»."
+  },
+  {
+   "id": "register-grammar-4",
+   "type": "choice",
+   "q": "(formal) The person to ___ I spoke was very helpful.",
+   "options": [
+    "whom",
+    "who",
+    "that",
+    "which"
+   ],
+   "answer": 0,
+   "why": "Формально прийменник перед займенником — *to whom*. *to who* і *to that* — неграматично; *which* — про речі."
+  },
+  {
+   "id": "register-grammar-5",
+   "type": "choice",
+   "q": "(informal message) ___ a minute? Need to ask you something.",
+   "options": [
+    "Got",
+    "Gotten",
+    "Having got",
+    "Get"
+   ],
+   "answer": 0,
+   "why": "Розмовний пропуск *Have you* — *Got a minute?* *Gotten* — американська V3, тут неможлива; *Having got* і *Get* — неграматично."
+  },
+  {
+   "id": "register-grammar-6",
+   "type": "choice",
+   "q": "(formal report) It ___ that mistakes were made.",
+   "options": [
+    "must be admitted",
+    "we must admit it",
+    "must admit",
+    "admits"
+   ],
+   "answer": 0,
+   "why": "Безособовий пасив у формальному стилі — *It must be admitted that…* *we must admit it that* — зайве *it*; *must admit* і *admits* — без підмета неграматично."
+  },
+  {
+   "id": "register-grammar-7",
+   "type": "choice",
+   "q": "(standard written English) ___ went to the conference together.",
+   "options": [
+    "My colleague and I",
+    "Me and my colleague",
+    "Myself and my colleague",
+    "I and my colleague"
+   ],
+   "answer": 0,
+   "why": "Стандарт — *My colleague and I* (підмет, *I* — другим). *Me and my colleague* — розмовне; *Myself and…* — надмірне; *I and my colleague* — неприродний порядок."
+  },
+  {
+   "id": "register-grammar-8",
+   "type": "choice",
+   "q": "(formal) ___ should always read the contract carefully before signing.",
+   "options": [
+    "One",
+    "You guys",
+    "Ya",
+    "Somebody's"
+   ],
+   "answer": 0,
+   "why": "Формальний узагальнений суб'єкт — *One*. *You guys* і *Ya* — дуже розмовні; *Somebody's* — неграматично."
+  },
+  {
+   "id": "register-grammar-9",
+   "type": "choice",
+   "q": "(formal) There ___ several reasons for this decision.",
+   "options": [
+    "are",
+    "is",
+    "'s",
+    "be"
+   ],
+   "answer": 0,
+   "why": "Множина *reasons* у письмі — *There are*. *There is / There's* + множина — розмовне; *There be* — неграматично."
+  },
+  {
+   "id": "register-grammar-10",
+   "type": "choice",
+   "q": "If a customer is unhappy, ___ should contact the manager.",
+   "options": [
+    "they",
+    "it",
+    "one's",
+    "them"
+   ],
+   "answer": 0,
+   "why": "Singular *they* — нормальне і в розмові, і формально. *it* — не про людей; *one's* — присвійна форма; *them* — об'єктна форма."
+  },
+  {
+   "id": "register-grammar-11",
+   "type": "choice",
+   "q": "(formal) ___ you require further information, please contact us.",
+   "options": [
+    "Should",
+    "If should",
+    "Would",
+    "Shall"
+   ],
+   "answer": 0,
+   "why": "Формальна інверсія — *Should you require*. *If should* — подвоєння; *Would you require* і *Shall you require* — питання."
+  },
+  {
+   "id": "register-grammar-12",
+   "type": "choice",
+   "q": "(informal) Who did you go to the cinema ___?",
+   "options": [
+    "with",
+    "with whom",
+    "whom with",
+    "—"
+   ],
+   "answer": 0,
+   "why": "Розмовно прийменник у кінці — *Who did you go … with?* *with whom* — подвоєння; *whom with* — неграматично; без прийменника — неповне."
+  },
+  {
+   "id": "register-grammar-13",
+   "type": "fill",
+   "q": "(formal) The committee, ___ members were appointed in May, will report in June.",
+   "answer": [
+    "whose"
+   ],
+   "why": "Присвійне означальне — *whose members*."
+  },
+  {
+   "id": "register-grammar-14",
+   "type": "fill",
+   "q": "(formal) The data ___ collected over a period of two years.",
+   "answer": [
+    "were",
+    "was"
+   ],
+   "why": "Безособовий пасив — *The data were / was collected*."
+  },
+  {
+   "id": "register-grammar-15",
+   "type": "fill",
+   "q": "___ is responsible for this mess?",
+   "answer": [
+    "Who"
+   ],
+   "why": "Підмет — *Who*, не *whom*."
+  },
+  {
+   "id": "register-grammar-16",
+   "type": "fill",
+   "q": "(informal) Sounds ___! See you at eight.",
+   "answer": [
+    "good",
+    "great",
+    "fine"
+   ],
+   "why": "Розмовний пропуск підмета: *(That) sounds good!*"
+  },
+  {
+   "id": "register-grammar-17",
+   "type": "order",
+   "words": [
+    "To",
+    "whom",
+    "should",
+    "I",
+    "address",
+    "the",
+    "letter"
+   ],
+   "answer": [
+    "To whom should I address the letter"
+   ],
+   "why": "Формальний стиль — прийменник перед *whom*."
+  },
+  {
+   "id": "register-grammar-18",
+   "type": "order",
+   "words": [
+    "Who",
+    "should",
+    "I",
+    "address",
+    "the",
+    "letter",
+    "to"
+   ],
+   "answer": [
+    "Who should I address the letter to"
+   ],
+   "why": "Розмовний стиль — прийменник у кінці."
+  }
+ ]
+}

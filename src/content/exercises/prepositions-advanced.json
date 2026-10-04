@@ -234,6 +234,90 @@
    ],
    "why": "*afraid of* — прийменник у кінці.",
    "hint": "Нема чого боятися."
+  },
+  {
+   "id": "prepositions-advanced-19",
+   "type": "choice",
+   "q": "My grandmother is very easy to talk ___.",
+   "options": [
+    "to",
+    "—",
+    "with of",
+    "at"
+   ],
+   "answer": 0,
+   "why": "Прийменник залишається після інфінітива: *easy to talk to*. Без прийменника — неграматично; *with of* — подвоєння; *talk at* — «говорити, не слухаючи»."
+  },
+  {
+   "id": "prepositions-advanced-20",
+   "type": "choice",
+   "q": "Relax — there's nothing to worry ___.",
+   "options": [
+    "about",
+    "—",
+    "for",
+    "on"
+   ],
+   "answer": 0,
+   "why": "*worry about* — прийменник у кінці: *nothing to worry about*. Без нього — неповне; *for* і *on* з *worry* так не вживають."
+  },
+  {
+   "id": "prepositions-advanced-21",
+   "type": "choice",
+   "q": "He hates being laughed ___.",
+   "options": [
+    "at",
+    "—",
+    "on",
+    "to"
+   ],
+   "answer": 0,
+   "why": "Пасив дієслова *laugh at* — прийменник залишається: *being laughed at*. Без *at* — неграматично; *on* і *to* — неправильні прийменники."
+  },
+  {
+   "id": "prepositions-advanced-22",
+   "type": "choice",
+   "q": "I need a friend I can rely ___.",
+   "options": [
+    "on",
+    "—",
+    "to",
+    "at"
+   ],
+   "answer": 0,
+   "why": "*rely on* — прийменник у кінці означального: *a friend I can rely on*. Без нього — неповне; *to* і *at* — неправильні прийменники."
+  },
+  {
+   "id": "prepositions-advanced-23",
+   "type": "choice",
+   "q": "The complaint was dealt ___ immediately.",
+   "options": [
+    "with",
+    "—",
+    "about",
+    "by with"
+   ],
+   "answer": 0,
+   "why": "Пасив *deal with* — *was dealt with*. Без *with* — неграматично; *about* — неправильний прийменник; *by with* — подвоєння."
+  },
+  {
+   "id": "prepositions-advanced-24",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "a",
+    "very",
+    "easy",
+    "person",
+    "to",
+    "work",
+    "with"
+   ],
+   "answer": [
+    "She is a very easy person to work with"
+   ],
+   "why": "Прийменник після інфінітива залишається: *to work with*."
   }
  ]
 }

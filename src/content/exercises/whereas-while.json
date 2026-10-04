@@ -1,0 +1,158 @@
+{
+ "questions": [
+  {
+   "id": "whereas-while-1",
+   "type": "choice",
+   "q": "Someone knocked at the door ___ I was cooking dinner.",
+   "options": [
+    "while",
+    "whereas",
+    "during",
+    "meanwhile"
+   ],
+   "answer": 0,
+   "why": "Дві дії одночасно, «поки» — тільки *while*. *whereas* — лише протиставлення; *during* — перед іменником; *meanwhile* — «тим часом», не сполучник."
+  },
+  {
+   "id": "whereas-while-2",
+   "type": "choice",
+   "q": "I like spicy food, ___ my husband can't eat it at all.",
+   "options": [
+    "whereas",
+    "during",
+    "meanwhile",
+    "despite"
+   ],
+   "answer": 0,
+   "why": "Протиставлення двох людей — *whereas* (або *while*, якого тут немає). *during* і *despite* — перед іменником; *meanwhile* — не сполучник."
+  },
+  {
+   "id": "whereas-while-3",
+   "type": "choice",
+   "q": "___ we were in Rome, we visited the Vatican.",
+   "options": [
+    "While",
+    "Whereas",
+    "During",
+    "Meanwhile"
+   ],
+   "answer": 0,
+   "why": "Час, «поки ми були» — *While*. *Whereas* — не про час; *During* — перед іменником; *Meanwhile* — не сполучник."
+  },
+  {
+   "id": "whereas-while-4",
+   "type": "choice",
+   "q": "___ I understand your concerns, I think the plan is good.",
+   "options": [
+    "While",
+    "Whereas",
+    "During",
+    "Despite"
+   ],
+   "answer": 0,
+   "why": "Поступка «хоча» на початку — *While*. *Whereas* у значенні «хоча я розумію» не вживають; *During* і *Despite* — перед іменником."
+  },
+  {
+   "id": "whereas-while-5",
+   "type": "choice",
+   "q": "In the north it rains a lot, ___ the south is very dry.",
+   "options": [
+    "whereas",
+    "during",
+    "despite",
+    "meanwhile"
+   ],
+   "answer": 0,
+   "why": "Протиставлення двох регіонів — *whereas*. *during* і *despite* — перед іменником; *meanwhile* — не сполучник."
+  },
+  {
+   "id": "whereas-while-6",
+   "type": "choice",
+   "q": "Please don't talk ___ I'm on the phone.",
+   "options": [
+    "while",
+    "whereas",
+    "during",
+    "meantime"
+   ],
+   "answer": 0,
+   "why": "Одночасно, «поки» — *while*. *whereas* — не про час; *during* — перед іменником; *meantime* — не сполучник."
+  },
+  {
+   "id": "whereas-while-7",
+   "type": "choice",
+   "q": "Tom is very tidy, ___ his brother is incredibly messy.",
+   "options": [
+    "whereas",
+    "during",
+    "as soon as",
+    "until"
+   ],
+   "answer": 0,
+   "why": "Протиставлення двох людей — *whereas*. *during* — перед іменником; *as soon as* і *until* — часові сполучники, тут безглузді."
+  },
+  {
+   "id": "whereas-while-8",
+   "type": "choice",
+   "q": "She fell asleep ___ watching the film.",
+   "options": [
+    "while",
+    "whereas",
+    "during",
+    "meanwhile"
+   ],
+   "answer": 0,
+   "why": "*while* + *-ing* — «під час»: *while watching*. *whereas* — не про час; *during watching* — неграматично; *meanwhile* — не сполучник."
+  },
+  {
+   "id": "whereas-while-9",
+   "type": "fill",
+   "q": "I hurt my back ___ I was playing tennis.",
+   "answer": [
+    "while",
+    "when"
+   ],
+   "why": "Час, «поки» — *while* (також *when*)."
+  },
+  {
+   "id": "whereas-while-10",
+   "type": "fill",
+   "q": "Cats are independent, ___ dogs need a lot of attention.",
+   "answer": [
+    "whereas",
+    "while"
+   ],
+   "why": "Протиставлення — *whereas* або *while*."
+  },
+  {
+   "id": "whereas-while-11",
+   "type": "fill",
+   "q": "___ I was waiting, I read a magazine.",
+   "answer": [
+    "While",
+    "As"
+   ],
+   "why": "Одночасно — *While* (також *As*)."
+  },
+  {
+   "id": "whereas-while-12",
+   "type": "order",
+   "words": [
+    "My",
+    "sister",
+    "is",
+    "tall",
+    "whereas",
+    "I",
+    "am",
+    "quite",
+    "short"
+   ],
+   "answer": [
+    "My sister is tall whereas I am quite short",
+    "My sister is tall, whereas I am quite short"
+   ],
+   "why": "Протиставлення двох людей — *whereas*."
+  }
+ ]
+}

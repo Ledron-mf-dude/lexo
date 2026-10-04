@@ -1,0 +1,234 @@
+{
+ "questions": [
+  {
+   "id": "formulaic-subjunctive-1",
+   "type": "choice",
+   "q": "The hotel is old and a bit noisy. Be ___ as it may, it's in a great location.",
+   "options": [
+    "that",
+    "it",
+    "this",
+    "so"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *Be that as it may*. *Be it as it may*, *Be this as it may*, *Be so as it may* — неправильні варіанти."
+  },
+  {
+   "id": "formulaic-subjunctive-2",
+   "type": "choice",
+   "q": "I'm going to finish the marathon, come ___ may.",
+   "options": [
+    "what",
+    "which",
+    "that",
+    "how"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *come what may*. *which*, *that*, *how* у ньому не вживають."
+  },
+  {
+   "id": "formulaic-subjunctive-3",
+   "type": "choice",
+   "q": "___ it to say that the evening was a complete disaster.",
+   "options": [
+    "Suffice",
+    "Suffices",
+    "Sufficient",
+    "To suffice"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *Suffice it to say*. *Suffices*, *Sufficient*, *To suffice* — неправильні форми."
+  },
+  {
+   "id": "formulaic-subjunctive-4",
+   "type": "choice",
+   "q": "Long ___ the Republic!",
+   "options": [
+    "live",
+    "lives",
+    "living",
+    "lived"
+   ],
+   "answer": 0,
+   "why": "Застигле побажання — *Long live*, початкова форма. *lives*, *living*, *lived* — неправильні форми."
+  },
+  {
+   "id": "formulaic-subjunctive-5",
+   "type": "choice",
+   "q": "I can lend you some money if need ___.",
+   "options": [
+    "be",
+    "is",
+    "will be",
+    "being"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *if need be*. *is*, *will be*, *being* — неправильні форми."
+  },
+  {
+   "id": "formulaic-subjunctive-6",
+   "type": "choice",
+   "q": "Far be it from me ___ you how to raise your children.",
+   "options": [
+    "to tell",
+    "telling",
+    "tell",
+    "that I tell"
+   ],
+   "answer": 0,
+   "why": "*Far be it from me* + *to*-інфінітив. *telling*, *tell*, *that I tell* — неправильні конструкції."
+  },
+  {
+   "id": "formulaic-subjunctive-7",
+   "type": "choice",
+   "q": "If you really want to leave the company, so ___ it.",
+   "options": [
+    "be",
+    "is",
+    "will",
+    "does"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *so be it*. *so is it*, *so will it*, *so does it* — інший зміст або неграматично."
+  },
+  {
+   "id": "formulaic-subjunctive-8",
+   "type": "choice",
+   "q": "He is, as it ___, the father of modern design.",
+   "options": [
+    "were",
+    "was",
+    "is",
+    "be"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *as it were*. *as it was* — «як було»; *as it is* — «насправді, і так»; *as it be* — неграматично."
+  },
+  {
+   "id": "formulaic-subjunctive-9",
+   "type": "choice",
+   "q": "Heaven ___ that the children should get hurt.",
+   "options": [
+    "forbid",
+    "forbids",
+    "forbade",
+    "forbidden"
+   ],
+   "answer": 0,
+   "why": "Застиглий вираз — *Heaven forbid*, початкова форма. *forbids*, *forbade*, *forbidden* — неправильні форми."
+  },
+  {
+   "id": "formulaic-subjunctive-10",
+   "type": "choice",
+   "q": "Every decision, whether it ___ big or small, affects the team.",
+   "options": [
+    "be",
+    "is being",
+    "were being",
+    "been"
+   ],
+   "answer": 0,
+   "why": "Книжне *whether it be … or …*. *is being*, *were being*, *been* — неправильні форми."
+  },
+  {
+   "id": "formulaic-subjunctive-11",
+   "type": "choice",
+   "q": "They spoke in whispers lest they ___ the baby.",
+   "options": [
+    "wake",
+    "woke",
+    "will wake",
+    "waking"
+   ],
+   "answer": 0,
+   "why": "Після *lest* — початкова форма (або *should wake*). *woke* — минулий; *will wake* — після *lest* не вживають; *waking* — неграматично."
+  },
+  {
+   "id": "formulaic-subjunctive-12",
+   "type": "choice",
+   "q": "God ___ the King!",
+   "options": [
+    "save",
+    "saves",
+    "saved",
+    "saving"
+   ],
+   "answer": 0,
+   "why": "Застигле побажання — *God save*. *saves*, *saved*, *saving* — неправильні форми."
+  },
+  {
+   "id": "formulaic-subjunctive-13",
+   "type": "fill",
+   "q": "I'll work all weekend if ___ be.",
+   "answer": [
+    "need"
+   ],
+   "why": "Сталий вираз — *if need be*."
+  },
+  {
+   "id": "formulaic-subjunctive-14",
+   "type": "fill",
+   "q": "We'll get there, come ___ may.",
+   "answer": [
+    "what"
+   ],
+   "why": "Сталий вираз — *come what may*."
+  },
+  {
+   "id": "formulaic-subjunctive-15",
+   "type": "fill",
+   "q": "___ that as it may, the decision is final.",
+   "answer": [
+    "Be"
+   ],
+   "why": "Сталий вираз — *Be that as it may*."
+  },
+  {
+   "id": "formulaic-subjunctive-16",
+   "type": "fill",
+   "q": "Long ___ freedom!",
+   "answer": [
+    "live"
+   ],
+   "why": "*Long live* — початкова форма."
+  },
+  {
+   "id": "formulaic-subjunctive-17",
+   "type": "order",
+   "words": [
+    "Suffice",
+    "it",
+    "to",
+    "say",
+    "that",
+    "we",
+    "will",
+    "not",
+    "be",
+    "going",
+    "back"
+   ],
+   "answer": [
+    "Suffice it to say that we will not be going back"
+   ],
+   "why": "Сталий вираз — *Suffice it to say that*."
+  },
+  {
+   "id": "formulaic-subjunctive-18",
+   "type": "order",
+   "words": [
+    "Far",
+    "be",
+    "it",
+    "from",
+    "me",
+    "to",
+    "criticise"
+   ],
+   "answer": [
+    "Far be it from me to criticise"
+   ],
+   "why": "Сталий вираз — *Far be it from me to*."
+  }
+ ]
+}

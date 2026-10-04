@@ -1,0 +1,155 @@
+{
+ "questions": [
+  {
+   "id": "lay-lie-1",
+   "type": "choice",
+   "q": "I've got a headache. I need to ___ down for a while.",
+   "options": [
+    "lie",
+    "lay",
+    "laid",
+    "lying"
+   ],
+   "answer": 0,
+   "why": "Лягти, без додатка — *lie down*. *lay* — «класти щось»; *laid* і *lying* — не початкова форма після *need to*."
+  },
+  {
+   "id": "lay-lie-2",
+   "type": "choice",
+   "q": "Could you ___ the table for dinner, please?",
+   "options": [
+    "lay",
+    "lie",
+    "lain",
+    "lied"
+   ],
+   "answer": 0,
+   "why": "Накривати на стіл — *lay the table* (є додаток). *lie* — лежати; *lain* і *lied* — не початкова форма."
+  },
+  {
+   "id": "lay-lie-3",
+   "type": "choice",
+   "q": "Yesterday I ___ in the sun for two hours.",
+   "options": [
+    "lay",
+    "laid",
+    "lied",
+    "lain"
+   ],
+   "answer": 0,
+   "why": "Минулий від *lie* (лежати) — *lay*. *laid* — «поклав»; *lied* — «збрехав»; *lain* — третя форма, без *have*."
+  },
+  {
+   "id": "lay-lie-4",
+   "type": "choice",
+   "q": "She ___ her keys on the table and sat down.",
+   "options": [
+    "laid",
+    "lay",
+    "lied",
+    "lain"
+   ],
+   "answer": 0,
+   "why": "Поклала щось — *lay – laid – laid*: *laid her keys*. *lay* — «лежала»; *lied* — «збрехала»; *lain* — третя форма від *lie*."
+  },
+  {
+   "id": "lay-lie-5",
+   "type": "choice",
+   "q": "Why is your coat ___ on the floor?",
+   "options": [
+    "lying",
+    "laying",
+    "laid",
+    "lain"
+   ],
+   "answer": 0,
+   "why": "Пальто лежить, без додатка — *lying*. *laying* — «кладучи щось»; *laid* і *lain* — не *-ing*."
+  },
+  {
+   "id": "lay-lie-6",
+   "type": "choice",
+   "q": "He ___ to me about where he had been.",
+   "options": [
+    "lied",
+    "lay",
+    "laid",
+    "lain"
+   ],
+   "answer": 0,
+   "why": "Збрехав — *lie – lied – lied*. *lay* — «лежав»; *laid* — «поклав»; *lain* — «лежав» (третя форма)."
+  },
+  {
+   "id": "lay-lie-7",
+   "type": "choice",
+   "q": "Our hens ___ about five eggs a day.",
+   "options": [
+    "lay",
+    "lie",
+    "lies",
+    "lying"
+   ],
+   "answer": 0,
+   "why": "Нести яйця — *lay eggs* (є додаток). *lie* і *lies* — лежати; *lying* — без допоміжного неграматично."
+  },
+  {
+   "id": "lay-lie-8",
+   "type": "choice",
+   "q": "The dog has ___ by the fire all afternoon.",
+   "options": [
+    "lain",
+    "laid",
+    "lied",
+    "layed"
+   ],
+   "answer": 0,
+   "why": "Третя форма від *lie* (лежати) — *lain*. *laid* — від *lay* (класти); *lied* — збрехав; *layed* — неправильне написання."
+  },
+  {
+   "id": "lay-lie-9",
+   "type": "fill",
+   "q": "Last night I ___ awake until three.",
+   "answer": [
+    "lay"
+   ],
+   "why": "Минулий від *lie* (лежати) — *lay*."
+  },
+  {
+   "id": "lay-lie-10",
+   "type": "fill",
+   "q": "Please ___ the documents on my desk.",
+   "answer": [
+    "lay",
+    "put",
+    "leave"
+   ],
+   "why": "Класти щось — *lay* (у розмові частіше *put*, *leave*)."
+  },
+  {
+   "id": "lay-lie-11",
+   "type": "fill",
+   "q": "Don't believe him — he's ___ again.",
+   "answer": [
+    "lying"
+   ],
+   "why": "Бреше — *lie – lying*."
+  },
+  {
+   "id": "lay-lie-12",
+   "type": "order",
+   "words": [
+    "She",
+    "laid",
+    "the",
+    "baby",
+    "gently",
+    "in",
+    "the",
+    "cot"
+   ],
+   "answer": [
+    "She laid the baby gently in the cot"
+   ],
+   "why": "Поклала дитину — *laid*, бо є додаток *the baby*."
+  }
+ ]
+}

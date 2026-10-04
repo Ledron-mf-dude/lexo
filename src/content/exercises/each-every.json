@@ -1,0 +1,153 @@
+{
+ "questions": [
+  {
+   "id": "each-every-1",
+   "type": "choice",
+   "q": "She was carrying a heavy bag in ___ hand.",
+   "options": [
+    "each",
+    "every",
+    "all",
+    "both"
+   ],
+   "answer": 0,
+   "why": "Рук дві — тільки *each*. *every* — для трьох і більше; *all hand* і *both hand* — потрібна множина."
+  },
+  {
+   "id": "each-every-2",
+   "type": "choice",
+   "q": "I go to the gym ___ three days.",
+   "options": [
+    "every",
+    "each",
+    "all",
+    "each of"
+   ],
+   "answer": 0,
+   "why": "Регулярність із числом — *every three days*. *each three days* — неприродно; *all three days* — «усі три дні»; *each of* — неграматично тут."
+  },
+  {
+   "id": "each-every-3",
+   "type": "choice",
+   "q": "___ of the children got a small present.",
+   "options": [
+    "Each",
+    "Every",
+    "All of each",
+    "Every of"
+   ],
+   "answer": 0,
+   "why": "Перед *of* — *Each of*. *Every of* — неграматично (потрібно *Every one of*); *All of each* — неграматично."
+  },
+  {
+   "id": "each-every-4",
+   "type": "choice",
+   "q": "Each of my brothers ___ a different job.",
+   "options": [
+    "has",
+    "have",
+    "are having",
+    "having"
+   ],
+   "answer": 0,
+   "why": "*Each of* — дієслово в однині: *has*. *have* і *are having* — множина; *having* — немає особової форми."
+  },
+  {
+   "id": "each-every-5",
+   "type": "choice",
+   "q": "Almost ___ house in the street has a garden.",
+   "options": [
+    "every",
+    "each",
+    "all",
+    "both"
+   ],
+   "answer": 0,
+   "why": "З *almost* — *every*. *almost each* — неприродно; *all house* і *both house* — потрібна множина."
+  },
+  {
+   "id": "each-every-6",
+   "type": "choice",
+   "q": "The tickets cost £15 ___.",
+   "options": [
+    "each",
+    "every",
+    "everyone",
+    "all"
+   ],
+   "answer": 0,
+   "why": "Окремо в кінці «за кожен» — *each*. *every* не стоїть без іменника; *everyone* — «усі люди»; *all* — інший зміст."
+  },
+  {
+   "id": "each-every-7",
+   "type": "choice",
+   "q": "I drink coffee ___.",
+   "options": [
+    "every day",
+    "everyday",
+    "each days",
+    "every days"
+   ],
+   "answer": 0,
+   "why": "«Щодня» — *every day*, двома словами. *everyday* — прикметник «повсякденний»; *each days* і *every days* — потрібна однина."
+  },
+  {
+   "id": "each-every-8",
+   "type": "choice",
+   "q": "These are ___ clothes, not for special occasions.",
+   "options": [
+    "everyday",
+    "every day",
+    "each day",
+    "every days"
+   ],
+   "answer": 0,
+   "why": "Прикметник «повсякденний» — *everyday clothes*. *every day*, *each day* — «щодня»; *every days* — неграматично."
+  },
+  {
+   "id": "each-every-9",
+   "type": "fill",
+   "q": "___ one of us has a role to play.",
+   "answer": [
+    "Every",
+    "Each"
+   ],
+   "why": "Перед *one of* — *Every one of* або *Each one of*."
+  },
+  {
+   "id": "each-every-10",
+   "type": "fill",
+   "q": "There are two bedrooms, and ___ has its own bathroom.",
+   "answer": [
+    "each"
+   ],
+   "why": "Дві кімнати, окремо — *each*."
+  },
+  {
+   "id": "each-every-11",
+   "type": "fill",
+   "q": "The buses run ___ ten minutes.",
+   "answer": [
+    "every"
+   ],
+   "why": "Регулярність — *every ten minutes*."
+  },
+  {
+   "id": "each-every-12",
+   "type": "order",
+   "words": [
+    "Each",
+    "of",
+    "the",
+    "rooms",
+    "has",
+    "a",
+    "balcony"
+   ],
+   "answer": [
+    "Each of the rooms has a balcony"
+   ],
+   "why": "*Each of* + множина, дієслово в однині: *has*."
+  }
+ ]
+}

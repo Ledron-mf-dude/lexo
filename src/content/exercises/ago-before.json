@@ -1,0 +1,152 @@
+{
+ "questions": [
+  {
+   "id": "ago-before-1",
+   "type": "choice",
+   "q": "I started learning English five years ___.",
+   "options": [
+    "ago",
+    "before",
+    "since",
+    "earlier than"
+   ],
+   "answer": 0,
+   "why": "Від сьогодні назад — *five years ago*. *before* — від іншого моменту в минулому; *since* потребує моменту (*since 2020*); *earlier than* потребує продовження."
+  },
+  {
+   "id": "ago-before-2",
+   "type": "choice",
+   "q": "Have you met my sister ___?",
+   "options": [
+    "before",
+    "ago",
+    "yet ago",
+    "since ago"
+   ],
+   "answer": 0,
+   "why": "«Раніше, колись» без періоду — *before*. *ago* завжди після періоду; *yet ago* і *since ago* — неграматично."
+  },
+  {
+   "id": "ago-before-3",
+   "type": "choice",
+   "q": "When we moved to Lviv in 2015, my parents had bought the flat two years ___.",
+   "options": [
+    "before",
+    "ago",
+    "since",
+    "later"
+   ],
+   "answer": 0,
+   "why": "Від моменту в минулому (2015) — *two years before*. *ago* рахує від сьогодні; *since* — «відтоді»; *later* — «пізніше», суперечить Past Perfect."
+  },
+  {
+   "id": "ago-before-4",
+   "type": "choice",
+   "q": "She ___ the company three months ago.",
+   "options": [
+    "left",
+    "has left",
+    "leaves",
+    "had left since"
+   ],
+   "answer": 0,
+   "why": "З *ago* — Past Simple: *left*. *has left* — Present Perfect з *ago* не вживають; *leaves* — теперішній час; *had left since* — неграматично."
+  },
+  {
+   "id": "ago-before-5",
+   "type": "choice",
+   "q": "I've never seen this film ___.",
+   "options": [
+    "before",
+    "ago",
+    "since ago",
+    "until"
+   ],
+   "answer": 0,
+   "why": "«Ніколи раніше» без періоду — *before*. *ago* потребує періоду; *since ago* — неграматично; *until* — «до» з моментом."
+  },
+  {
+   "id": "ago-before-6",
+   "type": "choice",
+   "q": "The train left ten minutes ___. You've just missed it.",
+   "options": [
+    "ago",
+    "before",
+    "since",
+    "earlier of"
+   ],
+   "answer": 0,
+   "why": "Від зараз назад — *ten minutes ago*. *before* — від іншого моменту в минулому; *since* потребує моменту; *earlier of* — неграматично."
+  },
+  {
+   "id": "ago-before-7",
+   "type": "choice",
+   "q": "He told me that he had finished the project a week ___.",
+   "options": [
+    "before",
+    "ago",
+    "since",
+    "later"
+   ],
+   "answer": 0,
+   "why": "Непряма мова, відлік від моменту розмови в минулому — *a week before* (або *earlier*). *ago* — від сьогодні; *since* — «відтоді»; *later* суперечить Past Perfect."
+  },
+  {
+   "id": "ago-before-8",
+   "type": "choice",
+   "q": "How long ___ did you move here?",
+   "options": [
+    "ago",
+    "before",
+    "since",
+    "yet"
+   ],
+   "answer": 0,
+   "why": "Питання «як давно» від сьогодні з Past Simple — *How long ago*. *How long before* потребує іншого моменту; *since* і *yet* тут неграматичні."
+  },
+  {
+   "id": "ago-before-9",
+   "type": "fill",
+   "q": "We got married twenty years ___.",
+   "answer": [
+    "ago"
+   ],
+   "why": "Від сьогодні назад — *ago*."
+  },
+  {
+   "id": "ago-before-10",
+   "type": "fill",
+   "q": "I'm sure I've been here ___.",
+   "answer": [
+    "before"
+   ],
+   "why": "«Раніше» без періоду — *before*."
+  },
+  {
+   "id": "ago-before-11",
+   "type": "fill",
+   "q": "She ___ (call) you an hour ago.",
+   "answer": [
+    "called"
+   ],
+   "why": "З *ago* — Past Simple: *called*."
+  },
+  {
+   "id": "ago-before-12",
+   "type": "order",
+   "words": [
+    "I",
+    "saw",
+    "that",
+    "film",
+    "two",
+    "weeks",
+    "ago"
+   ],
+   "answer": [
+    "I saw that film two weeks ago"
+   ],
+   "why": "*ago* стоїть після періоду, дієслово — Past Simple."
+  }
+ ]
+}

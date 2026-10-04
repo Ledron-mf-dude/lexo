@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "look-watch-see-1",
+   "type": "choice",
+   "q": "Do you want to ___ the football match with us tonight?",
+   "options": [
+    "watch",
+    "see at",
+    "look",
+    "look at"
+   ],
+   "answer": 0,
+   "why": "Стежити за матчем — *watch the match*. *see at* — неграматично; *look* без *at* не бере додатка; *look at the match* — «глянути», а не стежити весь час."
+  },
+  {
+   "id": "look-watch-see-2",
+   "type": "choice",
+   "q": "___ that bird on the roof! It's huge.",
+   "options": [
+    "Look at",
+    "Look",
+    "Watch to",
+    "See at"
+   ],
+   "answer": 0,
+   "why": "Навмисно глянути на щось — *Look at* + об'єкт. *Look* без *at* не бере об'єкта; *Watch to* і *See at* — неграматично."
+  },
+  {
+   "id": "look-watch-see-3",
+   "type": "choice",
+   "q": "I can't ___ a thing without my glasses.",
+   "options": [
+    "see",
+    "look",
+    "watch",
+    "look at"
+   ],
+   "answer": 0,
+   "why": "Сприймати очима — *see*. *look* — «дивитися» без додатка; *watch* — стежити; *look at a thing* — не «бачити»."
+  },
+  {
+   "id": "look-watch-see-4",
+   "type": "choice",
+   "q": "My parents ___ TV every evening after dinner.",
+   "options": [
+    "watch",
+    "see",
+    "look",
+    "look at"
+   ],
+   "answer": 0,
+   "why": "Телевізор — тільки *watch TV*. *see TV*, *look TV*, *look at TV* так не кажуть."
+  },
+  {
+   "id": "look-watch-see-5",
+   "type": "choice",
+   "q": "You ___ really happy today. Did something good happen?",
+   "options": [
+    "look",
+    "see",
+    "watch",
+    "look at"
+   ],
+   "answer": 0,
+   "why": "Мати вигляд — *look* + прикметник. *see*, *watch*, *look at* не поєднуються з прикметником у цьому значенні."
+  },
+  {
+   "id": "look-watch-see-6",
+   "type": "choice",
+   "q": "Have you ___ the new Spielberg film yet?",
+   "options": [
+    "seen",
+    "looked",
+    "looked at",
+    "watch"
+   ],
+   "answer": 0,
+   "why": "«Чи бачив фільм» — *Have you seen*. *looked* — без *at* і не про фільм; *looked at* — «глянув»; *watch* — не третя форма."
+  },
+  {
+   "id": "look-watch-see-7",
+   "type": "choice",
+   "q": "Could you ___ the kids while I go to the shop?",
+   "options": [
+    "watch",
+    "see",
+    "look",
+    "look to"
+   ],
+   "answer": 0,
+   "why": "Приглянути за дітьми — *watch the kids* (також *look after*). *see* — бачити; *look* без прийменника; *look to* — «розраховувати на»."
+  },
+  {
+   "id": "look-watch-see-8",
+   "type": "choice",
+   "q": "I ___ an old friend in town yesterday — what a surprise!",
+   "options": [
+    "saw",
+    "looked",
+    "watched",
+    "looked at"
+   ],
+   "answer": 0,
+   "why": "Випадково побачив — *saw*. *looked* і *looked at* — навмисний погляд, а тут несподіванка; *watched* — стежив."
+  },
+  {
+   "id": "look-watch-see-9",
+   "type": "fill",
+   "q": "Stop ___ at me like that!",
+   "answer": [
+    "looking"
+   ],
+   "why": "Навмисний погляд на когось — *look at*: *Stop looking at me*."
+  },
+  {
+   "id": "look-watch-see-10",
+   "type": "fill",
+   "q": "I'm going to ___ a doctor about my back.",
+   "answer": [
+    "see"
+   ],
+   "why": "Піти до лікаря — *see a doctor*."
+  },
+  {
+   "id": "look-watch-see-11",
+   "type": "fill",
+   "q": "We sat on the beach and ___ the sunset.",
+   "answer": [
+    "watched"
+   ],
+   "why": "Стежили за подією, яка триває, — *watched the sunset*."
+  },
+  {
+   "id": "look-watch-see-12",
+   "type": "order",
+   "words": [
+    "Look",
+    "at",
+    "the",
+    "board",
+    "and",
+    "read",
+    "the",
+    "first",
+    "sentence"
+   ],
+   "answer": [
+    "Look at the board and read the first sentence"
+   ],
+   "why": "Навмисно глянути — *Look at the board*."
+  }
+ ]
+}

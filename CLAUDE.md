@@ -35,7 +35,8 @@ npm run lint     # oxlint
 - Schema changes go in a new `supabase/migrations/NNNN_*.sql` file. The owner runs it by hand in the Supabase SQL editor, since there is no migration tooling. Say so explicitly whenever a change needs one.
 
 **Grammar content** ([src/lib/grammar.ts](src/lib/grammar.ts)):
-- Articles live in `src/content/grammar/<slug>.md`. The front matter has `title`, `category`, `levels` (CEFR, from `LEVELS`), `aliases`, `tags`, and an optional `wordTags`.
+- Articles live in `src/content/grammar/<slug>.md`. The front matter has `title`, `category`, `levels` (CEFR, from `LEVELS`: A1–C2), `aliases`, `tags`, and an optional `wordTags`.
+- Short «X чи Y» topics (say/tell, lie/lay, until/by…) have the category «Короткі теми» (`SHORTS` in grammar.ts) and `levels: []`. They belong to no level: in «За рівнями» they form their own group after C2, they stay out of the route and the placement test, and the «Короткі теми» chip on the Grammar page toggles their category filter. An article without levels is no longer given a default one, so every other article must list its levels.
 - The front matter parser is hand-rolled, with one `key: value` per line. List values are split on commas, so an alias must not contain a comma.
 - Cross-references are written as `«Article title»` in the body and resolved to links through titles, title variants and aliases. An unresolved reference stays plain text.
 - Loading ([vite/lexoContent.ts](vite/lexoContent.ts)): parsing lives in pure modules ([src/lib/content/articles.ts](src/lib/content/articles.ts), [src/lib/content/questions.ts](src/lib/content/questions.ts)) that the plugin runs in Node. They must not use browser or Vite APIs and import each other with `.ts` extensions.
@@ -71,7 +72,7 @@ npm run lint     # oxlint
 - Question ids must stay stable, because the log references them.
 - Placement test and learning path ([src/lib/learningPath.ts](src/lib/learningPath.ts)):
   - [src/pages/Placement.tsx](src/pages/Placement.tsx) is at `/grammar/placement`, declared before `grammar/:slug`.
-  - It asks blocks of 6 questions per level, A1 → A2 → B1 → B1+ → B2 → C1, one per topic. A level counts as passed with 5 right. A failed block does not end the test; only a block with no right answers does.
+  - It asks blocks of 6 questions per level, A1 → A2 → B1 → B1+ → B2 → C1 → C2, one per topic. A level counts as passed with 5 right. A failed block does not end the test; only a block with no right answers does.
   - The questions come from a hand-picked list per level, [src/content/placement.json](src/content/placement.json), of question ids. Whole banks are not used because they also hold harder and theory questions, and the test has no «Мій варіант теж правильний». A listed question must have a gap, be of that level, and have exactly one right answer.
   - Answers go to `exercise_log`. The result (passed level, scores, weak topics) is kept in `localStorage` under `lexo.placement`.
   - [src/components/LearningPath.tsx](src/components/LearningPath.tsx) on the Grammar page builds the route with `buildRoute`: weak topics first, then topics of the study level.

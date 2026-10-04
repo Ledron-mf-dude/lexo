@@ -1,0 +1,238 @@
+{
+ "questions": [
+  {
+   "id": "cleft-advanced-1",
+   "type": "choice",
+   "q": "___ I want is a cup of tea and some peace and quiet.",
+   "options": [
+    "All",
+    "All what",
+    "That all",
+    "All of what"
+   ],
+   "answer": 0,
+   "why": "«Усе, що» — *All I want is…* (або *All that I want*). *All what* — помилка; *That all* і *All of what* — неграматично."
+  },
+  {
+   "id": "cleft-advanced-2",
+   "type": "choice",
+   "q": "What I did ___ call the police.",
+   "options": [
+    "was",
+    "it was",
+    "did",
+    "was that"
+   ],
+   "answer": 0,
+   "why": "Виділення дії — *What I did was (to) call*. *it was* — зайвий займенник; *did* — неграматично; *was that* — після *what … do* не вживають."
+  },
+  {
+   "id": "cleft-advanced-3",
+   "type": "choice",
+   "q": "What happened ___ the lift got stuck between floors.",
+   "options": [
+    "was that",
+    "it was",
+    "was it",
+    "did"
+   ],
+   "answer": 0,
+   "why": "Виділення події — *What happened was (that)…* *it was* і *was it* — зайвий займенник чи питальний порядок; *did* — неграматично."
+  },
+  {
+   "id": "cleft-advanced-4",
+   "type": "choice",
+   "q": "A good night's sleep is ___ you need.",
+   "options": [
+    "what",
+    "that",
+    "which",
+    "all what"
+   ],
+   "answer": 0,
+   "why": "Зворотне виділення — *X is what you need*. *that* і *which* — потребують іменника перед собою; *all what* — помилка."
+  },
+  {
+   "id": "cleft-advanced-5",
+   "type": "choice",
+   "q": "It was only when I got home ___ I realised I'd lost my wallet.",
+   "options": [
+    "that",
+    "when",
+    "then",
+    "which"
+   ],
+   "answer": 0,
+   "why": "It-виділення — *It was only when… that…* *when* — подвоєння; *then* — «тоді», не сполучник; *which* — означальне."
+  },
+  {
+   "id": "cleft-advanced-6",
+   "type": "choice",
+   "q": "It's not that I don't like him — it's ___ we have nothing in common.",
+   "options": [
+    "just that",
+    "just because",
+    "only so",
+    "that just"
+   ],
+   "answer": 0,
+   "why": "*It's not that…, it's just that…* — справа не в тому, а в тому. *just because* — інша конструкція; *only so* і *that just* — неграматично."
+  },
+  {
+   "id": "cleft-advanced-7",
+   "type": "choice",
+   "q": "___ is, I can't afford a new car right now.",
+   "options": [
+    "The thing",
+    "The thing what",
+    "What thing",
+    "The thing it"
+   ],
+   "answer": 0,
+   "why": "Розмовне *The thing is, …* *The thing what* і *The thing it* — зайві слова; *What thing is* — питання."
+  },
+  {
+   "id": "cleft-advanced-8",
+   "type": "choice",
+   "q": "That's ___ I didn't tell you — I knew you'd be upset.",
+   "options": [
+    "why",
+    "what",
+    "because",
+    "which"
+   ],
+   "answer": 0,
+   "why": "Причина в зворотному виділенні — *That's why*. *what* — «те, що»; *because* — після *That's* так не вживають; *which* — означальне."
+  },
+  {
+   "id": "cleft-advanced-9",
+   "type": "choice",
+   "q": "It was not ___ she left school that she started painting.",
+   "options": [
+    "until",
+    "when",
+    "since",
+    "before when"
+   ],
+   "answer": 0,
+   "why": "*It was not until… that…* — лише після того. *not when* і *not since* — інший зміст; *before when* — неграматично."
+  },
+  {
+   "id": "cleft-advanced-10",
+   "type": "choice",
+   "q": "All you have to do ___ fill in this form.",
+   "options": [
+    "is",
+    "are",
+    "is that",
+    "it is"
+   ],
+   "answer": 0,
+   "why": "*All you have to do is (to) fill in*. *are* — множина; *is that* — неграматично тут; *it is* — зайвий займенник."
+  },
+  {
+   "id": "cleft-advanced-11",
+   "type": "choice",
+   "q": "This is ___ I grew up.",
+   "options": [
+    "where",
+    "what",
+    "which",
+    "that"
+   ],
+   "answer": 0,
+   "why": "Зворотне виділення місця — *This is where…* *what* — «те, що»; *which* і *that* — потребують прийменника (*in*)."
+  },
+  {
+   "id": "cleft-advanced-12",
+   "type": "choice",
+   "q": "If anyone is to blame, ___ me.",
+   "options": [
+    "it's",
+    "it was being",
+    "that is it",
+    "is it"
+   ],
+   "answer": 0,
+   "why": "*If anyone is to blame, it's me.* *it was being* — неправильний час; *that is it* і *is it* — неграматично тут."
+  },
+  {
+   "id": "cleft-advanced-13",
+   "type": "fill",
+   "q": "___ I really need now is a holiday.",
+   "answer": [
+    "What",
+    "All",
+    "All that"
+   ],
+   "why": "Виділення — *What I need is…* (також *All / All that*)."
+  },
+  {
+   "id": "cleft-advanced-14",
+   "type": "fill",
+   "q": "The reason I called ___ that I need your advice.",
+   "answer": [
+    "is",
+    "was"
+   ],
+   "why": "*The reason I called is that…*"
+  },
+  {
+   "id": "cleft-advanced-15",
+   "type": "fill",
+   "q": "There's something I ___ to tell you.",
+   "answer": [
+    "need",
+    "have",
+    "want",
+    "ought"
+   ],
+   "why": "There-виділення: *There's something I need to tell you*.",
+   "hint": "(маю, треба)"
+  },
+  {
+   "id": "cleft-advanced-16",
+   "type": "fill",
+   "q": "What she's doing ___ trying to save the company.",
+   "answer": [
+    "is"
+   ],
+   "why": "*What she's doing is trying…*"
+  },
+  {
+   "id": "cleft-advanced-17",
+   "type": "order",
+   "words": [
+    "All",
+    "I",
+    "want",
+    "is",
+    "a",
+    "quiet",
+    "life"
+   ],
+   "answer": [
+    "All I want is a quiet life"
+   ],
+   "why": "*All I want is…* — «усе, що я хочу, — це…»."
+  },
+  {
+   "id": "cleft-advanced-18",
+   "type": "order",
+   "words": [
+    "What",
+    "happened",
+    "was",
+    "that",
+    "the",
+    "car",
+    "broke",
+    "down"
+   ],
+   "answer": [
+    "What happened was that the car broke down"
+   ],
+   "why": "Виділення події — *What happened was that…*"
+  }
+ ]
+}

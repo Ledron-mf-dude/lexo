@@ -1,0 +1,234 @@
+{
+ "questions": [
+  {
+   "id": "complex-prepositions-1",
+   "type": "choice",
+   "q": "___ heavy snow, all flights were cancelled.",
+   "options": [
+    "Owing to",
+    "Owing",
+    "Because",
+    "Thanks"
+   ],
+   "answer": 0,
+   "why": "Причина + іменник — *Owing to heavy snow*. *Owing* без *to* — неповне; *Because* + іменник — бракує *of*; *Thanks* без *to* — неповне."
+  },
+  {
+   "id": "complex-prepositions-2",
+   "type": "choice",
+   "q": "I'm writing ___ your advertisement in Monday's newspaper.",
+   "options": [
+    "with regard to",
+    "in regard of",
+    "regarding to",
+    "with regards of"
+   ],
+   "answer": 0,
+   "why": "«Щодо» — *with regard to* (або *regarding*). *in regard of*, *regarding to*, *with regards of* — неправильні вирази."
+  },
+  {
+   "id": "complex-prepositions-3",
+   "type": "choice",
+   "q": "She accepted the award ___ her whole team.",
+   "options": [
+    "on behalf of",
+    "in behalf to",
+    "on the behalf",
+    "behalf of"
+   ],
+   "answer": 0,
+   "why": "«Від імені» — *on behalf of*. *in behalf to*, *on the behalf*, *behalf of* — неправильні вирази."
+  },
+  {
+   "id": "complex-prepositions-4",
+   "type": "choice",
+   "q": "They bought the house with a view to ___ it.",
+   "options": [
+    "renovating",
+    "renovate",
+    "renovated",
+    "have renovated"
+   ],
+   "answer": 0,
+   "why": "*with a view to* + *-ing*, бо *to* — частина прийменника. *renovate*, *renovated*, *have renovated* — неграматично."
+  },
+  {
+   "id": "complex-prepositions-5",
+   "type": "choice",
+   "q": "___ price, this is the best phone on the market.",
+   "options": [
+    "In terms of",
+    "In term of",
+    "By terms of",
+    "On terms"
+   ],
+   "answer": 0,
+   "why": "«З погляду» — *In terms of*. *In term of*, *By terms of*, *On terms* — неправильні форми."
+  },
+  {
+   "id": "complex-prepositions-6",
+   "type": "choice",
+   "q": "The prize is open to everyone, ___ age.",
+   "options": [
+    "regardless of",
+    "regardless",
+    "regarding of",
+    "in regardless of"
+   ],
+   "answer": 0,
+   "why": "«Незалежно від» — *regardless of*. Без *of* — неповне; *regarding of* і *in regardless of* — неграматично."
+  },
+  {
+   "id": "complex-prepositions-7",
+   "type": "choice",
+   "q": "Most members voted ___ the proposal.",
+   "options": [
+    "in favour of",
+    "in favour to",
+    "on favour of",
+    "for favour of"
+   ],
+   "answer": 0,
+   "why": "«За» — *in favour of*. *in favour to*, *on favour of*, *for favour of* — неправильні вирази."
+  },
+  {
+   "id": "complex-prepositions-8",
+   "type": "choice",
+   "q": "The data was collected ___ an online survey.",
+   "options": [
+    "by means of",
+    "by mean of",
+    "with means of",
+    "by the mean"
+   ],
+   "answer": 0,
+   "why": "«За допомогою» — *by means of*. *by mean of*, *with means of*, *by the mean* — неправильні форми."
+  },
+  {
+   "id": "complex-prepositions-9",
+   "type": "choice",
+   "q": "The decision was made ___ the company's rules.",
+   "options": [
+    "in accordance with",
+    "in accordance to",
+    "according with",
+    "in accord of"
+   ],
+   "answer": 0,
+   "why": "«Відповідно до» — *in accordance with*. *in accordance to*, *according with*, *in accord of* — неправильні вирази (правильно ще *according to*)."
+  },
+  {
+   "id": "complex-prepositions-10",
+   "type": "choice",
+   "q": "___ the recent complaints, we are reviewing our service.",
+   "options": [
+    "In view of",
+    "In the view",
+    "On view of",
+    "By view of"
+   ],
+   "answer": 0,
+   "why": "«Зважаючи на» — *In view of*. *In the view*, *On view of*, *By view of* — неправильні вирази."
+  },
+  {
+   "id": "complex-prepositions-11",
+   "type": "choice",
+   "q": "___ English and French, she speaks fluent Arabic.",
+   "options": [
+    "In addition to",
+    "In addition",
+    "Addition to",
+    "As addition to"
+   ],
+   "answer": 0,
+   "why": "«На додачу до» + іменник — *In addition to*. *In addition* без *to* — окремий прислівник «крім того»; *Addition to* і *As addition to* — неграматично."
+  },
+  {
+   "id": "complex-prepositions-12",
+   "type": "choice",
+   "q": "The flight was cancelled ___ the pilots' strike.",
+   "options": [
+    "on account of",
+    "on account",
+    "in account of",
+    "by account of"
+   ],
+   "answer": 0,
+   "why": "«Через» — *on account of*. Без *of* — неповне; *in account of* і *by account of* — неправильні форми."
+  },
+  {
+   "id": "complex-prepositions-13",
+   "type": "fill",
+   "q": "He apologised and offered to pay, by ___ of compensation.",
+   "answer": [
+    "way"
+   ],
+   "why": "*by way of* — як, у вигляді."
+  },
+  {
+   "id": "complex-prepositions-14",
+   "type": "fill",
+   "q": "Please stay calm, for the ___ of the children.",
+   "answer": [
+    "sake"
+   ],
+   "why": "*for the sake of* — заради."
+  },
+  {
+   "id": "complex-prepositions-15",
+   "type": "fill",
+   "q": "In addition to ___ (work) full-time, she studies at night.",
+   "answer": [
+    "working"
+   ],
+   "why": "Після складеного прийменника — *-ing*: *working*."
+  },
+  {
+   "id": "complex-prepositions-16",
+   "type": "fill",
+   "q": "I like natural fabrics, as ___ to synthetic ones.",
+   "answer": [
+    "opposed"
+   ],
+   "why": "*as opposed to* — на відміну від."
+  },
+  {
+   "id": "complex-prepositions-17",
+   "type": "order",
+   "words": [
+    "Owing",
+    "to",
+    "the",
+    "strike",
+    "the",
+    "trains",
+    "were",
+    "cancelled"
+   ],
+   "answer": [
+    "Owing to the strike the trains were cancelled",
+    "Owing to the strike, the trains were cancelled"
+   ],
+   "why": "*Owing to* + іменник."
+  },
+  {
+   "id": "complex-prepositions-18",
+   "type": "order",
+   "words": [
+    "She",
+    "is",
+    "speaking",
+    "on",
+    "behalf",
+    "of",
+    "the",
+    "whole",
+    "team"
+   ],
+   "answer": [
+    "She is speaking on behalf of the whole team"
+   ],
+   "why": "*on behalf of* — від імені."
+  }
+ ]
+}

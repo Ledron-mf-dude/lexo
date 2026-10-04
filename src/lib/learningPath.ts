@@ -13,8 +13,8 @@ import placementIds from '../content/placement.json'
  * The result is kept per browser (no database table needed).
  */
 
-// The test ends at C1, the highest level of the knowledge base: passing it means «C1 and higher».
-export const PLACEMENT_LEVELS: Level[] = ['A1', 'A2', 'B1', 'B1+', 'B2', 'C1']
+// The test ends at C2, the highest level of the knowledge base.
+export const PLACEMENT_LEVELS: Level[] = ['A1', 'A2', 'B1', 'B1+', 'B2', 'C1', 'C2']
 export const BLOCK_SIZE = 6
 /** Correct answers out of BLOCK_SIZE needed to pass a level. */
 export const PASS_MARK = 5
@@ -63,7 +63,7 @@ export function resetPlacement() {
   }
 }
 
-/** The level to study after the test: the first one not passed (C1 once everything is passed). */
+/** The level to study after the test: the first one not passed (C2 once everything is passed). */
 export function studyLevelAfter(passed: Level | null): Level {
   if (passed === null) return PLACEMENT_LEVELS[0]
   const i = PLACEMENT_LEVELS.indexOf(passed)
@@ -151,7 +151,7 @@ export interface Route {
   total: number
 }
 
-const levelRank = (l: Level) => LEVELS.indexOf(l)
+const levelRank = (l: Level | undefined) => (l ? LEVELS.indexOf(l) : Infinity)
 
 /**
  * The path for a placement result. The study level moves up by itself once 80% of its topics are learned,

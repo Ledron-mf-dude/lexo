@@ -1,0 +1,238 @@
+{
+ "questions": [
+  {
+   "id": "conditionals-c2-1",
+   "type": "choice",
+   "q": "If the factory ___ to close, the whole town would suffer.",
+   "options": [
+    "were",
+    "will",
+    "would",
+    "is"
+   ],
+   "answer": 0,
+   "why": "Уявне малоймовірне майбутнє — *if … were to*. *will to* і *would to* — неграматично; *is to close* — офіційний план, а головне речення з *would*."
+  },
+  {
+   "id": "conditionals-c2-2",
+   "type": "choice",
+   "q": "___ you need any further information, please contact our office.",
+   "options": [
+    "Should",
+    "Would",
+    "Shall",
+    "If should"
+   ],
+   "answer": 0,
+   "why": "Інверсія «якщо раптом» — *Should you need*. *Would you need* і *Shall you need* — питання; *If should you* — подвоєння."
+  },
+  {
+   "id": "conditionals-c2-3",
+   "type": "choice",
+   "q": "___ your advice, I would have made a terrible mistake.",
+   "options": [
+    "But for",
+    "Except",
+    "Unless",
+    "If not"
+   ],
+   "answer": 0,
+   "why": "«Якби не» + іменник — *But for your advice*. *Except* — «крім»; *Unless* і *If not* — потребують речення."
+  },
+  {
+   "id": "conditionals-c2-4",
+   "type": "choice",
+   "q": "He isn't rude. If ___, he's a bit too polite.",
+   "options": [
+    "anything",
+    "something",
+    "nothing",
+    "everything"
+   ],
+   "answer": 0,
+   "why": "«Скоріше навпаки» — *If anything*. *If something*, *If nothing*, *If everything* так не вживають."
+  },
+  {
+   "id": "conditionals-c2-5",
+   "type": "choice",
+   "q": "There are few, if ___, tickets left for the concert.",
+   "options": [
+    "any",
+    "some",
+    "none",
+    "all"
+   ],
+   "answer": 0,
+   "why": "«Якщо взагалі» — *few, if any*. *if some*, *if none*, *if all* — неправильні звороти."
+  },
+  {
+   "id": "conditionals-c2-6",
+   "type": "choice",
+   "q": "___ it snows, the race will still take place.",
+   "options": [
+    "Even if",
+    "Even though",
+    "Even",
+    "Although if"
+   ],
+   "answer": 0,
+   "why": "Умова, яка може не справдитися, — *Even if*. *Even though* — про факт; *Even* без сполучника — неповне; *Although if* — неграматично."
+  },
+  {
+   "id": "conditionals-c2-7",
+   "type": "choice",
+   "q": "If she said that, she ___ wrong.",
+   "options": [
+    "was",
+    "would be",
+    "would have been",
+    "had been"
+   ],
+   "answer": 0,
+   "why": "Реальна умова про минуле (не знаємо, чи казала) — звичайні часи: *she was wrong*. *would be* і *would have been* — нереальні; *had been* — передминулий без потреби."
+  },
+  {
+   "id": "conditionals-c2-8",
+   "type": "choice",
+   "q": "Lend me £20 ___ I'll pay you back tomorrow.",
+   "options": [
+    "and",
+    "or",
+    "otherwise",
+    "unless"
+   ],
+   "answer": 0,
+   "why": "Наказ + *and* — обіцянка результату. *or* і *otherwise* — погроза; *unless* — «якщо не», безглуздо тут."
+  },
+  {
+   "id": "conditionals-c2-9",
+   "type": "choice",
+   "q": "Put your coat on, ___ you'll catch a cold.",
+   "options": [
+    "or",
+    "and",
+    "if",
+    "unless"
+   ],
+   "answer": 0,
+   "why": "Наказ + *or* — «інакше». *and* — «і тоді» (застуда як результат одягання — безглуздо); *if* і *unless* — неграматично в цій моделі."
+  },
+  {
+   "id": "conditionals-c2-10",
+   "type": "choice",
+   "q": "___ you won the lottery, what would you do first?",
+   "options": [
+    "Supposing",
+    "Supposed",
+    "Suppose to",
+    "To suppose"
+   ],
+   "answer": 0,
+   "why": "«Припустімо, що» — *Supposing* (або *Suppose*). *Supposed* і *Suppose to* — неправильні форми; *To suppose* — неграматично."
+  },
+  {
+   "id": "conditionals-c2-11",
+   "type": "choice",
+   "q": "Are you coming to the party? If ___, can you bring some drinks?",
+   "options": [
+    "so",
+    "such",
+    "it",
+    "that"
+   ],
+   "answer": 0,
+   "why": "«Якщо так» — *If so*. *If such*, *If it*, *If that* — неграматично."
+  },
+  {
+   "id": "conditionals-c2-12",
+   "type": "choice",
+   "q": "___ the company to go bankrupt, thousands would lose their savings.",
+   "options": [
+    "Were",
+    "Was",
+    "Should",
+    "Had"
+   ],
+   "answer": 0,
+   "why": "Інверсія з *were to* — *Were the company to go…* *Was* — у такій інверсії не вживають; *Should … to* — зайве *to*; *Had … to go* — інший зміст."
+  },
+  {
+   "id": "conditionals-c2-13",
+   "type": "fill",
+   "q": "Without your help, we ___ (not / finish) on time yesterday.",
+   "answer": [
+    "wouldn't have finished",
+    "would not have finished",
+    "couldn't have finished",
+    "could not have finished"
+   ],
+   "why": "*Without* + іменник = *if it hadn't been for*: *wouldn't have finished*."
+  },
+  {
+   "id": "conditionals-c2-14",
+   "type": "fill",
+   "q": "If you were at the meeting, you ___ already know about the changes.",
+   "answer": [
+    "will",
+    "must"
+   ],
+   "why": "Реальна умова про минуле + висновок про теперішнє: *you will already know* (також *must*)."
+  },
+  {
+   "id": "conditionals-c2-15",
+   "type": "fill",
+   "q": "He rarely, if ___, cooks at home.",
+   "answer": [
+    "ever"
+   ],
+   "why": "*rarely, if ever* — майже ніколи."
+  },
+  {
+   "id": "conditionals-c2-16",
+   "type": "fill",
+   "q": "Hurry up, ___ we'll miss the beginning of the film.",
+   "answer": [
+    "otherwise",
+    "or",
+    "or else"
+   ],
+   "why": "«Інакше» — *otherwise / or (else)*."
+  },
+  {
+   "id": "conditionals-c2-17",
+   "type": "order",
+   "words": [
+    "But",
+    "for",
+    "the",
+    "rain",
+    "we",
+    "would",
+    "have",
+    "won"
+   ],
+   "answer": [
+    "But for the rain we would have won",
+    "But for the rain, we would have won"
+   ],
+   "why": "*But for* + іменник — «якби не»."
+  },
+  {
+   "id": "conditionals-c2-18",
+   "type": "order",
+   "words": [
+    "If",
+    "anything",
+    "he",
+    "works",
+    "too",
+    "hard"
+   ],
+   "answer": [
+    "If anything he works too hard",
+    "If anything, he works too hard"
+   ],
+   "why": "*If anything* — скоріше навпаки."
+  }
+ ]
+}

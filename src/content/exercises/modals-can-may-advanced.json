@@ -236,6 +236,86 @@
    ],
    "why": "Після *have* — *been able to*.",
    "hint": "Я ніколи не вмів плавати."
+  },
+  {
+   "id": "modals-can-may-advanced-19",
+   "type": "choice",
+   "q": "It's after midnight! Who ___ that be at the door?",
+   "options": [
+    "can",
+    "may to",
+    "is able",
+    "must to"
+   ],
+   "answer": 0,
+   "why": "Здивоване питання — *Who can that be?* *may to* і *must to* — зайве *to*; *is able be* — неграматично."
+  },
+  {
+   "id": "modals-can-may-advanced-20",
+   "type": "choice",
+   "q": "Don't ring his mobile — he ___ be in a meeting right now.",
+   "options": [
+    "may",
+    "can",
+    "is able to",
+    "cans"
+   ],
+   "answer": 0,
+   "why": "Можливість у конкретній ситуації зараз — *may* (також *might, could*). *can* у ствердженні так не вживають; *is able to* — уміння; *cans* — неграматично."
+  },
+  {
+   "id": "modals-can-may-advanced-21",
+   "type": "choice",
+   "q": "How ___ you say such a thing to your mother?",
+   "options": [
+    "could",
+    "may",
+    "might to",
+    "are able"
+   ],
+   "answer": 0,
+   "why": "Обурене питання — *How could you…?* *How may you* — неприродно; *might to* — зайве *to*; *are able say* — неграматично."
+  },
+  {
+   "id": "modals-can-may-advanced-22",
+   "type": "choice",
+   "q": "Where ___ my keys have gone? I put them here a minute ago.",
+   "options": [
+    "can",
+    "must to",
+    "should to",
+    "will to"
+   ],
+   "answer": 0,
+   "why": "Здивоване питання про минуле — *Where can (could) my keys have gone?* *must to*, *should to*, *will to* — зайве *to*."
+  },
+  {
+   "id": "modals-can-may-advanced-23",
+   "type": "choice",
+   "q": "He ___ really be serious — he must be joking.",
+   "options": [
+    "can't",
+    "mustn't",
+    "may not to",
+    "couldn't to"
+   ],
+   "answer": 0,
+   "why": "Логічне «не може бути» — *can't be*. *mustn't* — заборона; *may not to* і *couldn't to* — зайве *to*."
+  },
+  {
+   "id": "modals-can-may-advanced-24",
+   "type": "order",
+   "words": [
+    "Can",
+    "it",
+    "really",
+    "be",
+    "true"
+   ],
+   "answer": [
+    "Can it really be true"
+   ],
+   "why": "Здивоване питання — *Can it really be true?*"
   }
  ]
 }

@@ -1,0 +1,161 @@
+{
+ "questions": [
+  {
+   "id": "on-the-other-hand-on-the-contrary-1",
+   "type": "choice",
+   "q": "Living in the city is exciting. ___, it can be very noisy.",
+   "options": [
+    "On the other hand",
+    "On the contrary",
+    "Contrary",
+    "On other hand"
+   ],
+   "answer": 0,
+   "why": "Обидва твердження правдиві, зважуємо — *On the other hand*. *On the contrary* заперечило б, що жити в місті цікаво; *Contrary* і *On other hand* — неповні вирази."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-2",
+   "type": "choice",
+   "q": "\"Was the exam difficult?\" — \"___, it was surprisingly easy.\"",
+   "options": [
+    "On the contrary",
+    "On the other hand",
+    "In other hand",
+    "Contrary to"
+   ],
+   "answer": 0,
+   "why": "Припущення хибне, правда протилежна — *On the contrary*. *On the other hand* — друга сторона, а тут заперечення; *In other hand* — неграматично; *Contrary to* потребує іменника."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-3",
+   "type": "choice",
+   "q": "I'm not tired. ___, I feel full of energy.",
+   "options": [
+    "On the contrary",
+    "On the other hand",
+    "By the way",
+    "Otherwise"
+   ],
+   "answer": 0,
+   "why": "Після заперечення, протилежне — *On the contrary*. *On the other hand* — обидва факти правдиві; *By the way* — «до речі»; *Otherwise* — «інакше»."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-4",
+   "type": "choice",
+   "q": "The car is fast and comfortable. ___, it uses a lot of fuel.",
+   "options": [
+    "On the other hand",
+    "On the contrary",
+    "Contrary to this of",
+    "In the contrary"
+   ],
+   "answer": 0,
+   "why": "Плюси й мінус, усе правда — *On the other hand*. *On the contrary* — для заперечення; інші варіанти неграматичні."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-5",
+   "type": "choice",
+   "q": "My brother loves sport. ___, I prefer reading.",
+   "options": [
+    "In contrast",
+    "On the contrary",
+    "On contrary",
+    "Contrary"
+   ],
+   "answer": 0,
+   "why": "Порівнюємо двох різних людей — *In contrast*. *On the contrary* — заперечення попереднього, а брат справді любить спорт; *On contrary* і *Contrary* — неповні."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-6",
+   "type": "choice",
+   "q": "On the one hand, I want to study abroad. ___, I'll miss my family.",
+   "options": [
+    "On the other hand",
+    "On the contrary",
+    "On another hand",
+    "In other hand"
+   ],
+   "answer": 0,
+   "why": "Пара *On the one hand… On the other hand*. *On the contrary* — заперечення; *On another hand* і *In other hand* — неграматично."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-7",
+   "type": "choice",
+   "q": "\"I suppose you hate cooking.\" — \"Not at all. ___, I love it.\"",
+   "options": [
+    "On the contrary",
+    "On the other hand",
+    "In contrast to",
+    "Besides of"
+   ],
+   "answer": 0,
+   "why": "Хибне припущення, протилежне — *On the contrary*. *On the other hand* — обидва правдиві; *In contrast to* потребує іменника; *Besides of* — неграматично."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-8",
+   "type": "choice",
+   "q": "The hotel was a bit old. ___, the staff were really friendly.",
+   "options": [
+    "On the other hand",
+    "On the contrary",
+    "On the contrary of",
+    "Contrarily to"
+   ],
+   "answer": 0,
+   "why": "Мінус і плюс, обидва правдиві — *On the other hand*. *On the contrary* — для заперечення; інші варіанти неграматичні."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-9",
+   "type": "fill",
+   "q": "It isn't a cheap restaurant. On the ___, it's one of the most expensive in town.",
+   "answer": [
+    "contrary"
+   ],
+   "why": "Після заперечення, протилежне — *On the contrary*."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-10",
+   "type": "fill",
+   "q": "The job pays well. On the ___ hand, the hours are long.",
+   "answer": [
+    "other"
+   ],
+   "why": "Друга сторона — *On the other hand*."
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-11",
+   "type": "fill",
+   "q": "Northern Europe is cold in winter. In ___, the south is mild.",
+   "answer": [
+    "contrast"
+   ],
+   "why": "Порівнюємо два різні регіони — *In contrast*.",
+   "hint": "(на відміну від цього)"
+  },
+  {
+   "id": "on-the-other-hand-on-the-contrary-12",
+   "type": "order",
+   "words": [
+    "On",
+    "the",
+    "one",
+    "hand",
+    "it's",
+    "cheap",
+    "but",
+    "on",
+    "the",
+    "other",
+    "hand",
+    "it's",
+    "far",
+    "away"
+   ],
+   "answer": [
+    "On the one hand it's cheap but on the other hand it's far away",
+    "On the one hand, it's cheap, but on the other hand, it's far away"
+   ],
+   "why": "Пара *On the one hand … on the other hand*."
+  }
+ ]
+}

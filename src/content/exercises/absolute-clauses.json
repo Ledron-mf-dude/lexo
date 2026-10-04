@@ -1,0 +1,232 @@
+{
+ "questions": [
+  {
+   "id": "absolute-clauses-1",
+   "type": "choice",
+   "q": "___, we went to the pub to celebrate.",
+   "options": [
+    "The exams over",
+    "The exams were over",
+    "Being the exams over",
+    "Over the exams being"
+   ],
+   "answer": 0,
+   "why": "Незалежний зворот із власним підметом — *The exams over*. *The exams were over* — окреме речення без сполучника; *Being the exams over* і *Over the exams being* — неправильний порядок."
+  },
+  {
+   "id": "absolute-clauses-2",
+   "type": "choice",
+   "q": "___ prices rising so fast, many people can't afford to eat out.",
+   "options": [
+    "With",
+    "By",
+    "For",
+    "As"
+   ],
+   "answer": 0,
+   "why": "*With* + іменник + дієприкметник — *With prices rising*. *By*, *For*, *As* так не вводять незалежний зворот."
+  },
+  {
+   "id": "absolute-clauses-3",
+   "type": "choice",
+   "q": "We'll have a barbecue on Saturday, weather ___.",
+   "options": [
+    "permitting",
+    "permits",
+    "permitted",
+    "to permit"
+   ],
+   "answer": 0,
+   "why": "Сталий зворот — *weather permitting*. *permits* — особова форма без сполучника; *permitted* і *to permit* — неправильні форми."
+  },
+  {
+   "id": "absolute-clauses-4",
+   "type": "choice",
+   "q": "___ no other way to get there, we took a taxi.",
+   "options": [
+    "There being",
+    "There was",
+    "Being there",
+    "It being there"
+   ],
+   "answer": 0,
+   "why": "«Оскільки не було» — *There being no…* *There was* — окреме речення без сполучника; *Being there* — «перебуваючи там»; *It being there* — неграматично."
+  },
+  {
+   "id": "absolute-clauses-5",
+   "type": "choice",
+   "q": "All things ___, the holiday was a great success.",
+   "options": [
+    "considered",
+    "considering",
+    "consider",
+    "are considered"
+   ],
+   "answer": 0,
+   "why": "Сталий зворот — *All things considered*. *considering* — інша конструкція; *consider* і *are considered* — неправильні форми."
+  },
+  {
+   "id": "absolute-clauses-6",
+   "type": "choice",
+   "q": "She stood in the doorway, her eyes ___ with tears.",
+   "options": [
+    "filled",
+    "filling with",
+    "fill",
+    "were filled"
+   ],
+   "answer": 0,
+   "why": "Незалежний зворот у кінці — *her eyes filled with tears* (пасивне значення). *filling with with* — подвоєння; *fill* — особова форма; *were filled* — окреме речення без сполучника."
+  },
+  {
+   "id": "absolute-clauses-7",
+   "type": "choice",
+   "q": "Which sentence is correct?",
+   "options": [
+    "As I opened the door, the dog ran out.",
+    "Opening the door, the dog ran out.",
+    "Opened the door, the dog ran out.",
+    "The door opening, ran the dog out."
+   ],
+   "answer": 0,
+   "why": "Підмети різні (я і собака), тому потрібне підрядне: *As I opened the door…* *Opening the door, the dog…* — «висячий» зворот: ніби собака відчинив двері; інші варіанти неграматичні."
+  },
+  {
+   "id": "absolute-clauses-8",
+   "type": "choice",
+   "q": "___ Sunday, most of the shops were closed.",
+   "options": [
+    "It being",
+    "Being it",
+    "It was being",
+    "There being"
+   ],
+   "answer": 0,
+   "why": "«Оскільки була неділя» — *It being Sunday*. *Being it* — неправильний порядок; *It was being* — неграматично; *There being Sunday* — неправильний підмет."
+  },
+  {
+   "id": "absolute-clauses-9",
+   "type": "choice",
+   "q": "___ speaking, the plan is good, but the budget is too small.",
+   "options": [
+    "Generally",
+    "General",
+    "Generalising",
+    "In general of"
+   ],
+   "answer": 0,
+   "why": "Сталий зворот — *Generally speaking*. *General speaking* — потрібен прислівник; *Generalising speaking* і *In general of* — неграматично."
+  },
+  {
+   "id": "absolute-clauses-10",
+   "type": "choice",
+   "q": "___ by his accent, he's from Scotland.",
+   "options": [
+    "Judging",
+    "Judged",
+    "To judge of",
+    "Judge"
+   ],
+   "answer": 0,
+   "why": "Сталий зворот — *Judging by*. *Judged by* — пасив; *To judge of* — неграматично; *Judge* — наказ."
+  },
+  {
+   "id": "absolute-clauses-11",
+   "type": "choice",
+   "q": "The work ___, they went home.",
+   "options": [
+    "done",
+    "doing",
+    "to do",
+    "was done"
+   ],
+   "answer": 0,
+   "why": "Незалежний зворот із пасивним значенням — *The work done*. *doing* — активне, робота сама робила; *to do* — мета; *was done* — окреме речення без сполучника."
+  },
+  {
+   "id": "absolute-clauses-12",
+   "type": "choice",
+   "q": "He walked away, his hands ___ in his pockets.",
+   "options": [
+    "deep",
+    "deeply",
+    "depth",
+    "deepen"
+   ],
+   "answer": 0,
+   "why": "Незалежний зворот може мати прикметник чи прийменникову фразу: *his hands deep in his pockets*. *deeply* — прислівник; *depth* — іменник; *deepen* — дієслово."
+  },
+  {
+   "id": "absolute-clauses-13",
+   "type": "fill",
+   "q": "With the deadline ___ (approach), everyone was working late.",
+   "answer": [
+    "approaching"
+   ],
+   "why": "*With* + іменник + *-ing*: *approaching*."
+  },
+  {
+   "id": "absolute-clauses-14",
+   "type": "fill",
+   "q": "That ___, I still think we should try.",
+   "answer": [
+    "said"
+   ],
+   "why": "*That said* — утім."
+  },
+  {
+   "id": "absolute-clauses-15",
+   "type": "fill",
+   "q": "Time ___, we'll visit the museum as well.",
+   "answer": [
+    "permitting"
+   ],
+   "why": "*Time permitting* — якщо буде час."
+  },
+  {
+   "id": "absolute-clauses-16",
+   "type": "fill",
+   "q": "Other things being ___, the cheaper option is better.",
+   "answer": [
+    "equal"
+   ],
+   "why": "*Other things being equal* — за інших рівних умов."
+  },
+  {
+   "id": "absolute-clauses-17",
+   "type": "order",
+   "words": [
+    "The",
+    "meeting",
+    "over",
+    "everyone",
+    "went",
+    "home"
+   ],
+   "answer": [
+    "The meeting over everyone went home",
+    "The meeting over, everyone went home"
+   ],
+   "why": "Незалежний зворот з власним підметом — *The meeting over*."
+  },
+  {
+   "id": "absolute-clauses-18",
+   "type": "order",
+   "words": [
+    "With",
+    "the",
+    "exams",
+    "finished",
+    "we",
+    "can",
+    "finally",
+    "relax"
+   ],
+   "answer": [
+    "With the exams finished we can finally relax",
+    "With the exams finished, we can finally relax"
+   ],
+   "why": "*With* + іменник + дієприкметник."
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "remember-forget-to-ing-1",
+   "type": "choice",
+   "q": "Did you remember ___ the plants while I was away?",
+   "options": [
+    "to water",
+    "watering",
+    "water",
+    "watered"
+   ],
+   "answer": 0,
+   "why": "Не забути зробити справу — *remember to water*. *remember watering* — «пам'ятати, як поливав» — тут питають, чи зробив; *water* і *watered* — після *remember* неграматично."
+  },
+  {
+   "id": "remember-forget-to-ing-2",
+   "type": "choice",
+   "q": "I clearly remember ___ the door, so who opened it?",
+   "options": [
+    "locking",
+    "to lock",
+    "lock",
+    "locked"
+   ],
+   "answer": 0,
+   "why": "Спогад про те, що вже зробив, — *remember locking*. *to lock* — «не забути замкнути» (справа попереду); *lock* і *locked* — неграматично після *remember*."
+  },
+  {
+   "id": "remember-forget-to-ing-3",
+   "type": "choice",
+   "q": "Oh no! I forgot ___ my passport!",
+   "options": [
+    "to bring",
+    "bringing",
+    "bring",
+    "brought"
+   ],
+   "answer": 0,
+   "why": "Не зробив справу — *forgot to bring*. *forgot bringing* — «забув спогад про те, що брав»; *bring* і *brought* — неграматично після *forgot*."
+  },
+  {
+   "id": "remember-forget-to-ing-4",
+   "type": "choice",
+   "q": "I'll never forget ___ the Eiffel Tower for the first time.",
+   "options": [
+    "seeing",
+    "to see",
+    "see",
+    "saw"
+   ],
+   "answer": 0,
+   "why": "Незабутній спогад — *never forget seeing*. *never forget to see* — «завжди не забуватиму подивитися»; *see* і *saw* — неграматично."
+  },
+  {
+   "id": "remember-forget-to-ing-5",
+   "type": "choice",
+   "q": "Please remember ___ the lights off when you leave.",
+   "options": [
+    "to turn",
+    "turning",
+    "turn",
+    "turned"
+   ],
+   "answer": 0,
+   "why": "Прохання на майбутнє — *remember to turn*. *remember turning* — спогад про минуле; *turn* і *turned* — неграматично після *remember*."
+  },
+  {
+   "id": "remember-forget-to-ing-6",
+   "type": "choice",
+   "q": "I don't remember ___ you my password. How did you know it?",
+   "options": [
+    "telling",
+    "to tell",
+    "tell",
+    "told"
+   ],
+   "answer": 0,
+   "why": "Чи було це в минулому — *remember telling*. *remember to tell* — «не забути сказати»; *tell* і *told* — неграматично після *remember*."
+  },
+  {
+   "id": "remember-forget-to-ing-7",
+   "type": "choice",
+   "q": "Don't forget ___ me when you arrive.",
+   "options": [
+    "to text",
+    "texting",
+    "text",
+    "texted"
+   ],
+   "answer": 0,
+   "why": "Не забути зробити в майбутньому — *forget to text*. *forget texting* — про спогад; *text* і *texted* — неграматично після *forget*."
+  },
+  {
+   "id": "remember-forget-to-ing-8",
+   "type": "choice",
+   "q": "He remembers ___ in that house as a child.",
+   "options": [
+    "living",
+    "to live",
+    "live",
+    "lived"
+   ],
+   "answer": 0,
+   "why": "Спогад про дитинство — *remembers living*. *to live* — справа попереду; *live* і *lived* — неграматично після *remembers*."
+  },
+  {
+   "id": "remember-forget-to-ing-9",
+   "type": "fill",
+   "q": "I forgot ___ (buy) milk, so we'll have black coffee.",
+   "answer": [
+    "to buy"
+   ],
+   "why": "Не зробив справу — *forgot to buy*."
+  },
+  {
+   "id": "remember-forget-to-ing-10",
+   "type": "fill",
+   "q": "I remember ___ (meet) her at a conference in 2019.",
+   "answer": [
+    "meeting"
+   ],
+   "why": "Спогад про минуле — *remember meeting*."
+  },
+  {
+   "id": "remember-forget-to-ing-11",
+   "type": "fill",
+   "q": "Remember ___ (take) your keys with you.",
+   "answer": [
+    "to take"
+   ],
+   "why": "Справа попереду — *remember to take*."
+  },
+  {
+   "id": "remember-forget-to-ing-12",
+   "type": "order",
+   "words": [
+    "I",
+    "remember",
+    "going",
+    "to",
+    "the",
+    "zoo",
+    "with",
+    "my",
+    "grandfather"
+   ],
+   "answer": [
+    "I remember going to the zoo with my grandfather"
+   ],
+   "why": "Спогад — *remember going*."
+  }
+ ]
+}

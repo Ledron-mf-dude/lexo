@@ -1,0 +1,231 @@
+{
+ "questions": [
+  {
+   "id": "noun-phrases-complex-1",
+   "type": "choice",
+   "q": "The hotel is only a ___ walk from the beach.",
+   "options": [
+    "five-minute",
+    "five-minutes",
+    "five minute's of",
+    "five-minuted"
+   ],
+   "answer": 0,
+   "why": "Число + іменник перед іменником — через дефіс і в однині: *a five-minute walk*. *five-minutes* — множина; *five minute's of* — неграматично; *five-minuted* — такої форми немає."
+  },
+  {
+   "id": "noun-phrases-complex-2",
+   "type": "choice",
+   "q": "She has a ___ son.",
+   "options": [
+    "six-year-old",
+    "six-years-old",
+    "six years old",
+    "six-year-olds"
+   ],
+   "answer": 0,
+   "why": "Перед іменником — *a six-year-old son*. *six-years-old* — множина в складному прикметнику; *six years old* — тільки після дієслова (*He is six years old*); *six-year-olds* — іменник у множині."
+  },
+  {
+   "id": "noun-phrases-complex-3",
+   "type": "choice",
+   "q": "I need to buy new boots. Is there a ___ near here?",
+   "options": [
+    "shoe shop",
+    "shoes shop",
+    "shop of shoes",
+    "shoe's shop"
+   ],
+   "answer": 0,
+   "why": "Іменник-означення — в однині: *a shoe shop*. *shoes shop* — множина; *shop of shoes* — неприродно; *shoe's shop* — присвійна форма тут неправильна."
+  },
+  {
+   "id": "noun-phrases-complex-4",
+   "type": "choice",
+   "q": "The people ___ for the bus are getting cold.",
+   "options": [
+    "waiting",
+    "waited",
+    "are waiting",
+    "who waiting"
+   ],
+   "answer": 0,
+   "why": "Активна дія після іменника — *waiting*. *waited* — пасивне значення; *are waiting* без *who* — другий присудок; *who waiting* — бракує *are*."
+  },
+  {
+   "id": "noun-phrases-complex-5",
+   "type": "choice",
+   "q": "The report ___ yesterday contains some shocking figures.",
+   "options": [
+    "published",
+    "publishing",
+    "was published",
+    "which publishing"
+   ],
+   "answer": 0,
+   "why": "Пасивне значення — *published* (= *which was published*). *publishing* — активне: звіт сам публікує; *was published* без *which* — другий присудок; *which publishing* — неграматично."
+  },
+  {
+   "id": "noun-phrases-complex-6",
+   "type": "choice",
+   "q": "She was the first woman ___ the prize.",
+   "options": [
+    "to win",
+    "winning",
+    "won",
+    "who winning"
+   ],
+   "answer": 0,
+   "why": "Після *the first* — *to*-інфінітив: *the first woman to win*. *winning* — неприродно після *the first*; *won* — пасивне; *who winning* — бракує особової форми."
+  },
+  {
+   "id": "noun-phrases-complex-7",
+   "type": "choice",
+   "q": "We're looking for a ___ car with low running costs.",
+   "options": [
+    "sports",
+    "sport",
+    "sport's",
+    "sporty's"
+   ],
+   "answer": 0,
+   "why": "Сталий виняток — *a sports car* (множина в означенні). *sport car* — неприродно; *sport's* і *sporty's* — неправильні присвійні форми."
+  },
+  {
+   "id": "noun-phrases-complex-8",
+   "type": "choice",
+   "q": "I always forget ___.",
+   "options": [
+    "the name of the man who lives next door",
+    "the man who lives next door's name",
+    "the name the man who lives next door",
+    "the man's name who lives next door of"
+   ],
+   "answer": 0,
+   "why": "Довга група — через *of*: *the name of the man who lives next door*. Присвійне *'s* після довгого підрядного — розмовне й незграбне; інші варіанти неграматичні."
+  },
+  {
+   "id": "noun-phrases-complex-9",
+   "type": "choice",
+   "q": "They live in a ___ building near the river.",
+   "options": [
+    "ten-storey",
+    "ten-storeys",
+    "ten storeys'",
+    "tenth-storey"
+   ],
+   "answer": 0,
+   "why": "Число + іменник перед іменником — *a ten-storey building*. *ten-storeys* і *ten storeys'* — множина / присвійна форма; *tenth-storey* — «десятиповерховий» так не утворюють."
+  },
+  {
+   "id": "noun-phrases-complex-10",
+   "type": "choice",
+   "q": "I've read the ___ speech in the newspaper.",
+   "options": [
+    "president's",
+    "president of",
+    "of the president's",
+    "presidential's"
+   ],
+   "answer": 0,
+   "why": "Людина — присвійна *'s*: *the president's speech*. *president of speech* — неграматично; *of the president's speech* — неправильний порядок; *presidential's* — неграматично."
+  },
+  {
+   "id": "noun-phrases-complex-11",
+   "type": "choice",
+   "q": "Have you got anything ___? I'm starving.",
+   "options": [
+    "to eat",
+    "eating",
+    "for eating it",
+    "eaten"
+   ],
+   "answer": 0,
+   "why": "Інфінітив після *anything* — *anything to eat*. *eating*, *for eating it*, *eaten* — неправильні форми."
+  },
+  {
+   "id": "noun-phrases-complex-12",
+   "type": "choice",
+   "q": "The ___ of the film was very sad.",
+   "options": [
+    "end",
+    "film's end of",
+    "ending's",
+    "end's"
+   ],
+   "answer": 0,
+   "why": "Частина речі — *the end of the film*. Інші варіанти — неправильні присвійні форми чи порядок."
+  },
+  {
+   "id": "noun-phrases-complex-13",
+   "type": "fill",
+   "q": "We booked a ___ (two / week) holiday in Greece.",
+   "answer": [
+    "two-week"
+   ],
+   "why": "Число + іменник перед іменником — *a two-week holiday*."
+  },
+  {
+   "id": "noun-phrases-complex-14",
+   "type": "fill",
+   "q": "The woman ___ (sit) next to me on the train was a famous writer.",
+   "answer": [
+    "sitting"
+   ],
+   "why": "Активна дія після іменника — *sitting*."
+  },
+  {
+   "id": "noun-phrases-complex-15",
+   "type": "fill",
+   "q": "Our flat is on the top floor of a ___ (twelve / storey) block.",
+   "answer": [
+    "twelve-storey"
+   ],
+   "why": "*a twelve-storey block* — через дефіс, в однині."
+  },
+  {
+   "id": "noun-phrases-complex-16",
+   "type": "fill",
+   "q": "He works in a ___ (ticket) office at the station.",
+   "answer": [
+    "ticket"
+   ],
+   "why": "Іменник-означення в однині — *a ticket office*."
+  },
+  {
+   "id": "noun-phrases-complex-17",
+   "type": "order",
+   "words": [
+    "It",
+    "is",
+    "a",
+    "ten-minute",
+    "walk",
+    "to",
+    "the",
+    "station"
+   ],
+   "answer": [
+    "It is a ten-minute walk to the station"
+   ],
+   "why": "*a ten-minute walk* — складний прикметник в однині."
+  },
+  {
+   "id": "noun-phrases-complex-18",
+   "type": "order",
+   "words": [
+    "The",
+    "people",
+    "waiting",
+    "outside",
+    "are",
+    "getting",
+    "angry"
+   ],
+   "answer": [
+    "The people waiting outside are getting angry"
+   ],
+   "why": "Активна дія після іменника — *waiting*."
+  }
+ ]
+}

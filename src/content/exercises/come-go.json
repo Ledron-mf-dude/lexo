@@ -1,0 +1,156 @@
+{
+ "questions": [
+  {
+   "id": "come-go-1",
+   "type": "choice",
+   "q": "\"Lunch is ready!\" — \"I'm ___!\"",
+   "options": [
+    "coming",
+    "going",
+    "come",
+    "go"
+   ],
+   "answer": 0,
+   "why": "Відповідь тому, хто кличе: рух до нього — *I'm coming!* *I'm going* — «я йду геть»; *come* і *go* без *-ing* після *I'm* — неграматично."
+  },
+  {
+   "id": "come-go-2",
+   "type": "choice",
+   "q": "We're going to the beach. Do you want to ___ with us?",
+   "options": [
+    "come",
+    "go away",
+    "went",
+    "going"
+   ],
+   "answer": 0,
+   "why": "Приєднатися до мовців — *come with us*. *go away* — «піти геть»; *went* — минулий час; *going* — без *to* неграматично після *want to*."
+  },
+  {
+   "id": "come-go-3",
+   "type": "choice",
+   "q": "(at a friend's party) It's late and I'm tired. I think I'll ___ home now.",
+   "options": [
+    "go",
+    "come",
+    "came",
+    "went"
+   ],
+   "answer": 0,
+   "why": "Мовець на вечірці, вдома нікого з розмови немає, рух геть — *go home*. *come home* — коли мовець або співрозмовник удома; *came* і *went* — минулий час після *I'll*."
+  },
+  {
+   "id": "come-go-4",
+   "type": "choice",
+   "q": "(Mum at home on the phone) \"What time are you ___ home tonight?\"",
+   "options": [
+    "coming",
+    "going",
+    "come",
+    "went"
+   ],
+   "answer": 0,
+   "why": "Мама вдома, рух до неї — *coming home*. *going* — геть від мовця; *come* і *went* — не та форма після *are you*."
+  },
+  {
+   "id": "come-go-5",
+   "type": "choice",
+   "q": "Last year they ___ to Greece on holiday.",
+   "options": [
+    "went",
+    "came",
+    "come",
+    "gone"
+   ],
+   "answer": 0,
+   "why": "Подорож в інше місце (мовець не в Греції) — *went*. *came* — до мовця; *come* і *gone* — не минулий час."
+  },
+  {
+   "id": "come-go-6",
+   "type": "choice",
+   "q": "___ here and look at this photo!",
+   "options": [
+    "Come",
+    "Go",
+    "Went",
+    "Gone"
+   ],
+   "answer": 0,
+   "why": "Рух до мовця — *Come here*. *Go here* — неприродно; *Went* і *Gone* — не наказовий спосіб."
+  },
+  {
+   "id": "come-go-7",
+   "type": "choice",
+   "q": "Are you ___ to Sarah's wedding next month? I'm not invited.",
+   "options": [
+    "going",
+    "coming",
+    "come",
+    "go"
+   ],
+   "answer": 0,
+   "why": "Мовець там не буде, рух у третє місце — *going*. *coming* — туди, де буде мовець; *come* і *go* — не та форма після *Are you*."
+  },
+  {
+   "id": "come-go-8",
+   "type": "choice",
+   "q": "I hope all your dreams ___ true.",
+   "options": [
+    "come",
+    "go",
+    "become",
+    "get"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *dreams come true*. *go true*, *become true*, *get true* так не кажуть."
+  },
+  {
+   "id": "come-go-9",
+   "type": "fill",
+   "q": "The milk has ___ off. Don't drink it.",
+   "answer": [
+    "gone"
+   ],
+   "why": "Погіршення — *go off* (зіпсуватися): *has gone off*."
+  },
+  {
+   "id": "come-go-10",
+   "type": "fill",
+   "q": "Will you ___ to my birthday party on Friday?",
+   "answer": [
+    "come"
+   ],
+   "why": "Вечірка мовця, рух до нього — *come*."
+  },
+  {
+   "id": "come-go-11",
+   "type": "fill",
+   "q": "I'm tired, so I'm ___ to bed.",
+   "answer": [
+    "going"
+   ],
+   "why": "*go to bed* — йти спати; зі *I'm* — *going*."
+  },
+  {
+   "id": "come-go-12",
+   "type": "order",
+   "words": [
+    "Can",
+    "you",
+    "come",
+    "and",
+    "pick",
+    "me",
+    "up",
+    "from",
+    "the",
+    "station"
+   ],
+   "answer": [
+    "Can you come and pick me up from the station"
+   ],
+   "why": "Рух до мовця — *come and pick me up*.",
+   "hint": "Мовець на вокзалі."
+  }
+ ]
+}

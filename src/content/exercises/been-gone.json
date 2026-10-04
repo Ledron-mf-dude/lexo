@@ -1,0 +1,154 @@
+{
+ "questions": [
+  {
+   "id": "been-gone-1",
+   "type": "choice",
+   "q": "\"Where's Dad?\" — \"He's ___ to the supermarket. He'll be back soon.\"",
+   "options": [
+    "gone",
+    "been",
+    "went",
+    "going"
+   ],
+   "answer": 0,
+   "why": "Його зараз немає — *he's gone*. *been* — уже повернувся; *went* і *going* — не третя форма після *has*."
+  },
+  {
+   "id": "been-gone-2",
+   "type": "choice",
+   "q": "I've ___ to Rome twice. It's a beautiful city.",
+   "options": [
+    "been",
+    "gone",
+    "went",
+    "go"
+   ],
+   "answer": 0,
+   "why": "Досвід, я повернувся — *I've been to*. *gone* — ще там (а я тут і розповідаю); *went* і *go* — не третя форма."
+  },
+  {
+   "id": "been-gone-3",
+   "type": "choice",
+   "q": "Have you ever ___ to Australia?",
+   "options": [
+    "been",
+    "gone",
+    "went",
+    "going"
+   ],
+   "answer": 0,
+   "why": "«Чи бував колись» — *Have you ever been to*. *gone* — поїхав і не повернувся; *went* і *going* — не третя форма."
+  },
+  {
+   "id": "been-gone-4",
+   "type": "choice",
+   "q": "\"Where have you ___? I've been waiting for an hour!\"",
+   "options": [
+    "been",
+    "gone",
+    "went",
+    "go"
+   ],
+   "answer": 0,
+   "why": "Людина вже тут, питаємо, де була, — *Where have you been?* *gone* — суперечить: вона тут; *went* і *go* — не третя форма."
+  },
+  {
+   "id": "been-gone-5",
+   "type": "choice",
+   "q": "The Browns aren't at home. They've ___ to the seaside for a week.",
+   "options": [
+    "gone",
+    "been",
+    "went",
+    "be"
+   ],
+   "answer": 0,
+   "why": "Їх немає, вони там — *have gone*. *been* — уже повернулися; *went* і *be* — не третя форма."
+  },
+  {
+   "id": "been-gone-6",
+   "type": "choice",
+   "q": "She's ___ in Berlin since 2020.",
+   "options": [
+    "been",
+    "gone",
+    "went",
+    "going"
+   ],
+   "answer": 0,
+   "why": "Перебуває там певний час і досі — *has been in … since*. *gone in* так не кажуть; *went* і *going* — не та форма."
+  },
+  {
+   "id": "been-gone-7",
+   "type": "choice",
+   "q": "Sorry I'm late — I've ___ to the doctor's.",
+   "options": [
+    "been",
+    "gone",
+    "went",
+    "go"
+   ],
+   "answer": 0,
+   "why": "Мовець тут, тобто повернувся, — *I've been to*. *I've gone* суперечить тому, що я тут; *went* і *go* — не третя форма."
+  },
+  {
+   "id": "been-gone-8",
+   "type": "choice",
+   "q": "Is Anna still here? — No, she's already ___ home.",
+   "options": [
+    "gone",
+    "been",
+    "went",
+    "go"
+   ],
+   "answer": 0,
+   "why": "Її немає, вона вдома — *she's gone home*. *been home* — «побувала вдома й повернулась»; *went* і *go* — не третя форма."
+  },
+  {
+   "id": "been-gone-9",
+   "type": "fill",
+   "q": "I've never ___ to a football match.",
+   "answer": [
+    "been"
+   ],
+   "why": "Досвід «ніколи не бував» — *never been to*."
+  },
+  {
+   "id": "been-gone-10",
+   "type": "fill",
+   "q": "Tom isn't at work today. He's ___ to a conference in Lisbon.",
+   "answer": [
+    "gone"
+   ],
+   "why": "Його немає, він на конференції — *has gone*."
+  },
+  {
+   "id": "been-gone-11",
+   "type": "fill",
+   "q": "How many times have you ___ to London?",
+   "answer": [
+    "been"
+   ],
+   "why": "Кількість відвідин, досвід — *have you been to*."
+  },
+  {
+   "id": "been-gone-12",
+   "type": "order",
+   "words": [
+    "My",
+    "parents",
+    "have",
+    "gone",
+    "to",
+    "Spain",
+    "for",
+    "two",
+    "weeks"
+   ],
+   "answer": [
+    "My parents have gone to Spain for two weeks"
+   ],
+   "why": "Батьки там і ще не повернулися — *have gone*."
+  }
+ ]
+}

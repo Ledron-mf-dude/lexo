@@ -1,0 +1,256 @@
+{
+ "questions": [
+  {
+   "id": "nominalisation-1",
+   "type": "choice",
+   "q": "There has been a sharp ___ in house prices this year.",
+   "options": [
+    "rise",
+    "rising up",
+    "rose",
+    "risen"
+   ],
+   "answer": 0,
+   "why": "Іменник після *a sharp* — *a sharp rise in*. *rising up* — не іменник у цьому звороті; *rose* і *risen* — форми дієслова."
+  },
+  {
+   "id": "nominalisation-2",
+   "type": "choice",
+   "q": "The ___ of the new manager was announced yesterday.",
+   "options": [
+    "appointment",
+    "appoint",
+    "appointing of",
+    "appointed"
+   ],
+   "answer": 0,
+   "why": "Після *The … of* — іменник *appointment*. *appoint* — дієслово; *appointing of* — зайве *of*; *appointed* — дієприкметник."
+  },
+  {
+   "id": "nominalisation-3",
+   "type": "choice",
+   "q": "The government's ___ to raise taxes was unpopular.",
+   "options": [
+    "decision",
+    "decide",
+    "deciding",
+    "decisive"
+   ],
+   "answer": 0,
+   "why": "Після присвійної форми — іменник: *decision to*. *decide* — дієслово; *deciding* — неприродно перед *to*; *decisive* — прикметник «рішучий»."
+  },
+  {
+   "id": "nominalisation-4",
+   "type": "choice",
+   "q": "There is a growing demand ___ cheaper housing.",
+   "options": [
+    "for",
+    "of",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "why": "*demand for* — попит на. *demand of* — «вимога (кого)»; *in* — для змін кількості; *on* — вплив."
+  },
+  {
+   "id": "nominalisation-5",
+   "type": "choice",
+   "q": "Scientists are carrying ___ research into the new virus.",
+   "options": [
+    "out",
+    "on",
+    "up",
+    "over"
+   ],
+   "answer": 0,
+   "why": "Стала пара *carry out research* — проводити дослідження. *carry on* — продовжувати; *carry up* і *carry over* — інший зміст."
+  },
+  {
+   "id": "nominalisation-6",
+   "type": "choice",
+   "q": "The ___ of the factory left 300 people without jobs.",
+   "options": [
+    "closure",
+    "close",
+    "closing of",
+    "closed"
+   ],
+   "answer": 0,
+   "why": "Іменник від *close* — *closure*. *close* — дієслово чи прикметник; *closing of* — зайве *of*; *closed* — дієприкметник."
+  },
+  {
+   "id": "nominalisation-7",
+   "type": "choice",
+   "q": "The flight was delayed because of the late ___ of the crew.",
+   "options": [
+    "arrival",
+    "arrive",
+    "arriving",
+    "arrived"
+   ],
+   "answer": 0,
+   "why": "Після *the late … of* — іменник *arrival*. *arrive* — дієслово; *arriving* — не з *the late … of* тут; *arrived* — форма дієслова."
+  },
+  {
+   "id": "nominalisation-8",
+   "type": "choice",
+   "q": "Prices fell dramatically. → There was a ___ fall in prices.",
+   "options": [
+    "dramatic",
+    "dramatically",
+    "drama",
+    "dramatised"
+   ],
+   "answer": 0,
+   "why": "Прислівник при дієслові стає прикметником при іменнику: *a dramatic fall*. *dramatically* — прислівник; *drama* — іменник; *dramatised* — «інсценізований»."
+  },
+  {
+   "id": "nominalisation-9",
+   "type": "choice",
+   "q": "Pollution has a serious impact ___ public health.",
+   "options": [
+    "on",
+    "in",
+    "for",
+    "of"
+   ],
+   "answer": 0,
+   "why": "*impact on* — вплив на. *in*, *for*, *of* з *impact* у цьому значенні не вживають."
+  },
+  {
+   "id": "nominalisation-10",
+   "type": "choice",
+   "q": "Nobody could find a solution ___ the problem.",
+   "options": [
+    "to",
+    "for",
+    "of",
+    "on"
+   ],
+   "answer": 0,
+   "why": "*solution to* — розв'язання (проблеми). *for* — трапляється в розмові, але стандартно *to*; *of* і *on* — неграматично."
+  },
+  {
+   "id": "nominalisation-11",
+   "type": "choice",
+   "q": "The ___ of the bridge took three years.",
+   "options": [
+    "construction",
+    "construct",
+    "constructing of",
+    "constructive"
+   ],
+   "answer": 0,
+   "why": "Іменник від *construct* — *construction*. *construct* — дієслово; *constructing of* — зайве *of*; *constructive* — «конструктивний»."
+  },
+  {
+   "id": "nominalisation-12",
+   "type": "choice",
+   "q": "The committee finally ___ an agreement after long talks.",
+   "options": [
+    "reached",
+    "made",
+    "did",
+    "got"
+   ],
+   "answer": 0,
+   "why": "Стала пара *reach an agreement*. *made an agreement* — «уклали угоду», але після довгих переговорів — *reached*; *did an agreement* і *got an agreement* — неприродно."
+  },
+  {
+   "id": "nominalisation-13",
+   "type": "fill",
+   "q": "We were surprised by his ___ to help us.",
+   "answer": [
+    "refusal"
+   ],
+   "why": "Іменник від *refuse* — *refusal*.",
+   "hint": "(refuse)"
+  },
+  {
+   "id": "nominalisation-14",
+   "type": "fill",
+   "q": "There has been a steady ___ in unemployment.",
+   "answer": [
+    "decline",
+    "fall",
+    "drop",
+    "decrease",
+    "reduction",
+    "rise",
+    "increase"
+   ],
+   "why": "Зміна кількості — іменник + *in*: *a steady decline in* (також *fall*, *drop*, *rise*, *increase*…)."
+  },
+  {
+   "id": "nominalisation-15",
+   "type": "fill",
+   "q": "The ___ of the company depends on new markets.",
+   "answer": [
+    "growth",
+    "development",
+    "success",
+    "expansion",
+    "survival",
+    "future"
+   ],
+   "why": "Іменник від *grow* — *growth*.",
+   "hint": "(grow)"
+  },
+  {
+   "id": "nominalisation-16",
+   "type": "fill",
+   "q": "The ___ of the plan is still unclear.",
+   "answer": [
+    "failure"
+   ],
+   "why": "Іменник від *fail* — *failure*.",
+   "hint": "(fail)"
+  },
+  {
+   "id": "nominalisation-17",
+   "type": "fill",
+   "q": "Everyone was impressed by the ___ of the new system.",
+   "answer": [
+    "performance"
+   ],
+   "why": "Іменник від *perform* — *performance*.",
+   "hint": "(perform)"
+  },
+  {
+   "id": "nominalisation-18",
+   "type": "order",
+   "words": [
+    "The",
+    "rapid",
+    "growth",
+    "of",
+    "the",
+    "city",
+    "caused",
+    "many",
+    "problems"
+   ],
+   "answer": [
+    "The rapid growth of the city caused many problems"
+   ],
+   "why": "Номіналізація: *The city grew rapidly* → *The rapid growth of the city*."
+  },
+  {
+   "id": "nominalisation-19",
+   "type": "order",
+   "words": [
+    "The",
+    "development",
+    "of",
+    "new",
+    "drugs",
+    "takes",
+    "years"
+   ],
+   "answer": [
+    "The development of new drugs takes years"
+   ],
+   "why": "*They develop new drugs* → *The development of new drugs*."
+  }
+ ]
+}

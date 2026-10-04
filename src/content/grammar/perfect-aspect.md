@@ -78,6 +78,20 @@ tags: [perfect aspect, present perfect, past perfect, future perfect, perfect in
 | *so far, up to now, ever, yet, already, just* | *by then, by the time, before, already* | *by then, by the time, by + дата* |
 | *since 2020, for years* | *since, for* | *for, by next year* |
 
+## Перфект у пасиві
+
+Перфектна ідея (дія до певного моменту) поєднується з пасивом через **been**:
+
+| Форма | Приклад |
+| --- | --- |
+| has / have been + V3 | *The bridge **has been repaired**.* |
+| had been + V3 | *The room **had been cleaned** before we arrived.* |
+| will have been + V3 | *The work **will have been finished** by May.* |
+| to have been + V3 | *He is said **to have been seen** in Rome.* |
+| having been + V3 | ***Having been warned**, we left early.* |
+
+Continuous-перфект у пасиві (*has been being repaired*) майже не вживають — кажуть *has been under repair* або *They have been repairing it*.
+
 ## Як вибрати
 
 1. Визначте момент, до якого відбулася дія: зараз → Present Perfect; момент у минулому → Past Perfect; момент у майбутньому → Future Perfect.
@@ -101,3 +115,4 @@ tags: [perfect aspect, present perfect, past perfect, future perfect, perfect in
 - ✗ *She seems to have leave already.* → ✓ *She seems to have **left** already.*
 - ✗ *When have you finished the report?* → ✓ *When **did** you **finish** the report?*
 - ✗ *By 2030 they will have build the bridge.* → ✓ *By 2030 they will have **built** the bridge.*
+- ✗ *The report has been wrote by the whole team.* → ✓ *The report has been **written** by the whole team.*

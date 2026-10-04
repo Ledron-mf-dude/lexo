@@ -1,0 +1,234 @@
+{
+ "questions": [
+  {
+   "id": "formal-connectors-1",
+   "type": "choice",
+   "q": "___ the opposition of local residents, the new road was built.",
+   "options": [
+    "Notwithstanding",
+    "Notwithstanding of",
+    "Nevertheless",
+    "Even so"
+   ],
+   "answer": 0,
+   "why": "«Попри» + іменник — *Notwithstanding* (без *of*). *Notwithstanding of* — помилка; *Nevertheless* і *Even so* — між реченнями, не перед іменником."
+  },
+  {
+   "id": "formal-connectors-2",
+   "type": "choice",
+   "q": "The company cut its prices, ___ attracting thousands of new customers.",
+   "options": [
+    "thereby",
+    "whereby",
+    "whereupon",
+    "hereby"
+   ],
+   "answer": 0,
+   "why": "«Тим самим» + *-ing* — *thereby attracting*. *whereby* — «за яким»; *whereupon* — «після чого» + речення; *hereby* — «цим (документом)»."
+  },
+  {
+   "id": "formal-connectors-3",
+   "type": "choice",
+   "q": "The risks are considerable. ___, we have decided to go ahead.",
+   "options": [
+    "Nonetheless",
+    "Notwithstanding",
+    "Whereas",
+    "Whereupon"
+   ],
+   "answer": 0,
+   "why": "«Проте» між реченнями — *Nonetheless,*. *Notwithstanding* — перед іменником; *Whereas* — протиставлення двох фактів в одному реченні; *Whereupon* — «після чого»."
+  },
+  {
+   "id": "formal-connectors-4",
+   "type": "choice",
+   "q": "He insulted the referee, ___ he was sent off.",
+   "options": [
+    "whereupon",
+    "thereby",
+    "notwithstanding",
+    "henceforth"
+   ],
+   "answer": 0,
+   "why": "«Після чого» + речення — *whereupon he was sent off*. *thereby* — + *-ing*; *notwithstanding* — + іменник; *henceforth* — «відтепер»."
+  },
+  {
+   "id": "formal-connectors-5",
+   "type": "choice",
+   "q": "Scientists have discovered a ___ unknown species of frog.",
+   "options": [
+    "hitherto",
+    "henceforth",
+    "thereby",
+    "whereupon"
+   ],
+   "answer": 0,
+   "why": "«Досі (невідомий)» — *hitherto unknown*. *henceforth* — «відтепер»; *thereby* — «тим самим»; *whereupon* — «після чого»."
+  },
+  {
+   "id": "formal-connectors-6",
+   "type": "choice",
+   "q": "We want to reduce plastic waste. To ___ end, we have banned plastic bags.",
+   "options": [
+    "this",
+    "that's",
+    "which",
+    "the"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *To this end*. *To that's end*, *To which end*, *To the end* — неправильні або інший зміст."
+  },
+  {
+   "id": "formal-connectors-7",
+   "type": "choice",
+   "q": "___, all visitors must sign in at reception.",
+   "options": [
+    "Henceforth",
+    "Hitherto",
+    "Whereupon",
+    "Thereby"
+   ],
+   "answer": 0,
+   "why": "«Відтепер» — *Henceforth*. *Hitherto* — «досі»; *Whereupon* і *Thereby* — не стоять так на початку."
+  },
+  {
+   "id": "formal-connectors-8",
+   "type": "choice",
+   "q": "Two members, ___ Smith and Jones, voted against.",
+   "options": [
+    "namely",
+    "that is to",
+    "i.e. to",
+    "such"
+   ],
+   "answer": 0,
+   "why": "«А саме» (перелік) — *namely*. *that is to* і *i.e. to* — зайве *to*; *such* — «такі як» без *as*."
+  },
+  {
+   "id": "formal-connectors-9",
+   "type": "choice",
+   "q": "Some people work better in the morning; ___, others are more productive at night.",
+   "options": [
+    "conversely",
+    "namely",
+    "hence",
+    "whereupon"
+   ],
+   "answer": 0,
+   "why": "«І навпаки» — *conversely*. *namely* — «а саме»; *hence* — «звідси»; *whereupon* — «після чого»."
+  },
+  {
+   "id": "formal-connectors-10",
+   "type": "choice",
+   "q": "The roads were icy, ___ the large number of accidents.",
+   "options": [
+    "hence",
+    "thus it",
+    "therefore",
+    "whereby"
+   ],
+   "answer": 0,
+   "why": "«Звідси» + іменник — *hence the large number*. *thus it* — неграматично; *therefore* — потребує речення; *whereby* — «за яким»."
+  },
+  {
+   "id": "formal-connectors-11",
+   "type": "choice",
+   "q": "Prices rose sharply; ___, demand fell.",
+   "options": [
+    "accordingly",
+    "according",
+    "accordance",
+    "in accordance"
+   ],
+   "answer": 0,
+   "why": "«Відповідно, тому» між реченнями — *accordingly*. *according* без *to* — неповне; *accordance* — іменник; *in accordance* — потребує *with*."
+  },
+  {
+   "id": "formal-connectors-12",
+   "type": "choice",
+   "q": "Exercise strengthens the body. By the same ___, reading strengthens the mind.",
+   "options": [
+    "token",
+    "way",
+    "manner",
+    "reason of"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *By the same token*. *way*, *manner*, *reason of* — неправильні слова в цьому виразі."
+  },
+  {
+   "id": "formal-connectors-13",
+   "type": "fill",
+   "q": "The new system saves time, ___ (thus / reduce) costs.",
+   "answer": [
+    "thus reducing",
+    "thereby reducing"
+   ],
+   "why": "*thus* + *-ing*: *thus reducing*."
+  },
+  {
+   "id": "formal-connectors-14",
+   "type": "fill",
+   "q": "The weather ___, the ceremony went ahead outdoors.",
+   "answer": [
+    "notwithstanding"
+   ],
+   "why": "*notwithstanding* може стояти після іменника."
+  },
+  {
+   "id": "formal-connectors-15",
+   "type": "fill",
+   "q": "She criticised her boss in public and, in so ___, lost her job.",
+   "answer": [
+    "doing"
+   ],
+   "why": "*in so doing* — роблячи це."
+  },
+  {
+   "id": "formal-connectors-16",
+   "type": "fill",
+   "q": "The elderly, that ___ to say, people over 65, are most at risk.",
+   "answer": [
+    "is"
+   ],
+   "why": "*that is to say* — тобто."
+  },
+  {
+   "id": "formal-connectors-17",
+   "type": "order",
+   "words": [
+    "Notwithstanding",
+    "the",
+    "cost",
+    "the",
+    "project",
+    "went",
+    "ahead"
+   ],
+   "answer": [
+    "Notwithstanding the cost the project went ahead",
+    "Notwithstanding the cost, the project went ahead"
+   ],
+   "why": "*Notwithstanding* + іменник, без *of*."
+  },
+  {
+   "id": "formal-connectors-18",
+   "type": "order",
+   "words": [
+    "The",
+    "firm",
+    "cut",
+    "costs",
+    "thereby",
+    "increasing",
+    "its",
+    "profits"
+   ],
+   "answer": [
+    "The firm cut costs thereby increasing its profits",
+    "The firm cut costs, thereby increasing its profits"
+   ],
+   "why": "*thereby* + *-ing*."
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "questions": [
+  {
+   "id": "block-language-1",
+   "type": "choice",
+   "q": "The headline «MINISTER RESIGNS» most likely means:",
+   "options": [
+    "The minister has resigned.",
+    "The minister often resigns.",
+    "The minister will resign.",
+    "The minister is resigning every year."
+   ],
+   "answer": 0,
+   "why": "Present Simple у заголовку — щойно сталося: *has resigned*. Звичка чи майбутнє в таких заголовках не передаються."
+  },
+  {
+   "id": "block-language-2",
+   "type": "choice",
+   "q": "The headline «PM TO VISIT LVIV» means:",
+   "options": [
+    "The Prime Minister is going to visit Lviv.",
+    "The Prime Minister visited Lviv.",
+    "The Prime Minister wants to visit Lviv one day.",
+    "The Prime Minister must visit Lviv."
+   ],
+   "answer": 0,
+   "why": "*to* + V у заголовку — заплановане майбутнє: *is going to visit*. Минуле, бажання чи обов'язок так не позначають."
+  },
+  {
+   "id": "block-language-3",
+   "type": "choice",
+   "q": "The headline «TWO MEN ARRESTED» means:",
+   "options": [
+    "Two men have been arrested.",
+    "Two men arrested someone.",
+    "Two men will be arrested.",
+    "Two men are arresting people."
+   ],
+   "answer": 0,
+   "why": "V3 без *be* у заголовку — пасив, що вже стався: *have been arrested*. Актив чи майбутнє тут не мається на увазі."
+  },
+  {
+   "id": "block-language-4",
+   "type": "choice",
+   "q": "Which is a typical newspaper headline?",
+   "options": [
+    "Storm hits coast",
+    "The storm has hit the coast this morning.",
+    "A storm is hitting a coast.",
+    "There has been a storm which hit the coast."
+   ],
+   "answer": 0,
+   "why": "Заголовок — без артиклів і допоміжних, Present Simple: *Storm hits coast*. Інші — повні речення звичайного тексту."
+  },
+  {
+   "id": "block-language-5",
+   "type": "choice",
+   "q": "(note on the fridge) «___ to the gym. Back at 7.»",
+   "options": [
+    "Gone",
+    "I have went",
+    "Going went",
+    "Goed"
+   ],
+   "answer": 0,
+   "why": "Нотатка без підмета й допоміжного — *Gone to the gym*. *I have went* — неправильна форма; *Going went* і *Goed* — неграматично."
+  },
+  {
+   "id": "block-language-6",
+   "type": "choice",
+   "q": "(medicine label) «Shake well before ___.»",
+   "options": [
+    "use",
+    "to use",
+    "using it to",
+    "you to use"
+   ],
+   "answer": 0,
+   "why": "Інструкція: після *before* — іменник *use*. *before to use* — неграматично; *using it to* і *you to use* — неграматично."
+  },
+  {
+   "id": "block-language-7",
+   "type": "choice",
+   "q": "(sign on a door) «Staff ___»",
+   "options": [
+    "only",
+    "alone",
+    "solely of",
+    "just only"
+   ],
+   "answer": 0,
+   "why": "Табличка — *Staff only*. *alone*, *solely of*, *just only* так не пишуть."
+  },
+  {
+   "id": "block-language-8",
+   "type": "choice",
+   "q": "In the headline «SHARES FALL AS OIL PRICE RISES», *as* means:",
+   "options": [
+    "while, at the same time",
+    "because of the fact that only",
+    "like",
+    "as soon as"
+   ],
+   "answer": 0,
+   "why": "У заголовках *as* = «у той час як»: акції падають, поки ціна на нафту росте."
+  },
+  {
+   "id": "block-language-9",
+   "type": "choice",
+   "q": "In headlines, the word *row* usually means:",
+   "options": [
+    "a quarrel",
+    "a line of seats",
+    "a boat trip",
+    "a group of houses"
+   ],
+   "answer": 0,
+   "why": "Заголовкове *row* /raʊ/ — сварка, конфлікт. Інші значення існують, але в новинних заголовках — переважно сварка."
+  },
+  {
+   "id": "block-language-10",
+   "type": "choice",
+   "q": "(CV) «___ a team of eight engineers.»",
+   "options": [
+    "Managed",
+    "I was manage",
+    "Managing to",
+    "Manage of"
+   ],
+   "answer": 0,
+   "why": "Резюме — без підмета, дієслово в минулому: *Managed a team*. Інші варіанти неграматичні."
+  },
+  {
+   "id": "block-language-11",
+   "type": "choice",
+   "q": "The headline «PRICES RISING» means:",
+   "options": [
+    "Prices are rising.",
+    "Prices rose.",
+    "Prices will rise.",
+    "Prices have risen a lot."
+   ],
+   "answer": 0,
+   "why": "*-ing* у заголовку — процес зараз: *are rising*."
+  },
+  {
+   "id": "block-language-12",
+   "type": "choice",
+   "q": "(recipe) «___ the onions and fry for five minutes.»",
+   "options": [
+    "Chop",
+    "You are chopping",
+    "To chopping",
+    "Chopped"
+   ],
+   "answer": 0,
+   "why": "Інструкції — наказовий спосіб: *Chop*. *You are chopping* — опис; *To chopping* і *Chopped* — неграматично."
+  },
+  {
+   "id": "block-language-13",
+   "type": "fill",
+   "q": "Headline: «Bridge ___ after storm damage» (= has been closed)",
+   "answer": [
+    "closed"
+   ],
+   "why": "Пасив у заголовку — V3 без *be*: *closed*."
+  },
+  {
+   "id": "block-language-14",
+   "type": "fill",
+   "q": "Headline: «President ___ visit Kyiv next week» (= is going to)",
+   "answer": [
+    "to"
+   ],
+   "why": "Заплановане майбутнє — *to* + V."
+  },
+  {
+   "id": "block-language-15",
+   "type": "fill",
+   "q": "Headline: «Actor ___ at 85» (= has died)",
+   "answer": [
+    "dies"
+   ],
+   "why": "Present Simple у заголовку — щойно сталося."
+  },
+  {
+   "id": "block-language-16",
+   "type": "fill",
+   "q": "Sign: «No ___» (заборона паркуватися)",
+   "answer": [
+    "parking"
+   ],
+   "why": "Табличка-заборона — *No* + *-ing*: *No parking*."
+  },
+  {
+   "id": "block-language-17",
+   "type": "order",
+   "words": [
+    "Gone",
+    "to",
+    "the",
+    "shop",
+    "back",
+    "at",
+    "six"
+   ],
+   "answer": [
+    "Gone to the shop back at six",
+    "Gone to the shop, back at six"
+   ],
+   "why": "Нотатка — без підмета й допоміжних."
+  },
+  {
+   "id": "block-language-18",
+   "type": "order",
+   "words": [
+    "Store",
+    "in",
+    "a",
+    "cool",
+    "dry",
+    "place"
+   ],
+   "answer": [
+    "Store in a cool dry place",
+    "Store in a cool, dry place"
+   ],
+   "why": "Інструкція — наказовий спосіб без додатка."
+  }
+ ]
+}

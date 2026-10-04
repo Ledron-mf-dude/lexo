@@ -75,6 +75,17 @@ tags: [fronting, винесення на початок, end weight, end focus, 
 
 Прислівник між *to* і дієсловом (*to **really** understand*) колись вважали помилкою, але сьогодні це звичайна, природна англійська.
 
+## Обставини: спосіб, місце, час
+
+Кілька обставин у кінці речення зазвичай ідуть у порядку **спосіб → місце → час**:
+
+- *She sang **beautifully at the concert last night**.*
+- *We worked **hard in the garden all day**.*
+
+Із дієсловами руху місце ставлять одразу після дієслова: *He went **to Paris by train** last week.*
+
+Час можна винести **на початок**, щоб розвантажити кінець: ***Last night** she sang beautifully at the concert.* Обставину способу між дієсловом і додатком не ставлять: ~~*She speaks fluently English*~~ — див. «Position of adverbs (місце прислівників)».
+
 ## Як вибрати
 
 1. Хочете протиставити чи зв'язати з попереднім — винесіть додаток на початок (без інверсії): *That I can't accept.*
@@ -98,3 +109,4 @@ tags: [fronting, винесення на початок, end weight, end focus, 
 - ✗ *I find difficult to concentrate in the morning.* → ✓ *I find **it** difficult to concentrate in the morning.*
 - ✗ *Try as he might, but he couldn't open the door.* → ✓ *Try as he might, he couldn't open the door.*
 - ✗ *Strange though seems it, it's true.* → ✓ *Strange though **it seems**, it's true.* / *Strange though it may seem, it's true.*
+- ✗ *I yesterday met an old friend in town.* → ✓ *I met an old friend in town **yesterday**.* / ***Yesterday** I met an old friend in town.*
