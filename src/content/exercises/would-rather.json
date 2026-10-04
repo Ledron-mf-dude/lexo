@@ -24,7 +24,7 @@
     "is rather"
    ],
    "answer": 0,
-   "why": "*would rather* + дієслово + *than* + дієслово — «краще одне, ніж інше»."
+   "why": "*would rather* + дієслово + *than* + дієслово — «краще одне, ніж інше». *would to* — бракує *rather*; *rather would* — неправильний порядок; *is rather* — «досить», а не «волів би»."
   },
   {
    "id": "would-rather-3",
@@ -50,7 +50,7 @@
     "Do"
    ],
    "answer": 0,
-   "why": "Питання: *Would* + підмет + *rather* + дієслово."
+   "why": "Питання: *Would* + підмет + *rather* + дієслово. *Does*, *Is* і *Do* — *rather* поєднується тільки з *would*."
   },
   {
    "id": "would-rather-5",
@@ -63,7 +63,7 @@
     "I've rather"
    ],
    "answer": 0,
-   "why": "*I would rather* скорочується до *I'd rather*."
+   "why": "*I would rather* скорочується до *I'd rather*. *I'll* — *I will*; *I'm* — *I am*; *I've* — *I have*; з *rather* скорочують лише *would*."
   },
   {
    "id": "would-rather-6",
@@ -76,7 +76,7 @@
     "I would rather slept."
    ],
    "answer": 1,
-   "why": "Після *would rather* — без *to* і без *-ing*."
+   "why": "Після *would rather* — без *to* і без *-ing*. *rather to sleep* — зайве *to*; *rather sleeping* — після *would rather* не вживають *-ing*; *rather slept* — Past Simple лише коли про іншу особу."
   },
   {
    "id": "would-rather-7",
@@ -89,7 +89,7 @@
     "went"
    ],
    "answer": 0,
-   "why": "*I'd rather not go* — заперечення без *to*."
+   "why": "*I'd rather not go* — заперечення без *to*. *to go* — зайве *to*; *going* і *went* — після *would rather* потрібна початкова форма."
   },
   {
    "id": "would-rather-8",
@@ -163,7 +163,7 @@
     "had"
    ],
    "answer": 0,
-   "why": "*would rather have tea* — без *to*."
+   "why": "*would rather have tea* — без *to*. *to have* — зайве *to*; *having* і *had* — після *would rather* потрібна початкова форма."
   },
   {
    "id": "would-rather-15",
@@ -176,7 +176,7 @@
     "working"
    ],
    "answer": 0,
-   "why": "Після *would rather* дієслово без закінчень: *He'd rather work alone.*"
+   "why": "Після *would rather* дієслово без закінчень: *He'd rather work alone.* *to work* — зайве *to*; *works* — модальна конструкція не бере *-s*; *working* — не початкова форма."
   },
   {
    "id": "would-rather-16",
@@ -189,7 +189,7 @@
     "will tell"
    ],
    "answer": 0,
-   "why": "Інша особа — Past Simple: *I'd rather you told me the truth.*"
+   "why": "Інша особа — Past Simple: *I'd rather you told me the truth.* *telling* і *to tell* — після *would rather you* потрібна особова форма; *will tell* — майбутнє тут не вживають."
   },
   {
    "id": "would-rather-17",
@@ -261,10 +261,10 @@
     "doesn't",
     "didn't",
     "won't",
-    "not"
+    "haven't"
    ],
    "answer": 1,
-   "why": "Ввічлива відмова: *I'd rather you didn't* (краще не треба)."
+   "why": "Ввічлива відмова: *I'd rather you didn't* (краще не треба). *doesn't* — для *he / she / it*, а не *you*; *won't* і *haven't* — після *would rather you* потрібен Past Simple."
   },
   {
    "id": "would-rather-22",
@@ -277,7 +277,7 @@
     "like"
    ],
    "answer": 1,
-   "why": "Порада — *had better*: *You'd better go home.* *You'd rather* означало б «ти волієш»."
+   "why": "Порада — *had better*: *You'd better go home.* *You'd rather* означало б «ти волієш». *rather to* — зайве *to*, і зміст «волієш»; *prefer* і *like* — після *you'd* без *to* не вживаються."
   },
   {
    "id": "would-rather-23",

@@ -11,7 +11,7 @@
     "will have"
    ],
    "answer": 1,
-   "why": "Бажання про теперішнє, яке не відповідає дійсності, — *wish* + Past Simple: *I wish I had more time* (а часу немає)."
+   "why": "Бажання про теперішнє, яке не відповідає дійсності, — *wish* + Past Simple: *I wish I had more time* (а часу немає). *have* — реальний стан, а *wish* стосується нереального; *would have* — *wish* + *would* про себе не вживають; *will have* — майбутнє."
   },
   {
    "id": "wish-if-only-2",
@@ -37,7 +37,7 @@
     "can"
    ],
    "answer": 0,
-   "why": "*wish* + *would* — хочемо, щоб хтось змінив поведінку (роздратування): *I wish you would stop interrupting me.*"
+   "why": "*wish* + *would* — хочемо, щоб хтось змінив поведінку (роздратування): *I wish you would stop interrupting me.* *will* і *can* — після *wish* потрібні минулі форми; *did stop* — неграматично в цьому значенні."
   },
   {
    "id": "wish-if-only-4",
@@ -50,7 +50,7 @@
     "are going"
    ],
    "answer": 1,
-   "why": "*It's time* + Past Simple: *It's time we went home.*"
+   "why": "*It's time* + Past Simple: *It's time we went home.* *goes* — неграматично з *we*; *will go* і *are going* — після *It's time* потрібен Past Simple."
   },
   {
    "id": "wish-if-only-5",
@@ -63,7 +63,7 @@
     "had known"
    ],
    "answer": 1,
-   "why": "*If only* + Past Simple — про теперішнє: *If only I knew the answer!*"
+   "why": "*If only* + Past Simple — про теперішнє: *If only I knew the answer!* *know* — після *If only* потрібна минула форма; *would know* — неприродно; *had known* — про минуле."
   },
   {
    "id": "wish-if-only-6",
@@ -76,7 +76,7 @@
     "will be"
    ],
    "answer": 1,
-   "why": "*wish I were* — *were* для всіх осіб (у розмові й *was*)."
+   "why": "*wish I were* — *were* для всіх осіб (у розмові й *was*). *am* — реальний стан; *would be* — *wish* + *would* про себе не вживають; *will be* — майбутнє."
   },
   {
    "id": "wish-if-only-7",
@@ -89,7 +89,7 @@
     "I wish I had won."
    ],
    "answer": 0,
-   "why": "Про себе *wish* + *would* не вживають: *I wish I could win*, а не *I wish I would win*."
+   "why": "Про себе *wish* + *would* не вживають: *I wish I could win*, а не *I wish I would win*. *I wish I could win*, *I wish it would stop* і *I wish I had won* — правильні, тому помилка лише в *I wish I would win*."
   },
   {
    "id": "wish-if-only-8",
@@ -102,7 +102,7 @@
     "to stay"
    ],
    "answer": 1,
-   "why": "*would rather* + інша особа + Past Simple: *I'd rather you stayed here.*"
+   "why": "*would rather* + інша особа + Past Simple: *I'd rather you stayed here.* *will stay* — майбутнє не вживають; *staying* і *to stay* — після *would rather you* потрібна особова форма в минулому."
   },
   {
    "id": "wish-if-only-9",
@@ -115,7 +115,7 @@
     "doesn't"
    ],
    "answer": 0,
-   "why": "Жаль про минуле — *If only* + Past Perfect: *If only she hadn't left!*"
+   "why": "Жаль про минуле — *If only* + Past Perfect: *If only she hadn't left!* *didn't leave* — про теперішнє, а жаль про минуле; *wouldn't* — про небажану поведінку; *doesn't* — теперішній час."
   },
   {
    "id": "wish-if-only-10",
@@ -174,7 +174,7 @@
     "didn't be"
    ],
    "answer": 0,
-   "why": "Вчора — Past Perfect: *I wish I hadn't been so rude.*"
+   "why": "Вчора — Past Perfect: *I wish I hadn't been so rude.* *wasn't* і *weren't* — про теперішній стан, а йдеться про вчора; *didn't be* — неграматично."
   },
   {
    "id": "wish-if-only-16",
@@ -187,7 +187,7 @@
     "will have"
    ],
    "answer": 0,
-   "why": "*wish* + Past Simple — про теперішнє: *had*."
+   "why": "*wish* + Past Simple — про теперішнє: *had*. *has* — реальний стан; *would have* — *wish* + *would* про себе не вживають; *will have* — майбутнє."
   },
   {
    "id": "wish-if-only-17",
@@ -213,7 +213,7 @@
     "will have"
    ],
    "answer": 0,
-   "why": "*If only* + Past Simple: *had*."
+   "why": "*If only* + Past Simple: *had*. *have* — реальний стан; *would have* і *will have* — після *If only* про теперішнє потрібен Past Simple."
   },
   {
    "id": "wish-if-only-19",
@@ -278,7 +278,7 @@
     "will"
    ],
    "answer": 1,
-   "why": "Уміння — *wish* + *could*."
+   "why": "Уміння — *wish* + *could*. *can* — теперішній час, а після *wish* потрібна минула форма; *would* — не про вміння; *will* — майбутнє."
   },
   {
    "id": "wish-if-only-23",
@@ -304,7 +304,7 @@
     "hasn't"
    ],
    "answer": 1,
-   "why": "Дощ іде зараз — *wish* + Past Continuous: *I wish it wasn't raining.*"
+   "why": "Дощ іде зараз — *wish* + Past Continuous: *I wish it wasn't raining.* *isn't* — реальний стан; *won't be* — майбутнє; *hasn't raining* — неграматично."
   },
   {
    "id": "wish-if-only-25",

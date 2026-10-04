@@ -11,7 +11,7 @@
     "That"
    ],
    "answer": 1,
-   "why": "Повідомляємо, що щось десь є (нова інформація), — *There is*: *There is a dog in the garden.*"
+   "why": "Повідомляємо, що щось десь є (нова інформація), — *There is*: *There is a dog in the garden.* *It* вказує на щось уже відоме, а собака — нова інформація; *This* / *That* — вказівні слова, тут вони не повідомляють про наявність."
   },
   {
    "id": "there-vs-it-2",
@@ -24,7 +24,7 @@
     "He"
    ],
    "answer": 1,
-   "why": "Погода — *It*: *It is raining.*"
+   "why": "Погода — *It*: *It is raining.* *There is raining* — неграматично; *This* / *He* — про погоду вживають безособове *It*."
   },
   {
    "id": "there-vs-it-3",
@@ -37,7 +37,7 @@
     "He"
    ],
    "answer": 1,
-   "why": "*It* — підготовчий підмет, справжній підмет *to learn English* стоїть у кінці: *It is difficult to learn English.*"
+   "why": "*It* — підготовчий підмет, справжній підмет *to learn English* стоїть у кінці: *It is difficult to learn English.* *There is difficult* — неграматично: *there* не вводить прикметник; *This* / *He* — не вказують на *to learn English* наприкінці."
   },
   {
    "id": "there-vs-it-4",
@@ -50,7 +50,7 @@
     "That"
    ],
    "answer": 1,
-   "why": "Тривалість — *It takes* + час + *to*-інфінітив."
+   "why": "Тривалість — *It takes* + час + *to*-інфінітив. *There takes* — неграматично; *This* / *That takes* вказували б на конкретну річ, а не на тривалість дороги."
   },
   {
    "id": "there-vs-it-5",
@@ -76,7 +76,7 @@
     "That"
    ],
    "answer": 1,
-   "why": "Повідомляємо, що чогось немає, — *There is nothing to do here.*"
+   "why": "Повідомляємо, що чогось немає, — *There is nothing to do here.* *It is nothing* — «це ніщо», а не «нічого робити»; *This* / *That* вказують на конкретну річ."
   },
   {
    "id": "there-vs-it-7",
@@ -89,7 +89,7 @@
     "What"
    ],
    "answer": 1,
-   "why": "*It is* + прикметник + *to*-інфінітив: *It is important to sleep well.*"
+   "why": "*It is* + прикметник + *to*-інфінітив: *It is important to sleep well.* *There is important* — неграматично; *That* / *What* не вводять підмет *to sleep well*."
   },
   {
    "id": "there-vs-it-8",
@@ -102,7 +102,7 @@
     "This"
    ],
    "answer": 1,
-   "why": "Наявність кількох речей — *There are three problems.*"
+   "why": "Наявність кількох речей — *There are three problems.* *It are* — *it* однина; *Them* — об'єктна форма; *This* — однина."
   },
   {
    "id": "there-vs-it-9",
@@ -115,7 +115,7 @@
     "This"
    ],
    "answer": 1,
-   "why": "Відстань — *It*: *It is five miles to town.*"
+   "why": "Відстань — *It*: *It is five miles to town.* *There is five miles* — про відстань так не кажуть; *That* / *This* вказують на конкретну річ."
   },
   {
    "id": "there-vs-it-10",
@@ -199,7 +199,7 @@
     "That it"
    ],
    "answer": 0,
-   "why": "Про вже згадану пісню — *It is so beautiful.*"
+   "why": "Про вже згадану пісню — *It is so beautiful.* *There* не відсилає до пісні; *This one it* і *That it* — подвійний підмет."
   },
   {
    "id": "there-vs-it-18",
@@ -212,7 +212,7 @@
     "That"
    ],
    "answer": 0,
-   "why": "Дні тижня й дати — *It*: *It is Monday today.*"
+   "why": "Дні тижня й дати — *It*: *It is Monday today.* *There is Monday* — неграматично; *This* / *That is Monday* звучить як «оце — понеділок» про якусь річ."
   },
   {
    "id": "there-vs-it-19",
@@ -291,7 +291,7 @@
     "Is"
    ],
    "answer": 1,
-   "why": "Повідомляємо, що щось є, — *There's a new café near my house.*"
+   "why": "Повідомляємо, що щось є, — *There's a new café near my house.* *It's a new café* — «це нове кафе» про щось уже назване; *It has* — «воно має»; *Is* — без підмета."
   },
   {
    "id": "there-vs-it-24",

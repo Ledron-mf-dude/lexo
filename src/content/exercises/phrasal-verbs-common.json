@@ -11,7 +11,7 @@
     "continue"
    ],
    "answer": 1,
-   "why": "*give up* — кинути (звичку) або здатися."
+   "why": "*give up* — кинути (звичку) або здатися. «Почати» — *take up*; «чекати» — *wait*; «продовжувати» — *carry on*."
   },
   {
    "id": "phrasal-verbs-common-2",
@@ -24,7 +24,7 @@
     "forget"
    ],
    "answer": 0,
-   "why": "*find out* — дізнатися."
+   "why": "*find out* — дізнатися. «Загубити» — *lose*; «сховати» — *hide*; «забути» — *forget*."
   },
   {
    "id": "phrasal-verbs-common-3",
@@ -37,7 +37,7 @@
     "admire"
    ],
    "answer": 1,
-   "why": "*look after* — доглядати."
+   "why": "*look after* — доглядати. «Шукати» — *look for*; «дивитися телевізор» — *watch*; «захоплюватися» — *look up to*."
   },
   {
    "id": "phrasal-verbs-common-4",
@@ -50,7 +50,7 @@
     "throw"
    ],
    "answer": 0,
-   "why": "*put off* — відкласти на потім."
+   "why": "*put off* — відкласти на потім. «Одягнути» — *put on*; «полагодити» — *fix*; «викинути» — *throw away*."
   },
   {
    "id": "phrasal-verbs-common-5",
@@ -63,7 +63,7 @@
     "repeat"
    ],
    "answer": 0,
-   "why": "*turn down* — відхилити пропозицію."
+   "why": "*turn down* — відхилити пропозицію. «Прийняти» — *accept*; «підняти» — *raise*; «повторити» — *repeat*."
   },
   {
    "id": "phrasal-verbs-common-6",
@@ -76,7 +76,7 @@
     "argue"
    ],
    "answer": 0,
-   "why": "*get along with* — ладнати."
+   "why": "*get along with* — ладнати. «Сісти в машину» — *get in*; «піти» — *leave*; «сперечатися» — *argue*."
   },
   {
    "id": "phrasal-verbs-common-7",
@@ -89,7 +89,7 @@
     "refuse"
    ],
    "answer": 0,
-   "why": "*come up with* — придумати (ідею)."
+   "why": "*come up with* — придумати (ідею). «Прийти з чимось» — *come with*; «сховати» — *hide*; «відмовити» — *refuse*."
   },
   {
    "id": "phrasal-verbs-common-8",
@@ -102,7 +102,7 @@
     "exit"
    ],
    "answer": 0,
-   "why": "*run out of* — закінчитися, вичерпатися."
+   "why": "*run out of* — закінчитися, вичерпатися. «Втекти» — *run away*; «бігти швидко» — *run fast*; «вийти» — *exit*."
   },
   {
    "id": "phrasal-verbs-common-9",
@@ -115,7 +115,7 @@
     "repair"
    ],
    "answer": 0,
-   "why": "*break up* — розійтися."
+   "why": "*break up* — розійтися. «Пошкодити» — *damage*; «почати» — *start*; «полагодити» — *repair*."
   },
   {
    "id": "phrasal-verbs-common-10",
@@ -128,7 +128,7 @@
     "cancel"
    ],
    "answer": 0,
-   "why": "*carry on* — продовжувати."
+   "why": "*carry on* — продовжувати. «Нести сумку» — буквальне *carry*; «зупинитися» — *stop*; «скасувати» — *cancel*."
   },
   {
    "id": "phrasal-verbs-common-11",
@@ -196,7 +196,7 @@
     "in"
    ],
    "answer": 0,
-   "why": "*take up* — почати займатися (хобі, спорт)."
+   "why": "*take up* — почати займатися (хобі, спорт). *take off* — зняти, злетіти; *take on* — узяти на себе; *take in* — обдурити, засвоїти."
   },
   {
    "id": "phrasal-verbs-common-18",
@@ -209,7 +209,7 @@
     "off"
    ],
    "answer": 0,
-   "why": "*try on* — приміряти одяг."
+   "why": "*try on* — приміряти одяг. *try in*, *try up* — так не кажуть; *try off* — неіснуюче поєднання."
   },
   {
    "id": "phrasal-verbs-common-19",
@@ -222,7 +222,7 @@
     "out"
    ],
    "answer": 0,
-   "why": "*take off* — злетіти (про літак)."
+   "why": "*take off* — злетіти (про літак). *take up* — почати займатися; *take away* — забрати; *take out* — винести, вийняти."
   },
   {
    "id": "phrasal-verbs-common-20",
@@ -235,7 +235,7 @@
     "in"
    ],
    "answer": 0,
-   "why": "*get on (well) with* — ладнати."
+   "why": "*get on (well) with* — ладнати. *get off* — вийти з транспорту; *get up* — вставати; *get in* — сісти в машину."
   },
   {
    "id": "phrasal-verbs-common-21",
@@ -311,7 +311,7 @@
     "went out"
    ],
    "answer": 1,
-   "why": "*It turned out that…* — виявилося, що…"
+   "why": "*It turned out that…* — виявилося, що… *turned up* — з'явився; *found out* — потребує підмета-людини (*We found out that…*); *went out* — вийшов."
   },
   {
    "id": "phrasal-verbs-common-26",

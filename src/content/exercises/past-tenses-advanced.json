@@ -24,7 +24,7 @@
     "is crying"
    ],
    "answer": 0,
-   "why": "Сліди тривалої дії до моменту в минулому — *had been crying*."
+   "why": "Сліди тривалої дії до моменту в минулому — *had been crying*. *has been crying* — Present Perfect, а відлік у минулому (*were red*); *cries* і *is crying* — теперішній час."
   },
   {
    "id": "past-tenses-advanced-3",
@@ -37,7 +37,7 @@
     "is leaving"
    ],
    "answer": 0,
-   "why": "Її вже не було — Past Perfect *had left*."
+   "why": "Її вже не було — Past Perfect *had left*. *has left* — Present Perfect, а відлік у минулому; *leaves* і *is leaving* — теперішній час."
   },
   {
    "id": "past-tenses-advanced-4",
@@ -76,7 +76,7 @@
     "rains"
    ],
    "answer": 0,
-   "why": "Тло розповіді (що тривало) — Past Continuous: *It was raining*. Подія (*stopped*) — Past Simple."
+   "why": "Тло розповіді (що тривало) — Past Continuous: *It was raining*. Подія (*stopped*) — Past Simple. *rained suddenly* — подія, а не тло, і *suddenly* стосується машини; *has rained* і *rains* — інші часи."
   },
   {
    "id": "past-tenses-advanced-7",
@@ -89,7 +89,7 @@
     "Have"
    ],
    "answer": 0,
-   "why": "*Did you want…?* — м'якше за *Do you want…?*"
+   "why": "*Did you want…?* — м'якше за *Do you want…?* *Had you want*, *Were you want*, *Have you want* — неграматично."
   },
   {
    "id": "past-tenses-advanced-8",
@@ -102,7 +102,7 @@
     "had going to"
    ],
    "answer": 0,
-   "why": "Намір, який не виконали, — *was going to*."
+   "why": "Намір, який не виконали, — *was going to*. *am going to* — теперішній відлік, а *I forgot* — минуле; *go to call* — неграматично; *had going to* — неграматично."
   },
   {
    "id": "past-tenses-advanced-9",
@@ -115,7 +115,7 @@
     "to borrow"
    ],
    "answer": 0,
-   "why": "*was always* + *-ing* — роздратування в минулому."
+   "why": "*was always* + *-ing* — роздратування в минулому. *borrow*, *borrowed*, *to borrow* — після *was always* у значенні роздратування потрібне *-ing*."
   },
   {
    "id": "past-tenses-advanced-10",

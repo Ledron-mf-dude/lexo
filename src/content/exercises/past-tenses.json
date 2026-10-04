@@ -11,7 +11,7 @@
     "has started"
    ],
    "answer": 1,
-   "why": "Фільм почався раніше, ніж я прийшов (я пропустив початок), — дія раніша за інший момент у минулому, тому Past Perfect: *had started*."
+   "why": "Фільм почався раніше, ніж я прийшов (я пропустив початок), — дія раніша за інший момент у минулому, тому Past Perfect: *had started*. *starts* — теперішній час; *has started* і *has been starting* — Present Perfect, а точка відліку в минулому (*When I arrived*)."
   },
   {
    "id": "past-tenses-2",
@@ -55,7 +55,7 @@
     "Do / attend"
    ],
    "answer": 0,
-   "why": "*yesterday* — завершений час у минулому, тому Past Simple: *Did you attend…?* Present Perfect (*Have you attended*) з *yesterday* не вживають."
+   "why": "*yesterday* — завершений час у минулому, тому Past Simple: *Did you attend…?* Present Perfect (*Have you attended*) з *yesterday* не вживають. *Were … attend* — *were* не поєднується з початковою формою дієслова; *Do … attend* — теперішній час."
   },
   {
    "id": "past-tenses-6",
@@ -77,7 +77,7 @@
     "have gone"
    ],
    "answer": 1,
-   "why": "*By the time we got there* — до того моменту вони вже пішли: дія раніша, тому Past Perfect: *had gone*."
+   "why": "*By the time we got there* — до того моменту вони вже пішли: дія раніша, тому Past Perfect: *had gone*. *went* означало б, що вони пішли вже після нашого приходу; *are going* — теперішній час; *have gone* — Present Perfect, а відлік у минулому."
   },
   {
    "id": "past-tenses-8",
@@ -99,7 +99,7 @@
     "did / cook"
    ],
    "answer": 0,
-   "why": "*already* + момент у минулому (*When I got home*) — сестра приготувала вечерю раніше: *had already cooked*."
+   "why": "*already* + момент у минулому (*When I got home*) — сестра приготувала вечерю раніше: *had already cooked*. *has cooked* — Present Perfect, а відлік у минулому (*When I got home*); *was cooking* — ще готувала, що суперечить *already*; *did cook* — емфатична форма, з *already* так не кажуть."
   },
   {
    "id": "past-tenses-10",
@@ -166,7 +166,7 @@
     "were laugh"
    ],
    "answer": 0,
-   "why": "Коли вона ввійшла, сміх уже тривав — це тло, Past Continuous: *everyone was laughing*. *everyone* — однина, тому *was*."
+   "why": "Коли вона ввійшла, сміх уже тривав — це тло, Past Continuous: *everyone was laughing*. *everyone* — однина, тому *was*. *laughed already* — неправильний порядок і зміст (засміялися до її приходу); *had laughing* — Past Perfect не поєднується з *-ing* без *been*; *were laugh* — *were* без *-ing* і множина при *everyone*."
   },
   {
    "id": "past-tenses-16",
@@ -179,7 +179,7 @@
     "have left"
    ],
    "answer": 0,
-   "why": "Гаманець залишився вдома раніше, ніж я це помітив, — Past Perfect: *I realised I had left my wallet at home.*"
+   "why": "Гаманець залишився вдома раніше, ніж я це помітив, — Past Perfect: *I realised I had left my wallet at home.* *left have* — неправильний порядок слів; *was leaving* — дія тривала б у той момент; *have left* — Present Perfect, а відлік у минулому (*I realised*)."
   },
   {
    "id": "past-tenses-17",
@@ -192,7 +192,7 @@
     "opens / walks"
    ],
    "answer": 0,
-   "why": "Послідовні короткі дії в минулому — Past Simple: *He opened the door, walked in and sat down.*"
+   "why": "Послідовні короткі дії в минулому — Past Simple: *He opened the door, walked in and sat down.* *was opening* — тривалість, а дії короткі й послідовні; *had opened / was walking* — змішує часи без причини; *opens / walks* — теперішній час, а *sat* — минулий."
   },
   {
    "id": "past-tenses-18",
@@ -205,7 +205,7 @@
     "is raining"
    ],
    "answer": 0,
-   "why": "Тло, що вже тривало, коли ми вийшли, — Past Continuous: *It was raining.*"
+   "why": "Тло, що вже тривало, коли ми вийшли, — Past Continuous: *It was raining.* *rained on* — зайвий прийменник; *had rain* — бракує дієприкметника (*had rained*); *is raining* — теперішній час, а *we left* — минуле."
   },
   {
    "id": "past-tenses-19",
@@ -285,7 +285,7 @@
     "have"
    ],
    "answer": 1,
-   "why": "Вона прийшла посеред вечері — вечеря тривала: Past Continuous *were having*."
+   "why": "Вона прийшла посеред вечері — вечеря тривала: Past Continuous *were having*. *had* означало б, що ми почали вечеряти, коли вона прийшла; *had had* — вечеря вже закінчилася; *have* — теперішній час."
   },
   {
    "id": "past-tenses-24",

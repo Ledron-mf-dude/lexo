@@ -11,7 +11,7 @@
     "ever"
    ],
    "answer": 1,
-   "why": "*already* — уже, раніше, ніж очікували: *I've already eaten.*"
+   "why": "*already* — уже, раніше, ніж очікували: *I've already eaten.* *yet* у ствердженні так не вживають; *still eaten* — «досі» з результатом не поєднується; *ever* — у питаннях і запереченнях."
   },
   {
    "id": "already-still-yet-2",
@@ -24,7 +24,7 @@
     "just"
    ],
    "answer": 1,
-   "why": "*yet* у запереченні — «ще не»: *I haven't eaten yet.*"
+   "why": "*yet* у запереченні — «ще не»: *I haven't eaten yet.* *already* — у ствердженні, а тут заперечення; *ever* — «колись», не «ще»; *just* — «щойно» в ствердженні."
   },
   {
    "id": "already-still-yet-3",
@@ -37,7 +37,7 @@
     "ago"
    ],
    "answer": 0,
-   "why": "*still* — «досі», дія триває: *She still lives in Kyiv.*"
+   "why": "*still* — «досі», дія триває: *She still lives in Kyiv.* *yet* — у запереченнях і питаннях, у кінці; *already* — «уже», не «досі»; *ago* — «тому»."
   },
   {
    "id": "already-still-yet-4",
@@ -50,7 +50,7 @@
     "just"
    ],
    "answer": 0,
-   "why": "*still* + заперечення — «досі не» (роздратування): *He still hasn't called.*"
+   "why": "*still* + заперечення — «досі не» (роздратування): *He still hasn't called.* *yet* стоїть у кінці (*He hasn't called yet*) і не передає роздратування; *already* і *just* — у ствердженні."
   },
   {
    "id": "already-still-yet-5",
@@ -63,7 +63,7 @@
     "after 'the'"
    ],
    "answer": 0,
-   "why": "*yet* зазвичай ставимо в кінці речення: *I haven't finished yet.*"
+   "why": "*yet* зазвичай ставимо в кінці речення: *I haven't finished yet.* *yet* не стоїть перед дієсловом (там *already*, *still*), на початку чи після *the*."
   },
   {
    "id": "already-still-yet-6",
@@ -76,7 +76,7 @@
     "Still she asleep is."
    ],
    "answer": 1,
-   "why": "*still* стоїть після *to be*: *She is still asleep.*"
+   "why": "*still* стоїть після *to be*: *She is still asleep.* *still is* — з *be* прислівник стоїть після дієслова; *She asleep is still* і *Still she asleep is* — неправильний порядок."
   },
   {
    "id": "already-still-yet-7",
@@ -89,7 +89,7 @@
     "we decided yesterday"
    ],
    "answer": 0,
-   "why": "*have yet to* — «ще належить»: ще не вирішили."
+   "why": "*have yet to* — «ще належить»: ще не вирішили. *have yet to* означає, що рішення ще попереду, тому «вирішили», «ніколи не вирішимо» і «вирішили вчора» хибні."
   },
   {
    "id": "already-still-yet-8",
@@ -102,7 +102,7 @@
     "ago"
    ],
    "answer": 0,
-   "why": "*already* у питанні — здивування, що так швидко."
+   "why": "*already* у питанні — здивування, що так швидко. *yet* у питанні нейтральне, без здивування; *still* — «досі»; *ago* — «тому»."
   },
   {
    "id": "already-still-yet-9",
@@ -163,7 +163,7 @@
     "ever"
    ],
    "answer": 0,
-   "why": "Магазин усе ще відчинений о 10 вечора — *still open*."
+   "why": "Магазин усе ще відчинений о 10 вечора — *still open*. *yet* — у запереченнях і питаннях; *already open* — «уже відчинений», як про ранок; *ever* — «колись»."
   },
   {
    "id": "already-still-yet-15",
@@ -176,7 +176,7 @@
     "ever"
    ],
    "answer": 0,
-   "why": "*already* — вже (двічі встиг подивитися)."
+   "why": "*already* — вже (двічі встиг подивитися). *yet* у ствердженні не вживають; *still seen* — «досі» з результатом не поєднується; *ever* — у питаннях і запереченнях."
   },
   {
    "id": "already-still-yet-16",
@@ -268,7 +268,7 @@
     "any more"
    ],
    "answer": 1,
-   "why": "Вона працює довше, ніж чекали, — *still working*."
+   "why": "Вона працює довше, ніж чекали, — *still working*. *yet* у ствердженні не вживають; *already* — «уже», без відтінку «довше, ніж чекали»; *any more* — у запереченні."
   },
   {
    "id": "already-still-yet-22",
@@ -281,7 +281,7 @@
     "already"
    ],
    "answer": 2,
-   "why": "«Уже не» — *not … any more*: *I don't live there any more.*"
+   "why": "«Уже не» — *not … any more*: *I don't live there any more.* *still* стоїть перед *don't* (*I still don't live there* — інший зміст); *yet* — «ще не», а людина там жила; *already* — у ствердженні."
   },
   {
    "id": "already-still-yet-23",

@@ -11,7 +11,7 @@
     "is could"
    ],
    "answer": 0,
-   "why": "*could be* + порівняльний ступінь — «могло б бути краще»: *It could be warmer today.*"
+   "why": "*could be* + порівняльний ступінь — «могло б бути краще»: *It could be warmer today.* *can warmer* — бракує *be*; *could been* — після *could* потрібна початкова форма; *is could* — два присудки."
   },
   {
    "id": "could-be-comparative-2",
@@ -37,7 +37,7 @@
     "mostly"
    ],
    "answer": 0,
-   "why": "Довгий прикметник: *more interesting*."
+   "why": "Довгий прикметник: *more interesting*. *most interesting* — найвищий ступінь; *much interesting* — *much* не підсилює прикметник у звичайній формі; *mostly* — прислівник «здебільшого»."
   },
   {
    "id": "could-be-comparative-4",
@@ -50,7 +50,7 @@
     "certainty"
    ],
    "answer": 0,
-   "why": "*could be* + порівняльний — про теперішнє чи майбутнє; про минуле — *could have been*."
+   "why": "*could be* + порівняльний — про теперішнє чи майбутнє; про минуле — *could have been*. Про минуле — *could have been*; звичку в минулому передає *used to*; упевненість — *must*."
   },
   {
    "id": "could-be-comparative-5",
@@ -63,7 +63,7 @@
     "It could be warmest."
    ],
    "answer": 1,
-   "why": "Короткий прикметник *warm* — *warmer*. *more warm* — помилка."
+   "why": "Короткий прикметник *warm* — *warmer*. *more warm* — помилка. *could warmer be* — неправильний порядок; *warmest* — найвищий ступінь."
   },
   {
    "id": "could-be-comparative-6",
@@ -140,7 +140,7 @@
     "could being"
    ],
    "answer": 0,
-   "why": "Зараз так собі — *could be better*."
+   "why": "Зараз так собі — *could be better*. *could have been* — про минуле, а йдеться про «зараз»; *can be better* — «буває кращим» (загальна можливість); *could being* — неграматично."
   },
   {
    "id": "could-be-comparative-13",
@@ -153,7 +153,7 @@
     "it's the same"
    ],
    "answer": 0,
-   "why": "Заперечення + порівняльний = найвища оцінка."
+   "why": "Заперечення + порівняльний = найвища оцінка. Вираз означає «краще не буває»: не «погано», не «можна покращити» і не «так само»."
   },
   {
    "id": "could-be-comparative-14",
@@ -166,7 +166,7 @@
     "could had been"
    ],
    "answer": 0,
-   "why": "Про минуле — *could have been shorter*."
+   "why": "Про минуле — *could have been shorter*. *could be* і *can be* — про теперішнє, а фільм дивилися вчора; *could had been* — після *could* потрібне *have*."
   },
   {
    "id": "could-be-comparative-15",
@@ -179,7 +179,7 @@
     "much"
    ],
    "answer": 0,
-   "why": "*I couldn't agree more* — повністю згоден."
+   "why": "*I couldn't agree more* — повністю згоден. *better* і *most* у цьому виразі не вживають; *I couldn't agree much* означало б «не зовсім згоден»."
   },
   {
    "id": "could-be-comparative-16",
@@ -254,7 +254,7 @@
     "worse"
    ],
    "answer": 1,
-   "why": "*I couldn't care less* — мені байдуже."
+   "why": "*I couldn't care less* — мені байдуже. *couldn't care more* — «не можу перейматися більше», тобто дуже переймаюся; *better* і *worse* у цьому виразі не вживають."
   },
   {
    "id": "could-be-comparative-21",
@@ -267,7 +267,7 @@
     "could have"
    ],
    "answer": 1,
-   "why": "Чекали годину — є куди покращувати: *could be better*."
+   "why": "Чекали годину — є куди покращувати: *could be better*. *couldn't be better* — «краще не буває», а ми чекали годину; *can't be better* — те саме; *could have better* — бракує *been*."
   },
   {
    "id": "could-be-comparative-22",

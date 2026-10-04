@@ -24,7 +24,7 @@
     "childs'"
    ],
    "answer": 1,
-   "why": "*children* — неправильна множина без *-s*, тому присвійна форма — *'s*: *the children's toys*."
+   "why": "*children* — неправильна множина без *-s*, тому присвійна форма — *'s*: *the children's toys*. *childrens* — *children* уже множина, *-s* не додаємо; *childrens'* — те саме; *childs'* — неправильна множина."
   },
   {
    "id": "possessive-forms-3",
@@ -76,7 +76,7 @@
     "with"
    ],
    "answer": 0,
-   "why": "*a friend of mine* — «один із моїх друзів». Після *of* у такій конструкції — присвійний займенник *mine*."
+   "why": "*a friend of mine* — «один із моїх друзів». Після *of* у такій конструкції — присвійний займенник *mine*. *to*, *from*, *with* не утворюють конструкції «один із моїх»: *a friend from mine* неграматичне."
   },
   {
    "id": "possessive-forms-7",
@@ -102,7 +102,7 @@
     "Anna's flat only"
    ],
    "answer": 0,
-   "why": "*'s* лише після останнього імені означає спільну власність: одна квартира на двох. *Tom's and Anna's flats* — у кожного своя."
+   "why": "*'s* лише після останнього імені означає спільну власність: одна квартира на двох. *Tom's and Anna's flats* — у кожного своя. Дві квартири — це *Tom's and Anna's flats*; якби квартира була лише одного з них, друге ім'я не стояло б у звороті."
   },
   {
    "id": "possessive-forms-9",
@@ -115,7 +115,7 @@
     "the tail dog's"
    ],
    "answer": 1,
-   "why": "Порядок: власник + *'s* + річ: *the dog's tail*."
+   "why": "Порядок: власник + *'s* + річ: *the dog's tail*. *the dog tail's* — *'s* стоїть після речі, а не власника; *the dogs's* — подвійне *s*; *the tail dog's* — неправильний порядок."
   },
   {
    "id": "possessive-forms-10",
@@ -187,7 +187,7 @@
     "ending's"
    ],
    "answer": 0,
-   "why": "Для частин неживих речей зазвичай вживаємо *of*: *the end of the story*. *the story's end* можливе, але не в цьому реченні."
+   "why": "Для частин неживих речей зазвичай вживаємо *of*: *the end of the story*. *the story's end* можливе, але не в цьому реченні. *story's end of* — подвійна присвійність; *end's* і *ending's* — присвійна форма замість іменника."
   },
   {
    "id": "possessive-forms-17",

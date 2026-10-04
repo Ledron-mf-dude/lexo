@@ -11,7 +11,7 @@
     "Closing"
    ],
    "answer": 1,
-   "why": "Наказовий спосіб — початкова форма дієслова без підмета: *Close the door, please.*"
+   "why": "Наказовий спосіб — початкова форма дієслова без підмета: *Close the door, please.* *Closes* — форма для *he / she / it*, *To close* — інфінітив, *Closing* — дієприкметник; жодна з них не наказ."
   },
   {
    "id": "imperative-2",
@@ -24,7 +24,7 @@
     "No be"
    ],
    "answer": 1,
-   "why": "Заперечний наказ — *Don't* + дієслово, навіть з *be*: *Don't be late!*"
+   "why": "Заперечний наказ — *Don't* + дієслово, навіть з *be*: *Don't be late!* *Not be* і *No be* — без допоміжного *don't*; *Be not* — застаріло."
   },
   {
    "id": "imperative-3",
@@ -37,7 +37,7 @@
     "Lets to go!"
    ],
    "answer": 0,
-   "why": "Пропозиція зробити разом — *Let's* + дієслово без *to*: *Let's go!*"
+   "why": "Пропозиція зробити разом — *Let's* + дієслово без *to*: *Let's go!* *Go we!* і *Let go we!* — неправильний порядок слів; *Lets to go!* — без апострофа і з зайвим *to*."
   },
   {
    "id": "imperative-4",
@@ -50,7 +50,7 @@
     "Sit!"
    ],
    "answer": 1,
-   "why": "*please* пом'якшує наказ і робить його проханням."
+   "why": "*please* пом'якшує наказ і робить його проханням. *Sit down!*, *Sit!* і *You sit!* — накази без пом'якшення, а *You sit!* ще й звучить грубо."
   },
   {
    "id": "imperative-5",
@@ -76,7 +76,7 @@
     "Let's no go."
    ],
    "answer": 1,
-   "why": "Заперечна пропозиція — *Let's not* + дієслово: *Let's not go.* *Let's don't* — розмовна американська форма, у нормі — *Let's not*."
+   "why": "Заперечна пропозиція — *Let's not* + дієслово: *Let's not go.* *Let's don't* — розмовна американська форма, у нормі — *Let's not*. *Let's not to go* — після *let's* немає *to*; *Let's no go* — *no* не заперечує дієслово."
   },
   {
    "id": "imperative-7",
@@ -104,7 +104,7 @@
     "a condition"
    ],
    "answer": 0,
-   "why": "*You go first* — *you* перед наказом підкреслює, хто має діяти."
+   "why": "*You go first* — *you* перед наказом підкреслює, хто має діяти. Минулого часу, питання чи умови тут немає: дієслово *go* в наказовій формі, а *you* лише виділяє, кому діяти."
   },
   {
    "id": "imperative-9",
@@ -154,7 +154,7 @@
     "Doesn't"
    ],
    "answer": 0,
-   "why": "Заперечний наказ — *Don't worry.*"
+   "why": "Заперечний наказ — *Don't worry.* *Not* і *No* не утворюють заперечного наказу без *do*; *Doesn't* — форма для *he / she / it* у розповідному реченні."
   },
   {
    "id": "imperative-14",
@@ -167,7 +167,7 @@
     "Let"
    ],
    "answer": 0,
-   "why": "*Do sit down!* — дружня наполегливість."
+   "why": "*Do sit down!* — дружня наполегливість. *Does* — лише з *he / she / it* у розповідних реченнях і питаннях; *Be sit* і *Let sit* неграматичні."
   },
   {
    "id": "imperative-15",
@@ -180,7 +180,7 @@
     "Not let's"
    ],
    "answer": 0,
-   "why": "*Let's not argue* — давай не будемо."
+   "why": "*Let's not argue* — давай не будемо. *Let's don't* — розмовна американська форма; *Don't let's to* — зайве *to*; *Not let's* — неправильний порядок."
   },
   {
    "id": "imperative-16",
@@ -193,7 +193,7 @@
     "To add sugar."
    ],
    "answer": 0,
-   "why": "Рецепти й інструкції пишуть у наказовому способі: *Add the sugar and stir.*"
+   "why": "Рецепти й інструкції пишуть у наказовому способі: *Add the sugar and stir.* *You adding* — немає допоміжного *are*; *Adds* — форма для *he / she / it*; *To add sugar* — інфінітив, а не інструкція."
   },
   {
    "id": "imperative-17",
@@ -279,7 +279,7 @@
     "shall I"
    ],
    "answer": 1,
-   "why": "Після наказу тег *will you?* робить його проханням: *Close the window, will you?*"
+   "why": "Після наказу тег *will you?* робить його проханням: *Close the window, will you?* *do you?* після наказу не вживають; *won't it?* стосується *it*, а наказ — до *you*; *shall I?* додають до *Let me…*, а не до наказу іншому."
   },
   {
    "id": "imperative-23",

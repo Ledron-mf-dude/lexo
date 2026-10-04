@@ -11,7 +11,7 @@
     "of"
    ],
    "answer": 0,
-   "why": "*pick up the phone* — взяти слухавку."
+   "why": "*pick up the phone* — взяти слухавку. *pick at*, *pick to*, *pick of* не означають «взяти слухавку»."
   },
   {
    "id": "phrasal-verbs-2",
@@ -24,7 +24,7 @@
     "I it picked up."
    ],
    "answer": 1,
-   "why": "Якщо додаток — займенник, він стоїть між дієсловом і часткою: *I picked it up.*"
+   "why": "Якщо додаток — займенник, він стоїть між дієсловом і часткою: *I picked it up.* *picked up it* — займенник не стоїть після частки; *picked up to it* — зайвий прийменник; *I it picked up* — займенник перед дієсловом."
   },
   {
    "id": "phrasal-verbs-3",
@@ -37,7 +37,7 @@
     "put on"
    ],
    "answer": 2,
-   "why": "*look after* — нероздільне: додаток завжди після *after* (*look after her*)."
+   "why": "*look after* — нероздільне: додаток завжди після *after* (*look after her*). *pick up*, *turn down*, *put on* — роздільні: *pick it up, turn it down, put it on*."
   },
   {
    "id": "phrasal-verbs-4",
@@ -63,7 +63,7 @@
     "prepositional"
    ],
    "answer": 0,
-   "why": "*took off* (злетів) — без додатка, тобто неперехідне."
+   "why": "*took off* (злетів) — без додатка, тобто неперехідне. У реченні немає додатка, тому дієслово не перехідне; *separable* і *prepositional* описують дієслова з додатком."
   },
   {
    "id": "phrasal-verbs-6",
@@ -89,7 +89,7 @@
     "She down turned the offer."
    ],
    "answer": 0,
-   "why": "*turn down* — роздільне, іменник може стояти всередині або після частки."
+   "why": "*turn down* — роздільне, іменник може стояти всередині або після частки. *turned down it* — займенник після частки; *turned it the down* — зайвий артикль; *down turned* — частка перед дієсловом."
   },
   {
    "id": "phrasal-verbs-8",
@@ -102,7 +102,7 @@
     "none of these"
    ],
    "answer": 0,
-   "why": "Значення фразового дієслова часто не виводиться з частин."
+   "why": "Значення фразового дієслова часто не виводиться з частин. Значення буває буквальним (*sit down*), але часто нове (*give up* — кинути), протилежним частинам — рідко."
   },
   {
    "id": "phrasal-verbs-9",
@@ -161,7 +161,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*fill in* — заповнити (форму). *fill out* — американський варіант."
+   "why": "*fill in* — заповнити (форму). *fill out* — американський варіант. *fill on* і *fill at* не існують; *fill up* — «наповнити доверху» (бак, склянку), а не форму."
   },
   {
    "id": "phrasal-verbs-15",
@@ -174,7 +174,7 @@
     "Off turn it."
    ],
    "answer": 0,
-   "why": "Займенник — всередині: *Turn it off.*"
+   "why": "Займенник — всередині: *Turn it off.* *Turn off it* — займенник після частки; *It turn off* і *Off turn it* — неправильний порядок."
   },
   {
    "id": "phrasal-verbs-16",
@@ -187,7 +187,7 @@
     "visit"
    ],
    "answer": 0,
-   "why": "*look up a word* — знайти слово в словнику."
+   "why": "*look up a word* — знайти слово в словнику. *look up* у значенні «подивитися вгору» не має додатка *the word*; «поважати» — *look up to*; «навідати» — *look sb up*, про людину."
   },
   {
    "id": "phrasal-verbs-17",
@@ -200,7 +200,7 @@
     "down"
    ],
    "answer": 0,
-   "why": "*run out of* — закінчитися."
+   "why": "*run out of* — закінчитися. *run off*, *run away* — «втекти»; *run down* — «розрядитися, збити»; «закінчитися» — лише *run out of*."
   },
   {
    "id": "phrasal-verbs-18",
@@ -266,7 +266,7 @@
     "off"
    ],
    "answer": 1,
-   "why": "*slow down* — сповільнитися."
+   "why": "*slow down* — сповільнитися. *slow up* — рідше і переважно американське; *slow out* і *slow off* не існують."
   },
   {
    "id": "phrasal-verbs-22",
@@ -279,7 +279,7 @@
     "called down"
    ],
    "answer": 0,
-   "why": "*call off* — скасувати."
+   "why": "*call off* — скасувати. *called on* — «відвідати, закликати»; *called up* — «подзвонити, призвати»; *called down* — не означає «скасувати»."
   },
   {
    "id": "phrasal-verbs-23",

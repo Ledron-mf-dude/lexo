@@ -37,7 +37,7 @@
     "Are"
    ],
    "answer": 0,
-   "why": "Пропозиція зробити щось разом — *Shall we…?*: *Shall we dance?*"
+   "why": "Пропозиція зробити щось разом — *Shall we…?*: *Shall we dance?* *Will we dance?* — питання про майбутнє, а не пропозиція; *Do we dance?* — про звичку; *Are we dance?* — неграматично."
   },
   {
    "id": "future-simple-shall-will-4",
@@ -75,7 +75,7 @@
     "Am"
    ],
    "answer": 1,
-   "why": "Пропозиція — *Shall I bring you a cup of tea?*"
+   "why": "Пропозиція — *Shall I bring you a cup of tea?* *Will I bring…?* — питання про майбутнє, а не пропозиція; *Do I bring* — про звичку; *Am I bring* — неграматично."
   },
   {
    "id": "future-simple-shall-will-7",
@@ -170,7 +170,7 @@
     "will to"
    ],
    "answer": 0,
-   "why": "Рішення в момент мовлення — *I'll get it.*"
+   "why": "Рішення в момент мовлення — *I'll get it.* *am going* — без *to*, і рішення не заплановане заздалегідь; *shall to* і *will to* — після модального немає *to*."
   },
   {
    "id": "future-simple-shall-will-15",
@@ -183,7 +183,7 @@
     "wills"
    ],
    "answer": 0,
-   "why": "Прогноз-упевненість — *will*: *I'm sure you will pass.*"
+   "why": "Прогноз-упевненість — *will*: *I'm sure you will pass.* *shall to* — після *shall* немає *to*; *are passing* — домовленість, а не впевненість; *wills* — модальне не бере *-s*."
   },
   {
    "id": "future-simple-shall-will-16",
@@ -209,7 +209,7 @@
     "Are"
    ],
    "answer": 0,
-   "why": "Прохання / пропозиція — *Will you marry me?*"
+   "why": "Прохання / пропозиція — *Will you marry me?* *Shall you…?* у сучасній мові не вживають; *Do you marry* — про звичку, *Are you marry* — неграматично."
   },
   {
    "id": "future-simple-shall-will-18",
@@ -269,7 +269,7 @@
     "won't think"
    ],
    "answer": 0,
-   "why": "Англійською заперечення ставлять на *think*: *I don't think she'll like it* (а не *I think she won't like it*)."
+   "why": "Англійською заперечення ставлять на *think*: *I don't think she'll like it* (а не *I think she won't like it*). *not think* — без допоміжного *don't*; *think not* — застаріло; *won't think* — заперечення стосується майбутнього думання, а не теперішньої думки."
   },
   {
    "id": "future-simple-shall-will-22",
@@ -282,7 +282,7 @@
     "Are"
    ],
    "answer": 1,
-   "why": "Пропозиція — *Shall we take a taxi?*"
+   "why": "Пропозиція — *Shall we take a taxi?* *Will we take…?* — питання про майбутнє, а не пропозиція; *Do we take* — про звичку; *Are we take* — неграматично."
   },
   {
    "id": "future-simple-shall-will-23",

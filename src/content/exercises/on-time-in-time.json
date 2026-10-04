@@ -24,7 +24,7 @@
     "at time"
    ],
    "answer": 1,
-   "why": "*in time to* + дієслово — встигли зробити щось: *in time to catch the train*."
+   "why": "*in time to* + дієслово — встигли зробити щось: *in time to catch the train*. *on time* — «вчасно за розкладом», без ідеї «встигли щось зробити»; *in the time* і *at time* — таких виразів немає."
   },
   {
    "id": "on-time-in-time-3",
@@ -37,7 +37,7 @@
     "in the end"
    ],
    "answer": 0,
-   "why": "Бути пунктуальним, прийти точно на початок — *Be on time.*"
+   "why": "Бути пунктуальним, прийти точно на початок — *Be on time.* *in time* — «встигнути до чогось», а тут вимога пунктуальності; *at the end* і *in the end* — «наприкінці / зрештою»."
   },
   {
    "id": "on-time-in-time-4",
@@ -89,7 +89,7 @@
     "at the end of"
    ],
    "answer": 0,
-   "why": "*at last* — «нарешті» після довгого чекання."
+   "why": "*at last* — «нарешті» після довгого чекання. *in time* і *on time* — про своєчасність, а не про довге чекання; *at the end of* потребує іменника."
   },
   {
    "id": "on-time-in-time-8",
@@ -102,7 +102,7 @@
     "at last"
    ],
    "answer": 0,
-   "why": "*in time for* — встиг до початку: *just before it started*."
+   "why": "*in time for* — встиг до початку: *just before it started*. *on time* — «точно за розкладом», тут же акцент на тому, що встиг до початку; *at time* — такого виразу немає; *at last* — «нарешті»."
   },
   {
    "id": "on-time-in-time-9",
@@ -152,7 +152,7 @@
     "at the end"
    ],
    "answer": 0,
-   "why": "Здати до дедлайну, без запізнення — *on time*."
+   "why": "Здати до дедлайну, без запізнення — *on time*. *in the time* і *at time* — таких виразів немає; *at the end* — «наприкінці», а не «до дедлайну»."
   },
   {
    "id": "on-time-in-time-14",
@@ -165,7 +165,7 @@
     "at last"
    ],
    "answer": 0,
-   "why": "*in time for dinner* — встигнути до вечері."
+   "why": "*in time for dinner* — встигнути до вечері. *on time* — «за розкладом», а тут питання, чи встигнемо до вечері; *at the end* і *at last* — інший зміст."
   },
   {
    "id": "on-time-in-time-15",
@@ -191,7 +191,7 @@
     "at the end"
    ],
    "answer": 0,
-   "why": "Після довгого чекання — *at last*."
+   "why": "Після довгого чекання — *at last*. *on time* і *in time* — «вчасно», а автобус запізнився на три години; *at the end* — «наприкінці»."
   },
   {
    "id": "on-time-in-time-17",

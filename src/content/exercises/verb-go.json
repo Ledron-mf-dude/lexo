@@ -11,7 +11,7 @@
     "in home"
    ],
    "answer": 1,
-   "why": "*go home* — без *to*: *home* тут прислівник «додому»."
+   "why": "*go home* — без *to*: *home* тут прислівник «додому». *to home* — *home* тут прислівник, прийменник зайвий; *at home* — «удома», стан, а не рух; *in home* — неграматично."
   },
   {
    "id": "verb-go-2",
@@ -24,7 +24,7 @@
     "play"
    ],
    "answer": 0,
-   "why": "Дозвілля й спорт — *go* + *-ing*: *go swimming*."
+   "why": "Дозвілля й спорт — *go* + *-ing*: *go swimming*. *do swimming* і *make swimming* так не кажуть; *play* — лише з іграми з м'ячем (*play tennis*)."
   },
   {
    "id": "verb-go-3",
@@ -34,10 +34,10 @@
     "for",
     "to",
     "at",
-    "on"
+    "in"
    ],
    "answer": 0,
-   "why": "*go for a walk* — піти на прогулянку."
+   "why": "*go for a walk* — піти на прогулянку. *go to a walk*, *go at a walk*, *go in a walk* так не кажуть."
   },
   {
    "id": "verb-go-4",
@@ -50,7 +50,7 @@
     "to bad"
    ],
    "answer": 0,
-   "why": "*go* + прикметник = «зіпсуватися, стати»: *The milk went bad.*"
+   "why": "*go* + прикметник = «зіпсуватися, стати»: *The milk went bad.* *badly* — прислівник, а після *go* у значенні «стати» потрібен прикметник; *badness* — іменник; *to bad* — неграматично."
   },
   {
    "id": "verb-go-5",
@@ -63,7 +63,7 @@
     "she hates London"
    ],
    "answer": 0,
-   "why": "*has gone to* — пішла й досі там."
+   "why": "*has gone to* — пішла й досі там. «Була й повернулася» — *has been to*; майбутнє — *will go*; ставлення до Лондона тут ні до чого."
   },
   {
    "id": "verb-go-6",
@@ -76,7 +76,7 @@
     "she hates London"
    ],
    "answer": 0,
-   "why": "*has been to* — побувала й повернулася."
+   "why": "*has been to* — побувала й повернулася. «Поїхала й досі там» — *has gone to*; майбутнє — *will go*; ставлення до Лондона тут ні до чого."
   },
   {
    "id": "verb-go-7",
@@ -89,7 +89,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "Транспорт — *by* без артикля: *by train*."
+   "why": "Транспорт — *by* без артикля: *by train*. *on train* — без артикля так не кажуть (*on the train*); *with train* і *at train* — неграматично."
   },
   {
    "id": "verb-go-8",
@@ -102,7 +102,7 @@
     "refuse"
    ],
    "answer": 0,
-   "why": "*go on* — продовжувати."
+   "why": "*go on* — продовжувати. «Вийти» — *go out*; «зупинитися» — *stop*; «відмовитися» — *refuse*; *go on* означає продовжувати."
   },
   {
    "id": "verb-go-9",
@@ -173,7 +173,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*go for a drink* — піти випити чогось."
+   "why": "*go for a drink* — піти випити чогось. *go to a drink*, *go on a drink*, *go at a drink* так не кажуть: мету прогулянки вводить *for*."
   },
   {
    "id": "verb-go-16",
@@ -186,7 +186,7 @@
     "go"
    ],
    "answer": 0,
-   "why": "Досвід «побував» — *have been to*: *Have you ever been to Paris?*"
+   "why": "Досвід «побував» — *have been to*: *Have you ever been to Paris?* *going* і *go* — після *have* потрібна третя форма; *went* — друга форма, з *have* не поєднується."
   },
   {
    "id": "verb-go-17",
@@ -199,7 +199,7 @@
     "away"
    ],
    "answer": 0,
-   "why": "*go on* — продовжуй (говорити)."
+   "why": "*go on* — продовжуй (говорити). *go up* — підніматися; *go off* — вибухнути, задзвонити; *go away* — «іди геть», а мовець саме слухає."
   },
   {
    "id": "verb-go-18",
@@ -274,7 +274,7 @@
     "on"
    ],
    "answer": 1,
-   "why": "*go with* — пасувати до."
+   "why": "*go with* — пасувати до. *go for* — обрати, напасти; *go to* — рух кудись; *go on* — продовжувати; «пасувати до» — лише *go with*."
   },
   {
    "id": "verb-go-23",

@@ -24,7 +24,7 @@
     "has resign"
    ],
    "answer": 0,
-   "why": "У заголовках Present Simple описує подію, що щойно сталася: *Minister resigns*."
+   "why": "У заголовках Present Simple описує подію, що щойно сталася: *Minister resigns*. *resigning yesterday* — бракує особової форми; *to resigned* — після *to* потрібна початкова форма; *has resign* — потрібна третя форма."
   },
   {
    "id": "present-tenses-advanced-3",
@@ -37,7 +37,7 @@
     "to visited"
    ],
    "answer": 0,
-   "why": "*to* + інфінітив у заголовку — запланована подія: *President to visit Kyiv*."
+   "why": "*to* + інфінітив у заголовку — запланована подія: *President to visit Kyiv*. *visited* — минуле, а візит наступного тижня; *visits yesterday* — суперечність; *to visited* — після *to* потрібна початкова форма."
   },
   {
    "id": "present-tenses-advanced-4",
@@ -50,7 +50,7 @@
     "have chopped"
    ],
    "answer": 0,
-   "why": "Рецепти й інструкції — Present Simple: *First you chop the onions.*"
+   "why": "Рецепти й інструкції — Present Simple: *First you chop the onions.* *are chopping* — процес зараз, а не крок інструкції; *chopped* і *have chopped* — минуле чи результат."
   },
   {
    "id": "present-tenses-advanced-5",
@@ -63,7 +63,7 @@
     "I'm hear"
    ],
    "answer": 0,
-   "why": "*I hear* = «мені сказали»: *I hear you're moving.*"
+   "why": "*I hear* = «мені сказали»: *I hear you're moving.* *I'm hearing to* — зайве *to*; *I heard that is* — бракує підмета; *I'm hear* — *am* без *-ing*."
   },
   {
    "id": "present-tenses-advanced-6",
@@ -102,7 +102,7 @@
     "am apologised"
    ],
    "answer": 0,
-   "why": "Дієслова, що самі є дією (*apologise, promise*), — у Present Simple: *I apologise for the delay.*"
+   "why": "Дієслова, що самі є дією (*apologise, promise*), — у Present Simple: *I apologise for the delay.* *am apologise* — *am* без *-ing*; *apologising* — немає особової форми; *am apologised* — пасив."
   },
   {
    "id": "present-tenses-advanced-9",
@@ -115,7 +115,7 @@
     "has pass"
    ],
    "answer": 0,
-   "why": "У спортивному коментарі короткі швидкі дії — Present Simple: *Smith passes…*"
+   "why": "У спортивному коментарі короткі швидкі дії — Present Simple: *Smith passes…* *is pass* — *is* без *-ing*; *passing* — немає особової форми; *has pass* — потрібна третя форма."
   },
   {
    "id": "present-tenses-advanced-10",

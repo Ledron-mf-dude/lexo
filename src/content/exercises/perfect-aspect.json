@@ -11,7 +11,7 @@
     "is"
    ],
    "answer": 0,
-   "why": "*It was the first time* + Past Perfect: *she had been abroad*."
+   "why": "*It was the first time* + Past Perfect: *she had been abroad*. *has been* і *has gone* — Present Perfect, а відлік у минулому (*It was*); *is* — теперішній час."
   },
   {
    "id": "perfect-aspect-2",
@@ -24,7 +24,7 @@
     "am ever reading"
    ],
    "answer": 0,
-   "why": "Найвищий ступінь + Present Perfect: *the best book I have ever read*."
+   "why": "Найвищий ступінь + Present Perfect: *the best book I have ever read*. *ever reading* і *am ever reading* — неграматично; *had ever read* — відлік у минулому, а *This is* — теперішній."
   },
   {
    "id": "perfect-aspect-3",
@@ -37,7 +37,7 @@
     "had finished"
    ],
    "answer": 0,
-   "why": "У підрядному часу про майбутнє — Present Perfect (без *will*): *when I have finished*."
+   "why": "У підрядному часу про майбутнє — Present Perfect (без *will*): *when I have finished*. *will have finished* і *will finish* — майбутнє після *when* не вживаємо; *had finished* — минуле."
   },
   {
    "id": "perfect-aspect-4",
@@ -50,7 +50,7 @@
     "to have leave"
    ],
    "answer": 0,
-   "why": "Вона вже пішла — дія раніша: *to have left*."
+   "why": "Вона вже пішла — дія раніша: *to have left*. *to leave* — загальний зміст, суперечить *already*; *having left* — після *seem* потрібен інфінітив; *to have leave* — потрібна третя форма."
   },
   {
    "id": "perfect-aspect-5",
@@ -63,7 +63,7 @@
     "to take"
    ],
    "answer": 0,
-   "why": "*deny* + (перфектний) герундій: *having taken*."
+   "why": "*deny* + (перфектний) герундій: *having taken*. *to have taken* і *to take* — після *deny* потрібне *-ing*; *have taken* — особова форма."
   },
   {
    "id": "perfect-aspect-6",
@@ -76,7 +76,7 @@
     "Had finished"
    ],
    "answer": 0,
-   "why": "*Having finished* — спершу закінчила, потім пішла."
+   "why": "*Having finished* — спершу закінчила, потім пішла. *Have finished* — особова форма без підмета; *To have finished* — мета; *Had finished* — особова форма без підмета."
   },
   {
    "id": "perfect-aspect-7",
@@ -102,7 +102,7 @@
     "you finished"
    ],
    "answer": 0,
-   "why": "*When* — конкретний момент, Past Simple: *When did you finish?*"
+   "why": "*When* — конкретний момент, Past Simple: *When did you finish?* *have you finished* — Present Perfect із *When* не вживають; *you have finished* і *you finished* — порядок розповідного речення."
   },
   {
    "id": "perfect-aspect-9",
@@ -115,7 +115,7 @@
     "are you doing done"
    ],
    "answer": 0,
-   "why": "Сліди процесу — *have you been doing*."
+   "why": "Сліди процесу — *have you been doing*. *you have been doing* — порядок розповідного речення; *did you been doing* і *are you doing done* — неграматично."
   },
   {
    "id": "perfect-aspect-10",

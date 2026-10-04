@@ -11,7 +11,7 @@
     "I like football much very."
    ],
    "answer": 1,
-   "why": "Прислівник не ставимо між дієсловом і прямим додатком: *I like football very much.*"
+   "why": "Прислівник не ставимо між дієсловом і прямим додатком: *I like football very much.* *like very much football* — прислівник між дієсловом і додатком; *I football like* — додаток перед дієсловом; *much very* — неправильний порядок."
   },
   {
    "id": "adverb-position-2",
@@ -37,7 +37,7 @@
     "always late is"
    ],
    "answer": 1,
-   "why": "З *to be* прислівник частоти стоїть після дієслова: *She is always late.*"
+   "why": "З *to be* прислівник частоти стоїть після дієслова: *She is always late.* *always is* — з *be* прислівник стоїть після дієслова; *is late always* і *always late is* — неприродне місце."
   },
   {
    "id": "adverb-position-4",
@@ -50,7 +50,7 @@
     "ever never"
    ],
    "answer": 0,
-   "why": "Прислівник — після першого допоміжного: *I have never seen it.*"
+   "why": "Прислівник — після першого допоміжного: *I have never seen it.* *never been seen* — пасив, «мене ніколи не бачили»; *never to* — зайве *to*; *ever never* — подвоєння."
   },
   {
    "id": "adverb-position-5",
@@ -63,7 +63,7 @@
     "degree"
    ],
    "answer": 0,
-   "why": "*Unfortunately* виражає ставлення мовця й стоїть на початку."
+   "why": "*Unfortunately* виражає ставлення мовця й стоїть на початку. Спосіб — *slowly*; місце — *here*; ступінь — *very*; *Unfortunately* передає ставлення мовця до всього речення."
   },
   {
    "id": "adverb-position-6",
@@ -76,7 +76,7 @@
     "She beautifully last night sang at the party."
    ],
    "answer": 0,
-   "why": "Обставини йдуть у порядку: як (*beautifully*) → де (*at the party*) → коли (*last night*)."
+   "why": "Обставини йдуть у порядку: як (*beautifully*) → де (*at the party*) → коли (*last night*). *last night beautifully at the party* — час перед способом і місцем; *Last night at the party she beautifully sang* і *She beautifully last night sang* — прислівник розриває підмет і дієслово з обставинами."
   },
   {
    "id": "adverb-position-7",
@@ -89,7 +89,7 @@
     "Tom kissed Anna once"
    ],
    "answer": 0,
-   "why": "*Only* перед *Tom* стосується Тома: ніхто інший не поцілував Анну."
+   "why": "*Only* перед *Tom* стосується Тома: ніхто інший не поцілував Анну. «Том нічого іншого не зробив» — *Tom only kissed Anna*; «нікого іншого» — *Tom kissed only Anna*; «один раз» — *once*."
   },
   {
    "id": "adverb-position-8",
@@ -102,7 +102,7 @@
     "He goes there often to."
    ],
    "answer": 1,
-   "why": "*often* — перед основним дієсловом: *He often goes there.*"
+   "why": "*often* — перед основним дієсловом: *He often goes there.* *goes often there* — прислівник частоти не стоїть після основного дієслова; *He there often goes* — місце перед дієсловом; *often to* — зайве *to*."
   },
   {
    "id": "adverb-position-9",
@@ -159,7 +159,7 @@
     "Fluently she English speaks."
    ],
    "answer": 0,
-   "why": "Прислівник способу — після додатка: *speaks English fluently*."
+   "why": "Прислівник способу — після додатка: *speaks English fluently*. *speaks fluently English* — прислівник між дієсловом і додатком; *fluently speaks English very* — зайве *very* в кінці; *Fluently she English speaks* — неправильний порядок."
   },
   {
    "id": "adverb-position-14",
@@ -172,7 +172,7 @@
     "Usually we dinner have at seven."
    ],
    "answer": 0,
-   "why": "Частота — перед основним дієсловом: *usually have dinner*."
+   "why": "Частота — перед основним дієсловом: *usually have dinner*. *have usually dinner* і *have dinner usually* — частота після основного дієслова; *Usually we dinner have* — неправильний порядок."
   },
   {
    "id": "adverb-position-15",
@@ -185,7 +185,7 @@
     "Probably he call will later."
    ],
    "answer": 0,
-   "why": "У ствердженні *probably* — після *will*: *He will probably call later.*"
+   "why": "У ствердженні *probably* — після *will*: *He will probably call later.* *will probably calls* — після *will* немає *-s*; *will call probably later* — неприродне місце; *Probably he call will* — неправильний порядок."
   },
   {
    "id": "adverb-position-16",
@@ -198,7 +198,7 @@
     "Already they left have."
    ],
    "answer": 0,
-   "why": "*already* — між *have* і третьою формою: *have already left*."
+   "why": "*already* — між *have* і третьою формою: *have already left*. *have already leave* — потрібна третя форма; *already yet* — подвоєння; *Already they left have* — неправильний порядок."
   },
   {
    "id": "adverb-position-17",
@@ -293,7 +293,7 @@
     "Really I don't like it."
    ],
    "answer": 1,
-   "why": "*don't really like* — пом'якшення («не дуже подобається»). *really don't like* — підсилення («зовсім не подобається»)."
+   "why": "*don't really like* — пом'якшення («не дуже подобається»). *really don't like* — підсилення («зовсім не подобається»). *I really don't like it* — сильніше: «зовсім не подобається»; *don't like really it* — прислівник між дієсловом і додатком; *Really I don't like it* — неприродно."
   },
   {
    "id": "adverb-position-23",

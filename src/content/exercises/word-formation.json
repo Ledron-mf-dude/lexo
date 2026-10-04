@@ -37,7 +37,7 @@
     "dislegal"
    ],
    "answer": 1,
-   "why": "Перед *l* заперечний префікс — *il-*: *illegal*. (Перед *p, m* — *im-*, перед *r* — *ir-*.)"
+   "why": "Перед *l* заперечний префікс — *il-*: *illegal*. (Перед *p, m* — *im-*, перед *r* — *ir-*.) *unlegal*, *inlegal*, *dislegal* — перед *l* потрібен префікс *il-*."
   },
   {
    "id": "word-formation-4",
@@ -50,7 +50,7 @@
     "overunderstood"
    ],
    "answer": 2,
-   "why": "*mis-* — «неправильно»: *misunderstood*."
+   "why": "*mis-* — «неправильно»: *misunderstood*. *dis-*, *un-* і *over-* з *understand* не поєднуються; «неправильно зрозумів» — *mis-*."
   },
   {
    "id": "word-formation-5",
@@ -76,7 +76,7 @@
     "user"
    ],
    "answer": 1,
-   "why": "*-less* — «без»: *useless* (без користі)."
+   "why": "*-less* — «без»: *useless* (без користі). *useful* — корисний, а ніж нічого не ріже; *usage* — іменник «вживання»; *user* — «користувач»."
   },
   {
    "id": "word-formation-7",
@@ -89,7 +89,7 @@
     "simply"
    ],
    "answer": 2,
-   "why": "Після *can* — дієслово: *simplify* (суфікс *-ify*)."
+   "why": "Після *can* — дієслово: *simplify* (суфікс *-ify*). *simple* — прикметник; *simplicity* — іменник; *simply* — прислівник; після *can* потрібне дієслово."
   },
   {
    "id": "word-formation-8",
@@ -102,7 +102,7 @@
     "honestly"
    ],
    "answer": 2,
-   "why": "Після *very* — прикметник: *honest*."
+   "why": "Після *very* — прикметник: *honest*. *honesty* — іменник; *dishonest* — нечесний, а він завжди каже правду; *honestly* — прислівник."
   },
   {
    "id": "word-formation-9",

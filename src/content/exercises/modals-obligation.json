@@ -46,7 +46,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Порада — *should*: *You should see a doctor.*"
+   "why": "Порада — *should*: *You should see a doctor.* *mustn't* — заборона, а людина хвора; *needn't* — «не треба», суперечить порадам; *have* без *to* не означає обов'язку."
   },
   {
    "id": "modals-obligation-5",
@@ -59,7 +59,7 @@
     "shouldn't"
    ],
    "answer": 0,
-   "why": "*needn't have* + третя форма — зробив, хоча не треба було: *You needn't have brought food.*"
+   "why": "*needn't have* + третя форма — зробив, хоча не треба було: *You needn't have brought food.* *mustn't have* так не вживають; *don't have to have* — неграматично; *shouldn't* без *have brought* стосується теперішнього, а не зробленого."
   },
   {
    "id": "modals-obligation-6",
@@ -72,7 +72,7 @@
     "left"
    ],
    "answer": 1,
-   "why": "Після *had better* — інфінітив без *to*: *You'd better leave now.*"
+   "why": "Після *had better* — інфінітив без *to*: *You'd better leave now.* *to leave* — після *had better* немає *to*; *leaving* і *left* — не початкова форма."
   },
   {
    "id": "modals-obligation-7",
@@ -94,7 +94,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "Правило, встановлене кимось ззовні, — *have to*: *We have to wear a uniform.*"
+   "why": "Правило, встановлене кимось ззовні, — *have to*: *We have to wear a uniform.* *mustn't* — заборона; *needn't* — «не треба»; *should* — порада, а не правило школи."
   },
   {
    "id": "modals-obligation-9",
@@ -107,7 +107,7 @@
     "must"
    ],
    "answer": 1,
-   "why": "Вміння в минулому — *could*."
+   "why": "Вміння в минулому — *could*. *can* — теперішній час; *is able* — бракує *to*, і час теперішній; *must* — обов'язок, а не вміння."
   },
   {
    "id": "modals-obligation-10",
@@ -188,7 +188,7 @@
     "has to"
    ],
    "answer": 0,
-   "why": "Питання з *have to* — через *do*: *Do you have to work on Saturdays?*"
+   "why": "Питання з *have to* — через *do*: *Do you have to work on Saturdays?* *must to* — після *must* немає *to*; *Do you must* — *must* не утворює питання з *do*; *has to* — після *do you* потрібна форма *have*."
   },
   {
    "id": "modals-obligation-17",
@@ -214,7 +214,7 @@
     "have must"
    ],
    "answer": 0,
-   "why": "*must* не має майбутньої форми, тому *will have to*."
+   "why": "*must* не має майбутньої форми, тому *will have to*. *will must*, *must will*, *have must* — два модальні поспіль або неправильний порядок."
   },
   {
    "id": "modals-obligation-19",
@@ -303,7 +303,7 @@
     "haven't to"
    ],
    "answer": 1,
-   "why": "Заборона — *mustn't*: секрет не можна розповідати."
+   "why": "Заборона — *mustn't*: секрет не можна розповідати. *don't have to* і *needn't* — «не обов'язково», а секрет розповідати заборонено; *haven't to* — неграматично."
   },
   {
    "id": "modals-obligation-25",

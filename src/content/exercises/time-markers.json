@@ -11,7 +11,7 @@
     "currently"
    ],
    "answer": 0,
-   "why": "*every day* — регулярність, маркер Present Simple, як і *I go*. Інші варіанти — маркери Present Continuous."
+   "why": "*every day* — регулярність, маркер Present Simple, як і *I go*. Інші варіанти — маркери Present Continuous. *right now*, *at the moment*, *currently* означають «саме зараз» і вимагали б *I am going*."
   },
   {
    "id": "time-markers-2",
@@ -37,7 +37,7 @@
     "She is late always."
    ],
    "answer": 1,
-   "why": "Прислівник частоти стоїть після *to be*: *She is always late.*"
+   "why": "Прислівник частоти стоїть після *to be*: *She is always late.* *always is* — після *be* прислівник частоти стоїть, а не перед ним; *Always she is* і *late always* — неприродне місце для *always*."
   },
   {
    "id": "time-markers-4",
@@ -50,7 +50,7 @@
     "never"
    ],
    "answer": 3,
-   "why": "Вегетаріанець ніколи не їсть м'яса — *never*."
+   "why": "Вегетаріанець ніколи не їсть м'яса — *never*. *always*, *usually*, *sometimes* означали б, що м'ясо він хоч інколи їсть, а вегетаріанець — ніколи."
   },
   {
    "id": "time-markers-5",
@@ -63,7 +63,7 @@
     "has snow"
    ],
    "answer": 1,
-   "why": "*Look!* — зараз, Present Continuous: *It is snowing.*"
+   "why": "*Look!* — зараз, Present Continuous: *It is snowing.* *snows* — звичка; *snowed* — минуле; *has snow* — бракує дієприкметника (*has snowed*)."
   },
   {
    "id": "time-markers-6",
@@ -76,7 +76,7 @@
     "Usually goes he to school by bus."
    ],
    "answer": 1,
-   "why": "Прислівник частоти — перед основним дієсловом: *He usually goes…*"
+   "why": "Прислівник частоти — перед основним дієсловом: *He usually goes…* *goes usually* — прислівник частоти не стоїть після основного дієслова; *to usually school* — розриває *to school*; *Usually goes he* — порядок питання в розповідному реченні."
   },
   {
    "id": "time-markers-7",
@@ -89,7 +89,7 @@
     "Past Perfect"
    ],
    "answer": 0,
-   "why": "*twice a week* — регулярність, Present Simple."
+   "why": "*twice a week* — регулярність, Present Simple. Present Continuous — дія зараз, Future Continuous — процес у майбутньому, Past Perfect — дія до моменту в минулому; регулярність — Present Simple."
   },
   {
    "id": "time-markers-8",
@@ -102,7 +102,7 @@
     "a plan"
    ],
    "answer": 1,
-   "why": "*always* + Present Continuous — роздратування повторюваною дією."
+   "why": "*always* + Present Continuous — роздратування повторюваною дією. Розклад і загальні факти передає Present Simple, план — Present Continuous без *always*; *always* + Continuous додає емоцію."
   },
   {
    "id": "time-markers-9",
@@ -115,7 +115,7 @@
     "never"
    ],
    "answer": 0,
-   "why": "*these days* — тимчасова ситуація, підходить до Present Continuous."
+   "why": "*these days* — тимчасова ситуація, підходить до Present Continuous. *every day*, *usually*, *never* — маркери звички, Present Simple, а не тимчасової ситуації."
   },
   {
    "id": "time-markers-10",
@@ -176,7 +176,7 @@
     "has been going"
    ],
    "answer": 0,
-   "why": "*last year* — Past Simple: *went*."
+   "why": "*last year* — Past Simple: *went*. *has gone* і *has been going* — Present Perfect не вживають із *last year*; *goes* — теперішній час."
   },
   {
    "id": "time-markers-16",
@@ -202,7 +202,7 @@
     "has had"
    ],
    "answer": 0,
-   "why": "*right now* — Present Continuous: *is having a shower*."
+   "why": "*right now* — Present Continuous: *is having a shower*. *has* — звичка (*He has a shower every morning*); *had* — минуле; *has had* — уже завершено, а не «зараз»."
   },
   {
    "id": "time-markers-18",
@@ -215,7 +215,7 @@
     "are having"
    ],
    "answer": 0,
-   "why": "Конкретний момент у минулому (*At 7 pm yesterday*) — Past Continuous."
+   "why": "Конкретний момент у минулому (*At 7 pm yesterday*) — Past Continuous. *had had* — вечеря вже закінчилася до 7-ї; *have* і *are having* — теперішній час, а йдеться про вчора."
   },
   {
    "id": "time-markers-19",
@@ -228,7 +228,7 @@
     "wasn't seeing"
    ],
    "answer": 0,
-   "why": "*since Monday* — від моменту до тепер, Present Perfect: *haven't seen*."
+   "why": "*since Monday* — від моменту до тепер, Present Perfect: *haven't seen*. *didn't see* — Past Simple, із *since* не вживається; *don't see* — теперішній; *wasn't seeing* — Past Continuous, не до «тепер»."
   },
   {
    "id": "time-markers-20",
@@ -289,7 +289,7 @@
     "you have been working"
    ],
    "answer": 1,
-   "why": "*How long* про дію, що почалася в минулому й триває досі, — Present Perfect Continuous: *How long have you been working…?*"
+   "why": "*How long* про дію, що почалася в минулому й триває досі, — Present Perfect Continuous: *How long have you been working…?* *do you work* — питання про звичку, з *How long* не вживається для «досі»; *are you working* — лише зараз; *you have been working* — порядок розповідного речення."
   },
   {
    "id": "time-markers-24",

@@ -37,7 +37,7 @@
     "by"
    ],
    "answer": 2,
-   "why": "Пори року — *in*: *in winter, in summer*."
+   "why": "Пори року — *in*: *in winter, in summer*. *at* — для точного часу; *on* — для днів і дат; *by* — «не пізніше ніж»."
   },
   {
    "id": "prepositions-time-4",
@@ -50,7 +50,7 @@
     "by"
    ],
    "answer": 1,
-   "why": "*in* + проміжок часу від тепер означає «через»: *in ten minutes* — через десять хвилин. *after ten minutes* — про минуле (через десять хвилин після чогось)."
+   "why": "*in* + проміжок часу від тепер означає «через»: *in ten minutes* — через десять хвилин. *after ten minutes* — про минуле (через десять хвилин після чогось). *on* — дні й дати; *at* — точний момент; *by ten minutes* так не кажуть («не пізніше ніж» — *by 10 o'clock*)."
   },
   {
    "id": "prepositions-time-5",
@@ -128,7 +128,7 @@
     "in / to"
    ],
    "answer": 0,
-   "why": "Проміжок «з … до …» — *from … to …*: *from Monday to Friday*. (Також *from … until …*.)"
+   "why": "Проміжок «з … до …» — *from … to …*: *from Monday to Friday*. (Також *from … until …*.) *at / at*, *on / by* і *in / to* не утворюють пари «з … до …»."
   },
   {
    "id": "prepositions-time-11",
@@ -212,7 +212,7 @@
     "at next"
    ],
    "answer": 0,
-   "why": "Перед *next, last, this, every* прийменник не ставимо: *next week, last year*."
+   "why": "Перед *next, last, this, every* прийменник не ставимо: *next week, last year*. *on next*, *in next* і *at next* — перед *next* прийменник не ставлять."
   },
   {
    "id": "prepositions-time-19",
@@ -320,7 +320,7 @@
     "during the"
    ],
    "answer": 2,
-   "why": "Десятиліття, як і роки, — *in*: *in the 1980s*."
+   "why": "Десятиліття, як і роки, — *in*: *in the 1980s*. *on* — дні й дати; *at* — точний момент; *during the the 1980s* — зайвий другий артикль."
   },
   {
    "id": "prepositions-time-26",

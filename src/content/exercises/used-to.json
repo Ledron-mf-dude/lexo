@@ -59,7 +59,7 @@
     "have used to"
    ],
    "answer": 0,
-   "why": "*would* + дієслово — повторювані дії в минулому (як *used to*): *we would play outside all day*."
+   "why": "*would* + дієслово — повторювані дії в минулому (як *used to*): *we would play outside all day*. *are used to* і *get used to* — «звикли / звикати», а не повторювані дії в минулому; *have used to* — неграматично."
   },
   {
    "id": "used-to-6",
@@ -72,7 +72,7 @@
     "I use to have a dog."
    ],
    "answer": 1,
-   "why": "Про стан у минулому (мати собаку) — лише *used to*. *would* вживають тільки для повторюваних дій."
+   "why": "Про стан у минулому (мати собаку) — лише *used to*. *would* вживають тільки для повторюваних дій. *would have a dog* — *would* не вживають для станів; *am used to have* — «звик» і потребує *-ing*; *use to* без *did* — помилка."
   },
   {
    "id": "used-to-7",
@@ -94,7 +94,7 @@
     "get used to"
    ],
    "answer": 1,
-   "why": "У запереченні — *didn't use to* (без *-d*)."
+   "why": "У запереченні — *didn't use to* (без *-d*). *didn't used to* — після *did* *-d* відпадає; *be used to* і *get used to* — «звикнути», зміст інший."
   },
   {
    "id": "used-to-9",
@@ -210,7 +210,7 @@
     "Have"
    ],
    "answer": 0,
-   "why": "Питання: *Did* + підмет + *use to*."
+   "why": "Питання: *Did* + підмет + *use to*. *Were you use to* і *Have you use to* — питання з *used to* будують через *did*; *Do you use to* — теперішній час."
   },
   {
    "id": "used-to-19",
@@ -300,7 +300,7 @@
     "be drive"
    ],
    "answer": 1,
-   "why": "*get used to* + *-ing*: *driving*."
+   "why": "*get used to* + *-ing*: *driving*. *drive* — після *to* у *get used to* потрібне *-ing*, бо *to* тут прийменник; *drove* — минуле; *be drive* — неграматично."
   },
   {
    "id": "used-to-25",

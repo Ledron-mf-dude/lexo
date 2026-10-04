@@ -11,7 +11,7 @@
     "that"
    ],
    "answer": 0,
-   "why": "*one* замінює іменник в однині, щоб не повторювати: *the red one* (shirt)."
+   "why": "*one* замінює іменник в однині, щоб не повторювати: *the red one* (shirt). *ones* — замінює множину, а сорочка одна; *it* і *that* не стоять після прикметника."
   },
   {
    "id": "ellipsis-substitution-2",
@@ -33,11 +33,11 @@
    "options": [
     "so",
     "it",
-    "not",
+    "that",
     "yes"
    ],
    "answer": 0,
-   "why": "*I think so* — *so* замінює ціле речення («думаю, що піде»)."
+   "why": "*I think so* — *so* замінює ціле речення («думаю, що піде»). *I think it* і *I think that* — неповні речення; *I think yes* — калька з української."
   },
   {
    "id": "ellipsis-substitution-4",
@@ -63,7 +63,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*do* замінює *speak French*: *than I do*."
+   "why": "*do* замінює *speak French*: *than I do*. *am* і *have* — інші допоміжні, а *speaks* — Present Simple; *does* — для *he / she / it*, а не *I*."
   },
   {
    "id": "ellipsis-substitution-6",
@@ -76,7 +76,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*did* замінює *called*: *but I did*."
+   "why": "*did* замінює *called*: *but I did*. *do* — теперішній час, а *didn't call* — минулий; *was* і *have* — інші допоміжні."
   },
   {
    "id": "ellipsis-substitution-7",
@@ -102,7 +102,7 @@
     "The same"
    ],
    "answer": 0,
-   "why": "Ellipsis — пропуск: *Tom is tall and (he is) thin.*"
+   "why": "Ellipsis — пропуск: *Tom is tall and (he is) thin.* *The red one*, *I think so* і *The same* — заміна словами, а не пропуск."
   },
   {
    "id": "ellipsis-substitution-9",
@@ -161,7 +161,7 @@
     "I think no."
    ],
    "answer": 0,
-   "why": "*I don't think so* — природна заперечна відповідь."
+   "why": "*I don't think so* — природна заперечна відповідь. *I think not so* — подвійне заперечення; *I don't think it* — неповне речення; *I think no* — калька."
   },
   {
    "id": "ellipsis-substitution-15",
@@ -174,7 +174,7 @@
     "calling"
    ],
    "answer": 0,
-   "why": "*I forgot to* — пропускаємо *call*, але *to* лишаємо."
+   "why": "*I forgot to* — пропускаємо *call*, але *to* лишаємо. *it to* — зайвий займенник; *to do* — неприродне повторення; *calling* — «забув, що дзвонив», інший зміст."
   },
   {
    "id": "ellipsis-substitution-16",
@@ -187,7 +187,7 @@
     "does so it"
    ],
    "answer": 0,
-   "why": "*and he did* — *did* замінює *helped*."
+   "why": "*and he did* — *did* замінює *helped*. *made* — не замінює *help*; *helped it* — зайвий займенник; *does so it* — неграматично."
   },
   {
    "id": "ellipsis-substitution-17",
@@ -200,7 +200,7 @@
     "Tom is tall and thin."
    ],
    "answer": 0,
-   "why": "Заміна (substitution) — *so* у *I think so*."
+   "why": "Заміна (substitution) — *so* у *I think so*. *Coming?* і *Want some tea?* — пропуск слів; *Tom is tall and thin* — теж пропуск *he is*."
   },
   {
    "id": "ellipsis-substitution-18",
@@ -260,7 +260,7 @@
     "I can't too."
    ],
    "answer": 1,
-   "why": "Згода із запереченням — *Neither can I.*"
+   "why": "Згода із запереченням — *Neither can I.* *Me too* і *So can I* — згода зі ствердженням; *I can't too* — у запереченні замість *too* вживають *either*."
   },
   {
    "id": "ellipsis-substitution-22",

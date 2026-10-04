@@ -11,7 +11,7 @@
     "more"
    ],
    "answer": 0,
-   "why": "Трохи (*only slightly*) — *a bit* + порівняльний: *a bit hotter*."
+   "why": "Трохи (*only slightly*) — *a bit* + порівняльний: *a bit hotter*. *very hotter* і *most hotter* — неграматично; *more hotter* — подвійне порівняння."
   },
   {
    "id": "comparative-modifiers-2",
@@ -37,7 +37,7 @@
     "a bit more convenient"
    ],
    "answer": 1,
-   "why": "*very* не стоїть перед порівняльним ступенем: *very more* — помилка. Правильно *much / a lot / a bit more*."
+   "why": "*very* не стоїть перед порівняльним ступенем: *very more* — помилка. Правильно *much / a lot / a bit more*. *much more*, *a lot more* і *a bit more* — правильні підсилювачі порівняльного ступеня, тому помилка лише у *very more*."
   },
   {
    "id": "comparative-modifiers-4",
@@ -50,7 +50,7 @@
     "hottest"
    ],
    "answer": 1,
-   "why": "Односкладовий *hot* (приголосна + голосна + приголосна) подвоює кінцеву: *hotter*."
+   "why": "Односкладовий *hot* (приголосна + голосна + приголосна) подвоює кінцеву: *hotter*. *hoter* — без подвоєння *t*; *more hot* — односкладовий прикметник не вживається з *more*; *hottest* — найвищий ступінь."
   },
   {
    "id": "comparative-modifiers-5",
@@ -63,7 +63,7 @@
     "convenientest"
    ],
    "answer": 1,
-   "why": "Трискладовий *convenient* — *more convenient*."
+   "why": "Трискладовий *convenient* — *more convenient*. *convenienter* і *convenientest* — довгі прикметники не беруть закінчень; *most convenient* — найвищий ступінь."
   },
   {
    "id": "comparative-modifiers-6",
@@ -195,7 +195,7 @@
     "a few"
    ],
    "answer": 0,
-   "why": "*a bit less traffic* — трохи менше."
+   "why": "*a bit less traffic* — трохи менше. *very less* — *very* не стоїть перед порівняльним ступенем; *many* і *a few* — для лічильних, а *traffic* нелічильне."
   },
   {
    "id": "comparative-modifiers-17",
@@ -221,7 +221,7 @@
     "a lot"
    ],
    "answer": 0,
-   "why": "З найвищим ступенем — *by far the best* («значно найкращий»)."
+   "why": "З найвищим ступенем — *by far the best* («значно найкращий»). *very the best* і *a lot the best* — неграматично; *much more the best* — порівняльний і найвищий разом."
   },
   {
    "id": "comparative-modifiers-19",
@@ -300,7 +300,7 @@
     "hardest and hardest"
    ],
    "answer": 1,
-   "why": "Дедалі важче — порівняльний + *and* + порівняльний: *harder and harder*."
+   "why": "Дедалі важче — порівняльний + *and* + порівняльний: *harder and harder*. *hard and hard* — без порівняльного ступеня; *more and harder* — змішані форми; *hardest and hardest* — найвищий ступінь не передає «дедалі»."
   },
   {
    "id": "comparative-modifiers-24",

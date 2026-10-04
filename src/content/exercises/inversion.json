@@ -11,7 +11,7 @@
     "None"
    ],
    "answer": 0,
-   "why": "Після заперечного прислівника на початку (*Never*) — інверсія: допоміжне перед підметом: *Never have I seen such a thing.*"
+   "why": "Після заперечного прислівника на початку (*Never*) — інверсія: допоміжне перед підметом: *Never have I seen such a thing.* *No have I*, *Not have I*, *None have I* — на початку для інверсії потрібен прислівник *Never*."
   },
   {
    "id": "inversion-2",
@@ -37,7 +37,7 @@
     "was"
    ],
    "answer": 1,
-   "why": "*Hardly had* + підмет + третя форма + *when*: *Hardly had I arrived when it started to rain.*"
+   "why": "*Hardly had* + підмет + третя форма + *when*: *Hardly had I arrived when it started to rain.* *have* — у цій конструкції подія в минулому, тому *had*; *did* і *was* не поєднуються з третьою формою *arrived*."
   },
   {
    "id": "inversion-4",
@@ -50,7 +50,7 @@
     "as"
    ],
    "answer": 1,
-   "why": "*No sooner … than* — сталий парний зв'язок: *No sooner had she left than he called.*"
+   "why": "*No sooner … than* — сталий парний зв'язок: *No sooner had she left than he called.* *when* стоїть у парі з *hardly*, а не з *no sooner*; *that* і *as* такої пари не утворюють."
   },
   {
    "id": "inversion-5",
@@ -63,7 +63,7 @@
     "was"
    ],
    "answer": 0,
-   "why": "*Not only did he win, but he also…* — інверсія з *did*."
+   "why": "*Not only did he win, but he also…* — інверсія з *did*. *does* — теперішній час, а *broke* — минулий; *has* і *was* не поєднуються з *win*."
   },
   {
    "id": "inversion-6",
@@ -76,7 +76,7 @@
     "was"
    ],
    "answer": 1,
-   "why": "*Only then did I understand…* — інверсія в минулому."
+   "why": "*Only then did I understand…* — інверсія в минулому. *do* — теперішній час; *have* і *was* не поєднуються з *understand*."
   },
   {
    "id": "inversion-7",
@@ -89,7 +89,7 @@
     "Have never I seen it."
    ],
    "answer": 1,
-   "why": "Допоміжне перед підметом: *Never have I seen it.*"
+   "why": "Допоміжне перед підметом: *Never have I seen it.* *Never I have seen* — без інверсії; *Never I saw it have* і *Have never I seen* — неправильний порядок."
   },
   {
    "id": "inversion-8",
@@ -102,7 +102,7 @@
     "did"
    ],
    "answer": 1,
-   "why": "*So beautiful was the view that…* — інверсія після *so* + прикметник."
+   "why": "*So beautiful was the view that…* — інверсія після *so* + прикметник. *is* — теперішній час, а *we stayed* — минулий; *were* — множина, а *the view* — однина; *did* не поєднується з прикметником."
   },
   {
    "id": "inversion-9",
@@ -115,7 +115,7 @@
     "did"
    ],
    "answer": 0,
-   "why": "*Under no circumstances should you open it.*"
+   "why": "*Under no circumstances should you open it.* *are you open*, *have you open*, *did you open* — неграматично після заперечного звороту."
   },
   {
    "id": "inversion-10",
@@ -166,7 +166,7 @@
     "Not until"
    ],
    "answer": 0,
-   "why": "Пара *No sooner … than*: *No sooner had I sat down than the phone rang.*"
+   "why": "Пара *No sooner … than*: *No sooner had I sat down than the phone rang.* *Never*, *Only*, *Not until* не утворюють пари з *than*."
   },
   {
    "id": "inversion-15",
@@ -192,7 +192,7 @@
     "were"
    ],
    "answer": 0,
-   "why": "*At no time was the manager informed.*"
+   "why": "*At no time was the manager informed.* *the manager was* — без інверсії; *is was* — два присудки; *were* — множина, а менеджер один."
   },
   {
    "id": "inversion-17",
@@ -272,7 +272,7 @@
     "realised we"
    ],
    "answer": 1,
-   "why": "Після *Not until …* інверсія стоїть у головній частині: *did we realise*."
+   "why": "Після *Not until …* інверсія стоїть у головній частині: *did we realise*. *we realised* і *we did realise* — без інверсії; *realised we* — інверсія без допоміжного."
   },
   {
    "id": "inversion-22",
@@ -285,7 +285,7 @@
     "do you"
    ],
    "answer": 1,
-   "why": "*Only if …* — інверсія в головній частині: *will you improve*."
+   "why": "*Only if …* — інверсія в головній частині: *will you improve*. *you will* і *you'll* — без інверсії; *do you improve* — теперішній час, а мова про майбутнє."
   },
   {
    "id": "inversion-23",

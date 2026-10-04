@@ -11,7 +11,7 @@
     "would to"
    ],
    "answer": 0,
-   "why": "Намір у минулому, який не здійснився, — *was going to*: *I was going to call you, but I forgot.*"
+   "why": "Намір у минулому, який не здійснився, — *was going to*: *I was going to call you, but I forgot.* *will* і *am going to* — теперішній відлік, а *I forgot* — минуле; *would to* — зайве *to*."
   },
   {
    "id": "future-in-the-past-2",
@@ -37,7 +37,7 @@
     "had about to"
    ],
    "answer": 0,
-   "why": "Ось-ось мало статися в минулому — *was about to*."
+   "why": "Ось-ось мало статися в минулому — *was about to*. *am about to* — теперішній час; *will be about to* — майбутнє; *had about to* — неграматично."
   },
   {
    "id": "future-in-the-past-4",
@@ -59,7 +59,7 @@
     "was go"
    ],
    "answer": 1,
-   "why": "*would* — те, що сталося пізніше, з погляду минулого (*would meet her husband*)."
+   "why": "*would* — те, що сталося пізніше, з погляду минулого (*would meet her husband*). *will* і *is going to* — теперішній відлік, а розповідь про минуле; *was go* — неграматично."
   },
   {
    "id": "future-in-the-past-6",
@@ -85,7 +85,7 @@
     "we will visit"
    ],
    "answer": 1,
-   "why": "*was going to* часто означає план, що не здійснився."
+   "why": "*was going to* часто означає план, що не здійснився. *we did* і *we visited them* — суперечать *but*; *we will visit* — інший час."
   },
   {
    "id": "future-in-the-past-8",
@@ -151,7 +151,7 @@
     "was being"
    ],
    "answer": 0,
-   "why": "*was to* — доля, те, що мало статися (книжне)."
+   "why": "*was to* — доля, те, що мало статися (книжне). *will* і *is to* — теперішній відлік; *was being* — не передає «мало статися»."
   },
   {
    "id": "future-in-the-past-14",
@@ -164,7 +164,7 @@
     "would have"
    ],
    "answer": 0,
-   "why": "Прогноз у минулому, який не справдився, — *would be*."
+   "why": "Прогноз у минулому, який не справдився, — *would be*. *will be* і *is* — без зсуву часу після *said*; *would have* — бракує *been* і зміст інший."
   },
   {
    "id": "future-in-the-past-15",
@@ -177,7 +177,7 @@
     "was about"
    ],
    "answer": 0,
-   "why": "Намір, який не виконали, — *was going to*."
+   "why": "Намір, який не виконали, — *was going to*. *am going to* і *will* — теперішній відлік; *was about* — бракує *to*."
   },
   {
    "id": "future-in-the-past-16",
@@ -190,7 +190,7 @@
     "would"
    ],
    "answer": 0,
-   "why": "Домовленість у минулому — *was leaving the next morning*."
+   "why": "Домовленість у минулому — *was leaving the next morning*. *is* і *will be* — теперішній чи майбутній відлік; *would leaving* — неграматично."
   },
   {
    "id": "future-in-the-past-17",
@@ -252,7 +252,7 @@
     "would to"
    ],
    "answer": 1,
-   "why": "От-от мало статися — *was about to*."
+   "why": "От-от мало статися — *was about to*. *was going* — бракує *to*; *will* — майбутнє; *would to* — зайве *to*."
   },
   {
    "id": "future-in-the-past-21",
@@ -265,7 +265,7 @@
     "shall"
    ],
    "answer": 1,
-   "why": "Майбутнє в минулому — *would help*."
+   "why": "Майбутнє в минулому — *would help*. *will* і *is going* — без зсуву часу після *promised*; *shall* — не вживають у непрямій мові в цьому значенні."
   },
   {
    "id": "future-in-the-past-22",

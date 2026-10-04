@@ -24,7 +24,7 @@
     "too"
    ],
    "answer": 0,
-   "why": "Заперечне порівняння — *not as … as*: *He isn't as strong as me.*"
+   "why": "Заперечне порівняння — *not as … as*: *He isn't as strong as me.* *than* — для порівняльного ступеня (*stronger than*); *more strong* — неправильна форма; *too strong* означає «надто сильний»."
   },
   {
    "id": "as-as-3",
@@ -37,7 +37,7 @@
     "more fast"
    ],
    "answer": 1,
-   "why": "Між *as … as* — звичайна форма: *as fast as*."
+   "why": "Між *as … as* — звичайна форма: *as fast as*. *faster*, *fastest*, *more fast* — ступені порівняння, а між *as … as* стоїть звичайна форма."
   },
   {
    "id": "as-as-4",
@@ -50,7 +50,7 @@
     "She is same tall as me."
    ],
    "answer": 1,
-   "why": "Конструкція — *as … as*: *as tall as me*. *as … than* — помилка змішування."
+   "why": "Конструкція — *as … as*: *as tall as me*. *as … than* — помилка змішування. *as taller as* — порівняльний ступінь між *as … as*; *same tall as* — потрібно *the same height as* або *as tall as*."
   },
   {
    "id": "as-as-5",
@@ -63,7 +63,7 @@
     "don't as tall as"
    ],
    "answer": 0,
-   "why": "Заперечне порівняння — *not as tall as*."
+   "why": "Заперечне порівняння — *not as tall as*. *no as* — *no* не заперечує прикметник; *not tall as* — бракує першого *as*; *don't as* — допоміжне *do* не поєднується з *be*."
   },
   {
    "id": "as-as-6",
@@ -76,7 +76,7 @@
     "an adverb only"
    ],
    "answer": 0,
-   "why": "Між двома *as* — звичайна форма прикметника, без *-er* і *more*."
+   "why": "Між двома *as* — звичайна форма прикметника, без *-er* і *more*. Порівняльний і найвищий ступені між *as … as* не вживають; прислівник з'являється лише з дієсловами дії (*as fast as*), а не завжди."
   },
   {
    "id": "as-as-7",
@@ -89,7 +89,7 @@
     "more heavy"
    ],
    "answer": 0,
-   "why": "Між *as … as* — звичайна форма прикметника: *as heavy as*."
+   "why": "Між *as … as* — звичайна форма прикметника: *as heavy as*. *heavier*, *heaviest*, *more heavy* — ступені порівняння, а між *as … as* стоїть звичайна форма."
   },
   {
    "id": "as-as-8",
@@ -166,7 +166,7 @@
     "more old"
    ],
    "answer": 0,
-   "why": "Між *as … as* — звичайна форма: *as old as he looks*."
+   "why": "Між *as … as* — звичайна форма: *as old as he looks*. *older*, *oldest*, *more old* — ступені порівняння, а між *as … as* стоїть звичайна форма."
   },
   {
    "id": "as-as-15",
@@ -179,7 +179,7 @@
     "lot"
    ],
    "answer": 0,
-   "why": "*people* — лічильне, тому *as many people as*."
+   "why": "*people* — лічильне, тому *as many people as*. *much* — для нелічильних; *more* — порівняльний ступінь, після *as* не стоїть; *lot* без *a* не вживається."
   },
   {
    "id": "as-as-16",
@@ -192,7 +192,7 @@
     "early as"
    ],
    "answer": 0,
-   "why": "*as soon as possible* — сталий вираз «якнайшвидше»."
+   "why": "*as soon as possible* — сталий вираз «якнайшвидше». *sooner* і *soonest* — ступені порівняння; *early as* дає *as early as as possible* — подвійне *as*."
   },
   {
    "id": "as-as-17",
@@ -205,7 +205,7 @@
     "myself"
    ],
    "answer": 0,
-   "why": "У розмові після *as* — об'єктний займенник *me*. Формальніше — *as clever as I am*."
+   "why": "У розмові після *as* — об'єктний займенник *me*. Формальніше — *as clever as I am*. *my* — присвійне означення, після нього потрібен іменник; *mine is* — про власність; *myself* — зворотний займенник."
   },
   {
    "id": "as-as-18",
@@ -276,7 +276,7 @@
     "nearly than"
    ],
    "answer": 0,
-   "why": "*not nearly as … as* — «зовсім не такий, як»."
+   "why": "*not nearly as … as* — «зовсім не такий, як». *nearly so much* — зайве *much*; *near as* — розмовне скорочення; *nearly than* — *than* з *as* не поєднується."
   },
   {
    "id": "as-as-22",
@@ -289,7 +289,7 @@
     "you possible"
    ],
    "answer": 1,
-   "why": "*as soon as possible* — *possible*, прикметник, а не прислівник."
+   "why": "*as soon as possible* — *possible*, прикметник, а не прислівник. *possibly* — прислівник; *can* — без підмета (можна *as soon as you can*); *you possible* — неграматично."
   },
   {
    "id": "as-as-23",

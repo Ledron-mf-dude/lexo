@@ -89,7 +89,7 @@
     "yous"
    ],
    "answer": 1,
-   "why": "Множина від *yourself* — *yourselves*: *-f* змінюється на *-ves*, як у *shelf → shelves*."
+   "why": "Множина від *yourself* — *yourselves*: *-f* змінюється на *-ves*, як у *shelf → shelves*. *yourselfs* — *-f* має змінитися на *-ves*; *yourself's* — присвійна форма; *yous* — діалектне «ви»."
   },
   {
    "id": "reflexive-pronouns-8",
@@ -102,7 +102,7 @@
     "in myself"
    ],
    "answer": 1,
-   "why": "*by myself* — «сам, без допомоги». *myself* без *by* означало б підсилення («я сам», а не хтось)."
+   "why": "*by myself* — «сам, без допомоги». *myself* без *by* означало б підсилення («я сам», а не хтось). *me* — «мене», а не «сам»; *myself by* — неправильний порядок; *in myself* — так не кажуть."
   },
   {
    "id": "reflexive-pronouns-9",
@@ -176,7 +176,7 @@
     "my self"
    ],
    "answer": 0,
-   "why": "*taught myself* — навчився сам."
+   "why": "*taught myself* — навчився сам. *me* — коли підмет і додаток одна особа, потрібен *myself*; *mine* — «мій»; *my self* — пишуть разом."
   },
   {
    "id": "reflexive-pronouns-16",
@@ -189,7 +189,7 @@
     "dressed her"
    ],
    "answer": 0,
-   "why": "*wash, dress, shave* зазвичай без *-self*: *got dressed*."
+   "why": "*wash, dress, shave* зазвичай без *-self*: *got dressed*. *dressed herself on* — зайве *on*; *dressing* — не узгоджується з *got up, washed*; *dressed her* — «одягнула її» (іншу людину)."
   },
   {
    "id": "reflexive-pronouns-17",
@@ -292,7 +292,7 @@
     "yourself concentrate"
    ],
    "answer": 1,
-   "why": "*concentrate* і *relax* — без зворотного займенника."
+   "why": "*concentrate* і *relax* — без зворотного займенника. *concentrate yourself* — *concentrate* не вимагає зворотного займенника; *concentrate you* — «зосередь тебе»; *yourself concentrate* — неправильний порядок."
   },
   {
    "id": "reflexive-pronouns-24",

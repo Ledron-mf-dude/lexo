@@ -11,7 +11,7 @@
     "Obviously"
    ],
    "answer": 0,
-   "why": "*Apparently* — «як я чув, схоже» — дистанція від інформації."
+   "why": "*Apparently* — «як я чув, схоже» — дистанція від інформації. *According* — потребує *to* і джерела; *Actually me* — неграматично; *Obviously* — «очевидно», навпаки, впевненість."
   },
   {
    "id": "distancing-2",
@@ -50,7 +50,7 @@
     "that was"
    ],
    "answer": 0,
-   "why": "Картину вкрали в минулому — *to have been stolen*."
+   "why": "Картину вкрали в минулому — *to have been stolen*. *to be being* — процес зараз; *having been* — після *is believed* потрібен інфінітив; *that was* — неграматично після *believed*."
   },
   {
    "id": "distancing-5",
@@ -89,7 +89,7 @@
     "seemingly to"
    ],
    "answer": 0,
-   "why": "*allegedly* — «нібито» (провина не доведена)."
+   "why": "*allegedly* — «нібито» (провина не доведена). *apparently not* — заперечує саму подію; *according* — потребує *to*; *seemingly to* — зайве *to*."
   },
   {
    "id": "distancing-8",
@@ -102,7 +102,7 @@
     "This is bad."
    ],
    "answer": 0,
-   "why": "Обережне формулювання з *seem* звучить тактовно."
+   "why": "Обережне формулювання з *seem* звучить тактовно. *Your report is wrong*, *You made mistakes*, *This is bad* — прямі оцінки, які звучать різко."
   },
   {
    "id": "distancing-9",
@@ -246,7 +246,7 @@
     "There seem that"
    ],
    "answer": 1,
-   "why": "*There seems to be a problem* — здається, є проблема (м'якше, ніж *There is*)."
+   "why": "*There seems to be a problem* — здається, є проблема (м'якше, ніж *There is*). *It seems to be a problem* — «це, здається, проблема» про щось уже назване; *It appears that to be* — неграматично; *There seem that* — неграматично."
   },
   {
    "id": "distancing-20",
@@ -259,7 +259,7 @@
     "afraid of"
    ],
    "answer": 1,
-   "why": "*I'm afraid (that)…* — м'яко повідомляємо неприємне."
+   "why": "*I'm afraid (that)…* — м'яко повідомляємо неприємне. *afraid to* — «боюся щось зробити»; *I'm fear* — неграматично; *afraid of* — «боюся чогось», перед іменником."
   },
   {
    "id": "distancing-21",

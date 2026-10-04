@@ -38,7 +38,7 @@
     "boxen"
    ],
    "answer": 1,
-   "why": "Після *-s, -ss, -sh, -ch, -x* додаємо *-es*, бо інакше слово важко вимовити: *box → boxes, bus → buses*."
+   "why": "Після *-s, -ss, -sh, -ch, -x* додаємо *-es*, бо інакше слово важко вимовити: *box → boxes, bus → buses*. *boxs* важко вимовити, тому потрібне *-es*; *boxies* — *-ies* лише для слів на приголосну + *y*; *boxen* — такої форми в сучасній мові немає."
   },
   {
    "id": "plural-nouns-5",
@@ -90,7 +90,7 @@
     "be"
    ],
    "answer": 1,
-   "why": "*news* закінчується на *-s*, але означає одне повідомлення-масу й узгоджується як однина: *The news is good.*"
+   "why": "*news* закінчується на *-s*, але означає одне повідомлення-масу й узгоджується як однина: *The news is good.* *are* і *were* — дієслова множини, а *news* узгоджується як однина; *be* — початкова форма, вона не може бути присудком."
   },
   {
    "id": "plural-nouns-9",
@@ -112,7 +112,7 @@
     "babyies"
    ],
    "answer": 1,
-   "why": "*baby*: приголосна *b* + *y* → *-ies*: *babies*. Голосна перед *y* (*boy*) — просто *-s*."
+   "why": "*baby*: приголосна *b* + *y* → *-ies*: *babies*. Голосна перед *y* (*boy*) — просто *-s*. *babys* — *y* після приголосної має змінитися на *i*; *babyes* — *y* збережено; *babyies* — *y* і *i* разом."
   },
   {
    "id": "plural-nouns-11",
@@ -183,7 +183,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "*police* — збірне слово, яке завжди узгоджується як множина: *The police are looking for him.*"
+   "why": "*police* — збірне слово, яке завжди узгоджується як множина: *The police are looking for him.* *is*, *was* і *has* — форми однини, а *police* завжди множина."
   },
   {
    "id": "plural-nouns-18",
@@ -196,7 +196,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "Назви наук на *-ics* (*physics, maths, economics*) — однина: *Physics is my favourite subject.*"
+   "why": "Назви наук на *-ics* (*physics, maths, economics*) — однина: *Physics is my favourite subject.* *are*, *were* і *have* — форми множини, а назви наук на *-ics* узгоджуються як однина."
   },
   {
    "id": "plural-nouns-19",
@@ -209,7 +209,7 @@
     "couple's"
    ],
    "answer": 0,
-   "why": "*glasses* (окуляри) існують лише в множині, тому одну річ рахуємо як *a pair of glasses*."
+   "why": "*glasses* (окуляри) існують лише в множині, тому одну річ рахуємо як *a pair of glasses*. *piece* — для нелічильних (*a piece of cake*); *set of two* так не кажуть; *couple's* — присвійна форма, тут вона не має сенсу."
   },
   {
    "id": "plural-nouns-20",

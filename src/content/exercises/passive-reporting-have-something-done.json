@@ -63,7 +63,7 @@
     "making"
    ],
    "answer": 0,
-   "why": "*be having* + річ + третя форма — послугу роблять: *We're having the kitchen painted.*"
+   "why": "*be having* + річ + третя форма — послугу роблять: *We're having the kitchen painted.* *being*, *doing*, *making* не утворюють конструкції «нам роблять послугу»."
   },
   {
    "id": "passive-reporting-have-something-done-6",
@@ -76,7 +76,7 @@
     "I was cutting my hair."
    ],
    "answer": 1,
-   "why": "*I had my hair cut* — це зробив перукар."
+   "why": "*I had my hair cut* — це зробив перукар. *I cut my hair* — сам; *I have cut hair* — неграматично; *I was cutting my hair* — сам, процес."
   },
   {
    "id": "passive-reporting-have-something-done-7",
@@ -89,7 +89,7 @@
     "has"
    ],
    "answer": 0,
-   "why": "*have something done* описує й неприємності: *He had his bag stolen.*"
+   "why": "*have something done* описує й неприємності: *He had his bag stolen.* *was his bag stolen* — пасив не може мати два підмети; *did* і *has* — *has his bag stolen on the train* без часу не узгоджується з подією."
   },
   {
    "id": "passive-reporting-have-something-done-8",
@@ -179,7 +179,7 @@
     "took"
    ],
    "answer": 0,
-   "why": "*got my phone fixed* — розмовний варіант *had it fixed*."
+   "why": "*got my phone fixed* — розмовний варіант *had it fixed*. *made my phone fixed* — після *make* + річ дієприкметник так не вживають; *did* і *took* такої конструкції не утворюють."
   },
   {
    "id": "passive-reporting-have-something-done-16",
@@ -192,7 +192,7 @@
     "is"
    ],
    "answer": 0,
-   "why": "Регулярна послуга — *has her nails done*."
+   "why": "Регулярна послуга — *has her nails done*. *makes* і *does her nails done* — неграматично; *is her nails done* — неграматично."
   },
   {
    "id": "passive-reporting-have-something-done-17",
@@ -218,7 +218,7 @@
     "has claimed"
    ],
    "answer": 0,
-   "why": "*It is claimed that…* — стверджують, що."
+   "why": "*It is claimed that…* — стверджують, що. *It claims* — «воно стверджує», ніби якийсь документ; *is claiming* і *has claimed* — активні форми."
   },
   {
    "id": "passive-reporting-have-something-done-19",

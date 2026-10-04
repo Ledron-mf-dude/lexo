@@ -11,7 +11,7 @@
     "can't"
    ],
    "answer": 2,
-   "why": "Упевнений висновок («я певен, що так») — *must*: *She must know about that.*"
+   "why": "Упевнений висновок («я певен, що так») — *must*: *She must know about that.* *might* і *may* — лише можливість, а за умовою мовець певен; *can't* — упевнене «ні»."
   },
   {
    "id": "modals-speculation-2",
@@ -37,7 +37,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "Близько 40% — невелика впевненість: *might*."
+   "why": "Близько 40% — невелика впевненість: *might*. *must* — майже певно; *can't* — певно ні; *should* — очікування, що так і є, а 40% — лише можливість."
   },
   {
    "id": "modals-speculation-4",
@@ -50,7 +50,7 @@
     "needn't"
    ],
    "answer": 0,
-   "why": "Упевнений висновок про минуле — *must have* + третя форма."
+   "why": "Упевнений висновок про минуле — *must have* + третя форма. *can't have* — упевнене «ні»; *mustn't have* — у значенні висновку не вживають; *needn't have* — «не треба було»."
   },
   {
    "id": "modals-speculation-5",
@@ -63,7 +63,7 @@
     "should"
    ],
    "answer": 1,
-   "why": "Упевнене «ні» про минуле — *can't have* + третя форма."
+   "why": "Упевнене «ні» про минуле — *can't have* + третя форма. *must have* — упевнене «так»; *might have* — лише можливість; *should have* — «варто було» або очікування."
   },
   {
    "id": "modals-speculation-6",
@@ -76,7 +76,7 @@
     "to be"
    ],
    "answer": 0,
-   "why": "Висновок про дію зараз — *must be* + *-ing*."
+   "why": "Висновок про дію зараз — *must be* + *-ing*. *have sleeping* — *have* не поєднується з *-ing* без *been*; *been* — бракує *have*; *to be* — після *must* немає *to*."
   },
   {
    "id": "modals-speculation-7",
@@ -89,7 +89,7 @@
     "be"
    ],
    "answer": 0,
-   "why": "Можливість у минулому — *might have* + третя форма."
+   "why": "Можливість у минулому — *might have* + третя форма. *has* і *had* — після модального потрібна початкова форма *have*; *be forgotten* — пасив, «її можуть забути»."
   },
   {
    "id": "modals-speculation-8",
@@ -194,7 +194,7 @@
     "should to"
    ],
    "answer": 0,
-   "why": "Вона завжди дзвонить о шостій — висновок *must*."
+   "why": "Вона завжди дзвонить о шостій — висновок *must*. *can't* — упевнене «ні», а вона завжди дзвонить о шостій; *mustn't* — заборона; *should to* — після *should* немає *to*."
   },
   {
    "id": "modals-speculation-17",
@@ -207,7 +207,7 @@
     "might not to"
    ],
    "answer": 0,
-   "why": "Після довгої поїздки — логічний висновок *must*."
+   "why": "Після довгої поїздки — логічний висновок *must*. *can* — загальна можливість, а не висновок; *mustn't* — заборона; *might not to* — зайве *to*."
   },
   {
    "id": "modals-speculation-18",
@@ -220,7 +220,7 @@
     "should to"
    ],
    "answer": 0,
-   "why": "Можливе пояснення — *may have got lost*."
+   "why": "Можливе пояснення — *may have got lost*. *can have got lost* у стверджувальному висновку не вживають; *must to* і *should to* — після модального немає *to*."
   },
   {
    "id": "modals-speculation-19",
@@ -233,7 +233,7 @@
     "shouldn't to"
    ],
    "answer": 0,
-   "why": "Світло о другій ночі — *must be working*."
+   "why": "Світло о другій ночі — *must be working*. *can't* — упевнене «ні», а світло горить; *mustn't* — заборона; *shouldn't to* — зайве *to*."
   },
   {
    "id": "modals-speculation-20",
@@ -293,7 +293,7 @@
     "Ought"
    ],
    "answer": 1,
-   "why": "Питання про можливість — *Could it be true?*"
+   "why": "Питання про можливість — *Could it be true?* *Must it be true?* питає про обов'язковість, а не про можливість; *Should it be* — умовна інверсія, не питання про можливість; *Ought it be* — бракує *to*."
   },
   {
    "id": "modals-speculation-24",
@@ -306,7 +306,7 @@
     "should to"
    ],
    "answer": 1,
-   "why": "Висновок — *must be exhausted*."
+   "why": "Висновок — *must be exhausted*. *can't* — упевнене «ні», а людина весь день у дорозі; *mustn't* — заборона; *should to* — зайве *to*."
   },
   {
    "id": "modals-speculation-25",

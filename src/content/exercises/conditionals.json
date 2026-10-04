@@ -24,7 +24,7 @@
     "would have"
    ],
    "answer": 1,
-   "why": "Уявна ситуація зараз (second conditional): *if* + Past Simple, *would* + дієслово: *If I had more time, I would learn French.*"
+   "why": "Уявна ситуація зараз (second conditional): *if* + Past Simple, *would* + дієслово: *If I had more time, I would learn French.* *have* — реальна умова (перший тип), а в головній частині *would*; *will have* — після *if* майбутній час не вживаємо; *would have* — *would* стоїть у головній частині, не в *if*-частині."
   },
   {
    "id": "conditionals-3",
@@ -178,7 +178,7 @@
     "would reach"
    ],
    "answer": 0,
-   "why": "Загальна істина — Present Simple в обох частинах: *If water reaches 100°C, it boils.*"
+   "why": "Загальна істина — Present Simple в обох частинах: *If water reaches 100°C, it boils.* *will reach* — після *if* майбутній не вживають; *reached* і *would reach* — уявна ситуація, а кипіння води — факт."
   },
   {
    "id": "conditionals-16",
@@ -191,7 +191,7 @@
     "would won"
    ],
    "answer": 0,
-   "why": "Уявна ситуація зараз: *if* + Past Simple: *if you won a million*."
+   "why": "Уявна ситуація зараз: *if* + Past Simple: *if you won a million*. *win* і *will win* — реальна умова, а питання з *would* — про уявну; *would won* — неграматично."
   },
   {
    "id": "conditionals-17",
@@ -204,7 +204,7 @@
     "had been"
    ],
    "answer": 0,
-   "why": "Порада: *If I were you, I wouldn't do that.*"
+   "why": "Порада: *If I were you, I wouldn't do that.* *am* — реальна умова, а я не можу бути тобою; *will be* — після *if* майбутній не вживаємо; *had been* — уявне минуле, а порада стосується теперішнього."
   },
   {
    "id": "conditionals-18",
@@ -230,7 +230,7 @@
     "would be"
    ],
    "answer": 0,
-   "why": "First conditional: після *if* — Present Simple, навіть про майбутнє: *if you are careful*."
+   "why": "First conditional: після *if* — Present Simple, навіть про майбутнє: *if you are careful*. *will be* — після *if* майбутній не вживаємо; *were* і *would be* — уявна ситуація, а *I'll lend* — реальна обіцянка."
   },
   {
    "id": "conditionals-20",
@@ -304,7 +304,7 @@
     "told"
    ],
    "answer": 1,
-   "why": "У головній частині першого типу може бути наказ: *If you see Tom, tell him to call me.*"
+   "why": "У головній частині першого типу може бути наказ: *If you see Tom, tell him to call me.* *you tell* — розповідне речення, а не прохання; *will tell* — прогноз; *told* — минулий час."
   },
   {
    "id": "conditionals-24",
@@ -330,7 +330,7 @@
     "had"
    ],
    "answer": 0,
-   "why": "У першому типі в головній частині можливе модальне: *you can go home* (дозвіл)."
+   "why": "У першому типі в головній частині можливе модальне: *you can go home* (дозвіл). *could have* — про минуле, яке не сталося; *would* — уявна ситуація, а *If you finish* — реальна; *had* без *to* не означає дозволу."
   },
   {
    "id": "conditionals-26",

@@ -11,7 +11,7 @@
     "Mostly"
    ],
    "answer": 0,
-   "why": "Про людей загалом — *Most* + іменник без артикля: *Most people like music.*"
+   "why": "Про людей загалом — *Most* + іменник без артикля: *Most people like music.* *Most of people* — *of* лише перед означеним іменником (*most of the people*); *The most people* — найвищий ступінь кількості; *Mostly* — прислівник «здебільшого»."
   },
   {
    "id": "most-most-of-2",
@@ -76,7 +76,7 @@
     "The most"
    ],
    "answer": 0,
-   "why": "*Most of them* — більшість із них. Перед займенником *of* обов'язкове."
+   "why": "*Most of them* — більшість із них. Перед займенником *of* обов'язкове. *Mostly of them* — прислівник; *Almost of them* — потрібне *Almost all of them*; *The most of them* — зайвий артикль."
   },
   {
    "id": "most-most-of-7",
@@ -89,7 +89,7 @@
     "Mostly people like it."
    ],
    "answer": 1,
-   "why": "Загальне твердження — *Most people*, без *of* і без *the*."
+   "why": "Загальне твердження — *Most people*, без *of* і без *the*. *Most of people* — без означення *of* не ставлять; *The most people* — найвищий ступінь; *Mostly people* — прислівник замість означення."
   },
   {
    "id": "most-most-of-8",
@@ -102,7 +102,7 @@
     "—"
    ],
    "answer": 0,
-   "why": "*Most of* + присвійне (*my*): *Most of my friends*."
+   "why": "*Most of* + присвійне (*my*): *Most of my friends*. *from*, *in* і пропуск не утворюють «більшість із»: перед *my friends* потрібне *of*."
   },
   {
    "id": "most-most-of-9",
@@ -191,7 +191,7 @@
     "Mostly British people drink tea."
    ],
    "answer": 0,
-   "why": "Загально — *Most British people*, без *of*."
+   "why": "Загально — *Most British people*, без *of*. *Most of British people* — *of* лише перед означеним іменником (*most of the British people I know*); *The most* — найвищий ступінь; *Mostly* — прислівник «здебільшого»."
   },
   {
    "id": "most-most-of-17",
@@ -267,7 +267,7 @@
     "Almost"
    ],
    "answer": 1,
-   "why": "*Most of the time* — сталий вираз «здебільшого»."
+   "why": "*Most of the time* — сталий вираз «здебільшого». *The most of the time* — зайвий артикль; *Mostly of the time* — прислівник не поєднується з *of*; *Almost of the time* — бракує *all*."
   },
   {
    "id": "most-most-of-22",
@@ -280,7 +280,7 @@
     "Mostly"
    ],
    "answer": 0,
-   "why": "*The majority of* — формальний синонім *most*."
+   "why": "*The majority of* — формальний синонім *most*. *The most of* — зайвий артикль; *Almost students* — потрібне *almost all*; *Mostly* — прислівник, а не означення до *students*."
   },
   {
    "id": "most-most-of-23",

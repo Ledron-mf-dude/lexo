@@ -24,7 +24,7 @@
     "We"
    ],
    "answer": 0,
-   "why": "*They say* — «кажуть» (невизначені люди)."
+   "why": "*They say* — «кажуть» (невизначені люди). *One say* — неграматично й надто формально; *It say* — неграматично; *We say* — «ми (самі) кажемо», а не «кажуть»."
   },
   {
    "id": "generic-pronouns-3",
@@ -37,7 +37,7 @@
     "It"
    ],
    "answer": 0,
-   "why": "*One* — формально, і далі *one's*: *One should keep one's promises.*"
+   "why": "*One* — формально, і далі *one's*: *One should keep one's promises.* *You* і *They* не поєднуються з *one's* далі в реченні; *It* — не про людей."
   },
   {
    "id": "generic-pronouns-4",
@@ -50,7 +50,7 @@
     "it"
    ],
    "answer": 0,
-   "why": "*you* — будь-хто: *How do you get to the station?*"
+   "why": "*you* — будь-хто: *How do you get to the station?* *one's* — присвійна форма; *they* — «вони», конкретні люди; *it* — не про людей."
   },
   {
    "id": "generic-pronouns-5",
@@ -63,7 +63,7 @@
     "We are"
    ],
    "answer": 0,
-   "why": "*they* — невизначені люди, влада: *They are building a new metro line.*"
+   "why": "*they* — невизначені люди, влада: *They are building a new metro line.* *One are* — неграматично; *You are building* — «ти будуєш»; *We are are* — подвоєння."
   },
   {
    "id": "generic-pronouns-6",
@@ -76,7 +76,7 @@
     "It"
    ],
    "answer": 0,
-   "why": "*We* — усі ми, люди: *We all make mistakes.*"
+   "why": "*We* — усі ми, люди: *We all make mistakes.* *Each all* і *One all* — неграматично; *It all make* — не про людей."
   },
   {
    "id": "generic-pronouns-7",
@@ -89,7 +89,7 @@
     "People must be careful."
    ],
    "answer": 0,
-   "why": "*One* — найформальніший узагальнений займенник."
+   "why": "*One* — найформальніший узагальнений займенник. *You*, *They*, *People* — нейтральні або розмовні."
   },
   {
    "id": "generic-pronouns-8",
@@ -102,7 +102,7 @@
     "themself"
    ],
    "answer": 0,
-   "why": "Зворотна форма від *one* — *oneself*."
+   "why": "Зворотна форма від *one* — *oneself*. *yourself* — розмовний варіант від *you*; *ourself* і *themself* — нестандартні форми."
   },
   {
    "id": "generic-pronouns-9",
@@ -115,7 +115,7 @@
     "It"
    ],
    "answer": 0,
-   "why": "*People think…* — люди вважають."
+   "why": "*People think…* — люди вважають. *Peoples* — «народи»; *One think* — неграматично; *It think* — не про людей."
   },
   {
    "id": "generic-pronouns-10",
@@ -231,13 +231,13 @@
    "type": "choice",
    "q": "Every student needs ___ own laptop.",
    "options": [
-    "his",
+    "they",
     "their",
     "its",
     "theirs"
    ],
    "answer": 1,
-   "why": "Про людей будь-якої статі — *their*: *Every student needs their own laptop.*",
+   "why": "Про людей будь-якої статі — *their*: *Every student needs their own laptop.* *they* — підметова форма, а перед *own* потрібна присвійна; *its* — про речі й тварин; *theirs* — самостійна форма, без іменника.",
    "hint": "(у групі і хлопці, і дівчата)"
   },
   {
@@ -251,7 +251,7 @@
     "There"
    ],
    "answer": 1,
-   "why": "*They say* — кажуть."
+   "why": "*They say* — кажуть. *One say* — неграматично; *It say* — не про людей; *There say* — неграматично."
   },
   {
    "id": "generic-pronouns-21",

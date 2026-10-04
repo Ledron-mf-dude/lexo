@@ -11,7 +11,7 @@
     "buss stops"
    ],
    "answer": 1,
-   "why": "У складному іменнику множину отримує головне, останнє слово: *bus stops*."
+   "why": "У складному іменнику множину отримує головне, останнє слово: *bus stops*. *buses stop* — множина не на тому слові; *bus stopes* — *stop* утворює множину просто з *-s*; *buss stops* — зайве *s*."
   },
   {
    "id": "compound-nouns-2",
@@ -24,7 +24,7 @@
     "mother-in-law's"
    ],
    "answer": 1,
-   "why": "У *mother-in-law* головне слово — *mother*, тому *mothers-in-law*."
+   "why": "У *mother-in-law* головне слово — *mother*, тому *mothers-in-law*. *mother-in-laws* — множина не на головному слові; *mothers-in-laws* — подвійна множина; *mother-in-law's* — присвійна форма."
   },
   {
    "id": "compound-nouns-3",
@@ -37,7 +37,7 @@
     "swum pool"
    ],
    "answer": 0,
-   "why": "*swimming pool* — *-ing* + іменник: басейн для плавання."
+   "why": "*swimming pool* — *-ing* + іменник: басейн для плавання. *swim pool*, *swimmer pool*, *swum pool* — таких слів немає: перший елемент тут *-ing*-форма."
   },
   {
    "id": "compound-nouns-4",
@@ -50,7 +50,7 @@
     "nowhere"
    ],
    "answer": 0,
-   "why": "У складних іменниках наголос зазвичай на першому слові: *BLACKboard, BUS stop*."
+   "why": "У складних іменниках наголос зазвичай на першому слові: *BLACKboard, BUS stop*. Наголос на другому слові буває в словосполученнях (*black BOARD* — чорна дошка), але не в складних іменниках; без наголосу слова не буває."
   },
   {
    "id": "compound-nouns-5",
@@ -63,7 +63,7 @@
     "football"
    ],
    "answer": 1,
-   "why": "*mother-in-law* — складний іменник із прийменником, пишеться з дефісами."
+   "why": "*mother-in-law* — складний іменник із прийменником, пишеться з дефісами. *toothpaste* і *football* пишуться разом, *bus stop* — окремо."
   },
   {
    "id": "compound-nouns-6",
@@ -85,7 +85,7 @@
     "lived room"
    ],
    "answer": 0,
-   "why": "*living room* — *-ing* + іменник: кімната для життя."
+   "why": "*living room* — *-ing* + іменник: кімната для життя. *live room*, *lives room*, *lived room* — таких слів немає: перший елемент тут *-ing*-форма."
   },
   {
    "id": "compound-nouns-8",
@@ -98,7 +98,7 @@
     "my mother-in-laws car"
    ],
    "answer": 0,
-   "why": "*'s* додаємо в кінці всього складного іменника: *my mother-in-law's car*."
+   "why": "*'s* додаємо в кінці всього складного іменника: *my mother-in-law's car*. *my mother's-in-law* — *'s* усередині слова; *my mothers-in-law car* — множина замість присвійної форми; *mother-in-laws car* — бракує апострофа."
   },
   {
    "id": "compound-nouns-9",
@@ -147,7 +147,7 @@
     "beds room"
    ],
    "answer": 0,
-   "why": "*bedroom* — кімната для сну; цей складний іменник пишеться разом."
+   "why": "*bedroom* — кімната для сну; цей складний іменник пишеться разом. *sleeproom* не існує; *bed-room's* — присвійна форма; *beds room* — множина й окреме написання."
   },
   {
    "id": "compound-nouns-14",
@@ -173,7 +173,7 @@
     "-ing + noun"
    ],
    "answer": 0,
-   "why": "*check-in* утворене з дієслова *check* і частки *in*."
+   "why": "*check-in* утворене з дієслова *check* і частки *in*. У *check-in* немає двох іменників, прикметника чи *-ing*: *check* — дієслово, *in* — частка."
   },
   {
    "id": "compound-nouns-16",
@@ -199,7 +199,7 @@
     "sporty's"
    ],
    "answer": 0,
-   "why": "*sports car* — перший елемент у формі множини (як *sports centre*)."
+   "why": "*sports car* — перший елемент у формі множини (як *sports centre*). *sport's car* — присвійна форма; *sporting* — «спортивний» у значенні «чесний» або «пов'язаний зі спортом» (*sporting event*); *sporty's* — неграматично."
   },
   {
    "id": "compound-nouns-18",
@@ -262,7 +262,7 @@
     "passports holder"
    ],
    "answer": 1,
-   "why": "Перше слово складного іменника — в однині й без *'s*: *passport holder*."
+   "why": "Перше слово складного іменника — в однині й без *'s*: *passport holder*. *passport's holder* — присвійна форма; *holder of passport* — бракує артикля і звучить неприродно; *passports holder* — множина в першому слові."
   },
   {
    "id": "compound-nouns-22",

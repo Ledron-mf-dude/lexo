@@ -50,7 +50,7 @@
     "as"
    ],
    "answer": 0,
-   "why": "*so that* + речення (часто з *can / could*): *so that he could understand*."
+   "why": "*so that* + речення (часто з *can / could*): *so that he could understand*. *so to* і *so for* — неграматично; *so as* — потрібне *so as to* + дієслово, а тут далі йде речення з підметом."
   },
   {
    "id": "contrast-purpose-reason-result-5",
@@ -76,7 +76,7 @@
     "despite"
    ],
    "answer": 1,
-   "why": "*so* — наслідок: було пізно, тому ми пішли."
+   "why": "*so* — наслідок: було пізно, тому ми пішли. *because* — причина, а тут наслідок (пізно → пішли); *although* — протиставлення; *despite* стоїть перед іменником, а не реченням."
   },
   {
    "id": "contrast-purpose-reason-result-7",
@@ -89,7 +89,7 @@
     "So"
    ],
    "answer": 0,
-   "why": "*However* — протиставлення в новому реченні: хворів, проте пішов на роботу."
+   "why": "*However* — протиставлення в новому реченні: хворів, проте пішов на роботу. *Therefore* і *So* — наслідок (хворів, тому пішов — нелогічно); *Because* не відкриває нове речення-протиставлення."
   },
   {
    "id": "contrast-purpose-reason-result-8",
@@ -102,7 +102,7 @@
     "despite"
    ],
    "answer": 0,
-   "why": "*whereas* — протиставлення двох фактів: *Tom is tall, whereas his brother is short.*"
+   "why": "*whereas* — протиставлення двох фактів: *Tom is tall, whereas his brother is short.* *because* — причина; *so that* — мета; *despite* стоїть перед іменником, а не реченням."
   },
   {
    "id": "contrast-purpose-reason-result-9",
@@ -128,7 +128,7 @@
     "Although of the rain, we went."
    ],
    "answer": 1,
-   "why": "*although* і *but* разом не вживаємо. *Despite* не стоїть перед реченням."
+   "why": "*although* і *but* разом не вживаємо. *Despite* не стоїть перед реченням. *Although of the rain* — після *although* потрібне речення, а з іменником кажуть *despite the rain*."
   },
   {
    "id": "contrast-purpose-reason-result-11",
@@ -190,7 +190,7 @@
     "Despite"
    ],
    "answer": 0,
-   "why": "*Nevertheless* — «проте» в новому реченні."
+   "why": "*Nevertheless* — «проте» в новому реченні. *Because* і *So* — причина і наслідок (багата, тому нещаслива — нелогічно); *Despite* не стоїть окремо на початку речення з комою."
   },
   {
    "id": "contrast-purpose-reason-result-17",
@@ -216,7 +216,7 @@
     "in order"
    ],
    "answer": 0,
-   "why": "Призначення речі — *for* + *-ing*: *a knife for cutting bread*."
+   "why": "Призначення речі — *for* + *-ing*: *a knife for cutting bread*. *to cutting* — після *to* потрібна початкова форма; *so that* вводить речення з підметом; *in order* потребує *to* + дієслово."
   },
   {
    "id": "contrast-purpose-reason-result-19",
@@ -229,7 +229,7 @@
     "Whereas"
    ],
    "answer": 0,
-   "why": "*As a result* — наслідок: дороги були слизькі, тому багато аварій."
+   "why": "*As a result* — наслідок: дороги були слизькі, тому багато аварій. *Although*, *Despite* і *Whereas* — протиставлення, а тут причина й наслідок."
   },
   {
    "id": "contrast-purpose-reason-result-20",
@@ -316,7 +316,7 @@
     "despite"
    ],
    "answer": 0,
-   "why": "*in case* — «на випадок, якщо»: *Take an umbrella in case it rains.* Після *in case* — теперішній час."
+   "why": "*in case* — «на випадок, якщо»: *Take an umbrella in case it rains.* Після *in case* — теперішній час. *so that* — мета (щоб пішов дощ — нелогічно); *because of* — перед іменником; *despite* — протиставлення."
   },
   {
    "id": "contrast-purpose-reason-result-25",

@@ -24,7 +24,7 @@
     "Has / got"
    ],
    "answer": 1,
-   "why": "Питання з *have got*: *Have* + підмет + *got*: *Have you got a pen?*"
+   "why": "Питання з *have got*: *Have* + підмет + *got*: *Have you got a pen?* *Do … got* — *do* не поєднується з *got*; *Are … got* — допоміжне *be* тут не вживається; *Has* — для *he / she / it*, а не для *you*."
   },
   {
    "id": "have-got-3",
@@ -47,7 +47,7 @@
     "I was got a car."
    ],
    "answer": 0,
-   "why": "*have got* вживають лише в теперішньому часі. Про минуле — просто *had*: *I had a car.*"
+   "why": "*have got* вживають лише в теперішньому часі. Про минуле — просто *had*: *I had a car.* *had got* — це Past Perfect від *get*, не просто «мав»; *have got … yesterday* — теперішній час із минулим маркером; *was got* — пасив від *get*."
   },
   {
    "id": "have-got-5",
@@ -60,7 +60,7 @@
     "am"
    ],
    "answer": 1,
-   "why": "У короткій відповіді *got* не повторюємо: *Yes, I have.*"
+   "why": "У короткій відповіді *got* не повторюємо: *Yes, I have.* *have got* у короткій відповіді — зайве *got*; *do* — відповідь на питання з *do*; *am* — на питання з *be*."
   },
   {
    "id": "have-got-6",
@@ -83,7 +83,7 @@
     "Does you have a car?"
    ],
    "answer": 0,
-   "why": "З *have* без *got* питання будуємо через *do*: *Do you have a car?*"
+   "why": "З *have* без *got* питання будуємо через *do*: *Do you have a car?* *Have you a car do?* — зайве *do* наприкінці; *Are you have* — *be* і *have* разом; *Does you* — *does* лише з *he / she / it*."
   },
   {
    "id": "have-got-8",
@@ -173,7 +173,7 @@
     "got has"
    ],
    "answer": 0,
-   "why": "*she has got* = *she's got*: *She's got long dark hair.*"
+   "why": "*she has got* = *she's got*: *She's got long dark hair.* *have got* — для *I / you / we / they*, а з *she* — *has got*; *'s get* — потрібен дієприкметник *got*; *got has* — неправильний порядок."
   },
   {
    "id": "have-got-16",
@@ -186,7 +186,7 @@
     "I have a cold."
    ],
    "answer": 0,
-   "why": "*have lunch* — дія (обідати), а не володіння, тому замінити на *have got* не можна. Решта — володіння чи стан."
+   "why": "*have lunch* — дія (обідати), а не володіння, тому замінити на *have got* не можна. Решта — володіння чи стан. *a car*, *two sisters* — володіння, *a cold* — стан, тому їх можна сказати з *have got*."
   },
   {
    "id": "have-got-17",
@@ -199,7 +199,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "*have got to* = *have to* (треба), розмовне: *I've got to go now.*"
+   "why": "*have got to* = *have to* (треба), розмовне: *I've got to go now.* *for*, *at* і відсутність частки не утворюють «треба»: після *have got* потрібне саме *to* + дієслово."
   },
   {
    "id": "have-got-18",
@@ -262,7 +262,7 @@
     "is"
    ],
    "answer": 1,
-   "why": "Коротка відповідь без *got*: *Yes, she has.*"
+   "why": "Коротка відповідь без *got*: *Yes, she has.* *has got* у короткій відповіді — зайве *got*; *does* — відповідь на питання з *does*; *is* — на питання з *be*."
   },
   {
    "id": "have-got-22",

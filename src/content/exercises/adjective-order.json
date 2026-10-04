@@ -11,7 +11,7 @@
     "a lovely red old car"
    ],
    "answer": 0,
-   "why": "Порядок прикметників: думка (*lovely*) → вік (*old*) → колір (*red*)."
+   "why": "Порядок прикметників: думка (*lovely*) → вік (*old*) → колір (*red*). *a red old lovely car* — колір перед віком і думкою; *an old lovely red car* — вік перед думкою; *a lovely red old car* — колір перед віком."
   },
   {
    "id": "adjective-order-2",
@@ -24,7 +24,7 @@
     "a wooden big round table"
    ],
    "answer": 0,
-   "why": "Розмір (*big*) → форма (*round*) → матеріал (*wooden*)."
+   "why": "Розмір (*big*) → форма (*round*) → матеріал (*wooden*). *a wooden round big table* і *a wooden big round table* — матеріал не стоїть першим; *a round big wooden table* — форма перед розміром."
   },
   {
    "id": "adjective-order-3",
@@ -37,7 +37,7 @@
     "a beautiful Italian small bag"
    ],
    "answer": 0,
-   "why": "Думка → розмір → походження: *a beautiful small Italian bag*."
+   "why": "Думка → розмір → походження: *a beautiful small Italian bag*. *an Italian small beautiful bag* — походження першим, а воно має стояти останнім; *a small beautiful* — розмір перед думкою; *Italian small* — походження перед розміром."
   },
   {
    "id": "adjective-order-4",
@@ -50,7 +50,7 @@
     "my new running black shoes"
    ],
    "answer": 0,
-   "why": "Вік → колір → призначення (*running*): *new black running shoes*."
+   "why": "Вік → колір → призначення (*running*): *new black running shoes*. *black new* — колір перед віком; *running new black* і *new running black* — призначення має стояти безпосередньо перед іменником."
   },
   {
    "id": "adjective-order-5",
@@ -63,7 +63,7 @@
     "a big; red ball"
    ],
    "answer": 0,
-   "why": "Прикметники різних категорій перед іменником пишемо без ком і без *and*."
+   "why": "Прикметники різних категорій перед іменником пишемо без ком і без *and*. Кому й *and* ставлять між прикметниками однієї категорії (*a cold, wet day*), а *;* між прикметниками не вживають."
   },
   {
    "id": "adjective-order-6",
@@ -76,7 +76,7 @@
     "long, and dark"
    ],
    "answer": 0,
-   "why": "Після дієслова два прикметники з'єднуємо *and*: *long and dark*."
+   "why": "Після дієслова два прикметники з'єднуємо *and*: *long and dark*. *long dark* і *dark long* без *and* після дієслова звучать неприродно; *long, and dark* — зайва кома перед *and*."
   },
   {
    "id": "adjective-order-7",
@@ -89,7 +89,7 @@
     "age"
    ],
    "answer": 0,
-   "why": "Першим стоїть прикметник-думка (*lovely, nice*)."
+   "why": "Першим стоїть прикметник-думка (*lovely, nice*). Колір, матеріал і вік стоять ближче до іменника, ніж думка."
   },
   {
    "id": "adjective-order-8",
@@ -102,7 +102,7 @@
     "age"
    ],
    "answer": 1,
-   "why": "Найближче до іменника — призначення (*running shoes*)."
+   "why": "Найближче до іменника — призначення (*running shoes*). Розмір, колір і вік стоять раніше: призначення найближче до іменника, бо майже зливається з ним (*running shoes*)."
   },
   {
    "id": "adjective-order-9",
@@ -115,7 +115,7 @@
     "a beautiful silk long"
    ],
    "answer": 0,
-   "why": "Думка → розмір → матеріал: *a beautiful long silk dress*."
+   "why": "Думка → розмір → матеріал: *a beautiful long silk dress*. *a silk long beautiful* — матеріал першим; *a long beautiful silk* — розмір перед думкою; *a beautiful silk long* — матеріал перед розміром."
   },
   {
    "id": "adjective-order-10",
@@ -128,7 +128,7 @@
     "a lovely stone old"
    ],
    "answer": 0,
-   "why": "Думка → вік → матеріал: *a lovely old stone house*."
+   "why": "Думка → вік → матеріал: *a lovely old stone house*. *a stone old lovely* — матеріал першим; *an old lovely stone* — вік перед думкою; *a lovely stone old* — матеріал перед віком."
   },
   {
    "id": "adjective-order-11",
@@ -141,7 +141,7 @@
     "a fast German new"
    ],
    "answer": 0,
-   "why": "Думка → вік → походження: *a fast new German car*."
+   "why": "Думка → вік → походження: *a fast new German car*. *a German new fast* — походження першим; *a new fast German* — вік перед думкою; *a fast German new* — походження перед віком."
   },
   {
    "id": "adjective-order-12",
@@ -154,7 +154,7 @@
     "a small metal square"
    ],
    "answer": 0,
-   "why": "Розмір → форма → матеріал: *a small square metal box*."
+   "why": "Розмір → форма → матеріал: *a small square metal box*. *a metal square small* — матеріал першим; *a square small metal* — форма перед розміром; *a small metal square* — матеріал перед формою."
   },
   {
    "id": "adjective-order-13",
@@ -167,7 +167,7 @@
     "a nice French little"
    ],
    "answer": 0,
-   "why": "Думка → розмір → походження: *a nice little French hotel*."
+   "why": "Думка → розмір → походження: *a nice little French hotel*. *a French little nice* — походження першим; *a little nice French* — розмір перед думкою; *a nice French little* — походження перед розміром."
   },
   {
    "id": "adjective-order-14",
@@ -257,7 +257,7 @@
     "a cotton shirt white"
    ],
    "answer": 1,
-   "why": "Колір (*white*) стоїть перед матеріалом (*cotton*), а обидва — перед іменником."
+   "why": "Колір (*white*) стоїть перед матеріалом (*cotton*), а обидва — перед іменником. *a cotton white shirt* — матеріал перед кольором; *a shirt white cotton* і *a cotton shirt white* — прикметник після іменника."
   },
   {
    "id": "adjective-order-20",
@@ -270,7 +270,7 @@
     "first the two"
    ],
    "answer": 1,
-   "why": "Порядкове числівник перед кількісним: *the first two days*."
+   "why": "Порядкове числівник перед кількісним: *the first two days*. *the two first* — кількісний перед порядковим; *two the first* і *first the two* — артикль не на своєму місці."
   },
   {
    "id": "adjective-order-21",

@@ -21,10 +21,10 @@
     "What an",
     "What",
     "How",
-    "Such"
+    "So"
    ],
    "answer": 1,
-   "why": "*weather* — нелічильний, тому *What* без артикля: *What awful weather!*"
+   "why": "*weather* — нелічильний, тому *What* без артикля: *What awful weather!* *What an* — артикль із нелічильним *weather* не вживають; *How* і *So* стоять перед прикметником без іменника (*How awful!*)."
   },
   {
    "id": "exclamations-3",
@@ -37,7 +37,7 @@
     "So a"
    ],
    "answer": 2,
-   "why": "Прикметник без іменника — *How*: *How kind of you!*"
+   "why": "Прикметник без іменника — *How*: *How kind of you!* *What* і *What a* потребують іменника; *So a* — неграматично."
   },
   {
    "id": "exclamations-4",
@@ -50,7 +50,7 @@
     "How a"
    ],
    "answer": 1,
-   "why": "*shoes* — множина, тому *What* без артикля: *What beautiful shoes!*"
+   "why": "*shoes* — множина, тому *What* без артикля: *What beautiful shoes!* *What a* — артикль із множиною не вживають; *How* — перед прикметником без іменника; *How a* — неграматично."
   },
   {
    "id": "exclamations-5",
@@ -89,7 +89,7 @@
     "how"
    ],
    "answer": 1,
-   "why": "Множина — *such* без артикля: *such friendly people*."
+   "why": "Множина — *such* без артикля: *such friendly people*. *so* — перед прикметником без іменника; *such a* — лише з однинною лічильного; *how* у середині такого речення не вживають."
   },
   {
    "id": "exclamations-8",
@@ -102,7 +102,7 @@
     "what"
    ],
    "answer": 2,
-   "why": "Прикметник без іменника — *so*: *The tea is so hot!*"
+   "why": "Прикметник без іменника — *so*: *The tea is so hot!* *such* і *such a* — перед іменником; *what* — на початку вигуку, а не після *is*."
   },
   {
    "id": "exclamations-9",
@@ -115,7 +115,7 @@
     "Such a"
    ],
    "answer": 1,
-   "why": "*advice* — нелічильний, тому *What* без *a*: *What useful advice!*"
+   "why": "*advice* — нелічильний, тому *What* без *a*: *What useful advice!* *What a* і *Such a* — артикль із нелічильним *advice* не вживають; *How* — перед прикметником без іменника."
   },
   {
    "id": "exclamations-10",
@@ -128,7 +128,7 @@
     "So"
    ],
    "answer": 1,
-   "why": "*What a relief!* — сталий вигук («яке полегшення!»)."
+   "why": "*What a relief!* — сталий вигук («яке полегшення!»). *How relief* — *how* перед іменником не ставлять; *How a* і *So* — неграматично з іменником."
   },
   {
    "id": "exclamations-11",

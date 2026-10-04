@@ -11,7 +11,7 @@
     "so"
    ],
    "answer": 0,
-   "why": "*and* поєднує два однорідні слова: *tea and coffee*."
+   "why": "*and* поєднує два однорідні слова: *tea and coffee*. *but* протиставляє, *or* дає вибір, *so* вводить наслідок, а підказка *both* означає «і те, і те»."
   },
   {
    "id": "conjunctions-2",
@@ -24,7 +24,7 @@
     "or"
    ],
    "answer": 1,
-   "why": "*so* вводить наслідок: втомився → тому ліг рано."
+   "why": "*so* вводить наслідок: втомився → тому ліг рано. *because* вводив би причину (втомився через те, що ліг рано — нелогічно); *but* — протиставлення, *or* — вибір."
   },
   {
    "id": "conjunctions-3",
@@ -37,7 +37,7 @@
     "or"
    ],
    "answer": 1,
-   "why": "*because* вводить причину: удома, бо йшов дощ."
+   "why": "*because* вводить причину: удома, бо йшов дощ. *so* вводив би наслідок (дощ через те, що я вдома — нелогічно); *but* — протиставлення, *or* — вибір."
   },
   {
    "id": "conjunctions-4",
@@ -50,7 +50,7 @@
     "so"
    ],
    "answer": 1,
-   "why": "У питанні з вибором — *or*: *tea or coffee?*"
+   "why": "У питанні з вибором — *or*: *tea or coffee?* *and* означало б «і чай, і каву», а питання про вибір; *but* і *so* в питанні про вибір не вживають."
   },
   {
    "id": "conjunctions-5",
@@ -63,7 +63,7 @@
     "because"
    ],
    "answer": 2,
-   "why": "*but* — протиставлення: бідна, але щаслива."
+   "why": "*but* — протиставлення: бідна, але щаслива. *and* не передає контрасту між «бідна» і «щаслива»; *so* — наслідок (бідна, тому щаслива — нелогічно); *because* — причина."
   },
   {
    "id": "conjunctions-6",
@@ -89,7 +89,7 @@
     "and"
    ],
    "answer": 1,
-   "why": "*either … or* — «або … або»: *either tea or coffee*."
+   "why": "*either … or* — «або … або»: *either tea or coffee*. *both* поєднується з *and* (*both tea and coffee*), а не з *or*; *neither* — з *nor* і означає «ні … ні»; *and tea or coffee* — не пара."
   },
   {
    "id": "conjunctions-8",
@@ -102,7 +102,7 @@
     "So because I was tired I left."
    ],
    "answer": 1,
-   "why": "*because* і *so* разом не вживаємо: або *Because I was tired, I left*, або *I was tired, so I left*."
+   "why": "*because* і *so* разом не вживаємо: або *Because I was tired, I left*, або *I was tired, so I left*. У решті варіантів *because* і *so* стоять разом, а це подвійний сполучник для одного зв'язку."
   },
   {
    "id": "conjunctions-9",

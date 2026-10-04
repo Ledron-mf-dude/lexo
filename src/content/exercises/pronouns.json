@@ -128,7 +128,7 @@
     "He and me went out."
    ],
    "answer": 1,
-   "why": "Обидва займенники тут — підмет, тому *He and I*. Перевірка: прибери другого — *He went out*, *I went out*."
+   "why": "Обидва займенники тут — підмет, тому *He and I*. Перевірка: прибери другого — *He went out*, *I went out*. *Him and me*, *Him and I*, *He and me* — у кожному варіанті хоча б один займенник об'єктний, а тут обидва — підмет."
   },
   {
    "id": "pronouns-11",
@@ -186,7 +186,7 @@
     "mine"
    ],
    "answer": 0,
-   "why": "Тут займенник — частина підмета (*My sister and I are going*), тому *I*. Перевірка: *I am going to Paris*."
+   "why": "Тут займенник — частина підмета (*My sister and I are going*), тому *I*. Перевірка: *I am going to Paris*. *me* — об'єктна форма, а тут підмет; *myself* — зворотний займенник; *mine* — «мій», не «я»."
   },
   {
    "id": "pronouns-17",

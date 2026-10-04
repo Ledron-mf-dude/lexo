@@ -11,7 +11,7 @@
     "due to"
    ],
    "answer": 0,
-   "why": "*be bound to* — «неодмінно, напевно»: вона завжди запізнюється."
+   "why": "*be bound to* — «неодмінно, напевно»: вона завжди запізнюється. *unlikely to* — навряд чи, а вона завжди запізнюється; *about to* — «ось-ось», без ідеї «як завжди»; *due to* — за розкладом."
   },
   {
    "id": "likely-unlikely-bound-2",
@@ -63,7 +63,7 @@
     "He won't come probably not."
    ],
    "answer": 0,
-   "why": "У запереченні *probably* стоїть перед *won't*."
+   "why": "У запереченні *probably* стоїть перед *won't*. *won't probably* — у запереченні *probably* стоїть перед *won't*; *probably don't come* — Present Simple з *he* і без *-s*; *won't come probably not* — подвійне заперечення."
   },
   {
    "id": "likely-unlikely-bound-6",
@@ -89,7 +89,7 @@
     "bound to"
    ],
    "answer": 2,
-   "why": "Найменша ймовірність — *unlikely*."
+   "why": "Найменша ймовірність — *unlikely*. *definitely* і *bound to* — майже певно; *probably* — швидше так, ніж ні."
   },
   {
    "id": "likely-unlikely-bound-8",
@@ -102,7 +102,7 @@
     "possibly to"
    ],
    "answer": 0,
-   "why": "*possibly* — у середині речення після модального."
+   "why": "*possibly* — у середині речення після модального. *possible* — прикметник; *possibility* — іменник; *possibly to* — зайве *to*."
   },
   {
    "id": "likely-unlikely-bound-9",
@@ -115,7 +115,7 @@
     "She is right perhaps to."
    ],
    "answer": 0,
-   "why": "*Perhaps* стоїть на початку речення: *Perhaps she is right.*"
+   "why": "*Perhaps* стоїть на початку речення: *Perhaps she is right.* *She perhaps right is* і *Perhaps is she right* — неправильний порядок; *right perhaps to* — зайве *to*."
   },
   {
    "id": "likely-unlikely-bound-10",
@@ -171,7 +171,7 @@
     "probably will not to"
    ],
    "answer": 0,
-   "why": "У запереченні *probably* стоїть перед *won't*."
+   "why": "У запереченні *probably* стоїть перед *won't*. *won't probably* — неправильне місце; *will probably not to* і *probably will not to* — зайве *to*."
   },
   {
    "id": "likely-unlikely-bound-15",
@@ -184,7 +184,7 @@
     "bound that"
    ],
    "answer": 0,
-   "why": "*There is bound to be* — напевно буде."
+   "why": "*There is bound to be* — напевно буде. *likely that*, *sure that*, *bound that* — у звороті *There is … to be* після прикметника йде *to*, а не *that*."
   },
   {
    "id": "likely-unlikely-bound-16",
@@ -197,7 +197,7 @@
     "We're unlikely to win."
    ],
    "answer": 0,
-   "why": "*Perhaps* — середня ймовірність, близько 50%."
+   "why": "*Perhaps* — середня ймовірність, близько 50%. *definitely* і *bound to* — майже певно; *unlikely* — навряд чи."
   },
   {
    "id": "likely-unlikely-bound-17",
@@ -210,7 +210,7 @@
     "likely to"
    ],
    "answer": 0,
-   "why": "*It is likely that* + речення."
+   "why": "*It is likely that* + речення. *It is bound that* і *It is sure to that* — неграматично; *likely to that* — зайве *to*."
   },
   {
    "id": "likely-unlikely-bound-18",
@@ -274,7 +274,7 @@
     "bound"
    ],
    "answer": 1,
-   "why": "*a good chance (that)* — добрий шанс."
+   "why": "*a good chance (that)* — добрий шанс. *possibility to* — зайве *to* перед *that*; *likely* і *bound* — прикметники, після *a good* потрібен іменник."
   },
   {
    "id": "likely-unlikely-bound-22",
@@ -287,7 +287,7 @@
     "unlikely"
    ],
    "answer": 1,
-   "why": "Він завжди забуває — *bound to forget*."
+   "why": "Він завжди забуває — *bound to forget*. *likely not* і *sure not* — «напевно не забуде», а він завжди забуває; *unlikely* — навряд чи забуде."
   },
   {
    "id": "likely-unlikely-bound-23",

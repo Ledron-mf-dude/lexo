@@ -11,7 +11,7 @@
     "may to"
    ],
    "answer": 0,
-   "why": "*can* — «буває»: *It can get very windy here.*"
+   "why": "*can* — «буває»: *It can get very windy here.* *can to* і *may to* — після модального немає *to*; *is able get* — бракує *to* і зміст інший (уміння)."
   },
   {
    "id": "modals-can-may-advanced-2",
@@ -50,7 +50,7 @@
     "may well to"
    ],
    "answer": 0,
-   "why": "*might as well* + дієслово — нічого кращого не лишається."
+   "why": "*might as well* + дієслово — нічого кращого не лишається. *might as well to*, *might well to*, *may well to* — після модального немає *to*."
   },
   {
    "id": "modals-can-may-advanced-5",
@@ -63,7 +63,7 @@
     "may good"
    ],
    "answer": 0,
-   "why": "*may well* — «цілком імовірно»."
+   "why": "*may well* — «цілком імовірно». *may well to* — зайве *to*; *may as* і *may good* — неграматично."
   },
   {
    "id": "modals-can-may-advanced-6",
@@ -89,7 +89,7 @@
     "laughed"
    ],
    "answer": 0,
-   "why": "*can't help* + *-ing* — не можу втриматися."
+   "why": "*can't help* + *-ing* — не можу втриматися. *to laugh*, *laugh*, *laughed* — після *can't help* у цьому значенні потрібне *-ing*."
   },
   {
    "id": "modals-can-may-advanced-8",
@@ -102,7 +102,7 @@
     "can to"
    ],
    "answer": 0,
-   "why": "*may …, but* — поступка: визнаю, але…"
+   "why": "*may …, but* — поступка: визнаю, але… *may to* і *can to* — після модального немає *to*; *mays* — модальне не бере *-s*."
   },
   {
    "id": "modals-can-may-advanced-9",
@@ -115,7 +115,7 @@
     "Shall"
    ],
    "answer": 0,
-   "why": "*May you…!* — урочисте побажання."
+   "why": "*May you…!* — урочисте побажання. *Might to* — зайве *to*; *Can you…!* і *Shall you…!* — питання, а не побажання."
   },
   {
    "id": "modals-can-may-advanced-10",
@@ -128,7 +128,7 @@
     "could have"
    ],
    "answer": 0,
-   "why": "Одне досягнення в минулому — *managed to*."
+   "why": "Одне досягнення в минулому — *managed to*. *could to* — зайве *to*; *can* — теперішній час; *could have find* — неграматично, і зміст «могли б»."
   },
   {
    "id": "modals-can-may-advanced-11",

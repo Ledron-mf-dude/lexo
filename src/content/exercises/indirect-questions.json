@@ -37,7 +37,7 @@
     "which"
    ],
    "answer": 1,
-   "why": "Питання «так / ні» вбудовуємо через *if* (або *whether*): *I wonder if she is at home.*"
+   "why": "Питання «так / ні» вбудовуємо через *if* (або *whether*): *I wonder if she is at home.* *that* вводить твердження, а не питання; *what* і *which* — питальні слова, а питання «так / ні»."
   },
   {
    "id": "indirect-questions-4",
@@ -50,7 +50,7 @@
     "left he"
    ],
    "answer": 0,
-   "why": "Прямий порядок і без *did*: *why he left*."
+   "why": "Прямий порядок і без *did*: *why he left*. *did he leave* і *he did leave* — допоміжне *did* у непрямому питанні не потрібне (друге — наголос); *left he* — інверсія без допоміжного."
   },
   {
    "id": "indirect-questions-5",
@@ -59,11 +59,11 @@
    "options": [
     "Can you tell me how much does it cost?",
     "Can you tell me how much it costs?",
-    "Can you tell me how much it cost?",
+    "Can you tell me how much costs it?",
     "Can you tell me how it costs much?"
    ],
    "answer": 1,
-   "why": "Без допоміжного *does*: *how much it costs*."
+   "why": "Без допоміжного *does*: *how much it costs*. *how much does it cost* — порядок прямого питання; *how much costs it* — інверсія без допоміжного; *how it costs much* — розірвано *how much*."
   },
   {
    "id": "indirect-questions-6",
@@ -76,7 +76,7 @@
     "called she"
    ],
    "answer": 0,
-   "why": "*whether* + підмет + дієслово: *whether she called*."
+   "why": "*whether* + підмет + дієслово: *whether she called*. *did she call* — порядок прямого питання; *she does call* — допоміжне зайве й час теперішній; *called she* — інверсія без допоміжного."
   },
   {
    "id": "indirect-questions-7",
@@ -154,7 +154,7 @@
     "she does live"
    ],
    "answer": 0,
-   "why": "*where she lives* — прямий порядок."
+   "why": "*where she lives* — прямий порядок. *does she live* — порядок прямого питання; *lives she* — інверсія без допоміжного; *she does live* — зайве допоміжне (звучить як наголос)."
   },
   {
    "id": "indirect-questions-14",
@@ -167,7 +167,7 @@
     "the train does leave"
    ],
    "answer": 0,
-   "why": "Непряме питання — прямий порядок: *what time the train leaves*."
+   "why": "Непряме питання — прямий порядок: *what time the train leaves*. *does the train leave* — порядок прямого питання; *leaves the train* — інверсія; *the train does leave* — зайве допоміжне."
   },
   {
    "id": "indirect-questions-15",
@@ -180,7 +180,7 @@
     "whether will he come"
    ],
    "answer": 0,
-   "why": "*whether … or not* — *whether he'll come or not*."
+   "why": "*whether … or not* — *whether he'll come or not*. *if he'll come or* дає *or or not*; *will he come* і *whether will he come* — порядок прямого питання."
   },
   {
    "id": "indirect-questions-16",
@@ -193,7 +193,7 @@
     "called who"
    ],
    "answer": 0,
-   "why": "*who called* — питання до підмета, порядок уже прямий."
+   "why": "*who called* — питання до підмета, порядок уже прямий. *who did call* — допоміжне в питанні до підмета зайве; *who has called did* — неграматично; *called who* — неправильний порядок."
   },
   {
    "id": "indirect-questions-17",
@@ -279,7 +279,7 @@
     "Do you think that what"
    ],
    "answer": 1,
-   "why": "Питальне слово виносимо перед *do you think*: *What do you think she will say?*"
+   "why": "Питальне слово виносимо перед *do you think*: *What do you think she will say?* *Do you think what* — питальне слово не стоїть після *do you think*; *What you think* — бракує *do*; *Do you think that what* — зайві слова."
   },
   {
    "id": "indirect-questions-22",
@@ -292,7 +292,7 @@
     "the meeting is it"
    ],
    "answer": 1,
-   "why": "*when the meeting is* — прямий порядок."
+   "why": "*when the meeting is* — прямий порядок. *is the meeting* — порядок прямого питання; *does the meeting start* — те саме; *the meeting is it* — зайвий підмет *it*."
   },
   {
    "id": "indirect-questions-23",

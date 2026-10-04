@@ -11,7 +11,7 @@
     "Whom"
    ],
    "answer": 1,
-   "why": "Питаємо про підмет (хто дзвонив?) — *did* не потрібне, порядок як у ствердженні: *Who called you?*"
+   "why": "Питаємо про підмет (хто дзвонив?) — *did* не потрібне, порядок як у ствердженні: *Who called you?* *Who did call you?* — *did* у питанні до підмета зайве (якщо не наголошуємо); *What did* — про річ, а дзвонила людина; *Whom* — об'єктна форма, а тут підмет."
   },
   {
    "id": "subject-questions-2",
@@ -24,7 +24,7 @@
     "What does"
    ],
    "answer": 1,
-   "why": "Питання до підмета: *What happened?* — без *did*."
+   "why": "Питання до підмета: *What happened?* — без *did*. *What did happened* — *did* у питанні до підмета зайве; *Who* — про людину; *What does* — теперішній час."
   },
   {
    "id": "subject-questions-3",
@@ -37,7 +37,7 @@
     "What do"
    ],
    "answer": 0,
-   "why": "Питаємо про додаток (кому ти дзвонив?) — потрібне *did*: *Who did you call?*"
+   "why": "Питаємо про додаток (кому ти дзвонив?) — потрібне *did*: *Who did you call?* *Whom did did* — подвійне *did*; *Who does did* — те саме; *What do did* — про річ і подвійне допоміжне."
   },
   {
    "id": "subject-questions-4",
@@ -76,7 +76,7 @@
     "Go you with who?"
    ],
    "answer": 0,
-   "why": "У питаннях прийменник зазвичай стоїть у кінці: *Who did you go with?*"
+   "why": "У питаннях прийменник зазвичай стоїть у кінці: *Who did you go with?* *With whom go you?* і *Go you with who?* — без допоміжного *did*; *Who with did you go?* — прийменник не стоїть одразу після *who*."
   },
   {
    "id": "subject-questions-7",
@@ -89,7 +89,7 @@
     "Who did"
    ],
    "answer": 0,
-   "why": "Питання до підмета: *Who lives here?*"
+   "why": "Питання до підмета: *Who lives here?* *Who does lives* і *Who did lives* — допоміжне в питанні до підмета зайве й до того ж *lives* не можна після нього; *Whom* — об'єктна форма."
   },
   {
    "id": "subject-questions-8",
@@ -102,7 +102,7 @@
     "coming"
    ],
    "answer": 0,
-   "why": "*How many people* — підмет, тому без *did*: *How many people came?*"
+   "why": "*How many people* — підмет, тому без *did*: *How many people came?* *did come* і *does come* — допоміжне в питанні до підмета зайве; *coming* — немає особової форми."
   },
   {
    "id": "subject-questions-9",
@@ -164,7 +164,7 @@
     "makes it"
    ],
    "answer": 0,
-   "why": "Питання до підмета: *Who made this cake?*"
+   "why": "Питання до підмета: *Who made this cake?* *did make* — допоміжне в питанні до підмета зайве; *did made* — ще й *made* після *did*; *makes it* — дає *makes it this cake*."
   },
   {
    "id": "subject-questions-15",
@@ -177,7 +177,7 @@
     "are"
    ],
    "answer": 0,
-   "why": "Питання до додатка: *What do you want for dinner?*"
+   "why": "Питання до додатка: *What do you want for dinner?* *does* — для *he / she / it*, а не *you*; без допоміжного (*What you want?*) — порядок розповідного речення; *are you want* — *are* без *-ing*."
   },
   {
    "id": "subject-questions-16",
@@ -190,7 +190,7 @@
     "do passed"
    ],
    "answer": 0,
-   "why": "*How many students* — підмет: *How many students passed?*"
+   "why": "*How many students* — підмет: *How many students passed?* *did pass* — допоміжне в питанні до підмета зайве; *passed did* і *do passed* — неграматично."
   },
   {
    "id": "subject-questions-17",
@@ -262,7 +262,7 @@
     "come"
    ],
    "answer": 1,
-   "why": "Питання до підмета без *did*: *How many people came?*"
+   "why": "Питання до підмета без *did*: *How many people came?* *did come* і *did they come* — допоміжне в питанні до підмета зайве; *come* — теперішній час, а вечірка вже була."
   },
   {
    "id": "subject-questions-22",
@@ -275,7 +275,7 @@
     "is"
    ],
    "answer": 0,
-   "why": "Питання до додатка: *Who do you live with?*"
+   "why": "Питання до додатка: *Who do you live with?* *does* — для *he / she / it*, а не *you*; без допоміжного — порядок розповідного речення; *is you live* — неграматично."
   },
   {
    "id": "subject-questions-23",

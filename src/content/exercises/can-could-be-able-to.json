@@ -50,7 +50,7 @@
     "You open the window."
    ],
    "answer": 2,
-   "why": "*Could you…?* — найввічливіше прохання з цих: *could* звучить м'якше за *can*. Наказовий спосіб без *please* звучить різко."
+   "why": "*Could you…?* — найввічливіше прохання з цих: *could* звучить м'якше за *can*. Наказовий спосіб без *please* звучить різко. *Can you open the window?* — теж прохання, але менш ввічливе; *You open the window.* — не прохання, а констатація або наказ."
   },
   {
    "id": "can-could-be-able-to-5",
@@ -99,7 +99,7 @@
     "She is can swim."
    ],
    "answer": 1,
-   "why": "*can* не змінюється за особами (без *-s*) і після нього інфінітив без *to*: *She can swim.*"
+   "why": "*can* не змінюється за особами (без *-s*) і після нього інфінітив без *to*: *She can swim.* *cans* — помилка: модальне дієслово не бере *-s*; *can to swim* — після *can* немає *to*; *is can* — два дієслова-присудки поспіль."
   },
   {
    "id": "can-could-be-able-to-9",
@@ -214,7 +214,7 @@
     "is able to"
    ],
    "answer": 0,
-   "why": "Загальне вміння протягом тривалого часу в минулому — *could*: *My grandmother could read without glasses until she was 80.*"
+   "why": "Загальне вміння протягом тривалого часу в минулому — *could*: *My grandmother could read without glasses until she was 80.* *was able* без *to* неповне; *can* і *is able to* — теперішній час, а йдеться про минуле (*until she was 80*)."
   },
   {
    "id": "can-could-be-able-to-18",
@@ -308,7 +308,7 @@
     "closed"
    ],
    "answer": 1,
-   "why": "Після *Would you mind* — дієслово з *-ing*: *Would you mind closing the door?*"
+   "why": "Після *Would you mind* — дієслово з *-ing*: *Would you mind closing the door?* *to close* і *close* після *mind* не вживають; *closed* — минулий час або дієприкметник, а не назва дії."
   },
   {
    "id": "can-could-be-able-to-24",

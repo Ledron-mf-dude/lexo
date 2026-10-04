@@ -11,7 +11,7 @@
     "Tom music likes."
    ],
    "answer": 1,
-   "why": "Базовий порядок: підмет + дієслово + додаток: *Tom likes music.* Англійська, на відміну від української, майже не дозволяє переставляти ці частини."
+   "why": "Базовий порядок: підмет + дієслово + додаток: *Tom likes music.* Англійська, на відміну від української, майже не дозволяє переставляти ці частини. *Likes Tom music* — дієслово перед підметом; *Music Tom likes* і *Tom music likes* — додаток перед дієсловом."
   },
   {
    "id": "word-order-2",
@@ -24,7 +24,7 @@
     "Safely we at the hotel arrived yesterday."
    ],
    "answer": 0,
-   "why": "Обставини йдуть у порядку: спосіб (як?) → місце (де?) → час (коли?): *arrived safely at the hotel yesterday*."
+   "why": "Обставини йдуть у порядку: спосіб (як?) → місце (де?) → час (коли?): *arrived safely at the hotel yesterday*. *yesterday at the hotel safely* — час перед місцем і способом; *We yesterday safely arrived* — обставини між підметом і дієсловом; *Safely we at the hotel arrived* — дієслово в кінці."
   },
   {
    "id": "word-order-3",
@@ -37,7 +37,7 @@
     "I it like very much."
    ],
    "answer": 1,
-   "why": "*very much* стоїть після додатка, не між дієсловом і додатком: *I like it very much.* *I very like it* — калька."
+   "why": "*very much* стоїть після додатка, не між дієсловом і додатком: *I like it very much.* *I very like it* — калька. *like very much it* — *very much* розриває дієслово й додаток; *I it like* — додаток перед дієсловом."
   },
   {
    "id": "word-order-4",
@@ -50,7 +50,7 @@
     "You where are going?"
    ],
    "answer": 1,
-   "why": "Питання: питальне слово + допоміжне + підмет + дієслово: *Where are you going?*"
+   "why": "Питання: питальне слово + допоміжне + підмет + дієслово: *Where are you going?* *Where you are going?* — без інверсії; *Where going are you?* — дієслово перед допоміжним; *You where are going?* — підмет перед питальним словом."
   },
   {
    "id": "word-order-5",
@@ -63,7 +63,7 @@
     "plays not"
    ],
    "answer": 0,
-   "why": "Заперечення в Present Simple: *doesn't* + дієслово без *-s*: *She doesn't play tennis.*"
+   "why": "Заперечення в Present Simple: *doesn't* + дієслово без *-s*: *She doesn't play tennis.* *no plays* і *not plays* — без допоміжного *does*; *plays not* — застарілий порядок."
   },
   {
    "id": "word-order-6",
@@ -76,7 +76,7 @@
     "Gave she me a book."
    ],
    "answer": 0,
-   "why": "*gave* + що + *to* + кому: *She gave a book to me.* (Або *She gave me a book.*)"
+   "why": "*gave* + що + *to* + кому: *She gave a book to me.* (Або *She gave me a book.*) *She a book gave me* — додаток перед дієсловом; *gave book a me* — артикль після іменника; *Gave she me* — порядок питання."
   },
   {
    "id": "word-order-7",
@@ -89,7 +89,7 @@
     "a car is red"
    ],
    "answer": 1,
-   "why": "Прикметник стоїть перед іменником: *a red car*."
+   "why": "Прикметник стоїть перед іменником: *a red car*. *a car red* і *red a car* — прикметник після іменника або перед артиклем; *a car is red* — уже речення, а не словосполучення."
   },
   {
    "id": "word-order-8",
@@ -158,7 +158,7 @@
     "We in London visited our friends last summer."
    ],
    "answer": 0,
-   "why": "Підмет + дієслово + додаток + місце + час: *We visited our friends in London last summer.*"
+   "why": "Підмет + дієслово + додаток + місце + час: *We visited our friends in London last summer.* У решті варіантів додаток *our friends* відірваний від дієслова або дієслово стоїть у кінці."
   },
   {
    "id": "word-order-14",
@@ -171,7 +171,7 @@
     "I don't very much like film this."
    ],
    "answer": 0,
-   "why": "*very much* — після додатка: *I don't like this film very much.*"
+   "why": "*very much* — після додатка: *I don't like this film very much.* *like very much this film* — *very much* розриває дієслово й додаток; *very much don't like* — неприродне місце; *film this* — вказівне слово після іменника."
   },
   {
    "id": "word-order-15",
@@ -184,7 +184,7 @@
     "Where your brother does work?"
    ],
    "answer": 0,
-   "why": "Питання: *Where* + *does* + підмет + дієслово: *Where does your brother work?*"
+   "why": "Питання: *Where* + *does* + підмет + дієслово: *Where does your brother work?* *Where your brother works?* — без *does*; *does work your brother* — дієслово перед підметом; *your brother does work* — без інверсії."
   },
   {
    "id": "word-order-16",
@@ -197,7 +197,7 @@
     "She is late never."
    ],
    "answer": 0,
-   "why": "Прислівник частоти стоїть після *to be*: *She is never late.*"
+   "why": "Прислівник частоти стоїть після *to be*: *She is never late.* *never is* — прислівник частоти стоїть після *be*; *Never she is* і *late never* — неприродні місця для *never*."
   },
   {
    "id": "word-order-17",
@@ -284,7 +284,7 @@
     "I speak German also too."
    ],
    "answer": 1,
-   "why": "*also* стоїть перед основним дієсловом: *I also speak German.*"
+   "why": "*also* стоїть перед основним дієсловом: *I also speak German.* *speak also German* — *also* не стоїть між дієсловом і додатком; *Also I speak* — розмовно й неприродно; *also too* — два слова з одним значенням."
   },
   {
    "id": "word-order-22",

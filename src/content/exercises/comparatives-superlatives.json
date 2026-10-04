@@ -37,7 +37,7 @@
     "the interesting"
    ],
    "answer": 0,
-   "why": "Довгий прикметник (3+ склади) — *more* + прикметник: *more interesting*."
+   "why": "Довгий прикметник (3+ склади) — *more* + прикметник: *more interesting*. *interestinger* — довгі прикметники не беруть *-er*; *most interesting* — найвищий ступінь, а *than* вимагає порівняльного; *the interesting* — не ступінь порівняння."
   },
   {
    "id": "comparatives-superlatives-4",
@@ -76,7 +76,7 @@
     "bigest"
    ],
    "answer": 1,
-   "why": "Односкладові на приголосна + голосна + приголосна подвоюють останню літеру: *big → bigger*."
+   "why": "Односкладові на приголосна + голосна + приголосна подвоюють останню літеру: *big → bigger*. *biger* — без подвоєння *g*; *more big* — односкладові прикметники не вживають із *more*; *bigest* — найвищий ступінь, до того ж без подвоєння."
   },
   {
    "id": "comparatives-superlatives-7",
@@ -89,7 +89,7 @@
     "hapiier"
    ],
    "answer": 1,
-   "why": "*-y* після приголосної змінюється на *-ier*: *happy → happier*."
+   "why": "*-y* після приголосної змінюється на *-ier*: *happy → happier*. *happyer* — *y* після приголосної має змінитися на *i*; *happiest* — найвищий ступінь; *hapiier* — зайве *i* і загублене *p*."
   },
   {
    "id": "comparatives-superlatives-8",
@@ -102,7 +102,7 @@
     "cold and cold"
    ],
    "answer": 0,
-   "why": "«Дедалі холодніше» — порівняльний + *and* + порівняльний: *colder and colder*."
+   "why": "«Дедалі холодніше» — порівняльний + *and* + порівняльний: *colder and colder*. *more cold and more cold* — односкладове *cold* має форму *colder*; *coldest* — найвищий ступінь, не процес; *cold and cold* — без порівняльного ступеня немає «дедалі»."
   },
   {
    "id": "comparatives-superlatives-9",
@@ -208,7 +208,7 @@
     "the harder"
    ],
    "answer": 0,
-   "why": "Односкладове *hard* — *harder*: *harder than English*."
+   "why": "Односкладове *hard* — *harder*: *harder than English*. *more hard* — односкладовий прикметник не вживається з *more*; *hardest* і *the harder* не поєднуються з *than*."
   },
   {
    "id": "comparatives-superlatives-19",
@@ -221,7 +221,7 @@
     "at"
    ],
    "answer": 0,
-   "why": "Після найвищого ступеня місце позначаємо через *in*: *the tallest building in the city*."
+   "why": "Після найвищого ступеня місце позначаємо через *in*: *the tallest building in the city*. *of* — коли порівнюємо в межах групи (*the tallest of the three*), а місто — це місце; *than* — для порівняльного ступеня; *at* — точка, а не територія."
   },
   {
    "id": "comparatives-superlatives-20",
@@ -341,7 +341,7 @@
     "more hot"
    ],
    "answer": 2,
-   "why": "Найвищий ступінь — *the hottest*, з подвоєним *t*."
+   "why": "Найвищий ступінь — *the hottest*, з подвоєним *t*. *hotter* — порівняльний ступінь, а з *the … of the year* потрібен найвищий; *most hot* і *more hot* — односкладове *hot* утворює ступені через закінчення."
   },
   {
    "id": "comparatives-superlatives-28",

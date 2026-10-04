@@ -37,7 +37,7 @@
     "meet"
    ],
    "answer": 1,
-   "why": "*yesterday* — завершений час у минулому, тому Past Simple: *I met him yesterday.* Present Perfect з точним минулим часом не вживають."
+   "why": "*yesterday* — завершений час у минулому, тому Past Simple: *I met him yesterday.* Present Perfect з точним минулим часом не вживають. *have met* і *have been meeting* — Present Perfect із *yesterday* не вживають; *meet* — теперішній час."
   },
   {
    "id": "present-perfect-4",
@@ -82,7 +82,7 @@
     "do / learn"
    ],
    "answer": 1,
-   "why": "*How long* про дію, що триває досі, — Present Perfect Continuous: *How long have you been learning English?*"
+   "why": "*How long* про дію, що триває досі, — Present Perfect Continuous: *How long have you been learning English?* *did … learn* — минуле, а навчання триває; *are … learning* і *do … learn* — з *How long* про «досі» потрібен Perfect."
   },
   {
    "id": "present-perfect-8",
@@ -104,7 +104,7 @@
     "loses"
    ],
    "answer": 1,
-   "why": "Результат минулої дії важливий зараз (не може зайти) — Present Perfect: *He has lost his keys.*"
+   "why": "Результат минулої дії важливий зараз (не може зайти) — Present Perfect: *He has lost his keys.* *is lose* — неграматично; *was losing* — процес у минулому; *loses* — звичка, а не результат."
   },
   {
    "id": "present-perfect-10",
@@ -181,12 +181,12 @@
    "q": "___ you ever ___ a famous person?",
    "options": [
     "Have / met",
-    "Did / meet",
+    "Did / met",
     "Have / meet",
     "Do / meet"
    ],
    "answer": 0,
-   "why": "*ever* — маркер Present Perfect: *Have you ever met a famous person?*"
+   "why": "*ever* — маркер Present Perfect: *Have you ever met a famous person?* *Did … met* — після *did* потрібна початкова форма; *Have … meet* — після *have* потрібна третя форма; *Do … meet* — теперішній час, а не досвід."
   },
   {
    "id": "present-perfect-17",
@@ -212,7 +212,7 @@
     "writes"
    ],
    "answer": 0,
-   "why": "*this year* ще не закінчився, і йдеться про кількість (три книжки) — Present Perfect Simple: *has written*."
+   "why": "*this year* ще не закінчився, і йдеться про кількість (три книжки) — Present Perfect Simple: *has written*. *wrote on* і *has been writing on* — зайвий прийменник; *writes* — звичка."
   },
   {
    "id": "present-perfect-19",
@@ -225,7 +225,7 @@
     "have / move"
    ],
    "answer": 0,
-   "why": "*When* питає про конкретний момент у минулому — Past Simple: *When did you move to London?*"
+   "why": "*When* питає про конкретний момент у минулому — Past Simple: *When did you move to London?* *have … moved* — Present Perfect із *When* не вживають; *did … moved* — після *did* потрібна початкова форма; *have … move* — потрібна третя форма."
   },
   {
    "id": "present-perfect-20",

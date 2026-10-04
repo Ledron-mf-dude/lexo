@@ -215,7 +215,7 @@
     "Who"
    ],
    "answer": 0,
-   "why": "Причину питаємо через *Why*: *Why are you so late?*"
+   "why": "Причину питаємо через *Why*: *Why are you so late?* *What* — «що», *How* — «як», *Who* — «хто»; питання про причину — лише *Why*."
   },
   {
    "id": "questions-19",
@@ -302,7 +302,7 @@
     "as"
    ],
    "answer": 1,
-   "why": "*What is it like?* — «який він?» (опис, враження). *like* тут прийменник «як / схожий на», тому без *-s*: *What's your new flat like?*"
+   "why": "*What is it like?* — «який він?» (опис, враження). *like* тут прийменник «як / схожий на», тому без *-s*: *What's your new flat like?* *look* без *like* не працює: було б *What does it look like?*; *likes* — дієслово «подобається»; *as* тут не вживають."
   },
   {
    "id": "questions-25",

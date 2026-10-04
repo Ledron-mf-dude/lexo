@@ -37,7 +37,7 @@
     "ten year old"
    ],
    "answer": 1,
-   "why": "Перед іменником — складний прикметник: *a ten-year-old boy* (однина, дефіси)."
+   "why": "Перед іменником — складний прикметник: *a ten-year-old boy* (однина, дефіси). *ten years old* стоїть після іменника (*a boy ten years old*) або після дієслова; *ten-years-old* — множина в складному прикметнику; *ten year old* без дефісів — помилка написання."
   },
   {
    "id": "compound-adjectives-4",
@@ -50,7 +50,7 @@
     "well knowing"
    ],
    "answer": 0,
-   "why": "*well-known* — прислівник + дієприкметник, один прикметник."
+   "why": "*well-known* — прислівник + дієприкметник, один прикметник. *know well* — дієслово з прислівником; *known-well* — неправильний порядок; *well knowing* — не прикметник."
   },
   {
    "id": "compound-adjectives-5",
@@ -63,7 +63,7 @@
     "full-timed"
    ],
    "answer": 0,
-   "why": "*full-time* — на повний робочий день; складний прикметник через дефіс."
+   "why": "*full-time* — на повний робочий день; складний прикметник через дефіс. *fulltimes* — множина й без дефіса; *time-full* — неправильний порядок; *full-timed* — зайве *-ed*."
   },
   {
    "id": "compound-adjectives-6",
@@ -76,7 +76,7 @@
     "third-course"
    ],
    "answer": 0,
-   "why": "У складному прикметнику іменник в однині: *a three-course meal*, хоча страв три."
+   "why": "У складному прикметнику іменник в однині: *a three-course meal*, хоча страв три. *three-courses* — множина в складному прикметнику; *three courses* без дефіса — не прикметник; *third-course* — «третя страва»."
   },
   {
    "id": "compound-adjectives-7",
@@ -89,7 +89,7 @@
     "five-old-year"
    ],
    "answer": 0,
-   "why": "*a five-year-old car* — однина й дефіси."
+   "why": "*a five-year-old car* — однина й дефіси. *five-years-old* — множина в складному прикметнику; *five year olds* — «п'ятирічні діти»; *five-old-year* — неправильний порядок."
   },
   {
    "id": "compound-adjectives-8",
@@ -102,7 +102,7 @@
     "tomorrow"
    ],
    "answer": 3,
-   "why": "*tomorrow* — прислівник, а не складний прикметник."
+   "why": "*tomorrow* — прислівник, а не складний прикметник. *old-fashioned*, *hard-working*, *easy-going* — складні прикметники з двох частин через дефіс."
   },
   {
    "id": "compound-adjectives-9",
@@ -163,7 +163,7 @@
     "ten-poundes"
    ],
    "answer": 0,
-   "why": "*a ten-pound note* — однина в складному прикметнику."
+   "why": "*a ten-pound note* — однина в складному прикметнику. *ten-pounds* — множина в складному прикметнику; *ten pounds note* без дефіса — помилка; *ten-poundes* — неіснуюча форма."
   },
   {
    "id": "compound-adjectives-15",
@@ -176,7 +176,7 @@
     "last minute's"
    ],
    "answer": 0,
-   "why": "*a last-minute decision* — в останню хвилину."
+   "why": "*a last-minute decision* — в останню хвилину. *last-minutes* — множина в складному прикметнику; *minute-last* — неправильний порядок; *last minute's* — присвійна форма."
   },
   {
    "id": "compound-adjectives-16",
@@ -202,7 +202,7 @@
     "good known"
    ],
    "answer": 0,
-   "why": "Після дієслова такі прикметники часто пишуть без дефіса: *is well known*."
+   "why": "Після дієслова такі прикметники часто пишуть без дефіса: *is well known*. *well-knowing* — «добре знає», активний зміст; *well-knowned* — неіснуюча форма; *good known* — *good* не стоїть перед дієприкметником."
   },
   {
    "id": "compound-adjectives-18",
@@ -263,7 +263,7 @@
     "twelve-houred"
    ],
    "answer": 1,
-   "why": "*twelve-hour shifts* — у складному прикметнику однина, навіть якщо іменник після нього в множині."
+   "why": "*twelve-hour shifts* — у складному прикметнику однина, навіть якщо іменник після нього в множині. *twelve-hours* — множина в складному прикметнику; *twelve hours'* — присвійна форма звучить застаріло; *twelve-houred* — неіснуюча форма."
   },
   {
    "id": "compound-adjectives-22",
@@ -276,7 +276,7 @@
     "left-handed"
    ],
    "answer": 0,
-   "why": "*absent-minded* — неуважний (вічно все забуває)."
+   "why": "*absent-minded* — неуважний (вічно все забуває). *open-minded* — відкритий до нового; *kind-hearted* — добрий; *left-handed* — шульга; лише *absent-minded* — неуважний."
   },
   {
    "id": "compound-adjectives-23",

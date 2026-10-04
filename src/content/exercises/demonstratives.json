@@ -11,7 +11,7 @@
     "These"
    ],
    "answer": 1,
-   "why": "Одна річ поруч — *This*: *This book here is mine.* *here* підтверджує «близько»."
+   "why": "Одна річ поруч — *This*: *This book here is mine.* *here* підтверджує «близько». *That* — для того, що далеко; *These* / *Those* — для множини, а *book* одна."
   },
   {
    "id": "demonstratives-2",
@@ -24,7 +24,7 @@
     "Those"
    ],
    "answer": 3,
-   "why": "Кілька речей далеко (*over there*) — *Those*: *Those shoes over there are yours.*"
+   "why": "Кілька речей далеко (*over there*) — *Those*: *Those shoes over there are yours.* *This* / *That* — для однини, а *shoes* — множина; *These* — для того, що поруч, а взуття *over there*."
   },
   {
    "id": "demonstratives-3",
@@ -37,7 +37,7 @@
     "Those"
    ],
    "answer": 2,
-   "why": "Кілька речей поруч — *These*: *These are my keys.*"
+   "why": "Кілька речей поруч — *These*: *These are my keys.* *This* / *That* — однина, а *keys* — множина; *Those* — для того, що далеко."
   },
   {
    "id": "demonstratives-4",
@@ -50,7 +50,7 @@
     "He"
    ],
    "answer": 1,
-   "why": "Називаючи себе по телефону, британці кажуть *This is Tom (speaking).*"
+   "why": "Називаючи себе по телефону, британці кажуть *This is Tom (speaking).* *That is Tom* означає «то (там) Том», про іншу людину; *It* і *He* для самопредставлення по телефону не вживають."
   },
   {
    "id": "demonstratives-5",
@@ -76,7 +76,7 @@
     "There"
    ],
    "answer": 1,
-   "why": "Про погоду — *It*: *It is raining.* Вказівні слова тут не вживаємо."
+   "why": "Про погоду — *It*: *It is raining.* Вказівні слова тут не вживаємо. *This* / *That* вказують на конкретну річ, а про погоду вживають безособове *It*; *There is raining* — неграматично."
   },
   {
    "id": "demonstratives-7",
@@ -164,7 +164,7 @@
     "those"
    ],
    "answer": 0,
-   "why": "Про момент у минулому — *that day*: *Do you remember that day when we met?*"
+   "why": "Про момент у минулому — *that day*: *Do you remember that day when we met?* *this day* — «сьогодні, цей день», а йдеться про минуле; *these* / *those* — множина, а *day* — однина."
   },
   {
    "id": "demonstratives-15",
@@ -190,7 +190,7 @@
     "Those is"
    ],
    "answer": 0,
-   "why": "*trousers* — множина, і вони в руках (близько), тому *These trousers are too long.*"
+   "why": "*trousers* — множина, і вони в руках (близько), тому *These trousers are too long.* *This* / *That* — однина, а *trousers* завжди множина; *Those is* — і далеко, і з дієсловом однини."
   },
   {
    "id": "demonstratives-17",
@@ -203,7 +203,7 @@
     "these are"
    ],
    "answer": 0,
-   "why": "Відповідаючи про згадану річ, уживаємо *it*: *Yes, it's mine.*"
+   "why": "Відповідаючи про згадану річ, уживаємо *it*: *Yes, it's mine.* *this's* не скорочують; *that are* і *these are* — дієслово множини, а ручка одна."
   },
   {
    "id": "demonstratives-18",
@@ -278,7 +278,7 @@
     "It's this"
    ],
    "answer": 1,
-   "why": "Реагуючи на почуте від співрозмовника, кажемо *That's fantastic!*"
+   "why": "Реагуючи на почуте від співрозмовника, кажемо *That's fantastic!* *This is* вказує на щось поруч, а реагуємо на сказане співрозмовником; *These are* — множина; *It's this* — не реакція."
   },
   {
    "id": "demonstratives-23",

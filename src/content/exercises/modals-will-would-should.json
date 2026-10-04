@@ -11,7 +11,7 @@
     "would been"
    ],
    "answer": 0,
-   "why": "*will be* — упевнене припущення про теперішнє з досвіду: *That'll be the postman.*"
+   "why": "*will be* — упевнене припущення про теперішнє з досвіду: *That'll be the postman.* *will to be* — зайве *to*; *is being* — Continuous від *be* про поведінку; *would been* — неграматично."
   },
   {
    "id": "modals-will-would-should-2",
@@ -37,7 +37,7 @@
     "not will"
    ],
    "answer": 0,
-   "why": "*won't* — річ «відмовляється» працювати: *The door won't open.*"
+   "why": "*won't* — річ «відмовляється» працювати: *The door won't open.* *doesn't will*, *willn't*, *not will* — заперечення від *will* утворюється лише як *won't*."
   },
   {
    "id": "modals-will-would-should-4",
@@ -50,7 +50,7 @@
     "won't"
    ],
    "answer": 0,
-   "why": "*wouldn't* — відмова в минулому: *The car wouldn't start.*"
+   "why": "*wouldn't* — відмова в минулому: *The car wouldn't start.* *didn't would* — неграматично; *wouldn't to* — зайве *to*; *won't* — теперішній час, а я вже поїхав автобусом."
   },
   {
    "id": "modals-will-would-should-5",
@@ -63,7 +63,7 @@
     "shall"
    ],
    "answer": 0,
-   "why": "*should* після оцінки (*strange, surprised*) передає саму думку про подію: *It's strange that she should say that.*"
+   "why": "*should* після оцінки (*strange, surprised*) передає саму думку про подію: *It's strange that she should say that.* *should to* і *would to* — зайве *to*; *shall* у цій конструкції не вживають."
   },
   {
    "id": "modals-will-would-should-6",
@@ -76,7 +76,7 @@
     "Shall"
    ],
    "answer": 0,
-   "why": "*Should you need…* = *If you need…* (формально)."
+   "why": "*Should you need…* = *If you need…* (формально). *Would you need* і *Will you need* — питання, а далі наказ *just call me*; *Shall you* — неграматично."
   },
   {
    "id": "modals-will-would-should-7",
@@ -89,7 +89,7 @@
     "would to"
    ],
    "answer": 0,
-   "why": "*I'd say…* — обережна, м'яка думка."
+   "why": "*I'd say…* — обережна, м'яка думка. *will to*, *should to*, *would to* — після модального немає *to*."
   },
   {
    "id": "modals-will-would-should-8",
@@ -102,7 +102,7 @@
     "Why should to"
    ],
    "answer": 0,
-   "why": "*Why should I…?* — роздратоване заперечення."
+   "why": "*Why should I…?* — роздратоване заперечення. *Why shall I* — так не кажуть; *Why would to* і *Why should to* — зайве *to*."
   },
   {
    "id": "modals-will-would-should-9",
@@ -115,7 +115,7 @@
     "should"
    ],
    "answer": 0,
-   "why": "Повторювана дія в минулому — *would* + дієслово без *to*: *my grandfather would sit by the fire*."
+   "why": "Повторювана дія в минулому — *would* + дієслово без *to*: *my grandfather would sit by the fire*. *would to* і *will to* — зайве *to*; *should sit* — обов'язок, а не звичка."
   },
   {
    "id": "modals-will-would-should-10",

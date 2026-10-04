@@ -11,7 +11,7 @@
     "knowed"
    ],
    "answer": 1,
-   "why": "*know* — дієслово стану (знання), у Continuous не вживається: *I know the answer.*"
+   "why": "*know* — дієслово стану (знання), у Continuous не вживається: *I know the answer.* *am knowing* — *know* у Continuous не вживають; *knowing* — немає особової форми; *knowed* — *know* неправильне дієслово (*knew*)."
   },
   {
    "id": "stative-verbs-2",
@@ -50,7 +50,7 @@
     "thought"
    ],
    "answer": 1,
-   "why": "*think* у значенні «вважати» (думка) — стан: *I think it is a good idea.*"
+   "why": "*think* у значенні «вважати» (думка) — стан: *I think it is a good idea.* *am thinking* — «обмірковую» (процес), а не думка; *thinking* — немає особової форми; *thought* — минуле."
   },
   {
    "id": "stative-verbs-5",
@@ -115,7 +115,7 @@
     "sees"
    ],
    "answer": 1,
-   "why": "*see* у значенні «розуміти» — стан: *I see what you mean.*"
+   "why": "*see* у значенні «розуміти» — стан: *I see what you mean.* *am seeing* — «зустрічаюся» або «бачу зараз», а не «розумію»; *seeing* — немає особової форми; *sees* — для *he / she / it*."
   },
   {
    "id": "stative-verbs-10",
@@ -203,7 +203,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*smell* у значенні «нюхати» — дія, тому Continuous: *Why are you smelling the milk?*"
+   "why": "*smell* у значенні «нюхати» — дія, тому Continuous: *Why are you smelling the milk?* *do you smelling* і *have you smelling* — *-ing* потребує *be*; *is* — для *he / she / it*, а не *you*."
   },
   {
    "id": "stative-verbs-18",
@@ -216,7 +216,7 @@
     "am think"
    ],
    "answer": 0,
-   "why": "*think* = вважати — стан: *I think you're right.*"
+   "why": "*think* = вважати — стан: *I think you're right.* *am thinking* — «обмірковую», а не «вважаю»; *thinking* — немає особової форми; *am think* — *am* без *-ing*."
   },
   {
    "id": "stative-verbs-19",

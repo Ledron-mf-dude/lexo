@@ -37,7 +37,7 @@
     "similar"
    ],
    "answer": 1,
-   "why": "*look like* + іменник: *looks like a dog*."
+   "why": "*look like* + іменник: *looks like a dog*. *looks as a dog* — *as* перед іменником означає «у ролі»; *alike* стоїть після дієслова без додатка (*They look alike*); *similar* потребує *to*."
   },
   {
    "id": "verbs-of-the-senses-4",
@@ -50,7 +50,7 @@
     "similar"
    ],
    "answer": 0,
-   "why": "*sound like* + іменник: *sounds like his father*."
+   "why": "*sound like* + іменник: *sounds like his father*. *as* перед іменником означає «у ролі»; *alike* — без додатка; *similar* потребує *to*."
   },
   {
    "id": "verbs-of-the-senses-5",
@@ -63,7 +63,7 @@
     "delight"
    ],
    "answer": 0,
-   "why": "Після *smell* — прикметник: *smells delicious*."
+   "why": "Після *smell* — прикметник: *smells delicious*. *deliciously* — прислівник, а *smell* тут дієслово-зв'язка; *deliciousity* не існує; *delight* — іменник."
   },
   {
    "id": "verbs-of-the-senses-6",
@@ -102,7 +102,7 @@
     "watch"
    ],
    "answer": 1,
-   "why": "*can hear* — чую (сприймаю)."
+   "why": "*can hear* — чую (сприймаю). *listen* — дія, уважно слухати, і потребує *to*; *look* і *watch* — про зір."
   },
   {
    "id": "verbs-of-the-senses-9",
@@ -163,7 +163,7 @@
     "as interesting"
    ],
    "answer": 0,
-   "why": "*sounds interesting* — прикметник."
+   "why": "*sounds interesting* — прикметник. *interestingly* — прислівник; *like interesting* — *like* перед прикметником не ставлять; *as interesting* — неповне порівняння."
   },
   {
    "id": "verbs-of-the-senses-15",
@@ -176,7 +176,7 @@
     "likes"
    ],
    "answer": 0,
-   "why": "*look like* — бути схожим."
+   "why": "*look like* — бути схожим. *as* — «у ролі»; *alike* — без додатка; *likes* — дієслово «подобається»."
   },
   {
    "id": "verbs-of-the-senses-16",
@@ -189,7 +189,7 @@
     "have"
    ],
    "answer": 0,
-   "why": "*can smell* — сприйняття зараз."
+   "why": "*can smell* — сприйняття зараз. *am smell* — *am* без *-ing*; *do can* — два допоміжні; *have smell* — неграматично."
   },
   {
    "id": "verbs-of-the-senses-17",
@@ -263,7 +263,7 @@
     "am listening"
    ],
    "answer": 1,
-   "why": "Сприйняття зараз — *can hear*."
+   "why": "Сприйняття зараз — *can hear*. *am hearing* — *hear* у значенні сприйняття в Continuous зазвичай не вживають; *hear to* — зайве *to*; *am listening* — потребує *to* і означає дію, а не сприйняття."
   },
   {
    "id": "verbs-of-the-senses-22",
