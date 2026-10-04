@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { shortTitle, type useGrammarReview } from '../lib/grammarReview'
+import { pairTitle, type useGrammarReview } from '../lib/grammarReview'
 
 const SHOWN_PAIRS = 3
 
@@ -24,7 +24,7 @@ export function ContrastPairs({ pairs }: { pairs: Pairs }) {
             className={`chip ${both ? 'border-bad/40! text-white' : ''}`}
             title={both ? 'В обох темах є ваші помилки' : undefined}
           >
-            {shortTitle(pair[0])} / {shortTitle(pair[1])}
+            {pairTitle(pair)}
           </button>
         ))}
         {pairs.length > SHOWN_PAIRS && (

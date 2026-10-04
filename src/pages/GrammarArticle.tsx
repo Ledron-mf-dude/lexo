@@ -1,14 +1,16 @@
+import { use } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import ArticleMarkdown from '../components/ArticleMarkdown'
 import LevelBadge from '../components/LevelBadge'
 import { MIN_WORDS, wordsForArticle } from '../lib/articleWords'
-import { exercises } from '../lib/exercises'
+import { exerciseIds } from '../lib/exercises'
 import { topicStats, useExerciseLog } from '../lib/exerciseLog'
-import { bySlug } from '../lib/grammar'
+import { bySlug, loadArticle } from '../lib/grammar'
 import { topicStatus } from '../lib/learningPath'
 import { useTags, useWords } from '../lib/queries'
 import { count, QUESTION } from '../lib/plural'
-import { headingId } from '../lib/articleText'
+import { articleSections, headingId } from '../lib/articleText'
+import { articleSummaryPref } from '../lib/prefs'
 import { useTitle } from '../lib/useTitle'
 
 export default function GrammarArticle() {
@@ -19,9 +21,9 @@ export default function GrammarArticle() {
   const words = useWords()
   const tags = useTags()
   const log = useExerciseLog()
-  const bank = exercises.get(slug)
-  const stats = bank ? topicStats(log.data, slug, new Set(bank.map((q) => q.id))) : null
-  const topicWords = article && words.data && tags.data ? wordsForArticle(article, words.data, tags.data) : []
+  const summaryOpen = articleSummaryPref.use() === 'open'
+  const bank = exerciseIds.get(slug)
+  const stats = bank ? topicStats(log.data, slug, new Set(bank)) : null
 
   if (!article) {
     return (
@@ -34,11 +36,19 @@ export default function GrammarArticle() {
     )
   }
 
+  // The body loads with the article (the route's Suspense shows «Завантаження…» the first time).
+  const content = use(loadArticle(slug))
+  const fullBody = content.body
+  const topicWords = words.data && tags.data ? wordsForArticle(article, content, words.data, tags.data) : []
+  // «Як вибрати» is the article's cheat sheet: it opens the page as «Коротко» instead of closing it.
+  const summary = articleSections(fullBody).find((s) => s.title === 'Як вибрати')
+  const body = summary ? fullBody.replace(summary.body, '') : fullBody
+
   const related = article.related.map((s) => bySlug.get(s)).filter((a) => a !== undefined)
   // Short chip labels ("Модальні дієслова"), unless two related articles would get the same one.
   const short = (title: string) => title.split(/[:(—]/)[0].trim()
   const label = (title: string) => (related.filter((r) => short(r.title) === short(title)).length > 1 ? title : short(title))
-  const sections = [...article.body.matchAll(/^## (.+)$/gm)].map((m) => m[1].replace(/[*`]/g, '').trim())
+  const sections = [...body.matchAll(/^## (.+)$/gm)].map((m) => m[1].replace(/[*`]/g, '').trim())
 
   return (
     <article className="space-y-4">
@@ -80,7 +90,19 @@ export default function GrammarArticle() {
           ))}
         </nav>
       )}
-      <ArticleMarkdown body={article.body} />
+      {summary && (
+        <details
+          open={summaryOpen}
+          onToggle={(e) => articleSummaryPref.set(e.currentTarget.open ? 'open' : 'closed')}
+          className="glass rounded-2xl px-4 py-3"
+        >
+          <summary className="cursor-pointer text-sm font-medium text-accent">Коротко: як вибрати</summary>
+          <div className="mt-2">
+            <ArticleMarkdown body={summary.body.replace(/^## .*\r?\n/, '')} />
+          </div>
+        </details>
+      )}
+      <ArticleMarkdown body={body} />
 
       {bank && stats && (
         <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-4 sm:p-5">

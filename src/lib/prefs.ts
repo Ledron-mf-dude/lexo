@@ -50,3 +50,6 @@ export const grammarPanelPref = createPref('grammarPanel', ['none', 'route', 'pa
 
 /** Whether the session settings (word count, level, tags, exercises) are open on the Practice page. */
 export const practiceSettingsPref = createPref('practiceSettings', ['open', 'closed'] as const, 'closed')
+
+/** Whether the «Коротко: як вибрати» summary at the top of an article is open. */
+export const articleSummaryPref = createPref('articleSummary', ['open', 'closed'] as const, 'open')

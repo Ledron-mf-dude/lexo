@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { topicStats, type LogRow } from './exerciseLog'
-import { exercises } from './exercises'
+import { exerciseIds } from './exercises'
 import { bySlug } from './grammar'
 import { loadCards, MY_WRITING } from './writingCards'
 
@@ -93,6 +93,13 @@ export const CONTRAST_PAIRS = PAIRS.filter(([a, b]) => bySlug.has(a) && bySlug.h
 /** Short topic name for chips: the title up to its first colon, bracket or dash. */
 export const shortTitle = (slug: string) => (bySlug.get(slug)?.title ?? slug).split(/[:(—]/)[0].trim()
 
+/** «A / B» for a contrast pair; two topics with the same short name are told apart by what follows the colon. */
+export function pairTitle([a, b]: readonly string[]): string {
+  if (shortTitle(a) !== shortTitle(b)) return `${shortTitle(a)} / ${shortTitle(b)}`
+  const detail = (slug: string) => (bySlug.get(slug)?.title.split(':')[1] ?? slug).split('(')[0].trim()
+  return `${shortTitle(a)}: ${detail(a)} / ${detail(b)}`
+}
+
 /**
  * Pairs ordered by the learner's current mistakes in both topics (latest answer wrong); pairs where both topics
  * have mistakes come first. Without any mistakes the list keeps its default order.
@@ -108,9 +115,9 @@ export function personalPairs(mistakesBySlug: Map<string, number>): { pair: [str
 export function useGrammarReview(log: LogRow[] | undefined) {
   return useMemo(() => {
     const cards = new Set(loadCards().map((c) => c.id))
-    const valid = (slug: string, id: string) => (slug === MY_WRITING ? cards.has(id) : Boolean(exercises.get(slug)?.some((q) => q.id === id)))
+    const valid = (slug: string, id: string) => (slug === MY_WRITING ? cards.has(id) : Boolean(exerciseIds.get(slug)?.includes(id)))
     const { due, next } = reviewSummary(reviewSchedule(log, valid))
-    const mistakes = new Map([...exercises].map(([slug, qs]) => [slug, topicStats(log, slug, new Set(qs.map((q) => q.id))).mistakes.length]))
+    const mistakes = new Map([...exerciseIds].map(([slug, ids]) => [slug, topicStats(log, slug, new Set(ids)).mistakes.length]))
     return { due: due.length, next, pairs: personalPairs(mistakes) }
   }, [log])
 }

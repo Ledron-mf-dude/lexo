@@ -1,18 +1,19 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { use, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { articleSections } from '../lib/articleText'
 import type { Question } from '../lib/exercises'
-import { bySlug } from '../lib/grammar'
+import { bySlug, loadArticle } from '../lib/grammar'
 import { ruleSectionIndex } from '../lib/ruleFinder'
 import ArticleMarkdown from './ArticleMarkdown'
 
 /**
  * «Правило» during a quiz: the article section that explains the question, over the quiz, so the deck is not lost.
- * The other sections are chips, in case the guess is off.
+ * The other sections are chips, in case the guess is off. Render it inside Suspense: the body may still be loading.
  */
 export default function RuleSheet({ slug, q, onClose }: { slug: string; q: Question; onClose: () => void }) {
   const article = bySlug.get(slug)
-  const sections = useMemo(() => (article ? articleSections(article.body) : []), [article])
+  const { body } = use(loadArticle(slug))
+  const sections = useMemo(() => articleSections(body), [body])
   const [index, setIndex] = useState(() => ruleSectionIndex(sections, q))
   const panel = useRef<HTMLDivElement>(null)
 

@@ -102,14 +102,14 @@ export function answerHistory(log: LogRow[] | undefined): Map<string, LastAnswer
 }
 
 /** Every question, across all topics, whose latest answer is wrong (newest mistakes first). */
-export function allMistakes(log: LogRow[] | undefined, banks: Map<string, { id: string }[]>): { slug: string; id: string }[] {
+export function allMistakes(log: LogRow[] | undefined, ids: Map<string, string[]>): { slug: string; id: string }[] {
   const seen = new Set<string>()
   const out: { slug: string; id: string }[] = []
   for (const row of log ?? []) {
     const key = `${row.article_slug}/${row.question_id}`
     if (seen.has(key)) continue
     seen.add(key)
-    if (!row.correct && banks.get(row.article_slug)?.some((q) => q.id === row.question_id)) out.push({ slug: row.article_slug, id: row.question_id })
+    if (!row.correct && ids.get(row.article_slug)?.includes(row.question_id)) out.push({ slug: row.article_slug, id: row.question_id })
   }
   return out
 }

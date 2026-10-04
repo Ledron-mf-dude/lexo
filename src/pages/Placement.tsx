@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { use, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
 import { useLogAnswer } from '../lib/exerciseLog'
-import { withVariant, type Item } from '../lib/exercises'
+import { loadQuestions, withVariant, type Item } from '../lib/exercises'
 import { useFocusMode } from '../lib/focusMode'
 import { bySlug, type Level } from '../lib/grammar'
-import { BLOCK_SIZE, drawBlock, PASS_MARK, passedLevel, PLACEMENT_LEVELS, savePlacement, studyLevelAfter, type Placement as Result } from '../lib/learningPath'
+import { BLOCK_SIZE, drawBlock, PASS_MARK, passedLevel, PLACEMENT_LEVELS, placementSlugs, savePlacement, studyLevelAfter, type Placement as Result } from '../lib/learningPath'
 import { useTitle } from '../lib/useTitle'
 import { Feedback, QuestionView, type Outcome } from './ExerciseQuiz'
 
@@ -16,6 +16,8 @@ import { Feedback, QuestionView, type Outcome } from './ExerciseQuiz'
  * and the learner can end it early with ✕.
  */
 export default function Placement() {
+  // The questions of the test's topics load first (the route shows «Завантаження…» meanwhile).
+  use(loadQuestions(placementSlugs))
   useTitle('Тест рівня')
   const { session } = useAuth()
   const navigate = useNavigate()

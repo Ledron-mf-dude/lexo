@@ -1,5 +1,5 @@
 import { topicStats, type LogRow } from './exerciseLog'
-import { exercises, shuffle, itemsOf, type Item } from './exercises'
+import { exerciseIds, shuffle, itemsOf, type Item } from './exercises'
 import { articles, LEVELS, startLevel, type Article, type Level } from './grammar'
 import placementIds from '../content/placement.json'
 
@@ -70,6 +70,16 @@ export function studyLevelAfter(passed: Level | null): Level {
   return PLACEMENT_LEVELS[Math.min(i + 1, PLACEMENT_LEVELS.length - 1)]
 }
 
+/** Topics the placement test draws from (their banks must be loaded first): those of the listed questions, or a level's starting topics. */
+export const placementSlugs: string[] = [
+  ...new Set(
+    PLACEMENT_LEVELS.flatMap((level) => {
+      const ids = (placementIds as Partial<Record<Level, string[]>>)[level] ?? []
+      return ids.length > 0 ? ids.map((id) => id.replace(/-\d+$/, '')) : articles.filter((a) => startLevel(a) === level).map((a) => a.slug)
+    }),
+  ),
+]
+
 /** Questions for one level: from different topics that start at that level, quick types only (choice and fill). */
 export function drawBlock(level: Level): Item[] {
   // One question per topic, so a block samples several areas of the level.
@@ -123,9 +133,9 @@ export function topicStatus(p: TopicProgress | undefined): TopicStatus {
 /** Progress of every topic with exercises, from the answer log. */
 export function topicProgress(log: LogRow[] | undefined): Map<string, TopicProgress> {
   const map = new Map<string, TopicProgress>()
-  for (const [slug, qs] of exercises) {
-    const st = topicStats(log, slug, new Set(qs.map((q) => q.id)))
-    map.set(slug, { mastered: st.mastered, total: qs.length, attempted: st.attempted })
+  for (const [slug, ids] of exerciseIds) {
+    const st = topicStats(log, slug, new Set(ids))
+    map.set(slug, { mastered: st.mastered, total: ids.length, attempted: st.attempted })
   }
   return map
 }

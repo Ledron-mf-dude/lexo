@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { BarChart, Card, Kpi, Meter, StackedBar, type Bar } from '../components/charts'
-import { exercises } from '../lib/exercises'
+import { exerciseIds } from '../lib/exercises'
 import { topicStats, useExerciseLog, type LogRow } from '../lib/exerciseLog'
 import { articles, categories } from '../lib/grammar'
 import { topicStatus } from '../lib/learningPath'
@@ -35,7 +35,7 @@ export default function Stats() {
   const realLog = useReviewLog()
   const realExercises = useExerciseLog()
 
-  const banks = useMemo(() => new Map([...exercises].map(([slug, qs]) => [slug, qs.map((q) => q.id)])), [])
+  const banks = exerciseIds
   const progress = useMemo(() => (demo ? demoProgress(words.data ?? []) : (realProgress.data ?? [])), [demo, words.data, realProgress.data])
   const log = useMemo(() => (demo ? demoReviewLog() : (realLog.data ?? [])), [demo, realLog.data])
   const exLog: LogRow[] | undefined = useMemo(() => (demo ? demoExerciseLog(banks) : realExercises.data), [demo, banks, realExercises.data])

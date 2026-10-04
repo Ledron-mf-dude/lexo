@@ -1,12 +1,12 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import LevelBadge from '../components/LevelBadge'
 import GrammarHub from '../components/GrammarHub'
 import SelectMenu from '../components/SelectMenu'
-import { exercises } from '../lib/exercises'
+import { exerciseIds } from '../lib/exercises'
 import { allMistakes, useExerciseLog } from '../lib/exerciseLog'
-import { LEVELS, articles, categories, levelCounts, searchArticles, startLevel, type Article, type Hit, type Level } from '../lib/grammar'
-import { topicProgress, topicStatus } from '../lib/learningPath'
+import { LEVELS, articles, categories, levelCounts, loadTextSearch, searchArticles, startLevel, textSearchReady, type Article, type Hit, type Level } from '../lib/grammar'
+import { buildRoute, loadPlacement, topicProgress, topicStatus } from '../lib/learningPath'
 import { ARTICLE, count } from '../lib/plural'
 import { useTitle } from '../lib/useTitle'
 
@@ -16,6 +16,25 @@ type Progress = Map<string, { mastered: number; total: number; attempted: number
 const coarse = window.matchMedia('(pointer: coarse)').matches
 
 type View = 'category' | 'level'
+
+const OPEN_KEY = 'lexo.grammarOpen'
+
+/** Groups of the article list the user has opened, remembered on this device (null: never chosen, use the default). */
+function loadOpen(): string[] | null {
+  try {
+    return JSON.parse(localStorage.getItem(OPEN_KEY) ?? 'null') as string[] | null
+  } catch {
+    return null
+  }
+}
+
+function saveOpen(groups: string[]) {
+  try {
+    localStorage.setItem(OPEN_KEY, JSON.stringify(groups))
+  } catch {
+    // private mode: the groups stay open until the page is closed
+  }
+}
 
 export default function Grammar() {
   useTitle('Граматика')
@@ -27,8 +46,20 @@ export default function Grammar() {
   const searching = q.trim() !== ''
   const input = useRef<HTMLInputElement>(null)
   const log = useExerciseLog()
-  const mistakes = allMistakes(log.data, exercises).length
+  const mistakes = allMistakes(log.data, exerciseIds).length
   const progress: Progress = useMemo(() => topicProgress(log.data), [log.data])
+  // The level being studied (from the placement test or a level picked for the route) opens first in «За рівнями».
+  const studyLevel = useMemo(() => {
+    const placement = loadPlacement()
+    return placement ? buildRoute(placement, progress).level : null
+  }, [progress])
+  const [openGroups, setOpenGroups] = useState(loadOpen)
+  const [, setTextReady] = useState(textSearchReady)
+
+  // The article texts for «Згадується в тексті статей» load with the first search; titles and topics are found at once.
+  useEffect(() => {
+    if (searching && !textSearchReady()) loadTextSearch().then(() => setTextReady(true), () => {})
+  }, [searching])
 
   /** Query string for mixed practice with the current level and topic filters. */
   const practiceQuery = (extra: Record<string, string>) =>
@@ -82,9 +113,23 @@ export default function Grammar() {
     const map = new Map<string, Hit[]>()
     for (const hit of primary) map.set(keyOf(hit.article), [...(map.get(keyOf(hit.article)) ?? []), hit])
     const entries = [...map]
-    if (view === 'level') entries.sort((a, b) => LEVELS.indexOf(a[0] as Level) - LEVELS.indexOf(b[0] as Level))
+    if (view === 'level') {
+      const rank = (l: string) => (l === studyLevel ? -1 : LEVELS.indexOf(l as Level))
+      entries.sort((a, b) => rank(a[0]) - rank(b[0]))
+    }
     return entries
   })()
+
+  // Groups are folded so the list fits a phone screen; a filter shows its matches unfolded.
+  const groupId = (name: string) => `${view}:${name}`
+  const isOpen = (name: string) => filtered || (openGroups ? openGroups.includes(groupId(name)) : view === 'level' && name === studyLevel)
+  function toggleGroup(name: string) {
+    const current = groups.map(([n]) => n).filter(isOpen).map(groupId)
+    const others = (openGroups ?? []).filter((g) => !g.startsWith(`${view}:`))
+    const next = isOpen(name) ? current.filter((g) => g !== groupId(name)) : [...current, groupId(name)]
+    setOpenGroups([...others, ...next])
+    saveOpen([...others, ...next])
+  }
 
   return (
     <section className="space-y-5">
@@ -171,7 +216,14 @@ export default function Grammar() {
         </>
       ) : (
         groups.map(([name, items]) => (
-          <Section key={name} title={view === 'level' ? `Рівень ${name}` : name} count={items.length}>
+          <Section
+            key={name}
+            title={view === 'level' ? `Рівень ${name}${name === studyLevel ? ' · ваш' : ''}` : name}
+            count={items.length}
+            learned={items.filter((h) => topicStatus(progress.get(h.article.slug)) === 'done').length}
+            open={isOpen(name)}
+            onToggle={filtered ? undefined : () => toggleGroup(name)}
+          >
             {items.map((h) => (
               <ArticleRow key={h.article.slug} hit={h} progress={progress.get(h.article.slug)} showCategory={view === 'level'} />
             ))}
@@ -182,13 +234,38 @@ export default function Grammar() {
   )
 }
 
-function Section({ title, count, muted, children }: { title: string; count: number; muted?: boolean; children: React.ReactNode }) {
+interface SectionProps {
+  title: string
+  count: number
+  muted?: boolean
+  /** Topics of the group that count as learned, shown next to the count. */
+  learned?: number
+  /** A foldable group: the heading is a button. Without `onToggle` the group is always open. */
+  open?: boolean
+  onToggle?: () => void
+  children: React.ReactNode
+}
+
+function Section({ title, count, muted, learned, open = true, onToggle, children }: SectionProps) {
+  const heading = (
+    <>
+      {title} <span className="text-white/50">{count}</span>
+      {learned !== undefined && learned > 0 && <span className="ml-2 tracking-normal text-good normal-case">засвоєно {learned}</span>}
+    </>
+  )
   return (
     <div className="space-y-2">
       <h2 className={`text-sm tracking-widest uppercase ${muted ? 'text-white/50' : 'text-white/60'}`}>
-        {title} <span className="text-white/50">{count}</span>
+        {onToggle ? (
+          <button onClick={onToggle} aria-expanded={open} className="flex w-full items-center justify-between gap-2 py-1.5 text-left uppercase hover:text-white">
+            <span>{heading}</span>
+            <span aria-hidden="true">{open ? '▴' : '▾'}</span>
+          </button>
+        ) : (
+          heading
+        )}
       </h2>
-      <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl">{children}</ul>
+      {open && <ul className="glass divide-y divide-white/6 overflow-hidden rounded-2xl">{children}</ul>}
     </div>
   )
 }
