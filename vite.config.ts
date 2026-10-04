@@ -11,6 +11,8 @@ const base = process.env.VITE_BASE ?? '/lexo/'
 export default defineConfig({
   base,
   build: {
+    // The full-text search chunk holds the plain text of every article (~800 kB, ~230 kB gzipped); it loads on the first search query only.
+    chunkSizeWarningLimit: 1000,
     rolldownOptions: {
       output: {
         // Libraries change rarely: keeping them in their own chunks means a deploy re-downloads only the app code.

@@ -75,5 +75,5 @@ tags: [passive, get passive, get fired, be looked after, was given, being told, 
 - ✗ *I was explained the problem by my manager.* → ✓ ***The problem was explained to me** by my manager.*
 - ✗ *She was made wait for two hours.* → ✓ *She was made **to wait** for two hours.*
 - ✗ *I hate being interrupt when I'm talking.* → ✓ *I hate being **interrupted** when I'm talking.*
-- ✗ *The accident was happened at night.* → ✓ *The accident **happened** at night.*
+- ✗ *The fire was happened just after midnight.* → ✓ *The fire **happened** just after midnight.*
 - ✗ *We were let leave early on Friday.* → ✓ *We were **allowed to** leave early on Friday.*

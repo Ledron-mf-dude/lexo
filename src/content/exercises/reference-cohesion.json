@@ -1,0 +1,237 @@
+{
+ "questions": [
+  {
+   "id": "reference-cohesion-1",
+   "type": "choice",
+   "q": "Maria and Kate both applied for the post. ___ got the job because of her experience.",
+   "options": [
+    "The former",
+    "The first of three",
+    "The formerly",
+    "The ex"
+   ],
+   "answer": 0,
+   "why": "Із двох названих — *The former* (перша). *The first of three* — суперечить кількості; *The formerly* — прислівник; *The ex* — «колишній партнер»."
+  },
+  {
+   "id": "reference-cohesion-2",
+   "type": "choice",
+   "q": "I like both tea and coffee, but I prefer ___ in the morning.",
+   "options": [
+    "the latter",
+    "the later",
+    "the last of",
+    "latterly"
+   ],
+   "answer": 0,
+   "why": "Друге з двох — *the latter*. *the later* — «пізніший»; *the last of* — неповне; *latterly* — прислівник «останнім часом»."
+  },
+  {
+   "id": "reference-cohesion-3",
+   "type": "choice",
+   "q": "The climate of Italy is warmer than ___ of Germany.",
+   "options": [
+    "that",
+    "this",
+    "it",
+    "those"
+   ],
+   "answer": 0,
+   "why": "Порівняння без повтору (*climate*, однина) — *that of*. *this of* і *it of* — неграматично; *those of* — для множини."
+  },
+  {
+   "id": "reference-cohesion-4",
+   "type": "choice",
+   "q": "Our prices are lower than ___ of our competitors.",
+   "options": [
+    "those",
+    "that",
+    "these",
+    "them"
+   ],
+   "answer": 0,
+   "why": "*prices* — множина: *those of*. *that of* — для однини; *these of* і *them of* — неграматично."
+  },
+  {
+   "id": "reference-cohesion-5",
+   "type": "choice",
+   "q": "___ who arrive after nine will not be allowed in.",
+   "options": [
+    "Those",
+    "Them",
+    "These",
+    "That"
+   ],
+   "answer": 0,
+   "why": "«Ті, хто» — *Those who*. *Them who* — неграматично; *These who* і *That who* — неправильні форми."
+  },
+  {
+   "id": "reference-cohesion-6",
+   "type": "choice",
+   "q": "___ behaviour will not be tolerated in this school.",
+   "options": [
+    "Such",
+    "Such a",
+    "So",
+    "Such an"
+   ],
+   "answer": 0,
+   "why": "*behaviour* — нелічильне: *Such behaviour*. *Such a* і *Such an* — артикль з нелічильним; *So behaviour* — неграматично."
+  },
+  {
+   "id": "reference-cohesion-7",
+   "type": "choice",
+   "q": "House prices have risen by 30%. This ___ has made it hard for young people to buy.",
+   "options": [
+    "increase",
+    "increased",
+    "increasing",
+    "increases it"
+   ],
+   "answer": 0,
+   "why": "*this* + узагальнювальний іменник підсумовує попереднє — *This increase*. *increased* і *increasing* — не іменники; *increases it* — неграматично."
+  },
+  {
+   "id": "reference-cohesion-8",
+   "type": "choice",
+   "q": "He promised to pay us back, but he never did ___.",
+   "options": [
+    "so",
+    "it so",
+    "such",
+    "that so"
+   ],
+   "answer": 0,
+   "why": "*do so* замінює дію з додатками. *it so*, *such*, *that so* — неграматично."
+  },
+  {
+   "id": "reference-cohesion-9",
+   "type": "choice",
+   "q": "\"Will the shop be open?\" — \"I'm afraid ___.\"",
+   "options": [
+    "not",
+    "no",
+    "so not",
+    "not so"
+   ],
+   "answer": 0,
+   "why": "Негативна відповідь-думка — *I'm afraid not*. *I'm afraid no* — помилка; *so not* і *not so* — неграматично."
+  },
+  {
+   "id": "reference-cohesion-10",
+   "type": "choice",
+   "q": "Tom, Ann and Sue all spoke. ___ gave the best speech.",
+   "options": [
+    "The last",
+    "The latter",
+    "The later",
+    "The lastly"
+   ],
+   "answer": 0,
+   "why": "Із трьох — *The last* (або назвати). *The latter* — лише з двох; *The later* — «пізніший»; *The lastly* — неграматично."
+  },
+  {
+   "id": "reference-cohesion-11",
+   "type": "choice",
+   "q": "Please send the ___ documents to our London office.",
+   "options": [
+    "above",
+    "over",
+    "overhead",
+    "upper"
+   ],
+   "answer": 0,
+   "why": "«Вищезазначені» в документах — *the above documents*. *over*, *overhead*, *upper* — інший зміст."
+  },
+  {
+   "id": "reference-cohesion-12",
+   "type": "choice",
+   "q": "\"Do you think he'll come?\" — \"I expect ___.\"",
+   "options": [
+    "so",
+    "it",
+    "that",
+    "such"
+   ],
+   "answer": 0,
+   "why": "Позитивна відповідь-думка — *I expect so*. *it*, *that*, *such* — неграматично в цій моделі."
+  },
+  {
+   "id": "reference-cohesion-13",
+   "type": "fill",
+   "q": "The population of Kharkiv is larger than ___ of Odesa.",
+   "answer": [
+    "that"
+   ],
+   "why": "*that of* — без повтору *population*."
+  },
+  {
+   "id": "reference-cohesion-14",
+   "type": "fill",
+   "q": "___ who want to join the club should sign up by Friday.",
+   "answer": [
+    "Those",
+    "People",
+    "Anyone"
+   ],
+   "why": "«Ті, хто» — *Those who* (також *People / Anyone who*)."
+  },
+  {
+   "id": "reference-cohesion-15",
+   "type": "fill",
+   "q": "I asked him to leave, and he did ___ immediately.",
+   "answer": [
+    "so"
+   ],
+   "why": "*do so* замінює дію."
+  },
+  {
+   "id": "reference-cohesion-16",
+   "type": "fill",
+   "q": "Will it rain tomorrow? I hope ___.",
+   "answer": [
+    "not"
+   ],
+   "why": "*I hope not* — сподіваюся, що ні."
+  },
+  {
+   "id": "reference-cohesion-17",
+   "type": "order",
+   "words": [
+    "The",
+    "salaries",
+    "in",
+    "the",
+    "north",
+    "are",
+    "lower",
+    "than",
+    "those",
+    "in",
+    "the",
+    "south"
+   ],
+   "answer": [
+    "The salaries in the north are lower than those in the south"
+   ],
+   "why": "*those* замінює *salaries* (множина)."
+  },
+  {
+   "id": "reference-cohesion-18",
+   "type": "order",
+   "words": [
+    "Such",
+    "decisions",
+    "should",
+    "not",
+    "be",
+    "taken",
+    "lightly"
+   ],
+   "answer": [
+    "Such decisions should not be taken lightly"
+   ],
+   "why": "*Such* + іменник у множині — «такі рішення»."
+  }
+ ]
+}

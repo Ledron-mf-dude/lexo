@@ -154,7 +154,7 @@ export default function Grammar() {
             Усі рівні
           </button>
           {LEVELS.map((l) => (
-            <button key={l} onClick={() => update({ level: level === l ? null : l })} data-on={level === l} title={`${levelCounts[l]} статей`}>
+            <button key={l} onClick={() => update({ level: level === l ? null : l })} data-on={level === l} title={count(levelCounts[l], ARTICLE)}>
               {l}
             </button>
           ))}

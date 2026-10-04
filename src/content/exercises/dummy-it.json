@@ -1,0 +1,234 @@
+{
+ "questions": [
+  {
+   "id": "dummy-it-1",
+   "type": "choice",
+   "q": "I find ___ hard to sleep when it's this hot.",
+   "options": [
+    "it",
+    "—",
+    "that",
+    "this"
+   ],
+   "answer": 0,
+   "why": "Після *find* + прикметник і довгий *to*-додаток — формальне *it*: *find it hard to sleep*. Без *it* — неграматично; *that* і *this* — не формальні додатки."
+  },
+  {
+   "id": "dummy-it-2",
+   "type": "choice",
+   "q": "I'd appreciate ___ if you could call me back today.",
+   "options": [
+    "it",
+    "—",
+    "that",
+    "so"
+   ],
+   "answer": 0,
+   "why": "Стала модель — *I'd appreciate it if…* Без *it* — помилка; *that* і *so* — неграматично тут."
+  },
+  {
+   "id": "dummy-it-3",
+   "type": "choice",
+   "q": "She made ___ clear that she didn't want to discuss it.",
+   "options": [
+    "it",
+    "them",
+    "this",
+    "so"
+   ],
+   "answer": 0,
+   "why": "*make it clear that…* — формальне *it*. *them*, *this*, *so* не можуть бути формальним додатком перед *that*-реченням."
+  },
+  {
+   "id": "dummy-it-4",
+   "type": "choice",
+   "q": "I ___ it that you won't be joining us for dinner.",
+   "options": [
+    "take",
+    "get",
+    "have",
+    "make"
+   ],
+   "answer": 0,
+   "why": "«Наскільки я розумію» — *I take it (that)*. *get it* — «розумію» без *that*-речення в цьому значенні; *have it* і *make it* — інший зміст."
+  },
+  {
+   "id": "dummy-it-5",
+   "type": "choice",
+   "q": "It suddenly ___ on me that I had left the oven on.",
+   "options": [
+    "dawned",
+    "occurred",
+    "came",
+    "struck to"
+   ],
+   "answer": 0,
+   "why": "*It dawned on me that…* — раптом дійшло. *occurred on* — потрібне *to*; *came on* — інший зміст; *struck to* — неграматично (правильно *it struck me*)."
+  },
+  {
+   "id": "dummy-it-6",
+   "type": "choice",
+   "q": "It's no use ___ about it now. It's too late.",
+   "options": [
+    "complaining",
+    "to complain",
+    "complain",
+    "complained"
+   ],
+   "answer": 0,
+   "why": "*It's no use* + *-ing*. *to complain*, *complain*, *complained* — неправильні форми після *no use*."
+  },
+  {
+   "id": "dummy-it-7",
+   "type": "choice",
+   "q": "It ___ to be seen whether the new law will work.",
+   "options": [
+    "remains",
+    "stays",
+    "keeps",
+    "rests"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *It remains to be seen*. *stays*, *keeps*, *rests* у ньому не вживають."
+  },
+  {
+   "id": "dummy-it-8",
+   "type": "choice",
+   "q": "It goes without ___ that you're welcome to stay.",
+   "options": [
+    "saying",
+    "to say",
+    "say",
+    "said"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *It goes without saying*. Після *without* — *-ing*."
+  },
+  {
+   "id": "dummy-it-9",
+   "type": "choice",
+   "q": "I owe ___ to my coach to keep training hard.",
+   "options": [
+    "it",
+    "—",
+    "this to",
+    "myself"
+   ],
+   "answer": 0,
+   "why": "*I owe it to somebody to do* — формальне *it*. Без *it* — неграматично; *this to* — подвоєння *to*; *myself* — інший зміст."
+  },
+  {
+   "id": "dummy-it-10",
+   "type": "choice",
+   "q": "I consider ___ essential that all staff attend the training.",
+   "options": [
+    "it",
+    "—",
+    "this",
+    "so"
+   ],
+   "answer": 0,
+   "why": "*consider it essential that…* — формальне *it*. Без нього — неграматично; *this* і *so* — неграматично тут."
+  },
+  {
+   "id": "dummy-it-11",
+   "type": "choice",
+   "q": "It ___ out that the restaurant was closed on Mondays.",
+   "options": [
+    "turned",
+    "came",
+    "found",
+    "went"
+   ],
+   "answer": 0,
+   "why": "*It turned out that…* — виявилося. *came out*, *found out*, *went out* — інший зміст."
+  },
+  {
+   "id": "dummy-it-12",
+   "type": "choice",
+   "q": "Don't worry about the tickets. Leave ___ to me.",
+   "options": [
+    "it",
+    "them it",
+    "—",
+    "this it"
+   ],
+   "answer": 0,
+   "why": "*Leave it to me* — доручіть мені (тут *them* теж можливе, але серед варіантів правильне тільки *it*). *them it* і *this it* — подвоєння; без додатка — неграматично."
+  },
+  {
+   "id": "dummy-it-13",
+   "type": "fill",
+   "q": "It occurred ___ me that we could share a taxi.",
+   "answer": [
+    "to"
+   ],
+   "why": "*It occurred to me that…*"
+  },
+  {
+   "id": "dummy-it-14",
+   "type": "fill",
+   "q": "I think ___ strange that he never mentions his family.",
+   "answer": [
+    "it"
+   ],
+   "why": "*think it strange that…* — формальне *it*."
+  },
+  {
+   "id": "dummy-it-15",
+   "type": "fill",
+   "q": "It's ___ visiting the castle if you have time.",
+   "answer": [
+    "worth"
+   ],
+   "why": "*It's worth* + *-ing*."
+  },
+  {
+   "id": "dummy-it-16",
+   "type": "fill",
+   "q": "We ___ it! We caught the last train.",
+   "answer": [
+    "made"
+   ],
+   "why": "*We made it!* — нам вдалося."
+  },
+  {
+   "id": "dummy-it-17",
+   "type": "order",
+   "words": [
+    "I",
+    "find",
+    "it",
+    "difficult",
+    "to",
+    "concentrate",
+    "in",
+    "the",
+    "morning"
+   ],
+   "answer": [
+    "I find it difficult to concentrate in the morning"
+   ],
+   "why": "*find it difficult to* — формальне *it*."
+  },
+  {
+   "id": "dummy-it-18",
+   "type": "order",
+   "words": [
+    "I",
+    "would",
+    "appreciate",
+    "it",
+    "if",
+    "you",
+    "could",
+    "help",
+    "me"
+   ],
+   "answer": [
+    "I would appreciate it if you could help me"
+   ],
+   "why": "*I would appreciate it if…*"
+  }
+ ]
+}

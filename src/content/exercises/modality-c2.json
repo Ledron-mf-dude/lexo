@@ -1,0 +1,230 @@
+{
+ "questions": [
+  {
+   "id": "modality-c2-1",
+   "type": "choice",
+   "q": "He ___ keep leaving his dirty socks on the floor! It drives me mad.",
+   "options": [
+    "will",
+    "shall",
+    "would to",
+    "is going"
+   ],
+   "answer": 0,
+   "why": "Наголошене *will* — упертість, що дратує. *shall* так не вживають; *would to* — зайве *to*; *is going keep* — бракує *to*."
+  },
+  {
+   "id": "modality-c2-2",
+   "type": "choice",
+   "q": "\"She says she was ill.\" — \"Well, she ___ say that, wouldn't she?\"",
+   "options": [
+    "would",
+    "will to",
+    "should",
+    "must to"
+   ],
+   "answer": 0,
+   "why": "«Це на неї схоже» — *she would say that*. *will to* і *must to* — зайве *to*; *should* — порада чи обов'язок."
+  },
+  {
+   "id": "modality-c2-3",
+   "type": "choice",
+   "q": "You were driving far too fast. You ___ been killed!",
+   "options": [
+    "might have",
+    "may",
+    "must have",
+    "should have"
+   ],
+   "answer": 0,
+   "why": "Могло статися, але не сталося — *might have been killed*. *may been* — бракує *have*; *must have* — висновок, що сталося; *should have* — «варто було»."
+  },
+  {
+   "id": "modality-c2-4",
+   "type": "choice",
+   "q": "You're ___ to wear a seat belt in the back seat too.",
+   "options": [
+    "supposed",
+    "suppose",
+    "supposing",
+    "supposedly"
+   ],
+   "answer": 0,
+   "why": "Правило — *be supposed to*. *suppose*, *supposing*, *supposedly* — неправильні форми цього звороту."
+  },
+  {
+   "id": "modality-c2-5",
+   "type": "choice",
+   "q": "He was supposed ___ me last night, but he forgot.",
+   "options": [
+    "to call",
+    "calling",
+    "call",
+    "called"
+   ],
+   "answer": 0,
+   "why": "План, що не здійснився — *was supposed to call*. *calling*, *call*, *called* — неправильні форми після *supposed*."
+  },
+  {
+   "id": "modality-c2-6",
+   "type": "choice",
+   "q": "I've heard this café is ___ to be the best in town.",
+   "options": [
+    "meant",
+    "mean",
+    "meaning",
+    "means"
+   ],
+   "answer": 0,
+   "why": "Репутація — *is meant to be*. *mean*, *meaning*, *means* — неправильні форми."
+  },
+  {
+   "id": "modality-c2-7",
+   "type": "choice",
+   "q": "It was so noisy that I could ___ hear myself think.",
+   "options": [
+    "hardly",
+    "hard",
+    "not hardly",
+    "hardly not"
+   ],
+   "answer": 0,
+   "why": "«Ледве» — *could hardly hear*. *hard* — «важко, сильно»; *not hardly* і *hardly not* — подвійне заперечення."
+  },
+  {
+   "id": "modality-c2-8",
+   "type": "choice",
+   "q": "Last week I ___ work late every day because of the audit.",
+   "options": [
+    "had to",
+    "must",
+    "must have",
+    "have to"
+   ],
+   "answer": 0,
+   "why": "Обов'язок у минулому — *had to*. *must* не має минулої форми; *must have* — висновок; *have to* — теперішній."
+  },
+  {
+   "id": "modality-c2-9",
+   "type": "choice",
+   "q": "The lights are off. They ___ gone to bed.",
+   "options": [
+    "must have",
+    "had to",
+    "must",
+    "should"
+   ],
+   "answer": 0,
+   "why": "Висновок про минуле — *must have gone*. *had to* — обов'язок; *must gone* — бракує *have*; *should gone* — неграматично."
+  },
+  {
+   "id": "modality-c2-10",
+   "type": "choice",
+   "q": "She ___ have taken the money — she was with me all evening.",
+   "options": [
+    "can't",
+    "needn't",
+    "shouldn't",
+    "oughtn't"
+   ],
+   "answer": 0,
+   "why": "Неможливо, щоб — *can't have taken* (також *couldn't have*). *needn't have* — «було зайвим»; *shouldn't have* і *oughtn't (to) have* — докір."
+  },
+  {
+   "id": "modality-c2-11",
+   "type": "choice",
+   "q": "Accidents ___ happen, so drive carefully.",
+   "options": [
+    "will",
+    "shall",
+    "would to",
+    "must to"
+   ],
+   "answer": 0,
+   "why": "Загальна властивість — *Accidents will happen*. *shall* — не про загальні правила; *would to* і *must to* — зайве *to*."
+  },
+  {
+   "id": "modality-c2-12",
+   "type": "choice",
+   "q": "You're not ___ to park in front of the gate.",
+   "options": [
+    "supposed",
+    "suppose",
+    "supposedly",
+    "supposing"
+   ],
+   "answer": 0,
+   "why": "Заборона за правилом — *not supposed to park* (також *not meant to*). *suppose*, *supposedly*, *supposing* — неправильні форми."
+  },
+  {
+   "id": "modality-c2-13",
+   "type": "fill",
+   "q": "I can ___ wait to see you again!",
+   "answer": [
+    "hardly"
+   ],
+   "why": "*can hardly wait* — ледве дочекаюся."
+  },
+  {
+   "id": "modality-c2-14",
+   "type": "fill",
+   "q": "You ___ (ought) to have told me earlier.",
+   "answer": [
+    "ought"
+   ],
+   "why": "Докір — *ought to have* + V3."
+  },
+  {
+   "id": "modality-c2-15",
+   "type": "fill",
+   "q": "The film is ___ to be really good.",
+   "answer": [
+    "supposed",
+    "meant"
+   ],
+   "why": "Репутація — *is supposed / meant to be*."
+  },
+  {
+   "id": "modality-c2-16",
+   "type": "fill",
+   "q": "Yesterday we ___ (have) to wait two hours for the bus.",
+   "answer": [
+    "had"
+   ],
+   "why": "Обов'язок у минулому — *had to*."
+  },
+  {
+   "id": "modality-c2-17",
+   "type": "order",
+   "words": [
+    "He",
+    "was",
+    "supposed",
+    "to",
+    "call",
+    "me",
+    "yesterday"
+   ],
+   "answer": [
+    "He was supposed to call me yesterday"
+   ],
+   "why": "План, що не здійснився — *was supposed to*."
+  },
+  {
+   "id": "modality-c2-18",
+   "type": "order",
+   "words": [
+    "You",
+    "might",
+    "have",
+    "been",
+    "seriously",
+    "hurt"
+   ],
+   "answer": [
+    "You might have been seriously hurt"
+   ],
+   "why": "Могло статися, але не сталося — *might have been*."
+  }
+ ]
+}

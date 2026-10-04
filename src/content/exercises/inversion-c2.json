@@ -1,0 +1,232 @@
+{
+ "questions": [
+  {
+   "id": "inversion-c2-1",
+   "type": "choice",
+   "q": "So heavy ___ that the roads were closed for two days.",
+   "options": [
+    "was the snowfall",
+    "the snowfall was",
+    "did the snowfall",
+    "the snowfall did"
+   ],
+   "answer": 0,
+   "why": "*So* + прикметник на початку — інверсія: *So heavy was the snowfall that…* *the snowfall was* — без інверсії; *did the snowfall* і *the snowfall did* — з *be* допоміжне *did* не потрібне."
+  },
+  {
+   "id": "inversion-c2-2",
+   "type": "choice",
+   "q": "So fast ___ that nobody could keep up with him.",
+   "options": [
+    "did he run",
+    "he ran",
+    "ran he",
+    "was he run"
+   ],
+   "answer": 0,
+   "why": "*So* + прислівник і повнозначне дієслово — *did* + підмет + початкова форма: *So fast did he run that…* *he ran* — без інверсії; *ran he* — архаїчно; *was he run* — неграматично."
+  },
+  {
+   "id": "inversion-c2-3",
+   "type": "choice",
+   "q": "___ the noise that we couldn't hear each other.",
+   "options": [
+    "Such was",
+    "So was",
+    "Such the",
+    "So much was"
+   ],
+   "answer": 0,
+   "why": "«Такий був…, що» — *Such was the noise that…* *So was the noise* — бракує прикметника; *Such the noise* — бракує *was*; *So much was* — інший зміст."
+  },
+  {
+   "id": "inversion-c2-4",
+   "type": "choice",
+   "q": "The door opened and in ___.",
+   "options": [
+    "walked the manager",
+    "the manager walked in",
+    "did the manager walk",
+    "walked in the manager did"
+   ],
+   "answer": 0,
+   "why": "Обставина руху на початку — повне дієслово перед іменником-підметом: *in walked the manager*. *the manager walked in* — подвоєне *in*; *did the manager walk* — допоміжне тут не вживається; останній варіант неграматичний."
+  },
+  {
+   "id": "inversion-c2-5",
+   "type": "choice",
+   "q": "Look! Here ___!",
+   "options": [
+    "it comes",
+    "comes it",
+    "does it come",
+    "it does come"
+   ],
+   "answer": 0,
+   "why": "З займенником-підметом інверсії немає: *Here it comes!* *comes it* — помилка; *does it come* — питання; *it does come* — емфатичне."
+  },
+  {
+   "id": "inversion-c2-6",
+   "type": "choice",
+   "q": "___ not been for the firefighters, the whole building would have burned down.",
+   "options": [
+    "Had it",
+    "Hadn't it",
+    "If it",
+    "Were it"
+   ],
+   "answer": 0,
+   "why": "Заперечна умова з інверсією — *Had it not been for*, без скорочення. *Hadn't it* — скорочення в інверсії неможливе; *If it not been* — бракує *had*; *Were it not been* — неправильна форма."
+  },
+  {
+   "id": "inversion-c2-7",
+   "type": "choice",
+   "q": "___ it not for the price, I would buy this car tomorrow.",
+   "options": [
+    "Were",
+    "Was",
+    "Had",
+    "If"
+   ],
+   "answer": 0,
+   "why": "Теперішня нереальна умова з інверсією — *Were it not for*. *Was it not for* — у такій інверсії вживають *Were*; *Had it not for* — бракує *been*; *If it not for* — неграматично."
+  },
+  {
+   "id": "inversion-c2-8",
+   "type": "choice",
+   "q": "She was a talented musician, as ___ her father.",
+   "options": [
+    "was",
+    "did",
+    "had",
+    "were"
+   ],
+   "answer": 0,
+   "why": "Після *as* формальна інверсія з тим самим дієсловом *be*: *as was her father*. *did* — для повнозначних дієслів; *had* — не те допоміжне; *were* — множина."
+  },
+  {
+   "id": "inversion-c2-9",
+   "type": "choice",
+   "q": "He didn't say thank you, nor ___ he offer to pay.",
+   "options": [
+    "did",
+    "didn't",
+    "does",
+    "had"
+   ],
+   "answer": 0,
+   "why": "*nor* + інверсія з допоміжним: *nor did he offer*. *didn't* — подвійне заперечення; *does* — теперішній; *had* — неправильне допоміжне."
+  },
+  {
+   "id": "inversion-c2-10",
+   "type": "choice",
+   "q": "Not a single complaint ___ in ten years.",
+   "options": [
+    "have we received",
+    "we have received",
+    "did we received",
+    "received we"
+   ],
+   "answer": 0,
+   "why": "Заперечний додаток на початку — інверсія: *Not a single complaint have we received*. *we have received* — без інверсії; *did we received* — після *did* — початкова форма; *received we* — архаїчно."
+  },
+  {
+   "id": "inversion-c2-11",
+   "type": "choice",
+   "q": "On the top of the hill ___ an old windmill.",
+   "options": [
+    "stood",
+    "did stand",
+    "was stand",
+    "standing"
+   ],
+   "answer": 0,
+   "why": "Обставина місця на початку — повне дієслово перед підметом: *stood an old windmill*. *did stand* — допоміжне тут не вживається; *was stand* — неграматично; *standing* — без особової форми."
+  },
+  {
+   "id": "inversion-c2-12",
+   "type": "choice",
+   "q": "\"Get out!\" ___.",
+   "options": [
+    "he shouted",
+    "shouted he",
+    "did he shout",
+    "he did shout"
+   ],
+   "answer": 0,
+   "why": "Після прямої мови з займенником — звичайний порядок: *he shouted*. *shouted he* — застаріле; *did he shout* — питання; *he did shout* — емфатичне."
+  },
+  {
+   "id": "inversion-c2-13",
+   "type": "fill",
+   "q": "Rarely, if ever, ___ (he / admit) that he is wrong.",
+   "answer": [
+    "does he admit"
+   ],
+   "why": "*Rarely, if ever* на початку — інверсія: *does he admit*."
+  },
+  {
+   "id": "inversion-c2-14",
+   "type": "fill",
+   "q": "Should you ___ wish to continue, please inform us.",
+   "answer": [
+    "not"
+   ],
+   "why": "Заперечна умова з інверсією — *Should you not wish*, без скорочення."
+  },
+  {
+   "id": "inversion-c2-15",
+   "type": "fill",
+   "q": "There ___ our last train! We'll have to take a taxi.",
+   "answer": [
+    "goes"
+   ],
+   "why": "*There goes* + іменник — інверсія після обставини місця."
+  },
+  {
+   "id": "inversion-c2-16",
+   "type": "fill",
+   "q": "So exhausted ___ we that we slept for twelve hours.",
+   "answer": [
+    "were"
+   ],
+   "why": "*So* + прикметник — інверсія з *be*: *So exhausted were we*."
+  },
+  {
+   "id": "inversion-c2-17",
+   "type": "order",
+   "words": [
+    "Down",
+    "came",
+    "the",
+    "rain"
+   ],
+   "answer": [
+    "Down came the rain"
+   ],
+   "why": "Обставина руху на початку — *Down came the rain*."
+  },
+  {
+   "id": "inversion-c2-18",
+   "type": "order",
+   "words": [
+    "Had",
+    "it",
+    "not",
+    "been",
+    "for",
+    "your",
+    "help",
+    "we",
+    "would",
+    "have",
+    "failed"
+   ],
+   "answer": [
+    "Had it not been for your help we would have failed",
+    "Had it not been for your help, we would have failed"
+   ],
+   "why": "Книжна заперечна умова — *Had it not been for*."
+  }
+ ]
+}

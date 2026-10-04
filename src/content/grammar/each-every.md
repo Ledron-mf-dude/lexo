@@ -45,5 +45,5 @@ tags: [each, every, each of, every one of, each other, every day, everyday, ко
 
 - ✗ *Every of my friends came to the party.* → ✓ ***Each of** my friends came to the party.* / ***Every one of** my friends came to the party.*
 - ✗ *He wore a ring on every hand.* → ✓ *He wore a ring on **each** hand.*
-- ✗ *Each of the students have a laptop.* → ✓ *Each of the students **has** a laptop.*
+- ✗ *Each of the guests have their own room.* → ✓ *Each of the guests **has** their own room.*
 - ✗ *I go swimming everyday after work.* → ✓ *I go swimming **every day** after work.*

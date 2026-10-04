@@ -1,0 +1,233 @@
+{
+ "questions": [
+  {
+   "id": "determiners-c2-1",
+   "type": "choice",
+   "q": "Many a ___ tried to reach the summit and failed.",
+   "options": [
+    "climber has",
+    "climbers have",
+    "climber have",
+    "climbers has"
+   ],
+   "answer": 0,
+   "why": "*many a* + однина + однинне дієслово: *Many a climber has*. *climbers have* — множина після *many a*; *climber have* і *climbers has* — неузгоджені."
+  },
+  {
+   "id": "determiners-c2-2",
+   "type": "choice",
+   "q": "Your essay is excellent, apart from the ___ spelling mistake.",
+   "options": [
+    "odd",
+    "odds",
+    "oddly",
+    "oddest"
+   ],
+   "answer": 0,
+   "why": "«Поодинокий» — *the odd mistake* (однина). *odds* — «шанси»; *oddly* — прислівник; *oddest* — найвищий ступінь."
+  },
+  {
+   "id": "determiners-c2-3",
+   "type": "choice",
+   "q": "There were thirty-___ people at the meeting.",
+   "options": [
+    "odd",
+    "odds",
+    "oddly",
+    "old"
+   ],
+   "answer": 0,
+   "why": "Число + *-odd* — «з гаком»: *thirty-odd*. *odds*, *oddly*, *old* так не вживають."
+  },
+  {
+   "id": "determiners-c2-4",
+   "type": "choice",
+   "q": "She gave the children what ___ money she had left.",
+   "options": [
+    "little",
+    "few",
+    "a little",
+    "less"
+   ],
+   "answer": 0,
+   "why": "«Те небагато, що» з нелічильним — *what little money*. *what few* — для множини; *what a little* і *what less* — неграматично."
+  },
+  {
+   "id": "determiners-c2-5",
+   "type": "choice",
+   "q": "We packed what ___ clothes we could carry and left.",
+   "options": [
+    "few",
+    "little",
+    "a few",
+    "fewer"
+   ],
+   "answer": 0,
+   "why": "З множиною — *what few clothes*. *what little* — для нелічильних; *what a few* і *what fewer* — неграматично."
+  },
+  {
+   "id": "determiners-c2-6",
+   "type": "choice",
+   "q": "The ___ people who came to the concert loved it.",
+   "options": [
+    "few",
+    "little",
+    "a few of",
+    "less"
+   ],
+   "answer": 0,
+   "why": "«Ті нечисленні, хто» — *The few people who*. *The little* — для нелічильних; *The a few of* — неграматично; *The less* — неграматично."
+  },
+  {
+   "id": "determiners-c2-7",
+   "type": "choice",
+   "q": "I've told you ___ times to switch off the light!",
+   "options": [
+    "umpteen",
+    "umpteenth",
+    "a umpteen",
+    "umpty"
+   ],
+   "answer": 0,
+   "why": "Розмовне «безліч разів» — *umpteen times*. *umpteenth* — порядковий («у сто перший раз»), потребує *the*; інші варіанти неграматичні."
+  },
+  {
+   "id": "determiners-c2-8",
+   "type": "choice",
+   "q": "Only a ___ of people turned up to the meeting.",
+   "options": [
+    "handful",
+    "hand",
+    "handfull",
+    "hands"
+   ],
+   "answer": 0,
+   "why": "«Жменька, кілька» — *a handful of*. *a hand of*, *handfull*, *hands* — неправильні форми."
+  },
+  {
+   "id": "determiners-c2-9",
+   "type": "choice",
+   "q": "Good restaurants are few and far ___ in this area.",
+   "options": [
+    "between",
+    "among",
+    "away",
+    "apart"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *few and far between*. *among*, *away*, *apart* у ньому не вживають."
+  },
+  {
+   "id": "determiners-c2-10",
+   "type": "choice",
+   "q": "___ one of you has helped make this a success.",
+   "options": [
+    "Each and every",
+    "Each and all",
+    "Every and each",
+    "All and every"
+   ],
+   "answer": 0,
+   "why": "Сталий вираз — *Each and every one of you*. Інші поєднання неправильні."
+  },
+  {
+   "id": "determiners-c2-11",
+   "type": "choice",
+   "q": "I've been to that museum a good ___ times.",
+   "options": [
+    "few",
+    "little",
+    "deal",
+    "much"
+   ],
+   "answer": 0,
+   "why": "«Чимало разів» — *a good few times*. *a good little* — неграматично; *a good deal* — з нелічильними; *a good much* — неграматично."
+  },
+  {
+   "id": "determiners-c2-12",
+   "type": "choice",
+   "q": "Don't worry about the paper — just use ___ old box.",
+   "options": [
+    "any",
+    "some",
+    "every",
+    "each"
+   ],
+   "answer": 0,
+   "why": "Розмовне «будь-який, абияк» — *any old box*. *some old box* — «якась стара коробка» (інший зміст); *every* і *each* — неграматично тут."
+  },
+  {
+   "id": "determiners-c2-13",
+   "type": "fill",
+   "q": "Many a ___ (student) has failed this exam.",
+   "answer": [
+    "student"
+   ],
+   "why": "*many a* + однина."
+  },
+  {
+   "id": "determiners-c2-14",
+   "type": "fill",
+   "q": "He spent what ___ time he had with his family.",
+   "answer": [
+    "little"
+   ],
+   "why": "*what little* + нелічильне."
+  },
+  {
+   "id": "determiners-c2-15",
+   "type": "fill",
+   "q": "The essay is fine except for the ___ error.",
+   "answer": [
+    "odd",
+    "occasional"
+   ],
+   "why": "*the odd error* — поодинока помилка."
+  },
+  {
+   "id": "determiners-c2-16",
+   "type": "fill",
+   "q": "There were fifty-___ guests at the wedding.",
+   "answer": [
+    "odd"
+   ],
+   "why": "*fifty-odd* — п'ятдесят із гаком."
+  },
+  {
+   "id": "determiners-c2-17",
+   "type": "order",
+   "words": [
+    "Many",
+    "a",
+    "sailor",
+    "has",
+    "died",
+    "on",
+    "these",
+    "rocks"
+   ],
+   "answer": [
+    "Many a sailor has died on these rocks"
+   ],
+   "why": "*Many a* + однина + однинне дієслово."
+  },
+  {
+   "id": "determiners-c2-18",
+   "type": "order",
+   "words": [
+    "She",
+    "gave",
+    "me",
+    "what",
+    "little",
+    "money",
+    "she",
+    "had"
+   ],
+   "answer": [
+    "She gave me what little money she had"
+   ],
+   "why": "*what little* — «те небагато, що»."
+  }
+ ]
+}
