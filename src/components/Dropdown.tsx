@@ -48,7 +48,7 @@ export default function Dropdown({ label, active, children, width = 'sm:w-80', a
         </svg>
       </button>
       {open && (
-        <div className={`absolute top-full left-0 z-30 mt-2 w-[calc(100vw-2rem)] rounded-2xl border border-white/12 bg-[#15171e]/97 p-2 shadow-[0_16px_50px_rgb(0_0_0/0.6)] backdrop-blur-xl ${width}`}>
+        <div className={`absolute top-full left-0 z-30 mt-2 w-[calc(100vw-2rem)] rounded-2xl border border-white/12 bg-panel/97 p-2 shadow-[0_16px_50px_rgb(0_0_0/0.6)] backdrop-blur-xl ${width}`}>
           {children(() => setOpen(false))}
         </div>
       )}

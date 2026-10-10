@@ -74,7 +74,44 @@ function synthesize(clean: string, rate: number) {
   window.speechSynthesis.speak(u)
 }
 
+let sequence = 0
+let partsDone: (() => void) | null = null
+
+/**
+ * Reads several sentences one after another (Chrome cuts a long utterance off after about 15 seconds, so a whole
+ * text is never one utterance). `onPart` reports the sentence being read; `onDone` fires at the end, or when anything
+ * else is spoken or speech is stopped.
+ */
+export function speakParts(parts: string[], rate: number, onPart: (i: number) => void, onDone: () => void) {
+  stopSpeaking()
+  if (!canSpeak) return onDone()
+  const id = sequence
+  partsDone = onDone
+  const finish = () => {
+    if (id !== sequence) return
+    partsDone = null
+    onDone()
+  }
+  const next = (i: number) => {
+    if (id !== sequence) return
+    if (i >= parts.length) return finish()
+    onPart(i)
+    const u = new SpeechSynthesisUtterance(spoken(parts[i]))
+    u.lang = voice?.lang ?? 'en-US'
+    if (voice) u.voice = voice
+    u.rate = rate
+    u.onend = () => next(i + 1)
+    u.onerror = finish
+    window.speechSynthesis.speak(u)
+  }
+  next(0)
+}
+
 export function stopSpeaking() {
+  sequence++
+  const done = partsDone
+  partsDone = null
+  done?.()
   playing?.pause()
   playing = null
   if (canSpeak) window.speechSynthesis.cancel()

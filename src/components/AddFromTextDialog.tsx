@@ -170,7 +170,7 @@ export default function AddFromTextDialog({ userId, words, onClose }: Props) {
 
   return (
     <div className="fixed inset-0 z-20 grid place-items-center bg-black/60 p-4 backdrop-blur-sm" onClick={importWords.isPending ? undefined : onClose}>
-      <div onClick={(e) => e.stopPropagation()} className="glass max-h-full w-full max-w-2xl space-y-4 overflow-y-auto rounded-3xl bg-[#14161d]/80 p-5 sm:p-6">
+      <div onClick={(e) => e.stopPropagation()} className="glass max-h-full w-full max-w-2xl space-y-4 overflow-y-auto rounded-3xl bg-panel/80 p-5 sm:p-6">
         <h2 className="text-xl font-light">Слова з тексту</h2>
 
         {importWords.isSuccess ? (

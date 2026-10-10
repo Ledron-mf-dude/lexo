@@ -12,6 +12,7 @@ import { count, QUESTION } from '../lib/plural'
 import { articleSections, headingId } from '../lib/articleText'
 import { articleSummaryPref } from '../lib/prefs'
 import { useTitle } from '../lib/useTitle'
+import { textsForGrammar } from '../lib/reading'
 
 export default function GrammarArticle() {
   const { slug = '' } = useParams()
@@ -44,6 +45,7 @@ export default function GrammarArticle() {
   const summary = articleSections(fullBody).find((s) => s.title === 'Як вибрати')
   const body = summary ? fullBody.replace(summary.body, '') : fullBody
 
+  const inTexts = textsForGrammar(article.slug)
   const related = article.related.map((s) => bySlug.get(s)).filter((a) => a !== undefined)
   // Short chip labels ("Модальні дієслова"), unless two related articles would get the same one.
   const short = (title: string) => title.split(/[:(—]/)[0].trim()
@@ -152,6 +154,19 @@ export default function GrammarArticle() {
           >
             Практикувати
           </button>
+        </div>
+      )}
+
+      {inTexts.length > 0 && (
+        <div className="space-y-2">
+          <h2 className="text-sm tracking-widest text-white/55 uppercase">Тема в текстах</h2>
+          <div className="flex flex-wrap gap-2">
+            {inTexts.map((t) => (
+              <Link key={t.slug} to={`/reading/${t.slug}`} className="glass flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-white/70 transition-colors hover:bg-white/10 hover:text-white">
+                <span className="text-[11px] text-white/55">{t.level}</span> {t.title}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
 

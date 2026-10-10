@@ -46,7 +46,7 @@ export default function RuleSheet({ slug, q, onClose }: { slug: string; q: Quest
       <div
         ref={panel}
         onClick={(e) => e.stopPropagation()}
-        className="max-h-[88dvh] w-full max-w-2xl space-y-3 overflow-y-auto rounded-t-3xl bg-[#12151d] p-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:rounded-3xl sm:p-5"
+        className="max-h-[88dvh] w-full max-w-2xl space-y-3 overflow-y-auto rounded-t-3xl bg-panel p-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:rounded-3xl sm:p-5"
       >
         <div className="flex items-start justify-between gap-3">
           <p className="min-w-0 text-sm text-white/50">{article.title}</p>

@@ -185,7 +185,7 @@ export default function Stats() {
                     <span
                       key={n}
                       title={`${n} — ${t.hint}`}
-                      className={`grid h-6 min-w-6 place-items-center rounded-full px-1 text-[10px] tabular-nums ${i < got ? 'bg-accent text-[#0a0b0f]' : 'border border-white/12 text-white/50'}`}
+                      className={`grid h-6 min-w-6 place-items-center rounded-full px-1 text-[10px] tabular-nums ${i < got ? 'bg-accent text-on-accent' : 'border border-white/12 text-white/50'}`}
                     >
                       {n >= 1000 ? `${n / 1000}k` : n}
                     </span>

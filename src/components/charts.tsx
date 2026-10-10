@@ -55,7 +55,7 @@ export function BarChart({ data, color = 'bg-accent', height = 132, ariaLabel, u
 
         {hover !== null && (
           <div
-            className="pointer-events-none absolute z-10 -translate-x-1/2 -translate-y-full rounded-xl border border-white/15 bg-[#14161d] px-2.5 py-1.5 text-xs whitespace-nowrap shadow-lg"
+            className="pointer-events-none absolute z-10 -translate-x-1/2 -translate-y-full rounded-xl border border-white/15 bg-panel px-2.5 py-1.5 text-xs whitespace-nowrap shadow-lg"
             style={{
               left: `${Math.min(88, Math.max(12, ((hover + 0.5) / data.length) * 100))}%`,
               top: `${100 - Math.max(8, (data[hover].value / max) * 100)}%`,

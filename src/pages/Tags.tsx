@@ -1,5 +1,5 @@
 import { useMemo, useState, type FormEvent } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../lib/authContext'
 import { TAG_COLORS, useTagActions, useTags, useWords } from '../lib/queries'
 import type { Tag } from '../types'
@@ -78,6 +78,9 @@ export default function Tags() {
 
   return (
     <section className="space-y-5">
+      <Link to="/words" className="-mb-2 inline-block text-sm text-accent hover:underline">
+        ← Слова
+      </Link>
       <div className="flex items-baseline justify-between gap-3">
         <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
           Теги <span className="text-lg text-white/55">{rows.length}</span>
@@ -223,7 +226,7 @@ export default function Tags() {
 
       {merging && (
         <div className="fixed inset-0 z-20 grid place-items-center bg-black/60 p-4 backdrop-blur-sm" onClick={() => setMerging(null)}>
-          <div onClick={(e) => e.stopPropagation()} className="glass w-full max-w-sm space-y-4 rounded-3xl bg-[#14161d]/80 p-6">
+          <div onClick={(e) => e.stopPropagation()} className="glass w-full max-w-sm space-y-4 rounded-3xl bg-panel/80 p-6">
             <h2 className="text-xl font-light">Об'єднати «{merging.name}»</h2>
             <p className="text-sm text-white/50">Усі слова цього тегу отримають вибраний тег, а «{merging.name}» буде видалено.</p>
             <div className="max-h-64 space-y-1 overflow-y-auto">

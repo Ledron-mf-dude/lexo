@@ -19,7 +19,7 @@ export default function QuizSettings({ deckSize }: { deckSize: boolean }) {
         </div>
       )}
       <label className="flex cursor-pointer items-center gap-2">
-        <input type="checkbox" checked={auto === 'on'} onChange={(e) => autoNextPref.set(e.target.checked ? 'on' : 'off')} className="size-4 accent-[#7c9bff]" />
+        <input type="checkbox" checked={auto === 'on'} onChange={(e) => autoNextPref.set(e.target.checked ? 'on' : 'off')} className="size-4 accent-accent" />
         Далі автоматично після правильної відповіді
       </label>
     </div>

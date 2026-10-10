@@ -8,6 +8,42 @@
   --color-accent-alt: #5eead4;
   --color-good: #6ee7b7;
   --color-bad: #fb7185;
+  --color-warn: #fbbf24;
+  /* Opaque surface of dialogs, sheets and the phone tab bar. */
+  --color-panel: #14161d;
+  /* Text on an accent-coloured button. */
+  --color-on-accent: #0a0b0f;
+}
+
+/*
+ * Themes. The dark look is the original; the light one flips the colour utilities through variables: «white» is the
+ * ink colour (text-white/55 is secondary text in both themes), and the accents get darker shades readable on white.
+ */
+:root {
+  color-scheme: dark;
+  --glass-bg: rgb(255 255 255 / 0.07);
+  --glass-border: rgb(255 255 255 / 0.12);
+  --glass-shadow: 0 12px 40px rgb(0 0 0 / 0.35);
+  --glow-1: color-mix(in oklab, var(--color-accent) 18%, transparent);
+  --glow-2: rgb(94 234 212 / 0.12);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --color-white: #10131a;
+  --color-bg: #f3f5fa;
+  --color-panel: #ffffff;
+  --color-accent: #3552c8;
+  --color-accent-alt: #0f766e;
+  --color-good: #047857;
+  --color-bad: #d6194a;
+  --color-warn: #b45309;
+  --color-on-accent: #ffffff;
+  --glass-bg: rgb(255 255 255 / 0.82);
+  --glass-border: rgb(16 19 26 / 0.09);
+  --glass-shadow: 0 6px 24px rgb(30 40 80 / 0.07);
+  --glow-1: rgb(53 82 200 / 0.08);
+  --glow-2: rgb(15 118 110 / 0.06);
 }
 
 html,
@@ -31,28 +67,28 @@ html {
 body {
   margin: 0;
   background: var(--color-bg);
-  color: rgb(255 255 255 / 0.9);
+  color: color-mix(in oklab, var(--color-white) 90%, transparent);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   background-image:
-    radial-gradient(60rem 40rem at 10% -10%, rgb(124 155 255 / 0.18), transparent 60%),
-    radial-gradient(50rem 40rem at 100% 110%, rgb(94 234 212 / 0.12), transparent 60%);
+    radial-gradient(60rem 40rem at 10% -10%, var(--glow-1), transparent 60%),
+    radial-gradient(50rem 40rem at 100% 110%, var(--glow-2), transparent 60%);
   background-attachment: fixed;
 }
 
 @utility glass {
-  background: rgb(255 255 255 / 0.07);
-  border: 1px solid rgb(255 255 255 / 0.12);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 12px 40px rgb(0 0 0 / 0.35);
+  box-shadow: var(--glass-shadow);
 }
 
 @utility field {
   width: 100%;
   border-radius: 1rem;
-  border: 1px solid rgb(255 255 255 / 0.12);
-  background: rgb(255 255 255 / 0.05);
+  border: 1px solid color-mix(in oklab, var(--color-white) 12%, transparent);
+  background: color-mix(in oklab, var(--color-white) 5%, transparent);
   padding: 0.65rem 0.9rem;
   color: inherit;
   font: inherit;
@@ -61,7 +97,7 @@ body {
     border-color: var(--color-accent);
   }
   &::placeholder {
-    color: rgb(255 255 255 / 0.35);
+    color: color-mix(in oklab, var(--color-white) 35%, transparent);
   }
 }
 
@@ -69,7 +105,7 @@ body {
   border-radius: 1rem;
   background: var(--color-accent);
   padding: 0.65rem 1.1rem;
-  color: #0a0b0f;
+  color: var(--color-on-accent);
   font-weight: 500;
   cursor: pointer;
   transition:
@@ -89,15 +125,15 @@ body {
 
 @utility btn-ghost {
   border-radius: 1rem;
-  border: 1px solid rgb(255 255 255 / 0.12);
+  border: 1px solid color-mix(in oklab, var(--color-white) 12%, transparent);
   padding: 0.65rem 1.1rem;
-  color: rgb(255 255 255 / 0.75);
+  color: color-mix(in oklab, var(--color-white) 75%, transparent);
   cursor: pointer;
   transition:
     background 0.15s,
     transform 0.1s;
   &:hover:not(:disabled) {
-    background: rgb(255 255 255 / 0.08);
+    background: color-mix(in oklab, var(--color-white) 8%, transparent);
   }
   &:active:not(:disabled) {
     transform: scale(0.98);
@@ -116,8 +152,8 @@ body {
   scrollbar-width: none;
   gap: 0.125rem;
   border-radius: 0.75rem;
-  border: 1px solid rgb(255 255 255 / 0.1);
-  background: rgb(255 255 255 / 0.03);
+  border: 1px solid color-mix(in oklab, var(--color-white) 10%, transparent);
+  background: color-mix(in oklab, var(--color-white) 3%, transparent);
   padding: 0.125rem;
   &::-webkit-scrollbar {
     display: none;
@@ -129,16 +165,16 @@ body {
     font-size: 0.875rem;
     line-height: 1.25rem;
     white-space: nowrap;
-    color: rgb(255 255 255 / 0.55);
+    color: color-mix(in oklab, var(--color-white) 55%, transparent);
     transition:
       color 0.15s,
       background 0.15s;
   }
   & > button:hover {
-    color: white;
+    color: var(--color-white);
   }
   & > button[data-on='true'] {
-    background: rgb(124 155 255 / 0.18);
+    background: color-mix(in oklab, var(--color-accent) 18%, transparent);
     color: var(--color-accent);
   }
 }
@@ -150,24 +186,24 @@ body {
   gap: 0.5rem;
   min-width: 0;
   border-radius: 0.875rem;
-  border: 1px solid rgb(255 255 255 / 0.1);
-  background: rgb(255 255 255 / 0.03);
+  border: 1px solid color-mix(in oklab, var(--color-white) 10%, transparent);
+  background: color-mix(in oklab, var(--color-white) 3%, transparent);
   padding: 0.55rem 0.75rem;
   text-align: left;
   font-size: 0.875rem;
   line-height: 1.2;
-  color: rgb(255 255 255 / 0.75);
+  color: color-mix(in oklab, var(--color-white) 75%, transparent);
   transition:
     color 0.15s,
     background 0.15s,
     border-color 0.15s;
   &:hover {
-    background: rgb(255 255 255 / 0.07);
-    color: white;
+    background: color-mix(in oklab, var(--color-white) 7%, transparent);
+    color: var(--color-white);
   }
   &[data-on='true'] {
-    border-color: rgb(124 155 255 / 0.7);
-    background: rgb(124 155 255 / 0.14);
+    border-color: color-mix(in oklab, var(--color-accent) 70%, transparent);
+    background: color-mix(in oklab, var(--color-accent) 14%, transparent);
     color: var(--color-accent);
   }
 }
@@ -175,11 +211,11 @@ body {
 /* A filter / option pill; `data-on` marks the selected one. */
 @utility chip {
   border-radius: 9999px;
-  border: 1px solid rgb(255 255 255 / 0.12);
+  border: 1px solid color-mix(in oklab, var(--color-white) 12%, transparent);
   padding: 0.5rem 0.875rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: rgb(255 255 255 / 0.65);
+  color: color-mix(in oklab, var(--color-white) 65%, transparent);
   /* Finger-sized on touch screens (about 42px tall). */
   @media (pointer: coarse) {
     padding-block: 0.625rem;
@@ -190,11 +226,11 @@ body {
     background 0.15s,
     border-color 0.15s;
   &:hover {
-    color: white;
+    color: var(--color-white);
   }
   &[data-on='true'] {
     border-color: var(--color-accent);
-    background: rgb(124 155 255 / 0.2);
+    background: color-mix(in oklab, var(--color-accent) 20%, transparent);
     color: var(--color-accent);
   }
 }
@@ -256,9 +292,29 @@ summary {
   margin-inline-start: -1.5rem;
   padding: 0.5rem 0.75rem;
   border-radius: 0.75rem;
-  background: rgb(255 255 255 / 0.04);
-  border-left: 2px solid rgb(251 113 133 / 0.5);
+  background: color-mix(in oklab, var(--color-white) 4%, transparent);
+  border-left: 2px solid color-mix(in oklab, var(--color-bad) 50%, transparent);
 }
 .prose li.mistake + li.mistake {
   margin-top: 0.5rem;
+}
+
+/* Article text: the typography plugin's dark palette, expressed through the theme colours so it reads in both themes. */
+.prose.prose-invert {
+  --tw-prose-body: color-mix(in oklab, var(--color-white) 82%, transparent);
+  --tw-prose-headings: var(--color-white);
+  --tw-prose-lead: color-mix(in oklab, var(--color-white) 75%, transparent);
+  --tw-prose-links: var(--color-accent);
+  --tw-prose-bold: var(--color-white);
+  --tw-prose-counters: color-mix(in oklab, var(--color-white) 55%, transparent);
+  --tw-prose-bullets: color-mix(in oklab, var(--color-white) 35%, transparent);
+  --tw-prose-hr: color-mix(in oklab, var(--color-white) 12%, transparent);
+  --tw-prose-quotes: color-mix(in oklab, var(--color-white) 85%, transparent);
+  --tw-prose-quote-borders: color-mix(in oklab, var(--color-white) 20%, transparent);
+  --tw-prose-captions: color-mix(in oklab, var(--color-white) 55%, transparent);
+  --tw-prose-code: var(--color-accent-alt);
+  --tw-prose-pre-code: color-mix(in oklab, var(--color-white) 85%, transparent);
+  --tw-prose-pre-bg: color-mix(in oklab, var(--color-white) 6%, transparent);
+  --tw-prose-th-borders: color-mix(in oklab, var(--color-white) 20%, transparent);
+  --tw-prose-td-borders: color-mix(in oklab, var(--color-white) 10%, transparent);
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk">
+<html lang="uk" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -13,6 +13,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&display=swap" rel="stylesheet" />
+    <script>
+      // The stored theme is applied before the first paint (lib/theme.ts keeps it in sync later).
+      try {
+        var t = localStorage.getItem('lexo.theme')
+        if (t === 'system') t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        if (t === 'light') {
+          document.documentElement.dataset.theme = 'light'
+          document.querySelector('meta[name="theme-color"]').content = '#F3F5FA'
+        }
+      } catch (e) {}
+    </script>
     <title>Lexo</title>
   </head>
   <body>

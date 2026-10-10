@@ -423,7 +423,7 @@ export function Feedback({ q, outcome, last, onNext, onOverride, slug }: Feedbac
   }, [auto, onNext])
 
   return (
-    <div className="space-y-3 max-md:fixed max-md:inset-x-0 max-md:bottom-0 max-md:z-20 max-md:max-h-[70dvh] max-md:overflow-y-auto max-md:rounded-t-3xl max-md:border-t max-md:border-white/10 max-md:bg-[#12151d] max-md:p-4 max-md:pb-[max(1rem,env(safe-area-inset-bottom))] max-md:shadow-[0_-12px_40px_rgb(0_0_0/0.5)]">
+    <div className="space-y-3 max-md:fixed max-md:inset-x-0 max-md:bottom-0 max-md:z-20 max-md:max-h-[70dvh] max-md:overflow-y-auto max-md:rounded-t-3xl max-md:border-t max-md:border-white/10 max-md:bg-panel max-md:p-4 max-md:pb-[max(1rem,env(safe-area-inset-bottom))] max-md:shadow-[0_-12px_40px_rgb(0_0_0/0.5)]">
       <div className={`glass rounded-2xl p-4 ${outcome.correct ? 'border-good/40!' : 'border-bad/40!'}`}>
         <div className="flex items-baseline justify-between gap-3">
           <p className={`text-sm ${outcome.correct ? 'text-good' : 'text-bad'}`}>{outcome.correct ? 'Правильно' : 'Неправильно'}</p>

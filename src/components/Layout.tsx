@@ -8,7 +8,7 @@ const navItems = [
   { to: '/practice', label: 'Практика', icon: '◐' },
   { to: '/words', label: 'Слова', icon: '☰' },
   { to: '/grammar', label: 'Граматика', icon: '§' },
-  { to: '/tags', label: 'Теги', icon: '#' },
+  { to: '/reading', label: 'Читання', icon: '¶' },
   { to: '/stats', label: 'Статистика', icon: '▤' },
 ]
 
@@ -54,7 +54,7 @@ export default function Layout() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-5xl flex-col md:flex-row md:gap-6 md:p-6">
       <ScrollRestoration />
-      <nav className="app-nav glass max-md:bg-[#161922]! fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-10 flex justify-around rounded-3xl p-1.5 md:sticky md:top-6 md:w-48 md:flex-col md:justify-start md:gap-1 md:self-start">
+      <nav className="app-nav glass max-md:bg-panel! fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-10 flex justify-around rounded-3xl p-1.5 md:sticky md:top-6 md:w-48 md:flex-col md:justify-start md:gap-1 md:self-start">
         <span className="hidden bg-gradient-to-r from-accent to-accent-alt bg-clip-text px-3 pt-2 pb-3 text-2xl font-light text-transparent md:block">Lexo</span>
         {navItems.map((item) => (
           <NavLink

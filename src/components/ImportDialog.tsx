@@ -87,7 +87,7 @@ export default function ImportDialog({ userId, onClose }: Props) {
 
   return (
     <div className="fixed inset-0 z-20 grid place-items-center bg-black/60 p-4 backdrop-blur-sm" onClick={importWords.isPending ? undefined : onClose}>
-      <div onClick={(e) => e.stopPropagation()} className="glass max-h-full w-full max-w-lg space-y-4 overflow-y-auto rounded-3xl bg-[#14161d]/90 p-5 sm:p-6">
+      <div onClick={(e) => e.stopPropagation()} className="glass max-h-full w-full max-w-lg space-y-4 overflow-y-auto rounded-3xl bg-panel/90 p-5 sm:p-6">
         <h2 className="text-xl font-light">Імпорт слів</h2>
 
         {result ? (
@@ -185,16 +185,16 @@ export default function ImportDialog({ userId, onClose }: Props) {
 
                 <div className="space-y-2 text-sm">
                   <label className="flex cursor-pointer items-center gap-2">
-                    <input type="checkbox" checked={autoTags} onChange={(e) => setAutoTags(e.target.checked)} className="size-4 accent-[#7c9bff]" />
+                    <input type="checkbox" checked={autoTags} onChange={(e) => setAutoTags(e.target.checked)} className="size-4 accent-accent" />
                     Підібрати теги за темами (почуття, робота, фразові дієслова…)
                   </label>
                   <label className="flex cursor-pointer items-center gap-2">
-                    <input type="checkbox" checked={autoDetails} onChange={(e) => setAutoDetails(e.target.checked)} className="size-4 accent-[#7c9bff]" />
+                    <input type="checkbox" checked={autoDetails} onChange={(e) => setAutoDetails(e.target.checked)} className="size-4 accent-accent" />
                     Додати пояснення англійською і приклад, де слово відоме
                   </label>
                   {hasFileTags && (
                     <label className="flex cursor-pointer items-center gap-2">
-                      <input type="checkbox" checked={fileTags} onChange={(e) => setFileTags(e.target.checked)} className="size-4 accent-[#7c9bff]" />
+                      <input type="checkbox" checked={fileTags} onChange={(e) => setFileTags(e.target.checked)} className="size-4 accent-accent" />
                       Зберегти теги з файлу
                     </label>
                   )}

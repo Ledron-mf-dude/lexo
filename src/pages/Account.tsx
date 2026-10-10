@@ -9,6 +9,7 @@ import { useTitle } from '../lib/useTitle'
 import { setAccent, useAccent } from '../lib/accent'
 import { usePendingAnswers } from '../lib/offline'
 import { ANSWER, count } from '../lib/plural'
+import { setTheme, themePref } from '../lib/theme'
 
 export default function Account() {
   useTitle('Акаунт')
@@ -25,6 +26,7 @@ export default function Account() {
   const ready = words.data !== undefined && tags.data !== undefined
   const autoSpeak = useAutoSpeak()
   const accent = useAccent()
+  const theme = themePref.use()
 
   function exportWords() {
     if (!words.data || !tags.data) return
@@ -41,6 +43,24 @@ export default function Account() {
         <p>{session?.user.email}</p>
       </div>
 
+      <div className="glass flex flex-wrap items-center justify-between gap-3 rounded-3xl p-6">
+        <span>
+          <span className="block text-lg font-light">Вигляд</span>
+          <span className="block text-xs text-white/55">Світла тема зручніша вдень, темна — ввечері. «Як у системі» перемикається разом із телефоном чи комп'ютером.</span>
+        </span>
+        <div className="segmented">
+          <button onClick={() => setTheme('dark')} data-on={theme === 'dark'}>
+            Темна
+          </button>
+          <button onClick={() => setTheme('light')} data-on={theme === 'light'}>
+            Світла
+          </button>
+          <button onClick={() => setTheme('system')} data-on={theme === 'system'}>
+            Як у системі
+          </button>
+        </div>
+      </div>
+
       {canSpeak && (
         <div className="glass space-y-3 rounded-3xl p-6">
           <h2 className="text-lg font-light">Озвучування</h2>
@@ -49,7 +69,7 @@ export default function Account() {
               Вимовляти слово автоматично під час практики
               <span className="block text-xs text-white/55">Кнопка 🔊 біля слова працює завжди. Налаштування діє на цьому пристрої.</span>
             </span>
-            <input type="checkbox" checked={autoSpeak} onChange={(e) => setAutoSpeak(e.target.checked)} className="size-5 shrink-0 accent-[#7c9bff]" />
+            <input type="checkbox" checked={autoSpeak} onChange={(e) => setAutoSpeak(e.target.checked)} className="size-5 shrink-0 accent-accent" />
           </label>
           <div className="flex flex-wrap items-center justify-between gap-3">
             <span className="text-sm text-white/70">
