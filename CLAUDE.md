@@ -96,6 +96,16 @@ npm run lint     # oxlint
   - The cards are practised as `fix` questions under the pseudo-topic `my-writing` (`/grammar/practice?type=mine`).
   - The British or American spelling check follows `lib/accent.ts`.
 
+**Reading** ([src/pages/Reading.tsx](src/pages/Reading.tsx), [src/pages/ReadingText.tsx](src/pages/ReadingText.tsx), [src/lib/reading.ts](src/lib/reading.ts)):
+- Graded texts are `src/content/reading/<slug>.md`, parsed by [src/lib/content/reading.ts](src/lib/content/reading.ts) into `virtual:lexo/reading` (metadata always loaded, a text through `loadText(slug)`). The file format is documented at the top of that parser.
+  - `## Слова`: `- term [forms as they appear in the text] — переклад`. A phrase or an irregular form must be listed in brackets, or the word is not underlined in the text; the build warns about a term it cannot find.
+  - `## Граматика`: `- article-slug — *sentence from the text* — пояснення`. The article page links back to the texts that use it (`textsForGrammar`).
+  - `## Запитання`: `? question`, `- wrong`, `+ right`, `= explanation`. Exactly one `+`; the options are shuffled on screen, so the explanation must not refer to positions.
+- Every word of the text is tappable: the glossary entry, the user's own word, or a MyMemory draft (only that word or sentence is sent). «Додати у словник» saves the sentence as the example.
+- «Слухати текст» reads sentence by sentence (`speakParts`), highlighting the current one. Text size and speed are per-device prefs.
+- Results (best score of the questions) are kept in `localStorage` (`lexo.reading`). The list suggests the first unread text at the grammar study level.
+- Texts are original. Keep them natural English at the level, with Ukrainian explanations.
+
 **Vocabulary practice** ([src/lib/session.ts](src/lib/session.ts), [src/components/practice/](src/components/practice/)):
 - `pickWords` selects words by source: today, new, hard, all, or a subset.
 - `buildQueue` builds one round per exercise type, in the order the user picked the types. A multi-exercise "complex" runs the rounds sequentially, not interleaved.
@@ -106,6 +116,7 @@ npm run lint     # oxlint
 - The Practice page shows the source tiles and «Почати» first; word count, level, tags and exercises are folded under «Налаштування» (`practiceSettingsPref`) with a one-line summary. The daily-goal chips appear only after tapping the goal.
 
 **Tags and import:**
+- The Tags page is reached from «Керувати тегами» on the Words page; the bottom bar has «Читання» in its place.
 - [src/lib/tagTaxonomy.ts](src/lib/tagTaxonomy.ts) defines the built-in tags in two groups: «Теми» (meaning) and «Мова» (kind of expression). Any other tag name counts as the user's own («Мої теги»). The UI groups tags with `groupTags`.
 - [src/content/wordTopics.json](src/content/wordTopics.json) maps a lowercased term to built-in tag codes. It loads lazily through `loadTopicDictionary`.
 - `suggestTags` uses that dictionary for known words and simple shape rules (sentence, phrasal verb, -ing) for the rest. It is used in three places:
@@ -153,6 +164,7 @@ npm run lint     # oxlint
   - Speech uses the browser's Web Speech API ([src/lib/speech.ts](src/lib/speech.ts)). The word list registers each word's `audio_url` (`setRecordings`), so `speak(term)` plays the real recording when there is one. Safari cannot play Ogg Vorbis, so it falls back to the synthetic voice.
 - Vendor chunks (react, supabase, data) are split in `vite.config.ts` through `rolldownOptions.output.codeSplitting.groups`.
 - Small per-device preferences are stored in `localStorage` under keys prefixed `lexo.`.
+- Theme ([src/lib/theme.ts](src/lib/theme.ts), Account → Вигляд): dark (default), light or system. An inline script in `index.html` sets `data-theme` before the first paint. The light theme works by redefining colour variables in [src/index.css](src/index.css): `--color-white` becomes the ink colour, so `text-white/55` stays secondary text in both themes. Use `bg-panel` for opaque sheets, `text-on-accent` on accent buttons and `text-warn` for amber; do not hard-code hex colours in components.
 - Ukrainian plurals go through `plural` / `count` in [src/lib/plural.ts](src/lib/plural.ts), for example `count(n, WORD)` gives «1 слово», «3 слова», «5 слів». Do not hard-code «слів».
 - Filter pills use the `chip` utility with `data-on={selected}` ([src/index.css](src/index.css)). The `chip-row` utility scrolls sideways on phones and wraps on wider screens.
 

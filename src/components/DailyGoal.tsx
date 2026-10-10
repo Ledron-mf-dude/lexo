@@ -68,7 +68,7 @@ export default function DailyGoal() {
           </button>
           {days > 0 && (
             <>
-              <span className="inline-flex items-center gap-1 text-[#fbbf24]">
+              <span className="inline-flex items-center gap-1 text-warn">
                 <svg viewBox="0 0 24 24" className="size-3.5" fill="currentColor" aria-hidden>
                   <path d="M12 2c1 4-2 5-2 8 0 1.5 1 2.5 2 2.5S14 11.500 14 10c2 1.500 4 4 4 7a6 6 0 0 1-12 0c0-3 1.500-5 2.500-6.500C9 12 9.500 8 12 2Z" />
                 </svg>

@@ -12,3 +12,8 @@ declare module 'virtual:lexo/exercises' {
   export const fixes: Record<string, number>
   export const banks: Record<string, () => Promise<unknown[]>>
 }
+
+declare module 'virtual:lexo/reading' {
+  export const texts: unknown[]
+  export const contents: Record<string, () => Promise<unknown>>
+}

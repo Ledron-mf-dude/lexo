@@ -63,7 +63,7 @@ export default function AutoTagDialog({ userId, words, tags, onClose }: Props) {
 
   return (
     <div className="fixed inset-0 z-20 grid place-items-center bg-black/60 p-4 backdrop-blur-sm" onClick={autoTag.isPending ? undefined : onClose}>
-      <div onClick={(e) => e.stopPropagation()} className="glass max-h-full w-full max-w-xl space-y-4 overflow-y-auto rounded-3xl bg-[#14161d]/90 p-5 sm:p-6">
+      <div onClick={(e) => e.stopPropagation()} className="glass max-h-full w-full max-w-xl space-y-4 overflow-y-auto rounded-3xl bg-panel/90 p-5 sm:p-6">
         <h2 className="text-xl font-light">Розкласти слова за темами</h2>
 
         {loadError && <p className="text-bad">{loadError}</p>}
@@ -135,7 +135,7 @@ export default function AutoTagDialog({ userId, words, tags, onClose }: Props) {
                               return next
                             })
                           }
-                          className="size-4 accent-[#7c9bff]"
+                          className="size-4 accent-accent"
                         />
                         {t.name} <span className="text-white/55">{counts.get(t.id) ?? 0}</span>
                       </label>

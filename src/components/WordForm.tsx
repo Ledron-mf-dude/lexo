@@ -82,7 +82,7 @@ export default function WordForm({ canNote = false, initial, suggestions, saving
       <form
         onSubmit={submit}
         onClick={(e) => e.stopPropagation()}
-        className="glass max-h-full w-full max-w-lg space-y-3 overflow-y-auto rounded-3xl bg-[#14161d]/80 p-6"
+        className="glass max-h-full w-full max-w-lg space-y-3 overflow-y-auto rounded-3xl bg-panel/80 p-6"
       >
         <h2 className="text-xl font-light">{initial?.id ? 'Редагувати слово' : 'Нове слово'}</h2>
         <input

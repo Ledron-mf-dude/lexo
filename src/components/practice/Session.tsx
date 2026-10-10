@@ -196,7 +196,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
           {answers > 0 && ` · правильно ${stats.right} · помилок ${stats.wrong} · точність ${accuracy}%`}
           {stats.skipped > 0 && ` · пропущено ${stats.skipped}`}
         </p>
-        {combo.best >= 3 && <p className="text-sm text-[#fbbf24]">Найдовша серія без помилок: {combo.best}</p>}
+        {combo.best >= 3 && <p className="text-sm text-warn">Найдовша серія без помилок: {combo.best}</p>}
         {failed.size > 0 && (
           <div className="space-y-2 pt-2 text-left">
             <p className="text-center text-xs tracking-widest text-white/55 uppercase">Слова, у яких були помилки · {failed.size}</p>
@@ -243,7 +243,7 @@ export default function Session({ userId, words, allWords, progress, modes, onFi
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/10">
           <motion.div className="h-full bg-accent" initial={false} animate={{ width: `${(done / total) * 100}%` }} transition={{ duration: 0.3 }} />
         </div>
-        {combo.now >= 3 && <span className="rounded-full bg-[#fbbf24]/15 px-2.5 py-1 text-xs text-[#fbbf24] tabular-nums">×{combo.now}</span>}
+        {combo.now >= 3 && <span className="rounded-full bg-warn/15 px-2.5 py-1 text-xs text-warn tabular-nums">×{combo.now}</span>}
         {canSpeak && (
           <button
             onClick={() => setAutoSpeak(!autoSpeak)}

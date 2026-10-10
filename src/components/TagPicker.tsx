@@ -51,7 +51,7 @@ export default function TagPicker({ tags, selected, onChange, counts }: Props) {
                           aria-pressed={on}
                           className={`flex min-w-0 items-center gap-2 rounded-lg px-2 py-1.5 text-left text-sm transition-colors ${on ? 'bg-accent/15 text-accent' : 'text-white/75 hover:bg-white/8'}`}
                         >
-                          <span className={`grid size-4 shrink-0 place-items-center rounded border text-[10px] ${on ? 'border-accent bg-accent text-[#0a0b0f]' : 'border-white/25'}`}>{on && '✓'}</span>
+                          <span className={`grid size-4 shrink-0 place-items-center rounded border text-[10px] ${on ? 'border-accent bg-accent text-on-accent' : 'border-white/25'}`}>{on && '✓'}</span>
                           <span className="size-2 shrink-0 rounded-full" style={{ background: t.color ?? '#94a3b8' }} aria-hidden />
                           <span className="min-w-0 flex-1 truncate">{t.name}</span>
                           {counts && <span className="shrink-0 text-xs text-white/55 tabular-nums">{counts.get(t.id) ?? 0}</span>}

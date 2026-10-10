@@ -23,6 +23,8 @@ const MixedQuiz = lazyPage(() => import('./pages/ExerciseQuiz').then((m) => ({ d
 const Stats = lazyPage(() => import('./pages/Stats'))
 const Placement = lazyPage(() => import('./pages/Placement'))
 const Writing = lazyPage(() => import('./pages/Writing'))
+const Reading = lazyPage(() => import('./pages/Reading'))
+const ReadingText = lazyPage(() => import('./pages/ReadingText'))
 
 // Shown while a lazily loaded section (grammar, statistics) downloads.
 const loading = <p className="animate-pulse text-white/55">Завантаження…</p>
@@ -55,6 +57,8 @@ export default function App() {
               <Route path="grammar/writing" element={<Suspense fallback={loading}><Writing /></Suspense>} />
               <Route path="grammar/:slug" element={<Suspense fallback={loading}><GrammarArticle /></Suspense>} />
               <Route path="grammar/:slug/exercises" element={<Suspense fallback={loading}><ExerciseQuiz /></Suspense>} />
+              <Route path="reading" element={<Suspense fallback={loading}><Reading /></Suspense>} />
+              <Route path="reading/:slug" element={<Suspense fallback={loading}><ReadingText /></Suspense>} />
               <Route path="account" element={<Account />} />
               <Route path="tags" element={<Tags />} />
               <Route path="stats" element={<Suspense fallback={loading}><Stats /></Suspense>} />

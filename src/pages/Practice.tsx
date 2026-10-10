@@ -279,7 +279,7 @@ export default function Practice() {
                     const on = config.modes.includes(e.value)
                     return (
                       <button key={e.value} onClick={() => toggleExercise(e.value)} aria-pressed={on} data-on={on} className="tile">
-                        <span className={`grid size-5 shrink-0 place-items-center rounded-full text-[11px] tabular-nums ${on ? 'bg-accent text-[#0a0b0f]' : 'border border-white/20'}`}>
+                        <span className={`grid size-5 shrink-0 place-items-center rounded-full text-[11px] tabular-nums ${on ? 'bg-accent text-on-accent' : 'border border-white/20'}`}>
                           {on ? (complex ? config.modes.indexOf(e.value) + 1 : '✓') : ''}
                         </span>
                         <span className="min-w-0">{e.label}</span>

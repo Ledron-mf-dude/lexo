@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import AddFromTextDialog from '../components/AddFromTextDialog'
 import FillDetailsCard from '../components/FillDetailsCard'
 import PronunciationCard from '../components/PronunciationCard'
@@ -193,6 +193,9 @@ export default function Words() {
           />
         )}
         {(tags.data?.length ?? 0) > 0 && <TagPicker tags={tags.data!} selected={activeTags} counts={tagCounts} onChange={(ids) => filter(() => setActiveTags(ids))} />}
+        <Link to="/tags" className="rounded-xl px-2 py-2 text-sm text-accent hover:underline">
+          Керувати тегами
+        </Link>
         {words.data && filtered && (
           <span className="ml-auto text-sm text-white/60">
             {visible.length} з {words.data.length}

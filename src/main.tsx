@@ -3,6 +3,7 @@ import './lib/authHash' // must run first: reads the password-link type before s
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import './lib/theme'
 import App from './App.tsx'
 import { reloadForNewVersion } from './lib/lazyPage'
 
