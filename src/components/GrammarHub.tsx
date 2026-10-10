@@ -130,6 +130,9 @@ export default function GrammarHub({ log, progress, filterLabel, practiceQuery, 
         <button onClick={onShorts} data-on={shortsOn} aria-pressed={shortsOn} className="chip" title="Короткі теми «що обрати»: say чи tell, lie чи lay, until чи by… Корисні на будь-якому рівні">
           Короткі теми
         </button>
+        <button onClick={() => navigate('/grammar/practice?type=words')} className="chip" title="Вправи на реченнях-прикладах ваших слів: поставити дієслово у форму, скласти речення">
+          На моїх словах
+        </button>
         <button onClick={() => navigate('/grammar/writing')} className="chip" title="Напишіть кілька речень: перевірка знайде помилки, а з них вийдуть ваші картки">
           Тренер письма
         </button>

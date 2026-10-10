@@ -14,6 +14,8 @@ import RichText from '../components/RichText'
 import RuleSheet from '../components/RuleSheet'
 import { diffWords, type DiffPart } from '../lib/wordDiff'
 import { cardItems, MY_WRITING } from '../lib/writingCards'
+import { useWords } from '../lib/queries'
+import { sentenceDrills } from '../lib/sentenceDrills'
 import { pairTitle, reviewSchedule, reviewSummary } from '../lib/grammarReview'
 
 const MIXED_DECK_SIZE = 15
@@ -87,12 +89,15 @@ export function MixedQuiz() {
   const mistakes = params.get('mistakes') === '1'
   const fixOnly = params.get('type') === 'fix'
   const mine = params.get('type') === 'mine'
+  const myWords = params.get('type') === 'words'
+  // Drills from the user's own example sentences need the word list (loaded for every page anyway).
+  const words = useWords()
   const review = params.get('review') === '1'
   const pair = params.get('pair')?.split(',').filter((s) => exerciseIds.has(s))
   const { log, settled } = useSettledLog()
   const [attempt, setAttempt] = useState(0)
 
-  if (!settled) return <p className="text-white/50">Завантаження…</p>
+  if (!settled || (myWords && words.isPending)) return <p className="text-white/50">Завантаження…</p>
 
   let pool: Item[]
   let title: string
@@ -121,6 +126,9 @@ export function MixedQuiz() {
     ordered = true
     showTopic = false
     title = pairTitle(pair)
+  } else if (myWords) {
+    pool = sentenceDrills(words.data ?? [])
+    title = 'На моїх словах'
   } else if (mine) {
     pool = cardItems()
     title = 'Мої помилки з письма'
@@ -143,7 +151,7 @@ export function MixedQuiz() {
           ← До статей
         </Link>
         <p className="glass rounded-3xl p-8 text-center text-white/50">
-          {review ? 'На сьогодні повторювати нічого.' : mine ? 'Карток ще немає: їх додає «Тренер письма».' : mistakes ? 'Помилок немає — усі останні відповіді правильні.' : 'Для цих фільтрів немає вправ.'}
+          {review ? 'На сьогодні повторювати нічого.' : myWords ? 'У ваших словах поки немає прикладів, з яких виходять вправи. Додайте речення-приклади: кнопка «Доповнити» на сторінці «Слова» або «Читання».' : mine ? 'Карток ще немає: їх додає «Тренер письма».' : mistakes ? 'Помилок немає — усі останні відповіді правильні.' : 'Для цих фільтрів немає вправ.'}
         </p>
       </section>
     )
