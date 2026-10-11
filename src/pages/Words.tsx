@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import AddFromImageDialog from '../components/AddFromImageDialog'
 import AddFromTextDialog from '../components/AddFromTextDialog'
 import FillDetailsCard from '../components/FillDetailsCard'
 import PronunciationCard from '../components/PronunciationCard'
@@ -73,6 +74,7 @@ export default function Words() {
   const [editing, setEditing] = useState<WordInput | 'new' | null>(null)
   const [importing, setImporting] = useState(false)
   const [fromText, setFromText] = useState(false)
+  const [fromImage, setFromImage] = useState(false)
   const [open, setOpen] = useState<string | null>(null) // word shown with details
 
   const tagById = useMemo(() => new Map((tags.data ?? []).map((t) => [t.id, t])), [tags.data])
@@ -139,7 +141,7 @@ export default function Words() {
 
   return (
     <section className="space-y-4">
-      <div className="flex items-center justify-between gap-3">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-light tracking-tight sm:text-3xl">
           Слова <span className="text-lg text-white/55">{words.data?.length ?? ''}</span>
         </h1>
@@ -149,6 +151,9 @@ export default function Words() {
           </button>
           <button onClick={() => setFromText(true)} className="btn-ghost px-3 whitespace-nowrap sm:px-[1.1rem]">
             З тексту
+          </button>
+          <button onClick={() => setFromImage(true)} className="btn-ghost px-3 whitespace-nowrap sm:px-[1.1rem]">
+            З картинки
           </button>
           <button
             onClick={() => {
@@ -306,6 +311,7 @@ export default function Words() {
 
       {importing && <ImportDialog userId={session!.user.id} onClose={() => setImporting(false)} />}
       {fromText && <AddFromTextDialog userId={session!.user.id} words={words.data ?? []} onClose={() => setFromText(false)} />}
+      {fromImage && <AddFromImageDialog userId={session!.user.id} words={words.data ?? []} onClose={() => setFromImage(false)} />}
 
       {editing && (
         <WordForm

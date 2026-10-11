@@ -20,6 +20,7 @@ npm run lint     # oxlint
 - **Mock mode:** open `http://localhost:5173/lexo/?mock=1` in dev.
   - [src/dev/mock.ts](src/dev/mock.ts) fakes a logged-in user.
   - It patches `fetch` to Supabase REST with generated words, progress and logs.
+  - It takes the project ref from `VITE_SUPABASE_URL`, and dev does not read `.env.production`: put any valid URL in a git-ignored `.env.local` (see `.env.example`), or the page fails with «Invalid URL».
   - It is dev-only and does nothing in production builds.
   - Use it to exercise UI flows without writing answers into a real account's progress.
 - **Deploy:** a push to `main` builds and deploys through [.github/workflows/deploy.yml](.github/workflows/deploy.yml). `VITE_BASE` is set from the repo name there.
@@ -141,6 +142,17 @@ npm run lint     # oxlint
   - The user taps new words and can grow a selection into a phrase.
   - Each chosen word gets a draft translation from MyMemory ([src/lib/translate.ts](src/lib/translate.ts)) plus Wiktionary data. The sentence it came from becomes its example.
   - Only the chosen words are sent to these services, never the whole text.
+- «Слова з картинки» ([src/components/AddFromImageDialog.tsx](src/components/AddFromImageDialog.tsx), button «З картинки» on the Words page) reads a photo or screenshot of a word list, for example one from a teacher.
+  - OCR is Tesseract.js ([src/lib/ocr.ts](src/lib/ocr.ts)), imported dynamically on first use. The picture is read in the browser and is never sent anywhere. The worker script, the WASM core and the language models (`eng` ≈ 3 MB, `ukr` ≈ 2 MB) come from the jsDelivr CDN and are then cached by the browser, so the first run needs a connection.
+  - `prepareImage` scales the picture (small screenshots up, phone photos down), makes it grey, stretches the contrast and inverts light-on-dark pictures (dark-theme screenshots). Page segmentation is «single block», so a table row stays on one line; «auto» is the second try when fewer than 2 words are found. Words of one line that are far apart (more than 1.3 × the median word height) become separate cells, which are the table columns.
+  - [src/lib/wordList.ts](src/lib/wordList.ts) is pure (no browser APIs, so it can be run in Node) and turns the lines of cells into `{ term, translation, example, uncertain }`.
+    - It strips numbering, bullets, part-of-speech marks and transcriptions. A misread transcription (`[o'tfizv/`) is recognised by its slash or bracket at the edge of the cell.
+    - It splits a word from its translation by separators and by script (Latin or Cyrillic), in either order.
+    - It repairs letters read in the wrong script (a Cyrillic «а» inside an English sentence, a Latin `y` inside Ukrainian text, a lone «3» before a Ukrainian word is «з», `c0w`).
+    - An English run after a word that is a sentence (5+ words, or 3+ with end punctuation) is that word's example. Low confidence (< `LOW_CONFIDENCE`), stray marks and an odd apostrophe mark the word «перевірте».
+  - Translation: «Слова й переклади» reads `eng+ukr` and takes the printed translation as it is; «Лише слова» asks MyMemory for drafts, three requests at a time (`DRAFT_PARALLEL`). Only words are sent. Words without a translation are not saved.
+  - A word already in the dictionary (exact match after `clean`) is shown and skipped; a match by base form only gives the hint «схоже слово». Saving goes through `useImportWords`: the definition and example come from `fillFor`, the tags from `suggestTags`, plus an optional tag for the whole batch (for example «Урок 12»). Pronunciation is not looked up in bulk: the «Вимова» card on the Words page fills it afterwards.
+  - There is no test runner. `wordList.ts` can be checked in Node (`node file.ts` strips the types), and the dialog in mock mode with a picture of a list.
 - The development plan agreed with the owner is in [ROADMAP.md](ROADMAP.md).
 - [src/lib/importFormats.ts](src/lib/importFormats.ts) parses the import formats. The format is chosen by file extension, then by content.
   - Formats: Anki `.txt` and `.apkg`, CSV/TSV/text lists (the separator is detected), Google Translate CSV, `.xlsx`, JSON.
