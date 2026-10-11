@@ -17,6 +17,20 @@ interface Props {
 /** MyMemory is asked for a few words at a time: a hundred requests at once would be refused. */
 const DRAFT_PARALLEL = 3
 
+/**
+ * Always English and Ukrainian together: with the English model alone the Cyrillic text of a list is read as Latin
+ * gibberish, which is hard to tell from words. The Ukrainian model also reads Russian letters well enough to skip them.
+ */
+const LANGUAGES: OcrLanguages = 'eng+ukr'
+
+/** «call sb back» is asked as «call someone back»: MyMemory does not know the dictionary's placeholders. */
+const forTranslation = (term: string) =>
+  term
+    .trim()
+    .replace(/\bsb\b/g, 'someone')
+    .replace(/\bsth\b/g, 'something')
+    .replace(/\bone's\b/g, 'your')
+
 type Phase = 'pick' | 'reading' | 'review'
 
 interface Row {
@@ -47,7 +61,8 @@ interface Preview {
  */
 export default function AddFromImageDialog({ userId, words, onClose }: Props) {
   const [phase, setPhase] = useState<Phase>('pick')
-  const [languages, setLanguages] = useState<OcrLanguages>('eng')
+  // Pictures often come with translations (a teacher's list): by default they are ignored and MyMemory is asked.
+  const [pictureTranslations, setPictureTranslations] = useState(false)
   const [rows, setRows] = useState<Row[]>([])
   const [previews, setPreviews] = useState<Preview[]>([])
   const [progress, setProgress] = useState<OcrProgress | null>(null)
@@ -58,7 +73,7 @@ export default function AddFromImageDialog({ userId, words, onClose }: Props) {
   const [details, setDetails] = useState<DetailsDictionary | null>(null)
   const [topics, setTopics] = useState<TopicDictionary | null>(null)
   const nextId = useRef(1)
-  const ocrRef = useRef<{ languages: OcrLanguages; ocr: Promise<Ocr> } | null>(null)
+  const ocrRef = useRef<Promise<Ocr> | null>(null)
   const urls = useRef<string[]>([])
   /** Rows whose draft translation is being fetched right now. */
   const asking = useRef(new Set<number>())
@@ -68,7 +83,7 @@ export default function AddFromImageDialog({ userId, words, onClose }: Props) {
     loadWordDetails().then(setDetails, () => {})
     loadTopicDictionary().then(setTopics, () => {})
     return () => {
-      ocrRef.current?.ocr.then((o) => o.terminate(), () => {})
+      ocrRef.current?.then((o) => o.terminate(), () => {})
       urls.current.forEach((u) => URL.revokeObjectURL(u))
     }
   }, [])
@@ -78,16 +93,15 @@ export default function AddFromImageDialog({ userId, words, onClose }: Props) {
   /** A dictionary word this one is a form of ("dogs" for "dog"): shown as a hint, the word is not skipped for it. */
   const similarTo = (term: string) => (term.includes(' ') ? undefined : baseForms(term).slice(1).map((f) => mine.get(f)?.term).find(Boolean))
 
-  function getOcr(wanted: OcrLanguages): Promise<Ocr> {
-    if (ocrRef.current?.languages !== wanted) {
-      ocrRef.current?.ocr.then((o) => o.terminate(), () => {})
-      const ocr = createOcr(wanted, setProgress)
+  function getOcr(): Promise<Ocr> {
+    if (!ocrRef.current) {
+      const ocr = createOcr(LANGUAGES, setProgress)
       ocr.catch(() => {
-        if (ocrRef.current?.ocr === ocr) ocrRef.current = null
+        if (ocrRef.current === ocr) ocrRef.current = null
       })
-      ocrRef.current = { languages: wanted, ocr }
+      ocrRef.current = ocr
     }
-    return ocrRef.current.ocr
+    return ocrRef.current
   }
 
   async function readFiles(files: File[]) {
@@ -97,14 +111,15 @@ export default function AddFromImageDialog({ userId, words, onClose }: Props) {
     setProgress(null)
     setPhase('reading')
     try {
-      const ocr = await getOcr(languages)
+      const ocr = await getOcr()
+      const options = { translations: pictureTranslations }
       const found: Candidate[] = []
       for (const [i, image] of images.entries()) {
         setPosition([i + 1, images.length])
-        let list = parseWordLines(await ocr.read(image))
+        let list = parseWordLines(await ocr.read(image), options)
         // With the whole page as one block almost nothing was found: let Tesseract find the columns itself.
         if (list.length < 2) {
-          const again = parseWordLines(await ocr.read(image, 'auto'))
+          const again = parseWordLines(await ocr.read(image, 'auto'), options)
           if (again.length > list.length) list = again
         }
         found.push(...list)
@@ -142,7 +157,7 @@ export default function AddFromImageDialog({ userId, words, onClose }: Props) {
     }
   }
 
-  // The paste handler needs the latest readFiles (languages and rows change), so it goes through a ref.
+  // The paste handler needs the latest readFiles (the options and rows change), so it goes through a ref.
   const readRef = useRef(readFiles)
   useEffect(() => {
     readRef.current = readFiles
@@ -186,7 +201,7 @@ export default function AddFromImageDialog({ userId, words, onClose }: Props) {
     for (const r of queue.slice(0, Math.max(0, DRAFT_PARALLEL - asking.current.size))) {
       const term = r.term.trim()
       asking.current.add(r.id)
-      draftTranslations(term)
+      draftTranslations(forTranslation(term))
         .catch(() => [] as string[])
         .then((drafts) => {
           asking.current.delete(r.id)
@@ -274,19 +289,17 @@ export default function AddFromImageDialog({ userId, words, onClose }: Props) {
               Додайте фото чи скріншот зі списком слів: від вчителя, з підручника. Текст читається прямо в браузері, сама картинка нікуди не надсилається. Далі ви перевірите слова й переклади, а додасться лише те, чого ще немає у словнику.
             </p>
 
-            <div className="segmented w-full *:flex-1">
-              <button onClick={() => setLanguages('eng')} data-on={languages === 'eng'}>
-                Лише слова
-              </button>
-              <button onClick={() => setLanguages('eng+ukr')} data-on={languages === 'eng+ukr'}>
-                Слова й переклади
-              </button>
-            </div>
-            <p className="text-xs text-white/55">
-              {languages === 'eng'
-                ? 'Переклади знайде MyMemory: це чернетки, їх варто переглянути.'
-                : 'На картинці поруч зі словами є переклади українською: вони підуть у словник як є.'}
-            </p>
+            <label className="flex cursor-pointer items-start gap-2 text-sm">
+              <input type="checkbox" checked={pictureTranslations} onChange={(e) => setPictureTranslations(e.target.checked)} className="mt-0.5 size-4 shrink-0 accent-accent" />
+              <span>
+                Взяти переклади з картинки
+                <span className="block text-xs text-white/55">
+                  {pictureTranslations
+                    ? 'Переклади з картинки підуть у словник як є. Підходить, коли вони українською.'
+                    : 'Усе кирилицею на картинці буде проігноровано, а переклади знайде MyMemory: це чернетки, їх варто переглянути.'}
+                </span>
+              </span>
+            </label>
 
             <div
               onDragOver={(e) => {

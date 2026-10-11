@@ -59,7 +59,7 @@ function strip(text: string): string {
     .replace(/\[[^\]]*\]/g, ' ')
     .replace(/\/[^/]{1,40}\//g, (m) => (IPA.test(m) ? ' ' : m))
     .replace(POS, ' ')
-    .replace(/^\s*(?:\(?\d{1,3}[.):]|\d{1,3}\s+(?=\S)|[•·*▪●○■□►▶→]|[-–—]\s)\s*/, '')
+    .replace(/^\s*(?:\(?\d{1,3}[.,):]|[lI|!]\s?[.,)]\s|\d{1,3}\s+(?=\S)|[•·*▪●○■□►▶→]|[-–—]\s)\s*/, '')
     .replace(/[’‘`´]/g, "'")
     .replace(/\s+/g, ' ')
     .trim()
@@ -72,6 +72,8 @@ interface Run {
   kind: 'lat' | 'cyr'
   text: string
   conf: number
+  /** Letters were replaced by look-alikes: the word should be checked. */
+  fixed?: boolean
 }
 
 /** The runs of one script in a piece of text: "apple яблуко" -> [apple][яблуко]. Digits and punctuation stay with the run before. */
@@ -126,44 +128,107 @@ function isSentence(text: string, afterWord: boolean): boolean {
  */
 const isTranscription = (text: string) => /^[/[]/.test(text.trim()) || /[/\]]$/.test(text.trim())
 
-function parseLine(line: OcrLine): Candidate[] {
+// Cyrillic letters that the Ukrainian model puts in place of Latin ones: "оп time" is "on time", "діє" is "die".
+const LOOKALIKE: Record<string, string> = {
+  а: 'a', в: 'b', г: 'r', д: 'd', е: 'e', є: 'e', и: 'u', і: 'i', ї: 'i', к: 'k', м: 'm', н: 'h', о: 'o', п: 'n', р: 'p', с: 'c', т: 't', у: 'y', х: 'x', ь: 'b',
+  А: 'A', В: 'B', Е: 'E', І: 'I', К: 'K', М: 'M', Н: 'H', О: 'O', Р: 'P', С: 'C', Т: 'T', Х: 'X',
+}
+
+/**
+ * The first piece of «word – translation» is the English word, and a Cyrillic letter in it is a misread: when
+ * every Cyrillic letter has a Latin look-alike, the piece is English ("оп time" -> "on time", "діє" -> "die"). A piece
+ * with a letter that has none (я, б, л, ю…) is real Ukrainian or Russian text.
+ * Next to an English word only a short Cyrillic word counts ("корова" is a translation that has no separator), and a
+ * piece in Cyrillic alone counts only when the caller knows it is the word and not its translation.
+ */
+function englishLike(piece: string, cyrillicOnlyOk: boolean): { text: string; changed: boolean } | null {
+  const words = piece.split(' ').filter(Boolean)
+  const hasLatin = words.some((w) => kindOf(w) === 'lat')
+  if (!hasLatin && !cyrillicOnlyOk) return null
+  let changed = false
+  const out: string[] = []
+  for (const word of words) {
+    if (hasLatin && kindOf(word) === 'cyr' && count(word, CYRILLIC) > 3) return null
+    if (!hasLatin && count(word, CYRILLIC) > 6) return null
+    const mapped = word.replace(/[\u0400-\u04FF]/g, (ch) => LOOKALIKE[ch] ?? ch)
+    if (/[\u0400-\u04FF]/.test(mapped)) return null
+    if (mapped !== word) changed = true
+    out.push(mapped)
+  }
+  const text = out.join(' ')
+  return count(text, LATIN) >= 2 ? { text, changed } : null
+}
+
+/** «call (sb.) back» is «call sb back», «take (one's) time» is «take one's time»: the placeholders the dictionary uses. */
+function placeholders(term: string): string {
+  return term
+    .replace(/\(\s*(one's|sb|sth|smb|smth)\.?\s*\)/gi, (_, w: string) => ({ smb: 'sb', smth: 'sth' })[w.toLowerCase()] ?? w.toLowerCase())
+    .replace(/\b(sb|sth|smb|smth)\.(?=\s|$)/gi, (_, w: string) => ({ smb: 'sb', smth: 'sth' })[w.toLowerCase()] ?? w.toLowerCase())
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+export interface ParseOptions {
+  /** Take the translation printed in the picture. Off: only the English words are read and everything in Cyrillic is ignored. */
+  translations?: boolean
+}
+
+interface Entry extends Candidate {
+  cell: number
+}
+
+function parseLine(line: OcrLine, keepTranslations: boolean): Candidate[] {
   // A cell that holds only a number, a bullet or a dash is layout, not content.
   const cells = line.filter((c) => /[\p{L}]/u.test(c.text) && !isTranscription(c.text))
-  const runs: Run[] = []
-  for (const cell of cells) {
-    const text = strip(cell.text)
-    for (const piece of text.split(SEPARATOR)) {
-      const p = piece.trim()
-      if (p) runs.push(...runsOf(p, cell.conf))
-    }
-  }
-
-  const out: Candidate[] = []
+  const out: Entry[] = []
   let waiting = '' // Ukrainian text that came before the English word it belongs to ("яблуко — apple")
-  for (const run of runs) {
-    if (run.kind === 'cyr') {
-      const text = tidyEdges(run.text)
-      const last = out.at(-1)
-      if (last && !last.translation) last.translation = text
-      else if (!last) waiting = waiting ? `${waiting} ${text}` : text
-      continue
+
+  cells.forEach((cell, ci) => {
+    let foundEnglish = false
+    const pieces = strip(cell.text).split(SEPARATOR).map((p) => p.trim()).filter(Boolean)
+    for (const [pi, piece] of pieces.entries()) {
+      // Without translations a cell is «number, word, then whatever the translation is»: nothing after the word is read.
+      if (foundEnglish && !keepTranslations) break
+      // «діє - умирать»: Cyrillic on both sides of the dash, so the left one is the misread English word. «кіт - cat» is not.
+      const cyrillicOnlyOk = pi === 0 && pieces.length > 1 && count(pieces[1], LATIN) === 0
+      const english = foundEnglish ? null : englishLike(piece, cyrillicOnlyOk)
+      const runs: Run[] = english ? [{ kind: 'lat', text: english.text, conf: cell.conf, fixed: english.changed }] : runsOf(piece, cell.conf)
+      if (english) foundEnglish = true
+
+      for (const run of runs) {
+        if (run.kind === 'cyr') {
+          if (!keepTranslations) continue
+          const text = tidyEdges(run.text)
+          const last = out.at(-1)
+          // A translation belongs to the word before it in the same cell or in the cell next to it (a table column).
+          if (last && !last.translation && ci - last.cell <= 1) last.translation = text
+          else if (!last) waiting = waiting ? `${waiting} ${text}` : text
+          continue
+        }
+        if (isSentence(run.text, out.length > 0)) {
+          const last = out.at(-1)
+          if (last && !last.example) last.example = run.text.replace(/^[\s"'“”«»]+|[\s"'“”«»]+$/g, '').replace(/\s+([.,;!?])/g, '$1')
+          continue
+        }
+        const text = tidyEdges(run.text)
+        // Stray marks from the recognition ("apple|", "ap~ple") are dropped and the word is flagged.
+        const marks = text.replace(/[|~^_{}<>\\@#$%*=¢©®™]/g, '')
+        // A digit between letters is a letter misread: "c0w" is "cow".
+        const term = placeholders(marks.replace(/(?<=[A-Za-z])[015](?=[A-Za-z])/g, (d) => ({ '0': 'o', '1': 'l', '5': 's' })[d]!))
+        // An apostrophe that is not a contraction (e'baendan) is usually a transcription whose brackets were lost.
+        const odd = /'/.test(term) && !/(n't|'s|'re|'ve|'ll|'d|'m)\b/i.test(term.replace(/\bone's\b/g, ''))
+        out.push({
+          term: normalizeTerm(term),
+          translation: waiting,
+          example: '',
+          uncertain: run.conf < LOW_CONFIDENCE || term !== text || odd || Boolean(run.fixed),
+          cell: ci,
+        })
+        waiting = ''
+      }
     }
-    if (isSentence(run.text, out.length > 0)) {
-      const last = out.at(-1)
-      if (last && !last.example) last.example = run.text.replace(/^[\s"'“”«»]+|[\s"'“”«»]+$/g, '').replace(/\s+([.,;!?])/g, '$1')
-      continue
-    }
-    const text = tidyEdges(run.text)
-    // Stray marks from the recognition ("apple|", "ap~ple") are dropped and the word is flagged.
-    const marks = text.replace(/[|~^_{}<>\\@#$%*=¢©®™]/g, '')
-    // A digit between letters is a letter misread: "c0w" is "cow".
-    const term = marks.replace(/(?<=[A-Za-z])[015](?=[A-Za-z])/g, (d) => ({ '0': 'o', '1': 'l', '5': 's' })[d]!)
-    // An apostrophe that is not a contraction (e'baendan) is usually a transcription whose brackets were lost.
-    const odd = /'/.test(term) && !/(n't|'s|'re|'ve|'ll|'d|'m)\b/i.test(term)
-    out.push({ term: normalizeTerm(term), translation: waiting, example: '', uncertain: run.conf < LOW_CONFIDENCE || term !== text || odd })
-    waiting = ''
-  }
-  return out.filter(valid)
+  })
+  return out.map(({ cell: _cell, ...c }) => c).filter(valid)
 }
 
 function valid(c: Candidate): boolean {
@@ -172,10 +237,10 @@ function valid(c: Candidate): boolean {
 }
 
 /** Words and translations from the lines of a picture, without repeats (the first translation wins). */
-export function parseWordLines(lines: OcrLine[]): Candidate[] {
+export function parseWordLines(lines: OcrLine[], options: ParseOptions = {}): Candidate[] {
   const byTerm = new Map<string, Candidate>()
   for (const line of lines) {
-    for (const c of parseLine(line)) {
+    for (const c of parseLine(line, options.translations ?? true)) {
       const old = byTerm.get(c.term)
       if (!old) byTerm.set(c.term, c)
       else {
@@ -189,6 +254,6 @@ export function parseWordLines(lines: OcrLine[]): Candidate[] {
 }
 
 /** The same for plain text: one line per row, tabs between columns. */
-export function parseWordText(text: string): Candidate[] {
-  return parseWordLines(text.split(/\r?\n/).map((line) => line.split('\t').map((t) => ({ text: t, conf: 100 }))))
+export function parseWordText(text: string, options: ParseOptions = {}): Candidate[] {
+  return parseWordLines(text.split(/\r?\n/).map((line) => line.split('\t').map((t) => ({ text: t, conf: 100 }))), options)
 }
